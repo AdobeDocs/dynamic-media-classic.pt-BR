@@ -1,39 +1,39 @@
 ---
-title: Carregando imagens de zoom
-seo-title: Carregando imagens de zoom
-description: 'null'
-seo-description: Saiba como carregar imagens de zoom.
-uuid: 5814 ec 28-3 a 06-4 b 92-b 70 e -0 aa 5 b 83 e 7 b 0 e
+title: Upload de imagens de zoom
+seo-title: Upload de imagens de zoom
+description: nulo
+seo-description: Saiba como carregar imagens de Zoom.
+uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
-content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/zoom
-discoiquuid: e 84 b 7 b 0 e -527 a -4 c 64-bc 2 a-e 5 e 64 d 47 b 2 d 6
+content-type: referência
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/category/zoom
+discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# Carregando imagens de zoom{#uploading-zoom-images}
+# Upload de imagens de zoom{#uploading-zoom-images}
 
-As imagens de zoom devem ter uma contagem alta de pixels. É necessário um alto número de pixels para que os visualizadores possam ver claramente os detalhes da imagem ao aplicar zoom em imagens. Certifique-se de que as imagens usadas sejam o tamanho apropriado antes de carregá-las no SPS.
+As imagens de zoom devem ter uma contagem de pixels alta. É necessário um grande número de pixels para que os visualizadores possam ver claramente os detalhes da imagem ao aplicar zoom nas imagens. Verifique se as imagens usadas têm o tamanho apropriado antes de carregá-las para a SPS.
 
 Selecione o botão Carregar na barra Navegação global para começar a carregar imagens.
 
-Para obter instruções detalhadas sobre como carregar imagens, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
+Para obter instruções detalhadas sobre como fazer upload de imagens, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
-**Preparação de imagens para ampliar**
+**Preparação das imagens para o zoom**
 
-Para aproveitar melhor os recursos de Zoom do Dynamic Media Classic, prepare os arquivos de imagem de zoom antes de carregá-los:
+Para aproveitar ao máximo os recursos de Zoom do Dynamic Media Classic, prepare seus arquivos de imagem de zoom antes de carregá-los:
 
-**O tamanho** da imagem do Dynamic Media Classic recomenda usar arquivos de imagens que são, no mínimo, 2000 pixels na dimensão mais longa. Dessa forma, as imagens podem ser claramente vistas quando os usuários os zoalizam.
+* **Tamanho da imagemO** Dynamic Media Classic recomenda o uso de arquivos de imagens com, no mínimo, 2000 pixels na dimensão mais longa. Dessa forma, as imagens podem ser claramente vistas quando os usuários fazem zoom nelas.
 
-**Os formatos** de arquivo O Dynamic Media Classic suporta todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS. São recomendados formatos de imagem sem perdas— TIFF e PNG. Se estiver usando uma imagem JPEG, use as configurações de qualidade mais alta.
+* **Formatos de arquivo O** Dynamic Media Classic é compatível com todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS. Formatos de imagem sem perda — TIFF e PNG — são recomendados. Se estiver usando uma imagem JPEG, use as configurações de qualidade mais alta.
 
-**O espaço de cores** RGB é o espaço de cores para apresentações de imagem da Web; As imagens CMYK são convertidas automaticamente em RGB quando você os carrega. É recomendado fazer upload de imagens CMYK com um perfil de cor ICC incorporado para a conversão em RGB. Consulte também perfis ICC.
+* **Espaço de cor** RGB é o espaço de cor para apresentações de imagens da Web; As imagens CMYK são convertidas automaticamente em RGB quando você as carrega. É recomendado fazer upload de imagens CMYK que tenham um perfil de cor ICC incorporado para conversão em RGB. Consulte também perfis ICC.
 
 >[!MORELIKETHIS]
 >
->* [Carregamento de arquivos](uploading-files.md#uploading_files)
+>* [Upload de arquivos](uploading-files.md#uploading_files)
 
