@@ -1,28 +1,28 @@
 ---
-title: Seleção de ativos no painel Procurar
-seo-title: Seleção de ativos no painel Procurar
-description: 'null'
+title: Selecionar ativos no painel Procurar
+seo-title: Selecionar ativos no painel Procurar
+description: nulo
 seo-description: Saiba como selecionar ativos no painel Procurar.
-uuid: 0790 e 6 d 0-b 898-42 b 1-977 f -8316 e 6 b 19573
+uuid: 0790e6d0-b898-42b1-977f-8316e6b19573
 contentOwner: admin
-content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/managing_ assets
-discoiquuid: 8 e 6 ce 2 bf-c 99 b -4106-942 a -1716 f 152 c 7 b 2
+content-type: referência
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/category/managing_assets
+discoiquuid: 8e6ce2bf-c99b-4106-942a-1716f152c7b2
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# Seleção de ativos no painel Procurar{#selecting-assets-in-the-browse-panel}
+# Selecionar ativos no painel Procurar{#selecting-assets-in-the-browse-panel}
 
-Selecione um ativo no Painel Procurar para trabalhar com ele. Use essas técnicas para selecionar ativos:
+Selecione um ativo no Painel de navegação para trabalhar com ele. Use estas técnicas para selecionar ativos:
 
-**Um único ativo** Clique no ativo (clique duas vezes no ativo na exibição Detalhe).
+* **Um único ativo** Clique no ativo (clicar duas vezes abre o ativo na exibição Detalhe).
 
-**Vários ativos** Ctrl + clique (Windows) ou Command + clique em ativos (Macintosh) para selecionar ativos em diferentes lugares no Painel Procurar. Clique com a tecla Shift pressionada (clique em um ativo e depois pressione Shift e clique em outro) para selecionar ativos adjacentes.
+* **Vários ativos** Ctrl+clique (Windows) ou Command+clique (Macintosh) em ativos para selecionar ativos em diferentes locais no Painel de navegação. Pressione Shift e clique (clique em um ativo e, em seguida, pressione Shift e clique em outro) para selecionar ativos adjacentes.
 
-**Todos os ativos no Painel Procurar** escolhem Selecionar &gt; Todos.
+* **Todos os ativos no painel** ProcurarClique em Selecionar &gt; Todos.
 
-**Nenhum ativo** selecione Selecionar &gt; Nenhum.
+* **Nenhum ativo** Clique em Selecionar &gt; Nenhum.
