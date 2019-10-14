@@ -10,12 +10,12 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/category/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
-# Início rápido: eCatalogs{#quick-start-ecatalogs}
+# Início rápido:eCatalogs{#quick-start-ecatalogs}
 
 Um eCatalog é uma versão digital da Web de material impresso — catálogo, folheto, folheto, manual do produto ou circular de publicidade, por exemplo. Um eCatalog é exibido em um eCatalog Viewer em um site. Este visualizador simula a experiência de leitura de material impresso. Dependendo das configurações escolhidas para seu eCatalog, o visualizador pode permitir o seguinte:
 
@@ -39,8 +39,8 @@ Como parte da criação do seu eCatalog, você pode organizar páginas ou págin
 
 >[!NOTE]
 >
->Se você for um usuário do modo AEM Dynamic Media - Scene7 e quiser usar o eCatalog, precisará editar o `pdfbrochure` valor no CRXDE Lite. Para fazer isso, no AEM, clique em Ferramentas **[UICONTROL &gt; Geral &gt; CRXDE Lite]**. Na árvore de navegação do painel esquerdo, navegue até `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-No painel inferior direito, na guia **Propriedades** , selecione a `jobParam` linha. Defina o valor para `pdfbrochure` de `false` para `true`. Como `pdfbrochure=true`no canto superior esquerdo da página CRXDE Lite, clique em **Salvar tudo**.
+>Se você for um usuário do modo AEM Dynamic Media - Scene7 e quiser usar o eCatalog, precisará editar o `pdfbrochure` valor no CRXDE Lite. Para fazer isso, no AEM, clique em **[!UICONTROL Tools > General > CRXDE Lite]**. Na árvore de navegação do painel esquerdo, navegue até `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+No painel inferior direito, na **[!UICONTROL Properties]** guia, selecione a `jobParam` linha. Defina o valor para `pdfbrochure` de `false` para `true`. Como `pdfbrochure=true`no canto superior esquerdo da página CRXDE Lite, clique em **[!UICONTROL Save All]**.
 Agora você poderá criar eCatalogs no SPS.
 
 **Início rápido**
@@ -65,7 +65,7 @@ Na guia Páginas do pedido, selecione um botão Layout - 1 Para cima, 2 Para cim
 
 Para adicionar páginas, selecione uma pasta na Biblioteca de ativos e arraste os arquivos PDF ou de imagem para a tela Páginas de pedidos. Em vez de números de página padrão, você pode fornecer nomes de página personalizados ou importar um grande número de nomes de página.
 
-Clique no botão Salvar, digite um nome para seu eCatalog, escolha uma pasta SPS para armazená-lo e selecione o botão Salvar. Sempre que alterar a ordem de página ou editar seu eCatalog, salve as alterações clicando no botão Salvar.
+Clique em **[!UICONTROL Save]**, insira um nome para seu eCatalog, escolha uma pasta SPS para armazená-lo e clique em **[!UICONTROL Save]**. Sempre que alterar a ordem de página ou editar seu eCatalog, salve as alterações clicando em **[!UICONTROL Save]**.
 
 Consulte [Criação de um eCatalog](creating-ecatalog.md).
 
@@ -73,7 +73,7 @@ Consulte [Criação de um eCatalog](creating-ecatalog.md).
 
 Os mapas de imagem adicionam outra dimensão às páginas do eCatalog. Um Mapa de imagem é uma região em uma página que fornece mais informações sobre um item. Quando os visualizadores posicionam o ponteiro sobre um Mapa de imagem, eles veem uma descrição do item. Clicar em um Mapa de imagem ativa uma referência externa que abre uma nova página da Web na qual você pode saber mais sobre um item.
 
-Para criar um Mapa de imagem, abra a tela eCatalog. Em seguida, vá até a guia Mapear páginas da tela eCatalog e desenhe o mapa com a ferramenta Mapa de imagem de retângulo ou Mapa de imagem de polígono. É possível ajustar a posição e o tamanho dos Mapas de imagem arrastando as bordas do mapa com a ferramenta Deslocamento.
+Para criar um Mapa de imagem, abra a tela eCatalog. Em seguida, vá até a **[!UICONTROL Map Pages]** guia da tela eCatalog e desenhe o mapa com a ferramenta Retângulo Image Map ou Polygon Image Map. É possível ajustar a posição e o tamanho dos Mapas de imagem arrastando as bordas do mapa com a ferramenta Deslocamento.
 
 Depois de desenhar o Mapa de imagem, insira o endereço de URL para o qual você deseja ir ao clicar no Mapa de imagem. Você também pode inserir o texto de sobreposição que aparece ao mover o ponteiro sobre o Mapa de imagem.
 
@@ -89,7 +89,7 @@ Consulte [Gerenciamento de conteúdo](info-panel-content.md#managing-info-panel-
 
 Os usuários finais veem seu eCatalog no eCatalog Viewer. Se você for um administrador, poderá configurar o eCatalog Viewer. Você pode alterar a cor do contorno e selecionar uma nova "capa" para marcar seu eCatalog. O Dynamic Media Classic vem com várias "práticas recomendadas" predefinições do visualizador de eCatalog. Você pode escolher uma dessas predefinições para exibir seus eCatalogs. Você também pode criar uma predefinição do visualizador do eCatalog se você for um administrador.
 
-Para criar uma predefinição do visualizador de eCatalog, clique no botão Configuração na barra de navegação global e escolha Predefinições do visualizador. Em seguida, clique em Adicionar, escolha uma plataforma e escolha **[UICONTROL eCatalog &gt; Viewer]**.
+Para criar uma predefinição do visualizador de eCatalog, na barra Navegação global, clique em **[!UICONTROL Setup]** e escolha **[!UICONTROL Viewer Presets]**. Em seguida, clique em **[!UICONTROL Add]**, escolha uma plataforma e clique em **[!UICONTROL eCatalog > Viewer]**.
 
 Consulte [Configuração das predefinições](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)do visualizador do eCatalog.
 
@@ -97,7 +97,7 @@ Consulte [Configuração das predefinições](setting-ecatalog-viewer-presets.md
 
 As predefinições do visualizador do eCatalog determinam o estilo e o comportamento dos visualizadores do eCatalog.
 
-Para descobrir como as predefinições do visualizador do eCatalog exibem seu eCatalog, selecione seu eCatalog no painel Procurar e clique em Visualizar. A tela Visualizar é aberta no visualizador padrão.
+Para descobrir como as predefinições do visualizador do eCatalog exibem seu eCatalog, selecione seu eCatalog no painel Procurar e clique em **[!UICONTROL Preview]**. A tela Visualizar é aberta no visualizador padrão.
 
 Observe a orientação, o esquema de cores, a aparência dos controles para páginas alteradas e a aparência das páginas quando elas são giradas.
 
@@ -107,7 +107,7 @@ Consulte [Visualizar eCatalogs no eCatalog Viewer](previewing-ecatalogs-ecatalog
 
 A publicação do seu eCatalog e do PDF associado coloca-o nos Servidores de Imagem de Mídia Dinâmica para que possa ser entregue ao site e ao aplicativo. Como parte do processo de publicação, o Scene7 Publishing System ativa a string de URL para seu eCatalog. Use este URL para chamar o eCatalog dos Servidores de Imagem de Mídia Dinâmica para seu site ou aplicativo.
 
-Depois de marcar seu eCatalog e PDF para publicação no Painel de navegação, selecione o botão Publicar na barra de navegação global para iniciar uma publicação. Na tela Publicar, clique em Iniciar publicação.
+Depois de marcar seu eCatalog e PDF para publicação no Painel de navegação, selecione o botão Publicar na barra de navegação global para iniciar uma publicação. Na tela Publicar, clique em **[!UICONTROL Start Publish]**.
 
 Consulte [Publicar eCatalogs e PDFs](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)associados.
 
