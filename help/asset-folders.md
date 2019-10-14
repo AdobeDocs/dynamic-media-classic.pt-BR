@@ -1,58 +1,60 @@
 ---
 title: Trabalhar com pastas de ativos
 seo-title: Trabalhar com pastas de ativos
-description: 'null'
+description: nulo
 seo-description: Saiba como trabalhar com pastas de ativos.
-uuid: 3 bd 83701-e 2 c 2-4 e 39-b 225-c 2 d 27 ad 836 c 2
+uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
-content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/managing_ assets
-discoiquuid: 588944 c 3-78 ba -4 bd 1-a 8 da -9 a 6 dd 99 a 27 a 9
+content-type: referência
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/category/managing_assets
+discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # Trabalhar com pastas de ativos{#working-with-asset-folders}
 
-Os ativos de arquivo no Sistema de publicação Scene 7 são mantidos em pastas. Essas pastas estão listadas em ordem alfabética no painel Biblioteca de ativos. Antes de carregar arquivos de seu computador ou rede para o Sistema de publicação Scene 7, é necessário nomear uma pasta para armazenar os arquivos. Crie essas pastas antes de fazer upload de qualquer arquivo.
+Os ativos de arquivo no Scene7 Publishing System são mantidos em pastas. Essas pastas são listadas em ordem alfabética no painel Biblioteca de ativos. Antes de fazer upload de arquivos do computador ou da rede para o Scene7 Publishing System, você deve nomear uma pasta para armazenar os arquivos. Crie essas pastas antes de carregar qualquer arquivo.
 
-Certifique-se de estabelecer uma estrutura de pastas e uma organização para armazenar seus arquivos no Sistema de publicação Scene 7 antes de carregar arquivos.
+Certifique-se de estabelecer uma estrutura de pastas e organização para armazenar seus arquivos no Scene7 Publishing System antes de fazer upload dos arquivos.
 
-## Exibição, movimentação, ocultação e abertura de pastas {#displaying-moving-hiding-and-opening-folders}
+## Exibir, mover, ocultar e abrir pastas {#displaying-moving-hiding-and-opening-folders}
 
-A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo aparece no Painel Procurar. Use essas técnicas para localizar pastas na árvore de pastas:
+A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo é exibido no Painel de navegação. Use estas técnicas para localizar pastas na árvore de pastas:
 
-**Exibição de subpastas** Selecione o ícone Expandir pasta para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Exibição de subpastas** Selecione o ícone Expandir pasta para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-**Mover uma pasta** Você pode mover uma pasta arrastando-a arrastando-a e soltando-a em seu novo local, ou selecionando Arquivo &gt; Mover pasta.
+* **Mover uma pasta** Você pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando Arquivo &gt; Mover pasta.
 
-**Ocultar pastas** Selecione o ícone Recolher pasta para recolher subpastas. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Ocultar pastas** Selecione o ícone Recolher pasta para recolher subpastas. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-**Abrir uma pasta** Selecione uma pasta para exibir seu conteúdo no Painel Procurar.
+* **Abrindo uma pasta** Selecione uma pasta para exibir seu conteúdo no Painel de navegação.
 
-***Dica**: Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle Expandir/recolher no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no Painel de navegação.*
+***Dica**: Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle Expandir/Recolher no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no Painel de navegação.*
 
 ## Criação de pastas {#creating-folders}
 
 Siga estas etapas para criar uma pasta:
 
 1. Na Biblioteca de ativos, selecione a pasta na qual deseja criar uma pasta.
-1. Selecione o botão Adicionar pasta. Este ícone está localizado na parte superior da lista de pastas.
-1. Digite um nome descritivo para a nova pasta ou subpasta digitando-o no campo ao lado do ícone de pasta.
+1. Selecione o botão Adicionar pasta. Esse ícone está localizado na parte superior da lista de pastas.
+1. Digite um nome descritivo para sua nova pasta ou subpasta digitando-o no campo ao lado do ícone de pasta.
 
    >[!NOTE]
    >
-   >Você também pode criar pastas no Sistema de publicação Scene 7 quando fizer upload de arquivos via FTP. A seleção da opção Incluir subpastas quando você carrega via FTP replica a estrutura de pastas do computador no sistema. Arquivos e subpastas em seu computador ou rede são replicados na Biblioteca de ativos, e os ativos carregados são colocados nessas pastas.
+   >Você também pode criar pastas no Scene7 Publishing System ao carregar arquivos via FTP. A seleção da opção Incluir subpastas ao fazer upload via FTP replica a estrutura de pastas no computador no sistema. Os arquivos e subpastas do computador ou da rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
 
-## Exclusão e renomeação de pastas {#deleting-and-renaming-folders}
+## Excluir e renomear pastas {#deleting-and-renaming-folders}
 
-Selecione uma pasta e use essas técnicas para excluir ou renomeá-la:
+Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-**Excluir** Selecione o botão Remover pasta. Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los aqui.
+* **Excluindo** Selecione o botão Remover pasta . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los de lá.
 
-**Renomear** clique duas vezes no nome e insira um novo nome.
+* **Renomeando** Clique duas vezes no nome e insira um novo nome.
 
-***Observação**: Não é possível copiar pastas ou ativos porque isso cria pastas e ativos duplicados no Sistema de publicação Scene 7, e as duplicatas não são permitidas no sistema.*
+>[!NOTE]
+>
+>Não é possível copiar pastas ou ativos porque isso criaria pastas e ativos duplicados no Scene7 Publishing System, e as duplicatas não são permitidas.
