@@ -6,17 +6,16 @@ seo-title: 'Newsletter do Adobe Dynamic Media '
 solution: Dynamic Media
 title: Newsletter do Dynamic Media
 translation-type: tm+mt
-source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
+source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
 
 ---
 
 
 # ![Logotipo da Newsletter do Dynamic Media](/help/assets/dynamic-media-newsletter-logo.png)
 
-A newsletter Dynamic Media da Experience League é uma newsletter mensal projetada para ajudá-lo a se familiarizar com o Dynamic Media e o Dynamic Media Classic, para que você comece a agregar valor imediatamente.
+A newsletter mensal do Dynamic Media pela Experience League foi projetada para ajudá-lo a se familiarizar com o Dynamic Media e o Dynamic Media Classic, para que você possa começar a perceber o valor imediatamente.
 
-**O que está incluído nos boletins informativos?**
-Recursos valiosos de criação de conhecimento estão disponíveis neste boletim informativo de balcão único, incluindo vídeos passo a passo, visões gerais de soluções e introduções para alguns dos principais recursos e recursos, como predefinições de imagens, predefinições do visualizador, perfis de vídeo e muito mais.
+Neste boletim de balcão único, descubra recursos valiosos de criação de conhecimento, como vídeos passo a passo, visão geral da solução e apresentações para alguns dos principais recursos e recursos da solução, como predefinições de imagens, predefinições do visualizador, perfis de vídeo e muito mais.
 
 ## Inspire-se. Fique informado.
 
