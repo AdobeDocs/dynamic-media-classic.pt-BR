@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/category/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -23,7 +23,7 @@ Consulte [Configuração de visualizadores](application-setup.md#configuring_def
 
 Se você estiver visualizando um ativo de modelo com camadas de parâmetro, poderá fazer alterações nos parâmetros ou alterar a predefinição de imagem. Como as alterações são feitas em linha, você pode exibir os resultados imediatamente na mesma janela Visualizar.
 
-Consulte também Exemplos de biblioteca de referência de visualizadores da Adobe [aqui](/help/assets/vlist/vlist.html) e [aqui](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte também Exemplos [da biblioteca de referência de visualizadores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)da Adobe.
 
 **Para visualizar um ativo**
 
