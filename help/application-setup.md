@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/category/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Consulte [Prática recomendada: Uso do visualizador](best-practice-using-html5-v
 
 Dependendo do visualizador, você pode adicionar recursos da comunidade. Os recursos da comunidade incluem um botão Incorporar, um botão de email, um botão Link e um botão Visitar site. Esses botões permitem que as pessoas que usam os visualizadores compartilhem o visualizador com outras pessoas ou abram o site do Dynamic Media Classic.
 
-Consulte também Exemplos de biblioteca de referência de visualizadores da Adobe [aqui](/help/assets/vlist/vlist.html) e [aqui](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte também Exemplos [da biblioteca de referência de visualizadores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)da Adobe.
 
 ### Suporte do visualizador para páginas da Web responsivas projetadas {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ Para obter mais informações sobre essa mudança importante, consulte o seguint
 
 A tabela a seguir identifica as predefinições do visualizador do Dynamic Media Classic disponíveis no momento. A tabela também especifica a compatibilidade do visualizador com dispositivos desktop e móveis e a tecnologia usada para cada visualizador.
 
-Consulte também Exemplos de biblioteca de referência de visualizadores da Adobe [aqui](/help/assets/vlist/vlist.html) e [aqui](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte também Exemplos [da biblioteca de referência de visualizadores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)da Adobe.
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para visualizadores, consulte as Notas de versão dos visualizadores.
 
