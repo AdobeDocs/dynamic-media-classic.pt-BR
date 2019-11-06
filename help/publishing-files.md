@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/category/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -25,7 +25,7 @@ O Scene7 Publishing System agora suporta a entrega de todas as imagens e vídeos
 
 Ativos em um estado publicado ou não publicado. Por padrão, todos os ativos carregados no Dynamic Media Classic são marcados automaticamente para publicação.
 
-Para obter mais informações, consulte o PDF [Aviso de publicação](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)instantânea.
+Para obter mais informações, consulte o PDF [Aviso de publicação](/help/assets/rendering-instant-publish-notification.pdf)instantânea.
 
 Use estas técnicas para marcar ativos para publicação:
 
