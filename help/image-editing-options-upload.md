@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/category/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -81,7 +81,7 @@ Em Mascaramento de nitidez, defina as opções desejadas. As opções de configu
 
 Consulte também [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).
 
-Consulte também [Compartilhamento de imagens no Scene7 Publishing System e no Image Server](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+Consulte também [Compartilhamento de imagens no Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Plano de fundo de separação**
 
