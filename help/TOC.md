@@ -5,7 +5,7 @@ audience: usuário final
 user-guide-title: Ajuda do Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -13,6 +13,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 # Ajuda do Dynamic Media Classic {#using}
 
 + [Página inicial da documentação do Dynamic Media Classic](home.md)
++ [A nova interface do usuário do Dynamic Media Classic será lançada na primeira metade de 2020](new-ui-2020.md)
 + [Newsletter Dynamic Media pela Experience League](dynamic-media-newsletter.md)
 + Introdução ao Adobe Dynamic Media Classic {#intro}
    + [Sobre o Dynamic Media Classic](introduction.md)
@@ -40,7 +41,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
    + [Configuração da administração](administration-setup.md)
 + Portal de mídia {#media-portal}
    + [Requisitos do sistema](system-requirements-1.md)
-   + [Início rápido: Portal de mídia](quick-start-media-portal-administration.md)
+   + [Início rápido:Portal de mídia](quick-start-media-portal-administration.md)
    + [Funções de usuário do Portal de mídia](media-portal-user-roles.md)
    + [Criação e gerenciamento de grupos do Portal de mídia](creating-media-portal-groups.md)
    + [Adicionar e gerenciar usuários do Media Portal](adding-media-portal-users.md)
@@ -85,7 +86,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
    + [Publicar imagens de zoom](publishing-zoom-images.md)
    + [Vincular visualizadores de zoom a suas páginas da Web](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
-   + [Início rápido:eCatalogs](quick-start-ecatalog.md)
+   + [Início rápido: eCatalogs](quick-start-ecatalog.md)
    + [Carregar os arquivos PDF](uploading-pdf-files.md)
    + [Criação de um eCatalog](creating-ecatalog.md)
    + [Criação de mapas de imagem do eCatalog](creating-ecatalog-image-maps.md)
@@ -95,7 +96,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
    + [Publicar eCatalogs e PDFs associados](publishing-ecatalogs-associated-pdfs.md)
    + [Vincular um eCatalog a uma página da Web](linking-ecatalog-web-page.md)
 + Conjuntos de imagens {#image-sets}
-   + [Início rápido:Conjuntos de imagens](quick-start-image-sets.md)
+   + [Início rápido: Conjuntos de imagens](quick-start-image-sets.md)
    + [Preparando ativos de Conjunto de imagens para upload](preparing-image-set-assets-upload.md)
    + [Criação de um conjunto de imagens](creating-image-set.md)
    + [Incluindo destinos de zoom e mapas de imagem em conjuntos de imagens](including-zoom-targets-image-maps.md)
@@ -111,7 +112,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
    + [Exibição de conjuntos de amostras](viewing-swatch-sets.md)
    + [Vincular um conjunto de amostras a uma página da Web](linking-swatch-set-web-page.md)
 + Conjuntos de rotação {#spin-sets}
-   + [Início rápido:Conjuntos de rotação](quick-start-spin-sets.md)
+   + [Início rápido: Conjuntos de rotação](quick-start-spin-sets.md)
    + [Criação de um conjunto de rotação](creating-spin-set.md)
    + [Visualizar um conjunto de giros](previewing-spin-set.md)
    + [Publicar um conjunto de rotação](publishing-spin-set.md)
@@ -145,7 +146,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
    + [Implantação de vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md)
    + [Exportação de vídeos de origem e codificados](exporting-source-encoded-videos.md)
 + Conjuntos de mídia mista {#mixed-media-sets}
-   + [Início rápido:Conjuntos de mídia mista](quick-start-mixed-media-sets.md)
+   + [Início rápido: Conjuntos de mídia mista](quick-start-mixed-media-sets.md)
    + [Configuração de uma predefinição de visualizador de conjunto de mídia mista](setting-mixed-media-set-viewer.md)
    + [Criação de um conjunto de mídia mista](creating-mixed-media-set.md)
    + [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md)
