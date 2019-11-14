@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: 'mídia dinâmica clássica '
-audience: usuário final
-user-guide-title: Ajuda do Dynamic Media Classic
+product: dynamic media classic
+audience: end-user
+user-guide-title: Dynamic Media Classic Help
 index: y
 translation-type: tm+mt
-source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
+source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
 # Ajuda do Dynamic Media Classic {#using}
 
 + [Página inicial da documentação do Dynamic Media Classic](home.md)
-<!-- + [New Dynamic Media Classic user interface coming in first half of 2020](new-ui-2020.md)-->
++ [A nova interface do usuário do Dynamic Media Classic será lançada na primeira metade de 2020](new-ui-2020.md)
 + [Newsletter Dynamic Media pela Experience League](dynamic-media-newsletter.md)
 + Introdução ao Adobe Dynamic Media Classic {#intro}
    + [Sobre o Dynamic Media Classic](introduction.md)
