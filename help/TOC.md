@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Dynamic Media Classic Help
 index: y
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Ajuda para o Portal de Mídia Clássica do Dynamic Media](help-scene7-media-portal.md)
    + [Serviços de treinamento da Adobe](training-services.md)
    + [Recursos populares](popular-resources.md)
+   + [Vídeos de treinamento](training-videos.md)
 + Introdução {#getting-started}
    + [Visão geral da plataforma Adobe Dynamic Media Classic](scene7-platform-overview.md)
    + [Uso da versão para desktop do Scene7 Publishing System](using-scene7-publishing-system-desktop.md)
@@ -137,7 +138,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Vincular um modelo FXG a uma página da Web](linking-fxg-template-web-page.md)
    + [Criação de um documento PDF](creating-pdf-document.md)
 + Vídeo {#video}
-   + [Início rápido: Vídeo](quick-start-video.md)
+   + [Início rápido:Vídeo](quick-start-video.md)
    + [Melhores práticas: Uso do visualizador de vídeo HTML5](best-practice-using-html5-video.md)
    + [Carregamento e codificação de vídeos](uploading-encoding-videos.md)
    + [Visualização de vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md)
@@ -152,7 +153,7 @@ source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
    + [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md)
    + [Vincular um conjunto de mídia mista a uma página da Web](linking-mixed-media-set-web.md)
 + Kit de instrumentação do Adobe Analytics {#analytics-kit}
-   + [Início rápido: Integração do Dynamic Media Classic com o Adobe Analytics ](quick-start-integrating-scene7-analytics.md)
+   + [Início rápido: Integração do Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Faça logon no Adobe Analytics](log-analytics.md)
    + [Configuração de relatórios do Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentação de um visualizador usando o Kit de instrumentação do Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
