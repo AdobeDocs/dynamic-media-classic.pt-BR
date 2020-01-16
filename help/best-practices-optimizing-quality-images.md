@@ -5,12 +5,12 @@ description: nulo
 seo-description: Saiba mais sobre as práticas recomendadas para otimizar a qualidade de suas imagens.
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
-content-type: referência
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/master_files
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 ---
 
@@ -49,7 +49,7 @@ O ajuste da nitidez da imagem é o aspecto mais complexo do controle de imagens 
 
 White paper de práticas recomendadas [Compartilhando imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
-Na Adobe TV, assista [Sharpening an image with unshark mask (Apagar uma imagem com máscara](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/)nítida).
+Consulte também [Nitidez de uma imagem com máscara](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)nítida.
 
 Com o Dynamic Media Classic, você pode tornar as imagens mais nítidas na ingestão, na entrega ou em ambos. Entretanto, na maioria dos casos, é necessário aumentar a nitidez das imagens usando apenas um método ou outro, mas não ambos. O ajuste de nitidez de imagens na entrega, em um URL, geralmente oferece os melhores resultados.
 
@@ -61,13 +61,13 @@ Existem dois métodos de nitidez de imagem que você pode usar:
    * `&op_sharpen=amount,radius,threshold`
 
       * `amount` (0-5, intensidade do efeito.)
-      * `radius` (0-250, largura das "linhas de nitidez" desenhadas em torno do objeto com nitidez, conforme medida em pixels.)
+      * `radius` (0-250, largura das &quot;linhas de nitidez&quot; desenhadas em torno do objeto com nitidez, conforme medida em pixels.)
 
          Lembre-se de que os parâmetros `radius` e `amount` funcionam uns contra os outros. A redução `radius` pode ser compensada pelo aumento `amount`. `Radius` permite um controle mais fino como um valor mais baixo aumenta a nitidez apenas dos pixels da borda, enquanto um valor mais alto aumenta a nitidez de uma faixa maior de pixels.
 
       * `threshold` (0-255, sensibilidade ao efeito.)
 
-         Esse parâmetro determina o quão diferentes os pixels com nitidez devem ser da área ao redor antes de serem considerados pixels de borda e o filtro os ajuste de nitidez. O limite ajuda a evitar áreas de nitidez excessiva com cores semelhantes, como tons de pele. Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de "ruído", enquanto ainda adiciona o contraste da borda a áreas de alto contraste, como onde as pestanas encontram a pele.
+         Esse parâmetro determina o quão diferentes os pixels com nitidez devem ser da área ao redor antes de serem considerados pixels de borda e o filtro os ajuste de nitidez. O limite ajuda a evitar áreas de nitidez excessiva com cores semelhantes, como tons de pele. Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de &quot;ruído&quot;, enquanto ainda adiciona o contraste da borda a áreas de alto contraste, como onde as pestanas encontram a pele.
       Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte os seguintes recursos:
 
       Tópico da Ajuda do Dynamic Media Classic sobre [como Compartilhar uma imagem](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
