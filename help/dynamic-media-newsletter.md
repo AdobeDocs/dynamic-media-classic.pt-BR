@@ -6,7 +6,7 @@ seo-title: 'Newsletter do Adobe Dynamic Media '
 solution: Dynamic Media
 title: Newsletter do Dynamic Media
 translation-type: tm+mt
-source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
+source-git-commit: e68bef4e597e81269d863e37fcd1d1b33c842836
 
 ---
 
@@ -23,7 +23,15 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
 
 ## Ocorreu um problema com a newsletter do Dynamic Media?
 
-* **[Novembro de 2019, Edição 11](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)** Nesta edição:
+* **[Janeiro de 2020, Edição 1](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**Nesta edição:
+
+   * Cinco novos Webinars do Construtor de habilidades para aprimorar suas habilidades do Dynamic Media Classic.
+   * Uma auditoria gratuita para ajudá-lo a obter mais valor do Dynamic Media Classic.
+   * Uma temporada de compras de fim de ano recordada para nossos clientes de mídia avançada.
+   * Seu guia prático para selecionar um DAM (Digital Asset Manager, Gerenciador de ativos digitais) que atende às suas necessidades atuais e o prepara para o que há de novo em mídia avançada amanhã.
+   * Conheça Mark Dean, especialista em mídia digital.
+
+* **[Novembro de 2019, Edição 11](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**Nesta edição:
 
    * Uma atualização da interface do usuário do Dynamic Media Classic.
    * Novos e poderosos recursos de segurança.
@@ -31,7 +39,7 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
    * Compartilhe a newsletter com seus colegas para criar experiência com a equipe.
    * Conheça Apoorva Gupta, Gerente Sênior De Produtos, Mídia Dinâmica.
 
-* **[Outubro de 2019, edição 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)** Nesta edição:
+* **[Outubro de 2019, edição 10](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**Nesta edição:
 
    * Como você pode obter análises avançadas sobre as ações que os visitantes executam nos visualizadores do Dynamic Media.
    * Um infográfico com dicas para os resultados da criação de imagens e vídeos de alta qualidade.
@@ -40,9 +48,9 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
    * Conheça Nick Peters, Gerente, Engenharia de Confiabilidade do Site, Adobe Experience Manager.
    * Acelere o Dynamic Media e o Dynamic Media Classic na Experience League.
 
-* **[Setembro de 2019, Edição 09](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_09_2019_Sept.html)** Nesta edição:
+* **[Setembro de 2019, Edição 09](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_09_2019_Sept.html)**Nesta edição:
 
-   * Dê mais importância às experiências de seus clientes eliminando esses 9 "ganchos".
+   * Dê mais importância às experiências de seus clientes eliminando esses 9 &quot;ganchos&quot;.
    * Descubra como a equipe do Dynamic Media pode ajudá-lo a se preparar para um dia com tráfego de visitantes superior ao normal.
    * Uma segunda chance de capturar dois webinars recentes do Construtor de habilidades.
    * Assista ao webinário sob demanda para proteger seus ativos digitais contra pirataria.
@@ -50,7 +58,7 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
    * Acelere o Dynamic Media e o Dynamic Media Classic na Experience League.
 
 
-* **[Agosto de 2019, Edição 08](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_08_2019_Aug.html)** Neste problema:
+* **[Agosto de 2019, Edição 08](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_08_2019_Aug.html)**Neste problema:
 
    * Explore recursos valiosos disponíveis somente quando você atualizar para o Dynamic Media.
    * Saiba mais sobre uma série de webinários criada para ajudá-lo a conhecer os ativos Adobe Experience Manager e o Dynamic Media.
@@ -59,7 +67,7 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
    * Conheça PieterJan Pieper, wiz de suporte técnico do Dynamic Media.
 
 
-* **[Julho de 2019, Edição 07](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)** Nesta edição:
+* **[Julho de 2019, Edição 07](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)**Nesta edição:
 
    * Recursos e informações que permitem gerenciar adequadamente seus ativos de alto valor para fornecer experiências confiáveis que mantêm seus visitantes retornando.
    * Saiba mais sobre um webinar futuro sobre como proteger seus ativos digitais.
@@ -68,7 +76,7 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
    * Adicionar vídeos de 360 graus e miniaturas de vídeo personalizadas ao seu site.
    * Conheça Andrew Hathaway, Consultor principal de soluções para mídia dinâmica nos ativos AEM.
 
-* **[Junho de 2019, Edição 06](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_06_2019_June.html)** Nesta edição:
+* **[Junho de 2019, Edição 06](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_06_2019_June.html)**Nesta edição:
 
    * Curta vídeos que destacam a sensatez de atualizar para o Dynamic Media nos ativos AEM.
    * Assista aos vídeos práticos da Experience League.
@@ -77,7 +85,7 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
    * Saiba mais sobre o Smart Crop controlado por AI para imagens.
    * Conheça Alex Thiers, uma das forças impulsionadoras por trás de muitos dos grandes recursos e inovações do Dynamic Media e do Dynamic Media Classic.
 
-* **[Maio de 2019, Edição 05](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)** Nesta edição:
+* **[Maio de 2019, Edição 05](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)**Nesta edição:
 
    * Descubra os 10 principais recursos ocultos do Dynamic Media Classic em uma publicação de blog
    * Assista aos vídeos práticos da Experience League.
@@ -85,7 +93,7 @@ Neste boletim de balcão único, descubra recursos valiosos de criação de conh
    * Leia uma série de blogues de três partes para atualizar sua estratégia de mídia avançada.
    * Saiba mais sobre o recorte inteligente de vídeo controlado por AI.
 
-* **[Edição de abril de 2019, edição 04](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)** Bem-vindo à edição de inauguração da Newsletter Dynamic Media, nosso novo boletim informativo mensal com notícias, eventos e recursos para usuários do Dynamic Media nos ativos Adobe Experience Manager e Adobe Dynamic Media Classic. Nesta edição:
+* **[Edição de abril de 2019, edição 04](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)**Bem-vindo à edição de inauguração da Newsletter Dynamic Media, nosso novo boletim informativo mensal com notícias, eventos e recursos para usuários do Dynamic Media nos ativos Adobe Experience Manager e Adobe Dynamic Media Classic. Nesta edição:
    * Registre-se no webinar Recursos ocultos do Dynamic Media Classic.
    * Saiba mais sobre nossa série de webinars sob demanda para ajudá-lo a desenvolver sua estratégia de mídia avançada.
    * Leia sobre os principais casos de uso de mídias avançadas e suas soluções para eles.
