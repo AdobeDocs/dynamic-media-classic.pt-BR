@@ -1,26 +1,26 @@
 ---
 cloud: experience-cloud
-solution-title: Learn & Support
+solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
-getting-started-title: Getting Started
+getting-started-title: Introdução
 getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
-tutorials-title: Tutorials
+tutorials-title: Tutoriais
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://git.corp.adobe.com/AdobeDocs/scene7.en
+git-repo: https://github.com/AdobeDocs/dynamic-media-classic.en
 translation-type: tm+mt
-source-git-commit: c02feaa361f1986ad630468729981c29f4cf37b5
+source-git-commit: 9b1bdd86ab4dc5148a0fea3157c8c3cbbeac0728
 
 ---
 
 
-# Metadata for internal use
+# Metadados para uso interno
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+O arquivo metadata.md inclui metadados de nível de acordo de recompra que passam para os arquivos TOC.md do guia do usuário no repo. Se desejar alterar o conteúdo de metadata.md de qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
-| metadata | what it does |
+| metadados | o que ele faz |
 |--- |--- |
-| solution-title | Used in article header as link |
+| título da solução | Usado no cabeçalho do artigo como link |
 | solution-hub-url | Abre a página do hub helpx |
 | ícone da solução | Exibe o ícone da solução ao lado do título da solução. Ainda não implementado |
 | getting-started-url | Link para a página de introdução ao helpx |
