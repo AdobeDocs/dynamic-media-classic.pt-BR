@@ -1,50 +1,59 @@
 ---
-source-git-commit: 31d89e17826bac5c7afa9faf0bc1d26f129da1e8
+source-git-commit: e38c05edf1fe238d6a36b878df9369eadd31d792
 translation-type: tm+mt
 
 ---
-# Contribuição
+# Contribuição para a documentação do Adobe Dynamic Media Classic
 
-Obrigado por colaborar!
+Obrigado por escolher contribuir para a documentação do Adobe Dynamic Media Classic! Saudamos as contribuições de conteúdo de toda nossa comunidade de leitores, bem como de outros funcionários da Adobe.
 
-A seguir, há um conjunto de diretrizes a seguir ao contribuir para esse projeto.
+Este arquivo descreve como você pode contribuir, além de apontar as diretrizes a serem seguidas ao fazer suas contribuições.
 
-## Código de conduta
+## Código de conduta Adobe Open Source
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). Ao participar, é necessário manter este código. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este projeto adotou o Código de Conduta [de Código Aberto da](code-of-conduct.md)Adobe. Ao contribuir para a documentação, você concorda em seguir este código de conduta. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Tem uma pergunta?
+## Diretrizes para contribuir
 
-Comece por corrigir um problema. Os seguidores existentes neste projeto funcionam para alcançar
-o consenso em relação à direção do projeto e soluções de edição nos threads
-do problema (quando apropriado).
+Embora nos congratulemos com quaisquer contributos para melhorar a documentação, pedimos que os contributos sejam respeitados, sempre que possível, em certas orientações e normas. Consulte as [Diretrizes para contribuir para a documentação](guidelines.md) do Adobe Dynamic Media Classic para obter mais informações.
 
-## Contrato de licença de colaborador
+## Como contribuir
 
-Todas as contribuições de terceiros para esse projeto devem ser acompanhadas por um contrato de licença de colaborador
-assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](https://opensource.adobe.com/cla.html). Você
-só precisa enviar uma Adobe CLA uma vez. Por isso, se já tiver enviado uma,
-você poderá ir!
+Queremos facilitar ao máximo a submissão das vossas contribuições. Você pode contribuir de duas formas:
 
-## Revisões de código
+* [Criar um problema](#create-an-issue)
+* [Criar uma solicitação de baixa automática](#create-a-pull-request)
 
-Todos os envios devem vir na forma de solicitações de envio e precisam ser revisados pelos confirmadores do projeto. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+Qual método você escolhe depende do quão confortável você está editando a documentação no GitHub.
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+>[!NOTE]
+>
+>As contribuições enviadas são cobertas pelos termos de uso da [Adobe.](https://www.adobe.com/legal/terms.html)
 
-## Do colaborador para o compromisso
+### Criar um problema {#create-an-issue}
 
-Nós amamos contribuições de nossa comunidade! Se você quiser ir uma etapa além do colaborador
-e se tornar um compromisso com o acesso total à gravação e uma palavra no projeto, você deve
-ser convidado para o projeto. Os seguidores existentes empregam um processo de designação
-interno que deve atingir o consenso lazy (silêncio é aprovação) antes que os convites
-sejam emitidos. Se você estiver qualificado e quiser envolver-se mais profundamente,
-entre em contato com os participantes existentes para conversar sobre isso.
+Você tem uma sugestão, uma observação sobre os documentos atuais, ou pergunta como algo é descrito? Em seguida, crie um problema. Os problemas também são excelentes se você tiver algo para contribuir, mas não se sinta confortável em editar os documentos ou fazer uma solicitação por push.
 
-## Problemas de segurança
+Os problemas permitem que você descreva facilmente sua ideia para melhorar os documentos e um membro da equipe de documentação pode analisá-la. Basta clicar no link **Registrar um problema** na parte superior do painel de navegação direito em qualquer página para criar um problema.
 
-Problemas de segurança não devem ser relatados neste rastreador de edição. Em vez disso, [envie um problema para nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
+### Criar uma solicitação de recebimento {#create-a-pull-request}
+
+Se você vir um problema e souber exatamente como corrigi-lo, considere criar uma solicitação de baixa automática. As solicitações de recebimento permitem que você faça suas próprias edições na documentação, que são então revisadas para inclusão por um membro da equipe de documentação. Basta clicar no link **Editar esta página** na parte superior do painel de navegação direito em qualquer página para fazer as alterações sugeridas e criar a solicitação de baixa automática.
+
+Todas as solicitações pull devem ser acompanhadas por um contrato de licença de [contribuinte assinado ou CLA.](https://opensource.adobe.com/cla.html)  Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. Você só precisa enviar um Adobe CLA uma vez, portanto, se você já enviou um anteriormente, você pode ir!
+
+### Introdução rápida ao vídeo
+
+Assista ao vídeo a seguir para obter uma rápida visão geral de como criar problemas e solicitações.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
+
+### Contribuições de funcionários da Adobe
+
+Se você for um funcionário da Adobe e quiser fazer uma solicitação pull, use o repositório privado em `https://git.corp.adobe.com/AdobeDocs`.
+
+Por problemas, sinta-se à vontade para usar os repositórios públicos.
+
+## Outras informações
+
+Consulte o Guia [do colaborador do](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) Adobe Docs para obter mais detalhes sobre como usar a plataforma de criação do GitHub.
