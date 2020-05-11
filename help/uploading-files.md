@@ -9,7 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
+source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+workflow-type: tm+mt
+source-wordcount: '3867'
+ht-degree: 0%
 
 ---
 
@@ -52,6 +55,8 @@ O suporte para upload de TAR e ZIP inclui uma caixa de seleção para selecionar
 ### Formatos de imagem não suportados no Dynamic Media {#unsupported-image-formats-dynamic-media}
 
 A lista a seguir descreve os subtipos de formatos de arquivo de imagem rasterizada que *não* são suportados no Dynamic Media.
+
+Consulte também [Detectar formatos de arquivo não suportados para Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * Arquivos PNG com um tamanho de bloco IDAT maior que 100 MB.
 * Arquivos PSB.
