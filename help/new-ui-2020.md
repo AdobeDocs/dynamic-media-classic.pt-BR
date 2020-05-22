@@ -1,15 +1,15 @@
 ---
-title: A nova interface do usuário do Dynamic Media Classic será lançada na primeira metade de 2020
-seo-title: A nova interface do usuário do Dynamic Media Classic será lançada na primeira metade de 2020
-description: Os usuários do Dynamic Media Classic podem esperar uma atualização de sua interface de usuário na primeira metade de 2020. A experiência fornecerá um logon atualizado com links para recursos valiosos, além disso, essa atualização não dependerá mais da tecnologia Adobe Flash no navegador.
-seo-description: Os usuários do Dynamic Media Classic podem esperar uma atualização de sua interface de usuário na primeira metade de 2020. A experiência fornecerá um logon atualizado com links para recursos valiosos, além disso, essa atualização não dependerá mais da tecnologia Adobe Flash no navegador.
+title: Nova experiência de logon do Dynamic Media Classic disponível em 30 de junho de 2020
+seo-title: Novo Dynamic Media Classic 30 de junho de 2020
+description: Os usuários do Dynamic Media Classic podem esperar uma atualização de sua interface de usuário em 30 de junho de 2020. A experiência fornecerá um logon atualizado com links para recursos valiosos, além disso, essa atualização não dependerá mais da tecnologia Adobe Flash no navegador.
+seo-description: Os usuários do Dynamic Media Classic podem esperar uma atualização de sua interface de usuário em 30 de junho de 2020. A experiência fornecerá um logon atualizado com links para recursos valiosos, além disso, essa atualização não dependerá mais da tecnologia Adobe Flash no navegador.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -82,5 +82,5 @@ Além disso, [assine o boletim](https://www.adobe.com/subscription/dynamic-media
 
 ### **_Estou interessado em saber mais sobre como atualizar para o Dynamic Media com os ativos AEM. Onde posso encontrar mais informações?_**
 
-Para saber mais sobre os benefícios de atualizar para a próxima geração de criação, publicação e delivery dinâmico de mídia avançada, visite o portal [de atualização do](http://exploreadobe.com/dynamic-media-upgrade/)Dynamic Media.
+Para saber mais sobre os benefícios da atualização para a próxima geração de criação, publicação e delivery dinâmico de mídia avançada, visite o portal [de atualização do](http://exploreadobe.com/dynamic-media-upgrade/)Dynamic Media.
 
