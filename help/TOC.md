@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Ajuda do Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '725'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
    + [Recursos do desenvolvedor](developer-resources.md)
    + [Novidades](whats-new.md)
    + [Requisitos do sistema](system-requirements.md)
-   + [Aplicativos de desktop do Adobe Scene7 Publishing System](scene7-publishing-system-desktop-applications.md)
+   + [Aplicativo de desktop Adobe Dynamic Media Classic em breve!](dynamic-media-classic-desktop-app.md)
    + [Suporte](support.md)
    + [Ajuda para o Portal de Mídia Clássica do Dynamic Media](help-scene7-media-portal.md)
    + [Serviços de treinamento da Adobe](training-services.md)
