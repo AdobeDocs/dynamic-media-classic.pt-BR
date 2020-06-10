@@ -6,7 +6,10 @@ seo-title: 'Newsletter do Adobe Dynamic Media '
 solution: Dynamic Media
 title: Newsletter do Dynamic Media
 translation-type: tm+mt
-source-git-commit: f9ae9b5de27f159982dd0c9addd68cb88bc1a8d6
+source-git-commit: 73837dc50c700c9c3e6fe3209f733173669245a9
+workflow-type: tm+mt
+source-wordcount: '1321'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +25,21 @@ Neste boletim de balcão único, descubra recursos valiosos para a criação de 
 [Inscreva-se](https://www.adobe.com/subscription/dynamic-media-newsletter.html) para receber a newsletter do Dynamic Media mensalmente na sua caixa de entrada.
 
 ## Ocorreu um problema com a newsletter do Dynamic Media?
+
+* **[Maio de 2020, edição 4](https://expleague.azureedge.net/assets/aem/Experience-Insider-vol.31.html)**
+
+   Nesta edição:
+
+   * O que a continuidade de negócios significa em tempos incertos.
+   * Os principais recursos do primeiro Adobe Summit totalmente digital.
+   * Sessões de sessão de grupo do Experience Manager devem ser monitoradas.
+   * Destaque do cliente Summit: Sob Armor.
+   * Nunca perca um webinar do Experience Insider.
+   * Destaque do setor público: A necessidade urgente de inscrição digital.
+   * Veja as novidades da inovação do Experience Manager.
+   * Crie suas habilidades do Experience Manager ao *vivo* com os profissionais da Adobe.
+   * Conecte-se com a Comunidade do Adobe Experience Manager.
+   * Acompanhe rapidamente sua experiência da Adobe com a Adobe Experience League.
 
 * **[Abril de 2020, Edição 3](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@DRPFipWV_3bgH_oxl1monOhd4auNDxFVTBWB-uKB6lM_BixlVqja2E5Ml7DbtOy6pARL78LPxljqgxEEAr7RBsRp8WOyn-Zw6hQ8MNoFn9i9WMXm.html)**
 
