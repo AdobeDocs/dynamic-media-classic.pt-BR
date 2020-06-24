@@ -1,23 +1,26 @@
 ---
-title: Vincular visualizadores de zoom às suas páginas da Web
-seo-title: Vincular visualizadores de zoom às suas páginas da Web
-description: 'null'
-seo-description: Saiba como vincular os visualizadores de Zoom às suas páginas da Web.
-uuid: cd 350 ea 4-267 e -4 a 8 a-aed 8-7553 df 86 b 438
+title: Vincular visualizadores de zoom a suas páginas da Web
+seo-title: Vincular visualizadores de zoom a suas páginas da Web
+description: nulo
+seo-description: Saiba como vincular visualizadores de zoom a suas páginas da Web.
+uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/zoom
-discoiquuid: df 5471 c 1-ccda -4 dd 4-a 7 f 1-5 b 9193 b 41 f 98
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 2%
 
 ---
 
 
-# Vincular visualizadores de zoom às suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
+# Vincular visualizadores de zoom a suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de imagem do Dynamic Media, incluindo imagens mestre e metas de zoom associadas, e Predefinições do visualizador de zoom, por meio de sequências de caracteres de URL ou código incorporado. Essas strings de URL são ativadas durante o processo de publicação. Para colocar essas sequências de URL ou o código incorporado em suas páginas e aplicativos da Web, copie-os do Sistema de publicação Scene 7.
+Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo imagens mestre e públicos alvos de zoom associados, e Predefinições do visualizador de zoom, por meio de strings de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar essas strings de URL ou o código incorporado em suas páginas da Web e aplicativos, copie-as do Scene7 Publishing System.
 
 >[!NOTE]
 >
@@ -25,51 +28,51 @@ Seus sites e aplicativos acessam o conteúdo do Servidor de imagem do Dynamic Me
 
 ## Copiando um URL do visualizador de zoom {#copying-a-zoom-viewer-url}
 
-1. no painel Biblioteca de ativos no lado esquerdo, navegue até a pasta de ativos que contém o visualizador de zoom cujo URL você deseja copiar.
-1. Acima do painel Navegador de ativos, no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
+1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o visualizador de zoom cujo URL você deseja copiar.
+1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique **em Exibição de grade** ou **Exibição de lista**. No painel Navegador de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. Nos urls e no painel Incorporar código à direita, clique **em Copiar URL** à direita do visualizador desejado.
-   * Clique **em Exibição de grade**. No painel Procurar ativo, selecione um único ativo e depois abaixo da imagem em miniatura, clique **em Visualizar** &gt; Lista **do visualizador**.
+   * Clique em **Visualização** de grade ou Visualização **de** Lista. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
+   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique **em Copiar URL**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique **em Exibição de lista**. No painel Procurar ativo, selecione um único ativo e, à direita da imagem em miniatura, clique **em Visualizar** &gt; Lista **do visualizador**.
+   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique **em Copiar URL**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique **em Exibição de grade**, **Exibição de lista** ou Exibição **de detalhes**. Na mesma barra de ferramentas, clique **em Visualizar** &gt; Lista **de visualizadores**.
+   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique **em Copiar URL**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-## Adicionar urls do visualizador de zoom à sua página da Web {#adding-zoom-viewer-urls-to-your-web-page}
+## Adicionar URLs do visualizador de zoom à sua página da Web {#adding-zoom-viewer-urls-to-your-web-page}
 
-Normalmente, os visitantes de um zoom em site são ampliados pela seleção de um ícone de Zoom (geralmente o ícone mostra a imagem de uma lupa). A seleção desse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente ampliam a imagem.
+Geralmente, visitantes para imagens de zoom de um site selecionando primeiro um ícone de Zoom (geralmente, o ícone mostra a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente dão zoom na imagem.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom básico HTML 5 no Guia de referência de visualizadores da Adobe](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_basic_zoom_viewer_about.html).
+Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom básico HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)de referência do Adobe Viewers.
 
 ## Copiando a cópia incorporada de um visualizador de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
-Usar o recurso Incorporar código permite analisar o código do visualizador para o visualizador de Zoom selecionado. Também é possível copiar o código para a área de transferência para que você possa colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
+Usar o recurso Incorporar código permite que você revise o código do visualizador para o visualizador de zoom selecionado. Você também pode copiar o código para a área de transferência para colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Copiar o código incorporado de um visualizador de zoom**
+**Para copiar o código incorporado de um visualizador de zoom**
 
-1. no painel Biblioteca de ativos no lado esquerdo, navegue até a pasta de ativos que contém o visualizador de zoom cujo código incorporado você deseja copiar.
-1. Acima do painel Navegador de ativos, no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
+1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o visualizador de zoom cujo código incorporado você deseja copiar.
+1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique **em Exibição de grade**. No painel Navegador de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. Nos urls e no painel Incorporar código à direita, clique em **Incorporar código** à direita do visualizador desejado.
-   * Clique **em Exibição de grade**. No painel Procurar ativo, selecione um único ativo e depois abaixo da imagem em miniatura, clique **em Visualizar** &gt; Lista **do visualizador**.
+   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Incorporar código** à direita do visualizador desejado.
+   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique **em Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
 
-   * Clique **em Exibição de lista**. No painel Procurar ativo, selecione um único ativo e, à direita da imagem em miniatura, clique **em Visualizar** &gt; Lista **do visualizador**.
+   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique **em Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
 
-   * Clique **em Exibição de grade**, **Exibição de lista** ou Exibição **de detalhes**. Na mesma barra de ferramentas, clique **em Visualizar** &gt; Lista **de visualizadores**.
+   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique **em Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
 
-1. Na caixa de diálogo Incorporar código, clique **em Copiar para a área de transferência**.
+1. Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
 
    A edição do código não é permitida na caixa de diálogo Incorporar código.
 
