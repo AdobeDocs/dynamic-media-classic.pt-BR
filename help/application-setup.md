@@ -5,12 +5,15 @@ description: Saiba como configurar a área de aplicativos do Dynamic Media Class
 seo-description: Saiba como configurar a área de aplicativos do Dynamic Media Classic.
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
-content-type: referência
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/setup
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '11115'
+ht-degree: 4%
 
 ---
 
@@ -29,19 +32,19 @@ Para abrir a página Configurações gerais do aplicativo, na barra Navegação 
 
 ### Servidores
 
-Na criação da conta, o Dynamic Media Classic fornece automaticamente os servidores atribuídos para sua empresa. Esses servidores são usados para construir strings de URL para seu site e aplicativos. Essas chamadas de URL são específicas para sua conta.
+Na criação da conta, o Dynamic Media Classic fornece automaticamente os servidores atribuídos para a sua empresa. Esses servidores são usados para construir strings de URL para seu site e aplicativos. Essas chamadas de URL são específicas para sua conta.
 
 Consulte também [Testando o serviço](testing-assets-making-them-public.md#testing_the_secure_testing_service)de Testes seguros.
 
-**Nome** do servidor publicado Este servidor é o servidor CDN ativo usado em todas as chamadas de URL geradas pelo sistema específicas para sua conta. Não altere o nome deste servidor, a menos que seja instruído a fazê-lo por um técnico de suporte do Dynamic Media Classic.
+**Nome** do servidor publicado Este servidor é o servidor CDN ativo usado em todas as chamadas de URL geradas pelo sistema específicas para sua conta. Não altere esse nome de servidor a menos que seja instruído a fazê-lo por um técnico de suporte do Dynamic Media Classic.
 
-**Nome** do servidor de origem Este servidor é usado apenas para testes de garantia de qualidade. Não altere o nome deste servidor, a menos que seja instruído a fazê-lo por um técnico de suporte do Dynamic Media Classic.
+**Nome** do servidor de Origem Este servidor é usado apenas para testes de garantia de qualidade. Não altere esse nome de servidor a menos que um técnico de suporte do Dynamic Media Classic o instrua a fazê-lo.
 
-**Nome** do servidor AGM Este servidor é usado para modelos Web-to-Print. Este servidor é definido em toda a empresa. Não altere o nome deste servidor, a menos que seja instruído a fazê-lo por um técnico de suporte do Dynamic Media Classic.
+**Nome** do servidor AGM Este servidor é usado para modelos Web-to-Print. Este servidor é definido em toda a empresa. Não altere esse nome de servidor a menos que um técnico de suporte do Dynamic Media Classic o instrua a fazê-lo.
 
-**Nome** do servidor do Test&amp;Target Seu URL do Test&amp;Target, até .com. Para obter instruções sobre como obter esse URL, consulte Integração do Dynamic Media Classic com o Target Classic.
+**Nome** do servidor do Test&amp;Público alvo Seu URL do Test&amp;Público alvo, até .com, inclusive. Para obter instruções sobre como obter esse URL, consulte Integrar o Dynamic Media Classic ao Target Classic.
 
-**Nome** do servidor de streaming do iOS O URL do servidor de streaming do iOS Dynamic Media Classic. Este servidor fornece vídeo de fluxo contínuo para dispositivos baseados em iOS usando protocolo HTTP.
+**Nome** do servidor de streaming do iOS O URL do servidor de streaming do iOS do Dynamic Media Classic. Este servidor fornece vídeo de fluxo contínuo para dispositivos baseados no iOS usando o protocolo HTTP.
 
 **Nome** do servidor de vídeo progressivo O URL do servidor de vídeo progressivo do Dynamic Media Classic. Este servidor fornece vídeo progressivo usando o protocolo HTTP.
 
@@ -51,7 +54,7 @@ Consulte também [Testando o serviço](testing-assets-making-them-public.md#test
 
 Os usuários do AIR devem desinstalar manualmente seu aplicativo existente e reinstalar da versão da Web do Scene7 Publishing System (em Configurações pessoais). Após essa reinstalação única, você será solicitado a atualizar sempre que o servidor tiver uma versão mais recente do Scene7 Publishing System AIR. O Scene7 Publishing System é integrado à Application Update Framework, que simplifica o processo de atualização.
 
-**Modelo** de Invalidação CDN Especifica o modelo usado para invalidar o cache CDN (Content Delivery Network).
+**Modelo** de Invalidação CDN Especifica o modelo usado para invalidar o cache CDN (Rede de Delivery de Conteúdo).
 
 Por exemplo, suponha que você insira um URL de imagem (incluindo predefinições ou modificadores de imagem) referenciando `<ID>`, em vez de uma ID de imagem específica, como no exemplo a seguir:
 
@@ -59,15 +62,15 @@ Por exemplo, suponha que você insira um URL de imagem (incluindo predefiniçõe
 
 Se o Modelo apenas contiver `<ID>`, a SPS preencherá o `https://<server>/is/image`, onde `<server>` é o Nome do servidor de publicação definido em Configurações gerais.
 
-A configuração do modelo de invalidação CDN, a seleção de uma imagem chamada Backpack_B e, em seguida, o clique em **Arquivo** &gt; **Invalidar CDN** resultarão no seguinte URL gerado na interface de invalidação CDN:
+A configuração do modelo de invalidação CDN, a seleção de uma imagem chamada Backpack_B e, em seguida, o clique em **Arquivo** > **Invalidar CDN** resultarão no seguinte URL gerado na interface de invalidação CDN:
 
 `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-Na caixa de listagem URL, clique em **Continuar** para limpar o cache da chamada de URL de imagem específica. Observe que também é possível adicionar URLs digitando ou colando-os na caixa de listagem URL; não é necessário definir o Modelo antecipadamente.
+Na caixa lista do URL, clique em **Continuar** para limpar o cache da chamada de URL de imagem específica. Observe que também é possível adicionar URLs digitando ou colando-os na caixa lista do URL; não é necessário definir o Modelo antecipadamente.
 
-Depois de selecionar seu Modelo de Invalidação CDN e fazer uma solicitação Invalidar CDN, aparecerá um indicador na interface do usuário que fornece uma estimativa de quanto tempo levará para limpar o cache.
+Depois de selecionar seu Modelo de Invalidação CDN e fazer uma solicitação Invalidar CDN, aparecerá um indicador na interface do usuário que fornece uma estimativa do tempo necessário para limpar o cache.
 
-Da mesma forma, se várias imagens forem selecionadas no SPS quando você clicar em **Arquivo** &gt; **Invalidar CDN**, cada imagem será referenciada no URL do modelo salvo. Portanto, você pode definir um Modelo de Invalidação CDN referenciando cada URL referenciado em seu site (como detalhes do produto, resultados de pesquisa e assim por diante). Em seguida, ao selecionar uma ou mais imagens para invalidação do cache, os URLs preenchem automaticamente a interface.
+Da mesma forma, se várias imagens forem selecionadas no SPS quando você clicar em **Arquivo** > **Invalidar CDN**, cada imagem será referenciada no URL do modelo salvo. Portanto, você pode definir um Modelo de Invalidação CDN referenciando cada URL referenciado em seu site (como detalhes do produto, resultados de pesquisa e assim por diante). Em seguida, ao selecionar uma ou mais imagens para invalidação do cache, os URLs preenchem automaticamente a interface.
 
 Consulte Armazenamento [de conteúdo em cache](scene7-platform-overview.md#content_caching).
 
@@ -83,11 +86,11 @@ Consulte Ativos [republicados e atrasos](publishing-files.md#republished_assets_
 
 **Mostrar vídeos** codificados desmarcados (desmarcados) por padrão.
 
-Para pesquisar e procurar vídeos rapidamente no Sistemas de publicação do Scene7 sem precisar navegar por vários derivados codificados do mesmo vídeo, deixe essa opção desmarcada (padrão). Somente a miniatura do Vídeo principal, que é o vídeo de origem carregado e usado para criar todos os derivados, e somente a miniatura do Conjunto de vídeos adaptáveis "pai", que contém todos os derivados "filho" do conjunto de vídeos codificados, são exibidos na interface do usuário.
+Para pesquisar e procurar vídeos rapidamente no Sistemas de publicação do Scene7 sem precisar navegar por vários derivados codificados do mesmo vídeo, deixe essa opção desmarcada (padrão). Somente a miniatura do Vídeo principal, que é o vídeo de origem carregado e usado para criar todos os derivados, e somente a miniatura do Conjunto de vídeos adaptáveis &quot;pai&quot;, que contém todos os derivados &quot;filho&quot; do conjunto de vídeos codificados, são exibidos na interface do usuário.
 
-No entanto, você ainda pode acessar vídeos codificados individuais do Vídeo mestre ou do Conjunto de vídeos adaptáveis. Para fazer isso, clique duas vezes na imagem em miniatura do vídeo para abrir a Exibição de detalhes. Em seguida, clique em Vídeos **codificados** no painel direito para acessar todos os vídeos "filhos".
+No entanto, você ainda pode acessar vídeos codificados individuais do Vídeo mestre ou do Conjunto de vídeos adaptáveis. Para fazer isso, clique com o duplo na imagem em miniatura do vídeo para abrir a Visualização Detalhe. Em seguida, clique em Vídeos **codificados** no painel direito para acessar todos os vídeos &quot;filhos&quot;.
 
-Você também pode usar **Arquivo &gt; Reprocessar** para criar vídeos "filhos" mais codificados diretamente de um Conjunto de vídeos adaptáveis. O Scene7 Publishing System encontra automaticamente o vídeo mestre "pai" do Conjunto de vídeos adaptáveis e o usa como vídeo de origem para transcodificação. No entanto, quando você salva os novos vídeos codificados individuais, eles não são vistos quando você pesquisa ou navega. No entanto, eles ainda estão acessíveis na guia Vídeos codificados na Exibição detalhada.
+Você também pode usar **Arquivo > Reprocessar** para criar vídeos &quot;filhos&quot; mais codificados diretamente de um Conjunto de vídeos adaptáveis. O Scene7 Publishing System encontra automaticamente o vídeo mestre &quot;pai&quot; do Conjunto de vídeos adaptáveis e o usa como vídeo de origem para transcodificação. No entanto, quando você salva os novos vídeos codificados individuais, eles não são vistos quando você pesquisa ou navega. No entanto, eles ainda estão acessíveis na guia Vídeos codificados na Visualização Detalhe.
 
 Consulte [Carregamento e transcodificação de vídeo](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -103,25 +106,25 @@ Há determinadas ações no menu Criar que funcionam somente com vídeos individ
 
 **Conta FTP do Dynamic Media Classic**
 
-**Servidor** Lista seu servidor de contas FTP.
+**Servidor** Lista seu servidor de conta FTP.
 
 **Nome** de usuário Lista o nome de usuário da conta FTP.
 
 **Carregar no aplicativo**
 
-**Substituir imagens** O Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A ID do sistema de publicação Scene7 de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Devido a essa regra, a caixa de diálogo Carregar tem uma opção Substituir. O efeito exato dessa opção depende da opção Sobrescrever imagens especificada. Essas opções especificam como as imagens de substituição são carregadas: se elas substituem as imagens originais ou se tornam imagens duplicadas. Imagens duplicadas são renomeadas com um "-1" (por exemplo, o nome de President.tif é renomeado como sit-1.tif). Essas opções afetam as imagens carregadas em uma pasta diferente da original ou as imagens com uma extensão de nome de arquivo diferente da original (como JPG, TIF ou PNG). (Consulte Uso da opção Substituir imagens.)
+**Substituir imagens** O Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A ID do sistema de publicação Scene7 de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Devido a essa regra, a caixa de diálogo Carregar tem uma opção Substituir. O efeito exato dessa opção depende da opção Sobrescrever imagens especificada. Essas opções especificam como as imagens de substituição são carregadas: se elas substituem as imagens originais ou se tornam imagens de duplicado. As imagens de Duplicado são renomeadas com um &quot;-1&quot; (por exemplo, o nome de President.tif é renomeado como sit-1.tif). Essas opções afetam as imagens carregadas em uma pasta diferente da original ou as imagens com uma extensão de nome de arquivo diferente da original (como JPG, TIF ou PNG). (Consulte Uso da opção Substituir imagens.)
 
 **Substituir na pasta atual, mesmo nome/extensão da imagem base**
 
-Essa opção é a regra mais rigorosa para substituição. Ele requer que você carregue a imagem de substituição na mesma pasta que a original e que a imagem de substituição tenha a mesma extensão de nome de arquivo que a original. Se esses requisitos não forem atendidos, uma duplicata será criada.
+Essa opção é a regra mais rigorosa para substituição. Ele requer que você carregue a imagem de substituição na mesma pasta que a original e que a imagem de substituição tenha a mesma extensão de nome de arquivo que a original. Se esses requisitos não forem atendidos, um duplicado será criado.
 
-**Substituir na pasta atual, o mesmo nome do ativo base independentemente da extensão**
+**Substituir na pasta atual, o mesmo nome do ativo base, independentemente da extensão**
 
 Requer que você carregue a imagem de substituição na mesma pasta do original, no entanto, a extensão do nome do arquivo pode ser diferente do original. Por exemplo, o arquivo visit.tif substitui o arquivo
 
 **Substituir em qualquer pasta, mesmo nome/extensão do ativo base**
 
-Exige que a imagem de substituição tenha a mesma extensão de nome de arquivo que a imagem original (por exemplo, o arquivo visit.jpg deve substituir o arquivo President.jpg, e não o domínio.tif). Entretanto, é possível carregar a imagem de substituição em uma pasta diferente da original. A imagem atualizada reside na nova pasta; o arquivo não pode mais ser encontrado em seu local original
+Exige que a imagem de substituição tenha a mesma extensão de nome de arquivo que a imagem original (por exemplo, o arquivo visit.jpg deve substituir o arquivo President.jpg, e não o domínio.tif). No entanto, é possível carregar a imagem de substituição para uma pasta diferente da original. A imagem atualizada reside na nova pasta; o arquivo não pode mais ser encontrado em seu local original
 
 **Substituir em qualquer pasta, o mesmo nome do ativo base, independentemente da extensão**
 
@@ -129,7 +132,7 @@ Essa opção é a regra de substituição mais inclusiva. Você pode carregar um
 
 **Manter publicação** Especifica se uma imagem de substituição carregada no Dynamic Media Classic retém a configuração Pronto para publicar da imagem que está substituindo ou se a configuração é especificada no upload.
 
-**Perfis** de cor padrão Especifica os perfis de cor aplicados como parte das Opções de perfil de cor padrão ao adicionar imagens CMYK.
+**Perfis** de cor padrão Especifica os perfis de cor aplicados como parte das Opções de Perfil de cor padrão ao adicionar imagens CMYK.
 
 **Opções** padrão de upload Abre a caixa de diálogo Opções de upload de trabalho, onde é possível especificar opções padrão de upload. Para obter informações sobre essas opções, consulte Opções de upload.
 
@@ -141,34 +144,34 @@ Essa opção é a regra de substituição mais inclusiva. Você pode carregar um
 
 **Outras configurações, para o aplicativo**
 
-**O Lixeira pode limpar avisos** Os ativos no Lixo são removidos automaticamente dentro de sete dias. Selecione "Enviar emails antes que itens de lixo sejam excluídos automaticamente" se desejar que notificações sejam enviadas para administradores de empresas quando os ativos que estão no Lixeira estiverem a quatro dias de serem excluídos permanentemente. Consulte Gerenciamento da pasta Lixeira.
+**O Lixeira pode limpar avisos** Os ativos no Lixo são removidos automaticamente dentro de sete dias. Selecione &quot;Enviar emails antes que itens de lixo sejam excluídos automaticamente&quot; se desejar que notificações sejam enviadas para administradores de empresas quando os ativos que estão no Lixeira estiverem a quatro dias de serem excluídos permanentemente. Consulte Gerenciamento da pasta Lixeira.
 
 ## Uso da opção de Substituição de imagens {#using-the-overwrite-images-option}
 
-O Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A ID do sistema de publicação Scene7 de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Carregar inclui as opções Substituir imagens. O efeito exato dessa opção depende de uma configuração para as configurações internas do Scene7 Publishing System de cada empresa.
+O Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A ID do sistema de publicação Scene7 de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Carregar inclui as opções Substituir imagens. O efeito exato dessa opção depende de uma configuração para cada configuração interna do sistema de publicação do empresa Scene7.
 
-Se você carregou imagens anteriormente e alterou os arquivos originais (ou os substituiu), a opção Substituir selecionada especifica como o Dynamic Media Classic substitui as imagens. Nenhuma informação sobre a imagem muda, mas a nova imagem substitui a antiga. Se a pasta também contiver imagens que ainda não estão no Dynamic Media Classic, essas imagens serão adicionadas.
+Se você carregou imagens anteriormente e alterou os arquivos originais (ou os substituiu), a opção Substituir escolhida especifica como o Dynamic Media Classic substitui as imagens. Nenhuma informação sobre a imagem muda, mas a nova imagem substitui a antiga. Se a pasta também contiver imagens que ainda não estão no Dynamic Media Classic, essas imagens serão adicionadas.
 
-Use essa opção se as imagens carregadas tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem continuar a mesma. A substituição também é útil ao fazer upload e remover Adobe® PDFs. Para ajustar como o Dynamic Media Classic *rasga* a imagem, ajuste as opções de perfil de cor ICC na caixa de diálogo Carregar e faça upload novamente usando o recurso Substituir.
+Use essa opção se as imagens carregadas tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem continuar a mesma. A substituição também é útil ao fazer upload e remover Adobe® PDFs. Para ajustar como o Dynamic Media Classic *corta* a imagem, ajuste as opções de perfil de cor ICC na caixa de diálogo Carregar e faça o upload novamente usando o recurso Substituir.
 
-As IDs do Dynamic Media Classic usadas para acessar imagens dos servidores de produção são derivadas dos nomes de arquivo de imagem. O uso de caracteres em maiúsculas e minúsculas no nome do arquivo é importante, tanto na substituição de arquivos existentes quanto para as IDs do Dynamic Media Classic usadas para acessar a imagem. Certifique-se de que o uso de caracteres em maiúsculas e minúsculas em nomes de arquivo esteja correto antes de fazer upload no Dynamic Media Classic para evitar IDs do Dynamic Media Classic que sejam diferentes apenas em maiúsculas para a mesma imagem.
+As Dynamic Media Classic IDs usadas para acessar imagens dos servidores de produção são derivadas dos nomes de arquivo de imagem. O uso de caracteres em maiúsculas e minúsculas no nome do arquivo é importante, tanto na substituição de arquivos existentes quanto para as IDs do Dynamic Media Classic usadas para acessar a imagem. Certifique-se de que o uso de caracteres em maiúsculas e minúsculas em nomes de arquivo esteja correto antes de fazer upload no Dynamic Media Classic para evitar IDs do Dynamic Media Classic que sejam diferentes apenas em maiúsculas para a mesma imagem.
 
-Se você desmarcar essa opção, todas as imagens com os mesmos nomes de arquivo das imagens existentes serão tratadas como duplicatas e não serão adicionadas.
+Se você desmarcar essa opção, todas as imagens com os mesmos nomes de arquivo das imagens existentes serão tratadas como duplicados e não serão adicionadas.
 
 ## Predefinições de imagem {#image-presets}
 
-A tela Predefinições de imagem é destinada à criação e edição de Predefinições de imagem. As predefinições de imagens permitem que o Dynamic Media Classic forneça imagens dinamicamente de tamanhos diferentes da mesma imagem mestre. Cada predefinição de imagem representa uma coleção predefinida de comandos de dimensionamento e formatação para a exibição de imagens. Ao criar uma predefinição de imagem, você escolhe um tamanho para a entrega da imagem. Você também escolhe comandos de formatação para que a aparência da imagem seja otimizada quando a imagem for entregue para exibição.
+A tela Predefinições de imagem é destinada à criação e edição de Predefinições de imagem. As predefinições de imagens permitem que o Dynamic Media Classic forneça imagens dinamicamente de tamanhos diferentes da mesma imagem mestre. Cada predefinição de imagem representa uma coleção predefinida de comandos de dimensionamento e formatação para a exibição de imagens. Ao criar uma predefinição de imagem, escolha um tamanho para o delivery de imagem. Você também escolhe comandos de formatação para que a aparência da imagem seja otimizada quando a imagem for entregue para exibição.
 
 Os administradores podem criar predefinições para exportar ativos. Os usuários podem escolher uma predefinição ao exportar imagens, o que também reformata as imagens de acordo com as especificações especificadas pelo administrador.
 
-Para abrir a tela Predefinição de imagem, na barra Navegação global, clique em **Configuração** &gt; Predefinições **de imagem**.
+Para abrir a tela Predefinição de imagem, na barra Navegação global, clique em **Configuração** > Predefinições **de imagem**.
 
 Consulte Imagens [inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
 ### Criação e edição de predefinições de imagens {#creating-and-editing-image-presets}
 
-1. Clique em **Configuração** &gt; Predefinições **de imagem**.
-1. Crie uma nova predefinição ou inicie a partir de uma existente:
+1. Clique em **Configuração** > Predefinições **de imagem**.
+1. Crie uma nova predefinição ou start a partir de uma existente:
    * **Criação de uma predefinição** de imagem - Clique em **Adicionar**.
    * **Criar uma predefinição de imagem a partir de uma predefinição** existente - Selecione a predefinição de imagem mais parecida com a que deseja criar e clique em Editar.
 
@@ -178,13 +181,13 @@ Consulte Imagens [inteligentes](https://helpx.adobe.com/experience-manager/6-3/a
    Consulte Opções [de predefinição de](application-setup.md#image_preset_options)imagem.
 
 1. Clique em **Salvar** ou, se você começou a partir de uma predefinição existente, clique em **Salvar como**.
-1. Para visualizar a predefinição com sua própria imagem, clique em **Procurar** e selecione uma imagem. Para visualizar com a imagem padrão, clique em **Redefinir**.
+1. Para pré-visualização a predefinição à sua própria imagem, clique em **Procurar** e selecione uma imagem. Para pré-visualização com a imagem padrão, clique em **Redefinir**.
 
 É possível editar uma predefinição de imagem selecionando seu nome na tela Predefinições de imagem e clicando em Editar. Para excluir uma predefinição de imagem, selecione-a e clique em Excluir.
 
 ### Opções de predefinição de imagem {#image-preset-options}
 
-As telas Adicionar predefinição e Editar predefinição oferecem estas opções para criar e editar predefinições de imagens:
+As telas Adicionar predefinição e Editar predefinição ofertas estas opções para criar e editar predefinições de imagens:
 
 **Nome** predefinido Insira um nome descritivo sem espaços em branco. Inclua a especificação do tamanho da imagem no nome para ajudar os usuários a identificar essa predefinição de imagem.
 
@@ -240,7 +243,7 @@ Para obter mais informações sobre nitidez, modos de redefinição de resoluç�
 
 **Sharp2** Pode produzir resultados ligeiramente mais nítidos do que a opção Bi-Cubic, mas a um custo de CPU ainda maior no Image Server.
 
-**Trilinear** Usa resoluções mais altas e mais baixas, se disponíveis; recomendado somente quando alias for um problema. Este método reduz o tamanho do JPEG devido à redução dos dados de alta frequência.
+**Trilinear** Usa resoluções mais altas e mais baixas, se disponíveis; recomendado somente quando a suavização de borda for um problema. Este método reduz o tamanho do JPEG devido à redução dos dados de alta frequência.
 
 **Mascaramento de nitidez** Escolha estas opções para ajustar a nitidez:
 
@@ -254,23 +257,23 @@ Para obter mais informações sobre nitidez, modos de redefinição de resoluç�
 
 **Cor** Escolha estas opções:
 
-**Perfil** de cor de saída Selecione Usar padrão ou um dos perfis de cor ICC disponíveis no Sistema de publicação Scene7.
+**Perfil** de cores de saída Selecione Usar padrão ou um dos perfis de cores ICC disponíveis no Sistema de publicação Scene7.
 
 Consulte também perfis [](icc-profiles.md#icc_profiles)ICC.
 
-**Propósito** de renderização Selecione uma opção se desejar substituir o propósito de renderização padrão do perfil de cor. Use essa opção quando um dos perfis ICC padrão for o espaço de cor de destino de uma conversão de cor, um dispositivo de saída (impressora ou monitor) for caracterizado por esse perfil e o propósito de renderização especificado for válido para esse perfil.
+**Propósito** de renderização Selecione uma opção se desejar substituir o propósito de renderização padrão do perfil de cor. Use essa opção quando um dos perfis ICC padrão for o espaço de cor do público alvo de uma conversão de cor, um dispositivo de saída (impressora ou monitor) for caracterizado por esse perfil e o propósito de renderização especificado for válido para esse perfil.
 
-**Incorporar perfil** Selecione esta opção para que, se você abrir esta imagem no Adobe® Photoshop®, ela use este perfil.
+**Incorporar Perfil** Selecione esta opção para que, se você abrir esta imagem no Adobe® Photoshop®, ela use este perfil.
 
 **Resolução** de impressão Escolha uma resolução para imprimir esta imagem; 72 pixels é o padrão.
 
 **Modificadores** de URL Se preferir especificar os modificadores de URL que definem sua Predefinição de imagem, em vez das configurações, insira os modificadores aqui.
 
-**URL** de imagem de amostra Lista a string de URL "bruta" que o Servidor de imagem de mídia dinâmica usa para fornecer imagens com a Predefinição de imagem que você está adicionando ou editando. Essa string de URL codifica todas as configurações de formato selecionadas na tela Adicionar predefinição ou Editar predefinição.
+**URL** de imagem de amostra Lista a string de URL &quot;bruta&quot; que o Dynamic Media Image Server usa para fornecer imagens com a Predefinição de imagem que você está adicionando ou editando. Essa string de URL codifica todas as configurações de formato selecionadas na tela Adicionar predefinição ou Editar predefinição.
 
 ### Editar, remover ou desativar uma predefinição de imagem {#editing-removing-or-deactivating-an-image-preset}
 
-1. Clique em **Configuração** &gt; Predefinições **de imagem**.
+1. Clique em **Configuração** > Predefinições **de imagem**.
 1. Na tela Predefinições de imagem, selecione uma predefinição na tabela e execute um dos procedimentos a seguir:
 
    * Clique em **Editar** e especifique novas opções na caixa de diálogo Editar predefinição.
@@ -279,15 +282,15 @@ Consulte também perfis [](icc-profiles.md#icc_profiles)ICC.
 
 ## Ativar ou desativar predefinições de vídeo adaptáveis {#activating-or-deactivating-adaptive-video-presets}
 
-O Dynamic Media Classic oferece predefinições de codificação de vídeo adaptável. É uma lista mestre de predefinições que combina predefinições de vídeo adaptativo 16:9 e predefinições de vídeo adaptativo 4:3 em um único grupo. Essas predefinições predefinidas refletem as configurações de codificação mais comuns e são otimizadas para reprodução em dispositivos móveis, tablets e desktops de destino.
+Predefinições de codificação de vídeo adaptável do Dynamic Media Classic oferta. É uma lista mestre de predefinições que combina predefinições de vídeo adaptável 16:9 e predefinições de vídeo adaptativo 4:3 em um único grupo. Essas predefinições predefinidas refletem as configurações de codificação mais comuns e são otimizadas para reprodução em dispositivos móveis, tablets e desktops públicos alvos.
 
-Somente as predefinições de codificação "Vídeo adaptativo" são ativadas (ativadas ou "ativadas") por padrão. Você pode desativá-la, se desejar. As predefinições de Vídeo adaptativo inativo não aparecem como uma opção selecionável na seção eVideo da caixa de diálogo Opções de carregamento de trabalho.
+Somente as predefinições de codificação &quot;Vídeo adaptativo&quot; são ativadas (ativadas ou &quot;ativadas&quot;) por padrão. Você pode desativá-la, se desejar. As predefinições de Vídeo adaptativo inativo não aparecem como uma opção selecionável na seção eVideo da caixa de diálogo Opções de carregamento de trabalho.
 
 Consulte [Carregamento e codificação de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **Para ativar ou desativar predefinições de vídeo adaptáveis**
 
-1. Perto do canto superior direito do Scene7 Publishing System, clique em **Configuração** &gt; Configuração **** do aplicativo &gt; Predefinições **de** vídeo &gt; Predefinições **de vídeo** adaptáveis.
+1. Perto do canto superior direito do Scene7 Publishing System, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **de** vídeo > Predefinições **de vídeo** adaptáveis.
 1. Na página Predefinições de vídeo adaptáveis, desmarque a caixa de seleção ao lado de um nome predefinido para remover a predefinição da lista Opções de eVideo na caixa de diálogo Carregar opções de trabalho.
 1. Clique em **Fechar**.
 
@@ -297,29 +300,29 @@ Para escolher uma predefinição de codificação, no canto inferior direito da 
 
 >[!NOTE]
 >
->Com exceção do "Vídeo adaptativo", que está ativado por padrão, talvez você não veja todas as outras predefinições de codificação de vídeo adaptável ou de vídeo único na caixa de diálogo Opções de trabalho de upload. Os administradores do Dynamic Media Classic determinam quais predefinições de codificação de vídeo estão visíveis na caixa de diálogo Carregar opções de trabalho.
+>Com exceção do &quot;Vídeo adaptativo&quot;, que está ativado por padrão, talvez você não veja todas as outras predefinições de codificação de vídeo adaptável ou de vídeo único na caixa de diálogo Opções de trabalho de upload. Os administradores do Dynamic Media Classic determinam quais predefinições de codificação de vídeo estão visíveis na caixa de diálogo Carregar opções de trabalho.
 
 * Escolha entre as seguintes predefinições de codificação de vídeo adaptável ou de codificação única:
 
    **Vídeo adaptativo 16:9**
 
-   Crie vídeos com proporção de 16:9 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android) e tablets (iPad, Android), otimizados com resolução e taxa de bits que melhor correspondam à velocidade de conexão do visualizador.
+   Crie vídeos com proporção de 16:9 para delivery para desktops, dispositivos móveis (iPhone, iPad, Android) e tablets (iPad, Android), otimizados com resolução e taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
 
    **Vídeo adaptável 4:3**
 
-   Crie vídeos com proporção de 4:3 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android) e tablets (iPad, Android), otimizados com a resolução e a taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
+   Crie vídeos com proporção de 4:3 para desktops, dispositivos móveis (iPhone, iPad, Android) e tablets (iPad, Android), otimizados com resolução e taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
 
    **Vídeo adaptável**
 
-   Uma única predefinição de codificação que funciona com qualquer proporção para criar vídeos para entrega em dispositivos móveis, tablets e desktops. Os vídeos de origem carregados codificados com essa predefinição são definidos com uma altura fixa. Entretanto, a largura é dimensionada automaticamente para preservar a proporção do vídeo.
+   Uma única predefinição de codificação que funciona com qualquer proporção para criar vídeos para delivery, tablet e desktop. Os vídeos de origem carregados que são codificados com essa predefinição são definidos com uma altura fixa. Entretanto, a largura é dimensionada automaticamente para preservar a proporção do vídeo.
 
-   Essa flexibilidade de ter uma "Autoescala" também está disponível por padrão quando você cria sua própria predefinição de codificação de vídeo personalizada.
+   Essa flexibilidade de ter uma &quot;Escala automática&quot; também está disponível por padrão quando você cria sua própria predefinição de codificação de vídeo personalizada.
 
    Consulte [Adicionar ou editar uma predefinição](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset)de codificação de vídeo.
 
    **Codificação de vídeo adaptável (16:9 ou 4:3)**
 
-   Crie vídeos com proporção de 16:9 e 4:3 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android) e tablets (iPad, Android), otimizados com resolução e taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
+   Crie vídeos com proporção de tela de 16:9 e 4:3 para desktops, dispositivos móveis (iPhone, iPad, Android) e tablets (iPad, Android), otimizados com resolução e taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
 
    Consulte Codificação de vídeo [adaptativa (16:9 ou 4:3) predefinições](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)de vídeo.
 
@@ -327,19 +330,19 @@ Para escolher uma predefinição de codificação, no canto inferior direito da 
 
    >[OBSERVAÇÃO]
    >
-   >Para fornecer vídeo para iPads, você pode escolher uma predefinição de codificação móvel ou uma predefinição de codificação de tablet. As predefinições de tablet são projetadas especialmente para o iPad, geralmente com maior resolução e qualidade para aproveitar o tamanho de tela e a conexão de largura de banda maiores. Fornecer arquivos de vídeo codificados com uma predefinição de Tablet requer que você inclua o código de detecção de dispositivo no site ou aplicativo móvel. Esse código alterna entre uma experiência de vídeo em iPhone ou iPad, dependendo do dispositivo de reprodução. Escolher uma predefinição de Dispositivo móvel para fornecer arquivos de vídeo ao iPad é um fluxo de trabalho mais simplificado. O motivo é que você pode usar o mesmo arquivo de vídeo para iPhones e iPads. Entretanto, a qualidade é padronizada para a experiência de iPhone com resolução mais baixa.
+   >Para fornecer vídeo para iPads, você pode escolher uma predefinição de codificação móvel ou uma predefinição de codificação de tablet. As predefinições de tablet são projetadas especialmente para o iPad, geralmente com maior resolução e qualidade para aproveitar o tamanho de tela e a conexão de largura de banda maiores. Fornecer arquivos de vídeo codificados com uma predefinição de Tablet requer que você inclua o código de detecção de dispositivo no seu site ou aplicativo móvel. Esse código alterna entre uma experiência de vídeo em iPhone ou iPad, dependendo do dispositivo de reprodução. Escolher uma predefinição de Dispositivo móvel para fornecer arquivos de vídeo ao iPad é um fluxo de trabalho mais simplificado. O motivo é que você pode usar o mesmo arquivo de vídeo para iPhones e iPads. Entretanto, a qualidade é padronizada para a experiência de iPhone com resolução mais baixa.
 
    * No grupo Predefinições de codificação, na lista suspensa Classificar predefinições de codificação, selecione Nome ou Tamanho para classificar predefinições por nome ou tamanho de resolução.
    * Escolha uma predefinição de codificação com base no tamanho e largura de banda da resolução com os quais você planeja reproduzir o vídeo.
    * É possível selecionar a Codificação de vídeo adaptável e uma ou mais predefinições de codificação por vídeo. Por exemplo, você pode codificar um arquivo para desktop e dispositivo móvel em um único trabalho de upload.
 
-Após clicar em **Iniciar upload**, o arquivo de vídeo mestre original será carregado e os arquivos codificados serão gerados a partir do arquivo mestre.
+Após clicar em Upload **de** Start, o arquivo de vídeo mestre original será carregado e os arquivos codificados serão gerados a partir do arquivo mestre.
 
 ### Sobre a codificação de opções predefinidas {#about-encoding-preset-options}
 
 Os parâmetros das opções predefinidas de codificação são os seguintes:
 
-**Velocidade** de conexão de destino A velocidade de conexão com a Internet do usuário final de destino.
+**Velocidade** da conexão do Público alvo A velocidade da conexão com a Internet do usuário final alvo.
 
 **Sufixo** de arquivo codificado O sufixo anexado ao arquivo de vídeo codificado para fins de identificação.
 
@@ -355,11 +358,11 @@ As tabelas a seguir mostram as práticas recomendadas para selecionar predefini�
 
 ### Vídeo adaptativo (padrão) {#adaptive-video-default}
 
-Uma predefinição de codificação que funciona com qualquer proporção para permitir que você crie vídeos para entrega em dispositivos móveis, tablets e desktops. Os vídeos de origem carregados que são codificados usando essa predefinição (padrão e prática recomendada) são definidos para uma altura fixa, enquanto a largura é dimensionada automaticamente para preservar a proporção do vídeo.
+Uma predefinição de codificação que funciona com qualquer proporção para permitir que você crie vídeos para delivery para dispositivos móveis, tablets e desktops. Os vídeos de origem carregados que são codificados usando essa predefinição (padrão e prática recomendada) são definidos para uma altura fixa, enquanto a largura é dimensionada automaticamente para preservar a proporção do vídeo.
 
 **Vídeo adaptativo (padrão)**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (kbps) |  Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recomendações |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual à fonte | 64 | Para dispositivos móveis (iPhone, iPad, Android) |
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à fonte | 96 | Para tablet (iPad, Android) |
@@ -367,16 +370,16 @@ Uma predefinição de codificação que funciona com qualquer proporção para p
 
 ### Predefinições de vídeo da Codificação de vídeo adaptativa (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
-Essas predefinições de codificação de vídeo adaptáveis combinam uma série de predefinições de codificação individuais que são automaticamente selecionadas para você com base na proporção do vídeo que você carregou. Por exemplo, se você fizer upload de um vídeo 4:3, ele será automaticamente codificado usando todas as cinco predefinições 4:3 encontradas na lista principal predefinida na opção **Adaptive Video Encoding (16:9 ou 4:3)** .
+Essas predefinições de codificação de vídeo adaptáveis combinam uma série de predefinições de codificação individuais que são automaticamente selecionadas para você com base na proporção do vídeo que você carregou. Por exemplo, se você carregar um vídeo 4:3, ele será automaticamente codificado usando todas as cinco predefinições 4:3 encontradas na lista predefinida principal na opção **Adaptive Video Encoding (16:9 ou 4:3)** .
 
 Para obter informações sobre parâmetros de opções de codificação, consulte [Sobre as opções](application-setup.md#about_encoding_preset_options)predefinidas de codificação.
 
 **Predefinições de codificação de vídeo adaptável (16:9 ou 4:3)**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão de destino (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (kbps) |  Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recomendações |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à fonte | 64 | Baixa resolução, 3G |
-| 2 | 4:3, 384 x 288 px, móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à fonte | 64 | Baixa resolução, 3G |
+| 2 | 4:3, 384x288px, móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 3 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Igual à fonte | 64 | Resolução média, 3G |
 | 4 | 4:3, 384 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384x288 | Igual à fonte | 64 | Resolução média, 3G |
 | 5 | 16:9, 640 x 360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640x360 | Igual à fonte | 80 | Resolução média, WiFi |
@@ -394,7 +397,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 **H264 Main 3.2 - AAC de áudio, extensão de arquivo MP4**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão de destino (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (Kbps) |  Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recomendações |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual à fonte | 64 | Baixa resolução widescreen |
 | 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | Igual à fonte | 80 | Resolução widescreen média |
@@ -407,7 +410,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 **OGG Theora Vorbis - Extensão do arquivo OGV**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão de destino (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (Kbps) |  Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recomendações |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Igual à fonte | 64 | Baixa resolução widescreen |
 | 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Igual à fonte | 80 | Resolução widescreen média |
@@ -426,7 +429,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 **Linha de base H264 2.1 - AAC de áudio, extensão de arquivo MP4**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Target (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura do pixel | Fps | Taxa de bits de áudio (Kbps) |  Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura do pixel | Fps | Taxa de bits de áudio (Kbps) | Recomendações |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512 x 288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 2 | 16:9, 512 x 288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Igual à fonte | 64 | Resolução média, 3G |
@@ -435,9 +438,9 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 | 5 | 16:9, 512 x 288, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | Igual à fonte | 96 | Alta resolução, Wi-Fi |
 | 6 | 4:3, 384 x 288, Móvel (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 7 | 4:3, 384 x 288, Móvel (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | Igual à fonte | 64 | Resolução média, 3G |
-| 8 | 4:3, 448 x 336, Móvel (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Igual à fonte | 80 | Resolução média, Wi-Fi |
-| 9 | 4:3, 448 x 336, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | Igual à fonte | 80 | Alta resolução, Wi-Fi |
-| 10 | 4:3, 448 x 336, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | Igual à fonte | 96 | Alta resolução, Wi-Fi |
+| 8 | 4:3, 448x336, Móvel (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Igual à fonte | 80 | Resolução média, Wi-Fi |
+| 9 | 4:3, 448x336, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | Igual à fonte | 80 | Alta resolução, Wi-Fi |
+| 10 | 4:3, 448x336, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | Igual à fonte | 96 | Alta resolução, Wi-Fi |
 
 ## Predefinições do visualizador {#viewer-presets}
 
@@ -445,13 +448,13 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 >
 >**Aviso** de Fim da Vida Útil dos Visualizadores Flash - A partir de 31 de janeiro de 2017, o Adobe Scene7 Publishing System encerrou oficialmente o suporte para a plataforma do visualizador Flash. Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-Uma predefinição *do* visualizador é uma coleção de configurações que determinam como os usuários visualizam ativos de mídia avançada em suas telas de computadores e dispositivos móveis. Como administrador, você pode criar Predefinições do visualizador. As configurações estão disponíveis para uma matriz de opções de configuração do visualizador. Por exemplo, é possível alterar o tamanho de exibição do visualizador, o comportamento de zoom, os esquemas de cores, as bordas e as fontes.
+Uma predefinição *do* visualizador é uma coleção de configurações que determinam como os usuários visualizações ativos de mídia avançada em suas telas de computadores e dispositivos móveis. Como administrador, você pode criar Predefinições do visualizador. As configurações estão disponíveis para uma matriz de opções de configuração do visualizador. Por exemplo, é possível alterar o tamanho de exibição do visualizador, o comportamento de zoom, os esquemas de cores, as bordas e as fontes.
 
 Como prática recomendada, use visualizadores de vídeo HTML5 do Dynamic Media Classic. As predefinições usadas em visualizadores de vídeo HTML5 são players de vídeo robustos. Ao combinar em um único player a capacidade de projetar os componentes de reprodução usando HTML5 e CSS, ter reprodução integrada e usar streaming adaptável e progressivo dependendo da capacidade do navegador, você estende o alcance do conteúdo de mídia avançada para usuários de desktop, tablet e dispositivos móveis, além de garantir uma experiência de vídeo otimizada.
 
-Consulte [Sobre visualizadores](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) HTML5 no Guia de referência do Adobe Viewers.
+Consulte [Sobre visualizadores](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 no Guia de referência do Adobe Viewers.
 
-Consulte Matriz de compatibilidade predefinida do visualizador [do Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Consulte Matriz de compatibilidade predefinida do [Dynamic Media Classic Viewer](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 Consulte [Prática recomendada: Uso do visualizador](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)de vídeo HTML5.
 
@@ -461,7 +464,7 @@ Consulte também Exemplos [da biblioteca de referência de visualizadores](https
 
 ### Suporte do visualizador para páginas da Web responsivas projetadas {#viewer-support-for-responsive-designed-web-pages}
 
-Páginas da Web diferentes têm necessidades diferentes. Às vezes, você desejará uma página da Web que forneça um link que abra o Visualizador HTML5 em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout estático. Ou pode ser "responsivo" e exibido de forma diferente em dispositivos diferentes ou para tamanhos diferentes de janelas do navegador. Para acomodar essas necessidades, os visualizadores HTML5 que vêm com o Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
+Páginas da Web diferentes têm necessidades diferentes. Às vezes, você desejará uma página da Web que forneça um link que abra o Visualizador HTML5 em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout estático. Ou pode ser &quot;responsivo&quot; e exibido de forma diferente em dispositivos diferentes ou para tamanhos diferentes de janelas do navegador. Para acomodar essas necessidades, os Visualizadores HTML5 fornecidos com o Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
 
 Consulte [Biblioteca de imagens estáticas responsivas](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)na Ajuda *da API de disponibilização de imagens da* Adobe para obter mais informações sobre como incorporar visualizadores responsivos às suas páginas da Web.
 
@@ -473,21 +476,21 @@ Os administradores podem criar e personalizar os seguintes tipos de predefiniç�
 
 **Visualizador** do conjunto de amostras Exibe uma imagem em uma cor, material, textura, acabamento ou malha diferente. Os usuários clicam em uma miniatura para ver as variações na imagem.
 
-**Visualizador** do conjunto de mídia mista Exibe tipos diferentes de mídia em um visualizador. Você pode incluir Conjuntos de amostras, Conjuntos de rotação, imagens e vídeos. É possível configurar guias para conter tipos diferentes de conteúdo, como uma guia para conjuntos de imagens e uma guia para vídeos. Os vídeos reproduzidos de um Conjunto de mídia mista usam um visualizador de vídeo padrão com controles de linha do tempo e vídeo, como Parar, Pausar, Retroceder e Reproduzir. Quando você configura uma predefinição do visualizador de conjunto de mídia mista, especifica quais visualizadores deseja usar para os diferentes tipos de ativos no Conjunto de mídias mistas. Você também pode usar o Visualizador de grade ou o Visualizador de carrossel para exibir um Conjunto de mídia mista.
+**Visualizador** do conjunto de mídia mista Exibe tipos diferentes de mídia em um visualizador. Você pode incluir Conjuntos de amostras, Conjuntos de rotação, imagens e vídeos. É possível configurar guias para conter tipos diferentes de conteúdo, como uma guia para conjuntos de imagens e uma guia para vídeos. Os vídeos reproduzidos de um Conjunto de mídia mista usam um visualizador de vídeo padrão com controles de linha do tempo e vídeo, como Parar, Pausar, Retroceder e Reproduzir. Quando você configura uma predefinição do visualizador de conjunto de mídia mista, especifica quais visualizadores deseja usar para os diferentes tipos de ativos no Conjunto de mídias mistas. Você também pode usar o Visualizador de grade ou o Visualizador de carrossel para visualização de um conjunto de mídia mista.
 
 **Visualizador** de conjunto de rotação Fornece várias visualizações de uma imagem para que os usuários possam girar o objeto para examinar os diferentes lados e ângulos.
 
 **Visualizador** de vídeo Exibe vídeos usando as dimensões de resolução do arquivo de origem ou um tamanho personalizado. O Dynamic Media Classic vem com muitas predefinições de visualizador predefinidas para reprodução de vídeo e, se você for um administrador, poderá criar predefinições personalizadas do Visualizador de vídeo. Há mais de uma dúzia de configurações diferentes para configurar o Visualizador de vídeo. Você pode configurar seu tamanho, a cor do primeiro plano e do plano de fundo, os controles de áudio e vídeo, a barra de progresso, a interface do usuário com a pele, os recursos sociais e a Ajuda.
 
-**Visualizadores** de zoom oferecem uma opção de três tipos de visualizador de zoom:
+**Visualizadores** de zoom Ofertas três tipos de visualizador de zoom:
 
 **Zoom no visualizador** Permite que os usuários aumentem o zoom na área clicando nela. Eles podem clicar em controles para aumentar o zoom, diminuir o zoom e redefinir a imagem para seu tamanho padrão.
 
-**Visualizador de zoom: Reverter** Exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção para a área que desejam visualizar.
+**Visualizador de zoom: Reverter** Exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção para a área que desejam visualização.
 
 Ao determinar o uso total da largura de banda para esse visualizador, considere que a imagem principal e a imagem flyout são servidas no visualizador. O tamanho da imagem principal (Largura e Altura do palco) e o Fator de zoom determinam o tamanho da imagem de flyout. Para impedir que o tamanho do arquivo de menu suspenso se torne muito grande, equilibre estes dois valores: se você tiver um tamanho de imagem principal grande, abaixe o valor do Fator de zoom. (A Largura do Flyout e a Altura do Flyout determinam o tamanho da janela do flyout, mas não o tamanho da imagem do flyout fornecida para o visualizador.)
 
-Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com o Fator de zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
+Por exemplo, se o tamanho da sua imagem principal for 350 por 350 pixels, com um Fator de zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 
 ### Matriz de compatibilidade do Dynamic Media Classic Viewer Preset {#scene-viewer-preset-compatibility-matrix}
 
@@ -495,13 +498,13 @@ Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com o Fato
 
 Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-A tabela a seguir identifica as predefinições do visualizador do Dynamic Media Classic disponíveis no momento. A tabela também especifica a compatibilidade do visualizador com dispositivos desktop e móveis e a tecnologia usada para cada visualizador.
+A tabela a seguir identifica as predefinições do Dynamic Media Classic Viewer atualmente disponíveis. A tabela também especifica a compatibilidade do visualizador com dispositivos desktop e móveis e a tecnologia usada para cada visualizador.
 
 Consulte também Exemplos [da biblioteca de referência de visualizadores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)da Adobe.
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para visualizadores, consulte as Notas de versão dos visualizadores.
 
-Consulte Notas [de versão de referência do](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Adobe Viewers.
+Consulte Notas [de versão de referência dos visualizadores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)da Adobe.
 
 |  | Tecnologia do visualizador | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Tablet Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -540,9 +543,9 @@ Consulte Notas [de versão de referência do](https://marketing.adobe.com/resour
 
 **Visualizadores de eVideo**
 
-O Dynamic Media Classic suporta reprodução de vídeo móvel para vídeo MP4 H.264.
+O Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264.
 
-* Você pode encontrar dispositivos Blackberry compatíveis com este formato de vídeo no seguinte endereço: Formatos de vídeo [suportados no Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Você pode encontrar dispositivos Blackberry compatíveis com este formato de vídeo no seguinte endereço: [Formatos de vídeo suportados no Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * Você também pode encontrar dispositivos do Windows compatíveis com este formato de vídeo no seguinte:Formatos de vídeo[suportados no Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | Tecnologia do visualizador | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Tablet Android | Blackberry Smartphone | Windows Phone |
@@ -569,9 +572,9 @@ A tabela a seguir identifica os gestos do visualizador móvel compatíveis com d
 
 ### Sobre a tela Predefinição do visualizador {#about-the-viewer-preset-screen}
 
-Crie e gerencie as predefinições do visualizador na tela Predefinições do visualizador. Para abrir essa tela, clique em **Configuração** &gt; Predefinições **do visualizador**.
+Crie e gerencie as predefinições do visualizador na tela Predefinições do visualizador. Para abrir essa tela, clique em **Configuração** > Predefinições **do visualizador**.
 
-A tela Predefinições do visualizador oferece ferramentas para realizar estas tarefas:
+A tela Predefinições do visualizador oferta as ferramentas para fazer estas tarefas:
 
 **Adicionar uma predefinição** Clique em Adicionar e faça escolhas na caixa de diálogo Adicionar predefinição do visualizador.
 
@@ -587,12 +590,12 @@ Consulte [Adicionar e editar predefinições](application-setup.md#adding_and_ed
 
 Consulte [Exportar uma predefinição](application-setup.md#exporting_an_html5_viewer_preset)do Visualizador HTML5.
 
-**Filtrando a lista** Predefinição do visualizador Use estas ferramentas para filtrar a lista:
+**Filtrando a lista** predefinida do visualizador Use estas ferramentas para filtrar a lista:
 
-* Abra a lista suspensa **Ativo/Inativo** e escolha uma opção para mostrar predefinições ativas, predefinições inativas ou todas as predefinições.
+* Abra a lista suspensa **Ativa/Inativa** e escolha uma opção para mostrar predefinições ativas, predefinições inativas ou todas as predefinições.
 * Abra a lista suspensa **Visualizador** e escolha uma opção para ver somente visualizadores de determinado tipo. Escolha **Todos os visualizadores** para ver todos os visualizadores.
 
-**Predefinições** de classificação Clique no cabeçalho de uma coluna (Ativo, Tipo, Predefinido ou Plataforma) para classificar a lista em uma coluna. Clique no cabeçalho de uma coluna pela segunda vez para classificar a lista em ordem decrescente (ou crescente).
+**Predefinições** de classificação Clique no cabeçalho de uma coluna (Ativo, Tipo, Predefinido ou Platform) para classificar a lista em uma coluna. Clique no cabeçalho de uma coluna pela segunda vez para classificar a lista em ordem decrescente (ou crescente).
 
 **Ativando e desativando predefinições** Selecione uma predefinição e clique na opção Ativa para ativá-la ou desativá-la.
 
@@ -600,7 +603,7 @@ Consulte [Ativação ou desativação de predefinições](application-setup.md#a
 
 >[!NOTE]
 >
->Clique em Visualizar no lado direito da tela Predefinições do visualizador para ver a aparência de um ativo na predefinição do visualizador selecionada. Para ver um ativo diferente, clique em Procurar na tela Predefinições do visualizador e selecione um ativo diferente na caixa de diálogo Selecionar visualização de ativo.
+>Clique em Pré-visualização no lado direito da tela Predefinições do visualizador para ver a aparência de um ativo na predefinição do visualizador selecionada. Para ver um ativo diferente, clique em Procurar na tela Predefinições do visualizador e selecione um ativo diferente na caixa de diálogo Selecionar Pré-visualização do ativo.
 
 ### Adicionar e editar predefinições do visualizador {#adding-and-editing-viewer-presets}
 
@@ -610,9 +613,9 @@ Consulte [Exportar uma predefinição](application-setup.md#exporting_an_html5_v
 
 **Para adicionar e editar predefinições do visualizador**
 
-1. Perto do canto superior direito do Scene7 Publishing System, clique em **Configuração** &gt; Predefinições **do visualizador**.
+1. Perto do canto superior direito do Scene7 Publishing System, clique em **Configuração** > Predefinições **do visualizador**.
 
-   Você pode filtrar na lista de predefinições. Por exemplo, para ver somente predefinições para Visualizadores de vídeo, selecione Visualizador de vídeo no menu suspenso Visualizadores na barra de ferramentas logo acima da tabela.
+   Você pode filtrar a lista de predefinições. Por exemplo, para ver somente predefinições para Visualizadores de vídeo, selecione Visualizador de vídeo no menu suspenso Visualizadores na barra de ferramentas logo acima da tabela.
 
 1. Na tela Predefinições do visualizador, adicione ou edite a predefinição do visualizador na tela Predefinições do visualizador.
 
@@ -631,7 +634,7 @@ Consulte [Exportar uma predefinição](application-setup.md#exporting_an_html5_v
 
    >[OBSERVAÇÃO]
    >
-   >Escolha Igual à fonte para dimensionar automaticamente o Visualizador de vídeo para o tamanho de resolução do próprio vídeo codificado. Se você escolher essa opção, não será possível digitar Largura do palco e Altura do palco. Em vez disso, essas opções vêm do próprio vídeo. Se você escolher Igual à origem, defina a opção Tamanho da margem para refletir as dimensões da capa fora da área de reprodução do vídeo. Esse tamanho de margem é a altura e a largura do pixel dos controles de vídeo. Você pode usar a ilustração a seguir para ajudar a determinar os tamanhos de margens que deseja usar.*
+   >Escolha Igual à fonte para dimensionar automaticamente o Visualizador de vídeo para o tamanho de resolução do próprio vídeo codificado. Se você escolher essa opção, não será possível inserir a Largura do palco e a Altura do palco. Em vez disso, essas opções vêm do próprio vídeo. Se você escolher Igual à origem, defina a opção Tamanho da margem para refletir as dimensões da capa fora da área de reprodução do vídeo. Esse tamanho de margem é a altura e a largura do pixel dos controles de vídeo. Você pode usar a ilustração a seguir para ajudar a determinar os tamanhos de margens que deseja usar.*
 
    ![](assets/vs_video_viewer_configure_margin.png)
 
@@ -657,7 +660,7 @@ Observe que todos os arquivos CSS predefinidos padrão e predefinidos do visuali
 https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha
 ```
 
-1. Clique em **Configuração** &gt; Predefinições **do visualizador**.
+1. Clique em **Configuração** > Predefinições **do visualizador**.
 1. Na barra de ferramentas Predefinições do visualizador, na segunda lista suspensa à esquerda, selecione **HTML5**.
 1. Na terceira lista suspensa à esquerda, selecione **Todos os visualizadores**.
 1. Selecione a predefinição do visualizador que você deseja usar como a base para uma nova predefinição do visualizador HTML5.
@@ -669,9 +672,9 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 1. Abra o arquivo CSS em um editor de CSS, faça as alterações e salve o arquivo.
 1. Carregue o arquivo CSS no Scene7 Publishing System.
 
-   Consulte [Carregamento de arquivos](uploading-files.md#uploading_files).
+   Consulte [Upload de arquivos](uploading-files.md#uploading_files).
 
-1. Publique o arquivo CSS no servidor de imagem de Dynamic Media.
+1. Publique o arquivo CSS no Dynamic Media Image Server.
 
    Consulte [Publicação de arquivos](publishing-files.md#publishing_files).
 
@@ -681,13 +684,13 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 ### Ativar ou desativar as predefinições do visualizador {#activating-or-deactivating-viewer-presets}
 
-Para criar um URL para mostrar ativos, os usuários abrem a lista suspensa Predefinições na caixa de diálogo Visualizar, selecionam uma predefinição do visualizador e clicam em Copiar URL (consulte [Copiar o URL de uma predefinição](application-setup.md#copying_the_url_of_a_viewer_preset)do visualizador). Esta lista de predefinições oferece predefinições do visualizador que os administradores adicionam e gerenciam na tela de predefinições do visualizador. Por exemplo, todas as predefinições ativas do eCatalog Viewer aparecem na lista suspensa Predefinições na caixa de diálogo Visualizar quando um usuário visualiza um eCatalog.
+Para criar um URL para mostrar ativos, os usuários abrem a lista suspensa Predefinições na caixa de diálogo Pré-visualização, selecionam uma predefinição do visualizador e clicam em Copiar URL (consulte [Copiar o URL de uma predefinição](application-setup.md#copying_the_url_of_a_viewer_preset)do visualizador). Isso predefine as predefinições do visualizador do lista oferta que os administradores adicionam e gerenciam na tela Predefinições do visualizador. Por exemplo, todas as predefinições ativas do eCatalog Viewer aparecem na lista suspensa Predefinições na caixa de diálogo Pré-visualização quando um usuário pré-visualização um eCatalog.
 
-A menos que você desative Predefinições do visualizador na tela Predefinições do visualizador, a lista suspensa Predefinições na caixa de diálogo Visualizar pode ficar lotada.
+A menos que você desative Predefinições do visualizador na tela Predefinições do visualizador, a lista suspensa Predefinições na caixa de diálogo Pré-visualização pode ficar lotada.
 
 **Para ativar ou desativar as predefinições do visualizador**
 
-1. Escolha **Configuração** &gt; Predefinições **do** visualizador para abrir a tela Predefinições do visualizador.
+1. Escolha **Configuração** > Predefinições **do** visualizador para abrir a tela Predefinições do visualizador.
 1. Selecione ou desmarque Opções ativas para ativar ou desativar as predefinições do visualizador.
 
 ### Copiar o URL de uma predefinição do visualizador {#copying-the-url-of-a-viewer-preset}
@@ -701,14 +704,14 @@ O URL é copiado para a Área de transferência. Você pode usá-lo conforme nec
 1. Selecione o ativo no Painel de navegação.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Exibição** de grade. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição detalhada. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Exibição** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Visualizar** &gt; Lista **** do visualizador.
+   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
+   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
    Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** &gt; Lista **do** visualizador.
+   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
    Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em Exibição **de** Grade, Exibição **de** Lista ou Exibição **** Detalhada. Na mesma barra de ferramentas, clique em **Visualizar** &gt; Lista **** do visualizador.
+   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
    Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
 ### Copiar o código incorporado de uma predefinição do visualizador {#copying-the-embed-code-of-a-viewer-preset}
@@ -722,14 +725,14 @@ A edição do código não é permitida na caixa de diálogo Incorporar código.
 1. Selecione o ativo no Painel de navegação de ativos.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Exibição** de grade. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição detalhada. No painel URLs à direita, clique em **Incorporar código**.
-   * Clique em **Exibição** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Visualizar** &gt; Lista **** do visualizador.
+   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs à direita, clique em **Incorporar código**.
+   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
    Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** &gt; Lista **do** visualizador.
+   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
    Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
 
-   * Clique em Exibição **de** Grade, Exibição **de** Lista ou Exibição **** Detalhada. Na mesma barra de ferramentas, clique em **Visualizar** &gt; Lista **** do visualizador.
+   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
    Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
 
 1. Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
@@ -737,10 +740,10 @@ A edição do código não é permitida na caixa de diálogo Incorporar código.
 
 ## Configuração de visualizadores padrão {#configuring-default-viewers}
 
-Você pode usar Visualizadores padrão para configurar o visualizador padrão que está associado a um ativo ao usar Visualizar no Scene7 Publishing System. Você pode configurar a experiência de visualização padrão para os seguintes tipos de ativos:
+Você pode usar Visualizadores padrão para configurar o visualizador padrão associado a um ativo quando você usa a Pré-visualização no Scene7 Publishing System. Você pode configurar a experiência de pré-visualização padrão para os seguintes tipos de ativos:
 
 * Imagem
-*  Vídeo
+* Vídeo
 * SpinSet
 * Catálogo
 * ImageSet
@@ -750,84 +753,84 @@ Você pode usar Visualizadores padrão para configurar o visualizador padrão qu
 **Para configurar visualizadores padrão**
 
 1. Na lista suspensa Configuração, clique em Configuração **do aplicativo**.
-1. Na janela Configuração, no painel esquerdo, expanda Configuração **do** aplicativo &gt; **Visualizadores**
+1. Na janela Configuração, no painel esquerdo, expanda Configuração **do** aplicativo > **Visualizadores**
 1. Clique em Visualizadores **padrão**.
-1. Na janela Visualizadores padrão, na lista suspensa para cada tipo de ativo, selecione o visualizador que você deseja associar à visualização do ativo.
+1. Na janela Visualizadores padrão, na lista suspensa para cada tipo de ativo, selecione o visualizador que você deseja associar à pré-visualização do ativo.
 1. No canto inferior direito da janela Visualizadores padrão, clique em **Salvar configurações**.
 1. No canto inferior direito da janela Configuração, clique em **Fechar** para retornar à janela Ativo.
 
-## Exibições de metadados {#metadata-views}
+## Visualizações de metadados {#metadata-views}
 
-*Os metadados* são informações padronizadas sobre um ativo. Você pode usar metadados para simplificar o fluxo de trabalho, organizar os ativos e aprimorar a pesquisa. O Dynamic Media Classic suporta o padrão IPTC (International Press Telecommunications Council) e o padrão XMP (extensible metadata platform). Antes de os usuários visualizarem ou inserirem metadados sobre um ativo na exibição Detalhe, eles podem abrir o menu Visualizações de metadados e escolher o conjunto de campos de metadados que desejam visualizar ou usar para descrever o ativo.
+*Os metadados* são informações padronizadas sobre um ativo. Você pode usar metadados para simplificar o fluxo de trabalho, organizar os ativos e aprimorar a pesquisa. O Dynamic Media Classic suporta o padrão IPTC (International Press Telecommunications Council) e o padrão XMP (extensible metadata platform). Antes de os usuários visualizações ou inserirem metadados sobre um ativo em visualização Detalhada, eles podem abrir o menu Visualizações de metadados e escolher o conjunto de campos de metadados que desejam visualização ou usar para descrever o ativo.
 
-O Dynamic Media Classic vem com exibições de metadados predefinidas, e os administradores podem criar suas próprias Exibições de metadados para que os usuários escolham quando inserem metadados.
+O Dynamic Media Classic vem com Visualizações de Metadados predefinidas, e os administradores podem criar suas próprias Visualizações de Metadados para que os usuários escolham quando inserem metadados.
 
-### Criação de uma exibição de metadados {#creating-a-metadata-view}
+### Criação de uma Visualização de metadados {#creating-a-metadata-view}
 
-1. Clique em **Configuração** &gt; Configuração **** do aplicativo &gt; **Metadados** &gt; Exibições **de** metadados.
+1. Clique em **Configuração** > Configuração **** do aplicativo > **Metadados** > Visualizações **** de metadados.
 1. Clique em **Adicionar**.
-1. No campo de texto Nome da predefinição, digite um nome para a exibição.
-1. (Opcional) Marque **Tornar padrão** para tornar essa exibição a exibição que os usuários veem quando abrem o painel Metadados na Exibição detalhada.
-1. (Opcional) Selecione **Incluir UDF** para incluir campos definidos pelo usuário na exibição. Os campos definidos pelo usuário aparecem na parte superior do painel Metadados na Exibição detalhada.
-1. Selecione os campos que deseja exibir (clique em **Selecionar tudo** para selecionar todos os campos).
+1. No campo de texto Nome da predefinição, digite um nome para a visualização.
+1. (Opcional) Marque **Tornar padrão** para tornar essa visualização a  que os usuários veem quando abrem o painel Metadados na Visualização Detalhes.
+1. (Opcional) Selecione **Incluir UDF** para incluir campos definidos pelo usuário na visualização. Os campos definidos pelo usuário aparecem na parte superior do painel Metadados na Visualização Detalhe.
+1. Selecione os campos que deseja para a visualização (clique em **Selecionar tudo** para selecionar todos os campos).
 1. Clique em **Salvar**.
 
-   As categorias e os campos selecionados para a exibição aparecem no painel Visualização.
+   As categorias e os campos selecionados para a visualização são exibidos no painel Pré-visualização.
 
-### Gerenciamento de exibições de metadados {#managing-metadata-views}
+### Gerenciamento de Visualizações de metadados {#managing-metadata-views}
 
-1. Clique em **Configuração** &gt; Configuração **** do aplicativo &gt; **Metadados** &gt; Exibições **de** metadados.
+1. Clique em **Configuração** > Configuração **** do aplicativo > **Metadados** > Visualizações **** de metadados.
 1. Execute um dos procedimentos a seguir:
 
-   * Para visualizar uma exibição, selecione-a. Os campos na exibição aparecem no painel Visualização.
-   * Para editar uma exibição, selecione-a e clique em **Editar**. Em seguida, selecione ou desmarque os nomes dos campos no painel Visualização e marque ou desmarque a opção **Incluir UDF** .
-   * Para excluir uma exibição, selecione-a e clique em **Excluir**.
-   * Para tornar uma exibição o padrão, selecione-a e clique em **Tornar padrão**. A exibição padrão é aquela que os usuários veem quando abrem um ativo na exibição Detalhe e vão para o painel Metadados.
+   * Para pré-visualização de uma visualização, selecione-a. Os campos na visualização aparecem no painel Pré-visualização.
+   * Para editar uma visualização, selecione-a e clique em **Editar**. Em seguida, selecione ou cancele a seleção dos nomes dos campos no painel Pré-visualização e marque ou desmarque a opção **Incluir UDF** .
+   * Para excluir uma visualização, selecione-a e clique em **Excluir**.
+   * Para tornar uma visualização o padrão, selecione-a e clique em **Tornar padrão**. A visualização padrão é aquela que os usuários veem quando abrem um ativo em visualização Detalhada e vão para o painel Metadados.
 
 ## Predefinições de metadados {#metadata-presets}
 
-As predefinições de metadados fornecem aos administradores uma maneira de controlar e regular os metadados atribuídos aos ativos. Na exibição Detalhe, um usuário pode inserir metadados sobre um ativo em campos fornecidos para essa finalidade. Por exemplo, um usuário pode inserir um nome de proprietário, uma descrição de direitos autorais e um endereço. Para garantir que os usuários insiram essas informações de forma precisa e completa, é possível criar Predefinições de metadados. A escolha de uma predefinição de metadados na exibição Detalhada preenche os campos de metadados com valores predefinidos. Por exemplo, um nome de proprietário, uma descrição de direitos autorais e um endereço são inseridos automaticamente.
+As predefinições de metadados fornecem aos administradores uma maneira de controlar e regular os metadados atribuídos aos ativos. Na visualização Detalhe, um usuário pode inserir metadados sobre um ativo em campos fornecidos para essa finalidade. Por exemplo, um usuário pode digitar um nome de proprietário, uma descrição de direitos autorais e um endereço. Para garantir que os usuários insiram essas informações de forma precisa e completa, é possível criar Predefinições de metadados. A escolha de uma predefinição de metadados na visualização Detalhe preenche os campos de metadados com valores predefinidos. Por exemplo, um nome de proprietário, uma descrição de direitos autorais e um endereço são inseridos automaticamente.
 
-Crie uma predefinição de metadados para cada conjunto de valores de metadados que deseja que os usuários possam inserir automaticamente na exibição Detalhe para descrever um ativo.
+Crie uma predefinição de metadados para cada conjunto de valores de metadados que você deseja que os usuários possam inserir automaticamente na visualização Detalhe para descrever um ativo.
 
 ### Criação ou edição de uma predefinição de metadados {#creating-or-editing-a-metadata-preset}
 
-1. Clique em **Configuração** &gt; Configuração **** do aplicativo &gt; **Metadados** &gt; Predefinições **de metadados** .
+1. Clique em **Configuração** > Configuração **** do aplicativo > **Metadados** > Predefinições **de metadados** .
 1. Na tela Predefinições de metadados, execute um dos procedimentos a seguir:
 
-   * Para criar uma predefinição, clique em **Adicionar**. No campo de texto Nome do modelo de metadados, digite um nome para a predefinição e clique em Exibições **de** metadados e escolha uma exibição na lista suspensa (consulte Exibições [de](application-setup.md#metadata_views)metadados).
-   * Para editar uma predefinição existente, selecione-a na lista Predefinições de metadados e clique em **Editar**.
+   * Para criar uma predefinição, clique em **Adicionar**. No campo de texto Nome do modelo de metadados, digite um nome para a predefinição e clique em Visualizações **de** metadados e escolha uma visualização na lista suspensa (consulte Visualizações [de](application-setup.md#metadata_views)metadados).
+   * Para editar uma predefinição existente, selecione a predefinição na lista de predefinições de metadados e clique em **Editar**.
 
 1. Expanda os cabeçalhos que deseja incluir na predefinição e insira valores nos diferentes campos que deseja incluir na predefinição.
 1. Clique em **Salvar**.
 
-   As categorias e os campos selecionados para a predefinição aparecem no painel Visualização.
+   As categorias e os campos selecionados para a predefinição aparecem no painel Pré-visualização.
 
 ### Gerenciamento de predefinições de metadados {#managing-metadata-presets}
 
-1. Clique em **Configuração** &gt; Configuração **** do aplicativo &gt; **Metadados** &gt; Predefinições **de metadados**.
+1. Clique em **Configuração** > Configuração **** do aplicativo > **Metadados** > Predefinições **de metadados**.
 1. Execute um dos procedimentos a seguir:
 
-   * Para visualizar uma predefinição, selecione a predefinição que deseja visualizar. As informações predefinidas (categorias e campos) são exibidas na tela Visualizar.
+   * Para pré-visualização de uma predefinição, selecione a predefinição que deseja pré-visualização. As informações predefinidas (categorias e campos) são exibidas na tela de Pré-visualização.
    * Para excluir uma predefinição, selecione-a e clique em **Excluir**.
 
 ## Campos definidos pelo usuário {#user-defined-fields}
 
-Um Administrador do Media Portal ou um Administrador da empresa pode criar campos de metadados personalizados e definidos pelo usuário. Campos personalizados podem ajudar a organizar ativos no Scene7 Publishing System. Você pode marcar os campos como ativos, conforme necessário. Quando ativados, os nomes desses campos de metadados personalizados aparecem no painel Metadados na exibição Detalhe. Os usuários podem inserir informações nos campos de metadados definidos pelo usuário para descrever ativos. Os usuários também podem tornar um campo de metadados definido pelo usuário um critério em pesquisas.
+Um Administrador do Media Portal ou um Administrador de Empresas pode criar campos de metadados personalizados e definidos pelo usuário. Campos personalizados podem ajudá-lo a organizar ativos no Scene7 Publishing System. Você pode marcar os campos como ativos, conforme necessário. Quando ativados, os nomes desses campos de metadados personalizados são exibidos no painel Metadados na visualização Detalhe. Os usuários podem inserir informações nos campos de metadados definidos pelo usuário para descrever ativos. Os usuários também podem tornar um campo de metadados definido pelo usuário um critério em pesquisas.
 
-Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo de ativação de um ativo para uma inicialização ou venda específica. Você define um campo "ativação", com base no tipo *Data*. Em seguida, usando o painel **Metadados** na exibição **Detalhe** ou **Arquivo** &gt; **Editar informações**, você pode especificar quando o ativo é ativado. O Scene7 Publishing System verifica o status de publicação de um ativo e o histórico de publicação. Se não estiver dentro do tempo de ativação, o status de publicação será exibido como "Não publicado".
-
->[!NOTE]
->
->Para que os campos definidos pelo usuário apareçam no painel Metadados na exibição Detalhe, inclua campos definidos pelo usuário nas Exibições de metadados. Na tela Visualizações de metadados, selecione a opção Incluir UDF (campos definidos pelo usuário). Para obter mais informações, consulte Visualizações [de](application-setup.md#metadata_views)metadados.
+Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo de ativação de um ativo para uma inicialização ou venda específica. Você define um campo &quot;ativação&quot;, com base no tipo *Data*. Em seguida, usando o painel **Metadados** em visualização **detalhada** ou **Arquivo** > **Editar informações**, você pode especificar quando o ativo é ativado. O Scene7 Publishing System verifica o status de publicação de um ativo e o histórico de publicação. Se não estiver dentro do tempo de ativação, o status de publicação será exibido como &quot;Não publicado&quot;.
 
 >[!NOTE]
 >
->Para pesquisar ativos usando campos personalizados e definidos pelo usuário, clique em **Configuração** &gt; Configuração **** pessoal e selecione **Incluir UDFs na pesquisa**. Consulte Configuração [pessoal](personal-setup.md#personal_setup).
+>Para que os campos definidos pelo usuário sejam exibidos no painel Metadados em visualização de detalhes, inclua campos definidos pelo usuário nas Visualizações de metadados. Na tela Visualizações de metadados, selecione a opção Incluir UDF (campos definidos pelo usuário). Para obter mais informações, consulte Visualizações [de](application-setup.md#metadata_views)metadados.
+
+>[!NOTE]
+>
+>Para pesquisar ativos usando campos personalizados e definidos pelo usuário, clique em **Configuração** > Configuração **** pessoal e selecione **Incluir UDFs na pesquisa**. Consulte Configuração [pessoal](personal-setup.md#personal_setup).
 
 ### Criação de um campo de metadados definido pelo usuário {#creating-a-user-defined-metadata-field}
 
-1. Clique em **Configuração** &gt; Configuração **** do aplicativo &gt; **Metadados** &gt; Campos **definidos pelo** usuário.
+1. Clique em **Configuração** > Configuração **** do aplicativo > **Metadados** > Campos **definidos pelo** usuário.
 1. Clique em **Adicionar**
 1. Na caixa de diálogo Campo personalizado, defina as opções desejadas.
 
@@ -863,36 +866,36 @@ Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo 
 
 ### Gerenciar campos definidos pelo usuário {#manage-user-defined-fields}
 
-A tela Campos definidos pelo usuário oferece comandos para gerenciar campos de metadados personalizados e definidos pelo usuário.
+A tela Campos definidos pelo usuário oferta comandos para gerenciar campos de metadados personalizados e definidos pelo usuário.
 
-Somente um Administrador do Media Portal ou um Administrador da empresa pode gerenciar campos definidos pelo usuário.
+Somente um Administrador do Media Portal ou um Administrador de Empresas pode gerenciar campos definidos pelo usuário.
 
-Para abrir essa tela, clique em **Configuração** &gt; Configuração **** do aplicativo &gt; **Metadados** &gt; Campos **definidos pelo** usuário.
+Para abrir essa tela, clique em **Configuração** > Configuração **** do aplicativo > **Metadados** > Campos **definidos pelo** usuário.
 
 **Edição de um campo** Selecione o campo e clique em **Editar**.
 
 **Excluindo um campo** Selecione o campo e clique em **Excluir**.
 
-**Campo** Ativar Clique para selecionar ou desmarcar a opção Ativa ao lado do nome de um campo. Se você tiver uma função de administração da empresa, essa opção pode não ser exibida. Como essa opção está relacionada ao MediaPortal, você deve selecionar (ativar) Mostrar recursos do MediaPortal na Configuração pessoal para ver os campos de ativação.
+**Campo** Ativar Clique para selecionar ou desmarcar a opção Ativa ao lado do nome de um campo. Se você tiver uma função de administração de empresa, essa opção pode não ser exibida. Como essa opção está relacionada ao MediaPortal, você deve selecionar (ativar) Mostrar recursos do MediaPortal na Configuração pessoal para ver os campos de ativação.
 
 ## Otimizar arquivos {#optimize-files}
 
-Conforme você carrega arquivos no Scene7 Publishing System, o sistema os otimiza para armazenamento e publicação. No entanto, se o processo de upload for interrompido, algumas imagens não poderão ser otimizadas. Nesse caso, você verá a mensagem "Imagem ainda não otimizada". Entretanto, você pode otimizar esses arquivos se for um administrador.
+À medida que você carrega arquivos no Scene7 Publishing System, o sistema os otimiza para armazenamento e publicação. No entanto, se o processo de upload for interrompido, algumas imagens não poderão ser otimizadas. Nesse caso, você verá a mensagem &quot;Imagem ainda não otimizada&quot;. No entanto, você pode otimizar esses arquivos se for um administrador.
 
 O Scene7 Publishing System pesquisa seus arquivos e otimiza somente as imagens que não foram totalmente otimizadas antes.
 
-1. Escolha **Configuração** &gt; Configuração **** do aplicativo e selecione **Otimizar arquivos**.
+1. Escolha **Configuração** > Configuração **** do aplicativo e selecione **Otimizar arquivos**.
 1. Digite as informações para o trabalho de otimização e clique em **Enviar**.
 
-   Se você estiver trabalhando com mais de uma empresa, otimize os arquivos pertencentes a diferentes empresas separadamente.
+   Se você estiver trabalhando com mais de uma empresa, otimize os arquivos pertencentes a empresas diferentes separadamente.
 
 ## Predefinições de Conjunto de Lotes {#batch-set-presets}
 
 Use as predefinições de conjuntos de lotes para criar automaticamente conjuntos de imagens ou conjuntos de rotação enquanto uma tarefa estiver sendo executada para carregar ativos no Scene7 Publishing System.
 
-Os administradores da empresa definem primeiro convenções de nomenclatura para os ativos que desejam agrupar em um conjunto. Em seguida, é possível criar uma predefinição de conjunto de abits para fazer referência a essas imagens. Cada predefinição é um conjunto exclusivo de instruções autocontidas e nomeadas que define como construir o conjunto usando imagens que correspondem às convenções de nomenclatura definidas na fórmula predefinida.
+Os administradores de Empresa definem primeiro as convenções de nomenclatura para os ativos que desejam agrupar em um conjunto. Em seguida, é possível criar uma predefinição de conjunto de abits para fazer referência a essas imagens. Cada predefinição é um conjunto exclusivo de instruções autocontidas e nomeadas que define como construir o conjunto usando imagens que correspondem às convenções de nomenclatura definidas na fórmula predefinida.
 
-Todas as predefinições de conjuntos de lotes ativos de uma empresa são listadas na caixa de diálogo Carregar opção de trabalho, para que você possa especificar qual predefinição deseja aplicar durante cada sessão de upload. Os administradores da empresa veem todas as predefinições de conjunto de lotes ativas e inativas. Quando você carrega arquivos, o Dynamic Media Classic cria automaticamente um conjunto com todos os arquivos que correspondem à convenção de nomenclatura definida nas predefinições ativas.
+Todas as predefinições de conjuntos de lotes ativos para uma empresa são listadas na caixa de diálogo Carregar opção de trabalho, para que você possa especificar qual predefinição deseja aplicar durante cada sessão de upload. Os administradores de Empresas veem todas as predefinições de conjunto de lotes ativas e inativas. Quando você carrega arquivos, o Dynamic Media Classic cria automaticamente um conjunto com todos os arquivos que correspondem à convenção de nomenclatura definida nas predefinições ativas.
 
 ### Nomeação padrão {#default-naming}
 
@@ -900,21 +903,21 @@ O administrador da empresa cria uma convenção de nomenclatura padrão que é u
 
 Embora a configuração de uma convenção de nomenclatura padrão não seja necessária para usar a funcionalidade predefinida de conjunto de lotes, as práticas recomendadas recomendam que você use a convenção de nomenclatura padrão para definir quantos elementos da convenção de nomenclatura você deseja agrupar em um conjunto para simplificar a criação de conjuntos de lotes.
 
-1. Clique em **Configuração** &gt; Configuração **** do aplicativo &gt; Predefinições **do conjunto** de lotes &gt; Nomeação **** padrão.
-1. Selecione **Exibir formulário** ou Código **de** exibição para especificar como deseja exibir e inserir informações sobre cada elemento.
+1. Clique em **Configuração** > Configuração **** do aplicativo > Predefinições **do conjunto** de lotes > Nomeação **** padrão.
+1. Selecione **Exibir formulário** ou **Exibir código** para especificar como deseja exibir e inserir informações sobre cada elemento.
 
-   Você pode marcar a caixa de seleção Exibir código para exibir a criação do valor da expressão regular ao lado das seleções de formulário. Você pode inserir ou alterar esses valores para ajudar a definir os elementos da convenção de nomenclatura, se a exibição do formulário limitar você por algum motivo. Se os valores não puderem ser analisados na exibição do formulário, os campos do formulário ficarão inativos.
+   Você pode marcar a caixa de seleção Código de Visualização para visualização da criação de valor de expressão normal ao lado das seleções de formulário. Você pode inserir ou alterar esses valores para ajudar a definir os elementos da convenção de nomenclatura, se a visualização de formulário limitar você por algum motivo. Se os valores não puderem ser analisados na visualização de formulário, os campos de formulário ficarão inativos.
 
    >[!NOTE]
-   Campos de formulário desativados não indicam uma expressão regular inválida. Não há validação de que suas expressões regulares estejam corretas. Você verá os resultados da expressão regular que está criando para cada elemento após a linha de Resultado. A expressão regular completa fica visível na parte inferior da página.
+   Campos de formulário desativados não indicam expressão regular inválida. Não há validação de que suas expressões normais estejam corretas. Você verá os resultados da expressão regular que está criando para cada elemento após a linha de resultados. A expressão regular completa fica visível na parte inferior da página.
 
 1. Expanda cada elemento conforme necessário e informe as convenções de nomenclatura que deseja usar.
 1. Conforme necessário, clique em **Adicionar** para adicionar outra convenção de nomenclatura para um elemento. Ou clique em **Remover** para excluir uma convenção de nomenclatura para um elemento.
 1. Clique em **Salvar como** e digite um nome para a predefinição. Ou clique em **Salvar** se estiver editando uma predefinição existente.
 
-Como alternativa, você pode usar Exibir código sem campos de formulário disponíveis. Nesta exibição, você cria suas definições de convenção de nomenclatura totalmente usando expressões regulares.
+Como alternativa, é possível usar o Código de Visualização sem campos de formulário disponíveis. Nessa visualização, você cria suas definições de convenção de nomenclatura totalmente usando expressões regulares.
 
-Dois elementos estão disponíveis para definição, Correspondência e Nome básico. Esses campos permitem que você defina todos os elementos de uma convenção de nomenclatura e identifique a parte da convenção usada para nomear o conjunto no qual eles estão contidos. A convenção de nomenclatura individual de uma sociedade pode utilizar uma ou mais linhas de definição para cada um destes elementos. Você pode usar quantas linhas desejar para sua definição exclusiva e agrupá-las em elementos distintos, como para a Imagem principal, o elemento Cor, o elemento Exibição alternativa e o elemento Amostra.
+Dois elementos estão disponíveis para definição, Correspondência e Nome básico. Esses campos permitem que você defina todos os elementos de uma convenção de nomenclatura e identifique a parte da convenção usada para nomear o conjunto no qual eles estão contidos. A convenção de nomenclatura individual de uma empresa pode utilizar uma ou mais linhas de definição para cada um desses elementos. Você pode usar quantas linhas desejar para sua definição exclusiva e agrupá-las em elementos distintos, como para a Imagem principal, o elemento Cor, o elemento Visualização alternativa e o elemento Amostra.
 
 ### Criação de uma predefinição de conjunto de lotes {#creating-a-batch-set-preset}
 
@@ -922,13 +925,13 @@ O Dynamic Media Classic usa predefinições de conjuntos de lotes para organizar
 
 Use a predefinição de conjunto de lotes para criar, editar e gerenciar as predefinições de conjunto de lotes. Você pode criar quantas predefinições de conjuntos de lotes forem necessárias para cobrir todas as tarefas de assimilação de ativos forem necessárias. Existem duas formas de definições predefinidas de conjuntos de lotes: uma para uma convenção de nomenclatura padrão que você pode ter configurado e outra para convenções de nomenclatura personalizadas que você cria dinamicamente.
 
-Você pode usar o método de campo de formulário para definir uma predefinição de conjunto de lotes ou o método de código, que permite usar expressões regulares. Como em Nomenclatura padrão, você pode escolher a Visualização de código ao mesmo tempo que está definindo na Visualização de formulário e o uso de expressões regulares para criar suas definições. Como alternativa, você pode desmarcar qualquer exibição para usar uma ou a outra exclusivamente.
+Você pode usar o método de campo de formulário para definir uma predefinição de conjunto de lotes ou o método de código, que permite usar expressões regulares. Como em Nomenclatura padrão, você pode escolher Visualização de código ao mesmo tempo que está definindo na Visualização de formulário e usar expressões comuns para criar suas definições. Como alternativa, você pode desmarcar qualquer visualização para usar uma ou a outra exclusivamente.
 
 Consulte também [Criação de um conjunto de lotes predefinido para a geração automática de um conjunto](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set)de rotação 2D.
 
 **Para criar uma predefinição de conjunto de lotes**
 
-1. Clique em **Configuração** &gt; Configuração **** do aplicativo &gt; Predefinições **do conjunto** de lotes &gt; Predefinição do conjunto **de lotes**. **Exibir formulário**, conforme definido no canto superior direito da página Detalhes, é a exibição padrão.
+1. Clique em **Configuração** > Configuração **** do aplicativo > Predefinições **do conjunto** de lotes > Predefinição do conjunto **de lotes**. **Formulário** de Visualização, conforme definido no canto superior direito da página Detalhes, é a visualização padrão.
 1. No painel Lista predefinida, clique em **Adicionar** para ativar os campos de definição no painel Detalhes no lado direito da tela.
 1. No painel Detalhes, no campo Nome da predefinição, digite um nome para a predefinição.
 1. No menu suspenso Tipo de conjunto de lotes, selecione um tipo predefinido.
@@ -937,8 +940,8 @@ Consulte também [Criação de um conjunto de lotes predefinido para a geração
 
 1. Execute um dos procedimentos a seguir:
 
-   * Se estiver usando uma convenção de nomenclatura padrão que você configurou anteriormente em Configuração do aplicativo &gt; Predefinições do conjunto de lotes &gt; Nomeação padrão, expanda Convenções **de nomenclatura de** ativos e, na lista suspensa Nomeação de arquivos, clique em **Padrão**.
-   * Para definir uma convenção de nomenclatura conforme você configura a predefinição, expanda Convenções **de nomenclatura de** ativos e, na lista suspensa Nomenclatura de arquivos, clique em **Personalizado**.
+   * If you are using a default naming convention that you previously set up under Application Setup > Batch Set Presets > Default Naming, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, click **Default**.
+   * To define a naming convention as you set up the preset, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, click **Custom**.
 
 1. Para ordem de sequência, defina a ordem das imagens depois que o conjunto for agrupado no Dynamic Media Classic. Por padrão, seus ativos são ordenados alfanuméricos. Entretanto, é possível usar uma lista separada por vírgulas de expressões regulares para definir a ordem.
 1. Para Definir a Convenção de Nomeação e Criação, especifique o sufixo ou o prefixo para o nome básico definido na Convenção de Nomeação de Ativos. Defina também onde o conjunto de imagens será criado na estrutura de pastas do Dynamic Media Classic.
@@ -949,7 +952,7 @@ Consulte também [Criação de um conjunto de lotes predefinido para a geração
 
 ### Criação de um conjunto de lotes predefinido para a geração automática de um conjunto de rotação 2D {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
-Você pode usar o Conjunto de Lotes Tipo Conjunto de Lotes Conjunto de **rotação de vários eixos** para criar uma "receita" que automatiza a geração de Conjuntos de rotação 2D. O agrupamento de imagens usa expressões regulares Linha e Coluna para que os ativos de imagem sejam alinhados corretamente no local correspondente na matriz multidimensional.
+Você pode usar o Conjunto de Lotes Tipo Conjunto de Lotes Conjunto de **rotação de vários eixos** para criar uma &quot;receita&quot; que automatiza a geração de Conjuntos de rotação 2D. O agrupamento de imagens usa expressões regulares de Linha e Coluna para que os ativos de imagem sejam alinhados corretamente no local correspondente na matriz multidimensional.
 
 Consulte também [Criação de uma predefinição](application-setup.md#creating_a_batch_set_preset)de conjunto de lotes.
 
@@ -971,19 +974,19 @@ Com essas informações, sua receita de Tipo de Conjunto de Lotes pode ser criad
 
 ![](assets/se_batch_set_recipe.png)
 
-O agrupamento para a parte do nome do ativo compartilhado do conjunto de spinset é adicionado ao campo **Correspondência** (como destacado). A parte variável do nome do ativo que contém a linha e a coluna é adicionada aos campos **Linha** e **Coluna** , respectivamente.
+O agrupamento para a parte do nome do ativo compartilhado do conjunto de rotação é adicionado ao campo **Correspondência** (como destacado). A parte variável do nome do ativo que contém a linha e a coluna é adicionada aos campos **Linha** e **Coluna**, respectivamente.
 
-Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome da fórmula 2D do Conjunto de rotação que está listada em Predefinições **de conjunto de** lote na caixa de diálogo Opções **de trabalho de** upload.
+Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome da fórmula do Conjunto de rotação 2D que está listada em **Predefinições de conjunto de lote** na caixa de diálogo **Opções de trabalho de upload**.
 
 **Para criar um conjunto de lotes predefinido para a geração automática de um conjunto de rotação 2D**
 
-1. Escolha **Configuração** &gt; Configuração **** do aplicativo &gt; Predefinições **do conjunto** de lotes &gt; Predefinição do conjunto **de lotes**. **Exibir formulário**, conforme definido no canto superior direito da página Detalhes, é a exibição padrão.
+1. Escolha **Configuração** > Configuração **** do aplicativo > Predefinições **do conjunto** de lotes > Predefinição do conjunto **de lotes**. **Formulário** de Visualização, conforme definido no canto superior direito da página Detalhes, é a visualização padrão.
 1. No painel Lista predefinida, clique em **Adicionar** para ativar os campos de definição no painel Detalhes no lado direito da tela.
 1. No painel Detalhes, no campo Nome da predefinição, digite um nome para a predefinição.
-1. No menu suspenso Tipo de conjunto de lote, selecione Conjunto **de ativos**.
+1. No menu suspenso Tipo de conjunto de lote, selecione **Conjunto de ativos**.
 1. Na lista suspensa Subtipo, selecione Conjunto de rotação de **vários eixos**.
 1. Expanda Convenções **de nomenclatura de** ativos e, na lista suspensa Nomenclatura de arquivos, clique em **Personalizado**.
-1. Use os atributos **Correspondência** e, opcionalmente, Nome **** Base para definir uma expressão regular para nomear ativos de imagem que compõem o agrupamento.
+1. Use os atributos **Correspondência** e, opcionalmente, **Nome de base** para definir uma expressão regular para nomear ativos de imagem que compõem o agrupamento.
 
    Por exemplo, sua expressão regular de Correspondência literal pode parecer com o seguinte:
 
@@ -993,7 +996,7 @@ Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome d
 
    Use os parênteses para adotar a posição de linha ou coluna no nome do arquivo.
 
-   Por exemplo, para sua expressão regular de linha, ela pode parecer com o seguinte:
+   Por exemplo, para a sua expressão regular de linha, ela pode parecer com o seguinte:
 
    `\w+-R([0-9]+)-\w+`
 
@@ -1009,7 +1012,7 @@ Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome d
 
    `\w+-\w+-C(\d+)`
 
-   Lembre-se de que esses são apenas exemplos. Você pode criar sua expressão regular, no entanto, deseja se adaptar às suas necessidades.
+   Lembre-se de que esses são apenas exemplos. Você pode criar sua expressão normal da maneira que quiser, de acordo com suas necessidades.
 
    >[!NOTE]
    Se a combinação de expressões regulares de linha e coluna não puder determinar a posição do ativo dentro da matriz de fiação multidimensional, esse ativo não será adicionado ao conjunto e um erro será registrado.
