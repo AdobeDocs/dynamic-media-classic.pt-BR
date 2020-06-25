@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Ajuda do Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 1%
 # Ajuda do Dynamic Media Classic {#using}
 
 + [Página inicial da documentação do Dynamic Media Classic](home.md)
++ [Tutorial de práticas recomendadas](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NOVA experiência de logon do Dynamic Media Classic disponível em 30 de junho de 2020](new-ui-2020.md)
 + [Newsletter Dynamic Media pela Experience League](dynamic-media-newsletter.md)
 + Introdução ao Adobe Dynamic Media Classic {#intro}
@@ -23,9 +24,9 @@ ht-degree: 1%
    + [Recursos do desenvolvedor](developer-resources.md)
    + [Novidades](whats-new.md)
    + [Requisitos do sistema](system-requirements.md)
-   + [Aplicativo de desktop Adobe Dynamic Media Classic em breve!](dynamic-media-classic-desktop-app.md)
+   + [O aplicativo Adobe Dynamic Media Classic para desktop será lançado em breve!](dynamic-media-classic-desktop-app.md)
    + [Suporte](support.md)
-   + [Ajuda para o Portal de Mídia Clássica do Dynamic Media](help-scene7-media-portal.md)
+   + [Ajuda para o Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Serviços de treinamento da Adobe](training-services.md)
    + [Recursos populares](popular-resources.md)
    + [Vídeos de treinamento](training-videos.md)
@@ -148,16 +149,16 @@ ht-degree: 1%
    + [Start rápido: Integração do Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Faça logon no Adobe Analytics](log-analytics.md)
    + [Configuração de relatórios do Adobe Analytics](configuring-analytics-reports.md)
-   + [Instrumentação de um visualizador usando o Kit de instrumentação do Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
+   + [Instrumentação de um visualizador usando o Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Desativar o rastreamento do Adobe Analytics](disabling-analytics-tracking.md)
-   + [Teste da integração exibindo um relatório do Adobe Analytics](testing-integration-viewing-analytics-report.md)
+   + [Teste da integração exibindo um relatório da Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Ativação dos relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicar informações de configuração do Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integração com o Público alvo Classic {#target-classic}
-   + [Start rápido: Integração com o Público alvo Classic](quick-start-target-classic-integration.md)
-   + [Integração do Adobe Dynamic Media Classic com o Adobe Público alvo Classic](integrating-scene7-target-classic.md)
++ Integração com o Target Classic {#target-classic}
+   + [Start rápido: Integração com o Target Classic](quick-start-target-classic-integration.md)
+   + [Integração do Adobe Dynamic Media Classic com o Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Criação de um conjunto de ofertas](creating-offer-set.md)
-   + [Envio de conjuntos de ofertas para o Adobe Público alvo Classic](pushing-offer-sets-target-classic.md)
+   + [Empurrar conjuntos de ofertas para o Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Conteúdo gerado pelo usuário {#user-generated-content}
    + [Sobre conteúdo gerado pelo usuário](about-ugc.md)
    + [Excluindo um ativo carregado](deleting-uploaded-asset.md)
