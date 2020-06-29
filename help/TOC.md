@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Ajuda do Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 1%
 + [NOVA experiência de logon do Dynamic Media Classic disponível](new-ui-2020.md)
 + [Newsletter Dynamic Media pela Experience League](dynamic-media-newsletter.md)
 + Introdução ao Adobe Dynamic Media Classic {#intro}
-   + [Aplicativo Adobe Dynamic Media Classic para desktop - Agora disponível](dynamic-media-classic-desktop-app.md)
-   + [Sobre o Dynamic Media Classic](introduction.md)
+   + [Aplicativo Adobe Dynamic Media Classic Desktop - Agora disponível](dynamic-media-classic-desktop-app.md)
+   + [Sobre a Ajuda do Dynamic Media Classic](introduction.md)
    + [Recursos do desenvolvedor](developer-resources.md)
    + [Novidades](whats-new.md)
    + [Requisitos do sistema](system-requirements.md)
