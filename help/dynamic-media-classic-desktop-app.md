@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Este novo aplicativo está disponível para Windows e MacOS.
 >
 >Recomendamos que você instale o novo aplicativo Adobe Dynamic Media Classic para desktop até 1º de outubro de 2020. Isso garantirá uma transição suave antes de o Adobe Flash Player ser descontinuado em 31 de dezembro de 2020. Nessa data, você não poderá mais fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic, rotulada como Scene7 Publishing System no produto.
 
-Consulte as Perguntas frequentes sobre a experiência de logon do [novo Dynamic Media Classic disponível](/help/new-ui-2020.md).
+Consulte as Perguntas frequentes sobre a experiência de logon do [novo Dynamic Media Classic disponível.](/help/new-ui-2020.md)
 
 ## Requisitos de sistema para o aplicativo Adobe Dynamic Media Classic para desktop {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os segu
 
 1. Baixe o instalador mais recente do aplicativo Adobe Dynamic Media Classic para desktop.
 
-   * macOS (.dmg) - [Download](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
-   * Windows (.exe) - [Download](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
+   * [macOS (.dmg) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.exe) - Download.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Execute um dos procedimentos a seguir com base no instalador que você baixou.
 
