@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -47,18 +47,18 @@ O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os segu
 
    * **Para macOS** - Na caixa de **[!UICONTROL Drag & drop to install]** diálogo, arraste **[!UICONTROL Adobe Dynamic Media Classic]** e solte-o **[!UICONTROL Applications]**.
 
-      ![Arraste e solte a instalação no macOS](/help/assets/dragondrop-install.png)
+      ![Arraste e solte a instalação no macOS](/help/assets/dragondrop-install1.png)
 
    * Na **[!UICONTROL Applications]** pasta, toque no ícone Adobe Dynamic Media Classic.
    * Na caixa de diálogo, toque em **[!UICONTROL Open]** para abrir o aplicativo Adobe Dynamic Media Classic para desktop.
 
-      ![Abrir aplicativo baixado](/help/assets/open-dmclassicapp.png)
+      ![Abrir aplicativo baixado](/help/assets/open-dmclassicapp1.png)
 
    * **No Windows** - execute o binário do instalador e siga as instruções na tela para instalar o aplicativo de desktop.
 
 1. Quando você abre o aplicativo, a nova página de logon do Adobe Dynamic Media Classic é exibida:
 
-   ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login.png)
+   ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
 1. Use as mesmas credenciais do navegador para fazer logon no Adobe Dynamic Media Classic.
 
@@ -80,7 +80,7 @@ O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os segu
 * No aplicativo Dynamic Media Classic, selecione a nova empresa na lista suspensa empresa.
 * Quando o pop-up for exibido, toque em **[!UICONTROL OK]** para sair e fechar o aplicativo.
 
-   ![Reinicie o aplicativo para usar a nova empresa](/help/assets/dmclassic-new-company.png)
+   ![Reinicie o aplicativo para usar a nova empresa](/help/assets/dmclassic-new-company1.png)
 * Reinicie o Dynamic Media Classic e faça logon como de costume para trabalhar com a nova empresa.
 
 ## Dicas e truques
@@ -89,6 +89,6 @@ O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os segu
 
 **_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br> Na interface do usuário do navegador, um novo logon na interface era necessário para ver o estado correto de publicação dos ativos. No aplicativo de desktop, apresentamos um **[!UICONTROL Refresh]** ícone na barra de ferramentas, à direita do **[!UICONTROL Select None]** botão. Toque no **[!UICONTROL Refresh]** ícone para ver o status mais recente de todos os ativos em uma determinada página. Não é necessário refazer o logon como com a interface do navegador.
 
-![Ícone](/help/assets/refresh-icon.png)Atualizar ícone *Atualizar*
+![Ícone](/help/assets/refresh-icon1.png)Atualizar ícone *Atualizar*
 
 **_Não vejo predefinições de conjuntos de lotes funcionando no aplicativo de desktop._**<br> Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Set Preset]** está ativado. Clique em **[!UICONTROL Save and Submit upload]**.
