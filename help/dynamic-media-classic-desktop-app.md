@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
+source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os segu
 1. Baixe o instalador mais recente do aplicativo Adobe Dynamic Media Classic para desktop.
 
    * [macOS (.dmg) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.exe) - Download.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows (.exe) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Execute um dos procedimentos a seguir com base no instalador que você baixou.
 
