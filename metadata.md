@@ -4,12 +4,15 @@ solution-title: Aprendizagem e suporte
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: Introdução
-getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
+getting-started-url: https://docs.adobe.com/content/help/en/dynamic-media-classic/using/getting-started/scene7-platform-overview.html
 tutorials-title: Tutoriais
-tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://github.com/AdobeDocs/dynamic-media-classic.en
+tutorials-url: https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/training-videos.html
+git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.pt-BR
 translation-type: tm+mt
-source-git-commit: 9b1bdd86ab4dc5148a0fea3157c8c3cbbeac0728
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -26,4 +29,4 @@ O arquivo metadata.md inclui metadados de nível de acordo de recompra que passa
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
 | níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
-| repo git | Especifica o local do acordo principal para uso interno |
+| repo git | Especifica o local do acordo de recompra principal para uso interno |
