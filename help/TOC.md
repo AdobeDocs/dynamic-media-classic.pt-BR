@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Ajuda do Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '736'
 ht-degree: 1%
 
 ---
@@ -26,12 +26,12 @@ ht-degree: 1%
    + [Novidades](whats-new.md)
    + [Requisitos do sistema](system-requirements.md)
    + [Suporte](support.md)
-   + [Ajuda para o Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
+   + [Ajuda para o Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Serviços de treinamento da Adobe](training-services.md)
    + [Recursos populares](popular-resources.md)
    + [Vídeos de treinamento](training-videos.md)
 + Introdução {#getting-started}
-   + [Visão geral da plataforma Adobe Dynamic Media Classic](scene7-platform-overview.md)
+   + [Visão geral da plataforma Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Portal de mídia](media-portal.md)
    + [Entrar e sair](signing-out.md)
    + [Noções básicas de navegação](navigation-basics.md)
@@ -70,15 +70,15 @@ ht-degree: 1%
    + [Mover, renomear e excluir ativos](moving-renaming-deleting-assets.md)
    + [Trabalho na exibição de Detalhes ](detail-view.md)
    + [Exibição, adição e exportação de metadados](viewing-adding-exporting-metadata.md)
-   + [Exportar ativos do Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
+   + [Exportar ativos do Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Compartilhar alterações de ativos com colegas em tempo real](sharing-asset-changes-peers-real.md)
    + [Imprimir ativos](printing-assets.md)
    + [Gerenciamento da pasta Lixeira](trash-folder.md)
    + [Organizar seu trabalho com projetos](organizing-projects.md)
 + Dimensionamento da imagem {#image-sizing}
    + [Start rápido: Dimensionamento da imagem](quick-start-image-sizing.md)
-   + [Upload de imagens mestre](uploading-master-images.md)
-   + [Publicar imagens mestras](publishing-master-images.md)
+   + [Upload de imagens principais](uploading-master-images.md)
+   + [Publicar imagens principais](publishing-master-images.md)
    + [Configuração de predefinições de imagens](setting-image-presets.md)
    + [Vincular URLs ao aplicativo da Web](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -146,7 +146,7 @@ ht-degree: 1%
    + [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md)
    + [Vincular um conjunto de mídia mista a uma página da Web](linking-mixed-media-set-web.md)
 + Kit de instrumentação do Adobe Analytics {#analytics-kit}
-   + [Start rápido: Integração do Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Start rápido: Integração do Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Faça logon no Adobe Analytics](log-analytics.md)
    + [Configuração de relatórios do Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentação de um visualizador usando o Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,17 +154,17 @@ ht-degree: 1%
    + [Teste da integração exibindo um relatório da Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Ativação dos relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicar informações de configuração do Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integração com o Target Classic {#target-classic}
-   + [Start rápido: Integração com o Target Classic](quick-start-target-classic-integration.md)
-   + [Integração do Adobe Dynamic Media Classic com o Adobe Target Classic](integrating-scene7-target-classic.md)
++ Integração Target Standard/Premium {#target-classic}
+   + [Start rápido: Integração Target Standard/Premium](quick-start-target-integration.md)
+   + [Integração do Adobe Dynamic Media Classic com o Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Criação de um conjunto de ofertas](creating-offer-set.md)
-   + [Empurrar conjuntos de ofertas para o Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Encaminhando conjuntos de ofertas para o Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Conteúdo gerado pelo usuário {#user-generated-content}
    + [Sobre conteúdo gerado pelo usuário](about-ugc.md)
    + [Excluindo um ativo carregado](deleting-uploaded-asset.md)
    + [Obtendo informações de uso do disco](getting-disk-usage-information.md)
    + [Fazer upload de um ativo de imagem ou de um ativo vetorial](uploading-image-asset-or-vector.md)
-+ Arquivos mestre {#master-files}
++ arquivos Principais {#master-files}
    + [Práticas recomendadas para otimizar a qualidade de suas imagens](best-practices-optimizing-quality-images.md)
    + [Edição de imagens](editing-images.md)
    + [Criação de mapas de imagem](creating-image-maps.md)
