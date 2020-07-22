@@ -1,126 +1,129 @@
 ---
-title: Criação de um ecatalog
-seo-title: Criação de um ecatalog
-description: 'null'
-seo-description: Saiba como criar um ecatalog.
-uuid: 2 aff 05 c 2-7052-426 c-b 61 d -7 f 9091 f 7 ace 8
+title: Criação de um eCatalog
+seo-title: Criação de um eCatalog
+description: nulo
+seo-description: Saiba como criar um eCatalog.
+uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/ecatalogs
-discoiquuid: 28889 c 60-596 a -40 d 2-85 d 4-f 48 a 4 f 86 b 932
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 0%
 
 ---
 
 
-# Criação de um ecatalog{#creating-an-ecatalog}
+# Criação de um eCatalog{#creating-an-ecatalog}
 
-A criação de um ecatalog envolve a ordem das páginas, escolha o layout da página e vincula as páginas ao desenhar Mapas de imagem e inserir dados de link de sobreposição e hipertexto. Opcionalmente, você pode personalizar o sumário para que os visualizadores vejam nomes de página em vez de números de página no Visualizador do ecatalog.
+A criação de um eCatalog implica ordenar as páginas, escolher o layout da página e vincular as páginas desenhando os Mapas de imagem e inserindo dados de sobreposição e link de hipertexto. Como opção, você pode personalizar o sumário para que os visualizadores vejam os nomes das páginas em vez de os números das páginas no eCatalog Viewer.
 
-## Criação de um ecatalog {#create}
+## Criação de um eCatalog {#create}
 
-É possível incluir arquivos de imagem e arquivos PDF em seu catálogo.
+É possível incluir arquivos de imagem e arquivos PDF no eCatalog.
 
-Quando você cria um ecatalog, **a opção Publicar depois de salvar** afeta o conjunto e os membros definidos das seguintes maneiras:
+Quando você cria um eCatalog, a opção **Publicar após salvar** afeta o conjunto e define os membros das seguintes maneiras:
 
-| A opção «Publicar após salvar» selecionada antes de salvar? | Estado de conjunto após salvar | Estado dos membros definidos após salvar |
+| opção &quot;Publicar após salvar&quot; selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |
 | Sim | Publicado | Publicado |
-| Não | Não publicado | Os membros podem reter seu estado publicado ou não publicado. |
+| Não | Não publicado | Os membros definidos retêm seu estado publicado ou não publicado. |
 
-Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
 
-**Para criar um ecatalog**
+**Para criar um eCatalog**
 
-1. Comece a criar seu ecatalog com uma destas técnicas:
+1. Comece a criar seu eCatalog com uma destas técnicas:
 
-   **Selecione os arquivos primeiro** no Painel Procurar, selecione arquivos e clique em Criar &gt; ecatalogs.
+   **Selecione os arquivos primeiro** No painel Procurar, selecione os arquivos e clique em Criar > eCatálogos.
 
-   **Comece pela tela ecatalog** clique em Criar &gt; ecatalogs. Selecione uma pasta na Biblioteca de ativos e arraste arquivos da pasta para a guia Páginas de pedido da página ecatalog.
+   **Start da tela** eCatalog Clique em Build > eCatalogs. Selecione uma pasta na Biblioteca de ativos e arraste os arquivos da pasta até a guia Páginas de pedidos da página eCatalog.
 
-   ***observação**: Para exibir os itens na Biblioteca de ativos por nome em vez de miniatura, selecione a opção Nome para Exibição de biblioteca de ativos padrão na Configuração pessoal. *
+   ***observação**: Para visualização os itens na Biblioteca de ativos pelo nome em vez da miniatura, selecione a opção Nome da Visualização da Biblioteca de ativos padrão na Configuração pessoal. *
 
-1. Selecione um layout geral para o seu catálogo. Clique no botão 1 para cima para páginas únicas, o botão 2 para cima das propagandas de página dupla ou o botão Personalizado para as propagandas de páginas de mais de duas páginas. A caixa de diálogo Alterar layout do ecatalog é exibida. Selecione as opções Todas as páginas espelhadas e clique **em OK**.
-1. Opcionalmente, altere o layout de páginas individuais ou páginas espelhadas de página clicando neles e escolhendo o botão 1 para cima, 2 para cima ou para Personalizado. A caixa de diálogo Alterar layout do ecatalog é exibida. Selecione as opções de Planilha selecionada e clique **em OK**.
+1. Selecione um layout geral para seu eCatalog. Clique no botão 1 para cima para páginas únicas, no botão 2 para cima para páginas espelhadas de duplo ou no botão Personalizado para páginas espelhadas com mais de duas páginas. A caixa de diálogo Alterar layout do eCatalog é exibida. Selecione as opções Todas as páginas espelhadas e clique em **OK**.
+1. Como opção, altere o layout de páginas individuais ou páginas espelhadas clicando nelas e, em seguida, escolha o botão 1 para cima, 2 para cima ou Personalizado. A caixa de diálogo Alterar layout do eCatalog é exibida. Selecione as opções de Páginas espelhadas selecionadas e clique em **OK**.
 1. Reorganize as páginas conforme necessário com uma destas técnicas:
 
-   **Arrastar Arrastar** uma página ou página espelhada para um novo local. A barra vertical mostra onde a página está sendo movida.
+   **Arrastar** Arraste uma página ou página espelhada para um novo local. A barra vertical mostra onde a página está sendo movida.
 
-   **Mover para** botão Selecionar uma página ou página espelhada, clique no botão Mover para e escolha a página no menu que deseja que sua página seja exibida antes.
+   **botão** Mover paraSelecione uma página ou página espelhada, clique no botão Mover para e escolha a página no menu que deseja que a página apareça antes.
 
-   **Sequência #** Na exibição de lista, insira números de página nos campos Sequência #.
+   **Sequência #** Na Visualização da Lista, insira os números de página nos campos Número da sequência.
 
-1. Quando terminar, próximo ao canto inferior direito da página, certifique-se de **que Publicar depois de salvar** esteja selecionado (padrão).
-1. Clique **em Salvar**.
-1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o ecatalog. No campo Nome do arquivo, digite o nome do conjunto de rotação.
-1. Clique **em Salvar**.
+1. Quando terminar, próximo ao canto inferior direito da página, verifique se a opção **Publicar após salvar** está selecionada (padrão).
+1. Clique em **Salvar**.
+1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar seu eCatalog. No campo Nome do arquivo, digite o nome do conjunto de spin.
+1. Clique em **Salvar**.
 
-   Você pode visualizar o ecatalog depois de salvá-lo, clicando em **Visualizar**.
+   Você pode pré-visualização seu eCatalog, depois de salvá-lo, clicando em **Pré-visualização**.
 
-## Editar um catálogo eletrônico {#editing-an-ecatalog}
+## Editar um eCatalog {#editing-an-ecatalog}
 
-Se você editar um conjunto publicado ou um conjunto não publicado, **a opção Publicar depois de salvar** afeta o conjunto e os membros definidos das seguintes maneiras:
+Dependendo de se você editar um conjunto publicado ou não publicado, a opção **Publicar após salvar** afetará o conjunto e definirá os membros das seguintes maneiras:
 
-| Já foi publicado? | A opção «Publicar após salvar» selecionada antes de salvar sua edição? | Estado de conjunto após salvar | Estado dos membros definidos após salvar |
+| Definir já publicado? | Opção &quot;Publicar após salvar&quot; selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |--- |
 | Sim | Sim | Publicado | Publicado |
-| Sim | Não | Publicado | Os membros definidos existentes mantêm seu estado publicado. Todos os novos membros definidos durante a edição mantêm seu estado publicado ou não publicado. |
+| Sim | Não | Publicado | Os membros do conjunto existente mantêm seu estado publicado.Qualquer novo conjunto de membros adicionado durante a edição mantém seu estado publicado ou não publicado. |
 | Não | Sim | Publicado | Publicado |
-| Não | Não | Não publicado | Os membros definidos e todos os novos membros definidos durante a edição mantêm seu estado publicado ou não publicado. |
+| Não | Não | Não publicado | Os membros do conjunto existente e quaisquer novos membros do conjunto que você tiver adicionado durante a edição manterão seu estado publicado ou não publicado. |
 
-Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
 
-**Para editar um ecatalog**
+**Para editar um eCatalog**
 
-1. Clique no botão Editar borda **do** ecatalog.
+1. Clique no botão **Editar** de sobreposição do eCatalog.
 1. Faça as alterações necessárias.
-1. Quando terminar de editar, próximo ao canto inferior direito da página, certifique-se de **que Publicar depois de salvar** esteja selecionado (padrão).
-1. Clique **em Salvar**, selecione uma pasta de armazenamento, digite um nome para o conjunto e clique **em Salvar**.
+1. Quando terminar a edição, próximo ao canto inferior direito da página, certifique-se de que a opção **Publicar após salvar** esteja selecionada (padrão).
+1. Clique em **Salvar**, selecione uma pasta de armazenamento, digite um nome para o conjunto e clique em **Salvar**.
 
-## Excluindo um catálogo eletrônico {#deleting-an-ecatalog}
+## Excluindo um eCatalog {#deleting-an-ecatalog}
 
-Quando um conjunto é excluído, o próprio conjunto é movido para a lixeira. No entanto, os membros (ou «filhos») dentro desse conjunto não serão afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
+Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um deles mantém seu estado publicado ou não publicado.
 
-Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
 
-**Exclusão de um ecatalog**
+**Para excluir um eCatalog**
 
-1. Na Exibição de grade, Exibição de lista ou Exibição de detalhes, selecione um ou mais ecatalogs.
-1. Na barra de navegação global, clique **em Arquivo** &gt; **Excluir** &gt; **Excluir**.
+1. Na Visualização de grade, Visualização de Lista ou Detalhes, selecione um ou mais eCatálogos.
+1. Na barra de navegação global, clique em **Arquivo** > **Excluir** > **Excluir**.
 
-## Personalização do sumário (sumário) {#customizing-the-table-of-contents-toc}
+## Personalização do sumário (TOC) {#customizing-the-table-of-contents-toc}
 
-O Dynamic Media Classic fornece números de página padrão no seu ecatalog na guia Páginas de pedido da tela ecatalog. Para nomes de página personalizados, é possível alterar os rótulos de páginas que constituem o sumário (sumário). É recomendável renomear a capa frontal e traseira. Por exemplo, a página de capa frontal pode ler «Capa» em vez de «Página 0-1. »
+O Dynamic Media Classic fornece números de página padrão em seu eCatalog na guia Páginas de pedido da tela eCatalog. Para nomes de página personalizados, é possível alterar os rótulos de página que constituem o sumário (TOC). É recomendável renomear a tampa frontal e traseira. Por exemplo, a página de capa frontal pode ler &quot;Capa&quot; em vez de &quot;Página 0-1&quot;.
 
-É possível criar um sumário personalizado (TOC) para o seu ecatalog manualmente ou importando os nomes de página de um CSV (somente Mac) ou de um arquivo XML.
+Você pode criar um sumário personalizado (TOC) para seu eCatalog manualmente ou importando os nomes das páginas de um arquivo CSV (somente Mac) ou XML.
 
 >[!NOTE]
 >
->Para restaurar títulos de página padrão, clique no botão Rótulos sumários na guia Páginas de pedido e escolha Restaurar padrões (todos).
+>Para restaurar os títulos de página padrão, clique no botão Rótulos do sumário na guia Páginas de ordem e escolha Restaurar padrões (Todos).
 
-### Inserir manualmente nomes de página {#manually-entering-page-names}
+### Inserção manual de nomes de página {#manually-entering-page-names}
 
-Para inserir manualmente nomes de página um de cada vez, vá para a guia Páginas de pedido da tela do ecatalog. Em seguida, clique em no campo número da página e insira um nome. Digite um nome para cada página que deseja nomear.
+Para inserir manualmente um nome de página de cada vez, vá para a guia Páginas de pedido da tela eCatalog. Em seguida, clique no campo de número da página e insira um nome. Digite um nome para cada página que deseja nomear.
 
 ### Importação de nomes de página {#importing-page-names}
 
-A importação de nomes de página é recomendada se você estiver lidando com um ecatalog com várias páginas. É possível importar os nomes de um arquivo delimitado por tabulação ou XML.
+A importação de nomes de página é recomendada se você estiver lidando com um eCatalog com muitas páginas. É possível importar os nomes de um arquivo XML ou delimitado por tabulação.
 
-O rótulo TOC é armazenado no campo Dados do usuário de uma imagem; formatar esses dados como uma lista de `name=<value>`` pairs separated by two question marks “??” `. Por exemplo, para definir uma etiqueta para um campo TOC chamado toif «, defina os Dados do usuário da imagem como:
+O rótulo do sumário é armazenado no campo Dados do usuário de uma imagem; formate esses dados como uma lista de `name=<value>`` pairs separated by two question marks “??” `. Por exemplo, para definir um rótulo para um campo TOC chamado tocEN &quot;, defina os Dados do usuário da imagem como:
 
-Tocen = &lt; EN_ page_ label &gt;
+tocEN=&lt;EN_page_label>
 
-Para definir rótulos separados para os campos TOC chamados tocen e tocfr:
+Para definir rótulos separados para campos TOC chamados tocEN e tocFR:
 
-Tocen = &lt; EN_ page_ label &gt;?? Tocfr = &lt; FR_ page_ label &gt;
+tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>
 
-Para importar o campo Dados do usuário em um arquivo delimitado por tabulação, inclua os dados do campo:
+Para importar o campo Dados do usuário em um arquivo delimitado por tabulação, inclua os dados do usuário do campo:
 
 | IPSID | Userdata |
 |--- |--- |
-| `<image_IPS_ID>` | Tocen = &lt; EN_ page_ label &gt;?? Tocfr = &lt; FR_ page_ label &gt; |
+| `<image_IPS_ID>` | tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label> |
 
 Para importar o campo Dados do usuário em um arquivo XML, inclua o atributo `vc_userdata`:
 
@@ -130,4 +133,4 @@ Para importar o campo Dados do usuário em um arquivo XML, inclua o atributo `vc
 </ips>
 ```
 
-Para importar nomes de página de um arquivo delimitado por tabulação ou XML, selecione o botão Rótulos TOC e escolha Importar. A caixa de diálogo Carregar metadados é exibida. Clique no botão Procurar e importe o arquivo CSV (somente Mac) ou o arquivo XML que associa cada página com um nome de página.
+Para importar nomes de páginas de um arquivo XML ou delimitado por tabulação, selecione o botão Rótulos TOC e escolha Importar. A caixa de diálogo Carregar metadados é exibida. Clique no botão Procurar e importe o arquivo CSV (somente Mac) ou o arquivo XML que associa cada página a um nome de página.
