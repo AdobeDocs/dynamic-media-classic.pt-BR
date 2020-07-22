@@ -1,34 +1,37 @@
 ---
-title: Sobre o conteúdo gerado pelo usuário
-seo-title: Sobre o conteúdo gerado pelo usuário
-description: 'null'
+title: Sobre conteúdo gerado pelo usuário
+seo-title: Sobre conteúdo gerado pelo usuário
+description: nulo
 seo-description: Uma introdução ao conteúdo gerado pelo usuário.
-uuid: ba 867 a 6 a -84 a 4-4968-9 a 77-712 f 3 ce 5 dad 5
+uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/user_ generated_ content
-discoiquuid: c 1594 abf -8 cc 2-46 dd -88 bf-af 93 db 7 db 607
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
+discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
 
-# Sobre o conteúdo gerado pelo usuário{#about-user-generated-content}
+# Sobre conteúdo gerado pelo usuário{#about-user-generated-content}
 
-O uso de UGC (conteúdo gerado pelo usuário) consiste em carregar ativos para um repositório dedicado de armazenamento do Dynamic Media Classic e realizar operações relacionadas.
+O uso do UGC (conteúdo gerado pelo usuário) consiste em fazer upload de ativos para um repositório dedicado do armazenamento Dynamic Media Classic e executar operações relacionadas.
 
-O UGC é compatível com os seguintes formatos de arquivo:
+O UGC suporta os seguintes formatos de arquivo:
 
 * Rasterização: JPG, PNG, TIFF
-* Vetor: AI, EPS (arquivos EPS do Adobe Illustrator 2018 não são suportados), PDF (apenas quando o arquivo PDF é aberto e salvo anteriormente no Adobe Illustrator CS 6)
+* Vetor: AI, EPS (arquivos EPS do Adobe Illustrator 2018 não são suportados), PDF (somente quando o arquivo PDF foi aberto e salvo anteriormente na Adobe Illustrator CS6)
 
-Antes de carregar ativos, você obtém uma chave secreta-secreta. Use essa chave para recuperar um token de upload. Você envia o token de upload quando faz upload de ativos e executa outras tarefas de UGC.
+Antes de fazer upload de ativos, você obtém uma chave de segredo compartilhado. Use essa chave para recuperar um token de upload. Você envia o token de upload quando carrega ativos e executa outras tarefas UGC.
 
-Depois de recuperar uma chave compartilhada e um token de upload, você pode executar as seguintes operações para conteúdo gerado pelo usuário:
+Depois de recuperar uma chave de segredo compartilhado e carregar o token, você pode executar as seguintes operações para conteúdo gerado pelo usuário:
 
-* Carregue um ativo.
-* Obtenha metadados de ativos de imagem.
+* Carregar um ativo.
+* Obter metadados de ativos de imagem.
 * Exclua um ativo carregado.
-* Obtenha informações sobre o uso do espaço em disco de uma empresa.
+* Obtenha informações sobre o uso de espaço em disco de uma empresa.
 
