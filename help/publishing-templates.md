@@ -1,35 +1,38 @@
 ---
-title: Publicação de modelos
-seo-title: Publicação de modelos
-description: 'null'
+title: Publicar modelos
+seo-title: Publicar modelos
+description: nulo
 seo-description: Saiba como publicar modelos.
-uuid: 9 b 8 e 5 b 94-6958-4725-bcbc -5 e 6 a 9 c 4 d 1 b 02
+uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/template_ basics
-discoiquuid: 87 a 5 a 25 e -210 b -4359-821 a -7 dfe 8 c 304 f 9 b
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
 
-# Publicação de modelos{#publishing-templates}
+# Publicar modelos{#publishing-templates}
 
-Publicar seu modelo o coloca em servidores de imagem do Dynamic Media, onde está disponível para seu site e aplicativo. Durante o processo de publicação, o Sistema de publicação Scene 7 ativa os urls necessários para seu site e aplicativo.
+A publicação do seu modelo o coloca em Servidores de Imagens Dynamic Media, onde está disponível para o seu site e aplicativo. Durante o processo de publicação, o Dynamic Media Classic ativa os URLs necessários para seu site e aplicativo.
 
 >[!NOTE]
 >
->Para usar o modelo, publique todo o conteúdo que entrou na criação, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, será exibida uma mensagem de erro ao publicar.
+>Para usar o modelo, publique todo o conteúdo que foi criado, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
 
-## Marcar modelos para publicação {#marking-templates-for-publish}
+## Modelos de marcação para publicação {#marking-templates-for-publish}
 
-Os modelos e todos os arquivos de suporte devem ser marcados para publicação para que sejam colocados em servidores de imagem do Dynamic Media. Você pode marcar esses itens para publicação no Painel Procurar clicando no **ícone Marcar para publicar** .
+Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que possam ser colocados nos Dynamic Media Image Servers. Você pode marcar esses itens para publicação no Painel de navegação clicando no ícone **Marcar para publicação** .
 
 ## Publicar seu modelo {#publishing-your-template}
 
-Para publicar modelos em Servidores de imagem do Dynamic Media, comece selecionando o botão Publicar na barra Navegação global. Em seguida, selecione a opção Quando, insira um nome para o trabalho de publicação e selecione o botão Iniciar publicação.
+Para publicar modelos nos Dynamic Media Image Servers, selecione o botão Publicar na barra de navegação global. Em seguida, selecione uma opção Quando, opcionalmente, insira um nome para o trabalho de publicação e selecione o botão Publicar Start.
 
 >[!MORELIKETHIS]
 >
