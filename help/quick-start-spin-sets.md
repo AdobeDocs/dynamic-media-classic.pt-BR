@@ -1,47 +1,50 @@
 ---
-title: '" Início rápido: Conjuntos de rotação "'
-seo-title: '" Início rápido: Conjuntos de rotação "'
-description: 'null'
-seo-description: Uma introdução e início rápido ao Spin Set para ajudá-lo a começar a usar rapidamente.
-uuid: d 0 af 9 db 6-cb 6 f -48 f 0-89 f 6-f 3 ab 2 da 0659 f
+title: '"Start rápido: Conjuntos de rotação"'
+seo-title: '"Start rápido: Conjuntos de rotação"'
+description: nulo
+seo-description: Uma introdução e um Start rápido para o Conjunto de rotação para ajudá-lo a começar a funcionar rapidamente.
+uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/spin_ sets
-discoiquuid: 282 b 8 e 83-b 20 f -43 f 7-b 9 f 8-6 eebd 5 b 1 c 5 a 7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
 
-# Início rápido: Conjuntos de rotação{#quick-start-spin-sets}
+# Start rápido: Conjuntos de rotação{#quick-start-spin-sets}
 
-Um Conjunto de rotação simula o ato real de girar um objeto para examiná-lo. Os Conjuntos de rotação possibilitam a exibição de itens de qualquer ângulo, obtendo os detalhes visuais principais de qualquer ângulo. Um Conjunto de rotação simula uma experiência de visualização de 360 graus. O Dynamic Media Classic oferece Conjuntos de rotação unidimensionais nos quais os visualizadores podem girar um item e bidões bidimensionais nos quais os visualizadores podem girar e virar o item. Além disso, os usuários podem aplicar zoom e deslocar o zoom de qualquer uma das exibições com alguns cliques do mouse simples. Dessa forma, os usuários podem examinar um item mais detalhadamente de um ponto de vista específico.
+Um Conjunto de rotação simula o ato real de girar um objeto para examiná-lo. Os Conjuntos de rotação possibilitam a visualização de itens de qualquer ângulo, obtendo os detalhes visuais principais de qualquer ângulo. Um conjunto de rotação simula uma experiência de visualização de 360 graus. Conjuntos de rotação unidimensionais do Dynamic Media Classic oferta nos quais os visualizadores podem girar um item, e Conjuntos de rotação bidimensionais nos quais os visualizadores podem girar e girar o item. Além disso, os usuários podem aplicar zoom e deslocar qualquer uma das visualizações com apenas alguns cliques do mouse. Dessa forma, os usuários podem examinar um item mais detalhadamente de um ponto de vista específico.
 
 ![Imagens para um conjunto de rotação.](/help/assets/spin_set.png)
 
-Conjuntos de rotação também aceitam Mapas de imagem. Um Mapa de imagem é uma região em uma imagem no Conjunto de rotação que exibe um painel de rolagem com texto. Quando o usuário clica em um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é aberta para que o usuário saiba mais sobre um produto. Para chamar a atenção para o uso de um mapa de imagem em um Conjunto de rotação, um contorno aparece em torno do próprio Mapa de imagem quando o usuário move o ponteiro do mouse sobre ele.
+Os Conjuntos de rotação também aceitam os Mapas de imagem. Um Mapa de imagem é uma região em uma imagem dentro do Conjunto de rotação que exibe um painel de rolagem com texto. Quando o usuário clica em um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é aberta para que o usuário possa saber mais sobre um produto. Para chamar a atenção para o uso de um mapa de imagem em um Conjunto de rotação, um contorno é exibido ao redor do próprio Mapa de imagem quando o usuário move o ponteiro do mouse sobre ele.
 
-Consulte [Criar mapas de imagem](creating-image-maps.md).
+Consulte [Criação de mapas](creating-image-maps.md)de imagem.
 
-**Início rápido**
+**Start rápido**
 
-Esse Início rápido define o início rápido com técnicas de rotação de rotação no Dynamic Media Classic. Siga as etapas de 1 a 7. Ao final de cada etapa, é uma referência cruzada para um cabeçalho de tópico, onde você pode encontrar mais informações, se necessário.
+Este Start rápido de Conjuntos de rotação foi projetado para começar a funcionar rapidamente com as técnicas de Conjunto de rotação no Dynamic Media Classic. Siga as etapas de 1 a 7. No final de cada etapa há uma referência cruzada para um cabeçalho de tópico no qual você pode encontrar mais informações se precisar.
 
-**1. Como criar e carregar as imagens**
+**1. Criação e upload das imagens**
 
-No mínimo, você precisa de capturas de 8-12 de um item para um Rotação de rotação unidimensional e 16-24 para um Conjunto de rotação bidimensional. As capturas devem ser realizadas em intervalos regulares para dar a impressão de que o item está girando e sendo girado. Por exemplo, se um Rotação de rotação unidimensional incluir 12 capturas, gire o item 30 graus (360/12) para cada captura.
+No mínimo, você precisa de 8 a 12 fotos de um item para um Conjunto de rotação unidimensional e 16 a 24 para um Conjunto de rotação bidimensional. As fotos devem ser tiradas a intervalos regulares para dar a impressão de que o item está girando e sendo virado. Por exemplo, se um Conjunto de rotação unidimensional incluir 12 fotos, gire o item 30 graus (360/12) para cada tomada.
 
-Selecione o botão Carregar na barra Navegação global para carregar imagens de rotação do computador ou rede para o Sistema de publicação Scene 7.
+Selecione o botão Carregar na barra Navegação global para carregar imagens de rotação do computador ou da rede para o Dynamic Media Classic.
 
-Consulte [Diretrizes para tirar imagens de Conjunto de rotação](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
+Consulte [Diretrizes para fotografar imagens](creating-spin-set.md#guidelines-for-shooting-spin-set-images)do conjunto de rotação.
 
-**2. Criar um conjunto de rotação**
+**2. Criação de um conjunto de rotação**
 
-Para criar um Conjunto de rotação, clique no botão Build e escolha Conjuntos de rotação. Na caixa de diálogo Tamanho do conjunto de rotação, escolha quantas linhas e células quiser e clique em OK. Em seguida, arraste imagens para a grade na tela Conjunto de rotação.
+Para criar um Conjunto de rotação, clique no botão Criar e escolha Conjuntos de rotação. Na caixa de diálogo Tamanho do conjunto de rotação, escolha quantas linhas e células deseja e clique em OK. Em seguida, arraste as imagens para a grade na tela Conjunto de rotação.
 
-Consulte [Criar um conjunto de rotação](creating-spin-set.md#creating-a-spin-set).
+Consulte [Criação de um conjunto](creating-spin-set.md#creating-a-spin-set)de rotação.
 
 <!-- 
 
@@ -65,36 +68,36 @@ Last Modified Date:
 
 **3. Edição de um conjunto de rotação**
 
-Para editar um Conjunto de rotação, selecione o botão Editar rolagem. A tela de Rotação de rotação é aberta. Adicione, remova e altere a posição das imagens. É possível alterar a posição das linhas em conjuntos de rotação bidimensionais.
+Para editar um Conjunto de rotação, selecione o botão Editar sobreposição. A tela Conjunto de rotação é aberta. Adicione, remova e altere a posição das imagens. É possível alterar a posição das linhas em conjuntos de rotação bidimensionais.
 
-Consulte [Editando um conjunto de rotação](creating-spin-set.md#editing-a-spin-set).
+Consulte [Editando um conjunto](creating-spin-set.md#editing-a-spin-set)de rotação.
 
-**4. Configuração de predefinições do visualizador de rotação**
+**4. Configuração das predefinições do visualizador Spin Set**
 
-Os administradores podem criar predefinições do Visualizador de rotação. Essas predefinições determinam a aparência do Visualizador de rotação. Para configurar uma nova Predefinição do visualizador de rotação, selecione o botão Configuração na barra Navegação global. Na tela Configuração, exiba opções de Configuração de aplicativo e selecione Predefinições do visualizador.
+Os administradores podem criar predefinições do visualizador do Spin Set. Essas predefinições determinam a aparência do visualizador de conjunto de rotação. Para configurar uma nova predefinição do visualizador de conjunto de rotação, selecione o botão Configuração na barra Navegação global. Na tela Configuração, exiba as opções de Configuração do aplicativo e selecione Predefinições do visualizador.
 
-Na tela Predefinições do visualizador, selecione o menu Adicionar e escolha Visualizador de rotação de rotação na caixa de diálogo Adicionar predefinição do visualizador. Em seguida, escolha opções na tela Configurar visualizador.
+Na tela Predefinições do visualizador, selecione o menu Adicionar e escolha Visualizador do conjunto de rotação na caixa de diálogo Adicionar predefinição do visualizador. Em seguida, escolha as opções na tela Configurar visualizador.
 
-Consulte [Configuração de predefinições do visualizador de rotação](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
+Consulte [Configuração das predefinições](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets)do visualizador de conjunto de rotação.
 
-**5. Visualização de um conjunto de rotação**
+**5. Visualização de um conjunto de giros**
 
-Selecione seu Conjunto de rotação no Painel Procurar e clique no botão Visualizar sobreposições. Na tela Visualizar, mantenha o botão do mouse pressionado e arraste o ponteiro esquerdo ou direito para visualmente «girar» o item.
+Selecione seu Conjunto de rotação no Painel de navegação e clique em seu botão de Pré-visualização de rolagem. Na tela de Pré-visualização, mantenha pressionado o botão do mouse e arraste o ponteiro para a esquerda ou para a direita para &quot;girar&quot; visualmente o item.
 
-Consulte [Visualizar um conjunto de rotação](previewing-spin-set.md#previewing-a-spin-set).
+Consulte [Visualizar um conjunto](previewing-spin-set.md#previewing-a-spin-set)de rotação.
 
 **6. Publicar um conjunto de rotação**
 
-A publicação de um Conjunto de rotação a coloca nos servidores do Dynamic Media Classic para que ela possa ser fornecida dinamicamente em seu site ou aplicativo. Ela também ativa a sequência de caracteres de URL que chama o Conjunto de rotação dos servidores de Imagem de Dynamic Media para o seu site ou aplicativo.
+A publicação de um conjunto de rotação o coloca em servidores Dynamic Media Classic para que possa ser entregue dinamicamente ao seu site ou aplicativo. Ela também ativa a string de URL que chama o Conjunto de rotação dos servidores de imagem Dynamic Media para o site ou aplicativo.
 
-Para publicar um Conjunto de rotação, marque-o para publicar, selecionando **o ícone Marcar para publicar** ao lado de seu nome no Painel Procurar. Clique **em Publicar** na barra de navegação global para iniciar uma publicação. Na tela Publicar, clique **em Iniciar publicação**.
+Para publicar um Conjunto de rotação, marque-o para publicação selecionando o ícone **Marcar para publicação** ao lado de seu nome no Painel de navegação. Clique em **Publicar** na barra Navegação global para iniciar uma publicação. Na tela Publicar, clique em Publicar **** Start.
 
-Consulte [Publicação de um conjunto de rotação](publishing-spin-set.md#publishing-a-spin-set).
+Consulte [Publicação de um conjunto](publishing-spin-set.md#publishing-a-spin-set)de rotação.
 
 **7. Vincular um conjunto de rotação a uma página da Web**
 
-O Dynamic Media Classic cria sequências de caracteres de chamada de URL para Conjuntos de rotação e as ativa depois de publicá-las. Você pode copiar esses urls da tela Visualizar.
+O Dynamic Media Classic cria sequências de chamada de URL para Conjuntos de rotação e as ativa depois que você as publica. Você pode copiar esses URLs da tela de Pré-visualização.
 
-Selecione o Conjunto de rotação e clique **em Visualizar**. A tela Visualizar é aberta. Selecione uma Predefinição do visualizador de rotação. Em seguida, clique **em Copiar URL**.
+Selecione o Conjunto de rotação e clique em **Pré-visualização**. A tela Pré-visualização é aberta. Selecione uma predefinição do visualizador de conjunto de rotação. Em seguida, clique em **Copiar URL**.
 
-Consulte [Vincular um conjunto de rotação a uma página da Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
+Consulte [Vincular um conjunto de rotação a uma página](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page)da Web.
