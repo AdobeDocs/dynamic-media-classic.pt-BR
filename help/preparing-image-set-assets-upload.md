@@ -1,32 +1,35 @@
 ---
-title: Preparar ativos de conjunto de imagens para upload
-seo-title: Preparar ativos de conjunto de imagens para upload
-description: 'null'
-seo-description: Saiba como preparar ativos de Conjunto de imagens para fazer upload.
-uuid: ea 90643 f-f 52 f -43 cd -8 a 74-ebffc 78 ab 717
+title: Preparando ativos de Conjunto de imagens para upload
+seo-title: Preparando ativos de Conjunto de imagens para upload
+description: nulo
+seo-description: Saiba como preparar ativos do Conjunto de imagens para upload.
+uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/image_ sets
-discoiquuid: c 341 f 5 ea-aa 7 b -4749-975 d -68 a 45 c 6 fa 77 c
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
 
-# Preparar ativos de conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
+# Preparando ativos de Conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
 
-Antes de carregar as imagens necessárias para os Conjuntos de imagens no Sistema de publicação Scene 7, certifique-se de que as imagens sejam o tamanho e o formato corretos.
+Antes de carregar as imagens necessárias para os Conjuntos de imagens no Dynamic Media Classic, verifique se as imagens têm o tamanho e o formato corretos.
 
-Para criar um Conjunto de imagens de várias visualizações, você precisa de imagens que mostrem um item de diferentes pontos de exibição ou mostrar diferentes aspectos do mesmo item. O objetivo é destacar os recursos importantes de um item para que os visualizadores tenham uma visão completa da aparência ou da aparência.
+Para criar um Conjunto de imagens de várias visualizações, é necessário que as imagens mostrem um item de diferentes pontos de visualização ou mostrem diferentes aspectos do mesmo item. O objetivo é destacar os recursos importantes de um item para que os visualizadores tenham uma imagem completa de como ele se parece ou faz.
 
-Como os usuários podem aplicar zoom em imagens em Conjuntos de imagens, certifique-se de que as imagens tenham pelo menos 2000 pixels na maior dimensão. O Dynamic Media Classic oferece suporte a muitos formatos de arquivo de imagem, mas as imagens TIFF, PNG e EPS sem perdas são recomendadas.
+Como os usuários podem aplicar zoom em Conjuntos de imagens, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Dynamic Media Classic é compatível com vários formatos de arquivo de imagem, mas as imagens TIFF, PNG e EPS sem perdas são recomendadas.
 
-Para obter instruções detalhadas sobre como carregar ativos, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
+Para obter instruções detalhadas sobre como fazer upload de ativos, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Upload de arquivos](uploading-files.md#uploading_your_files)
->* [Trabalhar com arquivos de vigneta, de capa e de gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Carregar seus arquivos](uploading-files.md#uploading_your_files)
+>* [Trabalhar com arquivos de vinheta, revestimento de janela e gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 
