@@ -6,13 +6,13 @@ seo-description: Uma introdução e Start rápido para as noções básicas sobr
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 As Informações básicas sobre modelos são criadas dinamicamente e arquivos de imagem em camadas endereçáveis, como arquivos em camadas em aplicativos de edição de imagens, como o Adobe Photoshop. Ao contrário de um arquivo estático que contém camadas, como um arquivo PSD, um modelo pode incluir parâmetros. Por meio de parâmetros, os diferentes aspectos da imagem podem ser abordados e personalizados.
 
-Um modelo pode conter qualquer número de camadas de imagem e camadas de texto. É possível converter um arquivo estático contendo camadas, como um arquivo PSD em camadas, em um modelo, bem como criar modelos no Dynamic Media Classic. É possível criar camadas de texto em modelos usando fontes que foram carregadas no SPS. Depois de adicionar texto a um modelo, é possível formatá-lo alterando sua justificação, fontes, tamanho da fonte e cor.
+Um modelo pode conter qualquer número de camadas de imagem e camadas de texto. É possível converter um arquivo estático contendo camadas, como um arquivo PSD em camadas, em um modelo, bem como criar modelos no Dynamic Media Classic. Você pode criar camadas de texto em modelos usando fontes que foram carregadas no Dynamic Media Classic. Depois de adicionar texto a um modelo, é possível formatá-lo alterando sua justificação, fontes, tamanho da fonte e cor.
 
 Usando a tela Parâmetros, é possível converter qualquer aspecto de um modelo em um parâmetro endereçável. Ao fazer isso, você pode alterar qual imagem em camadas usar ou qual valor de texto usar no modelo. Os parâmetros são passados com a string de URL, permitindo que você altere qualquer parâmetro para personalizar dinamicamente a imagem de resposta gerada do servidor de imagem.
 
@@ -34,11 +34,11 @@ Este Start rápido foi projetado para começar a funcionar rapidamente com as In
 
 Start fazendo upload do arquivo PSD ou de imagem para seu modelo. O Dynamic Media Classic é compatível com vários formatos de arquivo de imagem além do PSD, mas imagens TIFF e PNG sem perdas são recomendadas para modelos, pois permitem transparência.
 
-Se você estiver usando um arquivo PSD para criar seu modelo, selecione a opção Criar modelo na caixa de diálogo Carregar opções de trabalho ao carregar o arquivo PSD. Além disso, escolha uma opção Nomenclatura de camada para informar ao Dynamic Media Classic como nomear camadas PSD quando elas forem carregadas no Scene7 Publishing System.
+Se você estiver usando um arquivo PSD para criar seu modelo, selecione a opção Criar modelo na caixa de diálogo Carregar opções de trabalho ao carregar o arquivo PSD. Escolha também uma opção de nomenclatura de camada para informar ao Dynamic Media Classic como nomear camadas PSD quando elas forem carregadas no Dynamic Media Classic.
 
 Se você estiver usando arquivos de imagem, poderá recortar as imagens e também criar uma máscara a partir de caminhos de recorte nas imagens à medida que as carrega.
 
-Selecione o botão Carregar na barra de navegação global para carregar um arquivo PSD ou outros arquivos de imagem do computador para uma pasta no SPS. Consulte [Upload de arquivos](uploading-template-files.md#uploading_template_files)de modelo.
+Selecione o botão Carregar na barra de navegação global para carregar um arquivo PSD ou outros arquivos de imagem do computador para uma pasta no Dynamic Media Classic. Consulte [Upload de arquivos](uploading-template-files.md#uploading_template_files)de modelo.
 
 **2. Criar um modelo**
 
@@ -60,7 +60,7 @@ Para parametrizar uma camada, abra o modelo na tela Modelo e selecione o botão 
 
 **4. Publicar modelos**
 
-A publicação do seu modelo o coloca em Servidores de Imagem de Mídia Dinâmica para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. A publicação também ativa o URL para chamar o modelo dos Servidores de Imagem de Mídia Dinâmica para seu site ou aplicativo.
+A publicação do modelo o coloca em Servidores de Imagens da Dynamic Media para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. A publicação também ativa o URL para chamar o modelo dos Servidores de Imagens da Dynamic Media para o site ou aplicativo.
 
 Certifique-se de publicar todas as imagens associadas ao seu modelo.
 
@@ -68,6 +68,6 @@ Para publicar um modelo, marque-o para publicação e selecione o botão Publica
 
 **5. Vincular um modelo a uma página da Web**
 
-O Dynamic Media Classic cria URLs para modelos e ativa os URLs quando você publica modelos em Servidores de Imagem de Mídia Dinâmica. É possível copiar essas sequências de URL da tela Pré-visualização Modelo.
+O Dynamic Media Classic cria URLs para modelos e ativa os URLs quando você publica modelos em Dynamic Media Image Servers. É possível copiar essas sequências de URL da tela Pré-visualização Modelo.
 
 Selecione seu modelo no Painel de navegação e clique no botão Pré-visualização para abrir a tela Pré-visualização do modelo. Em seguida, escolha uma predefinição de imagem para entregar seu modelo e selecione o botão Copiar URL. Depois de copiar o URL da tela de Pré-visualização, você pode usá-lo em seu site ou aplicativo. Consulte [Vincular um modelo a uma página](linking-template-web-page.md#linking_a_template_to_a_web_page)da Web.
