@@ -6,10 +6,10 @@ seo-description: Saiba mais sobre quais recursos de desenvolvedor estão dispon�
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 6%
@@ -19,14 +19,14 @@ ht-degree: 6%
 
 # Recursos do desenvolvedor{#developer-resources}
 
-O Dynamic Media Classic fornece documentação para a versão mais recente de cada módulo de software Dynamic Media Classic. Os documentos de módulo estão disponíveis para a Criação de imagens, Scene7 Publishing System, Servidor de imagens e Renderização de imagens e Visualizadores.
+O Dynamic Media Classic fornece documentação para a versão mais recente de cada módulo de software Dynamic Media Classic. Os documentos de módulo estão disponíveis para a criação de imagens, o Dynamic Media Classic, o servidor de imagens e a renderização de imagens e os visualizadores.
 
 Notas de versão também estão disponíveis para alguns módulos. As notas de versão fornecem detalhes sobre a versão, incluindo aprimoramentos, novas funcionalidades, dicas, recomendações de solução de problemas e problemas conhecidos pendentes. Notas de versão também ofertas exemplos interativos de recursos de mídia avançada e como ativá-los. Além disso, as Notas de versão oferta instruções de instalação e configuração para clientes com software licenciado.
 
 Os Guias de referência para o serviço de imagens e a renderização de imagens e os visualizadores descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites que desejam personalizar e aproveitar ainda mais a mídia avançada do Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. O Dynamic Media Classic supõe que o leitor esteja familiarizado com o aplicativo de desktop, padrões e convenções gerais de protocolo http e terminologia básica de geração de imagens.
 
 
-**API do sistema de publicação do Scene7**
+**API Dynamic Media Classic**
 
 | Documento | Endereço Web |
 |--- |--- |
