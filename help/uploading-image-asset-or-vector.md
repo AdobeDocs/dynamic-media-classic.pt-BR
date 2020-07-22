@@ -5,11 +5,14 @@ description: nulo
 seo-description: Saiba como carregar um ativo de imagem ou um ativo vetorial.
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
-content-type: referência
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ O token de upload é uma sequência de caracteres alfanuméricos que está dispo
 * Vetor
    `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`Neste exemplo, a chave shared-secret é `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
-Por padrão, o token de upload expira cinco minutos (300 segundos) após sua recuperação. Para solicitar mais tempo, inclua `expires` o URL e o tempo necessário em segundos. Por exemplo, o URL de exemplo a seguir recupera um token de upload válido por 1800 segundos:
+Por padrão, o token de upload expira cinco minutos (300 segundos) depois que você o recupera. Para solicitar mais tempo, inclua `expires` o URL e o tempo necessário em segundos. Por exemplo, o URL de exemplo a seguir recupera um token de upload válido por 1800 segundos:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -65,12 +68,12 @@ A resposta bem-sucedida para imagens é semelhante ao seguinte:
 
 Salve o token de upload localmente para usar com solicitações futuras.
 
-Você pode usar os seguintes campos na string do URL de consulta para recuperar um token de upload:
+Você pode usar os seguintes campos na string do URL do query para recuperar um token de upload:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 |--- |--- |--- |
 | op | Obrigatório | get_uploadtoken |
-| shared_secret | Obrigatório | A chave de segredo compartilhado da empresa que está fazendo o upload. |
+| shared_secret | Obrigatório | A chave de segredo compartilhado para a empresa que está fazendo o upload. |
 | expira | Opcional | Número de segundos em que o token de carregamento é válido. O padrão é 300 segundos, se não for especificado. |
 
 **URL da imagem de amostra:**
@@ -81,15 +84,15 @@ Você pode usar os seguintes campos na string do URL de consulta para recuperar 
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**** Métodos HTTP permitidos: GET e POST
+**Métodos HTTP permitidos:** GET e POST
 
 Agora é possível carregar um ativo de imagem.
 
-Consulte [Carregar um ativo](uploading-image-asset-or-vector.md#uploading_an_image_asset)de imagem.
+Consulte [Fazer upload de um ativo](uploading-image-asset-or-vector.md#uploading_an_image_asset)de imagem.
 
 ## Fazer upload de um ativo de imagem {#uploading-an-image-asset}
 
-Depois de recuperar um token de upload válido por um período específico, você pode carregar um ativo de imagem. Você carrega o ativo como uma publicação multipart/form ao enviar o restante dos valores como uma sequência de consulta de URL, como mostra este exemplo:
+Depois de recuperar um token de upload válido por um período específico, você pode fazer upload de um ativo de imagem. Você faz upload do ativo como uma publicação multipart/form ao enviar o restante dos valores como uma string de query de URL, como mostra este exemplo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
@@ -101,7 +104,7 @@ Consulte [Recuperar o token](uploading-image-asset-or-vector.md#retrieving_the_u
 
 Consulte [Recuperando uma chave](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)de segredo compartilhado.
 
-Você também pode enviar outros valores opcionais como sequências de consulta de URL, como neste exemplo:
+Você também pode enviar outros valores opcionais como sequências de caracteres de query de URL, como neste exemplo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
@@ -109,7 +112,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 O `file_limit` parâmetro especifica o limite de tamanho de arquivo em bytes. O `file_exts` parâmetro especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
 
-Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviar na solicitação for um subconjunto dos limites globais, ele será respeitado. Os limites globais são os seguintes:
+Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviar na solicitação for um subconjunto dos limites globais, ele será atendido. Os limites globais são os seguintes:
 
 | Limite global | Valor |
 |--- |--- |
@@ -122,7 +125,7 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Um token de carregamento.
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
-* A preservação ou não do perfil de cores e do nome de arquivo associados ao ativo.
+* A preservação ou não do perfil de cor e do nome de arquivo associados ao ativo.
 * Usar ou não o Plano de fundo de separação. Se você ativar o Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento. Consulte Plano de fundo de separação nas opções de edição de [imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado
 
@@ -138,13 +141,13 @@ Last Modified Date:
 
 ![]()
 
-Você pode exibir o código-fonte HTML associado ao formulário acima clicando no link a seguir:
+Você pode visualização o código fonte HTML associado ao formulário acima clicando no link a seguir:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito do mouse na janela do navegador e clique em **Exibir fonte** da página. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
+No Firefox, clique com o botão direito do mouse na janela do navegador e clique em Origem **da página de** Visualização. O código mostra a string de query de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
 
-Para exibir a resposta XML no Internet Explorer, clique em **Exibir &gt; Fonte**. Para exibir a resposta XML no Firefox, clique em **Ferramentas &gt; Desenvolvedor da Web &gt; Fonte** da página. O Firefox é recomendado para exibir respostas XML.
+Para visualização da resposta XML no Internet Explorer, clique em **Visualização > Fonte**. Para visualização da resposta XML no Firefox, clique em **Ferramentas > Desenvolvedor da Web > Origem** da página. O Firefox é recomendado para exibir respostas XML.
 
 A seguir está uma amostra de resposta de um upload bem-sucedido:
 
@@ -172,22 +175,22 @@ A seguir está uma amostra de resposta de um upload bem-sucedido:
 >
 >O ativo carregado (JPG, GIF e assim por diante) é convertido no formato PTIFF e a resposta envia um link direto para esse ativo PTIFF.
 
-O ativo é como qualquer outro recurso ImageServing; você pode aplicar consultas de processamento a ele. Por exemplo, o URL a seguir solicita um ativo que é esticado até a largura e a altura especificadas.
+O ativo é como qualquer outro recurso ImageServing; você pode aplicar query de processamento a ele. Por exemplo, o URL a seguir solicita um ativo que é esticado até a largura e a altura especificadas.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-Envie o ativo para fazer upload como uma publicação multiparte/formulário ao enviar o restante dos valores como uma sequência de consulta de URL. Você pode usar os seguintes campos na sequência de consulta URL para carregar um ativo:
+Envie o ativo para fazer upload como uma publicação multiparte/formulário ao enviar o restante dos valores como uma sequência de query de URL. Você pode usar os seguintes campos na sequência de query do URL para fazer upload de um ativo:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 |--- |--- |--- |
 | op | Obrigatório | upload |
 | upload_token | Obrigatório | Carregue o token da chave de segredo compartilhado associada à empresa. |
-| company_name | Obrigatório | Nome da empresa que está executando o upload. |
+| nome_da_empresa | Obrigatório | Nome da empresa que executa o upload. |
 | file_limit | Opcional | Limite de tamanho de arquivo, em bytes, para o ativo. |
 | file_exts | Opcional | Lista de extensões permitidas para o arquivo de ativo de imagem. |
-| preserve_color_profile | Opcional | Preserva qualquer perfil de cor incorporado ao converter o arquivo carregado para o formato PTIFF. Valores possíveis são verdadeiros ou falsos. O padrão é falso. |
+| preserve_color_profile | Opcional | Preserva qualquer perfil de cor incorporado ao converter o arquivo carregado no formato PTIFF. Valores possíveis são verdadeiros ou falsos. O padrão é falso. |
 | preserve_filename | Opcional | Preserva o nome de arquivo do ativo carregado. Valores possíveis são verdadeiros ou falsos. O padrão é falso. |
 
 >[!NOTE]
@@ -204,7 +207,7 @@ POSTAGEM
 
 ### Obter metadados de ativos para imagens {#getting-asset-metadata-for-images}
 
-Você pode usar `image_info` para recuperar metadados de um ativo que carregou, como mostrado no exemplo a seguir:
+Você pode usar `image_info` para recuperar metadados de um ativo que você carregou, como mostrado no exemplo a seguir:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -234,12 +237,12 @@ Um exemplo de uma resposta bem-sucedida é semelhante ao seguinte:
 </scene7>
 ```
 
-Você pode usar os seguintes campos na sequência de consulta do URL para solicitar informações para um ativo:
+Você pode usar os seguintes campos na sequência de query do URL para solicitar informações para um ativo:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 |--- |--- |--- |
 | op | Obrigatório | image_info |
-| shared_secret | Obrigatório | A chave secreta compartilhada da empresa. |
+| shared_secret | Obrigatório | A chave do segredo compartilhado para a empresa. |
 | image_name | Obrigatório | Nome da imagem. |
 
 **URL de exemplo:**
@@ -248,11 +251,11 @@ Você pode usar os seguintes campos na sequência de consulta do URL para solici
 
 **Método HTTP permitido:**
 
- GET e POST
+GET e POST
 
 ## Fazer upload de um ativo vetorial {#uploading-a-vector-asset}
 
-Depois de recuperar um token de upload válido por um período específico, você pode fazer upload de um ativo de vetor. Você carrega o ativo como uma publicação multipart/form ao enviar o restante dos valores como uma sequência de consulta de URL, como mostra este exemplo:
+Depois de recuperar um token de upload válido por um período específico, você pode fazer upload de um ativo de vetor. Você faz upload do ativo como uma publicação multipart/form ao enviar o restante dos valores como uma string de query de URL, como mostra este exemplo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
@@ -264,7 +267,7 @@ Consulte [Recuperar o token](uploading-image-asset-or-vector.md#retrieving_the_u
 
 Consulte [Recuperando uma chave](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)de segredo compartilhado.
 
-Você também pode enviar outros valores opcionais como sequências de consulta de URL, como neste exemplo:
+Você também pode enviar outros valores opcionais como sequências de caracteres de query de URL, como neste exemplo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
@@ -272,7 +275,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 
 O `file_limit` parâmetro especifica o limite de tamanho de arquivo em bytes. O `file_exts` parâmetro especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
 
-Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviar na solicitação for um subconjunto dos limites globais, ele será respeitado. Os limites globais são os seguintes:
+Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviar na solicitação for um subconjunto dos limites globais, ele será atendido. Os limites globais são os seguintes:
 
 | Limite global | Valor |
 |--- |--- |
@@ -285,7 +288,7 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Um token de carregamento.
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
-* A preservação ou não do perfil de cores e do nome de arquivo associados ao ativo.
+* A preservação ou não do perfil de cor e do nome de arquivo associados ao ativo.
 * Usar ou não o Plano de fundo de separação. Se você ativar o Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento. Consulte Plano de fundo de separação nas opções de edição de [imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado
 
@@ -301,7 +304,7 @@ Last Modified Date:
 
 ![]()
 
-O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em **Exibir fonte** para o formulário mostrado na ilustração. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
+O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em Origem **da** Visualização para o formulário mostrado na ilustração. O código mostra a string de query de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
 
 ```as3
 <body> 
@@ -335,7 +338,7 @@ return true;
 </body>
 ```
 
-Para exibir a resposta XML no Internet Explorer, clique em **Exibir** &gt; **Fonte**. Para exibir a resposta XML no Firefox, clique em **Exibir** &gt; Fonte **** da página. O Firefox é recomendado para exibir respostas XML.
+Para visualização da resposta XML no Internet Explorer, clique em **Visualização** > **Fonte**. Para visualização da resposta XML no Firefox, clique em **Visualização** > Fonte **** da página. O Firefox é recomendado para exibir respostas XML.
 
 A seguir está uma amostra de resposta de um upload bem-sucedido:
 
@@ -365,19 +368,19 @@ A seguir está uma amostra de resposta de um upload bem-sucedido:
 >
 >O ativo carregado (AI, EPS, PDF etc.) é convertido no formato FXG e a resposta envia um link direto para esse ativo FXG.
 
-O ativo é como qualquer outro recurso Web para impressão; você pode aplicar consultas de processamento a ele. Por exemplo, o URL a seguir converte um recurso FXG em uma imagem 500x500 png.
+O ativo é como qualquer outro recurso Web para impressão; você pode aplicar query de processamento a ele. Por exemplo, o URL a seguir converte um recurso FXG em uma imagem 500x500 png.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 ```
 
-Envie o ativo para fazer upload como uma publicação multiparte/formulário ao enviar o restante dos valores como uma sequência de consulta de URL. Você pode usar os seguintes campos na sequência de consulta URL para carregar um ativo:
+Envie o ativo para fazer upload como uma publicação multiparte/formulário ao enviar o restante dos valores como uma sequência de query de URL. Você pode usar os seguintes campos na sequência de query do URL para fazer upload de um ativo:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 |--- |--- |--- |
 | op | Obrigatório | upload |
 | upload_token | Obrigatório | Carregue o token da chave de segredo compartilhado associada à empresa. |
-| company_name | Obrigatório | Nome da empresa que está executando o upload. |
+| nome_da_empresa | Obrigatório | Nome da empresa que executa o upload. |
 | file_limit | Opcional | Limite de tamanho de arquivo, em bytes, para o ativo. |
 | file_exts | Opcional | Lista de extensões permitidas para o arquivo de ativos. |
 
