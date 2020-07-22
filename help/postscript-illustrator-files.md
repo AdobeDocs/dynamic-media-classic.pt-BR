@@ -5,19 +5,22 @@ description: nulo
 seo-description: Saiba como trabalhar com arquivos PostScript e Illustrator.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: admin
-content-type: referência
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/master_files
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
 
 
 # Trabalhar com arquivos PostScript e Illustrator{#working-with-postscript-and-illustrator-files}
 
-Você pode usar os arquivos Adobe® PostScript® (EPS) e Adobe® Illustrator® (AI) no Scene7 Publishing System. O Dynamic Media Classic oferece comandos para configurar esses arquivos à medida que você os carrega.
+Você pode usar os arquivos Adobe® PostScript® (EPS) e Adobe® Illustrator® (AI) no Dynamic Media Classic. Comandos do Dynamic Media Classic oferta para configurar esses arquivos à medida que você os carrega.
 
 Ao carregar arquivos de imagem PostScript (EPS) ou Illustrator (AI), você pode formatá-los de várias maneiras. Você pode rasterizar os arquivos, convertê-los em FXG para Publicação de modelo, manter o plano de fundo transparente, escolher uma resolução e escolher um espaço de cor. As opções para a formatação de arquivos PostScript e Illustrator estão disponíveis na tela Carregar em Opções de PostScript e Opções do Illustrator na caixa Carregar opções de trabalho.
 
