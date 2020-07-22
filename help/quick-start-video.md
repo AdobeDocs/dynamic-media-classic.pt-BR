@@ -6,13 +6,13 @@ seo-description: Uma introdução e um Start rápido para o Video para ajudá-lo
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Para gerenciar um único vídeo e Conjuntos de vídeos adaptáveis, o Dynamic Me
 
    Quando um conjunto de vídeo adaptável é gerado, ele inclui vídeos MP4.
 
-   `**Note:**` Os vídeos mestre/fonte e qualquer outro vídeo no formato de origem *não* são adicionados a um Conjunto de vídeos adaptáveis.
+   `**Note:**` Os vídeos Principais/de origem e qualquer outro vídeo de formato de origem *não* são adicionados a um Conjunto de vídeos adaptáveis.
 
 * As legendas de vídeo em Universal_HTML5_Video, Universal_HTML5_MixedMedia_black e Universal_HTML5_MixedMedia_light visualizadores e a navegação de capítulo de vídeo em Universal_HTML5_Video, Universal_HTML5_MixedMedia_black e Universal_HTML5_MixedMedia_light visualizadores.
 
@@ -81,14 +81,16 @@ A seguinte descrição passo a passo do fluxo de trabalho foi projetada para aju
 
 Carregue e gere conjuntos de vídeo adaptáveis usando um dos dois cenários a seguir:
 
-* **Carregar vídeos** pré-codificados Se os vídeos já tiverem sido codificados fora do Dynamic Media Classic, clique em **Carregar** na barra de navegação global para navegar e carregar arquivos de vídeo MP4 diretamente no Scene7 Publishing System. Em seguida, clique em **Criar > Conjuntos** de vídeos adaptáveis. Navegue até seus arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Conjunto de vídeos adaptáveis e salve o conjunto.
-* **Carregar vídeos** de origem mestre Se os vídeos não estiverem codificados, clique em **Carregar** na barra Navegação global para fazer upload dos arquivos de origem de vídeo mestre (não MP4) e peça ao Scene7 Publishing System que os codifique para arquivos MP4 para você. Na caixa de diálogo Carregar opções de trabalho, em Opções de vídeo, selecione Vídeo **** adaptável.
+* **Carregar vídeos pré-codificados** Se os vídeos já tiverem sido codificados fora do Dynamic Media Classic, clique em 
+**Carregue** na barra de navegação global para navegar e carregar arquivos de vídeo MP4 diretamente para o Dynamic Media Classic. Em seguida, clique em **Criar > Conjuntos** de vídeos adaptáveis. Navegue até seus arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Conjunto de vídeos adaptáveis e salve o conjunto.
+* **Carregar vídeos** de origem principais Se os vídeos não estiverem codificados, clique em 
+**Faça upload** na barra Navegação global para fazer upload de arquivos de fonte de vídeo principais (não MP4) e codifique-os para arquivos MP4 para você. Na caixa de diálogo Carregar opções de trabalho, em Opções de vídeo, selecione Vídeo **** adaptável.
 
    Essa opção preferencial permite criar um Conjunto de vídeos adaptáveis que aplica automaticamente a predefinição de codificação correta ao vídeo, seja 16:9 ou 4:3, para corresponder às dimensões do vídeo que você carregou. Quando você envia seu trabalho de upload, um Conjunto de vídeos adaptáveis é criado automaticamente para você, o que inclui três codificações de vídeo na proporção correta.
 
    Ou, na mesma caixa de diálogo Opções de trabalho, em Opções de vídeo, expanda Predefinições **de codificação** única e selecione as predefinições **individuais de codificação de vídeo que você deseja em** Desktop **,** Mobile (iPhone, iPad, Android) **e** Tablet (iPad, Android)para criar os arquivos MP4.
 
-* Ou você pode reprocessar um vídeo mestre usando o recurso Reprocessar. Os vídeos recém-codificados são adicionados ao Conjunto de vídeos adaptáveis existente.
+* Ou você pode reprocessar um vídeo principal usando o recurso Reprocessar. Os vídeos recém-codificados são adicionados ao Conjunto de vídeos adaptáveis existente.
 
 Consulte [Carregamento e codificação de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -110,7 +112,7 @@ Você pode reproduzir o vídeo na tela de Pré-visualização. Você também pod
 
 **Opcional**
 
-Personalização do visualizador predefinido - Predefinições predefinidas do visualizador do Dynamic Media Classic oferta para entrega de vídeo. Essas predefinições determinam a aparência do visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar as predefinições do visualizador na página de predefinições do visualizador. Para abrir esta página, no canto superior direito do Scene7 Publishing System, clique em Configuração > Predefinições do visualizador. A página Predefinições do visualizador oferta comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
+Personalização do visualizador predefinido - Predefinições predefinidas do visualizador do Dynamic Media Classic oferta para entrega de vídeo. Essas predefinições determinam a aparência do visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar as predefinições do visualizador na página de predefinições do visualizador. Para abrir esta página, no canto superior direito do Dynamic Media Classic, clique em Configuração > Predefinições do visualizador. A página Predefinições do visualizador oferta comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
 
 Consulte [Trabalhar com predefinições](previewing-videos-video-viewer.md#working_with_video_viewer_presets)do visualizador de vídeo.
 
