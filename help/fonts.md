@@ -1,66 +1,69 @@
 ---
 title: Fontes
 seo-title: Fontes
-description: 'null'
+description: nulo
 seo-description: Saiba como usar fontes no Dynamic Media Classic.
-uuid: bddec 9 c 2-8530-4 bbd -8 db 7-1562 a 347 e 482
+uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/support_ files
-discoiquuid: 97 casu 6 a -30 aa -44 fe-a 611-fd 71 b 02 fd 5 ae
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
+discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 0%
 
 ---
 
 
 # Fontes{#fonts}
 
-Em alguns casos, o Sistema de publicação Scene 7 exige que você carregue um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para texto em uma camada de modelo, carregue o arquivo de fonte. Para exibir números de página do Visualizador do ecatalog em uma fonte específica, carregue o arquivo de fonte.
+Em alguns casos, o Dynamic Media Classic exige o upload de um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, carregue o arquivo de fonte. Para exibir os números de página do Visualizador de eCatalog em uma fonte específica, faça upload do arquivo de fonte.
 
-O Dynamic Media Classic oferece suporte a esses tipos de fontes:
+O Dynamic Media Classic é compatível com estes tipos de fonte:
 
-* Todas as fontes truetype
-* Fontes postscript®
-* Fontes opentype/truetype
-* Fontes opentype/postscript
-* Photofonts
+* Todas as fontes TrueType
+* Fontes PostScript®
+* Fontes OpenType/TrueType
+* Fontes OpenType/PostScript
+* PhotoFonts
 
-Depois que um arquivo de fonte é carregado, você pode alterar sua ID do SPS, nome da fonte e informações de tipo na tela Editar informações.
+Após o upload de um arquivo de fonte, é possível alterar a ID do Dynamic Media Classic, o nome da fonte e digitar informações na tela Editar informações.
 
 >[!NOTE]
 >
->O Dynamic Media Classic recomenda carregar todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes em camadas de modelo. O Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos postscript/Adobe Type 1 associados a uma fonte também é recomendado, pois algumas dessas fontes contêm informações detalhadas sobre kerning.
+>O Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes em camadas de modelo. O Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Tipo 1 associados a uma fonte também é recomendado, pois algumas dessas fontes contêm informações detalhadas de ajuste de espaço.
 
-## Fazer upload de arquivos de fontes {#uploading-font-files}
+## Upload de arquivos de fonte {#uploading-font-files}
 
-Carregue arquivos de fontes com as mesmas técnicas usadas para fazer upload de outros arquivos. É possível armazenar arquivos de fonte em qualquer pasta SPS. Consulte [Carregar seus arquivos](uploading-files.md#uploading_your_files).
+Carregue arquivos de fonte com as mesmas técnicas usadas para carregar outros arquivos. É possível armazenar arquivos de fonte em qualquer pasta do Dynamic Media Classic. Consulte [Fazer upload dos arquivos](uploading-files.md#uploading_your_files).
 
-## Edição de informações de arquivo de fontes {#editing-font-file-information}
+## Editar informações do arquivo de fonte {#editing-font-file-information}
 
-Você pode alterar o nome da ID de uma fonte, bem como suas informações de tipo. Editar um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação das fontes.
+É possível alterar o nome da ID de uma fonte, bem como suas informações de tipo. Editar um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação de fontes.
 
-No Painel Procurar, selecione o arquivo de fonte que deseja editar na exibição Detalhe e escolha Arquivo &gt; Editar informações. A tela Editar informações é aberta. Escolha as opções a seguir e selecione o botão Enviar.
+No painel Procurar, selecione o arquivo de fonte que deseja editar na visualização Detalhe e escolha Arquivo > Editar informações. A tela Editar informações é aberta. Escolha as seguintes opções e selecione o botão Enviar.
 
-**Nome da fonte** Esse nome identifica a fonte quando ela é publicada.
+**Nome** da fonteEsse nome identifica a fonte quando é publicada.
 
-**Nome postscript** Nome é o nome postscript completo da fonte. Geralmente indica a espessura ou estilo.
+**Nome** PostScript Esse nome é o nome PostScript completo para a fonte. Geralmente indica o peso ou estilo.
 
-**Nome RTF** Esse nome aparece em um menu pop-up no editor RTF, onde as camadas de texto de modelo são criadas.
+**Nome** RTF Esse nome aparece em um menu pop-up no editor RTF onde as camadas de texto do modelo são criadas.
 
-**Nome da família de fontes** Esse nome lista o nome da fonte sem o indicador, peso ou indicador de tipo de fonte.
+**Nome** da família da fonte Esse nome lista o nome da fonte sem o indicador de estilo, peso ou tipo de fonte.
 
-**Estilo de Fonte** As opções são Simples, Negrito, Itálico e Negrito-Itálico.
+**Estilo** da fonte As opções são Simples, Negrito, Itálico e Negrito-Itálico.
 
-**Tipo de fonte** As opções são truetype e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
+**Tipo** de fonte As opções são TrueType e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
 
-**Abreviação do tipo de fonte** As opções são as seguintes:
+**Abreviação** do tipo de fonte As opções são as seguintes:
 
-**Arquivos de fonte** Truetype TTF usados para renderização de PDF/postscript e serviço de imagem.
+**Arquivos de fonte TTF** TrueType usados para renderização de PDF/PostScript e serviço de imagem.
 
-**Arquivos de fonte AFM** Adobe postscript que contêm informações de Métricas do Adobe Font e são usadas para o fornecimento de imagens.
+**Arquivos de fonte AFM** do Adobe PostScript que contêm informações de Métricas de fonte da Adobe e são usados para o serviço de imagem.
 
-**Arquivos de fonte PFM** Adobe postscript que contêm informações de métricas binárias.
+**Arquivos de fonte PFM** Adobe PostScript que contêm informações de métricas de fonte binária.
 
-**Arquivos de fonte PFB** Adobe postscript que contêm informações de contorno binário de fonte e são usadas para renderização de PDF/postscript e veiculação de imagens.
+**Arquivos de fonte PFB** do Adobe PostScript que contêm informações de contorno de fonte binária e são usados para renderização de PDF/PostScript e disponibilização de imagem.
