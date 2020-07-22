@@ -5,12 +5,15 @@ description: nulo
 seo-description: Saiba como criar um Conjunto de rotação.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
-content-type: referência
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/spin_sets
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '906'
+ht-degree: 0%
 
 ---
 
@@ -21,11 +24,11 @@ Para criar um conjunto de rotação eficaz, certifique-se de capturar as imagens
 
 >[!NOTE]
 >
->As versões anteriores do Dynamic Media Classic não ofereciam Conjuntos de rotação bidimensionais. Se você tiver criado um Conjunto de rotação em uma versão anterior do Dynamic Media Classic, não poderá salvar seu Conjunto de rotação unidimensional sem primeiro salvá-lo com um nome diferente. Clique em Salvar como na tela Conjunto de rotação e insira um novo nome para que você possa editá-lo no Dynamic Media Classic.
+>As versões anteriores do Dynamic Media Classic não ofertas Conjuntos de rotação bidimensionais. Se você tiver criado um Conjunto de rotação em uma versão anterior do Dynamic Media Classic, não poderá salvar seu Conjunto de rotação unidimensional sem primeiro salvá-lo com um nome diferente. Clique em Salvar como na tela Conjunto de rotação e insira um novo nome para que você possa editá-lo no Dynamic Media Classic.
 
 ## Diretrizes para fotografar imagens do Spin Set {#guidelines-for-shooting-spin-set-images}
 
-Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito de rotação da imagem. Entretanto, a inclusão de muitas imagens no conjunto também aumenta a quantidade de tempo necessário para carregar as imagens. O Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em Conjuntos de rotação:
+Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito de rotação da imagem. No entanto, a inclusão de muitas imagens no conjunto também aumenta a quantidade de tempo necessário para carregar as imagens. O Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em Conjuntos de rotação:
 
 * No mínimo, use 8 a 12 imagens em um conjunto de rotação unidimensional e 16 a 24 imagens em um conjunto de rotação bidimensional.
 * Usar um formato sem perdas; TIFF e PNG são recomendados.
@@ -35,18 +38,18 @@ Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor se
 
 ## Criação de um conjunto de rotação {#create}
 
-Esteja ciente de que a ordem em que o Conjunto de rotação é criado ou criado no Scene7 Publishing System é importante. Dependendo de como você ordena os ativos quando arrasta e solta imagens na grade na página Conjunto de rotação, o Conjunto de rotação gira em uma determinada direção. Portanto, a ordem em que é exibido visualmente no construtor é como o ativo é girado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
+Esteja ciente de que a ordem em que o Conjunto de rotação é criado ou criado no Dynamic Media Classic é importante. Dependendo de como você ordena os ativos quando arrasta e solta imagens na grade na página Conjunto de rotação, o Conjunto de rotação gira em uma determinada direção. Portanto, a ordem em que é exibido visualmente no construtor é como o ativo é girado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
 
 Quando você cria um conjunto, a opção **Publicar após salvar** afeta o conjunto e define os membros das seguintes maneiras:
 
-| opção "Publicar após salvar" selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
+| opção &quot;Publicar após salvar&quot; selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos retêm seu estado publicado ou não publicado. |
 
 Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually-publishing-assets) a publicação de ativos [](publishing-files.md#manually-unpublishing-assets)manualmente.
 
-Depois de salvar um conjunto de rotação, você pode usar Visualizar na compilação: Página de conjunto de rotação para ver a aparência do seu conjunto de rotação no visualizador padrão.
+Depois de salvar um conjunto de rotação, você pode usar a Pré-visualização na criação: Página de conjunto de rotação para ver a aparência do seu conjunto de rotação no visualizador padrão.
 
 **Para criar um conjunto de giros**
 
@@ -68,7 +71,7 @@ Depois de salvar um conjunto de rotação, você pode usar Visualizar na compila
 
 Dependendo de se você editar um conjunto publicado ou não publicado, a opção **Publicar após salvar** afetará o conjunto e definirá os membros das seguintes maneiras:
 
-| Definir já publicado? | Opção "Publicar após salvar" selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
+| Definir já publicado? | Opção &quot;Publicar após salvar&quot; selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |--- |
 | Sim | Sim | Publicado | Publicado |
 | Sim | Não | Publicado | Os membros do conjunto existente mantêm seu estado publicado.Qualquer novo conjunto de membros adicionado durante a edição mantém seu estado publicado ou não publicado. |
@@ -79,14 +82,16 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
 
 **Para editar um conjunto de giros**
 
-1. Clique no botão **Editar** sobreposição do Conjunto de rotação.
+1. Clique no botão **Editar** de sobreposição do Conjunto de rotação.
 1. Execute um dos procedimentos a seguir:
 
-   * **Remoção de imagens** Selecione a imagem e clique em **Excluir**.
+   * **Remoção de imagens** Selecione a imagem e clique em 
+**Excluir**.
 
    * **Adicionar imagens** Arraste a imagem para dentro de uma célula.
 
-   * **Reorganizando linhas (Conjuntos de rotação bidimensionais)** Clique em uma caixa seletor de linhas (à esquerda da linha) e, em seguida, clique em **Mover linha para baixo** ou **Mover linha para cima**.
+   * **Reorganizando linhas (Conjuntos de rotação bidimensionais)** Clique em uma caixa de seletor de linha (à esquerda da linha) e clique em 
+**Mova a linha para baixo** ou **Mova a linha para cima**.
 
    * **Adicionando linhas e células** Insira um número na caixa Linhas e Células para determinar o número de linhas e o número de células em cada linha.
 
@@ -95,12 +100,12 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
 
 ## Excluindo um conjunto de rotação {#deleting-a-spin-set}
 
-Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou "filhos") dentro desse conjunto não são afetados; em vez disso, cada um deles mantém seu estado publicado ou não publicado.
+Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um deles mantém seu estado publicado ou não publicado.
 
 Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually-publishing-assets) a publicação de ativos [](publishing-files.md#manually-unpublishing-assets)manualmente.
 
-**Para excluir um conjunto de rotação**
+**Para excluir um conjunto de giros**
 
-1. Na Exibição de grade, Exibição de lista ou Exibição de detalhes, selecione um ou mais Conjuntos de rotação.
-1. Na barra de navegação global, clique em **Arquivo** &gt; **Excluir** &gt; **Excluir**.
+1. Na Visualização Grade, na Visualização de Lista ou na Visualização Detalhes, selecione um ou mais Conjuntos de rotação.
+1. Na barra de navegação global, clique em **Arquivo** > **Excluir** > **Excluir**.
 
