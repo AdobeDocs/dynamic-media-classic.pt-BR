@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Depois de baixar, instalar e iniciar o aplicativo de desktop, você receberá um
 
 >[!IMPORTANT]
 >
->Somente uma instância do aplicativo de desktop pode ser instalada e ativa de cada vez.
+>Apenas uma instância do aplicativo de desktop pode ser instalada *e* ativa de cada vez em um determinado computador. No entanto, não há nenhuma restrição no número de instalações que você pode ter nos computadores.
 
 ### **_E se eu estiver usando as APIs do Dynamic Media Classic para acessar o produto e não fizer logon pela interface de usuário da Web?_**
 
