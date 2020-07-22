@@ -1,65 +1,68 @@
 ---
 title: Exibição de conjuntos de amostras
 seo-title: Exibição de conjuntos de amostras
-description: 'null'
-seo-description: Saiba como exibir Conjuntos de amostras.
-uuid: 80 df 403 b-b 03 f -428 f -9784-c 3 f 774567 bd 0
+description: nulo
+seo-description: Saiba como visualização conjuntos de amostras.
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/swatch_ sets
-discoiquuid: 48 de 8604-2 bb 4-4862-82 ee -0 c 7847 f 0 d 0 e 7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
 
 # Exibição de conjuntos de amostras{#viewing-swatch-sets}
 
-Você pode exibir seus Conjuntos de amostras na janela Visualizar usando as predefinições disponíveis. Use um Visualizador de zoom: Predefinição personalizada do visualizador para Conjuntos de amostras.
+Você pode visualização seus Conjuntos de amostras na janela Pré-visualização, usando suas predefinições disponíveis. Use um Visualizador de zoom: Predefinição personalizada do visualizador para conjuntos de amostras.
 
-O Dynamic Media Classic é fornecido com Predefinições padrão do visualizador. Os administradores podem criar ou modificar as predefinições do visualizador.
+O Dynamic Media Classic vem com as predefinições de visualizador padrão. Os administradores podem criar ou modificar as predefinições do visualizador.
 
 ## Configuração de predefinições do Visualizador de zoom para Conjuntos de amostras {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-Você pode criar e personalizar Predefinições do visualizador de acordo com suas necessidades.
+Você pode criar e personalizar as predefinições do visualizador para atender às suas necessidades.
 
-1. Clique **em Configuração** &gt; **Predefinições do visualizador**.
+1. Clique em **Configuração** > Predefinições **do visualizador**.
 1. Execute um dos procedimentos a seguir:
 
-   * Para criar uma nova predefinição, clique **em Adicionar**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha o Visualizador de conjunto de amostras e clique **em Adicionar**.
-   * Para editar uma predefinição de Conjunto de visualização existente, selecione a predefinição e clique **em Editar**.
+   * Para criar uma nova predefinição, clique em **Adicionar**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador do conjunto de amostras e clique em **Adicionar**.
+   * Para editar uma predefinição existente do Visualizador do conjunto de amostras, selecione a predefinição e clique em **Editar**.
 
-1. Digite um nome na caixa Nome predefinido da predefinição Conjunto de relatórios de conjunto de amostras.
-1. Escolha opções na tela Configurar visualizador.
+1. Digite um nome na caixa Nome predefinido para a predefinição do Visualizador do conjunto de amostras.
+1. Escolha as opções na tela Configurar visualizador.
 
    Para ver uma descrição de uma opção, clique no ícone Dica de informações adjacente à opção.
 
-   A tela de visualização exibe o visualizador à medida que você atualiza e altera as configurações.
+   A tela pré-visualização exibe o visualizador à medida que você atualiza e altera as configurações.
 
-1. Clique **em Salvar**.
+1. Clique em **Salvar**.
 
-## Visualização de conjuntos de amostras em um visualizador {#previewing-swatch-sets-in-a-viewer}
+## Visualizar conjuntos de amostras em um visualizador {#previewing-swatch-sets-in-a-viewer}
 
-Você pode usar a Visualização para ver como um ativo aparece na plataforma de tipo de visualizador específico, como HTML 5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Visualização.
+Você pode usar a Pré-visualização para ver como um ativo aparece em uma plataforma de tipo de visualizador específica, como HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para pré-visualização, nem todas as plataformas estão disponíveis na Pré-visualização.
 
-1. No painel Biblioteca de ativos do lado esquerdo, na lista suspensa Mostrar, selecione um tipo de ativo baseado em conjunto de amostras, como Conjunto de amostras.
-1. No painel Biblioteca de ativos do lado esquerdo, navegue pelas pastas de Ativos que contêm Conjunto de amostras que você deseja visualizar com um visualizador.
+1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar, selecione um tipo de ativo baseado em Conjunto de amostras, como Conjunto de amostras.
+1. No painel Biblioteca de ativos, no lado esquerdo, navegue pelas pastas Ativos que contêm o Conjunto de amostras que você deseja pré-visualização a um visualizador.
 1. Execute um dos procedimentos a seguir:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição **de lista**. Na janela Ativo, passe o mouse sobre um ativo e clique **em Visualizar**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição **de grade**. Na janela Ativo, em uma janela de miniatura de ativo, clique **em Visualizar**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição **de detalhes**. Na mesma barra de ferramentas, clique **em Visualizar**.
-   * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique **em Arquivo** &gt; **Visualizar**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização **da** Lista. Na janela Ativo, passe o mouse sobre um ativo e clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização** Grade. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização** Detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização**.
+   * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **Arquivo** > **Pré-visualização**.
 
-1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
-1. Clique em um link do visualizador para visualizar o ativo no visualizador selecionado.
+1. (Opcional) Na janela Pré-visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
+1. Clique em um link do visualizador para pré-visualização do ativo no visualizador selecionado.
 
    Quando você clica em um determinado link do visualizador, o URL associado é copiado automaticamente para a área de transferência.
 
-1. Feche o visualizador exibido para retornar à tela Visualizar.
-1. Clique **em Fechar** para retornar à tela Ativos.
+1. Feche o visualizador exibido para retornar à tela de Pré-visualização.
+1. Clique em **Fechar** para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
 >
