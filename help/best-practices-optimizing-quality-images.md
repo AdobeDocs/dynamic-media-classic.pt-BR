@@ -6,11 +6,11 @@ seo-description: Saiba mais sobre as práticas recomendadas para otimizar a qual
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 A otimização da qualidade da imagem pode ser um processo demorado, já que muitos fatores contribuem para a renderização de resultados aceitáveis. O resultado é parcialmente subjetivo porque os indivíduos percebem a qualidade da imagem de forma diferente. Experimentação estruturada é fundamental.
 
-O Dynamic Media Classic inclui mais de 100 comandos de disponibilização de imagem para ajustar e otimizar imagens e resultados de renderização. As diretrizes a seguir podem ajudá-lo a dinamizar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
+O Dynamic Media Classic inclui mais de 100 comandos de disponibilização de imagem para ajustar e otimizar imagens e os resultados de renderização. As diretrizes a seguir podem ajudá-lo a dinamizar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
 
 Consulte também Imagens [inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
@@ -48,13 +48,13 @@ Como prática recomendada para dimensionamento de imagem, use `&wid=<value>&hei=
 
 ## Práticas recomendadas para a nitidez da imagem {#best-practices-for-image-sharpening}
 
-O ajuste da nitidez da imagem é o aspecto mais complexo do controle de imagens em seu site e onde muitos erros são cometidos. Aproveite o tempo para saber mais sobre como a nitidez e a máscara de nitidez funcionam no Dynamic Media Classic, referindo-se aos seguintes recursos úteis:
+O ajuste da nitidez da imagem é o aspecto mais complexo do controle de imagens em seu site e onde muitos erros são cometidos. Aproveite o tempo para saber mais sobre como a aplicação de nitidez e máscaras de nitidez funciona no Dynamic Media Classic, consultando os seguintes recursos úteis:
 
-White paper de práticas recomendadas [Compartilhando imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
+White paper de práticas recomendadas [Compartilhando imagens no Adobe Dynamic Media Classic e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
 Consulte também [Nitidez de uma imagem com máscara](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)nítida.
 
-Com o Dynamic Media Classic, é possível aumentar a nitidez das imagens na ingestão, no delivery ou em ambos. Entretanto, na maioria dos casos, é necessário aumentar a nitidez das imagens usando apenas um método ou outro, mas não ambos. O compartilhamento de imagens no delivery, em um URL, geralmente oferece os melhores resultados.
+Com o Dynamic Media Classic, você pode tornar as imagens mais nítidas na ingestão, no delivery ou em ambos. Entretanto, na maioria dos casos, é necessário aumentar a nitidez das imagens usando apenas um método ou outro, mas não ambos. O compartilhamento de imagens no delivery, em um URL, geralmente oferece os melhores resultados.
 
 Existem dois métodos de nitidez de imagem que você pode usar:
 
@@ -127,7 +127,7 @@ Se os resultados da nitidez ainda não forem satisfatórios, aumente o raio em i
 
 Durante o experimento, você também pode achar as seguintes sugestões gerais úteis para otimizar seu fluxo de trabalho:
 
-* Tente testar diferentes parâmetros em tempo real, diretamente em um URL do Dynamic Media Classic ou usando a funcionalidade de ajuste de imagem do Scene7 Publishing System, que fornece pré-visualizações em tempo real para operações de ajuste.
+* Teste e teste diferentes parâmetros em tempo real, diretamente em um URL do Dynamic Media Classic ou usando a funcionalidade de ajuste de imagem do Dynamic Media Classic, que fornece pré-visualizações em tempo real para operações de ajuste.
 * Como prática recomendada, lembre-se de que é possível agrupar comandos do Dynamic Media Image Server em uma predefinição de imagem. Uma predefinição de imagem é basicamente macros de comando de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome predefinido personalizado em um caminho de URL faz uma chamada para essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens em seu site e reduz a duração geral dos URLs.
 * O Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar imagens de nitidez na ingestão. Para casos de uso avançado em que essa pode ser uma opção para ajustar e otimizar ainda mais os resultados da renderização, o Adobe Professional Services pode ajudá-lo com insight personalizado e práticas recomendadas.
 
