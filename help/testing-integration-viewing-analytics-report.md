@@ -1,38 +1,41 @@
 ---
-title: Teste da integração ao visualizar um relatório do Adobe Analytics
-seo-title: Teste da integração ao visualizar um relatório do Adobe Analytics
-description: 'null'
-seo-description: Saiba como testar a integração visualizando um relatório do Adobe Analytics.
-uuid: 937375 e 0-6 dea -4 baa-a 2 b 0-4 f 3 e 461 c 9 ee 2
+title: Teste da integração exibindo um relatório da Adobe Analytics
+seo-title: Teste da integração exibindo um relatório da Adobe Analytics
+description: nulo
+seo-description: Saiba como testar a integração ao exibir um relatório da Adobe Analytics.
+uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/adobe_ analytics_ instrumentation_ kit
-discoiquuid: 1 ddc 89 ff-d 2 e 9-42 eb-a 442-aa 6 b 9871 c 991
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 0%
 
 ---
 
 
-# Teste da integração ao visualizar um relatório do Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
+# Teste da integração exibindo um relatório da Adobe Analytics{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Depois de criar as variáveis necessárias no Adobe Analytics, vinculá-las aos eventos do Dynamic Media Classic e concluir as etapas de implementação necessárias, em seguida, você deve testar a configuração. Você pode testar e verificar se os dados estão sendo capturados, dentro do próprio Adobe Analytics. Se a configuração funcionar aqui, nenhuma etapa adicional será necessária. Considerando que você siga as etapas acima e vincule seus dados do evento do Dynamic Media Classic a uma ou mais variáveis de tráfego personalizadas, siga este fluxo de trabalho para testar seus dados dentro do Adobe Analytics.
+Depois de criar as variáveis necessárias no Adobe Analytics, vinculá-las aos eventos Dynamic Media Classic e concluir as etapas de implementação necessárias, teste a configuração. Você pode testar e verificar se os dados estão sendo capturados dentro da própria Adobe Analytics. Se a configuração funcionar aqui, não serão necessárias mais etapas. Supondo que você tenha seguido as etapas acima e vinculado seus dados do evento Dynamic Media Classic a uma ou mais variáveis de tráfego personalizadas, siga este fluxo de trabalho para testar seus dados no Adobe Analytics.
 
-**Para testar a integração, visualize um relatório do Adobe Analytics**
+**Para testar a integração exibindo um relatório da Adobe Analytics**
 
-1. Inicie o visualizador do Dynamic Media Classic a partir da sua conta, principalmente uma que transmite a métrica que você deseja capturar e interaja com ela para criar alguns dados de eventos.
+1. Inicie um visualizador Dynamic Media Classic de sua conta, particularmente um que transmite a métrica que você deseja capturar, e interaja com ele para criar alguns dados de evento.
 
-   Por exemplo, se quiser medir as visualizações alternativas mais populares em um Conjunto de imagens, visualize um Conjunto de imagens e clique em diferentes imagens miniaturas.
+   Por exemplo, se você quiser medir as visualizações alternativas mais populares em um Conjunto de imagens, pré-visualização um Conjunto de imagens e clique em diferentes imagens em miniaturas.
 
-1. Dentro do Adobe Analytics, vá para Tráfego personalizado &gt; Tráfego personalizado 1-10 &gt; [Nome da prop], selecionando seu nome de prop de tráfego nas opções do menu.
+1. No Adobe Analytics, vá até Tráfego personalizado > Tráfego personalizado 1-10 > [Nome da prop], selecionando o nome da prop de tráfego nas opções de menu.
 
-   Por exemplo, para acessar o loadasset loadasset em nossa conta de amostra, a escolha de menu apropriada seria Tráfego personalizado &gt; Tráfego personalizado 1-10 &gt; loadasset. Se você tiver mais de dez props personalizados, também poderá visualizar opções de menu adicionais.
+   Por exemplo, para acessar a propriedade LoadAsset em nossa conta de amostra, a opção de menu adequada seria Tráfego personalizado > Tráfego personalizado 1-10 > LoadAsset. Se você tiver mais de dez props personalizados, você também poderá ver outras opções de menu.
 
-1. Exiba o gráfico produzido pelo Adobe Analytics. Observe que isso normalmente é apenas os dados de uma única métrica. Se você também quiser saber com qual ativo esses dados estão associados (por exemplo, qual vídeo está sendo assistido apenas em 50% ou qual imagem em um conjunto é mais popular), certifique-se de capturar os dados do ativo desse evento também.
+1. Visualização no gráfico produzido pelo Adobe Analytics. Observe que esses são normalmente apenas os dados de uma única métrica. Se você também quiser saber com qual ativo esses dados estão associados (por exemplo, qual vídeo está sendo assistido a apenas 50% ou qual imagem em um conjunto é mais popular), certifique-se de capturar os dados de ativos desse evento também.
 
 >[!NOTE]
 >
->Todos os dados do visualizador do Dynamic Media Classic são exibidos e reportados nos relatórios de Tráfego personalizado ou nos relatórios de Conversão personalizada do Adobe Analytics.
+>Todos os dados do visualizador do Dynamic Media Classic são exibidos e reportados em relatórios de Tráfego personalizado ou relatórios de Conversão personalizada do Adobe Analytics.
 
 Para obter mais informações, consulte [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en).
