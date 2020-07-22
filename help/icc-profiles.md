@@ -1,40 +1,43 @@
 ---
 title: perfis ICC
 seo-title: perfis ICC
-description: 'null'
+description: nulo
 seo-description: Saiba mais sobre perfis ICC.
-uuid: 708 ff 2 ad -9 a 47-4 e 3 e-b 643-5 b 19648 f 726 b
+uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/support_ files
-discoiquuid: 44 f 1 b 4 c 4-6 d 7 f -4 e 0 f -84 ce -11 d 26745 e 0 f 0
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
+discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 0%
 
 ---
 
 
 # perfis ICC{#icc-profiles}
 
-Um perfil ICC (International Color Consortium) é um arquivo que descreve como converter corretamente arquivos de imagem de um espaço de cores para outro. Os perfis ICC ajudam você a obter as cores corretas das suas imagens. Por exemplo, para exibir corretamente imagens projetadas para impressão em um monitor de computador, você pode escolher um perfil ICC. Esse perfil converte a imagem em um espaço de cores diferente e garante que as cores sejam exibidas corretamente online.
+Um perfil ICC (International Color Consortium) é um arquivo que descreve como converter corretamente arquivos de imagem de um espaço de cor para outro. Os perfis ICC ajudam você a obter as cores corretas para suas imagens. Por exemplo, para exibir corretamente imagens projetadas para impressão em um monitor de computador, você pode escolher um perfil ICC. Esse perfil converte a imagem em um espaço de cor diferente e garante que as cores sejam exibidas corretamente on-line.
 
-No Sistema de publicação Scene 7, é possível escolher um perfil ICC para converter imagens em um espaço de cores diferente ao carregar as imagens. Todos os perfis padrão do Photoshop ICC estão disponíveis por padrão no SPS. Para ver os nomes dos perfis de cores na tela Carregar, selecione o menu Perfil de cor. Em seguida, escolha Personalizado de &gt; Para e escolha um nome de perfil ICC nos menus Convertido de e Convertido em. Consulte [Opções de edição de imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+No Dynamic Media Classic, você pode escolher um perfil ICC para converter imagens em um espaço de cor diferente ao carregar as imagens. Todos os perfis padrão do Photoshop ICC estão disponíveis por padrão no Dynamic Media Classic. Para ver os nomes dos perfis coloridos na tela Carregar, selecione o menu Perfil de cores. Em seguida, escolha Personalizado de > Para e escolha um nome de perfil ICC nos menus Convertido de e Convertido em. Consulte Opções de edição de [imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 
-Além de usar os perfis ICC padrão, você pode carregar outros perfis ICC para o SPS e disponibilizá-los para conversão de espaço de cores. Alterne para a exibição Detalhe no Painel Procurar para investigar a classe do perfil, o tipo de espaço de cores e o tipo de PCS de um perfil ICC.
+Além de usar os perfis ICC padrão, você pode fazer upload de outros perfis ICC para o Dynamic Media Classic e disponibilizá-los para conversão de espaço de cores. Alterne para visualização de detalhes no Painel de navegação para investigar a classe do perfil, o tipo de espaço de cor e o tipo PCS de um perfil ICC.
 
-## Carregamento de perfis ICC {#uploading-icc-profiles}
+## Carregando perfis ICC {#uploading-icc-profiles}
 
-Faça upload de perfis ICC com as mesmas técnicas usadas para carregar arquivos. É possível armazenar perfis ICC em qualquer pasta SPS. Consulte [Carregar seus arquivos](uploading-files.md#uploading_your_files).
+Carregue perfis ICC com as mesmas técnicas usadas para carregar arquivos. Você pode armazenar perfis ICC em qualquer pasta do Dynamic Media Classic. Consulte [Fazer upload dos arquivos](uploading-files.md#uploading_your_files).
 
-## Examinar um perfil ICC {#examining-an-icc-profile}
+## Examinando um perfil ICC {#examining-an-icc-profile}
 
-Para examinar um perfil ICC, selecione-o no Painel Procurar e exiba-o na exibição Detalhe. A exibição de detalhes fornece essas informações sobre perfis ICC:
+Para examinar um perfil ICC, selecione-o no Painel de navegação e exiba-o na visualização Detalhe. A visualização Detail fornece estas informações sobre perfis ICC:
 
-**Classe Profile** O ICC (International Color Consortium) define cada classe para abranger um tipo de aplicativo. Por exemplo, os perfis de Entrada se aplicam a dispositivos como câmeras e scanners digitais, e os perfis de Saída se aplicam a impressoras.
+**Classe** do Perfil O ICC (International Color Consortium) define cada classe para abranger um tipo de aplicativo. Por exemplo, perfis de entrada se aplicam a dispositivos como câmeras digitais e scanners, e perfis de saída se aplicam a impressoras.
 
-**Tipo de espaço de cor** Esse número é o espaço de cores "input" do perfil, conforme definido pelo ICC. O tipo de espaço de cores define o número de componentes do espaço de cores e a interpretação desses componentes. Por exemplo, RGB é um espaço de cores com três componentes: vermelho, verde e azul. O tipo de espaço de cores não define as características de cores específicas do espaço (por exemplo, as cromaticicas das primárias).
+**Tipo** de espaço de cor Esse número é o espaço de cor &quot;entrada&quot; do perfil, conforme definido pelo ICC. O tipo de espaço de cores define o número de componentes do espaço de cores e a interpretação desses componentes. Por exemplo, RGB é um espaço de cor com três componentes: vermelho, verde e azul. O tipo de espaço de cor não define as características de cor específicas do espaço (por exemplo, as cromatrizes das primárias).
 
-**Tipo PCS** Este tipo PCS é o espaço de cores "saída" do perfil - seu espaço de conexão de perfil. Por exemplo, um perfil de cor pode converter RGB para o PCS, o que o converte em CMYK.
+**Tipo** PCS Este tipo de PCS é o espaço de cor de &quot;saída&quot; do perfil — seu espaço de conexão do perfil. Por exemplo, um perfil colorido pode converter RGB para PCS, que o converte em CMYK.
 
 Para um perfil de entrada, exibição ou saída útil para marcar cores ou imagens, o tipo PCS é XYZ ou Lab. Interprete esse perfil como o espaço de cor específico correspondente definido na especificação ICC.
