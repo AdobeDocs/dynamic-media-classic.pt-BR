@@ -1,21 +1,24 @@
 ---
-title: Geração automática de conjunto de imagens
-seo-title: Geração automática de conjunto de imagens
-description: 'null'
+title: Geração de Conjunto de imagens automatizado
+seo-title: Geração de Conjunto de imagens automatizado
+description: nulo
 seo-description: 'Saiba como automatizar a geração de conjuntos de imagens. '
-uuid: bd 4 b 3252-3 e 77-4230-9684-cd 6 d 28 b 8 eecb
+uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/image_ sets
-discoiquuid: 1 a 9 b 525 e -6120-44 c 7-b 11 a-e 56 bfb 7 cd 017
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
 
-# Geração automática de conjunto de imagens{#automated-image-set-generation}
+# Geração de Conjunto de imagens automatizado{#automated-image-set-generation}
 
 <!-- 
 
@@ -27,16 +30,16 @@ Last Modified Date:
 
  -->
 
-É possível automatizar a geração definida como um trabalho independente que não depende de um upload.
+Você pode automatizar a geração de conjuntos como um trabalho independente que não depende de um upload.
 
-**Para automatizar a geração de Conjunto de imagens**
+**Para automatizar a geração do Conjunto de imagens**
 
-1. Clique **em Arquivo** &gt; **Gerar conjunto**.
-1. Na caixa de diálogo Gerar conjunto, especifique um nome de serviço.
+1. Clique em **Arquivo** > **Gerar conjunto**.
+1. Na caixa de diálogo Gerar conjunto, especifique um nome para a tarefa.
 
-   Por padrão, o serviço recebe um nome que indica que é um trabalho gerado e quando a tarefa foi gerada.
+   Por padrão, o trabalho recebe um nome que indica que ele é um trabalho gerado e quando o trabalho foi gerado.
 
-1. Selecione a predefinição a ser aplicada.
-1. Clique **em Pasta de destino** e especifique a pasta que deseja usar.
-1. Clique **em Enviar**.
+1. Selecione a predefinição que deseja aplicar.
+1. Clique em Pasta **de destino** e especifique a pasta que deseja usar.
+1. Clique em **Enviar**.
 
