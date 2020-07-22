@@ -1,25 +1,28 @@
 ---
-title: Impressão de ativos
-seo-title: Impressão de ativos
-description: 'null'
+title: Imprimir ativos
+seo-title: Imprimir ativos
+description: nulo
 seo-description: Saiba como imprimir ativos.
-uuid: 6 cd 5 ba 38-ec 80-461 f-b 095-6 cd 4 d 7 ea 7814
+uuid: 6cd5ba38-ec80-461f-b095-6cd4d7ea7814
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/managing_ assets
-discoiquuid: e 4 a 2 a 5 b 8-a 074-4 f 0 e-a 607-0 c 47 acbb 81 b 4
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
 
-# Impressão de ativos{#printing-assets}
+# Imprimir ativos{#printing-assets}
 
 Siga estas etapas para imprimir um ativo:
 
-1. No Painel Procurar, selecione o ativo ou os ativos que deseja imprimir.
-1. Escolha Arquivo &gt; Imprimir ou pressione Ctrl + P (Windows) ou Command + P (Macintosh).
+1. No painel Procurar, selecione o ativo ou os ativos que deseja imprimir.
+1. Escolha Arquivo > Imprimir ou pressione Ctrl+P (Windows) ou Command+P (Macintosh).
 1. Na caixa de diálogo Imprimir, escolha quantas cópias serão impressas e selecione o botão Imprimir.
 
