@@ -5,12 +5,15 @@ description: nulo
 seo-description: Saiba como organizar seu trabalho com Projetos.
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
-content-type: referência
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/managing_assets
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 Os projetos fornecem uma maneira opcional e secundária para que você organize ativos independentemente das pastas em que estão armazenados. Um ativo pode ser colocado em apenas uma pasta, mas pode ser copiado em mais de uma pasta do projeto para fins organizacionais.
 
-Depois de criar uma pasta de projeto, você pode colocar ativos nela. No entanto, ativos em um projeto são, na verdade, ponteiros para a pasta Biblioteca de ativos na qual os ativos são realmente armazenados. Você pode colocar um ativo em mais de um Projeto. Por exemplo, uma imagem de uma blusa pode ser colocada nas pastas "Blouses" e "Coleção de quedas" do projeto.
+Depois de criar uma pasta de projeto, você pode colocar ativos nela. No entanto, os ativos em um projeto são, na verdade, ponteiros para a pasta Biblioteca de ativos na qual os ativos são realmente armazenados. Você pode colocar um ativo em mais de um Projeto. Por exemplo, uma imagem de uma blusa pode ser colocada nas pastas &quot;Blouses&quot; e &quot;Coleção de quedas&quot; do projeto.
 
 Você pode criar um projeto ao fazer upload de arquivos ou criar projetos no Painel Biblioteca de ativos.
 
@@ -33,7 +36,7 @@ Você pode criar um projeto ao fazer upload de arquivos ou criar projetos no Pai
 
 ## Criação de uma pasta de projeto {#creating-a-project-folder}
 
-Você pode criar uma pasta de projeto começando na Biblioteca de ativos ou ao fazer upload de arquivos para o Scene7 Publishing System:
+Você pode criar uma pasta de projeto começando na Biblioteca de ativos ou ao fazer upload de arquivos para o Dynamic Media Classic:
 
 * **Na Biblioteca** de ativos, role até a parte inferior da Biblioteca de ativos, até a seção Projetos e selecione o botão Adicionar projeto . Em seguida, insira um nome para o projeto.
 
@@ -41,7 +44,7 @@ Você pode criar uma pasta de projeto começando na Biblioteca de ativos ou ao f
 
 >[!NOTE]
 >
->A área Projetos na Biblioteca de ativos é uma lista de pastas de nível único; não permite subpastas.
+>A área Projetos na Biblioteca de ativos é uma lista de pasta de nível único; não permite subpastas.
 
 ## Trabalhar com pastas do projeto {#working-with-project-folders}
 
@@ -49,14 +52,14 @@ Siga estas instruções para exibir, excluir e renomear uma pasta de projeto:
 
 * **Navegação no conteúdo** Selecione o nome da pasta na Biblioteca de ativos. Seus ativos são exibidos no Painel de navegação.
 
-* **Excluindo pastas** de projetoSelecione a pasta Projeto e o botão Remover projeto . A exclusão de ativos de uma pasta de projeto não os exclui do Scene7 Publishing System; os ativos permanecem nas pastas originais em que estão armazenados.
+* **Excluindo pastas** de projetoSelecione a pasta Projeto e o botão Remover projeto . A exclusão de ativos de uma pasta de projeto não os exclui do Dynamic Media Classic; os ativos permanecem nas pastas originais em que estão armazenados.
 
-* **Renomeando pastas** de projeto Cliqueduas vezes no nome da pasta no Painel de ativos e digite um novo nome.
+* **Renomeando pastas** de projeto - clique noDuplo da pasta no Painel de ativos e digite um novo nome.
 
 ## Adicionar ativos a uma pasta de projeto {#adding-assets-to-a-project-folder}
 
-Você pode adicionar imagens a uma pasta de Projeto que comece no Painel de navegação ou quando carrega arquivos no Sistema de publicação Scene7:
+Você pode adicionar imagens a uma pasta de projeto começando no Painel de navegação ou quando carrega arquivos no Dynamic Media Classic:
 
-* **No painel** Procurar, selecione os ativos e arraste-os para uma pasta de projeto. Você também pode escolher Arquivo &gt; Adicionar ao projeto, selecionar o nome da pasta Projeto na caixa de diálogo Selecionar projeto e selecionar o botão Enviar.
+* **No painel** Procurar, selecione os ativos e arraste-os para uma pasta de projeto. Você também pode escolher Arquivo > Adicionar ao projeto, selecionar o nome da pasta Projeto na caixa de diálogo Selecionar projeto e selecionar o botão Enviar.
 
 * **Ao fazer upload de arquivos** Na tela Upload, clique no botão Opções de trabalho. Na caixa de diálogo Carregar opções de trabalho, escolha Projetos e selecione um nome de projeto.
