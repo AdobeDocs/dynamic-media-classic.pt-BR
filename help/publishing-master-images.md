@@ -1,31 +1,34 @@
 ---
-title: Publicar imagens mestre
-seo-title: Publicar imagens mestre
-description: 'null'
-seo-description: Saiba como publicar imagens mestre.
-uuid: b 56 ba 79 a-f 89 a -45 f 1-a 8 bb-c 73 a 22 eab 8 d 4
+title: Publicar imagens principais
+seo-title: Publicar imagens principais
+description: nulo
+seo-description: Saiba como publicar imagens principais.
+uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/image_ sizing
-discoiquuid: 815 e 2 a 19-c 64 d -45 c 7-96 bc -7 f 955 e 54 f 56 e
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
+discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
 
-# Publicar imagens mestre{#publishing-master-images}
+# Publicar imagens principais{#publishing-master-images}
 
-Publicar arquivos de imagem os publica nos servidores de imagem do Dynamic Media, onde eles estão disponíveis para seu site e aplicativo. Além disso, durante o processo de publicação, o Sistema de publicação Scene 7 ativa as sequências de caracteres de URL necessárias para o seu site e aplicativo.
+A publicação de seus arquivos de imagem os publica nos Dynamic Media Image Servers, onde estão disponíveis para seu site e aplicativo. Além disso, durante o processo de publicação, o Dynamic Media Classic ativa as sequências de caracteres de URL que você precisa para seu site e aplicativo.
 
-## Marcar imagens mestre para publicação {#marking-master-images-for-publish}
+## Marcar imagens principais para publicação {#marking-master-images-for-publish}
 
-As imagens mestre devem ser marcadas para publicação para que sejam copiadas em Servidores de imagem do Dynamic Media. Você pode marcar as imagens mestre para publicação no Painel Navegador clicando no ícone Marcar para publicar. Também é possível marcar imagens para publicação quando você os carrega no Sistema de publicação Scene 7.
+Imagens Principais devem ser marcadas para publicação para que possam ser copiadas para Dynamic Media Image Servers. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando no ícone Marcar para publicação. Também é possível marcar imagens para publicação ao carregá-las no Dynamic Media Classic.
 
-## Publicar imagens mestre {#publishing-your-master-images}
+## Publicar suas imagens principais {#publishing-your-master-images}
 
-Para publicar imagens mestre nos servidores de imagem do Dynamic Media, comece selecionando o botão Publicar na barra Navegação global. Em seguida, selecione uma opção Quando (Único ou Recorrente), insira um nome para o trabalho de publicação e selecione o botão Iniciar publicação.
+Para publicar imagens principais em Dynamic Media Image Servers, selecione o botão Publicar na barra Navegação global. Em seguida, selecione uma opção Quando (Uma vez ou Recorrente), opcionalmente, insira um nome para o trabalho de publicação e selecione o botão Publicar Start.
 
 >[!NOTE]
 >
