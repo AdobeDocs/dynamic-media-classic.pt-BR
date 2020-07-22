@@ -5,27 +5,30 @@ description: nulo
 seo-description: Saiba como carregar imagens de Zoom.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
-content-type: referência
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/category/zoom
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
 
 # Upload de imagens de zoom{#uploading-zoom-images}
 
-As imagens de zoom devem ter uma contagem de pixels alta. É necessário um grande número de pixels para que os visualizadores possam ver claramente os detalhes da imagem ao aplicar zoom nas imagens. Verifique se as imagens usadas têm o tamanho apropriado antes de carregá-las para a SPS.
+As imagens de zoom devem ter uma contagem de pixels alta. É necessário um grande número de pixels para que os visualizadores possam ver claramente os detalhes da imagem ao aplicar zoom nas imagens. Verifique se as imagens usadas têm o tamanho apropriado antes de carregá-las no Dynamic Media Classic.
 
 Selecione o botão Carregar na barra Navegação global para começar a carregar imagens.
 
 Para obter instruções detalhadas sobre como fazer upload de imagens, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
-**Preparação das imagens para o zoom**
+**Preparação das imagens para aumentar o zoom**
 
-Para aproveitar ao máximo os recursos de Zoom do Dynamic Media Classic, prepare seus arquivos de imagem de zoom antes de carregá-los:
+Para tirar o máximo proveito dos recursos de Zoom do Dynamic Media Classic, prepare seus arquivos de imagem de zoom antes de carregá-los:
 
 * **Tamanho da imagemO** Dynamic Media Classic recomenda o uso de arquivos de imagens com, no mínimo, 2000 pixels na dimensão mais longa. Dessa forma, as imagens podem ser claramente vistas quando os usuários fazem zoom nelas.
 
