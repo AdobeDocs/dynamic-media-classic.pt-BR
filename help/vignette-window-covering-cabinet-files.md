@@ -1,27 +1,30 @@
 ---
-title: Trabalhar com arquivos de vigneta, de capa e de gabinete
-seo-title: Trabalhar com arquivos de vigneta, de capa e de gabinete
-description: 'null'
-seo-description: Saiba como trabalhar com arquivos de vigneta, de capa e de gabinete.
-uuid: a 738791 c -4 be 0-4286-abbd-fae 7 a 0 e 4 bb 73
+title: Trabalhar com arquivos de vinheta, revestimento de janela e gabinete
+seo-title: Trabalhar com arquivos de vinheta, revestimento de janela e gabinete
+description: nulo
+seo-description: Saiba como trabalhar com vinheta, cobertura de janela e arquivos de gabinete.
+uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-geptopics: SG_ SCENESEVENONDEMAND_ PK/categorias/master_ files
-discoiquuid: 42 df 9 adc-e 563-4 de 2-87 a 4-bd 40 cef 77 cdf
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 0%
 
 ---
 
 
-# Trabalhar com arquivos de vigneta, de capa e de gabinete{#working-with-vignette-window-covering-and-cabinet-files}
+# Trabalhar com arquivos de vinheta, revestimento de janela e gabinete{#working-with-vignette-window-covering-and-cabinet-files}
 
-Os usuários da ferramenta de criação de imagens clássica do Dynamic Media podem usar vinhetas (arquivos VNT), imagens de janelas (arquivos VNW) e servidores (arquivos VNC) no Scene 7. Esses arquivos não podem ser criados ou editados no Sistema de publicação Scene 7.
+Os usuários da ferramenta Dynamic Media Classic Image Authoring podem usar vinhetas (arquivos VNT), revestimentos de janela (arquivos VNW) e gabinetes (arquivos VNC) no Scene 7. Esses arquivos não podem ser criados ou editados no Dynamic Media Classic.
 
-Vinhetas, imagens de janelas e servidores são imagens criadas. Usando um programa do Dynamic Media Classic diferente chamado de Criação de imagens, você mascara os objetos de uma imagem para que os usuários possam ver a mesma imagem em diversas texturas ou cores. Por exemplo, os usuários veem um cuch acumulado com diversos tecidos, uma janela decorada com vários tratamentos de janela ou um gabinete finalizado com diferentes tipos de madeira.
+As vinhetas, os revestimentos de janelas e os gabinetes são imagens de criação. Usando um programa Dynamic Media Classic diferente chamado Criação de imagens, você mascara objetos em uma imagem para que os usuários possam ver a mesma imagem em várias texturas ou cores. Por exemplo, os usuários veem um sofá sustentado com uma variedade de tecidos, uma janela decorada com uma variedade de tratamentos de janela, ou um armário acabado com diferentes tipos de madeira.
 
-Carregue vinhetas, capa de janelas e servidores como faria com qualquer outro arquivo.
+Faça upload de vinhetas, coberturas de janela e gabinetes como faria com qualquer outro arquivo.
 
 >[!MORELIKETHIS]
 >
