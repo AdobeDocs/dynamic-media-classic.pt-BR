@@ -1,19 +1,22 @@
 ---
 title: Arquivos XML
 seo-title: Arquivos XML
-description: 'null'
-seo-description: Os sites que usam um sistema baseado em XML para gerenciar imagens e informações de imagem podem carregar arquivos XML para o Sistema de publicação Scene 7. Saiba mais sobre os arquivos XML.
-uuid: 6301 d 042-2040-4408-b 816-8 f 134482 beb 7
+description: nulo
+seo-description: Os sites que usam um sistema baseado em XML para gerenciar imagens e informações de imagens podem carregar arquivos XML para o Dynamic Media Classic. Saiba mais sobre arquivos XML.
+uuid: 6301d042-2040-4408-b816-8f134482beb7
 contentOwner: admin
 content-type: reference
-products: SG_ EXPERIENCEMANAGER/Dynamic-Media-Scene -7
-discoiquuid: 16216 ce 8-a 81 f -4 efa -8 ca 6-a 985256604 db
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+discoiquuid: 16216ce8-a81f-4efa-8ca6-a985256604db
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
 
 # Arquivos XML {#xml-files}
 
-Os sites que usam um sistema baseado em XML para gerenciar imagens e informações de imagem podem carregar arquivos XML para o Sistema de publicação Scene 7. Você pode designar um desses arquivos como o arquivo de conjunto de regras de pré-processamento para o Serviço de imagem. Esse arquivo reestrutura o formato de protocolo Padrão de Serviço de imagem para atender à lógica comercial do servidor de comércio. Na tela de Configuração, é possível especificar um arquivo XML para servir como o caminho do arquivo de definições de definições de regras. Essa configuração de caminho está localizada em Gerenciamento de catálogo na tela Publicação do servidor de imagens. Consulte [Servidor de imagens](publish-setup.md#image_server).
+Os sites que usam um sistema baseado em XML para gerenciar imagens e informações de imagens podem carregar arquivos XML para o Dynamic Media Classic. Você pode designar um desses arquivos como o arquivo de conjunto de regras de pré-processamento para o Servidor de imagens. Este arquivo reestrutura o formato de protocolo padrão do Serviço de Imagens para atender à lógica comercial do seu servidor de comércio. Na tela Configuração, você pode especificar um arquivo XML para servir como o caminho do arquivo de definições de conjuntos de regras. Essa configuração de caminho está localizada em Gerenciamento de catálogo na tela Publicação do Image Server. Consulte Servidor [de](publish-setup.md#image_server)imagens.
