@@ -6,13 +6,13 @@ seo-description: Saiba como vincular um eCatalog a uma página da Web.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Vincular um eCatalog a uma página da Web{#linking-an-ecatalog-to-a-web-page}
 
-Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo eCatalogs, por meio de sequências de caracteres de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a cadeia de caracteres do URL ou o código incorporado para seu eCatalog em suas páginas e aplicativos da Web, copie-o do Scene7 Publishing System.
+Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo eCatalogs, por meio de sequências de caracteres de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado para seu eCatalog em suas páginas da Web e aplicativos, você o copia do Dynamic Media Classic.
 
 >[!NOTE]
 >
