@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Ajuda do Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 1%
 
 ---
@@ -154,9 +154,9 @@ ht-degree: 1%
    + [Teste da integração exibindo um relatório da Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Ativação dos relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicar informações de configuração do Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integração Target Standard/Premium {#target-classic}
-   + [Start rápido: Integração Target Standard/Premium](quick-start-target-integration.md)
-   + [Integração do Adobe Dynamic Media Classic com o Adobe Target Standard/Premium](integrating-dmc-with-target.md)
++ Integração com o Adobe Target Standard/Premium {#target-classic}
+   + [Start rápido: Integração com o Adobe Target Standard/Premium](quick-start-target-integration.md)
+   + [Integração do Dynamic Media Classic com o Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Criação de um conjunto de ofertas](creating-offer-set.md)
    + [Encaminhando conjuntos de ofertas para o Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Conteúdo gerado pelo usuário {#user-generated-content}
