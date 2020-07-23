@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 
-# Start rápido: Integração Target Standard/Premium{#quick-start-target-integration}
+# Start rápido: Integração com o Adobe Target Standard/Premium{#quick-start-target-integration}
 
 O Adobe Target Standard/Premium coloca o controle diretamente nas mãos dos profissionais de marketing para executar de forma rápida e contínua vários testes A/B e multivariados, medir a eficácia e aumentar a relevância do conteúdo online por meio da segmentação, definição de metas e personalização automatizada.
 
@@ -34,7 +34,7 @@ Para uma maior personalização do conteúdo dinâmico do Dynamic Media Classic,
 
 Este Start rápido foi projetado para colocar você em operação rapidamente com os conjuntos de ofertas HTML Target Standard/Premium. Siga as etapas de 1 a 3. Depois de cada etapa é uma referência cruzada para um cabeçalho de tópico no qual você pode encontrar mais informações.
 
-**1. Digite seu URL Target Standard/Premium na tela Configurações gerais do aplicativo.**
+**1. Digite seu URL do Adobe Target Standard/Premium na tela Configurações gerais do aplicativo.**
 
 O Dynamic Media Classic precisa do seu URL Target Standard/Premium para se integrar ao Target Standard/Premium. Copie a parte do URL do Target Standard/Premium até *.com* inclusive e insira-a na tela Configurações gerais do aplicativo Dynamic Media Classic. Consulte [Integração do Dynamic Media Classic com o Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
@@ -50,6 +50,6 @@ Salve o conjunto de ofertas depois de criá-lo.
 
 Consulte [Criação de um conjunto](creating-offer-set.md#creating_an_offer_set)de ofertas.
 
-**3. Empurre a oferta definida para Target Standard/Premium**
+**3. Empurre o conjunto de ofertas para Adobe Target Standard/Premium**
 
 Na tela Conjunto de Ofertas do Test&amp;Target, clique em **Enviar Ofertas** e insira suas credenciais de logon na caixa de diálogo Login do Test&amp;Target. Consulte [Encaminhando conjuntos de ofertas para Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
