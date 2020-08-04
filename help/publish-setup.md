@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Para abrir as telas Instalação de publicação, clique em Configuração > Con
 
 A tela Servidor de imagens estabelece as configurações padrão para a entrega de imagens dos servidores de imagens. As configurações estão disponíveis nessas cinco categorias (consulte a tela do Servidor de imagens para obter descrições detalhadas das configurações).
 
-Altere essas configurações somente com a ajuda de um suporte do Dynamic Media Classic.
+Altere essas configurações somente com a ajuda de uma pessoa de suporte do Dynamic Media Classic.
 
 **Gerenciamento** de catálogo Essas configurações determinam como o Dynamic Media Classic e o catálogo interagem. Ao contrário da maioria dos servidores da Web, as chamadas de URL do Dynamic Media Image Server vão para um arquivo manifest-or de catálogo em vez de um arquivo de imagem propriamente dito. O arquivo de catálogo (não confundir com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem juntamente com o caminho para cada imagem. Se você tiver uma ID Digimarc, insira as informações do usuário na seção Informações do usuário Digimarc.
 
-**Atributos** de solicitação Essas configurações impõem limites às imagens que podem ser entregues do servidor.
+**Atributos** de solicitação Essas configurações impõem limites às imagens que podem ser entregues do servidor. Por exemplo, o *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
 
 **Atributos** de solicitação padrão Essas configurações pertencem à aparência padrão das imagens.
 
@@ -54,7 +54,7 @@ Altere essas configurações somente com a ajuda de um suporte do Dynamic Media 
 Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico para localidades. Para realizar essa funcionalidade, especifique uma string de mapa de localidade. Em seguida, edite o texto da dica de ferramenta em uma predefinição do Visualizador adicionando as strings de texto traduzidas para o idioma desejado.
 
 >[!NOTE]
-> Para configurar as opções de suporte à Localização, entre em contato com o suporte técnico do Adobe Dynamic Media Classic ou envie um email para s7support@adobe.com solicitando ajuda de configuração.
+> Para configurar as opções de suporte à Localização, entre em contato com o Suporte técnico Adobe Classic ou envie um email para s7support@adobe.com solicitando ajuda de configuração.
 
 Para obter mais informações sobre como configurar o suporte **à** Localização, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,7 +62,7 @@ Para obter mais informações sobre como configurar o suporte **à** Localizaç�
 
 >[!NOTE]
 >
->Se você quiser configurar opções de suporte à Localização no Dynamic Media Classic, como o campo Mapa de localidade, entre em contato com o Suporte técnico do Adobe Dynamic Media Classic. Ou envie um email para s7support@adobe.com solicitando ajuda para a configuração.
+>Se você quiser configurar opções de suporte à Localização no Dynamic Media Classic, como o campo Mapa de localidade, entre em contato com o Suporte técnico Adobe Classic. Ou envie um email para s7support@adobe.com solicitando ajuda para a configuração.
 
 Uma maneira comum de usar o Dynamic Media Classic é gerenciar a imagem do produto em sites de comércio eletrônico. As empresas internacionais enfrentam o desafio de que os ativos para produtos similares pareçam diferentes de país para país. Normalmente, as diferenças são para uma parte muito pequena da mídia geral. Abordar essas diferenças copiando todos os ativos para cada um dos países e sobrescrevendo apenas as diferenças é um tremendo esforço e contradiz a única metáfora principal dos ativos. Tais diferenças para ativos podem durar, desde vídeos específicos do país com diferentes faixas de áudio, até diferenças sutis, mas importantes, em um cabo de alimentação que é usado com o produto. O Dynamic Media Classic usa um mecanismo de pesquisa básico. Você define uma ordem de sufixos de ativos na qual o Servidor de imagens está olhando, começando pela localidade desejada.
 
@@ -223,7 +223,7 @@ Usando o primeiro exemplo como base, as imagens para todos os idiomas podem ter 
 
 A tela do renderizador de imagens estabelece as configurações padrão para fornecer Conjuntos de imagens dos servidores de renderização de imagens. As configurações estão disponíveis nessas cinco categorias (consulte a tela do Servidor de imagens para obter descrições detalhadas das configurações):
 
-**Gerenciamento** de catálogo Essas configurações determinam como o Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do Dynamic Media Classic Render Server são feitas no catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a ajuda de uma pessoa de suporte do Dynamic Media Classic.
+**Gerenciamento** de catálogo Essas configurações determinam como o Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do Dynamic Media Classic Render Server são feitas no catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a ajuda de um suporte do Dynamic Media Classic.
 
 **Atributos** da sessão Essas configurações estabelecem parâmetros de erro, o URL para URLs de imagem relativos e se a sobreposição de objetos é permitida.
 
