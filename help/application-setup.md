@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
 workflow-type: tm+mt
-source-wordcount: '10977'
+source-wordcount: '10974'
 ht-degree: 4%
 
 ---
@@ -36,13 +36,13 @@ Na criação da conta, o Dynamic Media Classic fornece automaticamente os servid
 
 Consulte também [Testando o serviço](testing-assets-making-them-public.md#testing_the_secure_testing_service)de Testes seguros.
 
-* **Nome** do servidor publicado - Este servidor é o servidor CDN ativo usado em todas as chamadas de URL geradas pelo sistema específicas para sua conta. Não altere esse nome de servidor a menos que seja instruído a fazê-lo por um técnico de suporte do Dynamic Media Classic.
+* **Nome** do servidor publicado - Este servidor é o servidor CDN ativo usado em todas as chamadas de URL geradas pelo sistema específicas para sua conta. Não altere o nome deste servidor, a menos que seja instruído a fazê-lo por um técnico de suporte do Dynamic Media Classic.
 
-* **Nome** do servidor de Origem - Este servidor é usado apenas para testes de garantia de qualidade. Não altere esse nome de servidor a menos que um técnico de suporte do Dynamic Media Classic o instrua a fazê-lo.
+* **Nome** do servidor de origem - Este servidor é usado apenas para testes de garantia de qualidade. Não altere o nome deste servidor, a menos que seja instruído a fazê-lo por um técnico de suporte do Dynamic Media Classic.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-* **Nome** do servidor do Test&amp;Target - URL do seu Test&amp;Público alvo, até .com, inclusive. Para obter instruções sobre como obter esse URL, consulte Integração [!DNL Dynamic Media Classic] com [!DNL Target Standard/Premium].
+* **Nome** do servidor do Test&amp;Público alvo - URL do seu Test&amp;Público alvo, até .com, inclusive. Para obter instruções sobre como obter esse URL, consulte Integração [!DNL Dynamic Media Classic] com [!DNL Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
@@ -92,7 +92,7 @@ Consulte também [Testando o serviço](testing-assets-making-them-public.md#test
 
    No entanto, você ainda pode acessar vídeos codificados individuais a partir do vídeo Principal ou do Conjunto de vídeos adaptáveis. Para fazer isso, clique com o duplo na imagem em miniatura do vídeo para abrir a Visualização Detalhe. Em seguida, clique em Vídeos **codificados** no painel direito para acessar todos os vídeos &quot;filhos&quot;.
 
-   Você também pode usar **Arquivo > Reprocessar** para criar vídeos &quot;filhos&quot; mais codificados diretamente de um Conjunto de vídeos adaptáveis. O Dynamic Media Classic encontra automaticamente o vídeo Principal &quot;pai&quot; do Conjunto de vídeos adaptáveis e o usa como vídeo de origem para transcodificação. No entanto, quando você salva os novos vídeos codificados individuais, eles não são vistos quando você pesquisa ou navega. No entanto, eles ainda estão acessíveis na guia Vídeos codificados na Visualização Detalhe.
+   Você também pode usar **Arquivo > Reprocessar** para criar vídeos &quot;filhos&quot; mais codificados diretamente de um Conjunto de vídeos adaptáveis. O Dynamic Media Classic localiza automaticamente o vídeo Principal &quot;pai&quot; do Conjunto de vídeos adaptáveis e o usa como vídeo de origem para transcodificação. No entanto, quando você salva os novos vídeos codificados individuais, eles não são vistos quando você pesquisa ou navega. No entanto, eles ainda estão acessíveis na guia Vídeos codificados na Visualização Detalhe.
 
    Consulte [Carregamento e transcodificação de vídeo](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -100,9 +100,9 @@ Consulte também [Testando o serviço](testing-assets-making-them-public.md#test
 
    Há determinadas ações no menu Criar que funcionam somente com vídeos individuais ou que funcionam como opção. Essa funcionalidade torna necessário mostrar todos os derivados de vídeo codificados dos quais você pode selecionar, independentemente de como configurar **Mostrar vídeos** codificados. As ações de criação que ultrapassam a configuração **Mostrar vídeos** codificados incluem Conjuntos **de vídeos** adaptáveis e **Catálogos**.
 
-   >[Nota]
+   >[!NOTE]
    >
-   >Se você não tiver usado o Dynamic Media Classic para fazer upload e codificar seus ativos de vídeo, o Dynamic Media Classic exibirá todos os vídeos codificados individuais, mesmo se essa opção estiver desmarcada.
+   >Se você não usou o Dynamic Media Classic para carregar e codificar seus ativos de vídeo, o Dynamic Media Classic mostra todos os vídeos codificados individuais, mesmo que essa opção esteja desmarcada.
 
 * **Mostrar botão** Atualizar subpastas - Ativa ou desativa a exibição do botão Atualizar subpastas.
 
@@ -114,11 +114,11 @@ Consulte também [Testando o serviço](testing-assets-making-them-public.md#test
 
 ### Carregar no aplicativo
 
-* **Substituir imagens** - o Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A ID do Dynamic Media Classic de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Devido a essa regra, a caixa de diálogo Carregar tem uma opção Substituir. O efeito exato dessa opção depende da opção Sobrescrever imagens especificada. Essas opções especificam como as imagens de substituição são carregadas: se elas substituem as imagens originais ou se tornam imagens de duplicado. As imagens de Duplicado são renomeadas com um &quot;-1&quot; (por exemplo, o nome de President.tif é renomeado como sit-1.tif). Essas opções afetam as imagens carregadas em uma pasta diferente da original ou as imagens com uma extensão de nome de arquivo diferente da original (como JPG, TIF ou PNG). (Consulte Uso da opção Substituir imagens.)
+* **Substituir imagens** - o Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A ID do Dynamic Media Classic de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Devido a essa regra, a caixa de diálogo Carregar tem uma opção Substituir. O efeito exato dessa opção depende da opção Sobrescrever imagens especificada. Essas opções especificam como as imagens de substituição são carregadas: se elas substituem as imagens originais ou se tornam imagens de duplicado. As imagens de duplicado são renomeadas com um &quot;-1&quot; (por exemplo, o nome de President.tif é renomeado como sit-1.tif). Essas opções afetam as imagens carregadas em uma pasta diferente da original ou as imagens com uma extensão de nome de arquivo diferente da original (como JPG, TIF ou PNG). (Consulte Uso da opção Substituir imagens.)
 
    * **Substituir na pasta atual, mesmo nome/extensão** da imagem base - Essa opção é a regra mais estrita para substituição. Ele requer que você carregue a imagem de substituição na mesma pasta que a original e que a imagem de substituição tenha a mesma extensão de nome de arquivo que a original. Se esses requisitos não forem atendidos, um duplicado será criado.
 
-   * **Substituir na pasta atual, o mesmo nome do ativo básico independentemente da extensão** - requer que você carregue a imagem de substituição na mesma pasta do original, no entanto, a extensão do nome do arquivo pode ser diferente do original. Por exemplo, o arquivo visit.tif substitui o arquivo
+   * **Substituir na pasta atual, o mesmo nome do ativo básico independentemente da extensão** - Requer que você carregue a imagem de substituição na mesma pasta do original, no entanto, a extensão do nome do arquivo pode ser diferente do original. Por exemplo, o arquivo visit.tif substitui o arquivo
 
    * **Substituir em qualquer pasta, mesmo nome/extensão** do ativo básico - Requer que a imagem de substituição tenha a mesma extensão de nome de arquivo que a imagem original (por exemplo, President.jpg deve substituir President.jpg, não President.tif). No entanto, é possível carregar a imagem de substituição para uma pasta diferente da original. A imagem atualizada reside na nova pasta; o arquivo não pode mais ser encontrado em seu local original
 
@@ -138,17 +138,17 @@ Consulte também [Testando o serviço](testing-assets-making-them-public.md#test
 
 ### Outras configurações, para o aplicativo
 
-* **Lixeira pode limpar avisos** - os ativos no lixo são removidos automaticamente dentro de sete dias. Selecione &quot;Enviar emails antes que itens de lixo sejam excluídos automaticamente&quot; se desejar que notificações sejam enviadas para administradores de empresas quando os ativos que estão no Lixeira estiverem a quatro dias de serem excluídos permanentemente. Consulte Gerenciamento da pasta Lixeira.
+* **Lixeira pode limpar avisos** - os ativos no lixo são removidos automaticamente em sete dias. Selecione &quot;Enviar emails antes que itens de lixo sejam excluídos automaticamente&quot; se desejar que notificações sejam enviadas para administradores de empresas quando os ativos que estão no Lixeira estiverem a quatro dias de serem excluídos permanentemente. Consulte Gerenciamento da pasta Lixeira.
 
 ## Uso da opção de Substituição de imagens {#using-the-overwrite-images-option}
 
 O Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A ID do Dynamic Media Classic de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Carregar inclui as opções Substituir imagens. O efeito exato dessa opção depende de uma configuração para cada configuração interna do empresa Dynamic Media Classic.
 
-Se você carregou imagens anteriormente e alterou os arquivos originais (ou os substituiu), a opção Substituir escolhida especifica como o Dynamic Media Classic substitui as imagens. Nenhuma informação sobre a imagem muda, mas a nova imagem substitui a antiga. Se a pasta também contiver imagens que ainda não estão no Dynamic Media Classic, essas imagens serão adicionadas.
+Se você carregou imagens anteriormente e alterou os arquivos originais (ou os substituiu), a opção Substituir selecionada especifica como o Dynamic Media Classic substitui as imagens. Nenhuma informação sobre a imagem muda, mas a nova imagem substitui a antiga. Se a pasta também contiver imagens que ainda não estão no Dynamic Media Classic, essas imagens serão adicionadas.
 
-Use essa opção se as imagens carregadas tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem continuar a mesma. A substituição também é útil ao fazer upload e remover Adobe® PDFs. Para ajustar como o Dynamic Media Classic *corta* a imagem, ajuste as opções de perfil de cor ICC na caixa de diálogo Carregar e faça o upload novamente usando o recurso Substituir.
+Use essa opção se as imagens carregadas tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem continuar a mesma. A substituição também é útil ao carregar e extrair PDFs Adobe®. Para ajustar como o Dynamic Media Classic *corta* a imagem, ajuste as opções de perfil de cor ICC na caixa de diálogo Carregar e faça o upload novamente usando o recurso Substituir.
 
-As Dynamic Media Classic IDs usadas para acessar imagens dos servidores de produção são derivadas dos nomes de arquivo de imagem. O uso de caracteres em maiúsculas e minúsculas no nome do arquivo é importante, tanto na substituição de arquivos existentes quanto para as IDs do Dynamic Media Classic usadas para acessar a imagem. Certifique-se de que o uso de caracteres em maiúsculas e minúsculas em nomes de arquivo esteja correto antes de fazer upload no Dynamic Media Classic para evitar IDs do Dynamic Media Classic que sejam diferentes apenas em maiúsculas para a mesma imagem.
+As IDs do Dynamic Media Classic usadas para acessar imagens dos servidores de produção são derivadas dos nomes de arquivo de imagem. O uso de caracteres em maiúsculas e minúsculas no nome do arquivo é importante, tanto na substituição de arquivos existentes quanto para as IDs do Dynamic Media Classic usadas para acessar a imagem. Certifique-se de que o uso de caracteres em maiúsculas e minúsculas em nomes de arquivo esteja correto antes de fazer upload no Dynamic Media Classic para evitar IDs do Dynamic Media Classic que sejam diferentes apenas em maiúsculas para a mesma imagem.
 
 Se você desmarcar essa opção, todas as imagens com os mesmos nomes de arquivo das imagens existentes serão tratadas como duplicados e não serão adicionadas.
 
@@ -263,7 +263,7 @@ Consulte também perfis [](icc-profiles.md#icc_profiles)ICC.
 
 **Modificadores** de URL Se preferir especificar os modificadores de URL que definem sua Predefinição de imagem, em vez das configurações, insira os modificadores aqui.
 
-**URL** de imagem de amostra Lista a string de URL &quot;bruta&quot; que o Dynamic Media Image Server usa para fornecer imagens com a Predefinição de imagem que você está adicionando ou editando. Essa string de URL codifica todas as configurações de formato selecionadas na tela Adicionar predefinição ou Editar predefinição.
+**URL** de imagem de amostra Lista a string de URL &quot;bruta&quot; que o Servidor de imagem do Dynamic Media usa para fornecer imagens com a Predefinição de imagem que você está adicionando ou editando. Essa string de URL codifica todas as configurações de formato selecionadas na tela Adicionar predefinição ou Editar predefinição.
 
 ### Editar, remover ou desativar uma predefinição de imagem {#editing-removing-or-deactivating-an-image-preset}
 
@@ -276,7 +276,7 @@ Consulte também perfis [](icc-profiles.md#icc_profiles)ICC.
 
 ## Ativar ou desativar predefinições de vídeo adaptáveis {#activating-or-deactivating-adaptive-video-presets}
 
-Predefinições de codificação de vídeo adaptável do Dynamic Media Classic oferta. É uma lista principal de predefinições que combina predefinições de vídeo adaptável 16:9 e predefinições de vídeo adaptativo 4:3 em um único grupo. Essas predefinições predefinidas refletem as configurações de codificação mais comuns e são otimizadas para reprodução em dispositivos móveis, tablets e desktops públicos alvos.
+Predefinições de codificação de vídeo adaptável do oferta Dynamic Media Classic. É uma lista principal de predefinições que combina predefinições de vídeo adaptável 16:9 e predefinições de vídeo adaptativo 4:3 em um único grupo. Essas predefinições predefinidas refletem as configurações de codificação mais comuns e são otimizadas para reprodução em dispositivos móveis, tablets e desktops públicos alvos.
 
 Somente as predefinições de codificação &quot;Vídeo adaptativo&quot; são ativadas (ativadas ou &quot;ativadas&quot;) por padrão. Você pode desativá-la, se desejar. As predefinições de Vídeo adaptativo inativo não aparecem como uma opção selecionável na seção eVideo da caixa de diálogo Opções de carregamento de trabalho.
 
@@ -284,7 +284,7 @@ Consulte [Carregamento e codificação de vídeos](uploading-encoding-videos.md#
 
 **Para ativar ou desativar predefinições de vídeo adaptáveis**
 
-1. Perto do canto superior direito do Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **** de vídeo > Predefinições **de vídeo** adaptáveis.
+1. Perto do canto superior direito do Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **de** vídeo > Predefinições **de vídeo** adaptáveis.
 1. Na página Predefinições de vídeo adaptáveis, desmarque a caixa de seleção ao lado de um nome predefinido para remover a predefinição da lista Opções de eVideo na caixa de diálogo Carregar opções de trabalho.
 1. Clique em **Fechar**.
 
@@ -322,7 +322,7 @@ Para escolher uma predefinição de codificação, no canto inferior direito da 
 
    **Predefinições de codificação única**
 
-   >[OBSERVAÇÃO]
+   >[!NOTE]
    >
    >Para fornecer vídeo para iPads, você pode escolher uma predefinição de codificação móvel ou uma predefinição de codificação de tablet. As predefinições de tablet são projetadas especialmente para o iPad, geralmente com maior resolução e qualidade para aproveitar o tamanho de tela e a conexão de largura de banda maiores. Fornecer arquivos de vídeo codificados com uma predefinição de Tablet requer que você inclua o código de detecção de dispositivo no seu site ou aplicativo móvel. Esse código alterna entre uma experiência de vídeo em iPhone ou iPad, dependendo do dispositivo de reprodução. Escolher uma predefinição de Dispositivo móvel para fornecer arquivos de vídeo ao iPad é um fluxo de trabalho mais simplificado. O motivo é que você pode usar o mesmo arquivo de vídeo para iPhones e iPads. Entretanto, a qualidade é padronizada para a experiência de iPhone com resolução mais baixa.
 
@@ -336,7 +336,7 @@ Após clicar em Upload **de** Start, o arquivo de vídeo principal original é c
 
 Os parâmetros das opções predefinidas de codificação são os seguintes:
 
-**Velocidade** da conexão do Público alvo A velocidade da conexão com a Internet do usuário final alvo.
+**Velocidade** da conexão do público alvo A velocidade da conexão com a Internet do usuário final alvo.
 
 **Sufixo** de arquivo codificado O sufixo anexado ao arquivo de vídeo codificado para fins de identificação.
 
@@ -356,7 +356,7 @@ Uma predefinição de codificação que funciona com qualquer proporção para p
 
 **Vídeo adaptativo (padrão)**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual à fonte | 64 | Para dispositivos móveis (iPhone, iPad, Android) |
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à fonte | 96 | Para tablet (iPad, Android) |
@@ -370,7 +370,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 **Predefinições de codificação de vídeo adaptável (16:9 ou 4:3)**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 2 | 4:3, 384x288px, móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à fonte | 64 | Baixa resolução, 3G |
@@ -391,7 +391,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 **H264 Main 3.2 - AAC de áudio, extensão de arquivo MP4**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual à fonte | 64 | Baixa resolução widescreen |
 | 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | Igual à fonte | 80 | Resolução widescreen média |
@@ -404,7 +404,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 **OGG Theora Vorbis - Extensão do arquivo OGV**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Igual à fonte | 64 | Baixa resolução widescreen |
 | 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Igual à fonte | 80 | Resolução widescreen média |
@@ -423,7 +423,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 **Linha de base H264 2.1 - AAC de áudio, extensão de arquivo MP4**
 
-|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do Público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura do pixel | Fps | Taxa de bits de áudio (Kbps) | Recomendações |
+|  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura do pixel | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512 x 288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 2 | 16:9, 512 x 288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Igual à fonte | 64 | Resolução média, 3G |
@@ -440,27 +440,27 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 >[!NOTE]
 >
->**Aviso** de Fim da Vida Útil dos Visualizadores Flash - A partir de 31 de janeiro de 2017, o Adobe Dynamic Media Classic oficialmente encerrou o suporte para a plataforma do visualizador Flash. Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Aviso** de Fim da Vida Útil dos Visualizadores de Flash - A partir de 31 de janeiro de 2017, o suporte ao Adobe Dynamic Media Classic foi encerrado oficialmente para a plataforma do visualizador de Flashes. Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 Uma predefinição *do* visualizador é uma coleção de configurações que determinam como os usuários visualizações ativos de mídia avançada em suas telas de computadores e dispositivos móveis. Como administrador, você pode criar Predefinições do visualizador. As configurações estão disponíveis para uma matriz de opções de configuração do visualizador. Por exemplo, é possível alterar o tamanho de exibição do visualizador, o comportamento de zoom, os esquemas de cores, as bordas e as fontes.
 
 Como prática recomendada, use visualizadores de vídeo HTML5 do Dynamic Media Classic. As predefinições usadas em visualizadores de vídeo HTML5 são players de vídeo robustos. Ao combinar em um único player a capacidade de projetar os componentes de reprodução usando HTML5 e CSS, ter reprodução integrada e usar streaming adaptável e progressivo dependendo da capacidade do navegador, você estende o alcance do conteúdo de mídia avançada para usuários de desktop, tablet e dispositivos móveis, além de garantir uma experiência de vídeo otimizada.
 
-Consulte [Sobre visualizadores](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 no Guia de referência do Adobe Viewers.
+Consulte [Sobre visualizadores](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) HTML5 no Guia de referência de visualizadores para Adobe.
 
-Consulte Matriz de compatibilidade predefinida do [Dynamic Media Classic Viewer](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Consulte Matriz de compatibilidade predefinida do visualizador [do Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 Consulte [Prática recomendada: Uso do visualizador](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)de vídeo HTML5.
 
 Dependendo do visualizador, você pode adicionar recursos da comunidade. Os recursos da comunidade incluem um botão Incorporar, um botão de email, um botão Link e um botão Visitar site. Esses botões permitem que as pessoas que usam os visualizadores compartilhem o visualizador com outras pessoas ou abram o site do Dynamic Media Classic.
 
-Consulte também Exemplos [da biblioteca de referência de visualizadores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)da Adobe.
+Consulte também Exemplos [da biblioteca de referência de visualizadores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
-### Suporte do visualizador para páginas da Web responsivas projetadas {#viewer-support-for-responsive-designed-web-pages}
+### Suporte do visualizador para páginas da Web com design responsivo {#viewer-support-for-responsive-designed-web-pages}
 
-Páginas da Web diferentes têm necessidades diferentes. Às vezes, você desejará uma página da Web que forneça um link que abra o Visualizador HTML5 em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout estático. Ou pode ser &quot;responsivo&quot; e exibido de forma diferente em dispositivos diferentes ou para tamanhos diferentes de janelas do navegador. Para acomodar essas necessidades, os Visualizadores HTML5 fornecidos com o Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
+Páginas da Web diferentes têm necessidades diferentes. Às vezes, você desejará uma página da Web que forneça um link que abra o Visualizador HTML5 em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout estático. Ou pode ser &quot;responsivo&quot; e exibido de forma diferente em dispositivos diferentes ou para tamanhos diferentes de janelas do navegador. Para acomodar essas necessidades, os visualizadores HTML5 que vêm com o Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
 
-Consulte [Biblioteca de imagens estáticas responsivas](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)na Ajuda *da API de disponibilização de imagens da* Adobe para obter mais informações sobre como incorporar visualizadores responsivos às suas páginas da Web.
+Consulte [Biblioteca de imagens estáticas responsivas](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)na Ajuda *da API de disponibilização de imagens para* Adobe para obter mais informações sobre como incorporar visualizadores responsivos às suas páginas da Web.
 
 ### Tipos de predefinição do visualizador {#viewer-preset-types}
 
@@ -470,7 +470,7 @@ Os administradores podem criar e personalizar os seguintes tipos de predefiniç�
 
 **Visualizador** do conjunto de amostras Exibe uma imagem em uma cor, material, textura, acabamento ou malha diferente. Os usuários clicam em uma miniatura para ver as variações na imagem.
 
-**Visualizador** do conjunto de mídia mista Exibe tipos diferentes de mídia em um visualizador. Você pode incluir Conjuntos de amostras, Conjuntos de rotação, imagens e vídeos. É possível configurar guias para conter tipos diferentes de conteúdo, como uma guia para conjuntos de imagens e uma guia para vídeos. Os vídeos reproduzidos de um Conjunto de mídia mista usam um visualizador de vídeo padrão com controles de linha do tempo e vídeo, como Parar, Pausar, Retroceder e Reproduzir. Quando você configura uma predefinição do visualizador de conjunto de mídia mista, especifica quais visualizadores deseja usar para os diferentes tipos de ativos no Conjunto de mídias mistas. Você também pode usar o Visualizador de grade ou o Visualizador de carrossel para visualização de um conjunto de mídia mista.
+**Visualizador** do conjunto de mídia mista Exibe diferentes tipos de mídia em um visualizador. Você pode incluir Conjuntos de amostras, Conjuntos de rotação, imagens e vídeos. É possível configurar guias para conter tipos diferentes de conteúdo, como uma guia para conjuntos de imagens e uma guia para vídeos. Os vídeos reproduzidos de um Conjunto de mídia mista usam um visualizador de vídeo padrão com controles de linha do tempo e vídeo, como Parar, Pausar, Retroceder e Reproduzir. Quando você configura uma predefinição do visualizador de conjunto de mídia mista, especifica quais visualizadores deseja usar para os diferentes tipos de ativos no Conjunto de mídias mistas. Você também pode usar o Visualizador de grade ou o Visualizador de carrossel para visualização de um conjunto de mídia mista.
 
 **Visualizador** de conjunto de rotação Fornece várias visualizações de uma imagem para que os usuários possam girar o objeto para examinar os diferentes lados e ângulos.
 
@@ -488,17 +488,17 @@ Por exemplo, se o tamanho da sua imagem principal for 350 por 350 pixels, com um
 
 ### Matriz de compatibilidade do Dynamic Media Classic Viewer Preset {#scene-viewer-preset-compatibility-matrix}
 
-**Aviso** de Fim da Vida Útil dos Visualizadores Flash: A partir de 31 de janeiro de 2017, o Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma do visualizador Flash.
+**Aviso** de Fim da Vida Útil para Visualizadores de Flashes: A partir de 31 de janeiro de 2017, o Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma de visualização de Flash.
 
 Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-A tabela a seguir identifica as predefinições do Dynamic Media Classic Viewer atualmente disponíveis. A tabela também especifica a compatibilidade do visualizador com dispositivos desktop e móveis e a tecnologia usada para cada visualizador.
+A tabela a seguir identifica as predefinições do visualizador do Dynamic Media Classic disponíveis no momento. A tabela também especifica a compatibilidade do visualizador com dispositivos desktop e móveis e a tecnologia usada para cada visualizador.
 
-Consulte também Exemplos [da biblioteca de referência de visualizadores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)da Adobe.
+Consulte também Exemplos [da biblioteca de referência de visualizadores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para visualizadores, consulte as Notas de versão dos visualizadores.
 
-Consulte Notas [de versão de referência dos visualizadores](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)da Adobe.
+Consulte Notas [de versão de referência dos visualizadores do](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)Adobe.
 
 |  | Tecnologia do visualizador | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Tablet Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -537,10 +537,10 @@ Consulte Notas [de versão de referência dos visualizadores](https://docs.adobe
 
 **Visualizadores de eVideo**
 
-O Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264.
+O Dynamic Media Classic suporta reprodução de vídeo móvel para vídeo MP4 H.264.
 
 * Você pode encontrar dispositivos Blackberry compatíveis com este formato de vídeo no seguinte endereço: [Formatos de vídeo suportados no Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
-* Você também pode encontrar dispositivos do Windows compatíveis com este formato de vídeo no seguinte:Formatos de vídeo[suportados no Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
+* Você também pode encontrar dispositivos Windows compatíveis com este formato de vídeo no seguinte endereço:Formatos de vídeo[suportados no Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | Tecnologia do visualizador | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Tablet Android | Blackberry Smartphone | Windows Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -589,7 +589,7 @@ Consulte [Exportar uma predefinição](application-setup.md#exporting_an_html5_v
 * Abra a lista suspensa **Ativa/Inativa** e escolha uma opção para mostrar predefinições ativas, predefinições inativas ou todas as predefinições.
 * Abra a lista suspensa **Visualizador** e escolha uma opção para ver somente visualizadores de determinado tipo. Escolha **Todos os visualizadores** para ver todos os visualizadores.
 
-**Predefinições** de classificação Clique no cabeçalho de uma coluna (Ativo, Tipo, Predefinido ou Platform) para classificar a lista em uma coluna. Clique no cabeçalho de uma coluna pela segunda vez para classificar a lista em ordem decrescente (ou crescente).
+**Predefinições** de classificação Clique no cabeçalho de uma coluna (Ativo, Tipo, Predefinido ou Plataforma) para classificar a lista em uma coluna. Clique no cabeçalho de uma coluna pela segunda vez para classificar a lista em ordem decrescente (ou crescente).
 
 **Ativando e desativando predefinições** Selecione uma predefinição e clique na opção Ativa para ativá-la ou desativá-la.
 
@@ -626,7 +626,7 @@ Consulte [Exportar uma predefinição](application-setup.md#exporting_an_html5_v
 1. Na tela Configurar visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
 1. Defina as opções restantes desejadas.
 
-   >[OBSERVAÇÃO]
+   >[!NOTE]
    >
    >Escolha Igual à fonte para dimensionar automaticamente o Visualizador de vídeo para o tamanho de resolução do próprio vídeo codificado. Se você escolher essa opção, não será possível inserir a Largura do palco e a Altura do palco. Em vez disso, essas opções vêm do próprio vídeo. Se você escolher Igual à origem, defina a opção Tamanho da margem para refletir as dimensões da capa fora da área de reprodução do vídeo. Esse tamanho de margem é a altura e a largura do pixel dos controles de vídeo. Você pode usar a ilustração a seguir para ajudar a determinar os tamanhos de margens que deseja usar.*
 
@@ -641,7 +641,7 @@ Consulte [Exportar uma predefinição](application-setup.md#exporting_an_html5_v
 
 Você pode exportar uma predefinição do visualizador HTML5 existente para usar como a base para a criação de uma nova predefinição do visualizador HTML5. Essa opção de exportação é útil porque você não precisa criar o visualizador do zero. Em vez disso, você exporta uma predefinição que parece e se comporta perto do que você quer, então você pode usá-la como um ponto de partida para fazer ajustes de design.
 
-Observe que todos os arquivos CSS predefinidos padrão e predefinidos do visualizador no Dynamic Media Classic usam caminhos de serviço de imagem relativos que apontam para ativos localizados no `Scene7SharedAssets`. Por exemplo, o caminho a seguir é relativo para um ativo de imagem em um arquivo CSS predefinido do visualizador, localizado em `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`No entanto, se você estiver hospedando arquivos CSS do visualizador em seu próprio site, é necessário resolver esses caminhos de imagem relativos usando um caminho explícito para o Servidor de imagens em seu próprio ambiente. Para fins de ilustração, se você atualizar o caminho relativo acima para um caminho explícito, ele pode parecer com o seguinte, onde `https://s7d1.scene7.com` é o caminho direto para o servidor de imagem: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Observe que todos os arquivos CSS predefinidos padrão e predefinidos do visualizador no Dynamic Media Classic usam caminhos de serviço de imagem relativos que apontam para ativos localizados em `Scene7SharedAssets`. Por exemplo, o caminho a seguir é relativo para um ativo de imagem em um arquivo CSS predefinido do visualizador, localizado em `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`No entanto, se você estiver hospedando arquivos CSS do visualizador em seu próprio site, é necessário resolver esses caminhos de imagem relativos usando um caminho explícito para o Servidor de imagens em seu próprio ambiente. Para fins de ilustração, se você atualizar o caminho relativo acima para um caminho explícito, ele pode parecer com o seguinte, onde `https://s7d1.scene7.com` é o caminho direto para o servidor de imagem: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Para exportar uma predefinição do visualizador HTML5**
 
@@ -668,7 +668,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consulte [Upload de arquivos](uploading-files.md#uploading_files).
 
-1. Publique o arquivo CSS no Dynamic Media Image Server.
+1. Publique o arquivo CSS no servidor de imagem de Dynamic Media.
 
    Consulte [Publicação de arquivos](publishing-files.md#publishing_files).
 
@@ -818,7 +818,7 @@ Crie uma predefinição de metadados para cada conjunto de valores de metadados 
 
 Um Administrador do Media Portal ou um Administrador de Empresas pode criar campos de metadados personalizados e definidos pelo usuário. Campos personalizados podem ajudá-lo a organizar ativos no Dynamic Media Classic. Você pode marcar os campos como ativos, conforme necessário. Quando ativados, os nomes desses campos de metadados personalizados são exibidos no painel Metadados na visualização Detalhe. Os usuários podem inserir informações nos campos de metadados definidos pelo usuário para descrever ativos. Os usuários também podem tornar um campo de metadados definido pelo usuário um critério em pesquisas.
 
-Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo de ativação de um ativo para uma inicialização ou venda específica. Você define um campo &quot;ativação&quot;, com base no tipo *Data*. Em seguida, usando o painel **Metadados** em visualização **detalhada** ou **Arquivo** > **Editar informações**, você pode especificar quando o ativo é ativado. O Dynamic Media Classic verifica o status de publicação de um ativo e o histórico de publicação. Se não estiver dentro do tempo de ativação, o status de publicação será exibido como &quot;Não publicado&quot;.
+Um uso eficaz dos campos de metadados definidos pelo usuário é atrasar o tempo de ativação de um ativo para uma inicialização ou venda específica. Você define um campo &quot;ativação&quot;, com base no tipo *Data*. Em seguida, usando o painel **Metadados** em visualização **detalhada** ou **Arquivo** > **Editar informações**, você pode especificar quando o ativo é ativado. O Dynamic Media Classic verifica o status de publicação de um ativo e o histórico de publicação. Se não estiver dentro do tempo de ativação, o status de publicação será exibido como &quot;Não publicado&quot;.
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo 
 
    **Cor** O nome de uma cor.
 
-   **Dimensão** A largura e a altura do ativo.
+   **Dimension** A largura e a altura do ativo.
 
    **Untyped** Para compatibilidade com versões anteriores. Não selecione essa opção.
 
@@ -880,7 +880,7 @@ Para abrir essa tela, clique em **Configuração** > Configuração **** do apli
 
 ## Otimizar arquivos {#optimize-files}
 
-À medida que você carrega arquivos no Dynamic Media Classic, o sistema os otimiza para armazenamento e publicação. No entanto, se o processo de upload for interrompido, algumas imagens não poderão ser otimizadas. Nesse caso, você verá a mensagem &quot;Imagem ainda não otimizada&quot;. No entanto, você pode otimizar esses arquivos se for um administrador.
+Ao carregar arquivos no Dynamic Media Classic, o sistema os otimiza para armazenamento e publicação. No entanto, se o processo de upload for interrompido, algumas imagens não poderão ser otimizadas. Nesse caso, você verá a mensagem &quot;Imagem ainda não otimizada&quot;. No entanto, você pode otimizar esses arquivos se for um administrador.
 
 O Dynamic Media Classic pesquisa seus arquivos e otimiza somente as imagens que não foram totalmente otimizadas antes.
 
@@ -891,11 +891,11 @@ O Dynamic Media Classic pesquisa seus arquivos e otimiza somente as imagens que 
 
 ## Predefinições de Conjunto de Lotes {#batch-set-presets}
 
-Use as predefinições de conjuntos de lotes para criar automaticamente conjuntos de imagens ou conjuntos de rotação enquanto uma tarefa estiver sendo executada para fazer upload de ativos para o Dynamic Media Classic.
+Use as predefinições de conjuntos de lotes para criar automaticamente conjuntos de imagens ou conjuntos de rotação enquanto um trabalho estiver sendo executado para carregar ativos no Dynamic Media Classic.
 
-Os administradores de Empresa definem primeiro as convenções de nomenclatura para os ativos que desejam agrupar em um conjunto. Em seguida, é possível criar uma predefinição de conjunto de abits para fazer referência a essas imagens. Cada predefinição é um conjunto exclusivo de instruções autocontidas e nomeadas que define como construir o conjunto usando imagens que correspondem às convenções de nomenclatura definidas na fórmula predefinida.
+Os administradores de empresa definem primeiro as convenções de nomenclatura para os ativos que desejam agrupar em um conjunto. Em seguida, é possível criar uma predefinição de conjunto de abits para fazer referência a essas imagens. Cada predefinição é um conjunto exclusivo de instruções autocontidas e nomeadas que define como construir o conjunto usando imagens que correspondem às convenções de nomenclatura definidas na fórmula predefinida.
 
-Todas as predefinições de conjuntos de lotes ativos para uma empresa são listadas na caixa de diálogo Carregar opção de trabalho, para que você possa especificar qual predefinição deseja aplicar durante cada sessão de upload. Os administradores de Empresas veem todas as predefinições de conjunto de lotes ativas e inativas. Quando você carrega arquivos, o Dynamic Media Classic cria automaticamente um conjunto com todos os arquivos que correspondem à convenção de nomenclatura definida nas predefinições ativas.
+Todas as predefinições de conjuntos de lotes ativos para uma empresa são listadas na caixa de diálogo Carregar opção de trabalho, para que você possa especificar qual predefinição deseja aplicar durante cada sessão de upload. Os administradores de empresas veem todas as predefinições de conjunto de lotes ativas e inativas. Quando você carrega arquivos, o Dynamic Media Classic cria automaticamente um conjunto com todos os arquivos que correspondem à convenção de nomenclatura definida nas predefinições ativas.
 
 ### Nomeação padrão {#default-naming}
 
@@ -931,7 +931,7 @@ Consulte também [Criação de um conjunto de lotes predefinido para a geração
 
 **Para criar uma predefinição de conjunto de lotes**
 
-1. Clique em **Configuração** > Configuração **** do aplicativo > Predefinições **do conjunto** de lotes > Predefinição do conjunto **de lotes**. **Formulário** de Visualização, conforme definido no canto superior direito da página Detalhes, é a visualização padrão.
+1. Clique em **Configuração** > Configuração **** do aplicativo > Predefinições **do conjunto** de lotes > Predefinição do conjunto **de lotes**. **Formulário** de visualização, conforme definido no canto superior direito da página Detalhes, é a visualização padrão.
 1. No painel Lista predefinida, clique em **Adicionar** para ativar os campos de definição no painel Detalhes no lado direito da tela.
 1. No painel Detalhes, no campo Nome da predefinição, digite um nome para a predefinição.
 1. No menu suspenso Tipo de conjunto de lotes, selecione um tipo predefinido.
@@ -980,7 +980,7 @@ Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome d
 
 **Para criar um conjunto de lotes predefinido para a geração automática de um conjunto de rotação 2D**
 
-1. Escolha **Configuração** > Configuração **** do aplicativo > Predefinições **do conjunto** de lotes > Predefinição do conjunto **de lotes**. **Formulário** de Visualização, conforme definido no canto superior direito da página Detalhes, é a visualização padrão.
+1. Escolha **Configuração** > Configuração **** do aplicativo > Predefinições **do conjunto** de lotes > Predefinição do conjunto **de lotes**. **Formulário** de visualização, conforme definido no canto superior direito da página Detalhes, é a visualização padrão.
 1. No painel Lista predefinida, clique em **Adicionar** para ativar os campos de definição no painel Detalhes no lado direito da tela.
 1. No painel Detalhes, no campo Nome da predefinição, digite um nome para a predefinição.
 1. No menu suspenso Tipo de conjunto de lote, selecione **Conjunto de ativos**.
