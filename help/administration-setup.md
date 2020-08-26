@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Configuração da administração{#administration-setup}
 
-As telas Configuração da administração são para administrar usuários do Dynamic Media Classic. Use essas telas para permitir que os usuários trabalhem no Dynamic Media Classic e se comuniquem por email com os usuários.
+As telas de Configuração de administração são para administrar usuários do Dynamic Media Classic. Use essas telas para permitir que os usuários trabalhem no Dynamic Media Classic e se comuniquem por email com os usuários.
 
 1. Para acessar as opções de Configuração da administração, clique em **Configuração** > Configuração **pessoal** > Configuração **da** administração.
 
@@ -29,17 +29,17 @@ As telas Configuração da administração são para administrar usuários do Dy
 
 Todos os usuários do Dynamic Media Classic recebem uma função que determina seus privilégios e direitos de acesso aos recursos no Dynamic Media Classic. Os administradores determinam as diferentes funções e responsabilidades para as empresas às quais estão atribuídos.
 
-Normalmente, o Dynamic Media Classic configura o primeiro conjunto de empresas e atribui um administrador de empresa. O administrador da empresa então configura e administra usuários do Dynamic Media Classic.
+Normalmente, o Dynamic Media Classic configura o primeiro conjunto de empresa e atribui um administrador de empresa. O administrador da empresa então configura e administra os usuários do Dynamic Media Classic.
 
-O Dynamic Media Classic é compatível com várias funções de usuário. Essas funções podem acessar empresas configuradas para o Dynamic Media Classic:
+O Dynamic Media Classic suporta várias funções de usuário. Essas funções podem acessar empresas configuradas para o Dynamic Media Classic:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
 **Usuário** do Adobe Dynamic Media Classic pode acessar empresas às quais foram atribuídas; não possa desempenhar quaisquer funções administrativas.
 
-**O administrador** da Empresa Dynamic Media Classic pode visualização e administrar somente suas próprias empresas. Um administrador de Empresa também pode executar todas as funções administrativas, incluindo a adição de administradores e usuários. Um administrador da Empresa pode adicionar um usuário às contas de administrador da empresa do DMC. (Essa função é a função padrão do usuário.)
+**O administrador** da Empresa Adobe Dynamic Media Classic pode visualização e administrar somente suas próprias empresas. Um administrador de Empresa também pode executar todas as funções administrativas, incluindo a adição de administradores e usuários. Um administrador da Empresa pode adicionar um usuário às contas de administrador da empresa do DMC. (Essa função é a função padrão do usuário.)
 
-Após adicionar um usuário, o Dynamic Media Classic envia ao usuário uma mensagem de email de boas-vindas. A mensagem inclui uma senha e o URL do Dynamic Media Classic.
+Depois de adicionar um usuário, o Dynamic Media Classic envia ao usuário uma mensagem de email de boas-vindas. A mensagem inclui uma senha e o URL do Dynamic Media Classic.
 
 ### Adicionar um usuário ou administrador {#adding-a-user-or-administrator}
 
@@ -93,7 +93,7 @@ As informações de usuário que você pode editar dependem de sua função de a
 1. Selecione o usuário e clique em **Editar**.
 1. Selecione a entrada na tabela que mostra a empresa para a qual você está tentando modificar permissões ou acesso e clique no link Gerenciar Empresa.
 1. Selecione a função do usuário.
-1. Se você quiser alterar a associação de grupo do usuário (se estiver editando ou adicionando um usuário ou contribuidor do Portal de mídia), clique em Avançar e edite a associação de grupo.
+1. Se desejar alterar a associação de grupo do usuário (se você estiver editando ou adicionando um usuário ou contribuidor do Portal de mídia), clique em Avançar e edite a associação de grupo.
 1. Clique em **Salvar**.
 
 ### Filtragem e classificação da lista do usuário {#filtering-and-sorting-the-user-list}
@@ -114,32 +114,33 @@ Você pode usar as seguintes técnicas de filtragem de lista do usuário:
 
 Se você tiver muitos usuários, poderá limitar o tamanho da lista selecionando o menu Tamanho máximo da Lista e escolhendo um número.
 
-### Vincular uma identidade de usuário IMS a uma conta de usuário IPS do Dynamic Media Classic {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-Você pode vincular uma identidade de usuário do Adobe IMS a uma conta de usuário do Dynamic Media Classic IPS para que você possa usar SSO (Single Sign On) para fazer logon e iniciar o Scene7 Publishing System a partir do Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
-1. A Adobe já deve ter configurado sua conta com uma organização de Adobe Marketing Cloud e vinculado ao contexto de produto do Scene7 Publishing System. Se essa configuração ainda não estiver concluída ou você não tiver certeza se ela foi concluída, entre em contato com o Atendimento ao cliente da Adobe.
+1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   Quando a configuração for concluída, você poderá fazer logon no Adobe Marketing Cloud e vincular sua identidade de Adobe Marketing Cloud para sua conta de usuário do Dynamic Media Classic, fazendo o seguinte.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
-1. No Adobe Marketing Cloud, navegue até suas configurações de conta.
-1. Clique em **Gerenciar organizações**.
-1. Clique em **Vincular conta** ou em **Obter acesso**.
-1. Selecione **Experience Manager** e digite suas credenciais.
+1. In Adobe Marketing Cloud, navigate to your account settings.
+1. Click **Manage Organizations**.
+1. Click **Link Account** or **Get Access**.
+1. Select **Experience Manager**, and then type your credentials.
 
-   Suas credenciais incluem sua região de empresa IPS, endereço de email e senha.
+   Your credentials include your IPS company region, email address, and password.
 
-1. Clique em **Link**.
-1. Quando o link estiver definido, você poderá iniciar o Scene7 Publishing System a partir do Adobe Marketing Cloud ou poderá iniciá-lo diretamente.
+1. Click **Link**.
+1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
-   Execute um dos procedimentos a seguir:
+   Do one of the following:
 
-   * Para iniciar o Dynamic Media Classic no Adobe Marketing Cloud, no painel esquerdo do Adobe Marketing Cloud, clique em **Soluções** > **Experience Manager**. Em Dynamic Media Classic Card, clique em **Iniciar**.
-   * Para fazer logon no Scene7 Publishing System diretamente usando suas credenciais IMS, use o seguinte site:
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Substitua &quot;N&quot; no caminho acima pelo número da sua região de empresa IPS. Ou seja, N = 1 para a América do Norte; 3 para a EMEA; ou 5 para JAPAC.
+      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+ -->
 
 ## Largura de banda e Armazenamento {#bandwidth-storage}
 
@@ -154,7 +155,7 @@ A tabela a seguir descreve os relatórios que podem ser gerados na tela Largura 
 | Relatório | Informações | Use |
 |:--- |:--- |:--- |
 | Largura de banda | Uso da largura de banda por empresa | Rastreie o uso da largura de banda por empresa em intervalos de datas específicos para determinar os padrões de tráfego. |
-| Armazenamento | uso do Armazenamento | Rastreie a quantidade de dados carregada pela empresa. |
+| Armazenamento | uso do armazenamento | Rastreie a quantidade de dados carregada pela empresa. |
 | Conteúdo da imagem | O número de solicitações de imagem por tipo | Rastreie o número de solicitações e o volume de diferentes tipos de imagem. |
 | Domínio | O número de solicitações de URL por domínio | Rastrear o uso da imagem com base no domínio da solicitação de imagem para uma empresa específica. (O Dynamic Media Classic pode fornecer mais de um domínio por conta. Para obter mais informações, entre em contato com o Suporte Técnico.) |
 | Streaming de vídeo | Uso de largura de banda para transmissão de vídeo | Rastreie o uso de vídeo de fluxo contínuo por empresa em intervalos de datas específicos para determinar os padrões de tráfego. |
