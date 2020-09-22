@@ -1,33 +1,33 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Ajuda do Dynamic Media Classic
+user-guide-title: Guia do Adobe Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
 
 
-# Ajuda do Dynamic Media Classic {#using}
+# Guia do Adobe Dynamic Media Classic {#using}
 
-+ [Página inicial da documentação do Dynamic Media Classic](home.md)
++ [Guia do Adobe Dynamic Media Classic](home.md)
 + [Tutorial de práticas recomendadas](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NOVA experiência de logon do Dynamic Media Classic disponível](new-ui-2020.md)
 + [Newsletter Dynamic Media pela Experience League](dynamic-media-newsletter.md)
-+ Introdução ao Adobe Dynamic Media Classic {#intro}
++ Apresentando o Adobe Dynamic Media Classic {#intro}
    + [Aplicativo Adobe Dynamic Media Classic Desktop - Agora disponível](dynamic-media-classic-desktop-app.md)
    + [Sobre a Ajuda do Dynamic Media Classic](introduction.md)
    + [Recursos do desenvolvedor](developer-resources.md)
    + [Novidades](whats-new.md)
    + [Requisitos do sistema](system-requirements.md)
    + [Suporte](support.md)
-   + [Ajuda para o Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
-   + [Serviços de treinamento da Adobe](training-services.md)
+   + [Ajuda para o Portal de Mídia Clássica do Dynamic Media](help-dmc-media-portal.md)
+   + [Serviços de treinamento de Adobe](training-services.md)
    + [Recursos populares](popular-resources.md)
    + [Vídeos de treinamento](training-videos.md)
 + Introdução {#getting-started}
@@ -145,14 +145,14 @@ ht-degree: 1%
    + [Criação de um conjunto de mídia mista](creating-mixed-media-set.md)
    + [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md)
    + [Vincular um conjunto de mídia mista a uma página da Web](linking-mixed-media-set-web.md)
-+ Kit de instrumentação do Adobe Analytics {#analytics-kit}
++ Kit de instrumentação Adobe Analytics {#analytics-kit}
    + [Start rápido: Integração do Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Faça logon no Adobe Analytics](log-analytics.md)
-   + [Configuração de relatórios do Adobe Analytics](configuring-analytics-reports.md)
+   + [Configuração de relatórios da Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentação de um visualizador usando o Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
-   + [Desativar o rastreamento do Adobe Analytics](disabling-analytics-tracking.md)
-   + [Teste da integração exibindo um relatório da Adobe Analytics](testing-integration-viewing-analytics-report.md)
-   + [Ativação dos relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md)
+   + [Desabilitando o rastreamento do Adobe Analytics](disabling-analytics-tracking.md)
+   + [Teste da integração ao visualizar um relatório da Adobe Analytics](testing-integration-viewing-analytics-report.md)
+   + [Ativação dos relatórios de vídeo da Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicar informações de configuração do Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integração com o Adobe Target Standard/Premium {#target-classic}
    + [Start rápido: Integração com o Adobe Target Standard/Premium](quick-start-target-integration.md)
@@ -164,7 +164,7 @@ ht-degree: 1%
    + [Excluindo um ativo carregado](deleting-uploaded-asset.md)
    + [Obtendo informações de uso do disco](getting-disk-usage-information.md)
    + [Fazer upload de um ativo de imagem ou de um ativo vetorial](uploading-image-asset-or-vector.md)
-+ arquivos Principais {#master-files}
++ arquivos principais {#master-files}
    + [Práticas recomendadas para otimizar a qualidade de suas imagens](best-practices-optimizing-quality-images.md)
    + [Edição de imagens](editing-images.md)
    + [Criação de mapas de imagem](creating-image-maps.md)
@@ -179,4 +179,4 @@ ht-degree: 1%
 + Arquivos de suporte {#support-files}
    + [Fontes](fonts.md)
    + [Arquivos XML](xml-files.md)
-   + [perfis ICC](icc-profiles.md)
+   + [PERFIS ICC](icc-profiles.md)
