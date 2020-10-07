@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,13 @@ Como parte da criação do seu eCatalog, você pode organizar páginas ou págin
 
 >[!NOTE]
 >
->Se você for um usuário do modo AEM Dynamic Media - Scene7 e quiser usar o eCatalog, precisará editar o `pdfbrochure` valor no CRXDE Lite. Para fazer isso, no AEM, clique em **[!UICONTROL Tools > General > CRXDE Lite]**. Na árvore de navegação do painel esquerdo, navegue até `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-No painel inferior direito, na **[!UICONTROL Properties]** guia, selecione a `jobParam` linha. Defina o valor para `pdfbrochure` de `false` para `true`. Como `pdfbrochure=true`no canto superior esquerdo da página CRXDE Lite, clique em **[!UICONTROL Save All]**.
-Agora você poderá criar eCatalogs no Dynamic Media Classic.
+>Se você for um usuário AEM Dynamic Media - no modo Scene7 e quiser usar o eCatalog, precisará editar o `pdfbrochure` valor no CRXDE Lite. Para fazer isso, em AEM, clique em **[!UICONTROL Tools > General > CRXDE Lite]**. Na árvore de navegação do painel esquerdo, navegue até `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>
+>No painel inferior direito, na **[!UICONTROL Properties]** guia, selecione a `jobParam` linha. Defina o valor para `pdfbrochure` de `false` para `true`. Como em `pdfbrochure=true`
+>
+>No canto superior esquerdo da página CRXDE Lite, clique em **[!UICONTROL Save All]**.
+>
+>Agora você poderá criar eCatalogs no Dynamic Media Classic.
 
 **Start rápido**
 
@@ -52,9 +56,9 @@ Este Start rápido do eCatalog foi projetado para ajudá-lo a começar a funcion
 
 **1. Como fazer upload dos arquivos PDF**
 
-Os arquivos Adobe PDF geralmente são a origem de um eCatalog. Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. O Dynamic Media Classic detecta essas imagens e as converte usando um perfil de cores CMYK padrão. No entanto, talvez seja necessário carregar e usar um perfil de cores personalizado.
+Os arquivos Adobe PDF geralmente são a fonte de um eCatalog. Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. O Dynamic Media Classic detecta essas imagens e as converte usando um perfil de cor CMYK padrão. No entanto, talvez seja necessário carregar e usar um perfil de cores personalizado.
 
-Clique em Fazer upload na barra de navegação global para fazer upload de start de arquivos PDF ou imagens para seu eCatalog. Você pode fazer upload de arquivos da área de trabalho ou via FTP; O FTP é recomendado se você estiver carregando vários arquivos ou arquivos com mais de 100 MB.
+Clique em Fazer upload na barra de navegação global para fazer upload de start de arquivos PDF ou imagens para seu eCatalog. Você pode fazer upload de arquivos do seu desktop ou via FTP; O FTP é recomendado se você estiver carregando vários arquivos ou arquivos com mais de 100 MB.
 
 Em Opções de PDF, a tela Carregar fornece opções para carregar arquivos PDF na resolução correta e no espaço de cor correto. Recomenda-se uma resolução de 150 pixels por polegada. Você pode selecionar a opção Gerar eCatalog automaticamente para criar um eCatalog ao carregar um arquivo PDF.
 
@@ -108,7 +112,7 @@ Consulte [Visualizar eCatalogs no eCatalog Viewer](previewing-ecatalogs-ecatalog
 
 **6. Publicar eCatalog e PDFs associados**
 
-A publicação do seu eCatalog e do PDF associado coloca-o em servidores de imagem Dynamic Media para que possa ser entregue ao seu site e aplicativo. Como parte do processo de publicação, o Dynamic Media Classic ativa a string de URL para seu eCatalog. Use este URL para chamar o eCatalog dos Servidores de Imagens Dynamic Media para seu site ou aplicativo.
+A publicação do seu eCatalog e do PDF associado coloca-o nos Servidores de Imagem de Mídia Dinâmica para que possa ser entregue ao site e ao aplicativo. Como parte do processo de publicação, o Dynamic Media Classic ativa a string de URL para seu eCatalog. Use este URL para chamar o eCatalog dos Servidores de Imagem de Mídia Dinâmica para seu site ou aplicativo.
 
 Depois de marcar seu eCatalog e PDF para publicação no Painel de navegação, selecione o botão Publicar na barra de navegação global para iniciar uma publicação. Na tela Publicar, clique em **[!UICONTROL Start Publish]**.
 
@@ -116,7 +120,7 @@ Consulte [Publicar eCatalogs e PDFs](publishing-ecatalogs-associated-pdfs.md#pub
 
 **7. Vincular um eCatalog a uma página da Web**
 
-O Dynamic Media Classic ativa a string de chamada de URL necessária para exibir seu eCatalog quando você o publica em Dynamic Media Image Servers. É possível copiar essa string de URL da tela de Pré-visualização e do Painel de navegação (em visualização detalhada) selecionando URLs no painel. Depois de copiar a string do URL, ela fica disponível para seus sites e aplicativos.
+O Dynamic Media Classic ativa a sequência de caracteres de chamada de URL necessária para exibir seu eCatalog ao publicá-lo em Servidores de Imagem de Mídia Dinâmica. É possível copiar essa string de URL da tela de Pré-visualização e do Painel de navegação (em visualização detalhada) selecionando URLs no painel. Depois de copiar a string do URL, ela fica disponível para seus sites e aplicativos.
 
 Entre em contato com sua equipe de TI para colocar o link para o eCatalog no local apropriado em sua página da Web. Quando os usuários clicam no link, o eCatalog Viewer é exibido e os usuários podem navegar pelo seu eCatalog.
 
