@@ -2,16 +2,16 @@
 title: Configuração de publicação
 seo-title: Configuração de publicação
 description: nulo
-seo-description: As configurações da tela Publicar configuração determinam como os ativos são entregues por padrão dos servidores Dynamic Media Classic para sites ou aplicativos.
+seo-description: As configurações da tela Publicar configuração determinam como os ativos são entregues por padrão dos servidores do Dynamic Media Classic para sites ou aplicativos.
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Configuração de publicação {#publish-setup}
 
-As configurações da tela Publicar configuração determinam como os ativos são entregues por padrão dos servidores Dynamic Media Classic para sites ou aplicativos. Se nenhuma configuração for especificada, o servidor Dynamic Media Classic fornecerá um ativo de acordo com uma configuração padrão em uma tela de configuração de publicação. Por exemplo, uma solicitação para fornecer uma imagem que não inclui um atributo de resolução gera uma imagem com a configuração Resolução de objeto padrão na tela Servidor de imagens.
+As configurações da tela Publicar configuração determinam como os ativos são entregues por padrão dos servidores do Dynamic Media Classic para sites ou aplicativos. Se nenhuma configuração for especificada, o servidor do Dynamic Media Classic fornecerá um ativo de acordo com uma configuração padrão em uma tela de configuração de publicação. Por exemplo, uma solicitação para fornecer uma imagem que não inclui um atributo de resolução gera uma imagem com a configuração Resolução de objeto padrão na tela Servidor de imagens.
 
 Os administradores podem alterar as configurações padrão nas telas Servidor de imagens, Renderizador de imagens e Vignette para estabelecer as configurações padrão para fornecer ativos dos servidores.
 
@@ -27,7 +27,7 @@ Para abrir as telas Instalação de publicação, clique em Configuração > Con
 
 >[!NOTE]
 >
->As telas de configuração de publicação são para uso por desenvolvedores e programadores experientes do site. O Dynamic Media Classic supõe que os usuários que mudam as configurações nessas telas estejam familiarizados com o Dynamic Media Classic, os padrões e convenções de protocolo HTTP e a tecnologia básica de geração de imagens.
+>As telas de configuração de publicação são para uso por desenvolvedores e programadores experientes do site. O Dynamic Media Classic supõe que os usuários que mudam as configurações nessas telas estejam familiarizados com o Dynamic Media Classic, padrões e convenções de protocolo HTTP e tecnologia básica de geração de imagens.
 
 ## Servidor de imagens {#image-server}
 
@@ -35,7 +35,7 @@ A tela Servidor de imagens estabelece as configurações padrão para a entrega 
 
 Altere essas configurações somente com a ajuda de uma pessoa de suporte do Dynamic Media Classic.
 
-**Gerenciamento** de catálogo Essas configurações determinam como o Dynamic Media Classic e o catálogo interagem. Ao contrário da maioria dos servidores da Web, as chamadas de URL do Dynamic Media Image Server vão para um arquivo manifest-or de catálogo em vez de um arquivo de imagem propriamente dito. O arquivo de catálogo (não confundir com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem juntamente com o caminho para cada imagem. Se você tiver uma ID Digimarc, insira as informações do usuário na seção Informações do usuário Digimarc.
+**Gerenciamento** de catálogo Essas configurações determinam como o Dynamic Media Classic e o catálogo interagem. Ao contrário da maioria dos servidores da Web, as chamadas de URL do Servidor de Imagens Dinâmicas vão para um arquivo manifest-or de catálogo em vez de um arquivo de imagem propriamente dito. O arquivo de catálogo (não confundir com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem juntamente com o caminho para cada imagem. Se você tiver uma ID Digimarc, insira as informações do usuário na seção Informações do usuário Digimarc.
 
 **Atributos** de solicitação Essas configurações impõem limites às imagens que podem ser entregues do servidor. Por exemplo, o *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
 
@@ -49,12 +49,12 @@ Altere essas configurações somente com a ajuda de uma pessoa de suporte do Dyn
 
 **Atributos** de compatibilidade Essa configuração permite que os parágrafos à esquerda e à direita em camadas de texto sejam tratados como na versão 3.6 para compatibilidade com versões anteriores.
 
-**Suporte** à Localização Essas configurações permitem gerenciar vários atributos de localidade. Ela também permite que você especifique uma string de mapa de localidade para que você possa definir quais idiomas deseja suportar para as várias dicas de ferramentas nos Visualizadores.
+**Suporte** à localização Essas configurações permitem gerenciar vários atributos de localidade. Ela também permite que você especifique uma string de mapa de localidade para que você possa definir quais idiomas deseja suportar para as várias dicas de ferramentas nos Visualizadores.
 
 Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico para localidades. Para realizar essa funcionalidade, especifique uma string de mapa de localidade. Em seguida, edite o texto da dica de ferramenta em uma predefinição do Visualizador adicionando as strings de texto traduzidas para o idioma desejado.
 
 >[!NOTE]
-> Para configurar as opções de suporte à Localização, entre em contato com o Suporte técnico Adobe Classic ou envie um email para s7support@adobe.com solicitando ajuda de configuração.
+> Para configurar as opções de Suporte de Localização, [use a Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Em seu caso de suporte, solicite ajuda para a configuração.
 
 Para obter mais informações sobre como configurar o suporte **à** Localização, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,7 +62,7 @@ Para obter mais informações sobre como configurar o suporte **à** Localizaç�
 
 >[!NOTE]
 >
->Se você quiser configurar opções de suporte à Localização no Dynamic Media Classic, como o campo Mapa de localidade, entre em contato com o Suporte técnico Adobe Classic. Ou envie um email para s7support@adobe.com solicitando ajuda para a configuração.
+>Se desejar configurar as opções de suporte à Localização no Dynamic Media Classic, como o campo Mapa de localidade, [use a Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Em seu caso de suporte, solicite ajuda para a configuração.
 
 Uma maneira comum de usar o Dynamic Media Classic é gerenciar a imagem do produto em sites de comércio eletrônico. As empresas internacionais enfrentam o desafio de que os ativos para produtos similares pareçam diferentes de país para país. Normalmente, as diferenças são para uma parte muito pequena da mídia geral. Abordar essas diferenças copiando todos os ativos para cada um dos países e sobrescrevendo apenas as diferenças é um tremendo esforço e contradiz a única metáfora principal dos ativos. Tais diferenças para ativos podem durar, desde vídeos específicos do país com diferentes faixas de áudio, até diferenças sutis, mas importantes, em um cabo de alimentação que é usado com o produto. O Dynamic Media Classic usa um mecanismo de pesquisa básico. Você define uma ordem de sufixos de ativos na qual o Servidor de imagens está olhando, começando pela localidade desejada.
 
@@ -84,7 +84,7 @@ Alguns dos benefícios do uso `locale=` e `attribute::DefaultLocale` incluem:
 * Acesse conteúdos específicos da localidade usando IDs genéricas.
 * Permita flexibilidade para nomear convenções e o gerenciamento de conteúdo específico da localidade, como prefixo da localidade versus sufixo, ou conteúdo específico da localidade em um catálogo separado.
 * Suporte ao acesso direto a versões específicas da localidade.
-* Objetos de Agregação, como conjuntos de imagens, podem conter referências genéricas a conteúdos potencialmente específicos para localidades.
+* Objetos de agregação, como conjuntos de imagens, podem conter referências genéricas a conteúdos potencialmente específicos para localidades.
 * Suporta todo o conteúdo gerenciado por catálogos que podem precisar de localização, incluindo imagens, conjuntos de imagens, vinhetas, materiais e registros de configuração do visualizador.
 * Minimize as alterações no banco de dados IPS e nos mecanismos de manifesto IS.
 * O suporte para conteúdo estático, como vídeos e capas, será adicionado quando o RFC IS-63 for implementado.
@@ -94,13 +94,13 @@ Alguns dos benefícios do uso `locale=` e `attribute::DefaultLocale` incluem:
 
 | Aplicativo | Cenário |
 |--- |--- |
-| localização do visualizador | Depois que os catálogos de conteúdo estático são implementados, a localização é controlada inteiramente com o parâmetro locale=, anexado a todas as solicitações feitas ao IS. Registros de configuração, capas, telas de apresentação e assim por diante podem ter variantes específicas da localidade ou não. O conteúdo correto é fornecido pelo IS sem que o visualizador precise saber qual conteúdo está localizado e quais são suas IDs. |
+| Localização do visualizador | Depois que os catálogos de conteúdo estático são implementados, a localização é controlada inteiramente com o parâmetro locale=, anexado a todas as solicitações feitas ao IS. Registros de configuração, capas, telas de apresentação e assim por diante podem ter variantes específicas da localidade ou não. O conteúdo correto é fornecido pelo IS sem que o visualizador precise saber qual conteúdo está localizado e quais são suas IDs. |
 | Imagens e vídeo | Muitas vezes, as empresas multinacionais têm uma mistura de conteúdos genéricos e locais específicos. Com esse mecanismo, uma referência a uma imagem ou vídeo pode ser genérica e o IS serve o conteúdo específico da localidade, se disponível. |
 | Conjuntos de imagens e conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é completamente diferente, com a tradução de um genérico para um conjunto de imagens específico da localidade manipulado pelo visualizador.Mais comumente, as IDs individuais em um conjunto genérico podem se referir ao conteúdo localizado. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto na foto do painel de controle. O IS traduz IDs automaticamente, portanto não há necessidade de gerar conjuntos de imagens específicos para localidades. |
 
 **Implementação da localização de ativos**
 
-O Dynamic Media Classic e o Image Server têm uma interface que permite localizações de imagens e conteúdo estático.
+O Dynamic Media Classic e o serviço de imagem têm uma interface que permite localizações de imagens e conteúdo estático.
 
 Sem localização, um URL do Servidor de imagens é semelhante ao seguinte:
 
@@ -120,7 +120,7 @@ Se um valor de sufixo ou um valor de substituição for aplicado depende da conf
 
 >[!NOTE]
 >
->A configuração Local global só é possível no momento quando você a define pela API, e não pela interface do Dynamic Media Classic.
+>A configuração de Localidade Global só é possível no momento quando você a define pela API, não na interface do Dynamic Media Classic.
 
 **Exemplo de sufixo**
 
@@ -140,7 +140,7 @@ Se um parâmetro de localidade desconhecido ou vazio for fornecido com `locale=`
 
 **Sobre o defaultImage**
 
-O Servidor de imagens tenta as opções para a localidade solicitada, uma após a outra. Se nenhuma correspondência for encontrada, as opções de localidade serão aplicadas à defaultImage e a versão correspondente será retornada. Portanto, cada localidade deve incluir uma opção para a imagem sem localização, ou as versões de imagem padrão localizadas devem ser disponibilizadas no Dynamic Media Classic.
+O Servidor de imagens tenta as opções para a localidade solicitada, uma após a outra. Se nenhuma correspondência for encontrada, as opções de localidade serão aplicadas à defaultImage e a versão correspondente será retornada. Portanto, cada localidade deve incluir uma opção para a imagem sem localização ou as versões defaultImage localizadas devem ser disponibilizadas no Dynamic Media Classic.
 
 **Cenários para localizar o localeMap**
 
@@ -150,7 +150,7 @@ Suponha que você queira suportar as seguintes localidades:
 
 Você mapeia essas localidades para os sufixos `_E`, `_G`e `_F`, para inglês, alemão e francês, respectivamente. Para todos os exemplos, a ID de imagem de entrada genérica é `myImg`.
 
-*Comportamento padrão para localizar localeMap*
+*Comportamento padrão para localizar o localeMap*
 
 As IDs de localidade são mapeadas para seus sufixos correspondentes. Se nenhuma ID específica da localidade for encontrada no catálogo, a ID genérica será tentada. Observe os valores locSuffix vazios que mapeiam para a ID genérica.
 
@@ -215,7 +215,7 @@ Usando o primeiro exemplo como base, as imagens para todos os idiomas podem ter 
 
 **Considerações importantes ao implementar o suporte à localização**
 
-* A Localização é limitada a chamadas de ativos baseadas em ID e não pode ser usada em chamadas de ativos baseadas em caminho. Portanto, ao chamar vídeos com a localidade, eles devem ser chamados de empresa/assetID; nenhum caminho completo para o vídeo. Isso significa que você não pode usar rtmp com localização, pois esse método é usado somente com chamadas de vídeo baseadas em caminho.
+* A localização é limitada a chamadas de ativos baseadas em ID e não pode ser usada em chamadas de ativos baseadas em caminho. Portanto, ao chamar vídeos com a localidade, eles devem ser chamados de empresa/assetID; nenhum caminho completo para o vídeo. Isso significa que você não pode usar rtmp com localização, pois esse método é usado somente com chamadas de vídeo baseadas em caminho.
 * Não é possível usar um Conjunto de mídia mista que contenha um único vídeo quando localeMap está ativo, caso contrário, a chamada para o conteúdo do conjunto falhará. Para contornar esse problema, adicione um único vídeo a um Conjunto de vídeos adaptáveis. Em seguida, adicione o Conjunto de vídeos adaptáveis a um Conjunto de mídia mista.
 * Determinadas solicitações não estão localizadas, como solicitações para o conteúdo de um Conjunto de vídeos adaptáveis. Portanto, se você pretende usar Conjuntos de vídeo adaptáveis com localização, você deve colocar o Conjunto de vídeos adaptáveis em um Conjunto de mídia mista. Em seguida, chame o conjunto para um visualizador de Mídia mista com o `locale=` parâmetro.
 
@@ -223,7 +223,7 @@ Usando o primeiro exemplo como base, as imagens para todos os idiomas podem ter 
 
 A tela do renderizador de imagens estabelece as configurações padrão para fornecer Conjuntos de imagens dos servidores de renderização de imagens. As configurações estão disponíveis nessas cinco categorias (consulte a tela do Servidor de imagens para obter descrições detalhadas das configurações):
 
-**Gerenciamento** de catálogo Essas configurações determinam como o Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do Dynamic Media Classic Render Server são feitas no catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a ajuda de um suporte do Dynamic Media Classic.
+**Gerenciamento** de catálogo Essas configurações determinam como o Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do servidor de renderização do Dynamic Media Classic são feitas no catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a ajuda de uma pessoa de suporte do Dynamic Media Classic.
 
 **Atributos** da sessão Essas configurações estabelecem parâmetros de erro, o URL para URLs de imagem relativos e se a sobreposição de objetos é permitida.
 
