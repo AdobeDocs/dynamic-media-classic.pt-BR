@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Antes de poder carregar um ativo de imagem, solicite primeiro uma chave de segre
 
 ## Solicitação de uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicite uma chave *de segredo* compartilhado enviando um email para o suporte técnico do Scene 7 em s7support@adobe.com.
+Solicite uma chave *de segredo* compartilhado [usando a Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Em seu caso de suporte, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Dynamic Media Classic, salve-a localmente para uso futuro.
 
@@ -141,11 +141,11 @@ Last Modified Date:
 
 ![]()
 
-Você pode visualização o código fonte HTML associado ao formulário acima clicando no link a seguir:
+Você pode visualização o código-fonte HTML associado ao formulário acima clicando no link a seguir:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito do mouse na janela do navegador e clique em Origem **da página de** Visualização. O código mostra a string de query de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
+No Firefox, clique com o botão direito do mouse na janela do navegador e clique em Origem **da página de** Visualização. O código mostra a string de query do URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
 
 Para visualização da resposta XML no Internet Explorer, clique em **Visualização > Fonte**. Para visualização da resposta XML no Firefox, clique em **Ferramentas > Desenvolvedor da Web > Origem** da página. O Firefox é recomendado para exibir respostas XML.
 
@@ -195,7 +195,7 @@ Envie o ativo para fazer upload como uma publicação multiparte/formulário ao 
 
 >[!NOTE]
 >
->É necessário enviar o ativo para ser carregado como o único campo em uma solicitação POST multiparte.
+>É necessário enviar o ativo para ser carregado como o único campo em uma solicitação de POST multiparte.
 
 **URL de exemplo:**
 
@@ -203,7 +203,7 @@ Envie o ativo para fazer upload como uma publicação multiparte/formulário ao 
 
 **Método HTTP permitido:**
 
-POSTAGEM
+POST
 
 ### Obter metadados de ativos para imagens {#getting-asset-metadata-for-images}
 
@@ -280,7 +280,7 @@ Um limite global é definido no aplicativo para o limite de tamanho de arquivo e
 | Limite global | Valor |
 |--- |--- |
 | Tamanho do arquivo para todos os clientes | 20 MB |
-| Formatos de arquivo vetorial suportados para upload | AI, EPS, PDF (somente quando o PDF foi aberto e salvo anteriormente no Adobe Illustrator CS6) |
+| Formatos de arquivo vetorial suportados para upload | AI, EPS, PDF (somente quando o PDF foi aberto e salvo anteriormente na Adobe Illustrator CS6) |
 
 O formulário HTML a seguir permite que um usuário carregue um ativo. O formulário solicita que o usuário insira as seguintes informações:
 
@@ -304,7 +304,7 @@ Last Modified Date:
 
 ![]()
 
-O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em Origem **da** Visualização para o formulário mostrado na ilustração. O código mostra a string de query de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
+O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em Origem **da** Visualização para o formulário mostrado na ilustração. O código mostra a string de query do URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
 
 ```as3
 <body> 
@@ -366,9 +366,9 @@ A seguir está uma amostra de resposta de um upload bem-sucedido:
 
 >[!NOTE]
 >
->O ativo carregado (AI, EPS, PDF etc.) é convertido no formato FXG e a resposta envia um link direto para esse ativo FXG.
+>O ativo carregado (AI, EPS, PDF etc.) é convertido para o formato FXG e a resposta envia um link direto para esse ativo FXG.
 
-O ativo é como qualquer outro recurso Web para impressão; você pode aplicar query de processamento a ele. Por exemplo, o URL a seguir converte um recurso FXG em uma imagem 500x500 png.
+O ativo é como qualquer outro recurso Web-to-print; você pode aplicar query de processamento a ele. Por exemplo, o URL a seguir converte um recurso FXG em uma imagem 500x500 png.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -386,7 +386,7 @@ Envie o ativo para fazer upload como uma publicação multiparte/formulário ao 
 
 >[!NOTE]
 >
->É necessário enviar o ativo para ser carregado como o único campo em uma solicitação POST multiparte.
+>É necessário enviar o ativo para ser carregado como o único campo em uma solicitação de POST multiparte.
 
 **URL de exemplo:**
 
@@ -394,4 +394,4 @@ Envie o ativo para fazer upload como uma publicação multiparte/formulário ao 
 
 **Método HTTP permitido:**
 
-POSTAGEM
+POST
