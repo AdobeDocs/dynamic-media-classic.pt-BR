@@ -1,9 +1,16 @@
 ---
-source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
+source-git-commit: 9168ecfc0871874c71f9338e27a48e04aea47804
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '155'
+ht-degree: 1%
 
 ---
 # Documentação do Adobe Dynamic Media Classic
+
+| EXL-PR | EXL | Pré-visualização | Ativar | Publicado | Ajuda |
+|--- |--- |--- |--- |--- |--- |
+| [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/lastBuild/) | [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/lastBuild) | [URL de pré-visualização](https://experienceleague.corp.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [ativate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live URL](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [Guia de criação](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Este é o repositório da documentação do Adobe Dynamic Media Classic.
 
