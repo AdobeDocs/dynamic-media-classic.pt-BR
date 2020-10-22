@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ O aplicativo de desktop Adobe Dynamic Media Classic é compatível com os seguin
 
 Consulte também:
 
-* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows](#installation-dmc-app)
+* [Baixe e instale silenciosamente o aplicativo Adobe Dynamic Media Classic para desktop mais recente no Mac](#install-silent-mac-dmc-app)
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows](#install-silent-windows-dmc-app)
 
 1. Desinstale as versões mais antigas do aplicativo para desktop Dynamic Media Classic no sistema.
@@ -143,7 +143,7 @@ O comando usado é para uma instalação silenciosa MSI básica. Entretanto, o i
 Consulte também:
 
 * [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows](#installation-dmc-app)
-* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows](#install-silent-windows-dmc-app)
+* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no macOS](#install-silent-mac-dmc-app)
 
 Para baixar e instalar *silenciosamente* a versão mais recente do aplicativo de desktop Adobe Dynamic Media Classic no Windows:
 
