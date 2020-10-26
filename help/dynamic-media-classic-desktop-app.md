@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bc79edcdb378fab906df851971acd33f8af18105
+source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -58,13 +58,13 @@ Consulte também:
 
    A versão mais recente é 20.20.2, disponível no seguinte endereço:
 
-   * [macOS (.DMG) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows (.EXE) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
    A versão GA (General Availability) era 20.20.1, disponível no seguinte endereço:
 
-   * [macOS (.DMG) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 
 
@@ -111,7 +111,7 @@ Para baixar e instalar *silenciosamente* a versão mais recente do aplicativo de
 
 1. Baixe o instalador mais recente para o aplicativo de desktop Adobe Dynamic Media Classic para macOS.
 
-   * [macOS (.DMG) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. Monte a imagem de disco baixada (.DMG) em um local de ponto de montagem usando o seguinte comando:
 
@@ -151,7 +151,7 @@ Para baixar e instalar *silenciosamente* a versão mais recente do aplicativo de
 
 1. Baixe o instalador mais recente para o aplicativo de desktop Adobe Dynamic Media Classic.
 
-   * [Windows (.EXE) - Download.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. Execute o instalador no modo de registro usando o seguinte comando:
 
