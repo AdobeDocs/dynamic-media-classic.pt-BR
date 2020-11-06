@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ Para baixar e instalar *silenciosamente* a versão mais recente do aplicativo de
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
 
 
-## Vídeo sobre como usar o aplicativo de desktop do Dynamic Media Classic
+## Vídeo sobre como usar o aplicativo de desktop do Dynamic Media Classic {#dmc-app-video-walk-through}
 
 Assista a uma apresentação de [vídeo sobre como usar o aplicativo](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) Dynamic Media Classic Desktop (Duração: 2 minutos (36 segundos).
+
+## Limpar o cache de imagens e o cache de ativos no computador usando o aplicativo de desktop
+
+1. No aplicativo de desktop Dynamic Media Classic, próximo ao canto superior direito, toque em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+1. Na **[!UICONTROL Personal Setup]** página, sob o **[!UICONTROL Desktop]** cabeçalho, execute um dos procedimentos a seguir:
+   * Toque em **[!UICONTROL Clear Image Cache]** para remover todos os arquivos de imagem em cache do Adobe Dynamic Media do computador. Toque em **[!UICONTROL OK]**.
+   * Toque em **[!UICONTROL Clear Asset Cache]** para remover todos os arquivos de ativos em cache do Adobe Dynamic Media do computador. Toque em **[!UICONTROL OK]**.
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### Limpar manualmente o cache de imagens e o cache de ativos
+
+Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você também pode realizar essa tarefa manualmente limpando o cache diretamente do sistema de arquivos.
+
+1. Com base no seu sistema operacional, navegue até o seguinte:
+
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Limitações conhecidas no Dynamic Media Classic 20.20.1 (corrigido em 20.20.2)
 
