@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Consulte [Configuração de visualizadores](application-setup.md#configuring_def
 
 Se você estiver visualizando um ativo de modelo com camadas de parâmetro, poderá fazer alterações nos parâmetros ou alterar a predefinição de imagem. Como as alterações são feitas em linha, você pode visualização os resultados imediatamente da mesma janela de Pré-visualização.
 
-Consulte também Exemplos [da biblioteca de referência de visualizadores](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)da Adobe.
+Consulte também Exemplos [da biblioteca de referência de visualizadores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
 
 **Para pré-visualização de um ativo**
 
@@ -59,7 +59,7 @@ Para uma determinada plataforma do visualizador, a janela Lista do visualizador 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Lista. Na janela Ativo, selecione um único ativo e, à direita da imagem em miniatura, clique em Pré-visualização > Lista do visualizador.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização Detalhada. Na mesma barra de ferramentas, clique em Pré-visualização > Lista do visualizador.
 
-1. (Opcional) Na janela Lista do visualizador, clique no cabeçalho da coluna **Nome** ou tipo **** Platform para classificar a coluna em ordem crescente ou decrescente.
+1. (Opcional) Na janela Lista do visualizador, clique no cabeçalho da coluna **Nome** ou tipo **** Plataforma para classificar a coluna em ordem crescente ou decrescente.
 1. Na janela Lista do visualizador, na coluna Ações da tabela, clique em Pré-visualização para ver como o ativo aparece para um visualizador e tipo de plataforma selecionados.
 
    Feche a pré-visualização exibida para retornar à janela Lista do visualizador.
