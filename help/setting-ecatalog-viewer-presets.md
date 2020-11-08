@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Configuração das predefinições do eCatalog Viewer{#setting-up-ecatalog-viewer-presets}
 
-As predefinições do visualizador do eCatalog determinam o estilo, o comportamento e a aparência dos visualizadores do eCatalog. O Dynamic Media Classic fornece predefinições do visualizador de eCatalog e você pode criar suas próprias predefinições do visualizador de eCatalog, bem como se você for um administrador.
+As predefinições do visualizador do eCatalog determinam o estilo, o comportamento e a aparência dos visualizadores do eCatalog. O Dynamic Media Classic fornece predefinições do visualizador de eCatalog e você pode criar suas próprias predefinições do visualizador de eCatalog, bem como se for um administrador.
 
-Para criar uma nova predefinição, você pode start do zero ou start com uma predefinição do visualizador do eCatalog fornecida pelo Dynamic Media Classic e salvá-la com um novo nome. Você pode criar suas próprias predefinições do visualizador do eCatalog para apresentar o material impresso nas cores da empresa e definir o tom.
+Para criar uma nova predefinição, você pode start do zero ou start com uma predefinição de visualizador de eCatalog fornecida pelo Dynamic Media Classic e salvá-la com um novo nome. Você pode criar suas próprias predefinições do visualizador do eCatalog para apresentar o material impresso nas cores da empresa e definir o tom.
 
-O eCatalog Viewer Presets oferta muitas configurações para ir de página em página, aumentar o zoom, pesquisar e escolher &quot;capas&quot;. A aparência desses controles e a aparência do próprio visualizador dependem da sua escolha de Predefinições do visualizador de eCatalog.
+O eCatalog Viewer Presets oferta muitas configurações para ir de página em página, aumentar o zoom, pesquisar e escolher &quot;capas&quot;. A aparência desses controles e a aparência do próprio visualizador dependem da sua escolha de Predefinições do visualizador do eCatalog.
 
 Siga estas etapas para criar uma predefinição do visualizador do eCatalog (você deve ser um administrador):
 
