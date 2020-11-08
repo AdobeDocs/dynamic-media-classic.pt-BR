@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Trabalhar com arquivos PSD {#working-with-psd-files}
 
-Os arquivos PSD (Documento do Photoshop) são usados com mais frequência no Dynamic Media Classic para criar modelos. Ao carregar um arquivo PSD, você pode criar um modelo do Dynamic Media Classic automaticamente a partir do arquivo (selecione a opção Criar modelo na tela Carregar).
+PSD (arquivos de Documento Photoshop) são usados com mais frequência no Dynamic Media Classic para criar modelos. Ao carregar um arquivo PSD, você pode criar um modelo do Dynamic Media Classic automaticamente a partir do arquivo (selecione a opção Criar modelo na tela Carregar).
 
 O Dynamic Media Classic cria várias imagens de um arquivo PSD com camadas se você usar o arquivo para criar um modelo; cria uma imagem para cada camada.
 
@@ -64,9 +64,9 @@ Para aparar com base na transparência, especifique 0 para cortar pixels somente
 
 **Nome** da camada Nomeia as imagens após seus nomes de camada no arquivo PSD. Por exemplo, uma camada chamada Tag de preço no arquivo PSD original se torna uma imagem chamada Tag de preço. No entanto, se os nomes de camada no arquivo PSD forem nomes de camada padrão do Photoshop (Plano de fundo, Camada 1, Camada 2 e assim por diante), as imagens serão nomeadas após seus números de camada no arquivo PSD, não seus nomes de camada padrão.
 
-**Photoshop e número** de camada Nomeie as imagens após seus números de camada no arquivo PSD, ignorando os nomes de camada originais. As imagens são nomeadas com o nome de arquivo do Photoshop e um número de camada anexado. Por exemplo, a segunda camada de um arquivo chamado Spring Ad.psd é chamada Spring Ad_2 mesmo se ela tiver um nome não padrão no Photoshop.
+**Número** da camada e do Photoshop Nomeiam as imagens após seus números de camada no arquivo PSD, ignorando os nomes da camada original. As imagens são nomeadas com o nome de arquivo Photoshop e um número de camada anexado. Por exemplo, a segunda camada de um arquivo chamado Spring Ad.psd é chamada Spring Ad_2 mesmo se ela tiver um nome não padrão no Photoshop.
 
-**Nome** do Photoshop e da camada Nomeie as imagens após o arquivo PSD seguido do nome da camada ou do número da camada. O número da camada será usado se os nomes de camada no arquivo PSD forem nomes de camada padrão do Photoshop. Por exemplo, uma camada chamada Marca de preço em um arquivo PSD chamado SpringAd é chamada Marca Ad_Price Primavera. Uma camada com o nome padrão Camada 2 é chamada Primavera Ad_2.
+**Nome** da camada e do Photoshop Nomeia as imagens após o arquivo PSD seguido do nome da camada ou do número da camada. O número da camada será usado se os nomes da camada no arquivo PSD forem nomes padrão da camada Photoshop. Por exemplo, uma camada chamada Marca de preço em um arquivo PSD chamado SpringAd é chamada Marca Ad_Price Primavera. Uma camada com o nome padrão Camada 2 é chamada Primavera Ad_2.
 
 **Âncora** Especifique como as imagens são ancoradas em modelos que são gerados a partir da composição em camadas produzida a partir do arquivo PSD. Por padrão, a âncora é o centro. Uma âncora central permite que as imagens de substituição preencham melhor o mesmo espaço, independentemente da proporção da imagem de substituição. Imagens com um aspecto diferente que substituem essa imagem, ao referenciar o modelo e usar substituição de parâmetro, ocupam efetivamente o mesmo espaço. Altere para uma configuração diferente se o aplicativo exigir as imagens de substituição para preencher o espaço alocado no modelo.
 
@@ -74,12 +74,12 @@ Para aparar com base na transparência, especifique 0 para cortar pixels somente
 
 Se você selecionou a opção Manter camadas ao carregar seu PSD, o Dynamic Media Classic copiou as camadas individuais em ativos. É possível visualização e editar as camadas de ativos pertencentes a um arquivo PSD abrindo o arquivo no Painel de navegação em visualização de detalhes.
 
-1. Clique com o Duplo no arquivo PSD completo no Painel de navegação para abri-lo na visualização Detalhe.
+1. Clique com o duplo no arquivo PSD completo no Painel de navegação para abri-lo na visualização Detalhe.
 
    ***observação **: Certifique-se de abrir o ativo completo e não uma das camadas de PSD.*
 
 1. Clique em Camadas para abrir o painel Camadas. Todas as camadas são exibidas como imagens separadas no painel Camadas.
-1. Clique em uma camada com o Duplo para abri-la e execute um dos procedimentos a seguir:
+1. Clique em uma camada com o duplo para abri-la e execute um dos procedimentos a seguir:
 
    * Clique no ícone Mapa de imagem para criar um mapa de imagem na camada. (Consulte [Criação de mapas](creating-image-maps.md#creating_image_maps)de imagem.)
    * Clique no ícone Zoom de Públicos alvos para criar públicos alvos de zoom na camada. (Consulte [Criação de públicos alvos de zoom para o zoom](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)guiado.)
