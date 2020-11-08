@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 As predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Dynamic Media Classic oferta várias opções para personalizar e aprimorar visualizadores. O Dynamic Media Classic é fornecido com predefinições básicas (rápidas), fly-out e personalizadas do Visualizador de zoom. Se você for um administrador, poderá criar novas predefinições do visualizador de zoom de empresa ou editar uma predefinição padrão e salvá-la com um novo nome.
 
-Todos os Visualizadores de zoom têm botões para aumentar o zoom, diminuir o zoom, diminuir o deslocamento e redefinir a imagem para seu estado original após o zoom. A aparência desses botões e a aparência da janela depende da escolha das Predefinições do visualizador de zoom. Você pode configurar uma Predefinição do visualizador de zoom com cores, bordas, fontes e configurações de imagem diferentes. Ao configurar um Visualizador de zoom guiado, você também pode escolher onde colocar os públicos alvos de zoom. públicos alvos de zoom são as miniaturas que os usuários clicam para aumentar o zoom nas áreas especificadas.
+Todos os Visualizadores de zoom têm botões para aumentar o zoom, diminuir o zoom, diminuir o deslocamento e redefinir a imagem para seu estado original após o zoom. A aparência desses botões e a aparência da janela depende da escolha das Predefinições do visualizador de zoom. Você pode configurar uma Predefinição do visualizador de zoom com cores, bordas, fontes e configurações de imagem diferentes. Ao configurar um Visualizador de zoom guiado, você também pode escolher onde colocar os públicos alvos de zoom. Públicos alvos de zoom são as miniaturas que os usuários clicam para aumentar o zoom nas áreas especificadas.
 
 ## Sobre as predefinições do visualizador de zoom {#about-zoom-viewer-presets}
 
@@ -36,7 +36,7 @@ Ao determinar o uso total da largura de banda para esse visualizador, considere 
 
 Por exemplo, se o tamanho da sua imagem principal for 350 por 350 pixels, com um Fator de zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 
-O Dynamic Media Classic recomenda estes parâmetros para as predefinições de zoom do visualizador de fly-out:
+O Dynamic Media Classic recomenda estes parâmetros para predefinições de zoom do visualizador de fly-out:
 
 * **Tamanho** de imagem ampliado Aproximadamente 1500 por 1500 pixels, não excedendo 2000 por 2000 pixels.
 
