@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 0%
@@ -30,17 +30,17 @@ No entanto, se você usar as predefinições de imagens e as predefinições do 
 
 >[!NOTE]
 >
->Os comandos Nitidez substituem as configurações de Predefinição de imagem, incluindo seus efeitos de nitidez. Uma predefinição de imagem governa o tamanho e a formatação com os quais as imagens são entregues pelos servidores de imagem Dynamic Media. O Dynamic Media Classic recomenda usar as predefinições de imagens para fornecer todas as imagens, a fim de garantir que elas sejam entregues em tamanho e nitidez uniformes. Após as configurações de nitidez de uma imagem individual terem sido alteradas, no entanto, as configurações de nitidez da Predefinição de imagem não se aplicam mais à imagem. É entregue sem as configurações de nitidez da predefinição de imagem.
+>Os comandos Nitidez substituem as configurações de Predefinição de imagem, incluindo seus efeitos de nitidez. Uma predefinição de imagem governa o tamanho e a formatação com os quais as imagens são entregues nos Servidores de Imagem de Mídia Dinâmica. O Dynamic Media Classic recomenda usar as predefinições de imagens para fornecer todas as imagens, a fim de garantir que elas sejam entregues em tamanho e nitidez uniformes. Após as configurações de nitidez de uma imagem individual terem sido alteradas, no entanto, as configurações de nitidez da Predefinição de imagem não se aplicam mais à imagem. É entregue sem as configurações de nitidez da predefinição de imagem.
 
-Muitas vezes, é necessário aumentar a nitidez das imagens. Servidores Dynamic Media Classic e Image ofertas várias opções de nitidez. É importante entender o que a nitidez faz a uma imagem e a intensidade de nitidez que você precisa. A maioria das imagens precisa de alguma nitidez, mas a quantidade necessária depende da imagem.
+Muitas vezes, é necessário aumentar a nitidez das imagens. O Dynamic Media Classic e os servidores de imagem oferta várias opções de nitidez. É importante entender o que a nitidez faz a uma imagem e a intensidade de nitidez que você precisa. A maioria das imagens precisa de alguma nitidez, mas a quantidade necessária depende da imagem.
 
 O ajuste da nitidez da imagem aumenta o contraste dos pixels para criar o efeito de bordas acentuadas. Os humanos percebem este contraste avançado de borda como nitidez. Embora seja fácil aprimorar uma imagem ao executar filtros de nitidez em uma imagem, também é fácil aumentar a nitidez de uma imagem.
 
 A nitidez excessiva de uma imagem cria um efeito de halo ou uma faixa das linhas da borda.
 
-Existem práticas recomendadas que você pode seguir para otimizar a nitidez de suas imagens no Dynamic Media Classic e no Dynamic Media Image Server.
+Existem as práticas recomendadas que você pode seguir para otimizar a nitidez de suas imagens no Dynamic Media Classic e no Dynamic Media Image Server.
 
-Consulte Práticas [recomendadas para aumentar a nitidez de imagens no Dynamic Media Classic e no Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Consulte [Práticas recomendadas para aumentar a nitidez de imagens no Dynamic Media Classic e no Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Para ajustar a nitidez de uma imagem**
 
@@ -70,7 +70,7 @@ Selecione o menu Nitidez e escolha uma opção:
 
 Escolha estas opções para ajustar a nitidez com a máscara de nitidez:
 
-**Quantidade** Controla a quantidade de contraste aplicada aos pixels da borda. O padrão é 0.0. Para imagens de alta resolução, é possível aumentá-las para até 5.0. Pense em Amount como uma medida da intensidade do filtro. Observe que a configuração Quantia no Dynamic Media Classic não é igual à configuração Quantia no Photoshop. O Photoshop usa uma quantidade no intervalo de 1% a 500%, enquanto o Dynamic Media Classic é dimensionado de 0,0 a 5,0. (5,0 equivale aproximadamente a 500% no Photoshop, 0,9 é semelhante a 90% e assim por diante).
+**Quantidade** Controla a quantidade de contraste aplicada aos pixels da borda. O padrão é 0.0. Para imagens de alta resolução, é possível aumentá-las para até 5.0. Pense em Amount como uma medida da intensidade do filtro. Lembre-se de que a configuração Quantia no Dynamic Media Classic não é igual à configuração Quantia no Photoshop. A Photoshop usa um valor na faixa de 1% a 500%, enquanto o Dynamic Media Classic é dimensionado de 0,0 a 5,0. (5,0 equivale aproximadamente a 500% no Photoshop, 0,9 é semelhante a 90% e assim por diante.)
 
 **Raio** Determina o número de pixels em torno dos pixels da borda que afetam a nitidez. O efeito é executado em todos os pixels na imagem e irradia em todas as direções.
 
