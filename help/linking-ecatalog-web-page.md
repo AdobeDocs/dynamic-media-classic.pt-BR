@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Vincular um eCatalog a uma página da Web{#linking-an-ecatalog-to-a-web-page}
 
-Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo eCatalogs, por meio de sequências de caracteres de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado para seu eCatalog em suas páginas da Web e aplicativos, você o copia do Dynamic Media Classic.
+Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic Media, incluindo eCatalogs, por meio de strings de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado para seu eCatalog em suas páginas e aplicativos da Web, copie-o do Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incl
 
 A maneira mais comum de implantar um eCatalog é colocar um link na forma de uma página de capa de miniatura do eCatalog na sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços do navegador sejam exibidas.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporação do visualizador do eCatalog HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)de referência do Adobe Viewers.
+Para obter detalhes adicionais e amostras de código, consulte [Incorporação do visualizador de eCatalog HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)de referência de visualizadores de Adobe.
 
 ## Copiando o código incorporado de um visualizador de eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
