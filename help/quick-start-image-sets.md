@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Start rápido: Conjuntos de imagens{#quick-start-image-sets}
 
-Os Conjuntos de imagens clássicos do Dynamic Media oferecem aos usuários uma experiência de visualização integrada. No Visualizador do conjunto de imagens dinâmico, os usuários podem ver visualizações diferentes de um item clicando em uma imagem em miniatura. Conjuntos de imagens permitem apresentar visualizações alternativas de alta resolução de um item.
+Os Conjuntos de Imagens do Dynamic Media Classic proporcionam aos usuários uma experiência de visualização integrada. No Visualizador do conjunto de imagens dinâmico, os usuários podem ver visualizações diferentes de um item clicando em uma imagem em miniatura. Conjuntos de imagens permitem apresentar visualizações alternativas de alta resolução de um item.
 
 O Visualizador do conjunto de imagens oferta as ferramentas de zoom para examinar as imagens com atenção. Se desejar, você pode tornar públicos alvos de zoom guiados e mapas de imagem parte do Conjunto de imagens. Os Conjuntos de imagens proporcionam uma experiência de visualização mais concertada e íntima.
 
@@ -30,7 +30,7 @@ Este Start rápido de Conjuntos de imagens foi projetado para começar a funcion
 
 Start carregando as imagens para seus Conjuntos de imagens. Como os usuários podem aplicar zoom em imagens no Visualizador do conjunto de imagens, considere o zoom ao escolher as imagens. Verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Dynamic Media Classic é compatível com vários formatos de arquivo de imagem, mas as imagens TIFF, PNG e EPS sem perdas são recomendadas.
 
-Selecione o botão Carregar na barra Navegação global para fazer upload de arquivos do seu computador para uma pasta no Dynamic Media Classic.
+Selecione o botão Carregar na barra de navegação global para carregar arquivos do computador para uma pasta no Dynamic Media Classic.
 
 Consulte [Preparando ativos do Conjunto de imagens para fazer upload](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [upload dos arquivos](uploading-files.md#uploading-your-files).
 
@@ -46,7 +46,7 @@ Consulte também [Inclusão de públicos alvos de zoom e mapas de imagem em conj
 
 **3. Configuração das predefinições do visualizador do conjunto de imagens, conforme necessário**
 
-Os administradores podem criar ou modificar predefinições do visualizador do conjunto de imagens. O Dynamic Media Classic vem com predefinições de visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: Personalizado > Imagens ou Conjuntos de imagens/Várias Visualizações predefinidas para visualização de seus Conjuntos de imagens.
+Os administradores podem criar ou modificar predefinições do visualizador do conjunto de imagens. O Dynamic Media Classic vem com as predefinições de visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: Personalizado > Imagens ou Conjuntos de imagens/Várias Visualizações predefinidas para visualização de seus Conjuntos de imagens.
 
 Adicione ou edite Predefinições do visualizador na tela Configuração do aplicativo.
 
@@ -60,7 +60,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 **5. Publicar um conjunto de imagens**
 
-A publicação de um Conjunto de imagens o coloca em servidores Dynamic Media Classic e ativa a string de URL.
+A publicação de um Conjunto de imagens o coloca em servidores do Dynamic Media Classic e ativa a string do URL.
 
 >[!NOTE]
 >
