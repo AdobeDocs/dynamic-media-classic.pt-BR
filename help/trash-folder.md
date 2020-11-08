@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -34,13 +34,13 @@ A exclusão de itens da pasta Lixeira exclui permanentemente os itens do Dynamic
 
 A exclusão de um item em uma pasta coloca o item na pasta Lixeira. O seguinte acontece quando você exclui um item e o move para a pasta Lixeira:
 
-* Embora o item tenha sido removido das pastas do Dynamic Media Classic, sua ID não pode ser atribuída a outro ativo enquanto permanece na pasta Lixeira. Se você tentar carregar um ativo com o mesmo nome de um arquivo na pasta Lixeira, o Dynamic Media Classic anexará um numeral ao nome do ativo.
+* Embora o item tenha sido removido de suas pastas do Dynamic Media Classic, sua ID não pode ser atribuída a outro ativo enquanto permanece na pasta Lixeira. Se você tentar carregar um ativo com o mesmo nome de um arquivo na pasta Lixeira, o Dynamic Media Classic anexará um número ao nome do ativo.
 * O item não pode ser publicado. Mesmo que o item tenha sido marcado para publicação ao excluí-lo, ele não será publicado.
 * O item permanece na pasta Lixeira até que seja restaurado, sete dias depois, ou alguém escolhe o comando Vazio The Lixeira. Após sete dias, uma operação automática de limpeza exclui permanentemente o item.
 
 ## Restaurar ativos da pasta Lixeira {#restoring-assets-from-the-trash-folder}
 
-Não é necessário que a pessoa que excluiu um ativo o restaure; qualquer pessoa pode restaurar ativos da pasta Lixeira. Os ativos restaurados são colocados nas pastas das quais foram excluídos. Se essas pastas não existirem mais, o Dynamic Media Classic as recria e os ativos restaurados são colocados nas pastas recriadas.
+Não é necessário que a pessoa que excluiu um ativo o restaure; qualquer pessoa pode restaurar ativos da pasta Lixeira. Os ativos restaurados são colocados nas pastas das quais foram excluídos. Se essas pastas não existirem mais, o Dynamic Media Classic as recriará e os ativos restaurados serão colocados nas pastas recriadas.
 
 Siga estas etapas para restaurar os ativos da pasta Lixeira para as pastas das quais foram excluídos:
 
