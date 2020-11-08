@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -73,18 +73,18 @@ Consulte [WebVTT: O formato](https://dev.w3.org/html5/webvtt/)de Rastreamento de
    Consulte [Upload de arquivos](uploading-files.md#uploading_files).
 
 1. No painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o arquivo de vídeo que você deseja associar ao arquivo de capítulo que você carregou.
-1. No painel Navegação de ativos, selecione um único ativo de vídeo e, abaixo da imagem em miniatura do ativo, clique em **Pré-visualização** > Lista **do** visualizador.
+1. No painel Navegação de ativos, selecione um único ativo de vídeo e, abaixo da imagem em miniatura do ativo, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 1. Na tabela Lista do visualizador, localize o visualizador HTML5 chamado **Universal_HTML5_Video** e execute um dos procedimentos a seguir:
 
-   * Para obter uma experiência com o visualizador de vídeo pop-up, clique em **Copiar URL** à direita do nome.
+   * Para obter uma experiência com o visualizador de vídeo pop-up, clique **[!UICONTROL Copy URL]** na extremidade direita do nome.
 
       Anexe o URL copiado do vídeo com a sintaxe a seguir para associá-lo ao URL copiado ao arquivo de legenda:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Para obter uma experiência com o visualizador de vídeo incorporado, clique em **Incorporar código** à extrema direita do nome.
+   * Para obter uma experiência com o visualizador de vídeo incorporado, clique **[!UICONTROL Embed Code]** na extremidade direita do nome.
 
-      Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
+      Na caixa de diálogo Incorporar código, clique em **[!UICONTROL Copy to Clipboard]**.
 
       Para o visualizador HTML5 `Universal_HTML5_Video` , anexe o código incorporado copiado com o seguinte:
 
