@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 # Fontes{#fonts}
 
-Em alguns casos, o Dynamic Media Classic exige o upload de um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, carregue o arquivo de fonte. Para exibir os números de página do Visualizador de eCatalog em uma fonte específica, faça upload do arquivo de fonte.
+Em alguns casos, o Dynamic Media Classic exige que você carregue um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, carregue o arquivo de fonte. Para exibir os números de página do Visualizador de eCatalog em uma fonte específica, faça upload do arquivo de fonte.
 
-O Dynamic Media Classic é compatível com estes tipos de fonte:
+O Dynamic Media Classic suporta estes tipos de fonte:
 
 * Todas as fontes TrueType
-* Fontes PostScript®
+* fontes de PostScript®
 * Fontes OpenType/TrueType
 * Fontes OpenType/PostScript
 * PhotoFonts
@@ -34,7 +34,7 @@ Após o upload de um arquivo de fonte, é possível alterar a ID do Dynamic Medi
 
 >[!NOTE]
 >
->O Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes em camadas de modelo. O Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Tipo 1 associados a uma fonte também é recomendado, pois algumas dessas fontes contêm informações detalhadas de ajuste de espaço.
+>O Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes em camadas de modelo. O Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Tipo 1 associados a uma fonte também é recomendado porque algumas dessas fontes contêm informações detalhadas de ajuste de espaço.
 
 ## Upload de arquivos de fonte {#uploading-font-files}
 
@@ -56,14 +56,14 @@ No painel Procurar, selecione o arquivo de fonte que deseja editar na visualiza�
 
 **Estilo** da fonte As opções são Simples, Negrito, Itálico e Negrito-Itálico.
 
-**Tipo** de fonte As opções são TrueType e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
+**Tipo** de fonte As opções são TrueType e Adobe Tipo 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
 
 **Abreviação** do tipo de fonte As opções são as seguintes:
 
 **Arquivos de fonte TTF** TrueType usados para renderização de PDF/PostScript e serviço de imagem.
 
-**Arquivos de fonte AFM** do Adobe PostScript que contêm informações de Métricas de fonte da Adobe e são usados para o serviço de imagem.
+**Arquivos de fonte AFM** Adobe PostScript que contêm informações de Métricas de fonte Adobe e são usados para o serviço de imagem.
 
-**Arquivos de fonte PFM** Adobe PostScript que contêm informações de métricas de fonte binária.
+**Arquivos de fonte PFM** Adobe PostScript que contêm informações de métrica de fonte binária.
 
-**Arquivos de fonte PFB** do Adobe PostScript que contêm informações de contorno de fonte binária e são usados para renderização de PDF/PostScript e disponibilização de imagem.
+**Arquivos de fonte PFB** Adobe PostScript que contêm informações de contorno de fonte binária e são usados para renderização de PDF/PostScript e serviço de imagem.
