@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Você pode usar o Adobe Analytics Instrumentation Kit para integrar um visualizador HTML5 ao Adobe Analytics.
 
-Se você usar qualquer uma das predefinições do visualizador HTML5 do Dynamic Media Classic, esteja ciente de que eles já contêm todo o código de implementação necessário para enviar dados para a Adobe Analytics — nenhuma instrumentação adicional é necessária para você.
+Se você usar qualquer uma das predefinições predefinidas do visualizador HTML5 do Dynamic Media Classic, esteja ciente de que elas já contêm todo o código de implementação necessário para enviar dados para a Adobe Analytics, nenhuma instrumentação adicional é necessária para você.
 
 ## Configurar o rastreamento do Adobe Analytics do Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -42,7 +42,7 @@ Adicione a `s7ComponentEvent()` função ao HTML do container (ou JSP, ou ASPX o
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-O nome da função faz distinção entre maiúsculas e minúsculas. O único parâmetro passado para `s7componentEvent`isso é obrigatório é o último: `eventData`. `s7track()` está definido em s_code.jsp incluído acima. `s7track` lida com todo o rastreamento por cada evento. (Para personalizar ainda mais os dados transmitidos ao Adobe Analytics, essa área é o local para fazer isso.)
+O nome da função faz distinção entre maiúsculas e minúsculas. O único parâmetro passado para `s7componentEvent`isso é obrigatório é o último: `eventData`. `s7track()` está definido em s_code.jsp incluído acima. `s7track` lida com todo o rastreamento por cada evento. (Para personalizar ainda mais os dados transmitidos à Adobe Analytics, essa área é o local para fazer isso.)
 
 ## Habilitar eventos HREF e ITEM {#enabling-href-and-item-events}
 
