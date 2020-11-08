@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Se você não conceder especificamente uma permissão de grupo a um ativo ou pas
 
    Consulte [Estabelecer permissões de acesso a ativos para um grupo](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Se desejar escolher quais predefinições de imagens estão disponíveis para o grupo, clique na guia Permissões **de acesso à predefinição de** imagem e selecione Predefinições de imagem que o grupo pode usar.
+1. Se você quiser escolher quais predefinições de imagens estão disponíveis para o grupo, clique na guia Permissões **de acesso à predefinição de** imagem e selecione Predefinições de imagem que o grupo pode usar.
 
    Consulte [Escolher permissões de acesso à predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
