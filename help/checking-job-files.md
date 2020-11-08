@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -70,11 +70,11 @@ Use essas técnicas para classificar trabalhos ou alterar sua visualização da 
 
 ## Exibição, cópia e impressão de um relatório de Detalhes do trabalho {#viewing-copying-or-printing-a-job-details-report}
 
-Clique com o Duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção. Esta página fornece um relatório de resumo sobre os arquivos no trabalho. Clique em Detalhes da Visualização para ver a Dynamic Media Classic ID de uma entrada, o caminho de destino e as informações de status. Se você carregou um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Dynamic Media Classic, o relatório lista as fontes ausentes.
+Clique com o duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção. Esta página fornece um relatório de resumo sobre os arquivos no trabalho. Clique em Detalhes da Visualização para ver a ID do Dynamic Media Classic de uma entrada, o caminho de destino e as informações de status. Se você carregou um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Dynamic Media Classic, o relatório lista as fontes ausentes.
 
 É possível copiar essas informações para a Área de transferência.
 
-1. Clique com o Duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção.
+1. Clique com o duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção.
 1. Clique em Detalhes da Visualização para obter um relatório detalhado sobre uma entrada.
 1. Clique em Copiar para a área de transferência.
 
