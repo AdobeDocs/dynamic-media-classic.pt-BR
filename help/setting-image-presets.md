@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 10%
@@ -20,15 +20,15 @@ ht-degree: 10%
 
 # Configuração de predefinições de imagens{#setting-up-image-presets}
 
-Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. Para entender como as predefinições de imagens funcionam, suponha que seu site exija que cada imagem de produto apareça em dois tamanhos diferentes: 500 x 500 pixels e 150 x 150 pixels. Você cria duas predefinições de imagens, uma chamada &quot;Ampliar&quot; para exibir imagens a 500x500 pixels e outra chamada &quot;Miniatura&quot; para exibir imagens a 150 x 150 pixels. Para fornecer imagens nos tamanhos &quot;Ampliar&quot; e &quot;Miniatura&quot;, o Dynamic Media Image Server procura a definição de Predefinição de ampliação de imagem e Predefinição de miniatura de imagem. Em seguida, o servidor gera dinamicamente uma imagem no tamanho e nas especificações de formatação de cada predefinição de imagem.
+Como uma macro, uma predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. Para entender como as predefinições de imagens funcionam, suponha que seu site exija que cada imagem de produto apareça em dois tamanhos diferentes: 500 x 500 pixels e 150 x 150 pixels. Você cria duas predefinições de imagens, uma chamada &quot;Ampliar&quot; para exibir imagens a 500x500 pixels e outra chamada &quot;Miniatura&quot; para exibir imagens a 150 x 150 pixels. Para fornecer imagens nos tamanhos &quot;Ampliar&quot; e &quot;Miniatura&quot;, o Servidor de Imagem de Mídia Dinâmica consulta a definição de Predefinição de Imagem de Ampliar Imagem e Predefinição de Miniatura. Em seguida, o servidor gera dinamicamente uma imagem no tamanho e nas especificações de formatação de cada predefinição de imagem.
 
-O Dynamic Media Classic vem com várias predefinições de imagens de &quot;prática recomendada&quot; que já estão configuradas para você usar. Os administradores também podem criar novas predefinições de imagens. Para criar uma predefinição de imagem, é possível criar um start do zero ou start de um existente e salvá-lo com um novo nome.
+O Dynamic Media Classic vem com várias predefinições de imagem de &quot;prática recomendada&quot; que já estão configuradas para você usar. Os administradores também podem criar novas predefinições de imagens. Para criar uma predefinição de imagem, é possível criar um start do zero ou start de um existente e salvá-lo com um novo nome.
 
 As imagens que são reduzidas em tamanho quando são entregues dinamicamente de um servidor podem perder nitidez e detalhes. Por esse motivo, cada predefinição de imagem contém controles de formatação para otimizar uma imagem quando ela é entregue em um tamanho específico. Esses controles garantem que suas imagens sejam nítidas e claras quando forem entregues ao seu site ou aplicativo.
 
 ## Criação de uma predefinição de imagem {#creating-an-image-preset}
 
-Você pode criar suas próprias predefinições de imagens se for um administrador de empresas. Você pode criar novas predefinições de imagens ou start com uma predefinição de imagens padrão fornecida pelo Dynamic Media Classic, editá-los e salvá-los com um novo nome.
+Você pode criar suas próprias predefinições de imagens se for um administrador de empresas. Você pode criar novas predefinições de imagens ou start com uma predefinição de imagem padrão fornecida pelo Dynamic Media Classic, editá-los e salvá-los com um novo nome.
 
 **Para criar uma predefinição de imagem**
 
