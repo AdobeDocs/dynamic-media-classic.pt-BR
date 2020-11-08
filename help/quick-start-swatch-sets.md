@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Start rápido: Conjuntos de amostras{#quick-start-swatch-sets}
 
-Os conjuntos de amostras clássicos do Dynamic Media oferecem aos usuários uma experiência de visualização integrada. No Visualizador do conjunto de amostras dinâmico, os usuários podem ver um item renderizado em uma cor, material, textura, acabamento ou malha diferente simplesmente clicando em uma miniatura.
+Os Conjuntos de amostras do Dynamic Media Classic proporcionam aos usuários uma experiência de visualização integrada. No Visualizador do conjunto de amostras dinâmico, os usuários podem ver um item renderizado em uma cor, material, textura, acabamento ou malha diferente simplesmente clicando em uma miniatura.
 
 **Start rápido**
 
-Este Start rápido de conjuntos de amostras foi projetado para começar a funcionar rapidamente com as técnicas de conjunto de amostras no Dynamic Media Classic.
+O Start rápido Swatch Sets foi projetado para começar a funcionar rapidamente com as técnicas do Swatch Set no Dynamic Media Classic.
 
 **1. Carregamento de imagens e arquivos de amostra**
 
@@ -38,7 +38,7 @@ Para criar um conjunto de amostras, clique em Criar > Conjuntos de amostras. Na 
 
 **3. Configuração das predefinições do visualizador do conjunto de amostras**
 
-Os administradores podem criar ou modificar predefinições do visualizador do conjunto de imagens. O Dynamic Media Classic vem com predefinições de visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: Personalizado > Conjuntos de imagens/Amostras de cores predefinidas para visualização nos Conjuntos de amostras.
+Os administradores podem criar ou modificar predefinições do visualizador do conjunto de imagens. O Dynamic Media Classic vem com as predefinições de visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: Personalizado > Conjuntos de imagens/Amostras de cores predefinidas para visualização nos Conjuntos de amostras.
 
 Consulte [Criação e edição de predefinições](application-setup.md#adding-and-editing-viewer-presets)do visualizador.
 
@@ -50,7 +50,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 **5. Publicar um conjunto de amostras**
 
-A publicação de um Conjunto de amostras o coloca em servidores Dynamic Media Classic e ativa a string de URL.
+A publicação de um conjunto de amostras o coloca em servidores do Dynamic Media Classic e ativa a string do URL.
 
 Clique no ícone **Marcar para publicação** à esquerda de seu nome no Painel de navegação. Em seguida, clique em **Publicar**. Na tela Publicar, clique em Publicar **** Start.
 
