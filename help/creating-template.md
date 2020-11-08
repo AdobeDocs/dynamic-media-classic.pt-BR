@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3441'
 ht-degree: 0%
@@ -96,7 +96,7 @@ Use essas ferramentas na tela Modelo para criar modelos:
 
 **Ferramenta** Texto Cria uma camada de texto. Arraste na tela de desenho para criar uma camada de texto e insira o texto na camada. Consulte Criar uma camada de texto.
 
-**Botão** Pré-visualização Abre a tela Pré-visualização e mostra o modelo em um Visualizador de zoom. Você verá a aparência do modelo para os usuários em seu site ou aplicativo.
+**Botão** pré-visualização Abre a tela Pré-visualização e mostra o modelo em um Visualizador de zoom. Você verá a aparência do modelo para os usuários em seu site ou aplicativo.
 
 **Botão** Resumo de parâmetros Abre a tela Resumo de parâmetros. É possível ver o nome de cada camada em um modelo e, em cada camada, os nomes dos parâmetros que foram ativados.
 
@@ -120,7 +120,7 @@ Use essas ferramentas na tela Modelo para criar modelos:
 
 >[!NOTE]
 >
->Se necessário, o Dynamic Media Classic encolhe as imagens para ajustá-las à tela quando você cria uma camada de imagem.
+>Se necessário, o Dynamic Media Classic reduz as imagens para ajustá-las à tela quando você cria uma camada de imagem.
 
 ## Criação de uma camada de texto {#creating-a-text-layer}
 
