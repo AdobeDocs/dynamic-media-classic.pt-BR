@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
@@ -93,7 +93,7 @@ As informações de usuário que você pode editar dependem de sua função de a
 1. Selecione o usuário e clique em **Editar**.
 1. Selecione a entrada na tabela que mostra a empresa para a qual você está tentando modificar permissões ou acesso e clique no link Gerenciar Empresa.
 1. Selecione a função do usuário.
-1. Se desejar alterar a associação de grupo do usuário (se você estiver editando ou adicionando um usuário ou contribuidor do Portal de mídia), clique em Avançar e edite a associação de grupo.
+1. Se você quiser alterar a associação de grupo do usuário (se estiver editando ou adicionando um usuário ou contribuidor do Portal de mídia), clique em Avançar e edite a associação de grupo.
 1. Clique em **Salvar**.
 
 ### Filtragem e classificação da lista do usuário {#filtering-and-sorting-the-user-list}
@@ -134,7 +134,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
