@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Depois de publicar um Conjunto de imagens, é possível copiar o URL ou o códig
 
 A maneira mais comum de implantar Conjuntos de imagens é colocar um link (por meio de um ícone de navegação) na sua página da Web. Quando clicado, o link inicia uma página dinâmica (JSP) que exibe o Conjunto de imagens em uma janela de zoom pop-up. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de Referência do Adobe Viewers.
+Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de Referência de Visualizadores de Adobe.
 
 ## Copiando o código incorporado de um visualizador do Conjunto de imagens {#copying-the-embed-code-of-an-image-set-viewer}
 
