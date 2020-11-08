@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2262'
 ht-degree: 0%
@@ -28,15 +28,15 @@ Alguns metadados são incorporados diretamente em um arquivo. Se um arquivo cont
 
 Para obter mais informações sobre metadados incorporados, consulte [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
-## Metadados de Visualização {#view-metadata}
+## Metadados de visualização {#view-metadata}
 
-Para visualização dos metadados de um ativo, abra o ativo na visualização Detalhe e clique no painel Metadados. Em seguida, escolha uma opção no menu Visualização de metadados para selecionar um conjunto de campos de metadados. O Dynamic Media Classic oferta essas Visualizações de metadados:
+Para visualização dos metadados de um ativo, abra o ativo na visualização Detalhe e clique no painel Metadados. Em seguida, escolha uma opção no menu Visualização de metadados para selecionar um conjunto de campos de metadados. O Dynamic Media Classic oferta estas Visualizações de Metadados:
 
 * **Visualização** compacta Uma lista básica de valores.
 
 * **IPTC** Valores tal como definidos pelo Conselho Internacional de Telecomunicações para a Imprensa.
 
-* **Valores XMP** conforme definidos pela plataforma de metadados extensível.
+* **XMP** Valores conforme definido pela plataforma de metadados extensível.
 
 Os administradores podem criar Visualizações de metadados. Essas visualizações também aparecem no menu Visualizações de metadados. Para obter informações sobre como criar Visualizações de Metadados, consulte Visualizações [de Metadados](application-setup.md#metadata_views).
 
@@ -46,7 +46,7 @@ Os administradores podem criar Visualizações de metadados. Essas visualizaçõ
 1. Abra o painel Metadados e execute um dos procedimentos a seguir ou ambos:
 
    * Escolha uma Visualização de metadados para determinar quais campos de metadados aparecem no painel.
-   * Escolha um valor predefinido e clique em Aplicar para preencher campos de metadados com valores predefinidos. Os administradores de Empresas criam esses valores predefinidos.
+   * Escolha um valor predefinido e clique em Aplicar para preencher campos de metadados com valores predefinidos. Os administradores de empresas criam esses valores predefinidos.
 
 1. Insira valores no painel Metadados.
 
@@ -70,14 +70,16 @@ Se você tiver adicionado palavras-chave a outros arquivos durante esta sessão,
 1. Para remover uma palavra-chave, selecione-a e clique em Remover. Vai para a tabela Sugestões de palavra-chave.
 
 >[!NOTE]
-Você pode adicionar palavras-chave aos arquivos à medida que os carrega para o Dynamic Media Classic. Na caixa de diálogo Carregar opções de trabalho, escolha Metadados adicionais e digite palavras-chave. Consulte Opções [de](uploading-files.md#upload_options)upload.
+>
+>Você pode adicionar palavras-chave aos arquivos à medida que os carrega para o Dynamic Media Classic. Na caixa de diálogo Carregar opções de trabalho, escolha Metadados adicionais e digite palavras-chave. Consulte Opções [de](uploading-files.md#upload_options)upload.
 
 ## Importar metadados {#import-metadata}
 
 Em vez de inserir metadados manualmente, um ativo por vez, você pode importar metadados para muitos ativos diferentes de um arquivo XML ou delimitado por tabulação. Digitar os metadados em um arquivo XML ou delimitado por tabulação e importar o arquivo é menos demorado do que inserir metadados em ativos individuais. Na primeira linha do arquivo delimitado por tabulação, digite a ID e os nomes dos campos para os quais deseja registrar metadados. Em cada linha subsequente, insira um nome de ID de ativo seguido de valores de metadados. Os campos que não estão incluídos no arquivo XML ou delimitado por tabulação não são modificados. Para importar metadados de um arquivo XML, verifique se você está em conformidade com o DTD.
 
 >[!NOTE]
-Você pode criar um modelo para inserir metadados para que eles possam ser importados corretamente para o Dynamic Media Classic. Depois de criar o modelo, você pode usá-lo para inserir os metadados. Consulte [Criar um modelo para inserir metadados a serem carregados](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>
+>Você pode criar um modelo para inserir metadados para que eles possam ser importados corretamente para o Dynamic Media Classic. Depois de criar o modelo, você pode usá-lo para inserir os metadados. Consulte [Criar um modelo para inserir metadados a serem carregados](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Você pode encontrar mais informações sobre propriedades padronizadas em: https://www.adobe.com/devnet/xmp.html
 
@@ -93,10 +95,10 @@ Você pode encontrar mais informações sobre propriedades padronizadas em: http
 Lembre-se do seguinte ao identificar diferentes tipos de metadados a serem importados:
 
 * Os Campos Definidos pelo Usuário são identificados pelo nome como criados em Configuração > Configuração do Aplicativo > Metadados > Campos Definidos pelo Usuário. Use a funcionalidade Gerar arquivo para obter uma lista de todos os UDFs definidos no formato de importação correto.
-* As propriedades de Metadados XMP devem ter o prefixo XMP relacionado antes do nome (propriedade-). Dois pontos separam o prefixo e o nome. O prefixo XMP pode ser encontrado em Configuração > Configuração do aplicativo > Metadados > Editor de Schemas de metadados. Os nomes técnicos podem ser encontrados na documentação do schema XMP relacionado. Observe que os nomes das propriedades XMP não aparecem no recurso Gerar arquivo.
+* XMP propriedades de Metadados devem ter o XMP-prefixo relacionado antes do nome (propriedade-). Dois pontos separam o prefixo e o nome. O prefixo XMP pode ser encontrado em Configuração > Configuração do aplicativo > Metadados > Editor de Schemas de metadados. Os nomes técnicos podem ser encontrados na documentação do schema XMP relacionado. Observe que os nomes XMP propriedades não aparecem no recurso Gerar arquivo.
 * As propriedades do Schema de metadados devem ter o prefixo relacionado antes do nome (propriedade-). Dois pontos separam o prefixo e o nome. O prefixo e os nomes das propriedades são definidos no editor de Schemas de Metadados. Observe que os nomes das propriedades do Schema Metadados não aparecem no recurso Gerar arquivo.
 
-Por exemplo: A propriedade XMP de palavras-chave é o schema XMP &quot;Dublin Core&quot; com o prefixo &quot;dc&quot; e &quot;subject&quot; é o nome técnico XMP. O prefixo e o nome técnico XMP são combinados no nome completo da propriedade &quot;dc:subject&quot;. No formato de importação de metadados XML, &quot;dc.subject&quot; deve ser o nome da propriedade. No formato de importação delimitado por tabulação, ele deve ser o cabeçalho da coluna.
+Por exemplo: A propriedade XMP para palavras-chave é o schema XMP &quot;Dublin Core&quot; com o prefixo &quot;dc&quot; e &quot;subject&quot; é o nome do XMP técnico. O prefixo e o nome do XMP técnico são combinados no nome completo da propriedade &quot;dc:subject&quot;. No formato de importação de metadados XML, &quot;dc.subject&quot; deve ser o nome da propriedade. No formato de importação delimitado por tabulação, ele deve ser o cabeçalho da coluna.
 
 **Importar palavras-chave**
 
@@ -104,9 +106,9 @@ As palavras-chave podem ser importadas como lista separada por vírgulas. Se uma
 
 Por exemplo, um arquivo de importação de metadados contendo o valor &quot;Hello\, World!,back\\slash,foo&quot; para &quot;dc:subject&quot; define três palavras-chave XMP no ativo: &quot;Olá, Mundo!&quot; &quot;trás\barra&quot; e &quot;foo.&quot;
 
-**Importar arquivos XMP de metadados do Schema de metadados e XMP**
+**Importar arquivos XMP metadados do Schema de XMP e Metadados**
 
-A importação XML aceita somente XML válido. Ao importar campos de Schema XMP ou de Metadados, o prefixo de namespace é adicionado e se comporta aqui como uma namespace XMP. Essa namespace deve ser declarada, por exemplo, na tag de nível superior.
+A importação XML aceita somente XML válido. Ao importar XMP ou campos de Schema de Metadados, o prefixo de namespace é adicionado e se comporta aqui como uma namespace XMP. Essa namespace deve ser declarada, por exemplo, na tag de nível superior.
 
 Por exemplo:
 
@@ -116,7 +118,7 @@ Por exemplo:
 </ips>
 ```
 
-**Importar arquivos delimitados por guia de metadados XMP e Schema de metadados**
+**Importar arquivos delimitados por guia de metadados do Schema de metadados XMP e Metadados**
 
 O prefixo deve ser adicionado ao cabeçalho da coluna relacionada do campo de importação.
 
@@ -130,9 +132,9 @@ Clique no botão Carregar na barra de navegação global e, na tela Tarefas, sel
 
 ## Renomear em lote IDs usando metadados {#batch-rename-ids-using-metadata}
 
-Usando metadados importados de um arquivo delimitado por tabulação ou XML, é possível renomear Dynamic Media Classic IDs. Os metadados importados são aplicados somente às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
+Usando metadados importados de um arquivo delimitado por tabulação ou XML, é possível renomear IDs do Dynamic Media Classic. Os metadados importados são aplicados somente às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
 
-Para renomear a Dynamic Media Classic ID de uma imagem, adicione uma coluna chamada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado* new_vc_objectname* aos dados XML.
+Para renomear a ID do Dynamic Media Classic de uma imagem, adicione uma coluna chamada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado* new_vc_objectname* aos dados XML.
 
 Por exemplo:
 
@@ -176,13 +178,14 @@ Você pode usar o Editor de Schemas de Metadados para executar as seguintes aç�
 O sistema gera automaticamente um schema personalizado para campos definidos pelo usuário com o prefixo &quot;s7udf&quot;. Esses são os campos definidos pelo usuário e são editados em sua própria seção Configuração.
 
 >[!NOTE]
-As alterações no schema nunca alteram os próprios metadados do ativo. No entanto, eles não estão visíveis para todas as funcionalidades do Dynamic Media Classic e do Servidor de Metadados e não podem ser acessados após serem alterados. Da mesma forma, se houver metadados para um ativo, a criação do schema correspondente torna os metadados utilizáveis no Dynamic Media Classic e no Servidor de metadados.
+>
+>As alterações no schema nunca alteram os próprios metadados do ativo. No entanto, eles não estão visíveis para todas as funcionalidades do Dynamic Media Classic e do Servidor de Metadados e não podem ser acessados após serem alterados. Da mesma forma, se houver metadados para um ativo, a criação do schema correspondente torna os metadados utilizáveis no Dynamic Media Classic e no Servidor de Metadados.
 
-O Editor de Schemas de metadados oferta uma forma gráfica para adicionar ou editar um schema de empresa personalizado dentro do Dynamic Media Classic. Um schema é definido por um prefixo, uma namespace e uma lista de propriedades.
+O Editor de Schemas de metadados oferta uma forma gráfica para adicionar ou editar um schema de empresa personalizado no Dynamic Media Classic. Um schema é definido por um prefixo, uma namespace e uma lista de propriedades.
 
 * Nome
 
-   UI-Name para o schema. Usado para identificar as propriedades nas Visualizações de metadados e na Pesquisa avançada. Semelhante às seções XMP, como Básico, IPTC e PDF.
+   UI-Name para o schema. Usado para identificar as propriedades nas Visualizações de metadados e na Pesquisa avançada. Semelhante a XMP seções como Básico, IPTC e PDF.
 
 * Prefixo
 
@@ -197,26 +200,28 @@ O Editor de Schemas de metadados oferta uma forma gráfica para adicionar ou edi
    Descrição do formulário gratuito do schema.
 
 >[!NOTE]
-Não é possível editar o prefixo e a namespace. Para alterar essas propriedades, você deve excluir e recriar o schema.
+>
+>Não é possível editar o prefixo e a namespace. Para alterar essas propriedades, você deve excluir e recriar o schema.
 
 As propriedades descrevem os metadados que podem ser armazenados com esse schema no bloco XMP. Uma propriedade consiste em:
 
 | Propriedade | Descrição |
 |--- |--- |
-| ID | Identificador técnico desta propriedade. A ID não é visível na interface do usuário do Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e em nosso banco de dados. A ID é usada para criar query de pesquisa no Servidor de Metadados. A ID tem algumas restrições, como: <ul><li>Sem espaços</li><li>Não &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Nenhum número como primeiro caractere</li><li>A prática recomendada é usar a-z ou A-Z como primeiro caractere</li></ul> <br>Depois de criada, a ID não pode ser alterada. |
+| ID | Identificador técnico desta propriedade. A ID não é visível na interface clássica do Dynamic Media, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e em nosso banco de dados. A ID é usada para criar query de pesquisa no Servidor de Metadados. A ID tem algumas restrições, como: <ul><li>Sem espaços</li><li>Não &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Nenhum número como primeiro caractere</li><li>A prática recomendada é usar a-z ou A-Z como primeiro caractere</li></ul> <br>Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para esta propriedade. |
 | Estrutura | Determina o tipo da propriedade junto com o Tipo de dados. A estrutura pode ser uma das seguintes:<ul><li>Tipo simples: valor único do tipo de dados</li><li>Sequência: uma lista de valores do mesmo tipo de dados</li><li>Opção aberta: selecione um item de uma lista de valores predefinidos ou insira texto livre. Pode ser somente do tipo de dados String ou Integer</li><li>Escolha fechada: selecione um item de uma lista de valores predefinidos (uma caixa pop-up ou combo)</li></ul> |
 | Tipo de dados | Selecione um destes tipos disponíveis: <ul><li>String</li><li>Número inteiro</li><li>Flutuar</li><li>Sim/Não (Booliano)</li><li>Data</li></ul> |
 
 
-Quando a propriedade tem a estrutura de Escolha Aberta ou Escolha Fechada, você deve fornecer pelo menos um Valor de Escolha. A opção Abrir pode ser alterada. A opção Fechada não pode ser alterada. Todos os valores de escolha têm o tipo de dados da propriedade.
+Quando a propriedade tem a estrutura Escolha Aberta ou Escolha Fechada, você deve fornecer pelo menos um Valor de Escolha. A opção Abrir pode ser alterada. A opção Fechada não pode ser alterada. Todos os valores de escolha têm o tipo de dados da propriedade.
 
 | Propriedade | Descrição |
 |--- |--- |
-| ID | Identificador técnico para este valor. A ID não está visível na interface do usuário do Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. A ID é usada em query de pesquisa no Servidor de Metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
+| ID | Identificador técnico para este valor. A ID não está visível na interface clássica do Dynamic Media, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. A ID é usada em query de pesquisa no Servidor de Metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para este valor. |
 
 >[!MORELIKETHIS]
-* [Predefinições do visualizador](application-setup.md#viewer_presets)
-* [Predefinições de metadados](application-setup.md#metadata_presets)
+>
+>* [Predefinições do visualizador](application-setup.md#viewer_presets)
+>* [Predefinições de metadados](application-setup.md#metadata_presets)
 
