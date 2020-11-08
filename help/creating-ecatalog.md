@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
 
 ## Personalização do sumário (TOC) {#customizing-the-table-of-contents-toc}
 
-O Dynamic Media Classic fornece números de página padrão em seu eCatalog na guia Páginas de pedido da tela eCatalog. Para nomes de página personalizados, é possível alterar os rótulos de página que constituem o sumário (TOC). É recomendável renomear a tampa frontal e traseira. Por exemplo, a página de capa frontal pode ler &quot;Capa&quot; em vez de &quot;Página 0-1&quot;.
+O Dynamic Media Classic fornece números de página padrão no seu eCatalog na guia Order Pages (Páginas de pedido) da tela eCatalog. Para nomes de página personalizados, é possível alterar os rótulos de página que constituem o sumário (TOC). É recomendável renomear a tampa frontal e traseira. Por exemplo, a página de capa frontal pode ler &quot;Capa&quot; em vez de &quot;Página 0-1&quot;.
 
 Você pode criar um sumário personalizado (TOC) para seu eCatalog manualmente ou importando os nomes das páginas de um arquivo CSV (somente Mac) ou XML.
 
