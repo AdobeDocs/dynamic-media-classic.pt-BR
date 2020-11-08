@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 SEO é o processo de melhorar o volume de tráfego de mecanismos de pesquisa para um site. Embora os mecanismos de pesquisa se superem ao coletar informações sobre o conteúdo baseado em texto, eles não podem adquirir informações adequadamente sobre o vídeo, a menos que essas informações lhes sejam fornecidas.
 
-Usando o Dynamic Media Classic Video SEO, você pode aproveitar os metadados de vídeo para fornecer aos mecanismos de pesquisa descrições de seus vídeos. O Dynamic Media Classic fornece a capacidade de criar feeds de Sitemaps de vídeo e mRSS. Estes são arquivos XML padrão para enviar informações de vídeo para mecanismos de pesquisa:
+Usando o Dynamic Media Classic Video SEO, você pode aproveitar os metadados de vídeo para fornecer aos mecanismos de pesquisa descrições dos vídeos. O Dynamic Media Classic fornece a capacidade de criar feeds de Sitemaps de vídeo e mRSS. Estes são arquivos XML padrão para enviar informações de vídeo para mecanismos de pesquisa:
 
 **Mapa do site** de vídeo Informa o Google exatamente onde e qual conteúdo de vídeo está em um site. Consequentemente, os vídeos podem ser totalmente pesquisados no Google. Por exemplo, um Mapa do site de vídeo pode especificar o tempo de execução e as categorias dos vídeos. Para obter informações sobre mapas de site de vídeo, consulte https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
@@ -42,7 +42,7 @@ O Dynamic Media Classic cria relatórios sobre os mapas do site de vídeo e os f
 
 >[!NOTE]
 >
->Para os feeds de Sitemaps de vídeo e mRSS, o Dynamic Media Classic captura metadados somente de vídeos que estão marcados para publicação. Marque vídeos para publicação para incluir seus metadados em mapas do site de vídeo e feeds mRSS.
+>Para os feeds de Sitemaps de vídeo e mRSS, o Dynamic Media Classic captura metadados somente de vídeos marcados para publicação. Marque vídeos para publicação para incluir seus metadados em mapas do site de vídeo e feeds mRSS.
 
 ## Seleção das configurações de SEO de vídeo {#choosing-video-seo-settings}
 
