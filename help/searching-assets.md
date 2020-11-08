@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Pesquisar ativos{#searching-assets}
 
-Para localizar ativos de arquivo no Dynamic Media Classic, você pode visualização ativos por tipo, classificar ativos no Painel de navegação, realizar uma pesquisa simples, realizar uma pesquisa avançada e filtrar ativos.
+Para localizar ativos de arquivos no Dynamic Media Classic, você pode visualização ativos por tipo, classificar ativos no Painel de navegação, realizar uma pesquisa simples, realizar uma pesquisa avançada e filtrar ativos.
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ A tela Publicação do Servidor de Metadados é aberta. Essa tela permite que vo
 
 **A Publicação** instantânea envia automaticamente quaisquer alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavras-chave e assim por diante.
 
-**XMP Packet** Publica o XMP Packet. Este pacote não é usado para pesquisa, mas fornece o XMP/
+**XMP Packet** publica o XMP Packet. Este pacote não é usado para pesquisa, mas fornece os XMP/
 
 **Palavras-chave** Publica suas palavras-chave no servidor de metadados para uso em pesquisas.
 
