@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Vincular um conjunto de rotação a uma página da Web{#linking-a-spin-set-to-a-web-page}
 
-Os sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Server, incluindo Conjuntos de rotação, por meio de sequências de caracteres de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado para seu Conjunto de rotação em suas páginas da Web e aplicativos, copie-o do Dynamic Media Classic.
+Os sites e aplicativos da Web acessam o conteúdo do Servidor de Imagens do Dynamic Media, incluindo Conjuntos de rotação, por meio de sequências de caracteres de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado para seu Conjunto de rotação em suas páginas da Web e aplicativos, copie-o do Dynamic Media Classic.
 
 >[!NOTE]
 >
