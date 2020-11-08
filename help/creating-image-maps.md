@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Um Mapa de imagem é uma região em uma imagem, uma página eCatalog ou uma imagem em um SpinSet, que exibe um painel de sobreposição com texto. Quando o usuário clica em um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é aberta para que o usuário possa saber mais sobre um produto. Para chamar a atenção para os Mapas de imagem, um contorno é exibido ao redor de um Mapa de imagem quando o usuário move o ponteiro sobre ele.
 
-Além da capacidade de criar um mapa de imagem no Dynamic Media Classic, também é possível criar mapas de imagem ao projetar um catálogo no Adobe Acrobat ou Adobe InDesign.
+Além da capacidade de criar um mapa de imagem no Dynamic Media Classic, ou você também pode criar mapas de imagem ao projetar um catálogo no Adobe Acrobat ou Adobe InDesign.
 
 Ao criar Mapas de imagem, você pode fazer o seguinte:
 
@@ -33,7 +33,7 @@ Ao criar Mapas de imagem, você pode fazer o seguinte:
 * Exportar mapas de imagem para CSV ou para XML.
 * Importe metadados de imagem de um arquivo delimitado por tabulação ou de um arquivo XML.
 * Defina outras ações, conforme determinado pelo World Wide Web Consortium.
-* Mapas de imagem de Pré-visualização.
+* Mapas de imagem de pré-visualização.
 
 ## Desenho e ajuste de um Mapa de imagem {#drawing-and-adjusting-an-image-map}
 
@@ -144,17 +144,17 @@ Você coloca todos os valores que não são alterados entre os Mapas de imagem n
 * Valor do URL: `product.htm`
 * URL real gerado: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Por padrão, o modelo de URL inclui um manipulador JavaScript do Dynamic Media Classic proprietário chamado `loadProduct` que abre uma nova janela com o destino do URL. No entanto, você pode usar qualquer código JavaScript para substituir esse manipulador JavaScript ou usar um dos seguintes manipuladores Dynamic Media Classic:
+Por padrão, o modelo de URL inclui um manipulador JavaScript proprietário do Dynamic Media Classic, chamado `loadProduct` que abre uma nova janela com o destino do URL. No entanto, você pode usar qualquer código JavaScript para substituir esse manipulador JavaScript ou usar um dos seguintes manipuladores do Dynamic Media Classic:
 
 * `loadProductCW`
 
-   Exibe o público alvo de URL especificado na coluna URL na janela atual. Esse manipulador destina-se principalmente a eCatalogs integrados em uma página dentro de um site.
+   Exibe o público alvo de URL especificado na coluna URL na janela atual. Esse manipulador é principalmente para eCatalogs integrados em uma página dentro de um site.
 
 * `loadProductPW`
 
    Exibe o público alvo de URL especificado na coluna URL na janela pai (a página que abriu a atual). A janela atual permanece aberta, mas a janela pai é alterada para exibir o público alvo de URL.
 
-   ***observação **: O manipulador`loadProductPW`não suporta visualizadores DHTML e HTML5.*
+   ***observação **: O manipulador `loadProductPW` não suporta visualizadores DHTML e HTML5.*
 
 ### Creating a URL template {#creating-a-url-template}
 
@@ -192,9 +192,9 @@ Selecione o menu Mostrar e escolha Ambos se quiser que um Mapa de imagem tenha u
 
 ## Criação de mapas de imagem no Adobe Acrobat ou Adobe InDesign {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
-Você pode criar mapas de imagem ao criar seu eCatalog no Adobe Acrobat ou Adobe InDesign.
+Você pode criar mapas de imagem ao projetar seu eCatalog no Adobe Acrobat ou Adobe InDesign.
 
-No Acrobat ou InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem apareçam e especifique os locais de URL para o mapa de imagem. Selecionar a opção Extrair links ao carregar o arquivo PDF no Dynamic Media Classic converte automaticamente os links para os mapas de imagem.
+No Acrobat ou InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem apareçam e especifique os locais de URL para o mapa de imagem. A seleção da opção Extrair links ao carregar o arquivo PDF no Dynamic Media Classic converte automaticamente os links para Mapas de imagens.
 
 Para obter mais informações, consulte Ajuda do InDesign ou Ajuda do Acrobat.
 
@@ -204,7 +204,7 @@ Para obter mais informações, consulte Ajuda do InDesign ou Ajuda do Acrobat.
 1. Selecione o texto, quadro ou gráfico que deseja transformar em um Mapa de imagem.
 1. No painel Hiperlinks, clique em Novo hiperlink no menu do painel.
 1. Na caixa de diálogo Novo hiperlink, escolha URL no menu Vincular a.
-1. Digite ou cole a ID do produto na caixa URL e clique em OK. (O Dynamic Media Classic preenche o URL usando o modelo de URL do Mapa de imagem.)
+1. Digite ou cole a ID do produto na caixa URL e clique em OK. (O Dynamic Media Classic conclui o URL usando o modelo de URL do Mapa de imagem.)
 
    >[!NOTE]
    >
@@ -224,7 +224,7 @@ Para obter mais informações, consulte Ajuda do InDesign ou Ajuda do Acrobat.
 
 1. Na caixa Propriedades do link, clique em Ações.
 1. Selecione Abrir um link da Web no menu Selecionar ação e clique em Adicionar.
-1. Digite a ID do produto para o Mapa de imagem na caixa Editar URL e clique em OK. (O Dynamic Media Classic preenche o URL usando o modelo de URL do mapa de imagem.)
+1. Digite a ID do produto para o Mapa de imagem na caixa Editar URL e clique em OK. (O Dynamic Media Classic conclui o URL usando o modelo de URL do mapa de imagem.)
 1. Repita as etapas de 1 a 7 para todos os Mapas de imagem que deseja criar.
 1. Salve o arquivo.
 1. Carregue o PDF no Dynamic Media Classic e selecione Extrair links nas Opções do PDF.
