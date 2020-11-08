@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Noções básicas de navegação{#navigation-basics}
 
-A tela do Dynamic Media Classic inclui três áreas principais: Barra de navegação global, Biblioteca de ativos e Painel de navegação/Painel de compilação.
+A tela Dynamic Media Classic inclui três áreas principais: Barra de navegação global, Biblioteca de ativos e Painel de navegação/Painel de compilação.
 
 ![Noções básicas de navegação](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -34,7 +34,7 @@ A barra Navegação global, localizada na parte superior da tela, oferta botões
 
 **Criar** Escolha uma tarefa de criação no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
 
-**Publicar** Abre a tela Publicar para que você possa publicar ativos de mídia avançada nos Dynamic Media Image Servers e no restante da Dynamic Media Classic SAAS Infrastructure. Consulte Publicação.
+**Publicar** Abre a tela Publicar para que você possa publicar ativos de mídia avançada em Servidores de imagem de mídia dinâmica e no restante da Infraestrutura SAAS do Dynamic Media Classic. Consulte Publicação.
 
 **Tarefas** Abre a tela Tarefas para que você possa examinar registros de trabalhos de upload e publicação.
 
@@ -54,7 +54,7 @@ A barra Navegação global, localizada na parte superior da tela, oferta botões
 
 **Ajuda > Suporte** Informa como obter suporte técnico do Dynamic Media Classic.
 
-**Sair** sai do Dynamic Media Classic.
+**Sair** Sai do Dynamic Media Classic.
 
 ## Biblioteca de ativos {#asset-library}
 
