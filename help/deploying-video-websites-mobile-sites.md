@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Implantação de vídeo em seus sites e sites móveis{#deploying-video-to-your-websites-and-mobile-sites}
 
-Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor Dynamic Media Classic, incluindo vídeo, usando strings de URL ou código incorporado. O Dynamic Media Classic ativa essas sequências de caracteres de URL durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie-o do Dynamic Media Classic.
+Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor do Dynamic Media Classic, incluindo vídeo, usando strings de URL ou código incorporado. O Dynamic Media Classic ativa essas sequências de caracteres de URL durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie-o do Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor Dy
 
 ## Vídeo de publicação {#publishing-video}
 
-A publicação de um vídeo permite que os Dynamic Media Classic Servers forneçam vídeo para seu site, site móvel ou aplicativo.
+A publicação de um vídeo permite que os Servidores do Dynamic Media Classic forneçam vídeo ao seu site, site móvel ou aplicativo.
 
 Existem dois métodos diferentes que você pode usar para publicar vídeo:
 
@@ -40,7 +40,7 @@ Existem dois métodos diferentes que você pode usar para publicar vídeo:
 
    Se você não quiser publicar vídeos imediatamente, poderá publicar os vídeos manualmente a qualquer momento.
 
-Depois de publicar vídeos, o Dynamic Media Classic ativa as sequências de caracteres do URL para sua página HTML ou código do aplicativo.
+Depois de publicar vídeos, o Dynamic Media Classic ativa as strings de URL para sua página HTML ou código do aplicativo.
 
 **Para publicar vídeo**
 
@@ -136,11 +136,11 @@ Se você não usar o player de vídeo HTML5 do Dynamic Media Classic, mas quiser
 
 ## Implantação de vídeo usando um player de vídeo de terceiros {#deploying-video-using-a-third-party-video-player}
 
-Se você usar um player de vídeo de terceiros ou um player de vídeo personalizado em vez de um visualizador de vídeo Dynamic Media Classic, você pode obter o URL de vídeo direto que funciona para streaming de vídeo com vários bits de HLS ou download progressivo.
+Se você usar um player de vídeo de terceiros ou um player de vídeo personalizado criado em vez de um visualizador de vídeo do Dynamic Media Classic, você pode obter o URL de vídeo direto que funciona para streaming de vídeo com vários bits HLS ou download progressivo.
 
 **Implantação de vídeo usando um player de vídeo de terceiros**
 
-1. No Dynamic Media Classic, na barra Navegação global, clique em **Configuração** > Configuração **** do aplicativo > Configurações **** gerais.
+1. No Dynamic Media Classic, na barra de navegação global, clique em **Configuração** > Configuração **** do aplicativo > Configurações **** gerais.
 1. Dependendo do tipo de URL que você deseja usar, execute uma das seguintes tarefas:
 * Para gerar um URL de vídeo de transmissão direta HLS (multi-bitrate)
 
