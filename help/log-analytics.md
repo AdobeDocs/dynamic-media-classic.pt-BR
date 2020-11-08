@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ff112497b41f71b77f4afa47d331a1a9bc1e2d07
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Antes de fazer logon para configurar relatórios do Adobe Analytics e corresponder as variáveis de relatório do Adobe Analytics aos eventos do Dynamic Media Classic, verifique se você foi adicionado como membro do grupo Acesso ao serviço da Web no Adobe Analytics. Os membros deste grupo podem acessar todos os relatórios nos conjuntos de relatórios especificados por meio da API de serviços da Web do Marketing Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, clique em **Ferramentas** administrativas > Gerenciamento **** do usuário > **Editar grupos**.
 
-Ao fazer logon, você tem a opção de inserir a ID de organização do Marketing Cloud para usar a implementação mais recente da análise de vídeo. Se você optar por não inserir sua ID, o relatórios de vídeo ainda funcionará. No entanto, pode fazer com que os dados não se integrem corretamente com outros dados desse cliente de fora do Dynamic Media Classic.
+Ao fazer logon, você tem a opção de inserir a ID de organização do Marketing Cloud para usar a implementação mais recente da análise de vídeo. Se você optar por não inserir sua ID, o relatórios de vídeo ainda funcionará. No entanto, pode fazer com que os dados não sejam integrados corretamente com outros dados para esse cliente a partir do Dynamic Media Classic.
 
 >[!NOTE]
 >
