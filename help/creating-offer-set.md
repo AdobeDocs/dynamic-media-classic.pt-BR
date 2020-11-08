@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Você pode criar qualquer um dos seguintes tipos de conjuntos de ofertas:
 * Modelo parametrizado
 * Imagem
 
-Para modelos, clique em **Adicionar e Pré-visualização** e defina os parâmetros escolhidos. Os outros tipos de conjuntos de ofertas não incluem parâmetros, mas você ainda pode personalizá-los clicando em **Pré-visualização** e alterando as predefinições disponíveis.
+Para modelos, clique em **Adicionar e Pré-visualização** e defina os parâmetros escolhidos. Os outros tipos de conjunto de ofertas não incluem parâmetros, mas você ainda pode personalizá-los clicando em **Pré-visualização** e alterando as predefinições disponíveis.
 
-Ferramentas do Dynamic Media Classic oferta para edição e criação de conjuntos de ofertas.
+Ferramentas do oferta Dynamic Media Classic para edição e criação de conjuntos de ofertas.
 
 >[!NOTE]
 >
->Antes de criar um conjunto de ofertas, certifique-se de publicar todos os ativos que pretende usar para o conjunto no Dynamic Media Classic. Consulte Publicação [manual de ativos](publishing-files.md#manually_publishing_assets) e cancelamento [manual de publicação de ativos](publishing-files.md#manually_unpublishing_assets).
+>Antes de criar um conjunto de ofertas, certifique-se de publicar todos os ativos que pretende usar para o conjunto como Dynamic Media Classic. Consulte Publicação [manual de ativos](publishing-files.md#manually_publishing_assets) e cancelamento [manual de publicação de ativos](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipos de conjuntos de ofertas {#types-of-offer-sets}
 
@@ -40,7 +40,7 @@ Crie um conjunto de ofertas dos seguintes tipos de conjuntos de ofertas:
 
 * **Imagens** Você pode montar imagens para um conjunto de ofertas. Cada imagem inclui uma oferta diferente no conjunto.
 
-* **Modelo** de imagem É possível parametrizar modelos de imagem no Dynamic Media Classic com o comando Criar > Noções básicas do modelo. Através de parâmetros, componentes do modelo — o texto em quadros de texto, as diferentes imagens... pode ser trocado e personalizado. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte Criar parâmetros de modelo.
+* **Modelo** de imagem Você pode parametrizar modelos de imagem no Dynamic Media Classic com o comando Criar > Fundamentos do modelo. Através de parâmetros, componentes do modelo — o texto em quadros de texto, as diferentes imagens... pode ser trocado e personalizado. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte Criar parâmetros de modelo.
 
 * **Vídeo** Você pode montar vídeo para um conjunto de ofertas. Cada vídeo é uma oferta diferente no conjunto.
 
@@ -58,9 +58,9 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
 **Para criar um conjunto de ofertas com um modelo parametrizado**
 
 1. Selecione o modelo ou banner.
-1. Clique em **Criar** > Conjunto de Ofertas **do Test&amp;Target**.
+1. Clique em **Criar** > Conjunto de Ofertas **do Test&amp;Público alvo**.
 
-   A página Conjunto de Ofertas do Test&amp;Target lista no conjunto de ofertas. O primeiro item na lista é o objeto.
+   A página Conjunto de Ofertas do Test&amp;Público alvo lista no conjunto de ofertas. O primeiro item na lista é o objeto.
 
 1. Selecione o objeto e clique em **Adicionar e Pré-visualização**.
 
@@ -69,13 +69,13 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
 1. Altere os valores de parâmetro para criar a oferta. Por exemplo, insira um texto diferente em um campo de texto, altere o tamanho de uma camada, troque uma imagem por outra ou escolha uma predefinição de visualizador diferente.
 1. Clique em **Salvar** ou **Salvar como** para salvar a oferta como parte do conjunto de ofertas.
 
-   A página Conjunto de Ofertas do Test&amp;Target lista as ofertas que você criou.
+   A página Conjunto de Ofertas do Test&amp;Público alvo lista as ofertas que você criou.
 
 1. Repita as etapas de 3 a 5 para criar mais ofertas para o conjunto.
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se a opção **Publicar após salvar** está selecionada (padrão).
 1. Clique em **Fechar**, insira um nome para o conjunto de ofertas e clique em **Salvar**.
 
-Antes de fechar a página Conjunto de Ofertas do Test&amp;Target, empurre a oferta definida para Target Standard/Premium. Consulte [Encaminhando conjuntos de ofertas para o Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Antes de fechar a página Conjunto de Ofertas do Test&amp;Público alvo, envie a oferta para o Target Standard/Premium. Consulte [Encaminhando conjuntos de ofertas para o Test&amp;Público alvo](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Criação de um conjunto de ofertas com imagens ou vídeos {#creating-an-offer-set-with-images-or-videos}
 
@@ -94,19 +94,19 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
 
    * **Testar&amp;Público alvo Definir** clique na tela **[!UICONTROL Build > Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar tamanhos variados de vídeos ou imagens, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
 
-   * **visualização de grade ou Lista** Selecione as imagens ou vídeos e clique em **[!UICONTROL Build > Test&Target Offer Set]**.
+   * **Visualização de grade ou Lista** Selecione as imagens ou vídeos e clique em **[!UICONTROL Build > Test&Target Offer Set]**.
 
 1. Como opção, selecione uma imagem ou vídeo e clique em **Pré-visualização**. Na página Ofertas de Pré-visualização, é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no conjunto de ofertas.
 
    * Escolha uma predefinição para alterar a aparência e o tamanho da imagem ou do vídeo.
    * Clique na caixa de seleção Selecionar predefinições para tudo para aplicar a predefinição que você escolheu a todas as ofertas do conjunto de ofertas.
 
-   Clique em **Salvar** para salvar as alterações na imagem ou oferta de vídeo. Em seguida, clique em **Fechar** para retornar à página Conjunto de Ofertas do Test&amp;Target.
+   Clique em **Salvar** para salvar as alterações na imagem ou oferta de vídeo. Em seguida, clique em **Fechar** para retornar à página Conjunto de Ofertas do Test&amp;Público alvo.
 
 1. Depois de terminar de criar ofertas para o conjunto de ofertas e escolher Predefinições de imagem para imagens diferentes, verifique se a opção **Publicar após salvar** está selecionada (padrão).
 1. Clique em **Salvar** e insira um nome para o conjunto de ofertas e clique em **Salvar**.
 
-Antes de fechar a página Conjunto de Ofertas do Test&amp;Target, empurre a oferta definida para Target Standard/Premium. Consulte [Encaminhando conjuntos de ofertas para o Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Antes de fechar a página Conjunto de Ofertas do Test&amp;Público alvo, envie a oferta para o Target Standard/Premium. Consulte [Encaminhando conjuntos de ofertas para o Test&amp;Público alvo](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Edição de um conjunto de Ofertas {#editing-an-offer-set}
 
@@ -124,14 +124,14 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
 **Para editar um Conjunto de Ofertas**
 
 1. Para editar um conjunto de ofertas, exiba o conjunto de ofertas em visualização de Grade ou visualização de Lista e clique no botão **Editar** sobreposição.
-1. Na página Conjunto de Ofertas do Test&amp;Target, execute um dos procedimentos a seguir:
+1. Na página Conjunto de Ofertas do Test&amp;Público alvo, execute um dos procedimentos a seguir:
 
    * **Remoção de uma oferta** Selecione a oferta e clique em 
 **Excluir** para remover uma oferta do conjunto.
    * **Adicionar uma oferta** Como adicionar uma oferta depende do tipo de conjunto de ofertas com o qual você está trabalhando:
    * **Modelos** Clique 
 **Adicionar e Pré-visualização** e, na página Adicionar e Pré-visualização Ofertas, crie outra oferta.
-   * **Imagens e vídeos** Arraste uma imagem ou vídeo até a página Conjunto de Ofertas do Test&amp;Target.
+   * **Imagens e vídeos** Arraste uma imagem ou vídeo até a página Conjunto de Ofertas do Test&amp;Público alvo.
    >[!NOTE]
    >
    >Não é possível excluir um conjunto de ofertas associado a uma campanha. Para excluir um conjunto de ofertas associado a uma campanha, faça logon no Target Standard/Premium e remova as associações de campanhas primeiro. Mesmo depois de cancelar a associação de uma campanha, o ativo só pode ser excluído do Dyanmic Media Classic, exigindo um logon no Target Standard/Premium, e não no Target Standard/Premium.
