@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Você pode visualização seus Conjuntos de imagens na janela de Pré-visualização, usando as predefinições disponíveis. Use um Visualizador de zoom: Predefinição personalizada do visualizador para conjuntos de imagens.
 
-O Dynamic Media Classic vem com as predefinições de visualizador padrão. Os administradores podem criar ou modificar as predefinições do visualizador.
+O Dynamic Media Classic vem com as predefinições padrão do visualizador. Os administradores podem criar ou modificar as predefinições do visualizador.
 
 ## Configuração das predefinições do Visualizador de zoom para Conjuntos de imagens {#setting-up-zoom-viewer-presets-for-image-sets}
 
