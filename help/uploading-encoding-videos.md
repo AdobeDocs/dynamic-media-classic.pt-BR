@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 1%
@@ -19,19 +19,19 @@ ht-degree: 1%
 
 # Carregamento e codificação de vídeos{#uploading-and-encoding-videos}
 
-Para criar um único vídeo ou conjuntos de vídeos adaptáveis para o delivery na Web ou em dispositivos móveis, primeiro carregue os arquivos de vídeo principais no Dynamic Media Classic. O Dynamic Media Classic codifica vídeos no formato MP4 e publica vídeos nos seguintes formatos de arquivo:
+Para criar um único vídeo ou conjuntos de vídeos adaptáveis para o delivery na Web ou em dispositivos móveis, primeiro carregue os arquivos de vídeo principais no Dynamic Media Classic. O Dynamic Media Classic codifica vídeos no formato MP4 e publica-os nos seguintes formatos de arquivo:
 
 **O MP4** Dynamic Media Classic recomenda o MP4 como o formato de arquivo de vídeo preferencial. Use arquivos MP4 para o seguinte:
 
 * HTTP Dynamic Streaming em desktops.
 * HTTP Live Streaming (protocolo de streaming da Apple).
-* delivery de vídeo progressivo para dispositivos móveis Android, Blackberry e Windows
+* Delivery de vídeo progressivo para dispositivos móveis Android, Blackberry e Windows
 
 O Dynamic Media Classic oferta dois workflows para carregar arquivos de vídeo:
 
 **Vídeos** pré-codificados Você carrega arquivos MP4 diretamente no Dynamic Media Classic. Com esse fluxo de trabalho, os arquivos não são codificados no momento em que você os carrega. Os arquivos são pré-codificados em preparação para o delivery para o desktop e para dispositivos móveis.
 
-**Vídeos** de origem Principal Faça upload de arquivos de vídeo de origem principal e, ao fazer upload, codifique esses arquivos em arquivos MP4. Os vídeos codificados são rotulados como &quot;Vídeo&quot; no painel Procurar. O Dynamic Media Classic é compatível com a codificação de arquivos de vídeo em vários formatos.
+**Vídeos** de origem principal Faça upload de arquivos de vídeo de origem principal e, ao fazer upload, codifique esses arquivos em arquivos MP4. Os vídeos codificados são rotulados como &quot;Vídeo&quot; no painel Procurar. O Dynamic Media Classic suporta a codificação de arquivos de vídeo em muitos formatos.
 
 * Verifique se os arquivos de vídeo de origem principal que você deseja codificar são suportados.
 
@@ -257,11 +257,11 @@ O Adobe Dynamic Media Classic recomenda o uso de predefinições de codificaçã
 
 ## Trabalhar com predefinições de codificação de vídeo {#working-with-video-encoding-presets}
 
-Arquivos de vídeo Principais criados com equipamento de produção de vídeo e software de edição de vídeo são muitas vezes muito grandes e não estão no formato adequado para delivery para destinos online. Para converter vídeo digital no formato e especificações adequados para reprodução em telas diferentes, você pode *transcodificar* arquivos de vídeo (um processo também conhecido como *codificação*). Durante o processo de codificação, o vídeo é compactado em um tamanho de arquivo menor e eficiente para um delivery ideal da Web e para dispositivos móveis.
+Arquivos de vídeo principais criados com equipamento de produção de vídeo e software de edição de vídeo são muitas vezes muito grandes e não estão no formato adequado para delivery para destinos online. Para converter vídeo digital no formato e especificações adequados para reprodução em telas diferentes, você pode *transcodificar* arquivos de vídeo (um processo também conhecido como *codificação*). Durante o processo de codificação, o vídeo é compactado em um tamanho de arquivo menor e eficiente para um delivery ideal da Web e para dispositivos móveis.
 
 Consulte [Carregamento e codificação de vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-O Dynamic Media Classic oferece uma biblioteca de predefinições de codificação de vídeo predefinidas que refletem as configurações de codificação mais comuns usadas atualmente. Essas predefinições de codificação são otimizadas para reprodução em telas de público alvo. Além disso, os administradores podem criar suas próprias predefinições de codificação de vídeo para personalizar o tamanho e a qualidade de reprodução dos vídeos para os usuários finais. Todas as predefinições de codificação de vídeo, sejam prontas para uso no Dynamic Media Classic ou personalizadas, exibem o vídeo no formato de arquivo MP4.
+O Dynamic Media Classic oferece uma biblioteca de predefinições de codificação de vídeo predefinidas que refletem as configurações de codificação mais comuns usadas atualmente. Essas predefinições de codificação são otimizadas para reprodução em telas de público alvo. Além disso, os administradores podem criar suas próprias predefinições de codificação de vídeo para personalizar o tamanho e a qualidade de reprodução dos vídeos para os usuários finais. Todas as predefinições de codificação de vídeo, sejam prontas para uso do Dynamic Media Classic ou personalizadas, exibem o vídeo no formato de arquivo MP4.
 
 Na tela Predefinições de vídeo, os administradores podem configurar e gerenciar a codificação de vídeo. Eles podem fazer o seguinte:
 
@@ -284,9 +284,9 @@ Para ativos de vídeo que você carrega e codifica no Dynamic Media Classic, o v
 
 * HTTP Dynamic Streaming em desktops.
 * HLS (HTTP Live Streaming, protocolo de streaming da Apple).
-* delivery de vídeo progressivo para dispositivos móveis Android, Blackberry e Windows.
+* Delivery de vídeo progressivo para dispositivos móveis Android, Blackberry e Windows.
 
-Qualquer outro formato de vídeo e codec é tratado como um &quot;Vídeo Principal&quot;. Essa classificação de ativo significa que o vídeo é um arquivo de vídeo de origem e não pode ser usado para reprodução de delivery em desktops ou dispositivos móveis. Por exemplo, você não pode pré-visualização esses tipos de vídeos no Dynamic Media Classic. Você também não pode gerar Copiar URLs ou Incorporar código para usar em players de vídeo, sites e assim por diante.
+Qualquer outro formato de vídeo e codec é tratado como um &quot;Vídeo Principal&quot;. Essa classificação de ativo significa que o vídeo é um arquivo de vídeo de origem e não pode ser usado para reprodução de delivery em desktops ou dispositivos móveis. Por exemplo, não é possível pré-visualização desses tipos de vídeos no Dynamic Media Classic. Você também não pode gerar Copiar URLs ou Incorporar código para usar em players de vídeo, sites e assim por diante.
 
 ### Filtrar a lista das predefinições de codificação de vídeo {#filtering-the-list-of-video-encoding-presets}
 
@@ -313,7 +313,7 @@ As predefinições de vídeo ativadas são exibidas na caixa de diálogo Opçõe
 
 **Para ativar ou desativar predefinições de codificação de vídeo**
 
-1. No Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **** de vídeo.
+1. No Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **de** vídeo.
 1. Execute um dos procedimentos a seguir:
 
    * Clique em Predefinições **de vídeo** adaptáveis.
@@ -330,7 +330,7 @@ As predefinições de vídeo ativadas são exibidas na caixa de diálogo Opçõe
 
 ### Adicionar ou editar uma predefinição de codificação de vídeo {#adding-or-editing-a-video-encoding-preset}
 
-Você pode criar suas próprias predefinições de vídeo personalizadas de codificação única e adicioná-las à tabela Predefinições de vídeo. Você também pode fazer alterações em qualquer predefinição de codificação única pré-definida de vídeo que acompanha o Dynamic Media Classic, desde que salve a predefinição editada com um novo nome.
+Você pode criar suas próprias predefinições de vídeo personalizadas de codificação única e adicioná-las à tabela Predefinições de vídeo. Você também pode fazer alterações em qualquer predefinição de codificação única predefinida de vídeo que veio com o Dynamic Media Classic, desde que salve a predefinição editada com um novo nome.
 
 O Dynamic Media Classic definiu limites máximos para a taxa de dados do público alvo, a altura da resolução e a largura da resolução para garantir uma experiência de reprodução adequada. As mensagens de aviso serão exibidas se você exceder esses limites, que são os seguintes:
 
@@ -340,7 +340,7 @@ O Dynamic Media Classic definiu limites máximos para a taxa de dados do públic
 
 **Para adicionar ou editar uma predefinição de codificação de vídeo**
 
-1. No Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **** de vídeo.
+1. No Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **de** vídeo.
 1. Clique em Predefinições **de codificação** única para abrir a página Predefinições de vídeo.
 1. Na página Predefinições de vídeo, execute um dos procedimentos a seguir:
 
@@ -358,7 +358,7 @@ O Dynamic Media Classic definiu limites máximos para a taxa de dados do públic
    | Nome da predefinição | Digite um nome descritivo para a predefinição de vídeo. O nome digitado é exibido na caixa de diálogo Carregar opções de trabalho, na qual os usuários escolhem opções de transcodificação. |
    | Descrição | Descreva a predefinição de vídeo. O que você inserir aparecerá como uma dica de ferramenta quando você mover o ponteiro sobre o nome da predefinição na caixa de diálogo Carregar opções de trabalho, na qual os usuários escolhem opções de transcodificação. |
    | Dispositivo de reprodução | Escolha o dispositivo no qual o vídeo deve ser reproduzido. As opções são Computador (desktops), Móvel (iPhone, iPad, Android); ou Tablet (apenas para iPad). Essa configuração determina automaticamente o codec de áudio e vídeo apropriado usado durante a codificação. |
-   | Taxa de dados do Público alvo | Digite a velocidade média de conexão com a Internet (em quilobits por segundo) do usuário final do público alvo. Você pode inserir a taxa ou arrastar o controle deslizante para inseri-la. O espectro de velocidade de conexão do usuário lista velocidades típicas para conexões de banda larga, DSL, móveis e dial-up. Essa configuração determina automaticamente a taxa de dados de áudio e vídeo combinados. Em outras palavras, a quantidade de dados que é codificada para formar um único segundo de reprodução de vídeo. Quanto maior a taxa de dados, melhor será a qualidade do vídeo resultante. No entanto, as taxas de dados muito altas resultam em arquivos de tamanho grande que criam experiências de visualização de subpares para usuários com largura de banda baixa. Como prática recomendada, encontre um equilíbrio entre taxas de dados altas e baixas. Pretende criar uma experiência de reprodução de qualidade adequada sem afastar os usuários que têm larguras de banda estreitas. |
+   | Taxa de dados do público alvo | Digite a velocidade média de conexão com a Internet (em quilobits por segundo) do usuário final do público alvo. Você pode inserir a taxa ou arrastar o controle deslizante para inseri-la. O espectro de velocidade de conexão do usuário lista velocidades típicas para conexões de banda larga, DSL, móveis e dial-up. Essa configuração determina automaticamente a taxa de dados de áudio e vídeo combinados. Em outras palavras, a quantidade de dados que é codificada para formar um único segundo de reprodução de vídeo. Quanto maior a taxa de dados, melhor será a qualidade do vídeo resultante. No entanto, as taxas de dados muito altas resultam em arquivos de tamanho grande que criam experiências de visualização de subpares para usuários com largura de banda baixa. Como prática recomendada, encontre um equilíbrio entre taxas de dados altas e baixas. Pretende criar uma experiência de reprodução de qualidade adequada sem afastar os usuários que têm larguras de banda estreitas. |
    | Proporção | Proporção é a proporção entre a largura e a altura do vídeo. As duas primeiras proporções listadas abaixo são comumente usadas para exibir o vídeo horizontalmente:<ul><li> 4:3 - Usado para quase todo o conteúdo de transmissão de TV de definição padrão.</li><li>16:9 - Usado para quase todos os filmes e conteúdo de TV de alta definição (HDTV) de tela larga.</li><li>Escala automática - (Padrão) uma única predefinição de codificação que funciona com qualquer proporção para criar vídeos para delivery para móvel, tablet e desktop. Os vídeos de origem carregados que são codificados com essa predefinição são definidos com uma altura fixa. Entretanto, a largura é dimensionada automaticamente para preservar a proporção do vídeo (proporção largura/altura).</li><li>Personalizado - usado quando você deseja definir um tamanho de vídeo não padrão.</li><li>A proporção escolhida determina as configurações de largura e altura para o Tamanho da resolução; o valor de largura e altura é automaticamente dimensionado para a proporção correta.</li></ul> |
    | Tamanho da resolução | O tamanho da resolução, expresso pelo número de pixels de largura pelo número de pixels de altura, determina a dimensão. Insira um valor de largura e altura em pixels ou arraste o controle deslizante para inserir esses valores. O espectro de resolução lista tamanhos de resolução típicos. Os valores de largura e altura seguem automaticamente a proporção selecionada. Por exemplo, se você selecionar 4:3 como proporção e digitar 400 como largura, 300 será inserido automaticamente como altura.Se você selecionou Escala automática para a configuração Proporção, o valor Largura para o Tamanho da resolução será automaticamente definido como Pré-visualização de Auto.Clique em  para abrir uma janela do navegador e ver suas opções de resolução lá. |
    | Codificar sufixo de arquivo | Insira um sufixo. Esse sufixo é anexado ao arquivo de vídeo codificado resultante. É possível inserir um hífen e um sublinhado no nome; espaços em branco e caracteres especiais não são permitidos. |
@@ -375,7 +375,7 @@ Os administradores podem excluir predefinições de vídeo personalizadas. As pr
 
 **Para excluir uma predefinição de codificação de vídeo**
 
-1. No Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **** de vídeo.
+1. No Dynamic Media Classic, clique em **Configuração** > Configuração **** do aplicativo > Predefinições **de** vídeo.
 1. Clique em Predefinições **de codificação** única para abrir a página Predefinições de vídeo.
 1. Na página Predefinições de vídeo, selecione uma Predefinição de vídeo na tabela que não deseja mais ou não precisa.
 1. Na barra de ferramentas Predefinições de vídeo, clique em **Excluir**.
