@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Todos os usuários podem alterar as configurações na tela Configuração pesso
 
 >[!NOTE]
 >
->A tela Configuração pessoal lista qual função de usuário você tem no Dynamic Media Classic: Administrador, Administrador ou Usuário da Empresa.
+>A tela Configuração pessoal lista qual função de usuário você tem no Dynamic Media Classic: Administrador, Administrador ou Usuário da empresa.
 
 As configurações de configuração pessoal controlam o comportamento padrão do Painel de navegação, como você recebe e-mails e as configurações de senha. Lembre-se de clicar em Salvar depois de alterar essas configurações.
 
@@ -38,7 +38,7 @@ Clique em Instalar agora para instalar a versão para desktop do Dynamic Media C
 
 ## Para instalar o plug-in no disco rígido local
 
-1. Na página Instalação pessoal no Dynamic Media Classic, em Plug-in do Illustrator para Web-to-Print, clique em **Baixar agora** para baixar o arquivo Plug-in do **Illustrator para Web-to-Print.zip** .
+1. Na página Configuração pessoal no Dynamic Media Classic, em Illustrator Plug-in para Web-to-Print, clique em **Baixar agora** para baixar o arquivo Plug-in **Illustrator para Web-to-Print.zip** .
 1. Descompacte o arquivo ZIP em uma pasta temporária.
 
    Um arquivo readme é incluído na raiz do arquivo descompactado para fornecer informações adicionais sobre o plug-in.
@@ -49,17 +49,17 @@ Clique em Instalar agora para instalar a versão para desktop do Dynamic Media C
 
 | Se você estiver executando | Faça isso |
 |--- |--- |
-| Adobe Illustrator 18 na Adobe Creative Cloud 2014 | <ul><li>Na raiz da pasta descompactada, clique em CC-2014.</li><li>Dependendo da versão de bits do Adobe Illustrator que você estiver usando, clique em win32 ou win64.</li><li>Clique em bibliotecas > chama e copie `aflame.dll` para a pasta executável do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Observação **: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86).<br/><ul><li>Retorne à mesma pasta de bibliotecas, clique em flamingo e copie `aflamingo.dll` para a mesma pasta executável do Adobe Illustrator que você usou na etapa anterior. </li><li>Retorne à pasta win32 ou win64 selecionada na etapa 2 e copie `AdobeS7FXGFileFormat.aip` para a pasta de plug-ins do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Observação **: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86). |
-| Adobe Illustrator 17 na Adobe Creative Cloud | <ul><li>Na raiz da pasta descompactada, clique em CC. </li><li>Dependendo da versão de bits do Adobe Illustrator que você estiver usando, clique em win32 ou win64.</li><li> Copie `AdobeS7FXGFileFormat.aip` para a pasta de plug-ins do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Observação **: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86). |
-| Adobe Illustrator 16 na Adobe Creative Suite 6 | <ul><li>Na raiz da pasta descompactada, clique em 6.0. </li><li>Dependendo da versão de bits do Adobe Illustrator que você estiver usando, clique em win32 ou win64. </li><li>Copie AdobeS7FXGFileFormat.aip para a pasta de plug-ins do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Observação **: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86). |
+| Adobe Illustrator 18 no Adobe Creative Cloud 2014 | <ul><li>Na raiz da pasta descompactada, clique em CC-2014.</li><li>Dependendo da versão bit do Adobe Illustrator que você estiver usando, clique em win32 ou win64.</li><li>Clique em bibliotecas > chama e copie `aflame.dll` para a pasta executável Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86). <br/><ul><li>Retorne à mesma pasta de bibliotecas, clique em flamingo e copie `aflamingo.dll` para a mesma pasta executável do Adobe Illustrator que você usou na etapa anterior. </li><li>Retorne à pasta win32 ou win64 selecionada na etapa 2 e copie `AdobeS7FXGFileFormat.aip` para a pasta de plug-ins Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86). |
+| Adobe Illustrator 17 no Adobe Creative Cloud | <ul><li>Na raiz da pasta descompactada, clique em CC. </li><li>Dependendo da versão bit do Adobe Illustrator que você estiver usando, clique em win32 ou win64.</li><li> Copie `AdobeS7FXGFileFormat.aip` para a pasta de plug-ins do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86). |
+| Adobe Illustrator 16 no Creative Suite 6 | <ul><li>Na raiz da pasta descompactada, clique em 6.0. </li><li>Dependendo da versão bit do Adobe Illustrator que você estiver usando, clique em win32 ou win64. </li><li>Copie Adobe7FXGFileFormat.aip para a pasta de plug-ins Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; o local de 32 bits pode estar em Arquivos de Programa (x86). |
 
 ### Mac
 
 | Se você estiver executando | Faça isso |
 |--- |--- |
-| Adobe Illustrator 18 na Adobe Creative Cloud 2014 | <ul><li>Na raiz da pasta descompactada, clique em CC-2014 > mac64.</li><li>Clique em bibliotecas > chama e copie a `aflame.framework` pasta para a pasta de conteúdo do pacote do Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Para abrir a pasta de conteúdo do pacote do Adobe Illustrator, clique com o botão direito do mouse no ícone do Adobe Illustrator CC 2014 e clique em Mostrar conteúdo do pacote no menu de contexto).</li><li>Retorne à mesma pasta de bibliotecas, clique em `flamingo`e copie a `aflamingo.framework` pasta para a mesma pasta de conteúdo do pacote do Adobe Illustrator que você usou na etapa anterior.</li><li>Retorne à pasta mac64 selecionada na etapa 1 e copie a `AdobeS7FXGFileFormat.aip` pasta para a pasta de plug-in do Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 na Adobe Creative Cloud | <ul><li>Na raiz da pasta descompactada, clique em CC > mac64</li><li>Copie a `AdobeS7FXGFileFormat.aip` pasta para a pasta de plug-in do Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 na Adobe Creative Suite 6 | <ul><li>Na raiz da pasta descompactada, clique em 6.0 > mac64</li><li>Copie a `AdobeS7FXGFileFormat.aip` pasta para a pasta de plug-in do Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+| Adobe Illustrator 18 no Adobe Creative Cloud 2014 | <ul><li>Na raiz da pasta descompactada, clique em CC-2014 > mac64.</li><li>Clique em bibliotecas > chama e copie a `aflame.framework` pasta para a pasta de conteúdo do pacote Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Para abrir a pasta de conteúdo do pacote da Adobe Illustrator, clique com o botão direito do mouse no ícone Adobe illustrator CC 2014 e clique em Mostrar conteúdo do pacote no menu de contexto).</li><li>Retorne à mesma pasta de bibliotecas, clique em `flamingo`e copie a `aflamingo.framework` pasta para a mesma pasta de conteúdo do pacote Adobe Illustrator que você usou na etapa anterior.</li><li>Retorne à pasta mac64 selecionada na etapa 1 e copie a `AdobeS7FXGFileFormat.aip` pasta para a pasta de plug-in da Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 17 no Adobe Creative Cloud | <ul><li>Na raiz da pasta descompactada, clique em CC > mac64</li><li>Copie a `AdobeS7FXGFileFormat.aip` pasta para a pasta de plug-in da Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 16 no Creative Suite 6 | <ul><li>Na raiz da pasta descompactada, clique em 6.0 > mac64</li><li>Copie a `AdobeS7FXGFileFormat.aip` pasta para a pasta de plug-in da Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
 
 O plug-in agora está disponível para você usar no Adobe Illustrator.
 
@@ -104,7 +104,7 @@ Consulte também Campos [Definidos pelo](application-setup.md#user_defined_field
 ## Email
 
 * **Opções de e-mail**
-   * Escolha como deseja que o Dynamic Media Classic informe você por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalhos somente se ocorrerem avisos ou erros.
+   * Escolha como deseja que o Dynamic Media Classic o informe por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalhos somente se ocorrerem avisos ou erros.
 * **Escopo de email**
    * Determina se você recebe todos os emails de trabalho para sua empresa ou somente emails sobre upload e publicação de trabalhos iniciados.
 * **Tipos de email**
