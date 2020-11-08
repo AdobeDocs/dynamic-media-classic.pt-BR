@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
-source-wordcount: '10974'
+source-wordcount: '10969'
 ht-degree: 4%
 
 ---
@@ -566,7 +566,7 @@ A tabela a seguir identifica os gestos do visualizador móvel compatíveis com d
 
 ### Sobre a tela Predefinição do visualizador {#about-the-viewer-preset-screen}
 
-Crie e gerencie as predefinições do visualizador na tela Predefinições do visualizador. Para abrir essa tela, clique em **Configuração** > Predefinições **do visualizador**.
+Crie e gerencie as predefinições do visualizador na tela Predefinições do visualizador. Para abrir essa tela, clique em **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
 A tela Predefinições do visualizador oferta as ferramentas para fazer estas tarefas:
 
@@ -587,7 +587,7 @@ Consulte [Exportar uma predefinição](application-setup.md#exporting_an_html5_v
 **Filtrando a lista** predefinida do visualizador Use estas ferramentas para filtrar a lista:
 
 * Abra a lista suspensa **Ativa/Inativa** e escolha uma opção para mostrar predefinições ativas, predefinições inativas ou todas as predefinições.
-* Abra a lista suspensa **Visualizador** e escolha uma opção para ver somente visualizadores de determinado tipo. Escolha **Todos os visualizadores** para ver todos os visualizadores.
+* Abra a lista suspensa **Visualizador** e escolha uma opção para ver somente visualizadores de determinado tipo. Escolha **[!UICONTROL All Viewers]** ver todos os visualizadores.
 
 **Predefinições** de classificação Clique no cabeçalho de uma coluna (Ativo, Tipo, Predefinido ou Plataforma) para classificar a lista em uma coluna. Clique no cabeçalho de uma coluna pela segunda vez para classificar a lista em ordem decrescente (ou crescente).
 
@@ -909,7 +909,8 @@ Embora a configuração de uma convenção de nomenclatura padrão não seja nec
    Você pode marcar a caixa de seleção Código de Visualização para visualização da criação de valor de expressão normal ao lado das seleções de formulário. Você pode inserir ou alterar esses valores para ajudar a definir os elementos da convenção de nomenclatura, se a visualização de formulário limitar você por algum motivo. Se os valores não puderem ser analisados na visualização de formulário, os campos de formulário ficarão inativos.
 
    >[!NOTE]
-   Campos de formulário desativados não indicam expressão regular inválida. Não há validação de que suas expressões normais estejam corretas. Você verá os resultados da expressão regular que está criando para cada elemento após a linha de resultados. A expressão regular completa fica visível na parte inferior da página.
+   >
+   >Campos de formulário desativados não indicam expressão regular inválida. Não há validação de que suas expressões normais estejam corretas. Você verá os resultados da expressão regular que está criando para cada elemento após a linha de resultados. A expressão regular completa fica visível na parte inferior da página.
 
 1. Expanda cada elemento conforme necessário e informe as convenções de nomenclatura que deseja usar.
 1. Conforme necessário, clique em **Adicionar** para adicionar outra convenção de nomenclatura para um elemento. Ou clique em **Remover** para excluir uma convenção de nomenclatura para um elemento.
@@ -1015,7 +1016,8 @@ Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome d
    Lembre-se de que esses são apenas exemplos. Você pode criar sua expressão normal da maneira que quiser, de acordo com suas necessidades.
 
    >[!NOTE]
-   Se a combinação de expressões regulares de linha e coluna não puder determinar a posição do ativo dentro da matriz de fiação multidimensional, esse ativo não será adicionado ao conjunto e um erro será registrado.
+   >
+   >Se a combinação de expressões regulares de linha e coluna não puder determinar a posição do ativo dentro da matriz de fiação multidimensional, esse ativo não será adicionado ao conjunto e um erro será registrado.
 
 1. Para Definir a Convenção de Nomeação e Criação, especifique o sufixo ou o prefixo para o nome básico definido na Convenção de Nomeação de Ativos. Defina também onde o conjunto de imagens será criado na estrutura de pastas do Dynamic Media Classic.
 
@@ -1025,8 +1027,9 @@ Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome d
 1. Carregue e publique seu Conjunto de rotação como de costume, certificando-se de ativar o nome do Conjunto de rotação 2D na caixa de diálogo Opções de carga de trabalho, em Predefinições de conjunto de lotes.
 
 >[!MORELIKETHIS]
-* [Visualização de um ativo](previewing-asset.md#previewing_an_asset)
-* [Configuração de predefinições de imagens](setting-image-presets.md#setting_up_image_presets)
-* [Exibição, adição e exportação de metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-* [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files)
+>
+>* [Visualização de um ativo](previewing-asset.md#previewing_an_asset)
+>* [Configuração de predefinições de imagens](setting-image-presets.md#setting_up_image_presets)
+>* [Exibição, adição e exportação de metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files)
 
