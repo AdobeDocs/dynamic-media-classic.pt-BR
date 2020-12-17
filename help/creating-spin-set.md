@@ -47,13 +47,13 @@ Quando você cria um conjunto, a opção **Publicar após salvar** afeta o conju
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos retêm seu estado publicado ou não publicado. |
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually-publishing-assets) a publicação de ativos [](publishing-files.md#manually-unpublishing-assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
 Depois de salvar um conjunto de rotação, você pode usar a Pré-visualização na criação: Página de conjunto de rotação para ver a aparência do seu conjunto de rotação no visualizador padrão.
 
 **Para criar um conjunto de giros**
 
-1. No menu suspenso **Criar** , clique em Conjuntos de **rotação**.
+1. No menu suspenso **Build**, clique em **Conjuntos de rotação**.
 1. Na caixa de diálogo Tamanho do conjunto de rotação, defina o número de linhas e células desejado.
 
    Para criar um conjunto de rotação unidimensional, selecione apenas uma linha.
@@ -62,14 +62,14 @@ Depois de salvar um conjunto de rotação, você pode usar a Pré-visualização
 
 1. Clique em **OK**.
 1. Arraste e solte imagens na grade na tela Conjunto de rotação.
-1. Quando terminar, próximo ao canto inferior direito da página, verifique se a opção **Publicar após salvar** está selecionada (padrão).
+1. Quando terminar, próximo ao canto inferior direito da página, certifique-se de que **Publicar após salvar** esteja selecionado (padrão).
 1. Clique em **Salvar**.
 1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar seu conjunto de rotação. No campo Nome do arquivo, digite o nome do conjunto de spin.
 1. Clique em **Salvar**.
 
-## Edição de um conjunto de rotação {#editing-a-spin-set}
+## Editar um conjunto de rotação {#editing-a-spin-set}
 
-Dependendo de se você editar um conjunto publicado ou não publicado, a opção **Publicar após salvar** afetará o conjunto e definirá os membros das seguintes maneiras:
+Dependendo de você editar um conjunto publicado ou não publicado, a opção **Publicar após salvar** afetará o conjunto e definirá os membros das seguintes maneiras:
 
 | Definir já publicado? | Opção &quot;Publicar após salvar&quot; selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |--- |
@@ -78,31 +78,35 @@ Dependendo de se você editar um conjunto publicado ou não publicado, a opção
 | Não | Sim | Publicado | Publicado |
 | Não | Não | Não publicado | Os membros do conjunto existente e quaisquer novos membros do conjunto que você tiver adicionado durante a edição manterão seu estado publicado ou não publicado. |
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually-publishing-assets) a publicação de ativos [](publishing-files.md#manually-unpublishing-assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
 **Para editar um conjunto de giros**
 
-1. Clique no botão **Editar** sobreposição do Conjunto de rotação.
+1. Clique no botão **Editar** do Conjunto de rotação.
 1. Execute um dos procedimentos a seguir:
 
-   * **Remoção de imagens** Selecione a imagem e clique em 
+   * **Remoção de**
+imagensSelecione a imagem e clique em 
 **Excluir**.
 
-   * **Adicionar imagens** Arraste a imagem para dentro de uma célula.
+   * **Adicionar**
+imagensArraste a imagem para dentro de uma célula.
 
-   * **Reorganizando linhas (Conjuntos de rotação bidimensionais)** Clique em uma caixa de seletor de linha (à esquerda da linha) e clique em 
-**Mova a linha para baixo** ou **Mova a linha para cima**.
+   * **Reorganizando linhas (Conjuntos de rotação bidimensionais)**
+Clique em uma caixa de seletor de linha (à esquerda da linha) e clique em 
+**Mover** para Baixo Linha  **Mover Linha Para Cima**.
 
-   * **Adicionando linhas e células** Insira um número na caixa Linhas e Células para determinar o número de linhas e o número de células em cada linha.
+   * **Adicionando linhas e**
+célulasInsira um número na caixa Linhas e Células para determinar o número de linhas e o número de células em cada linha.
 
-1. Quando terminar a edição, próximo ao canto inferior direito da página, certifique-se de que a opção **Publicar após salvar** esteja selecionada (padrão).
+1. Quando terminar a edição, próximo ao canto inferior direito da página, certifique-se de que **Publicar após salvar** esteja selecionado (padrão).
 1. Clique em **Salvar**, selecione uma pasta de armazenamento, digite um nome para o conjunto e clique em **Salvar**.
 
 ## Excluindo um conjunto de rotação {#deleting-a-spin-set}
 
 Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um deles mantém seu estado publicado ou não publicado.
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually-publishing-assets) a publicação de ativos [](publishing-files.md#manually-unpublishing-assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
 **Para excluir um conjunto de giros**
 
