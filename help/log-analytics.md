@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Faça logon no Adobe Analytics{#log-in-to-adobe-analytics}
 
-Antes de fazer logon para configurar relatórios do Adobe Analytics e corresponder as variáveis de relatório do Adobe Analytics aos eventos do Dynamic Media Classic, verifique se você foi adicionado como membro do grupo Acesso ao serviço da Web no Adobe Analytics. Os membros deste grupo podem acessar todos os relatórios nos conjuntos de relatórios especificados por meio da API de serviços da Web do Marketing Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, clique em **Ferramentas** administrativas > Gerenciamento **** do usuário > **Editar grupos**.
+Antes de fazer logon para configurar relatórios do Adobe Analytics e corresponder as variáveis de relatório do Adobe Analytics aos eventos do Dynamic Media Classic, verifique se você foi adicionado como membro do grupo Acesso ao serviço da Web no Adobe Analytics. Os membros deste grupo podem acessar todos os relatórios nos conjuntos de relatórios especificados por meio da API de serviços da Web do Marketing Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, clique em **Ferramentas administrativas** > **Gerenciamento de usuários** > **Editar grupos**.
 
-Ao fazer logon, você tem a opção de inserir a ID de organização do Marketing Cloud para usar a implementação mais recente da análise de vídeo. Se você optar por não inserir sua ID, o relatórios de vídeo ainda funcionará. No entanto, pode fazer com que os dados não sejam integrados corretamente com outros dados para esse cliente a partir do Dynamic Media Classic.
+Ao fazer logon, você tem a opção de inserir a ID de organização do Marketing Cloud para usar a implementação mais recente da análise de vídeo. Se você optar por não inserir sua ID, o relatórios de vídeo ainda funcionará. No entanto, pode fazer com que os dados não se integrem corretamente com outros dados desse cliente de fora do Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -31,14 +31,14 @@ Ao fazer logon, você tem a opção de inserir a ID de organização do Marketin
 **Para fazer logon no Adobe Analytics**
 
 1. Próximo ao canto superior direito da página do Dynamic Media Classic, toque em **[!UICONTROL Setup > Application Setup]**.
-1. No painel esquerdo, embaixo **[!UICONTROL Application Setup]**, toque **[!UICONTROL Adobe Analytics]**.
+1. No painel esquerdo, em **[!UICONTROL Application Setup]**, toque em **[!UICONTROL Adobe Analytics]**.
 1. Na página Configuração do Adobe Analytics, toque em **[!UICONTROL Adobe Analytics Login]**.
-1. Na caixa de diálogo **[!UICONTROL Adobe Analytics Login]** , digite o nome da empresa, a ID de organização do Marketing Cloud (opcional), o nome de usuário e a chave secreta ** compartilhada no campo de **[!UICONTROL Password]** texto.
+1. Na caixa de diálogo **[!UICONTROL Adobe Analytics Login]**, digite o nome da empresa, a ID de organização do Marketing Cloud (opcional), o nome de usuário e a chave *shared secret* no campo de texto **[!UICONTROL Password]**.
 
-   Você pode recuperar a chave secreta ** compartilhada do console de administração do Analytics. Consulte [Como obter credenciais de API para contas](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)de usuário.
+   Você pode recuperar a chave *shared secret* do console de administração do Analytics. Consulte [Como obter credenciais de API para contas de usuário](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html).
 
 1. Clique em **[!UICONTROL Login]**.
-1. No menu **[!UICONTROL Report Suite]** suspenso, escolha um conjunto de relatórios e clique em **[!UICONTROL OK]**.
+1. No menu suspenso **[!UICONTROL Report Suite]**, escolha um conjunto de relatórios e clique em **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
