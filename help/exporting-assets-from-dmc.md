@@ -29,25 +29,33 @@ O Dynamic Media Classic mantém um registro de trabalhos de exportação na tela
 **Para exportar ativos do Dynamic Media Classic**
 
 1. Selecione os ativos que deseja exportar e clique em **Arquivo** > **Exportar**.
-1. Na janela Exportar ativos selecionados, clique em Opções **de** imagem e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para seus usuários):
+1. Na janela Exportar ativos selecionados, clique em **Opções de imagem** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para seus usuários):
 
-   * **Predefinições** Opcionalmente, escolha uma Predefinição de imagem para formatar o ativo ao exportá-lo. Se você escolher uma predefinição de imagem, as outras opções de formatação não estarão disponíveis, já que o ativo adota os formatos definidos pela predefinição de imagem.
+   * ****
+PredefiniçõesOpcionalmente, escolha uma Predefinição de imagem para formatar o ativo ao exportá-lo. Se você escolher uma predefinição de imagem, as outras opções de formatação não estarão disponíveis, já que o ativo adota os formatos definidos pela predefinição de imagem.
 
-   * **Conversão** Converte o arquivo de ativo ou a imagem original.
+   * ****
+ConversãoConverte o arquivo de ativo ou a imagem original.
 
-   * **Tamanho** Você pode selecionar um tamanho padrão. Ou você pode clicar em Outro na lista suspensa Tamanho, escolher a unidade de medida desejada e especificar a largura e a altura.
+   * ****
+TamanhoVocê pode selecionar um tamanho padrão. Ou você pode clicar em Outro na lista suspensa Tamanho, escolher a unidade de medida desejada e especificar a largura e a altura.
 
-      Consulte também [Especificação de opções de exportação disponíveis para usuários](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)do Portal de mídia.
+      Consulte também [Especificar opções de exportação disponíveis para usuários do Portal de mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Formato** Escolha um formato de imagem.
+   * ****
+FormatoEscolha um formato de imagem.
 
-   * **Cor** Escolha RGB, CMYK ou Cinza.
+   * ****
+CorEscolha RGB, CMYK ou Cinza.
 
-   * **Resolução** Escolha 72, 150 ou 300 ppi.
+   * ****
+ResoluçãoEscolha 72, 150 ou 300 ppi.
 
-   * **Nome** da tarefaVocê pode atribuir um nome de tarefa à exportação.
+   * **Nome**
+da tarefaVocê pode atribuir um nome de tarefa à exportação.
 
-   * **Enviar email para** opcionalmente, insira um endereço de email para enviar os ativos por email. A mensagem de email lista no URL para onde o recipient pode ir para baixar os ativos.
+   * **Enviar email**
+paraOpcionalmente, insira um endereço de email para enviar os ativos por email. A mensagem de email lista no URL para onde o recipient pode ir para baixar os ativos.
 
 1. Clique em **Exportar**.
 
