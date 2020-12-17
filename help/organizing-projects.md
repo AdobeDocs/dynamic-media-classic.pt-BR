@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Organizar seu trabalho com projetos{#organizing-your-work-with-projects}
+# Organizar seu trabalho com Projetos{#organizing-your-work-with-projects}
 
 Os projetos fornecem uma maneira opcional e secundária para que você organize ativos independentemente das pastas em que estão armazenados. Um ativo pode ser colocado em apenas uma pasta, mas pode ser copiado em mais de uma pasta do projeto para fins organizacionais.
 
@@ -28,38 +28,45 @@ Você pode criar um projeto ao fazer upload de arquivos ou criar projetos no Pai
 
 >[!NOTE]
 >
->O Dynamic Media Classic recomenda organizar ativos com metadados em vez de Projetos. Consulte [Visualização, adição e exportação de metadados](viewing-adding-exporting-metadata.md).
+>O Dynamic Media Classic recomenda organizar ativos com metadados em vez de Projetos. Consulte [Visualizar, adicionar e exportar metadados](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
->Para que você organize ativos no Projects, o administrador deve ter configurado você para usá-los. Se você não vir uma seção da pasta Projetos na parte inferior da Biblioteca de ativos, esse método de organização de ativos não estará disponível para você. Consulte Configurações gerais [do aplicativo](application-setup.md#general-settings).
+>Para que você organize ativos no Projects, o administrador deve ter configurado você para usá-los. Se você não vir uma seção da pasta Projetos na parte inferior da Biblioteca de ativos, esse método de organização de ativos não estará disponível para você. Consulte [Configurações gerais do aplicativo](application-setup.md#general-settings).
 
-## Criação de uma pasta de projeto {#creating-a-project-folder}
+## Criando uma pasta de projeto {#creating-a-project-folder}
 
 Você pode criar uma pasta de projeto começando na Biblioteca de ativos ou ao fazer upload de arquivos para o Dynamic Media Classic:
 
-* **Na Biblioteca** de ativos, role até a parte inferior da Biblioteca de ativos, até a seção Projetos e selecione o botão Adicionar projeto . Em seguida, insira um nome para o projeto.
+* **Na**
+Biblioteca de ativos, role até a parte inferior da Biblioteca de ativos, até a seção Projetos e selecione o botão Adicionar projeto . Em seguida, insira um nome para o projeto.
 
-* **Ao fazer upload de arquivos** Na tela Upload, selecione o menu Adicionar ao projeto e escolha Criar projeto. Em seguida, insira um nome para o projeto.
+* **Ao carregar**
+arquivosNa tela Carregar, selecione o menu Adicionar ao projeto e escolha Criar projeto. Em seguida, insira um nome para o projeto.
 
 >[!NOTE]
 >
 >A área Projetos na Biblioteca de ativos é uma lista de pasta de nível único; não permite subpastas.
 
-## Trabalhar com pastas do projeto {#working-with-project-folders}
+## Trabalhar com pastas do Project {#working-with-project-folders}
 
 Siga estas instruções para exibir, excluir e renomear uma pasta de projeto:
 
-* **Navegação no conteúdo** Selecione o nome da pasta na Biblioteca de ativos. Seus ativos são exibidos no Painel de navegação.
+* **Navegação no**
+conteúdoSelecione o nome da pasta na Biblioteca de ativos. Seus ativos são exibidos no Painel de navegação.
 
-* **Excluindo pastas** de projetoSelecione a pasta Projeto e o botão Remover projeto . A exclusão de ativos de uma pasta de projeto não os exclui do Dynamic Media Classic; os ativos permanecem nas pastas originais em que estão armazenados.
+* **Excluindo**
+pastas de projetoSelecione a pasta Projeto e o botão Remover projeto . A exclusão de ativos de uma pasta de projeto não os exclui do Dynamic Media Classic; os ativos permanecem nas pastas originais em que estão armazenados.
 
-* **Renomeando pastas** de projeto - clique noDuplo da pasta no Painel de ativos e digite um novo nome.
+* **Renomeando**
+pastas de projetoClique duas vezes no nome da pasta no Painel de ativos e insira um novo nome.
 
-## Adicionar ativos a uma pasta de projeto {#adding-assets-to-a-project-folder}
+## Adicionar ativos a uma pasta do Project {#adding-assets-to-a-project-folder}
 
 Você pode adicionar imagens a uma pasta de projeto começando no Painel de navegação ou quando carrega arquivos no Dynamic Media Classic:
 
-* **No painel** Procurar, selecione os ativos e arraste-os para uma pasta de projeto. Você também pode escolher Arquivo > Adicionar ao projeto, selecionar o nome da pasta Projeto na caixa de diálogo Selecionar projeto e selecionar o botão Enviar.
+* **No**
+painel ProcurarSelecione os ativos e arraste-os para a pasta Projeto. Você também pode escolher Arquivo > Adicionar ao projeto, selecionar o nome da pasta Projeto na caixa de diálogo Selecionar projeto e selecionar o botão Enviar.
 
-* **Ao fazer upload de arquivos** Na tela Upload, clique no botão Opções de trabalho. Na caixa de diálogo Carregar opções de trabalho, escolha Projetos e selecione um nome de projeto.
+* **Ao carregar**
+arquivosNa tela Carregar, clique no botão Opções de trabalho. Na caixa de diálogo Carregar opções de trabalho, escolha Projetos e selecione um nome de projeto.
