@@ -28,14 +28,14 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 * O painel Dados do Painel de Informações permite que você especifique um arquivo CSV que contém o texto que deseja que seja exibido no texto de sobreposição do painel de informações, bem como os horários de agendamento para a atualização das informações.
 * A caixa de diálogo Importar metadados permite importar um arquivo TXT delimitado por tabulação que contém as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Dados do InfoPanel com a opção de arquivo CSV para o texto de sobreposição.
 
-## Configurar um modelo de resposta para Conjuntos de imagens {#set-up-a-response-template-for-image-sets}
+## Configurar um modelo de resposta para Conjuntos de Imagens {#set-up-a-response-template-for-image-sets}
 
 Você pode selecionar um dos três modelos de resposta predefinidos para exibir texto em um Painel de informações. Esses modelos de resposta predefinidos determinam como suas informações são apresentadas no Painel de informações: quantas colunas e linhas, tamanho da fonte, fonte e assim por diante. Você pode selecionar um modelo de resposta predefinido ou criar um deles.
 
 **Para configurar um modelo de resposta**
 
-1. Clique com o Duplo do mouse em seu Conjunto de imagens para abri-lo na Visualização Detalhe.
-1. Clique em Configuração **do** InfoPanel para desdobrar o painel.
+1. Clique com o duplo do mouse em seu Conjunto de imagens para abri-lo na Visualização Detalhe.
+1. Clique em **Configuração do InfoPanel** para desdobrar o painel.
 1. Na lista suspensa Modelo de resposta, execute um dos procedimentos a seguir:
 
    * Selecione Padrão para usar a resposta padrão. O XML para o design de modelo é exibido, esmaecido, na caixa de texto Modelo do usuário.
@@ -47,7 +47,7 @@ Você pode selecionar um dos três modelos de resposta predefinidos para exibir 
    * Defina um número menor se os dados forem atualizados com frequência ao longo do dia.
    * Defina um número maior se os dados estiverem relativamente estáveis e não precisarem ser atualizados com frequência ao longo do dia. O padrão é dez horas.
 
-1. Clique em **Carregar** para fazer upload do conteúdo do painel de informações, com base nos valores de rollover_key, para s7info.
+1. Clique em **Carregar** para fazer upload do conteúdo do painel de informações, com base nos valores de roll_key, para s7info.
 1. Na caixa de diálogo S7Info Upload, navegue até o arquivo que deseja usar e clique em **Carregar**.
 
    Os formatos de arquivo suportados são arquivos delimitados por TAB com codificação UTF-16 e arquivos CSV com codificação ASCII. Para arquivos CSV, caracteres que não sejam ASCII devem ser codificados em HTML.
@@ -66,12 +66,12 @@ Ao formatar o conteúdo de origem, lembre-se das seguintes diretrizes:
 
 ### Importar conteúdo CSV para conjuntos de imagens de um local hospedado externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
-1. Clique com o Duplo do mouse no Conjunto de imagens para abri-lo na Visualização Detalhe.
+1. Clique com o duplo do mouse no Conjunto de imagens para abri-lo na Visualização Detalhe.
 1. Clique em **InfoPanel Datafeed** para desdobrar o painel.
 1. No campo de texto Local do arquivo CSV hospedado externamente (HTTP), insira o URL para o arquivo CSV.
 1. (Opcional) Nos campos Agendar atualização, especifique um horário para atualizar o conteúdo e clique em **Adicionar**.
 
    Você pode selecionar várias vezes para atualização. Cada hora de atualização é exibida na caixa de texto Atualizar horas. Para remover um horário agendado, selecione-o e clique em **Excluir**.
 
-1. (Opcional) Clique em **Executar atualização** para atualizar imediatamente o conteúdo.
+1. (Opcional) Clique em **Executar Atualização** para atualizar imediatamente o conteúdo.
 
