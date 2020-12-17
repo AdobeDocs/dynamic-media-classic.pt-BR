@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Configuração das predefinições do Visualizador de zoom{#setting-up-zoom-viewer-presets}
+# Configuração das predefinições do visualizador de zoom{#setting-up-zoom-viewer-presets}
 
 As predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Dynamic Media Classic oferta várias opções para personalizar e aprimorar visualizadores. O Dynamic Media Classic é fornecido com predefinições básicas (rápidas), fly-out e personalizadas do Visualizador de zoom. Se você for um administrador, poderá criar novas predefinições do visualizador de zoom de empresa ou editar uma predefinição padrão e salvá-la com um novo nome.
 
@@ -28,32 +28,39 @@ Todos os Visualizadores de zoom têm botões para aumentar o zoom, diminuir o zo
 
 O Dynamic Media Classic oferta estas predefinições do Visualizador de zoom:
 
-* **Visualizador de zoom: Básico** Fornece um zoom básico na imagem original.
+* **Visualizador de zoom:**
+BásicoFornece um zoom básico na imagem original.
 
-* **Visualizador de zoom: Reverter** Exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção para a área que desejam visualização.
+* **Visualizador de zoom: Reverter**
+Exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção para a área que desejam visualização.
 
 Ao determinar o uso total da largura de banda para esse visualizador, considere que a imagem principal e a imagem flyout são servidas no visualizador. O tamanho da imagem do flyout é determinado pelo tamanho da imagem principal (Largura e Altura do Palco) e pelo Fator de Zoom. Para impedir que o tamanho do arquivo de menu suspenso se torne muito grande, equilibre estes dois valores: se você tiver um tamanho de imagem principal grande, abaixe o valor do Fator de zoom. (A Largura do Flyout e a Altura do Flyout determinam o tamanho da janela do flyout, mas não o tamanho da imagem do flyout fornecida para o visualizador.)
 
 Por exemplo, se o tamanho da sua imagem principal for 350 por 350 pixels, com um Fator de zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 
-O Dynamic Media Classic recomenda estes parâmetros para predefinições de zoom do visualizador de fly-out:
+O Dynamic Media Classic recomenda estes parâmetros para as predefinições de zoom do visualizador de fly-out:
 
-* **Tamanho** de imagem ampliado Aproximadamente 1500 por 1500 pixels, não excedendo 2000 por 2000 pixels.
+* **Tamanho da imagem ampliadaAproximadamente 1500 por 1500 pixels, não excedendo 2000 por 2000 pixels.**
 
-* **Tamanho** de imagem igual ou inferior a100KB, não deve exceder 150KB (compacte o arquivo para mantê-lo abaixo de 150KB).
 
-* **Visualizador de zoom: Personalizado** Fornece zoom guiado ou não guiado com imagens, Conjuntos de imagens com várias visualizações ou Conjuntos de amostras de cores.
+* **Tamanho**
+ de imagem igual ou inferior a100KB, não deve exceder 150KB (compacte o arquivo para mantê-lo abaixo de 150KB).
 
-## Criação e edição de predefinições do Visualizador de zoom {#creating-and-editing-zoom-viewer-presets}
+* **Visualizador de zoom:**
+PersonalizadoFornece zoom guiado ou não guiado com imagens, Conjuntos de imagens com várias visualizações ou Conjuntos de amostras de cores.
+
+## Criação e edição de Predefinições do Visualizador de Zoom {#creating-and-editing-zoom-viewer-presets}
 
 Siga estas etapas para criar ou editar uma predefinição do visualizador de zoom:
 
-1. Clique em **Configuração** > Predefinições **do visualizador**.
+1. Clique em **Configuração** > **Predefinições do visualizador**.
 1. Execute um dos procedimentos a seguir:
 
-   * **Criação de uma predefinição** Clique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um Visualizador de zoom e clique em Adicionar. Digite um nome para a predefinição na caixa Nome da predefinição.
+   * **Criação de uma**
+predefiniçãoClique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um Visualizador de zoom e clique em Adicionar. Digite um nome para a predefinição na caixa Nome da predefinição.
 
-   * **Edição de uma predefinição** Selecione uma predefinição do visualizador de zoom e clique em 
+   * **Edição de uma**
+predefiniçãoSelecione uma predefinição do visualizador de zoom e clique em 
 **Editar**.
 
 1. Especifique as configurações conforme desejado.
@@ -65,7 +72,7 @@ Siga estas etapas para criar ou editar uma predefinição do visualizador de zoo
 1. Clique em **Salvar** ou **Salvar como**.
 1. Na tela Predefinições do visualizador, examine a predefinição do visualizador de zoom ou a predefinição do visualizador de zoom guiado que você criou. Se precisar de ajuste, clique em **Editar**, altere as configurações na tela Configurar visualizador e clique em **Salvar**.
 
-Para obter informações sobre como gerenciar predefinições do visualizador na tela Predefinições do visualizador, consulte Predefinições [do visualizador](application-setup.md#viewer_presets).
+Para obter informações sobre como gerenciar predefinições do visualizador na tela Predefinições do visualizador, consulte [Predefinições do visualizador](application-setup.md#viewer_presets).
 
 >[!MORELIKETHIS]
 >
