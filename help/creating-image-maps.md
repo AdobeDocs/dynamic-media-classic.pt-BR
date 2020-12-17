@@ -35,21 +35,21 @@ Ao criar Mapas de imagem, você pode fazer o seguinte:
 * Defina outras ações, conforme determinado pelo World Wide Web Consortium.
 * Mapas de imagem de pré-visualização.
 
-## Desenho e ajuste de um Mapa de imagem {#drawing-and-adjusting-an-image-map}
+## Desenhando e ajustando um Mapa de imagem {#drawing-and-adjusting-an-image-map}
 
 1. Execute um dos procedimentos a seguir:
 
-   * Se você estiver trabalhando com uma imagem na Visualização de grade ou na Visualização de Lista, na lista suspensa Editar, clique em **Mapa** de imagem. Ou abra-o em Visualização de detalhes e clique em Mapa **de** imagem acima da imagem.
-   * Se você estiver trabalhando com um SpinSet na Visualização de grade ou na Visualização de Lista, clique em **Editar**. Ou abra-o em Visualização de detalhes e clique em **Editar**. Selecione um ativo de imagem e clique em Mapa de **imagem**.
-   * Se você estiver trabalhando com um eCatalog, na Visualização de grade, na Visualização de Lista, na Visualização de detalhes, clique em **Editar**. Clique na guia **Mapear páginas** .
+   * Se você estiver trabalhando com uma imagem na Visualização de grade ou na Visualização de Lista, na lista suspensa Editar, clique em **Mapa de imagem**. Ou abra-o na Visualização Detalhe e clique em **Mapa de imagem** acima da imagem.
+   * Se você estiver trabalhando com um SpinSet na Visualização de grade ou na Visualização de Lista, clique em **Editar**. Ou abra-o na Visualização Detalhe e clique em **Editar**. Selecione um ativo de imagem e clique em **Mapa de imagem**.
+   * Se você estiver trabalhando com um eCatalog, na Visualização de grade, na Visualização de Lista, na Visualização Detalhe, clique em **Editar**. Clique na guia **Mapear páginas**.
 
    ![](assets/ma_image_map.png)
 
 1. Desenhe um Mapa de imagem retangular ou poligonal (de muitos lados):
 
-   **Mapa** retangular Selecione a ferramenta Mapa de imagem de retângulo e arraste na página para criar o retângulo. Para adicionar um ponto a um mapa retangular (alterando-o, portanto, para um mapa de polígono), pressione Ctrl, depois insira a ferramenta de inserção no local desejado e clique.
+   **Mapa retangularSelecione a ferramenta Mapa de imagem do retângulo e arraste na página para criar o retângulo.** Para adicionar um ponto a um mapa retangular (alterando-o, portanto, para um mapa de polígono), pressione Ctrl, depois insira a ferramenta de inserção no local desejado e clique.
 
-   **Mapa** poligonal Selecione a ferramenta Mapa de imagem de polígono e clique nos pontos no perímetro da área da imagem que você deseja incluir. Use o controle deslizante de densidade do polígono para variar a densidade do ponto no polígono. A densidade original será lembrada se você selecionar outros mapas. Se algum ponto for adicionado, excluído ou movido no polígono, a densidade original será perdida e o controle deslizante será redefinido para seu valor máximo.
+   **Mapa poligonalSelecione a ferramenta Mapa de imagem de polígono e pontos de clique no perímetro da área da imagem que você deseja incluir.** Use o controle deslizante de densidade do polígono para variar a densidade do ponto no polígono. A densidade original será lembrada se você selecionar outros mapas. Se algum ponto for adicionado, excluído ou movido no polígono, a densidade original será perdida e o controle deslizante será redefinido para seu valor máximo.
 
 1. Digite um nome para o Mapa de imagem, se desejado, na lista do Mapa de imagem. Depois de desenhar um Mapa de imagem, o Dynamic Media Classic atribui um nome a ele.
 
@@ -62,7 +62,7 @@ Ao criar Mapas de imagem, você pode fazer o seguinte:
 1. Para exibir o texto de sobreposição quando os usuários movem o ponteiro sobre o Mapa de imagem, insira o texto na lista do Mapa de imagem. Na lista do Mapa de imagem, selecione o menu Mostrar e escolha Texto de sobreposição. Em seguida, insira o texto que deseja que os usuários vejam na tela. Você pode gravar o texto em um processador de texto e copiá-lo no campo de texto Sobreposição.
 1. Se você quiser que outro efeito de ação ocorra quando os usuários moverem o mouse sobre um Mapa de imagem, defina a ação. Na lista suspensa Exibir, clique em Outras ações. Informe os atributos da ação. (Clique em Mostrar > Ambos para criar um texto de sobreposição e uma ação para um Mapa de imagem.)
 
-   Consulte [Definição de outras ações para Mapas](creating-image-maps.md#defining_other_actions_for_image_maps)de imagens.
+   Consulte [Definição de outras ações para os Mapas de imagem](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. (Opcional) Execute um dos procedimentos a seguir:
 
@@ -76,17 +76,17 @@ Ao criar Mapas de imagem, você pode fazer o seguinte:
 
 Para alterar a posição, a forma e o tamanho de um Mapa de imagem, selecione o botão Mapa de imagem. Em seguida, selecione a ferramenta Deslocamento e siga estas instruções:
 
-**Alteração da posição** Mova o ponteiro para perto, mas não acima, da borda do Mapa de imagem. Quando você vir o ícone de seta de quatro pontas, arraste o mapa até um novo local.
+**Alteração da** posiçãoMova o ponteiro para perto, mas não acima, da borda do Mapa de imagem. Quando você vir o ícone de seta de quatro pontas, arraste o mapa até um novo local.
 
-**Alteração do tamanho e da forma** Como você altera a forma e o tamanho de um Mapa de imagem depende se você está trabalhando com um Mapa de imagem retangular ou poligonal:
+**Alteração do tamanho e da** formaComo você altera a forma e o tamanho de um Mapa de imagem depende de se você está trabalhando com um Mapa de imagem retangular ou poligonal:
 
 ***Dica **: Você pode arrastar o controle deslizante Tamanho na parte inferior da tela para alterar as visualizações e obter uma melhor visualização do Mapa de imagem.*
 
-**Mapa** de imagem retangularMove o ponteiro sobre um lado ou canto do Mapa de imagem. Quando você vê o ícone de seta com cabeça de duplo, o start arrasta. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas mantém a proporção (a forma).
+**Mapa de imagem retangularMove o ponteiro sobre um lado ou canto do Mapa de imagem.** Quando você vê o ícone de seta com cabeça de duplo, o start arrasta. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas mantém a proporção (a forma).
 
-**Mapa** de imagem poligonal Arraste uma alça de seleção quadrada. Para criar uma alça de seleção, clique na borda do Mapa de imagem e arraste do start.
+**Mapa de imagem poligonalArraste uma alça de seleção quadrada.** Para criar uma alça de seleção, clique na borda do Mapa de imagem e arraste do start.
 
-### Manuseio de mapas de imagem sobrepostos {#handling-overlapping-image-maps}
+### Tratamento de mapas de imagem sobrepostos {#handling-overlapping-image-maps}
 
 Se a sua imagem ou página de eCatalog incluir mais de um Mapa de imagem e os mapas se sobrepuserem, você poderá determinar como os mapas se sobrepõem. Para fazer isso, altere a ordem dos mapas na lista do Mapa de imagem. Arraste seus nomes para cima ou para baixo na lista. A altura de um nome na lista determina se o Mapa de imagem sobrepõe outros Mapas de imagem.
 
@@ -124,13 +124,13 @@ Por exemplo, copiar mapas de imagem em um eCatalog é uma maneira conveniente de
 
 ## Usar um modelo para inserir JavaScript e URLs {#using-a-template-to-enter-javascript-and-urls}
 
-Você pode definir um modelo de URL (também conhecido como modelo Href) para facilitar e tornar mais eficiente a inserção de URLs de mapa de imagem. Defina um modelo de URL se a maioria dos URLs do Mapa de imagem compartilharem um formato comum e fixo. Ao inserir a parte do URL que é fixa como modelo de URL, não é necessário inserir essa parte do URL sempre que criar um Mapa de imagem. Seu modelo de URL também pode conter comandos, nomes de caminho e parâmetros JavaScript. Por padrão, o modelo de URL contém um manipulador JavaScript proprietário do Dynamic Media Classic, chamado de `loadProduct` que abre a imagem em uma nova janela.
+Você pode definir um modelo de URL (também conhecido como modelo Href) para facilitar e tornar mais eficiente a inserção de URLs de mapa de imagem. Defina um modelo de URL se a maioria dos URLs do Mapa de imagem compartilharem um formato comum e fixo. Ao inserir a parte do URL que é fixa como modelo de URL, não é necessário inserir essa parte do URL sempre que criar um Mapa de imagem. Seu modelo de URL também pode conter comandos, nomes de caminho e parâmetros JavaScript. Por padrão, o modelo de URL contém um manipulador JavaScript do Dynamic Media Classic proprietário chamado `loadProduct` que abre a imagem em uma nova janela.
 
 >[!NOTE]
 >
 >Lembre-se de que quando você adiciona o código Javascript ao atributo HREF do mapa de imagem, o código é executado no computador do cliente. Portanto, verifique se o código Javascript está seguro.
 
-### Sobre modelos de URL {#about-url-templates}
+### Sobre os modelos de URL {#about-url-templates}
 
 O modelo de URL funciona substituindo o conteúdo da coluna URL na lista do Mapa de imagem pelos sinais em dólar de duplo (‘$$’) no modelo:
 
@@ -144,7 +144,7 @@ Você coloca todos os valores que não são alterados entre os Mapas de imagem n
 * Valor do URL: `product.htm`
 * URL real gerado: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Por padrão, o modelo de URL inclui um manipulador JavaScript proprietário do Dynamic Media Classic, chamado `loadProduct` que abre uma nova janela com o destino do URL. No entanto, você pode usar qualquer código JavaScript para substituir esse manipulador JavaScript ou usar um dos seguintes manipuladores do Dynamic Media Classic:
+Por padrão, o modelo de URL inclui um manipulador JavaScript do Dynamic Media Classic proprietário chamado `loadProduct` que abre uma nova janela com o destino do URL. No entanto, você pode usar qualquer código JavaScript para substituir esse manipulador JavaScript ou usar um dos seguintes manipuladores Dynamic Media Classic:
 
 * `loadProductCW`
 
@@ -154,33 +154,33 @@ Por padrão, o modelo de URL inclui um manipulador JavaScript proprietário do D
 
    Exibe o público alvo de URL especificado na coluna URL na janela pai (a página que abriu a atual). A janela atual permanece aberta, mas a janela pai é alterada para exibir o público alvo de URL.
 
-   ***observação **: O manipulador `loadProductPW` não suporta visualizadores DHTML e HTML5.*
+   ***observação **: O manipulador  `loadProductPW` não suporta visualizadores DHTML e HTML5.*
 
-### Creating a URL template {#creating-a-url-template}
+### Criando um modelo de URL {#creating-a-url-template}
 
 Para criar um modelo de URL:
 
 1. Na tela do Editor de mapa (imagens ou Conjuntos de rotação) ou na guia Páginas de mapa da tela eCatalog (eCatalogs), selecione Editar ao lado da opção Modelo de URL. A caixa de diálogo Editar modelo de mapa é aberta.
-1. Insira o código JavaScript e o URL completo (com a parte variável substituída por dólar sign [$$]). Você pode colar o código clicando com o botão direito do mouse e escolhendo Colar.
+1. Insira o código JavaScript e o URL completo (com a parte variável substituída pelos sinais em dólar [$]). Você pode colar o código clicando com o botão direito do mouse e escolhendo Colar.
 1. Selecione o botão Salvar.
 
-### Manuseio de modelos de URL {#handling-url-templates}
+### Tratamento de modelos de URL {#handling-url-templates}
 
 As páginas do Editor de mapa (imagens e Conjuntos de rotação) e a guia Páginas de mapa da tela eCatalog (eCatalogs) oferta estes comandos para manipular modelos de URL:
 
-**Opção** Modelo de URL Selecione a opção Modelo de URL para aplicar seu modelo de URL a todos os Mapas de imagem em uma página de imagem ou eCatalog.
+**Opção Modelo de URL** Selecione a opção Modelo de URL para aplicar seu modelo de URL a todos os Mapas de imagem em uma imagem ou página de eCatalog.
 
-**Opção** Modelo Desmarque uma opção Modelo na lista Mapa de imagem do URL se não quiser que um Mapa de imagem individual use o modelo de URL.
+**** Opção ModeloDesmarque uma opção Modelo na lista do mapa de imagem do URL se não quiser que um mapa de imagem individual use o modelo de URL.
 
 ## Definição de outras ações para Mapas de imagem {#defining-other-actions-for-image-maps}
 
 Você pode selecionar o menu Mostrar e escolher Outras ações para acionar ações diferentes de texto de sobreposição e inicializações de página da Web. Quando o usuário move o ponteiro sobre um Mapa de imagem, você pode iniciar uma ação. Essas ações são atributos definidos para mapas de imagem do lado do cliente pelas especificações HTML do World Wide Web Consortium. Eles incluem:
 
-**a tecla de ACESSO** Aciona uma ação quando o usuário pressiona uma tecla designada no teclado.
+**access** KeyAciona uma ação quando o usuário pressiona uma tecla designada no teclado.
 
-**onfocus** Aciona um evento quando o Mapa de imagem recebe foco — pelo cursor, tabulação ou pressionando uma tecla de acesso. Por exemplo, você pode iniciar uma página da Web quando o Mapa de imagem receber foco e fechá-lo quando o Mapa de imagem perder foco.
+**** onfocusAciona um evento quando o Mapa de imagem recebe foco — pelo cursor, tabulação ou pressionando uma tecla de acesso. Por exemplo, você pode iniciar uma página da Web quando o Mapa de imagem receber foco e fechá-lo quando o Mapa de imagem perder foco.
 
-**o Desfoque** Aciona um evento quando o Mapa de imagem perde o foco, seja pelo cursor ou por tabulação.
+**** DesfoqueAciona um evento quando o Mapa de imagem perde o foco, seja pelo cursor ou por tabulação.
 
 **Definição de outras ações para Mapas de imagens**
 
@@ -194,7 +194,7 @@ Selecione o menu Mostrar e escolha Ambos se quiser que um Mapa de imagem tenha u
 
 Você pode criar mapas de imagem ao projetar seu eCatalog no Adobe Acrobat ou Adobe InDesign.
 
-No Acrobat ou InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem apareçam e especifique os locais de URL para o mapa de imagem. A seleção da opção Extrair links ao carregar o arquivo PDF no Dynamic Media Classic converte automaticamente os links para Mapas de imagens.
+No Acrobat ou InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem apareçam e especifique os locais de URL para o mapa de imagem. Selecionar a opção Extrair links ao carregar o arquivo PDF no Dynamic Media Classic converte automaticamente os links para os mapas de imagem.
 
 Para obter mais informações, consulte Ajuda do InDesign ou Ajuda do Acrobat.
 
@@ -204,7 +204,7 @@ Para obter mais informações, consulte Ajuda do InDesign ou Ajuda do Acrobat.
 1. Selecione o texto, quadro ou gráfico que deseja transformar em um Mapa de imagem.
 1. No painel Hiperlinks, clique em Novo hiperlink no menu do painel.
 1. Na caixa de diálogo Novo hiperlink, escolha URL no menu Vincular a.
-1. Digite ou cole a ID do produto na caixa URL e clique em OK. (O Dynamic Media Classic conclui o URL usando o modelo de URL do Mapa de imagem.)
+1. Digite ou cole a ID do produto na caixa URL e clique em OK. (O Dynamic Media Classic preenche o URL usando o modelo de URL do Mapa de imagem.)
 
    >[!NOTE]
    >
@@ -224,7 +224,7 @@ Para obter mais informações, consulte Ajuda do InDesign ou Ajuda do Acrobat.
 
 1. Na caixa Propriedades do link, clique em Ações.
 1. Selecione Abrir um link da Web no menu Selecionar ação e clique em Adicionar.
-1. Digite a ID do produto para o Mapa de imagem na caixa Editar URL e clique em OK. (O Dynamic Media Classic conclui o URL usando o modelo de URL do mapa de imagem.)
+1. Digite a ID do produto para o Mapa de imagem na caixa Editar URL e clique em OK. (O Dynamic Media Classic preenche o URL usando o modelo de URL do mapa de imagem.)
 1. Repita as etapas de 1 a 7 para todos os Mapas de imagem que deseja criar.
 1. Salve o arquivo.
 1. Carregue o PDF no Dynamic Media Classic e selecione Extrair links nas Opções do PDF.
