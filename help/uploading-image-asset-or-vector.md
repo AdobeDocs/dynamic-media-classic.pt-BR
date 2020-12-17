@@ -23,23 +23,23 @@ Antes de poder carregar um ativo de imagem, solicite primeiro uma chave de segre
 
 ## Solicitação de uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicite uma chave *de segredo* compartilhado [usando a Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Em seu caso de suporte, solicite uma chave de segredo compartilhado.
+Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Em seu caso de suporte, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Dynamic Media Classic, salve-a localmente para uso futuro.
 
 ## Recuperando o token de upload {#retrieving-the-upload-token}
 
-O token *de* upload garante que ninguém possa usar a mesma chave de segredo compartilhado para fazer upload de ativos. Ele garante que o upload seja legítimo e provém de uma fonte confiável.
+O *token de carregamento* garante que ninguém possa usar a mesma chave de segredo compartilhado para fazer upload de ativos. Ele garante que o upload seja legítimo e provém de uma fonte confiável.
 
 O token de upload é uma sequência de caracteres alfanuméricos que está disponível somente por um período específico. Use os seguintes URLs, substituindo sua chave de segredo compartilhado, para recuperar o token de upload.
 
 * Imagem
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Neste exemplo, a chave shared-secret é `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Neste exemplo, a chave shared-secret é  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * Vetor
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`Neste exemplo, a chave shared-secret é `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`Neste exemplo, a chave shared-secret é  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
-Por padrão, o token de upload expira cinco minutos (300 segundos) depois que você o recupera. Para solicitar mais tempo, inclua `expires` o URL e o tempo necessário em segundos. Por exemplo, o URL de exemplo a seguir recupera um token de upload válido por 1800 segundos:
+Por padrão, o token de upload expira cinco minutos (300 segundos) depois que você o recupera. Para solicitar mais tempo, inclua `expires` no URL e o tempo necessário em segundos. Por exemplo, o URL de exemplo a seguir recupera um token de upload válido por 1800 segundos:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -88,9 +88,9 @@ Você pode usar os seguintes campos na string do URL do query para recuperar um 
 
 Agora é possível carregar um ativo de imagem.
 
-Consulte [Fazer upload de um ativo](uploading-image-asset-or-vector.md#uploading_an_image_asset)de imagem.
+Consulte [Carregar um ativo de imagem](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Fazer upload de um ativo de imagem {#uploading-an-image-asset}
+## Upload de um ativo de imagem {#uploading-an-image-asset}
 
 Depois de recuperar um token de upload válido por um período específico, você pode fazer upload de um ativo de imagem. Você faz upload do ativo como uma publicação multipart/form ao enviar o restante dos valores como uma string de query de URL, como mostra este exemplo:
 
@@ -100,9 +100,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Os campos `upload_token` e `company_name` são obrigatórios.
 
-Consulte [Recuperar o token](uploading-image-asset-or-vector.md#retrieving_the_upload_token)de upload.
+Consulte [Recuperando o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulte [Recuperando uma chave](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)de segredo compartilhado.
+Consulte [Recuperando uma chave de segredo compartilhado](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Você também pode enviar outros valores opcionais como sequências de caracteres de query de URL, como neste exemplo:
 
@@ -110,7 +110,7 @@ Você também pode enviar outros valores opcionais como sequências de caractere
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-O `file_limit` parâmetro especifica o limite de tamanho de arquivo em bytes. O `file_exts` parâmetro especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
+O parâmetro `file_limit` especifica o limite de tamanho de arquivo em bytes. O parâmetro `file_exts` especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
 
 Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviar na solicitação for um subconjunto dos limites globais, ele será atendido. Os limites globais são os seguintes:
 
@@ -126,7 +126,7 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
 * A preservação ou não do perfil de cor e do nome de arquivo associados ao ativo.
-* Usar ou não o Plano de fundo de separação. Se você ativar o Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento. Consulte Plano de fundo de separação nas opções de edição de [imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* Usar ou não o Plano de fundo de separação. Se você ativar o Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento. Consulte Informações gerais em [Opções de edição de imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado
 
 <!-- 
@@ -145,9 +145,9 @@ Você pode visualização o código-fonte HTML associado ao formulário acima cl
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito do mouse na janela do navegador e clique em Origem **da página de** Visualização. O código mostra a string de query do URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
+No Firefox, clique com o botão direito do mouse na janela do navegador e, em seguida, clique em **Origem da página de Visualização**. O código mostra a string de query do URL correspondente e o método POST que são executados quando o usuário clica em **Submit**.
 
-Para visualização da resposta XML no Internet Explorer, clique em **Visualização > Fonte**. Para visualização da resposta XML no Firefox, clique em **Ferramentas > Desenvolvedor da Web > Origem** da página. O Firefox é recomendado para exibir respostas XML.
+Para visualização da resposta XML no Internet Explorer, clique em **Visualização > Origem**. Para visualização da resposta XML no Firefox, clique em **Ferramentas > Desenvolvedor da Web > Fonte da página**. O Firefox é recomendado para exibir respostas XML.
 
 A seguir está uma amostra de resposta de um upload bem-sucedido:
 
@@ -205,7 +205,7 @@ Envie o ativo para fazer upload como uma publicação multiparte/formulário ao 
 
 POST
 
-### Obter metadados de ativos para imagens {#getting-asset-metadata-for-images}
+### Obtenção de metadados de ativos para imagens {#getting-asset-metadata-for-images}
 
 Você pode usar `image_info` para recuperar metadados de um ativo que você carregou, como mostrado no exemplo a seguir:
 
@@ -253,7 +253,7 @@ Você pode usar os seguintes campos na sequência de query do URL para solicitar
 
 GET e POST
 
-## Fazer upload de um ativo vetorial {#uploading-a-vector-asset}
+## Carregando um ativo vetorial {#uploading-a-vector-asset}
 
 Depois de recuperar um token de upload válido por um período específico, você pode fazer upload de um ativo de vetor. Você faz upload do ativo como uma publicação multipart/form ao enviar o restante dos valores como uma string de query de URL, como mostra este exemplo:
 
@@ -263,9 +263,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Os campos `upload_token` e `company_name` são obrigatórios.
 
-Consulte [Recuperar o token](uploading-image-asset-or-vector.md#retrieving_the_upload_token)de upload.
+Consulte [Recuperando o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulte [Recuperando uma chave](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)de segredo compartilhado.
+Consulte [Recuperando uma chave de segredo compartilhado](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Você também pode enviar outros valores opcionais como sequências de caracteres de query de URL, como neste exemplo:
 
@@ -273,7 +273,7 @@ Você também pode enviar outros valores opcionais como sequências de caractere
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-O `file_limit` parâmetro especifica o limite de tamanho de arquivo em bytes. O `file_exts` parâmetro especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
+O parâmetro `file_limit` especifica o limite de tamanho de arquivo em bytes. O parâmetro `file_exts` especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
 
 Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviar na solicitação for um subconjunto dos limites globais, ele será atendido. Os limites globais são os seguintes:
 
@@ -289,7 +289,7 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
 * A preservação ou não do perfil de cor e do nome de arquivo associados ao ativo.
-* Usar ou não o Plano de fundo de separação. Se você ativar o Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento. Consulte Plano de fundo de separação nas opções de edição de [imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* Usar ou não o Plano de fundo de separação. Se você ativar o Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento. Consulte Informações gerais em [Opções de edição de imagens no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado
 
 <!-- 
@@ -304,7 +304,7 @@ Last Modified Date:
 
 ![]()
 
-O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em Origem **da** Visualização para o formulário mostrado na ilustração. O código mostra a string de query do URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
+O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em **Origem da Visualização** para o formulário mostrado na ilustração. O código mostra a string de query do URL correspondente e o método POST que são executados quando o usuário clica em **Submit**.
 
 ```as3
 <body> 
@@ -338,7 +338,7 @@ return true;
 </body>
 ```
 
-Para visualização da resposta XML no Internet Explorer, clique em **Visualização** > **Fonte**. Para visualização da resposta XML no Firefox, clique em **Visualização** > Fonte **** da página. O Firefox é recomendado para exibir respostas XML.
+Para visualização da resposta XML no Internet Explorer, clique em **Visualização** > **Origem**. Para visualização da resposta XML no Firefox, clique em **Visualização** > **Origem da página**. O Firefox é recomendado para exibir respostas XML.
 
 A seguir está uma amostra de resposta de um upload bem-sucedido:
 
