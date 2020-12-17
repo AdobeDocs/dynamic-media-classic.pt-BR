@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Geração de Conjunto de imagens automatizado{#automated-image-set-generation}
+# Geração de Conjunto de Imagens Automatizado{#automated-image-set-generation}
 
 <!-- 
 
@@ -40,6 +40,6 @@ Você pode automatizar a geração de conjuntos como um trabalho independente qu
    Por padrão, o trabalho recebe um nome que indica que ele é um trabalho gerado e quando o trabalho foi gerado.
 
 1. Selecione a predefinição que deseja aplicar.
-1. Clique em Pasta **de destino** e especifique a pasta que deseja usar.
+1. Clique em **Pasta de destino** e especifique a pasta que deseja usar.
 1. Clique em **Enviar**.
 
