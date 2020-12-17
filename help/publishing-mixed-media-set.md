@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Crie um trabalho de publicação para publicar um Conjunto de mídias mistas marcado para publicação no Dynamic Media Classic Video Server e no Image Server. Opções avançadas de publicação do Dynamic Media Classic oferta para publicação em servidores específicos e opções para republicação de ativos que já foram publicados.
 
-***observação **: Conjuntos de mídia mista exigem a publicação no**Video Server **e também no**Image Server **. Use o Servidor**de **vídeo para publicar os vídeos reais que você marcou para publicação. Além disso, você usa o Servidor**de **imagens para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.*
+***observação **: Conjuntos de mídia mista exigem a publicação no**Video **Server e também no**Image Server **. Use**Servidor de vídeo **para publicar os vídeos reais que você marcou para publicação. Além disso, você usa o**Servidor de imagens **para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.*
 
 O Dynamic Media Classic rastreia trabalhos de publicação na tela Tarefas.
 
@@ -42,21 +42,21 @@ Last Modified Date:
 
 1. Execute um dos procedimentos a seguir:
 
-   * No painel Procurar, clique em **Marcar para publicação** ao lado de cada nome de arquivo que você deseja publicar.
+   * No painel Procurar, clique em **Marcar para publicação** ao lado de cada nome de arquivo que deseja publicar.
    * Na tela Carregar, clique em **Marcar para publicação** ao lado de cada nome de arquivo que você deseja publicar.
 
 1. Na barra Navegação global, clique em **Publicar**.
 1. Defina as opções de agendamento desejadas.
-1. (Opcional) No campo Nome **da** tarefa, digite um nome para a tarefa de publicação.
-1. Nas opções **Avançadas** , na lista suspensa **Publicar para** , selecione Servidor **de** vídeo.
+1. (Opcional) No campo **Nome do trabalho**, digite um nome para o trabalho de publicação.
+1. Nas opções **Avançado**, na lista suspensa **Publicar em**, selecione **Servidor de vídeo**.
 
-   Consulte Opções [de publicação](publishing-files.md#advanced_publish_options) avançadas para obter opções adicionais que você pode definir.
+   Consulte [Opções avançadas de publicação](publishing-files.md#advanced_publish_options) para obter opções adicionais que você pode definir.
 
 1. Clique em **Enviar publicação**.
 1. Repita as etapas 2 a 4 acima.
-1. No **Advanced**, na lista suspensa **Publicar para** , selecione Servidor **de** imagens.
+1. Em **Avançado**, na lista suspensa **Publicar para**, selecione **Servidor de Imagens**.
 
-   Consulte Opções [de publicação](publishing-files.md#advanced_publish_options) avançadas para obter opções adicionais que você pode definir.
+   Consulte [Opções avançadas de publicação](publishing-files.md#advanced_publish_options) para obter opções adicionais que você pode definir.
 
 1. Clique em **Enviar publicação**.
 
