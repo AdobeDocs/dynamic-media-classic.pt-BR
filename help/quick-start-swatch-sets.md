@@ -20,29 +20,29 @@ ht-degree: 1%
 
 # Start rápido: Conjuntos de amostras{#quick-start-swatch-sets}
 
-Os Conjuntos de amostras do Dynamic Media Classic proporcionam aos usuários uma experiência de visualização integrada. No Visualizador do conjunto de amostras dinâmico, os usuários podem ver um item renderizado em uma cor, material, textura, acabamento ou malha diferente simplesmente clicando em uma miniatura.
+Os conjuntos de amostras clássicos do Dynamic Media oferecem aos usuários uma experiência de visualização integrada. No Visualizador do conjunto de amostras dinâmico, os usuários podem ver um item renderizado em uma cor, material, textura, acabamento ou malha diferente simplesmente clicando em uma miniatura.
 
 **Start rápido**
 
-O Start rápido Swatch Sets foi projetado para começar a funcionar rapidamente com as técnicas do Swatch Set no Dynamic Media Classic.
+Este Start rápido de conjuntos de amostras foi projetado para começar a funcionar rapidamente com as técnicas de conjunto de amostras no Dynamic Media Classic.
 
 **1. Carregamento de imagens e arquivos de amostra**
 
 Start carregando as imagens e os arquivos de amostra para seus Conjuntos de amostras.
 
-Clique em Fazer upload na barra de navegação global para fazer upload de arquivos do seu computador para uma pasta no Dynamic Media Classic. Consulte [Preparação de ativos do Conjunto de amostras para](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)fazer upload e [upload dos arquivos](uploading-files.md#uploading-your-files).
+Clique em Fazer upload na barra de navegação global para fazer upload de arquivos do seu computador para uma pasta no Dynamic Media Classic. Consulte [Preparando ativos do Conjunto de Amostras para fazer upload](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)e [Fazer upload dos arquivos](uploading-files.md#uploading-your-files).
 
 **2. Criação de um conjunto de amostras**
 
-Para criar um conjunto de amostras, clique em Criar > Conjuntos de amostras. Na tela Conjunto de amostras, arraste imagens e amostras de cores para a tela. Consulte [Criação de um conjunto](creating-swatch-set.md#creating-a-swatch-set)de amostras.
+Para criar um conjunto de amostras, clique em Criar > Conjuntos de amostras. Na tela Conjunto de amostras, arraste imagens e amostras de cores para a tela. Consulte [Criação de um conjunto de amostras](creating-swatch-set.md#creating-a-swatch-set).
 
 **3. Configuração das predefinições do visualizador do conjunto de amostras**
 
-Os administradores podem criar ou modificar predefinições do visualizador do conjunto de imagens. O Dynamic Media Classic vem com as predefinições de visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: Personalizado > Conjuntos de imagens/Amostras de cores predefinidas para visualização nos Conjuntos de amostras.
+Os administradores podem criar ou modificar predefinições do visualizador do conjunto de imagens. O Dynamic Media Classic vem com predefinições de visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: Personalizado > Conjuntos de imagens/Amostras de cores predefinidas para visualização nos Conjuntos de amostras.
 
-Consulte [Criação e edição de predefinições](application-setup.md#adding-and-editing-viewer-presets)do visualizador.
+Consulte [Criação e edição de predefinições do visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
-**4. Visualização de um conjunto de amostras**
+**4. Pré-visualização de um Conjunto de Amostras**
 
 Selecione o Conjunto de amostras no Painel de navegação e clique em Pré-visualização. Seu conjunto de amostras é exibido nesta tela. Clique na miniatura e nos ícones de amostra para examinar seu Conjunto de amostras no Visualizador selecionado. Você pode escolher visualizadores diferentes no menu Predefinições.
 
@@ -50,9 +50,9 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 **5. Publicar um conjunto de amostras**
 
-A publicação de um conjunto de amostras o coloca em servidores do Dynamic Media Classic e ativa a string do URL.
+A publicação de um Conjunto de amostras o coloca em servidores Dynamic Media Classic e ativa a string de URL.
 
-Clique no ícone **Marcar para publicação** à esquerda de seu nome no Painel de navegação. Em seguida, clique em **Publicar**. Na tela Publicar, clique em Publicar **** Start.
+Clique no ícone **Marcar para publicação** à esquerda de seu nome no Painel de navegação. Em seguida, clique em **Publicar**. Na tela Publicar, clique em **Publicar Start**.
 
 Consulte [Publicação](publishing-files.md#publishing-files).
 
@@ -60,4 +60,4 @@ Consulte [Publicação](publishing-files.md#publishing-files).
 
 O Dynamic Media Classic cria chamadas de URL para Conjuntos de amostras e as ativa após a publicação. Você pode copiar esses URLs da tela de Pré-visualização.
 
-Selecione o Conjunto de amostras e, em seguida, selecione o botão Pré-visualização. A tela Pré-visualização é aberta. Selecione uma Predefinição do visualizador do conjunto de amostras e selecione o botão Copiar URL. Consulte [Vincular um conjunto de amostras a uma página](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)da Web.
+Selecione o Conjunto de amostras e, em seguida, selecione o botão Pré-visualização. A tela Pré-visualização é aberta. Selecione uma Predefinição do visualizador do conjunto de amostras e selecione o botão Copiar URL. Consulte [Vincular um conjunto de amostras a uma página da Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
