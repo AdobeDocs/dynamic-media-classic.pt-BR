@@ -67,7 +67,7 @@ Quando você exclui um ativo, todos os ativos derivados dele também são exclu�
 
 Para excluir vários ativos ao mesmo tempo em toda a Biblioteca de ativos, é possível lista dos ativos que deseja excluir em um arquivo de texto e enviar a lista para o Dynamic Media Classic.
 
-Crie a lista de IDs do Dynamic Media Classic e salve-a como um arquivo de texto (.txt). Cada ID do Dynamic Media Classic deve estar em sua própria linha (seguido por um retorno fixo).
+Crie a lista de IDs do Dynamic Media Classic e salve-a como um arquivo de texto (.txt). Cada Dynamic Media Classic ID deve estar em sua própria linha (seguida de uma devolução em disco).
 
 Depois de criar a lista, siga estas etapas para usá-la para excluir ativos:
 
@@ -75,7 +75,7 @@ Depois de criar a lista, siga estas etapas para usá-la para excluir ativos:
 1. Na caixa de diálogo Excluir lista de ativo, procure ou digite o caminho para o arquivo de texto com a lista de ativos que deseja excluir.
 1. Clique no botão Excluir.
 
-Quando você exclui ativos com um arquivo de texto, se qualquer ID do Dynamic Media Classic não estiver na lista, uma mensagem é exibida informando que o Dynamic Media Classic é &quot;Não é possível validar essas entradas na lista:&quot; junto com a lista de entradas. No entanto, o Dynamic Media Classic não gerará um erro na tela Job.
+Quando você exclui ativos com um arquivo de texto, se qualquer ID do Dynamic Media Classic não estiver na lista, uma mensagem é exibida informando que o Dynamic Media Classic é &quot;Não é possível validar essas entradas na lista:&quot; junto com a lista de entradas. Entretanto, o Dynamic Media Classic não gerará um erro na tela Job.
 
 >[!MORELIKETHIS]
 >
