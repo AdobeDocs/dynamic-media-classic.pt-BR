@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Você pode usar o Adobe Analytics Instrumentation Kit para integrar um visualizador HTML5 ao Adobe Analytics.
 
-Se você usar qualquer uma das predefinições predefinidas do visualizador HTML5 do Dynamic Media Classic, esteja ciente de que elas já contêm todo o código de implementação necessário para enviar dados para a Adobe Analytics, nenhuma instrumentação adicional é necessária para você.
+Se você usar qualquer uma das predefinições do visualizador Dynamic Media Classic HTML5, esteja ciente de que elas já contêm todo o código de implementação necessário para enviar dados para a Adobe Analytics — nenhuma instrumentação adicional é necessária para você.
 
 ## Configurar o rastreamento do Adobe Analytics do Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -32,18 +32,18 @@ Para todos os visualizadores HTML5, adicione o seguinte JavaScript ao container 
 <!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-`Company` está definida como o nome da empresa do Dynamic Media Classic. `&preset` é opcional, a menos que o nome predefinido da empresa não seja `companypreset`. Nesses casos, poderia ser `companypreset-1, companypreset-2`, e assim por diante. O número mais alto é uma instância mais recente da predefinição. Para determinar o nome correto do valor predefinido de empresa, clique em **Copiar URL** e procure o `preset=`parâmetro para localizar o nome predefinido de empresa.
+`Company` está definida como o nome da empresa do Dynamic Media Classic. `&preset` é opcional, a menos que o nome predefinido da empresa não seja  `companypreset`. Nesses casos, pode ser `companypreset-1, companypreset-2`, e assim por diante. O número mais alto é uma instância mais recente da predefinição. Para determinar o nome correto do valor predefinido de empresa, clique em **Copiar URL** e, em seguida, verifique o parâmetro `preset=`para localizar o nome predefinido de empresa.
 
 Continuando, agora você adicionará uma função que transmite o evento do visualizador ao código de rastreamento do Adobe Analytics.
 
-Adicione a `s7ComponentEvent()` função ao HTML do container (ou JSP, ou ASPX ou outro):
+Adicione a função `s7ComponentEvent()` ao HTML do container (ou JSP, ou ASPX ou outro):
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-O nome da função faz distinção entre maiúsculas e minúsculas. O único parâmetro passado para `s7componentEvent`isso é obrigatório é o último: `eventData`. `s7track()` está definido em s_code.jsp incluído acima. `s7track` lida com todo o rastreamento por cada evento. (Para personalizar ainda mais os dados transmitidos à Adobe Analytics, essa área é o local para fazer isso.)
+O nome da função faz distinção entre maiúsculas e minúsculas. O único parâmetro passado para `s7componentEvent`que é obrigatório é o último: `eventData`. `s7track()` está definido em s_code.jsp incluído acima. `s7track` lida com todo o rastreamento por cada evento. (Para personalizar ainda mais os dados transmitidos à Adobe Analytics, essa área é o local para fazer isso.)
 
-## Habilitar eventos HREF e ITEM {#enabling-href-and-item-events}
+## Habilitando eventos HREF e ITEM {#enabling-href-and-item-events}
 
-Você pode ativar eventos HREF (sobreposição) e ITEM (cliques do mouse/toque) nos visualizadores por meio da edição do Mapa de imagem. Defina os identificadores para HREF e ITEM no Mapa de imagem que está associado ao conteúdo do visualizador. Adicione um `&rolloverKey=` parâmetro ao valor HREF no Mapa de imagem.
+Você pode ativar eventos HREF (sobreposição) e ITEM (cliques do mouse/toque) nos visualizadores por meio da edição do Mapa de imagem. Defina os identificadores para HREF e ITEM no Mapa de imagem que está associado ao conteúdo do visualizador. Adicione um parâmetro `&rolloverKey=` ao valor HREF no Mapa de imagem.
