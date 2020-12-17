@@ -22,13 +22,17 @@ ht-degree: 0%
 
 O Media Portal fornece as seguintes funções, cada uma com direitos de acesso e permissões diferentes. Ao se inscrever em um usuário, você atribui uma das seguintes funções ao usuário:
 
-* **Administrador** do Media Portal Pode adicionar e remover administradores, contribuidores e usuários. O administrador também pode definir direitos de acesso de grupo, gerenciar contas FTP, atribuir formatos de conversão aprovados pela empresa (predefinições), enviar emails para usuários do Portal de mídia e usar o portal de visualização e o relatórios do armazenamento.
+* **Media Portal**
+AdministratorPode adicionar e remover administradores, contribuidores e usuários. O administrador também pode definir direitos de acesso de grupo, gerenciar contas FTP, atribuir formatos de conversão aprovados pela empresa (predefinições), enviar emails para usuários do Portal de mídia e usar o portal de visualização e o relatórios do armazenamento.
 
-* **O usuário** do Media Portal tem acesso a pastas e arquivos. Um usuário só pode navegar, pré-visualização e baixar arquivos. Essa função é adequada para parceiros de canais ou serviços que precisam de acesso aos ativos aprovados pela empresa.
+* **Usuário do Media Portal**
+Tem acesso a pastas e arquivos. Um usuário só pode navegar, pré-visualização e baixar arquivos. Essa função é adequada para parceiros de canais ou serviços que precisam de acesso aos ativos aprovados pela empresa.
 
-* **Colaborador** do Portal de mídiaPode carregar, pré-visualização e procurar arquivos e metadados em áreas às quais um administrador concedeu permissões. Um contribuinte não pode baixar arquivos. Os contribuidores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
+* **Media Portal**
+ContributorPode carregar, pré-visualização e procurar arquivos e metadados em áreas às quais um administrador concedeu permissões. Um contribuinte não pode baixar arquivos. Os contribuidores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
 
-**Colaborador do Portal de mídia - O usuário** tem acesso a pastas e arquivos. Um contribuinte-usuário pode navegar, pré-visualização, baixar e carregar imagens e metadados. Os usuários-contribuidores podem alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
+**Colaborador do Portal de mídia -**
+UsuárioTem acesso a pastas e arquivos. Um contribuinte-usuário pode navegar, pré-visualização, baixar e carregar imagens e metadados. Os usuários-contribuidores podem alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
 
 Esta tabela descreve as tarefas que os usuários com diferentes funções podem fazer. Administradores e contribuidores-usuários podem fazer todas as tarefas listadas nesta tabela:
 
@@ -36,7 +40,7 @@ Esta tabela descreve as tarefas que os usuários com diferentes funções podem 
 |--- |--- |--- |--- |
 | Procurar pastas e arquivos | X | X | X |
 | Procurar metadados | X | X | X |
-| arquivos de Pré-visualização | X | X | X |
+| arquivos de pré-visualização | X | X | X |
 | Procurar ficheiros | X | X | X |
 | Carregar arquivos no Dynamic Media Classic |  | X | X |
 | Editar e importar metadados de ativos |  | X | X |
