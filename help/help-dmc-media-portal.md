@@ -22,4 +22,4 @@ ht-degree: 0%
 
 O seguinte documento de Ajuda também está disponível no Dynamic Media Classic:
 
-**Usando o Dynamic Media Classic Media Portal** O Adobe Dynamic Media Classic Media Portal é um ambiente baseado em navegador que fornece aos usuários do portal acesso fácil para fazer upload, navegar, pesquisar, pré-visualização e exportar ativos em formatos corporativos aprovados. Consulte [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+**Usando o Dynamic Media Classic Media** PortalO Adobe Dynamic Media Classic Media Portal é um ambiente baseado em navegador que fornece aos usuários do portal acesso fácil para fazer upload, navegar, pesquisar, pré-visualização e exportar ativos em formatos corporativos aprovados. Consulte [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
