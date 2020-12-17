@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Vincular um modelo a uma página da Web{#linking-a-template-to-a-web-page}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic Media por meio de sequências de caracteres de URL. Depois de publicar um modelo, o Dynamic Media Classic ativa uma string de URL que faz referência ao modelo em Servidores de Imagem de Mídia Dinâmica. Você pode colar este URL em um navegador da Web para teste.
+Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de sequências de caracteres de URL. Depois de publicar um modelo, o Dynamic Media Classic ativa uma string de URL que faz referência ao modelo em Dynamic Media Image Servers. Você pode colar este URL em um navegador da Web para teste.
 
 Para colocar sequências de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Dynamic Media Classic. Para obter uma string de URL de modelo gerada com uma predefinição de imagem, vá para a tela Pré-visualização ou o painel Procurar (em visualização de detalhes). Em seguida, selecione uma predefinição de imagem e selecione o botão copiar URL.
 
@@ -28,7 +28,7 @@ Para colocar sequências de caracteres de URL em suas páginas da Web e aplicati
 >
 >O URL não estará ativo até que você publique o ativo.
 
-## Obter um URL de modelo {#obtaining-a-template-url}
+## Obtenção de um URL de modelo {#obtaining-a-template-url}
 
 Você pode obter uma string de URL de modelo gerada por uma Predefinição de imagem na tela Pré-visualização de modelo. Depois de copiar o URL, ele chega na Área de transferência para que você possa colá-lo conforme necessário. Siga estas etapas para obter uma string de URL de modelo gerada com uma Predefinição de imagem na tela Pré-visualização de modelo:
 
@@ -38,7 +38,7 @@ Você pode obter uma string de URL de modelo gerada por uma Predefinição de im
 
 ## Adicionar URLs de modelo à sua página da Web {#adding-template-urls-to-your-web-page}
 
-Para adicionar um modelo à sua página da Web, consulte a equipe de desenvolvimento da página da Web para modificar a `<IMG>` tag no código da página da Web HTML usando a string de URL do Dynamic Media Classic para fazer uma solicitação aos Servidores de Imagem de Mídia Dinâmica. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem do modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem que você escolher para o modelo.
+Para adicionar um modelo à sua página da Web, consulte sua equipe de desenvolvimento de página da Web para modificar a tag `<IMG>` no código da página da Web HTML usando a string do URL do Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem do modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem que você escolher para o modelo.
 
 >[!MORELIKETHIS]
 >
