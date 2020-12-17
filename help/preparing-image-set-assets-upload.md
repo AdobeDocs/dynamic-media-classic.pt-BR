@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Preparando ativos de Conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
+# Preparando ativos do Conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
 
 Antes de carregar as imagens necessárias para os Conjuntos de imagens no Dynamic Media Classic, verifique se as imagens têm o tamanho e o formato corretos.
 
