@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Na tela Lista do visualizador, é possível pré-visualização de imagens usando diferentes Predefinições do visualizador de zoom.
 
-Consulte [Configuração de visualizadores](application-setup.md#configuring_default_viewers)padrão.
+Consulte [Configuração de Visualizadores Padrão](application-setup.md#configuring_default_viewers).
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 
