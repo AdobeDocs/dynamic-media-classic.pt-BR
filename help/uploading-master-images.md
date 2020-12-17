@@ -28,8 +28,11 @@ Para obter detalhes sobre como fazer upload de imagens, consulte [Fazer upload d
 
 Prepare seus arquivos de imagem principais antes de carregá-los no Dynamic Media Classic:
 
-* **Tamanho** da imagemCrie as imagens de maior tamanho que você antecipa ao usar. Os tamanhos de imagem típicos variam de 1500 a 2500 pixels na dimensão mais longa. Se você pretende usar o recurso Zoom, o Dynamic Media Classic recomenda o uso de imagens com pelo menos 2000 pixels na dimensão mais longa para obter detalhes ideais de zoom. O Dynamic Media Classic pode renderizar imagens de até 25 megapixels cada. Por exemplo, você pode usar uma imagem de 5000 x 5000 megapixels ou qualquer outra combinação de tamanho até 25 megapixels.
+* **Tamanho da imagem**
+Crie as imagens de maior tamanho que você antecipa ao usar. Os tamanhos de imagem típicos variam de 1500 a 2500 pixels na dimensão mais longa. Se você pretende usar o recurso Zoom, o Dynamic Media Classic recomenda o uso de imagens com pelo menos 2000 pixels na dimensão mais longa para obter detalhes ideais de zoom. O Dynamic Media Classic pode renderizar imagens de até 25 megapixels cada. Por exemplo, você pode usar uma imagem de 5000 x 5000 megapixels ou qualquer outra combinação de tamanho até 25 megapixels.
 
-* **Formatos de arquivo O** Dynamic Media Classic é compatível com todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS. Formatos de imagem sem perda — TIFF e PNG — são recomendados. Se estiver usando uma imagem JPEG, use as configurações de qualidade mais alta.
+* **Formatos de arquivoO Dynamic Media Classic é compatível com todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS.**
+Formatos de imagem sem perda — TIFF e PNG — são recomendados. Se você estiver usando uma imagem JPEG, use as configurações de qualidade mais alta.
 
-* **Espaço de cor** RGB é o espaço de cor para apresentações de imagens da Web; Imagens CMYK comumente usadas para impressão são convertidas automaticamente em RGB quando você as carrega. É recomendado fazer upload de imagens CMYK que tenham um perfil de cor ICC incorporado para conversão em RGB. Consulte também perfis ICC.
+* **Espaço**
+de corRGB é o espaço de cor para apresentações de imagens da Web; Imagens CMYK comumente usadas para impressão são convertidas automaticamente em RGB quando você as carrega. É recomendado fazer upload de imagens CMYK que tenham um perfil de cor ICC incorporado para conversão em RGB. Consulte também perfis ICC.
