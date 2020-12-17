@@ -44,7 +44,7 @@ Para examinar, pré-visualização ou trabalhar em um ativo detalhadamente, é p
 
 1. No painel Procurar, execute um dos procedimentos a seguir:
 
-   * Clique no Duplo do ativo.
+   * Clique no duplo do ativo.
    * Selecione o ativo e clique em **[!UICONTROL Detail View]**.
    * Selecione o ativo e clique em **[!UICONTROL File > Details]**.
 
@@ -54,7 +54,7 @@ Para examinar, pré-visualização ou trabalhar em um ativo detalhadamente, é p
 
 ## Obter informações na exibição de Detalhes {#getting-information-in-detail-view}
 
-A visualização Detail fornece informações sobre um ativo ou arquivo. Ele mostra estas informações sobre um item: a pasta onde está armazenado, o nome do arquivo, a data em que o item foi carregado no Dynamic Media Classic e seu histórico de publicação. Você também pode visualização e editar metadados e adicionar palavras-chave para um ativo na visualização Detalhe.
+A visualização Detail fornece informações sobre um ativo ou arquivo. Ele mostra estas informações sobre um item: a pasta onde está armazenado, o nome do arquivo, a data em que o item foi carregado no Dynamic Media Classic e seu histórico de publicação. Você também pode visualização e editar metadados e adicionar palavras-chave para um ativo em visualização Detalhada.
 
 Você pode obter um URL de ativo na visualização Detalhe; no entanto, o URL não estará ativo até que você publique o ativo. Para imagens, a visualização Detalhe também fornece uma lista de ativos e metadados de criação e derivados, como públicos alvos de zoom e Conjuntos de imagens.
 
@@ -62,15 +62,20 @@ Você pode obter um URL de ativo na visualização Detalhe; no entanto, o URL n�
 
 Ferramentas de oferta de visualização de detalhes para trabalhar com o ativo aberto. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a visualização Detalhe sempre oferta essas funções:
 
-* **itens para publicação** Clique no **[!UICONTROL Publish]** ícone à esquerda do nome ou clique **[!UICONTROL File > Publish]** ou **[!UICONTROL File > Unpublish]**.
+* **itens para**
+publicarClique no  **[!UICONTROL Publish]** ícone à esquerda do nome ou clique  **[!UICONTROL File > Publish]** ou  **[!UICONTROL File > Unpublish]**.
 
-* **Renomeando o ativo** Selecione o nome e insira um novo nome.
+* **Renomeando o**
+ativoSelecione o nome e insira um novo nome.
 
-* **Edição e adição de metadados** Selecione o painel Metadados e faça as alterações desejadas. Consulte [Visualização, adição e exportação de metadados](/help/viewing-adding-exporting-metadata.md).
+* **Edição e adição de**
+metadadosSelecione o painel Metadados e faça as alterações desejadas. Consulte [Visualizar, adicionar e exportar metadados](/help/viewing-adding-exporting-metadata.md).
 
-* **Edição e adição de palavras-chave** Selecione Palavras-chave e adicione-as ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/viewing-adding-exporting-metadata.md).
+* **Editar e adicionar**
+palavras-chaveSelecione Palavras-chave e adicione-as ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/viewing-adding-exporting-metadata.md).
 
-* **Excluindo o ativo** Clique **[!UICONTROL File > Delete]**.
+* **Excluindo o**
+assetClick  **[!UICONTROL File > Delete]**.
 
 Para arquivos discretos — imagens, conjuntos de imagens e fontes, por exemplo — você pode visualização o histórico de publicação e edição e verificar os detalhes da tarefa, em visualização Detalhada.
 
@@ -83,10 +88,10 @@ Esta tabela mostra quais opções adicionais estão disponíveis com diferentes 
 | eCatalogs | Editar | Sim. O Painel de informações também está disponível. |
 | Fontes | Editar informações de fonte | Não. |
 | Arquivos FXG | Editar | Sim. |
-| perfis ICC | Editar informações do perfil | Não. |
-| Arquivos do Illustrator | Não (a menos que convertido em FXG) | Não. |
+| PERFIS ICC | Editar informações do perfil | Não. |
+| Arquivos Illustrator | Não (a menos que convertido em FXG) | Não. |
 | Conjuntos de imagens | Editar | Sim. |
-| Arquivos do InDesign | Não (a menos que convertido em FXG) | Não. |
+| arquivos de InDesign | Não (a menos que convertido em FXG) | Não. |
 | arquivos PDF | Não | Não. |
 | Arquivos PSD | Sim para camadas individuais | Sim para camadas individuais. |
 | Conjuntos de rotação | Editar | Sim. |
