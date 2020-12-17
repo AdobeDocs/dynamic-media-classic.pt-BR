@@ -26,13 +26,17 @@ O Dynamic Media Classic é um ambiente integrado e avançado de gerenciamento de
 
 As principais etapas do fluxo de trabalho do Dynamic Media Classic são:
 
-* **Carregue e gerencie seus ativos** Carregue seus ativos de mídia no Dynamic Media Classic. Você pode organizar, navegar e procurar ativos no sistema. Você também pode aplicar metadados a ativos.
+* **Carregue e gerencie seus**
+ativosCarregue seus ativos de mídia no Dynamic Media Classic. Você pode organizar, navegar e procurar ativos no sistema. Você também pode aplicar metadados a ativos.
 
-* **Criar mídia avançada** Crie configurações diferentes de seus ativos, como eCatalogs, Conjuntos de imagens, Conjuntos de rotação, Conjuntos de amostras, Conjuntos de mídia mista, Modelos básicos e Modelos FXG. Para obter mais informações, consulte Sobre rich media.
+* **Crie**
+mídias avançadasCrie configurações diferentes de seus ativos, como catálogos, conjuntos de imagens, conjuntos de rotação, conjuntos de amostras, conjuntos de mídia mista, modelos básicos e modelos FXG. Para obter mais informações, consulte Sobre rich media.
 
-* **Publique e administre** Publique ativos na rede do Dynamic Media Classic Saas, além de monitorar o status dos ativos quando eles são publicados, administrar direitos de usuário e manter a segurança.
+* **Publique e**
+administrePublique ativos na rede do Dynamic Media Classic Saas, além de monitorar o status dos ativos quando eles são publicados, administrar direitos de usuário e manter a segurança.
 
-* **Fornecer** mídia da rede Dynamic Media Classic SaaS para páginas da Web, aplicativos e dispositivos móveis; a mídia é otimizada para desempenho e é fornecida com o armazenamento em cache CDN. O Dynamic Media Classic fornece um URL para cada ativo. Depois de publicar o ativo, o URL torna-se ativo.
+* ****
+Fornecer mídia da rede Dynamic Media Classic SaaS para páginas da Web, aplicativos e dispositivos móveis; a mídia é otimizada para desempenho e é fornecida com o armazenamento em cache CDN. O Dynamic Media Classic fornece um URL para cada ativo. Depois de publicar o ativo, o URL torna-se ativo.
 
 ![O processo de fluxo de trabalho do Dynamic Media Classic](/help/assets/gs_workflow.png)
 
@@ -40,7 +44,7 @@ As principais etapas do fluxo de trabalho do Dynamic Media Classic são:
 
 O Dynamic Media Classic é fundamentalmente diferente de outros sistemas porque você pode usar o Dynamic Media Classic para fornecer mídia dinamicamente de ativos principais únicos e chamadas de URL.
 
-As sequências de caracteres de URL geradas com o Dynamic Media Classic incluem instruções que informam ao servidor como exibir o ativo quando ele é entregue. Por exemplo, a mesma imagem principal pode ser entregue em tamanhos, formatos, pesos, cores e visualizações de zoom diferentes. Como parte da criação e publicação de ativos de mídia com o Dynamic Media Classic, você configura visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam corretamente o servidor sobre como apresentar seu ativo principal aos aplicativos.
+As strings de URL geradas com o Dynamic Media Classic incluem instruções que informam ao servidor como exibir o ativo quando ele é entregue. Por exemplo, a mesma imagem principal pode ser entregue em tamanhos, formatos, pesos, cores e visualizações de zoom diferentes. Como parte da criação e publicação de ativos de mídia com o Dynamic Media Classic, você configura visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam corretamente o servidor sobre como apresentar seu ativo principal aos aplicativos.
 
 ![O Dynamic Media Classic pode fornecer a mesma imagem principal para diferentes mídias em diferentes tamanhos e formatos.](/help/assets/gs_dynamic_publishing.png)
 
