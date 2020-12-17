@@ -29,9 +29,11 @@ As configurações disponíveis para você nesta tela dependem do seu status de 
 
 Os administradores também podem configurar as predefinições de imagens e as predefinições do visualizador na tela Configuração:
 
-* **Predefinições** de imagem As predefinições de imagem são formatos salvos para a exibição de imagens principais em tamanhos e formatos diferentes.
+* **Predefinições**
+de imagemAs predefinições de imagem são formatos salvos para a exibição de imagens principais em tamanhos e formatos diferentes.
 
-* **As predefinições** do visualizador do visualizador determinam como você vê sua mídia avançada quando a vê em um visualizador.
+* **Predefinições**
+do visualizadorAs predefinições do visualizador determinam como você vê sua mídia avançada quando a vê em um visualizador.
 
 >[!MORELIKETHIS]
 >
