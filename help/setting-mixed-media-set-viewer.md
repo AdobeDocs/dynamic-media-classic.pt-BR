@@ -24,19 +24,19 @@ As predefinições do visualizador de conjunto de mídia mista determinam o esti
 
 Você pode optar por incluir todos ou alguns recursos da comunidade no Visualizador do Mixed Media Set. O recurso Incorporar adiciona um link ao visualizador que permite que os usuários copiem o código necessário para exibir o visualizador em uma página externa (como um blog, site da Web ou site de rede social). O recurso Link fornece o URL para o visualizador, para que os usuários possam se vincular novamente a esse visualizador. O recurso Visita fornece um link para o site que você especificar.
 
-1. Clique em **Configuração** > Predefinições **do visualizador**.
+1. Clique em **Configuração** > **Predefinições do visualizador**.
 1. Na página Predefinições do visualizador, execute um dos procedimentos a seguir:
 
    * Para criar uma nova predefinição, clique em **Adicionar**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador de conjunto de mídia mista e clique em **Adicionar**.
-   * Para editar uma predefinição do visualizador de conjunto de mídia mista, selecione-a e clique em **Editar**.
+   * Para editar uma predefinição de Visualizador de conjunto de mídia mista, selecione-a e clique em **Editar**.
 
    A tela Configurar visualizador é aberta.
 
 1. Digite um nome na caixa Nome predefinido para a predefinição do visualizador de conjunto de mídia mista.
-1. Especifique Guias ou Nenhuma guia. Guias separam itens por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especifica guias, todos os itens são exibidos em uma linha abaixo da janela pré-visualização.
+1. Especifique Guias ou Nenhuma guia. Guias separam itens por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especifica guias, todos os itens são exibidos em uma linha sob a janela pré-visualização.
 1. Na caixa Nome, digite um nome para o visualizador que deseja adicionar.
 
-   Por exemplo, se você estiver adicionando um Conjunto de amostras ao Conjunto de mídia mista, digite Conjunto de *amostras A*.
+   Por exemplo, se estiver adicionando um Conjunto de amostras ao Conjunto de mídia mista, digite *Conjunto de amostras A*.
 
 1. No menu Visualizador, escolha o tipo de ativo que deseja visualização, como Conjuntos de amostras.
 1. No menu Predefinição, escolha uma predefinição para o tipo de ativo escolhido.
@@ -55,15 +55,19 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
 
 1. Para adicionar recursos da comunidade (Incorporar, Link, Visita) ao visualizador, especifique as opções para:
 
-   * **Email** Clique em Ativado para ativar um botão Email no visualizador. Quando os usuários clicam no botão E-mail ao visualizar o conjunto, um e-mail contendo o link para o conjunto é aberto.
+   * ****
+EmailClique em Ativado para ativar um botão Email no visualizador. Quando os usuários clicam no botão E-mail ao visualizar o conjunto, um e-mail contendo o link para o conjunto é aberto.
 
-   * **Incorporar** clique ao vivo. Na caixa Incorporar rótulo do botão, digite o nome que deseja que seja exibido no visualizador para o botão Incorporar. Se desejar, clique em 
-**Navegue** para localizar e selecionar uma capa personalizada para o botão.
+   * ****
+EmbedClick Live. Na caixa Incorporar rótulo do botão, digite o nome que deseja que seja exibido no visualizador para o botão Incorporar. Se desejar, clique em 
+**** Navegue para localizar e selecionar uma capa personalizada para o botão.
 
-   * **Link** Click Live. Na caixa Rótulo do botão de link, digite o nome que deseja que seja exibido no visualizador do botão de link. Se desejar, clique em 
-**Navegue** para localizar e selecionar uma capa personalizada para o botão.
+   * ****
+LinkClick ao vivo. Na caixa Rótulo do botão de link, digite o nome que deseja que seja exibido no visualizador do botão de link. Se desejar, clique em 
+**** Navegue para localizar e selecionar uma capa personalizada para o botão.
 
-   * **Visitar** clique 
+   * ****
+VisitClick 
 **Viva**. Na caixa Rótulo do botão de visita, digite o nome que deseja que seja exibido no visualizador para o botão de visita. Na caixa URL da visita, digite o URL para o site que você deseja abrir quando o link for clicado.
 
 1. Especifique outras opções conforme desejado. Para ver uma descrição de uma opção, clique no ícone Dica de informações adjacente à opção.
