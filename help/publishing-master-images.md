@@ -22,13 +22,13 @@ ht-degree: 0%
 
 A publicação de seus arquivos de imagem os publica nos Dynamic Media Image Servers, onde estão disponíveis para seu site e aplicativo. Além disso, durante o processo de publicação, o Dynamic Media Classic ativa as sequências de caracteres de URL que você precisa para seu site e aplicativo.
 
-## Marcar imagens principais para publicação {#marking-master-images-for-publish}
+## Marcar imagens principais para publicar {#marking-master-images-for-publish}
 
-Imagens Principais devem ser marcadas para publicação para que possam ser copiadas para Dynamic Media Image Servers. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando no ícone Marcar para publicação. Também é possível marcar imagens para publicação ao carregá-las no Dynamic Media Classic.
+Imagens principais devem ser marcadas para publicação para que possam ser copiadas para Dynamic Media Image Servers. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando no ícone Marcar para publicação. Também é possível marcar imagens para publicação ao carregá-las no Dynamic Media Classic.
 
 ## Publicar suas imagens principais {#publishing-your-master-images}
 
-Para publicar imagens principais em Dynamic Media Image Servers, selecione o botão Publicar na barra Navegação global. Em seguida, selecione uma opção Quando (Uma vez ou Recorrente), opcionalmente, insira um nome para o trabalho de publicação e selecione o botão Publicar Start.
+Para publicar imagens principais nos Dynamic Media Image Servers, selecione o botão Publicar na barra Navegação global. Em seguida, selecione uma opção Quando (Uma vez ou Recorrente), opcionalmente, insira um nome para o trabalho de publicação e selecione o botão Publicar Start.
 
 >[!NOTE]
 >
