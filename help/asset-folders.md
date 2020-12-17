@@ -28,17 +28,21 @@ Certifique-se de estabelecer uma estrutura de pastas e uma organização para ar
 
 A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo é exibido no Painel de navegação. Use estas técnicas para localizar pastas na árvore de pastas:
 
-* **Exibição de subpastas** Selecione o ícone Expandir pasta para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Exibindo**
+subpastasSelecione o ícone Expandir pasta para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Mover uma pasta** Você pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando Arquivo > Mover pasta.
+* **Mover uma**
+pastaVocê pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando Arquivo > Mover pasta.
 
-* **Ocultar pastas** Selecione o ícone Recolher pasta para recolher subpastas. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Ocultar**
+pastasSelecione o ícone Recolher pasta para recolher subpastas. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Abrindo uma pasta** Selecione uma pasta para exibir seu conteúdo no Painel de navegação.
+* **Abrindo uma**
+pastaSelecione uma pasta para exibir seu conteúdo no Painel Procurar.
 
-***Dica **: Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle Expandir/Recolher no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no Painel de navegação.*
+***Dica **: Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle Expandir/Recolher no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no Painel Procurar.*
 
-## Criação de pastas {#creating-folders}
+## Criando pastas {#creating-folders}
 
 Siga estas etapas para criar uma pasta:
 
@@ -50,13 +54,15 @@ Siga estas etapas para criar uma pasta:
    >
    >Você também pode criar pastas no Dynamic Media Classic ao carregar arquivos via FTP. A seleção da opção Incluir subpastas ao fazer upload via FTP replica a estrutura de pastas no computador no sistema. Os arquivos e subpastas do computador ou da rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
 
-## Excluir e renomear pastas {#deleting-and-renaming-folders}
+## Excluindo e renomeando pastas {#deleting-and-renaming-folders}
 
 Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-* **Excluindo** Selecione o botão Remover pasta . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los de lá.
+* ****
+ExcluindoSelecione o botão Remover pasta . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los de lá.
 
-* **Renomeando** Duplo-clique no nome e insira um novo nome.
+* ****
+RenomeandoClique duas vezes no nome e insira um novo nome.
 
 >[!NOTE]
 >
