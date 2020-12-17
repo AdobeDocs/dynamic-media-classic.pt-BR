@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Criação de parâmetros de modelo{#creating-template-parameters}
+# Criando parâmetros de modelo{#creating-template-parameters}
 
 Os parâmetros permitem usar modelos com máxima flexibilidade; eles permitem que você personalize dinamicamente uma imagem de modelo. Você pode decidir quais camadas de texto e imagem devem ser incluídas no modelo e, em cada camada, quais parâmetros devem ser exibidos. Por exemplo, para chamar a atenção para um produto que está à venda, é possível criar uma camada de texto On Sale. Posteriormente, você pode remover essa camada, mas ainda manter o restante da imagem do modelo removendo o parâmetro On Sale.
 
