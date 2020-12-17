@@ -4,23 +4,23 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Guia do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
-user-guide-description: Saiba mais sobre como usar o Dynamic Media Classic
+user-guide-description: Saiba como usar o Dynamic Media Classic
 index: y
 translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Guia do Adobe Dynamic Media Classic {#using}
+# Guia do Adobe Dynamic Media Classic  {#using}
 
 + [Guia do Adobe Dynamic Media Classic](home.md)
 + [Tutorial de práticas recomendadas](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NOVA experiência de logon do Dynamic Media Classic disponível](new-ui-2020.md)
-+ [Newsletter Dynamic Media da Experience League](dynamic-media-newsletter.md)
++ [Dynamic Media Newsletter da Experience League](dynamic-media-newsletter.md)
 + Apresentando o Adobe Dynamic Media Classic {#intro}
    + [Aplicativo Adobe Dynamic Media Classic Desktop - Agora disponível](dynamic-media-classic-desktop-app.md)
    + [Sobre a Ajuda do Dynamic Media Classic](introduction.md)
@@ -28,11 +28,11 @@ ht-degree: 4%
    + [Novidades](whats-new.md)
    + [Requisitos do sistema](system-requirements.md)
    + [Suporte](support.md)
-   + [Ajuda para o Portal de Mídia Clássica do Dynamic Media](help-dmc-media-portal.md)
+   + [Ajuda para o Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Serviços de treinamento de Adobe](training-services.md)
    + [Recursos populares](popular-resources.md)
    + [Vídeos de treinamento](training-videos.md)
-+ Introdução {#getting-started}
++ Introdução a {#getting-started}
    + [Visão geral da plataforma Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Portal de mídia](media-portal.md)
    + [Entrar e sair](signing-out.md)
@@ -101,7 +101,7 @@ ht-degree: 4%
    + [Visualização de eCatálogos no eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md)
    + [Publicar eCatalogs e PDFs associados](publishing-ecatalogs-associated-pdfs.md)
    + [Vincular um eCatalog a uma página da Web](linking-ecatalog-web-page.md)
-+ Image sets {#image-sets}
++ Conjuntos de imagens {#image-sets}
    + [Start rápido: Conjuntos de imagens](quick-start-image-sets.md)
    + [Preparando ativos de Conjunto de imagens para upload](preparing-image-set-assets-upload.md)
    + [Criação de um conjunto de imagens](creating-image-set.md)
@@ -147,7 +147,7 @@ ht-degree: 4%
    + [Criação de um conjunto de mídia mista](creating-mixed-media-set.md)
    + [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md)
    + [Vincular um conjunto de mídia mista a uma página da Web](linking-mixed-media-set-web.md)
-+ Kit de instrumentação Adobe Analytics {#analytics-kit}
++ Kit de instrumentação da Adobe Analytics {#analytics-kit}
    + [Start rápido: Integração do Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Faça logon no Adobe Analytics](log-analytics.md)
    + [Configuração de relatórios da Adobe Analytics](configuring-analytics-reports.md)
@@ -156,7 +156,7 @@ ht-degree: 4%
    + [Teste da integração ao visualizar um relatório da Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Ativação dos relatórios de vídeo da Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicar informações de configuração do Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integração com o Adobe Target Standard/Premium {#target-classic}
++ Integração Adobe Target Standard/Premium {#target-classic}
    + [Start rápido: Integração com o Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integração do Dynamic Media Classic com o Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Criação de um conjunto de ofertas](creating-offer-set.md)
@@ -166,7 +166,7 @@ ht-degree: 4%
    + [Excluindo um ativo carregado](deleting-uploaded-asset.md)
    + [Obtendo informações de uso do disco](getting-disk-usage-information.md)
    + [Fazer upload de um ativo de imagem ou de um ativo vetorial](uploading-image-asset-or-vector.md)
-+ arquivos principais {#master-files}
++ Arquivos principais {#master-files}
    + [Práticas recomendadas para otimizar a qualidade de suas imagens](best-practices-optimizing-quality-images.md)
    + [Edição de imagens](editing-images.md)
    + [Criação de mapas de imagem](creating-image-maps.md)
