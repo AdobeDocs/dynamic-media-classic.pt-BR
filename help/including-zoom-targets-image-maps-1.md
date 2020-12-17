@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Se você definir públicos alvos de zoom e mapas de imagem para as imagens no Conjunto de amostras, esses públicos alvos e mapas aparecerão no Visualizador do conjunto de amostras. Os usuários, por exemplo, podem clicar em um Mapa de imagem no Visualizador do conjunto de amostras e abrir uma nova página no site com informações sobre um item. Os usuários podem clicar em uma imagem em miniatura de público alvo no Visualizador do conjunto de amostras e aplicar zoom automaticamente em parte de uma imagem.
 
-Se quiser disponibilizar públicos alvos de zoom e mapas de imagem para os usuários, crie públicos alvos de zoom e mapas de imagem para as imagens no Conjunto de amostras. É possível fazer isso com as ferramentas Mapas de imagem ou Públicos alvos de zoom na tela Conjunto de amostras ou no Painel de navegação (em visualização de detalhes).
+Se você quiser disponibilizar públicos alvos de zoom e mapas de imagem para os usuários, crie públicos alvos de zoom e mapas de imagem para as imagens no Conjunto de amostras. É possível fazer isso com as ferramentas Mapas de imagem ou Públicos alvos de zoom na tela Conjunto de amostras ou no Painel de navegação (em visualização de detalhes).
 
 >[!MORELIKETHIS]
 >
