@@ -18,22 +18,22 @@ ht-degree: 0%
 ---
 
 
-# Visualizando conjuntos de imagens{#viewing-image-sets}
+# Exibindo Conjuntos de Imagens{#viewing-image-sets}
 
 Você pode visualização seus Conjuntos de imagens na janela de Pré-visualização, usando as predefinições disponíveis. Use um Visualizador de zoom: Predefinição personalizada do visualizador para conjuntos de imagens.
 
-O Dynamic Media Classic vem com as predefinições padrão do visualizador. Os administradores podem criar ou modificar as predefinições do visualizador.
+O Dynamic Media Classic vem com as predefinições de visualizador padrão. Os administradores podem criar ou modificar as predefinições do visualizador.
 
 ## Configuração das predefinições do Visualizador de zoom para Conjuntos de imagens {#setting-up-zoom-viewer-presets-for-image-sets}
 
 Você pode criar e personalizar as predefinições do visualizador para atender às suas necessidades.
 
-1. Clique em **Configuração** > Predefinições **do visualizador**.
+1. Clique em **Configuração** > **Predefinições do visualizador**.
 1. Crie ou edite uma predefinição do visualizador na tela Predefinições do visualizador executando um dos seguintes procedimentos:
 
-   **Criando** Clique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador de zoom:Personalizado e clique em Adicionar. Também é possível criar uma Predefinição do visualizador de zoom começando por uma predefinição existente. Exiba o nome da predefinição, selecione-a e selecione o botão Editar. Na tela Configurar visualizador, digite um novo nome para a predefinição.
+   **** CriarClique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador de zoom:Personalizado e clique em Adicionar. Também é possível criar uma Predefinição do visualizador de zoom começando por uma predefinição existente. Exiba o nome da predefinição, selecione-a e selecione o botão Editar. Na tela Configurar visualizador, digite um novo nome para a predefinição.
 
-   **Edição** Exiba o nome de uma predefinição, selecione-a e clique em **Editar**.
+   **** EdiçãoExibe o nome de uma predefinição, seleciona-a e, em seguida, clique em  **Editar**.
 
 1. Escolha as opções na tela Configurar visualizador.
 
@@ -51,9 +51,9 @@ Você pode usar a Pré-visualização para ver como um ativo aparece em uma plat
 1. No painel Biblioteca de ativos, no lado esquerdo, navegue pelas pastas de ativos para selecionar o Conjunto de imagens que deseja pré-visualização.
 1. Execute um dos procedimentos a seguir
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização **da** Lista. Na janela Ativo, passe o mouse sobre um ativo e clique em **Pré-visualização**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização** Grade. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Pré-visualização**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização** Detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de Lista**. Na janela Ativo, passe o mouse sobre um ativo e clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de grade**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização**.
    * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **Arquivo** > **Pré-visualização**.
 
 1. (Opcional) Na janela Pré-visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
