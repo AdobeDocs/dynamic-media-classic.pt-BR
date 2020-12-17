@@ -22,7 +22,7 @@ ht-degree: 0%
 
 O Dynamic Media Classic oferta vários comandos para ajustar a aparência de uma imagem. Você pode inverter, girar, desfocar, alterar o equilíbrio de cores e colorir uma imagem. À medida que você experimenta esses comandos, você pode ver seus efeitos na imagem com a qual você está trabalhando.
 
-Consulte também [Criação de um alias para uma imagem](adjusting-image.md#creating_an_alias_for_an_image).
+Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an_alias_for_an_image).
 
 1. Clique no botão Editar de sobreposição da imagem e escolha Ajustar ou, no Painel de navegação, clique com o duplo na imagem para abri-la em visualização de detalhes.
 1. Selecione um tamanho e uma Predefinição de imagem (na parte inferior da janela).
@@ -45,26 +45,26 @@ Consulte também [Criação de um alias para uma imagem](adjusting-image.md#crea
 
       Na lista suspensa, selecione **Salvar como novo principal**.
 
-      Na caixa lista Nome **da** pasta, selecione a pasta na qual deseja salvar a nova imagem principal.
+      Na caixa de lista **Nome da pasta**, selecione a pasta onde deseja que a nova imagem principal seja salva.
 
       Clique em **Salvar**.
 
    * Para salvar a imagem como visualização adicional da imagem principal. você pode criar um alias para ele. Clique em **Salvar como**.
 
-      Na caixa de diálogo **Salvar como** , na lista suspensa, clique em **Salvar como visualização adicional de principal**.
+      Na caixa de diálogo **Salvar como**, na lista suspensa, clique em **Salvar como visualização adicional do principal**.
 
-      Na caixa lista Nome **da** pasta, selecione a pasta na qual deseja salvar a nova imagem principal.
+      Na caixa de lista **Nome da pasta**, selecione a pasta onde deseja que a nova imagem principal seja salva.
 
       Clique em **Salvar**.
 
 ## Criação de um alias para uma imagem {#creating-an-alias-for-an-image}
 
-Depois de ajustar uma imagem, salve-a como visualização adicional da imagem principal. Para fazer isso, você pode criar um alias para a imagem usando a visualização **Salvar como recurso adicional principal** .
+Depois de ajustar uma imagem, salve-a como visualização adicional da imagem principal. Para fazer isso, você pode criar um alias para a imagem usando o recurso **Salvar como visualização adicional do principal**.
 
 1. Na Visualização de Grade ou na Visualização de Lista, na lista suspensa **Editar** ao lado de uma imagem para a qual você deseja criar um alias, clique em **Ajustar**.
-1. In the lower-right corner of the page, click **Save As**.
-1. Na caixa de diálogo **Salvar como** , na lista suspensa, clique em **Salvar como visualização de adição principal**.
-1. Na caixa lista Nome **da** pasta, selecione a pasta na qual deseja salvar a imagem com alias.
-1. No campo Nome **do** arquivo, digite o nome que deseja usar para o alias.
+1. No canto inferior direito da página, clique em **Salvar como**.
+1. Na caixa de diálogo **Salvar como**, na lista suspensa, clique em **Salvar como visualização de adição do principal**.
+1. Na caixa de lista **Nome da pasta**, selecione a pasta na qual deseja salvar a imagem com alias.
+1. No campo **Nome do arquivo**, digite o nome que deseja usar para o alias.
 1. Clique em **Salvar**.
 
