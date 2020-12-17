@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Vincular URLs ao aplicativo da Web{#linking-urls-to-your-web-application}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic Media por meio de sequências de caracteres de URL. Depois de publicar uma imagem, o Dynamic Media Classic ativa uma string de URL que faz referência à predefinição de imagem nos servidores de imagem de mídia dinâmica. Você pode colar esses URLs em um navegador da Web para teste.
+Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de sequências de caracteres de URL. Depois de publicar uma imagem, o Dynamic Media Classic ativa uma string de URL que faz referência à predefinição de imagem nos servidores de imagem Dynamic Media. Você pode colar esses URLs em um navegador da Web para teste.
 
 Para colocar essas strings de URL em suas páginas da Web e aplicativos, copie-as do Dynamic Media Classic. Para obter uma string de URL gerada com uma Predefinição de imagem, vá para a tela Pré-visualização ou para o Painel de navegação (em visualização de detalhes).
 
@@ -51,13 +51,13 @@ Você pode obter uma string de URL gerada por uma Predefinição de imagem a par
 1. Clique em URLs no painel no lado direito da tela para desdobrar a lista das predefinições de imagem.
 1. Clique no link Copiar URL ao lado do nome da predefinição de imagem com o URL que você deseja copiar para a área de transferência.
 
-## Sobre strings de URL predefinidos de imagens {#about-image-preset-url-strings}
+## Sobre as sequências de URL predefinidas de imagens {#about-image-preset-url-strings}
 
-Uma chamada de URL para Dimensionamento de imagem para Servidores de imagem de mídia dinâmica tem a seguinte sintaxe básica:
+Uma chamada de URL para Dimensionamento de imagem para Dynamic Media Image Servers tem a seguinte sintaxe básica:
 
 *caminho*/*nome do Servidor* de imagens/nome *da* conta/nome *da* imagem?*modifier1*&amp;*modifier2*&amp;...
 
-Em um URL do servidor de imagem do Dynamic Media, as instruções para exibir a imagem ao servidor são exibidas após o ponto de interrogação (?). Por exemplo, esta chamada de URL fornece uma imagem chamada &quot;backpack&quot; com uma largura de 250 pixels:
+Em um URL do Dynamic Media Image Server, as instruções para exibição da imagem no servidor são exibidas após o ponto de interrogação (?). Por exemplo, esta chamada de URL fornece uma imagem chamada &quot;backpack&quot; com uma largura de 250 pixels:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -75,11 +75,11 @@ Entretanto, em uma sequência de caracteres de URL gerada com uma predefinição
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Os nomes predefinidos de imagem em URLs são delimitados por cifrão ($). Quando um Servidor de Imagem de Mídia Dinâmica encontrar a parte Predefinição de Imagem do URL (o `Large` caso), usando as instruções de tamanho e formatação definidas pela Predefinição de Imagem &quot;Grande&quot;.
+Os nomes predefinidos de imagem em URLs são delimitados por cifrão ($). Quando um Dynamic Media Image Server encontrar a parte Predefinição de imagem do URL (o `Large` neste caso), usando as instruções de tamanho e formatação definidas pela Predefinição de imagem &quot;Grande&quot;.
 
 ## Adicionar imagens dinâmicas à sua página da Web {#adding-dynamic-images-to-your-web-page}
 
-Para adicionar imagens dinâmicas à sua página da Web, a `<IMG>` tag em seu código de página da Web HTML normalmente é modificada usando a string de URL do Dynamic Media Classic para fazer uma solicitação aos Servidores de Imagem de Mídia Dinâmica. Essa string produz a imagem no tamanho e nas especificações de formatação definidos pela Predefinição de imagem.
+Para adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no código da página da Web HTML normalmente é modificada usando a string de URL do Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. Essa string produz a imagem no tamanho e nas especificações de formatação definidos pela Predefinição de imagem.
 
 Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
 
@@ -87,10 +87,10 @@ Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-agora você usa a `<IMG>`tag para substituir a referência a uma imagem estática por uma chamada predefinida de imagem para a plataforma Dynamic Media Classic. Uma chamada de amostra tem a seguinte aparência:
+agora você usa a tag `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Dynamic Media Classic. Uma chamada de amostra tem a seguinte aparência:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-Neste exemplo, um Servidor de Imagem de Mídia Dinâmica &quot;procura&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela Predefinição de `thumbnail`Imagem. Em uma string de URL, todos os itens, exceto o nome de arquivo de imagem do produto ( `backpack_trns` neste caso), normalmente estão programados para o modelo de página. O único elemento que é inserido automaticamente no modelo de página do servidor de comércio é a ID IPS ou o nome da imagem.
+Neste exemplo, um Dynamic Media Image Server &quot;procura&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela `thumbnail`Predefinição de imagem. Em uma string de URL, todos os itens, exceto o nome de arquivo de imagem do produto ( `backpack_trns` nesse caso) normalmente são programados para o modelo de página. O único elemento que é inserido automaticamente no modelo de página do servidor de comércio é a ID IPS ou o nome da imagem.
