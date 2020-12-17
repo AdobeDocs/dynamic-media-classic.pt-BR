@@ -24,14 +24,14 @@ Publique os visualizadores do Dynamic Media Classic para que as informações so
 
 >[!NOTE]
 >
->Sempre que alterar as configurações do Relatório do Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics no Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e publicar novamente.
+>Sempre que alterar as configurações de Relatório do Adobe Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics a partir do Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e publicar novamente.
 
-Consulte [Fazer logon no Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
+Consulte [Efetue logon no Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Consulte [Configuração de relatórios](configuring-analytics-reports.md#configuring_adobe_analytics_reports)do Adobe Analytics.
+Consulte [Configuração de relatórios da Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
 **Para publicar informações de configuração**
 
 1. Na barra Navegação global, clique em **Publicar**.
-1. Na caixa de diálogo Publicar, clique em Publicar **** Start.
+1. Na caixa de diálogo Publicar, clique em **Publicar Start**.
 
