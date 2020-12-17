@@ -18,14 +18,18 @@ ht-degree: 0%
 ---
 
 
-# Seleção de ativos no painel Procurar{#selecting-assets-in-the-browse-panel}
+# Selecionar ativos no painel Procurar{#selecting-assets-in-the-browse-panel}
 
 Selecione um ativo no Painel de navegação para trabalhar com ele. Use estas técnicas para selecionar ativos:
 
-* **Um único ativo** Clique no ativo (clique no duplo para abrir o ativo na visualização Detalhe).
+* **Um único**
+ativoClique no ativo (clique no duplo para abrir o ativo na visualização Detalhe).
 
-* **Vários ativos** Ctrl+clique (Windows) ou Command+clique (Macintosh) em ativos para selecionar ativos em diferentes locais no Painel de navegação. Pressione Shift e clique (clique em um ativo e, em seguida, pressione Shift e clique em outro) para selecionar ativos adjacentes.
+* **Vários**
+ativosCtrl+clique (Windows) ou Command+clique (Macintosh) nos ativos para selecionar ativos em diferentes locais no Painel de navegação. Pressione Shift e clique (clique em um ativo e, em seguida, pressione Shift e clique em outro) para selecionar ativos adjacentes.
 
-* **Todos os ativos no painel** ProcurarClique em Selecionar > Todos.
+* **Todos os ativos no**
+painel ProcurarClique em Selecionar > Todos.
 
-* **Nenhum ativo** Clique em Selecionar > Nenhum.
+* **Nenhum**
+ativoClique em Selecionar > Nenhum.
