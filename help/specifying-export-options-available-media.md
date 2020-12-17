@@ -30,16 +30,19 @@ Consulte também [Exportar ativos do Dynamic Media Classic](exporting-assets-fro
 
 **Especificação de opções de exportação disponíveis para usuários do Media Portal**
 
-1. Clique em **Configuração** > Predefinições **de imagem**.
+1. Clique em **Configuração** > **Predefinições de imagem**.
 1. Na janela Predefinições de imagem, selecione uma das seguintes opções:
 
-   * **Ativar conversão definida pelo usuário** Quando selecionada, essa opção permite que os usuários escolham outro na lista suspensa Tamanho na janela Exportar ativos selecionados. Os usuários podem escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
+   * **Ativar a**
+conversão definida pelo usuárioQuando selecionada, essa opção permite que os usuários escolham outro na lista suspensa Tamanho na janela Exportar ativos selecionados. Os usuários podem escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
 
-      Quando **os pixels** são escolhidos na lista **suspensa Tamanho**, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com proporção de tela 2x3. Essa limitação de tamanho não se aplica se você exportar imagens principais originais.
+      Quando **pixels** forem escolhidos de **Tamanho**
+lista suspensa, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com proporção de tela 2x3. Essa limitação de tamanho não se aplica se você exportar imagens principais originais.
 
       Desmarque essa opção se desejar que os usuários baixem arquivos sem reformatá-los durante o download.
 
-   * **Ativar Exportar original** permite exportar imagens principais originais. No painel Exportar ativos selecionados, os usuários podem abrir o menu suspenso Conversão e escolher Exportar original para exportar arquivos originais. Desmarque essa opção se desejar forçar os usuários a escolher uma Predefinição de imagem ou escolher opções de conversão ao exportar imagens.
+   * **Ativar Exportar**
+originalPermite exportar imagens principais originais. No painel Exportar ativos selecionados, os usuários podem abrir o menu suspenso Conversão e escolher Exportar original para exportar arquivos originais. Desmarque essa opção se desejar forçar os usuários a escolher uma Predefinição de imagem ou escolher opções de conversão ao exportar imagens.
 
 >[!MORELIKETHIS]
 >
