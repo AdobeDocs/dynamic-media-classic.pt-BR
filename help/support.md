@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Suporte {#support}
 
-As ofertas de suporte técnico foram projetadas para atender às necessidades de empresas de qualquer tamanho. A tabela a seguir descreve as ofertas do Atendimento ao cliente do Dynamic Media Classic:
+As ofertas de suporte técnico foram projetadas para atender às necessidades de empresas de qualquer tamanho. A tabela a seguir descreve as ofertas do Atendimento ao cliente Dynamic Media Classic:
 
 | Suporte | Subscrição |
 |--- |--- |
@@ -28,7 +28,7 @@ As ofertas de suporte técnico foram projetadas para atender às necessidades de
 | Tempo de resposta | Consulte as Perguntas frequentes em [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/br/contact/enterprise-support.ec.html). |
 | SLA (Service Level Agreements, contratos de nível de serviço) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Usuários suportados | Até dez usuários por organização podem ser designados como Usuários suportados, que podem abrir casos com o Atendimento ao cliente. |
-| Apoio social | Consulte as Perguntas frequentes em [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/br/contact/enterprise-support.ec.html). |
+| Apoio social | Consulte as Perguntas frequentes em [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html). |
 | Treinamento online gratuito e tutoriais em vídeo | Incluído. |
 | Criar um caso de suporte | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
 | Suporte telefônico | <ul><li>EUA/Canadá: (800) 898-9743, (800)497-033, (408)454-5910 </li> <li>Japão: +81-3-6743-9632 </li><li>Reino Unido: +44 (0)20 35641782</li><li>Alemanha: +49 (0)69 51709005</li><li>França: +33 157324085</li><li>Países Baixos: +31 (0)20 2035138 (Suporte semanal em inglês)</li></ul> |
