@@ -18,17 +18,17 @@ ht-degree: 0%
 ---
 
 
-# Exibição de conjuntos de amostras{#viewing-swatch-sets}
+# Exibindo Conjuntos de Amostras{#viewing-swatch-sets}
 
 Você pode visualização seus Conjuntos de amostras na janela Pré-visualização, usando suas predefinições disponíveis. Use um Visualizador de zoom: Predefinição personalizada do visualizador para conjuntos de amostras.
 
-O Dynamic Media Classic vem com as predefinições padrão do visualizador. Os administradores podem criar ou modificar as predefinições do visualizador.
+O Dynamic Media Classic vem com as predefinições de visualizador padrão. Os administradores podem criar ou modificar as predefinições do visualizador.
 
-## Configuração de predefinições do Visualizador de zoom para Conjuntos de amostras {#setting-up-zoom-viewer-presets-for-swatch-sets}
+## Configuração das predefinições do Visualizador de Zoom para Conjuntos de Amostras {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 Você pode criar e personalizar as predefinições do visualizador para atender às suas necessidades.
 
-1. Clique em **Configuração** > Predefinições **do visualizador**.
+1. Clique em **Configuração** > **Predefinições do visualizador**.
 1. Execute um dos procedimentos a seguir:
 
    * Para criar uma nova predefinição, clique em **Adicionar**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador do conjunto de amostras e clique em **Adicionar**.
@@ -51,9 +51,9 @@ Você pode usar a Pré-visualização para ver como um ativo aparece em uma plat
 1. No painel Biblioteca de ativos, no lado esquerdo, navegue pelas pastas Ativos que contêm o Conjunto de amostras que você deseja pré-visualização a um visualizador.
 1. Execute um dos procedimentos a seguir:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização **da** Lista. Na janela Ativo, passe o mouse sobre um ativo e clique em **Pré-visualização**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização** Grade. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Pré-visualização**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização** Detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de Lista**. Na janela Ativo, passe o mouse sobre um ativo e clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de grade**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização**.
    * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **Arquivo** > **Pré-visualização**.
 
 1. (Opcional) Na janela Pré-visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
