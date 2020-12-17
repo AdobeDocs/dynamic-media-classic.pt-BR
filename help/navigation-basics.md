@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Noções básicas de navegação{#navigation-basics}
 
-A tela Dynamic Media Classic inclui três áreas principais: Barra de navegação global, Biblioteca de ativos e Painel de navegação/Painel de compilação.
+A tela do Dynamic Media Classic inclui três áreas principais: Barra de navegação global, Biblioteca de ativos e Painel de navegação/Painel de compilação.
 
 ![Noções básicas de navegação](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -28,33 +28,33 @@ A tela Dynamic Media Classic inclui três áreas principais: Barra de navegaçã
 
 A barra Navegação global, localizada na parte superior da tela, oferta botões para executar tarefas diferentes:
 
-**Selecione Empresa** Escolha a empresa que deseja acessar no menu. Esse botão não estará disponível se você estiver trabalhando com uma empresa.
+**Selecione** EmpresaEscolha a empresa que deseja acessar no menu. Esse botão não estará disponível se você estiver trabalhando com uma empresa.
 
-**Carregar** Abre a tela Carregar para que você possa carregar arquivos do computador ou da rede para o Dynamic Media Classic. Você pode fazer upload de arquivos da área de trabalho ou via FTP. Consulte Upload de arquivos.
+**** CarregarAbre a tela Carregar para que você possa carregar arquivos do computador ou da rede para o Dynamic Media Classic. Você pode fazer upload de arquivos da área de trabalho ou via FTP. Consulte Upload de arquivos.
 
-**Criar** Escolha uma tarefa de criação no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
+**** CriarEscolha uma tarefa de criação no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
 
-**Publicar** Abre a tela Publicar para que você possa publicar ativos de mídia avançada em Servidores de imagem de mídia dinâmica e no restante da Infraestrutura SAAS do Dynamic Media Classic. Consulte Publicação.
+**** PublicarAbre a tela Publicar para que você possa publicar ativos de mídia avançada nos Dynamic Media Image Servers e no restante da Dynamic Media Classic SAAS Infrastructure. Consulte Publicação.
 
-**Tarefas** Abre a tela Tarefas para que você possa examinar registros de trabalhos de upload e publicação.
+**** TarefasAbre a tela Tarefas para que você possa examinar registros de trabalhos de upload e publicação.
 
-**Recente** Abre a tela Atividade Recente para que você possa visualização os nomes dos ativos modificados recentemente e dos trabalhos recentes de upload e publicação.
+**** RecenteAbre a tela Atividade recente para que você possa visualização os nomes dos ativos modificados recentemente e dos trabalhos recentes de upload e publicação.
 
-**Configuração** Abre a tela Configuração para que você possa escolher as opções de configuração ou administração para otimizar o uso do Dynamic Media Classic. Consulte Configuração.
+**** ConfiguraçãoAbre a tela Configuração para que você possa escolher as opções de configuração ou administração para otimizar o uso do Dynamic Media Classic. Consulte Configuração.
 
-**Ajuda** Escolha uma opção de Ajuda:
+**** AjudaEscolha uma opção Ajuda:
 
-**Ajuda > AjudaSobre este tópico** Abre o sistema de Ajuda para uma página com informações sobre a tarefa que você está fazendo no momento.
+**Ajuda > Ajuda sobre este** tópicoAbre o sistema de Ajuda para uma página com informações sobre a tarefa que você está fazendo no momento.
 
-**Ajuda > Tutorial** em vídeo Acessar vídeos em tópicos específicos para demonstrar como começar a cada fluxo de trabalho de publicação em mídia avançada.
+**Ajuda >** Tutorial em vídeoAcessa vídeos sobre tópicos específicos para demonstrar como começar a cada fluxo de trabalho de publicação em mídia avançada.
 
-**Ajuda > Conteúdo** da Ajuda Abre o sistema de Ajuda na página Introdução. Você pode clicar em Índice para localizar e visualização tópicos diferentes.
+**Ajuda >** Conteúdo da AjudaAbre o sistema de Ajuda para a página Introdução. Você pode clicar em Índice para localizar e visualização tópicos diferentes.
 
-**Ajuda > Sobre** informa qual versão do Dynamic Media Classic você está executando.
+**Ajuda >** SobreInforma qual versão do Dynamic Media Classic você está executando.
 
-**Ajuda > Suporte** Informa como obter suporte técnico do Dynamic Media Classic.
+**Ajuda >** SuporteInforma como obter suporte técnico do Dynamic Media Classic.
 
-**Sair** Sai do Dynamic Media Classic.
+**SairSair** do Dynamic Media Classic.
 
 ## Biblioteca de ativos {#asset-library}
 
@@ -70,9 +70,9 @@ Na parte superior do painel Biblioteca de ativos estão comandos para localizar 
 
 O painel Procurar/Criar é onde você faz grande parte do seu trabalho. O que aparece neste painel depende se você está trabalhando no modo Procurar ou no modo Compilação:
 
-**Modo** Procurar Selecione uma pasta na Biblioteca de ativos para visualização e trabalhar com seu conteúdo no Painel Procurar. Esse painel oferta os menus Arquivo, Pré-visualização, Selecionar tudo, Selecionar nenhum e Classificar para trabalhar com ativos. Você também pode visualização ativos de diferentes maneiras movendo o controle deslizante ou selecionando a Visualização Grade, a Visualização da Lista ou o botão Visualização Detalhe. Selecionar o botão Visualização Detalhada ou clicar em duplo em um ativo abre o ativo em visualização Detalhada, onde você pode executar operações de arquivos dependentes de ativos.
+**Modo** de navegaçãoSelecione uma pasta na Biblioteca de ativos para visualização e trabalhar com seu conteúdo no Painel de navegação. Esse painel oferta os menus Arquivo, Pré-visualização, Selecionar tudo, Selecionar nenhum e Classificar para trabalhar com ativos. Você também pode visualização ativos de diferentes maneiras movendo o controle deslizante ou selecionando a Visualização Grade, a Visualização da Lista ou o botão Visualização Detalhe. Selecionar o botão Visualização Detalhada ou clicar em duplo em um ativo abre o ativo em visualização Detalhada, onde você pode executar operações de arquivos dependentes de ativos.
 
-**Modo** de compilação Clique em Criar e escolha uma opção para start na criação de um eCatalog, conjunto de imagens, conjunto de rotação ou um de vários outros itens disponíveis no menu Criar. A tela Criar é aberta. Você pode selecionar os ativos com os quais deseja trabalhar antes ou depois de entrar no modo Criar.
+**** Modo de compilaçãoClique em Criar e escolha uma opção para start na criação de um eCatalog, conjunto de imagens, conjunto de rotação ou um dos vários outros itens disponíveis no menu Criar. A tela Criar é aberta. Você pode selecionar os ativos com os quais deseja trabalhar antes ou depois de entrar no modo Criar.
 
 >[!MORELIKETHIS]
 >
