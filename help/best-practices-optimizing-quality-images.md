@@ -24,7 +24,7 @@ A otimização da qualidade da imagem pode ser um processo demorado, já que mui
 
 O Dynamic Media Classic inclui mais de 100 comandos de disponibilização de imagem para ajustar e otimizar imagens e os resultados de renderização. As diretrizes a seguir podem ajudá-lo a dinamizar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
 
-Consulte também Imagens [inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Consulte também [Imagens inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
 
 ## Práticas recomendadas para o formato de imagem (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -42,7 +42,7 @@ Como prática recomendada para o formato de imagem, start com a configuração m
 Reduzir dinamicamente o tamanho da imagem é uma das tarefas mais comuns que o Dynamic Media Image Server executa. Ela envolve especificar o tamanho e, opcionalmente, qual modo de redução de resolução é usado para diminuir a escala da imagem.
 
 * Para dimensionamento de imagem, a melhor e mais simples abordagem é usar `&wid=<value>` e `&hei=<value>` ou apenas `&hei=<value>`. Esses parâmetros definem automaticamente a largura da imagem de acordo com a proporção.
-* `&resMode=<value>` controla o algoritmo usado para diminuir a resolução. Start com `&resMode=sharp2`. Esse valor fornece a melhor qualidade de imagem. Embora o uso do valor de redução de resolução `=bilin` seja mais rápido, geralmente resulta na suavização de artefatos.
+* `&resMode=<value>` controla o algoritmo usado para diminuir a resolução. Start com `&resMode=sharp2`. Esse valor fornece a melhor qualidade de imagem. Embora o uso do valor de redução de resolução `=bilin` seja mais rápido, geralmente resulta na alias de artefatos.
 
 Como prática recomendada para dimensionamento de imagem, use `&wid=<value>&hei=<value>&resMode=sharp2` ou `&hei=<value>&resMode=sharp2`
 
@@ -50,15 +50,15 @@ Como prática recomendada para dimensionamento de imagem, use `&wid=<value>&hei=
 
 O ajuste da nitidez da imagem é o aspecto mais complexo do controle de imagens em seu site e onde muitos erros são cometidos. Aproveite o tempo para saber mais sobre como a aplicação de nitidez e máscaras de nitidez funciona no Dynamic Media Classic, consultando os seguintes recursos úteis:
 
-White paper de práticas recomendadas [Compartilhando imagens no Adobe Dynamic Media Classic e no Image Server](/help/assets/s7_sharpening_images.pdf).
+White paper de práticas recomendadas [Como aumentar a nitidez das imagens no Adobe Dynamic Media Classic e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
-Consulte também [Nitidez de uma imagem com máscara](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)nítida.
+Consulte também [Ajustar a nitidez de uma imagem com uma máscara nítida](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
 
 Com o Dynamic Media Classic, você pode tornar as imagens mais nítidas na ingestão, no delivery ou em ambos. Entretanto, na maioria dos casos, é necessário aumentar a nitidez das imagens usando apenas um método ou outro, mas não ambos. O compartilhamento de imagens no delivery, em um URL, geralmente oferece os melhores resultados.
 
 Existem dois métodos de nitidez de imagem que você pode usar:
 
-* Nitidez simples ( `&op_sharpen`) - Semelhante ao filtro de nitidez usado no Photoshop, a nitidez simples aplica a nitidez básica à visualização final da imagem após o redimensionamento dinâmico. No entanto, esse método não é configurável pelo usuário. A melhor prática é não usar a menos `&op_sharpen` que seja necessário.
+* Nitidez simples ( `&op_sharpen`) - Semelhante ao filtro de nitidez usado no Photoshop, a nitidez simples aplica a nitidez básica à visualização final da imagem após o redimensionamento dinâmico. No entanto, esse método não é configurável pelo usuário. A prática recomendada é não usar `&op_sharpen`, a menos que necessário.
 * Mascaramento com nitidez ( `&op_USM`) - O mascaramento com nitidez é um filtro de nitidez padrão do setor. A prática recomendada é tornar as imagens nítidas com máscaras nítidas, seguindo as diretrizes abaixo. O mascaramento de nitidez permite controlar os três parâmetros a seguir:
 
    * `&op_sharpen=amount,radius,threshold`
@@ -66,18 +66,18 @@ Existem dois métodos de nitidez de imagem que você pode usar:
       * `amount` (0-5, intensidade do efeito.)
       * `radius` (0-250, largura das &quot;linhas de nitidez&quot; desenhadas em torno do objeto com nitidez, conforme medida em pixels.)
 
-         Lembre-se de que os parâmetros `radius` e `amount` funcionam uns contra os outros. A redução `radius` pode ser compensada pelo aumento `amount`. `Radius` permite um controle mais fino como um valor mais baixo aumenta a nitidez apenas dos pixels da borda, enquanto um valor mais alto aumenta a nitidez de uma faixa maior de pixels.
+         Lembre-se de que os parâmetros `radius` e `amount` funcionam uns contra os outros. A redução de `radius` pode ser compensada aumentando `amount`. `Radius` permite um controle mais fino como um valor mais baixo aumenta a nitidez apenas dos pixels da borda, enquanto um valor mais alto aumenta a nitidez de uma faixa maior de pixels.
 
       * `threshold` (0-255, sensibilidade ao efeito.)
 
          Esse parâmetro determina como deve ser a diferença dos pixels com nitidez em relação à área ao redor antes de serem considerados pixels de borda e o filtro ajuste a nitidez deles. O limite ajuda a evitar áreas de nitidez excessiva com cores semelhantes, como tons de pele. Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de &quot;ruído&quot;, enquanto ainda adiciona o contraste da borda a áreas de alto contraste, como onde as pálpebras tocam a pele.
       Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte os seguintes recursos:
 
-      Tópico da Ajuda do Dynamic Media Classic sobre [como Compartilhar uma imagem](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+      Tópico da Ajuda do Dynamic Media Classic em [Nitidez de uma imagem](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
-      White paper de práticas recomendadas [Compartilhando imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
+      White paper sobre práticas recomendadas [Como aumentar a nitidez das imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
-   * O Dynamic Media Classic também permite controlar um quarto parâmetro: monocromático ( `0,1`). Esse parâmetro determina se a máscara de nitidez é aplicada a cada componente de cor separadamente usando o valor `0` ou o brilho/intensidade da imagem usando o valor `1`.
+   * O Dynamic Media Classic também permite controlar um quarto parâmetro: monocromático ( `0,1`). Este parâmetro determina se o mascaramento de nitidez é aplicado a cada componente de cor separadamente usando o valor `0` ou o brilho/intensidade da imagem usando o valor `1`.
 
 
 Como prática recomendada, start com o parâmetro de raio de máscara de nitidez. As configurações de Raio que você pode start são as seguintes:
@@ -94,24 +94,24 @@ Deixe a configuração do parâmetro monocromático em 0.
 ## Práticas recomendadas para compactação JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
 
 * Esse parâmetro controla a qualidade da codificação JPG. Um valor mais elevado significa uma imagem de qualidade mais elevada, mas com um tamanho de ficheiro grande; como alternativa, um valor mais baixo significa uma imagem de qualidade mais baixa, mas com um tamanho de arquivo menor. O intervalo para este parâmetro é de 0 a 100.
-* Para otimizar a qualidade, não defina o valor do parâmetro como 100. A diferença entre uma configuração de 90 ou 95 e 100 é quase imperceptível, mas 100 aumenta desnecessariamente o tamanho do arquivo de imagem. Portanto, para otimizar a qualidade, mas evitar que os arquivos de imagem fiquem muito grandes, defina o `qlt=` valor como 90 ou 95.
-* Para otimizar para um pequeno tamanho de arquivo de imagem, mas manter a qualidade da imagem em um nível aceitável, defina o `qlt=` valor como 80. Valores abaixo de 70 a 75 resultam em degradação significativa da qualidade da imagem.
-* Como prática recomendada, para ficar no meio, defina o `qlt=` valor como 85 para ficar no meio.
+* Para otimizar a qualidade, não defina o valor do parâmetro como 100. A diferença entre uma configuração de 90 ou 95 e 100 é quase imperceptível, mas 100 aumenta desnecessariamente o tamanho do arquivo de imagem. Portanto, para otimizar a qualidade, mas evitar que os arquivos de imagem fiquem muito grandes, defina o valor `qlt=` como 90 ou 95.
+* Para otimizar para um pequeno tamanho de arquivo de imagem, mas manter a qualidade da imagem em um nível aceitável, defina o valor `qlt=` como 80. Valores abaixo de 70 a 75 resultam em degradação significativa da qualidade da imagem.
+* Como prática recomendada, para ficar no meio, defina o valor `qlt=` como 85 para permanecer no meio.
 * Usando o sinalizador de croma em `qlt=`
 
-   * O `qlt=` parâmetro tem uma segunda configuração que permite ativar a redução da resolução de cromaticidade RGB usando o valor normal `,0` (padrão) ou desativá-la usando o valor `,1`.
-   * Para mantê-lo simples, o start com a redução da resolução de cromaticidade RGB desativada ( `,1`). Essa configuração geralmente resulta em melhor qualidade de imagem, especialmente para imagens sintéticas com muitas bordas nítidas e contraste.
+   * O parâmetro `qlt=` tem uma segunda configuração que permite ativar a redução da resolução da cromaticidade RGB usando o valor normal `,0` (padrão), ou desligá-la usando o valor `,1`.
+   * Para manter simples, o start com a redução da resolução de cromaticidade RGB foi desativado ( `,1`). Essa configuração geralmente resulta em melhor qualidade de imagem, especialmente para imagens sintéticas com muitas bordas nítidas e contraste.
 
-Como prática recomendada para o uso da compactação JPG `&qlt=85,0`.
+Como prática recomendada para a compactação JPG, use `&qlt=85,0`.
 
 ## Práticas recomendadas para dimensionamento JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 `jpegSize` é um parâmetro útil se você deseja garantir que uma imagem não exceda um determinado tamanho para delivery em dispositivos com memória limitada.
 
 * Esse parâmetro é definido em kilobytes ( `jpegSize=<size_in_kilobytes>`). Define o tamanho máximo permitido para o delivery de imagem.
-* `&jpegSize=` interage com o parâmetro de compactação JPG `&qlt=`. Se a resposta JPG com o parâmetro de compactação JPG especificado ( `&qlt=`) não exceder o `jpegSize` valor, a imagem será retornada com `&qlt=` a definição. Caso contrário, `&qlt=` será gradualmente diminuído até que a imagem se ajuste ao tamanho máximo permitido ou até que o sistema determine que ela não se ajusta e retorne um erro.
+* `&jpegSize=` interage com o parâmetro de compactação JPG  `&qlt=`. Se a resposta JPG com o parâmetro de compactação JPG especificado ( `&qlt=`) não exceder o valor `jpegSize`, a imagem será retornada com `&qlt=` conforme definido. Caso contrário, `&qlt=` será gradualmente diminuído até que a imagem se ajuste ao tamanho máximo permitido, ou até que o sistema determine que não é possível ajustar e retorne um erro.
 
-Como prática recomendada, defina `&jpegSize=` e adicione o parâmetro `&qlt=` se você estiver fornecendo imagens JPG a dispositivos com memória limitada.
+Como prática recomendada, defina `&jpegSize=` e adicione o parâmetro `&qlt=` se estiver fornecendo imagens JPG a dispositivos com memória limitada.
 
 ## Resumo das práticas recomendadas {#best-practices-summary}
 
@@ -121,7 +121,7 @@ Como prática recomendada, para obter uma alta qualidade de imagem e um pequeno 
 
 Essa combinação de configurações de produtos resulta em excelentes resultados na maioria das circunstâncias.
 
-Se a imagem exigir otimização adicional, ajuste gradualmente os parâmetros de nitidez (máscara de nitidez) iniciando com um raio definido como 0,2 ou 0,3. Em seguida, aumente gradualmente a quantidade de 1,75 para um máximo de 4 (equivalente a 400% no Photoshop). Verifique se o resultado desejado foi obtido.
+Se a imagem exigir otimização adicional, ajuste gradualmente os parâmetros de nitidez (máscara de nitidez) iniciando com um raio definido como 0,2 ou 0,3. Em seguida, aumente gradualmente o valor de 1,75 para um máximo de 4 (equivalente a 400% no Photoshop). Verifique se o resultado desejado foi obtido.
 
 Se os resultados da nitidez ainda não forem satisfatórios, aumente o raio em incrementos decimais. Para cada incremento decimal, reinicie o valor em 1,75 e aumente-o gradualmente para 4. Repita esse processo até obter o resultado desejado. Embora os valores acima sejam uma abordagem que os estúdios criativos validaram, lembre-se de que você pode start com outros valores e seguir outras estratégias. Se os resultados são ou não satisfatórios para si é uma questão subjetiva, por isso é fundamental uma experimentação estruturada.
 
@@ -129,5 +129,5 @@ Durante o experimento, você também pode achar as seguintes sugestões gerais �
 
 * Teste e teste diferentes parâmetros em tempo real, diretamente em um URL do Dynamic Media Classic ou usando a funcionalidade de ajuste de imagem do Dynamic Media Classic, que fornece pré-visualizações em tempo real para operações de ajuste.
 * Como prática recomendada, lembre-se de que é possível agrupar comandos do Dynamic Media Image Server em uma predefinição de imagem. Uma predefinição de imagem é basicamente macros de comando de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome predefinido personalizado em um caminho de URL faz uma chamada para essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens em seu site e reduz a duração geral dos URLs.
-* O Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar imagens de nitidez na ingestão. Para casos de uso avançado em que essa pode ser uma opção para ajustar e otimizar ainda mais os resultados da renderização, o Adobe Professional Services pode ajudá-lo com insight personalizado e práticas recomendadas.
+* O Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar imagens de nitidez na ingestão. Para casos de uso avançado em que essa pode ser uma opção para ajustar e otimizar ainda mais os resultados da renderização, a Adobe Professional Services pode ajudá-lo com insight personalizado e práticas recomendadas.
 
