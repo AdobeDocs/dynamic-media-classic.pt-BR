@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 3%
@@ -71,14 +71,14 @@ Existem dois métodos de nitidez de imagem que você pode usar:
       * `threshold` (0-255, sensibilidade ao efeito.)
 
          Esse parâmetro determina como deve ser a diferença dos pixels com nitidez em relação à área ao redor antes de serem considerados pixels de borda e o filtro ajuste a nitidez deles. O limite ajuda a evitar áreas de nitidez excessiva com cores semelhantes, como tons de pele. Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de &quot;ruído&quot;, enquanto ainda adiciona o contraste da borda a áreas de alto contraste, como onde as pálpebras tocam a pele.
-      Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte os seguintes recursos:
 
-      Tópico da Ajuda do Dynamic Media Classic em [Nitidez de uma imagem](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+         Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte os seguintes recursos:
 
-      White paper sobre práticas recomendadas [Como aumentar a nitidez das imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
+         Tópico da Ajuda do Dynamic Media Classic em [Nitidez de uma imagem](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
-   * O Dynamic Media Classic também permite controlar um quarto parâmetro: monocromático ( `0,1`). Este parâmetro determina se o mascaramento de nitidez é aplicado a cada componente de cor separadamente usando o valor `0` ou o brilho/intensidade da imagem usando o valor `1`.
+         White paper sobre práticas recomendadas [Como aumentar a nitidez das imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
+      * O Dynamic Media Classic também permite controlar um quarto parâmetro: monocromático ( `0,1`). Este parâmetro determina se o mascaramento de nitidez é aplicado a cada componente de cor separadamente usando o valor `0` ou o brilho/intensidade da imagem usando o valor `1`.
 
 Como prática recomendada, start com o parâmetro de raio de máscara de nitidez. As configurações de Raio que você pode start são as seguintes:
 
@@ -130,4 +130,3 @@ Durante o experimento, você também pode achar as seguintes sugestões gerais �
 * Teste e teste diferentes parâmetros em tempo real, diretamente em um URL do Dynamic Media Classic ou usando a funcionalidade de ajuste de imagem do Dynamic Media Classic, que fornece pré-visualizações em tempo real para operações de ajuste.
 * Como prática recomendada, lembre-se de que é possível agrupar comandos do Dynamic Media Image Server em uma predefinição de imagem. Uma predefinição de imagem é basicamente macros de comando de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome predefinido personalizado em um caminho de URL faz uma chamada para essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens em seu site e reduz a duração geral dos URLs.
 * O Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar imagens de nitidez na ingestão. Para casos de uso avançado em que essa pode ser uma opção para ajustar e otimizar ainda mais os resultados da renderização, a Adobe Professional Services pode ajudá-lo com insight personalizado e práticas recomendadas.
-
