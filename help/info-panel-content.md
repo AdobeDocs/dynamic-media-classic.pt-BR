@@ -37,9 +37,9 @@ Você pode selecionar um dos três modelos de resposta predefinidos para exibir 
 >
 >Você também pode configurar o Modelo de resposta na predefinição do visualizador. Para usar o Modelo de resposta na predefinição do visualizador, adicione `fmt=1` ao final do URL do Servidor de informações na predefinição do visualizador.
 >
->Consulte [Configuração das predefinições](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)do visualizador do eCatalog.
+>Consulte [Configuração das predefinições do visualizador do eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
-1. Clique no seu eCatalog com o Duplo para abri-lo na Visualização Detalhe.
+1. Clique no seu eCatalog com o duplo para abri-lo na Visualização Detalhe.
 1. Clique no painel Configuração do InfoPanel para abri-lo.
 1. Selecione um Modelo de Resposta:
 
@@ -66,13 +66,13 @@ Ao formatar o conteúdo de origem, lembre-se das seguintes diretrizes:
 
 ### Importar conteúdo CSV para o eCatalog de um local hospedado externamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
-1. Clique com o Duplo do mouse no eCatalog para abri-lo na Visualização Detalhe.
+1. Clique com o duplo do mouse no eCatalog para abri-lo na Visualização Detalhe.
 1. Clique no painel Dados do InfoPanel para abri-lo.
 1. Digite o URL do arquivo CSV na caixa Local do arquivo CSV hospedado externamente. Você pode colar o URL neste campo ou digitar diretamente.
 1. (Opcional) Especifique um tempo para atualizar o conteúdo usando os menus Agendar atualização e clique em Adicionar. Você pode selecionar várias vezes para atualização. Cada hora de atualização é exibida na caixa Atualizar horas. (Para remover uma hora, selecione-a e clique em Excluir.)
 1. (Opcional) Clique em Executar atualização agora para atualizar imediatamente o conteúdo.
 
-### Importar um arquivo CSV delimitado por tabulação {#import-a-tab-delimited-or-csv-file}
+### Importe um arquivo CSV {#import-a-tab-delimited-or-csv-file} delimitado por tabulação
 
 <!-- 
 
@@ -84,7 +84,7 @@ Last Modified Date:
 
  -->
 
-1. Clique com o Duplo do mouse no eCatalog para abri-lo na Visualização Detalhe.
+1. Clique com o duplo do mouse no eCatalog para abri-lo na Visualização Detalhe.
 1. Clique no painel Configuração do InfoPanel para abri-lo.
 1. **Clique em Carregar conteúdo** S7Info.
 1. Clique em **Procurar**, selecione o arquivo TXT delimitado por tabulação, o arquivo CSV ou SSV que deseja usar e clique em **Abrir**.
