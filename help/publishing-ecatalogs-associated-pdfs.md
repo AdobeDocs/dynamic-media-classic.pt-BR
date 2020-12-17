@@ -34,7 +34,7 @@ Para publicar seu eCatalog nos Dynamic Media Image Servers:
 
    Se você configurar seu eCatalog para que os visualizadores possam realizar pesquisas de palavras-chave, certifique-se de que os dados de palavras-chave sejam publicados. Clique em Avançado e, em seguida, clique em Opções avançadas. No menu suspenso Publicar, clique em Completo com dados de pesquisa. Essa opção é selecionada por padrão.
 
-1. Clique em Publicar **** Start.
+1. Clique em **Publicar Start**.
 
 >[!MORELIKETHIS]
 >
