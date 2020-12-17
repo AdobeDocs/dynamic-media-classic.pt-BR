@@ -29,7 +29,7 @@ Quando você carrega arquivos de ativos no DMC e publica os arquivos de ativos n
 
 >[!NOTE]
 >
->*Quando você carrega um arquivo, o Dynamic Media Classic gera o URL do arquivo. Esse URL não estará ativo até que você publique o arquivo.*
+>*Quando você carrega um arquivo, o Dynamic Media Classic gera o URL do arquivo. Este URL não estará ativo até que você publique o arquivo.*
 
 >[!NOTE]
 >
