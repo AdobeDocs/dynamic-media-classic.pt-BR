@@ -24,7 +24,7 @@ Os itens que você excluir do Dynamic Media Classic são movidos para a pasta Li
 
 Todos os usuários podem restaurar itens na pasta Lixeira para as pastas das quais foram excluídos. Todos os usuários também podem esvaziar a pasta Lixeira de todo o seu conteúdo.
 
-A exclusão de itens da pasta Lixeira exclui permanentemente os itens do Dynamic Media Classic; os itens excluídos da pasta Lixeira não podem mais ser restaurados. Para obter informações sobre como configurar notificações para administradores de empresas quando os ativos estiverem prestes a serem excluídos automaticamente do Lixeira, consulte Configurações [gerais do](application-setup.md#general_settings)aplicativo.
+A exclusão de itens da pasta Lixeira exclui permanentemente os itens do Dynamic Media Classic; os itens excluídos da pasta Lixeira não podem mais ser restaurados. Para obter informações sobre como configurar notificações para administradores de empresa quando os ativos estiverem prestes a serem excluídos automaticamente do Lixeira, consulte [Configurações gerais do aplicativo](application-setup.md#general_settings).
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ A exclusão de itens da pasta Lixeira exclui permanentemente os itens do Dynamic
 
 A exclusão de um item em uma pasta coloca o item na pasta Lixeira. O seguinte acontece quando você exclui um item e o move para a pasta Lixeira:
 
-* Embora o item tenha sido removido de suas pastas do Dynamic Media Classic, sua ID não pode ser atribuída a outro ativo enquanto permanece na pasta Lixeira. Se você tentar carregar um ativo com o mesmo nome de um arquivo na pasta Lixeira, o Dynamic Media Classic anexará um número ao nome do ativo.
+* Embora o item tenha sido removido das pastas do Dynamic Media Classic, sua ID não pode ser atribuída a outro ativo enquanto permanece na pasta Lixeira. Se você tentar carregar um ativo com o mesmo nome de um arquivo na pasta Lixeira, o Dynamic Media Classic anexará um numeral ao nome do ativo.
 * O item não pode ser publicado. Mesmo que o item tenha sido marcado para publicação ao excluí-lo, ele não será publicado.
 * O item permanece na pasta Lixeira até que seja restaurado, sete dias depois, ou alguém escolhe o comando Vazio The Lixeira. Após sete dias, uma operação automática de limpeza exclui permanentemente o item.
 
 ## Restaurar ativos da pasta Lixeira {#restoring-assets-from-the-trash-folder}
 
-Não é necessário que a pessoa que excluiu um ativo o restaure; qualquer pessoa pode restaurar ativos da pasta Lixeira. Os ativos restaurados são colocados nas pastas das quais foram excluídos. Se essas pastas não existirem mais, o Dynamic Media Classic as recriará e os ativos restaurados serão colocados nas pastas recriadas.
+Não é necessário que a pessoa que excluiu um ativo o restaure; qualquer pessoa pode restaurar ativos da pasta Lixeira. Os ativos restaurados são colocados nas pastas das quais foram excluídos. Se essas pastas não existirem mais, o Dynamic Media Classic as recria e os ativos restaurados são colocados nas pastas recriadas.
 
 Siga estas etapas para restaurar os ativos da pasta Lixeira para as pastas das quais foram excluídos:
 
@@ -54,9 +54,9 @@ Quando você exclui ativos na pasta Lixeira, os ativos são permanentemente excl
 
 Para excluir permanentemente os ativos da pasta Lixeira, selecione o ícone Lixeira para abrir a pasta Lixeira. Em seguida, exclua ativos individuais ou exclua todos os ativos na pasta:
 
-* **Excluindo ativos** individuais Selecione os ativos que deseja excluir permanentemente e clique em **[!UICONTROL File > Empty From Trash]**.
+* **Excluindo** ativos individuaisSelecione os ativos que deseja excluir permanentemente e clique em  **[!UICONTROL File > Empty From Trash]**.
 
-* **Excluindo todos os ativos** Clique em **[!UICONTROL File > Empty Trash]**.
+* **Excluindo todos os** ativosClique  **[!UICONTROL File > Empty Trash]**.
 
 >[!MORELIKETHIS]
 >
