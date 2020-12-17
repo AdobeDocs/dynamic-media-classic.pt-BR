@@ -28,20 +28,20 @@ Depois de publicar um Conjunto de imagens, é possível copiar o URL ou o códig
 
 ## Copiando um URL de conjunto de imagens {#copying-an-image-set-url}
 
-1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em Conjunto de **imagens**.
+1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Conjunto de imagens**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o Conjunto de imagens cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
@@ -49,7 +49,7 @@ Depois de publicar um Conjunto de imagens, é possível copiar o URL ou o códig
 
 A maneira mais comum de implantar Conjuntos de imagens é colocar um link (por meio de um ícone de navegação) na sua página da Web. Quando clicado, o link inicia uma página dinâmica (JSP) que exibe o Conjunto de imagens em uma janela de zoom pop-up. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)de Referência de Visualizadores de Adobe.
+Para obter detalhes adicionais e amostras de código, consulte [Incorporando o Visualizador de zoom HTML5 no Guia de Referência de Visualizadores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
 ## Copiando o código incorporado de um visualizador do Conjunto de imagens {#copying-the-embed-code-of-an-image-set-viewer}
 
@@ -57,22 +57,22 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 
 **Para copiar o código incorporado de um visualizador do Conjunto de imagens**
 
-1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em Conjunto de **imagens**.
+1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Conjunto de imagens**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o Conjunto de imagens cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs à direita, clique em **Incorporar código**.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs à direita, clique em **Código incorporado**.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
 1. Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
 
