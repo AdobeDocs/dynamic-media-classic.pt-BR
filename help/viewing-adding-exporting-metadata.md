@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Exibição, adição e exportação de metadados{#viewing-adding-and-exporting-metadata}
 
-Você pode armazenar informações específicas para os arquivos com os quais trabalha no Dynamic Media Classic; essas informações são chamadas de *metadados*. Você pode usar metadados no Dynamic Media Classic para organizar, pesquisar, filtrar e classificar seus ativos.
+Você pode armazenar informações específicas para os arquivos com os quais trabalha no Dynamic Media Classic; essas informações são chamadas *metadata*. Você pode usar metadados no Dynamic Media Classic para organizar, pesquisar, filtrar e classificar seus ativos.
 
 Os metadados aparecem em visualização de detalhes junto com as informações geradas pelo Dynamic Media Classic, como data de criação do arquivo, data de publicação e palavras-chave. Para visualização de metadados, abra o ativo na visualização Detalhe e selecione o painel Metadados. Você pode inserir e editar metadados em visualização de detalhes.
 
@@ -30,17 +30,20 @@ Para obter mais informações sobre metadados incorporados, consulte [www.adobe.
 
 ## Metadados de visualização {#view-metadata}
 
-Para visualização dos metadados de um ativo, abra o ativo na visualização Detalhe e clique no painel Metadados. Em seguida, escolha uma opção no menu Visualização de metadados para selecionar um conjunto de campos de metadados. O Dynamic Media Classic oferta estas Visualizações de Metadados:
+Para visualização dos metadados de um ativo, abra o ativo na visualização Detalhe e clique no painel Metadados. Em seguida, escolha uma opção no menu Visualização de metadados para selecionar um conjunto de campos de metadados. O Dynamic Media Classic oferta essas Visualizações de metadados:
 
-* **Visualização** compacta Uma lista básica de valores.
+* **Visualização compactaUma lista básica de valores.**
 
-* **IPTC** Valores tal como definidos pelo Conselho Internacional de Telecomunicações para a Imprensa.
 
-* **XMP** Valores conforme definido pela plataforma de metadados extensível.
+* **Valores**
+IPTCVs, definidos pelo Conselho Internacional de Telecomunicações da Imprensa.
 
-Os administradores podem criar Visualizações de metadados. Essas visualizações também aparecem no menu Visualizações de metadados. Para obter informações sobre como criar Visualizações de Metadados, consulte Visualizações [de Metadados](application-setup.md#metadata_views).
+* **Valores**
+XMPV, conforme definidos pela plataforma de metadados extensível.
 
-## Inserir manualmente metadados para um ativo {#manually-enter-metadata-for-an-asset}
+Os administradores podem criar Visualizações de metadados. Essas visualizações também aparecem no menu Visualizações de metadados. Para obter informações sobre como criar Visualizações de Metadados, consulte [Visualizações de Metadados](application-setup.md#metadata_views).
+
+## Insira manualmente metadados para um ativo {#manually-enter-metadata-for-an-asset}
 
 1. Abra o ativo na visualização Detalhe.
 1. Abra o painel Metadados e execute um dos procedimentos a seguir ou ambos:
@@ -71,7 +74,7 @@ Se você tiver adicionado palavras-chave a outros arquivos durante esta sessão,
 
 >[!NOTE]
 >
->Você pode adicionar palavras-chave aos arquivos à medida que os carrega para o Dynamic Media Classic. Na caixa de diálogo Carregar opções de trabalho, escolha Metadados adicionais e digite palavras-chave. Consulte Opções [de](uploading-files.md#upload_options)upload.
+>Você pode adicionar palavras-chave aos arquivos à medida que os carrega para o Dynamic Media Classic. Na caixa de diálogo Carregar opções de trabalho, escolha Metadados adicionais e digite palavras-chave. Consulte [Opções de upload](uploading-files.md#upload_options).
 
 ## Importar metadados {#import-metadata}
 
@@ -79,14 +82,14 @@ Em vez de inserir metadados manualmente, um ativo por vez, você pode importar m
 
 >[!NOTE]
 >
->Você pode criar um modelo para inserir metadados para que eles possam ser importados corretamente para o Dynamic Media Classic. Depois de criar o modelo, você pode usá-lo para inserir os metadados. Consulte [Criar um modelo para inserir metadados a serem carregados](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>Você pode criar um modelo para inserir metadados para que eles possam ser importados corretamente para o Dynamic Media Classic. Depois de criar o modelo, você pode usá-lo para inserir os metadados. Consulte [Crie um modelo para inserir metadados a serem carregados](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Você pode encontrar mais informações sobre propriedades padronizadas em: https://www.adobe.com/devnet/xmp.html
 
 1. No painel Procurar, selecione as imagens às quais deseja adicionar metadados do arquivo XML ou delimitado por tabulação.
 1. Clique em **Arquivo** > **Importar metadados**.
-1. Na caixa de diálogo **Carregar metadados** , clique em **Procurar**.
-1. Na caixa de diálogo **Selecionar arquivos para carregar** , selecione o arquivo delimitado por tabulação ou XML com os metadados.
+1. Na caixa de diálogo **Carregar metadados**, clique em **Procurar**.
+1. Na caixa de diálogo **Selecionar arquivos para carregar**, selecione o arquivo delimitado por tabulação ou XML com os metadados.
 1. Insira um nome de tarefa.
 1. Clique em **Carregar**.
 
@@ -132,9 +135,9 @@ Clique no botão Carregar na barra de navegação global e, na tela Tarefas, sel
 
 ## Renomear em lote IDs usando metadados {#batch-rename-ids-using-metadata}
 
-Usando metadados importados de um arquivo delimitado por tabulação ou XML, é possível renomear IDs do Dynamic Media Classic. Os metadados importados são aplicados somente às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
+Usando metadados importados de um arquivo delimitado por tabulação ou XML, é possível renomear Dynamic Media Classic IDs. Os metadados importados são aplicados somente às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
 
-Para renomear a ID do Dynamic Media Classic de uma imagem, adicione uma coluna chamada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado* new_vc_objectname* aos dados XML.
+Para renomear a Dynamic Media Classic ID de uma imagem, adicione uma coluna chamada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado* new_vc_objectname* aos dados XML.
 
 Por exemplo:
 
@@ -146,7 +149,7 @@ Por exemplo:
 
 O log de trabalho do trabalho de Metadados mostrará quais IDs foram renomeadas com êxito e quais não foram.
 
-## Criar um modelo para inserir metadados a serem carregados {#create-a-template-for-entering-metadata-to-upload}
+## Crie um modelo para inserir metadados para carregar {#create-a-template-for-entering-metadata-to-upload}
 
 O Dynamic Media Classic oferta um comando para criar um modelo para a gravação de metadados. O uso do modelo garante que os metadados sejam inseridos no formato correto para que possam ser carregados corretamente no Dynamic Media Classic. Siga estas etapas para criar um modelo para usar na gravação e importação de metadados para o Dynamic Media Classic:
 
@@ -179,9 +182,9 @@ O sistema gera automaticamente um schema personalizado para campos definidos pel
 
 >[!NOTE]
 >
->As alterações no schema nunca alteram os próprios metadados do ativo. No entanto, eles não estão visíveis para todas as funcionalidades do Dynamic Media Classic e do Servidor de Metadados e não podem ser acessados após serem alterados. Da mesma forma, se houver metadados para um ativo, a criação do schema correspondente torna os metadados utilizáveis no Dynamic Media Classic e no Servidor de Metadados.
+>As alterações no schema nunca alteram os próprios metadados do ativo. No entanto, eles não estão visíveis para todas as funcionalidades do Dynamic Media Classic e do Servidor de Metadados e não podem ser acessados após serem alterados. Da mesma forma, se houver metadados para um ativo, a criação do schema correspondente torna os metadados utilizáveis no Dynamic Media Classic e no Servidor de metadados.
 
-O Editor de Schemas de metadados oferta uma forma gráfica para adicionar ou editar um schema de empresa personalizado no Dynamic Media Classic. Um schema é definido por um prefixo, uma namespace e uma lista de propriedades.
+O Editor de Schemas de metadados oferta uma forma gráfica para adicionar ou editar um schema de empresa personalizado dentro do Dynamic Media Classic. Um schema é definido por um prefixo, uma namespace e uma lista de propriedades.
 
 * Nome
 
@@ -193,7 +196,7 @@ O Editor de Schemas de metadados oferta uma forma gráfica para adicionar ou edi
 
 * Namespace
 
-   Identificador exclusivo técnico do schema, geralmente um URL no formulário `https://your.company.com/name/version/`. Consulte a lista de schemas padrão para obter exemplos. A namespace não está visível na interface do usuário do Dynamic Media Classic, mas é usada para armazenar metadados no bloco XMP.
+   Identificador exclusivo técnico do schema, geralmente um URL no formato `https://your.company.com/name/version/`. Consulte a lista de schemas padrão para obter exemplos. A namespace não está visível na interface do usuário do Dynamic Media Classic, mas é usada para armazenar metadados no bloco XMP.
 
 * Descrição
 
@@ -207,7 +210,7 @@ As propriedades descrevem os metadados que podem ser armazenados com esse schema
 
 | Propriedade | Descrição |
 |--- |--- |
-| ID | Identificador técnico desta propriedade. A ID não é visível na interface clássica do Dynamic Media, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e em nosso banco de dados. A ID é usada para criar query de pesquisa no Servidor de Metadados. A ID tem algumas restrições, como: <ul><li>Sem espaços</li><li>Não &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Nenhum número como primeiro caractere</li><li>A prática recomendada é usar a-z ou A-Z como primeiro caractere</li></ul> <br>Depois de criada, a ID não pode ser alterada. |
+| ID | Identificador técnico desta propriedade. A ID não é visível na interface do usuário do Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e em nosso banco de dados. A ID é usada para criar query de pesquisa no Servidor de Metadados. A ID tem algumas restrições, como: <ul><li>Sem espaços</li><li>Não &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Nenhum número como primeiro caractere</li><li>A prática recomendada é usar a-z ou A-Z como primeiro caractere</li></ul> <br>Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para esta propriedade. |
 | Estrutura | Determina o tipo da propriedade junto com o Tipo de dados. A estrutura pode ser uma das seguintes:<ul><li>Tipo simples: valor único do tipo de dados</li><li>Sequência: uma lista de valores do mesmo tipo de dados</li><li>Opção aberta: selecione um item de uma lista de valores predefinidos ou insira texto livre. Pode ser somente do tipo de dados String ou Integer</li><li>Escolha fechada: selecione um item de uma lista de valores predefinidos (uma caixa pop-up ou combo)</li></ul> |
 | Tipo de dados | Selecione um destes tipos disponíveis: <ul><li>String</li><li>Número inteiro</li><li>Flutuar</li><li>Sim/Não (Booliano)</li><li>Data</li></ul> |
@@ -217,7 +220,7 @@ Quando a propriedade tem a estrutura Escolha Aberta ou Escolha Fechada, você de
 
 | Propriedade | Descrição |
 |--- |--- |
-| ID | Identificador técnico para este valor. A ID não está visível na interface clássica do Dynamic Media, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. A ID é usada em query de pesquisa no Servidor de Metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
+| ID | Identificador técnico para este valor. A ID não está visível na interface do usuário do Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. A ID é usada em query de pesquisa no Servidor de Metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para este valor. |
 
 >[!MORELIKETHIS]
