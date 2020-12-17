@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Visualização de um conjunto de giros{#previewing-a-spin-set}
+# Pré-visualização de um Conjunto de rotação{#previewing-a-spin-set}
 
 Você pode usar a Lista do visualizador para pré-visualização de como um ativo aparece em uma plataforma de tipo de visualizador específica, como HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para pré-visualização, nem todas as plataformas estarão disponíveis na Lista do visualizador.
 
-Consulte [Configuração de visualizadores](application-setup.md#configuring_default_viewers)padrão.
+Consulte [Configuração de Visualizadores Padrão](application-setup.md#configuring_default_viewers).
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 
