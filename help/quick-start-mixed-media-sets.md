@@ -34,19 +34,19 @@ Start carregando imagens, arquivos de amostra e vídeos para seus Conjuntos de m
 
 Clique em Fazer upload na barra de navegação global para fazer upload de arquivos do seu computador para uma pasta no Dynamic Media Classic.
 
-Consulte [Fazer upload dos arquivos](uploading-files.md#uploading-your-files).
+Consulte [Carregando seus arquivos](uploading-files.md#uploading-your-files).
 
-**2. Criação de conjuntos de mídia para uso dentro do Conjunto de mídia mista**
+**2. Criação de conjuntos de mídia para uso no Mixed Media Set**
 
 Você pode adicionar imagens, Conjuntos de imagens, Conjuntos de amostras, Conjuntos de rotação e vídeos ao seu Conjunto de mídia mista. Prepare os conjuntos de mídia antes de adicioná-los ao Conjunto de mídia mista.
 
-Consulte [Criação de um conjunto](creating-image-set.md#creating-an-image-set)de imagens, [Criação de um conjunto](creating-swatch-set.md#creating-a-swatch-set)de amostras e [Criação de um conjunto](creating-spin-set.md#creating-a-spin-set)de rotação.
+Consulte [Criação de um conjunto de imagens](creating-image-set.md#creating-an-image-set), [Criação de um conjunto de amostras](creating-swatch-set.md#creating-a-swatch-set) e [Criação de um conjunto de rotação](creating-spin-set.md#creating-a-spin-set).
 
 **3. Criação de um conjunto de mídia mista**
 
 Clique no botão Criar e escolha Conjuntos de mídia mista. Arraste as imagens, os Conjuntos de amostras, os Conjuntos de imagens e os vídeos até a tela Conjunto de mídia mista. Para adicionar uma trilha sonora, arraste um arquivo de áudio para a caixa Trilha sonora.
 
-Consulte [Criação de um conjunto](creating-mixed-media-set.md#creating-a-mixed-media-set)de mídia mista.
+Consulte [Criação de um conjunto de mídia mista](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
 **4. Configuração de predefinições do visualizador de mídia mista**
 
@@ -54,7 +54,7 @@ O Dynamic Media Classic vem com predefinições de visualizador padrão para Con
 
 Ao configurar uma predefinição do visualizador de Conjunto de mídia mista, adicione as predefinições do visualizador para todos os outros ativos do seu conjunto. Por exemplo, se o Conjunto de mídia mista incluir vídeos, adicione uma predefinição de visualizador de vídeo à predefinição do visualizador Conjunto de mídia mista. Você também pode adicionar uma trilha sonora ao visualizador. Essa trilha sonora é reproduzida enquanto o visualizador está aberto, mas não é reproduzida quando um vídeo está ativo.
 
-Consulte [Configuração de uma predefinição](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) do visualizador de conjunto de mídia mista e [Criação e edição de predefinições](application-setup.md#adding-and-editing-viewer-presets)do visualizador.
+Consulte [Configuração de uma predefinição de visualizador de conjunto de mídia mista](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) e [Criação e edição de predefinições de visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
 **5. Visualização de um conjunto de mídia mista**
 
@@ -66,12 +66,12 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 A publicação de um Conjunto de mídia mista o coloca em servidores Dynamic Media Classic e ativa a string de URL.
 
-Conjuntos de mídia mista exigem a publicação no **Video Server** e também no **Image Server**. Use o Servidor **de** vídeo para publicar os vídeos reais que você marcou para publicação. Além disso, você usa o Servidor **de** imagens para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.
+Conjuntos de mídia mista exigem a publicação para **Servidor de vídeo** e também para **Servidor de imagens**. Use **Servidor de vídeo** para publicar os vídeos reais que você marcou para publicação. Além disso, você usa o **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.
 
-Consulte [Publicação de um conjunto](publishing-mixed-media-set.md#publishing-a-mixed-media-set)de mídia mista.
+Consulte [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
 **7. Vincular um conjunto de mídia mista a uma página da Web**
 
 O Dynamic Media Classic ativa chamadas de URL para Conjuntos de mídia mista depois de publicá-las. Você pode copiar esses URLs da tela de Pré-visualização.
 
-Selecione Mixed Media Set (Conjunto de mídia mista) e clique em Pré-visualização. Na tela Pré-visualização, selecione uma predefinição de visualizador de conjunto de mídia mista e clique no botão Copiar URL. Consulte [Vincular um conjunto de mídia mista a uma página](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)da Web.
+Selecione Mixed Media Set (Conjunto de mídia mista) e clique em Pré-visualização. Na tela Pré-visualização, selecione uma predefinição de visualizador de conjunto de mídia mista e clique no botão Copiar URL. Consulte [Vincular um conjunto de mídia mista a uma página da Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
