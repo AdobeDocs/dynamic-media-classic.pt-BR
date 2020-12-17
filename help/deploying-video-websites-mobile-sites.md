@@ -20,15 +20,15 @@ ht-degree: 2%
 
 # Implantação de vídeo em seus sites e sites móveis{#deploying-video-to-your-websites-and-mobile-sites}
 
-Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor do Dynamic Media Classic, incluindo vídeo, usando strings de URL ou código incorporado. O Dynamic Media Classic ativa essas sequências de caracteres de URL durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie-o do Dynamic Media Classic.
+Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor Dynamic Media Classic, incluindo vídeo, usando strings de URL ou código incorporado. O Dynamic Media Classic ativa essas sequências de caracteres de URL durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie-o do Dynamic Media Classic.
 
 >[!NOTE]
 >
 >O URL ou o código incorporado não estará ativo até que você publique o ativo.
 
-## Vídeo de publicação {#publishing-video}
+## Publicando vídeo {#publishing-video}
 
-A publicação de um vídeo permite que os Servidores do Dynamic Media Classic forneçam vídeo ao seu site, site móvel ou aplicativo.
+A publicação de um vídeo permite que os Dynamic Media Classic Servers forneçam vídeo para seu site, site móvel ou aplicativo.
 
 Existem dois métodos diferentes que você pode usar para publicar vídeo:
 
@@ -40,13 +40,13 @@ Existem dois métodos diferentes que você pode usar para publicar vídeo:
 
    Se você não quiser publicar vídeos imediatamente, poderá publicar os vídeos manualmente a qualquer momento.
 
-Depois de publicar vídeos, o Dynamic Media Classic ativa as strings de URL para sua página HTML ou código do aplicativo.
+Depois de publicar vídeos, o Dynamic Media Classic ativa as sequências de caracteres do URL para sua página HTML ou código do aplicativo.
 
 **Para publicar vídeo**
 
 1. Execute um dos procedimentos a seguir:
 
-   * Para publicar vídeos automaticamente e instantaneamente no upload, na tela Upload, clique em **Publicar depois de fazer upload**. Você terminou. não há outras etapas a serem concluídas.
+   * Para publicar vídeos automaticamente e instantaneamente no upload, na tela Carregar, clique em **Publicar depois de fazer upload**. Você terminou. não há outras etapas a serem concluídas.
    * Para publicar vídeos manualmente após o upload, no Painel de navegação, selecione os vídeos e, na barra Navegação global, clique em **Publicar**.
 
 ## Vincular um URL de vídeo a um site móvel ou a um site {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -55,26 +55,26 @@ Depois de publicar um vídeo, você pode obter o URL para uso em seu site, site 
 
 Quando um cliente clica no link, o dispositivo, a largura de banda e o tamanho da tela são detectados automaticamente. O vídeo apropriado é exibido para reprodução em um visualizador predefinido para desktop ou no player de vídeo nativo do dispositivo móvel para smartphones e tablets.
 
-Consulte também [Incorporar o visualizador de vídeo em uma página](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page)da Web.
+Consulte também [Incorporar o visualizador de vídeo em uma página da Web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
 **Para vincular um URL de vídeo a um site móvel ou a um site**
 
-1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Vídeo** ou Conjunto **de vídeos** adaptáveis.
+1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Vídeo** ou **Conjunto de vídeos adaptáveis**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o vídeo ou o conjunto de vídeos adaptáveis que você deseja vincular.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade ou Visualização **de** Lista. No painel Navegação de ativos, clique com o duplo na miniatura de vídeo de um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, em HTTP Streaming, clique em **Copiar URL** à direita do visualizador desejado. Como prática recomendada, copie o URL associado ao `Universal_HTML5_Video` visualizador.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade** ou **Visualização de Lista**. No painel Navegação de ativos, clique com o duplo na miniatura de vídeo de um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, em HTTP Streaming, clique em **Copiar URL** à direita do visualizador desejado. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**. Como prática recomendada, copie o URL associado ao `Universal_HTML5_Video` visualizador.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**. Como prática recomendada, copie o URL associado ao `Universal_HTML5_Video` visualizador.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**. Como prática recomendada, copie o URL associado ao `Universal_HTML5_Video` visualizador.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
 
 1. Cole o link do URL do vídeo HTML5 em seu site e site móvel.
 
@@ -82,26 +82,26 @@ Consulte também [Incorporar o visualizador de vídeo em uma página](deploying-
 
 Use o recurso Incorporar código quando quiser reproduzir o vídeo incorporado na página da Web. Copie o código incorporado na área de transferência para poder colá-lo nuas páginas da Web. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-Consulte também [Vincular um URL de vídeo a um site móvel ou site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+Consulte também [Vincular um URL de vídeo a um site móvel ou a um site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 **Para incorporar o visualizador de vídeo em uma página da Web**
 
-1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Vídeo** ou Conjunto **de vídeos** adaptáveis.
+1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Vídeo** ou **Conjunto de vídeos adaptáveis**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o vídeo ou o conjunto de vídeos adaptáveis cujo código de incorporação você deseja copiar.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade ou Visualização **de** Lista. No painel Navegação de ativos, clique com o duplo na miniatura de vídeo de um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, em HTTP Streaming (Streaming HTTP), clique em **Incorporar código** à direita do visualizador desejado. Como prática recomendada, clique em **Incorporar código** associado ao `Universal_HTML5_Video` visualizador.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura do vídeo, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade** ou **Visualização de Lista**. No painel Navegação de ativos, clique com o duplo na miniatura de vídeo de um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, em HTTP Streaming, clique em **Código incorporado** à direita do visualizador desejado. Como prática recomendada, clique em **Incorporar código** associado ao visualizador `Universal_HTML5_Video`.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura do vídeo, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**. Como prática recomendada, clique em **Incorporar código** associado ao `Universal_HTML5_Video` visualizador.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**. Como prática recomendada, clique em **Incorporar código** associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**. Como prática recomendada, clique em **Incorporar código** associado ao `Universal_HTML5_Video` visualizador.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**. Como prática recomendada, clique em **Incorporar código** associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**. Como prática recomendada, clique em **Incorporar código** associado ao `Universal_HTML5_Video` visualizador.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**. Como prática recomendada, clique em **Incorporar código** associado ao visualizador `Universal_HTML5_Video`.
 
 1. Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
 
@@ -112,7 +112,7 @@ Consulte também [Vincular um URL de vídeo a um site móvel ou site](deploying-
 
 ### Implementação do código incorporado para uso de vídeo HTML5 com ativos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Se você não usar o player de vídeo HTML5 do Dynamic Media Classic, mas quiser usar a `<video>` tag HTML5 nativa com ativos de vídeo MP4, poderá usar a seguinte amostra de código incorporado:
+Se você não usar o player de vídeo HTML5 do Dynamic Media Classic, mas quiser usar a tag HTML5 nativa `<video>` com ativos de vídeo MP4, poderá usar a seguinte amostra de código incorporado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -122,42 +122,42 @@ Se você não usar o player de vídeo HTML5 do Dynamic Media Classic, mas quiser
 </video>
 ```
 
-* Substitua `"S7 video thumbnail URL"` pelo URL da miniatura do vídeo. Esta é a imagem em miniatura do vídeo que um usuário vê antes de reproduzir o vídeo.
+* Substitua `"S7 video thumbnail URL"` pelo URL de miniatura do vídeo. Esta é a imagem em miniatura do vídeo que um usuário vê antes de reproduzir o vídeo.
 
-   Consulte [Obtendo URLs](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)de miniatura de vídeo.
+   Consulte [Obtendo URLs de miniatura de vídeo](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * Substitua `"S7 OGG video asset URL (no player)"` pelo URL progressivo do vídeo para o vídeo OGG.
 
-   Consulte [Vincular um URL de vídeo a um site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)móvel ou móvel.
+   Consulte [Vincular um URL de vídeo a um site móvel ou a um site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * Substitua `"S7 MP4 mobile progressive video asset URL (no player)"` pelo URL progressivo móvel do vídeo.
 
-   Consulte [Vincular um URL de vídeo a um site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)móvel ou móvel.
+   Consulte [Vincular um URL de vídeo a um site móvel ou a um site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## Implantação de vídeo usando um player de vídeo de terceiros {#deploying-video-using-a-third-party-video-player}
 
-Se você usar um player de vídeo de terceiros ou um player de vídeo personalizado criado em vez de um visualizador de vídeo do Dynamic Media Classic, você pode obter o URL de vídeo direto que funciona para streaming de vídeo com vários bits HLS ou download progressivo.
+Se você usar um player de vídeo de terceiros ou um player de vídeo personalizado em vez de um visualizador de vídeo Dynamic Media Classic, você pode obter o URL de vídeo direto que funciona para streaming de vídeo com vários bits de HLS ou download progressivo.
 
 **Implantação de vídeo usando um player de vídeo de terceiros**
 
-1. No Dynamic Media Classic, na barra de navegação global, clique em **Configuração** > Configuração **** do aplicativo > Configurações **** gerais.
+1. No Dynamic Media Classic, na barra Navegação global, clique em **Configuração** > **Configuração de aplicação** > **Definições gerais**.
 1. Dependendo do tipo de URL que você deseja usar, execute uma das seguintes tarefas:
 * Para gerar um URL de vídeo de transmissão direta HLS (multi-bitrate)
 
-   Na página Configurações **gerais do** aplicativo, no grupo **Servidores** , no campo de texto Nome **do servidor** publicado, crie o URL direto usando a seguinte sintaxe: `server/is/content/company/folder/filename.m3u8`
-Por exemplo, suponha que o nome do servidor publicado esteja `https://s7d9.scene7.com/.` usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
+   Na página **Configurações gerais do aplicativo**, no grupo **Servidores**, no campo de texto **Nome do servidor publicado**, crie o URL direto usando a seguinte sintaxe: `server/is/content/company/folder/filename.m3u8`
+Por exemplo, suponha que o nome do servidor publicado seja `https://s7d9.scene7.com/.` Ao usar a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Para gerar um URL de vídeo de transmissão direta HLS (taxa de bits única)
 
-   Na página Configurações **gerais do** aplicativo, no grupo **Servidores** , no campo de texto Nome **do servidor de streaming** HLS, crie o URL direto usando a seguinte sintaxe:
+   Na página **Configurações gerais do aplicativo**, no grupo **Servidores**, no campo de texto **HLS Streaming Server Name**, crie o URL direto usando a seguinte sintaxe:
    `server/company/folder/filename.ext.m3u8`
-Por exemplo, suponha que o nome do servidor de streaming HLS seja `https://s7mbrstream.scene7.com/hls-vod/`. Usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
+Por exemplo, suponha que o nome do servidor de streaming HLS seja  `https://s7mbrstream.scene7.com/hls-vod/`. Usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Para gerar um URL de vídeo progressivo direto
 
-   Na página Configurações **gerais do** aplicativo, no grupo **Servidores** , no campo de texto Nome **do servidor de vídeo** progressivo, crie o URL direto do eVideo usando a seguinte sintaxe: `server/company/folder/filename`
+   Na página **Configurações gerais do aplicativo**, no grupo **Servidores**, no campo de texto **Nome do servidor de vídeo progressivo**, crie o URL direto do eVideo usando a seguinte sintaxe: `server/company/folder/filename`
 Por exemplo, suponha que o nome do servidor de vídeo progressivo seja `https://s7d9.scene7.com/is/content/`. Usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
@@ -173,17 +173,17 @@ O Dynamic Media Classic gera miniaturas de vídeo automaticamente durante o proc
 
 Para gerar URLs para miniaturas de vídeo, execute uma operação de publicação.
 
-Consulte [Publicação de vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
+Consulte [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
 
 Após a publicação, você pode obter URLs de miniatura de vídeo na Visualização Detalhe nos URLs e no painel Código incorporado. Clique em **Copiar URL** à direita da miniatura do vídeo para copiar o URL
 
 ### Modificação de quadros de pôster em visualizadores de vídeo {#modifying-poster-frames-in-video-viewers}
 
-O quadro *de* pôster é o quadro inicial que aparece nos visualizadores de vídeo antes da reprodução do vídeo. O Dynamic Media Classic usa miniaturas de vídeo como quadros de pôster.
+O *quadro de pôster* é o quadro inicial que aparece nos visualizadores de Vídeo antes da reprodução do vídeo. O Dynamic Media Classic usa miniaturas de vídeo como quadros de pôster.
 
 É possível aplicar modificadores de imagem ao quadro de pôster. Por exemplo, você pode cortar o quadro do pôster ou torná-lo transparente. Para modificar o quadro de pôster, abra a tela de configuração do visualizador de vídeo e digite modificadores na seção Modificadores de imagem de pôster.
 
-Consulte [Adicionar ou editar uma predefinição](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)do visualizador de vídeo.
+Consulte [Adicionar ou editar uma predefinição do visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consulte [www.adobe.com/go/learn_s7_image_server_guide_en](https://www.adobe.com/go/learn_s7_image_server_guide_en).
 
