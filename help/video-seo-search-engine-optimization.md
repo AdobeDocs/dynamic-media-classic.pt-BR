@@ -22,11 +22,11 @@ ht-degree: 0%
 
 SEO é o processo de melhorar o volume de tráfego de mecanismos de pesquisa para um site. Embora os mecanismos de pesquisa se superem ao coletar informações sobre o conteúdo baseado em texto, eles não podem adquirir informações adequadamente sobre o vídeo, a menos que essas informações lhes sejam fornecidas.
 
-Usando o Dynamic Media Classic Video SEO, você pode aproveitar os metadados de vídeo para fornecer aos mecanismos de pesquisa descrições dos vídeos. O Dynamic Media Classic fornece a capacidade de criar feeds de Sitemaps de vídeo e mRSS. Estes são arquivos XML padrão para enviar informações de vídeo para mecanismos de pesquisa:
+Usando o Dynamic Media Classic Video SEO, você pode aproveitar os metadados de vídeo para fornecer aos mecanismos de pesquisa descrições de seus vídeos. O Dynamic Media Classic fornece a capacidade de criar feeds de Sitemaps de vídeo e mRSS. Estes são arquivos XML padrão para enviar informações de vídeo para mecanismos de pesquisa:
 
-**Mapa do site** de vídeo Informa o Google exatamente onde e qual conteúdo de vídeo está em um site. Consequentemente, os vídeos podem ser totalmente pesquisados no Google. Por exemplo, um Mapa do site de vídeo pode especificar o tempo de execução e as categorias dos vídeos. Para obter informações sobre mapas de site de vídeo, consulte https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Mapa do** site de vídeoInforma o Google exatamente onde e qual conteúdo de vídeo está em um site. Consequentemente, os vídeos podem ser totalmente pesquisados no Google. Por exemplo, um Mapa do site de vídeo pode especificar o tempo de execução e as categorias dos vídeos. Para obter informações sobre mapas de site de vídeo, consulte https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
-**Feed** mRSS (Media Really Simple Syndication) usado por editores de conteúdo para alimentar arquivos de mídia no Yahoo! Pesquisa de vídeo. Para obter informações sobre feeds mRSS, consulte https://www.rssboard.org/media-rss.
+**mRSS (Media Really Simple Syndication)** feedUsado pelos editores de conteúdo para alimentar arquivos de mídia no Yahoo! Pesquisa de vídeo. Para obter informações sobre feeds mRSS, consulte https://www.rssboard.org/media-rss.
 
 >[!NOTE]
 >
@@ -42,9 +42,9 @@ O Dynamic Media Classic cria relatórios sobre os mapas do site de vídeo e os f
 
 >[!NOTE]
 >
->Para os feeds de Sitemaps de vídeo e mRSS, o Dynamic Media Classic captura metadados somente de vídeos marcados para publicação. Marque vídeos para publicação para incluir seus metadados em mapas do site de vídeo e feeds mRSS.
+>Para os feeds de Sitemaps de vídeo e mRSS, o Dynamic Media Classic captura metadados somente de vídeos que estão marcados para publicação. Marque vídeos para publicação para incluir seus metadados em mapas do site de vídeo e feeds mRSS.
 
-## Seleção das configurações de SEO de vídeo {#choosing-video-seo-settings}
+## Escolhendo as configurações de SEO de vídeo {#choosing-video-seo-settings}
 
 Escolha as configurações de SEO de vídeo para os feeds de Sitemaps de vídeo e mRSS na tela Configurações de otimização do mecanismo de pesquisa de vídeo. Para abrir essa tela, escolha Configuração > Configuração do aplicativo > SEO de vídeo > Configurações.
 
@@ -56,31 +56,31 @@ Depois de escolher as configurações, clique em Gerar (ou Salvar e gerar) para 
 
 Na lista suspensa Modo de geração, escolha um modo de relatório:
 
-**Mapa do site** de vídeo Crie um mapa do site de vídeo.
+**Mapa do** site de vídeoCrie um mapa do site de vídeo.
 
-**Feed** mRSS Crie um feed RSS de mídia (mRSS).
+**Feed mRSS** Crie um feed RSS de mídia (mRSS).
 
-**Ambos** criam os dois tipos de arquivos XML.
+**** AmbosCrie os dois tipos de arquivos XML.
 
-**Desligado** Escolha esta opção para parar de gerar os mapas do site de vídeo e os feeds RSS de mídia (mRSS).
+**** DesligadoEscolha esta opção para interromper a geração de mapas do site de vídeo e de um feed RSS de mídia (mRSS).
 
 Na lista suspensa Modo automático/manual, escolha se deseja gerar automática ou manualmente:
 
-**Modo** automático O Dynamic Media Classic gera automaticamente um mapa do site de vídeo, feed RSS de mídia (mRSS) ou ambos, a cada dia. Escolha a opção Marcar para publicação para marcar automaticamente para publicar o arquivo XML gerado pelo Dynamic Media Classic.
+**Modo** automáticoO Dynamic Media Classic gera automaticamente um mapa do site de vídeo, feed RSS de mídia (mRSS) ou ambos, a cada dia. Escolha a opção Marcar para publicação para marcar automaticamente para publicar o arquivo XML gerado pelo Dynamic Media Classic.
 
-**Modo** manual O Dynamic Media Classic gera o mapa do site de vídeo, o feed RSS de mídia (mRSS) ou ambos, quando você clica em Gerar ou Salvar e gerar na tela Configurações de otimização da pesquisa de vídeo. Escolha também estas opções:
+**Manual** ModeO Dynamic Media Classic gera o mapa do site de vídeo, o feed RSS de mídia (mRSS) ou ambos, quando você clica em Gerar ou Salvar e gerar na tela Configurações de otimização da pesquisa de vídeo. Escolha também estas opções:
 
-**Nenhuma configuração** adicional não marca para publicar o arquivo XML gerado.
+**Nenhuma** configuração adicionalNão marca para publicar o arquivo XML gerado.
 
-**Marcar para Marcas de publicação** para publicar o arquivo XML gerado.
+**Marque para** PublicarMarcas para publicar o arquivo XML gerado.
 
-**Permitir mecanismos de pesquisa de geração** parcial pode rejeitar um arquivo XML se ele não contiver informações completas de metadados para todos os vídeos. Essa opção gera o arquivo XML mesmo se os metadados não estiverem disponíveis para alguns vídeos. Um aviso é registrado na tela Relatório. Escolha essa opção se você deseja exportar o arquivo XML e processar as informações ausentes manualmente.
+**Permitir mecanismos** GenerationSearch parciais pode rejeitar um arquivo XML se ele não contiver informações completas de metadados para todos os vídeos. Essa opção gera o arquivo XML mesmo se os metadados não estiverem disponíveis para alguns vídeos. Um aviso é registrado na tela Relatório. Escolha essa opção se você deseja exportar o arquivo XML e processar as informações ausentes manualmente.
 
 ### Escolhendo Configurações de Geração {#choosing-generation-settings}
 
 A área Configurações de geração lista campos de entrada para o mapa do site do vídeo e/ou feed mRSS e, no painel Metadados, os nomes dos campos de metadados. Use a área Configurações gerais para mapear campos de entrada para campos de metadados. Ao fazer isso, você informa ao Dynamic Media Classic onde obter metadados para o mapa do site de vídeo e/ou feed mRSS.
 
-1. No menu Visualizações de metadados, escolha uma visualização de metadados. Depois de escolher uma visualização, os nomes dos campos de metadados são exibidos no painel Metadados. (Para obter informações sobre visualizações de metadados, consulte Visualizações [de metadados](application-setup.md#metadata_views).)
+1. No menu Visualizações de metadados, escolha uma visualização de metadados. Depois de escolher uma visualização, os nomes dos campos de metadados são exibidos no painel Metadados. (Para obter informações sobre visualizações de metadados, consulte [Visualizações de metadados](application-setup.md#metadata_views).)
 1. Arraste os nomes dos campos de metadados do painel Metadados para os campos de entrada Landing page, Título, Descrição, Tags e Categoria. Os campos Landing page, Título e Descrição são obrigatórios.
 
    >[!NOTE]
@@ -95,7 +95,7 @@ A área Configurações de geração lista campos de entrada para o mapa do site
 >
 >Você deve publicar o mapa do site do vídeo ou o feed mRSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de feed RSS (mRSS) e do mapa do site de vídeo são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e clique em Publicar.
 
-## Envio de arquivos do mapa do site de vídeo e do feed RSS para mecanismos de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
+## Enviar arquivos do mapa do site de vídeo e do feed RSS para os mecanismos de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
 Os arquivos de feed RSS (mRSS) e do mapa do site de vídeo são armazenados na pasta raiz da empresa:
 
@@ -104,7 +104,7 @@ Os arquivos de feed RSS (mRSS) e do mapa do site de vídeo são armazenados na p
 
 Copie um desses URLs nas ferramentas webmaster do mecanismo de pesquisa para enviar o seu arquivo de feed Video Sitemap ou Media RSS (mRSS) para mecanismos de pesquisa.
 
-## Exibição de relatórios de SEO de vídeo {#viewing-video-seo-reports}
+## Exibindo relatórios de SEO de vídeo {#viewing-video-seo-reports}
 
 Visualização relatórios de SEO de vídeo na tela Relatório de otimização do mecanismo de pesquisa de vídeo. Para abrir essa tela, clique em Configuração > Configuração do aplicativo > SEO de vídeo > Relatórios.
 
