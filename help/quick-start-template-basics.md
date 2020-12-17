@@ -34,11 +34,11 @@ Este Start rápido foi projetado para começar a funcionar rapidamente com as In
 
 Start fazendo upload do arquivo PSD ou de imagem para seu modelo. O Dynamic Media Classic é compatível com vários formatos de arquivo de imagem além do PSD, mas imagens TIFF e PNG sem perdas são recomendadas para modelos, pois permitem transparência.
 
-Se você estiver usando um arquivo PSD para criar seu modelo, selecione a opção Criar modelo na caixa de diálogo Carregar opções de trabalho ao carregar o arquivo PSD. Além disso, escolha uma opção Nomenclatura de camada para informar ao Dynamic Media Classic como nomear camadas PSD quando elas forem carregadas para o Dynamic Media Classic.
+Se você estiver usando um arquivo PSD para criar seu modelo, selecione a opção Criar modelo na caixa de diálogo Carregar opções de trabalho ao carregar o arquivo PSD. Escolha também uma opção de nomenclatura de camada para informar ao Dynamic Media Classic como nomear camadas PSD quando elas forem carregadas no Dynamic Media Classic.
 
 Se você estiver usando arquivos de imagem, poderá recortar as imagens e também criar uma máscara a partir de caminhos de recorte nas imagens à medida que as carrega.
 
-Selecione o botão Carregar na barra de navegação global para carregar um arquivo PSD ou outros arquivos de imagem do computador para uma pasta no Dynamic Media Classic. Consulte [Upload de arquivos](uploading-template-files.md#uploading_template_files)de modelo.
+Selecione o botão Carregar na barra de navegação global para carregar um arquivo PSD ou outros arquivos de imagem do computador para uma pasta no Dynamic Media Classic. Consulte [Carregando arquivos de modelo](uploading-template-files.md#uploading_template_files).
 
 **2. Criar um modelo**
 
@@ -56,18 +56,18 @@ Consulte [Criação de um modelo](creating-template.md#creating_a_template).
 
 A próxima etapa é parametrizar as propriedades em camadas para determinar quais propriedades de camada estão incluídas na string de URL. Os parâmetros permitem usar modelos com máxima flexibilidade. Depois de transformar uma propriedade de camada em um parâmetro, é possível alterá-la dinamicamente.
 
-Para parametrizar uma camada, abra o modelo na tela Modelo e selecione o botão Parâmetros ao lado de um nome de camada. Na tela Parâmetros, selecione a opção ao lado de cada parâmetro que deseja adicionar. Consulte [Criação de parâmetros](creating-template-parameters.md#creating_template_parameters)de modelo.
+Para parametrizar uma camada, abra o modelo na tela Modelo e selecione o botão Parâmetros ao lado de um nome de camada. Na tela Parâmetros, selecione a opção ao lado de cada parâmetro que deseja adicionar. Consulte [Criação de parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
 
 **4. Publicar modelos**
 
-A publicação do seu modelo o coloca em Servidores de Imagem de Mídia Dinâmica para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. A publicação também ativa o URL para chamar o modelo dos Servidores de Imagem de Mídia Dinâmica para seu site ou aplicativo.
+A publicação do modelo o coloca em Servidores de Imagens da Dynamic Media para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. A publicação também ativa o URL para chamar o modelo dos Servidores de Imagens da Dynamic Media para o site ou aplicativo.
 
 Certifique-se de publicar todas as imagens associadas ao seu modelo.
 
-Para publicar um modelo, marque-o para publicação e selecione o botão Publicar na barra Navegação global. Em seguida, selecione o botão Publicar Start. Consulte [Publicação de modelos](publishing-templates.md#publishing_templates).
+Para publicar um modelo, marque-o para publicação e selecione o botão Publicar na barra Navegação global. Em seguida, selecione o botão Publicar Start. Consulte [Modelos de publicação](publishing-templates.md#publishing_templates).
 
 **5. Vincular um modelo a uma página da Web**
 
-O Dynamic Media Classic cria URLs para modelos e ativa os URLs quando você publica modelos em Servidores de Imagem de Mídia Dinâmica. É possível copiar essas sequências de URL da tela Pré-visualização Modelo.
+O Dynamic Media Classic cria URLs para modelos e ativa os URLs quando você publica modelos em Dynamic Media Image Servers. É possível copiar essas sequências de URL da tela Pré-visualização Modelo.
 
-Selecione seu modelo no Painel de navegação e clique no botão Pré-visualização para abrir a tela Pré-visualização do modelo. Em seguida, escolha uma predefinição de imagem para entregar seu modelo e selecione o botão Copiar URL. Depois de copiar o URL da tela de Pré-visualização, você pode usá-lo em seu site ou aplicativo. Consulte [Vincular um modelo a uma página](linking-template-web-page.md#linking_a_template_to_a_web_page)da Web.
+Selecione seu modelo no Painel de navegação e clique no botão Pré-visualização para abrir a tela Pré-visualização do modelo. Em seguida, escolha uma predefinição de imagem para entregar seu modelo e selecione o botão Copiar URL. Depois de copiar o URL da tela de Pré-visualização, você pode usá-lo em seu site ou aplicativo. Consulte [Vincular um modelo a uma página da Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
