@@ -17,14 +17,14 @@ ht-degree: 0%
 ---
 
 
-# Sobre conteúdo gerado pelo usuário{#about-user-generated-content}
+# Sobre o conteúdo gerado pelo usuário{#about-user-generated-content}
 
 O uso do UGC (conteúdo gerado pelo usuário) consiste em fazer upload de ativos para um repositório dedicado do armazenamento Dynamic Media Classic e executar operações relacionadas.
 
 O UGC suporta os seguintes formatos de arquivo:
 
 * Rasterização: JPG, PNG, TIFF
-* Vetor: AI, EPS (arquivos EPS do Adobe Illustrator 2018 não são suportados), PDF (somente quando o arquivo PDF foi aberto e salvo anteriormente na Adobe Illustrator CS6)
+* Vetor: AI, EPS (arquivos EPS do Adobe Illustrator 2018 não são suportados), PDF (somente quando o arquivo PDF foi aberto e salvo anteriormente no Adobe Illustrator CS6)
 
 Antes de fazer upload de ativos, você obtém uma chave de segredo compartilhado. Use essa chave para recuperar um token de upload. Você envia o token de upload quando carrega ativos e executa outras tarefas UGC.
 
