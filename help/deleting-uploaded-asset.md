@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Excluindo um ativo carregado{#deleting-an-uploaded-asset}
 
-Você pode usar o `delete` parâmetro neste formato para excluir um ativo:
+Você pode usar o parâmetro `delete` neste formato para excluir um ativo:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
