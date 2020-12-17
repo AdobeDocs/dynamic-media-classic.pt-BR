@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Vincular visualizadores de zoom a suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic Media, incluindo imagens principais e públicos alvos de zoom associados, e Predefinições do Visualizador de zoom, por meio de sequências de caracteres de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar essas strings de URL ou o código incorporado em suas páginas da Web e aplicativos, copie-as do Dynamic Media Classic.
+Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo imagens principais e públicos alvos de zoom associados, e Predefinições do visualizador de zoom, por meio de strings de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar essas strings de URL ou o código incorporado em suas páginas da Web e aplicativos, copie-as do Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -31,16 +31,16 @@ Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic M
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o visualizador de zoom cujo URL você deseja copiar.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade ou Visualização **de** Lista. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade** ou **Visualização de Lista**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
@@ -48,9 +48,9 @@ Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic M
 
 Geralmente, visitantes para imagens de zoom de um site selecionando primeiro um ícone de Zoom (geralmente, o ícone mostra a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente dão zoom na imagem.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom básico HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)de referência de visualizadores de Adobe.
+Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom básico HTML5 no Guia de referência de visualizadores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
-## Copiando a cópia incorporada de um visualizador de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
+## Copiando a cópia incorporada de um visualizador de Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador para o visualizador de zoom selecionado. Você também pode copiar o código para a área de transferência para colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
@@ -59,18 +59,18 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o visualizador de zoom cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Incorporar código** à direita do visualizador desejado.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Código incorporado** à direita do visualizador desejado.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
 1. Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
 
