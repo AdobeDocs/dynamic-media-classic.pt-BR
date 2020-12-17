@@ -22,13 +22,13 @@ ht-degree: 0%
 
 A publicação coloca suas imagens de zoom nos Dynamic Media Image Servers para que possam ser disponibilizadas para seu site e aplicativo. Como parte do processo de publicação, o Dynamic Media Classic ativa as sequências de caracteres do URL. Você pode colocar essas strings de URL no código HTML do seu site.
 
-## Marcar imagens para publicação {#marking-images-for-publish}
+## Marcar imagens para publicar {#marking-images-for-publish}
 
-As imagens devem ser marcadas para publicação para que possam ser copiadas para os servidores de imagem Dynamic Media. Você pode marcar suas imagens para publicação no Painel de navegação selecionando o ícone **Marcar para publicação** . Além disso, você pode marcar imagens para publicação ao carregá-las.
+As imagens devem ser marcadas para publicação para que possam ser copiadas para os Dynamic Media Image Servers. Você pode marcar suas imagens para publicação no Painel de navegação selecionando o ícone **Marcar para publicação**. Além disso, você pode marcar imagens para publicação ao carregá-las.
 
 ## Publicar as imagens {#publishing-the-images}
 
-Para publicar imagens de zoom, clique em **Publicar** na barra Navegação global. Em seguida, selecione uma opção **Quando (Uma vez ou Recorrente)**, opcionalmente, insira um nome para o trabalho de publicação e clique em Publicar **** Start.
+Para publicar imagens de zoom, clique em **Publicar** na barra de navegação global. Em seguida, selecione uma opção **Quando (One-Time or Recurring)**, opcionalmente, insira um nome para a tarefa de publicação e clique em **Publicar Start**.
 
 >[!MORELIKETHIS]
 >
