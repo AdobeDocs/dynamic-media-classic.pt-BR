@@ -20,28 +20,28 @@ ht-degree: 2%
 
 # Vincular um eCatalog a uma página da Web{#linking-an-ecatalog-to-a-web-page}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic Media, incluindo eCatalogs, por meio de strings de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado para seu eCatalog em suas páginas e aplicativos da Web, copie-o do Dynamic Media Classic.
+Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo eCatalogs, por meio de sequências de caracteres de URL ou código incorporado. Essas sequências de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado para seu eCatalog em suas páginas da Web e aplicativos, você o copia do Dynamic Media Classic.
 
 >[!NOTE]
 >
 >O URL não estará ativo até que você publique o ativo.
 
-## Copiando um URL de eCatalog {#copying-an-ecatalog-url}
+## Copiando um URL do eCatalog {#copying-an-ecatalog-url}
 
 1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Catálogo**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
       Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
 
@@ -49,9 +49,9 @@ Seus sites e aplicativos acessam o conteúdo do Servidor de Imagens do Dynamic M
 
 A maneira mais comum de implantar um eCatalog é colocar um link na forma de uma página de capa de miniatura do eCatalog na sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços do navegador sejam exibidas.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporação do visualizador de eCatalog HTML5 no Guia](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)de referência de visualizadores de Adobe.
+Para obter detalhes adicionais e amostras de código, consulte [Incorporando o Visualizador de eCatalog HTML5 no Guia de Referência de Visualizadores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
 
-## Copiando o código incorporado de um visualizador de eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
+## Copiando o código incorporado de um visualizador do eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador para o eCatalog selecionado. Você também pode copiar o código para a área de transferência para colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
@@ -61,18 +61,18 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
 
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs à direita, clique em **Incorporar código**.
-   * Clique em **Visualização** de grade. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs à direita, clique em **Código incorporado**.
+   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
-   * Clique em **Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > Lista **do** visualizador.
+   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
-   * Clique em Visualização **** de grade, Visualização **de** Lista ou Visualização **** detalhada. Na mesma barra de ferramentas, clique em **Pré-visualização** > Lista **do visualizador**.
+   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
 
 1. Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
 
