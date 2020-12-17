@@ -35,7 +35,7 @@ Quando você cria um conjunto de modelos, a opção **Publicar após salvar** af
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos retêm seu estado publicado ou não publicado. |
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 Você pode criar um modelo a partir de um modelo existente. Abra o modelo, clique em **Salvar como** e insira um novo nome na caixa de diálogo Salvar como.
 
@@ -43,21 +43,21 @@ Você pode criar um modelo a partir de um modelo existente. Abra o modelo, cliqu
 
 1. Para criar seu modelo, use um dos seguintes métodos:
 
-   **Selecione o PSD ou as imagens primeiro** no painel Procurar, selecione o arquivo PSD ou as imagens que deseja para o modelo e clique em Criar > Noções básicas do modelo.
+   **Selecione o PSD ou as imagens** primeiroNo painel Procurar, selecione o arquivo PSD ou as imagens que deseja para o modelo e clique em Criar > Noções básicas do modelo.
 
-   **Start da tela** Modelo Clique em Criar > Noções básicas do modelo. Selecione Designer ou Desenvolvedor.
+   **Start da** tela ModeloClique em Criar > Noções básicas do modelo. Selecione Designer ou Desenvolvedor.
 
 1. Na caixa de diálogo Inserir tamanho da tela de desenho, insira medidas de largura e altura para o modelo.
 1. Selecione uma pasta na Biblioteca de ativos e arraste o arquivo PSD ou as imagens desejadas para o seu modelo para a tela Modelo.
-1. Quando terminar, próximo ao canto inferior direito da página, verifique se a opção **Publicar após salvar** está selecionada (padrão).
+1. Quando terminar, próximo ao canto inferior direito da página, certifique-se de que **Publicar após salvar** esteja selecionado (padrão).
 1. Clique em **Salvar**.
-1. Selecione uma pasta para armazenar seu modelo, insira um nome para o modelo e clique em **Enviar**.
+1. Selecione uma pasta para armazenar o modelo, insira um nome para o modelo e clique em **Enviar**.
 
    O Dynamic Media Classic reduz as imagens, se necessário, para ajustá-las à tela, a área na tela Modelo para definir seu modelo.
 
-## Edição de um conjunto de modelos {#editing-a-template-set}
+## Editando um Conjunto de Modelos {#editing-a-template-set}
 
-Dependendo de se você editar um conjunto publicado ou um conjunto de modelos não publicado, a opção **Publicar após salvar** afetará o conjunto e definirá os membros das seguintes maneiras:
+Dependendo de você editar um conjunto publicado ou um conjunto de modelos não publicado, a opção **Publicar após salvar** afeta o conjunto e define os membros das seguintes maneiras:
 
 | Definir já publicado? | Opção &quot;Publicar após salvar&quot; selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |--- |
@@ -66,20 +66,20 @@ Dependendo de se você editar um conjunto publicado ou um conjunto de modelos n�
 | Não | Sim | Publicado | Publicado |
 | Não | Não | Não publicado | Os membros do conjunto existente e quaisquer novos membros do conjunto que você tiver adicionado durante a edição manterão seu estado publicado ou não publicado. |
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para editar um conjunto de modelos**
 
 1. Na visualização de grade, navegue até um conjunto de modelos e, abaixo da imagem, clique em **Editar**.
 1. Faça alterações no modelo, conforme necessário.
-1. Quando terminar a edição, próximo ao canto inferior direito da página, certifique-se de que a opção **Publicar após salvar** esteja selecionada (padrão).
+1. Quando terminar a edição, próximo ao canto inferior direito da página, certifique-se de que **Publicar após salvar** esteja selecionado (padrão).
 1. Clique em **Salvar**, selecione uma pasta de armazenamento, digite um nome para o conjunto e clique em **Salvar**.
 
 ## Excluindo um Modelo {#deleting-a-template}
 
 Quando você exclui um conjunto de modelos, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um deles mantém seu estado publicado ou não publicado.
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para excluir um modelo**
 
@@ -92,25 +92,25 @@ A tela Modelo oferta ferramentas para manipular e parametrizar camadas.
 
 Use essas ferramentas na tela Modelo para criar modelos:
 
-**Ferramenta** DeslocamentoPermite selecionar camadas, movê-las ao redor da tela, redimensioná-las ou girá-las.
+**Ferramenta DeslocamentoPermite selecionar camadas, movê-las ao redor da tela, redimensioná-las ou girá-las.** 
 
-**Ferramenta** Texto Cria uma camada de texto. Arraste na tela de desenho para criar uma camada de texto e insira o texto na camada. Consulte Criar uma camada de texto.
+**Ferramenta** TextoCria uma camada de texto. Arraste na tela de desenho para criar uma camada de texto e insira o texto na camada. Consulte Criar uma camada de texto.
 
-**Botão** pré-visualização Abre a tela Pré-visualização e mostra o modelo em um Visualizador de zoom. Você verá a aparência do modelo para os usuários em seu site ou aplicativo.
+**Botão pré-visualizaçãoAbre a tela Pré-visualização e mostra o modelo em um Visualizador de zoom.** Você verá a aparência do modelo para os usuários em seu site ou aplicativo.
 
-**Botão** Resumo de parâmetros Abre a tela Resumo de parâmetros. É possível ver o nome de cada camada em um modelo e, em cada camada, os nomes dos parâmetros que foram ativados.
+**Botão Resumo do parâmetroAbre a** tela Resumo do parâmetro. É possível ver o nome de cada camada em um modelo e, em cada camada, os nomes dos parâmetros que foram ativados.
 
 **Editor de texto v4.3 e Editor de texto v4.2** Você pode optar por usar o editor de texto mais recente e completo, o Editor de texto v4.3 ou o editor de texto anterior, o Editor de texto v4.2. Ao criar novos modelos, o Editor de texto v4.3 é selecionado por padrão. Ao editar modelos mais antigos, o Editor de texto v4.2 é selecionado por padrão. No momento, o Editor de texto v4.3 não oferece suporte para quebra automática de texto, portanto, ao editar modelos mais antigos que usam quebra automática de texto, use o Editor de texto v4.2 para manter a fidelidade do modelo totalmente intacta. Se o seu modelo mais antigo não usar quebra automática de texto, você poderá escolher o Editor de texto v4.3 para aproveitar os vários recursos novos que ele oferta, como Aumentar margens, Diminuir margens, Definir texto em todas as letras maiúsculas e Copiar ajuste de texto.
 
 ***observação **: O Editor de texto v4.2 será eventualmente removido como uma opção no Dynamic Media Classic, portanto, recomenda-se usar o Editor de texto 4.3 quando possível. A opção Quebra automática de texto será incorporada a uma versão futura do Editor de texto.*
 
-**Designer e Desenvolvedor** Selecione a opção que melhor descreve sua função.
+**Designer e** DesenvolvedorSelecione a opção que melhor descreve sua função.
 
-**Tela** Define a área total disponível, em pixels, para a definição do modelo. O tamanho padrão é 300 x 300 pixels. As camadas são colocadas na tela.
+**** TelaDefine a área total disponível, em pixels, para a definição do modelo. O tamanho padrão é 300 x 300 pixels. As camadas são colocadas na tela.
 
-**A lista** Camadas Lista o nome das camadas no modelo. Para selecionar uma camada, selecione seu nome na lista Camadas. A lista Camadas oferta as ferramentas para adicionar efeitos a camadas, excluir camadas, reordenar camadas e parametrizar camadas. Consulte Trabalhar com camadas.
+**Lista de** camadasLista o nome das camadas no modelo. Para selecionar uma camada, selecione seu nome na lista Camadas. A lista Camadas oferta as ferramentas para adicionar efeitos a camadas, excluir camadas, reordenar camadas e parametrizar camadas. Consulte Trabalhar com camadas.
 
-**Área** Propriedades da camada Oferta ferramentas para alterar a cor, a opacidade, o tamanho e a posição do plano de fundo de uma camada, bem como a cor, a opacidade e o tamanho do plano de fundo da tela. Você também pode ajustar os efeitos de sombra e brilho. Consulte Trabalhar com camadas.
+**Área de propriedades da camadaOferece ferramentas para alterar a cor, a opacidade, o tamanho e a posição do plano de fundo de uma camada, bem como a cor, a opacidade e o tamanho do plano de fundo da tela.** Você também pode ajustar os efeitos de sombra e brilho. Consulte Trabalhar com camadas.
 
 ## Criação de camadas de imagem {#creating-image-layers}
 
@@ -120,7 +120,7 @@ Use essas ferramentas na tela Modelo para criar modelos:
 
 >[!NOTE]
 >
->Se necessário, o Dynamic Media Classic reduz as imagens para ajustá-las à tela quando você cria uma camada de imagem.
+>Se necessário, o Dynamic Media Classic encolhe as imagens para ajustá-las à tela quando você cria uma camada de imagem.
 
 ## Criação de uma camada de texto {#creating-a-text-layer}
 
@@ -141,25 +141,25 @@ Siga estas etapas para formatar o texto em uma camada de texto:
 1. Na caixa de texto, selecione o texto que deseja formatar. Você pode selecionar todo o texto, partes do texto, bem como caracteres individuais.
 1. Especifique qualquer uma dessas opções de formatação e clique em Aplicar.
 
-   **Fonte** Escolha uma fonte no menu Fonte. Se uma fonte desejada não aparecer no menu, você pode fazer upload dela no Dynamic Media Classic. Consulte Fontes.
+   **** FonteEscolha uma fonte no menu Fonte. Se uma fonte desejada não aparecer no menu, você pode fazer upload dela no Dynamic Media Classic. Consulte Fontes.
 
-   **Tamanho** da fonte Escolha um tamanho de fonte no menu, digite um tamanho específico na caixa ou clique nas setas para cima ou para baixo para aumentar ou diminuir o tamanho em dois pontos.
+   **Tamanho da fonteEscolha um tamanho de fonte no menu, digite um tamanho específico na caixa ou clique nas setas para cima ou para baixo para aumentar ou diminuir o tamanho em dois pontos.** 
 
-   **Cor** Clique para escolher uma cor para o texto.
+   **** CorClique para escolher uma cor para o texto.
 
-   **Negrito, Itálico ou Sublinhado** Selecione o texto e clique no ícone do tipo de formatação que deseja aplicar ao texto.
+   **Negrito, Itálico ou** SublinhadoSelecione o texto e clique no ícone do tipo de formatação que deseja aplicar ao texto.
 
-   **Todas em maiúsculas, sobrescrito ou subscrito** Selecione o texto e clique no ícone do tipo de formatação que deseja aplicar ao texto.
+   **Todas em maiúsculas, sobrescrito ou** subscritoSelecione o texto e clique no ícone do tipo de formatação que deseja aplicar ao texto.
 
-   **Alinhamento** Escolha um botão Alinhamento para alinhar o texto à esquerda, ao centro ou à direita na camada de texto.
+   **** AlinhamentoEscolha um botão Alinhamento para alinhar o texto à esquerda, ao centro ou à direita na camada de texto.
 
-   **Tipo de rastreamento** ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre as palavras.
+   **** TrackingType ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre palavras.
 
-   **Tipo de ajuste de espaço** ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre os caracteres.
+   **** KerningType ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre os caracteres.
 
-   **Tipo de espaçamento** da linha ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre as linhas.
+   **Tipo de** espaçamento de linha ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre as linhas.
 
-   **Deslocamento** da linha de baseDigite ou selecione um valor numérico para mover um caractere selecionado para cima ou para baixo em relação à linha de base do texto ao redor. Essa opção é especialmente útil quando você configura frações manualmente ou ajusta a posição de gráficos em linha.
+   **Linha de base** ShiftDigite ou selecione um valor numérico pelo qual mover um caractere selecionado para cima ou para baixo em relação à linha de base do texto ao redor. Essa opção é especialmente útil quando você configura frações manualmente ou ajusta a posição de gráficos em linha.
 
 >[!NOTE]
 >
@@ -171,25 +171,25 @@ Siga estas etapas para formatar o texto em uma camada de texto:
 1. Selecione o parágrafo que deseja formatar.
 1. Especifique qualquer uma dessas opções de formatação e clique em Aplicar.
 
-   **Alinhamento** Clique para especificar o tipo de alinhamento: alinhar à esquerda, alinhar ao centro, alinhar à direita ou justificar.
+   **** AlinhamentoClique para especificar o tipo de alinhamento: alinhar à esquerda, alinhar ao centro, alinhar à direita ou justificar.
 
-   **Justificação** de fim de parágrafo Clique para especificar o tipo de justificação para a última linha no parágrafo: alinhamento da última linha à esquerda; centro de alinhamento da última linha; e a última linha se alinha à direita.
+   **Final do parágrafo** JustificaçãoClique para especificar o tipo de justificação para a última linha no parágrafo: alinhamento da última linha à esquerda; centro de alinhamento da última linha; e a última linha se alinha à direita.
 
-   **Tipo de espaçamento** de linha ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre todas as linhas no parágrafo.
+   **Tipo de** espaçamento de linha ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre todas as linhas no parágrafo.
 
-   **Recuar todos** os cliques para aumentar a quantidade de recuo do texto.
+   **Recuar** tudoClique para aumentar a quantidade de recuo do texto.
 
-   **Remover recuo** Clique para diminuir a quantidade de recuo do texto.
+   **Remover** RecuoClique para diminuir a quantidade de recuo do texto.
 
-   **Recuar primeira linha** Especifique a quantidade pela qual deseja recuar a primeira linha de texto.
+   **Recuar primeira** linhaEspecifique a quantidade pela qual deseja recuar a primeira linha de texto.
 
-   **Espaço antes do parágrafo** Especifique a quantidade de espaço que deseja exibir acima da primeira linha de texto no parágrafo.
+   **Espaço antes do** parágrafoEspecifique a quantidade de espaço que deseja exibir acima da primeira linha de texto no parágrafo.
 
-   **Espaço após parágrafo** Especifique a quantidade de espaço que deseja exibir abaixo da última linha de texto no parágrafo.
+   **Espaço após o** parágrafoEspecifique a quantidade de espaço que deseja exibir abaixo da última linha de texto no parágrafo.
 
-   **Alinhamento** vertical Selecione o local em que deseja que o texto apareça verticalmente na caixa de texto: Parte Superior, Meio, Parte Inferior.
+   **Alinhamento verticalSelecione o local em que deseja que o texto apareça verticalmente na caixa de texto:**  Parte Superior, Meio, Parte Inferior.
 
-   **Direção** do texto Selecione a direção na qual deseja que o texto seja exibido: Da Direita Para A Esquerda Ou Da Esquerda Para A Direita.
+   **Direção** do textoSelecione a direção na qual deseja que o texto seja exibido: Da Direita Para A Esquerda Ou Da Esquerda Para A Direita.
 
 ### Ajustar propriedades da camada de texto {#adjust-text-layer-properties}
 
@@ -200,15 +200,15 @@ Siga estas etapas para formatar o texto em uma camada de texto:
 
    **Quebra automática de linha (somente Editor de texto v4.2)** Selecione uma opção de quebra automática para especificar se o texto envolve ou como:
 
-   **Vincular** Vincula o texto para ajustá-lo a uma caixa de texto que é muito pequena horizontalmente.
+   **** Quebra automática de linhaEnvolve o texto para ajustá-lo a uma caixa de texto muito pequena horizontalmente.
 
-   **Sem quebra** não quebra o texto quando a caixa de texto é muito pequena horizontalmente e, em vez disso, corta uma parte do texto.
+   **Sem** Quebra automática de linhaNão quebra o texto quando a caixa de texto é muito pequena horizontalmente e, em vez disso, corta uma parte do texto.
 
-   **NB Quebrar** (Quebra automática de linha) Quebra o texto para ajustar a uma caixa de texto e não quebra palavras.
+   **NB Quebrar**  (Quebra automática de linha) Quebra o texto para ajustar a uma caixa de texto e não quebra as palavras.
 
-   **Posição** Especifica o local da caixa de texto na tela.
+   **** PosiçãoEspecifica o local da caixa de texto na tela.
 
-   **Preenchimento** Adiciona margens ou corta o retângulo da camada. Especifique o número de pixels a serem adicionados ou removidos para Esquerda, Superior, Inferior e Direita. Insira números positivos para adicionar uma margem; insira números negativos para cortar.
+   **** PreenchimentoAdiciona margens ou corta o retângulo da camada. Especifique o número de pixels a serem adicionados ou removidos para Esquerda, Superior, Inferior e Direita. Insira números positivos para adicionar uma margem; insira números negativos para cortar.
 
 ### Visualização e edição do código fonte de texto {#view-and-edit-text-source-code}
 
@@ -228,7 +228,7 @@ Use a lista Camadas e a área Propriedades da camada para trabalhar com camadas.
 
 Você também pode alterar o tamanho da tela de desenho, escolher sua cor de plano de fundo e alterar sua configuração de opacidade.
 
-### Reorganização de camadas {#reordering-layers}
+### Reorganizando camadas {#reordering-layers}
 
 Alterar a ordem de camadas pode afetar a aparência, especialmente quando a transparência ou a superimposição estiver envolvida. Certifique-se de pré-visualização no resultado antes de confirmar suas alterações.
 
@@ -243,15 +243,15 @@ As camadas devem ser pequenas o suficiente para se ajustarem à tela. É possív
 
 >[!NOTE]
 >
->O Dynamic Media Classic recomenda a criação de uma predefinição de imagem com o tamanho exato do modelo. A correspondência do tamanho da predefinição de imagem com o tamanho do modelo garante que o tamanho de saída final e as opções de nitidez do modelo sejam definidos corretamente. Depois de criar essa predefinição de imagem, você pode escolhê-la no menu Aplicar predefinição na tela Pré-visualização de modelo. A tela mostra a aparência da imagem quando ela é entregue pelo servidor. Consulte [Configuração de predefinições](setting-image-presets.md#setting_up_image_presets)de imagem.
+>O Dynamic Media Classic recomenda a criação de uma predefinição de imagem com o tamanho exato do modelo. A correspondência do tamanho da predefinição de imagem com o tamanho do modelo garante que o tamanho de saída final e as opções de nitidez do modelo sejam definidos corretamente. Depois de criar essa predefinição de imagem, você pode escolhê-la no menu Aplicar predefinição na tela Pré-visualização de modelo. A tela mostra a aparência da imagem quando ela é entregue pelo servidor. Consulte [Configuração de predefinições de imagens](setting-image-presets.md#setting_up_image_presets).
 
 **Alteração do tamanho de uma camada**
 
 Para alterar o tamanho de uma camada ou da tela, selecione a camada ou a tela na lista Camadas e use uma destas técnicas:
 
-**Alteração manual do tamanho** Selecione e arraste um canto da camada ou da tela. Com camadas de texto, também é possível arrastar um lado da camada. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas mantém a proporção (a forma).
+**Alteração manual do** tamanhoSelecione e arraste um canto da camada ou da tela. Com camadas de texto, também é possível arrastar um lado da camada. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas mantém a proporção (a forma).
 
-**Inserir medidas** de tamanho de camada Insira medidas de pixel nas caixas de texto L (Largura) e A (Altura) na área Propriedades de camada.
+**Inserir** medidas de tamanho da camadaInsira medidas de pixel nas caixas de texto L (Largura) e A (Altura) na área Propriedades da camada.
 
 Além de alterar o tamanho de uma camada, você pode colá-la. Para fazer isso, digite uma medida de Preenchimento na caixa Esquerda, Direita, Superior e Inferior da área Propriedades da camada. O preenchimento adiciona uma margem à camada atual para deslocá-la do perímetro da camada base. O preenchimento é útil se você adicionar um efeito de sombra projetada ou de brilho externo e quiser tornar o efeito mais visível. O preenchimento aumenta o tamanho de uma camada e exibe sua cor de plano de fundo na área estendida e preenchida. A camada base se reposiciona em relação ao novo tamanho da camada. Por exemplo, se a camada atual estiver centralizada na camada base, a extensão do lado esquerdo da camada a moverá para a direita da camada base.
 
@@ -259,9 +259,9 @@ Além de alterar o tamanho de uma camada, você pode colá-la. Para fazer isso, 
 
 Para alterar a posição de uma camada na tela, selecione seu nome na lista Camadas e use uma destas técnicas:
 
-**Alteração manual da posição** Mova o ponteiro para perto, mas não acima, de um limite de camada e, ao ver o cursor de seta de quatro pontas, clique e arraste do start.
+**Alteração manual da** posiçãoMova o ponteiro para perto, mas não acima, de um limite de camada e, quando vir o cursor de seta de quatro pontas, clique e arraste o start.
 
-**Informando medidas** de deslocamento de posiçãoInsira medidas de deslocamento X e Y nas caixas de texto X e Y. Essas medidas representam o deslocamento x, y do ponto de ancoragem em pixels.
+**Inserindo** medidas de deslocamento de posiçãoInsira medidas de deslocamento X e Y nas caixas de texto X e Y. Essas medidas representam o deslocamento x, y do ponto de ancoragem em pixels.
 
 **Girar uma camada**
 
@@ -269,7 +269,7 @@ A caixa Girar lista o ângulo no qual a camada foi girada. Para girar uma camada
 
 **Girar** manualmenteMove o cursor próximo a, mas não sobre, um canto da camada. Quando o cursor de rotação for exibido, arraste o canto da camada. Mantenha pressionada a tecla Shift enquanto arrasta para girar em incrementos de 15 graus.
 
-**Inserindo uma medida** de grauInsira o número de graus para girar a camada. A rotação é no sentido horário; para girar no sentido anti-horário, insira um número negativo.
+**Inserindo uma** medida de grauInsira o número de graus para girar a camada. A rotação é no sentido horário; para girar no sentido anti-horário, insira um número negativo.
 
 **Ocultar uma camada ou um efeito de camada**
 
@@ -283,13 +283,13 @@ layer=5&amp;src=is{PortalCo/title}&amp;pos=274,192&amp;hide=1&amp;effect=-1&amp;
 
 Para escolher uma cor de plano de fundo, opacidade e modo de mesclagem para uma camada ou tela de desenho, selecione a camada ou a tela de desenho e use estas técnicas:
 
-**Cor** do primeiro plano Clique no botão Cor do primeiro plano e escolha uma amostra de cor para alterar a cor da sombra ou do brilho. Também é possível inserir um parâmetro de valor de cor na caixa. A cor de plano de fundo se aplica somente às camadas que usam transparência. Por exemplo, se aplica a uma camada parcialmente transparente em uma tag de preço ou ao plano de fundo de um campo de texto. As camadas que consistem em uma imagem PSD, TIFF ou PNG com transparência ativada podem ter planos de fundo transparentes.
+**Cor do primeiro planoClique no botão Cor do primeiro plano e escolha uma amostra de cor para alterar a cor da sombra ou do brilho.** Também é possível inserir um parâmetro de valor de cor na caixa. A cor de plano de fundo se aplica somente às camadas que usam transparência. Por exemplo, se aplica a uma camada parcialmente transparente em uma tag de preço ou ao plano de fundo de um campo de texto. As camadas que consistem em uma imagem PSD, TIFF ou PNG com transparência ativada podem ter planos de fundo transparentes.
 
-**Cor** do plano de fundo Clique no botão Cor do plano de fundo e escolha uma amostra de cor para alterar a cor das áreas preenchidas.
+**Cor do plano de fundoClique no botão Cor do plano de fundo e escolha uma amostra de cor para alterar a cor das áreas preenchidas.** 
 
-**Opacidade** Arraste o controle deslizante Opacidade para tornar qualquer camada translúcida, de modo que parte da imagem subjacente seja exibida. A configuração de 100% é completamente opaca. a configuração 0 é transparente.
+**** OpacidadeArraste o controle deslizante Opacidade para tornar qualquer camada translúcida para que parte da imagem subjacente seja exibida. A configuração de 100% é completamente opaca. a configuração 0 é transparente.
 
-**Modo** de mesclagem Escolha uma opção para simular um dos modos de mesclagem disponíveis no Photoshop. As opções são Normal, Dissolver, Iluminar, Escuro, Multiplicar e Tela. Essas opções estão disponíveis para camadas, não para a tela de desenho.
+**Modo de mesclagemEscolha uma opção para simular um dos modos de mesclagem disponíveis no Photoshop.** As opções são Normal, Dissolver, Iluminar, Escuro, Multiplicar e Tela. Essas opções estão disponíveis para camadas, não para a tela de desenho.
 
 ## Uso de efeitos de sombra e brilho em camadas {#using-shadow-and-glow-effects-on-layers}
 
@@ -304,35 +304,35 @@ Para aplicar um efeito de sombra ou brilho:
 1. Selecione uma camada na lista Camadas.
 1. Selecione o menu Adicionar efeito e escolha uma opção:
 
-   **Sombra** projetada Aplica uma sombra ao lado inferior e direito da camada.
+   **Soltar** sombraAplica uma sombra ao lado inferior e direito da camada.
 
-   **Sombra** interna Aplica um efeito de sombra dentro de todas as bordas da camada.
+   **Sombra internaAplica um efeito de sombra dentro de todas as bordas da camada.** 
 
-   **Brilho** externo Aplica um efeito de brilho em todas as bordas da camada.
+   **Brilho** externoAplica um efeito de brilho em todas as bordas da camada.
 
-   **Brilho** interno Aplica um efeito de brilho dentro de todas as bordas da camada.
+   **Brilho** internoAplica um efeito de brilho dentro de todas as bordas da camada.
 
 Um nome de efeito aparece na lista Camadas depois que você aplica um efeito. Para excluir um efeito, selecione seu nome na lista Camadas e, em seguida, selecione o botão Excluir.
 
 >[!NOTE]
 >
->Às vezes, não é possível ver o efeito de uma sombra projetada ou de um brilho externo se a camada subjacente não for grande o suficiente para exibi-la. Se você não conseguir ver a sombra ou o brilho, considere adicionar valores de Preenchimento à camada ou reorganizar a camada. Consulte [Alteração do tamanho e da posição das camadas e da](creating-template.md#changing_the_size_and_position_of_layers_and_the_canvas)cobertura e [Reorganização de camadas](creating-template.md#reordering_layers).
+>Às vezes, não é possível ver o efeito de uma sombra projetada ou de um brilho externo se a camada subjacente não for grande o suficiente para exibi-la. Se você não conseguir ver a sombra ou o brilho, considere adicionar valores de Preenchimento à camada ou reorganizar a camada. Consulte [Alteração do tamanho e da posição das camadas e da tela](creating-template.md#changing_the_size_and_position_of_layers_and_the_canvas)e [Reordenação de camadas](creating-template.md#reordering_layers).
 
 ### Ajustar um efeito de sombra ou brilho {#adjusting-a-shadow-or-glow-effect}
 
 Para ajustar um efeito de sombra ou brilho, selecione o start selecionando seu nome na lista Camadas. Em seguida, altere suas configurações na área Propriedades da camada da tela Modelo:
 
-**Cor** Selecione o botão Cor e escolha uma amostra de cor para alterar a cor da sombra ou do brilho. Também é possível inserir um parâmetro de valor de cor na caixa.
+**** CorSelecione o botão Cor e escolha uma amostra de cor para alterar a cor da sombra ou do brilho. Também é possível inserir um parâmetro de valor de cor na caixa.
 
-**Opacidade** Arraste o controle deslizante para determinar a intensidade do efeito. Efeitos menos opacos são mais transparentes.
+**** OpacidadeArraste o controle deslizante para determinar a intensidade do efeito. Efeitos menos opacos são mais transparentes.
 
-**Modo** de mesclagem Escolha uma opção para simular um dos modos de mesclagem disponíveis no Photoshop. As opções são Normal, Dissolver, Iluminar, Escuro, Multiplicar e Tela.
+**Modo de mesclagemEscolha uma opção para simular um dos modos de mesclagem disponíveis no Photoshop.** As opções são Normal, Dissolver, Iluminar, Escuro, Multiplicar e Tela.
 
-**Tamanho** Insira medidas na caixa X e Y para aumentar ou diminuir o efeito de sombra. As opções de tamanho estão disponíveis apenas para sombras internas e sombras projetadas.
+**** TamanhoInsira medidas na caixa X e Y para ampliar ou diminuir o efeito de sombra. As opções de tamanho estão disponíveis apenas para sombras internas e sombras projetadas.
 
-**Expandir** Arraste o controle deslizante para estender o efeito para dentro ou para fora.
+**** ExpandirArraste o controle deslizante para estender o efeito para dentro ou para fora.
 
-**Desfoque** Arraste o controle deslizante para controlar a difusão nas bordas do efeito. Os efeitos com mais desfoque são mais afetados.
+**** DesfoqueArraste o controle deslizante para controlar a difusão nas bordas do efeito. Os efeitos com mais desfoque são mais afetados.
 
 ## Mascaramento de camadas {#masking-layers}
 
