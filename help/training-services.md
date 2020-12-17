@@ -1,8 +1,8 @@
 ---
-title: Serviços de treinamento da Adobe
-seo-title: Serviços de treinamento da Adobe
+title: Serviços de treinamento de Adobe
+seo-title: Serviços de treinamento de Adobe
 description: nulo
-seo-description: Saiba mais sobre os Serviços de treinamento da Adobe.
+seo-description: Saiba mais sobre os Serviços de treinamento do Adobe.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -18,15 +18,15 @@ ht-degree: 0%
 ---
 
 
-# Serviços de treinamento da Adobe{#adobe-training-services}
+# Serviços de treinamento do Adobe{#adobe-training-services}
 
 Treinamento do Dynamic Media Classic oferta na forma de tutoriais em vídeo, workshops com instrutor e sessões na Web, além de demonstrações.
 
-**Serviços de treinamento da Adobe**
+**Serviços de treinamento de Adobe**
 
-Os Serviços de treinamento da Adobe fornecem treinamento em sala de aula personalizado e detalhado projetado para sua organização. O treinamento pode assumir a forma de aulas ao estilo universitário regional, sessões na web ou workshops personalizados no site. As classes regionais são abertas a todos os clientes e mantidas periodicamente em vários locais na América do Norte e na EMEA. As sessões personalizadas podem ser personalizadas para usuários avançados, usuários finais, administradores e equipe de TI.
+Os Serviços de treinamento do Adobe fornecem treinamento em sala de aula personalizada e abrangente, projetado para sua organização. O treinamento pode assumir a forma de aulas ao estilo universitário regional, sessões na web ou workshops personalizados no site. As classes regionais são abertas a todos os clientes e mantidas periodicamente em vários locais na América do Norte e na EMEA. As sessões personalizadas podem ser personalizadas para usuários avançados, usuários finais, administradores e equipe de TI.
 
-Consulte Serviços [de treinamento da](https://training.adobe.com/training.html) Adobe [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
+Consulte [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
 **Demonstrações**
 
