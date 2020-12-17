@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -95,11 +95,9 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
 1. Montar imagens ou vídeos para o conjunto de ofertas. Start na tela Conjunto de Ofertas do Test&amp;Público alvo ou na Visualização da Grade ou na Visualização da Lista e use um dos seguintes métodos:
 
-   * **TelaClick do conjunto de Ofertas do Test&amp;Público alvo** 
-   **[!UICONTROL Build > Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar tamanhos variados de vídeos ou imagens, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
+   * **TelaClick do conjunto de Ofertas do Test&amp;Público alvo**   **[!UICONTROL Build > Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar tamanhos variados de vídeos ou imagens, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
 
-   * **Grade ou** 
-   exibição de ListaSelecione as imagens ou os vídeos e clique em  **[!UICONTROL Build > Test&Target Offer Set]**.
+   * **Grade ou** exibição de ListaSelecione as imagens ou os vídeos e clique em  **[!UICONTROL Build > Test&Target Offer Set]**.
 
 1. Como opção, selecione uma imagem ou vídeo e clique em **Pré-visualização**. Na página Ofertas de Pré-visualização, é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no conjunto de ofertas.
 
