@@ -22,23 +22,23 @@ ht-degree: 0%
 
 As configurações de estilo do Portal de mídia permitem marcar a tela do Portal de mídia com o logotipo e as cores de sua empresa. Use as configurações de estilo para colocar seu carimbo de empresa no Portal de mídia.
 
-Para acessar as configurações de estilo, escolha **Configuração** > Configuração **do** Media Portal > Configurações **** de estilo. Certifique-se de clicar em **Salvar** para salvar suas configurações depois de marcá-las. Você pode clicar em **Restaurar** para retornar as configurações padrão. À medida que você faz suas escolhas, o painel Pré-visualização mostra como suas escolhas se parecem.
+Para acessar as configurações de estilo, escolha **Configuração** > **Configuração do Portal de Mídia** > **Definições de Estilo**. Certifique-se de clicar em **Salvar** para salvar suas configurações depois de fazer isso. Você pode clicar em **Restaurar** para retornar as configurações padrão. À medida que você faz suas escolhas, o painel Pré-visualização mostra como suas escolhas se parecem.
 
-**Logotipo** Clique em Procurar e escolha um gráfico na janela Selecionar imagem de logotipo.
+**** LogotipoClique em Procurar e escolha um gráfico na janela Selecionar imagem do logotipo.
 
-**Aplicativo** Crie uma mistura de cores de gradiente fazendo escolhas nos menus de Cores de gradiente de plano de fundo.
+**** AplicativoCrie uma mistura de cores de gradiente fazendo escolhas nos menus de Cores de gradiente de plano de fundo.
 
-**Árvore** Escolha uma cor de sobreposição (a cor que aparece quando você move o ponteiro sobre um item) e a cor de seleção (a cor que aparece quando você seleciona um item).
+**** ÁrvoreEscolha uma cor de sobreposição (a cor que aparece quando você move o ponteiro sobre um item) e a cor de seleção (a cor que aparece quando você seleciona um item).
 
-**Acordeão** Escolha as cores de plano de fundo, um estilo de borda e as cores de sobreposição e selecionadas para o acordeão que aparece no lado direito da tela na visualização Detalhes.
+**** AcordeãoEscolha as cores de plano de fundo, um estilo de borda e as cores de sobreposição e selecionadas para o acordeão que aparece no lado direito da tela na visualização Detalhes.
 
-**Cabeçalho Acordeão** Escolha se deseja fazer texto na face em negrito do cabeçalho acordeão.
+**Cabeçalho** AcordeãoEscolha se deseja fazer texto na face em negrito do cabeçalho acordeão.
 
-**Datagrid** Escolha cores para a linha de cabeçalho em grades de dados.
+**** DatagridEscolha as cores da linha de cabeçalho nas grades de dados.
 
-**Alerta** Escolha uma cor de plano de fundo para caixas de mensagem de alerta.
+**** AlertaEscolha uma cor de plano de fundo para caixas de mensagem de alerta.
 
-**Barra** de progresso Escolha uma cor para a barra que indica o progresso de uploads e downloads.
+**Barra** de progressoEscolha uma cor para a barra que indica o progresso de uploads e downloads.
 
 Para que os usuários do Media Portal vejam as configurações de estilo escolhidas, eles devem anexar `?company=(company name)` ao URL com o qual acessam o Media Portal. Por exemplo, para ver as configurações de estilo, os usuários do Portal de mídia que acessam a empresa do PortalCo no seguinte:
 
@@ -52,4 +52,4 @@ A inclusão do nome da empresa no URL permite que o Portal de mídia reconheça 
 
 Você pode saber mais sobre como comunicar alterações de URL a usuários do Portal de mídia e configurar uma mensagem de email de boas-vindas para que novos usuários recebam o URL correto do Portal de mídia.
 
-Consulte [Configurar a mensagem de email de boas-vindas para usuários](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)do Portal de mídia.
+Consulte [Configure a mensagem de email de boas-vindas para usuários do Portal de mídia](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
