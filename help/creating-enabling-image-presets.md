@@ -34,8 +34,8 @@ As seguintes restrições se aplicam quando você exporta ativos de imagem:
 >
 >Essas restrições se aplicam apenas à exportação de ativos de imagem derivados, não à exportação de arquivos principais.
 
-Para criar predefinições de imagens, consulte Predefinições [de](application-setup.md#image_presets)imagens.
+Para criar predefinições de imagens, consulte [Predefinições de imagens](application-setup.md#image_presets).
 
-Para permitir que os usuários escolham Predefinições de imagem quando exportam arquivos, consulte [Especificação de opções de exportação disponíveis para usuários](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)do Portal de mídia.
+Para permitir que os usuários escolham Predefinições de imagem quando exportam arquivos, consulte [Especificar opções de exportação disponíveis para os usuários do Portal de mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-Para escolher quais predefinições de imagens estão disponíveis para os membros de um grupo, consulte [Escolher permissões de acesso a predefinições de imagens para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
+Para escolher quais predefinições de imagens estão disponíveis para os membros de um grupo, consulte [Escolher permissões de acesso à predefinição de imagens para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
