@@ -34,43 +34,43 @@ Selecione o botão Tarefas na barra Navegação global para abrir a página Tare
 
 As tarefas são listadas nessas categorias na guia Histórico da página Tarefas:
 
-**Tipo** de trabalho Um ícone indica o tipo de trabalho: Carregar e publicar são os tipos de trabalho mais comuns.
+**Tipo** de trabalhoUm ícone indica o tipo de trabalho: Carregar e publicar são os tipos de trabalho mais comuns.
 
-**Nome** da tarefaO nome da tarefa. O nome inclui a parte digitada pelo usuário do nome e o carimbo de data e hora.
+**Nome** do trabalhoO nome do trabalho. O nome inclui a parte digitada pelo usuário do nome e o carimbo de data e hora.
 
-**Iniciado** quando o trabalho começou.
+**** IniciadoQuando o trabalho começou.
 
-**Total** O número de arquivos transferidos.
+**** TotalO número de arquivos transferidos.
 
 **W (avisos)** O número de avisos na tarefa (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral do trabalho. Normalmente, esses avisos podem ser ignorados porque relatam sobre arquivos ocultos. Por exemplo, arquivos .DS_store (Macintosh) e arquivos Thumbs.db (Windows) contêm informações sobre como exibir arquivos de imagem para usuários. No entanto, as entradas de aviso referentes a esses arquivos podem ser ignoradas, pois não dizem respeito à forma como esses arquivos são usados no Dynamic Media Classic. Você pode clicar com o duplo em um nome de tarefa para obter informações detalhadas sobre avisos.
 
 **E (erros)** Lista o número de erros no trabalho (se houver). Você pode clicar com o duplo no nome de uma tarefa para obter informações detalhadas sobre erros.
 
-**Duração** Quanto tempo levou para concluir o trabalho.
+**** DuraçãoQuanto tempo levou para concluir o trabalho.
 
-**Status** Mostra o status da tarefa.
+**** StatusMostra o status do trabalho.
 
-**Destino** Para trabalhos de upload, o nome da empresa e a pasta na qual os arquivos foram carregados. Essa categoria não se aplica a trabalhos de publicação.
+**** DestinoPara trabalhos de upload, o nome da empresa e a pasta para a qual os arquivos foram carregados. Essa categoria não se aplica a trabalhos de publicação.
 
-**Enviado pelas** Listas que carregaram os ativos.
+**Submetido** porListas que carregaram os ativos.
 
 ***Observação **: Você pode cancelar trabalhos de publicação e upload em andamento clicando no botão Cancelar ao lado da barra de progresso.*
 
-## Alterar visualizações na página Tarefas {#changing-views-on-the-jobs-page}
+## Alteração de visualizações na página Tarefas {#changing-views-on-the-jobs-page}
 
 Use essas técnicas para classificar trabalhos ou alterar sua visualização da guia Histórico da página Tarefas:
 
-**Classificação** Selecione um nome de coluna para classificar a lista por uma coluna específica. Você pode selecionar o switch ao lado do nome da coluna para classificar em ordem decrescente ou crescente.
+**** ClassificaçãoSelecione um nome de coluna para classificar a lista por uma coluna específica. Você pode selecionar o switch ao lado do nome da coluna para classificar em ordem decrescente ou crescente.
 
-**Intervalo** de datas Selecione o menu Intervalo de datas e escolha uma opção para restringir a lista de trabalhos à data atual, à semana anterior ou ao mês anterior. Escolha Intervalo de datas personalizado para inserir um intervalo de datas específico.
+**Intervalo de datasSelecione o menu Intervalo de datas e escolha uma opção para restringir a lista de trabalhos à data atual, à semana anterior ou ao mês anterior.** Escolha Intervalo de datas personalizado para inserir um intervalo de datas específico.
 
-**Tipo** de trabalho Selecione o menu Tipo de trabalho e escolha Publicar ou Fazer upload para restringir a lista de publicar trabalhos ou fazer upload de trabalhos. Escolha Todos para ver os dois tipos de trabalhos.
+**Tipo** de trabalhoSelecione o menu Tipo de trabalho e escolha Publicar ou Fazer upload para restringir a lista de publicar trabalhos ou fazer upload de trabalhos. Escolha Todos para ver os dois tipos de trabalhos.
 
-**Mostrar** Escolha Mostrar > Meus trabalhos ou Mostrar > Todos os trabalhos para restringir a lista aos trabalhos que você solicitou ou aos trabalhos que as pessoas em sua empresa solicitaram.
+**** MostrarEscolha Mostrar > Meus trabalhos ou Mostrar > Todos os trabalhos para restringir a lista aos trabalhos que você solicitou ou aos trabalhos que as pessoas em sua empresa solicitaram.
 
 ## Exibição, cópia e impressão de um relatório de Detalhes do trabalho {#viewing-copying-or-printing-a-job-details-report}
 
-Clique com o duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção. Esta página fornece um relatório de resumo sobre os arquivos no trabalho. Clique em Detalhes da Visualização para ver a ID do Dynamic Media Classic de uma entrada, o caminho de destino e as informações de status. Se você carregou um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Dynamic Media Classic, o relatório lista as fontes ausentes.
+Clique com o duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção. Esta página fornece um relatório de resumo sobre os arquivos no trabalho. Clique em Detalhes da Visualização para ver a Dynamic Media Classic ID de uma entrada, o caminho de destino e as informações de status. Se você carregou um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Dynamic Media Classic, o relatório lista as fontes ausentes.
 
 É possível copiar essas informações para a Área de transferência.
 
@@ -92,15 +92,15 @@ Selecione o botão Tarefas na barra Navegação global e, na página Tarefas, se
 
 Selecione uma tarefa recorrente na página Tarefas e siga estas instruções para editá-la ou excluí-la:
 
-**Edição de um trabalho** recorrente Selecione o botão Editar e insira as informações do agendamento na caixa de diálogo Editar trabalho programado. Se desejar que a tarefa ocorra novamente em um intervalo de sua escolha, escolha Repetir > Personalizado.
+**Edição de um** trabalho recorrenteSelecione o botão Editar e insira as informações do agendamento na caixa de diálogo Editar trabalho programado. Se desejar que a tarefa ocorra novamente em um intervalo de sua escolha, escolha Repetir > Personalizado.
 
-Consulte [Criação de um intervalo](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)de tempo de trabalho de upload ou publicação personalizado.
+Consulte [Criação de um carregamento personalizado ou um intervalo de tempo de trabalho de publicação](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-**Excluindo um trabalho** recorrente Selecione o botão Excluir.
+**Excluindo um** trabalho recorrenteSelecione o botão Excluir.
 
-**Pausando (e retomando) um trabalho** recorrente Na coluna Ativo, desmarque uma caixa de seleção para pausar um trabalho; marque uma caixa de seleção para retomar um trabalho que foi pausado.
+**Pausando (e retomando) um** trabalho recorrenteNa coluna Ativo, desmarque uma caixa de seleção para pausar um trabalho; marque uma caixa de seleção para retomar um trabalho que foi pausado.
 
-### Criação de um intervalo de tempo de trabalho de upload ou publicação personalizado {#creating-a-custom-upload-or-publish-job-time-interval}
+### Criando um intervalo de tempo de trabalho personalizado de upload ou publicação {#creating-a-custom-upload-or-publish-job-time-interval}
 
 Para criar um intervalo de tempo personalizado para um upload (via FTP) ou um trabalho de publicação, escolha Repetir > Personalizado na página Carregar ou Publicar. Em seguida, insira números e curingas na caixa Regra para descrever um intervalo de tempo para que os trabalhos de upload ou publicação sejam repetidos.
 
@@ -108,7 +108,7 @@ A sintaxe para descrever intervalos de tempo de upload e publicação personaliz
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Por exemplo, `0 15 10 * * ?` agenda uma tarefa às 10:15.00 todos os dias.
+Por exemplo, `0 15 10 * * ?` agende um trabalho às 10:15.00 todos os dias.
 
 As tabelas a seguir e a lista explicam como descrever um intervalo de tempo na caixa Regra.
 
@@ -141,17 +141,17 @@ Esta tabela descreve os caracteres curingas permitidos na caixa Regra e como us�
 Esta lista fornece exemplos de descrição de intervalos de tempo na caixa Regra:
 
 * 0 0 12 * * ?: Nove todos os dias
-* 0 15 10 ? * *: 22:15 todo dia
+* 15 10 ? * *: 22:15 todo dia
 * 0 0/5 14 * * ?: A cada 5 minutos entre as 14:00 e 14:55 da tarde todos os dias
 * 0 0/5 14,18 * * * ?: A cada 5 minutos, entre 14:00 e 14:55, todos os dias, e a cada 5 minutos, entre 18:00 e 18:55, todos os dias
-* 0 10,44 14 ? 3: Que às 14:10 e 14:44 toda quarta-feira em março
-* 0 15 10 ? *: Seg-Sex às 10h15 todos os dias da semana
+* 10,44 14 ? 3: Que às 14:10 e 14:44 toda quarta-feira em março
+* 15 10 ? *: Seg-Sex às 10h15 todos os dias da semana
 * 0 15 10 20 * ?: Às 10h15 do dia 20 de cada mês
 * 0 15 10 L * ?: Às 10h15 do último dia de cada mês
-* 0 15 10 ? * 6L: Às 10h15 da última sexta-feira de cada mês
+* 15 10 ? * 6L: Às 10h15 da última sexta-feira de cada mês
 * 0 15 10 * * 6#3: Às 10h15 da terceira sexta-feira de cada mês
 
-## Usar um trabalho de upload ou publicação como disparador {#using-an-upload-or-publish-job-as-a-trigger}
+## Usar um trabalho de upload ou publicação como um acionador {#using-an-upload-or-publish-job-as-a-trigger}
 
 Ao fazer upload de ativos via FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar assim que o upload for concluído. (Se outras tarefas estiverem programadas para começar nesse momento, a tarefa agendada aqui será colocada em fila atrás delas.) A nova ordem de produção envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Esse trabalho de upload de continuação recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
 
