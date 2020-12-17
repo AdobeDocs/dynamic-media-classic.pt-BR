@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Fontes{#fonts}
 
-Em alguns casos, o Dynamic Media Classic exige que você carregue um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, carregue o arquivo de fonte. Para exibir os números de página do Visualizador de eCatalog em uma fonte específica, faça upload do arquivo de fonte.
+Em alguns casos, o Dynamic Media Classic exige o upload de um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, carregue o arquivo de fonte. Para exibir os números de página do Visualizador de eCatalog em uma fonte específica, faça upload do arquivo de fonte.
 
-O Dynamic Media Classic suporta estes tipos de fonte:
+O Dynamic Media Classic é compatível com estes tipos de fonte:
 
 * Todas as fontes TrueType
 * fontes de PostScript®
@@ -38,7 +38,7 @@ Após o upload de um arquivo de fonte, é possível alterar a ID do Dynamic Medi
 
 ## Upload de arquivos de fonte {#uploading-font-files}
 
-Carregue arquivos de fonte com as mesmas técnicas usadas para carregar outros arquivos. É possível armazenar arquivos de fonte em qualquer pasta do Dynamic Media Classic. Consulte [Fazer upload dos arquivos](uploading-files.md#uploading_your_files).
+Carregue arquivos de fonte com as mesmas técnicas usadas para carregar outros arquivos. É possível armazenar arquivos de fonte em qualquer pasta do Dynamic Media Classic. Consulte [Carregando seus arquivos](uploading-files.md#uploading_your_files).
 
 ## Editar informações do arquivo de fonte {#editing-font-file-information}
 
@@ -48,22 +48,22 @@ No painel Procurar, selecione o arquivo de fonte que deseja editar na visualiza�
 
 **Nome** da fonteEsse nome identifica a fonte quando é publicada.
 
-**Nome** PostScript Esse nome é o nome PostScript completo para a fonte. Geralmente indica o peso ou estilo.
+**PostScript** NameEsse nome é o nome PostScript completo para a fonte. Geralmente indica o peso ou estilo.
 
-**Nome** RTF Esse nome aparece em um menu pop-up no editor RTF onde as camadas de texto do modelo são criadas.
+**Nome** RTFEsse nome aparece em um menu pop-up no editor RTF, onde as camadas de texto do modelo são criadas.
 
-**Nome** da família da fonte Esse nome lista o nome da fonte sem o indicador de estilo, peso ou tipo de fonte.
+**Nome da família da fonteEsse nome lista o nome da fonte sem o indicador de estilo, peso ou tipo de fonte.** 
 
-**Estilo** da fonte As opções são Simples, Negrito, Itálico e Negrito-Itálico.
+**Estilo** de fonteAs opções são Simples, Negrito, Itálico e Negrito-Itálico.
 
-**Tipo** de fonte As opções são TrueType e Adobe Tipo 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
+**Tipo** de fonteAs opções são TrueType e Adobe Tipo 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
 
-**Abreviação** do tipo de fonte As opções são as seguintes:
+**Abreviação** do tipo de fonteAs opções são as seguintes:
 
-**Arquivos de fonte TTF** TrueType usados para renderização de PDF/PostScript e serviço de imagem.
+**Arquivos de fonte** TTFTrueType usados para renderização de PDF/PostScript e serviço de imagem.
 
-**Arquivos de fonte AFM** Adobe PostScript que contêm informações de Métricas de fonte Adobe e são usados para o serviço de imagem.
+**Arquivos de fonte** AFMAdobe PostScript que contêm informações de Métricas de fonte de Adobe e são usados para o serviço de imagem.
 
-**Arquivos de fonte PFM** Adobe PostScript que contêm informações de métrica de fonte binária.
+**Arquivos de fonte PostScript** PFMAdobe que contêm informações de métricas de fonte binária.
 
-**Arquivos de fonte PFB** Adobe PostScript que contêm informações de contorno de fonte binária e são usados para renderização de PDF/PostScript e serviço de imagem.
+**Arquivos de fonte PostScript** PFBAdobe que contêm informações de contorno de fonte binária e são usados para renderização de PDF/PostScript e serviço de imagem.
