@@ -18,15 +18,15 @@ ht-degree: 0%
 ---
 
 
-# Visualização de um ativo{#previewing-an-asset}
+# Pré-visualização de um ativo{#previewing-an-asset}
 
 Você pode usar a Pré-visualização para ver a aparência de um ativo digital quando exibido por um cliente. A Pré-visualização usa o visualizador padrão atribuído ao ativo. Os visualizadores padrão são configurados na Configuração do aplicativo.
 
-Consulte [Configuração de visualizadores](application-setup.md#configuring_default_viewers)padrão.
+Consulte [Configuração de Visualizadores Padrão](application-setup.md#configuring_default_viewers).
 
 Se você estiver visualizando um ativo de modelo com camadas de parâmetro, poderá fazer alterações nos parâmetros ou alterar a predefinição de imagem. Como as alterações são feitas em linha, você pode visualização os resultados imediatamente da mesma janela de Pré-visualização.
 
-Consulte também Exemplos [da biblioteca de referência de visualizadores de](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)Adobe.
+Consulte também [Exemplos de biblioteca de referência de visualizadores de Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Para pré-visualização de um ativo**
 
@@ -59,7 +59,7 @@ Para uma determinada plataforma do visualizador, a janela Lista do visualizador 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Lista. Na janela Ativo, selecione um único ativo e, à direita da imagem em miniatura, clique em Pré-visualização > Lista do visualizador.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização Detalhada. Na mesma barra de ferramentas, clique em Pré-visualização > Lista do visualizador.
 
-1. (Opcional) Na janela Lista do visualizador, clique no cabeçalho da coluna **Nome** ou tipo **** Plataforma para classificar a coluna em ordem crescente ou decrescente.
+1. (Opcional) Na janela Lista do visualizador, clique no cabeçalho da coluna **Nome** ou **Tipo de plataforma** para classificar a coluna em ordem crescente ou decrescente.
 1. Na janela Lista do visualizador, na coluna Ações da tabela, clique em Pré-visualização para ver como o ativo aparece para um visualizador e tipo de plataforma selecionados.
 
    Feche a pré-visualização exibida para retornar à janela Lista do visualizador.
@@ -85,9 +85,9 @@ Você pode pré-visualização um ativo de imagem com base na predefinição de 
 
 Uma predefinição de imagem é uma coleção de configurações predefinidas que mudam o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 
-Consulte [Configuração de predefinições](setting-image-presets.md#setting_up_image_presets)de imagem.
+Consulte [Configuração de predefinições de imagens](setting-image-presets.md#setting_up_image_presets).
 
-Consulte [Criação e ativação de predefinições](creating-enabling-image-presets.md#creating_and_enabling_image_presets)de imagens.
+Consulte [Criação e ativação de predefinições de imagens](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 **Para pré-visualização de um ativo de imagem com base em sua predefinição de imagem**
 
