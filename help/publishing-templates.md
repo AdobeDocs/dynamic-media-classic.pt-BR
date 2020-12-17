@@ -26,9 +26,9 @@ A publicação do seu modelo o coloca em Servidores de Imagens Dynamic Media, on
 >
 >Para usar o modelo, publique todo o conteúdo que foi criado, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
 
-## Modelos de marcação para publicação {#marking-templates-for-publish}
+## Marcar modelos para publicar {#marking-templates-for-publish}
 
-Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que possam ser colocados nos Dynamic Media Image Servers. Você pode marcar esses itens para publicação no Painel de navegação clicando no ícone **Marcar para publicação** .
+Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que possam ser colocados nos Dynamic Media Image Servers. Você pode marcar esses itens para publicação no Painel de navegação clicando no ícone **Marcar para publicação**.
 
 ## Publicar seu modelo {#publishing-your-template}
 
