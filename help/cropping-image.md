@@ -26,9 +26,9 @@ Você pode cortar imagens no Dynamic Media Classic. O sistema retém informaçõ
 
 >[!NOTE]
 >
->Depois de cortar, você pode clicar no botão Salvar como e salvar uma versão recortada da imagem com um nome diferente. Na janela Salvar como, escolha Salvar como novo Principal para salvar uma segunda cópia da imagem. Escolha Salvar como Visualização de adição Principal para salvar o original e sua versão recortada com um nome diferente. Escolha Substituir original para excluir o arquivo original do qual você cortou a imagem. Em seguida, digite um nome para a imagem e selecione o botão Enviar.
+>Depois de cortar, você pode clicar no botão Salvar como e salvar uma versão recortada da imagem com um nome diferente. Na janela Salvar como, escolha Salvar como novo Principal para salvar uma segunda cópia da imagem. Escolha Salvar como Visualização de adição Principal para salvar o original e sua versão recortada com um nome diferente. Escolha Substituir original para excluir o arquivo original do qual você cortou a imagem. Em seguida, insira um nome para a imagem e selecione o botão Enviar.
 
-## Recortar para remover o espaço em branco ao redor de uma imagem {#crop-to-remove-white-space-around-an-image}
+## Recorte para remover o espaço em branco ao redor de uma imagem {#crop-to-remove-white-space-around-an-image}
 
 É possível recortar os pixels transparentes ou de cor sólida da borda de uma imagem.
 
@@ -46,7 +46,7 @@ Você pode cortar imagens no Dynamic Media Classic. O sistema retém informaçõ
 
 ## Selecione uma área para cortar {#select-an-area-to-crop}
 
-1. Para recortar uma imagem, clique no botão Editar sobreposto e escolha **Recortar** ou exiba-a no Painel Procurar em visualização detalhada e clique em **Recortar**.
+1. Para recortar uma imagem, clique em seu botão Editar de sobreposição e escolha **Recortar**, ou exiba-o no Painel Procurar em visualização de detalhes e clique em **Recortar**.
 
 1. Na janela do Editor de corte, coloque a parte da imagem que não deseja cortar na caixa de corte. O que aparece dentro da caixa permanece quando você clica em **Salvar** e corta a imagem.
 1. Para ajustar a área de corte, execute um dos seguintes procedimentos:
