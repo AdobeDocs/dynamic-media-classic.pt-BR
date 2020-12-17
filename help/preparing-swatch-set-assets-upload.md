@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Preparação de ativos do Conjunto de amostras para upload{#preparing-swatch-set-assets-for-upload}
+# Preparando ativos de Conjunto de Amostras para upload{#preparing-swatch-set-assets-for-upload}
 
 Antes de carregar as imagens necessárias, verifique se elas têm o tamanho e o formato corretos. Monte também os arquivos de amostra necessários.
 
