@@ -22,8 +22,8 @@ ht-degree: 0%
 
 Todos os arquivos no Dynamic Media Classic contêm metadados. Os metadados descrevem e identificam um arquivo; é usado para pesquisar e organizar ativos. Para visualização dos metadados de um ativo, abra-o na visualização Detalhe e examine o painel Metadados. Os campos de metadados neste painel fornecem informações descritivas sobre o ativo.
 
-Os metadados não são úteis em pesquisas e na organização de ativos, a menos que sejam inseridos corretamente nos campos de metadados. Para inserir metadados corretamente e garantir que todos os campos de metadados corretos contenham metadados, é possível criar predefinições de metadados. Uma predefinição *de* metadados é um conjunto predefinido de entradas de metadados. Em vez de inserir os próprios metadados, os usuários podem, na visualização Detalhe, escolher uma predefinição de metadados para preencher campos de metadados com informações predefinidas.
+Os metadados não são úteis em pesquisas e na organização de ativos, a menos que sejam inseridos corretamente nos campos de metadados. Para inserir metadados corretamente e garantir que todos os campos de metadados corretos contenham metadados, é possível criar predefinições de metadados. Uma *predefinição de metadados* é um conjunto predefinido de entradas de metadados. Em vez de inserir os próprios metadados, os usuários podem, na visualização Detalhe, escolher uma predefinição de metadados para preencher campos de metadados com informações predefinidas.
 
-Para criar predefinições de metadados, consulte Predefinições [de metadados](application-setup.md#metadata_presets).
+Para criar predefinições de metadados, consulte [Predefinições de metadados](application-setup.md#metadata_presets).
 
-Para criar campos de metadados que descrevam exclusivamente os ativos com os quais você trabalha, consulte Campos [Definidos pelo](application-setup.md#user_defined_fields)Usuário.
+Para criar campos de metadados que descrevam exclusivamente os ativos com os quais você trabalha, consulte [Campos Definidos pelo Usuário](application-setup.md#user_defined_fields).
