@@ -31,9 +31,11 @@ Para eCatalogs, você desenha mapas de imagem na guia Mapear páginas da tela eC
 1. À esquerda da tela Mapear páginas, selecione a página desejada.
 1. Na área do Mapa de imagem, desenhe um Mapa de imagem retangular ou poligonal (com muitos lados):
 
-   * **Mapa** retangularSelecione a ferramenta Mapa de imagem de retângulo e arraste na página para criar o retângulo.
+   * **Mapa retangularSelecione a ferramenta Mapa de imagem do retângulo e arraste na página para criar o retângulo.**
 
-   * **Mapa** poligonal Selecione a ferramenta Mapa de imagem poligonal e clique quantas vezes forem necessárias em torno do perímetro da imagem. Quando você clica, o Dynamic Media Classic desenha as bordas do Mapa de imagem.
+
+   * **Mapa poligonalSelecione a ferramenta Mapa de imagem poligonal e clique quantas vezes forem necessárias ao redor do perímetro da imagem.**
+Quando você clica, o Dynamic Media Classic desenha as bordas do Mapa de imagem.
    Depois de desenhar um Mapa de imagem, o Dynamic Media Classic atribui um nome a ele na lista do Mapa de imagem. Para formar o nome, o Dynamic Media Classic anexa um número sequencial ao nome da página eCatalog na qual você está trabalhando.
 
 1. (Opcional) No painel lista do Mapa de imagem, na coluna Nome, digite um novo nome para o Mapa de imagem. Não inclua espaços em branco no nome inserido.
@@ -41,12 +43,12 @@ Para eCatalogs, você desenha mapas de imagem na guia Mapear páginas da tela eC
 
    Clique em Editar e insira um modelo para facilitar a inserção de URLs (modelos Href).
 
-   Consulte [Uso de um modelo para inserir JavaScript e URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Consulte [Usando um modelo para inserir JavaScript e URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
-1. (Opcional) Na lista suspensa Mostrar, clique em Texto **de** sobreposição e insira o texto que deseja que os usuários vejam na tela quando moverem seus ponteiros sobre o Mapa de imagem.
+1. (Opcional) Na lista suspensa Mostrar, clique em **Texto de rolagem** e insira o texto que deseja que os usuários vejam na tela quando moverem seus ponteiros para o Mapa de imagem.
 1. (Opcional) Na lista suspensa Mostrar, clique em **Outras ações** e insira um atributo para acionar uma ação de desfoque ou foco quando os usuários moverem seus ponteiros sobre um Mapa de imagem.
 
-   Consulte [Definição de outras ações para Mapas](creating-image-maps.md#defining_other_actions_for_image_maps)de imagens.
+   Consulte [Definição de outras ações para os Mapas de imagem](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Clique em **Salvar**.
 1. (Opcional) Clique em **Pré-visualização** para visualização do eCatalog com a predefinição padrão do eCatalog Viewer.
@@ -63,7 +65,7 @@ Você também pode, opcionalmente, exibir o texto da dica de ferramenta quando o
 
 1. Desenhe um Mapa de imagem do eCatalog.
 
-   Consulte [Desenhando mapas](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)de imagem do eCatalog.
+   Consulte [Desenhando mapas de imagem do eCatalog](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Na lista suspensa Exibir, selecione Mídia avançada.
 1. No painel Adicionar ativos à esquerda, navegue até uma pasta que contém o conjunto de rotação ou o ativo de vídeo (formato MP4) que você deseja incorporar.
@@ -75,24 +77,29 @@ Você também pode, opcionalmente, exibir o texto da dica de ferramenta quando o
 
 A partir da guia Mapear páginas da tela eCatalog, use estas técnicas para editar os mapas de imagem do eCatalog:
 
-* **Ajuste da posição** Selecione a ferramenta Deslocamento e mova o ponteiro para perto, mas não sobre, da borda do mapa. Quando o ponteiro mostrar uma seta de quatro pontas, arraste o mapa de imagem inteiro até um novo local.
+* **Ajuste da**
+posiçãoSelecione a ferramenta Deslocamento e mova o ponteiro para perto, mas não sobre, da borda do mapa. Quando o ponteiro mostrar uma seta de quatro pontas, arraste o mapa de imagem inteiro até um novo local.
 
-   Consulte [Ajustar a posição, a forma e o tamanho dos Mapas](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)de imagem.
+   Consulte [Ajustar a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Alteração da forma e do tamanho** Para redimensionar um Mapa de imagem retangular, selecione a ferramenta Deslocamento. Em seguida, mova o ponteiro sobre uma linha de borda ou um canto e, ao ver o ícone de seta com pontas para duplos, arraste. Para redimensionar um Mapa de imagem poligonal, arraste uma alça de seleção quadrada. Para criar uma alça de seleção, clique na borda do Mapa de imagem e arraste.
+* **Alteração da forma e do**
+tamanhoPara redimensionar um Mapa de imagem retangular, selecione a ferramenta Deslocamento. Em seguida, mova o ponteiro sobre uma linha de borda ou um canto e, ao ver o ícone de seta com pontas para duplos, arraste. Para redimensionar um Mapa de imagem poligonal, arraste uma alça de seleção quadrada. Para criar uma alça de seleção, clique na borda do Mapa de imagem e arraste.
 
-   Consulte [Ajustar a posição, a forma e o tamanho dos Mapas](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)de imagem.
+   Consulte [Ajustar a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Excluindo mapas de imagem** Selecione a ferramenta Deslocamento, clique no Mapa de imagem para selecioná-lo e clique em 
+* **Excluindo**
+mapas de imagemSelecione a ferramenta Deslocamento, clique no Mapa de imagem para selecioná-lo e clique em 
 **Excluir**.
 
-   Para remover todos os mapas de imagem de um eCatalog, clique na guia **Ordenar páginas** e, em seguida, clique em **Limpar mapas**.
+   Para remover todos os mapas de imagem de um eCatalog, clique na guia **Páginas de pedido** e, em seguida, clique em **Limpar mapas**.
 
-* **Manuseio de mapas** de imagem sobrepostos Arraste para alterar a ordem dos mapas de imagem na lista do mapa de imagem.
+* **Manuseio de**
+mapas de imagem sobrepostosArraste para alterar a ordem dos mapas de imagem na lista do mapa de imagem.
 
-   Consulte [Manuseio de mapas](creating-image-maps.md#handling_overlapping_image_maps)de imagem sobrepostos.
+   Consulte [Tratamento de mapas de imagem sobrepostos](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Copiando mapas de imagem para outras páginas** Selecione o botão Copiar mapas para (verifique se você está na guia Mapear páginas). Na tela Selecionar imagens, selecione a página ou páginas nas quais deseja copiar os Mapas de imagens e clique no botão Selecionar.
+* **Copiando mapas de imagem para outras**
+páginasSelecione o botão Copiar mapas para (verifique se você está na guia Mapear páginas). Na tela Selecionar imagens, selecione a página ou páginas nas quais deseja copiar os Mapas de imagens e clique no botão Selecionar.
 
    Consulte [Copiando mapas de imagem para outras imagens](creating-image-maps.md#copying_image_maps).
 
@@ -100,20 +107,20 @@ A partir da guia Mapear páginas da tela eCatalog, use estas técnicas para edit
 >
 >Além de copiar mapas de imagem para páginas diferentes em um eCatalog, você pode copiar todos os mapas de imagem em um eCatalog para um eCatalog diferente. Consulte [Copiando mapas de imagem entre eCatalogs](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
-## Revisando e importando dados do Mapa de imagem {#reviewing-and-importing-image-map-data}
+## Revisando e importando dados do Mapa de Imagem {#reviewing-and-importing-image-map-data}
 
 A tela Resumo do mapa fornece metadados sobre seu eCatalog. Também é possível importar em lote os dados do Mapa de imagem para seu eCatalog, começando na tela Resumo do mapa. A importação de dados do Mapa de imagem dessa forma facilita a inserção de URLs do Mapa de imagem e o texto de sobreposição.
 
 Para ver a tela Resumo do mapa, na guia Páginas do mapa da tela eCatalog, clique em Resumo.
 
-### Revisar resumo dos dados do Mapa de imagem {#review-image-map-data-summary}
+### Revisar resumo de dados do Mapa de Imagem {#review-image-map-data-summary}
 
 1. Na tela Mapear páginas, clique em Resumo.
 
    A tela Resumo do mapa exibe quantos mapas de imagem, URLs, descrições de texto de sobreposição e outras ações estão no seu eCatalog.
 
 1. Se houver erros de chave de sobreposição, clique no erro na coluna Erro Rollover_Key para ver o que precisa ser alterado na planilha para corrigir o erro. Você pode selecionar e copiar o texto desta mensagem e colá-lo em sua planilha.
-1. Clique em Pré-visualização para examinar uma página no eCatalog Viewer, clique no X para fechar a tela Resumo e retornar à tela Mapear páginas, ou clique em Fechar para retornar a Procurar.
+1. Clique em Pré-visualização para examinar uma página no eCatalog Viewer, clique no X para fechar a tela Resumo e retornar à tela Mapear páginas, ou clique em Fechar para retornar à navegação.
 
 ### Importar dados do mapa de imagens {#import-image-map-data}
 
@@ -130,7 +137,7 @@ A partir da tela Resumo do mapa, siga estas etapas para importar os dados do Map
 1. No campo Nome do trabalho, digite um nome para o arquivo (tenha cuidado para manter sua extensão).
 1. Clique em Carregar.
 
-## Cópia de mapas de imagem entre eCatalogs {#copying-image-maps-between-ecatalogs}
+## Copiando mapas de imagem entre eCatalogs {#copying-image-maps-between-ecatalogs}
 
 É possível copiar todos os Mapas de imagem em um eCatalog para um eCatalog diferente. Copiar os mapas de imagem dessa forma é um método conveniente de copiar os mapas de imagem entre traduções de idioma estrangeiro do mesmo eCatalog. Para que a cópia seja bem-sucedida, o Dynamic Media Classic recomenda copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens.
 
