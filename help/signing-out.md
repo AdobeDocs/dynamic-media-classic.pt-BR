@@ -1,8 +1,6 @@
 ---
-title: Entrar e sair
-seo-title: Entrar e sair
-description: nulo
-seo-description: Saiba mais sobre como entrar e sair no Dynamic Media Classic
+title: Fazer logon e sair do Adobe Dynamic Media Classic
+description: Saiba mais sobre como fazer login e sair do Adobe Dynamic Media Classic e conectar-se a um servidor de ambiente de produção na América do Norte (NA) ou Europa, Oriente Médio, África (EMEA) ou Ásia-Pacífico (APAC).
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -20,14 +18,14 @@ ht-degree: 0%
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Fazer logon no Dynamic Media Classic {#sign-in}
+# Fazer logon no Adobe Dynamic Media Classic {#sign-in}
 
-A forma como você faz logon no Dynamic Media Classic e faz logoff é baseada no uso do aplicativo de desktop ou do navegador da Web.
+A forma como você faz logon no Dynamic Media Classic e faz logoff é baseada no uso do [aplicativo desktop](#sign-in-dmc-app) ou do [navegador da Web](#sign-out).
 
 Independentemente de como você fizer logon, verifique se você tem o seguinte antes de usar o Dynamic Media Classic:
 
 * **Nome**
-de loginUse seu endereço de email como seu nome de login.
+do usuárioUse seu endereço de email como nome de login.
 
 * ****
 SenhaVocê obtém sua senha temporária em um email de &quot;Boas-vindas&quot; do Dynamic Media Classic ou do administrador do Dynamic Media Classic. Na primeira vez que você fizer logon, será solicitado a alterar essa senha temporária.
