@@ -26,19 +26,21 @@ A forma como você faz logon no Dynamic Media Classic e faz logoff é baseada no
 
 Independentemente de como você fizer logon, verifique se você tem o seguinte antes de usar o Dynamic Media Classic:
 
-* **Nome** de loginUse seu endereço de email como seu nome de login.
+* **Nome**
+de loginUse seu endereço de email como seu nome de login.
 
-* **Senha** Você obtém sua senha temporária em um email de &quot;Boas-vindas&quot; do Dynamic Media Classic ou do administrador do Dynamic Media Classic. Na primeira vez que você fizer logon, será solicitado a alterar essa senha temporária.
+* ****
+SenhaVocê obtém sua senha temporária em um email de &quot;Boas-vindas&quot; do Dynamic Media Classic ou do administrador do Dynamic Media Classic. Na primeira vez que você fizer logon, será solicitado a alterar essa senha temporária.
 
 ## Fazer logon no Dynamic Media Classic por meio do aplicativo de desktop {#sign-in-dmc-app}
 
-1. Abra o aplicativo de desktop Adobe Dynamic Media Classic.
+1. Abra o aplicativo Adobe Dynamic Media Classic para desktop.
 
-   ![Login no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. No **[!UICONTROL User Name]** campo, insira seu endereço de email.
-1. No **[!UICONTROL Password]** campo, digite a senha.
-1. Na lista **[!UICONTROL Server]** suspensa, selecione um servidor.
+1. No campo **[!UICONTROL User Name]**, digite seu endereço de email.
+1. No campo **[!UICONTROL Password]**, digite a senha.
+1. Na lista suspensa **[!UICONTROL Server]**, selecione um servidor.
 Use o mapeamento a seguir para selecionar o ambiente de produção que deseja usar.
 
    | URL do navegador | Nome do servidor do aplicativo de desktop |
@@ -49,7 +51,7 @@ Use o mapeamento a seguir para selecionar o ambiente de produção que deseja us
 
 1. Toque em **[!UICONTROL Sign In]**.
 
-### Sair do Dynamic Media por meio do aplicativo de desktop {#sign-out-dmc-app}
+### Sair da Dynamic Media por meio do aplicativo de desktop {#sign-out-dmc-app}
 
 1. No canto superior direito do aplicativo de desktop Dynamic Media Classic, toque **[!UICONTROL Sign Out]** e toque **[!UICONTROL Sign Out]** novamente.
 
@@ -57,21 +59,23 @@ Use o mapeamento a seguir para selecionar o ambiente de produção que deseja us
 
 Além do nome de usuário e senha, verifique se você também tem o seguinte antes de usar o Dynamic Media Classic no navegador da Web:
 
-* **Configuração** Você deve ter sido configurado para usar o Dynamic Media Classic pelo administrador.
+* ****
+ConfiguraçãoVocê deve ter sido configurado para usar o Dynamic Media Classic pelo administrador.
 
-* **URL** Você deve ter o local do URL para acessar o Dynamic Media Classic. Esse URL é obtido por meio do 
-*Bem-vindo* ao email ou ao administrador do Dynamic Media Classic.
+* ****
+URLYé necessário ter o local do URL para acessar o Dynamic Media Classic. Esse URL é obtido por meio do 
+*Bem-* vindo ao e-mail ou ao administrador do Dynamic Media Classic.
 
 Como o Dynamic Media Classic é baseado na Web, ir para um site diferente sai do sistema. Por exemplo, se você clicar no botão Voltar na janela do navegador, sairá do Dynamic Media Classic.
 
 1. Start seu navegador da Web.
-1. Vá para o URL de logon do Dynamic Media Classic (do e-mail de boas-vindas). Como alternativa, você pode fazer logon no site do Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) selecionando o botão Logon do cliente.
-1. No campo de **[!UICONTROL User Name]** texto, digite seu endereço de email.
-1. No campo de **[!UICONTROL Password]** texto, digite sua senha.
-1. Opcionalmente, você pode fazer com que seu computador se lembre do seu endereço de email selecionando a **[!UICONTROL Remember My User Name]** opção.
+1. Vá para o URL de logon do Dynamic Media Classic (do email de boas-vindas). Como alternativa, você pode fazer logon no site do Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) selecionando o botão Logon do cliente.
+1. No campo de texto **[!UICONTROL User Name]**, digite seu endereço de email.
+1. No campo de texto **[!UICONTROL Password]**, digite sua senha.
+1. Opcionalmente, você pode fazer com que seu computador lembre seu endereço de email selecionando a opção **[!UICONTROL Remember My User Name]**.
 1. Toque em **[!UICONTROL Sign In]**.
 
-### Sair do Dynamic Media por meio do navegador da Web {#sign-out}
+### Sair da Dynamic Media por meio do navegador da Web {#sign-out}
 
 1. Execute um dos procedimentos a seguir:
 
