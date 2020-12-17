@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Requisitos de sistema do Portal de mídia {#system-requirements}
+# Requisitos de sistema do Media Portal {#system-requirements}
 
 Para obter a melhor experiência usando o Dynamic Media Classic Media Portal, verifique se o sistema atende aos seguintes requisitos e recomendações do sistema:
 
