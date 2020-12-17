@@ -1,8 +1,8 @@
 ---
-title: Ativação dos relatórios de vídeo do Adobe Analytics
-seo-title: Ativação dos relatórios de vídeo do Adobe Analytics
+title: Ativação dos relatórios de vídeo da Adobe Analytics
+seo-title: Ativação dos relatórios de vídeo da Adobe Analytics
 description: nulo
-seo-description: Saiba como ativar os relatórios de vídeo do Adobe Analytics.
+seo-description: Saiba como ativar relatórios de vídeo do Adobe Analytics.
 uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
 contentOwner: admin
 content-type: reference
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# Ativação dos relatórios de vídeo do Adobe Analytics{#enabling-adobe-analytics-video-reports}
+# Habilitar relatórios de vídeo do Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
-Usando o relatórios de vídeo baseado em pulsação do Analytics, não é mais necessário ativar os quatro eventos do visualizador de vídeo (Reproduzir, Pausar, Parar, Etapa) ao configurar o Adobe Analytics no Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Dynamic Media Classic HTML5 e MixedMedia prontos para uso. O player de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo da Analytics.
+Usando o relatórios de vídeo baseado em pulsação do Adobe Analytics, não é mais necessário ativar os quatro eventos do visualizador de vídeo (Reproduzir, Pausar, Parar, Etapa) ao configurar o Adobe Analytics no Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Dynamic Media Classic HTML5 e MixedMedia prontos para uso. O player de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo da Adobe Analytics.
 
 * A integração dos relatórios de vídeo do Adobe Analytics com o Dynamic Media Classic oferece suporte a variáveis de solução, mas não a variáveis personalizadas.
 
-   Consulte [Configurar o Relatórios](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html) Analytics Video para obter mais informações sobre variáveis de solução e variáveis personalizadas.
+   Consulte [Configurar o Relatórios de vídeo do Analytics](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html) para obter mais informações sobre variáveis de solução e variáveis personalizadas.
 
 * Segmentos predefinidos de incrementos de um minuto são suportados. No entanto, o relatórios de segmento personalizado, como marcos definidos pelo cliente com base em incrementos de tempo, marcos de % ou marcos de deslocamento, não é suportado.
 
@@ -32,5 +32,5 @@ Para obter mais informações sobre os requisitos e a configuração do Video He
 
 >[!NOTE]
 >
->Se sua solução licenciada do Adobe Analytics não incluir o Video Heartbeat, você precisará continuar usando as etapas descritas neste capítulo para atribuir variáveis do Adobe Analytics a eventos e variáveis do visualizador Dynamic Media Classic.
+>Se sua solução licenciada do Adobe Analytics não incluir o Video Heartbeat, será necessário continuar usando as etapas descritas neste capítulo para atribuir variáveis do Adobe Analytics aos eventos e variáveis do visualizador Dynamic Media Classic.
 
