@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Visualização de eCatálogos no eCatalog Viewer{#previewing-ecatalogs-in-the-ecatalog-viewer}
+# Visualização de eCatalogs no Visualizador de eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
 Você pode usar a Pré-visualização para exibir seu eCatalog usando diferentes predefinições do visualizador do eCatalog. Você pode experimentar com diferentes controles para virar páginas, escrever notas adesivas e navegar.
 
-Consulte [Configuração de visualizadores](application-setup.md#configuring_default_viewers)padrão.
+Consulte [Configuração de Visualizadores Padrão](application-setup.md#configuring_default_viewers).
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 
