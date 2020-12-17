@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Exportação de vídeos de origem e codificados{#exporting-source-and-encoded-videos}
+# Exportar vídeos de origem e codificados{#exporting-source-and-encoded-videos}
 
 No painel Procurar, os vídeos de origem são rotulados como &quot;Vídeo Principal&quot;. Os vídeos codificados são rotulados como &quot;Vídeo&quot;. Você pode exportar vídeos de origem, bem como vídeos principais. Para exportar arquivos de vídeo, selecione-os no painel Procurar e escolha Arquivo > Exportar.
 
