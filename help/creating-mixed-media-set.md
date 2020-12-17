@@ -32,11 +32,11 @@ Quando você cria um conjunto, a opção **Publicar após salvar** afeta o conju
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos retêm seu estado publicado ou não publicado. |
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para criar um conjunto de mídia mista**
 
-1. Clique em **Criar** > Conjuntos de mídia **mista**.
+1. Clique em **Build** > **Conjuntos de mídia mista**.
 1. Arraste os vídeos, os Conjuntos de imagens, os Conjuntos de rotação e as amostras da Biblioteca de ativos para a tela Conjunto de mídia mista.
 
    >[!NOTE]
@@ -49,10 +49,10 @@ Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#ma
    * Para alterar a ordem dos conjuntos, arraste-os para novos locais na tela Mixed Media Set. A ordem dos conjuntos na tela determina a ordem da esquerda para a direita na qual os usuários veem os conjuntos no Visualizador de conjunto de mídia mista.
    * (Opcional) Para adicionar uma miniatura personalizada para representar um vídeo no Visualizador, arraste um arquivo de imagem da Biblioteca de ativos para a caixa de espaço reservado Miniaturas.
 
-1. Próximo ao canto inferior direito da página, verifique se a opção **Publicar após salvar** está selecionada (padrão).
-1. Clique em **Salvar**, selecione uma pasta para armazenar seu Conjunto de mídias mistas, digite um nome para o conjunto e clique em **Salvar**.
+1. Perto do canto inferior direito da página, verifique se **Publicar após salvar** está selecionado (padrão).
+1. Clique em **Salvar**, selecione uma pasta para armazenar seu Conjunto de Mídias Misto, digite um nome para o conjunto e clique em **Salvar**.
 
-   Clique em **Pré-visualização** para ver a aparência do conjunto de imagens da combinação em um visualizador de conjunto de imagens.
+   Clique em **Pré-visualização** para ver a aparência do conjunto de imagens combinado em um visualizador de conjunto de imagens.
 
 ## Editar um conjunto de mídia mista {#edit-a-mixed-media-set}
 
@@ -67,24 +67,24 @@ Dependendo de você editar um conjunto publicado ou não publicado, a opção **
 | Não | Sim | Publicado | Publicado |
 | Não | Não | Não publicado | Os membros do conjunto existente e quaisquer novos membros do conjunto que você tiver adicionado durante a edição manterão seu estado publicado ou não publicado. |
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para editar um conjunto de mídia mista**
 
-1. Clique no botão **Editar** de sobreposição do Conjunto de mídia mista.
+1. Clique no botão **Editar** da sobreposição do Conjunto de Mídias Misto.
 1. Execute um dos procedimentos a seguir:
 
    * Para remover itens, selecione-os e clique em **Excluir**.
    * Para reorganizar itens, arraste-os para novos locais.
 
-1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, certifique-se de que **Publicar após salvar** está selecionado (padrão).
+1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, certifique-se de que **Publicar após salvar** esteja selecionado (padrão).
 1. Clique em **Salvar** ou **Salvar como**.
 
 ## Excluindo um conjunto de mídia mista {#deleting-a-mixed-media-set}
 
 Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um deles mantém seu estado publicado ou não publicado.
 
-Consulte também Publicar ativos [manualmente e cancelar](publishing-files.md#manually_publishing_assets) a publicação de ativos [](publishing-files.md#manually_unpublishing_assets)manualmente.
+Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para excluir um conjunto de mídia mista**
 
