@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Configuração das predefinições do visualizador Spin Set{#setting-up-spin-set-viewer-presets}
 
-As predefinições do visualizador de conjunto de rotação determinam o estilo, o comportamento e a aparência dos visualizadores. O Dynamic Media Classic vem com as predefinições padrão do visualizador Spin Set. Se você for um administrador, também poderá criar suas próprias predefinições do visualizador do Spin Set. Você pode configurar uma predefinição do visualizador de conjunto de rotação com diferentes cores, bordas, fontes e configurações de imagem.
+As predefinições do visualizador de conjunto de rotação determinam o estilo, o comportamento e a aparência dos visualizadores. O Dynamic Media Classic vem com as predefinições padrão do visualizador de conjunto de rotação. Se você for um administrador, também poderá criar suas próprias predefinições do visualizador do Spin Set. Você pode configurar uma predefinição do visualizador de conjunto de rotação com diferentes cores, bordas, fontes e configurações de imagem.
 
 Siga estas etapas para criar uma predefinição do visualizador de conjunto de rotação:
 
-1. Clique em **Configuração** > Predefinições **do visualizador**.
+1. Clique em **Configuração** > **Predefinições do visualizador**.
 1. Execute um dos procedimentos a seguir:
 
-   * Para criar uma nova predefinição, clique em **Adicionar** e, na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e clique em **Girar definir visualizador**.
-   * Para editar uma predefinição existente do visualizador de conjunto de rotação, selecione a predefinição e clique em **Editar**.
+   * Para criar uma nova predefinição, clique em **Adicionar** e, na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e clique em **Visualizador do conjunto de rotação**.
+   * Para editar uma predefinição existente do visualizador do conjunto de rotação, selecione a predefinição e clique em **Editar**.
 
    A tela Configurar visualizador é aberta.
 
@@ -41,7 +41,7 @@ Siga estas etapas para criar uma predefinição do visualizador de conjunto de r
 
 Clique em Tornar padrão para tornar a predefinição do visualizador de conjunto de rotação que você criou o padrão de empresa para mostrar Conjuntos de rotação.
 
-Consulte [Configuração de visualizadores](application-setup.md#configuring_default_viewers)padrão.
+Consulte [Configuração de Visualizadores Padrão](application-setup.md#configuring_default_viewers).
 
 Para excluir uma predefinição do visualizador de conjunto de rotação, selecione-a na tela Predefinições do visualizador e clique no botão Excluir.
 
