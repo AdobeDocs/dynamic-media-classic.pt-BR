@@ -2,7 +2,7 @@
 title: Novidades
 seo-title: Novidades
 description: nulo
-seo-description: Saiba mais sobre as novidades do Dynamic Media Classic através das notas de versão atuais.
+seo-description: Saiba mais sobre as novidades do Dynamic Media Classic por meio das notas de versão atuais.
 uuid: 78b88ec0-69fc-481b-af54-4c2d0a31057f
 contentOwner: admin
 content-type: reference
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Novidades {#what-s-new}
 
-Para consultar as informações mais recentes da versão do Adobe Dynamic Media Classic, incluindo novos recursos, melhorias e correções, consulte as Notas [de versão do](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)Dynamic Media Classic.
+Para revisar as informações mais recentes da versão do Adobe Dynamic Media Classic, incluindo novos recursos, melhorias e correções, consulte as [Notas de versão do Dynamic Media Classic](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html).
