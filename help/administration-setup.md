@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1947'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Após adicionar um usuário, o Dynamic Media Classic envia ao usuário uma mensa
 
    Depois de salvar, um prompt perguntará se você deseja adicionar um usuário a outra empresa. Clique em Adicionar se desejar adicionar o usuário a uma empresa.
 
-   Todos os novos usuários recebem uma senha gerada aleatoriamente; os usuários devem alterar as senhas na primeira vez que fizerem logon no Dynamic Media Classic.
+   Todos os novos usuários recebem uma senha gerada aleatoriamente; os usuários devem alterar as senhas na primeira vez que fizerem logon no aplicativo de desktop Dynamic Media Classic.
 
-   Os novos usuários recebem um email de boas-vindas após adicioná-los. O e-mail fornece uma senha temporária e explica como fazer logon no Scene 7 Publishing System.
+   Os novos usuários recebem um email de boas-vindas após adicioná-los. O email fornece uma senha temporária e explica como fazer logon no Dynamic Media Classic.
 
    Se o usuário não receber o email de boas-vindas, vá para a página de logon do Dynamic Media Classic (https://s7sps1.scene7.com) e clique em Esqueci minha senha. A senha é redefinida e um novo email é enviado. Se o usuário não receber o email e ele não estiver na pasta Lixo eletrônico, entre em contato com o Suporte Técnico.
 
