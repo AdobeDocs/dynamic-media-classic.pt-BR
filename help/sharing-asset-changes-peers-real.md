@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Com várias cópias do Dynamic Media Classic em execução em um ou mais computa
 * Carregar um ou mais ativos (desktop e FTP)
 * Criar, excluir ou renomear uma pasta
 
-Depois que uma alteração é feita no cliente de origem, todos os clientes peer conectados à mesma empresa são atualizados com a alteração. As alterações são feitas em pares sem notificação, a menos que o par esteja editando um ativo em alteração em qualquer um dos editores ou construtores de imagem.
+Depois que uma alteração é feita no cliente de origem, todos os clientes de mesmo nível conectados à mesma empresa são atualizados com a alteração. As alterações são feitas em pares sem notificação, a menos que o par esteja editando um ativo em alteração em qualquer um dos editores ou construtores de imagem.
 
-Quando você faz logon, o Flash Player solicita que você permita ou negue atualizações de mesmo nível. Você pode &quot;lembrar&quot; a escolha para que seja solicitado apenas uma vez. Para limpar sua escolha, exclua o site apropriado do painel Rede de pares no Global Settings.
+Ao fazer logon, você será solicitado a permitir ou negar atualizações de mesmo nível. Você pode &quot;lembrar&quot; a escolha para que seja solicitado apenas uma vez. Para limpar sua escolha, exclua o site apropriado do painel Rede de pares no Global Settings.
 
 Se você estiver editando um ativo que é alterado por um par, será solicitado a assimilar a alteração no construtor ou editor. Se você escolher Sim, o construtor ou editor descartará quaisquer alterações feitas no ativo e importará o ativo atualizado. Se você escolher Não, o ativo permanecerá inalterado no construtor ou editor e quaisquer alterações feitas persistirão nessa sessão.
 
