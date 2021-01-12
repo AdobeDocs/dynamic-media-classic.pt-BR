@@ -5,7 +5,7 @@ description: Documentação técnica do Adobe Dynamic Media Classic
 seo-description: 'Documentação técnica, notas de versão e materiais de autoajuda para o Adobe Dynamic Media Classic, antigo Scene 7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 3%
