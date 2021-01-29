@@ -1,8 +1,6 @@
 ---
 title: Implantação de vídeo em seus sites e sites móveis
-seo-title: Implantação de vídeo em seus sites e sites móveis
-description: nulo
-seo-description: Saiba como implantar vídeos em seus sites e sites móveis.
+description: Saiba como implantar vídeos em seus sites e sites móveis.
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1680'
 ht-degree: 2%
 
 ---
