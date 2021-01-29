@@ -1,16 +1,14 @@
 ---
 title: Aplicativo Adobe Dynamic Media Classic para desktop - Agora disponível
-seo-title: Aplicativo Adobe Dynamic Media Classic para desktop - Agora disponível
-description: nulo
-seo-description: Saiba mais sobre o aplicativo Dynamic Media Classic para desktop.
+description: Saiba mais sobre o aplicativo Dynamic Media Classic para desktop.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -26,7 +24,7 @@ Este novo aplicativo está disponível para Windows e MacOS.
 >
 >Recomendamos que você instale o novo aplicativo Adobe Dynamic Media Classic para desktop até 1º de outubro de 2020. Ao fazer isso, você terá uma transição suave antes que o Flash Player do Adobe seja substituído em 31 de dezembro de 2020. Nessa data, você não poderá mais fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic, rotulada como Dynamic Media Classic no produto.
 
-Consulte as Perguntas frequentes da nova experiência de logon do Dynamic Media Classic disponível.[](/help/new-ui-2020.md)
+Consulte as Perguntas frequentes da nova experiência de logon do Dynamic Media Classic disponível.](/help/new-ui-2020.md)[
 
 ## Requisitos de sistema para o aplicativo Adobe Dynamic Media Classic para desktop {#system-requirements-dmc-app}
 
@@ -34,12 +32,18 @@ O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os segu
 * macOS X 10.10 ou mais recente.
 * Windows 7 ou mais recente.
 
-## Correções na versão mais recente 20.20.2 {#latest-fixes-desktop-app}
+## Correções na versão mais recente (20.21.1) {#latest-fixes-desktop-app}
+
+* Problemas de logon devido ao tempo limite resultando na seguinte mensagem: *Este usuário pode ser atribuído aos grupos sem permissão. Entre em contato com o administrador.*
+* As predefinições do visualizador são duplicadas com cada tentativa incorreta de senha.
+* O aplicativo de desktop não responde devido a uma grande quantidade de ativos na pasta raiz. (Corrigido no Windows; trabalhando conforme desejado no macOS.)
+
+## Correções na versão anterior (20.20.2) {#previous-version-fixes-desktop-app}
 
 * Nenhuma limitação no número de arquivos que você pode carregar por meio da interface do usuário do aplicativo de desktop para MacOS e Windows.
 * Não é necessário sair do aplicativo de desktop para alternar entre o empresa.
 * A operação Ctrl+V para colar agora funciona no Windows.
-* No futuro, quando uma nova versão do aplicativo desktop for lançada, os usuários serão notificados dentro do próprio aplicativo desktop.
+* No futuro, quando uma nova versão do aplicativo desktop for lançada, os usuários serão notificados dentro do próprio aplicativo desktop. —>
 
 ## Baixe e instale o aplicativo Adobe Classic para desktop mais recente no macOS ou no Windows {#installation-dmc-app}
 
@@ -52,20 +56,14 @@ Consulte também:
 
 1. Baixe o instalador mais recente para o aplicativo Adobe Dynamic Media Classic para desktop.
 
-   >[!NOTE]
-   >
-   >O usuário que já instalou a versão do GA deve *desinstalá-la* do sistema Windows local antes de instalar a versão mais recente. Ou os usuários podem simplesmente *substituir* a versão do GA instalada em seu sistema macOS local pela versão mais recente. Os novos usuários devem instalar diretamente a versão mais recente 20.20.2.
+   * A versão mais recente (20.21.1) está disponível em:
 
-   A versão mais recente é 20.20.2, disponível no seguinte endereço:
+      * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * A versão anterior (20.20.2) está disponível em:
 
-   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
-
-   A versão GA (General Availability) era 20.20.1, disponível no seguinte endereço:
-
-   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
-
+      * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+      * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 
 
@@ -111,11 +109,11 @@ Para baixar e *silent* instalar a versão mais recente do aplicativo Adobe Dynam
 
 1. Baixe o instalador mais recente do aplicativo Adobe Dynamic Media Classic para desktop para macOS.
 
-   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
 
 1. Monte a imagem de disco baixada (.DMG) em um local de ponto de montagem usando o seguinte comando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
 
 1. Copie o arquivo .APP para **[!UICONTROL Applications]** usando o seguinte comando:
 
@@ -151,19 +149,19 @@ Para baixar e *silent* instalar a versão mais recente do aplicativo Adobe Dynam
 
 1. Baixe o instalador mais recente para o aplicativo Adobe Dynamic Media Classic para desktop.
 
-   * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 1. Execute o instalador no modo de registro usando o seguinte comando:
 
-   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
 
 1. Na janela do instalador da GUI, siga as etapas para instalar de modo que as interações/entradas, como o local de instalação, sejam gravadas no arquivo `Setup.iss`.
 
-1. Copie o arquivo `Setup.iss` criado e `adobe-dynamic-media-classic-20.20.2.exe` para outro computador.
+1. Copie o arquivo `Setup.iss` criado e `adobe-dynamic-media-classic-20.21.1.exe` para outro computador.
 
 1. Execute o seguinte comando para uma instalação silenciosa:
 
-   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
 
    Detalhes sobre os parâmetros da linha de comando estão disponíveis em [Setup.exe e Update.exe Command-Line Parameters.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
