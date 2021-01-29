@@ -1,8 +1,6 @@
 ---
 title: Criação de públicos alvos de zoom para o zoom guiado
-seo-title: Criação de públicos alvos de zoom para o zoom guiado
-description: nulo
-seo-description: Saiba como criar públicos alvos de zoom para o Zoom guiado.
+description: Saiba como criar públicos alvos de zoom para o Zoom guiado.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
