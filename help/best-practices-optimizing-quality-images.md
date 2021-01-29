@@ -1,8 +1,6 @@
 ---
 title: Práticas recomendadas para otimizar a qualidade de suas imagens
-seo-title: Práticas recomendadas para otimizar a qualidade de suas imagens
-description: nulo
-seo-description: Saiba mais sobre as práticas recomendadas para otimizar a qualidade de suas imagens.
+description: Saiba mais sobre as práticas recomendadas para otimizar a qualidade de suas imagens.
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1517'
 ht-degree: 3%
 
 ---
@@ -48,7 +46,7 @@ Como prática recomendada para dimensionamento de imagem, use `&wid=<value>&hei=
 
 ## Práticas recomendadas para a nitidez da imagem {#best-practices-for-image-sharpening}
 
-O ajuste da nitidez da imagem é o aspecto mais complexo do controle de imagens em seu site e onde muitos erros são cometidos. Aproveite o tempo para saber mais sobre como a aplicação de nitidez e máscaras de nitidez funciona no Dynamic Media Classic, consultando os seguintes recursos úteis:
+O ajuste da nitidez da imagem é o aspecto mais complexo do controle de imagens em seu site, e onde muitos erros são cometidos. Aproveite o tempo para saber mais sobre como a aplicação de nitidez e máscaras de nitidez funciona no Dynamic Media Classic, consultando os seguintes recursos úteis:
 
 White paper de práticas recomendadas [Como aumentar a nitidez das imagens no Adobe Dynamic Media Classic e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
