@@ -1,8 +1,6 @@
 ---
-title: '"Melhores práticas: Usar o visualizador de vídeo HTML5"'
-seo-title: '"Melhores práticas: Usar o visualizador de vídeo HTML5"'
-description: nulo
-seo-description: Saiba mais sobre as práticas recomendadas para o uso do visualizador de vídeo HTML5.
+title: Prática recomendada para o uso do visualizador de vídeo HTML5
+description: Saiba mais sobre as práticas recomendadas para o uso do visualizador de vídeo HTML5.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 
-# Melhores práticas: Uso do visualizador de vídeo HTML5{#best-practice-using-the-html-video-viewer}
+# Práticas recomendadas para usar o visualizador de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
 As predefinições do visualizador de vídeo HTML5 do Dynamic Media Classic são players de vídeo robustos. No lado de design do player, é possível criar toda a funcionalidade do player de vídeo usando ferramentas padrão de desenvolvimento da Web. Por exemplo, você pode projetar botões, controles e imagens de fundo de pôster personalizadas usando HTML5 e CSS para ajudá-lo a alcançar seus clientes com uma aparência personalizada.
 
