@@ -1,8 +1,6 @@
 ---
 title: '"Start rápido: Conjuntos de mídia mista"'
-seo-title: '"Start rápido: Conjuntos de mídia mista"'
-description: nulo
-seo-description: Uma introdução e um Start rápido aos Conjuntos de mídia mista para ajudá-lo a começar a funcionar rapidamente.
+description: Uma introdução e um Start rápido aos Conjuntos de mídia mista para ajudá-lo a começar a funcionar rapidamente.
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '643'
 ht-degree: 6%
 
 ---
