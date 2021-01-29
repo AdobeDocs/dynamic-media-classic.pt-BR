@@ -1,8 +1,6 @@
 ---
 title: Configuração de uma predefinição de visualizador de conjunto de mídia mista
-seo-title: Configuração de uma predefinição de visualizador de conjunto de mídia mista
-description: nulo
-seo-description: Saiba como configurar uma predefinição de visualizador de conjunto de mídia mista.
+description: Saiba como configurar uma predefinição de visualizador de conjunto de mídia mista.
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -33,7 +31,7 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
    A tela Configurar visualizador é aberta.
 
 1. Digite um nome na caixa Nome predefinido para a predefinição do visualizador de conjunto de mídia mista.
-1. Especifique Guias ou Nenhuma guia. Guias separam itens por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especifica guias, todos os itens são exibidos em uma linha sob a janela pré-visualização.
+1. Especifique Guias ou Nenhuma guia. Guias separam itens por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especifica guias, todos os itens são exibidos em uma linha abaixo da janela pré-visualização.
 1. Na caixa Nome, digite um nome para o visualizador que deseja adicionar.
 
    Por exemplo, se estiver adicionando um Conjunto de amostras ao Conjunto de mídia mista, digite *Conjunto de amostras A*.
