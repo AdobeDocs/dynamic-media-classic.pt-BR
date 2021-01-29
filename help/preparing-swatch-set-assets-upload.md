@@ -1,8 +1,6 @@
 ---
 title: Preparação de ativos do Conjunto de amostras para upload
-seo-title: Preparação de ativos do Conjunto de amostras para upload
-description: nulo
-seo-description: Saiba como preparar ativos do Conjunto de amostras para upload.
+description: Saiba como preparar ativos do Conjunto de amostras para upload.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
