@@ -1,8 +1,6 @@
 ---
 title: Vincular um eCatalog a uma página da Web
-seo-title: Vincular um eCatalog a uma página da Web
-description: nulo
-seo-description: Saiba como vincular um eCatalog a uma página da Web.
+description: Saiba como vincular um eCatalog a uma página da Web.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '670'
 ht-degree: 2%
 
 ---
