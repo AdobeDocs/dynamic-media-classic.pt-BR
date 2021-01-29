@@ -1,8 +1,6 @@
 ---
 title: 'Trabalho na exibição de Detalhes '
-seo-title: 'Trabalho na exibição de Detalhes '
-description: nulo
-seo-description: Saiba como trabalhar na visualização Detalhe.
+description: Saiba como trabalhar na visualização Detalhe.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '572'
 ht-degree: 5%
 
 ---
