@@ -1,17 +1,15 @@
 ---
 title: Recursos do desenvolvedor
-seo-title: Recursos do desenvolvedor
-description: nulo
-seo-description: Saiba mais sobre quais recursos de desenvolvedor estão disponíveis para a Dynamic Media.
+description: Saiba mais sobre quais recursos de desenvolvedor estão disponíveis para a Dynamic Media.
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 7%
 
 ---
