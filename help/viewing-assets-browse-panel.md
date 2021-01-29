@@ -1,8 +1,6 @@
 ---
 title: Exibição de ativos no painel Procurar
-seo-title: Exibição de ativos no painel Procurar
-description: nulo
-seo-description: Saiba como usar o painel Procurar para visualização de ativos.
+description: Saiba como usar o painel Procurar para visualização de ativos.
 uuid: 677b1838-0bbe-4922-92a5-6e7d9030edb9
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
