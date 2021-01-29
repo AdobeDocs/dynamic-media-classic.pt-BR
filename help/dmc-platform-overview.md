@@ -1,8 +1,6 @@
 ---
 title: Visão geral da plataforma Adobe Dynamic Media Classic
-seo-title: Visão geral da plataforma Adobe Dynamic Media Classic
-description: nulo
-seo-description: Uma visão geral da plataforma Dynamic Media Classic e do processo de fluxo de trabalho.
+description: Uma visão geral da plataforma Dynamic Media Classic e do processo de fluxo de trabalho.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -44,7 +42,7 @@ Fornecer mídia da rede Dynamic Media Classic SaaS para páginas da Web, aplicat
 
 O Dynamic Media Classic é fundamentalmente diferente de outros sistemas porque você pode usar o Dynamic Media Classic para fornecer mídia dinamicamente de ativos principais únicos e chamadas de URL.
 
-As strings de URL geradas com o Dynamic Media Classic incluem instruções que informam ao servidor como exibir o ativo quando ele é entregue. Por exemplo, a mesma imagem principal pode ser entregue em tamanhos, formatos, pesos, cores e visualizações de zoom diferentes. Como parte da criação e publicação de ativos de mídia com o Dynamic Media Classic, você configura visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam corretamente o servidor sobre como apresentar seu ativo principal aos aplicativos.
+As sequências de caracteres de URL geradas com o Dynamic Media Classic incluem instruções que informam ao servidor como exibir o ativo quando ele é entregue. Por exemplo, a mesma imagem principal pode ser entregue em tamanhos, formatos, pesos, cores e visualizações de zoom diferentes. Como parte da criação e publicação de ativos de mídia com o Dynamic Media Classic, você configura visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam corretamente o servidor sobre como apresentar seu ativo principal aos aplicativos.
 
 ![O Dynamic Media Classic pode fornecer a mesma imagem principal para diferentes mídias em diferentes tamanhos e formatos.](/help/assets/gs_dynamic_publishing.png)
 
