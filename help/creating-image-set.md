@@ -1,8 +1,6 @@
 ---
 title: Criação de um conjunto de imagens
-seo-title: Criação de um conjunto de imagens
-description: nulo
-seo-description: Saiba como criar um Conjunto de imagens.
+description: Saiba como criar um Conjunto de imagens.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
