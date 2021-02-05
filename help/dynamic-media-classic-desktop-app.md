@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Este novo aplicativo está disponível para Windows e MacOS.
 
 >[!IMPORTANT]
 >
->Recomendamos que você instale o novo aplicativo Adobe Dynamic Media Classic para desktop até 1º de outubro de 2020. Ao fazer isso, você terá uma transição suave antes que o Flash Player do Adobe seja substituído em 31 de dezembro de 2020. Nessa data, você não poderá mais fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic, rotulada como Dynamic Media Classic no produto.
+>O Adobe recomenda que você instale o novo aplicativo Adobe Classic para desktop até 1º de outubro de 2020. Ao fazer isso, você terá uma transição suave antes que o Flash Player do Adobe seja substituído em 31 de dezembro de 2020. Após essa data, não é possível fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic, rotulada como Dynamic Media Classic no produto.
 
 Consulte as Perguntas frequentes da nova experiência de logon do Dynamic Media Classic disponível.](/help/new-ui-2020.md)[
 
 ## Requisitos de sistema para o aplicativo Adobe Dynamic Media Classic para desktop {#system-requirements-dmc-app}
 
 O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os seguintes sistemas operacionais:
-* macOS X 10.10 ou mais recente.
+
+* macOS 10.10 ou mais recente.
 * Windows 7 ou mais recente.
 
 ## Correções na versão mais recente (20.21.1) {#latest-fixes-desktop-app}
 
-* Problemas de logon devido ao tempo limite resultando na seguinte mensagem: *Este usuário pode ser atribuído aos grupos sem permissão. Entre em contato com o administrador.*
+* Problemas de logon devido ao tempo limite resultando na seguinte mensagem: *Este utilizador pode ser atribuído ao grupo ou grupos sem permissão. Entre em contato com o administrador.*
 * As predefinições do visualizador são duplicadas com cada tentativa incorreta de senha.
-* O aplicativo de desktop não responde devido a uma grande quantidade de ativos na pasta raiz. (Corrigido no Windows; trabalhando conforme desejado no macOS.)
+* O aplicativo de desktop não responde devido a muitos ativos na pasta raiz. (Corrigido no Windows; trabalhando conforme desejado no macOS.)
 
 ## Correções na versão anterior (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -84,7 +85,7 @@ Consulte também:
 
    ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Use as mesmas credenciais do navegador para fazer logon no Adobe Dynamic Media Classic.
+1. Para fazer logon no aplicativo Adobe Dynamic Media Classic para desktop, use as mesmas credenciais usadas para fazer logon no Dynamic Media Classic no navegador.
 
    Para usar o **[!UICONTROL Server]**, consulte o seguinte mapeamento para o ambiente de produção:
 
@@ -94,7 +95,7 @@ Consulte também:
    | https://s7sps3.scene7.com/ | Produção da EMEA (Europa, Oriente Médio e África) |
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
 
-1. Após a interface de usuário de logon, você observará a experiência familiar da interface de usuário do navegador. Você pode carregar sua atividade do dia a dia como de costume na interface do usuário do aplicativo para desktop.
+1. Após o logon, observe a experiência familiar da interface do usuário do navegador. Você pode continuar a sua atividade do dia a dia do Dynamic Media Classic, como de costume, no aplicativo de desktop.
 
 ## Baixe e *silent* instale o aplicativo Adobe Classic para desktop mais recente no macOS {#install-silent-mac-dmc-app}
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Use as mesmas credenciais do navegador para fazer logon no Adobe Dynamic Media Classic.
+1. Para fazer logon no aplicativo Adobe Dynamic Media Classic para desktop, use as mesmas credenciais usadas para fazer logon no Dynamic Media Classic no navegador.
 
    Para usar o **[!UICONTROL Server]**, consulte o seguinte mapeamento para o ambiente de produção:
 
@@ -169,7 +170,7 @@ Para baixar e *silent* instalar a versão mais recente do aplicativo Adobe Dynam
 
    ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Use as mesmas credenciais do navegador para fazer logon no Adobe Dynamic Media Classic.
+1. Para fazer logon no aplicativo Adobe Dynamic Media Classic para desktop, use as mesmas credenciais usadas para fazer logon no Dynamic Media Classic no navegador.
 
    Para usar o **[!UICONTROL Server]**, consulte o seguinte mapeamento para o ambiente de produção:
 
@@ -194,7 +195,7 @@ Assista a [uma apresentação de vídeo sobre como usar o aplicativo Dynamic Med
 
 ### Limpar manualmente o cache de imagens e o cache de ativos
 
-Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você também pode realizar essa tarefa manualmente limpando o cache diretamente do sistema de arquivos.
+Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos.
 
 1. Com base no seu sistema operacional, navegue até o seguinte:
 
@@ -207,7 +208,7 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 **_Aplica-se ao Windows e macOS - Como alterno entre o empresa?_**<br>Para alternar entre empresas, faça o seguinte:
 * No aplicativo Dynamic Media Classic, selecione a nova empresa na lista suspensa empresa.
-* Quando o pop-up for exibido, toque em **[!UICONTROL OK]** para sair e fechar o aplicativo.
+* Quando a janela pop-up for exibida, toque em **[!UICONTROL OK]** para sair e fechar o aplicativo.
 
    ![Reinicie o aplicativo para usar a nova empresa](/help/assets/dmclassic-new-company1.png)
 * Reinicie o Dynamic Media Classic e faça logon como de costume para trabalhar com a nova empresa.
@@ -216,7 +217,7 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 **_Não consigo ver o painel Carrinho de mídia na landing page do Dynamic Media Classic._**<br>No Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
 
-**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, um novo logon na interface do usuário era necessário para ver o estado correto de publicação dos ativos. No aplicativo de desktop, apresentamos um ícone **[!UICONTROL Refresh]**na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresh]**para ver o status mais recente de todos os ativos em uma determinada página. Não é necessário refazer o logon como com a interface do navegador.
+**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, um novo logon na interface do usuário era necessário para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone **[!UICONTROL Refresh]**na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresh]**para ver o status mais recente de todos os ativos em uma determinada página. Não é necessário refazer o logon como com a interface do usuário do navegador.
 
 ![Ícone ](/help/assets/refresh-icon1.png)
 *Atualizar íconeÍcone Atualizar*
