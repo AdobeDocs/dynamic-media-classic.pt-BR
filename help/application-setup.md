@@ -1,18 +1,14 @@
 ---
 title: Configuração do aplicativo
-seo-title: Configuração do aplicativo
-description: Saiba como configurar a área de aplicativos do Dynamic Media Classic.
-seo-description: Saiba como configurar a área de aplicativos do Dynamic Media Classic.
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
+description: Saiba como configurar a área Aplicativo do Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10969'
+source-wordcount: '10904'
 ht-degree: 4%
 
 ---
@@ -160,7 +156,7 @@ Os administradores podem criar predefinições para exportar ativos. Os usuário
 
 Para abrir a tela Predefinição de imagem, na barra Navegação global, clique em **Configuração** > **Predefinições de imagem**.
 
-Consulte [Imagens inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Consulte [Imagens inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ### Criação e edição de predefinições de imagens {#creating-and-editing-image-presets}
 
@@ -358,9 +354,9 @@ Uma predefinição de codificação que funciona com qualquer proporção para p
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 600 | Autox360 | Igual à fonte | 64 | Para dispositivos móveis (iPhone, iPad, Android) |
+| 3 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual à fonte | 64 | Para dispositivos móveis (iPhone, iPad, Android) |
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à fonte | 96 | Para tablet (iPad, Android) |
-| 3 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à fonte | 128 | Para desktop |
+| 1 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à fonte | 128 | Para desktop |
 
 ### Predefinições de vídeo da Codificação de vídeo adaptativa (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -372,12 +368,12 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
+| 3 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 2 | 4:3, 384x288px, móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
-| 1 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual à fonte | 64 | Resolução média, 3G |
-| 4 | 4:3, 384 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384 x 288 | Igual à fonte | 64 | Resolução média, 3G |
-| 5 | 16:9, 640 x 360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 600 | 640 x 360 | Igual à fonte | 80 | Resolução média, WiFi |
-| 6 | 4:3, 640x480, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x480_800K | 600 | 640 x 480 | Igual à fonte | 80 | Resolução média, WiFi |
+| 3 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Igual à fonte | 64 | Resolução média, 3G |
+| 4 | 4:3, 384 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 800 | 384 x 288 | Igual à fonte | 64 | Resolução média, 3G |
+| 5 | 16:9, 640 x 360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Igual à fonte | 80 | Resolução média, WiFi |
+| 6 | 4:3, 640x480, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Igual à fonte | 80 | Resolução média, WiFi |
 | 7 | 16:9, 768 x 432, Tablet (iPad, Android), (1200 Kbps) | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | Igual à fonte | 96 | Alta resolução, WiFi |
 | 8 | 4:3, 768 x 576, Tablet (iPad, Android), (1200 Kbps) | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768 x 576 | Igual à fonte | 96 | Alta resolução, WiFi |
 | 9 | 16:9, 1280x720, Desktop, (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | Igual à fonte | 128 | Alta definição, widescreen |
@@ -393,12 +389,12 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480 x 270 | Igual à fonte | 64 | Baixa resolução widescreen |
-| 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 600 | 640 x 360 | Igual à fonte | 80 | Resolução widescreen média |
+| 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480 x 270 | Igual à fonte | 64 | Baixa resolução widescreen |
+| 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640 x 360 | Igual à fonte | 80 | Resolução widescreen média |
 | 1 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800 x 450 | Igual à fonte | 96 | Resolução média-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | Igual à fonte | 128 | Alta definição, widescreen |
 | 5 | 4:3, 320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320 x 240 | Igual à fonte | 64 | Baixa resolução |
-| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 600 | 480 x 360 | Igual à fonte | 80 | Resolução média |
+| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480 x 360 | Igual à fonte | 80 | Resolução média |
 | 7 | 4:3, 640x480 (1200 Kbps) | 1,5 Mbps | _640x480_1200K | 1200 | 640 x 480 | Igual à fonte | 96 | Resolução média-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 | 1280 x 960 | Igual à fonte | 128 | Alta definição |
 
@@ -406,12 +402,12 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Igual à fonte | 64 | Baixa resolução widescreen |
-| 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 600 | 640 x 360 | Igual à fonte | 80 | Resolução widescreen média |
-| 1 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | Igual à fonte | 96 | Resolução média-alta |
+| 3 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480 x 270 | Igual à fonte | 64 | Baixa resolução widescreen |
+| 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640 x 360 | Igual à fonte | 80 | Resolução widescreen média |
+| 3 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800 x 450 | Igual à fonte | 96 | Resolução média-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280 x 720 | Igual à fonte | 128 | Alta definição, widescreen |
 | 5 | 4:3, 320x240 (400 Kbps), OGG | 500 | _OGG_320X240_400K | 400 | 320 x 240 | Igual à fonte | 64 | Baixa resolução |
-| 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 600 | 480 x 360 | Igual à fonte | 80 | Resolução média |
+| 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 800 | 480 x 360 | Igual à fonte | 80 | Resolução média |
 | 7 | 4:3, 640x480 (1200 Kbps), OGG | 1,5 Mbps | _OGG_640x480_1200K | 1200 | 640 x 480 | Igual à fonte | 96 | Resolução média-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x960_2000K | 2000 | 1280 x 960 | Igual à fonte | 128 | Alta definição |
 
@@ -425,14 +421,14 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura do pixel | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512 x 288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
-| 2 | 16:9, 512 x 288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual à fonte | 64 | Resolução média, 3G |
-| 3 | 16:9, 512 x 288, Móvel (800 Kbps) | 900 | _Mobile_512x288_800K | 600 | 512 x 288 | Igual à fonte | 80 | Resolução média, Wi-Fi |
+| 3 | 16:9, 512 x 288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
+| 2 | 16:9, 512 x 288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Igual à fonte | 64 | Resolução média, 3G |
+| 3 | 16:9, 512 x 288, Móvel (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Igual à fonte | 80 | Resolução média, Wi-Fi |
 | 4 | 16:9, 512 x 288, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512 x 288 | Igual à fonte | 80 | Alta resolução, Wi-Fi |
 | 5 | 16:9, 512 x 288, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512 x 288 | Igual à fonte | 96 | Alta resolução, Wi-Fi |
 | 6 | 4:3, 384 x 288, Móvel (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
-| 7 | 4:3, 384 x 288, Móvel (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384 x 288 | Igual à fonte | 64 | Resolução média, 3G |
-| 8 | 4:3, 448x336, Móvel (800 Kbps) | 900 | _Mobile_448x336_800K | 600 | 448 x 336 | Igual à fonte | 80 | Resolução média, Wi-Fi |
+| 7 | 4:3, 384 x 288, Móvel (600 Kbps) | 700 | _Mobile_384x288_600K | 800 | 384 x 288 | Igual à fonte | 64 | Resolução média, 3G |
+| 8 | 4:3, 448x336, Móvel (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448 x 336 | Igual à fonte | 80 | Resolução média, Wi-Fi |
 | 9 | 4:3, 448x336, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1000 | 448 x 336 | Igual à fonte | 80 | Alta resolução, Wi-Fi |
 | 10 | 4:3, 448x336, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448 x 336 | Igual à fonte | 96 | Alta resolução, Wi-Fi |
 
@@ -440,13 +436,13 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 >[!NOTE]
 >
->**Aviso**  de Fim da Vida Útil dos Visualizadores de Flashes - A partir de 31 de janeiro de 2017, o suporte do Adobe Dynamic Media Classic oficialmente terminou para a plataforma do visualizador de Flashes. Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Aviso**  de Fim da Vida Útil dos Visualizadores de Flashes - A partir de 31 de janeiro de 2017, o suporte do Adobe Dynamic Media Classic oficialmente terminou para a plataforma do visualizador de Flashes.
 
 Uma *Predefinição do visualizador* é uma coleção de configurações que determinam como os usuários visualizações ativos de mídia avançada em suas telas de computadores e dispositivos móveis. Como administrador, você pode criar Predefinições do visualizador. As configurações estão disponíveis para uma matriz de opções de configuração do visualizador. Por exemplo, é possível alterar o tamanho de exibição do visualizador, o comportamento de zoom, os esquemas de cores, as bordas e as fontes.
 
 Como prática recomendada, use visualizadores de vídeo HTML5 do Dynamic Media Classic. As predefinições usadas em visualizadores de vídeo HTML5 são players de vídeo robustos. Ao combinar em um único player a capacidade de projetar os componentes de reprodução usando HTML5 e CSS, ter reprodução integrada e usar streaming adaptável e progressivo dependendo da capacidade do navegador, você estende o alcance do conteúdo de mídia avançada para usuários de desktop, tablet e dispositivos móveis, além de garantir uma experiência de vídeo otimizada.
 
-Consulte [Sobre Visualizadores HTML5](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) no Guia de Referência de Visualizadores de Adobe.
+Consulte [Sobre Visualizadores HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de Referência de Visualizadores de Adobe.
 
 Consulte [Matriz de compatibilidade predefinida do Dynamic Media Classic Viewer](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -490,15 +486,13 @@ Por exemplo, se o tamanho da sua imagem principal for 350 por 350 pixels, com um
 
 **Aviso** de Fim da Vida Útil para Visualizadores de Flashes: A partir de 31 de janeiro de 2017, o Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma do visualizador de Flashes.
 
-Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
-
 A tabela a seguir identifica as predefinições do Dynamic Media Classic Viewer atualmente disponíveis. A tabela também especifica a compatibilidade do visualizador com dispositivos desktop e móveis e a tecnologia usada para cada visualizador.
 
 Consulte também [Exemplos de biblioteca de referência de visualizadores de Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para visualizadores, consulte as Notas de versão dos visualizadores.
 
-Consulte [Notas de versão de referência dos visualizadores do Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Consulte [Notas de versão de referência dos visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 |  | Tecnologia do visualizador | Desktop | Apple iPhone | Apple iPad | Android Smartphone | Tablet Android |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Consulte [Exportar uma predefinição do Visualizador HTML5](application-setup.m
    >
    >Escolha Igual à fonte para dimensionar automaticamente o Visualizador de vídeo para o tamanho de resolução do próprio vídeo codificado. Se você escolher essa opção, não será possível inserir a Largura do palco e a Altura do palco. Em vez disso, essas opções vêm do próprio vídeo. Se você escolher Igual à origem, defina a opção Tamanho da margem para refletir as dimensões da capa fora da área de reprodução do vídeo. Esse tamanho de margem é a altura e a largura do pixel dos controles de vídeo. Você pode usar a ilustração a seguir para ajudar a determinar os tamanhos de margens que deseja usar.*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![Configuração da margem do visualizador de vídeo](assets/vs_video_viewer_configure_margin.png)
 
 1. Execute um dos procedimentos a seguir:
 
