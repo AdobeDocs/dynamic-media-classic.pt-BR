@@ -1,16 +1,14 @@
 ---
 title: 'Publicação de arquivos '
-description: Saiba como publicar arquivos.
-uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
+description: Você publica seus ativos em Dynamic Media Image Servers. Você pode publicar ativos de uma só vez ou fazer com que o Dynamic Media Classic publique ativos em uma programação recorrente. Depois que seus ativos forem publicados, eles estarão disponíveis para você para delivery. Você pode copiar as chamadas de URL do Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -20,7 +18,7 @@ ht-degree: 0%
 
 Você publica seus ativos em Dynamic Media Image Servers. Você pode publicar ativos de uma só vez ou fazer com que o Dynamic Media Classic publique ativos em uma programação recorrente. Depois que seus ativos forem publicados, eles estarão disponíveis para você para delivery. Você pode copiar as chamadas de URL do Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
 
-O Dynamic Media Classic agora oferece suporte ao delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou um código incorporado para a imagem ou o vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado é então entregue por meio do protocolo HTTP/2. Este método de delivery melhora a maneira como os navegadores e servidores se comunicam, permitindo uma melhor resposta e tempos de carregamento de todos os seus ativos do Dynamic Media Classic. Consulte [Delivery HTTP2 de Perguntas frequentes sobre conteúdo](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+O Dynamic Media Classic agora oferece suporte ao delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou um código incorporado para a imagem ou o vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado é então entregue por meio do protocolo HTTP/2. Este método de delivery melhora a maneira como os navegadores e servidores se comunicam, permitindo uma melhor resposta e tempos de carregamento de todos os seus ativos do Dynamic Media Classic. Consulte [Delivery HTTP2 de Perguntas frequentes sobre conteúdo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Publicar após carregar {#publish-after-uploading}
 
