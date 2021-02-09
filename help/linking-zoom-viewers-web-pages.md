@@ -1,16 +1,14 @@
 ---
 title: Vincular visualizadores de zoom a suas páginas da Web
 description: Saiba como vincular visualizadores de zoom a suas páginas da Web.
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -46,7 +44,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incl
 
 Geralmente, visitantes para imagens de zoom de um site selecionando primeiro um ícone de Zoom (geralmente, o ícone mostra a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente dão zoom na imagem.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom básico HTML5 no Guia de referência de visualizadores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Para obter detalhes adicionais e amostras de código, consulte [Incorporação do Visualizador de zoom básico HTML5 no Guia de referência de visualizadores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiando a cópia incorporada de um visualizador de Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 
    A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-1. Clique em Fechar.
-
+1. Clique em **Fechar**.
