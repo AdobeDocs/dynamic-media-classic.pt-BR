@@ -1,16 +1,14 @@
 ---
 title: Práticas recomendadas para otimizar a qualidade de suas imagens
 description: Saiba mais sobre as práticas recomendadas para otimizar a qualidade de suas imagens.
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1474'
 ht-degree: 3%
 
 ---
@@ -22,7 +20,7 @@ A otimização da qualidade da imagem pode ser um processo demorado, já que mui
 
 O Dynamic Media Classic inclui mais de 100 comandos de disponibilização de imagem para ajustar e otimizar imagens e os resultados de renderização. As diretrizes a seguir podem ajudá-lo a dinamizar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
 
-Consulte também [Imagens inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Consulte também [Imagens inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ## Práticas recomendadas para o formato de imagem (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -50,7 +48,7 @@ O ajuste da nitidez da imagem é o aspecto mais complexo do controle de imagens 
 
 White paper de práticas recomendadas [Como aumentar a nitidez das imagens no Adobe Dynamic Media Classic e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
-Consulte também [Ajustar a nitidez de uma imagem com uma máscara nítida](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 Com o Dynamic Media Classic, você pode tornar as imagens mais nítidas na ingestão, no delivery ou em ambos. Entretanto, na maioria dos casos, é necessário aumentar a nitidez das imagens usando apenas um método ou outro, mas não ambos. O compartilhamento de imagens no delivery, em um URL, geralmente oferece os melhores resultados.
 
@@ -70,11 +68,7 @@ Existem dois métodos de nitidez de imagem que você pode usar:
 
          Esse parâmetro determina como deve ser a diferença dos pixels com nitidez em relação à área ao redor antes de serem considerados pixels de borda e o filtro ajuste a nitidez deles. O limite ajuda a evitar áreas de nitidez excessiva com cores semelhantes, como tons de pele. Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de &quot;ruído&quot;, enquanto ainda adiciona o contraste da borda a áreas de alto contraste, como onde as pálpebras tocam a pele.
 
-         Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte os seguintes recursos:
-
-         Tópico da Ajuda do Dynamic Media Classic em [Nitidez de uma imagem](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
-
-         White paper sobre práticas recomendadas [Como aumentar a nitidez das imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
+         Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte [Apagar imagens no Adobe Scene7 Publishing System e no Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * O Dynamic Media Classic também permite controlar um quarto parâmetro: monocromático ( `0,1`). Este parâmetro determina se o mascaramento de nitidez é aplicado a cada componente de cor separadamente usando o valor `0` ou o brilho/intensidade da imagem usando o valor `1`.
 
