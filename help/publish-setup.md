@@ -1,13 +1,11 @@
 ---
 title: Configuração de publicação
 description: As configurações da tela Publicar configuração determinam como os ativos são entregues por padrão dos servidores Dynamic Media Classic para sites ou aplicativos.
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 0%
@@ -21,7 +19,7 @@ As configurações da tela Publicar configuração determinam como os ativos sã
 
 Os administradores podem alterar as configurações padrão nas telas Servidor de imagens, Renderizador de imagens e Vignette para estabelecer as configurações padrão para fornecer ativos dos servidores.
 
-Para abrir as telas Instalação de publicação, clique em Configuração > Configuração do aplicativo > Configuração de publicação.
+Para abrir as telas Instalação de publicação, clique em **Configuração** > **Configuração de aplicação** > **Configuração de publicação**.
 
 >[!NOTE]
 >
