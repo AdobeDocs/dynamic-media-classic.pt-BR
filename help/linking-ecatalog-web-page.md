@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '679'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incl
 
 A maneira mais comum de implantar um eCatalog é colocar um link na forma de uma página de capa de miniatura do eCatalog na sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços do navegador sejam exibidas.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporando o Visualizador de eCatalog HTML5 no Guia de Referência de Visualizadores de Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
+Para obter detalhes adicionais e amostras de código, consulte [Incorporando o Visualizador de eCatalog HTML5 no Guia de Referência de Visualizadores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiando o código incorporado de um visualizador do eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
