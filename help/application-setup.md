@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: c6160315007fa1658f88a857589ec11ac3f0d5ae
 workflow-type: tm+mt
-source-wordcount: '10904'
+source-wordcount: '10915'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ Uma predefinição de codificação que funciona com qualquer proporção para p
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual à fonte | 64 | Para dispositivos móveis (iPhone, iPad, Android) |
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à fonte | 96 | Para tablet (iPad, Android) |
-| 1 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à fonte | 128 | Para desktop |
+| 3 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à fonte | 128 | Para desktop |
 
 ### Predefinições de vídeo da Codificação de vídeo adaptativa (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -368,10 +368,10 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
+| 1 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 2 | 4:3, 384x288px, móvel (iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
-| 3 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Igual à fonte | 64 | Resolução média, 3G |
-| 4 | 4:3, 384 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 800 | 384 x 288 | Igual à fonte | 64 | Resolução média, 3G |
+| 3 | 16:9, 512 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512 x 288 | Igual à fonte | 64 | Resolução média, 3G |
+| 4 | 4:3, 384 x 288, Móvel (iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384 x 288 | Igual à fonte | 64 | Resolução média, 3G |
 | 5 | 16:9, 640 x 360, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640 x 360 | Igual à fonte | 80 | Resolução média, WiFi |
 | 6 | 4:3, 640x480, Tablet (iPad, Android), (800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640 x 480 | Igual à fonte | 80 | Resolução média, WiFi |
 | 7 | 16:9, 768 x 432, Tablet (iPad, Android), (1200 Kbps) | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | Igual à fonte | 96 | Alta resolução, WiFi |
@@ -389,9 +389,9 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/Altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480 x 270 | Igual à fonte | 64 | Baixa resolução widescreen |
+| 3 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480 x 270 | Igual à fonte | 64 | Baixa resolução widescreen |
 | 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640 x 360 | Igual à fonte | 80 | Resolução widescreen média |
-| 1 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800 x 450 | Igual à fonte | 96 | Resolução média-alta |
+| 3 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800 x 450 | Igual à fonte | 96 | Resolução média-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280 x 720 | Igual à fonte | 128 | Alta definição, widescreen |
 | 5 | 4:3, 320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320 x 240 | Igual à fonte | 64 | Baixa resolução |
 | 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480 x 360 | Igual à fonte | 80 | Resolução média |
@@ -421,7 +421,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do texto do nome da predefinição/dica de ferramenta | Velocidade de conexão do público alvo (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura do pixel | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 512 x 288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
+| 1 | 16:9, 512 x 288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512 x 288 | Igual à fonte | 64 | Baixa resolução, 3G |
 | 2 | 16:9, 512 x 288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512 x 288 | Igual à fonte | 64 | Resolução média, 3G |
 | 3 | 16:9, 512 x 288, Móvel (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512 x 288 | Igual à fonte | 80 | Resolução média, Wi-Fi |
 | 4 | 16:9, 512 x 288, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512 x 288 | Igual à fonte | 80 | Alta resolução, Wi-Fi |
@@ -456,7 +456,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores de Ado
 
 Páginas da Web diferentes têm necessidades diferentes. Às vezes, você desejará uma página da Web que forneça um link que abra o Visualizador HTML5 em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout estático. Ou pode ser &quot;responsivo&quot; e exibido de forma diferente em dispositivos diferentes ou para tamanhos diferentes de janelas do navegador. Para acomodar essas necessidades, os Visualizadores HTML5 fornecidos com o Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
 
-Consulte [Biblioteca de imagens estáticas responsivas](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)na *Ajuda da API de disponibilização de imagens do Adobe* para obter mais informações sobre como incorporar visualizadores responsivos às suas páginas da Web.
+Para obter mais informações sobre como incorporar visualizadores responsivos às suas páginas da Web, consulte [Sobre a biblioteca de imagens responsivas](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Usando a biblioteca de imagens responsivas](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api) e [Referência de comando - Atributos de comando](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
 
 ### Tipos de predefinição do visualizador {#viewer-preset-types}
 
