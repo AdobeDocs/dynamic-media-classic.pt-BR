@@ -1,14 +1,13 @@
 ---
 title: Aplicativo Adobe Dynamic Media Classic Desktop
-seo-title: Aplicativo Adobe Dynamic Media Classic Desktop
 description: Os usuários do Dynamic Media Classic agora podem experimentar uma atualização completa da interface do usuário. A experiência fornece um logon atualizado com links para recursos valiosos, além disso, essa atualização não depende mais da tecnologia de Flash do Adobe no navegador.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -90,11 +89,11 @@ Entre em contato com o suporte ao Adobe para saber quais são os problemas que v
 
 O Dynamic Media Classic é uma solução poderosa e repleta de recursos, projetada para aprimorar suas estratégias de mídias avançadas. Para garantir que você aproveite todos os recursos, explore os seguintes recursos práticos:
 
-* [Tutorial sobre as práticas recomendadas da Dynamic Media](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial sobre as práticas recomendadas da Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Publicações no blog do Dynamic Media](https://theblog.adobe.com/tag/dynamic-media/)
-* [Arquivos de newsletters da Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Arquivos de newsletters da Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-Além disso, [assine o boletim informativo da Dynamic Media](https://www.adobe.com/subscription/dynamic-media-newsletter.html) para manter-se atualizado com as últimas notícias, informações, oportunidades de treinamento, recursos avançados disponíveis para você, como [Imagens inteligentes](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html) e o programa de auditoria complementar.
+Além disso, [assine o boletim informativo da Dynamic Media](https://www.adobe.com/subscription/dynamic-media-newsletter.html) para manter-se atualizado com as últimas notícias, informações, oportunidades de treinamento, recursos avançados disponíveis para você, como [Imagens inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) e o programa de auditoria complementar.
 
 ### **_Estou interessado em saber mais sobre como atualizar para o Dynamic Media com a AEM Assets. Onde posso encontrar mais informações?_**
 
