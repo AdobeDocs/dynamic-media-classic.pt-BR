@@ -7,9 +7,9 @@ breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba como usar o Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '748'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 # Guia do Adobe Dynamic Media Classic  {#using}
 
 + [Guia do Adobe Dynamic Media Classic](home.md)
-+ [Tutorial de práticas recomendadas](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Tutorial de práticas recomendadas](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NOVA experiência de logon do Dynamic Media Classic disponível](new-ui-2020.md)
 + [Dynamic Media Newsletter da Experience League](dynamic-media-newsletter.md)
 + Apresentando o Adobe Dynamic Media Classic {#intro}
