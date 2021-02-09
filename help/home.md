@@ -5,9 +5,9 @@ description: Documentação técnica do Adobe Dynamic Media Classic
 seo-description: 'Documentação técnica, notas de versão e materiais de autoajuda para o Adobe Dynamic Media Classic, antigo Scene 7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Consulte [Perguntas frequentes](new-ui-2020.md). Novas atualizações a partir d
 
 ## Recursos do desenvolvedor do Dynamic Media
 
-* [landing page](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)  de recursos do desenvolvedor Dynamic Media— Inclui o Guia de referência do visualizador, a API de disponibilização de imagens/renderização de imagens, a API do sistema de produção de imagens e as Notas de versão do Dynamic Media Classic.
+* [landing page](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  de recursos do desenvolvedor Dynamic Media— Inclui o Guia de referência do visualizador, a API de disponibilização de imagens/renderização de imagens, a API do sistema de produção de imagens e as Notas de versão do Dynamic Media Classic.
 * [Exemplos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  da biblioteca do visualizador— Inclui exemplos do visualizador para vídeo, mídia que pode ser comprada, mídia mista, conjuntos de rotação, zoom incorporado, conjuntos de imagens e amostras e flyouts.
 
 ## Recursos de usuário do Dynamic Media Classic
