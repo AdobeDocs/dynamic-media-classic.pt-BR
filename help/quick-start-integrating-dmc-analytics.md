@@ -1,16 +1,14 @@
 ---
 title: '"Start rápido: Integração do Dynamic Media Classic e do Adobe Analytics"'
-description: Uma introdução e um Start rápido para integrar o Dynamic Media Classic e o Adobe Analytics para ajudá-lo a começar a funcionar rapidamente.
-uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
+description: Uma introdução e um Start rápido para integrar o Dynamic Media Classic e o Adobe Analytics, para ajudá-lo a começar a funcionar rapidamente.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -24,7 +22,7 @@ Depois de integrar o Adobe Analytics ao Dynamic Media Classic, você pode obter 
 
 Usando os relatórios da Adobe Analytics, você pode obter uma imagem clara da atividade de clientes em seu site. Você pode determinar quais apresentações de produtos levam à conversão e quais não atraem o interesse do cliente.
 
-Consulte também [Avaliação de vídeo no Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+Consulte também [Avaliação de vídeo no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 >[!NOTE]
 >
