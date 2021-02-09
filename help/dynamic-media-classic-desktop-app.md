@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Para baixar e *silent* instalar a versão mais recente do aplicativo Adobe Dynam
 
 ## Vídeo sobre como usar o aplicativo Dynamic Media Classic Desktop {#dmc-app-video-walk-through}
 
-Assista a [uma apresentação de vídeo sobre como usar o aplicativo Dynamic Media Classic Desktop](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (Duração: 2 minutos (36 segundos).
+Assista a [uma apresentação de vídeo sobre como usar o aplicativo Dynamic Media Classic Desktop](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duração: 2 minutos (36 segundos).
 
 ## Limpar o cache de imagens e o cache de ativos no computador usando o aplicativo de desktop
 
