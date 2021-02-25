@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ O aplicativo Adobe Dynamic Media Classic para desktop é compatível com os segu
 * Problemas de logon devido ao tempo limite resultando na seguinte mensagem: *Este utilizador pode ser atribuído ao grupo ou grupos sem permissão. Entre em contato com o administrador.*
 * As predefinições do visualizador são duplicadas com cada tentativa incorreta de senha.
 * O aplicativo de desktop não responde devido a muitos ativos na pasta raiz. (Corrigido no Windows; trabalhando conforme desejado no macOS.)
+* jlkjlkj
 
 ## Correções na versão anterior (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -81,7 +82,7 @@ Consulte também:
 
    * **No Windows**  - execute o binário do instalador e siga as instruções na tela para instalar o aplicativo de desktop.
 
-1. Quando você abrir o aplicativo, a nova página Adobe Dynamic Media Classic Sign In será exibida:
+1. Quando você abrir o aplicativo, a nova página de Login do Adobe Dynamic Media Classic será exibida:
 
    ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -121,7 +122,7 @@ Para baixar e *silent* instalar a versão mais recente do aplicativo Adobe Dynam
    `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
 Unmount DMG - hdiutil detach <mount_point_path>`
 
-1. Quando você abrir o aplicativo, a nova página Adobe Dynamic Media Classic Sign In será exibida:
+1. Quando você abrir o aplicativo, a nova página de Login do Adobe Dynamic Media Classic será exibida:
 
    ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -166,7 +167,7 @@ Para baixar e *silent* instalar a versão mais recente do aplicativo Adobe Dynam
 
    Detalhes sobre os parâmetros da linha de comando estão disponíveis em [Setup.exe e Update.exe Command-Line Parameters.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
-1. Quando você abrir o aplicativo, a nova página Adobe Dynamic Media Classic Sign In será exibida:
+1. Quando você abrir o aplicativo, a nova página de Login do Adobe Dynamic Media Classic será exibida:
 
    ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
@@ -189,11 +190,11 @@ Assista a [uma apresentação de vídeo sobre como usar o aplicativo Dynamic Med
 
 1. No aplicativo Dynamic Media Classic para desktop, próximo ao canto superior direito, toque em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Na página **[!UICONTROL Personal Setup]**, sob o cabeçalho **[!UICONTROL Desktop]**, execute um dos procedimentos a seguir:
-   * Toque em **[!UICONTROL Clear Image Cache]** para remover todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador. Toque em **[!UICONTROL OK]**.
-   * Toque em **[!UICONTROL Clear Asset Cache]** para remover todos os arquivos de ativos em cache do Adobe Dynamic Media do seu computador. Toque em **[!UICONTROL OK]**.
+   * Para remover todos os arquivos de imagem em cache do Adobe Dynamic Media de seu computador, toque **[!UICONTROL Clear Image Cache]** e em **[!UICONTROL OK]**.
+   * Para remover todos os arquivos de ativos em cache do Adobe Dynamic Media do seu computador, toque **[!UICONTROL Clear Asset Cache]** e em **[!UICONTROL OK]**.
 1. No canto inferior direito da página, toque em **[!UICONTROL Close]**.
 
-### Limpar manualmente o cache de imagens e o cache de ativos
+### Limpar manualmente o cache de imagens e o cache de ativos {#clear-cache}
 
 Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos.
 
@@ -201,6 +202,10 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Limitação conhecida no Dynamic Media Classic 2021.1
+
+* A lista suspensa **[!UICONTROL Server]** fica vazia após a atualização para o aplicativo de desktop Dynamic Media Classic 20.21.1 - Cenário: Instale e faça logon no Dynamic Media Classic 20.20.1 ou 20.20.2 e feche o aplicativo. Em seguida, atualize para o Dynamic Media Classic 20.21.1. Quando você tenta fazer logon, a lista suspensa **[!UICONTROL Server]** na caixa de diálogo **[!UICONTROL Sign in to your account]** fica vazia. Para contornar esse problema, [limpe manualmente o cache](#clear-cache).
 
 ## Limitações conhecidas no Dynamic Media Classic 20.20.1 (corrigidas em 20.20.2)
 
@@ -210,7 +215,8 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 * No aplicativo Dynamic Media Classic, selecione a nova empresa na lista suspensa empresa.
 * Quando a janela pop-up for exibida, toque em **[!UICONTROL OK]** para sair e fechar o aplicativo.
 
-   ![Reinicie o aplicativo para usar a nova empresa](/help/assets/dmclassic-new-company1.png)
+   ![Para usar a nova empresa, reinicie o aplicativo](/help/assets/dmclassic-new-company1.png)
+
 * Reinicie o Dynamic Media Classic e faça logon como de costume para trabalhar com a nova empresa.
 
 ## Dicas e truques
