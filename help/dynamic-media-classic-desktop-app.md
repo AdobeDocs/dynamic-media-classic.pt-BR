@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -186,7 +186,7 @@ Para baixar e *silent* instalar a versão mais recente do aplicativo Adobe Dynam
 
 Assista a [uma apresentação de vídeo sobre como usar o aplicativo Dynamic Media Classic Desktop](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duração: 2 minutos (36 segundos).
 
-## Limpar o cache de imagens e o cache de ativos no computador usando o aplicativo de desktop
+## Limpar o cache de imagens e o cache de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
 1. No aplicativo Dynamic Media Classic para desktop, próximo ao canto superior direito, toque em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Na página **[!UICONTROL Personal Setup]**, sob o cabeçalho **[!UICONTROL Desktop]**, execute um dos procedimentos a seguir:
@@ -194,7 +194,7 @@ Assista a [uma apresentação de vídeo sobre como usar o aplicativo Dynamic Med
    * Para remover todos os arquivos de ativos em cache do Adobe Dynamic Media do seu computador, toque **[!UICONTROL Clear Asset Cache]** e em **[!UICONTROL OK]**.
 1. No canto inferior direito da página, toque em **[!UICONTROL Close]**.
 
-### Limpar manualmente o cache de imagens e o cache de ativos {#clear-cache}
+### Limpar manualmente o cache de imagens e o cache de ativos
 
 Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos.
 
