@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
+source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 ## Limitação conhecida no Dynamic Media Classic 2021.1
 
-* A lista suspensa **[!UICONTROL Server]** fica vazia após a atualização para o aplicativo de desktop Dynamic Media Classic 20.21.1 - Cenário: Instale e faça logon no Dynamic Media Classic 20.20.1 ou 20.20.2 e feche o aplicativo. Em seguida, atualize para o Dynamic Media Classic 20.21.1. Quando você tenta fazer logon, a lista suspensa **[!UICONTROL Server]** na caixa de diálogo **[!UICONTROL Sign in to your account]** fica vazia. Para contornar esse problema, [limpe manualmente o cache](#clear-cache).
+* A lista suspensa **[!UICONTROL Server]** fica vazia após a atualização para o aplicativo de desktop Dynamic Media Classic 20.21.1 - Cenário: Instale e faça logon no Dynamic Media Classic 20.20.1 ou 20.20.2 e feche o aplicativo. Em seguida, você atualiza para o Dynamic Media Classic 20.21.1. Quando você tenta fazer logon, a lista suspensa **[!UICONTROL Server]** na caixa de diálogo **[!UICONTROL Sign in to your account]** fica vazia. Para contornar esse problema, você deve [limpar manualmente o cache](#clear-cache) (consulte as etapas acima).
 
 ## Limitações conhecidas no Dynamic Media Classic 20.20.1 (corrigidas em 20.20.2)
 
