@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 0%
@@ -44,7 +44,7 @@ O aplicativo de desktop Adobe Dynamic Media Classic é compatível com os seguin
 * Nenhuma limitação no número de arquivos que você pode fazer upload por meio da interface do usuário do aplicativo de desktop para macOS e Windows.
 * Não é necessário sair do aplicativo de desktop para alternar entre empresas.
 * Ctrl+V para a operação de colar agora funciona no Windows.
-* Futuramente, quando uma nova versão do aplicativo de desktop for lançada, os usuários serão notificados dentro do próprio aplicativo de desktop. —>
+* Futuramente, quando uma nova versão do aplicativo de desktop for lançada, os usuários serão notificados dentro do próprio aplicativo de desktop.
 
 ## Baixe e instale o aplicativo de desktop mais recente do Adobe Dynamic Media Classic no macOS ou Windows {#installation-dmc-app}
 
