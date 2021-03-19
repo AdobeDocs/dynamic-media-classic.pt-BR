@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
+feature: Dynamic Media Classic
+role: Administrador,Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -17,13 +19,13 @@ ht-degree: 0%
 
 # Obtendo informações de uso do disco {#getting-disk-usage-information}
 
-Você pode usar o parâmetro `disk_info` para recuperar informações sobre o uso do espaço em disco de uma empresa, como mostra o exemplo a seguir:
+Você pode usar o parâmetro `disk_info` para recuperar informações sobre o uso do espaço em disco de uma empresa, como mostrado no exemplo a seguir:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
 ```
 
-Uma amostra de resposta é semelhante ao seguinte:
+Um exemplo de resposta é semelhante ao seguinte:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -41,14 +43,14 @@ Uma amostra de resposta é semelhante ao seguinte:
 </scene7>
 ```
 
-Você pode usar os seguintes campos na sequência de query do URL para obter informações de uso do disco:
+Você pode usar os seguintes campos na string de consulta de URL para obter informações de uso do disco:
 
 | Parâmetro de URL | Obrigatório/opcional | Valor |
 |--- |--- |--- |
 | op | Obrigatório | disk_info |
-| shared_secret | Obrigatório | A chave do segredo compartilhado para a empresa |
+| shared_secret | Obrigatório | A chave secreta compartilhada para a empresa |
 
-O código de amostra a seguir obtém informações do disco para a Empresa 000:
+O código de amostra a seguir obtém informações do disco para a empresa 000Empresa:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602
