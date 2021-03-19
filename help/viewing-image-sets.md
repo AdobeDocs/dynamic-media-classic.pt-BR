@@ -1,16 +1,18 @@
 ---
-title: Visualizando conjuntos de imagens
-description: Saiba como visualização Conjuntos de imagens.
+title: Visualização de conjuntos de imagens
+description: Saiba como visualizar conjuntos de imagens.
 uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -18,48 +20,48 @@ ht-degree: 0%
 
 # Exibindo Conjuntos de Imagens{#viewing-image-sets}
 
-Você pode visualização seus Conjuntos de imagens na janela de Pré-visualização, usando as predefinições disponíveis. Use um Visualizador de zoom: Predefinição personalizada do visualizador para conjuntos de imagens.
+Você pode visualizar seus Conjuntos de imagens na janela Visualizar, usando suas predefinições disponíveis. Você usa um Visualizador de Zoom: Predefinição personalizada do visualizador para conjuntos de imagens.
 
-O Dynamic Media Classic vem com as predefinições de visualizador padrão. Os administradores podem criar ou modificar as predefinições do visualizador.
+O Dynamic Media Classic vem com as Predefinições do visualizador padrão. Os administradores podem criar ou modificar as Predefinições do visualizador.
 
-## Configuração das predefinições do Visualizador de zoom para Conjuntos de imagens {#setting-up-zoom-viewer-presets-for-image-sets}
+## Configuração das predefinições do Visualizador de Zoom para Conjuntos de Imagens {#setting-up-zoom-viewer-presets-for-image-sets}
 
-Você pode criar e personalizar as predefinições do visualizador para atender às suas necessidades.
+Você pode criar e personalizar Predefinições do visualizador de acordo com suas necessidades.
 
-1. Clique em **Configuração** > **Predefinições do visualizador**.
-1. Crie ou edite uma predefinição do visualizador na tela Predefinições do visualizador executando um dos seguintes procedimentos:
+1. Clique em **Configurar** > **Predefinições do visualizador**.
+1. Crie ou edite uma predefinição do Visualizador na tela Predefinições do visualizador seguindo um destes procedimentos:
 
-   **** CriarClique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador de zoom:Personalizado e clique em Adicionar. Também é possível criar uma Predefinição do visualizador de zoom começando por uma predefinição existente. Exiba o nome da predefinição, selecione-a e selecione o botão Editar. Na tela Configurar visualizador, digite um novo nome para a predefinição.
+   **** CriaçãoClique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador de zoom: Personalizado e clique em Adicionar. Você também pode criar uma Predefinição do Visualizador de Zoom iniciando de uma existente. Exiba o nome da predefinição, selecione-a e depois selecione o botão Editar . Na tela Configurar visualizador , digite um novo nome para a predefinição.
 
-   **** EdiçãoExibe o nome de uma predefinição, seleciona-a e, em seguida, clique em  **Editar**.
+   **** EdiçãoExibir o nome de uma predefinição, selecioná-la e clicar em  **Editar**.
 
-1. Escolha as opções na tela Configurar visualizador.
+1. Escolha opções na tela Configurar visualizador .
 
    Para ver uma descrição de uma opção, clique no ícone Dica de informações adjacente à opção.
 
-   A tela pré-visualização exibe o visualizador à medida que você atualiza e altera as configurações.
+   A tela de visualização exibe o visualizador conforme você atualiza e altera as configurações.
 
 1. Clique em **Salvar** ou **Salvar como**.
 
 ## Visualização de ativos do conjunto de imagens em um visualizador {#previewing-image-set-assets-in-a-viewer}
 
-Você pode usar a Pré-visualização para ver como um ativo aparece em uma plataforma de tipo de visualizador específica, como HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para pré-visualização, nem todas as plataformas estão disponíveis na Pré-visualização.
+Você pode usar a Visualização para ver como um ativo aparece em uma plataforma específica do tipo de visualizador, como o HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para visualização, nem todas as plataformas estarão disponíveis em Visualização.
 
-1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar, selecione Conjunto de imagens.
-1. No painel Biblioteca de ativos, no lado esquerdo, navegue pelas pastas de ativos para selecionar o Conjunto de imagens que deseja pré-visualização.
-1. Execute um dos procedimentos a seguir
+1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione Conjunto de imagens.
+1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas de ativos para selecionar o Conjunto de imagens que deseja visualizar.
+1. Siga um destes procedimentos
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de Lista**. Na janela Ativo, passe o mouse sobre um ativo e clique em **Pré-visualização**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de grade**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Pré-visualização**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização**.
-   * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **Arquivo** > **Pré-visualização**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Exibição de lista**. Na janela Ativo, passe o mouse sobre um ativo e clique em **Visualizar**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Grid View**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Visualizar**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Preview**.
+   * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **File** > **Preview**.
 
-1. (Opcional) Na janela Pré-visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
-1. Clique em um link do visualizador para pré-visualização do ativo no visualizador selecionado.
+1. (Opcional) Na janela Visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
+1. Clique em um link do visualizador para visualizar o ativo no visualizador selecionado.
 
-   Quando você clica em um determinado link do visualizador, o URL associado é copiado automaticamente para a área de transferência.
+   Ao clicar em um determinado link do visualizador, o URL associado é copiado automaticamente para a área de transferência.
 
-1. Feche o visualizador exibido para retornar à tela de Pré-visualização.
+1. Feche o visualizador exibido para retornar à tela Visualização.
 1. Clique em **Fechar** para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
