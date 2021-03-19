@@ -1,5 +1,5 @@
 ---
-title: Geração de Conjunto de imagens automatizado
+title: Geração de Conjunto de Imagens Automatizado
 description: 'Saiba como automatizar a geração de conjuntos de imagens. '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -30,14 +32,14 @@ Last Modified Date:
 
 Você pode automatizar a geração de conjuntos como um trabalho independente que não depende de um upload.
 
-**Para automatizar a geração do Conjunto de imagens**
+**Para automatizar a geração do conjunto de imagens**
 
-1. Clique em **Arquivo** > **Gerar conjunto**.
-1. Na caixa de diálogo Gerar conjunto, especifique um nome para a tarefa.
+1. Clique em **Arquivo** > **Gerar Conjunto**.
+1. Na caixa de diálogo Gerar conjunto , especifique um nome de trabalho.
 
-   Por padrão, o trabalho recebe um nome que indica que ele é um trabalho gerado e quando o trabalho foi gerado.
+   Por padrão, o trabalho recebe um nome que indica que ele é um trabalho gerado e quando ele foi gerado.
 
 1. Selecione a predefinição que deseja aplicar.
-1. Clique em **Pasta de destino** e especifique a pasta que deseja usar.
+1. Clique em **Destination Folder** e especifique a pasta que deseja usar.
 1. Clique em **Enviar**.
 
