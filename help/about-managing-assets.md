@@ -4,10 +4,12 @@ description: Uma introdução ao gerenciamento de ativos no Dynamic Media Classi
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+feature: Dynamic Media Classic,Gerenciamento de ativos
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -15,8 +17,8 @@ ht-degree: 0%
 
 # Sobre o gerenciamento de ativos{#about-managing-assets}
 
-O Dynamic Media Classic oferta a Biblioteca de ativos para gerenciar ativos. A Biblioteca de ativos armazena as pastas onde você armazena seus arquivos de ativos. Selecionar uma pasta na Biblioteca de ativos exibe o conteúdo da pasta no Painel de navegação. Você pode visualização itens no Painel de navegação em Grade, Lista ou visualização de detalhes. Quando quiser focar em um único ativo, clique com o duplo no painel Procurar para exibi-lo na visualização Detalhe.
+O Dynamic Media Classic oferece a Biblioteca de ativos para gerenciar ativos. A Biblioteca de ativos contém as pastas onde você armazena seus arquivos de ativos. Selecionar uma pasta na Biblioteca de ativos exibe o conteúdo da pasta no Painel de navegação. Você pode exibir itens no Painel de navegação na exibição Grade, Lista ou Detalhes. Quando quiser se concentrar em um único ativo, clique duas vezes nele no Painel de navegação para exibi-lo na exibição de Detalhes.
 
-As ferramentas do Painel de navegação ofertas para exibir, selecionar, localizar, visualizar, mover, renomear e excluir ativos. Os ativos que você excluir são colocados na pasta Lixeira; você pode recuperar ativos desta pasta.
+O Painel de navegação oferece ferramentas para visualizar, selecionar, localizar, visualizar, mover, renomear e excluir ativos. Os ativos que você exclui são colocados na pasta Lixeira; é possível recuperar ativos dessa pasta.
 
-Quando quiser examinar ou trabalhar com um ativo, abra-o na visualização Detalhe. Você pode registrar metadados na visualização Detalhe para facilitar a localização e o trabalho com um ativo.
+Quando quiser examinar ou trabalhar com um ativo, abra-o na Exibição de detalhes. Você pode registrar metadados na exibição de Detalhes para facilitar a localização e o trabalho com um ativo.
