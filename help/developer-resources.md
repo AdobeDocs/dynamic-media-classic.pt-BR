@@ -1,15 +1,17 @@
 ---
 title: Recursos do desenvolvedor
-description: Saiba mais sobre quais recursos de desenvolvedor estão disponíveis para a Dynamic Media.
+description: Saiba mais sobre quais recursos do desenvolvedor estão disponíveis para o Dynamic Media.
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 7%
 
 ---
@@ -17,14 +19,14 @@ ht-degree: 7%
 
 # Recursos do desenvolvedor{#developer-resources}
 
-O Dynamic Media Classic fornece documentação para a versão mais recente de cada módulo de software Dynamic Media Classic. Os documentos de módulo estão disponíveis para a criação de imagens, o Dynamic Media Classic, o servidor de imagens e a renderização de imagens e os visualizadores.
+O Dynamic Media Classic fornece documentação para a versão principal mais recente de cada módulo de software Dynamic Media Classic. Os documentos do módulo estão disponíveis para Criação de imagens, Dynamic Media Classic, Servidor de imagens e Renderização de imagens e Visualizadores.
 
-Notas de versão também estão disponíveis para alguns módulos. As notas de versão fornecem detalhes sobre a versão, incluindo aprimoramentos, novas funcionalidades, dicas, recomendações de solução de problemas e problemas conhecidos pendentes. Notas de versão também ofertas exemplos interativos de recursos de mídia avançada e como ativá-los. Além disso, as Notas de versão oferta instruções de instalação e configuração para clientes com software licenciado.
+As notas de versão também estão disponíveis para alguns módulos. As notas de versão fornecem detalhes sobre a versão, incluindo aprimoramentos, novas funcionalidades, dicas, recomendações de solução de problemas e problemas conhecidos pendentes. As notas de versão também oferecem exemplos interativos de recursos de mídia avançada e como ativá-los. Além disso, as Notas de versão oferecem instruções de instalação e configuração para clientes com software licenciado.
 
-Os Guias de referência para o serviço de imagens e a renderização de imagens e os visualizadores descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites que desejam personalizar e aproveitar ainda mais a mídia avançada do Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. O Dynamic Media Classic supõe que o leitor esteja familiarizado com o aplicativo de desktop, padrões e convenções gerais de protocolo http e terminologia básica de geração de imagens.
+Guias de referência para exibição de imagens e renderização de imagens, e Visualizadores descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites da Web que desejam personalizar e aproveitar ainda mais a mídia avançada do Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. O Dynamic Media Classic assume que o leitor está familiarizado com o aplicativo de desktop, padrões e convenções gerais de protocolo http e terminologia básica de geração de imagens.
 
 
-**API Dynamic Media Classic**
+**API do Dynamic Media Classic**
 
 | Documento | Endereço Web |
 |--- |--- |
@@ -34,8 +36,8 @@ Os Guias de referência para o serviço de imagens e a renderização de imagens
 
 | Documento | Endereço Web |
 |--- |--- |
-| Guia do usuário | Entre em contato com o suporte técnico do Dynamic Media Classic para obter essa documentação. |
-| Notas de versão | Entre em contato com o suporte técnico do Dynamic Media Classic para obter essa documentação. |
+| Guia do usuário | Entre em contato com o suporte técnico do Dynamic Media Classic para obter esta documentação. |
+| Notas de versão | Entre em contato com o suporte técnico do Dynamic Media Classic para obter esta documentação. |
 
 **de disponibilização de imagens e de processamento de imagens**
 
