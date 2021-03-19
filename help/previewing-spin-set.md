@@ -1,44 +1,46 @@
 ---
-title: Visualização de um conjunto de giros
-description: Saiba como pré-visualização um conjunto de rotação.
+title: Visualização de um conjunto de rotação
+description: Saiba como visualizar um Conjunto de rotação.
 uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de rotação
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
 
-# Pré-visualização de um Conjunto de rotação{#previewing-a-spin-set}
+# Visualização de um Conjunto de rotação{#previewing-a-spin-set}
 
-Você pode usar a Lista do visualizador para pré-visualização de como um ativo aparece em uma plataforma de tipo de visualizador específica, como HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para pré-visualização, nem todas as plataformas estarão disponíveis na Lista do visualizador.
+Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em uma plataforma específica do tipo de visualizador, como o HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para visualização, nem todas as plataformas estarão disponíveis na Lista de visualizadores.
 
-Consulte [Configuração de Visualizadores Padrão](application-setup.md#configuring_default_viewers).
+Consulte [Configuração de visualizadores padrão](application-setup.md#configuring_default_viewers).
 
-Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
+Consulte [Pré-visualização de um ativo](previewing-asset.md#previewing_an_asset).
 
-**Para pré-visualização de um conjunto de giros**
+**Visualização de um conjunto de rotação**
 
-1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar, selecione o tipo de ativo Conjunto de rotação.
-1. No painel Biblioteca de ativos, no lado esquerdo, navegue pelas pastas Ativos que contêm o Conjunto de rotação que você deseja pré-visualização com um visualizador.
-1. Execute um dos procedimentos a seguir:
+1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione o tipo de ativo Conjunto de rotação .
+1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas Ativos que contêm o Conjunto de rotação que você deseja visualizar com um visualizador.
+1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Grade. Na janela Ativo, abaixo da imagem em miniatura, clique em Pré-visualização > Lista do visualizador.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Lista. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em Pré-visualização > Lista do visualizador.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização Detalhada. Na mesma barra de ferramentas, clique em Pré-visualização > Lista do visualizador.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, abaixo da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de lista. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes. Na mesma barra de ferramentas, clique em Visualizar > Lista de visualizadores.
 
-1. Na janela Lista do visualizador, na tabela, clique em um link do visualizador para pré-visualização do ativo no visualizador selecionado.
-1. Feche o visualizador exibido para retornar à tela Lista do visualizador.
-1. No canto inferior direito da janela Lista do visualizador, clique em Fechar para retornar à tela Ativos.
+1. Na janela Lista de visualizadores, na tabela, clique em um link do visualizador para visualizar o ativo no visualizador selecionado.
+1. Feche o visualizador exibido para retornar à tela Lista de visualizadores.
+1. No canto inferior direito da janela Lista de visualizadores, clique em Fechar para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
 >
->* [Edição de um conjunto de rotação](creating-spin-set.md#editing-a-spin-set)
+>* [Editar um conjunto de rotação](creating-spin-set.md#editing-a-spin-set)
 
