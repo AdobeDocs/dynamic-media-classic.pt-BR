@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
+feature: Dynamic Media Classic
+role: Administrador,Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -18,31 +20,31 @@ ht-degree: 0%
 
 # Mídia avançada{#rich-media}
 
-O Dynamic Media Classic oferta várias ferramentas para criar mídia avançada. Você cria esses tipos de mídia avançada:
+O Dynamic Media Classic oferece muitas ferramentas para criar mídia avançada. Você cria esses tipos de mídia avançada:
 
 * ****
-CatálogosApresenta uma versão da Web interativa e habilitada para pesquisa do catálogo ou de outro material impresso. Crie áreas clicáveis (chamadas de mapas de imagem) que mostram o conteúdo de sobreposição e permitem que os clientes alternem páginas, apliquem zoom, panoramas e anexem notas adesivas às páginas. Consulte [Start rápido: eCatalog](/help/quick-start-ecatalog.md).
+Catálogos eletrônicosApresente uma versão da Web interativa e habilitada para pesquisa do seu catálogo ou outro material de impressão. Crie áreas clicáveis (chamadas de Mapas de imagem) que mostram o conteúdo de sobreposição e permitem que os clientes rodem páginas, ampliem, panoramizem e anexem notas adesivas às páginas. Consulte [Início rápido: Catálogo eletrônico](/help/quick-start-ecatalog.md).
 
-* **e**
-VideoFornecer experiências de vídeo de alta qualidade para várias telas, incluindo desktops, dispositivos móveis e tablets. Use predefinições de codificação predefinidas do Dynamic Media Classic ou personalize a codificação para controlar a qualidade e o tamanho do vídeo. Organize, navegue e pesquise vídeos com suporte total a metadados para o gerenciamento eficiente dos ativos de vídeo. Consulte [Start rápido: eVideo](/help/quick-start-video.md).
+* ****
+eVideoFornecer experiências de vídeo de alta qualidade para várias telas, incluindo desktops, dispositivos móveis e tablets. Use predefinições de codificação predefinidas do Dynamic Media Classic ou personalize a codificação para controlar a qualidade e o tamanho do vídeo. Organize, navegue e pesquise vídeos com suporte completo a metadados para o gerenciamento eficiente dos ativos de vídeo. Consulte [Início rápido: eVideo](/help/quick-start-video.md).
 
-* **Mapas de imagem**
-Servem dinamicamente imagens em qualquer tamanho e formato em todo o site. Em vez de criar manualmente muitas imagens em tamanhos diferentes, você só usa uma imagem principal. Como o Dynamic Media Classic fornece a imagem solicitada, ele otimiza a imagem para obter resultados de qualidade mais alta em tamanho, formato, peso, qualidade e nitidez. Consulte [Start rápido: Dimensionamento da imagem](/help/quick-start-image-sizing.md).
-
-* **Conjuntos**
-de imagensForneça uma experiência de compras interativa na qual os usuários podem visualização produtos em várias visualizações. Você pode combinar zoom, várias visualizações e amostras de cores para uma experiência de visualização integrada. Consulte [Start rápido: Conjuntos de imagens](/help/quick-start-image-sets.md).
+* **Mapas**
+de imagensServem imagens dinamicamente em qualquer tamanho e formato em todo o site. Em vez de criar manualmente muitas imagens em tamanhos diferentes, você só usa uma imagem principal. Como o Dynamic Media Classic fornece a imagem solicitada, ele otimiza a imagem para obter resultados de maior qualidade em tamanho, formato, peso, qualidade e nitidez. Consulte [Início rápido: Dimensionamento de imagem](/help/quick-start-image-sizing.md).
 
 * **Conjuntos**
-de mídia mistaForneça uma combinação de conjuntos de imagens, conjuntos de rotação, conjuntos de amostras, públicos alvos de zoom, vídeo e áudio em uma única apresentação. Você pode configurar conjuntos de Mídia mista com guias para separar o vídeo das imagens. Você também pode especificar onde e como exibir amostras e públicos alvos de zoom e fornecer aos usuários uma visualização multimídia completa de seus produtos ou serviços. Consulte [Start rápido: Conjuntos de mídia mista](/help/quick-start-mixed-media-sets.md).
-
-* **Gire**
-define as imagens de sequência para girá-las horizontalmente. Os Conjuntos de rotação permitem que os visitantes do site transformem os produtos e os visualizações de lados diferentes. É possível criar Conjuntos de rotação unidimensionais e bidimensionais. Consulte [Start rápido: Conjuntos de rotação](/help/quick-start-spin-sets.md).
+de imagensForneça uma experiência de compra interativa na qual os usuários possam visualizar produtos em várias exibições. É possível combinar zoom, várias exibições e amostras de cores para uma experiência de visualização integrada. Consulte [Início rápido: Conjuntos de imagens](/help/quick-start-image-sets.md).
 
 * **Conjuntos**
-de amostrasForneça uma experiência de compras interativa na qual os usuários podem visualização produtos em diferentes cores e padrões. Você pode combinar zoom, várias visualizações e amostras de cores para uma experiência de visualização integrada. Consulte [Start rápido: Conjuntos de amostras](/help/quick-start-swatch-sets.md).
+de mídias mistasForneça uma combinação de conjuntos de imagens, conjuntos de rotação, conjuntos de amostras, metas de zoom, vídeo e áudio em uma apresentação. Você pode configurar conjuntos de mídias mistas com guias para separar vídeos de imagens. Você também pode especificar onde e como exibir amostras e metas de zoom e fornecer aos usuários uma visualização multimídia completa de seus produtos ou serviços. Consulte [Início rápido: Conjuntos de mídias mistas](/help/quick-start-mixed-media-sets.md).
+
+* **A rotação**
+define as imagens da sequência para girá-las horizontalmente. Os Conjuntos de rotação permitem que os visitantes do seu site transformem produtos e os visualizem de diferentes lados. Você pode criar Conjuntos de rotação unidimensionais e bidimensionais. Consulte [Início rápido: Conjuntos de rotação](/help/quick-start-spin-sets.md).
+
+* **Conjuntos de**
+amostrasEntrega uma experiência de compra interativa na qual os usuários podem exibir produtos em cores e padrões diferentes. É possível combinar zoom, várias exibições e amostras de cores para uma experiência de visualização integrada. Consulte [Início rápido: Conjuntos de amostras](/help/quick-start-swatch-sets.md).
 
 * **Modelos**
-básicosCrie modelos orientados por dados que combinam fontes, imagens e gráficos para programação, personalização online e promoções. Por exemplo, venda em camadas ou outros gráficos promocionais em imagens de produtos ou coloque os nomes dos clientes em T-shirts ou canecas de café. Os clientes podem ver seus nomes em mensagens de email ou em brochuras impressas que você enviar para eles. Consulte [Start rápido: Noções básicas do modelo](/help/quick-start-template-basics.md).
+básicosCrie modelos orientados por dados que combinam fontes, imagens e gráficos para monogramas, personalização online e promoções. Por exemplo, venda de camadas ou outros gráficos promocionais em imagens de produtos ou colocar os nomes dos clientes em T-shirts ou canecas de café. Os clientes podem ver seus nomes em mensagens de email ou brochuras impressas enviadas para eles. Consulte [Início rápido: Noções básicas do modelo](/help/quick-start-template-basics.md).
 
-* **Zoom em**
-destinosPermite que os clientes aumentem, diminuam o zoom e deslocem imagens usando os visualizadores configuráveis que vêm com o Dynamic Media Classic. Os clientes podem visualização rápida e interativamente detalhes de produtos de alta resolução. Consulte [Start rápido: Zoom](/help/quick-start-zoom.md).
+* **Ampliar**
+alvosPermita que os clientes ampliem, diminuam o zoom e desloquem imagens usando os visualizadores configuráveis que vêm com o Dynamic Media Classic. Os clientes podem visualizar de forma rápida e interativa detalhes de produtos de alta resolução. Consulte [Início rápido: Zoom](/help/quick-start-zoom.md).
