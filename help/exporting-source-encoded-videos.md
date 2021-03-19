@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
+feature: Dynamic Media Classic,Visualizadores,Vídeo
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
 
-# Exportar vídeos de origem e codificados{#exporting-source-and-encoded-videos}
+# Exportação de vídeos de origem e codificados{#exporting-source-and-encoded-videos}
 
 No painel Procurar, os vídeos de origem são rotulados como &quot;Vídeo Principal&quot;. Os vídeos codificados são rotulados como &quot;Vídeo&quot;. Você pode exportar vídeos de origem, bem como vídeos principais. Para exportar arquivos de vídeo, selecione-os no painel Procurar e escolha Arquivo > Exportar.
 
-Consulte [Exportar ativos do Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+Consulte [Exportação de ativos do Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
->* [Carregamento e codificação de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [Upload e codificação de vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos)
 
