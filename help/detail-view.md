@@ -1,16 +1,18 @@
 ---
 title: 'Trabalho na exibição de Detalhes '
-description: Saiba como trabalhar na visualização Detalhe.
+description: Saiba como trabalhar na exibição de Detalhes.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
+feature: Dynamic Media Classic,Gerenciamento de ativos
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '579'
 ht-degree: 5%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 5%
 
 # Trabalho na exibição de Detalhes {#working-in-detail-view}
 
-Você pode trabalhar e aprender sobre um ativo abrindo-o em visualização Detalhada. Na visualização Detalhe, você vê o tamanho do ativo, os atributos, os derivados e os metadados. Você também pode ver se e quando o ativo foi publicado e obter o URL dos ativos publicados. Dependendo do tipo de ativo, é possível fazer a pré-visualização em tamanhos diferentes, aumentar o zoom nele e executar operações de nitidez, recorte e outras operações de formatação.
+Você pode trabalhar com e aprender sobre um ativo abrindo-o na exibição de Detalhes. Na exibição de Detalhes, é possível ver o tamanho do ativo, atributos, derivados e metadados. Você também pode ver se e quando o ativo foi publicado e obter o URL dos ativos publicados. Dependendo do tipo de ativo, é possível visualizá-lo em tamanhos diferentes, ampliar e executar operações de nitidez, recorte e outras operações de formatação.
 
 <!-- 
 
@@ -38,65 +40,65 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## Abra um ativo na exibição de Detalhes {#open-an-asset-in-detail-view}
 
-Para examinar, pré-visualização ou trabalhar em um ativo detalhadamente, é possível exibi-lo na visualização Detalhe.
+Para examinar, visualizar ou trabalhar em um ativo detalhadamente, você pode exibi-lo na exibição Detalhes.
 
-1. No painel Procurar, execute um dos procedimentos a seguir:
+1. No painel Procurar, siga um destes procedimentos:
 
-   * Clique no duplo do ativo.
+   * Clique duas vezes no ativo.
    * Selecione o ativo e clique em **[!UICONTROL Detail View]**.
    * Selecione o ativo e clique em **[!UICONTROL File > Details]**.
 
 >[!NOTE]
 >
->Você pode ir de ativo a ativo na mesma pasta em visualização de detalhes selecionando o botão Ativo anterior ou Próximo ativo. Esses botões estão localizados no canto superior direito na visualização Detalhe.
+>Você pode criar uma página de ativo para ativo na mesma pasta na exibição de Detalhes selecionando o botão Ativo anterior ou Próximo ativo. Esses botões estão localizados no canto superior direito na Exibição de detalhes.
 
 ## Obter informações na exibição de Detalhes {#getting-information-in-detail-view}
 
-A visualização Detail fornece informações sobre um ativo ou arquivo. Ele mostra estas informações sobre um item: a pasta onde está armazenado, o nome do arquivo, a data em que o item foi carregado no Dynamic Media Classic e seu histórico de publicação. Você também pode visualização e editar metadados e adicionar palavras-chave para um ativo em visualização Detalhada.
+A exibição de detalhes fornece informações sobre um ativo ou arquivo. Ele mostra estas informações sobre um item: a pasta onde está armazenado, seu nome de arquivo, a data em que o item foi carregado no Dynamic Media Classic e seu histórico de publicação. Você também pode exibir e editar metadados e adicionar palavras-chave a um ativo na exibição de Detalhes.
 
-Você pode obter um URL de ativo na visualização Detalhe; no entanto, o URL não estará ativo até que você publique o ativo. Para imagens, a visualização Detalhe também fornece uma lista de ativos e metadados de criação e derivados, como públicos alvos de zoom e Conjuntos de imagens.
+Você pode obter um URL de ativo na exibição de Detalhes; no entanto, o URL não fica ativo até que você publique o ativo. Para imagens, a exibição de Detalhes também fornece uma lista de ativos e metadados de criação e derivados, como destinos de zoom e Conjuntos de imagens.
 
 ## Trabalhar com ativos na exibição de Detalhes {#working-with-assets-in-detail-view}
 
-Ferramentas de oferta de visualização de detalhes para trabalhar com o ativo aberto. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a visualização Detalhe sempre oferta essas funções:
+A exibição de detalhes oferece ferramentas para trabalhar com o ativo que você abriu. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a exibição de Detalhes sempre oferece essas funções:
 
 * **itens para**
-publicarClique no  **[!UICONTROL Publish]** ícone à esquerda do nome ou clique  **[!UICONTROL File > Publish]** ou  **[!UICONTROL File > Unpublish]**.
+publicarClique no  **[!UICONTROL Publish]** ícone à esquerda do nome ou clique em  **[!UICONTROL File > Publish]** ou  **[!UICONTROL File > Unpublish]**.
 
 * **Renomeando o**
 ativoSelecione o nome e insira um novo nome.
 
-* **Edição e adição de**
-metadadosSelecione o painel Metadados e faça as alterações desejadas. Consulte [Visualizar, adicionar e exportar metadados](/help/viewing-adding-exporting-metadata.md).
+* **Editar e adicionar**
+metadadosSelecione o painel Metadados e faça as alterações desejadas. Consulte [Visualização, adição e exportação de metadados](/help/viewing-adding-exporting-metadata.md).
 
 * **Editar e adicionar**
 palavras-chaveSelecione Palavras-chave e adicione-as ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/viewing-adding-exporting-metadata.md).
 
-* **Excluindo o**
-assetClick  **[!UICONTROL File > Delete]**.
+* **Exclusão do**
+ativoClick  **[!UICONTROL File > Delete]**.
 
-Para arquivos discretos — imagens, conjuntos de imagens e fontes, por exemplo — você pode visualização o histórico de publicação e edição e verificar os detalhes da tarefa, em visualização Detalhada.
+Para arquivos discretos — imagens, conjuntos de imagens e fontes, por exemplo — é possível visualizar o histórico de publicação e edição e verificar os detalhes da tarefa, na exibição Detalhes.
 
-Esta tabela mostra quais opções adicionais estão disponíveis com diferentes tipos de ativos na visualização Detalhe.
+Esta tabela mostra quais opções adicionais estão disponíveis com diferentes tipos de ativos na exibição de Detalhes.
 
-| Tipo de ativo | Editar/ajustar | Pré-visualização |
+| Tipo de ativo | Editar/ajustar | Visualizar |
 |--- |--- |--- |
-| Imagens | Adicionar mapas de imagem Adicionar públicos alvos de zoom Recortar nitidez Criar visualizações ajustadas | Sim; Predefinições de zoom e imagem. |
-| Imagens de revestimento de gabinete e janela | Não | Miniatura. |
-| eCatalogs | Editar | Sim. O Painel de informações também está disponível. |
+| Imagens | Adicionar mapas de imagem Adicionar destinos de zoom Recortar Nitidez Criar exibições ajustadas | Sim; Predefinições de zoom e imagem. |
+| Gabinete e janela de cobertura de imagens | Não | Miniatura. |
+| Catálogos eletrônicos | Editar | Sim. Painel Informações também disponível. |
 | Fontes | Editar informações de fonte | Não. |
 | Arquivos FXG | Editar | Sim. |
-| PERFIS ICC | Editar informações do perfil | Não. |
-| Arquivos Illustrator | Não (a menos que convertido em FXG) | Não. |
+| Perfis ICC | Editar informações de perfil | Não. |
+| Arquivos Illustrator | Não (exceto quando convertido em FXG) | Não. |
 | Conjuntos de imagens | Editar | Sim. |
-| arquivos de InDesign | Não (a menos que convertido em FXG) | Não. |
-| arquivos PDF | Não | Não. |
+| Arquivos InDesign | Não (exceto quando convertido em FXG) | Não. |
+| Arquivos PDF | Não | Não. |
 | Arquivos PSD | Sim para camadas individuais | Sim para camadas individuais. |
 | Conjuntos de rotação | Editar | Sim. |
 | Arquivos SVG | Não | Não. |
 | Modelos | Editar | Sim. |
 | Vídeos | Não | Sim. |
-| Vinhetas e vinhetas renderizadas | Não | A imagem é exibida. Você pode visualização o conteúdo e a estrutura dos elementos renderizáveis da vinheta no formato XML. |
+| Vinhetas e vinhetas renderizadas | Não | A imagem é mostrada. É possível exibir o conteúdo e a estrutura dos elementos renderizáveis da vinheta no formato XML. |
 | Arquivos XML | Não | O conteúdo é exibido. |
 | Arquivos ZIP | Não | O conteúdo não é exibido. |
 
