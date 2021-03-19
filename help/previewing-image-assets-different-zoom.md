@@ -1,45 +1,47 @@
 ---
-title: Visualização de ativos de imagem com visualizadores de zoom diferentes
-description: Saiba como pré-visualização ativos de imagem com visualizadores de zoom diferentes.
+title: Visualização de ativos de imagem com visualizadores de Zoom diferentes
+description: Saiba como visualizar ativos de imagem com visualizadores de Zoom diferentes.
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
+feature: Dynamic Media Classic,Visualizadores,Zoom
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
 
-# Visualização de ativos de imagem com visualizadores de zoom diferentes{#previewing-image-assets-with-different-zoom-viewers}
+# Visualização de ativos de imagem com visualizadores de Zoom diferentes{#previewing-image-assets-with-different-zoom-viewers}
 
-Na tela Lista do visualizador, é possível pré-visualização de imagens usando diferentes Predefinições do visualizador de zoom.
+Na tela Lista do visualizador, é possível visualizar imagens usando diferentes Predefinições do visualizador de zoom.
 
-Consulte [Configuração de Visualizadores Padrão](application-setup.md#configuring_default_viewers).
+Consulte [Configuração de visualizadores padrão](application-setup.md#configuring_default_viewers).
 
-Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
+Consulte [Pré-visualização de um ativo](previewing-asset.md#previewing_an_asset).
 
-**Para pré-visualização de ativos de imagem com visualizadores de zoom diferentes**
+**Visualização de ativos de imagem com visualizadores de zoom diferentes**
 
-1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar, selecione um tipo de ativo com base em imagem, como Imagem ou Conjunto de imagens.
-1. No painel Biblioteca de ativos, no lado esquerdo, navegue pelas pastas Ativos que contêm imagens que você deseja pré-visualização com um Visualizador de zoom.
-1. Execute um dos procedimentos a seguir:
+1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione um tipo de ativo com base em imagem, como Imagem ou Conjunto de imagens.
+1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas Ativos que contêm imagens que você deseja visualizar com um Visualizador de zoom.
+1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Grade. Na janela Ativo, abaixo da imagem em miniatura, clique em Pré-visualização > Lista do visualizador.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Lista. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em Pré-visualização > Lista do visualizador.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização Detalhada. Na mesma barra de ferramentas, clique em Pré-visualização > Lista do visualizador.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, abaixo da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de lista. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes. Na mesma barra de ferramentas, clique em Visualizar > Lista de visualizadores.
 
-1. Na janela Lista do visualizador, na tabela, clique em um link do visualizador para pré-visualização do ativo no visualizador selecionado.
-1. Feche o visualizador exibido para retornar à tela Lista do visualizador.
-1. No canto inferior direito da janela Lista do visualizador, clique em Fechar para retornar à tela Ativos.
+1. Na janela Lista de visualizadores, na tabela, clique em um link do visualizador para visualizar o ativo no visualizador selecionado.
+1. Feche o visualizador exibido para retornar à tela Lista de visualizadores.
+1. No canto inferior direito da janela Lista de visualizadores, clique em Fechar para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
 >
->* [Configuração das predefinições do Visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [Configuração de visualizadores padrão](application-setup.md#configuring_default_viewers)
+>* [Configuração das predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
+>* [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers)
 
