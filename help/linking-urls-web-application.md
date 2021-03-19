@@ -1,16 +1,18 @@
 ---
 title: Vincular URLs ao aplicativo da Web
-description: Saiba como vincular URLs ao seu aplicativo da Web.
+description: Saiba como vincular URLs ao aplicativo da Web.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
+feature: Dynamic Media Classic
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -18,77 +20,77 @@ ht-degree: 0%
 
 # Vincular URLs ao aplicativo da Web{#linking-urls-to-your-web-application}
 
-Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de sequências de caracteres de URL. Depois de publicar uma imagem, o Dynamic Media Classic ativa uma string de URL que faz referência à predefinição de imagem nos servidores de imagem Dynamic Media. Você pode colar esses URLs em um navegador da Web para teste.
+Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL. Após publicar uma imagem, o Dynamic Media Classic ativa uma string de URL que faz referência à Predefinição de imagem nos Servidores de imagem da Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
 
-Para colocar essas strings de URL em suas páginas da Web e aplicativos, copie-as do Dynamic Media Classic. Para obter uma string de URL gerada com uma Predefinição de imagem, vá para a tela Pré-visualização ou para o Painel de navegação (em visualização de detalhes).
+Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Dynamic Media Classic. Para obter uma string de URL gerada com uma Predefinição de imagem, vá para a tela Visualização ou o Painel de navegação (na exibição de Detalhes).
 
-## Obter um URL predefinido de imagem {#obtaining-an-image-preset-url}
+## Obter um URL de predefinição de imagem {#obtaining-an-image-preset-url}
 
-Você pode obter uma string de URL gerada por uma Predefinição de imagem a partir de Pré-visualização ou de Visualização Detalhada. Depois de copiar o URL, ele chega na Área de transferência para que você possa colá-lo conforme necessário.
+Você pode obter uma string de URL gerada por uma Predefinição de imagem a partir de Visualização ou da Exibição de detalhes. Depois de copiar o URL, ele chega à Área de transferência para que você possa colá-lo conforme necessário.
 
-***Observação **: O URL não estará ativo até que você publique o ativo.*
+***Observação **: O URL não fica ativo até que você publique o ativo.*
 
-### Obter um URL predefinido de imagem da Pré-visualização {#obtaining-an-image-preset-url-from-preview}
+### Obter um URL de predefinição de imagem a partir de Visualização {#obtaining-an-image-preset-url-from-preview}
 
-1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja pré-visualização.
-1. Execute um dos procedimentos a seguir:
+1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja visualizar.
+1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Grade. Na janela Ativo, selecione um único ativo de imagem e, abaixo da imagem em miniatura, clique em Pré-visualização > Lista de predefinição de imagem.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Lista. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, clique em Pré-visualização > Lista de predefinição de imagem.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização Detalhada. Na mesma barra de ferramentas, clique em Pré-visualização > Lista de predefinição de imagem.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, selecione um único ativo de imagem e, abaixo da imagem em miniatura, clique em Visualizar > Lista de predefinições de imagem.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de lista. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, clique em Visualização > Lista de predefinições de imagem.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes. Na mesma barra de ferramentas, clique em Visualizar > Lista de predefinições de imagens.
 
-1. (Opcional) Na janela Lista Predefinição de imagem, na lista suspensa Codificação de URL para Geração de URL de cópia na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo de imagem quando ele for copiado.
-1. Na janela Lista predefinida de imagem, na área superior direita do painel de pré-visualização, clique em Copiar URL para o tipo predefinido selecionado.
-1. No canto inferior direito da janela Lista predefinida de imagem, clique em Fechar para retornar à tela Ativos.
+1. (Opcional) Na janela Lista de predefinições de imagens, na lista suspensa Codificação de URL para Geração de URL de cópia na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo de imagem quando ele for copiado.
+1. Na janela Lista de predefinições de imagens, na área superior direita do painel de visualização, clique em Copiar URL para o tipo de predefinição selecionado.
+1. No canto inferior direito da janela Lista de predefinições de imagens, clique em Fechar para retornar à tela Ativos.
 
-### Obter um URL predefinido de imagem no painel Procurar {#obtaining-an-image-preset-url-from-the-browse-panel}
+### Obter um URL de predefinição de imagem no painel Procurar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
-1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja pré-visualização.
-1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização de Grade. Na janela Ativo, selecione um único ativo de imagem.
-1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Visualização Detalhada.
-1. Clique em URLs no painel no lado direito da tela para desdobrar a lista das predefinições de imagem.
-1. Clique no link Copiar URL ao lado do nome da predefinição de imagem com o URL que você deseja copiar para a área de transferência.
+1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja visualizar.
+1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, selecione um único ativo de imagem.
+1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes.
+1. Clique em URLs no painel no lado direito da tela para abrir a lista de Predefinições de imagem.
+1. Clique no link Copiar URL ao lado do nome da Predefinição de imagem com o URL que você deseja copiar para a área de transferência.
 
-## Sobre as sequências de URL predefinidas de imagens {#about-image-preset-url-strings}
+## Sobre as sequências de URL da predefinição de imagem {#about-image-preset-url-strings}
 
-Uma chamada de URL para Dimensionamento de imagem para Dynamic Media Image Servers tem a seguinte sintaxe básica:
+Uma chamada de URL para dimensionamento de imagem em servidores de imagem da Dynamic Media tem a seguinte sintaxe básica:
 
-*caminho*/*nome do Servidor* de imagens/nome *da* conta/nome *da* imagem?*modifier1*&amp;*modifier2*&amp;...
+*caminho*/*nome do Servidor de imagens*/*nome da conta*/*nome* da imagem?*modifier1*&amp;*modifier2*&amp;...
 
-Em um URL do Dynamic Media Image Server, as instruções para exibição da imagem no servidor são exibidas após o ponto de interrogação (?). Por exemplo, esta chamada de URL fornece uma imagem chamada &quot;backpack&quot; com uma largura de 250 pixels:
+Em um URL de servidor de imagem do Dynamic Media, as instruções para o servidor exibir a imagem são exibidas após o ponto de interrogação (?). Por exemplo, esta chamada de URL fornece uma imagem chamada &quot;backpack&quot; a uma largura de 250 pixels:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
 ```
 
-Um URL de predefinição de imagem contém todas as instruções do modificador para apresentar a imagem no tamanho e especificações de formatação apropriados. Sem uma predefinição de imagem, observe todas as instruções do modificador após o ponto de interrogação (?) nesta string de URL:
+Um URL de predefinição de imagem contém todas as instruções do modificador para apresentar a imagem no tamanho e especificações de formatação adequados. Sem uma predefinição de imagem, observe todas as instruções do modificador após o ponto de interrogação (?) nesta cadeia de caracteres do URL:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resMode=sharp&op_usm=1.1,0.5,1,0
 ```
 
-Entretanto, em uma sequência de caracteres de URL gerada com uma predefinição de imagem, o nome da predefinição de imagem aparece no lugar das instruções definidas pela predefinição de imagem. Por exemplo, referindo-se ao URL longo acima, a cadeia de caracteres do URL é:
+No entanto, em uma string de URL gerada com uma Predefinição de imagem, o nome da Predefinição de imagem aparece no lugar das instruções definidas pela Predefinição de imagem. Por exemplo, referindo-se ao URL longo acima, a cadeia de caracteres do URL é:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Os nomes predefinidos de imagem em URLs são delimitados por cifrão ($). Quando um Dynamic Media Image Server encontrar a parte Predefinição de imagem do URL (o `Large` neste caso), usando as instruções de tamanho e formatação definidas pela Predefinição de imagem &quot;Grande&quot;.
+Nomes de predefinições de imagens em URLs são colocados em cifrões ($). Quando um servidor de imagem do Dynamic Media encontra a parte da Predefinição de imagem do URL (o `Large` neste caso), usando as instruções de tamanho e formatação definidas pela Predefinição de imagem &quot;Grande&quot;.
 
-## Adicionar imagens dinâmicas à sua página da Web {#adding-dynamic-images-to-your-web-page}
+## Adicionar imagens dinâmicas à página da Web {#adding-dynamic-images-to-your-web-page}
 
-Para adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no código da página da Web HTML normalmente é modificada usando a string de URL do Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. Essa string produz a imagem no tamanho e nas especificações de formatação definidos pela Predefinição de imagem.
+Para adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no código da página da Web HTML normalmente é modificada usando a sequência de caracteres de URL do Dynamic Media Classic para fazer uma solicitação aos Servidores de imagem da Dynamic Media. Essa string produz a imagem no tamanho e nas especificações de formatação definidos pela Predefinição de imagem.
 
-Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
+Por exemplo, em vez da chamada típica para abrir uma imagem estática como
 
 ```as3
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-agora você usa a tag `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Dynamic Media Classic. Uma chamada de amostra tem a seguinte aparência:
+agora você usa a tag `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Dynamic Media Classic. Um exemplo de chamada tem esta aparência:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-Neste exemplo, um Dynamic Media Image Server &quot;procura&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela `thumbnail`Predefinição de imagem. Em uma string de URL, todos os itens, exceto o nome de arquivo de imagem do produto ( `backpack_trns` nesse caso) normalmente são programados para o modelo de página. O único elemento que é inserido automaticamente no modelo de página do servidor de comércio é a ID IPS ou o nome da imagem.
+Neste exemplo, um Dynamic Media Image Server &quot;procura&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela `thumbnail`Predefinição de imagem. Em uma string de URL, todos os itens, exceto o nome do arquivo da imagem do produto ( `backpack_trns` neste caso) normalmente são conectados ao modelo da página. O único elemento inserido automaticamente no modelo de página do seu servidor de comércio é a ID do IPS ou o nome da imagem.
