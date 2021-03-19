@@ -1,46 +1,48 @@
 ---
-title: Especificação de opções de exportação disponíveis para usuários do Media Portal
-description: Saiba como especificar opções de exportação que estão disponíveis para usuários do Portal de mídia.
+title: Especificar opções de exportação disponíveis para usuários do Media Portal
+description: Saiba como especificar opções de exportação que estão disponíveis para usuários do Media Portal.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
+feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
+role: Administrador,Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 
-# Especificação de opções de exportação disponíveis para usuários do Media Portal {#specifying-export-options-available-to-media-portal-users}
+# Especificar opções de exportação disponíveis para usuários do Media Portal {#specifying-export-options-available-to-media-portal-users}
 
-Se o administrador conceder a eles permissão, os usuários do Portal de mídia poderão reformatar as imagens à medida que as exportarem. Por exemplo, eles podem alterar o tamanho, o formato de arquivo e a qualidade da imagem. A reformatação automática de imagens à medida que são exportadas economiza tempo ao não precisar reformatar imagens separadamente. Além disso, os administradores podem criar uma predefinição — uma seleção preestabelecida das configurações de formato de imagem. Você pode usar uma predefinição ao exportar imagens para reformatá-las de acordo com as especificações da sua empresa.
+Se o administrador conceder permissão, os usuários do Media Portal poderão reformatar imagens à medida que as exportarem. Por exemplo, eles podem alterar o tamanho, o formato de arquivo e a qualidade da imagem. A reformatação automática de imagens conforme são exportadas economiza tempo, não sendo necessário reformatar as imagens separadamente. Além disso, os administradores podem criar uma predefinição — uma seleção preestabelecida de configurações de formato de imagem. Você pode usar uma predefinição ao exportar imagens para reformatá-las de acordo com as especificações da sua empresa.
 
 As duas restrições a seguir se aplicam se você exportar ativos de imagem por meio de uma conversão definida pelo usuário ou se exportar imagens principais originais:
 
-* O arquivo compactado de exportação do Zip tem um tamanho máximo de arquivo de 1 GB para o trabalho de exportação.
-* É possível ter no máximo 500 ativos por trabalho de exportação.
+* O arquivo de exportação Zip compactado tem um tamanho máximo de arquivo de 1 GB para o trabalho de exportação.
+* Você pode ter no máximo 500 ativos totais por trabalho de exportação.
 
-Consulte também [Exportar ativos do Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Consulte também [Exportação de ativos do Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Especificação de opções de exportação disponíveis para usuários do Media Portal**
 
-1. Clique em **Configuração** > **Predefinições de imagem**.
-1. Na janela Predefinições de imagem, selecione uma das seguintes opções:
+1. Clique em **Configurar** > **Predefinições de imagem**.
+1. Na janela Predefinições de imagem, selecione uma das opções a seguir:
 
-   * **Ativar a**
-conversão definida pelo usuárioQuando selecionada, essa opção permite que os usuários escolham outro na lista suspensa Tamanho na janela Exportar ativos selecionados. Os usuários podem escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
+   * **Ativar**
+Conversão Definida pelo Usuário Quando selecionada, essa opção permite que os usuários escolham outra opção na lista suspensa Tamanho, na janela Exportar Ativos Selecionados. Em seguida, os usuários podem escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
 
-      Quando **pixels** forem escolhidos de **Tamanho**
-lista suspensa, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com proporção de tela 2x3. Essa limitação de tamanho não se aplica se você exportar imagens principais originais.
+      Quando **pixels** são escolhidos a partir de **Tamanho**
+na lista suspensa, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com relação de aspecto 2x3. Essa limitação de tamanho não se aplica se você exportar imagens principais originais.
 
-      Desmarque essa opção se desejar que os usuários baixem arquivos sem reformatá-los durante o download.
+      Desmarque essa opção se desejar que os usuários baixem arquivos sem reformatá-los à medida que forem baixados.
 
    * **Ativar Exportar**
-originalPermite exportar imagens principais originais. No painel Exportar ativos selecionados, os usuários podem abrir o menu suspenso Conversão e escolher Exportar original para exportar arquivos originais. Desmarque essa opção se desejar forçar os usuários a escolher uma Predefinição de imagem ou escolher opções de conversão ao exportar imagens.
+Original Permite exportar imagens principais originais. No painel Exportar ativos selecionados , os usuários podem abrir o menu suspenso Conversão e escolher Exportar original para exportar arquivos originais. Desmarque essa opção se desejar forçar os usuários a escolher uma Predefinição de imagem ou escolher opções de conversão ao exportar imagens.
 
 >[!MORELIKETHIS]
 >
