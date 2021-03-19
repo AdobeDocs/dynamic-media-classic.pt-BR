@@ -7,150 +7,152 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
+feature: Dynamic Media Classic,Gerenciamento de ativos
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 1%
+source-wordcount: '1605'
+ht-degree: 0%
 
 ---
 
 
 # Verificando arquivos de trabalho{#checking-job-files}
 
-Para monitorar os uploads de arquivos para o Dynamic Media Classic e os arquivos que você publica nos servidores do Dynamic Media Classic, o Dynamic Media Classic oferta a página Tarefas. Você pode revisar os trabalhos de upload e publicação na página Tarefas, verificar o status dos trabalhos e cancelar os trabalhos de publicação nesta página. Você também pode agendar trabalhos de upload e publicação.
+Para monitorar os uploads de arquivos para o Dynamic Media Classic e os arquivos que você publica nos servidores do Dynamic Media Classic, o Dynamic Media Classic oferece a página Trabalhos . Você pode revisar trabalhos de upload e publicação na página Trabalhos, verificar o status dos trabalhos e cancelar trabalhos de publicação nessa página. Você também pode agendar trabalhos de upload e publicação.
 
-Quando você carrega ativos, um ícone de rotação é exibido ao lado do menu Tarefas, indicando que uma tarefa está em andamento e o número de arquivos em andamento. Você pode clicar no ícone para ver mais informações sobre o trabalho ativo.
+Ao fazer upload de ativos, um ícone giratório é exibido ao lado do menu Trabalhos, indicando que uma tarefa está em andamento e o número de arquivos em andamento. Você pode clicar no ícone para ver mais informações sobre o trabalho ativo.
 
 >[!NOTE]
 >
->Uma lista dos trabalhos publicados recentemente também está disponível na página Atividade recente. Clique em Recente na barra Navegação global para abrir esta página.
+>Uma lista de seus trabalhos publicados recentemente também está disponível na página Atividade recente . Clique em Recente na barra Navegação global para abrir esta página.
 
-## Sobre a página Tarefas {#about-the-jobs-page}
+## Sobre a página Trabalhos {#about-the-jobs-page}
 
-Selecione o botão Tarefas na barra Navegação global para abrir a página Tarefas. Por padrão, os trabalhos são listados começando com os mais recentes.
+Selecione o botão Tarefas na barra Navegação global para abrir a página Tarefas. Por padrão, as tarefas são listadas começando com as mais recentes.
 
-As tarefas são listadas nessas categorias na guia Histórico da página Tarefas:
+As tarefas são listadas nessas categorias na guia Histórico da página Trabalhos :
 
-**Tipo** de trabalhoUm ícone indica o tipo de trabalho: Carregar e publicar são os tipos de trabalho mais comuns.
+**Tipo** de trabalhoUm ícone indica o tipo de trabalho: Fazer upload e publicar são os tipos de trabalho mais comuns.
 
-**Nome** do trabalhoO nome do trabalho. O nome inclui a parte digitada pelo usuário do nome e o carimbo de data e hora.
+**** Nome do trabalhoO nome do trabalho. O nome inclui a parte do nome inserida pelo usuário e o carimbo de data e hora.
 
 **** IniciadoQuando o trabalho começou.
 
 **** TotalO número de arquivos transferidos.
 
-**W (avisos)** O número de avisos na tarefa (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral do trabalho. Normalmente, esses avisos podem ser ignorados porque relatam sobre arquivos ocultos. Por exemplo, arquivos .DS_store (Macintosh) e arquivos Thumbs.db (Windows) contêm informações sobre como exibir arquivos de imagem para usuários. No entanto, as entradas de aviso referentes a esses arquivos podem ser ignoradas, pois não dizem respeito à forma como esses arquivos são usados no Dynamic Media Classic. Você pode clicar com o duplo em um nome de tarefa para obter informações detalhadas sobre avisos.
+**W (avisos)** O número de avisos na tarefa (se houver). Avisos indicam problemas com o trabalho que não afetou a conclusão geral do trabalho. Normalmente, esses avisos podem ser ignorados porque eles relatam sobre arquivos ocultos. Por exemplo, os arquivos .DS_store (Macintosh) e Thumbs.db (Windows) contêm informações sobre como exibir arquivos de imagem para os usuários. As entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas porque não se referem à forma como esses arquivos são usados no Dynamic Media Classic. Você pode clicar duas vezes em um nome de trabalho para obter informações detalhadas sobre avisos.
 
-**E (erros)** Lista o número de erros no trabalho (se houver). Você pode clicar com o duplo no nome de uma tarefa para obter informações detalhadas sobre erros.
+**E (erros)** Lista o número de erros no trabalho (se houver). Você pode clicar duas vezes em um nome de trabalho para obter informações detalhadas sobre erros.
 
 **** DuraçãoQuanto tempo levou para concluir o trabalho.
 
-**** StatusMostra o status do trabalho.
+**** StatusMostra o status da tarefa.
 
-**** DestinoPara trabalhos de upload, o nome da empresa e a pasta para a qual os arquivos foram carregados. Essa categoria não se aplica a trabalhos de publicação.
+**** Destino: para tarefas de upload, o nome da empresa e a pasta na qual os arquivos foram carregados. Esta categoria não se aplica a trabalhos de publicação.
 
-**Submetido** porListas que carregaram os ativos.
+**Enviado** porListas que carregaram os ativos.
 
 ***Observação **: Você pode cancelar trabalhos de publicação e upload em andamento clicando no botão Cancelar ao lado da barra de progresso.*
 
-## Alteração de visualizações na página Tarefas {#changing-views-on-the-jobs-page}
+## Alteração de exibições na página Trabalhos {#changing-views-on-the-jobs-page}
 
-Use essas técnicas para classificar trabalhos ou alterar sua visualização da guia Histórico da página Tarefas:
+Use essas técnicas para classificar tarefas ou alterar a visualização da guia Histórico da página Trabalhos :
 
-**** ClassificaçãoSelecione um nome de coluna para classificar a lista por uma coluna específica. Você pode selecionar o switch ao lado do nome da coluna para classificar em ordem decrescente ou crescente.
+**** ClassificaçãoSelecione um nome de coluna para classificar a lista por uma coluna específica. Você pode selecionar a opção ao lado do nome da coluna para classificar em ordem decrescente ou crescente.
 
-**Intervalo de datasSelecione o menu Intervalo de datas e escolha uma opção para restringir a lista de trabalhos à data atual, à semana anterior ou ao mês anterior.** Escolha Intervalo de datas personalizado para inserir um intervalo de datas específico.
+**** Intervalo de datasSelecione o menu Intervalo de datas e escolha uma opção para restringir a lista de tarefas à data atual, à semana anterior ou ao mês anterior. Escolha Intervalo de datas personalizado para inserir um intervalo de datas específico.
 
-**Tipo** de trabalhoSelecione o menu Tipo de trabalho e escolha Publicar ou Fazer upload para restringir a lista de publicar trabalhos ou fazer upload de trabalhos. Escolha Todos para ver os dois tipos de trabalhos.
+**Tipo** de trabalhoSelecione o menu Tipo de trabalho e escolha Publicar ou Fazer upload para restringir a lista e publicar trabalhos ou fazer upload de trabalhos. Escolha Tudo para ver ambos os tipos de trabalhos.
 
-**** MostrarEscolha Mostrar > Meus trabalhos ou Mostrar > Todos os trabalhos para restringir a lista aos trabalhos que você solicitou ou aos trabalhos que as pessoas em sua empresa solicitaram.
+**** MostrarEscolha Mostrar > Meus trabalhos ou Mostrar > Todos os trabalhos para restringir a lista a tarefas que você solicitou ou tarefas que as pessoas em sua empresa solicitaram.
 
 ## Exibição, cópia e impressão de um relatório de Detalhes do trabalho {#viewing-copying-or-printing-a-job-details-report}
 
-Clique com o duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção. Esta página fornece um relatório de resumo sobre os arquivos no trabalho. Clique em Detalhes da Visualização para ver a Dynamic Media Classic ID de uma entrada, o caminho de destino e as informações de status. Se você carregou um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Dynamic Media Classic, o relatório lista as fontes ausentes.
+Clique duas vezes no nome de um relatório na página Trabalhos para abrir a página Detalhes do trabalho . Esta página fornece um relatório de resumo sobre os arquivos na tarefa. Clique em Exibir detalhes para ver a Dynamic Media Classic ID de uma entrada, o caminho de destino e as informações de status. Se você tiver carregado um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Dynamic Media Classic, o relatório listará as fontes ausentes.
 
-É possível copiar essas informações para a Área de transferência.
+Você pode copiar essas informações para a Área de transferência.
 
-1. Clique com o duplo no nome de um relatório na página Tarefas para abrir a página Detalhes da Ordem de Produção.
-1. Clique em Detalhes da Visualização para obter um relatório detalhado sobre uma entrada.
+1. Clique duas vezes no nome de um relatório na página Trabalhos para abrir a página Detalhes do trabalho .
+1. Clique em Exibir detalhe para obter um relatório detalhado sobre uma entrada.
 1. Clique em Copiar para a área de transferência.
 
-## Manuseando trabalhos recorrentes de upload e publicação {#handling-recurring-upload-and-publish-jobs}
+## Lidar com trabalhos recorrentes de upload e publicação {#handling-recurring-upload-and-publish-jobs}
 
-Os trabalhos recorrentes de upload e publicação criados nas páginas de upload e publicação são listados na guia Agendado da página de Tarefas. É possível editar e excluir trabalhos recorrentes na guia Agendado.
+Os trabalhos recorrentes de upload e publicação criados nas páginas Upload e Publicação são listados na guia Scheduled da página Jobs . É possível editar e excluir tarefas recorrentes na guia Scheduled .
 
-Selecione o botão Tarefas na barra Navegação global e, na página Tarefas, selecione a guia Agendado para editar e excluir trabalhos recorrentes.
+Selecione o botão Trabalhos na barra Navegação global e, na página Trabalhos, selecione a guia Agendado para editar e excluir trabalhos recorrentes.
 
 >[!NOTE]
 >
->Você pode filtrar a lista de trabalho na guia Agendado com os menus Tipo de trabalho e Mostrar. Escolha um Tipo de Trabalho para restringir a lista para publicar trabalhos de um tipo específico. Escolha uma opção Mostrar para exibir trabalhos criados ou criados por todos na sua empresa.
+>Você pode filtrar a lista de tarefas na guia Scheduled com os menus Job Type e Show . Escolha um Tipo de Trabalho para restringir a lista e publicar trabalhos de um tipo específico. Escolha uma opção Mostrar para exibir tarefas criadas ou tarefas criadas por todos na empresa.
 
 ### Editar, excluir, pausar e retomar trabalhos recorrentes {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
-Selecione uma tarefa recorrente na página Tarefas e siga estas instruções para editá-la ou excluí-la:
+Selecione um trabalho recorrente na página Tarefas e siga estas instruções para editá-lo ou excluí-lo:
 
-**Edição de um** trabalho recorrenteSelecione o botão Editar e insira as informações do agendamento na caixa de diálogo Editar trabalho programado. Se desejar que a tarefa ocorra novamente em um intervalo de sua escolha, escolha Repetir > Personalizado.
+**Edição de um** trabalho recorrenteSelecione o botão Editar e insira informações de programação na caixa de diálogo Editar Trabalho Programado. Se desejar que o trabalho ocorra em um intervalo de sua escolha, escolha Repetir > Personalizado.
 
-Consulte [Criação de um carregamento personalizado ou um intervalo de tempo de trabalho de publicação](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Consulte [Criação de um intervalo de tempo de trabalho personalizado de upload ou publicação](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 **Excluindo um** trabalho recorrenteSelecione o botão Excluir.
 
-**Pausando (e retomando) um** trabalho recorrenteNa coluna Ativo, desmarque uma caixa de seleção para pausar um trabalho; marque uma caixa de seleção para retomar um trabalho que foi pausado.
+**Pausando (e retomando) um** trabalho recorrente Na coluna Ativo , desmarque uma caixa de seleção para pausar um trabalho; marque uma caixa de seleção para retomar um trabalho pausado.
 
-### Criando um intervalo de tempo de trabalho personalizado de upload ou publicação {#creating-a-custom-upload-or-publish-job-time-interval}
+### Criação de um intervalo de tempo de trabalho personalizado de upload ou publicação {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Para criar um intervalo de tempo personalizado para um upload (via FTP) ou um trabalho de publicação, escolha Repetir > Personalizado na página Carregar ou Publicar. Em seguida, insira números e curingas na caixa Regra para descrever um intervalo de tempo para que os trabalhos de upload ou publicação sejam repetidos.
+Para criar um intervalo de tempo personalizado para um upload (via FTP) ou um trabalho de publicação, escolha Repetir > Personalizado na página Fazer upload ou Publicar . Em seguida, insira números e curingas na caixa Regra para descrever um intervalo de tempo para que os trabalhos de upload ou publicação sejam repetidos.
 
 A sintaxe para descrever intervalos de tempo de upload e publicação personalizados na caixa Regra é:
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Por exemplo, `0 15 10 * * ?` agende um trabalho às 10:15.00 todos os dias.
+Por exemplo, `0 15 10 * * ?` agende uma tarefa às 10:15.00 todos os dias.
 
-As tabelas a seguir e a lista explicam como descrever um intervalo de tempo na caixa Regra.
+As tabelas e a lista a seguir explicam como descrever um intervalo de tempo na caixa Regra.
 
 Esta tabela mostra os incrementos de tempo, seus valores permitidos e os curingas suportados por eles:
 
-| Incrementos de tempo | Valores permitidos | Comentários | Caracteres curinga suportados |
+| Incrementos de tempo | Valores permitidos | Comentários | Caracteres curinga compatíveis |
 |--- |--- |--- |--- |
-| Segundos | 0-59 |  | , - * / |
-| Minutos | 0-59 |  | , - * / |
+| Seconds | 0-59 |  | , - * / |
+| Minutes | 0-59 |  | , - * / |
 | Horas | 0-23 | Observe o uso de um relógio de 24 horas. | , - * / |
 | Dia do mês | 1-31 | Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um ? caractere curinga. | , - * / ? L C |
-| Mês | 1-12 ou Jan, Fev, Mar, Abr, Maio, Jun, Jul, Ago, Set, Set, Out, Nov, Dez | Os valores distinguem maiúsculas de minúsculas. | , - * / |
-| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Dom | Os valores distinguem maiúsculas de minúsculas. Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um ? caractere curinga. | , - * / ? L C # |
-| Ano (opcional) | Vazio ou 1970-2099 |  | , - * / |
+| Mês | 1-12 ou Jan, Fev, Mar, Abr, maio, junho, julho, agosto, Set, Set, Out, nov, Dez | Os valores diferenciam maiúsculas de minúsculas. | , - * / |
+| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Dom | Os valores diferenciam maiúsculas de minúsculas. Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um ? caractere curinga. | , - * / ? L C # |
+| Ano (opcional) | Empty ou 1970-2099 |  | , - * / |
 
 
 Esta tabela descreve os caracteres curingas permitidos na caixa Regra e como usá-los:
 
-| Caractere curinga | Nome | O que ela descreve |
+| Caractere curinga | Nome | O que ele descreve |
 |--- |--- |--- |
 | * | Asterisco | Todos os valores (por exemplo, &quot;a cada minuto&quot;). |
 | ? | Ponto de interrogação | Nenhum valor específico (por exemplo, &quot;qualquer minuto dentro da hora especificada&quot;). |
-| , | Vírgula | Valores adicionais (por exemplo, &quot;segunda e quarta-feira&quot;). |
+| , | Vírgula | Valores adicionais (por exemplo, &quot;Segunda-feira e quarta-feira&quot;). |
 | - | Hífen | Intervalo de valores (por exemplo, &quot;de segunda a sexta-feira&quot;). |
-| / | Barra para frente | Incrementos (por exemplo, &quot;a cada 15 minutos&quot;). |
-| L | Capital L | Último &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível apenas para esses campos). Por exemplo, se o mês for janeiro, um valor L para o campo &quot;dia do mês&quot; programará a ordem de produção para 31 de janeiro.Para o campo &quot;dia da semana&quot;, você pode informar esse caractere sozinho para agendar a ordem de produção no sábado. Você pode usá-lo com um número (por exemplo, 6L) para especificar a última sexta-feira do mês.Não especifique L com os curingas de vírgula ou hífen. |
-| # | Sinal de número | &quot;Nth&quot; dia da semana do mês (disponível apenas para o campo &quot;dia da semana&quot;).Por exemplo, 6#3 no campo &quot;dia da semana&quot; especifica a terceira sexta-feira do mês. O 6 denota &quot;Sexta-feira&quot; (o sexto dia da semana) e o 3 denota a terceira ocorrência do mês. |
-| C | # Capital C | Primeiro calendário &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível apenas para estes campos). Por exemplo, especificar um valor de 1C para &quot;dia do mês&quot; agendará o primeiro dia do calendário que ocorre no quinto dia ou depois dele.Para o campo &quot;dia da semana&quot;, a especificação de 1C agendará o primeiro dia do calendário que ocorre no domingo ou depois dele |
+| / | Barra | Incrementos (por exemplo, &quot;a cada 15 minutos&quot;). |
+| L | Capital L | Último &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível somente para esses campos). Por exemplo, se o mês for janeiro, um valor L para o campo &quot;dia do mês&quot; programará o job para 31 de janeiro. Para o campo &quot;dia da semana&quot;, você poderá inserir esse caractere sozinho para agendar o job no sábado. Você pode usá-lo com um número (por exemplo, 6L) para especificar a última sexta-feira do mês.Não especifique L com a vírgula ou hífen curingas. |
+| # | Sinal numérico | &quot;Nono&quot; dia da semana do mês (disponível somente para o campo &quot;dia da semana&quot;). Por exemplo, 6#3 no campo &quot;dia da semana&quot; especifica a terceira sexta-feira do mês. O 6 indica &quot;sexta-feira&quot; (o sexto dia da semana) e o 3 indica a terceira ocorrência do mês. |
+| C | # Capital C | Primeiro calendário &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível apenas para estes campos). Por exemplo, especificar um valor de 1C para &quot;dia do mês&quot; agendará o primeiro dia no calendário que ocorrer no quinto dia da semana ou depois dele. Para o campo &quot;dia da semana&quot;, a especificação de 1C agendará o primeiro dia no calendário que ocorrer no domingo ou depois dele |
 
-Esta lista fornece exemplos de descrição de intervalos de tempo na caixa Regra:
+Essa lista fornece exemplos de descrição dos intervalos de tempo na caixa Regra:
 
 * 0 0 12 * * ?: Nove todos os dias
-* 15 10 ? * *: 22:15 todo dia
-* 0 0/5 14 * * ?: A cada 5 minutos entre as 14:00 e 14:55 da tarde todos os dias
-* 0 0/5 14,18 * * * ?: A cada 5 minutos, entre 14:00 e 14:55, todos os dias, e a cada 5 minutos, entre 18:00 e 18:55, todos os dias
-* 10,44 14 ? 3: Que às 14:10 e 14:44 toda quarta-feira em março
-* 15 10 ? *: Seg-Sex às 10h15 todos os dias da semana
-* 0 15 10 20 * ?: Às 10h15 do dia 20 de cada mês
-* 0 15 10 L * ?: Às 10h15 do último dia de cada mês
-* 15 10 ? * 6L: Às 10h15 da última sexta-feira de cada mês
+* 0 15 10 ? * *: 10:15 todos os dias
+* 0 0/5 14 * * ?: A cada 5 minutos entre 2:00 e 2:55 PM todos os dias
+* 0 0/5 14,18 * * * ?: A cada 5 minutos entre 2:00 e 2:55 PM todos os dias e a cada 5 minutos entre 6:00 e 6:55 pm todos os dias
+* 10,44 14 ? 3: Queijo às 14h10 e 14h44 toda quarta-feira em março
+* 0 15 10 ? *: Seg-Sex às 10h15 todos os dias da semana
+* 15 10 20 * ?: Às 10h15 do dia 20 de cada mês
+* 15 10 L * ?: Às 10h15 do último dia de cada mês
+* 0 15 10 ? * 6L: Às 10h15 da última sexta-feira de cada mês
 * 0 15 10 * * 6#3: Às 10h15 da terceira sexta-feira de cada mês
 
-## Usar um trabalho de upload ou publicação como um acionador {#using-an-upload-or-publish-job-as-a-trigger}
+## Usar um trabalho de upload ou publicação como acionador {#using-an-upload-or-publish-job-as-a-trigger}
 
-Ao fazer upload de ativos via FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar assim que o upload for concluído. (Se outras tarefas estiverem programadas para começar nesse momento, a tarefa agendada aqui será colocada em fila atrás delas.) A nova ordem de produção envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Esse trabalho de upload de continuação recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
+Ao fazer upload de ativos via FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar assim que o upload for concluído. (Se outras tarefas estiverem programadas para começar nesse momento, a tarefa agendada aqui estará na fila atrás delas.) A nova tarefa envia uma notificação para o endereço especificado para que o código nesse local possa ser acionado. Esse trabalho de upload de seguimento recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
 
-Para fazer um trabalho de upload ou publicação disparar outro trabalho, selecione Avançado na página Carregar ou Publicar. Em seguida, insira o URL no campo de texto Notificação HTTP.
+Para fazer com que um trabalho de upload ou publicação acione outro trabalho, selecione Avançado na página Upload ou Publish . Em seguida, insira o URL no campo de texto Notificação HTTP .
