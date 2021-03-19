@@ -5,10 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+feature: Dynamic Media Classic,Visualizadores
+role: Profissional
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '694'
 ht-degree: 2%
 
 ---
@@ -16,63 +18,63 @@ ht-degree: 2%
 
 # Vincular um conjunto de amostras a uma página da Web{#linking-a-swatch-set-to-a-web-page}
 
-Depois de publicar um Conjunto de amostras, você pode usar seu URL ou código incorporado em seu site ou aplicativo. Em seguida, você pode implantar o URL ou incorporar o código conforme necessário para que os usuários possam visualização o Conjunto de Amostras em seu site ou aplicativo.
+Depois de publicar um Conjunto de amostras, você pode usar seu URL ou código incorporado em seu site ou aplicativo. Em seguida, é possível implantar o URL ou o código incorporado conforme necessário para que os usuários possam visualizar o Conjunto de amostras no seu site ou aplicativo.
 
 >[!NOTE]
 >
->O URL não estará ativo até que você publique o ativo.
+>O URL não fica ativo até que você publique o ativo.
 
 ## Copiando um URL de conjunto de amostras {#copying-a-swatch-set-url}
 
-1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Conjunto de amostras**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **Conjunto de amostras**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo código incorporado você deseja copiar.
-1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
+1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Visualização de grade**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
+   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
+   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
+   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
 
-   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
+   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
 
-## Adicionar URLs de conjunto de amostras à sua página da Web {#adding-swatch-set-urls-to-your-web-page}
+## Adicionar URLs de conjuntos de amostras à sua página da Web {#adding-swatch-set-urls-to-your-web-page}
 
-A maneira mais comum de implantar Conjuntos de amostras é colocar um link (por meio de um ícone de navegação) na sua página da Web. Quando clicado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de amostras em uma janela de zoom pop-up. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
+A maneira mais comum de implantar Conjuntos de amostras é colocar um link (por meio de um ícone de navegação) na página da Web. Quando clicado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de amostras em uma janela de zoom pop-up. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter detalhes adicionais e amostras de código, consulte [Incorporando o Visualizador de zoom HTML5 no Guia de Referência de Visualizadores de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter detalhes adicionais e exemplos de código, consulte [Incorporando Visualizador de Zoom HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copiando o código incorporado de um visualizador do Conjunto de amostras {#copying-the-embed-code-of-a-swatch-set-viewer}
+## Copiando o código incorporado de um visualizador de Conjunto de amostras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-Usar o recurso Incorporar código permite que você revise o código do visualizador para o Conjunto de amostras selecionado. Você também pode copiar o código para a área de transferência para colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
+Usar o recurso Incorporar código permite que você revise o código do visualizador para o Conjunto de amostras selecionado. Você também pode copiar o código para a área de transferência, de modo que possa colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador do Conjunto de amostras**
+**Para copiar o código incorporado de um visualizador de Conjunto de amostras**
 
-1. No painel Navegação de ativos, na lista suspensa Mostrar, clique em **Conjunto de amostras**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **Conjunto de amostras**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo código incorporado você deseja copiar.
-1. Acima do painel Navegação de ativos, no lado direito da barra de ferramentas, execute um dos procedimentos a seguir:
+1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Visualização de grade**. No painel Navegação de ativos, clique com o duplo em um único ativo para abri-lo na Visualização Detalhe. No painel URLs e Código incorporado à direita, clique em **Código incorporado** à direita do visualizador desejado.
-   * Clique em **Visualização de grade**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
+   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **Código incorporado** à direita do visualizador desejado.
+   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
 
-   * Clique em **Visualização de Lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Pré-visualização** > **Lista do visualizador**.
+   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
 
-   * Clique em **Visualização de grade**, **Visualização de Lista** ou **Visualização de detalhes**. Na mesma barra de ferramentas, clique em **Pré-visualização** > **Lista do visualizador**.
+   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
 
-      Na página Lista do visualizador, na coluna Ações da tabela, clique em **Código incorporado**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
 
-1. Na caixa de diálogo Incorporar código, clique em **Copiar para a área de transferência**.
+1. Na caixa de diálogo Incorporar código , clique em **Copiar para a área de transferência**.
 
-   A edição do código não é permitida na caixa de diálogo Incorporar código.
+   A edição do código não é permitida na caixa de diálogo Incorporar código .
 
 1. Clique em **Fechar**.
 
