@@ -1,5 +1,5 @@
 ---
-title: Teste de ativos antes de torná-los públicos
+title: Testar ativos antes de torná-los públicos
 description: Saiba como testar ativos antes de torná-los públicos.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
+feature: Dynamic Media Classic,Gerenciamento de ativos
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -18,35 +20,35 @@ ht-degree: 0%
 
 # Testar ativos antes de torná-los públicos {#testing-assets-before-making-them-public}
 
-O teste seguro ajuda a definir um ambiente de teste seguro e a criar uma solução B2B robusta, com base em um conjunto configurável de endereços IP e intervalos. Essa funcionalidade permite que você corresponda as implantações do Dynamic Media Classic à arquitetura da sua plataforma de gestão de conteúdo e comércio.
+O Teste Seguro ajuda você a definir um ambiente de teste seguro e criar uma solução B2B robusta, com base em um conjunto configurável de endereços IP e intervalos. Essa funcionalidade permite que você corresponda suas implantações do Dynamic Media Classic à arquitetura da sua plataforma de comércio e gerenciamento de conteúdo.
 
-Com o Secure Testing, você pode pré-visualização a versão de preparo do site com conteúdo não publicado.
+Com o Teste Seguro, você pode visualizar a versão de preparo do site com conteúdo não publicado.
 
-Você pode preferir criar um ambiente de preparo em vez de tornar os ativos disponíveis ao público pelos seguintes motivos:
+Você pode preferir criar um ambiente de preparo em vez de tornar os ativos disponíveis publicamente pelos seguintes motivos:
 
-* Pré-visualização de sites antes do lançamento público (site de preparo).
-* Servir ativos que exigem acesso restrito, como eCatalogs que mostram preços em um aplicativo Web B2B.
-* Use ativos por trás de um firewall como parte do sistema de gerenciamento de informações sobre produtos, do aplicativo de atendimento ao cliente, do site de treinamento e assim por diante.
+* Visualizar sites antes do lançamento público (site de preparo).
+* Adicione ativos que exigem acesso restrito, como eCatalogs que mostrem preços em uma aplicação Web B2B.
+* Use os ativos por trás de um firewall como parte do sistema de gerenciamento de informações do produto, do aplicativo de atendimento ao cliente, do site de treinamento e assim por diante.
 
 >[!NOTE]
 >
->O teste seguro não afeta o acesso ao Dynamic Media Classic. A segurança do Dynamic Media Classic permanece consistente e requer as credenciais comuns para acesso ao Dynamic Media Classic e aos serviços da Web relacionados.
+>O Teste Seguro não afeta o acesso ao Dynamic Media Classic. A segurança do Dynamic Media Classic permanece consistente e requer as credenciais usuais para acessar o Dynamic Media Classic e serviços da Web relacionados.
 
 ## Como o teste seguro funciona {#how-secure-testing-works}
 
-A maioria das corporações administra a Internet por trás de um firewall. O acesso à Internet é possível por meio de determinadas rotas e, normalmente, por meio de uma faixa limitada de endereços IP públicos.
+A maioria das corporações mantém a Internet por trás de um firewall. O acesso à Internet é possível através de determinadas rotas e geralmente através de uma gama limitada de endereços IP públicos.
 
-Na sua rede corporativa, você pode descobrir seu endereço IP público usando sites como https://whatismyip.com ou solicitar essas informações à sua organização de TI corporativa.
+Em sua rede corporativa, você pode descobrir seu endereço IP público usando sites como https://whatismyip.com ou solicitar essas informações de sua organização corporativa de TI.
 
-Com o teste seguro, o Dynamic Media Classic estabelece um servidor de imagem dedicado para ambientes de preparo ou aplicativos internos. Qualquer solicitação para este servidor verifica o endereço IP da origem. Se a solicitação recebida não estiver dentro da lista aprovada de endereços IP, uma resposta de falha será retornada. O administrador da Empresa Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de teste seguro da empresa.
+Com o Teste Seguro, o Dynamic Media Classic estabelece um Servidor de Imagem dedicado para ambientes de preparo temporário ou aplicativos internos. Qualquer solicitação para este servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa do Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de Teste Seguro da empresa.
 
-Como o local da solicitação original deve ser confirmado, o tráfego do serviço de Teste seguro não é roteado por meio de uma rede de distribuição de conteúdo, como o tráfego público do Dynamic Media Image Server. As solicitações ao serviço de teste seguro podem ter uma latência ligeiramente maior em comparação aos servidores de imagem Dynamic Media públicos.
+Como a localização da solicitação original deve ser confirmada, o tráfego do serviço de Teste Seguro não é roteado por meio de uma rede de distribuição de conteúdo como o tráfego público do Dynamic Media Image Server. As solicitações para o serviço de teste seguro podem ter uma latência ligeiramente maior em comparação com os servidores de imagem Dynamic Media públicos.
 
-Os ativos não publicados estão imediatamente disponíveis nos serviços de teste seguro, sem a necessidade de publicação. Isso permite que você execute uma pré-visualização antes que os ativos sejam publicados em seu servidor de imagens voltado para o público.
+Os ativos não publicados ficam imediatamente disponíveis nos serviços de Teste Seguro, sem a necessidade de publicar. Isso permite que você execute uma pré-visualização antes que os ativos sejam publicados em seu servidor de imagens voltado para o público.
 
-***observação **: Os serviços de Testes seguros aproveitam o servidor de catálogo configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar em Testes seguros, esteja ciente de que todos os ativos carregados no Dynamic Media Classic imediatamente se tornam disponíveis nos serviços de Testes seguros. Essa funcionalidade é verdadeira independentemente de os ativos estarem ou não marcados para publicação no upload.*
+***observação **: Os serviços de Teste Seguro usam o Servidor de Catálogo que está configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste Seguro, esteja ciente de que todos os ativos carregados no Dynamic Media Classic imediatamente se tornam disponíveis nos serviços de Teste Seguro. Essa funcionalidade é verdadeira independentemente de os ativos estarem ou não marcados para publicação no upload.*
 
-Atualmente, os serviços de Testes seguros oferecem suporte aos seguintes tipos de ativos e funcionalidades:
+Os serviços de Teste Seguro atualmente oferecem suporte aos seguintes tipos de ativos e funcionalidades:
 
 <!-- 
 
@@ -59,30 +61,30 @@ Last Modified Date:
  -->
 
 * Imagens.
-* Vinhetas (solicitações do Servidor de renderização).
-* Solicitações do Servidor de renderização (suportadas, mas devem ser solicitadas explicitamente pelo cliente).
+* Vinhetas (Solicitações do Servidor de Renderização).
+* Solicitações do Servidor de Renderização (suportadas, mas devem ser solicitadas explicitamente pelo cliente).
 * Conjuntos, incluindo conjuntos de imagens, eCatalog, conjuntos de renderização e conjuntos de mídia.
-* Visualizadores de mídia avançada padrão Dynamic Media Classic.
-* Páginas JSP Dynamic Media Classic OnDemand.
-* Conteúdo estático, como arquivos PDF e vídeos progressivamente servidos.
-* Streaming de vídeo HTTP.
-* Streaming progressivo de vídeo.
+* Visualizadores de mídia avançada padrão do Dynamic Media Classic.
+* Páginas JSP OnDemand do Dynamic Media Classic.
+* Conteúdo estático, como arquivos PDF e vídeos fornecidos progressivamente.
+* streaming de vídeo HTTP.
+* Transmissão contínua de vídeo.
 
-Os seguintes tipos de ativos e funcionalidades não são suportados atualmente:
+Os seguintes tipos de ativos e funcionalidades não são suportados no momento:
 
-* Streaming de vídeo RTMP
+* Transmissão de vídeo RTMP
 * Serviços UGC
 * Web-to-print
-* Pesquisa do Dynamic Media Classic Info ou eCatalog
+* Pesquisa de informações ou catálogo eletrônico do Dynamic Media Classic
 
 ## Testando o serviço de Teste Seguro {#testing-the-secure-testing-service}
 
-Você deve testar o serviço de teste seguro para garantir que ele funcione como esperado.
+Você deve testar o serviço de Teste Seguro para garantir que ele funcione conforme o esperado.
 
-Observação: Se você não mencionar nenhum IP em Configuração > Instalação de publicação > Servidor de imagem > Serviço de imagem de teste
-se você adicionar um IP, somente esse IP poderá chamar os ativos e nenhum outro IP poderá fazer as chamadas. Enquanto não houver IP mencionado nessa seção, todos os IPs poderão fazer chamadas para os ativos, e eles aparecerão.
+Observação: Se você não mencionar nenhum IP em Configurar > Configuração de publicação > Servidor de imagem > Serviço de imagem de teste
+se você adicionar um IP, somente esse IP poderá chamar os ativos e nenhum outro IP poderá fazer as chamadas. Desde que não haja um IP mencionado nessa seção, todos os IPs têm permissão para fazer as chamadas para os ativos e eles serão exibidos.
 
-**Preparar sua conta**
+**Prepare sua conta**
 
 <!-- 
 
@@ -94,53 +96,53 @@ Last Modified Date:
 
  -->
 
-1. Entre em contato com o suporte técnico e solicite que o Secure Testing seja ativado em sua conta.
-1. No Dynamic Media Classic, clique em **Configuração** > **Configurar Publicação** > **Servidor de Imagens**.
-1. Na página Publicação do Servidor de Imagens, na lista suspensa Contexto de Publicação, selecione **Servidor de Imagens de Teste**.
+1. Entre em contato com o Suporte Técnico e solicite que o Teste Seguro seja ativado em sua conta.
+1. No Dynamic Media Classic, clique em **Configurar** > **Publicar configuração** > **Servidor de imagem**.
+1. Na página Publicação do servidor de imagens, na lista suspensa Publicar contexto , selecione **Servir imagem de teste**.
 1. Para o Filtro de endereço do cliente, clique em **Adicionar**.
 1. Marque a caixa de seleção para ativar (ativar) o endereço e digite um endereço IP e uma máscara de rede nos respectivos campos de texto.
 
    >[!NOTE]
    >
-   >Se você adicionar um único endereço IP e uma única máscara de rede, esse endereço poderá fazer chamadas de ativos. No entanto, quaisquer outros endereços IP e máscaras de rede que você adicionar não têm permissão para fazer chamadas de ativos. Dessa forma, talvez você queira desabilitar (desabilitar) a caixa de seleção na etapa acima para desabilitar a capacidade de especificar um endereço IP e uma máscara de rede. Isso permite que *todos* os endereços IP façam chamadas de ativos e todos serão exibidos.
+   >Se você adicionar um único endereço IP e máscara de rede, esse endereço poderá fazer chamadas de ativos. No entanto, quaisquer outros endereços IP e máscaras de rede adicionados não têm permissão para fazer chamadas de ativos. Dessa forma, talvez você queira desabilitar (desabilitar) a caixa de seleção na etapa acima para desabilitar a capacidade de especificar um endereço IP e uma máscara de rede. Isso permite que *todos* endereços IP façam chamadas de ativos e todos serão exibidos.
 
-1. Execute um dos procedimentos a seguir:
+1. Siga um destes procedimentos:
    * Repita as duas etapas anteriores para adicionar mais endereços IP.
-   * Continue com a próxima etapa.
-1. Na parte inferior esquerda da página de Publicação do Servidor de Imagens, clique em **Salvar**
-1. Carregue as imagens desejadas para sua conta do Dynamic Media Classic.
+   * Prossiga para a próxima etapa.
+1. Na parte inferior esquerda da página Publicação do servidor de imagens, clique em **Salvar**
+1. Faça upload das imagens desejadas para sua conta do Dynamic Media Classic.
 
-   Consulte [Carregando arquivos](uploading-files.md#uploading_files).
+   Consulte [Upload de arquivos](uploading-files.md#uploading_files).
 
-1. Verifique se algumas imagens estão marcadas para publicação, outras não estão marcadas e envie o trabalho de publicação.
+1. Certifique-se de que algumas imagens estejam marcadas para publicação e outras não estejam marcadas e envie o trabalho de publicação.
 
    Consulte [Publicação](publishing-files.md#publishing_files).
 
-1. Determine o nome do serviço de Testes Seguros clicando em **Configuração** > **Configuração de Aplicações** > **Definições Gerais**.
-1. Na página Configurações gerais do aplicativo, no grupo Servidores, localize o nome à direita de **Testar nome do servidor de contexto de publicação**.
+1. Determine o nome do seu serviço de Teste Seguro clicando em **Configurar** > **Configuração do Aplicativo** > **Configurações Gerais**.
+1. Na página Configurações gerais do aplicativo , no grupo Servidores , localize o nome à direita de **Testar nome do servidor de contexto de publicação**.
 
 Entre em contato com o Adobe Care se o nome do servidor estiver ausente ou se os URLs do servidor não funcionarem.
 
 **Preparar variações do site**
 
-Você precisa de duas variações de um site que vinculam os ativos publicados e não publicados:
+Você precisa de duas variações de um site que vincula os ativos publicados e não publicados:
 
-* Versão pública - Vincule ativos usando a sintaxe tradicional de URL do Dynamic Media Classic.
-* Versão de armazenamento temporário - vincule ativos usando a mesma sintaxe, mas com o nome do site de Teste seguro.
+* Versão pública - Vincule ativos usando a sintaxe de URL tradicional do Dynamic Media Classic.
+* Versão de armazenamento temporário - Vincule ativos usando a mesma sintaxe, mas com o nome do site Teste seguro .
 
 **Executar os testes**
 
 Execute os seguintes testes:
 
-1. Verifique se os ativos estão visíveis na sua rede corporativa.
+1. Verifique se os ativos estão visíveis na rede corporativa.
 
-   Na rede corporativa identificada pelo intervalo de endereços IP definido anteriormente, a versão de preparo do site deve exibir todas as imagens, sejam elas marcadas para publicação ou não. Isso permite testar sem disponibilizar acidentalmente imagens antes da aprovação da pré-visualização ou da inicialização do produto.
+   A partir da rede corporativa identificada pelo intervalo de endereços IP definido anteriormente, a versão de preparo do site deve exibir todas as imagens, independentemente de estar marcada para publicação ou não. Isso permite testar sem disponibilizar acidentalmente as imagens antes de visualizar a aprovação ou o lançamento do produto.
 
-   Confirme se a versão pública do seu site mostra ativos publicados como anteriormente eram experientes com o Dynamic Media Classic.
+   Confirme se a versão pública do seu site mostra os ativos publicados como anteriormente tinham experiência com o Dynamic Media Classic.
 
-1. De fora da sua rede corporativa, verifique se os ativos não publicados (ou seja, não marcados para publicação) estão protegidos do acesso de terceiros.
+1. De fora da rede corporativa, verifique se os ativos não publicados (ou seja, não marcados para publicação) estão protegidos do acesso de terceiros.
 
-   Acesse sua rede de fora (como, de seu computador doméstico ou de uma conexão 3G) e verifique se a versão pública do site mostra todos os ativos publicados, mas nenhum conteúdo não publicado.
+   Acesse sua rede de fora (por exemplo, de seu computador pessoal ou por uma conexão 3G) e verifique se a versão pública do site mostra todos os ativos publicados, mas nenhum conteúdo não publicado.
 
-   Confirme se a versão de armazenamento temporário não mostra nenhum ativo porque você está acessando o serviço de teste seguro de um endereço IP não aprovado.
+   Confirme se a versão de armazenamento temporário não mostra nenhum ativo porque você está acessando o serviço de Teste Seguro a partir de um endereço IP não aprovado.
 
