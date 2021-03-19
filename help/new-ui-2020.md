@@ -1,13 +1,15 @@
 ---
-title: Aplicativo Adobe Dynamic Media Classic Desktop
-description: Os usuários do Dynamic Media Classic agora podem experimentar uma atualização completa da interface do usuário. A experiência fornece um logon atualizado com links para recursos valiosos, além disso, essa atualização não depende mais da tecnologia de Flash do Adobe no navegador.
+title: Aplicativo de desktop Adobe Dynamic Media Classic
+description: Os usuários do Dynamic Media Classic agora podem experimentar uma atualização completa da interface do usuário. A experiência oferece um logon atualizado com links para recursos valiosos, além disso, essa atualização não depende mais da tecnologia de Flash do Adobe no navegador.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administrador,Profissional
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -15,94 +17,94 @@ ht-degree: 0%
 
 # Aplicativo Adobe Dynamic Media Classic Desktop - Agora disponível {#new-ui-2020}
 
-Consulte [Aplicativo Adobe Dynamic Media Classic para desktop](/help/dynamic-media-classic-desktop-app.md) para consultar os requisitos do sistema, baixar e instalar o novo aplicativo e faça logon nele.
+Consulte [Adobe Dynamic Media Classic desktop app](/help/dynamic-media-classic-desktop-app.md) para analisar os requisitos do sistema, baixar e instalar o novo aplicativo e, em seguida, faça logon nele.
 
 ## _Última atualização em 30 de junho de 2020_
 
-Os usuários clássicos da Dynamic Media agora têm acesso a uma nova experiência de logon que não depende mais da tecnologia de Flash do Adobe no navegador. Leia as seguintes Perguntas frequentes para saber mais.
+Os usuários clássicos da Dynamic Media agora têm acesso a uma nova experiência de logon que não depende mais da tecnologia de Flash no navegador. Leia as seguintes Perguntas frequentes para saber mais.
 
-### **_Quando os navegadores pararem de suportar o Flash Adobe em 31 de dezembro de 2020, haverá algum impacto no Dynamic Media Classic (antigo Scene7)?_**
+### **_Quando os navegadores pararem de oferecer suporte ao Flash do Adobe em 31 de dezembro de 2020, haverá algum impacto no Dynamic Media Classic (antigo Scene7)?_**
 
-O Adobe Flash Player era um plug-in de navegador da Web que permitia que os navegadores da Web usassem conteúdo desenvolvido na plataforma do Flash Adobe. A interface de usuário da Web do Dynamic Media Classic (atualmente denominada [!DNL Scene7 Publishing System] ou [!DNL SPS] no produto) exigia o Flash Player Adobe. Quando o Flash Adobe for substituído em 31 de dezembro de 2020, os clientes do Dynamic Media Classic não poderão mais fazer logon na interface do usuário da Web. Por isso, o Adobe forneceu aos clientes um aplicativo de desktop que substitui a experiência do navegador.
+O Adobe Flash Player era um plug-in de navegador da Web que permitia que os navegadores usassem o conteúdo desenvolvido na plataforma Adobe Flash. A interface do usuário da Web do Dynamic Media Classic (atualmente rotulada como [!DNL Scene7 Publishing System] ou [!DNL SPS] no produto) exigia o Flash Player Adobe. Quando o Flash do Adobe for descontinuado em 31 de dezembro de 2020, os clientes do Dynamic Media Classic não poderão mais fazer logon na interface do usuário da Web. Por causa disso, o Adobe forneceu aos clientes um aplicativo de desktop que substitui a experiência do navegador.
 
 ### **_Como faço para acessar o novo aplicativo de desktop?_**
 
 O novo aplicativo de desktop está disponível como um instalador `.dmg` para macOS ou como um instalador `.exe` para Windows.
 
-Consulte [Aplicativo Adobe Dynamic Media Classic para desktop](/help/dynamic-media-classic-desktop-app.md) para consultar os requisitos do sistema, baixar e instalar o novo aplicativo e faça logon nele.
+Consulte [Adobe Dynamic Media Classic desktop app](/help/dynamic-media-classic-desktop-app.md) para analisar os requisitos do sistema, baixar e instalar o novo aplicativo e, em seguida, faça logon nele.
 
-Os links de download também serão compartilhados por meio da [página de subscrição do boletim informativo do Dynamic Media Classic.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
+Os links de download também serão compartilhados por meio da página [Dynamic Media Classic newsletter subscription.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
 
 ### **_Como funciona o novo aplicativo de desktop?_**
 
-Depois de baixar, instalar e iniciar o aplicativo de desktop, você receberá uma experiência de logon atualizada. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base na sua região, você será conectado ao Dynamic Media Classic. Você observará que a experiência geral é a mesma da versão familiar do navegador da Web à qual você está acostumado. No aplicativo de desktop, você pode acessar os ambientes Dynamic Media Classic Production e Staging. Você também pode acessar o Portal de mídia se tiver uma credencial para esse recurso.
+Depois de baixar, instalar e iniciar o aplicativo de desktop, você terá uma experiência de logon atualizada. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você será conectado no Dynamic Media Classic. Você observará que a experiência geral é a mesma que a versão familiar do navegador da Web para a qual você está acostumado. No aplicativo de desktop, você pode acessar os ambientes de produção e preparo do Dynamic Media Classic. Você também pode acessar o Media Portal se tiver credenciais para esse recurso.
 
 >[!IMPORTANT]
 >
->Apenas uma instância do aplicativo desktop pode ser instalada *e* ativa de cada vez em um determinado computador. No entanto, não há nenhuma restrição no número de instalações que você pode ter nos computadores.
+>Somente uma instância do aplicativo de desktop pode ser instalada *e* ativa de cada vez em um determinado computador. No entanto, não há restrição no número de instalações que você pode ter entre computadores.
 
-### **_E se eu estiver usando as APIs do Dynamic Media Classic para acessar o produto e não fizer logon pela interface de usuário da Web?_**
+### **_E se eu estiver usando as APIs do Dynamic Media Classic para acessar o produto e não fizer logon por meio da interface do usuário da Web?_**
 
 Não há alterações nas APIs subjacentes do Dynamic Media Classic.
 
-### **_Esta nova experiência com aplicativos de desktop requer migrações ou alterações para integrações de terceiros?_**
+### **_Essa nova experiência com o aplicativo de desktop requer migrações ou alterações em integrações de terceiros?_**
 
 Não. Os clientes do Dynamic Media Classic não precisam migrar ou alterar integrações de terceiros para usar o novo aplicativo de desktop.
 
 ### **_Essa alteração afeta meus scripts de automação?_**
 
-Não. Não há impacto nos scripts de automação. O novo aplicativo de desktop age e se comporta de uma maneira semelhante à experiência baseada no navegador com a qual você já está familiarizado.
+Não. Não há impacto para scripts de automação. O novo aplicativo de desktop age e se comporta de maneira semelhante à experiência baseada em navegador que você já conhece.
 
-### **_O novo aplicativo Dynamic Media Classic para desktop funcionará em Macs e computadores pessoais?_**
+### **_O novo aplicativo de desktop Dynamic Media Classic funcionará em Macs e computadores pessoais?_**
 
-Sim. O novo aplicativo para desktop é uma solução entre plataformas e funciona em Macs e PCs. O Linux *não* é suportado.
+Sim. O novo aplicativo de desktop é uma solução entre plataformas e funciona em Macs e PCs. O Linux é *não* suportado.
 
-### **_Minha empresa tem rígidos requisitos de segurança. Como o novo aplicativo Dynamic Media Classic para desktop atende a esses requisitos?_**
+### **_Minha empresa tem requisitos de segurança rigorosos. Como o novo aplicativo de desktop Dynamic Media Classic atende a esses requisitos?_**
 
-A Adobe está comprometida em garantir que nossos produtos atendam aos requisitos de segurança de seus clientes. O novo aplicativo Dynamic Media Classic para desktop continuará fornecendo aos clientes uma experiência altamente segura, que está em conformidade com todos os padrões de segurança do Adobe.
+O Adobe tem o compromisso de garantir que nossos produtos atendam aos requisitos de segurança de seus clientes. O novo aplicativo de desktop Dynamic Media Classic continuará a fornecer aos clientes uma experiência altamente segura que esteja em conformidade com todos os padrões de segurança do Adobe.
 
-### **_Minha empresa não permite instalar softwares e aplicativos em nossos computadores. Como é recomendável obter acesso ao novo aplicativo de desktop?_**
+### **_Minha empresa não nos permite instalar softwares e aplicativos em nossos computadores. Como você recomenda obter acesso ao novo aplicativo de desktop?_**
 
-Se a sua empresa não permitir que você baixe e instale software e aplicativos no seu sistema sem aprovação, trabalhe com as equipes de TI antes de obter permissão para acessar o novo aplicativo Dynamic Media Classic para desktop. Lembre-se de que após 31 de dezembro de 2020 a versão do navegador será substituída. É importante evitar esperar até o último minuto para baixar o novo aplicativo de desktop.
+Se a empresa não permitir que você baixe e instale softwares e aplicativos em seu sistema sem aprovação, trabalhe com as equipes de TI antecipadamente para obter permissão para acessar o novo aplicativo de desktop Dynamic Media Classic. Lembre-se de que, após 31 de dezembro de 2020, a versão do navegador será substituída. É importante evitar esperar até o último minuto para baixar o novo aplicativo de desktop.
 
 ### **_É possível abrir várias instâncias do novo aplicativo de desktop ao mesmo tempo?_**
 
-Não, a tecnologia AIR na qual o novo aplicativo Dynamic Media Classic para desktop é criado impede que um usuário tenha várias instâncias do aplicativo abertas em um determinado momento.
+Não, a tecnologia AIR na qual o novo aplicativo de desktop Dynamic Media Classic é criado impede que o usuário tenha várias instâncias do aplicativo abertas em um determinado momento.
 
-### **_Há alguma restrição no número de arquivos que podem ser carregados no Dynamic Media Classic por meio de um computador local?_**
+### **_Existem restrições no número de arquivos que podem ser enviados para o Dynamic Media Classic por meio de um computador local?_**
 
-Ao usar o novo aplicativo Dynamic Media Classic para desktop no Windows, você pode carregar no máximo 150 arquivos por vez usando a caixa de diálogo **[!UICONTROL Upload]**. Esta limitação será tratada antes do final de 2020. Há *no* restrições de upload na plataforma macOS.
+Ao usar o novo aplicativo de desktop Dynamic Media Classic no Windows, é possível fazer upload de no máximo 150 arquivos de cada vez usando a caixa de diálogo **[!UICONTROL Upload]**. Esta limitação será abordada antes do final de 2020. Há *restrições de upload no* na plataforma macOS.
 
-### **_O novo aplicativo Dynamic Media Classic para desktop requer um novo SKU? Há algum custo de licença envolvido?_**
+### **_O novo aplicativo de desktop Dynamic Media Classic requer um novo SKU? Há um custo de licença envolvido?_**
 
 Nenhuma alteração de SKU ou licença é necessária para usar o novo aplicativo de desktop Dynamic Media Classic.
 
-### **_Como as atualizações do aplicativo Dynamic Media Classic para desktop estão habilitadas?_**
+### **_Como as atualizações para o aplicativo de desktop Dynamic Media Classic estão habilitadas?_**
 
-Após o lançamento do aplicativo Adobe Dynamic Media Classic para desktop em 30 de junho de 2020, se o Adobe lançar uma nova versão, os clientes precisarão baixar a nova versão e instalar como de costume (substitua o aplicativo existente em **[!UICONTROL Applications]**). Os clientes serão notificados da nova versão por meio da newsletter da Dynamic Media ou de seus CSMs. O Adobe também está trabalhando em um mecanismo de notificação de atualização no aplicativo que notificará os usuários de uma atualização.
+Após o lançamento do aplicativo de desktop Adobe Dynamic Media Classic em 30 de junho de 2020, se o Adobe lançar uma nova versão, os clientes deverão baixar a nova versão e instalar como de costume (substitua o aplicativo existente em **[!UICONTROL Applications]**). Os clientes serão notificados sobre a nova versão por meio do boletim informativo Dynamic Media ou de seus CSMs. O Adobe também está trabalhando em um mecanismo de notificação de atualização no aplicativo que notificará os usuários sobre uma atualização.
 
-### **_Como obtenho ajuda para quaisquer problemas que eu tenha com o aplicativo Dynamic Media Classic para desktop?_**
+### **_Como obter ajuda para todos os problemas que tenho com o aplicativo de desktop Dynamic Media Classic?_**
 
-Entre em contato com o suporte ao Adobe para saber quais são os problemas que você tem ao usar o aplicativo.
+Entre em contato com o Suporte do Adobe para verificar se há problemas ao usar o aplicativo.
 
 ### **_Quero ter certeza de que estou otimizando minha estratégia de mídia avançada. Como posso aprender ainda mais sobre o Dynamic Media Classic?_**
 
-O Dynamic Media Classic é uma solução poderosa e repleta de recursos, projetada para aprimorar suas estratégias de mídias avançadas. Para garantir que você aproveite todos os recursos, explore os seguintes recursos práticos:
+O Dynamic Media Classic é uma solução poderosa e repleta de recursos, projetada para aprimorar suas estratégias de mídia avançada. Para garantir que você aproveite todos os recursos, explore os seguintes recursos práticos:
 
-* [Tutorial sobre as práticas recomendadas da Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial de práticas recomendadas do Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Publicações no blog do Dynamic Media](https://theblog.adobe.com/tag/dynamic-media/)
-* [Arquivos de newsletters da Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Arquivos de informativo do Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-Além disso, [assine o boletim informativo da Dynamic Media](https://www.adobe.com/subscription/dynamic-media-newsletter.html) para manter-se atualizado com as últimas notícias, informações, oportunidades de treinamento, recursos avançados disponíveis para você, como [Imagens inteligentes](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) e o programa de auditoria complementar.
+Além disso, [assine o informativo do Dynamic Media](https://www.adobe.com/subscription/dynamic-media-newsletter.html) para manter-se atualizado com as últimas notícias, informações, oportunidades de treinamento, recursos avançados disponíveis para você, como [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), e o programa de auditoria complementar.
 
-### **_Estou interessado em saber mais sobre como atualizar para o Dynamic Media com a AEM Assets. Onde posso encontrar mais informações?_**
+### **_Estou interessado em saber mais sobre como atualizar para o Dynamic Media com AEM Assets. Onde posso encontrar mais informações?_**
 
-Para saber mais sobre os benefícios da atualização para a próxima geração de criação, publicação e delivery dinâmico de mídia avançada, visite o [portal de atualização da Dynamic Media](http://exploreadobe.com/dynamic-media-upgrade/).
+Para saber mais sobre os benefícios da atualização para a próxima geração de criação, publicação e entrega dinâmica de mídia avançada, visite o [portal de atualização do Dynamic Media](http://exploreadobe.com/dynamic-media-upgrade/).
 
 >[!MORELIKETHIS]
 >
->* [Fazer logon e sair do aplicativo Dynamic Media Classic para desktop](/help/signing-out.md)
->* [Download e instalação do aplicativo Dynamic Media Classic para desktop](/help/dynamic-media-classic-desktop-app.md)
+>* [Fazer logon no aplicativo de desktop do Dynamic Media Classic e sair dele](/help/signing-out.md)
+>* [Download e instalação do aplicativo de desktop do Dynamic Media Classic](/help/dynamic-media-classic-desktop-app.md)
 
 
 
