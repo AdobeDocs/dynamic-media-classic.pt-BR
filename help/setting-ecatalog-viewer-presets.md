@@ -1,66 +1,68 @@
 ---
-title: Configuração das predefinições do eCatalog Viewer
-description: Saiba como configurar as predefinições do visualizador do eCatalog.
+title: Configuração das predefinições do visualizador de catálogo eletrônico
+description: Saiba como configurar as Predefinições do visualizador de catálogo eletrônico.
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
+feature: Dynamic Media Classic,Visualizadores,Predefinições do visualizador,Catálogo eletrônico
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 
-# Configuração das predefinições do visualizador do eCatalog{#setting-up-ecatalog-viewer-presets}
+# Configuração das predefinições do visualizador de catálogo eletrônico{#setting-up-ecatalog-viewer-presets}
 
-As predefinições do visualizador do eCatalog determinam o estilo, o comportamento e a aparência dos visualizadores do eCatalog. O Dynamic Media Classic fornece predefinições do visualizador de eCatalog e você pode criar suas próprias predefinições do visualizador de eCatalog, bem como se você for um administrador.
+As Predefinições do visualizador de catálogo eletrônico determinam o estilo, o comportamento e a aparência dos visualizadores de catálogo eletrônico. O Dynamic Media Classic fornece predefinições do visualizador de catálogo eletrônico e você também pode criar suas próprias predefinições do visualizador de catálogo eletrônico, se você for um administrador.
 
-Para criar uma nova predefinição, você pode start do zero ou start com uma predefinição do visualizador do eCatalog fornecida pelo Dynamic Media Classic e salvá-la com um novo nome. Você pode criar suas próprias predefinições do visualizador do eCatalog para apresentar o material impresso nas cores da empresa e definir o tom.
+Para criar uma nova predefinição, você pode começar do zero ou começar com uma predefinição do visualizador de catálogo eletrônico fornecida pelo Dynamic Media Classic e salvá-la com um novo nome. Você pode criar suas próprias Predefinições do visualizador de eCatalog para apresentar o material impresso nas cores de sua empresa e definir o tom.
 
-O eCatalog Viewer Presets oferta muitas configurações para ir de página em página, aumentar o zoom, pesquisar e escolher &quot;capas&quot;. A aparência desses controles e a aparência do próprio visualizador dependem da sua escolha de Predefinições do visualizador do eCatalog.
+As Predefinições do visualizador de catálogo eletrônico oferecem muitas configurações para ir de página em página, ampliação, pesquisa e escolher &quot;capas&quot;. A aparência desses controles e a aparência do próprio Visualizador dependem da escolha das Predefinições do visualizador de catálogo eletrônico.
 
-Siga estas etapas para criar uma predefinição do visualizador do eCatalog (você deve ser um administrador):
+Siga estas etapas para criar uma predefinição do visualizador do catálogo eletrônico (você deve ser um administrador):
 
-1. Clique em **Configuração** > **Predefinições do visualizador**.
-1. Na tela Predefinições do visualizador, crie uma predefinição do visualizador do eCatalog iniciando novamente ou iniciando a partir de uma predefinição existente do visualizador do eCatalog:
+1. Clique em **Configurar** > **Predefinições do visualizador**.
+1. Na tela Predefinições do visualizador, crie uma Predefinição do visualizador de catálogo eletrônico iniciando de novo ou iniciando em uma Predefinição do visualizador de catálogo eletrônico existente:
 
-   * **Criação de um visualizador de eCatalog**
-PresetClique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha o eCatalog Viewer e clique em 
+   * **Criando um Visualizador de Catálogo Eletrônico**
+Predefinido Clique em Adicionar. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador do catálogo eletrônico e clique em 
 **Adicionar**.
 
    * **Editando uma**
-predefinição do visualizador do eCatalogSelecione uma predefinição do visualizador do eCatalog e clique em Editar. Clique em 
-**Salvar** depois que você terminar de criar a predefinição.
+predefinição do visualizador de catálogo eletrônicoSelecione uma predefinição do visualizador de catálogo eletrônico e clique em Editar. Clique em 
+**Salve** assim que terminar de criar a predefinição.
 
-1. Na tela Configurar visualizador, digite um nome para sua predefinição do visualizador do eCatalog.
+1. Na tela Configurar visualizador , digite um nome para sua predefinição do visualizador do catálogo eletrônico.
 1. Na tela Configurar visualizador, defina as opções desejadas.
 
-   Clique no ícone Dica de informações adjacente à opção para ver sua descrição.
+   Clique no ícone Dica de informações , adjacente à opção para ver sua descrição.
 
-   A tela pré-visualização exibe o visualizador à medida que você atualiza e altera as configurações.
+   A tela de visualização exibe o visualizador conforme você atualiza e altera as configurações.
 
-1. (Opcional) Nas Configurações do painel Informações, a opção URL do Servidor de Informações pode incluir os seguintes tokens especiais, que o visualizador substitui:
+1. (Opcional) Nas Configurações do painel Informações, a opção URL do servidor de informações pode incluir os seguintes tokens especiais, que o visualizador substitui:
 
    | Token | Substituído por | Notas |
    |--- |--- |--- |
-   | `$1$` | valor de rollover_key | O identificador de item do elemento `<area>` do mapa. |
+   | `$1$` | valor de rolover_key | O identificador de item do elemento `<area>` do mapa. |
    | `$2$` | quadro | O número de sequência do quadro exibido no momento no conjunto de imagens. |
-   | `$3$` | imageroot | O primeiro elemento de caminho do primeiro item especificado no comando image (normalmente a ID do catálogo de imagens da entrada do catálogo que especifica o conjunto de imagens). |
+   | `$3$` | imageroot | O primeiro elemento de caminho do primeiro item especificado no comando image (normalmente a ID do catálogo de imagens da entrada do catálogo especificando o conjunto de imagens). |
 
-1. (Opcional) Na caixa Configurações do painel Informações, na caixa Modelo de resposta, digite o texto que deseja exibir se o Dynamic Media Classic encontrar um erro ao recuperar informações para um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de eCatalog, mas nenhum identificador de sobreposição, essa mensagem será exibida para o usuário.
+1. (Opcional) Nas Configurações do painel Informações, na caixa Modelo de resposta, digite o texto que deseja que apareça se o Dynamic Media Classic encontrar um erro na recuperação de informações para um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de catálogo eletrônico, mas nenhum identificador de sobreposição, essa mensagem será exibida para o usuário.
 
 >[!NOTE]
 >
->Para usar esse Modelo de Resposta em vez do modelo definido no próprio eCatalog, adicione &quot;fmt=1&quot; ao final do URL do Servidor de Informações. Por exemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
+>Para usar esse Modelo de resposta em vez do modelo definido no próprio eCatalog, adicione &quot;fmt=1&quot; ao final do URL do Servidor de informações. Por exemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Clique em **Salvar**.
-1. Clique em Padrão se desejar que a predefinição do visualizador de eCatalog que você criou seja a usada para exibir eCatalogs na sua página da Web.
+1. Clique em Padrão se desejar que a predefinição do visualizador do eCatalog que você criou seja aquela usada para exibir eCatalogs em sua página da Web.
 
-Para excluir uma predefinição do visualizador do eCatalog, selecione-a na tela Predefinições do visualizador e clique em **Excluir**.
+Para excluir uma predefinição do visualizador do catálogo eletrônico, selecione-a na tela Predefinições do visualizador e clique em **Excluir**.
 
 >[!MORELIKETHIS]
 >
