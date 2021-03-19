@@ -7,36 +7,38 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
+feature: Dynamic Media Classic,Gerenciamento de ativos
+role: Profissional
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 
-# Como trabalhar com PDFs{#working-with-pdfs}
+# Trabalhar com PDFs{#working-with-pdfs}
 
-Os arquivos PDF (Portable Documento Format) são usados com mais frequência no Dynamic Media Classic para criar eCatalogs. Quando você carrega um arquivo PDF, o Dynamic Media Classic rasteriza ou remove as páginas por padrão para que as páginas possam ser usadas para criar mídia avançada.
+Os arquivos PDF (Portable Document Format) são usados com mais frequência no Dynamic Media Classic para criar catálogos eletrônicos. Ao fazer upload de um arquivo PDF, o Dynamic Media Classic rasteriza ou extrai as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
 
-## Opções de carregamento de PDF {#pdf-upload-options}
+## Opções de upload de PDF {#pdf-upload-options}
 
-Ao carregar um arquivo PDF, você pode formatá-lo de várias maneiras. Você corta suas páginas, extrai palavras de pesquisa, digita uma resolução de pixels por polegada e escolhe um espaço de cor. Os arquivos PDF geralmente contêm uma margem de aparagem, marcas de corte, marcas de registro e marcas de outra impressora. É possível recortar essas marcas dos lados das páginas ao carregar um arquivo PDF.
+Ao carregar um arquivo PDF, você pode formatá-lo de várias maneiras. Você recorta suas páginas, extrai palavras de pesquisa, digita uma resolução de pixels por polegada e escolhe um espaço de cores. Os arquivos PDF geralmente contêm uma margem de corte, marcas de corte, marcas de registro e outras marcas de impressora. É possível recortar essas marcas das laterais das páginas ao carregar um arquivo PDF.
 
-As opções para fazer upload de arquivos PDF estão localizadas na tela Fazer upload em Opções de PDF.
+As opções para carregar arquivos PDF estão localizadas na tela Upload em Opções de PDF.
 
 **Processamento**
 
 As opções de Processamento são as seguintes:
 
-**Rasterizar** (Padrão) Limpa as páginas no arquivo PDF e converte gráficos vetoriais em imagens de bitmap. Escolha essa opção para criar um eCatalog.
+**Rasterizar**  (Padrão) Ripsa as páginas no arquivo PDF e converte gráficos vetoriais em imagens bitmap. Escolha essa opção para criar um eCatalog.
 
-**Extrair** palavras de pesquisaExtrai palavras do arquivo PDF para que o arquivo possa ser pesquisado por palavra-chave em um eCatalog Viewer.
+**Extrair** palavras de pesquisaExtrai palavras do arquivo PDF para que o arquivo possa ser pesquisado por palavras-chave em um visualizador de eCatalog.
 
-**Extrair** linksExtrai os links dos arquivos PDF e os converte em mapas de imagem usados em um eCatalog Viewer.
+**Extrair** LinksExtrai links dos arquivos PDF e os converte em mapas de imagem usados em um visualizador de eCatalog.
 
-**Gerar eCatalog automaticamente com** PDFA de várias páginasO cria automaticamente um eCatalog a partir do arquivo PDF. O eCatalog recebe o nome do arquivo PDF que você carregou. Essa opção só estará disponível se você rasterizar o arquivo PDF ao carregá-lo.
+**Gerar automaticamente um catálogo eletrônico com várias páginas** PDFAcria automaticamente um eCatalog a partir do arquivo PDF. O eCatalog é nomeado após o arquivo PDF que você carregou. (Essa opção só estará disponível se você rasterizar o arquivo PDF ao carregá-lo.)
 
 **Resolução**
 
@@ -44,50 +46,50 @@ Determina a configuração de resolução. Essa configuração determina quantos
 
 **Espaço da cor**
 
-Selecione o menu Espaço de cor e escolha um espaço de cor para o arquivo PDF. A maioria dos arquivos PDF tem imagens coloridas RGB e CMYK. O espaço de cores RGB é preferível para visualização online.
+Selecione o menu Espaço de cores e escolha um espaço de cores para o arquivo PDF. A maioria dos arquivos PDF tem imagens coloridas RGB e CMYK. O espaço de cores RGB é preferível para visualização online.
 
-**Detectar** automaticamenteMantém o espaço de cor do arquivo PDF.
+**Detectar** automaticamente: mantém o espaço de cores do arquivo PDF.
 
 **Forçar como** RGBConverte para o espaço de cores RGB.
 
 **Forçar como** CMYKConverte para o espaço de cores CMYK.
 
-**Forçar como escala de** cinzaConverte para o espaço de cor escala de cinza.
+**Forçar como** escala de cinzaConverte para o espaço de cores da escala de cinza.
 
 **Perfil de cores**
 
 Escolha uma opção de Perfil de cor:
 
-**Converter em** sRGBConverts para sRGB (Padrão Vermelho Verde Azul). O sRGB é o espaço de cores recomendado para exibir imagens em páginas da Web.
+**Converter em** sRGBConverts para sRGB (Azul Verde Vermelho Padrão). sRGB é o espaço de cores recomendado para exibir imagens nas páginas da Web.
 
-**Manter** espaço de cor originalMantém o espaço de cor original.
+**Manter** espaço de cores originalMantém o espaço de cores original.
 
-**Menus Personalizado de >** ParaAbrir para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Dynamic Media Classic.
+**Personalizar de >** ParaAbrir menus para poder escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Dynamic Media Classic.
 
-Consulte [perfis ICC](icc-profiles.md#icc_profiles).
+Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
 
 ## Recortar espaço em branco de um arquivo PDF {#cropping-white-space-from-a-pdf-file}
 
-1. Para recortar automaticamente pixels de espaço em branco de um arquivo PDF ao carregá-lo, selecione o menu Recortar e escolha Aparar.
+1. Para cortar automaticamente pixels de espaço em branco de um arquivo PDF à medida que você o carrega, selecione o menu Recortar e escolha Aparar.
 1. Especifique as seguintes opções:
 
-   **Aparar para longe com base** emEscolha se deseja cortar com base na cor ou na transparência:
+   **Aparar com base** emEscolha se recortar com base na cor ou na transparência:
 
-   **** CorEscolha a opção Cor. Em seguida, selecione o menu Canto e escolha o canto do PDF com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
+   **** CorEscolha a opção Cor. Em seguida, selecione o menu Canto e escolha o canto do PDF com a cor que melhor representa a cor do espaço em branco que deseja recortar.
 
    **** TransparênciaEscolha a opção Transparência.
 
    **** TolerânciaArraste o controle deslizante para especificar uma tolerância de 0 a 1:
 
-   **Aparar com base na** corEspecifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PDF. Números próximos a 1 permitem mais diferenças de cor.
+   **Aparar com base na** corEspecifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PDF. Os números mais próximos de 1 permitem mais diferenças de cor.
 
    **Aparar com base na** transparênciaEspecifique 0 para cortar pixels somente se eles forem totalmente transparentes. números mais próximos de 1 permitem mais transparência.
 
-## Recortar das laterais das páginas do PDF {#cropping-from-the-sides-of-pdf-pages}
+## Recortar das laterais das páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 
-É possível remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF ao carregá-lo.
+Você pode remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF à medida que você o carrega.
 
 1. Selecione o menu Cortar e escolha Manual.
 1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e laterais das páginas.
 
-A quantidade de páginas cortadas depende da configuração Resolution PX/Inch inserida para o arquivo PDF. Por exemplo, se você digitar 150 (o padrão) como a configuração Resolução PX/Polegada e cortar 75 pixels das laterais das páginas, meia polegada será cortada porque, a 150 pixels por polegada, 75 pixels equivale a meia polegada.
+A quantidade de páginas cortadas depende da configuração de Resolução PX/Inch inserida para o arquivo PDF. Por exemplo, se você digitar 150 (padrão) como a configuração Resolução PX/Polegada e cortar 75 pixels das laterais das páginas, meia polegada será cortada porque, a 150 pixels por polegada, 75 pixels é igual a meia polegada.
