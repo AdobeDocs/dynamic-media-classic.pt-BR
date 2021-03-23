@@ -10,10 +10,10 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Profissional
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 0%
+source-wordcount: '1584'
+ht-degree: 1%
 
 ---
 
@@ -26,23 +26,23 @@ Ao fazer upload de ativos, um ícone giratório é exibido ao lado do menu Traba
 
 >[!NOTE]
 >
->Uma lista de seus trabalhos publicados recentemente também está disponível na página Atividade recente . Clique em Recente na barra Navegação global para abrir esta página.
+>Uma lista de seus trabalhos publicados recentemente também está disponível na página Atividade recente . Clique em **[!UICONTROL Recent]** na barra Navegação global para abrir esta página.
 
 ## Sobre a página Trabalhos {#about-the-jobs-page}
 
-Selecione o botão Tarefas na barra Navegação global para abrir a página Tarefas. Por padrão, as tarefas são listadas começando com as mais recentes.
+Selecione **[!UICONTROL Jobs]** na barra Navegação global para abrir a página Tarefas. Por padrão, as tarefas são listadas começando com as mais recentes.
 
 As tarefas são listadas nessas categorias na guia Histórico da página Trabalhos :
 
 **Tipo** de trabalhoUm ícone indica o tipo de trabalho: Fazer upload e publicar são os tipos de trabalho mais comuns.
 
-**** Nome do trabalhoO nome do trabalho. O nome inclui a parte do nome inserida pelo usuário e o carimbo de data e hora.
+**** Nome do trabalhoO nome do trabalho. O nome inclui a parte do nome inserida pelo usuário e a data e hora.
 
 **** IniciadoQuando o trabalho começou.
 
 **** TotalO número de arquivos transferidos.
 
-**W (avisos)** O número de avisos na tarefa (se houver). Avisos indicam problemas com o trabalho que não afetou a conclusão geral do trabalho. Normalmente, esses avisos podem ser ignorados porque eles relatam sobre arquivos ocultos. Por exemplo, os arquivos .DS_store (Macintosh) e Thumbs.db (Windows) contêm informações sobre como exibir arquivos de imagem para os usuários. As entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas porque não se referem à forma como esses arquivos são usados no Dynamic Media Classic. Você pode clicar duas vezes em um nome de trabalho para obter informações detalhadas sobre avisos.
+**W (avisos)** O número de avisos na tarefa (se houver). Avisos indicam problemas com o trabalho que não afetou a conclusão geral do trabalho. Normalmente, esses avisos podem ser ignorados porque eles relatam sobre arquivos ocultos. Por exemplo, os arquivos `.DS_store` (Macintosh) e Thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem para usuários. As entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas porque não se referem à forma como esses arquivos são usados no Dynamic Media Classic. Você pode clicar duas vezes em um nome de trabalho para obter informações detalhadas sobre avisos.
 
 **E (erros)** Lista o número de erros no trabalho (se houver). Você pode clicar duas vezes em um nome de trabalho para obter informações detalhadas sobre erros.
 
@@ -50,7 +50,7 @@ As tarefas são listadas nessas categorias na guia Histórico da página Trabalh
 
 **** StatusMostra o status da tarefa.
 
-**** Destino: para tarefas de upload, o nome da empresa e a pasta na qual os arquivos foram carregados. Esta categoria não se aplica a trabalhos de publicação.
+**** Destino: para tarefas de upload, o nome da empresa e a pasta para a qual os arquivos foram carregados. Esta categoria não se aplica a trabalhos de publicação.
 
 **Enviado** porListas que carregaram os ativos.
 
@@ -62,7 +62,7 @@ Use essas técnicas para classificar tarefas ou alterar a visualização da guia
 
 **** ClassificaçãoSelecione um nome de coluna para classificar a lista por uma coluna específica. Você pode selecionar a opção ao lado do nome da coluna para classificar em ordem decrescente ou crescente.
 
-**** Intervalo de datasSelecione o menu Intervalo de datas e escolha uma opção para restringir a lista de tarefas à data atual, à semana anterior ou ao mês anterior. Escolha Intervalo de datas personalizado para inserir um intervalo de datas específico.
+**** Intervalo de datasSelecione o menu Intervalo de datas e escolha uma opção para restringir a lista de tarefas à data atual, à semana anterior ou ao mês anterior. Escolha Intervalo de datas personalizado e insira um intervalo de datas específico.
 
 **Tipo** de trabalhoSelecione o menu Tipo de trabalho e escolha Publicar ou Fazer upload para restringir a lista e publicar trabalhos ou fazer upload de trabalhos. Escolha Tudo para ver ambos os tipos de trabalhos.
 
@@ -116,27 +116,27 @@ Esta tabela mostra os incrementos de tempo, seus valores permitidos e os curinga
 
 | Incrementos de tempo | Valores permitidos | Comentários | Caracteres curinga compatíveis |
 |--- |--- |--- |--- |
-| Seconds | 0-59 |  | , - * / |
-| Minutes | 0-59 |  | , - * / |
-| Horas | 0-23 | Observe o uso de um relógio de 24 horas. | , - * / |
-| Dia do mês | 1-31 | Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um ? caractere curinga. | , - * / ? L C |
-| Mês | 1-12 ou Jan, Fev, Mar, Abr, maio, junho, julho, agosto, Set, Set, Out, nov, Dez | Os valores diferenciam maiúsculas de minúsculas. | , - * / |
-| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Dom | Os valores diferenciam maiúsculas de minúsculas. Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um ? caractere curinga. | , - * / ? L C # |
-| Ano (opcional) | Empty ou 1970-2099 |  | , - * / |
+| Seconds | 0-59 |  | `, - * /` |
+| Minutes | 0-59 |  | `, - * /` |
+| Horas | 0-23 | Observe o uso de um relógio de 24 horas. | `, - * /` |
+| Dia do mês | 1-31 | Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um caractere curinga `?`. | `, - * / ? L C` |
+| Mês | 1-12 ou Jan, Fev, Mar, Abr, maio, junho, julho, agosto, Set, Set, Out, nov, Dez | Os valores diferenciam maiúsculas de minúsculas. | `, - * /` |
+| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Dom | Os valores diferenciam maiúsculas de minúsculas. Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um ? caractere curinga. | `, - * / ? L C #` |
+| Ano (opcional) | Empty ou 1970-2099 |  | `, - * /` |
 
 
 Esta tabela descreve os caracteres curingas permitidos na caixa Regra e como usá-los:
 
 | Caractere curinga | Nome | O que ele descreve |
 |--- |--- |--- |
-| * | Asterisco | Todos os valores (por exemplo, &quot;a cada minuto&quot;). |
-| ? | Ponto de interrogação | Nenhum valor específico (por exemplo, &quot;qualquer minuto dentro da hora especificada&quot;). |
-| , | Vírgula | Valores adicionais (por exemplo, &quot;Segunda-feira e quarta-feira&quot;). |
-| - | Hífen | Intervalo de valores (por exemplo, &quot;de segunda a sexta-feira&quot;). |
-| / | Barra | Incrementos (por exemplo, &quot;a cada 15 minutos&quot;). |
-| L | Capital L | Último &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível somente para esses campos). Por exemplo, se o mês for janeiro, um valor L para o campo &quot;dia do mês&quot; programará o job para 31 de janeiro. Para o campo &quot;dia da semana&quot;, você poderá inserir esse caractere sozinho para agendar o job no sábado. Você pode usá-lo com um número (por exemplo, 6L) para especificar a última sexta-feira do mês.Não especifique L com a vírgula ou hífen curingas. |
-| # | Sinal numérico | &quot;Nono&quot; dia da semana do mês (disponível somente para o campo &quot;dia da semana&quot;). Por exemplo, 6#3 no campo &quot;dia da semana&quot; especifica a terceira sexta-feira do mês. O 6 indica &quot;sexta-feira&quot; (o sexto dia da semana) e o 3 indica a terceira ocorrência do mês. |
-| C | # Capital C | Primeiro calendário &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível apenas para estes campos). Por exemplo, especificar um valor de 1C para &quot;dia do mês&quot; agendará o primeiro dia no calendário que ocorrer no quinto dia da semana ou depois dele. Para o campo &quot;dia da semana&quot;, a especificação de 1C agendará o primeiro dia no calendário que ocorrer no domingo ou depois dele |
+| `*` | Asterisco | Todos os valores (por exemplo, &quot;a cada minuto&quot;). |
+| `?` | Ponto de interrogação | Nenhum valor específico (por exemplo, &quot;qualquer minuto dentro da hora especificada&quot;). |
+| `,` | Vírgula | Outros valores (por exemplo, &quot;Segunda-feira e Quarta-feira&quot;). |
+| `-` | Hífen | Intervalo de valores (por exemplo, &quot;de segunda a sexta-feira&quot;). |
+| `/` | Barra | Incrementos (por exemplo, &quot;a cada 15 minutos&quot;). |
+| `L` | Capital L | Último &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível somente para esses campos). Por exemplo, se o mês for janeiro, um valor L para o campo &quot;dia do mês&quot; programará a tarefa para 31 de janeiro. Para o campo &quot;dia da semana&quot;, você pode inserir esse caractere sozinho para agendar o trabalho no sábado. Você pode usá-lo com um número (por exemplo, `6L`) para especificar a última sexta-feira do mês. Não especifique `L` com os curingas de vírgula ou hífen. |
+| `#` | Sinal numérico | &quot;Nono&quot; dia da semana do mês (disponível somente para o campo &quot;dia da semana&quot;). Por exemplo, `6#3` no campo &quot;dia da semana&quot; especifica a terceira sexta-feira do mês. O `6` indica &quot;sexta-feira&quot; (o sexto dia da semana) e o `3` indica a terceira ocorrência no mês. |
+| `C` | # Capital C | Primeiro calendário &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível apenas para estes campos). Por exemplo, especificar um valor de `1C` para &quot;dia do mês&quot; agende o primeiro dia no calendário que ocorre em ou após o quinto dia. Para o campo &quot;dia da semana&quot;, a especificação de `1C` agende o primeiro dia no calendário que ocorre no domingo ou depois dele |
 
 Essa lista fornece exemplos de descrição dos intervalos de tempo na caixa Regra:
 
@@ -153,6 +153,6 @@ Essa lista fornece exemplos de descrição dos intervalos de tempo na caixa Regr
 
 ## Usar um trabalho de upload ou publicação como acionador {#using-an-upload-or-publish-job-as-a-trigger}
 
-Ao fazer upload de ativos via FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar assim que o upload for concluído. (Se outras tarefas estiverem programadas para começar nesse momento, a tarefa agendada aqui estará na fila atrás delas.) A nova tarefa envia uma notificação para o endereço especificado para que o código nesse local possa ser acionado. Esse trabalho de upload de seguimento recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
+Ao fazer upload de ativos via FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar quando o upload for concluído. (Se outras tarefas estiverem programadas para começar então, a tarefa agendada aqui estará na fila atrás delas.) A nova tarefa envia uma notificação para o endereço especificado para que o código nesse local possa ser acionado. Esse trabalho de upload de seguimento recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
 
 Para fazer com que um trabalho de upload ou publicação acione outro trabalho, selecione Avançado na página Upload ou Publish . Em seguida, insira o URL no campo de texto Notificação HTTP .
