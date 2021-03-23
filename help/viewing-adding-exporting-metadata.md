@@ -10,9 +10,9 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Gerenciamento de ativos,Metadados
 role: Profissional
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para obter mais informações sobre metadados incorporados, consulte [www.adobe.
 
 ## Exibir metadados {#view-metadata}
 
-Para exibir os metadados de um ativo, abra o ativo na exibição Detalhes e clique no painel Metadados. Em seguida, escolha uma opção no menu Exibição de metadados para selecionar um conjunto de campos de metadados. O Dynamic Media Classic oferece estas Exibições de metadados:
+Para exibir os metadados de um ativo, abra o ativo na exibição Detalhes e toque no painel Metadados. Para selecionar um conjunto de campos de metadados, escolha uma opção no menu Exibição de metadados . O Dynamic Media Classic oferece estas Exibições de metadados:
 
 * ****
 Exibição compactaUma lista básica de valores.
@@ -59,7 +59,7 @@ Os administradores podem criar Exibições de metadados. Essas exibições tamb�
 
 ## Adicionar ou editar palavras-chave {#add-or-edit-keywords}
 
-Além dos metadados, você pode usar palavras-chave para auxiliar na pesquisa e no gerenciamento de ativos.
+Além dos metadados, você pode usar palavras-chave para ajudar a pesquisar e gerenciar os ativos.
 
 Se você adicionou palavras-chave a outros arquivos durante esta sessão, ou se removeu palavras-chave da lista, elas são exibidas na tabela Sugestões de Palavra-chave.
 
@@ -97,21 +97,21 @@ Você pode encontrar mais informações sobre propriedades padronizadas em: http
 
 Lembre-se do seguinte ao identificar diferentes tipos de metadados a serem importados:
 
-* Os Campos Definidos pelo Usuário são identificados pelo nome criado em Configurar > Configuração do Aplicativo > Metadados > Campos Definidos pelo Usuário. Use a funcionalidade Gerar arquivo para obter uma lista de todos os UDFs definidos no formato de importação correto.
-* XMP As propriedades de metadados devem ter o prefixo XMP relacionado antes do nome (property-). Um sinal de dois pontos separa o prefixo e o nome. O prefixo XMP pode ser encontrado em Configurar > Configuração do aplicativo > Metadados > Editor de esquema de metadados. Os nomes técnicos podem ser encontrados na documentação do schema de XMP relacionado. Observe que XMP nomes de propriedades não aparecem no recurso Gerar arquivo .
-* As propriedades do Esquema de metadados devem ter o prefixo relacionado antes do nome (propriedade-). Um sinal de dois pontos separa o prefixo e o nome. O prefixo e os nomes das propriedades são definidos no editor de Esquema de metadados. Observe que os nomes das propriedades do Esquema de metadados não aparecem no recurso Gerar arquivo .
+* Os campos definidos pelo usuário são identificados pelo nome, conforme criado em Configurar > Configuração do aplicativo > Metadados > Campos definidos pelo usuário. Use a funcionalidade Gerar arquivo para obter uma lista de todos os UDFs definidos no formato de importação correto.
+* XMP As propriedades de metadados devem ter o prefixo XMP relacionado antes do nome (property-). Um sinal de dois pontos separa o prefixo e o nome. O prefixo XMP pode ser encontrado em Configurar > Configuração do aplicativo > Metadados > Editor de esquema de metadados. Os nomes técnicos podem ser encontrados na documentação do schema de XMP relacionado. XMP nomes de propriedades não aparecem no recurso Gerar arquivo .
+* As propriedades do Esquema de metadados devem ter o prefixo relacionado antes do nome (propriedade-). Um sinal de dois pontos separa o prefixo e o nome. O prefixo e os nomes das propriedades são definidos no editor de Esquema de metadados. Os nomes das propriedades do Esquema de metadados não aparecem no recurso Gerar arquivo .
 
 Por exemplo: A propriedade XMP de palavras-chave é o XMP schema &quot;Dublin Core&quot; com o prefixo &quot;dc&quot; e &quot;subject&quot; é o nome do XMP técnico. O prefixo e o nome do XMP técnico são combinados no nome completo da propriedade &quot;dc:subject&quot;. No formato de importação de metadados XML, &quot;dc.subject&quot; deve ser o nome da propriedade. No formato de importação delimitado por tabulação, ele deve ser o cabeçalho da coluna.
 
 **Importar Palavras-Chave**
 
-As palavras-chave podem ser importadas como uma lista separada por vírgulas. Se uma vírgula for exibida em qualquer um dos valores individuais, ela precisará ser escapada por uma barra invertida (\). Uma barra invertida literal é a barra invertida dupla normal (\\).
+As palavras-chave podem ser importadas como uma lista separada por vírgulas. Se uma vírgula for exibida em qualquer um dos valores individuais, ela deverá ser escapada por uma barra invertida (\). Uma barra invertida literal é a barra invertida dupla normal (\\).
 
 Por exemplo, um arquivo de importação de metadados contendo o valor &quot;Hello\, World!, back\\slash,foo&quot; para &quot;dc:subject&quot; define três palavras-chave XMP no ativo: &quot;Olá, Mundo!&quot;, &quot;trás\barra&quot; e &quot;foo.&quot;
 
 **Importar XMP e arquivos de XMP de metadados do Esquema de Metadados**
 
-A importação XML aceita apenas XML válido. Ao importar XMP ou campos de Esquema de metadados, o prefixo do namespace é adicionado e se comporta aqui como um namespace XMP. Esse namespace deve ser declarado, por exemplo, na tag de nível superior.
+A importação XML aceita apenas XML válido. Ao importar XMP ou campos de Esquema de metadados, o prefixo do namespace é adicionado e se comporta aqui como um namespace XMP. Este namespace deve ser declarado. Por exemplo, na tag de nível superior.
 
 Por exemplo:
 
@@ -131,7 +131,7 @@ Você pode importar metadados para vários arquivos inserindo os metadados em um
 
 Verifique se os dados no arquivo delimitado por tabulação ou XML estão no formato correto. Na primeira linha, insira o campo ID seguido dos nomes dos campos de metadados que serão modificados. Em cada linha subsequente, insira um nome de ID de ativo seguido de valores de metadados. Os campos que não estão incluídos no arquivo delimitado por tabulação ou XML não são modificados.
 
-Clique no botão Fazer upload na Barra de navegação global e, na tela Trabalhos, selecione a guia Via FTP para importar os metadados. Em seguida, clique em Opções de trabalho. Na caixa de diálogo Upload Job Options , escolha Process metadata files.
+Clique no botão Upload na Barra de navegação global. Para importar os metadados, na tela Jobs , selecione a guia **[!UICONTROL Via FTP]** e clique em **[!UICONTROL Job Options]**. Na caixa de diálogo Upload Job Options , escolha Process metadata files.
 
 ## Renomear IDs em lote usando metadados {#batch-rename-ids-using-metadata}
 
@@ -146,12 +146,11 @@ Por exemplo:
 | jaqueta_1 | Jacket_test_1 |
 | jaqueta_azul | Jacket_test_2 |
 
-
-O log de trabalho do trabalho de Metadados mostrará quais IDs foram renomeadas com êxito e quais não foram.
+O log de trabalho do trabalho de Metadados mostra quais IDs foram renomeadas com êxito e quais não foram.
 
 ## Crie um modelo para inserir metadados para carregar {#create-a-template-for-entering-metadata-to-upload}
 
-O Dynamic Media Classic oferece um comando para criar um modelo para registrar metadados. Usar o modelo garante que os metadados sejam inseridos no formato correto para que possam ser carregados corretamente no Dynamic Media Classic. Siga estas etapas para criar um modelo para usar na gravação e importação de metadados para o Dynamic Media Classic:
+O Dynamic Media Classic oferece um comando para criar um modelo para registrar metadados. Usar o modelo garante que os metadados sejam inseridos no formato correto para que possam ser carregados corretamente no Dynamic Media Classic. Para criar um modelo para usar na gravação e importação de metadados para o Dynamic Media Classic, siga estas etapas:
 
 1. Selecione ativos de imagem com campos de metadados que você deseja para seu modelo.
 1. Escolha Arquivo > Importar metadados.
@@ -166,19 +165,19 @@ Um administrador da empresa pode exibir uma lista de todos os esquemas disponív
 
 Inicialmente, a lista de esquemas padrão globais como XMP está oculta. Eles podem ser exibidos usando a caixa de seleção na parte inferior da lista.
 
-O administrador da empresa pode criar um novo esquema personalizado ou editar um esquema personalizado existente.
+O administrador da empresa pode criar um esquema personalizado ou editar um esquema personalizado existente.
 
 Você pode usar o Editor de esquema de metadados para executar as seguintes ações:
 
 | Ação | Descrição |
 |--- |--- |
-| Adicionar | Adiciona uma nova propriedade ao esquema. Uma caixa de diálogo modal coleta as informações: ID, rótulo, estrutura e tipo de dados. |
-| Adicionar valor de escolha | Adiciona uma nova opção selecionável a uma propriedade com estrutura de escolha aberta ou escolha fechada. Todos os valores de escolha têm o mesmo tipo. Você deve selecionar a propriedade propriamente dita para ativar o botão. |
+| Adicionar | Adiciona uma propriedade ao esquema. Uma caixa de diálogo modal coleta as informações: ID, rótulo, estrutura e tipo de dados. |
+| Adicionar valor de escolha | Adiciona uma nova opção selecionável a uma propriedade com estrutura de escolha aberta ou escolha fechada. Todos os valores de escolha têm o mesmo tipo. Selecione a própria propriedade para ativar o botão. |
 | Editar | Edite o Label de uma propriedade ou valor de escolha. Você só pode alterar o Rótulo, a ID e as informações do tipo são imutáveis. |
-| Mover para cima/Mover para baixo | A ordem no schema é refletida na interface do usuário. Para alterar a ordem, selecione uma propriedade ou um valor de escolha e mova-o com os botões. Ainda não há suporte para arrastar e soltar no momento. |
-| Excluir | Exclui uma propriedade ou um valor de escolha do esquema. Isso não exclui valores do bloco XMP ou do Banco de Dados. A propriedade não está mais disponível para Exibições de Metadados e é removida da Exibição de Detalhes do Ativo. Se a propriedade foi publicada no Servidor de Metadados, execute uma publicação forçada para remover os dados do Servidor de Metadados voltado para o público. |
+| Mover para cima/Mover para baixo | A ordem no schema é refletida na interface do usuário. Para alterar a ordem, selecione uma propriedade ou um valor de escolha e mova-o com os botões. Atualmente, não há suporte para arrastar e soltar. |
+| Excluir | Exclui uma propriedade ou um valor de escolha do esquema. Ele não exclui valores do bloco XMP ou do Banco de Dados. A propriedade não está mais disponível para Exibições de metadados e é removida da Exibição de detalhes do ativo. Se a propriedade foi publicada no Servidor de Metadados, execute uma publicação forçada para remover os dados do Servidor de Metadados voltado para o público. |
 
-O sistema gera automaticamente um esquema personalizado para campos definidos pelo usuário com o prefixo &quot;s7udf&quot;. Esses são os Campos existentes definidos pelo usuário e são editados em sua própria seção Configuração .
+O sistema gera automaticamente um esquema personalizado para campos definidos pelo usuário com o prefixo &quot;s7udf&quot;. São campos definidos pelo usuário existentes e são editados na própria seção Configuração .
 
 >[!NOTE]
 >
@@ -192,7 +191,7 @@ O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou ed
 
 * Prefixo
 
-   Identificador exclusivo técnico para o esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco de XMP e em nosso banco de dados. O prefixo é usado para identificar exclusivamente campos de metadados em consultas de pesquisa de metadados no Servidor de Metadados ou na importação.
+   Identificador exclusivo técnico para o esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco de XMP e no banco de dados. O prefixo é usado para identificar exclusivamente campos de metadados em consultas de pesquisa de metadados no Servidor de Metadados ou na importação.
 
 * Namespace
 
