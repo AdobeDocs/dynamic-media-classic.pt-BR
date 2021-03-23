@@ -10,7 +10,7 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administrador
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 SEO é o processo de melhorar o volume de tráfego para um site a partir de mecanismos de pesquisa. Enquanto os mecanismos de pesquisa se excitam na coleta de informações sobre o conteúdo baseado em texto, eles não podem adquirir informações adequadamente sobre o vídeo, a menos que essas informações sejam fornecidas a eles.
 
-Usando o SEO de vídeo do Dynamic Media Classic, você pode utilizar metadados de vídeo para fornecer aos mecanismos de pesquisa descrições de seus vídeos. O Dynamic Media Classic oferece a capacidade de criar mapas de site de vídeo e feeds de mRSS. Esses são arquivos XML padrão para enviar informações de vídeo para mecanismos de pesquisa:
+Usando o SEO de vídeo do Dynamic Media Classic, você pode aplicar metadados de vídeo para fornecer aos mecanismos de pesquisa descrições de seus vídeos. O Dynamic Media Classic oferece a capacidade de criar mapas de site de vídeo e feeds de mRSS. Esses arquivos XML padrão são usados para enviar informações de vídeo para mecanismos de pesquisa:
 
-**Mapa do** site de vídeoInforma o Google exatamente onde e qual conteúdo de vídeo está em um site. Consequentemente, os vídeos podem ser totalmente pesquisados no Google. Por exemplo, um Mapa do site de vídeo pode especificar o tempo de execução e as categorias de vídeos. Para obter informações sobre os mapas do site de vídeo, consulte https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Mapa do** site de vídeoInforma o Google exatamente onde e qual conteúdo de vídeo está em um site. Assim, os vídeos são totalmente pesquisáveis no Google. Por exemplo, um Mapa do site de vídeo pode especificar o tempo de execução e as categorias de vídeos. Para obter informações sobre os mapas do site de vídeo, consulte https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
 **** Feed mRSS (Media realmente Simple Syndication) usado por editores de conteúdo para alimentar arquivos de mídia no Yahoo! Pesquisa de vídeo. Para obter informações sobre feeds de RSS, consulte https://www.rssboard.org/media-rss.
 
@@ -62,7 +62,7 @@ Na lista suspensa Modo de geração , escolha um modo de relatório:
 
 **** Ambos os tipos de arquivos XML.
 
-**** DesligadoEscolha esta opção para parar de gerar mapas do Site de Vídeo e feeds RSS de Mídia (mRSS).
+**** DesativadoPara parar de gerar os feeds de Sitemaps de vídeo e RSS de mídia (mRSS), escolha essa opção.
 
 Na lista suspensa Modo automático/manual , escolha se deseja gerar automaticamente ou manualmente:
 
@@ -93,7 +93,7 @@ A área Configurações de geração lista os campos de entrada do Mapa do Site 
 
 >[!NOTE]
 >
->Você deve publicar o Mapa do Site de Vídeo ou o feed de RSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e clique em Publicar.
+>Publique o Mapa do Site de Vídeo ou o feed do mRSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e clique em Publicar.
 
 ## Envio de arquivos do SiteVídeo e do FeedRSS para mecanismos de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
