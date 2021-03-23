@@ -10,7 +10,7 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
 role: Profissional
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Você pode criar e personalizar Predefinições do visualizador de acordo com su
 
 1. Escolha opções na tela Configurar visualizador .
 
-   Para ver uma descrição de uma opção, clique no ícone Dica de informações adjacente à opção.
+   Para ver uma descrição de uma opção, clique no ícone Dica de informações ao lado da opção .
 
    A tela de visualização exibe o visualizador conforme você atualiza e altera as configurações.
 
@@ -57,11 +57,11 @@ Você pode usar a Visualização para ver como um ativo aparece em uma plataform
    * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **File** > **Preview**.
 
 1. (Opcional) Na janela Visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
-1. Clique em um link do visualizador para visualizar o ativo no visualizador selecionado.
+1. Para visualizar o ativo no visualizador selecionado, clique em um link do visualizador.
 
    Ao clicar em um determinado link do visualizador, o URL associado é copiado automaticamente para a área de transferência.
 
-1. Feche o visualizador exibido para retornar à tela Visualização.
+1. Para retornar à tela Visualização, feche o visualizador exibido.
 1. Clique em **Fechar** para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
