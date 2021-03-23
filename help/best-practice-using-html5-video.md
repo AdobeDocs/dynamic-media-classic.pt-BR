@@ -10,9 +10,9 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Profissional
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,17 @@ ht-degree: 0%
 
 # Práticas recomendadas para usar o visualizador de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
-As predefinições do visualizador de vídeo HTML5 do Dynamic Media Classic são players de vídeo robustos. No lado de design do reprodutor, é possível criar toda a funcionalidade do reprodutor de vídeo usando ferramentas de desenvolvimento da Web padrão. Por exemplo, você pode projetar os botões, controles e o plano de fundo personalizado da imagem de pôster usando HTML5 e CSS para ajudar você a alcançar seus clientes com uma aparência personalizada.
+As predefinições do visualizador de vídeo HTML5 do Dynamic Media Classic são players de vídeo robustos. No lado de design do reprodutor, é possível criar a funcionalidade inteira do reprodutor de vídeo usando ferramentas de desenvolvimento da Web padrão. Por exemplo, você pode projetar os botões, controles e o plano de fundo personalizado da imagem de pôster usando HTML5 e CSS para ajudar você a alcançar seus clientes com uma aparência personalizada.
 
 No lado da reprodução do visualizador, ele detecta automaticamente o recurso de vídeo do navegador. Em seguida, ele serve o vídeo usando HLS (streaming de vídeo adaptável). Ou, se esse método de delivery não estiver presente, o HTML5 progressivo será usado.
 
-Ao combinar em um único reprodutor a capacidade de projetar os componentes de reprodução usando HTML5 e CSS, ter reprodução incorporada e usar streaming adaptável e progressivo, dependendo da capacidade do navegador, você estende o alcance do conteúdo de mídia avançada para usuários de desktop e móveis e garante uma experiência de vídeo simplificada.
+Ao combinar em um único reprodutor as seguintes capacidades:
+
+* Componentes de reprodução criados com HTML5 e CSS
+* Reprodução incorporada
+* Uso de streaming adaptável e progressivo com base na capacidade do navegador
+
+Você estende o alcance do seu conteúdo de mídia avançada para usuários de desktop e de dispositivos móveis. Você também garante uma experiência em vídeo simplificada.
 
 Consulte também [Sobre visualizadores HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
 
@@ -44,9 +50,9 @@ A tabela a seguir descreve o dispositivo, o navegador e o método de reproduçã
 | Desktop | Firefox 45 ou superior | Transmissão de vídeo HLS. |
 | Desktop | Cromo | Transmissão de vídeo HLS. |
 | Desktop | Safari (Mac) | Transmissão de vídeo HLS. |
-| Celular | Chrome (Android 6 ou anterior) | Download progressivo. |
-| Celular | Chrome (Android 7 ou posterior) | Transmissão de vídeo HLS. |
-| Celular | Android (navegador padrão) | Download progressivo. |
+| Celular | Chrome (Android™ 6 ou anterior) | Download progressivo. |
+| Celular | Chrome (Android™ 7 ou posterior) | Transmissão de vídeo HLS. |
+| Celular | Android™ (Navegador padrão) | Download progressivo. |
 | Celular | Safari (iOS) | Transmissão de vídeo HLS. |
 | Celular | Chrome (iOS) | Transmissão de vídeo HLS. |
-| Celular | BlackBerry | Transmissão de vídeo HLS. |
+| Celular | BlackBerry® | Transmissão de vídeo HLS. |
