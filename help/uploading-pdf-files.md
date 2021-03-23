@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Profissional
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Upload dos arquivos PDF{#uploading-the-pdf-files}
 
-Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog; esses arquivos contêm todas as informações de imagem, bem como fontes e gráficos vetoriais. Você também pode criar um eCatalog com imagens. Depois de preparar os arquivos PDF para upload, selecione o botão Upload na barra de navegação global para começar a carregar os PDFs.
+Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog. Esses arquivos contêm todas as informações de imagem, fontes e gráficos vetoriais. Você também pode criar um eCatalog com imagens. Depois de preparar os arquivos PDF para upload, selecione o botão Upload na barra de navegação global para começar a carregar os PDFs.
 
 ## Preparando seus arquivos PDF {#preparing-your-pdf-files}
 
 Prepare seus arquivos PDF antes de carregá-los no Dynamic Media Classic:
 
-* Coloque todos os arquivos na mesma pasta no computador ou na rede para facilitar o upload dos arquivos.
+* Para facilitar o upload dos arquivos, coloque todos os arquivos na mesma pasta no computador ou na rede.
 * Nomeie os arquivos em ordem alfanumérica por página. A ordenação das páginas facilitará colocar as páginas na ordem correta após os arquivos serem carregados.
-* Examine as páginas do PDF para verificar se elas contêm marcas de corte, destinos de registro ou barras de cores. Estas marcas determinam onde cortar o papel quando os documentos são impressos; eles devem ser removidos antes que seu eCatalog seja colocado na Web. O Dynamic Media Classic fornece opções para marcas de corte ao carregar arquivos PDF.
+* Para ver se as páginas em PDF contêm marcas de corte, destinos de registro ou barras de cores, examine as páginas. Estas marcas determinam onde cortar o papel quando os documentos são impressos; eles devem ser removidos antes que seu eCatalog seja colocado na Web. O Dynamic Media Classic fornece opções para marcas de corte ao carregar arquivos PDF.
 * Se você quiser que os visualizadores pesquisem seu eCatalog por palavra-chave, descubra se seus arquivos PDF estão &quot;nivelados&quot;. Não é possível extrair palavras de pesquisa de arquivos PDF nivelados. Para descobrir se um PDF está nivelado, tente selecionar texto dentro dele. Se você não conseguir selecionar o texto, o PDF será nivelado e os visualizadores não poderão pesquisar por palavra-chave em seu eCatalog.
 * Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. Por padrão, o Dynamic Media Classic pode detectar de forma inteligente essas imagens CMYK e convertê-las usando um perfil de cores CMYK interno. No entanto, se você quiser usar um perfil de cor personalizado para converter imagens CMYK, poderá fazer isso.
 
@@ -40,7 +40,7 @@ Para obter informações detalhadas sobre os diferentes métodos de upload, cons
 Selecione os arquivos que deseja fazer upload e, em seguida, selecione estas *Opções de PDF de Práticas Recomendadas*:
 
 * ****
-RecortarSelecione o menu Recortar e escolha Manual se as páginas contiverem marcas de recorte, marcas de registro ou outras marcas. Insira o número de pixels para cortar a partir dos lados superior, direito, inferior e esquerdo das páginas. As marcas de corte geralmente são definidas em uma margem de meia polegada. Supondo que você escolha 150 como a resolução de pixel por polegada (a configuração recomendada), digitando 75, 75, 75, 75 nas caixas de texto Superior, Direita, Inferior e Esquerda corta meia polegada das margens (em 150 ppi, metade de uma polegada é igual a 75 pixels).
+RecortarSelecione o menu Recortar e escolha Manual se as páginas contiverem marcas de recorte, marcas de registro ou outras marcas. Insira o número de pixels para cortar a partir dos lados superior, direito, inferior e esquerdo das páginas. As marcas de corte são frequentemente definidas a uma margem de meia polegada. Suponha que você escolha 150 (recomendado) como a resolução de pixel por polegada e digite 75, 75, 75, 75, 75 nas caixas de texto Superior, Direita, Inferior e Esquerda. Nesse caso, ele recorta uma meia polegada das margens (em 150 ppi, metade de 1 é igual a 75 pixels).
 
 * ****
 ProcessamentoSelecione o menu Processamento e escolha Rasterizar. O arquivo PDF deve ser rasterizado para que todas as páginas e imagens possam ser exibidas no eCatalog.
