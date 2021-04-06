@@ -8,13 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Administrador,Profissional
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9801d5707bef099da72f9163826188b703e75168
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 4%
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
-
 
 # Suporte {#support}
 
@@ -23,13 +22,15 @@ As ofertas de suporte técnico foram projetadas para atender às necessidades de
 | Suporte | Assinatura |
 |--- |--- |
 | Limite de casos | Ilimitado. |
-| Tempo de resposta | Consulte as Perguntas frequentes em [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/br/contact/enterprise-support.ec.html). |
-| SLA (Contratos de nível de serviço) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Verifique o status do sistema do Adobe | [Status de sistema do Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Não consegue encontrar uma resposta? | [Para obter ajuda do Suporte, abra um tíquete](https://experienceleague.adobe.com/?support-solution=General#support). |
+| Fórum da comunidade | [Fórum da comunidade do Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| SLA (Contratos de nível de serviço) | [Serviços de suporte / Termos e condições](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Usuários suportados | Até dez usuários por organização podem ser designados como Usuários suportados, que podem abrir casos com o Atendimento ao cliente. |
-| Suporte social | Consulte as Perguntas frequentes em [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html). |
 | Treinamento gratuito na Web e tutoriais em vídeo | Incluído. |
-| Criar um caso de suporte | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
-| Suporte telefônico | <ul><li>EUA/Canadá: (800) 898-9743, (800)497-033, (408)454-5910 </li> <li>Japão: +81-3-6743-9632 </li><li>Reino Unido: +44 (0)20 35641782</li><li>Alemanha: +49 (0)69 51709005</li><li>França: +33 157324085</li><li>Países Baixos: +31 (0)20 2035138 (Suporte ao fim de semana em inglês)</li></ul> |
+| Suporte telefônico | <ul><li>EUA e Canadá: 1-800-497-0335 </li><li>[Números de telefone para outras regiões](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
+
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 Ao relatar problemas ao Suporte técnico, inclua estas informações:
 
@@ -39,4 +40,3 @@ Ao relatar problemas ao Suporte técnico, inclua estas informações:
 * Descrição do problema e as etapas necessárias para reproduzi-lo.
 * Mensagem de erro, se houver.
 * Tipo e versão do navegador, se aplicável.
-
