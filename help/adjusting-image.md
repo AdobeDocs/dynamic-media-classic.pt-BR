@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Gerenciamento de ativos
-role: Profissional
+role: Business Practitioner
+exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
-
 
 # Ajustar uma imagem{#adjusting-an-image}
 
@@ -36,35 +36,34 @@ Consulte também [Criação de um alias para uma imagem](adjusting-image.md#crea
 
 1. Quando terminar de ajustar a imagem, siga um destes procedimentos:
 
-   * Clique em **Salvar**.
-   * Para substituir o original da imagem, clique em **Salvar como**.
+   * Clique em **[!UICONTROL Save]**.
+   * Para substituir o original da imagem, clique em **[!UICONTROL Save As]**.
 
-      Na lista suspensa, selecione **Substituir original** e clique em **Salvar**.
+      Na lista suspensa, selecione **[!UICONTROL Replace original]** e clique em **[!UICONTROL Save]**.
 
-   * Para salvar a imagem como uma nova imagem principal, clique em **Salvar como**.
+   * Para salvar a imagem como uma nova imagem principal, clique em **[!UICONTROL Save As]**.
 
-      Na lista suspensa, selecione **Salvar como novo principal**.
+      Na lista suspensa, selecione **[!UICONTROL Save as new master]**.
 
-      Na caixa de listagem **Nome da pasta**, selecione a pasta onde deseja que a nova imagem principal seja salva.
+      Na caixa de listagem **[!UICONTROL Folder Name]**, selecione a pasta onde deseja salvar a nova imagem principal.
 
-      Clique em **Salvar**.
+      Clique em **[!UICONTROL Save]**.
 
-   * Para salvar a imagem como uma visualização adicional da imagem principal. você pode criar um alias para ele. Clique em **Salvar como**.
+   * Para salvar a imagem como outra visualização da imagem principal. você pode criar um alias para ele. Clique em **[!UICONTROL Save As]**.
 
-      Na caixa de diálogo **Salvar como**, na lista suspensa, clique em **Salvar como visualização adicional de principal**.
+      Na caixa de diálogo **[!UICONTROL Save As]**, na lista suspensa, clique em **[!UICONTROL Save as another view of master]**.
 
-      Na caixa de listagem **Nome da pasta**, selecione a pasta onde deseja que a nova imagem principal seja salva.
+      Na caixa de listagem **[!UICONTROL Folder Name]**, selecione a pasta onde deseja salvar a nova imagem principal.
 
-      Clique em **Salvar**.
+      Clique em **[!UICONTROL Save]**.
 
 ## Criação de um alias para uma imagem {#creating-an-alias-for-an-image}
 
-Ao ajustar uma imagem, você pode salvá-la como uma exibição adicional da imagem principal. Para fazer isso, crie um alias para a imagem usando o recurso **Save como visualização adicional do principal**.
+Ao ajustar uma imagem, você pode salvá-la como outra exibição da imagem principal. Para fazer isso, é possível criar um alias para a imagem usando o recurso **[!UICONTROL Save as additional view of master]**.
 
-1. Na Exibição de grade ou Exibição de lista, na lista suspensa **Editar** ao lado de uma imagem para a qual você deseja criar um alias, clique em **Ajustar**.
-1. No canto inferior direito da página, clique em **Salvar como**.
-1. Na caixa de diálogo **Salvar como**, na lista suspensa, clique em **Salvar como exibição de adição de principal**.
-1. Na caixa de listagem **Nome da pasta**, selecione a pasta na qual deseja salvar a imagem com alias.
-1. No campo **Nome do Arquivo**, digite o nome que deseja usar para o alias.
-1. Clique em **Salvar**.
-
+1. Na Exibição de grade ou Exibição de lista, na lista suspensa **[!UICONTROL Edit]** ao lado de uma imagem para a qual você deseja criar um alias, clique em **[!UICONTROL Adjust]**.
+1. No canto inferior direito da página, clique em **[!UICONTROL Save As]**.
+1. Na caixa de diálogo **[!UICONTROL Save As]**, na lista suspensa, clique em **[!UICONTROL Save as additional view of master]**.
+1. Na caixa de listagem **[!UICONTROL Folder Name]**, selecione a pasta na qual deseja salvar a imagem com alias.
+1. No campo **[!UICONTROL File Name]**, digite o nome que deseja usar para o alias.
+1. Clique em **[!UICONTROL Save]**.
