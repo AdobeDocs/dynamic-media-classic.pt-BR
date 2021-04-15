@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Gerenciamento de ativos
-role: Profissional
+role: Business Practitioner
+exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Trabalhar com pastas de ativos{#working-with-asset-folders}
 
@@ -28,26 +28,22 @@ Certifique-se de estabelecer uma estrutura de pastas e uma organização para ar
 
 A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo é exibido no Painel de navegação. Use essas técnicas para localizar pastas na árvore de pastas:
 
-* **Exibição de**
-subpastasSelecione o ícone Expandir pasta para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Exibição de subpastas**  - Selecione o ícone Expandir pasta para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Mover uma**
-pastaVocê pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando Arquivo > Mover pasta.
+* **Mover uma pasta**  - Você pode movê-la arrastando-a e soltando-a no novo local ou selecionando Arquivo > Mover pasta.
 
-* **Ocultar**
-pastasSelecione o ícone Recolher pasta para recolher subpastas. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Ocultar pastas**  - Selecione o ícone Recolher pasta para recolher subpastas. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Abrindo uma**
-pastaSelecione uma pasta para exibir seu conteúdo no Painel Procurar.
+* **Abertura de uma pasta**  - Selecione uma pasta para exibir seu conteúdo no Painel Procurar.
 
 ***Dica **: Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle Expandir/recolher no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.*
 
 ## Criação de pastas {#creating-folders}
 
-Siga estas etapas para criar uma pasta:
+Para criar pastas, siga estas etapas:
 
 1. Na Biblioteca de ativos, selecione a pasta na qual deseja criar uma pasta.
-1. Selecione o botão Add Folder . Esse ícone está localizado na parte superior da lista de pastas.
+1. Selecione o botão **[!UICONTROL Add Folder]**. Esse ícone fica na parte superior da lista de pastas.
 1. Insira um nome descritivo para a nova pasta ou subpasta, digitando-o no campo ao lado do ícone da pasta.
 
    >[!NOTE]
@@ -58,11 +54,9 @@ Siga estas etapas para criar uma pasta:
 
 Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-* ****
-ExclusãoSelecione o botão Remover pasta . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los de lá.
+* **Exclusão**  - Selecione o botão Remover pasta . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los de lá.
 
-* ****
-RenomeaçãoClique duas vezes no nome e insira um novo nome.
+* **Renomeação**  - Clique duas vezes no nome e digite um novo nome.
 
 >[!NOTE]
 >
