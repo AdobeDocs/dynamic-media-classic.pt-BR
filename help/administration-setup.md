@@ -7,15 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
-role: Administrador
+role: Administrator
+exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1938'
 ht-degree: 0%
 
 ---
-
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
@@ -73,7 +73,7 @@ Após adicionar um usuário, o Dynamic Media Classic envia uma mensagem de email
 
 Você pode excluir usuários do Dynamic Media Classic tornando-os inválidos. Usuários inválidos são removidos do sistema e de todas as contas.
 
-1. Clique em **Configurar** > **Configuração de Aplicativo** > A **Configuração de Administração** > **Administração de Utilizador**.
+1. Clique em **Configurar** > **Configuração de Aplicativo** > **Configuração de Administração** > **Administração de Utilizador**.
 1. Selecione um usuário na lista e clique em **Editar**.
 1. Desmarque Válido.
 1. Clique em **Salvar**.
@@ -82,14 +82,14 @@ Você pode excluir usuários do Dynamic Media Classic tornando-os inválidos. Us
 
 Os usuários que foram desativados não têm mais permissão para entrar na conta listada na parte superior do menu Selecionar contas para acessar .
 
-1. Clique em **Configurar** > **Configuração de Aplicativo** > A **Configuração de Administração** > **Administração de Utilizador**.
+1. Clique em **Configurar** > **Configuração de Aplicativo** > **Configuração de Administração** > **Administração de Utilizador**.
 1. Na lista de usuários, selecione ou desmarque a opção Ativa ao lado do nome do usuário.
 
 ### Editar informações de usuário {#editing-user-information}
 
 As informações do usuário que você pode editar dependem de sua função como administrador e da função atribuída ao usuário cujas informações você deseja editar. As opções que estão esmaecidas (indisponíveis) não são editáveis.
 
-1. Vá para **Configuração** > **Configuração de Aplicativo** A **Configuração de Administração** > **Administração de Utilizador**.
+1. Vá para **Configuração** > **Configuração do Aplicativo** > **Configuração da Administração** > **Administração do Utilizador**.
 1. Selecione o usuário e clique em **Editar**.
 1. Selecione a entrada na tabela que mostra a empresa para a qual você está tentando modificar permissões ou acesso e clique no link Gerenciar empresa .
 1. Selecione a função de usuário.
@@ -102,15 +102,15 @@ Você pode filtrar e classificar a lista de usuários para localizar os usuário
 
 Você pode usar as seguintes técnicas de filtragem da lista de usuários:
 
-**Filtrar por** grupoSelecione o menu Por grupo e escolha uma opção para restringir a lista aos usuários de um grupo.
+* **Filtrar por grupo**  - Selecione o menu Por grupo e escolha uma opção para restringir a lista aos usuários em um grupo.
 
-**Filtrar por** função de usuárioSelecione o menu Por função de usuário e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
+* **Filtrar por função de usuário**  - Selecione o menu Por função de usuário e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
 
-**Filtrar por** nome de campoSelecione a opção Ativar filtro por campo. Em seguida, selecione o menu By Field Name , escolha uma coluna para filtrar a lista e selecione o menu Filter Character e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Desmarque a opção Ativar filtro por campo para ver a lista completa.
+* **Filtrar por nome de campo**  - Selecione a opção Ativar filtro por campo . Em seguida, selecione o menu By Field Name , escolha uma coluna para filtrar a lista e selecione o menu Filter Character e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Desmarque a opção Ativar filtro por campo para ver a lista completa.
 
-**Filtrar** usuários inválidosDesmarque a opção Incluir inválido. Os resultados da pesquisa exibem somente os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
+* **Filtrar usuários inválidos**  - Desmarque a opção Incluir inválido . Os resultados da pesquisa exibem somente os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
 
-**Classificar por** cabeçalho de colunaClique em um cabeçalho para classificar todos os usuários por seu status, alfabeticamente por nome, sobrenome ou email, por função de usuário ou por status válido/inválido.
+* **Classificar por cabeçalho de coluna**  - Clique em um cabeçalho para classificar todos os usuários por seu status, alfabeticamente por nome, sobrenome ou email, por função de usuário ou por status válido/inválido.
 
 Se você tiver muitos usuários, poderá limitar o tamanho da lista selecionando o menu Tamanho máximo da lista e escolhendo um número.
 
@@ -161,20 +161,19 @@ A tabela a seguir descreve os relatórios que podem ser gerados na tela Bandwidt
 | Streaming de vídeo | Uso de largura de banda para streaming de vídeo | Rastreie o uso de vídeo de streaming por empresa em intervalos de datas específicos para determinar os padrões de tráfego. |
 | Conteúdo de vídeo | Tempo de reprodução de diferentes vídeos | Determine quais são os vídeos mais visualizados e menos visualizados. |
 
-
 O relatório Conteúdo da imagem fornece informações sobre solicitações para os seguintes tipos de imagem:
 
-**Solicitação** de imagem para imagens.
+* **Solicitação de imagem**  - Solicitações de imagens.
 
-**Solicitações** de miniatura para amostra ou imagens alternativas em visualizadores.
+* **Solicitação de miniatura**  - Solicitações de amostra ou imagens alternativas em visualizadores.
 
-**Mascarar** SolicitaçõesSolicitações para imagens retornando máscaras de escala de cinza.
+* **Solicitação de máscara**  - Solicitações para imagens retornando máscaras de escala de cinza.
 
-**Solicitações** de imagem do mosaico do visualizador carregadas por um visualizador.
+* **Solicitação de mosaico do visualizador**  - Solicitações de imagem carregadas por um visualizador.
 
-**Solicitação** de renderização de imagem de objeto Vnt que retorna uma imagem com objetos especificados nas vinhetas solicitadas.
+* **Solicitação de objeto Vnt**  - Solicitações de renderização de imagem que retornam uma imagem com objetos especificados nas vinhetas solicitadas.
 
-**Solicitação de renderização de Imagem** de Solicitação de Informações de Vnt que retornam informações sobre as vinhetas solicitadas.
+* **Solicitação de informações de Vnt**  - Solicitação de renderização de imagem que retorna informações sobre as vinhetas solicitadas.
 
 >[!NOTE]
 >
@@ -194,27 +193,27 @@ Para gerar uma largura de banda, armazenamento, conteúdo de imagem, domínio, s
 
 Após gerar um relatório na página Largura de banda e armazenamento , é possível escolher as opções para exibir as informações. Você pode escolher como as informações são apresentadas, exibir informações em um gráfico ou grade de dados e especificar um período de tempo para capturar informações. Na Exibição de dados, também é possível classificar as informações e reorganizar as colunas.
 
-**Exibição de dados em um gráfico ou** grade de dadosClique na opção Exibição de gráfico para exibir os dados em um gráfico; clique na opção Exibição de dados para exibir os dados em uma grade de dados.
+* **Exibição de dados em um gráfico ou grade de dados**  - Clique na opção Exibição de Gráfico para exibir dados em um gráfico; clique na opção Exibição de dados para exibir os dados em uma grade de dados.
 
-**Escolha um** tipo de apresentação de relatório No menu Tipo de relatório, escolha Resumo, Diário ou Mensal para organizar os dados em forma de resumo, por dia ou por mês. Nem todos os relatórios fornecem essa opção.
+* **Escolha um tipo de apresentação de relatório**  - No menu Tipo de relatório, escolha Resumo, Diário ou Mensal para organizar os dados em forma de resumo, por dia ou por mês. Nem todos os relatórios fornecem essa opção.
 
-**Especificação de um** período de tempoEscolha as opções para definir um período de tempo para seu relatório e clique em Atualizar após definir um período de tempo:
+* **Especificação de um período**  de tempo - Escolha as opções para definir um período de tempo para seu relatório e clique em Atualizar após definir um período de tempo:
 
-**** Período de tempo predefinidoNo menu Relatório predefinido, escolha uma opção. Por exemplo, escolha Último mês para capturar dados do mês anterior.
+* **Período de tempo predefinido**  - No menu Relatório predefinido, escolha uma opção. Por exemplo, escolha Último mês para capturar dados do mês anterior.
 
-**Personalizar** período de tempoNo menu Relatório predefinido, escolha Personalizado. Em seguida, escolha uma data no menu Mês inicial (ou Data inicial) e uma data no menu # of Months (ou # ou Days) . Para os Relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e de término específica para capturar as informações do relatório.
+* **Período de tempo personalizado**  - No menu Relatório predefinido, escolha Personalizado. Em seguida, escolha uma data no menu Mês inicial (ou Data inicial) e uma data no menu # of Months (ou # ou Days) . Para os Relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e de término específica para capturar as informações do relatório.
 
-**Classificação de dados (somente Exibição de dados)** Para classificar informações em uma coluna, clique no cabeçalho da coluna. Clique novamente para classificar em ordem decrescente.
+* **Classificação de dados (somente Exibição de dados)**  - Para classificar as informações em uma coluna, clique no cabeçalho da coluna. Clique novamente para classificar em ordem decrescente.
 
-**Reorganização de colunas (somente exibição de dados)** Para mover uma coluna para um local diferente na grade de dados, arraste o cabeçalho.
+* **Reorganização de colunas (somente exibição de dados)**  - Para mover uma coluna para um local diferente na grade de dados, arraste o cabeçalho.
 
 ### Exportação e impressão de relatórios {#exporting-and-printing-reports}
 
 Após gerar um relatório, é possível exportar seus dados para uso em planilhas e outros aplicativos. Também é possível imprimir relatórios.
 
-**Exportar** dados do relatórioNa Exibição de dados, classifique e organize os dados conforme necessário. Em seguida, abra o menu Export e escolha um formato: Delimitado por tabulação, separado por vírgulas ou formatado por HTML. Os dados são copiados para a Área de Transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
+* **Exportar dados de relatório**  - Na Exibição de dados, classifique e organize os dados conforme necessário. Em seguida, abra o menu Export e escolha um formato: Delimitado por tabulação, separado por vírgulas ou formatado por HTML. Os dados são copiados para a Área de Transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
 
-**Imprimindo um** relatório, clique em Imprimir, escolha as opções desejadas na caixa de diálogo Imprimir e clique em OK.
+* **Impressão de um relatório**  - Clique em  **[!UICONTROL Print]**, escolha as opções desejadas na caixa de diálogo Imprimir e clique em  **[!UICONTROL OK]**.
 
 ## Erros de imagem {#image-errors}
 
@@ -227,21 +226,21 @@ Os administradores do Dynamic Media Classic podem gerar relatórios de erro de i
    * Clique em um cabeçalho para classificar erros pelas informações do cabeçalho. Por padrão, os erros são classificados por número de ocorrências, do mais alto ao mais baixo.
    * Mova o cursor sobre o campo Response de um erro para ver a mensagem de erro específica.
    * Mova o cursor sobre o campo URL ou o campo Referenciador para ver o link para a imagem ou página da Web do referenciador.
-   * Clique em URL Copiar URL para copiar o link para a imagem real. Você pode colar esse link em uma janela do navegador para ir para a imagem e investigar o erro.
-   * Clique em URL de cópia do referenciador para copiar o link para a página da Web do referenciador.
+   * Clique em **[!UICONTROL URL Copy URL]** para copiar o link para a imagem real. Você pode colar esse link em uma janela do navegador para ir para a imagem e investigar o erro.
+   * Clique em **[!UICONTROL Referrer Copy URL]** para copiar o link para a página da Web do referenciador.
 
 Os erros exibidos são para a empresa na qual você está conectado no momento. Cada erro inclui as seguintes informações:
 
-**IDID da imagem** para a imagem ofensiva.
+* **ID da imagem**  - ID da imagem ofensiva.
 
-**** HoraO intervalo de tempo da primeira vez que o erro foi relatado na última vez em que o erro foi relatado, nas últimas 24 horas.
+* **Hora**  - o intervalo de tempo da primeira vez em que o erro foi relatado na última vez em que o erro foi relatado, nas últimas 24 horas.
 
-**** CountO número de erros relatados na imagem.
+* **Count**  - O número de erros relatados na imagem.
 
-**** RespostaA mensagem de erro específica. Os erros são 4xx ou 5xx.
+* **Resposta**  - A mensagem de erro específica. Os erros são 4xx ou 5xx.
 
-**** URLsLista o URL para a imagem no Scene7.
+* **URLs**  - Lista o URL para a imagem no Dynamic Media Classic.
 
-**** ReferenciadorEspecifica o URL do site de onde a solicitação inicial veio. O referenciador pode ser qualquer site da Web que tenha um link para a imagem.
+* **Referenciador**  - Especifica o URL do site de onde a solicitação inicial veio. O referenciador pode ser qualquer site da Web que tenha um link para a imagem.
 
 As colunas URL e Referenciador têm Copiar URL associado a elas para simplificar o teste.
