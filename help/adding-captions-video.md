@@ -5,15 +5,15 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Visualizadores,Vídeo
-role: Profissional
+role: Business Practitioner
+exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
-
 
 # Adicionar legendas ao vídeo{#adding-captions-to-video}
 
@@ -25,11 +25,13 @@ As legendas também permitem maior acessibilidade, usando legendas ocultas para 
 >
 >O reprodutor de vídeo usado deve ser compatível com a exibição de legendas.
 
-Consulte [Adicionar ou editar uma predefinição do visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) para configurar o Efeito da legenda e editar o próprio Menu da legenda, incluindo o texto do menu para qualquer um dos seguintes visualizadores:
+Para configurar o Efeito da legenda e editar o próprio Menu da legenda, incluindo o texto do menu para qualquer um dos seguintes visualizadores:
 
-* `Universal_HTML5_Video` visualizador.
-* `Universal_HTML5_MixedMedia_dark` visualizador.
-* `Universal_HTML5_MixedMedia_light` visualizador.
+* `Universal_HTML5_Video` visualizador
+* `Universal_HTML5_MixedMedia_dark` visualizador
+* `Universal_HTML5_MixedMedia_light` visualizador
+
+consulte [Adicionar ou editar uma predefinição do visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Consulte também [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -43,7 +45,7 @@ Consulte [Serving static (non-image) content](https://experienceleague.adobe.com
 
    | Tipo de visualizador | Arquivo de legendas |
    |--- |--- |
-   | HTML5 | Se você estiver usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de legenda criado siga o padrão WebVTT (Web Video Text Tracks). A extensão de nome de arquivo de legendagem é .vtt. Você pode obter mais informações sobre o padrão de legendagem WebVTT.<br><br>[Consulte WebVTT](https://dev.w3.org/html5/webvtt/): O formato de Rastreamento de texto do vídeo da Web. <br><br>Há ferramentas e serviços gratuitos e pagos que podem ser usados para criar arquivos de legenda fora do Dynamic Media Classic. Por exemplo, para criar um arquivo de legenda de vídeo simples sem estilização, você pode usar a seguinte ferramenta de edição e criação de legendas online gratuitas: <br><br>[Criador de legendas WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obter melhores resultados, use a ferramenta no Internet Explorer 9 ou superior, no Google Chrome ou no Safari. <br><br>Na ferramenta, no campo  <b>Inserir URL do </b> arquivo de vídeo, cole o URL do arquivo de vídeo e clique em  <b>Carregar</b>. <br><br>Por exemplo, se estiver usando um URL do Dynamic Media Classic para o arquivo de vídeo, clique duas vezes em um ativo de vídeo individual (não um Conjunto de vídeos adaptáveis ou um vídeo Principal) para abri-lo na Exibição de detalhes. No painel direito da Exibição de detalhes, expanda URLs e Código incorporado. Em seguida, no grupo Mobile , à direita de Mobile (Progressive), clique em Copy URL (Copiar URL). Esse processo fornece o URL para o próprio arquivo de vídeo, que pode ser colado no campo <b>Enter URL of video file</b>. O Internet Explorer, o Chrome ou o Safari podem reproduzir nativamente o vídeo. Agora siga as instruções na tela do site para criar e salvar seu arquivo WebVTT. Quando terminar, copie o conteúdo do arquivo de legenda e o cole em um editor de texto simples e salve com uma extensão de nome de arquivo .VTT. <br><br><b>Observação:</b> para oferecer suporte global a legendas de vídeo em idiomas diferentes do inglês, o padrão WebVTT requer a criação de arquivos .vtt e chamadas separadas para cada idioma que você deseja suportar. <br><br>Geralmente, você deseja nomear o arquivo VTT da legenda com o mesmo nome do arquivo de vídeo e anexá-lo com legendas. Ao fazer isso, ele pode ajudá-lo a automatizar a geração dos URLs de vídeo usando seu sistema de gerenciamento de conteúdo da Web existente. |
+   | HTML5 | Se você estiver usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de legenda criado siga o padrão WebVTT (Web Video Text Tracks). A extensão de nome de arquivo de legendagem é .vtt. Você pode obter mais informações sobre o padrão de legendagem WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): O formato de Rastreamento de texto do vídeo da Web. <br><br>Há ferramentas e serviços gratuitos e pagos que podem ser usados para criar arquivos de legenda fora do Dynamic Media Classic. Por exemplo, para criar um arquivo de legenda de vídeo simples sem estilização, você pode usar a seguinte ferramenta de edição e criação de legendas online gratuitas: <br><br>[Criador de legendas WebVTT](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Para obter melhores resultados, use a ferramenta no Internet Explorer 9 ou superior, no Google Chrome ou no Safari. <br><br>Na ferramenta, no campo  <b>Inserir URL do </b> arquivo de vídeo, cole o URL do arquivo de vídeo e clique em  <b>Carregar</b>. <br><br>Por exemplo, se estiver usando um URL do Dynamic Media Classic para o arquivo de vídeo, clique duas vezes em um ativo de vídeo individual (não um Conjunto de vídeos adaptáveis ou um vídeo Principal) para abri-lo na Exibição de detalhes. No painel direito da Exibição de detalhes, expanda URLs e Código incorporado. Em seguida, no grupo Mobile , à direita de Mobile (Progressive), clique em Copy URL (Copiar URL). Esse processo fornece o URL para o próprio arquivo de vídeo, que pode ser colado no campo <b>Enter URL of video file</b>. O Internet Explorer, o Chrome ou o Safari podem reproduzir nativamente o vídeo. Agora siga as instruções na tela do site para criar e salvar seu arquivo WebVTT. Quando terminar, copie o conteúdo do arquivo de legenda e o cole em um editor de texto simples e salve com uma extensão de nome de arquivo .vtt. <br><br><b>Observação:</b> para oferecer suporte global a legendas de vídeo em idiomas diferentes do inglês, o padrão WebVTT requer a criação de arquivos .vtt e chamadas separadas para cada idioma que você deseja suportar. <br><br>Geralmente, você deseja nomear o arquivo VTT da legenda com o mesmo nome do arquivo de vídeo e anexá-lo com legendas. Ao fazer isso, ele pode ajudá-lo a automatizar a geração dos URLs de vídeo usando seu sistema de gerenciamento de conteúdo da Web existente. |
 
 1. No Dynamic Media Classic, faça upload de seu arquivo de legenda XML WebVTT, DFXP ou SMPTE.
 
@@ -59,7 +61,7 @@ Consulte [Serving static (non-image) content](https://experienceleague.adobe.com
 
       `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Observe o `,1` no final do caminho do URL da legenda. Imediatamente após a extensão do nome de arquivo .VTT no caminho, é possível ativar ou desativar o botão de legenda na barra do reprodutor de vídeo, definindo para `1` ou `0`, respectivamente.
+      Observe o `,1` no final do caminho do URL da legenda. Imediatamente após a extensão do nome de arquivo .vtt no caminho, é possível ativar ou desativar o botão de legenda na barra do reprodutor de vídeo, definindo para `1` ou `0`, respectivamente.
 
    * Para obter uma experiência de visualizador de vídeo incorporado, clique em **[!UICONTROL Embed Code]** à direita do nome.
 
@@ -69,5 +71,4 @@ Consulte [Serving static (non-image) content](https://experienceleague.adobe.com
 
       `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Observe o `,1` no final do caminho do URL. Imediatamente após a extensão do nome de arquivo .VTT no caminho do URL, você pode, opcionalmente, ativar ou desativar o botão de legenda na barra do reprodutor de vídeo, definindo para `1` ou `0`, respectivamente.
-
+      Observe o `,1` no final do caminho do URL. Imediatamente após a extensão do nome de arquivo .vtt no caminho do URL, você pode, opcionalmente, ativar ou desativar o botão de legenda na barra do reprodutor de vídeo, definindo para `1` ou `0`, respectivamente.
