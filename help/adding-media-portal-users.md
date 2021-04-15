@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
-role: Administrador,Profissional
+role: Administrator,Business Practitioner
+exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar e gerenciar usuários do Media Portal{#adding-and-managing-media-portal-users}
 
@@ -40,7 +40,7 @@ Usuários do Media Portal, colaboradores e colaboradores-usuários recebem uma m
 
 ## Adicionar um usuário do Media Portal {#adding-a-media-portal-user}
 
-1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administation]**.
+1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Na página Administração de Usuário, clique em **Adicionar**.
 1. Na caixa de diálogo Adicionar usuário , no painel Informações do usuário , digite o Nome, Sobrenome e Endereço de email do usuário e clique em **[!UICONTROL Next]**.
 1. No painel Empresa/função , na lista suspensa Empresas , selecione uma empresa ou empresas para o usuário.
@@ -83,8 +83,8 @@ A planilha de amostra a seguir demonstra como elaborar o layout de um arquivo CS
 
 | Nome | Sobrenome | Email | Senha | Função do usuário | Grupos |
 |--- |--- |--- |--- |--- |--- |
-| Peter | Peterson | `petep@company.com` | welcome | MediaPortalAdmin | PortalCo/IT,PortalCo/Admin |
-| Kevin | Marcas | `kevinm@myco.com` | welcome | MediaPortalUser | PortalCo/MktgGroup, PortalCo/test |
+| Prairie | Kat | `prairiek@company.com` | welcome | MediaPortalAdmin | PortalCo/IT,PortalCo/Admin |
+| Rick | Básico | `rickb@myco.com` | welcome | MediaPortalUser | PortalCo/MktgGroup, PortalCo/test |
 
 
 ### Upload do arquivo CSV {#uploading-the-csv-file}
@@ -105,7 +105,7 @@ Você pode exibir os nomes e endereços de email dos usuários do Media Portal e
 
 1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Na lista suspensa **[!UICONTROL By User Role]**, escolha o nome de uma função de usuário do Media Portal e clique em **[!UICONTROL Refresh]** para exibir os nomes de uma classe de usuário do Media Portal.
-1. Clique em **[!UICONTROL Popup List]** para abrir a janela pop-up. É possível copiar e colar essa lista.
+1. Clique em **[!UICONTROL Popup List]** para abrir a janela pop-up. Copie e cole esta lista.
 
 ## Configuração da mensagem de email de boas-vindas para usuários do Media Portal {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
@@ -115,24 +115,24 @@ Você pode enviar um email de boas-vindas quando adiciona novos usuários do Med
 1. Na tela Configuração de administração do usuário, clique em **[!UICONTROL Email Settings]**.
 1. Na caixa de diálogo Configurações de email , especifique qualquer uma das seguintes configurações:
 
-   **[!UICONTROL Send Email]** Desmarque essa opção se não quiser informar novos usuários por email que você os inscreveu.
+   * **[!UICONTROL Send Email]** - Desmarque essa opção se não quiser informar novos usuários por e-mail que você os inscreveu.
 
-   **[!UICONTROL Default Password]** Insira uma senha temporária para novos usuários ou deixe o campo vazio para que o Dynamic Media Classic gere senhas aleatórias. Os usuários são solicitados a alterar senhas na primeira vez que fizerem logon.
+   * **[!UICONTROL Default Password]** - Digite uma senha temporária para novos usuários ou deixe o campo vazio para que o Dynamic Media Classic gere senhas aleatórias. Os usuários são solicitados a alterar senhas na primeira vez que fizerem logon.
 
-   **[!UICONTROL Replacement URL]** Insira um URL diferente do padrão se os usuários acessarem o Dynamic Media Classic por meio de um URL diferente.
+   * **[!UICONTROL Replacement URL]** - Digite um URL diferente do padrão se os usuários acessarem o Dynamic Media Classic por meio de um URL diferente.
 
 ## Outras tarefas de gerenciamento de usuários {#other-user-management-tasks}
 
 A partir da tela de Configuração de administração do usuário, você também pode executar as seguintes tarefas:
 
-**[!UICONTROL Filter and sort the user list]** Filtre a lista de usuários do Media Portal para localizar usuários. Consulte Filtrar e classificar a lista de usuários.
+* **[!UICONTROL Filter and sort the user list]** - Filtre a lista de usuários do Media Portal para localizar usuários.
 
-**[!UICONTROL Delete users]** Exclua um usuário da lista. Consulte Excluir um usuário.
+* **[!UICONTROL Delete users]** - Remova um usuário da lista.
 
-**[!UICONTROL Activate and deactivate users]** Suspender um usuário de acessar pastas. Consulte Ativar e desativar usuários.
+* **[!UICONTROL Activate and deactivate users]** - Suspender um usuário de acessar pastas.
 
-**[!UICONTROL Edit user information]** Insira informações atualizadas sobre um usuário. Consulte Editar informações de usuário.
+* **[!UICONTROL Edit user information]** - Insira informações atualizadas sobre um usuário.
 
-**[!UICONTROL Create user-defined fields]** Crie campos de metadados personalizados e definidos pelo usuário para ajudar a organizar ativos no Dynamic Media Classic. Os campos também podem ser ativados ou desativados, conforme necessário.
+* **[!UICONTROL Create user-defined fields]** - Crie campos de metadados personalizados e definidos pelo usuário para ajudar a organizar ativos no Dynamic Media Classic. Os campos também podem ser ativados ou desativados, conforme necessário.
 
 Consulte [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
