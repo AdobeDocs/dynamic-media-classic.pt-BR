@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Gerenciamento de ativos
-role: Profissional
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
-
 
 # Práticas recomendadas para otimização da qualidade de suas imagens{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Consulte também [Imagem inteligente](https://experienceleague.adobe.com/docs/ex
 
 * JPG ou PNG são as melhores opções para fornecer imagens em boa qualidade e com tamanho e peso gerenciáveis.
 * Se nenhum comando format for fornecido no URL, o Dynamic Media Image Serving assumirá JPG como padrão para entrega.
-* O JPG compacta em uma proporção de 10:1 e geralmente produz tamanhos de arquivo de imagem menores. O PNG é compactado em uma proporção de cerca de 2:1, exceto em alguns casos, como quando imagens contêm um plano de fundo vazio. Normalmente, porém, os tamanhos dos arquivos PNG são maiores que os arquivos JPG.
+* O JPG compacta em uma proporção de 10:1 e geralmente produz tamanhos de arquivo de imagem menores. O PNG é compactado em uma proporção de cerca de 2:1, exceto às vezes quando as imagens contêm um plano de fundo vazio. Normalmente, porém, os tamanhos dos arquivos PNG são maiores que os arquivos JPG.
 * O JPG usa compactação com perdas, o que significa que os elementos da imagem (pixels) são soltos durante a compactação. Por outro lado, o PNG usa compactação sem perdas.
 * O JPG geralmente compacta imagens fotográficas com mais fidelidade do que imagens sintéticas com bordas e contraste nítidos.
 * Se suas imagens contêm transparência, use o PNG, pois o JPG não oferece suporte à transparência.
@@ -52,7 +52,7 @@ White paper de práticas recomendadas [Nitidez de imagens no Adobe Dynamic Media
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Com o Dynamic Media Classic, você pode aprimorar as imagens na assimilação, na entrega ou em ambos. Na maioria dos casos, no entanto, você deve ajustar a nitidez das imagens usando apenas um método ou o outro, mas não ambos. A nitidez de imagens na entrega, em um URL, normalmente fornece os melhores resultados.
+Com o Dynamic Media Classic, você pode aprimorar as imagens na assimilação, na entrega ou em ambos. No entanto, normalmente, as imagens são aprimoradas usando apenas um método ou o outro, mas não ambos. A nitidez de imagens na entrega, em um URL, normalmente fornece os melhores resultados.
 
 Existem dois métodos de nitidez de imagem que você pode usar:
 
@@ -100,7 +100,7 @@ Como prática recomendada para a compactação JPG, use `&qlt=85,0`.
 
 ## Práticas recomendadas para dimensionamento JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-`jpegSize` é um parâmetro útil se você quiser garantir que uma imagem não exceda um determinado tamanho para entrega em dispositivos com memória limitada.
+O parâmetro `jpegSize` é útil se você quiser garantir que uma imagem não exceda um determinado tamanho para entrega em dispositivos com memória limitada.
 
 * Esse parâmetro é definido em kilobytes ( `jpegSize=<size_in_kilobytes>`). Ela define o tamanho máximo permitido para a entrega de imagens.
 * `&jpegSize=` interage com o parâmetro de compactação JPG  `&qlt=`. Se a resposta JPG com o parâmetro de compactação JPG especificado ( `&qlt=`) não exceder o valor `jpegSize`, a imagem será retornada com `&qlt=`, conforme definido. Caso contrário, `&qlt=` será reduzido gradualmente até que a imagem se ajuste ao tamanho máximo permitido ou até que o sistema determine que não é possível ajustar e retorne um erro.
@@ -119,8 +119,8 @@ Se a imagem exigir mais otimização, ajuste gradualmente os parâmetros de niti
 
 Se os resultados de nitidez ainda não forem satisfatórios, aumente o raio em incrementos decimais. Para cada incremento decimal, reinicie o valor em 1,75 e aumente-o gradualmente para 4. Repita esse processo até atingir o resultado desejado. Embora os valores acima sejam uma abordagem que os estúdios criativos validaram, lembre-se de que é possível começar com outros valores e seguir outras estratégias. Se os resultados são ou não satisfatórios para si é uma questão subjetiva, por isso a experimentação estruturada é fundamental.
 
-À medida que você experimenta, as seguintes sugestões gerais também podem ser úteis para otimizar seu fluxo de trabalho:
+À medida que você experimenta, as seguintes sugestões gerais são úteis para otimizar seu fluxo de trabalho:
 
-* Tente e teste diferentes parâmetros em tempo real, diretamente em um URL do Dynamic Media Classic ou usando a funcionalidade de ajuste de imagem do Dynamic Media Classic, que fornece visualizações em tempo real para operações de ajuste.
-* Como prática recomendada, lembre-se de que é possível agrupar comandos do Dynamic Media Image Serving em uma predefinição de imagem. Uma predefinição de imagem é basicamente macros de comando de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome predefinido personalizado em um caminho de URL faz uma chamada para essas predefinições. Essa funcionalidade ajuda você a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no seu site e reduz o tamanho geral dos URLs.
-* O Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar imagens de nitidez na assimilação. Para casos de uso avançado em que essa pode ser uma opção para ajustar e otimizar os resultados de renderização, o Adobe Professional Services pode ajudá-lo com insight personalizado e práticas recomendadas.
+* Experimente e teste diferentes parâmetros em tempo real, diretamente em um URL do Dynamic Media Classic ou usando a funcionalidade de ajuste de imagem do Dynamic Media Classic. O último fornece visualizações em tempo real para operações de ajuste.
+* Como prática recomendada, lembre-se de que é possível agrupar comandos do Dynamic Media Image Serving em uma predefinição de imagem. Uma predefinição de imagem é basicamente macros de comando de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome predefinido personalizado em um caminho de URL chama essas predefinições. Essa funcionalidade ajuda você a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no seu site e reduz o tamanho geral dos URLs.
+* O Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar nitidez da imagem na assimilação. Para casos de uso avançado em que o ajuste e a otimização de resultados renderizados são uma opção, o Adobe Professional Services pode ajudá-lo com informações personalizadas e práticas recomendadas.
