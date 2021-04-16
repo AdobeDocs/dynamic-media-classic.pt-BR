@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Gerenciamento de ativos
-role: Profissional
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1582'
 ht-degree: 1%
 
 ---
-
 
 # Verificando arquivos de trabalho{#checking-job-files}
 
@@ -121,7 +121,7 @@ Esta tabela mostra os incrementos de tempo, seus valores permitidos e os curinga
 | Horas | 0-23 | Observe o uso de um relógio de 24 horas. | `, - * /` |
 | Dia do mês | 1-31 | Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um caractere curinga `?`. | `, - * / ? L C` |
 | Mês | 1-12 ou Jan, Fev, Mar, Abr, maio, junho, julho, agosto, Set, Set, Out, nov, Dez | Os valores diferenciam maiúsculas de minúsculas. | `, - * /` |
-| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Dom | Os valores diferenciam maiúsculas de minúsculas. Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um ? caractere curinga. | `, - * / ? L C #` |
+| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Dom | Os valores diferenciam maiúsculas de minúsculas. Não é possível especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um caractere curinga `?`. | `, - * / ? L C #` |
 | Ano (opcional) | Empty ou 1970-2099 |  | `, - * /` |
 
 
