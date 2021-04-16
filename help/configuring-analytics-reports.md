@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: Engenheiro de dados,Administrador,Profissional de negócios
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
-
 
 # Configuração de relatórios do Adobe Analytics{#configuring-adobe-analytics-reports}
 
@@ -26,7 +26,7 @@ Além de associar eventos do visualizador com variáveis, a tela Configuração 
 
 >[!NOTE]
 >
->Sempre que alterar as configurações do Relatório do Adobe Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics a partir do Adobe Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e publicar novamente.
+>Sempre que alterar as configurações do Relatório do Adobe Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics a partir do Adobe Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e, em seguida, republicar.
 
 Consulte [Fazer logon no Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
@@ -38,7 +38,7 @@ Use a tela Configuração do Adobe Analytics para associar eventos do visualizad
 
 **Para atribuir variáveis do Adobe Analytics a eventos e variáveis do visualizador do Dynamic Media Classic**
 
-1. Depois de fazer logon no Adobe Analytics pelo Dynamic Media Classic e selecionar um conjunto de relatórios, na página Configuração do Adobe Analytics, na coluna à direita da tabela, ative um evento do visualizador clicando em **Ativar**.
+1. Depois de fazer logon no Adobe Analytics pelo Dynamic Media Classic e selecionar um conjunto de relatórios, na página Configuração do Adobe Analytics, na coluna da tabela à direita, ative um evento do visualizador clicando em **[!UICONTROL Enable]**.
 1. Na coluna Variáveis , exiba o seletor de par de variáveis clicando no botão de seta do Evento do visualizador desejado.
 
    Consulte [Eventos do visualizador](configuring-analytics-reports.md#viewer_events).
