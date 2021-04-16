@@ -8,35 +8,32 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
-role: Profissional
+role: Business Practitioner
+exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Gerenciamento de variações de conteúdo{#managing-content-variations}
 
 Use conjuntos de modelos para gerenciar a maneira como as variações de ativos são publicadas.
 
-Crie um conjunto de modelos para gerenciar variações de um modelo. Você pode controlar qual variação é usada sem alterar o código do site. Isso ajuda os gerentes de conteúdo a alternarem o conteúdo sem exigir que a TI altere um URL no código da Web.
+Crie um conjunto de modelos para gerenciar variações de um modelo. Você pode controlar qual variação é usada sem alterar o código do site. Esse método ajuda os gerentes de conteúdo a girarem o conteúdo sem exigir que a TI altere um URL no código da Web.
 
 URLs universais são usados para exibir a variação do modelo que aparece na página, com base na ordem em que estão listados no conjunto. O modelo na parte superior da lista de conjuntos de modelos é sempre publicado.
 
 Você pode usar qualquer URL predefinido de imagem da lista. URLs predefinidos de imagem são como URLs universais. Pode haver mais de um URL predefinido de imagem.
 
-1. Clique em Criar > Conjuntos de modelos.
+1. Clique em **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**. O construtor é aberto.
+1. Selecione um modelo e clique em **[!UICONTROL Add/Preview]**.
+1. Modifique as propriedades do modelo e clique em **[!UICONTROL Save As]** para criar outra versão.
+1. Digite um nome e clique em **[!UICONTROL Save]**.
 
-   O construtor é aberto.
-
-1. Selecione um modelo e, em seguida, clique em Adicionar/Visualizar.
-1. Modifique as propriedades do modelo e clique em Salvar como para criar uma nova versão.
-1. Digite um nome e clique em Salvar.
-
-   Você deve publicar o ativo e o template.
+   O ativo e o template devem ser publicados.
 
 1. Vá para a página Detalhes para obter um URL de cópia da seção URLs .
 
@@ -44,5 +41,4 @@ Você pode mover um modelo na ordem do modelo (por exemplo, para a parte superio
 
 >[!NOTE]
 >
->Talvez seja necessário limpar o cache para ver as alterações. A alteração só aparece no site depois que a alteração passou pelo ciclo do cache.
-
+>Se necessário, limpe o cache para ver as alterações. A alteração só aparece no site depois que a alteração passou pelo ciclo do cache.
