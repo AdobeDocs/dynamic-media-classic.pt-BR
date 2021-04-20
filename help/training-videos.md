@@ -2,7 +2,7 @@
 title: Vídeos de treinamento do Dynamic Media Classic
 description: Vídeos de treinamento do Dynamic Media Classic sobre a introdução, geração dinâmica de imagens, vídeo, portal de mídia, modelos e criação e renderização de imagens.
 feature: Dynamic Media Classic
-role: Administrador,Profissional
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

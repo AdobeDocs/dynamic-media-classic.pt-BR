@@ -3,7 +3,7 @@ description: 'O informativo do Dynamic Media disponibilizado pelo Experience Lea
 keywords: dynamic media, boletim informativo, atualizações de produtos, dicas e truques, eventos, sucesso do cliente, blog, blogs, imagens, vídeos, recursos, recursos
 title: Informativo do Dynamic Media
 feature: Dynamic Media Classic
-role: Administrador,Profissional
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

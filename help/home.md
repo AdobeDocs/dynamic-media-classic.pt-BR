@@ -5,7 +5,7 @@ description: Documentação técnica do Adobe Dynamic Media Classic
 seo-description: 'Documentação técnica, notas de versão e materiais de autoajuda do Adobe Dynamic Media Classic, antigo Scene7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
-role: Administrador,Profissional
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt

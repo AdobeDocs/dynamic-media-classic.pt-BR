@@ -3,7 +3,7 @@ title: Recursos populares
 description: Links para webinars, vídeos de treinamento, informações sobre práticas recomendadas e recursos do desenvolvedor.
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
-role: Administrador,Profissional
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
