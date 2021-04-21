@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
+exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
 
-
 # Criação de destinos de zoom para zoom guiado{#creating-zoom-targets-for-guided-zoom}
 
-Os direcionamentos de zoom orientam seus visualizadores a determinadas partes de uma imagem. Além do zoom de forma livre, os visualizadores podem clicar em uma miniatura de destino de zoom e aplicar zoom na parte da imagem em que deseja que se concentrem. Os direcionamentos de zoom são uma oportunidade para que você destaque as partes atraentes ou interessantes de uma imagem.
+Os direcionamentos de zoom orientam seus visualizadores a determinadas partes de uma imagem. Além do zoom de forma livre, os visualizadores podem clicar em uma miniatura de direcionamento de zoom e aplicar zoom na parte da imagem em que deseja que se concentrem. Os direcionamentos de zoom são uma oportunidade para que você destaque as partes atraentes ou interessantes de uma imagem.
 
 ![Criação de metas de zoom para zoom guiado](/help/assets/zo_guided_zoom.png)
 
@@ -42,11 +42,11 @@ Crie e edite metas de zoom na tela Editor de direcionamento de zoom . Para abrir
 * Clique no botão **[!UICONTROL Edit]** de sobreposição e escolha Metas de zoom.
 * No Painel Procurar, exiba a imagem em **[!UICONTROL Detail View]** e clique em **[!UICONTROL Zoom Targets]**.
 
-Na tela Editor de direcionamento de zoom, clique no botão **[!UICONTROL Select Target]** (seta) para selecionar um destino antes de alterar seu tamanho ou posição. Clique em **[!UICONTROL Add Targets]** (retângulo) para criar um direcionamento de zoom na imagem. A tela Editor de direcionamento de zoom também oferece ferramentas para excluir, copiar e nomear direcionamentos de zoom.
+Na tela Editor de direcionamento de zoom, clique no botão **[!UICONTROL Select Target]** (seta) para selecionar um destino antes de alterar seu tamanho ou posição. Para criar um destino de zoom na imagem, clique em **[!UICONTROL Add Targets]** (retângulo). A página Editor de direcionamento de zoom também oferece ferramentas para excluir, copiar e nomear direcionamentos de zoom.
 
 ### Criação de um direcionamento de zoom {#creating-a-zoom-target}
 
-Abra a tela Editor de direcionamento de zoom e siga estas etapas para criar um direcionamento de zoom:
+Para criar um direcionamento de zoom, abra a página Editor de direcionamento de zoom e faça o seguinte:
 
 1. Clique em **[!UICONTROL Add Targets]** (retângulo), mova o ponteiro sobre a imagem e clique no local em que deseja direcionar o zoom.
 
@@ -54,11 +54,9 @@ Abra a tela Editor de direcionamento de zoom e siga estas etapas para criar um d
 
 1. Clique em **[!UICONTROL Select Target]** (seta), clique para selecionar o direcionamento de zoom que você criou e ajuste o tamanho e a posição do destino.
 
-   * ****
-RedimensionamentoMova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou diminuir o destino.
+   * **Redimensionamento**  - Mova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou diminuir o destino.
 
-   * ****
-PosicionamentoMova o ponteiro sobre o destino de zoom e arraste-o para um local diferente.
+   * **Posicionamento**  - Mova o ponteiro sobre o destino de zoom e arraste-o para um local diferente.
 
 1. Digite um nome para o direcionamento de zoom na caixa Nome.
 
@@ -77,25 +75,20 @@ PosicionamentoMova o ponteiro sobre o destino de zoom e arraste-o para um local 
 
 ### Editar destinos de zoom {#editing-zoom-targets}
 
-Use essas técnicas na tela Editor de direcionamento de zoom para editar metas de zoom:
+Para editar metas de zoom, use as seguintes técnicas na página Editor de direcionamento de zoom:
 
-* ****
-Reposicionamento Com o botão Selecionar meta (a seta), clique no target para selecioná-lo. Em seguida, arraste o target para um local diferente.
+* **Reposicionamento**  - Com o botão Selecionar destino (a seta), clique no target para selecioná-lo. Em seguida, arraste o target para um local diferente.
 
-* ****
-Redimensionamento Com o botão Selecionar destino (a seta), clique no destino para selecioná-lo. Em seguida, mova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou diminuir o destino.
+* **Redimensionamento**  - Com o botão Selecionar destino (a seta), clique no destino para selecioná-lo. Para aumentar ou diminuir o destino, mova o ponteiro sobre um canto do destino de zoom e arraste.
 
-* ****
-ExclusãoClique na imagem em miniatura do público-alvo no lado direito da tela. Em seguida, clique em **[!UICONTROL Delete Target]**.
+* **Exclusão**  - Clique na imagem em miniatura do público-alvo no lado direito da tela. Em seguida, clique em **[!UICONTROL Delete Target]**.
 
-* ****
-RenomeaçãoClique na imagem em miniatura do público-alvo no lado direito da tela. Em seguida, insira um nome no campo de texto **[!UICONTROL Name]** e clique em **[!UICONTROL Save]**.
+* **Renomeação**  - Clique na imagem em miniatura do público-alvo no lado direito da tela. Em seguida, insira um nome no campo de texto **[!UICONTROL Name]** e clique em **[!UICONTROL Save]**.
 
 ### Copiando destinos de zoom {#copying-zoom-targets}
 
-Você pode copiar destinos de zoom de uma imagem para outra. Copie os destinos quando duas imagens apresentarem conteúdo semelhante e seus destinos de zoom pertencerem aos mesmos locais. Siga estas etapas para copiar os destinos de zoom para outra imagem:
+Você pode copiar destinos de zoom de uma imagem para outra. Copie os destinos quando duas imagens apresentarem conteúdo semelhante e seus destinos de zoom pertencerem aos mesmos locais. Para copiar destinos de zoom para outra imagem, faça o seguinte:
 
 1. Abra a imagem com direcionamentos de zoom que deseja copiar na tela Editor de direcionamento de zoom.
 1. Clique em **[!UICONTROL Copy Targets To]**.
 1. Na caixa de diálogo Selecionar imagens , selecione uma imagem e clique em **[!UICONTROL Select]**.
-
