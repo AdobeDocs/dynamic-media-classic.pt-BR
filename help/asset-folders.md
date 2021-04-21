@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
 * **Abertura de uma pasta**  - Selecione uma pasta para exibir seu conteúdo no Painel Procurar.
 
-***Dica **: Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle Expandir/recolher no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.*
+>[!TIP]
+>
+>Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.
 
 ## Criação de pastas {#creating-folders}
 
