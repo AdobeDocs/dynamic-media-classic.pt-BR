@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
+exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
-
 
 # Upload dos arquivos PDF{#uploading-the-pdf-files}
 
@@ -76,4 +76,3 @@ Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
 >[!NOTE]
 >
 >Para obter detalhes sobre todas as opções de PDF, consulte [opções de upload de PDF](pdfs.md#pdf_upload_options).
-
