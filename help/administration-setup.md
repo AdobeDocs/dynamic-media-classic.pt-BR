@@ -10,9 +10,9 @@ feature: Dynamic Media Classic
 role: Administrator
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1938'
+source-wordcount: '1814'
 ht-degree: 0%
 
 ---
@@ -43,23 +43,23 @@ Após adicionar um usuário, o Dynamic Media Classic envia uma mensagem de email
 
 ### Adicionar um usuário ou administrador {#adding-a-user-or-administrator}
 
-1. Clique em Configuração > Configuração do aplicativo > Configuração da administração > Administração do usuário.
-1. Clique em Adicionar.
-1. Insira o nome e o endereço de email do usuário ou administrador que deseja adicionar e clique em Avançar.
+1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Clique em **[!UICONTROL Add]**.
+1. Insira o nome e o endereço de email do usuário ou administrador que deseja adicionar e clique em **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
-   >O caractere apóstrofo (‘) não é permitido nos endereços de email.
+   >O caractere apóstrofo (`‘`) não é permitido em endereços de email.
 
-1. Escolha uma opção Função para atribuir uma função ao usuário.
+1. Para atribuir uma função ao usuário, escolha uma opção Função .
 
    Consulte [Funções e privilégios de usuário do Dynamic Media Classic](administration-setup.md#user_administration).
 
-1. Selecione um nome de empresa para adicionar um usuário a uma empresa.
-1. Se quiser adicionar o usuário a um grupo (se estiver adicionando um usuário ou colaborador do Media Portal), clique em Avançar e adicione o usuário.
-1. Clique em Salvar para concluir a configuração do usuário.
+1. Para adicionar um usuário a uma empresa, selecione um nome de empresa.
+1. Se quiser adicionar o usuário a um grupo (se estiver adicionando um usuário ou colaborador do Media Portal), clique em **[!UICONTROL Next]** e adicione o usuário.
+1. Clique em **[!UICONTROL Save]** para concluir a configuração do usuário.
 
-   Depois de salvar, um prompt pergunta se você deseja adicionar um usuário a outra empresa. Clique em Adicionar se desejar adicionar o usuário a uma empresa.
+   Depois de salvar, um prompt pergunta se você deseja adicionar um usuário a outra empresa. Clique em **[!UICONTROL Add]** se desejar adicionar o usuário a uma empresa.
 
    Todos os novos usuários recebem uma senha gerada aleatoriamente; os usuários devem alterar as senhas na primeira vez que fizerem logon no aplicativo de desktop do Dynamic Media Classic.
 
@@ -67,34 +67,34 @@ Após adicionar um usuário, o Dynamic Media Classic envia uma mensagem de email
 
    Se o usuário não receber o email de boas-vindas, faça com que ele acesse a página de logon do Dynamic Media Classic (https://s7sps1.scene7.com) e clique em Esqueceu minha senha. A senha é redefinida e um novo email é enviado. Se o usuário não receber o email e ele não estiver na pasta de lixo eletrônico, entre em contato com o Suporte Técnico.
 
-   Ao adicionar novos usuários do Media Portal, você também pode ir até Configuração > Configuração do aplicativo > Administração do usuário, clicar em Fazer upload da lista de usuários e selecionar um arquivo .csv que não contenha mais de 500 usuários.
+   Ao adicionar novos usuários do Media Portal, você também pode ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, clicar em **[!UICONTROL Upload User List]** e selecionar um arquivo .csv que não contenha mais de 500 usuários.
 
 ### Excluindo um usuário {#deleting-a-user}
 
 Você pode excluir usuários do Dynamic Media Classic tornando-os inválidos. Usuários inválidos são removidos do sistema e de todas as contas.
 
-1. Clique em **Configurar** > **Configuração de Aplicativo** > **Configuração de Administração** > **Administração de Utilizador**.
-1. Selecione um usuário na lista e clique em **Editar**.
+1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Selecione um usuário na lista e clique em **[!UICONTROL Edit]**.
 1. Desmarque Válido.
-1. Clique em **Salvar**.
+1. Clique em **[!UICONTROL Save]**.
 
 ### Ativar ou desativar usuários {#activating-or-deactivating-users}
 
 Os usuários que foram desativados não têm mais permissão para entrar na conta listada na parte superior do menu Selecionar contas para acessar .
 
-1. Clique em **Configurar** > **Configuração de Aplicativo** > **Configuração de Administração** > **Administração de Utilizador**.
-1. Na lista de usuários, selecione ou desmarque a opção Ativa ao lado do nome do usuário.
+1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Na lista de usuários, selecione ou desmarque a opção **[!UICONTROL Active]** ao lado do nome do usuário.
 
 ### Editar informações de usuário {#editing-user-information}
 
 As informações do usuário que você pode editar dependem de sua função como administrador e da função atribuída ao usuário cujas informações você deseja editar. As opções que estão esmaecidas (indisponíveis) não são editáveis.
 
-1. Vá para **Configuração** > **Configuração do Aplicativo** > **Configuração da Administração** > **Administração do Utilizador**.
-1. Selecione o usuário e clique em **Editar**.
-1. Selecione a entrada na tabela que mostra a empresa para a qual você está tentando modificar permissões ou acesso e clique no link Gerenciar empresa .
+1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Selecione o usuário e clique em **[!UICONTROL Edit]**.
+1. Selecione a entrada na tabela que mostra a empresa para a qual você está tentando modificar permissões ou acesso e clique em **[!UICONTROL Manage Company]**.
 1. Selecione a função de usuário.
-1. Se quiser alterar a associação de grupo do usuário (se estiver editando ou adicionando um usuário ou colaborador do Media Portal), clique em Avançar e edite a associação de grupo.
-1. Clique em **Salvar**.
+1. Se quiser alterar a associação de grupo do usuário (se estiver editando ou adicionando um usuário ou colaborador do Media Portal), clique em **[!UICONTROL Next]** e edite a associação de grupo.
+1. Clique em **[!UICONTROL Save]**.
 
 ### Filtragem e classificação da lista de usuários {#filtering-and-sorting-the-user-list}
 
@@ -102,13 +102,13 @@ Você pode filtrar e classificar a lista de usuários para localizar os usuário
 
 Você pode usar as seguintes técnicas de filtragem da lista de usuários:
 
-* **Filtrar por grupo**  - Selecione o menu Por grupo e escolha uma opção para restringir a lista aos usuários em um grupo.
+* **Filtrar por grupo**  - Selecione o  **[!UICONTROL By Group]** menu e escolha uma opção para restringir a lista aos usuários em um grupo.
 
-* **Filtrar por função de usuário**  - Selecione o menu Por função de usuário e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
+* **Filtrar por função de usuário**  - Selecione o  **[!UICONTROL By User Role]** menu e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
 
-* **Filtrar por nome de campo**  - Selecione a opção Ativar filtro por campo . Em seguida, selecione o menu By Field Name , escolha uma coluna para filtrar a lista e selecione o menu Filter Character e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Desmarque a opção Ativar filtro por campo para ver a lista completa.
+* **Filtrar por nome**  de campo - Selecione  **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o menu **[!UICONTROL By Field Name]**, escolha uma coluna para filtrar a lista, selecione o menu Filtrar caractere e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Para ver a lista completa, desmarque a opção **[!UICONTROL Enable Filter By Field]**.
 
-* **Filtrar usuários inválidos**  - Desmarque a opção Incluir inválido . Os resultados da pesquisa exibem somente os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
+* **Filtrar usuários**  inválidos - Desmarcar  **[!UICONTROL Include Invalid]**. Os resultados da pesquisa exibem somente os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
 
 * **Classificar por cabeçalho de coluna**  - Clique em um cabeçalho para classificar todos os usuários por seu status, alfabeticamente por nome, sobrenome ou email, por função de usuário ou por status válido/inválido.
 
@@ -144,13 +144,13 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 ## Largura de banda e armazenamento {#bandwidth-storage}
 
-Os administradores do Dynamic Media Classic podem gerar largura de banda, armazenamento e outros tipos de relatórios para as empresas que administram. Esses relatórios estão disponíveis na tela Bandwidth &amp; Storage (Largura de banda e armazenamento).
+Os administradores do Dynamic Media Classic podem gerar largura de banda, armazenamento e outros tipos de relatórios para as empresas que administram. Esses relatórios estão disponíveis na página Largura de banda e armazenamento .
 
-Para abrir esta tela, clique em Configuração > Configuração pessoal. Expanda Configuração da administração e clique em Largura de banda e Armazenamento.
+Para abrir esta página, clique em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**. Expanda **[!UICONTROL Administration Setup]** e clique em **[!UICONTROL Bandwidth & Storage]**.
 
 ### Tipos de relatórios {#types-of-reports}
 
-A tabela a seguir descreve os relatórios que podem ser gerados na tela Bandwidth &amp; Storage :
+A tabela a seguir descreve os relatórios que podem ser gerados a partir da página Largura de banda e Armazenamento:
 
 | Relatório | Informações | Use |
 |:--- |:--- |:--- |
@@ -183,9 +183,9 @@ O relatório Conteúdo da imagem fornece informações sobre solicitações para
 
 Para gerar uma largura de banda, armazenamento, conteúdo de imagem, domínio, streaming de vídeo ou relatório de conteúdo de vídeo:
 
-1. Escolha Configuração> Configuração Pessoal.
-1. Expanda Configuração da administração e clique em Largura de banda e Armazenamento.
-1. Clique em uma guia : Largura de banda, armazenamento, conteúdo de imagem, domínio, transmissão de vídeo ou conteúdo de vídeo.
+1. Escolha **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+1. Expanda Configuração da Administração e clique em **[!UICONTROL Bandwidth & Storage]**.
+1. Clique em uma guia : **[!UICONTROL Bandwidth]**, **[!UICONTROL Storage]**, **[!UICONTROL Image Content]**, **[!UICONTROL Domain]**, **[!UICONTROL Video Streaming]** ou **[!UICONTROL Video Content]**.
 
    Consulte [Tipos de relatórios](administration-setup.md#types_of_reports).
 
@@ -193,15 +193,15 @@ Para gerar uma largura de banda, armazenamento, conteúdo de imagem, domínio, s
 
 Após gerar um relatório na página Largura de banda e armazenamento , é possível escolher as opções para exibir as informações. Você pode escolher como as informações são apresentadas, exibir informações em um gráfico ou grade de dados e especificar um período de tempo para capturar informações. Na Exibição de dados, também é possível classificar as informações e reorganizar as colunas.
 
-* **Exibição de dados em um gráfico ou grade de dados**  - Clique na opção Exibição de Gráfico para exibir dados em um gráfico; clique na opção Exibição de dados para exibir os dados em uma grade de dados.
+* **Exibição de dados em um gráfico ou grade de dados**  - Clique em  **[!UICONTROL Chart View]** para exibir os dados em um gráfico; clique em  **[!UICONTROL Data View]** para exibir dados em uma grade de dados.
 
-* **Escolha um tipo de apresentação de relatório**  - No menu Tipo de relatório, escolha Resumo, Diário ou Mensal para organizar os dados em forma de resumo, por dia ou por mês. Nem todos os relatórios fornecem essa opção.
+* **Escolha de um tipo de apresentação de relatório**  - No menu Tipo de relatório, clique em  **[!UICONTROL Summary]**,  **[!UICONTROL Daily]** ou  **[!UICONTROL Monthly]** para organizar os dados em forma de resumo, por dia ou por mês. Nem todos os relatórios fornecem essa opção.
 
-* **Especificação de um período**  de tempo - Escolha as opções para definir um período de tempo para seu relatório e clique em Atualizar após definir um período de tempo:
+* **Especificação de um período**  de tempo - Escolha as opções para definir um período de tempo para seu relatório e, em seguida, clique em  **[!UICONTROL Update]** após definir um período de tempo:
 
 * **Período de tempo predefinido**  - No menu Relatório predefinido, escolha uma opção. Por exemplo, escolha Último mês para capturar dados do mês anterior.
 
-* **Período de tempo personalizado**  - No menu Relatório predefinido, escolha Personalizado. Em seguida, escolha uma data no menu Mês inicial (ou Data inicial) e uma data no menu # of Months (ou # ou Days) . Para os Relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e de término específica para capturar as informações do relatório.
+* **Período de tempo personalizado**  - No menu Relatório predefinido, clique em  **[!UICONTROL Custom]**. Em seguida, escolha uma data no menu **[!UICONTROL Start Month]** (ou **[!UICONTROL Start Date]**) e uma data no menu # of Months (ou # ou Days) . Para os Relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e de término específica para capturar as informações do relatório.
 
 * **Classificação de dados (somente Exibição de dados)**  - Para classificar as informações em uma coluna, clique no cabeçalho da coluna. Clique novamente para classificar em ordem decrescente.
 
@@ -211,23 +211,23 @@ Após gerar um relatório na página Largura de banda e armazenamento , é poss�
 
 Após gerar um relatório, é possível exportar seus dados para uso em planilhas e outros aplicativos. Também é possível imprimir relatórios.
 
-* **Exportar dados de relatório**  - Na Exibição de dados, classifique e organize os dados conforme necessário. Em seguida, abra o menu Export e escolha um formato: Delimitado por tabulação, separado por vírgulas ou formatado por HTML. Os dados são copiados para a Área de Transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
+* **Exportar dados de relatório**  - Na Exibição de dados, classifique e organize os dados conforme necessário. Em seguida, abra o menu **[!UICONTROL Export]** e escolha um formato: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]** ou **[!UICONTROL HTML Formatted]**. Os dados são copiados para a Área de Transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
 
 * **Impressão de um relatório**  - Clique em  **[!UICONTROL Print]**, escolha as opções desejadas na caixa de diálogo Imprimir e clique em  **[!UICONTROL OK]**.
 
 ## Erros de imagem {#image-errors}
 
-Os administradores do Dynamic Media Classic podem gerar relatórios de erro de imagem. Um relatório de Erro de imagem fornece uma lista dos 20 erros de imagem mais frequentes, nas últimas 24 horas, para a empresa na qual você está conectado no momento. Siga estas etapas para gerar um relatório de Erro de imagem:
+Os administradores do Dynamic Media Classic podem gerar relatórios de erro de imagem. Um relatório de Erro de imagem fornece uma lista dos 20 erros de imagem mais frequentes, nas últimas 24 horas, para a empresa na qual você está conectado no momento. Para gerar um relatório de Erro de imagem, faça o seguinte:
 
-1. Clique em Configuração > Configuração pessoal.
-1. Expanda Configuração da administração e clique em Erros de imagem.
+1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+1. Expanda Configuração da Administração e clique em **[!UICONTROL Image Errors]**.
 1. (Opcional) Siga um destes procedimentos:
 
-   * Clique em um cabeçalho para classificar erros pelas informações do cabeçalho. Por padrão, os erros são classificados por número de ocorrências, do mais alto ao mais baixo.
+   * Para classificar erros pelas informações do cabeçalho, clique em um cabeçalho. Por padrão, os erros são classificados por número de ocorrências, do mais alto ao mais baixo.
    * Mova o cursor sobre o campo Response de um erro para ver a mensagem de erro específica.
-   * Mova o cursor sobre o campo URL ou o campo Referenciador para ver o link para a imagem ou página da Web do referenciador.
-   * Clique em **[!UICONTROL URL Copy URL]** para copiar o link para a imagem real. Você pode colar esse link em uma janela do navegador para ir para a imagem e investigar o erro.
-   * Clique em **[!UICONTROL Referrer Copy URL]** para copiar o link para a página da Web do referenciador.
+   * Para ver o link para a imagem ou página da Web do referenciador, mova o cursor sobre o campo URL ou o campo Referenciador .
+   * Para copiar o link para a imagem real, clique em **[!UICONTROL URL Copy URL]**. Você pode colar esse link em uma janela do navegador para ir para a imagem e investigar o erro.
+   * Para copiar o link para a página da Web do referenciador, clique em **[!UICONTROL Referrer Copy URL]**.
 
 Os erros exibidos são para a empresa na qual você está conectado no momento. Cada erro inclui as seguintes informações:
 
