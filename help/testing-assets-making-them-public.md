@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
-
 
 # Testar ativos antes de torná-los públicos {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ Como a localização da solicitação original deve ser confirmada, o tráfego d
 
 Os ativos não publicados ficam imediatamente disponíveis nos serviços de Teste Seguro, sem a necessidade de publicar. Isso permite que você execute uma pré-visualização antes que os ativos sejam publicados em seu servidor de imagens voltado para o público.
 
-***observação **: Os serviços de Teste Seguro usam o Servidor de Catálogo que está configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste Seguro, esteja ciente de que todos os ativos carregados no Dynamic Media Classic imediatamente se tornam disponíveis nos serviços de Teste Seguro. Essa funcionalidade é verdadeira independentemente de os ativos estarem ou não marcados para publicação no upload.*
+>[!NOTE]
+>
+>Os serviços de Teste Seguro usam o Servidor de Catálogo que está configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste Seguro, esteja ciente de que todos os ativos carregados no Dynamic Media Classic imediatamente se tornam disponíveis nos serviços de Teste Seguro. Essa funcionalidade é verdadeira independentemente de os ativos serem ou não marcados para publicação no upload.
 
 Os serviços de Teste Seguro atualmente oferecem suporte aos seguintes tipos de ativos e funcionalidades:
 
@@ -145,4 +147,3 @@ Execute os seguintes testes:
    Acesse sua rede de fora (por exemplo, de seu computador pessoal ou por uma conexão 3G) e verifique se a versão pública do site mostra todos os ativos publicados, mas nenhum conteúdo não publicado.
 
    Confirme se a versão de armazenamento temporário não mostra nenhum ativo porque você está acessando o serviço de Teste Seguro a partir de um endereço IP não aprovado.
-
