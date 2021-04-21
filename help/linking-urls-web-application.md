@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
-
 
 # Vincular URLs ao aplicativo da Web{#linking-urls-to-your-web-application}
 
@@ -28,7 +28,9 @@ Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplica
 
 Você pode obter uma string de URL gerada por uma Predefinição de imagem a partir de Visualização ou da Exibição de detalhes. Depois de copiar o URL, ele chega à Área de transferência para que você possa colá-lo conforme necessário.
 
-***Observação **: O URL não fica ativo até que você publique o ativo.*
+>[!NOTE]
+>
+>O URL não fica ativo até que você publique o ativo.
 
 ### Obter um URL de predefinição de imagem a partir de Visualização {#obtaining-an-image-preset-url-from-preview}
 
