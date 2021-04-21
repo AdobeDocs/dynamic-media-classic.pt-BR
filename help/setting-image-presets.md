@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,Image Presets
+feature: Dynamic Media Classic,Predefinições de imagem
 role: Business Practitioner
+exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 10%
 
 ---
-
 
 # Configuração de predefinições de imagens{#setting-up-image-presets}
 
@@ -30,7 +30,7 @@ As imagens que são reduzidas quando são entregues dinamicamente de um servidor
 
 Você pode criar suas próprias Predefinições de imagem se for um administrador da empresa. Você pode criar novas Predefinições de imagem ou começar com uma Predefinição de imagem padrão fornecida pelo Dynamic Media Classic, editá-la e salvá-la com um novo nome.
 
-**Para criar uma predefinição de imagem**
+**Para criar uma predefinição de imagem:**
 
 1. Clique em **Configurar** > **Predefinições de imagem**.
 
@@ -64,7 +64,7 @@ opções de Mascaramento (USM)Insira as configurações mostradas aqui:
    | Tipo de predefinição | Tamanho | USM: Valor | USM: Raio | USM: Limite |
    |--- |--- |--- |--- |--- |
    | Venda cruzada (miniatura) | 75 x 75 | 1,5 | 0,8 | 5 |
-   | Miniatura | 150 x 150 | 1.1. | 3 | 5 |
+   | Miniatura | 150 x 150 | 1.1. | 1 | 5 |
    | Principal | 350 x 350 | 1 | 1 | 6 |
    | Ampliar | 500 x 500 | 1.2. | 1.2. | 5 |
 
