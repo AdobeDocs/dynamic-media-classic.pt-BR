@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1581'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,9 @@ As tarefas são listadas nessas categorias na guia Histórico da página Trabalh
 
 **Enviado** porListas que carregaram os ativos.
 
-***Observação **: Você pode cancelar trabalhos de publicação e upload em andamento clicando no botão Cancelar ao lado da barra de progresso.*
+>[!NOTE]
+>
+>Você pode cancelar trabalhos de publicação e upload em andamento clicando no botão Cancelar ao lado da barra de progresso.
 
 ## Alteração de exibições na página Trabalhos {#changing-views-on-the-jobs-page}
 
