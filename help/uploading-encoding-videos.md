@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
+source-wordcount: '3930'
 ht-degree: 1%
 
 ---
-
 
 # Upload e codificação de vídeos{#uploading-and-encoding-videos}
 
@@ -248,9 +248,9 @@ Por exemplo, suponha que o vídeo de origem seja 1920 x 1080. Na tabela a seguir
 
 | Tipo de vídeo | Largura x altura | Proporção de largura | Taxa de altura |
 |--- |--- |--- |--- |
-| Origem | 1920 x 1080 | 1 | 3 |
+| Origem | 1920 x 1080 | 1 | 1 |
 | Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 3 | 3 |
+| Codificado | 640 x 360 | 1 | 1 |
 | Codificado | 480 x 270 | 4 | 4 |
 
 ### Formato de arquivo de vídeo codificado {#encoded-video-file-format}
@@ -313,22 +313,24 @@ Também é possível filtrar com base em uma opção de dispositivo de reproduç
 
 As predefinições de vídeo ativadas são exibidas na caixa de diálogo Opções de trabalho de upload . Essa é a caixa de diálogo exibida quando um usuário faz upload de arquivos de vídeo durante o processo de upload. Eles podem escolher em uma lista de todas as predefinições de codificação ativadas.
 
-**Para ativar ou desativar predefinições de codificação de vídeo**
+**Para ativar ou desativar predefinições de codificação de vídeo:**
 
-1. No Dynamic Media Classic, clique em **Configurar** > **Configuração do aplicativo** > **Predefinições de vídeo**.
+1. No Dynamic Media Classic, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
 1. Siga um destes procedimentos:
 
-   * Clique em **Adaptive Video Presets**.
-   * Clique em **Predefinições de codificação única**.
+   * Clique em **[!UICONTROL Adaptive Video Presets]**.
+   * Clique em **[!UICONTROL Single Encoding Presets]**.
 
 1. Siga um destes procedimentos:
 
    * Para ativar uma predefinição de vídeo, na página predefinições, na coluna Ativo , selecione a caixa ao lado de um nome predefinido.
    * Para desativar uma predefinição de vídeo, desmarque a caixa ao lado das predefinições de vídeo que você deseja tornar inativas.
 
-      ***nota**: As predefinições de vídeo inativas não são exibidas na caixa de diálogo Opções de trabalho de upload . *
+      >[!NOTE]
+      >
+      >As predefinições de vídeo inativas não são exibidas na caixa de diálogo Opções de trabalho de upload .
 
-1. No canto inferior direito da página, clique em **Fechar**.
+1. No canto inferior direito da página, clique em **[!UICONTROL Close]**.
 
 ### Adicionar ou editar uma predefinição de codificação de vídeo {#adding-or-editing-a-video-encoding-preset}
 
