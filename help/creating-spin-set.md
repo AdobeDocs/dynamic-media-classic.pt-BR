@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de rotação
 role: Business Practitioner
+exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
-
 
 # Criação de um Conjunto de rotação{#creating-a-spin-set}
 
@@ -34,15 +34,15 @@ Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor se
 * Usar um formato sem perdas; Recomenda-se TIFF e PNG.
 * Mascarar todas as imagens para que o item apareça em um plano de fundo branco ou de alto contraste. Como opção, adicione sombras.
 * Verifique se os detalhes do produto estão bem iluminados e em foco.
-* Use imagens de rotação para roupas de moda com um manequim ou modelo. Frequentemente, o manequim é completamente mascarado (utilizando um manequim de vidro) ou na imagem aparece um manequim/moldura estilizada. Você pode criar um conjunto de rotação no modelo definindo o número de ângulos. Marque cada ângulo com uma fita no chão para guiar o modelo para pisar e olhe na direção de cada tomada.
+* Use imagens de rotação para roupas de moda com um manequim ou modelo. Frequentemente, o manequim é mascarado (utilizando um manequim de vidro) ou na imagem aparece um manequim/moldura estilizada. Você pode criar um conjunto de rotação no modelo definindo o número de ângulos. Marque cada ângulo com uma fita no chão para guiar o modelo para pisar e olhe na direção de cada tomada.
 
 ## Criação de um conjunto de rotação {#create}
 
-Esteja ciente de que a ordem em que o Conjunto de rotação é criado ou criado no Dynamic Media Classic é importante. Dependendo de como você ordena os ativos quando você arrasta e solta imagens na grade na página Conjunto de rotação , o Conjunto de rotação gira em uma determinada direção . Portanto, a ordem em que é exibido visualmente no construtor é como o ativo é executado quando um usuário move seu ponteiro do mouse ou move seu dedo, da esquerda para a direita.
+A ordem em que o Conjunto de rotação é criado ou criado no Dynamic Media Classic é importante. Dependendo de como você ordena os ativos quando você arrasta e solta imagens na grade na página Conjunto de rotação , o Conjunto de rotação gira em uma determinada direção . Portanto, a ordem em que é exibido visualmente no construtor é como o ativo é executado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
 
-Ao criar um conjunto, a opção **Publicar após salvar** afeta o conjunto e define os membros das seguintes maneiras:
+Ao criar um conjunto, a opção **[!UICONTROL Publish after save]** afeta o conjunto e os membros do conjunto das seguintes maneiras:
 
-| Opção &quot;Publicar após salvar&quot; selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
+| **[!UICONTROL Publish after save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros do conjunto mantêm seu estado publicado ou não publicado. |
@@ -51,56 +51,50 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually-publ
 
 Depois de salvar um Conjunto de rotação, você pode usar Visualização na compilação: Página Conjunto de rotação para ver a aparência do seu Conjunto de rotação no visualizador padrão.
 
-**Para criar um Conjunto de rotação**
+**Para criar um Conjunto de rotação:**
 
-1. No menu suspenso **Criar**, clique em **Conjuntos de rotação**.
+1. No menu suspenso **[!UICONTROL Build]**, clique em **[!UICONTROL Spin Sets]**.
 1. Na caixa de diálogo Tamanho do conjunto de rotação, defina o número de linhas e células desejado.
 
    Para criar um conjunto de rotação unidimensional, selecione apenas uma linha.
 
    Para criar um Conjunto de rotação bidimensional, selecione duas ou mais linhas.
 
-1. Clique em **OK**.
+1. Clique em **[!UICONTROL OK]**.
 1. Arraste e solte imagens na grade na tela Conjunto de rotação .
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se **Publish after save** está selecionado (padrão).
-1. Clique em **Salvar**.
+1. Clique em **[!UICONTROL Save]**.
 1. Na caixa de diálogo Salvar , selecione uma pasta para armazenar o conjunto de rotação. No campo Nome do arquivo , insira o nome do conjunto de rotação.
-1. Clique em **Salvar**.
+1. Clique em **[!UICONTROL Save]**.
 
 ## Editar um conjunto de rotação {#editing-a-spin-set}
 
-Dependendo de você editar um conjunto publicado ou não, a opção **Publicar após salvar** afeta o conjunto e define os membros das seguintes maneiras:
+Independentemente de você editar um conjunto publicado ou não, a opção **[!UICONTROL Publish after save]** afeta o conjunto e define os membros das seguintes maneiras:
 
-| Definir já publicado? | Opção &quot;Publicar após salvar&quot; selecionada antes de salvar a edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
+| Definir já publicado? | **[!UICONTROL Publish after save]** opção selecionada antes de salvar a edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
 |--- |--- |--- |--- |
 | Sim | Sim | Publicado | Publicado |
-| Sim | Não | Publicado | Os membros do conjunto existente mantêm seu estado publicado.Qualquer novo conjunto de membros adicionado durante a edição mantém seu estado publicado ou não publicado. |
+| Sim | Não | Publicado | Os membros do conjunto existente mantêm seu estado publicado. Qualquer novo conjunto de membros adicionado durante a edição manterá o estado publicado ou não. |
 | Não | Sim | Publicado | Publicado |
 | Não | Não | Não publicado | Os membros do conjunto existente e quaisquer novos membros do conjunto adicionados durante a edição mantêm o estado publicado ou não. |
 
 Consulte também [Publicar manualmente ativos](publishing-files.md#manually-publishing-assets) e [Cancelar publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
-**Para editar um conjunto de rotação**
+**Para editar um Conjunto de rotação:**
 
-1. Clique no botão **Editar** de sobreposição do Conjunto de rotação.
+1. Clique no botão **[!UICONTROL Edit]** de sobreposição do Conjunto de rotação.
 1. Siga um destes procedimentos:
 
-   * **Remoção de**
-imagensSelecione a imagem e clique em 
-**Excluir**.
+   * **Remoção de imagens**  - Selecione a imagem e clique em  **[!UICONTROL Delete]**.
 
-   * **Adicionar**
-imagensArraste a imagem para uma célula.
+   * **Adição de imagens**  - Arraste a imagem para uma célula.
 
-   * **Reorganizando linhas (Conjuntos de rotação bidimensionais)**
-Clique em uma caixa de seletor de linha (à esquerda da linha) e em seguida clique em 
-**Mover linha** para baixo ou  **Mover linha para cima**.
+   * **Reordenação de linhas (Conjuntos de rotação bidimensionais)**  - Clique em uma caixa de seletor de linha (à esquerda da linha) e em seguida clique em  **[!UICONTROL Move Row Down]** ou  **[!UICONTROL Move Row Up]**.
 
-   * **Adicionando linhas e**
-célulasInsira um número na caixa Linhas e na caixa Células para determinar o número de linhas e o número de células em cada linha.
+   * **Adição de linhas e células**  - Insira um número na caixa Linhas e na caixa Células para determinar o número de linhas e o número de células em cada linha.
 
-1. Quando a edição for concluída, próximo ao canto inferior direito da página, verifique se **Publish after save** está selecionado (padrão).
-1. Clique em **Salvar**, selecione uma pasta de armazenamento, insira um nome para o conjunto e clique em **Salvar**.
+1. Quando a edição for concluída, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionado (padrão).
+1. Clique em **[!UICONTROL Save]**, selecione uma pasta de armazenamento, insira um nome para o conjunto e clique em **[!UICONTROL Save]**.
 
 ## Excluindo um Conjunto de rotação {#deleting-a-spin-set}
 
@@ -108,8 +102,7 @@ Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto
 
 Consulte também [Publicar manualmente ativos](publishing-files.md#manually-publishing-assets) e [Cancelar publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
-**Para excluir um conjunto de rotação**
+**Para excluir um Conjunto de rotação:**
 
 1. Na Exibição de Grade, Exibição de Lista ou Exibição de Detalhes, selecione um ou mais Conjuntos de rotação.
-1. Na Barra de Navegação Global, clique em **Arquivo** > **Excluir** > **Excluir**.
-
+1. Na Barra de Navegação Global, clique em **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
