@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
+exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
-
 
 # Trabalhar com PDFs{#working-with-pdfs}
 
@@ -90,6 +90,6 @@ Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
 Você pode remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF à medida que você o carrega.
 
 1. Selecione o menu Cortar e escolha Manual.
-1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e laterais das páginas.
+1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e lados das páginas.
 
 A quantidade de páginas cortadas depende da configuração de Resolução PX/Inch inserida para o arquivo PDF. Por exemplo, se você digitar 150 (padrão) como a configuração Resolução PX/Polegada e cortar 75 pixels das laterais das páginas, meia polegada será cortada porque, a 150 pixels por polegada, 75 pixels é igual a meia polegada.
