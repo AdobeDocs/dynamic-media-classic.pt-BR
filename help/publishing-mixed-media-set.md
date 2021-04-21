@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
+exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # Publicar um conjunto de mídia mista{#publishing-a-mixed-media-set}
 
 Crie um trabalho de publicação para publicar um Conjunto de mídias mistas marcado para publicação no Dynamic Media Classic Video Server e no Image Server. O Dynamic Media Classic oferece opções de publicação avançadas para servidores específicos e opções para republicação de ativos que já foram publicados.
 
-***observação **: Os Conjuntos de mídias mistas exigem que você publique no**Servidor de **vídeo e também no Servidor**de imagens **. Você usa o**Servidor de vídeo **para publicar os vídeos reais que você marcou para publicação. E você usa o**Servidor de imagem **para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.*
+>[!NOTE]
+>
+>Os Conjuntos de mídias mistas exigem que você publique no **Servidor de vídeo** e também no **Servidor de imagem**. Você usa o **Servidor de vídeo** para publicar os vídeos reais que você marcou para publicação. E você usa o **Servidor de imagem** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.
 
 O Dynamic Media Classic acompanha trabalhos de publicação na tela Trabalhos .
 
@@ -42,21 +44,20 @@ Last Modified Date:
 
 1. Siga um destes procedimentos:
 
-   * No painel Procurar, clique em **Marcar para publicação** ao lado de cada nome de arquivo que deseja publicar.
-   * Na tela Upload , clique em **Marcar para publicação** ao lado de cada nome de arquivo que deseja publicar.
+   * No painel Procurar, clique em **[!UICONTROL Mark For Publish]** ao lado de cada nome de arquivo que deseja publicar.
+   * Na tela Upload , clique em **[!UICONTROL Mark For Publish]** ao lado de cada nome de arquivo que deseja publicar.
 
-1. Na barra Navegação global, clique em **Publicar**.
+1. Na barra Navegação global, clique em **[!UICONTROL Publish]**.
 1. Defina as opções de agendamento desejadas.
-1. (Opcional) No campo **Nome do trabalho**, digite um nome para o trabalho de publicação.
-1. Nas opções **Avançado**, na lista suspensa **Publicar em**, selecione **Servidor de vídeo**.
+1. (Opcional) No campo **[!UICONTROL Job Name]**, digite um nome para o trabalho de publicação.
+1. Nas opções **[!UICONTROL Advanced]**, na lista suspensa **[!UICONTROL Publish To]**, selecione **[!UICONTROL Video Server]**.
 
    Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter opções adicionais que você pode definir.
 
-1. Clique em **Enviar publicação**.
+1. Clique em **[!UICONTROL Submit Publish]**.
 1. Repita as etapas 2 a 4 acima.
-1. Em **Avançado**, na lista suspensa **Publicar em**, selecione **Servidor de imagem**.
+1. Em **[!UICONTROL Advanced]**, na lista suspensa **[!UICONTROL Publish To]**, selecione **[!UICONTROL Image Server]**.
 
    Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter opções adicionais que você pode definir.
 
-1. Clique em **Enviar publicação**.
-
+1. Clique em **[!UICONTROL Submit Publish]**.
