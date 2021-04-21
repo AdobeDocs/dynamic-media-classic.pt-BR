@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: a5a6596213e273d806fbc012e2c63bf3458127b0
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -109,20 +109,23 @@ Siga estas etapas para localizar ativos filtrando com seus valores de metadados:
 
 1. Ao clicar no botão Field em um painel, siga estas instruções para exibir o menu de filtragem e criar a operação de filtro:
 
-   **Escolha de um** campo de metadadosSelecione o nome do campo no menu de filtragem.
+   * **Escolha de um campo de metadados**  - Selecione o nome do campo no menu de filtragem.
 
-   ***observação **: Somente os nomes dos campos de metadados na Exibição de metadados padrão são exibidos no menu de filtragem.*
+      >[!NOTE]
+      >
+      >Somente os nomes dos campos de metadados na Exibição de metadados padrão são exibidos no menu de filtragem.
 
-   Consulte [Visualizações de metadados](application-setup.md#metadata_views).
+      Consulte [Visualizações de metadados](application-setup.md#metadata_views).
 
-   **Adicionando um** campo de metadadosEscolha Adicionar um Painel. Depois que o painel for exibido no painel Filtros , clique no botão Campo e escolha o nome de um campo de metadados no menu de filtragem.
+   * **Adição de um campo de metadados**  - Escolha Adicionar um painel. Depois que o painel for exibido no painel Filtros , clique no botão Campo e escolha o nome de um campo de metadados no menu de filtragem.
 
-   **Removendo um** campo de metadadosEscolha Remover este painel no menu de filtragem.
+   * **Remoção de um campo de metadados**  - Escolha  **[!UICONTROL Remove This Panel]** no menu de filtragem.
 
    Ao escolher um campo de metadados, o painel lista:
 
    * Todos os valores de metadados inseridos no campo.
    * Para cada valor de metadados, o número de ativos que recebeu o valor.
+
 
 1. Repita a Etapa 2 quantas vezes forem necessárias para listar todos os campos de metadados para a operação de filtro em painéis.
 1. Em cada painel, selecione um valor de metadados para filtrar. Não é possível selecionar mais de um valor de metadados em cada painel.
@@ -139,11 +142,11 @@ Siga estas etapas para localizar ativos filtrando com seus valores de metadados:
 
 Siga estas instruções na guia Filters para salvar, repetir e excluir operações de filtro:
 
-**Salvar uma** operação de filtroClique no botão Selecionar predefinição, escolha Salvar atual como novas predefinições e insira um nome na caixa de diálogo Salvar.
+* **Salvar uma operação de filtro**  - Clique em  **[!UICONTROL Select Preset]**, escolha  **[!UICONTROL Save Current As New Presets]** e insira um nome na caixa de diálogo Salvar.
 
-**Repetindo uma** operação de filtroClique no botão Selecionar predefinição e escolha o nome de uma operação de filtro no menu. O menu lista as operações de filtro que você salvou.
+* **Repetir uma operação de filtro**  - Clique em  **[!UICONTROL Select Preset]** e escolha o nome de uma operação de filtro no menu. O menu lista as operações de filtro que você salvou.
 
-**Excluindo uma operação de filtro no** menu Selecionar predefiniçãoExecute a operação de filtro. Em seguida, clique no botão Selecionar predefinição e escolha Excluir predefinição no menu.
+* **Exclusão de uma operação de filtro no menu Selecionar predefinição**  - Execute a operação de filtro. Em seguida, clique em **[!UICONTROL Select Preset]** e escolha Excluir predefinição no menu.
 
 ## Uso do servidor de metadados {#using-the-metadata-server}
 
@@ -153,15 +156,15 @@ Para configurar o servidor de metadados, clique em Configuração > Configuraç�
 
 A tela Publicação do servidor de metadados é aberta. Essa tela permite que você defina as seguintes opções:
 
-**** Publicação instantâneaImpulsa automaticamente todas as alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavras-chave e assim por diante.
+* **Publicação instantânea**  - Impulsa automaticamente todas as alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavras-chave e assim por diante.
 
-**XMP** PacotePublica o XMP Pacote. Este pacote não é usado para pesquisa, mas fornece os XMP/
+* **XMP pacote**  - publica o XMP pacote. Este pacote não é usado para pesquisa, mas fornece os XMP/
 
-**** Palavras-chave Publica suas palavras-chave no servidor de metadados para uso em pesquisas.
+* **Palavras-chave**  - Publica suas palavras-chave no servidor de metadados para uso em pesquisas.
 
-**Campos de publicação do servidor de metadados** Selecione os campos a serem incluídos nos metadados. Isso permite determinar quantas informações sobre seus ativos estão disponíveis para o público. Esses campos também são exibidos nas Exibições de metadados, mas só podem ser alterados no servidor de metadados.
+* **Campos de publicação do servidor de metadados**  - Selecione os campos a serem incluídos nos metadados. Isso permite determinar quantas informações sobre seus ativos estão disponíveis para o público. Esses campos também são exibidos nas Exibições de metadados, mas só podem ser alterados no servidor de metadados.
 
-Clique em **Publicar agora** para iniciar a tarefa. Uma confirmação é exibida informando que o trabalho foi iniciado.
+Clique em **[!UICONTROL Publish Now]** para iniciar a tarefa. Uma confirmação é exibida informando que o trabalho foi iniciado.
 
 >[!MORELIKETHIS]
 >
