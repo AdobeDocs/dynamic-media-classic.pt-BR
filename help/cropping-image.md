@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
+exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Recortar uma imagem{#cropping-an-image}
 
@@ -26,40 +26,40 @@ Você pode recortar uma imagem para remover o espaço em branco ao seu redor ou 
 
 >[!NOTE]
 >
->Após cortar, você pode clicar no botão Salvar como e salvar uma versão recortada da imagem com um nome diferente. Na janela Salvar como, escolha Salvar como novo Principal para salvar uma segunda cópia da imagem. Escolha Salvar como exibição de adição de Principal para salvar o original e sua versão cortada com um nome diferente. Escolha Substituir original para excluir o arquivo original do qual você cortou a imagem. Em seguida, insira um nome para a imagem e selecione o botão Submit .
+>Após cortar, você pode clicar no botão Salvar como e salvar uma versão recortada da imagem com um nome diferente. Na janela Salvar como, escolha Salvar como novo Principal para salvar uma segunda cópia da imagem. Clique em **[!UICONTROL Save As Addition View Of Master]** para salvar o original e sua versão cortada com um nome diferente. Clique em **[!UICONTROL Replace Original]** para excluir o arquivo original do qual você cortou a imagem. Em seguida, insira um nome para a imagem e clique em **[!UICONTROL Submit]**.
 
 ## Recorte para remover o espaço em branco ao redor de uma imagem {#crop-to-remove-white-space-around-an-image}
 
 Você pode cortar os pixels transparentes ou de cor sólida da borda de uma imagem.
 
-1. Para recortar uma imagem, clique no botão Editar sobreposição e escolha Recortar ou exiba-o no Painel de navegação na exibição Detalhes e clique no botão Recortar. A tela Editor de corte é aberta.
-1. Siga um destes procedimentos:
+1. Para recortar uma imagem, clique no botão **[!UICONTROL Edit]** de sobreposição e escolha **[!UICONTROL Crop]**, ou exiba-a no Painel de navegação na exibição Detalhes e clique no botão **[!UICONTROL Crop]**.
+1. Na página Editor de corte, siga um destes procedimentos:
 
-   * Para aparar pixels de cor, selecione o menu Cortar e escolha Cor. A caixa de diálogo Cortar automaticamente por cor é exibida. Selecione o menu Canto e escolha um canto com a cor de plano de fundo para cortar. Em seguida, insira uma configuração de Tolerância de 0 a 1. A configuração 0 corta pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Os números mais próximos de 1 permitem mais diferenças de cor. Selecione o botão Cortar.
-   * Para aparar pixels transparentes, selecione o menu Cortar e escolha Transparente. A caixa de diálogo Cortar automaticamente por transparência é exibida. Insira uma configuração de tolerância de 0 a 1. A configuração 0 recorta pixels de corte somente se eles forem totalmente transparentes. Os números mais próximos de 1 permitem mais transparência. Selecione o botão Cortar.
+   * Para aparar pixels de cor, clique em **[!UICONTROL Trim]** > **[!UICONTROL Color]**. A caixa de diálogo Cortar automaticamente por cor é exibida. Clique no menu **[!UICONTROL Corner]** e escolha um canto com a cor de plano de fundo para cortar. Em seguida, insira uma configuração **[!UICONTROL Tolerance]** de 0 a 1. A configuração 0 corta pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Os números mais próximos de 1 permitem mais diferenças de cor. Clique no botão **[!UICONTROL Crop]**.
+   * Para aparar pixels transparentes, selecione clique em **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. A caixa de diálogo Cortar automaticamente por transparência é exibida. Insira uma configuração de tolerância de 0 a 1. A configuração 0 recorta pixels somente se forem transparentes. Os números mais próximos de 1 permitem mais transparência. Clique em **[!UICONTROL Crop]**.
 
-1. Clique em **Salvar**.
+1. Clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Para restaurar uma imagem ao seu estado original depois de cortá-la, exiba a imagem na tela Editor de corte e selecione o botão Redefinir .
+>Para restaurar uma imagem ao seu estado original depois de cortá-la, exiba a imagem na tela Editor de corte e clique em **[!UICONTROL Reset]**.
 
 ## Selecione uma área para cortar {#select-an-area-to-crop}
 
-1. Para recortar uma imagem, clique no botão Editar sobreposição e escolha **Recortar**, ou exiba-a no Painel de navegação na exibição Detalhes e clique em **Recortar**.
+1. Para recortar uma imagem, clique no botão **[!UICONTROL Edit]** sobreposto e escolha **[!UICONTROL Crop]**, ou exiba-a no Painel de navegação na exibição Detalhes e clique em **[!UICONTROL Crop]**.
 
-1. Na janela Editor de corte, coloque a parte da imagem que não deseja cortar na caixa de corte. O que aparece dentro da caixa permanece quando você clica em **Salvar** e corta a imagem.
+1. Na janela Editor de corte, coloque a parte da imagem que não deseja cortar na caixa de corte. O que aparece dentro da caixa é o que permanece quando você clica em **[!UICONTROL Save]** e corta a imagem.
 1. Para ajustar a área de corte, siga um destes procedimentos:
 
    * Arraste um lado ou canto da caixa. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas mantém a proporção (a forma) da caixa de corte.
    * Insira medições de pixel nas caixas Tamanho.
    * Arraste para mover a caixa de corte. Mova o ponteiro para dentro do limite da caixa. Ao ver a seta de quatro pontas, arraste a caixa até um novo local na imagem.
 
-1. Clique em **Salvar**.
+1. Clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Para restaurar uma imagem ao seu estado original depois de cortá-la, exiba a imagem na tela Editor de corte e selecione o botão Redefinir .
+>Para restaurar uma imagem ao seu estado original depois de cortá-la, exiba a imagem na tela Editor de corte e clique em **[!UICONTROL Reset]**.
 
 >[!MORELIKETHIS]
 >
