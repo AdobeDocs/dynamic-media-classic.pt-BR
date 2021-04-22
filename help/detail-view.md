@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
+exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '576'
 ht-degree: 5%
 
 ---
-
 
 # Trabalho na exibição de Detalhes {#working-in-detail-view}
 
@@ -46,11 +46,11 @@ Para examinar, visualizar ou trabalhar em um ativo detalhadamente, você pode ex
 
    * Clique duas vezes no ativo.
    * Selecione o ativo e clique em **[!UICONTROL Detail View]**.
-   * Selecione o ativo e clique em **[!UICONTROL File > Details]**.
+   * Selecione o ativo e clique em **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
->Você pode criar uma página de ativo para ativo na mesma pasta na exibição de Detalhes selecionando o botão Ativo anterior ou Próximo ativo. Esses botões estão localizados no canto superior direito na Exibição de detalhes.
+>Você pode criar uma página de ativo para ativo na mesma pasta na exibição de Detalhes selecionando o botão Ativo anterior ou Próximo ativo. Esses botões estão no canto superior direito na exibição de Detalhes.
 
 ## Obter informações na exibição de Detalhes {#getting-information-in-detail-view}
 
@@ -62,45 +62,40 @@ Você pode obter um URL de ativo na exibição de Detalhes; no entanto, o URL n�
 
 A exibição de detalhes oferece ferramentas para trabalhar com o ativo que você abriu. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a exibição de Detalhes sempre oferece essas funções:
 
-* **itens para**
-publicarClique no  **[!UICONTROL Publish]** ícone à esquerda do nome ou clique em  **[!UICONTROL File > Publish]** ou  **[!UICONTROL File > Unpublish]**.
+* **itens para publicação**  - clique no  **[!UICONTROL Publish]** ícone à esquerda do nome ou clique em  **[!UICONTROL File > Publish]** ou  **[!UICONTROL File > Unpublish]**.
 
-* **Renomeando o**
-ativoSelecione o nome e insira um novo nome.
+* **Renomear o ativo**  - Selecione o nome e insira um novo nome.
 
-* **Editar e adicionar**
-metadadosSelecione o painel Metadados e faça as alterações desejadas. Consulte [Visualização, adição e exportação de metadados](/help/viewing-adding-exporting-metadata.md).
+* **Editar e adicionar metadados**  - Selecione o painel Metadados e altere conforme desejado. Consulte [Visualização, adição e exportação de metadados](/help/viewing-adding-exporting-metadata.md).
 
-* **Editar e adicionar**
-palavras-chaveSelecione Palavras-chave e adicione-as ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/viewing-adding-exporting-metadata.md).
+* **Edição e adição de palavras-chave**  - Selecione Palavras-chave e adicione ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/viewing-adding-exporting-metadata.md).
 
-* **Exclusão do**
-ativoClick  **[!UICONTROL File > Delete]**.
+* **Exclusão do ativo**  - Clique em  **[!UICONTROL File]** >  **[!UICONTROL Delete]**.
 
 Para arquivos discretos — imagens, conjuntos de imagens e fontes, por exemplo — é possível visualizar o histórico de publicação e edição e verificar os detalhes da tarefa, na exibição Detalhes.
 
-Esta tabela mostra quais opções adicionais estão disponíveis com diferentes tipos de ativos na exibição de Detalhes.
+Esta tabela mostra quais outras opções estão disponíveis com diferentes tipos de ativos na exibição de Detalhes.
 
 | Tipo de ativo | Editar/ajustar | Visualizar |
 |--- |--- |--- |
-| Imagens | Adicionar mapas de imagem Adicionar destinos de zoom Recortar Nitidez Criar exibições ajustadas | Sim; Predefinições de zoom e imagem. |
-| Gabinete e janela de cobertura de imagens | Não | Miniatura. |
-| Catálogos eletrônicos | Editar | Sim. Painel Informações também disponível. |
-| Fontes | Editar informações de fonte | Não. |
-| Arquivos FXG | Editar | Sim. |
-| Perfis ICC | Editar informações de perfil | Não. |
-| Arquivos Illustrator | Não (exceto quando convertido em FXG) | Não. |
-| Conjuntos de imagens | Editar | Sim. |
-| Arquivos InDesign | Não (exceto quando convertido em FXG) | Não. |
-| Arquivos PDF | Não | Não. |
-| Arquivos PSD | Sim para camadas individuais | Sim para camadas individuais. |
-| Conjuntos de rotação | Editar | Sim. |
-| Arquivos SVG | Não | Não. |
-| Modelos | Editar | Sim. |
-| Vídeos | Não | Sim. |
-| Vinhetas e vinhetas renderizadas | Não | A imagem é mostrada. É possível exibir o conteúdo e a estrutura dos elementos renderizáveis da vinheta no formato XML. |
-| Arquivos XML | Não | O conteúdo é exibido. |
-| Arquivos ZIP | Não | O conteúdo não é exibido. |
+| Imagens | Adicionar Mapas de Imagem<br>Adicionar destinos de zoom<br>Recortar<br>Nitidez<br>Criar visualizações ajustadas | Sim; Predefinições de zoom e imagem |
+| Gabinete e janela de cobertura de imagens | Não | Miniatura |
+| Catálogos eletrônicos | Editar | Sim<br>Painel Informações também está disponível |
+| Fontes | Editar informações de fonte | Não |
+| Arquivos FXG | Editar | Sim |
+| Perfis ICC | Editar informações de perfil | Não |
+| Arquivos Illustrator | Não (exceto quando convertido em FXG) | Não |
+| Conjuntos de imagens | Editar | Sim |
+| Arquivos InDesign | Não (exceto quando convertido em FXG) | Não |
+| Arquivos PDF | Não | Não |
+| Arquivos PSD | Sim para camadas individuais | Sim para camadas individuais |
+| Conjuntos de rotação | Editar | Sim |
+| Arquivos SVG | Não | Não |
+| Modelos | Editar | Sim |
+| Vídeos | Não | Sim |
+| Vinhetas e vinhetas renderizadas | Não | A imagem é mostrada<br>Você pode exibir o conteúdo e a estrutura dos elementos renderizáveis da vinheta no formato XML |
+| Arquivos XML | Não | O conteúdo é mostrado |
+| Arquivos ZIP | Não | O conteúdo não é mostrado |
 
 >[!MORELIKETHIS]
 >
