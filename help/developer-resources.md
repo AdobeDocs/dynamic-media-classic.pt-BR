@@ -6,50 +6,50 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer
+exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '273'
 ht-degree: 7%
 
 ---
 
-
-# Recursos do desenvolvedor{#developer-resources}
+# Recursos do desenvolvedor {#developer-resources}
 
 O Dynamic Media Classic fornece documentação para a versão principal mais recente de cada módulo de software Dynamic Media Classic. Os documentos do módulo estão disponíveis para Criação de imagens, Dynamic Media Classic, Servidor de imagens e Renderização de imagens e Visualizadores.
 
 As notas de versão também estão disponíveis para alguns módulos. As notas de versão fornecem detalhes sobre a versão, incluindo aprimoramentos, novas funcionalidades, dicas, recomendações de solução de problemas e problemas conhecidos pendentes. As notas de versão também oferecem exemplos interativos de recursos de mídia avançada e como ativá-los. Além disso, as Notas de versão oferecem instruções de instalação e configuração para clientes com software licenciado.
 
-Guias de referência para exibição de imagens e renderização de imagens, e Visualizadores descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites da Web que desejam personalizar e aproveitar ainda mais a mídia avançada do Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. O Dynamic Media Classic assume que o leitor está familiarizado com o aplicativo de desktop, padrões e convenções gerais de protocolo http e terminologia básica de geração de imagens.
+Guias de referência para exibição de imagens e renderização de imagens, e Visualizadores descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites da Web que desejam personalizar e usar a mídia avançada do Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. O Dynamic Media Classic assume que o usuário está familiarizado com o aplicativo de desktop, padrões e convenções gerais de protocolo http e terminologia básica de geração de imagens.
 
 
-**API do Dynamic Media Classic**
+## API do Dynamic Media Classic
 
 | Documento | Endereço Web |
 |--- |--- |
 | Guia de referência da API | Entre em contato com o suporte técnico do Dynamic Media Classic para obter a documentação. |
 
-**Criação de imagens**
+## Criação de imagens
 
 | Documento | Endereço Web |
 |--- |--- |
 | Guia do usuário | Entre em contato com o suporte técnico do Dynamic Media Classic para obter esta documentação. |
 | Notas de versão | Entre em contato com o suporte técnico do Dynamic Media Classic para obter esta documentação. |
 
-**de disponibilização de imagens e de processamento de imagens**
+##  de disponibilização de imagens e de processamento de imagens
 
 | Documento | Endereço Web |
 |--- |--- |
-| Guia de referência da API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) |
+| Guia de referência da API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
-**Visualizadores**
+## Visualizadores
 
 | Documento | Endereço Web |
 |--- |--- |
-| Guia de referência de visualizadores e notas de versão | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) |
+| Guia de referência de visualizadores e notas de versão | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 | Exemplos da biblioteca do visualizador | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 
