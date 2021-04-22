@@ -9,18 +9,18 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
-
 # Fontes{#fonts}
 
-Em alguns casos, o Dynamic Media Classic exige que você carregue um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, faça upload do arquivo de fonte. Para exibir os números de página do Visualizador de catálogo eletrônico em uma fonte específica, faça upload do arquivo de fonte.
+Às vezes, o Dynamic Media Classic exige que você carregue um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, faça upload do arquivo de fonte. Para exibir os números de página do Visualizador de catálogo eletrônico em uma fonte específica, faça upload do arquivo de fonte.
 
 O Dynamic Media Classic é compatível com esses tipos de fonte:
 
@@ -42,28 +42,28 @@ Faça upload de arquivos de fonte com as mesmas técnicas usadas para fazer uplo
 
 ## Editar informações de arquivo de fonte {#editing-font-file-information}
 
-É possível alterar o nome da ID de uma fonte, bem como suas informações de tipo. Editar um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação de fontes.
+É possível alterar o nome da ID de uma fonte e suas informações de tipo. Editar um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação de fontes.
 
 No painel Procurar, selecione o arquivo de fonte que deseja editar na exibição Detalhes e escolha Arquivo > Editar informações. A tela Editar informações é aberta. Escolha as opções a seguir e selecione o botão Submit .
 
-**** Nome da fonteEsse nome identifica a fonte quando é publicada.
+* **Nome da fonte**  - esse nome identifica a fonte quando é publicada.
 
-**** Nome do PostScriptEsse nome é o nome completo do PostScript para a fonte. Normalmente, indica o peso ou o estilo.
+* **Nome PostScript**  - Esse nome é o nome PostScript completo para a fonte. Normalmente, indica o peso ou o estilo.
 
-**RTF** NomeEsse nome aparece em um menu pop-up no editor RTF, onde as camadas de texto do modelo são criadas.
+* **Nome RTF**  - Esse nome aparece em um menu pop-up no editor RTF, onde as camadas de texto do modelo são criadas.
 
-**Nome da família da fonte** Esse nome lista o nome da fonte sem o indicador de estilo, peso ou tipo de fonte.
+* **Nome da família da fonte**  - Esse nome lista o nome da fonte sem o indicador de estilo, peso ou tipo de fonte.
 
-**** Estilo da fonteAs opções são Simples, Negrito, Itálico e Negrito-Itálico.
+* **Estilo da fonte**  - As opções são Simples, Negrito, Itálico e Negrito-Itálico.
 
-**Tipo** de fonteAs opções são TrueType e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
+* **Tipo de fonte**  - as opções são TrueType e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
 
-**Abreviação do tipo de fonteAs opções são as seguintes:** 
+* **Abreviação do tipo de fonte**  - As opções são as seguintes:
 
-**** Arquivos de fonte TTFTrueType usados para renderização de PDF/PostScript e veiculação de imagens.
+   * **** Arquivos de fonte TTFTrueType usados para renderização de PDF/PostScript e veiculação de imagens.
 
-**** Arquivos de fonte AFMAdobe PostScript que contêm informações de Métricas de fonte Adobe e são usados para exibição de imagens.
+   * **** Arquivos de fonte AFMAdobe PostScript que contêm informações de Métricas de fonte Adobe e são usados para exibição de imagens.
 
-**** Arquivos de fonte PFMAdobe PostScript que contêm informações de métricas de fonte binária.
+   * **** Arquivos de fonte PFMAdobe PostScript que contêm informações de métricas de fonte binária.
 
-**** Arquivos de fonte PFBAdobe PostScript que contêm informações binárias sobre contorno de fonte e são usados para renderização de PDF/PostScript e veiculação de imagens.
+   * **** Arquivos de fonte PFBAdobe PostScript que contêm informações binárias sobre contorno de fonte e são usados para renderização de PDF/PostScript e veiculação de imagens.
