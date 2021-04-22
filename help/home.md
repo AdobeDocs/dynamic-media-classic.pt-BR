@@ -6,14 +6,14 @@ seo-description: 'Documentação técnica, notas de versão e materiais de autoa
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '585'
 ht-degree: 3%
 
 ---
-
 
 # Guia do Adobe Dynamic Media Classic {#scene7-overview}
 
@@ -27,8 +27,8 @@ Consulte [Perguntas frequentes](new-ui-2020.md). Novas atualizações a partir d
 
 ## Recursos do desenvolvedor do Dynamic Media
 
-* [Página inicial de Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  — Inclui o Guia de referência do visualizador, a API de disponibilização de imagens/renderização de imagens, a API do sistema de produção de imagens e as Notas de versão do Dynamic Media Classic.
-* [Exemplos de biblioteca do visualizador](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) — Inclui exemplos do visualizador para vídeo, mídia que pode ser comprada, mídia mista, conjuntos de rotação, zoom em linha, conjuntos de imagens e amostras e flyouts.
+* [Página inicial de Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  - Inclui o Guia de referência do visualizador, a API de disponibilização de imagens/renderização de imagens, a API do sistema de produção de imagens e as Notas de versão do Dynamic Media Classic.
+* [Exemplos de biblioteca do visualizador](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  - Inclui exemplos do visualizador para vídeo, mídia que pode ser comprada, mídia mista, conjuntos de rotação, zoom em linha, conjuntos de imagens e amostras e flyouts.
 
 ## Recursos do usuário do Dynamic Media Classic
 
