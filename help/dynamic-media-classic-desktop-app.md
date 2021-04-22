@@ -9,9 +9,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ O aplicativo de desktop Adobe Dynamic Media Classic é compatível com os seguin
 * Em **[!UICONTROL Upload Job Options]**, o valor padrão de nomeação de camada em **[!UICONTROL Photoshop Options]**, agora é **[!UICONTROL Photoshop and Layer Name]**. As camadas no arquivo PSD são carregadas como imagens separadas.
    * O padrão anterior de **[!UICONTROL Layer name]**, as imagens são nomeadas após o nome da camada ou o número da camada no arquivo PSD. O número da camada foi usado se os nomes da camada no arquivo PSD fossem nomes padrão da camada do Photoshop.
    * O novo padrão de **[!UICONTROL Photoshop and Layer Name]** nomeia as imagens após o arquivo PSD seguido do nome da camada ou do número da camada. O número da camada é usado se os nomes da camada no arquivo PSD forem nomes padrão da camada do Photoshop.
-   * Considerando que as imagens de camada no Dynamic Media Classic agora têm nomes exclusivos, nenhuma atualização no PSD ou em Modelos existentes ocorrerá (que compartilhou nomes de camada nos arquivos PSD originais).
+   * Considerando que as imagens de camada no Dynamic Media Classic agora têm nomes exclusivos, nenhuma atualização no PSD ou nos Modelos existentes acontecerá (que compartilharam nomes de camada nos arquivos PSD originais).
 * Miniaturas de ativos quebradas.
 
 ## Correções na versão mais recente (20.21.1) {#latest-fixes-desktop-app}
