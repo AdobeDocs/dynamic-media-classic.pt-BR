@@ -6,21 +6,21 @@ seo-description: Visão geral do Dynamic Media Classic
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
-
 
 # Ajuda do Dynamic Media Classic {#scene7-overview}
 
 Bem-vindo ao Adobe Dynamic Media Classic, o sistema de publicação de mídia sob demanda líder para carregar, gerenciar, aprimorar e publicar conteúdo rico dinâmico para todos os dispositivos e telas. As soluções Adobe Dynamic Media Classic incluem:
 
 * Dynamic Imaging: Edição, formatação e dimensionamento em tempo real, zoom interativo e panorâmico; Monitorização de cores e amostra de textura; spin de 360 graus; modelos de imagem; visualizadores de multimídia.
-* Catálogos eletrônicos: Criação, vinculação de pontos de acesso, habilitada para pesquisa, publicação e entrega de catálogos online dinâmicos em visualizadores configuráveis.
+* Catálogos eletrônicos: Criação, vinculação de pontos de acesso, habilitada para pesquisa, publicação e entrega de catálogos online dinamicamente veiculados em visualizadores configuráveis.
 * Portal de mídia: Ambiente de autoatendimento fornecendo aos usuários do portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Dynamic Media Classic para obter acesso fácil para fazer upload, navegar, pesquisar, visualizar e exportar ativos.
 * eVídeo: Faça upload dos vídeos finais em qualquer formato, gerencie, edite, crie hot spots e modelos de vídeo, publique e faça stream em visualizadores de vídeo configuráveis
 * Configuradores Visuais: Tecnologia de renderização em tempo real para permitir a configuração visual online para efeitos de personalização e personalização, como a renderização em tempo real de texturas de cores, superfícies, padrões, monogramas e gravação em imagens ou cenas de produtos.
@@ -41,4 +41,3 @@ Bem-vindo ao Adobe Dynamic Media Classic, o sistema de publicação de mídia so
 * [Início rápido: Noções básicas do modelo](/help/quick-start-template-basics.md)
 * [Início rápido: Vídeo](/help/quick-start-video.md)
 * [Início rápido: Zoom](/help/quick-start-zoom.md)
-
