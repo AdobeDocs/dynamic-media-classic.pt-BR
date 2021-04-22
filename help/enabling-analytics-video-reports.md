@@ -7,18 +7,18 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-
 # Ativar relatórios de vídeo do Adobe Analytics{#enabling-adobe-analytics-video-reports}
 
-Usando o relatório de vídeo baseado em pulsação do Adobe Analytics, você não deve mais habilitar os quatro eventos do visualizador de vídeo (Reproduzir, Pausar, Parar, Marco) ao configurar o Adobe Analytics no Dynamic Media Classic. O Video Heartbeat funciona com os visualizadores Dynamic Media Classic HTML5 e MixedMedia prontos para uso. O reprodutor de vídeo gera dados de rastreamento para visualização nos Relatórios de vídeo do Adobe Analytics.
+Usando o relatório de vídeo baseado em pulsação do Adobe Analytics, você não deve mais habilitar os quatro eventos do visualizador de vídeo (Reproduzir, Pausar, Parar, Marco) ao configurar o Adobe Analytics no Dynamic Media Classic. O Video Heartbeat funciona com os visualizadores de vídeo HTML5 do Dynamic Media Classic e de mídia mista prontos para uso. O reprodutor de vídeo gera dados de rastreamento para visualização nos Relatórios de vídeo do Adobe Analytics.
 
 * Para obter uma introdução à mídia de transmissão e à &quot;medição de pulsação&quot;, consulte [Sobre o Adobe Analytics para mídia de transmissão](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
 
@@ -35,4 +35,3 @@ Usando o relatório de vídeo baseado em pulsação do Adobe Analytics, você n�
 >[!NOTE]
 >
 >Se a solução licenciada do Adobe Analytics não incluir o Video Heartbeat, você deve continuar usando as etapas descritas neste capítulo para atribuir variáveis do Adobe Analytics aos eventos e variáveis do visualizador Dynamic Media Classic.
-
