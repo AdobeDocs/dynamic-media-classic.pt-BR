@@ -9,32 +9,28 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
 role: Administrator,Business Practitioner
+exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
-
 
 # Funções de usuário do Media Portal{#media-portal-user-roles}
 
 O Media Portal fornece as seguintes funções, cada uma com direitos de acesso e permissões diferentes. Ao inscrever um usuário, você atribui uma das seguintes funções a ele:
 
-* **Administrador do Media Portal**
-Pode adicionar e remover administradores, colaboradores e usuários. O administrador também pode definir direitos de acesso de grupo, gerenciar contas FTP, atribuir formatos de conversão aprovados pela empresa (predefinições), enviar e-mail para usuários do Media Portal e exibir o uso do portal e os relatórios de armazenamento.
+* **Administrador do Media Portal**  - pode adicionar e remover administradores, colaboradores e usuários. O administrador também pode definir direitos de acesso de grupo, gerenciar contas FTP, atribuir formatos de conversão aprovados pela empresa (predefinições), enviar e-mail para usuários do Media Portal e exibir o uso do portal e os relatórios de armazenamento.
 
-* **Media Portal**
-UserHas access to folders and files. Um usuário só pode navegar, visualizar e baixar arquivos. Essa função é adequada para parceiros de canal ou de serviço que precisam acessar seus ativos aprovados pela empresa.
+* **Usuário do Media Portal**  - Tem acesso a pastas e arquivos. Um usuário só pode navegar, visualizar e baixar arquivos. Essa função é adequada para parceiros de canal ou de serviço que precisam acessar seus ativos aprovados pela empresa.
 
-* **Colaborador do Media Portal**
-Pode carregar, visualizar e navegar em arquivos e metadados em áreas às quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
+* **Colaborador do Media Portal** : pode fazer upload, visualizar e navegar em arquivos e metadados em áreas para as quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
 
-**Colaborador do Media Portal -**
-UsuárioTem acesso a pastas e arquivos. Um colaborador-usuário pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários colaboradores podem alterar os nomes dos arquivos, mover os arquivos para pastas diferentes e excluir arquivos.
+* **Colaborador-usuário do Media Portal**  - Tem acesso a pastas e arquivos. Um colaborador-usuário pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários colaboradores podem alterar os nomes dos arquivos, mover os arquivos para pastas diferentes e excluir arquivos.
 
 Esta tabela descreve as tarefas que os usuários com diferentes funções podem realizar. Administradores e colaboradores-usuários podem realizar todas as tarefas listadas nesta tabela:
 
