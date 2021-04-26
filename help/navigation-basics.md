@@ -11,9 +11,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -28,51 +28,51 @@ A tela Dynamic Media Classic inclui três áreas principais: Barra de navegaçã
 
 A barra Navegação global, localizada na parte superior da tela, oferece botões para executar tarefas diferentes:
 
-**Selecione** EmpresaEscolha a empresa que deseja acessar no menu. Esse botão não estará disponível se você estiver trabalhando com uma empresa.
+* **Selecione Empresa**  - Escolha a empresa que deseja acessar no menu. Esse botão não estará disponível se você estiver trabalhando com uma empresa.
 
-**** UploadAbre a tela Upload para que você possa fazer upload de arquivos de seu computador ou rede para o Dynamic Media Classic. Você pode fazer upload de arquivos do desktop ou via FTP. Consulte Upload de arquivos.
+* **Carregar**  - abre a tela Upload para que você possa fazer upload de arquivos do seu computador ou rede para o Dynamic Media Classic. Você pode fazer upload de arquivos do desktop ou via FTP. Consulte [Upload de arquivos](/help/uploading-files.md).
 
-**** CriarEscolha uma tarefa Criar no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
+* **Criar**  - Escolha uma tarefa Criar no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
 
-**** PublicarAbre a tela Publicar para que você possa publicar ativos de mídia avançada nos Servidores de imagem da Dynamic Media e no restante da infraestrutura SAAS do Dynamic Media Classic. Consulte Publicação.
+* **Publicar**  - abre a tela Publicar para que você possa publicar ativos de mídia avançada nos Servidores de imagem da Dynamic Media e no restante da infraestrutura SAAS do Dynamic Media Classic.
 
-**** TrabalhosAbre a tela Trabalhos para que você possa examinar registros de trabalhos de upload e publicação.
+* **Trabalhos**  - abre a tela Trabalhos para que você possa examinar registros de trabalhos de upload e publicação.
 
-**** RecenteAbre a tela Atividade recente para que você possa visualizar os nomes dos ativos modificados recentemente e dos trabalhos recentes de upload e publicação.
+* **Recente**  - abre a tela Atividade recente para que você possa visualizar os nomes dos ativos modificados recentemente e dos trabalhos recentes de upload e publicação.
 
-**** ConfiguraçãoAbre a tela Configuração para que você possa escolher as opções de configuração ou de administração para otimizar o uso do Dynamic Media Classic. Consulte Configurar.
+* **Configuração**  - abre a tela Configuração para que você possa escolher as opções de configuração ou de administração para otimizar seu uso do Dynamic Media Classic. Consulte [Configurar](/help/setup-basics.md).
 
-**** AjudaEscolha uma opção Ajuda:
+* **** AjudaEscolha uma opção Ajuda:
 
-**Ajuda > Ajuda sobre este** tópicoAbre o sistema de Ajuda para uma página com informações sobre a tarefa que você está fazendo no momento.
+* **Ajuda > Ajuda sobre este tópico**  - abre o sistema de Ajuda a uma página com informações sobre a tarefa que você está fazendo no momento.
 
-**Ajuda >** Tutorial em vídeoAcesse vídeos sobre tópicos específicos para demonstrar como começar a usar cada fluxo de trabalho de publicação de mídia avançada.
+* **Ajuda > Tutorial em vídeo**  - acessa vídeos sobre tópicos específicos que mostram como começar a usar cada fluxo de trabalho de publicação de mídia avançada.
 
-**Ajuda >** Conteúdo da ajudaAbre o sistema de Ajuda para a página Introdução. Você pode clicar em um Índice para encontrar e exibir tópicos diferentes.
+* **Ajuda > Conteúdo da ajuda**  - abre o sistema de Ajuda na página Introdução. Você pode clicar em um Índice para encontrar e exibir tópicos diferentes.
 
-**Ajuda >** SobreInforma qual versão do Dynamic Media Classic você está executando.
+* **Ajuda > Sobre**  - informa qual versão do Dynamic Media Classic você está executando.
 
-**Ajuda >** SuporteInforma como obter suporte técnico do Dynamic Media Classic.
+* **Ajuda > Suporte**  - Informa como obter suporte técnico do Dynamic Media Classic.
 
-**Sair** do Dynamic Media Classic.
+* **Sair**  - Sai do Dynamic Media Classic.
 
 ## Biblioteca de ativos {#asset-library}
 
 Use a Biblioteca de ativos para organizar os ativos com os quais você está trabalhando. Você pode criar pastas e subpastas para organizar seus ativos na Biblioteca de ativos.
 
-Na parte superior do painel Biblioteca de ativos, há comandos para localizar ativos. Você pode pesquisar ativos e filtrar para localizar ativos. Clique no ícone Lixeira na parte inferior da Biblioteca de ativos para examinar os ativos que você excluiu.
+Na parte superior do painel Biblioteca de ativos, há comandos para localizar ativos. Você pode pesquisar ativos e filtrar para localizar ativos. Clique no ícone **[!UICONTROL Trash]** na parte inferior da Biblioteca de ativos para examinar os ativos excluídos.
 
 >[!NOTE]
 >
->Você pode clicar nos controles da Biblioteca de ativos para abrir ou fechar a Biblioteca de ativos e obter mais espaço para funcionar na tela. Selecione o controle Expandir/recolher para expandir ou fechar o painel. Esses controles estão localizados no lado esquerdo do painel.
+>Você pode clicar em **[!UICONTROL Asset Library]** controles para abrir ou fechar a Biblioteca de ativos e ter mais espaço para funcionar na tela. Clique no controle **[!UICONTROL Expand]**/**[!UICONTROL Collapse]** para expandir ou fechar o painel. Esses controles estão no lado esquerdo do painel.
 
 ## Painel de navegação/Painel de criação {#browse-panel-build-panel}
 
-O painel Procurar/Criar é onde você faz grande parte do seu trabalho. O que aparece neste painel depende se você está trabalhando no modo Procurar ou no modo Criar :
+O painel Procurar/Criar é onde você faz grande parte do seu trabalho. As funções disponíveis nesse painel dependem se você está no modo Procurar ou no modo Criar .
 
-**** Modo de navegaçãoSelecione uma pasta na Biblioteca de ativos para exibir e trabalhar com seu conteúdo no Painel de navegação. Esse painel oferece os menus Arquivo, Visualizar, Selecionar tudo, Selecionar nenhum e Classificar para trabalhar com ativos. Você também pode exibir ativos de diferentes maneiras movendo o controle deslizante ou selecionando o botão Exibição de grade , Exibição de lista ou Exibição de detalhes . Selecionar o botão Exibição de detalhes ou clicar duas vezes em um ativo abre o ativo na exibição Detalhes, onde você pode executar operações de arquivos dependentes de ativos.
+* **Modo de navegação**  - Para exibir e trabalhar com o conteúdo de uma pasta no Painel de navegação, selecione uma pasta na Biblioteca de ativos. Esse painel oferece os menus **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]** e **[!UICONTROL Sort]** para trabalhar com ativos. Você também pode exibir ativos de diferentes maneiras movendo o controle deslizante ou clicando em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Clicar em **[!UICONTROL Detail View]** ou clicar duas vezes em um ativo abre o ativo na exibição Detalhes, onde você pode executar operações de arquivos dependentes de ativos.
 
-**** Modo de compilaçãoClique em Criar e escolha uma opção para começar a criar um Catálogo eletrônico, um Conjunto de imagens, um Conjunto de rotação ou um de vários outros itens disponíveis no menu Criar. A tela Criar é aberta. Você pode selecionar os ativos com os quais deseja trabalhar antes ou depois de entrar no modo Criar .
+* **Modo de compilação**  - Clique em  **[!UICONTROL Build]**, em seguida, escolha uma opção para começar a criar um Catálogo eletrônico, Conjunto de imagens, Conjunto de rotação ou um de vários outros itens disponíveis no menu Criar. A página Criar é aberta. Você pode selecionar os ativos com os quais deseja trabalhar antes ou depois de entrar no modo Criar .
 
 >[!MORELIKETHIS]
 >
