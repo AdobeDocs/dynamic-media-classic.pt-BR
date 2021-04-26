@@ -11,9 +11,9 @@ feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -37,21 +37,21 @@ Você pode obter uma string de URL gerada por uma Predefinição de imagem a par
 1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja visualizar.
 1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, selecione um único ativo de imagem e, abaixo da imagem em miniatura, clique em Visualizar > Lista de predefinições de imagem.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de lista. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, clique em Visualização > Lista de predefinições de imagem.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes. Na mesma barra de ferramentas, clique em Visualizar > Lista de predefinições de imagens.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem e, em seguida, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL List View]**. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
-1. (Opcional) Na janela Lista de predefinições de imagens, na lista suspensa Codificação de URL para Geração de URL de cópia na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo de imagem quando ele for copiado.
-1. Na janela Lista de predefinições de imagens, na área superior direita do painel de visualização, clique em Copiar URL para o tipo de predefinição selecionado.
-1. No canto inferior direito da janela Lista de predefinições de imagens, clique em Fechar para retornar à tela Ativos.
+1. (Opcional) Na Lista predefinida de imagem, na lista suspensa Codificação de URL para Geração de URL de Cópia, selecione a codificação de URL que deseja aplicar ao URL do ativo de imagem quando ele for copiado.
+1. Na janela Lista de predefinições de imagens, na área superior direita do painel de visualização, clique em **[!UICONTROL Copy URL]** para o tipo de predefinição selecionado.
+1. No canto inferior direito da janela Lista de predefinições de imagens, clique em **[!UICONTROL Close]** para retornar à tela Ativos.
 
 ### Obter um URL de predefinição de imagem no painel Procurar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja visualizar.
-1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, selecione um único ativo de imagem.
-1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes.
-1. Clique em URLs no painel no lado direito da tela para abrir a lista de Predefinições de imagem.
-1. Clique no link Copiar URL ao lado do nome da Predefinição de imagem com o URL que você deseja copiar para a área de transferência.
+1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem.
+1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Detail View]**.
+1. Clique em **[!UICONTROL URLs]** no painel no lado direito da tela para abrir a lista de Predefinições de imagem.
+1. Clique no link **[!UICONTROL Copy URL]** ao lado do nome da Predefinição de imagem com o URL que você deseja copiar para a Área de transferência.
 
 ## Sobre as sequências de URL da predefinição de imagem {#about-image-preset-url-strings}
 
@@ -89,7 +89,7 @@ Por exemplo, em vez da chamada típica para abrir uma imagem estática como
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-agora você usa a tag `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Dynamic Media Classic. Um exemplo de chamada tem esta aparência:
+Agora você usa a tag `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Dynamic Media Classic. Um exemplo de chamada tem esta aparência:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
