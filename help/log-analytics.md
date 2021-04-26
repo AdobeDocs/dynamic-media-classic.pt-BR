@@ -9,28 +9,28 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
-
 # Faça logon no Adobe Analytics{#log-in-to-adobe-analytics}
 
-Antes de fazer logon para configurar os relatórios do Adobe Analytics e corresponder as variáveis de relatório do Adobe Analytics aos eventos do Dynamic Media Classic, verifique se você foi adicionado como membro do grupo Acesso ao serviço da Web no Adobe Analytics. Os membros deste grupo podem acessar todos os relatórios nos conjuntos de relatórios especificados por meio da API de Serviços da Web do Marketing Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, clique em **Ferramentas administrativas** > **Gerenciamento de usuários** > **Editar grupos**.
+Antes de fazer logon para configurar os relatórios do Adobe Analytics e corresponder as variáveis de relatório do Adobe Analytics aos eventos do Dynamic Media Classic, verifique se você é membro do grupo Acesso ao serviço da Web no Adobe Analytics. Os membros deste grupo podem acessar todos os relatórios nos conjuntos de relatórios especificados por meio da API de Serviços da Web do Marketing Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, clique em **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 
 Ao fazer logon, você tem a opção de inserir a ID de organização do Marketing Cloud para usar a implementação de análise de vídeo mais recente. Se você optar por não inserir sua ID, o relatório de vídeo ainda funcionará. No entanto, pode fazer com que os dados não sejam integrados corretamente com outros dados para esse cliente de fora do Dynamic Media Classic.
 
 >[!NOTE]
 >
->Se sua conta Adobe Analytics tiver sido migrada para a autenticação baseada no Adobe IMS (Identity Management System) para logon, a inserção de credenciais diretas não funcionará.
+>Se sua conta do Adobe Analytics tiver sido migrada para a autenticação baseada no Adobe IMS (Identity Management System) para logon, a inserção de credenciais diretas não funcionará.
 
-**Para fazer logon no Adobe Analytics**
+**Para fazer logon no Adobe Analytics:**
 
-1. Próximo ao canto superior direito da página do Dynamic Media Classic, toque em **[!UICONTROL Setup > Application Setup]**.
+1. Próximo ao canto superior direito da página do Dynamic Media Classic, toque em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
 1. No painel esquerdo, em **[!UICONTROL Application Setup]**, toque em **[!UICONTROL Adobe Analytics]**.
 1. Na página Configuração do Adobe Analytics , toque em **[!UICONTROL Adobe Analytics Login]**.
 1. Na caixa de diálogo **[!UICONTROL Adobe Analytics Login]**, digite o nome da empresa, a ID da organização do Marketing Cloud (opcional), o nome de usuário e a chave *segredo compartilhado* no campo de texto **[!UICONTROL Password]**.
