@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
-
 
 # Vincular um modelo a uma página da Web{#linking-a-template-to-a-web-page}
 
@@ -30,15 +30,15 @@ Para colocar cadeias de caracteres de URL em suas páginas da Web e aplicativos,
 
 ## Obter um URL de modelo {#obtaining-a-template-url}
 
-Você pode obter uma string de URL do modelo gerada por uma Predefinição de imagem na tela Visualização do modelo . Depois de copiar o URL, ele chega à Área de transferência para que você possa colá-lo conforme necessário. Siga estas etapas para obter uma cadeia de caracteres de URL do modelo gerada com uma Predefinição de imagem na tela Visualização do modelo :
+Você pode obter uma string de URL do modelo gerada por uma Predefinição de imagem na tela Visualização do modelo . Depois de copiar o URL, ele chega à Área de transferência para que você possa colá-lo conforme necessário. Para obter uma string de URL do modelo gerada com uma Predefinição de imagem da página Visualização do modelo, faça o seguinte:
 
-1. Clique no botão Visualização de sobreposição do modelo ou escolha Arquivo > Visualizar. A tela Visualização é aberta.
-1. Usando os menus da predefinição, escolha a predefinição de imagem com a qual deseja fornecer a imagem do modelo. A tela Preview mostra como o modelo é exibido quando ele é entregue pelo servidor.
-1. Clique no botão Copiar URL para copiar o URL para a área de transferência.
+1. Clique no botão **[!UICONTROL Preview]** de sobreposição do modelo ou escolha **[!UICONTROL File]** > **[!UICONTROL Preview]**.
+1. Usando os menus da predefinição, escolha a predefinição de imagem com a qual deseja fornecer a imagem do modelo. A página Visualização mostra a aparência do modelo quando ele é entregue a partir do servidor.
+1. Clique em **[!UICONTROL Copy URL]** para copiar o URL para a Área de transferência.
 
 ## Adicionar URLs de modelo à sua página da Web {#adding-template-urls-to-your-web-page}
 
-Para adicionar um modelo à sua página da Web, consulte a equipe de desenvolvimento da página da Web para modificar a tag `<IMG>` no código da página da Web HTML usando a cadeia de caracteres de URL do Dynamic Media Classic para fazer uma solicitação aos Servidores de imagem da Dynamic Media. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem do modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem escolhida para o modelo.
+Para adicionar um modelo à sua página da Web, consulte a equipe de desenvolvimento da página da Web para modificar a tag `<IMG>` no código da página da Web HTML. Use a string do URL do Dynamic Media Classic para fazer uma solicitação aos Servidores de imagem da Dynamic Media. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem do modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem escolhida para o modelo.
 
 >[!MORELIKETHIS]
 >
