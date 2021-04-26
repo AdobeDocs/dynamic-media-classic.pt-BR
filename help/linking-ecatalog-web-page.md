@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
+exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 2%
+source-wordcount: '622'
+ht-degree: 3%
 
 ---
-
 
 # Vincular um eCatalog a uma página da Web{#linking-an-ecatalog-to-a-web-page}
 
@@ -28,20 +28,20 @@ Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Serve
 
 ## Copiando um URL de catálogo eletrônico {#copying-an-ecatalog-url}
 
-1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **Catálogo**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **[!UICONTROL Catalog]**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **[!UICONTROL Copy URL]** à direita do visualizador desejado.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
-   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
-   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
 
@@ -49,34 +49,33 @@ Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Serve
 
 A maneira mais comum de implantar um eCatalog é colocar um link no formato de uma página de capa de miniatura do eCatalog em sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços do navegador sejam exibidas.
 
-Para obter detalhes adicionais e exemplos de código, consulte [Incorporando o visualizador de catálogo eletrônico HTML5 no Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporando o visualizador de catálogo eletrônico HTML5 no Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiando o código incorporado de um visualizador do eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador para o eCatalog selecionado. Você também pode copiar o código para a área de transferência, de modo que possa colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador de catálogo eletrônico**
+**Para copiar o código incorporado de um visualizador de eCatalog:**
 
-1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **Catálogo**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **[!UICONTROL Catalog]**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs à direita, clique em **Incorporar código**.
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs à direita, clique em **[!UICONTROL Embed Code]**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-1. Na caixa de diálogo Incorporar código , clique em **Copiar para a área de transferência**.
+1. Na caixa de diálogo Incorporar código , clique em **[!UICONTROL Copy to Clipboard]**.
 
    A edição do código não é permitida na caixa de diálogo Incorporar código .
 
-1. Clique em Fechar.
-
+1. Clique em **[!UICONTROL Close]**.
