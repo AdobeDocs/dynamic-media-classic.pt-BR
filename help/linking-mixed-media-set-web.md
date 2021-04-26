@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
+exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 2%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
-
 
 # Vincular um conjunto de mídias mistas a uma página da Web{#linking-a-mixed-media-set-to-a-web-page}
 
@@ -24,22 +24,22 @@ Depois de publicar um Conjunto de mídias mistas, você pode obter o URL para us
 
 ## Obter um URL de conjunto de mídia mista {#obtain-a-mixed-media-set-url}
 
-1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **Conjunto de mídias**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **[!UICONTROL Media Set]**.
 1. no painel Biblioteca de ativos , no lado esquerdo, navegue até a pasta de ativos que contém o conjunto de mídia cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **[!UICONTROL Copy URL]** à direita do visualizador desejado.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
-   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
-   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
 ## Adicionar URLs de conjuntos de mídia mista à página da Web {#add-mixed-media-set-urls-to-your-web-page}
 
@@ -49,30 +49,30 @@ A maneira mais comum de implantar Conjuntos de mídias mistas é colocar um link
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador do Conjunto de mídias mistas selecionado. Você também pode copiar o código para a área de transferência, de modo que possa colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador de Conjunto de mídias mistas**
+**Para copiar o código incorporado de um visualizador de Conjunto de mídias mistas:**
 
-1. No painel Navegação de ativos, na lista suspensa Mostrar , clique em **Conjunto de mídias mistas**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **[!UICONTROL Mixed Media Set]**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o Conjunto de mídias mistas cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **Código incorporado** à direita do visualizador desejado.
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **[!UICONTROL Embed Code]** à direita do visualizador desejado.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-1. Na caixa de diálogo Incorporar código , clique em **Copiar para a área de transferência**.
+1. Na caixa de diálogo Incorporar código , clique em **[!UICONTROL Copy to Clipboard]**.
 
    A edição do código não é permitida na caixa de diálogo Incorporar código .
 
-1. Clique em **Fechar**.
+1. Clique em **[!UICONTROL Close]**.
 
 >[!MORELIKETHIS]
 >
