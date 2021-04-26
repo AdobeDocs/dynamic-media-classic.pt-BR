@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de rotação
 role: Business Practitioner
+exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 2%
+source-wordcount: '654'
+ht-degree: 3%
 
 ---
-
 
 # Vincular um conjunto de rotação a uma página da Web{#linking-a-spin-set-to-a-web-page}
 
@@ -28,22 +28,22 @@ Os sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Server,
 
 ## Copiando um URL de conjunto de rotação {#copying-a-spin-set-url}
 
-1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **Conjunto de rotação**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **[!UICONTROL Spin Set]**.
 1. no painel Biblioteca de ativos , no lado esquerdo, navegue até a pasta de ativos que contém o Conjunto de rotação cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **Copiar URL** à direita do visualizador desejado.
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **[!UICONTROL Copy URL]** à direita do visualizador desejado.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
-   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
-   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Copiar URL**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
 
 ## Adicionar URLs de conjunto de rotação à sua página da Web {#adding-spin-set-urls-to-your-web-page}
 
@@ -59,28 +59,27 @@ Neste exemplo de sintaxe de URL (o link não está ativo), observe um número SK
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador para o Conjunto de rotação selecionado. Você também pode copiar o código para a área de transferência, de modo que possa colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador de Conjunto de rotação**
+**Para copiar o código incorporado de um visualizador de Conjunto de rotação:**
 
-1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **Conjunto de rotação**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **[!UICONTROL Spin Set]**.
 1. no painel Biblioteca de ativos , no lado esquerdo, navegue até a pasta de ativos que contém o Conjunto de rotação cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **Código incorporado** à direita do visualizador desejado.
-   * Clique em **Exibição de Grade**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **[!UICONTROL Embed Code]** à direita do visualizador desejado.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-   * Clique em **Exibição de lista**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-   * Clique em **Exibição de Grade**, **Exibição de Lista** ou **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Visualizar** > **Lista de visualizadores**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **Incorporar código**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
 
-1. Na caixa de diálogo Incorporar código , clique em **Copiar para a área de transferência**.
+1. Na caixa de diálogo Incorporar código , clique em **[!UICONTROL Copy to Clipboard]**.
 
    A edição do código não é permitida na caixa de diálogo Incorporar código .
 
-1. Clique em Fechar.
-
+1. Clique em **[!UICONTROL Close]**.
