@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
-
 
 # Início rápido: Dimensionamento de imagem{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ A publicação dos arquivos de imagem principais tem dois objetivos essenciais:
 * Publique suas imagens principais nos Servidores de Imagem da Dynamic Media para que as imagens possam ser entregues dinamicamente ao seu site e aplicativo.
 * A publicação ativa as cadeias de caracteres do URL para chamar imagens dos Servidores de Imagem da Dynamic Media para o site ou aplicativo. Após a publicação, você pode copiar e colocar os URLs gerados pelo Dynamic Media Classic, conforme necessário, em seu site ou aplicativo.
 
-Selecione o botão Publicar na barra Navegação global para iniciar uma publicação. Na tela Publicar , selecione o botão Iniciar publicação . Consulte [Publicação de imagens principais](publishing-master-images.md#publishing_master_images).
+Selecione o botão Publicar na barra Navegação global para iniciar uma publicação. Na caixa de diálogo Publicar , clique em **[!UICONTROL Submit Publish]**. Consulte [Publicação de imagens principais](publishing-master-images.md#publishing_master_images).
 
-**5. Vincular URLs ao aplicativo da Web**
+**5. Vincular URLs ao aplicativo da Web:**
 
 O Dynamic Media Classic cria sequências de chamada de URL para imagens. Ao publicar imagens nos Servidores de imagem da Dynamic Media, os URLs ficam ativos. Você pode copiar essas cadeias de caracteres do URL no Painel de navegação (na Exibição de detalhes) ou na tela de Visualização. Depois de copiar as cadeias de caracteres do URL, você pode usá-las em seu site e aplicativos. O URL para dimensionamento de imagem substitui a referência a um nome de imagem estática no código da página da Web. O URL faz referência a um nome de imagem principal, que é substituído pelo seu banco de dados para cada nova imagem ser exibida.
 
