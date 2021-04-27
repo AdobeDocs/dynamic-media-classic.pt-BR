@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 3%
 
 ---
-
 
 # Início rápido: Conjuntos de imagens{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ A publicação de um Conjunto de imagens o coloca em servidores Dynamic Media Cl
 >
 >Esta etapa não é necessária se você selecionou **Publicar após salvar **(padrão) no momento em que criou e salvou o Conjunto de imagens.
 
-Clique no ícone Marcar para publicação à esquerda de seu nome no painel Procurar. Em seguida, clique em **Publish**. Na tela Publicar , clique em **Iniciar publicação**.
+Clique no ícone Marcar para publicação à esquerda de seu nome no painel Procurar. Em seguida, clique em **Publish**. Na tela Publicar , clique em **Enviar publicação**.
 
 Consulte [Publicação](publishing-files.md#publishing-files).
 
-**6. Vincular um conjunto de imagens ao seu site**
+**6. Vincular um conjunto de imagens ao seu site:**
 
 O Dynamic Media Classic cria chamadas de URL para conjuntos de imagens e as ativa após a publicação. Você pode copiar esses URLs da tela de Visualização.
 
