@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
-
 
 # Publicando informações de configuração do Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
@@ -24,14 +24,13 @@ Publique seus visualizadores do Dynamic Media Classic para que as informações 
 
 >[!NOTE]
 >
->Sempre que alterar as configurações do Relatório do Adobe Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics a partir do Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e publicar novamente.
+>Sempre que alterar as configurações do Relatório do Adobe Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics a partir do Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e, em seguida, republicar.
 
 Consulte [Fazer logon no Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
 Consulte [Configuração de relatórios Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-**Para publicar informações de configuração**
+**Para publicar informações de configuração:**
 
-1. Na barra Navegação global, clique em **Publicar**.
-1. Na caixa de diálogo Publicar , clique em **Iniciar publicação**.
-
+1. Na barra Navegação global, clique em **[!UICONTROL Publish]**.
+1. Na caixa de diálogo Publicar , clique em **[!UICONTROL Submit Publish]**.
