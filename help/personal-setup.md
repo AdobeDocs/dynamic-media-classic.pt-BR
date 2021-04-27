@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: a019f973-7647-466f-8af3-5312e9225e89
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 1%
+source-wordcount: '802'
+ht-degree: 0%
 
 ---
-
 
 # Configuração pessoal {#personal-setup}
 
@@ -32,95 +32,86 @@ As configurações de Configuração pessoal controlam o comportamento padrão d
 
 Identifica o nome da conta, o nome, o nome de usuário (endereço de email) e a função de usuário atribuída.
 
-### Versão da área de trabalho
+## Desktop
 
-Clique em Instalar agora para instalar a versão para desktop do Dynamic Media Classic no disco rígido local. Ou clique em Reinstalar agora para instalar a versão da área de trabalho novamente.
+* **Limpar cache de imagem**  - Remove todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador.
+* **Limpar cache de ativos**  - Remove todos os arquivos de ativos do Adobe Dynamic Media em cache do seu computador.
 
-## Para instalar o plug-in no disco rígido local
+Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos. Com base no seu sistema operacional, navegue até o seguinte:
 
-1. Na página Configuração pessoal no Dynamic Media Classic, em Plug-in do Illustrator para Web-to-Print, clique em **Baixar agora** para baixar o **Plug-in do Illustrator para Web-to-Print.zip** arquivo.
-1. Descompacte o arquivo ZIP em uma pasta temporária.
+* macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+* Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-   Um arquivo readme é incluído na raiz do arquivo descompactado para fornecer informações adicionais sobre o plug-in.
+## Extensão Creative Suite
 
-1. Dependendo do sistema operacional instalado, execute um dos seguintes procedimentos:
+**Para instalar a extensão Adobe Dynamic Media Creative Suite:**
 
-### Windows
+1. No Dynamic Media Classic, na barra de ferramentas, clique em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Extensão do Creative Suite, clique em **[!UICONTROL Download Now]** para baixar o arquivo `s7csxs.zxp`.
+1. Clique nos links **[!UICONTROL Installation]** e **[!UICONTROL System Requirements]** para obter informações adicionais sobre a extensão.
 
-| Se você estiver executando | Faça isso |
+<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+
+1. Depending on your installed operating system, do one of the following: -->
+
+<!-- #### Windows
+
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 no Adobe Creative Cloud 2014 | <ul><li>Na raiz da pasta descompactada, clique em CC-2014.</li><li>Dependendo da versão de bits do Adobe Illustrator que você estiver usando, clique em win32 ou win64.</li><li>Clique em bibliotecas > chama e copie `aflame.dll` para a pasta executável do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; em vez disso, o local de 32 bits pode estar sob Arquivos de Programas (x86).  <br/><ul><li>Retorne à mesma pasta de bibliotecas, clique em flamingo e copie `aflamingo.dll` para a mesma pasta executável do Adobe Illustrator que você usou na etapa anterior. </li><li>Retorne para a pasta win32 ou win64 selecionada na etapa 2 e, em seguida, copie `AdobeS7FXGFileFormat.aip` para a pasta de plug-ins do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; em vez disso, o local de 32 bits pode estar sob Arquivos de Programas (x86). |
-| Adobe Illustrator 17 no Adobe Creative Cloud | <ul><li>Na raiz da pasta descompactada, clique em CC. </li><li>Dependendo da versão de bits do Adobe Illustrator que você estiver usando, clique em win32 ou win64.</li><li> Copie `AdobeS7FXGFileFormat.aip` para a pasta de plug-ins do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; em vez disso, o local de 32 bits pode estar sob Arquivos de Programas (x86). |
-| Adobe Illustrator 16 no Adobe Creative Suite 6 | <ul><li>Na raiz da pasta descompactada, clique em 6.0. </li><li>Dependendo da versão de bits do Adobe Illustrator que você estiver usando, clique em win32 ou win64. </li><li>Copie Adobe7FXGFileFormat.aip para a pasta de plug-ins do Adobe Illustrator. Por exemplo, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Observação**: Este caminho de exemplo é para o local de 64 bits; em vez disso, o local de 32 bits pode estar sob Arquivos de Programas (x86). |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014.</li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li>Click libraries > flame, and then copy `aflame.dll` to Adobe Illustrator's executable folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead. <br/><ul><li>Return to the same libraries folder, click flamingo, and then copy `aflamingo.dll` to the same Adobe Illustrator executable folder that you used in the previous step. </li><li>Return to the win32 or win64 folder that you selected in step 2, and then copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64. </li><li>Copy AdobeS7FXGFileFormat.aip to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
 
-### Mac
+#### Mac
 
-| Se você estiver executando | Faça isso |
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 no Adobe Creative Cloud 2014 | <ul><li>Na raiz da pasta descompactada, clique em CC-2014 > mac64.</li><li>Clique em bibliotecas > chama e copie a pasta `aflame.framework` para a pasta de conteúdo do pacote Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Para abrir a pasta de conteúdo do pacote do Adobe Illustrator, clique com o botão direito do mouse no ícone Adobe Illustrator CC 2014 e clique em Mostrar conteúdo do pacote no menu de contexto).</li><li>Retorne à mesma pasta de bibliotecas, clique em `flamingo` e copie a pasta `aflamingo.framework` para a mesma pasta de conteúdo do pacote Adobe Illustrator que você usou na etapa anterior.</li><li>Retorne à pasta mac64 selecionada na etapa 1 e copie a pasta `AdobeS7FXGFileFormat.aip` para a pasta de plug-in do Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 no Adobe Creative Cloud | <ul><li>Na raiz da pasta descompactada, clique em CC > mac64</li><li>Copie a pasta `AdobeS7FXGFileFormat.aip` para a pasta de plug-in do Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 no Adobe Creative Suite 6 | <ul><li>Na raiz da pasta descompactada, clique em 6.0 > mac64</li><li>Copie a pasta `AdobeS7FXGFileFormat.aip` para a pasta de plug-in do Adobe Illustrator. Por exemplo, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014 > mac64.</li><li>Click libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator’s package contents folder, right-click on the Adobe illustrator CC 2014 icon and click Show Package Contents from context menu).</li><li>Return to the same libraries folder, click `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-O plug-in agora está disponível para você usar no Adobe Illustrator.
+The plug-in is now available for you to use in Adobe Illustrator. -->
 
-### Navegador
+## Navegador
 
-* **Tamanho da miniatura**
-   * Determina o tamanho padrão das imagens em miniatura na exibição em Grade no Painel de navegação.
-* **Exibição da biblioteca de ativos padrão**
-   * Determina se os ativos na Biblioteca de ativos para conjuntos de build aparecem como miniaturas ou por nome. Se você estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, é possível visualizar os ativos por nome. Por exemplo, se você estiver criando um grande eCatalog com muitos arquivos PDF, poderá exibir os ativos por nome para tornar a lista mais curta.
-* **Ordem de classificação de navegação padrão**
-   * Determina a ordem na qual os ativos aparecem por padrão no Painel de navegação. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
-* **Local de navegação padrão**
-   * Permite definir o local do navegador para o padrão, a última pasta navegada ou para um local específico no qual você navega e identifica. Você também pode definir o local do navegador para classificar os arquivos e pastas em ordem crescente ou decrescente.
-* **Exibição de navegação padrão**
-   * Determina se a exibição de Grade ou de Lista é a exibição padrão que você vê ao abrir o Painel de navegação pela primeira vez.
-* **Exibição da tela de apresentação**
-   * Determina se você vê alguma tela inicial, incluindo a tela inicial de Boas-vindas.
-* **Mostrar dicas de ferramentas**
-   * Determina se as dicas de ferramenta aparecem quando você move o ponteiro sobre botões, menus e links de navegação. Dicas de ferramentas descrevem itens na tela.
-* **Fundo do quadro de verificação**
-   * Exibe uma camada de tabuleiro atrás de imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
-* **Mostrar tamanho do arquivo**
-   * Exibe o tamanho do arquivo de um ativo durante a navegação.
-* **Incluir UDFs na Pesquisa**
-   * Desmarcada (padrão) para melhorar o desempenho do sistema para a maioria das pesquisas de metadados executadas.
+* **Tamanho da miniatura**  - Determina o tamanho padrão das imagens em miniatura na exibição em Grade no Painel de navegação.
+* **Exibição da biblioteca de ativos padrão**  - Determina se os ativos na Biblioteca de ativos para conjuntos de build são exibidos como miniaturas ou por nome. Se você estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, é possível visualizar os ativos por nome. Por exemplo, se você estiver criando um grande eCatalog com muitos arquivos PDF, poderá exibir os ativos por nome para tornar a lista mais curta.
+* **Ordem de classificação de navegação padrão**  - Determina a ordem em que os ativos aparecem por padrão no painel Procurar. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
+* **Localização de navegação padrão**  - Permite definir o local do navegador para o padrão, a última pasta navegada ou para um local específico no qual você navega e identifica. Você também pode definir o local do navegador para classificar os arquivos e pastas em ordem crescente ou decrescente.
+* **Exibição de navegação padrão**  - Determina se a exibição de Grade ou de Lista é a exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.
+* **Exibição da tela inicial**  - Determina se você vê alguma tela inicial, incluindo a tela inicial de Boas-vindas.
+* **Mostrar dicas de ferramentas**  - Determina se as dicas de ferramentas aparecem quando você move o ponteiro sobre botões, menus e links de navegação. As dicas de ferramentas descrevem os itens da interface do usuário na tela.
+* **Plano de fundo do quadro de verificação**  - Exibe uma camada do quadro de verificação atrás das imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
+* **Mostrar tamanho do arquivo**  - Exibe o tamanho do arquivo de um ativo durante a navegação.
+* **Incluir UDFs na Pesquisa**  - Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados que você executa, desmarcadas (padrão).
 
-Se a maioria de suas pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, você poderá selecionar essa opção para ativá-los. Como alternativa, use a Pesquisa avançada para fornecer uma experiência de pesquisa mais direcionada e mais rápida do que incluir campos definidos pelo usuário.
+   Se a maioria de suas pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, você poderá selecionar essa opção para ativá-los. Como alternativa, use a Pesquisa avançada para fornecer uma experiência de pesquisa mais direcionada e mais rápida do que incluir campos definidos pelo usuário.
 
-Consulte [Realização de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
+   Consulte [Realização de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
 
-Consulte também [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
+   Consulte também [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
 
-* **Tipo de pesquisa básica**
-   * Escolha um tipo de pesquisa padrão, Contém ou Começa com.
-* **Mostrar recursos do Media Portal**
-   * Selecione essa opção para acessar recursos do Media Portal, como Carrinho de mídia.
-* **Mostrar Feedback de Comando**
-   * Mostrar solicitações de comando para o servidor.
-* **Mostrar caixa de diálogo durante a exportação**
-   * Exibe uma caixa de diálogo quando você executa uma exportação. Se você desmarcar essa opção, ainda poderá acessar a página Trabalhos para recuperar os resultados da exportação.
+* **Tipo de pesquisa básica**  - É possível selecionar entre duas opções:  **[!UICONTROL Contains]** pesquisa a string completa para o valor especificado;  **[!UICONTROL StartsWith]** pesquisa a partir do início da string e retorna os resultados mais rapidamente do que  **[!UICONTROL Contains]**. Qualquer opção substitui o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
+* **Mostrar feedback de comando**  - Selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desligar.
+* **Mostrar caixa de diálogo durante a exportação**  - Selecione para mostrar uma caixa de diálogo pop-up durante uma exportação. Se você desmarcar (desativar) essa opção, ainda poderá acessar a página Trabalhos para recuperar os resultados da exportação.
 
 ## Email
 
-* **Opções de email**
-   * Escolha como deseja que o Dynamic Media Classic o informe por e-mail quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalho somente se ocorrerem avisos ou erros.
-* **Escopo de email**
-   * Determina se você recebe todo o email de trabalho da sua empresa ou apenas o email sobre trabalhos de upload e publicação iniciados.
-* **Tipos de email**
-   * Determina se você é informado quando trabalhos de upload e publicação são concluídos.
-* **Idioma**
-* **Idioma preferencial**
-   * Determina o idioma da interface.
-* **Senha**
-* **Nova senha**
-   * Digite uma senha nova e válida. Sua senha deve atender aos seguintes requisitos:
-      * Ter entre 8 e 25 caracteres
-      * Ter pelo menos uma letra minúscula
-      * Ter pelo menos uma letra maiúscula
-      * Ter pelo menos um número
-      * Ter pelo menos um dos seguintes caracteres especiais: #$&amp;-_:{}
-* **Digite novamente a senha**
-   * Insira novamente a nova senha para confirmar que está digitando corretamente.
-* **Expiração da senha**
-   * Determina se a senha expira após 72 dias como medida de segurança. Se você selecionar Sim, será solicitado a criar uma nova senha após 72 dias.
+* **Opções de email**  - Escolha como deseja que o Dynamic Media Classic o informe por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalho somente se ocorrerem avisos ou erros.
+* **Escopo de email**  - Determina se você recebe todo o email de trabalho da sua empresa ou somente o email sobre trabalhos de upload e publicação iniciados.
+* **Tipos de email**  - Determina se você é informado quando tarefas de upload e publicação são concluídas.
+
+## Idioma
+
+* **Idioma preferencial**  - Determina o idioma que deseja usar na interface.
+
+## Senha
+
+* **Senha atual**  - Digite a senha atual.
+* **Nova senha**  - digite uma nova senha válida. Sua senha deve atender aos seguintes requisitos:
+   * Ter entre 8 e 25 caracteres.
+   * Ter pelo menos uma letra minúscula.
+   * Ter pelo menos uma letra maiúscula.
+   * Ter pelo menos um número.
+   * Ter pelo menos um dos seguintes caracteres especiais: `# $ & - _ : { }`
+* **Digite novamente a senha**  - Insira novamente a nova senha para confirmar que está digitando corretamente.
+* **Expiração da senha**  - Determina se a senha expira após 72 dias como medida de segurança. Se você selecionar Sim, será solicitado a criar uma senha após 72 dias.
