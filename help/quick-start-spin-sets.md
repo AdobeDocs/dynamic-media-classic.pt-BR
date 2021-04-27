@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de rotação
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
-
 
 # Início rápido: Conjuntos de rotação{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Consulte [Pré-visualização de um Conjunto de rotação](previewing-spin-set.m
 
 A publicação de um Conjunto de rotação o coloca em servidores Dynamic Media Classic, de modo que possa ser entregue dinamicamente ao seu site ou aplicativo. Ela também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem da Dynamic Media para o site ou aplicativo.
 
-Para publicar um Conjunto de rotação, marque-o para publicação selecionando o ícone **Marcar para publicação** ao lado de seu nome no Painel de navegação. Clique em **Publish** na barra de Navegação Global para iniciar uma publicação. Na tela Publicar , clique em **Iniciar publicação**.
+Para publicar um Conjunto de rotação, marque-o para publicação selecionando o ícone **Marcar para publicação** ao lado de seu nome no Painel de navegação. Clique em **Publish** na barra de Navegação Global para iniciar uma publicação. Na tela Publicar , clique em **Enviar publicação**.
 
 Consulte [Publicar um conjunto de rotação](publishing-spin-set.md#publishing-a-spin-set).
 
