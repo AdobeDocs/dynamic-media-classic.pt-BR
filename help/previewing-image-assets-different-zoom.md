@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
+exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
-
 
 # Visualização de ativos de imagem com visualizadores de Zoom diferentes{#previewing-image-assets-with-different-zoom-viewers}
 
@@ -26,19 +26,19 @@ Consulte [Configuração de visualizadores padrão](application-setup.md#configu
 
 Consulte [Pré-visualização de um ativo](previewing-asset.md#previewing_an_asset).
 
-**Visualização de ativos de imagem com visualizadores de zoom diferentes**
+**Para visualizar ativos de imagem com visualizadores de zoom diferentes:**
 
 1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione um tipo de ativo com base em imagem, como Imagem ou Conjunto de imagens.
 1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas Ativos que contêm imagens que você deseja visualizar com um Visualizador de zoom.
 1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, abaixo da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de lista. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes. Na mesma barra de ferramentas, clique em Visualizar > Lista de visualizadores.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL List View]**. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
 1. Na janela Lista de visualizadores, na tabela, clique em um link do visualizador para visualizar o ativo no visualizador selecionado.
-1. Feche o visualizador exibido para retornar à tela Lista de visualizadores.
-1. No canto inferior direito da janela Lista de visualizadores, clique em Fechar para retornar à tela Ativos.
+1. Feche o visualizador exibido.
+1. No canto inferior direito da janela Lista de visualizadores, clique em **[!UICONTROL Close]** para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
 >
