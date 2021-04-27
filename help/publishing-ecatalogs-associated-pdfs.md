@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
+exl-id: 00b70162-2394-433d-a46c-1d90667030af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # Publicar eCatalogs e PDFs associados{#publishing-ecatalogs-and-associated-pdfs}
 
@@ -26,15 +26,15 @@ A publicação coloca seu eCatalog e o PDF nos Servidores de Imagem da Dynamic M
 >
 >Certifique-se de que o seu eCatalog e PDF estejam na mesma pasta e estejam marcados para publicação no Painel de navegação ou na página Detalhes do ativo antes de publicá-los.
 
-Para publicar seu eCatalog nos servidores de imagem da Dynamic Media:
+**Para publicar catálogos eletrônicos e PDFs associados:**
 
-1. Clique em **Publicar** na barra Navegação global.
-1. Na tela Publicar , selecione uma opção Quando (Uma vez ou Recorrente).
-1. (Opcional) Insira um nome para o trabalho de publicação, mas mantenha o carimbo de data e hora.
+1. Na barra Navegação global, clique em **[!UICONTROL Publish]**.
+1. Na tela Publicar , clique em **[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**.
+1. (Opcional) No campo Nome do trabalho , insira um nome para o trabalho de publicação, mas mantenha o texto predefinido de data e hora.
 
-   Se você configurar seu eCatalog para que os visualizadores possam realizar pesquisas por palavras-chave, certifique-se de que os dados da palavra-chave sejam publicados. Clique em Avançado e, em seguida, clique em Opções avançadas. No menu suspenso Publicar , clique em Completo com dados de pesquisa. Essa opção é selecionada por padrão.
+   Se você configurar seu eCatalog para que os visualizadores possam realizar pesquisas por palavras-chave, certifique-se de que os dados da palavra-chave sejam publicados. Na caixa de diálogo Publicar , clique em **[!UICONTROL Advanced]**. No menu suspenso **[!UICONTROL Publish]**, clique em **[!UICONTROL Full w/ Search Data]**. Essa opção é selecionada por padrão.
 
-1. Clique em **Iniciar publicação**.
+1. Clique em ****[!UICONTROL Submit Publish]****.
 
 >[!MORELIKETHIS]
 >
