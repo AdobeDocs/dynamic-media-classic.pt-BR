@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
-
 
 # Publicar modelos{#publishing-templates}
 
@@ -24,15 +24,15 @@ Publicar seu modelo o coloca em Servidores de imagem da Dynamic Media, onde est�
 
 >[!NOTE]
 >
->Para usar seu modelo, publique todo o conteúdo que foi usado para torná-lo, incluindo fontes e imagens. Se não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
+>Para usar seu modelo, publique todo o conteúdo que foi usado para torná-lo, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
 
 ## Marcar modelos para publicar {#marking-templates-for-publish}
 
-Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que sejam colocados nos Servidores de Imagem Dynamic Media. Você pode marcar esses itens para publicação no Painel de navegação clicando no ícone **Marcar para publicação**.
+Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que sejam colocados nos Servidores de Imagem Dynamic Media. Você pode marcar esses itens para publicação no Painel de navegação clicando no ícone **[!UICONTROL Mark for Publish]**.
 
 ## Publicar seu modelo {#publishing-your-template}
 
-Para publicar modelos nos Dynamic Media Image Servers, comece selecionando o botão Publicar na barra de navegação global. Em seguida, selecione uma opção Quando , opcionalmente, insira um nome para o trabalho de publicação e selecione o botão Iniciar publicação .
+Para publicar modelos nos Dynamic Media Image Servers, na barra Navegação global, clique em **[!UICONTROL Publish]** e selecione uma opção **[!UICONTROL When]**. Opcionalmente, você pode inserir um nome para o trabalho de publicação. Clique em **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >
