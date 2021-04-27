@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
+exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Visualização de eCatalogs no Visualizador de eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
@@ -26,19 +26,19 @@ Consulte [Configuração de visualizadores padrão](application-setup.md#configu
 
 Consulte [Pré-visualização de um ativo](previewing-asset.md#previewing_an_asset).
 
-**Para visualizar catálogos eletrônicos no visualizador de catálogo eletrônico**
+**Para visualizar eCatalogs no Visualizador de Catálogo Eletrônico:**
 
 1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione um tipo de ativo com base em vídeo, como Vídeo ou Conjunto de vídeos.
 1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas Ativos que contêm vídeos que você deseja visualizar com um Visualizador de catálogo eletrônico.
 1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de grade. Na janela Ativo, abaixo da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de lista. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em Visualizar > Lista de visualizadores.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em Exibição de detalhes. Na mesma barra de ferramentas, clique em Visualizar > Lista de visualizadores.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL List View]**. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
 1. Na janela Lista de visualizadores, na tabela, clique em um link do visualizador para visualizar o ativo no visualizador selecionado.
-1. Feche o visualizador exibido para retornar à tela Lista de visualizadores.
-1. No canto inferior direito da janela Lista de visualizadores, clique em Fechar para retornar à tela Ativos.
+1. Feche o visualizador exibido.
+1. No canto inferior direito da janela Lista de visualizadores, clique em **[!UICONTROL Close]** para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
 >
