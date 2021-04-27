@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
+exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
-
 
 # Visualização de vídeos em um visualizador de vídeo{#previewing-videos-in-a-video-viewer}
 
@@ -24,25 +24,25 @@ Você pode visualizar a aparência de um vídeo e como ele é reproduzido no Vis
 
 Consulte [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
-**Visualização de vídeos em um visualizador de vídeo**
+**Para visualizar vídeos em um visualizador de vídeo:**
 
-1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione **Vídeo** (vídeos codificados únicos) ou **Conjunto de vídeos adaptáveis** (quando a predefinição de codificação de vídeo adaptável é usada, resulta em um conjunto de vídeos codificados com várias bits).
+1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione **[!UICONTROL Video]** (vídeos codificados únicos) ou **[!UICONTROL Adaptive Video Set]**. Quando a predefinição de codificação Vídeo adaptável é usada, ela resulta em um conjunto de vídeos codificados com várias bits.
 1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas de ativos para selecionar o vídeo que deseja visualizar.
 1. Siga um destes procedimentos
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Exibição de lista**. Na janela Ativo, passe o mouse sobre um ativo e clique em **Visualizar**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Grid View**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **Visualizar**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **Exibição de Detalhes**. Na mesma barra de ferramentas, clique em **Preview**.
-   * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **File** > **Preview**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL List View]**. Na janela Ativo, passe o mouse sobre um ativo e clique em **[!UICONTROL Preview]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Grid View]**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **[!UICONTROL Preview]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]**.
+   * Na janela Ativo, selecione um ativo. Na barra de ferramentas, clique em **[!UICONTROL File]** > **[!UICONTROL Preview]**.
 
 1. (Opcional) Na janela Visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
 1. Clique no link Preview para visualizar o ativo no visualizador selecionado.
-1. Feche o visualizador exibido para retornar à tela Visualização.
-1. Clique em **Fechar** para retornar à tela Ativos.
+1. Feche o visualizador exibido.
+1. Clique em **[!UICONTROL Close]** para retornar à tela Ativos.
 
 >[!NOTE]
 >
->O Dynamic Media Classic oferece um método conveniente de visualização de vídeo MP4 no desktop. Use este método para visualizar conteúdo móvel no desktop sem testá-lo fisicamente em dispositivos móveis. No entanto, esteja ciente de que o que você vê na visualização da área de trabalho não mostra realisticamente a aparência da reprodução no dispositivo móvel. Para visualizar a aparência e a reprodução do vídeo em um dispositivo móvel, acesse a tela Visualização, selecione Copiar URL e insira o URL no navegador da Web de um dispositivo móvel. Para obter mais informações, consulte [Implantação de vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>O Dynamic Media Classic oferece um método conveniente de visualização de vídeo MP4 no desktop. Use este método para visualizar conteúdo móvel no desktop sem testá-lo fisicamente em dispositivos móveis. No entanto, esteja ciente de que o que você vê na visualização da área de trabalho não mostra realisticamente a aparência da reprodução no dispositivo móvel. Para visualizar a aparência e a reprodução do vídeo em um dispositivo móvel, acesse a tela Visualização, clique em **[!UICONTROL Copy URL]** e insira o URL no navegador da Web de um dispositivo móvel. Para obter mais informações, consulte [Implantação de vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Trabalhar com predefinições do visualizador de vídeo {#working-with-video-viewer-presets}
 
@@ -60,33 +60,33 @@ Em Predefinições do visualizador, você pode ativar, filtrar, classificar e vi
 
 Consulte [Predefinições do visualizador](application-setup.md#viewer_presets).
 
-**Para adicionar ou editar uma predefinição do visualizador de vídeo**
+**Para adicionar ou editar uma predefinição do visualizador de vídeo:**
 
-1. Próximo ao canto superior direito do Dynamic Media Classic, clique em **Configurar** > **Predefinições do visualizador**.
+1. Próximo ao canto superior direito do Dynamic Media Classic, clique em **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
-   Para ver apenas predefinições para visualizadores de vídeo, selecione Visualizador de vídeo na lista suspensa Visualizadores na barra de ferramentas logo acima da tabela.
+   Para ver apenas predefinições para Visualizadores de vídeo, selecione Visualizador de vídeo na lista suspensa Visualizadores abertos na barra de ferramentas logo acima da tabela.
 
 1. Adicione ou edite uma Predefinição do visualizador para mostrar o vídeo:
 
-   **** AdicionarClique em Adicionar na barra de ferramentas. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e um visualizador nas respectivas listas suspensas e clique em Adicionar.
-
+   * **Adição de**  - Clique em  **[!UICONTROL Add]** na barra de ferramentas. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e um visualizador nas respectivas listas suspensas e clique em **[!UICONTROL Add]**.
    Consulte também [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Adicionando a partir de uma** predefinição existente do visualizador Na tabela, selecione uma predefinição do visualizador de vídeo e clique em Editar na barra de ferramentas.
+   * **Adicionando a partir de uma Predefinição do visualizador existente**  - Na tabela, selecione uma Predefinição do visualizador de vídeo e clique  **[!UICONTROL Edit]** na barra de ferramentas.
+   Depois de reconfigurar o Visualizador de vídeo, clique em **[!UICONTROL Save As]** para salvar a predefinição usando um nome diferente no campo de texto Nome da predefinição .
 
-   Depois de reconfigurar o Visualizador de vídeo, clique em **Salvar como** para salvar a predefinição usando um nome diferente no campo de texto Nome da predefinição.
+   * **Edição**  - Selecione uma predefinição do visualizador de vídeo e clique em  **[!UICONTROL Edit]**.
 
-   **** EdiçãoSelecione uma predefinição do visualizador de vídeo e clique em Editar.
 
-1. Na tela Configurar visualizador, no campo Nome da predefinição , digite ou edite o nome da predefinição.
+
+1. Na página Configurar visualizador , no campo Nome da predefinição , digite ou edite o nome da predefinição.
 1. Defina as opções restantes que deseja.
 
    Para ver uma descrição de uma opção, clique no ícone Dica de informações.
 
 1. Siga um destes procedimentos:
 
-   * Clique em **Salvar como** se tiver adicionado uma Predefinição do visualizador iniciando em uma predefinição existente.
-   * Clique em **Salvar** se tiver adicionado ou editado uma Predefinição do visualizador.
+   * Clique em **[!UICONTROL Save As]** se tiver adicionado uma Predefinição do visualizador, começando com uma predefinição existente.
+   * Clique em **[!UICONTROL Save]** se tiver adicionado ou editado uma Predefinição do visualizador.
 
 >[!MORELIKETHIS]
 >
