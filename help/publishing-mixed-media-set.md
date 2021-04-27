@@ -11,7 +11,7 @@ feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Publicar um conjunto de mídia mista{#publishing-a-mixed-media-set}
 
-Crie um trabalho de publicação para publicar um Conjunto de mídias mistas marcado para publicação no Dynamic Media Classic Video Server e no Image Server. O Dynamic Media Classic oferece opções de publicação avançadas para servidores específicos e opções para republicação de ativos que já foram publicados.
+Crie um trabalho de publicação para publicar um Conjunto de mídias mistas que você marcou para publicação no Dynamic Media Classic Video Server e no Image Server. O Dynamic Media Classic oferece opções de publicação avançadas para servidores específicos e opções para republicação de ativos que já foram publicados.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**Publicar um conjunto de mídia mista**
+**Para publicar um Conjunto de mídias mistas:**
 
 1. Siga um destes procedimentos:
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (Opcional) No campo **[!UICONTROL Job Name]**, digite um nome para o trabalho de publicação.
 1. Nas opções **[!UICONTROL Advanced]**, na lista suspensa **[!UICONTROL Publish To]**, selecione **[!UICONTROL Video Server]**.
 
-   Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter opções adicionais que você pode definir.
+   Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter mais opções que você pode definir.
 
 1. Clique em **[!UICONTROL Submit Publish]**.
 1. Repita as etapas 2 a 4 acima.
 1. Em **[!UICONTROL Advanced]**, na lista suspensa **[!UICONTROL Publish To]**, selecione **[!UICONTROL Image Server]**.
 
-   Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter opções adicionais que você pode definir.
+   Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter mais opções que você pode definir.
 
 1. Clique em **[!UICONTROL Submit Publish]**.
