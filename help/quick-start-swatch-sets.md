@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
-
 
 # Início rápido: Conjuntos de amostras{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Consulte [Pré-visualização de um ativo](previewing-asset.md#previewing-an-ass
 
 A publicação de um Conjunto de amostras o coloca em servidores Dynamic Media Classic e ativa a string do URL.
 
-Clique no ícone **Marcar para publicação** à esquerda de seu nome no Painel de navegação. Em seguida, clique em **Publish**. Na tela Publicar , clique em **Iniciar publicação**.
+Clique no ícone **Marcar para publicação** à esquerda de seu nome no Painel de navegação. Em seguida, clique em **Publish**. Na tela Publicar , clique em **Enviar publicação**.
 
 Consulte [Publicação](publishing-files.md#publishing-files).
 
