@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
 role: Business Practitioner
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 3%
+source-wordcount: '536'
+ht-degree: 0%
 
 ---
 
@@ -26,25 +26,25 @@ O Visualizador de conjunto de imagens oferece ferramentas de zoom para examinar 
 
 O Início rápido dos conjuntos de imagens foi projetado para entrar em operação rapidamente com as técnicas do Conjunto de imagens no Dynamic Media Classic.
 
-**1. Fazer upload de suas imagens principais para várias exibições e amostras**
+## 1. Upload de imagens principais para várias exibições e amostras
 
-Comece carregando as imagens dos seus Conjuntos de imagens. Como os usuários podem ampliar imagens no Visualizador do conjunto de imagens, considere o zoom ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas imagens TIFF, PNG e EPS sem perdas são recomendadas.
+Comece carregando as imagens dos seus Conjuntos de imagens. Como os usuários podem ampliar imagens no Visualizador do conjunto de imagens, certifique-se de contabilizar essa capacidade ao escolher imagens. Certifique-se de que as imagens tenham pelo menos 2000 pixels no tamanho maior. O Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas imagens TIFF, PNG e EPS sem perdas são recomendadas.
 
-Selecione o botão Fazer upload na barra Navegação global para fazer upload de arquivos do seu computador para uma pasta no Dynamic Media Classic.
+Na barra Navegação global, clique em **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Dynamic Media Classic.
 
 Consulte [Preparando ativos do Conjunto de Imagens para fazer upload](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [Fazer upload de seus arquivos](uploading-files.md#uploading-your-files).
 
-**2. Criação de um conjunto de imagens**
+## 2. Criação de um conjunto de imagens
 
 Em Conjuntos de imagens, os usuários clicam em imagens em miniatura no Visualizador de conjunto de imagens para ver uma imagem de um lado ou ângulo diferente.
 
-Para criar um Conjunto de imagens, clique no botão Criar e escolha Conjuntos de imagens. Em seguida, na tela Conjunto de imagens, arraste suas imagens para a tela para compor seu Conjunto de imagens. Organize, adicione e exclua imagens conforme necessário.
+Para criar um Conjunto de imagens, na barra Navegação global, clique em **[!UICONTROL Build]** e escolha **[!UICONTROL Image Sets]**. Na janela Conjunto de imagens, arraste suas imagens para a página para compor seu Conjunto de imagens. Organize, adicione e exclua imagens conforme necessário.
 
 Consulte [Criação de um conjunto de imagens](creating-image-set.md#creating-an-image-set).
 
 Consulte também [Inclusão metas de zoom e mapas de imagem em conjuntos de imagens](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)
 
-**3. Configuração das predefinições do visualizador do conjunto de imagens, conforme necessário**
+## 3. Configuração das predefinições do visualizador do conjunto de imagens, conforme necessário
 
 Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Usar o Visualizador de Zoom: Personalizado > Imagens ou Conjuntos de imagens/Várias exibições predefinições para exibir seus Conjuntos de imagens.
 
@@ -52,28 +52,28 @@ Adicione ou edite Predefinições do visualizador na tela Configuração do apli
 
 Consulte [Criação e edição de predefinições do visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
-**4. Visualização de um conjunto de imagens**
+## 4. Visualização de um conjunto de imagens
 
-Selecione o Conjunto de imagens no Painel de navegação e clique em Visualizar. Seu conjunto de imagens é exibido na tela Visualização. Clique nos ícones de miniatura para examinar seu Conjunto de imagens no Visualizador selecionado. Você pode escolher visualizadores diferentes no menu Predefinições.
+Selecione o Conjunto de imagens no Painel de navegação e clique em **[!UICONTROL Preview]**. Na página Visualização , clique nos ícones de miniatura para examinar seu Conjunto de imagens no Visualizador selecionado. Você pode escolher visualizadores diferentes no menu Predefinições.
 
 Consulte [Pré-visualização de um ativo](previewing-asset.md#previewing-an-asset).
 
-**5. Publicar um conjunto de imagens**
+## 5. Publicar um conjunto de imagens
 
 A publicação de um Conjunto de imagens o coloca em servidores Dynamic Media Classic e ativa a string do URL.
 
 >[!NOTE]
 >
->Esta etapa não é necessária se você selecionou **Publicar após salvar **(padrão) no momento em que criou e salvou o Conjunto de imagens.
+>Esta etapa não é necessária se você selecionou **[!UICONTROL Publish after save]** (padrão) no momento em que criou e salvou o Conjunto de imagens.
 
-Clique no ícone Marcar para publicação à esquerda de seu nome no painel Procurar. Em seguida, clique em **Publish**. Na tela Publicar , clique em **Enviar publicação**.
+Clique no ícone **[!UICONTROL Mark for Publish]** à esquerda de seu nome no Painel de navegação. Em seguida, clique em **[!UICONTROL Publish]**. Na página Publicar , clique em **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicação](publishing-files.md#publishing-files).
 
-**6. Vincular um conjunto de imagens ao seu site:**
+## 6. Vincular um conjunto de imagens ao seu site
 
 O Dynamic Media Classic cria chamadas de URL para conjuntos de imagens e as ativa após a publicação. Você pode copiar esses URLs da tela de Visualização.
 
-Selecione o Conjunto de imagens e clique no botão Visualizar. A tela Visualização é aberta. Selecione uma predefinição do visualizador do conjunto de imagens e clique em **Copiar URL**.
+Selecione o Conjunto de imagens e clique em **[!UICONTROL Preview]**. Em seguida, selecione uma Predefinição do visualizador do conjunto de imagens e clique em **[!UICONTROL Copy URL]**.
 
 Consulte [Vincular um conjunto de imagens a uma página da Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
