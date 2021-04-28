@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ Como parte da criação do seu eCatalog, você pode organizar páginas ou págin
 >
 >Agora você pode criar eCatalogs no Dynamic Media Classic.
 
-## Início rápido
-
 Este eCatalog Quick Start foi projetado para ajudar você a ativar e executar rapidamente com eCatalogs. Siga as etapas de 1 a 7. Após cada etapa é uma referência cruzada a um cabeçalho de tópico, onde você pode encontrar mais informações.
 
-### 1. Upload dos arquivos PDF
+## 1. Upload dos arquivos PDF
 
 Os arquivos Adobe PDF geralmente são a origem de um eCatalog. Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. O Dynamic Media Classic detecta essas imagens e as converte usando um perfil de cor CMYK padrão. No entanto, você deve carregar e usar um perfil de cor personalizado.
 
@@ -64,7 +62,7 @@ Em Opções de PDF, a tela Upload fornece opções para carregar arquivos PDF na
 
 Consulte [Fazer upload dos arquivos PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
-### 2. Criação de um catálogo eletrônico
+## 2. Criação de um catálogo eletrônico
 
 Crie seu eCatalog selecionando arquivos PDF ou de imagem no painel Procurar. Clique em **[!UICONTROL Build]** e escolha **[!UICONTROL eCatalogs]**.
 
@@ -76,7 +74,7 @@ Clique em **[!UICONTROL Save]**, insira um nome para seu eCatalog, escolha uma p
 
 Consulte [Criação de um Catálogo eletrônico](creating-ecatalog.md).
 
-### 3. Criação de mapas de imagem
+## 3. Criação de mapas de imagem
 
 Os mapas de imagem adicionam outro aspecto às páginas de catálogo eletrônico. Um Mapa de imagem é uma região em uma página que fornece mais informações sobre um item. Quando os visualizadores passam o ponteiro sobre um Mapa de imagem, eles veem uma descrição do item. Clicar em um Mapa de imagem ativa uma referência externa que abre uma nova página da Web, onde você pode saber mais sobre um item.
 
@@ -92,7 +90,7 @@ Você pode configurar e gerenciar o texto do mapa de imagem usando as configura�
 
 Consulte [Gerenciamento do conteúdo do Painel de informações](info-panel-content.md#managing-info-panel-content).
 
-### 4. Configuração das predefinições do visualizador de catálogo eletrônico
+## 4. Configuração das predefinições do visualizador de catálogo eletrônico
 
 Os usuários finais visualizam seu eCatalog no Visualizador do eCatalog. Se você for um administrador, poderá configurar o eCatalog Viewer. Você pode alterar a cor do contorno e selecionar uma nova &quot;capa&quot; para marcar seu eCatalog. O Dynamic Media Classic vem com várias predefinições do visualizador de catálogo eletrônico de &quot;prática recomendada&quot;. Você pode escolher uma dessas predefinições para exibir seus eCatalogs. Você também pode criar uma predefinição do visualizador do eCatalog própria se você for um administrador.
 
@@ -100,7 +98,7 @@ Para criar uma Predefinição do Visualizador de Catálogo Eletrônico, na barra
 
 Consulte [Configuração das predefinições do visualizador do catálogo eletrônico](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
-### 5. Visualização de eCatalogs no Visualizador de Catálogo Eletrônico
+## 5. Visualização de eCatalogs no Visualizador de Catálogo Eletrônico
 
 As Predefinições do visualizador de catálogo eletrônico determinam o estilo e o comportamento dos visualizadores de catálogo eletrônico.
 
@@ -110,7 +108,7 @@ Observe a orientação, o esquema de cores, a aparência dos controles para alte
 
 Consulte [Visualização de catálogos eletrônicos no Visualizador de catálogo eletrônico](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-### 6. Publicar eCatalog e PDFs associados
+## 6. Publicar eCatalog e PDFs associados
 
 A publicação do seu eCatalog e do PDF associado o coloca nos Servidores de Imagem da Dynamic Media para que ele possa ser entregue ao seu site e aplicativo. Como parte do processo de publicação, o Dynamic Media Classic ativa a cadeia de caracteres de URL do seu eCatalog. Use este URL para chamar o eCatalog dos Servidores de Imagem da Dynamic Media para seu site ou aplicativo.
 
@@ -118,7 +116,7 @@ Depois de marcar seu eCatalog e o PDF para publicação no Painel de navegação
 
 Consulte [Publicar catálogos eletrônicos e PDFs associados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-### 7. Vincular um eCatalog a uma página da Web
+## 7. Vincular um eCatalog a uma página da Web
 
 O Dynamic Media Classic ativa a string de chamada de URL necessária para exibir seu eCatalog quando você o publica nos Dynamic Media Image Servers. Você pode copiar essa cadeia de caracteres do URL da tela de Visualização e do Painel de navegação (na exibição de Detalhes) selecionando URLs no painel. Após copiar a string do URL, ele fica disponível para seus sites e aplicativos.
 
