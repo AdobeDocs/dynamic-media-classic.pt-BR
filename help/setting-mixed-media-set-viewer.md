@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
+exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
-
 
 # Configuração de uma predefinição do visualizador de conjunto de mídias mistas{#setting-up-a-mixed-media-set-viewer-preset}
 
@@ -24,57 +24,48 @@ As Predefinições do visualizador de conjunto de mídias mistas determinam o es
 
 Você pode optar por incluir todos ou alguns recursos da comunidade no Visualizador de conjunto de mídias mistas. O recurso Incorporar adiciona um link ao visualizador que permite que os usuários copiem o código necessário para exibir o visualizador em uma página externa (como um blog, site da Web ou site de rede social). O recurso Link fornece o URL para o visualizador, para que os usuários possam se vincular novamente a esse visualizador. O recurso Visita fornece um link para o site que você especificar.
 
-1. Clique em **Configurar** > **Predefinições do visualizador**.
+1. Na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Na página Predefinições do visualizador , execute um dos seguintes procedimentos:
 
-   * Para criar uma nova predefinição, clique em **Adicionar**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador do conjunto de mídias mistas e clique em **Adicionar**.
-   * Para editar uma predefinição do Visualizador de conjunto de mídias mistas, selecione-a e clique em **Editar**.
+   * Para criar uma predefinição, clique em **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha **[!UICONTROL Mixed Media Set Viewer]** e clique em **[!UICONTROL Add]**.
+   * Para editar uma predefinição do Visualizador do conjunto de mídias mistas, selecione-a e clique em **[!UICONTROL Edit]**.
 
-   A tela Configurar visualizador é aberta.
+1. Na página Visualizador de configuração, digite um nome na caixa Nome da predefinição da predefinição do Visualizador do conjunto de mídias mistas.
+1. Especifique **[!UICONTROL Tabs]** ou **[!UICONTROL No Tabs]**. Guias itens separados por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especifica guias, todos os itens aparecem em uma linha abaixo da janela Visualizar.
+1. Na caixa **[!UICONTROL Name]**, digite um nome para o visualizador que deseja adicionar.
 
-1. Digite um nome na caixa Nome da predefinição da predefinição do Visualizador do conjunto de mídias mistas.
-1. Especifique as guias ou nenhuma guia. Guias itens separados por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especifica guias, todos os itens aparecem em uma linha abaixo da janela de visualização.
-1. Na caixa Nome, digite um nome para o visualizador que deseja adicionar.
-
-   Por exemplo, se estiver adicionando um Conjunto de amostras ao seu Conjunto de mídias mistas, digite *Conjunto de amostras A*.
+   Por exemplo, se estiver adicionando um Conjunto de amostras ao seu Conjunto de mídias mistas, digite `Swatch Set A`.
 
 1. No menu Visualizador, escolha o tipo de ativo que deseja visualizar, como Conjuntos de amostras.
 1. No menu Predefinição, escolha uma predefinição para o tipo de ativo escolhido.
 
-   Por exemplo, se estiver adicionando um Conjunto de amostras, escolha SwatchSet1-Colors.
+   Por exemplo, se estiver adicionando um Conjunto de amostras, escolha **[!UICONTROL SwatchSet1-Colors]**.
 
-1. Clique em **Adicionar**.
+1. Clique em **[!UICONTROL Add]**.
 
    A nova predefinição do Visualizador é exibida na lista.
 
 1. Repita as etapas 6 a 9 para todas as predefinições do Visualizador que deseja adicionar.
 1. Para editar a lista predefinida, siga um destes procedimentos:
 
-   * Para excluir uma predefinição da lista, selecione-a e clique em Excluir.
-   * Para reorganizar predefinições na lista, selecione uma predefinição e clique na seta azul para cima ou para baixo.
+   * Para excluir uma predefinição da lista, selecione-a e clique em **[!UICONTROL Delete]**.
+   * Para reorganizar predefinições na lista, selecione uma predefinição e clique na seta azul **[!UICONTROL Up]** ou **[!UICONTROL Down]**.
 
 1. Para adicionar recursos da comunidade (Incorporar, Link, Visita) ao visualizador, especifique opções para qualquer um dos seguintes itens:
 
-   * ****
-EmailClick On para ativar um botão Email no visualizador. Quando os usuários clicam no botão Email ao visualizar o conjunto, um email contendo o link para o conjunto é aberto.
+   * **Email**  - Clique em  **[!UICONTROL On]** para ativar um botão de Email no visualizador. Quando os usuários clicam no botão Email ao visualizar o conjunto, um email contendo o link para o conjunto é aberto.
 
-   * ****
-EmbedClick Live. Na caixa Incorporar rótulo do botão, digite o nome que deseja exibir no visualizador do botão Incorporar. Se desejar, clique em 
-**** Navegue para localizar e selecionar uma capa personalizada para o botão.
+   * **Incorporar**  - Clique em  **[!UICONTROL Live]**. Na caixa Incorporar rótulo do botão, digite o nome que deseja exibir no visualizador para o botão Incorporar. Se desejar, clique em **[!UICONTROL Browse]** para localizar e selecionar uma capa personalizada para o botão.
 
-   * ****
-LinkClick Live. Na caixa Rótulo do botão de link , digite o nome que deseja exibir no visualizador do botão Link. Se desejar, clique em 
-**** Navegue para localizar e selecionar uma capa personalizada para o botão.
+   * **Link**  - Clique em  **[!UICONTROL Live]**. Na caixa Rótulo do botão de link , digite o nome que deseja exibir no visualizador do botão Link . Se desejar, clique em **[!UICONTROL Browse]** para localizar e selecionar uma capa personalizada para o botão.
 
-   * ****
-VisitClick 
-**Ao vivo**. Na caixa Rótulo do botão de visita, digite o nome que deseja exibir no visualizador do botão de visita. Na caixa URL da visita , digite o URL do site que você deseja abrir ao clicar no link.
+   * **Visita**  - Clique em  **[!UICONTROL Live]**. Na caixa Rótulo do botão de visita, digite o nome que deseja exibir no visualizador do botão Visita . Na caixa URL da visita , digite o URL do site que você deseja abrir ao clicar no link.
 
-1. Especifique outras opções, conforme desejado. Para ver uma descrição de uma opção, clique no ícone Dica de informações adjacente à opção.
+1. Especifique outras opções, conforme desejado. Para ver uma descrição de uma opção, clique no ícone Dica de informações ao lado da opção .
 
-   A tela de visualização exibe o visualizador conforme você atualiza e altera as configurações.
+   A página Visualização exibe o visualizador conforme você atualiza e altera as configurações.
 
-1. Clique em **Salvar**.
+1. Clique em **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
