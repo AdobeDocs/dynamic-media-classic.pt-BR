@@ -7,7 +7,7 @@ breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba como usar o Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
    + [Recursos populares](popular-resources.md)
    + [Vídeos de treinamento](training-videos.md)
 + Introdução {#getting-started}
-   + [Visão geral da plataforma Adobe Dynamic Media Classic](dmc-platform-overview.md)
+   + [Visão geral do programa Adobe Dynamic Media Classic](dmc-platform-overview.md)
    + [Portal de mídia](media-portal.md)
    + [Fazer logon e sair](signing-out.md)
    + [Elementos básicos de navegação](navigation-basics.md)
