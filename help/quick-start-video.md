@@ -9,7 +9,7 @@ feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -40,7 +40,9 @@ Para gerenciar vídeos únicos e conjuntos de vídeos adaptáveis, o Dynamic Med
 
    Quando um conjunto de vídeo adaptável é gerado, ele inclui vídeos MP4.
 
-   `**Note:**` Vídeos principais/de origem e qualquer outro vídeo no formato de origem  ** não são adicionados a um Conjunto de vídeos adaptáveis.
+   >[!NOTE]
+   >
+   >Vídeos principais/de origem e qualquer outro vídeo no formato de origem são *e não* adicionados a um Conjunto de Vídeos Adaptativos.
 
 * As legendas de vídeo em Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e a navegação de capítulo de vídeo em Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
