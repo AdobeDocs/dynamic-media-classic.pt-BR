@@ -1,6 +1,6 @@
 ---
-title: Visão geral da plataforma Adobe Dynamic Media Classic
-description: Uma visão geral da plataforma Dynamic Media Classic e do processo do fluxo de trabalho.
+title: Visão geral do programa Adobe Dynamic Media Classic
+description: Uma visão geral do programa Dynamic Media Classic e do processo de fluxo de trabalho.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -11,14 +11,14 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# Visão geral da plataforma Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
+# Visão geral do programa Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
 
 O Dynamic Media Classic é um ambiente integrado de gerenciamento de mídia avançada, publicação e serviço. A mídia avançada pode ser entregue a todos os canais de marketing e venda, incluindo a Web, material impresso, campanhas por email, portais da Web, desktops e dispositivos.
 
