@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
 role: Administrator,Business Practitioner
+exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
-
 
 # Especificar opções de exportação disponíveis para usuários do Media Portal {#specifying-export-options-available-to-media-portal-users}
 
@@ -28,21 +28,18 @@ As duas restrições a seguir se aplicam se você exportar ativos de imagem por 
 
 Consulte também [Exportação de ativos do Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**Especificação de opções de exportação disponíveis para usuários do Media Portal**
+**Para especificar opções de exportação disponíveis para usuários do Media Portal:**
 
-1. Clique em **Configurar** > **Predefinições de imagem**.
+1. Na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 1. Na janela Predefinições de imagem, selecione uma das opções a seguir:
 
-   * **Ativar**
-Conversão Definida pelo Usuário Quando selecionada, essa opção permite que os usuários escolham outra opção na lista suspensa Tamanho, na janela Exportar Ativos Selecionados. Em seguida, os usuários podem escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
+   * **Ativar a conversão definida pelo usuário**  - Quando selecionada, essa opção permite que os usuários escolham outra opção na lista  **[!UICONTROL Size]** suspensa da janela Exportar ativos selecionados. Em seguida, os usuários podem escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
 
-      Quando **pixels** são escolhidos a partir de **Tamanho**
-na lista suspensa, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com relação de aspecto 2x3. Essa limitação de tamanho não se aplica se você exportar imagens principais originais.
+      Quando **[!UICONTROL pixels]** é escolhido na lista suspensa **[!UICONTROL Size]**, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com relação de aspecto 2x3. Essa limitação de tamanho não se aplica se você exportar imagens principais originais.
 
       Desmarque essa opção se desejar que os usuários baixem arquivos sem reformatá-los à medida que forem baixados.
 
-   * **Ativar Exportar**
-Original Permite exportar imagens principais originais. No painel Exportar ativos selecionados , os usuários podem abrir o menu suspenso Conversão e escolher Exportar original para exportar arquivos originais. Desmarque essa opção se desejar forçar os usuários a escolher uma Predefinição de imagem ou escolher opções de conversão ao exportar imagens.
+   * **Ativar Exportar original**  - permite exportar imagens principais originais. No painel **[!UICONTROL Export Selected Assets]**, os usuários podem abrir o menu suspenso **[!UICONTROL Conversion]** e escolher **[!UICONTROL Export Original]** para exportar arquivos originais. Desmarque essa opção se desejar forçar os usuários a escolher uma predefinição de imagem ou escolher opções de conversão ao exportar imagens.
 
 >[!MORELIKETHIS]
 >
