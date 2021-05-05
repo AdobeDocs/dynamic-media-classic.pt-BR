@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Essas opções estão na página Upload , em Opções de edição de imagem.
 
 ## Recortar espaço em branco de imagens
 
-Para cortar automaticamente pixels de espaço em branco de uma imagem, selecione o menu Cortar e escolha Cortar. Em seguida, escolha estas opções:
+Para cortar automaticamente pixels de espaço em branco de uma imagem, na caixa de diálogo Upload Job Options , clique em **[!UICONTROL Crop Options]**. Na lista suspensa **[!UICONTROL Crop]**, escolha **[!UICONTROL Trim]**. Em seguida, escolha estas opções:
 
-* **Aparar com base em**  - Escolha se deseja recortar com base na cor ou na transparência:
+* **Aparar com base em**  - Nessa lista suspensa, escolha se deseja cortar com base na cor ou na transparência:
 
-* **Cor**  - Escolha a  **[!UICONTROL Color]** opção. Em seguida, na lista suspensa **[!UICONTROL Corner]**, selecione o canto da imagem com a cor que melhor representa a cor do espaço em branco que deseja recortar.
+   * **Cor**  - Escolha a  **[!UICONTROL Color]** opção. Em seguida, na lista suspensa **[!UICONTROL Corner]**, selecione o canto da imagem com a cor que melhor representa a cor do espaço em branco que deseja recortar.
 
-* **Transparência**  - Escolha a opção Transparência.
+   * **Transparência**  - Escolha a opção Transparência.
 
 * **Tolerância**  - Arraste o controle deslizante para especificar uma tolerância de 0 a 1:
 
-* **Aparar com base na cor**  - Especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Os números mais próximos de 1 permitem mais diferenças de cor.
+   * **Aparar com base na cor**  - Especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Os números mais próximos de 1 permitem mais diferenças de cor.
 
-* **Aparar com base na transparência**  - Especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
+   * **Aparar com base na transparência**  - Especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
 
 ## Recortar manualmente dos lados das imagens
 
