@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
-
 
 # Upload de arquivos de modelo{#uploading-template-files}
 
@@ -30,8 +30,11 @@ Os modelos podem ser criados a partir de arquivos Adobe Photoshop PSD ou arquivo
 
 Para obter instruções detalhadas sobre como fazer upload de arquivos, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files). Lembre-se do seguinte ao carregar arquivos de modelo:
 
-* Se você estiver carregando um arquivo PSD, poderá criar um modelo a partir dele. O Dynamic Media Classic cria uma imagem separada para cada camada no PSD. Na caixa de diálogo Fazer upload de opções de trabalho , selecione Opções do Photoshop, selecione a opção Manter camadas e selecione a opção Criar modelo . Em seguida, escolha uma opção no menu Nomenclatura de camada para nomear as imagens criadas pelo Dynamic Media Classic a partir de camadas no PSD. Consulte [Opções de carregamento de PSD](psd-files.md#psd_upload_options).
-* Ao carregar imagens, você pode criar uma máscara a partir de seu traçado de recorte. Essa opção se aplica a imagens criadas com aplicativos de edição de imagens nas quais um traçado de recorte foi criado. Na caixa de diálogo Fazer upload de opções de trabalho , selecione Opções de edição de imagem e selecione a opção Criar máscara a partir do caminho de recorte. Consulte [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* Se você estiver carregando um arquivo PSD, poderá criar um modelo a partir dele. O Dynamic Media Classic cria uma imagem separada para cada camada no PSD. Na caixa de diálogo Upload Job Options , clique em **[!UICONTROL Photoshop Options]** e selecione **[!UICONTROL Maintain Layers]** e **[!UICONTROL Create Template]**. Em seguida, escolha uma opção na lista suspensa **[!UICONTROL Layer Naming]** para nomear as imagens que o Dynamic Media Classic cria das camadas no PSD.
+Consulte [Opções de carregamento de PSD](psd-files.md#psd_upload_options).
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
