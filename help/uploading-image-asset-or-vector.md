@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
-
 
 # Upload de um ativo de imagem ou de vetor{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -43,7 +43,7 @@ Por padrão, o token de upload expira cinco minutos (300 segundos) após sua rec
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-A resposta bem-sucedida para imagens é semelhante à seguinte:
+A resposta bem-sucedida de imagens é semelhante ao seguinte:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ Você pode usar os seguintes campos na cadeia de caracteres do URL de consulta p
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**Métodos HTTP permitidos:** GET e POST
+**Métodos HTTP permitidos:**
+`GET` e  `POST`
 
 Agora é possível fazer upload de um ativo de imagem.
 
@@ -123,9 +124,10 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Um token de upload.
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
-* Preservar ou não o perfil de cor e o nome do arquivo associados ao ativo.
-* Uso ou não do Plano de Fundo do Knockout. Se você ativar o Plano de Fundo de Knockout, defina o Canto, a Tolerância e o Método de Preenchimento. Consulte Plano de fundo de nocaute em [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
-* O nome do arquivo a ser carregado
+* Se é necessário preservar o perfil de cor e o nome do arquivo associados ao ativo.
+* Se deseja usar o Plano de Fundo do Knockout. Se você ativar o Plano de Fundo de Knockout, defina o Canto, a Tolerância e o Método de Preenchimento.
+Consulte Plano de fundo de nocaute em [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* O nome do arquivo a ser carregado.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+Você pode exibir o código-fonte HTML associado ao formulário acima clicando em [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Você pode exibir o código-fonte HTML associado ao formulário acima clicando no link a seguir:
+No Firefox, clique com o botão direito do mouse na janela do navegador e depois clique em **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **[!UICONTROL Submit]**.
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-No Firefox, clique com o botão direito do mouse na janela do navegador e clique em **Exibir fonte da página**. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
-
-Para exibir a resposta XML no Internet Explorer, clique em **View > Source**. Para exibir a resposta XML no Firefox, clique em **Tools > Web Developer > Page Source**. O Firefox é recomendado para exibir respostas XML.
+Para exibir a resposta XML no Internet Explorer, clique em **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, clique em **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
 
 Veja a seguir uma amostra de resposta de um upload bem-sucedido:
 
@@ -183,13 +181,13 @@ Envie o ativo para fazer upload como uma publicação de várias partes/formulá
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 |--- |--- |--- |
-| op | Obrigatório | fazer upload |
-| upload_token | Obrigatório | Faça upload do token da chave secreta compartilhada associada à empresa. |
-| company_name | Obrigatório | Nome da empresa que está executando o upload. |
-| file_limit | Opcional | Limite de tamanho do arquivo, em bytes, para o ativo. |
-| file_exts | Opcional | Lista de extensões permitidas para o arquivo de ativo de imagem. |
-| preserve_colorprofile | Opcional | Preserva qualquer perfil de cor incorporado durante a conversão do arquivo carregado para o formato PTIFF. Os valores possíveis são verdadeiro ou falso. O padrão é false. |
-| preserve_filename | Opcional | Preserva o nome do arquivo do ativo carregado. Os valores possíveis são verdadeiro ou falso. O padrão é false. |
+| `op` | Obrigatório | fazer upload |
+| `upload_token` | Obrigatório | Faça upload do token da chave secreta compartilhada associada à empresa. |
+| `company_name` | Obrigatório | Nome da empresa que está executando o upload. |
+| `file_limit` | Opcional | Limite de tamanho do arquivo, em bytes, para o ativo. |
+| `file_exts` | Opcional | Lista de extensões permitidas para o arquivo de ativo de imagem. |
+| `preserve_colorprofile` | Opcional | Preserva qualquer perfil de cor incorporado durante a conversão do arquivo carregado para o formato PTIFF. Os valores possíveis são verdadeiro ou falso. O padrão é false. |
+| `preserve_filename` | Opcional | Preserva o nome do arquivo do ativo carregado. Os valores possíveis são verdadeiro ou falso. O padrão é false. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ Você pode usar `image_info` para recuperar metadados para um ativo que você ca
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Um exemplo de resposta bem-sucedida é semelhante ao seguinte:
+Um exemplo de resposta bem-sucedida é exibido de maneira semelhante ao seguinte:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ Você pode usar os seguintes campos na sequência de consulta do URL para solici
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 |--- |--- |--- |
-| op | Obrigatório | image_info |
-| shared_secret | Obrigatório | A chave secreta compartilhada da empresa. |
-| image_name | Obrigatório | Nome da imagem. |
+| `op` | Obrigatório | image_info |
+| `shared_secret` | Obrigatório | A chave secreta compartilhada da empresa. |
+| `image_name` | Obrigatório | Nome da imagem. |
 
 **Exemplo de URL:**
 
@@ -286,9 +284,10 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Um token de upload.
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
-* Preservar ou não o perfil de cor e o nome do arquivo associados ao ativo.
-* Uso ou não do Plano de Fundo do Knockout. Se você ativar o Plano de Fundo de Knockout, defina o Canto, a Tolerância e o Método de Preenchimento. Consulte Plano de fundo de nocaute em [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
-* O nome do arquivo a ser carregado
+* Se é necessário preservar o perfil de cor e o nome do arquivo associados ao ativo.
+* Se deseja usar o Plano de Fundo do Knockout. Se você ativar o Plano de Fundo de Knockout, defina o Canto, a Tolerância e o Método de Preenchimento.
+Consulte Plano de fundo de nocaute em [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+* O nome do arquivo a ser carregado.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-O código HTML a seguir é exibido quando você clica com o botão direito do mouse na janela do navegador e clica em **Exibir fonte** para o formulário mostrado na ilustração. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **Enviar**.
+O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em **[!UICONTROL View Source]** para o formulário mostrado no exemplo. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-Para exibir a resposta XML no Internet Explorer, clique em **View** > **Source**. Para exibir a resposta XML no Firefox, clique em **Exibir** > **Origem da página**. O Firefox é recomendado para exibir respostas XML.
+Para exibir a resposta XML no Internet Explorer, clique em **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, clique em **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. O Firefox é recomendado para exibir respostas XML.
 
 Veja a seguir uma amostra de resposta de um upload bem-sucedido:
 
@@ -366,7 +363,7 @@ Veja a seguir uma amostra de resposta de um upload bem-sucedido:
 >
 >O ativo carregado (AI, EPS, PDF etc.) é convertido para o formato FXG e a resposta envia um link direto para esse ativo FXG.
 
-O ativo é como qualquer outro recurso Web-to-print; você pode aplicar consultas de processamento a ele. Por exemplo, o URL a seguir converte um recurso FXG em uma imagem de 500x500 png.
+O ativo é como qualquer outro recurso Web-to-print; você aplica consultas de processamento a ele. Por exemplo, o URL a seguir converte um recurso FXG em uma imagem de 500x500 png.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ Envie o ativo para fazer upload como uma publicação de várias partes/formulá
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 |--- |--- |--- |
-| op | Obrigatório | fazer upload |
-| upload_token | Obrigatório | Faça upload do token da chave secreta compartilhada associada à empresa. |
-| company_name | Obrigatório | Nome da empresa que está executando o upload. |
-| file_limit | Opcional | Limite de tamanho do arquivo, em bytes, para o ativo. |
-| file_exts | Opcional | Lista de extensões permitidas para o arquivo de ativo. |
+| `op` | Obrigatório | fazer upload |
+| `upload_token` | Obrigatório | Faça upload do token da chave secreta compartilhada associada à empresa. |
+| `company_name` | Obrigatório | Nome da empresa que está executando o upload. |
+| `file_limit` | Opcional | Limite de tamanho do arquivo, em bytes, para o ativo. |
+| `file_exts` | Opcional | Lista de extensões permitidas para o arquivo de ativo. |
 
 >[!NOTE]
 >
