@@ -11,9 +11,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ O Dynamic Media Classic é fundamentalmente diferente de outros sistemas, pois v
 As cadeias de caracteres de URL geradas com o Dynamic Media Classic incluem instruções que informam o servidor sobre como exibir o ativo quando ele é entregue. Por exemplo, a mesma imagem principal pode ser entregue em diferentes tamanhos, formatos, pesos, cores e exibições de zoom. Como parte da criação e publicação de ativos de mídia com o Dynamic Media Classic, você configura visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam o servidor corretamente sobre como apresentar seu ativo principal aos aplicativos.
 
 ![O Dynamic Media Classic pode fornecer a mesma imagem principal a diferentes mídias em diferentes tamanhos e formatos.](/help/assets/gs_dynamic_publishing.png)
+*O Dynamic Media Classic garante que experiências consistentes e de qualidade sejam entregues a qualquer tela, independentemente do tamanho ou da largura de banda.*
 
 ## Armazenamento de conteúdo em cache {#content-caching}
 
