@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Exibição de detalhes](/help/assets/image_0.img.png)
+![Exibição de detalhes ](/help/assets/image_0.img.png)
+*Exibição de detalhes com o painel Biblioteca de ativos oculto da exibição no lado esquerdo.*
 
 >[!NOTE]
 >
@@ -44,8 +45,8 @@ Para examinar, visualizar ou trabalhar em um ativo detalhadamente, você pode ex
 
 1. No painel Procurar, siga um destes procedimentos:
 
+   * Selecione o ativo. Próximo ao canto superior direito do Dynamic Media Classic, clique no ícone **[!UICONTROL Detail View]** .
    * Clique duas vezes no ativo.
-   * Selecione o ativo e clique em **[!UICONTROL Detail View]**.
    * Selecione o ativo e clique em **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
