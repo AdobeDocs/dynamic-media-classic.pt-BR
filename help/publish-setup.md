@@ -7,10 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: 35c62fb1f4f136c06ccfbfd80f918462e839d931
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ As configurações da página Publicar configuração determinam como os ativos 
 
 Os administradores podem alterar as configurações padrão nas páginas Servidor de imagem, Renderizador de imagem e Vinheta para estabelecer configurações padrão para o fornecimento de ativos dos servidores.
 
-Para abrir as páginas Publicar configuração, clique em **Configurar** > **Configuração do aplicativo** > **Publicar configuração**.
+Para abrir as páginas de Configuração de publicação, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
 
 >[!NOTE]
 >
@@ -94,7 +93,7 @@ Alguns dos benefícios de usar `locale=` e `attribute::DefaultLocale` incluem o 
 |--- |--- |
 | Localização do visualizador | Depois que os catálogos de conteúdo estático são implementados, a localização é controlada inteiramente com o parâmetro locale=, anexado a todas as solicitações feitas ao IS. Registros de configuração, capas, telas iniciais e assim por diante podem ter variantes específicas da localidade ou não. O conteúdo correto é fornecido pelo IS, sem que o visualizador precise saber qual conteúdo está localizado e quais são suas IDs. |
 | Imagens e vídeo | As empresas multinacionais têm frequentemente uma combinação de conteúdos genéricos e específicos para cada localidade. Com esse mecanismo, uma referência a uma imagem ou vídeo pode ser genérica e o IS serve o conteúdo específico da localidade, se estiver disponível. |
-| Conjuntos de imagens e Conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um genérico para um conjunto de imagens específico da localidade manipulado pelo visualizador. Mais comumente, as IDs individuais em um conjunto genérico podem se referir a conteúdos localizados. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto a foto do Painel de controle do Campaign. O IS traduz IDs automaticamente, de modo que não há necessidade de gerar conjuntos de imagens específicos para localidade. |
+| Conjuntos de imagens e Conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um genérico para um conjunto de imagens específico da localidade manipulado pelo visualizador. Mais comumente, as IDs individuais em um conjunto genérico podem se referir a conteúdos localizados. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto a foto do Painel de controle do Campaign. O IS traduz IDs automaticamente, de modo que não há necessidade de gerar conjuntos de imagens específicos para localidades. |
 
 #### Implementação da localização de ativos
 
@@ -108,13 +107,13 @@ Com a localização, um URL de servidor de imagem adiciona o parâmetro `locale=
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Ao receber a chamada http pelo Servidor de imagem, o parâmetro `locale=` é analisado pelo campo localeMap encontrado no grupo ****[!UICONTROL Setup]**** > ****[!UICONTROL Application Setup]**** > ****[!UICONTROL Publish Setup]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Localization Support]****.
+Ao receber a chamada http pelo Servidor de imagem, o parâmetro `locale=` é analisado pelo campo localeMap encontrado no grupo **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**.
 
 O campo Mapa de localidade contém uma lista de entradas que são separadas usando o símbolo da barra vertical (|).
 
 Cada entrada consiste em uma lista de valores separada por vírgulas. O primeiro valor é o valor de pesquisa passado pelo parâmetro `locale=`. Os valores restantes são valores de sufixo/substituição que são tentados até que um resulte em uma imagem existente.
 
-Se um valor de sufixo ou um valor de substituição for aplicado depende da configuração Local Global em ****[!UICONTROL Setup]**** > ****[!UICONTROL Application Setup]**** > ****[!UICONTROL Publish Setup]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Localization Support]****.
+Se um valor de sufixo ou um valor de substituição for aplicado depende da configuração Local Global em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**.
 
 >[!NOTE]
 >
