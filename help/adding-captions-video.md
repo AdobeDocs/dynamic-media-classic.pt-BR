@@ -4,11 +4,10 @@ description: Saiba como adicionar legendas ao vídeo
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 210c501f56f97b7fab08b71c263be1c03d3d0fac
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 1%
