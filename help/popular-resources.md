@@ -5,7 +5,6 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '556'
