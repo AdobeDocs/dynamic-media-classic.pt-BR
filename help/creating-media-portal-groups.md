@@ -10,7 +10,6 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
 role: Administrator,Business Practitioner
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '777'
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 ** Os grupos foram projetados para ajudar a administrar usuários do Media Portal. Para acessar um ativo, o usuário deve ser membro de pelo menos um grupo que tenha permissão para acessá-lo. Ao adicionar um usuário, você o atribui a um ou mais grupos. Ao fazer isso, você concede ao usuário acesso às pastas às quais o grupo foi atribuído. Você também pode escolher as Predefinições de imagem disponíveis para um grupo.
 
-## Uso de grupos para restringir o acesso a pastas, ativos e Predefinições de imagem {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
+## Uso de grupos para restringir o acesso a pastas, ativos e predefinições de imagens {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
 Para conceder permissão de acesso em diferentes níveis, crie grupos. Para cada grupo, você atribui permissões de leitura, gravação e exclusão a pastas e ativos diferentes em pastas. Além disso, você decide quais Predefinições de imagem estão disponíveis para o grupo. Em seguida, você atribui usuários a grupos. Um usuário pode ser membro de mais de um grupo. O conceito de grupo oferece a flexibilidade de atribuir acesso a conjuntos limitados do conteúdo total.
 
@@ -48,7 +47,7 @@ Se você não conceder especificamente permissão de grupo a um ativo ou pasta, 
 
 1. Clique em **[!UICONTROL Close]**.
 
-## Estabelecendo permissões de acesso a ativos para um grupo {#establishing-asset-access-permissions-for-a-group}
+## Estabelecimento de permissões de acesso a ativos para um grupo {#establishing-asset-access-permissions-for-a-group}
 
 1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Na página da lista Grupos, execute um dos seguintes procedimentos:
