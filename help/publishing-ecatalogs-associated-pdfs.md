@@ -10,7 +10,6 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '179'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Publicar eCatalogs e PDFs associados{#publishing-ecatalogs-and-associated-pdfs}
+# Publicar catálogos eletrônicos e PDFs associados{#publishing-ecatalogs-and-associated-pdfs}
 
 A publicação coloca seu eCatalog e o PDF nos Servidores de Imagem da Dynamic Media para que ele possa ser disponibilizado no seu site ou aplicativo. Como parte do processo de publicação, o Dynamic Media Classic ativa a string do URL. Você pode colocar essa cadeia de caracteres de URL no código da página da Web HTML.
 
