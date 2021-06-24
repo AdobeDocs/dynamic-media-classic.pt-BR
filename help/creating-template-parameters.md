@@ -10,7 +10,6 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '778'
@@ -28,7 +27,7 @@ Nos parâmetros da camada de texto, também é possível tornar a cadeia de cara
 
 Você pode fazer referência a um parâmetro mais de uma vez. Use a caixa de combinação para cada comando na caixa de diálogo do parâmetro para selecionar qualquer parâmetro que corresponda a esse comando específico. (Por exemplo, todos os parâmetros de tamanho estão disponíveis para o comando `size=` e assim por diante). Você pode reatribuir a referência do parâmetro a qualquer parâmetro que já esteja na caixa de combinação e renomear para algo que não esteja na caixa de combinação. No último caso, o nome deve ser exclusivo. Caso contrário, um erro indicará que o parâmetro existe. Quando você exclui uma referência de parâmetro, o parâmetro é removido do URL se não for referenciado em outro lugar. Quando você altera o valor padrão de um parâmetro de texto, todas as referências a esse parâmetro são atualizadas. Você pode ver a atualização na tabela de camadas, na renderização do modelo e no URL. Quando você altera um atributo de camada manipulando alças de redimensionamento ou digitando valores no painel de propriedades, o valor do parâmetro é atualizado e todas as referências ao parâmetro são atualizadas. Por exemplo, se você parametrizou o tamanho de duas camadas usando um parâmetro, ambos os tamanhos de camada são atualizados quando qualquer um dos tamanhos de camada é alterado. Ao visualizar um modelo e alterar um parâmetro, todas as referências a ele são atualizadas.
 
-## Parâmetros de uma camada {#parameterizing-a-layer}
+## Como parametrizar uma camada {#parameterizing-a-layer}
 
 Para cada camada no modelo, siga estas etapas para criar parâmetros do modelo:
 
