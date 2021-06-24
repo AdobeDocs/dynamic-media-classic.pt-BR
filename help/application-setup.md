@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-translation-type: tm+mt
 source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
 workflow-type: tm+mt
 source-wordcount: '10595'
@@ -160,7 +159,7 @@ Para abrir a tela Predefinição de imagem, na barra Navegação global, clique 
 
 Consulte [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
-### Criação e edição de predefinições de imagem {#creating-and-editing-image-presets}
+### Criação e edição de predefinições de imagens {#creating-and-editing-image-presets}
 
 1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 1. Crie uma predefinição ou comece com uma predefinição existente:
@@ -339,7 +338,7 @@ Uma predefinição de codificação que funciona com qualquer proporção de asp
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à origem | 96 | Para tablet (iPad, Android™) |
 | 1 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à origem | 128 | Para desktop |
 
-### Codificação de vídeo adaptável (16:9 ou 4:3) predefinições de vídeo {#adaptive-video-encoding-or-video-presets}
+### Predefinições de vídeo da Codificação de vídeo adaptável (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
 Essas predefinições de codificação de vídeo adaptável combinam uma série de predefinições de codificação individuais que são automaticamente selecionadas para você com base na proporção do vídeo que você enviou. Por exemplo, se você fizer upload de um vídeo 4:3, ele será automaticamente codificado usando todas as cinco predefinições 4:3 encontradas na lista predefinida principal na opção **Adaptive Video Encoding (16:9 ou 4:3)** .
 
@@ -402,7 +401,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do nome da predefinição/texto da dica de ferramenta | Velocidade de conexão do Target (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura dos pixels | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512x288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à origem | 64º | Baixa resolução, 3G |
+| 3 | 16:9, 512x288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à origem | 64º | Baixa resolução, 3G |
 | 2 | 16:9, 512x288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Igual à origem | 64º | Resolução média, 3G |
 | 1 | 16:9, 512x288, Móvel (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Igual à origem | 80º | Resolução média, Wi-Fi |
 | 4 | 16:9, 512x288, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | Igual à origem | 80º | Alta resolução, Wi-Fi |
@@ -433,7 +432,7 @@ Dependendo do visualizador, você pode adicionar recursos da comunidade. Os recu
 
 Consulte também [Exemplos de biblioteca de referência de visualizadores do Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-### Suporte ao visualizador para páginas da Web responsivas projetadas {#viewer-support-for-responsive-designed-web-pages}
+### Suporte de visualizador para páginas da Web responsivas projetadas {#viewer-support-for-responsive-designed-web-pages}
 
 Páginas da Web diferentes têm necessidades diferentes. Às vezes, você deseja uma página da Web que forneça um link que abra o Visualizador de HTML5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web provavelmente tem um layout estático. Ou é &quot;responsivo&quot; e exibido de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, os Visualizadores HTML5 fornecidos com o Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
 
@@ -463,7 +462,7 @@ Ao determinar o uso total da largura de banda para esse visualizador, considere 
 
 Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade JPEG (as configurações recomendadas estão entre 80 e 90), você pode diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 
-### Matriz de compatibilidade de predefinição do visualizador do Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
+### Matriz de compatibilidade de predefinições do visualizador do Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
 
 **Aviso** de fim de vida útil de visualizadores de Flashes: A partir de 31 de janeiro de 2017, o Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma do visualizador de Flashes.
 
@@ -528,7 +527,7 @@ O Dynamic Media Classic é compatível com a reprodução de vídeo móvel para 
 | Universal_HTML5_MixedMedia_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_MixedMedia_light | HTML5 | X | X | X | X | X |
 
-### Matriz de Gestures de Visualizadores Móveis Suportados {#supported-mobile-viewers-gestures-matrix}
+### Matriz de gestos de visualizadores móveis compatíveis {#supported-mobile-viewers-gestures-matrix}
 
 A tabela a seguir identifica os gestos do visualizador móvel que são suportados em dispositivos iOS, Android™ 2.x e Android™ 3.x.
 
@@ -612,7 +611,7 @@ Consulte [Exportação de uma predefinição do Visualizador HTML5](application-
    * Clique em **[!UICONTROL Save As]** se tiver adicionado uma predefinição do Visualizador, começando com uma predefinição existente.
    * Clique em **[!UICONTROL Save]** se tiver adicionado ou editado uma predefinição do Visualizador.
 
-### Exportar uma predefinição do visualizador HTML5 {#exporting-an-html-viewer-preset}
+### Exportar uma predefinição de visualizador HTML5 {#exporting-an-html-viewer-preset}
 
 Você pode exportar uma Predefinição do visualizador HTML5 existente para usar como a base para criar uma Predefinição do visualizador HTML5. Essa opção de exportação é útil, pois não é necessário criar o visualizador do zero. Em vez disso, você exporta uma predefinição que se comporta e tem a aparência desejada, então pode usá-la como ponto de partida para fazer ajustes de design.
 
@@ -655,7 +654,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Consulte [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
-### Ativar ou desativar as predefinições do Visualizador {#activating-or-deactivating-viewer-presets}
+### Ativar ou desativar as predefinições do visualizador {#activating-or-deactivating-viewer-presets}
 
 Para criar um URL para mostrar ativos, os usuários abrem a lista suspensa Predefinições na caixa de diálogo Visualizar , selecionam uma Predefinição do visualizador e clicam em Copiar URL (consulte [Copiando o URL de uma Predefinição do visualizador](application-setup.md#copying_the_url_of_a_viewer_preset)). Essa lista de Predefinições oferece Predefinições do visualizador que os administradores adicionam e gerenciam na tela Predefinições do visualizador. Por exemplo, todas as predefinições ativas do Visualizador do eCatalog são exibidas na lista suspensa Predefinições na caixa de diálogo Visualizar quando um usuário visualiza um eCatalog.
 
@@ -666,7 +665,7 @@ A menos que você desative as Predefinições do visualizador na tela Predefini�
 1. Escolha **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Na página Predefinições do visualizador , selecione ou desmarque as opções **[!UICONTROL Active]** para ativar ou desativar as Predefinições do visualizador.
 
-### Copiando o URL de uma predefinição do visualizador {#copying-the-url-of-a-viewer-preset}
+### Como copiar o URL de uma predefinição do Visualizador {#copying-the-url-of-a-viewer-preset}
 
 Após publicar um ativo, é possível copiar um URL para exibir o ativo com as configurações de uma Predefinição do visualizador.
 
@@ -740,7 +739,7 @@ Você pode usar Visualizadores padrão para configurar o visualizador padrão as
 
 O Dynamic Media Classic vem com Exibições de metadados predefinidas, e os administradores podem criar suas próprias Exibições de metadados para que os usuários escolham quando inserem metadados.
 
-### Criando uma Visualização de Metadados {#creating-a-metadata-view}
+### Criação de uma visualização de metadados {#creating-a-metadata-view}
 
 1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Views]**.
 1. Clique em **[!UICONTROL Add]**.
@@ -768,7 +767,7 @@ As Predefinições de metadados fornecem aos administradores uma maneira de cont
 
 Crie uma Predefinição de metadados para cada conjunto de valores de metadados que deseja que os usuários possam inserir automaticamente na exibição Detalhes para descrever um ativo.
 
-### Criar ou editar uma predefinição de metadados {#creating-or-editing-a-metadata-preset}
+### Criação ou edição de uma predefinição de metadados {#creating-or-editing-a-metadata-preset}
 
 1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Presets]**.
 1. Na tela Predefinições de metadados, execute um dos seguintes procedimentos:
@@ -874,7 +873,7 @@ Os administradores de empresas definem primeiro as convenções de nomenclatura 
 
 Todas as predefinições do conjunto de lotes ativas de uma empresa são listadas na caixa de diálogo Upload Job Option , para que você possa especificar qual predefinição deseja aplicar durante cada sessão de upload. Os administradores da empresa veem todas as predefinições de conjunto de lotes ativas e inativas. Ao carregar arquivos, o Dynamic Media Classic cria automaticamente um conjunto com todos os arquivos que correspondem à convenção de nomenclatura definida nas predefinições ativas.
 
-### Nomeação padrão {#default-naming}
+### Nomenclatura padrão {#default-naming}
 
 O administrador da empresa cria uma convenção de nomenclatura padrão usada em qualquer receita predefinida de conjunto de lotes. A convenção de nomenclatura padrão selecionada na definição predefinida do conjunto de lotes pode ser tudo que sua empresa precisa para gerar conjuntos em lote para todos os sites. Uma predefinição de conjunto de lotes é criada para usar a convenção de nomenclatura padrão que você definir. Você pode criar quantas predefinições do Conjunto de Lotes tiverem as convenções de nomenclatura alternativas e personalizadas necessárias para um conjunto específico de conteúdo, em casos em que há uma exceção na nomenclatura padrão definida pela empresa.
 
@@ -1006,7 +1005,7 @@ Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome d
 >[!MORELIKETHIS]
 >
 >* [Visualização de um ativo](previewing-asset.md#previewing_an_asset)
->* [Configuração de predefinições de imagens](setting-image-presets.md#setting_up_image_presets)
->* [Exibição, adição e exportação de metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
->* [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files)
+* [Configuração de predefinições de imagens](setting-image-presets.md#setting_up_image_presets)
+* [Exibição, adição e exportação de metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+* [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files)
 
