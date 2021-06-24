@@ -7,7 +7,6 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '1475'
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 Antes de fazer upload de um ativo de imagem, primeiro solicite uma chave secreta compartilhada. Use essa chave secreta compartilhada para recuperar um token de upload. Em seguida, use o token de upload para carregar ativos de imagem ou ativos vetoriais.
 
-## Solicitação de uma chave secreta compartilhada {#requesting-a-shared-secret-key}
+## Solicitar uma chave secreta compartilhada {#requesting-a-shared-secret-key}
 
 Solicite uma *chave secreta compartilhada* de [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) No seu caso de suporte, solicite uma chave secreta compartilhada.
 
