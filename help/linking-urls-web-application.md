@@ -10,7 +10,6 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '804'
@@ -32,7 +31,7 @@ Você pode obter uma string de URL gerada por uma Predefinição de imagem a par
 >
 >O URL não fica ativo até que você publique o ativo.
 
-### Obter um URL de predefinição de imagem a partir de Visualização {#obtaining-an-image-preset-url-from-preview}
+### Obter um URL de predefinição de imagem na Visualização {#obtaining-an-image-preset-url-from-preview}
 
 1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja visualizar.
 1. Siga um destes procedimentos:
@@ -53,7 +52,7 @@ Você pode obter uma string de URL gerada por uma Predefinição de imagem a par
 1. Clique em **[!UICONTROL URLs]** no painel no lado direito da tela para abrir a lista de Predefinições de imagem.
 1. Clique no link **[!UICONTROL Copy URL]** ao lado do nome da Predefinição de imagem com o URL que você deseja copiar para a Área de transferência.
 
-## Sobre as sequências de URL da predefinição de imagem {#about-image-preset-url-strings}
+## Sobre as cadeias de caracteres do URL da predefinição de imagem {#about-image-preset-url-strings}
 
 Uma chamada de URL para dimensionamento de imagem em servidores de imagem da Dynamic Media tem a seguinte sintaxe básica:
 
