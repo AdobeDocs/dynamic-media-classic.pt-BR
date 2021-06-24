@@ -8,14 +8,13 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
-
 
 # Sobre conteúdo gerado pelo usuário{#about-user-generated-content}
 
@@ -34,4 +33,3 @@ Depois de recuperar uma chave secreta compartilhada e um token de upload, você 
 * Obter metadados de ativos de imagem.
 * Exclua um ativo carregado.
 * Obtenha informações sobre o uso de espaço em disco de uma empresa.
-
