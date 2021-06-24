@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '626'
