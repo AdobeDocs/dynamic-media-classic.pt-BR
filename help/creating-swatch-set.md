@@ -10,7 +10,6 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '673'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Criando um Conjunto de Amostras{#creating-a-swatch-set}
+# Criação de um conjunto de amostras{#creating-a-swatch-set}
 
 Um Conjunto de amostras oferece aos usuários a oportunidade de visualizar um item em uma cor, padrão ou conclusão diferente. Para criar um Conjunto de amostras com amostras de cores, você precisa de uma imagem para cada cor, padrão ou acabamento diferente que deseja apresentar aos usuários. Você também precisa de uma cor, padrão ou amostra de finalização para cada cor, padrão ou finalização.
 
@@ -76,7 +75,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionado (padrão).
 1. Clique em **[!UICONTROL Save]**, selecione uma pasta de armazenamento, insira um nome para o conjunto e clique em **[!UICONTROL Save]**.
 
-## Excluindo um Conjunto de Amostras {#deleting-a-swatch-set}
+## Excluindo um conjunto de amostras {#deleting-a-swatch-set}
 
 Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) desse conjunto não são afetados; em vez disso, cada um mantém seu estado publicado ou não publicado.
 
