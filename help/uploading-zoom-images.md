@@ -10,7 +10,6 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '215'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Upload de imagens de Zoom{#uploading-zoom-images}
+# Upload de imagens de zoom{#uploading-zoom-images}
 
 As imagens de zoom devem ter uma contagem alta de pixels. Um número alto de pixels é necessário para que os visualizadores possam ver claramente os detalhes da imagem ao ampliar as imagens. Certifique-se de que as imagens usadas tenham o tamanho apropriado antes de carregá-las no Dynamic Media Classic.
 
