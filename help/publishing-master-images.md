@@ -10,7 +10,6 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '152'
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# Publicar imagens principais{#publishing-master-images}
+# Publicação de imagens principais{#publishing-master-images}
 
 Publicar seus arquivos de imagem os publica nos Servidores de Imagem da Dynamic Media, onde estão disponíveis para seu site e aplicativo. Além disso, durante o processo de publicação, o Dynamic Media Classic ativa as cadeias de caracteres de URL necessárias para o site e aplicativo.
 
-## Marcar imagens principais para publicar {#marking-master-images-for-publish}
+## Marcar imagens principais para publicação {#marking-master-images-for-publish}
 
 Imagens principais devem ser marcadas para publicação para que sejam copiadas para os Servidores de Imagem Dynamic Media. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando no ícone **[!UICONTROL Mark for Publish]**. Também é possível marcar imagens para publicação ao carregá-las no Dynamic Media Classic.
 
