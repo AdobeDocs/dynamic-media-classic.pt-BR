@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar marcadores de capítulo ao vídeo{#adding-chapter-markers-to-video}
 
@@ -50,7 +49,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora de sinalização de `00:00:000 --> 01:04:364` especifica a hora de início e a hora de término do capítulo, no formato 00:00:00. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição real do conteúdo do capítulo. O identificador de sinalização, a hora de início e o título do capítulo são exibidos em uma pop-up no reprodutor de vídeo quando um usuário passa o ponteiro do mouse sobre um ponto de sinalização visual na linha do tempo do vídeo.
+No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora de sinalização de `00:00:000 --> 01:04:364` especifica a hora de início e a hora de término do capítulo, no formato 00:00:000. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição real do conteúdo do capítulo. O identificador de sinalização, a hora de início e o título do capítulo são exibidos em uma pop-up no reprodutor de vídeo quando um usuário passa o ponteiro do mouse sobre um ponto de sinalização visual na linha do tempo do vídeo.
 
 Como você está usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de capítulo criado siga o padrão WebVTT (Web Video Text Tracks). A extensão do nome de arquivo do capítulo é .vtt. Você pode obter mais informações sobre o padrão de legendagem WebVTT.
 
@@ -89,4 +88,3 @@ Consulte [WebVTT: O texto da Web rastreia o formato](https://dev.w3.org/html5/we
       Para o visualizador HTML5 `Universal_HTML5_Video`, anexe o código incorporado copiado com o seguinte:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
-
