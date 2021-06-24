@@ -10,7 +10,6 @@ discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '236'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Visualização de eCatalogs no Visualizador de eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
+# Visualização de eCatalogs no Visualizador de Catálogo Eletrônico{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
 Você pode usar Visualizar para exibir seu eCatalog usando diferentes Predefinições do visualizador do eCatalog. Você pode experimentar com diferentes controles para girar páginas, escrever notas autoadesivas e navegar.
 
