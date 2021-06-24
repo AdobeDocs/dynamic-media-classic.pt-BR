@@ -10,7 +10,6 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '143'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Publicando informações de configuração do Adobe Analytics{#publishing-adobe-analytics-configuration-information}
+# Publicar informações de configuração do Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
 Publique seus visualizadores do Dynamic Media Classic para que as informações sobre a configuração de relatórios do Adobe Analytics sejam enviadas para os servidores do Dynamic Media Classic. Essas informações são incorporadas aos visualizadores. A publicação é necessária para que as informações contidas nos visualizadores estejam disponíveis nos servidores do Dynamic Media Classic. Nos servidores, ele pode ser reenviado para a Adobe Analytics depois que os usuários executarem a atividade nos visualizadores.
 
