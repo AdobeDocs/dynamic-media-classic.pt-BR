@@ -10,7 +10,6 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-translation-type: tm+mt
 source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
 workflow-type: tm+mt
 source-wordcount: '3322'
@@ -75,7 +74,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 1. Quando a edição for concluída, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionado (padrão).
 1. Clique em **[!UICONTROL Save]**, selecione uma pasta de armazenamento, insira um nome para o conjunto e clique em **[!UICONTROL Save]**.
 
-## Excluindo um Modelo {#deleting-a-template}
+## Excluindo um modelo {#deleting-a-template}
 
 Ao excluir um conjunto de Modelos, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) desse conjunto não são afetados; em vez disso, cada um mantém seu estado publicado ou não publicado.
 
@@ -114,7 +113,7 @@ Use essas ferramentas na tela Modelo para criar modelos:
 
 * **Área de propriedades da camada**  - oferece ferramentas para alterar a cor, a opacidade, o tamanho e a posição do plano de fundo de uma camada, bem como a cor do plano de fundo, a opacidade e o tamanho da tela. Também é possível ajustar os efeitos de sombra e brilho. Consulte [Trabalhar com camadas](#working-with-layers).
 
-## Criar camadas de imagem {#creating-image-layers}
+## Criação de camadas de imagem {#creating-image-layers}
 
 1. Arraste a imagem da Biblioteca de ativos para a tela.
 
@@ -275,7 +274,7 @@ Além de alterar o tamanho de uma camada, você pode colá-la. Para fazer isso, 
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### Determinar a cor do plano de fundo, a opacidade e o modo de mesclagem {#determining-the-background-color-opacity-and-blend-mode}
+### Determinar a cor, a opacidade e o modo de mesclagem do plano de fundo {#determining-the-background-color-opacity-and-blend-mode}
 
 Para escolher uma cor de plano de fundo, uma opacidade e um modo de mesclagem para uma camada ou a tela, selecione a camada ou a tela e use estas técnicas:
 
