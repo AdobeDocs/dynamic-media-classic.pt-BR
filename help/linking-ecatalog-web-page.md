@@ -10,7 +10,6 @@ discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '622'
@@ -51,7 +50,7 @@ A maneira mais comum de implantar um eCatalog é colocar um link no formato de u
 
 Para obter mais detalhes e exemplos de código, consulte [Incorporando o visualizador de catálogo eletrônico HTML5 no Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Copiando o código incorporado de um visualizador do eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
+## Copiando o código incorporado de um visualizador de catálogo eletrônico {#copying-the-embed-code-of-an-ecatalog-viewer}
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador para o eCatalog selecionado. Você também pode copiar o código para a área de transferência, de modo que possa colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
