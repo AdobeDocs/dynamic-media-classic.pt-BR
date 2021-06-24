@@ -10,7 +10,6 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '662'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Trabalhar com PDFs{#working-with-pdfs}
+# Como trabalhar com PDFs{#working-with-pdfs}
 
 Os arquivos PDF (Portable Document Format) são usados com mais frequência no Dynamic Media Classic para criar catálogos eletrônicos. Ao fazer upload de um arquivo PDF, o Dynamic Media Classic rasteriza ou extrai as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
 
