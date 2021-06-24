@@ -10,7 +10,6 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '628'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Início rápido: Conjuntos de mídias mistas{#quick-start-mixed-media-sets}
+# Início rápido: Conjuntos de mídia mista{#quick-start-mixed-media-sets}
 
 Os Conjuntos de mídias mistas proporcionam aos usuários uma experiência de visualização integrada. Os Conjuntos de mídias mistas podem incluir imagens, Conjuntos de imagens, Conjuntos de amostras, Conjuntos de rotação e vídeos. Os usuários podem clicar em guias diferentes no Visualizador de mídias mistas para ver os itens nos diferentes visualizadores. Se nenhuma guia for especificada, todos os ativos serão exibidos juntos na linha de amostra.
 
