@@ -9,7 +9,6 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '734'
@@ -17,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# Upload dos arquivos PDF{#uploading-the-pdf-files}
+# Upload de arquivos PDF{#uploading-the-pdf-files}
 
 Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog. Esses arquivos contêm todas as informações de imagem, fontes e gráficos vetoriais. Você também pode criar um eCatalog com imagens. Depois de preparar seus arquivos PDF para upload, na barra Navegação global, clique em **[!UICONTROL Upload]** para começar a carregar os PDFs.
 
-## Preparando seus arquivos PDF {#preparing-your-pdf-files}
+## Preparação de arquivos PDF {#preparing-your-pdf-files}
 
 Prepare seus arquivos PDF antes de carregá-los no Dynamic Media Classic:
 
