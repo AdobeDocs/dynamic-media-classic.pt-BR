@@ -4,16 +4,15 @@ description: Uma introdução ao gerenciamento de ativos no Dynamic Media Classi
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # Sobre o gerenciamento de ativos{#about-managing-assets}
 
