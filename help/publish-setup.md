@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Publicar configuração {#publish-setup}
+# Configuração de publicação {#publish-setup}
 
 As configurações da página Publicar configuração determinam como os ativos são entregues por padrão dos servidores Dynamic Media Classic para sites ou aplicativos da Web. Se nenhuma configuração for especificada, o servidor do Dynamic Media Classic fornecerá um ativo de acordo com uma configuração padrão em uma página de Configuração de publicação. Por exemplo, uma solicitação para fornecer uma imagem que não inclua um atributo de resolução gera uma imagem com a configuração de Resolução de objeto padrão na página Servidor de imagem.
 
