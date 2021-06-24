@@ -10,10 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 O Dynamic Media Classic é um ambiente integrado de gerenciamento de mídia avançada, publicação e serviço. A mídia avançada pode ser entregue a todos os canais de marketing e venda, incluindo a Web, material impresso, campanhas por email, portais da Web, desktops e dispositivos.
 
-## Processo de fluxo de trabalho {#workflow-process}
+## Processo de workflow {#workflow-process}
 
 As principais etapas do fluxo de trabalho do Dynamic Media Classic são:
 
@@ -45,6 +44,6 @@ As cadeias de caracteres de URL geradas com o Dynamic Media Classic incluem inst
 ![O Dynamic Media Classic pode fornecer a mesma imagem principal a diferentes mídias em diferentes tamanhos e formatos.](/help/assets/gs_dynamic_publishing.png)
 *O Dynamic Media Classic garante que experiências consistentes e de qualidade sejam entregues a qualquer tela, independentemente do tamanho ou da largura de banda.*
 
-## Armazenamento de conteúdo em cache {#content-caching}
+## Armazenamento em cache de conteúdo {#content-caching}
 
 As imagens geradas dinamicamente pelo Dynamic Media Classic são compatíveis com cache; geralmente, são imagens JPEG com chamadas de URL exclusivas que as identificam. As imagens são fornecidas na rede de entrega de conteúdo (CDN), um sistema de servidores que são conectados em rede na Internet para fornecer conteúdo com mais rapidez. As imagens são distribuídas de servidores localizados globalmente e, em seguida, de computadores. Ao implementar um mecanismo de armazenamento em cache usando qualquer fornecedor de CDN, basta alterar o nome do servidor para apontar para o Dynamic Media Image Server habilitado para CDN. Todas as edições do Dynamic Media Classic incluem armazenamento em cache CDN empacotado.
