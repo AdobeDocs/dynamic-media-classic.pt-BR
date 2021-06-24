@@ -11,7 +11,6 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '3778'
@@ -245,7 +244,7 @@ Por exemplo, suponha que o vídeo de origem seja 1920 x 1080. Na tabela a seguir
 |--- |--- |--- |--- |
 | Origem | 1920 x 1080 | 1 | 1 |
 | Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 1 | 1 |
+| Codificado | 640 x 360 | 3 | 1 |
 | Codificado | 480 x 270 | 4 | 4 |
 
 ### Formato de arquivo de vídeo codificado {#encoded-video-file-format}
@@ -304,7 +303,7 @@ Também é possível filtrar com base em uma opção de dispositivo de reproduç
    * Na primeira lista suspensa mais estreita, escolha **[!UICONTROL Both]** para visualizar todas as Predefinições de vídeo, escolha **[!UICONTROL Active]** ou **[!UICONTROL Inactive]** ou restrinja a lista a predefinições que estão ativas ou inativas.
    * Na segunda lista suspensa mais ampla, escolha uma opção de dispositivo de reprodução para limitar a lista às Predefinições de vídeo criadas para reprodução de vídeos em desktops. ou para reproduzir vídeos em dispositivos móveis ou tablets.
 
-### Ativar ou desativar as predefinições de codificação de vídeo {#activating-or-deactivating-video-encoding-presets}
+### Ativação ou desativação das predefinições de codificação de vídeo {#activating-or-deactivating-video-encoding-presets}
 
 As predefinições de vídeo ativadas são exibidas na caixa de diálogo Opções de trabalho de upload . A caixa de diálogo é exibida quando um usuário carrega arquivos de vídeo durante o processo de upload. Eles podem escolher em uma lista de todas as predefinições de codificação ativadas.
 
@@ -366,7 +365,7 @@ O Dynamic Media Classic definiu limites máximos para a taxa de dados do target,
    * Clique em **[!UICONTROL Save]** se tiver adicionado ou editado uma Predefinição de vídeo.
    * Clique em **[!UICONTROL Save As]** se tiver adicionado uma Predefinição de vídeo iniciando em uma predefinição existente.
 
-### Excluir uma predefinição de codificação de vídeo {#deleting-a-video-encoding-preset}
+### Exclusão de uma predefinição de codificação de vídeo {#deleting-a-video-encoding-preset}
 
 Os administradores podem excluir predefinições de vídeo personalizadas. As predefinições de vídeo fornecidas com o Dynamic Media Classic não podem ser excluídas.
 
@@ -379,6 +378,6 @@ Os administradores podem excluir predefinições de vídeo personalizadas. As pr
 >[!MORELIKETHIS]
 >
 >* [Início rápido: Vídeo](quick-start-video.md#quick-start-video)
->* [Upload e codificação de vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
->* [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+* [Upload e codificação de vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
+* [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 
