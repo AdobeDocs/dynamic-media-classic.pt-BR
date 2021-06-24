@@ -10,21 +10,20 @@ discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
-# Exibindo Conjuntos de Amostras{#viewing-swatch-sets}
+# Exibir conjuntos de amostras{#viewing-swatch-sets}
 
 Você pode exibir seus Conjuntos de amostras na janela Visualizar, usando as predefinições disponíveis. Você usa um Visualizador de Zoom: Predefinição personalizada do visualizador para conjuntos de amostras.
 
 O Dynamic Media Classic vem com as Predefinições do visualizador padrão. Os administradores podem criar ou modificar as Predefinições do visualizador.
 
-## Configurando predefinições do Visualizador de Zoom para Conjuntos de Amostras {#setting-up-zoom-viewer-presets-for-swatch-sets}
+## Configuração de predefinições do Visualizador de Zoom para Conjuntos de Amostras {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 Você pode criar e personalizar Predefinições do visualizador de acordo com suas necessidades.
 
