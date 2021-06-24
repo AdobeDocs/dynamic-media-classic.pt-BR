@@ -10,7 +10,6 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '988'
@@ -44,7 +43,7 @@ O Dynamic Media Classic cria relatórios sobre mapas de site de vídeo e feeds d
 >
 >Para os feeds do Site de Vídeo e do mRSS, o Dynamic Media Classic captura metadados somente de vídeos que estão marcados para publicação. Marque vídeos para publicação para incluir seus metadados em Mapas de vídeo e feeds de mRSS.
 
-## Escolher configurações de SEO de vídeo {#choosing-video-seo-settings}
+## Escolha das configurações de SEO do vídeo {#choosing-video-seo-settings}
 
 Clique em Configurações de SEO de vídeo para obter os mapas de site de vídeo e os feeds de mRSS na página **[!UICONTROL Video Search Engine Optimization Settings]**. Para abrir esta página, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**.
 
@@ -101,7 +100,7 @@ Consulte [Visualizações de metadados](application-setup.md#metadata_views).
 >
 >Publique o Mapa do Site de Vídeo ou o feed do mRSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e clique em **[!UICONTROL Publish]**.
 
-## Envio de arquivos do SiteVídeo e do FeedRSS para mecanismos de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
+## Envio de arquivos de Sitemap de vídeo e Feed de RSS para mecanismos de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
 Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são armazenados na pasta raiz da empresa:
 
@@ -110,7 +109,7 @@ Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são arma
 
 Copie um desses URLs nas ferramentas do webmaster do mecanismo de pesquisa para enviar seu arquivo de feed Video Sitemap ou Media RSS (mRSS) para mecanismos de pesquisa.
 
-## Exibição dos relatórios de SEO de vídeo {#viewing-video-seo-reports}
+## Exibição de relatórios de SEO de vídeo {#viewing-video-seo-reports}
 
 Visualize relatórios de SEO de vídeo na página Relatório de otimização do mecanismo de pesquisa de vídeo . Para abrir esta página, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]**.
 
