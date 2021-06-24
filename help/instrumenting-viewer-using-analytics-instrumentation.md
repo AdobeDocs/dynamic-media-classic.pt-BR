@@ -10,7 +10,6 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '297'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Instrumentação de um visualizador usando o Adobe Analytics Instrumentation Kit{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
+# Instrumentação de um visualizador usando o Kit de instrumentação do Adobe Analytics{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
 Você pode usar o Kit de instrumentação do Adobe Analytics para integrar um visualizador de HTML5 ao Adobe Analytics.
 
