@@ -7,18 +7,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visualizadores
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-
-# Preparando ativos do Conjunto de amostras para upload{#preparing-swatch-set-assets-for-upload}
+# Preparação de ativos do Conjunto de amostras para upload{#preparing-swatch-set-assets-for-upload}
 
 Antes de carregar as imagens necessárias, verifique se as imagens estão no tamanho e formato corretos. Além disso, monte os arquivos de amostra necessários.
 
