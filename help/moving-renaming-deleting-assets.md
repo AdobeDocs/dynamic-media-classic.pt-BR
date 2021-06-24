@@ -10,7 +10,6 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '536'
@@ -78,6 +77,6 @@ Ao excluir ativos com um arquivo de texto, se qualquer ID do Dynamic Media Class
 >[!MORELIKETHIS]
 >
 >* [Seleção de ativos no painel Procurar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Preparação de ativos e pastas para upload](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
->* [Restauração de ativos da pasta Lixeira](trash-folder.md#restoring_assets_from_the_trash_folder)
+* [Preparação de ativos e pastas para upload](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+* [Restauração de ativos da pasta Lixeira](trash-folder.md#restoring_assets_from_the_trash_folder)
 
