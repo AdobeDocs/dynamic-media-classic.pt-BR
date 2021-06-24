@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '1685'
@@ -22,7 +21,7 @@ Você publica os ativos nos Servidores de imagem da Dynamic Media. Você pode pu
 
 O Dynamic Media Classic agora é compatível com a entrega de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado é então entregue por meio do protocolo HTTP/2. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo uma melhor resposta e tempos de carregamento de todos os seus ativos do Dynamic Media Classic. Consulte [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
-## Publicar após carregar {#publish-after-uploading}
+## Publicar após o upload {#publish-after-uploading}
 
 Ativos em um estado publicado ou não. Por padrão, todos os ativos carregados no Dynamic Media Classic são marcados automaticamente para publicação.
 
@@ -101,7 +100,7 @@ Você pode exibir as opções Avançadas na página Publicar e escolher essas op
 
 Consulte [Usar um trabalho de upload ou publicação como um acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
-## Cancelar um trabalho de publicação {#canceling-a-publish-job}
+## Cancelamento de um trabalho de publicação {#canceling-a-publish-job}
 
 Você pode cancelar um trabalho de publicação em andamento. Além disso, se você for um administrador, poderá cancelar um trabalho de publicação em andamento na página Trabalhos da empresa.
 
@@ -147,7 +146,7 @@ Os ativos publicados são indicados na interface do usuário por um ícone redon
 
 A última data em que um ativo foi publicado é mostrada na exibição de Detalhes na parte superior do painel. Para obter mais detalhes sobre o histórico de publicação, abra o painel Histórico e Servidores Publicados na exibição Detalhes. A partir daí, é possível ver quando o ativo foi publicado e para quais servidores ele foi publicado.
 
-## Atrasos republicados de ativos e CDN {#republished-assets-and-cdn-delays}
+## Ativos republicados e atrasos de CDN {#republished-assets-and-cdn-delays}
 
 Os ativos do Dynamic Media Classic são distribuídos na rede de entrega de conteúdo (CDN). A CDN é um sistema de servidores de computador em rede que cooperam de forma transparente para fornecer conteúdo, especialmente conteúdo de mídia grande, aos usuários finais. No sistema CDN, o conteúdo da Web é armazenado em caches da Web pela Internet (chamada de rede de cache de borda). O conteúdo da Web é entregue dos caches da Web para os usuários finais para fazer deliveries mais rápidos.
 
@@ -162,5 +161,5 @@ Para liberar o cache, na barra Navegação global, clique em **[!UICONTROL File]
 >[!MORELIKETHIS]
 >
 >* [Verificando arquivos de trabalho](checking-job-files.md)
->* [Editar, excluir, pausar e retomar trabalhos recorrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+* [Editar, excluir, pausar e retomar trabalhos recorrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
 
