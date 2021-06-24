@@ -10,7 +10,6 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '307'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Editar imagens{#editing-images}
+# Edição de imagens{#editing-images}
 
 O Dynamic Media Classic oferece muitas ferramentas para criar efeitos de mídia avançada. Essas ferramentas estão disponíveis ao clicar no botão Editar sobreposição e no Painel de navegação na exibição Detalhes. Você pode realizar as seguintes tarefas de edição de imagens no Dynamic Media Classic:
 
