@@ -10,7 +10,6 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '426'
@@ -40,7 +39,7 @@ Depois que um arquivo de fonte for carregado, é possível alterar a ID do Dynam
 
 Faça upload de arquivos de fonte com as mesmas técnicas usadas para fazer upload de outros arquivos. Você pode armazenar arquivos de fontes em qualquer pasta do Dynamic Media Classic. Consulte [Fazer upload de seus arquivos](uploading-files.md#uploading_your_files).
 
-## Editar informações de arquivo de fonte {#editing-font-file-information}
+## Edição de informações do arquivo de fonte {#editing-font-file-information}
 
 É possível alterar o nome da ID de uma fonte e suas informações de tipo. Editar um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação de fontes.
 
