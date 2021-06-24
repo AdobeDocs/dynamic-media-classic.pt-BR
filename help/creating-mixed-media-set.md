@@ -9,7 +9,6 @@ discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '601'
@@ -80,7 +79,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionado (padrão).
 1. Clique em **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
 
-## Excluindo um conjunto de mídia mista {#deleting-a-mixed-media-set}
+## Exclusão de um conjunto de mídia mista {#deleting-a-mixed-media-set}
 
 Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) desse conjunto não são afetados; em vez disso, cada um mantém seu estado publicado ou não publicado.
 
