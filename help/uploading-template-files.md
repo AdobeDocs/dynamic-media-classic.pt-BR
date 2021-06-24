@@ -10,7 +10,6 @@ discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '228'
@@ -39,5 +38,5 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 >[!MORELIKETHIS]
 >
 >* [Upload de arquivos](uploading-files.md#uploading_your_files)
->* [Trabalhar com arquivos PSD ](psd-files.md#working_with_psd_files)
+* [Trabalhar com arquivos PSD ](psd-files.md#working_with_psd_files)
 
