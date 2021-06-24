@@ -10,7 +10,6 @@ discoiquuid: 39a05654-4f66-4f1e-aec5-ebe6d174353f
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 778fd54b-a9e5-40c5-aff1-a156a5c15923
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '280'
