@@ -10,7 +10,6 @@ discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '237'
