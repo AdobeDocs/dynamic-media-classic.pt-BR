@@ -10,7 +10,6 @@ discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de rotação
 role: Business Practitioner
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '169'
