@@ -7,18 +7,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
-feature: Dynamic Media Classic,Collaboration,Metadata,Asset Management
+feature: Dynamic Media Classic,Colaboração,Metadados,Gerenciamento de ativos
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: e6a5af61-37be-4152-9ea3-8868f054783c
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-
-# Como utilizar mais eficientemente os metadados{#making-more-efficient-use-of-metadata}
+# Como usar metadados de forma mais eficiente{#making-more-efficient-use-of-metadata}
 
 Todos os arquivos no Dynamic Media Classic contêm metadados. Os metadados descrevem e identificam um arquivo; é usado para pesquisar e organizar ativos. Para exibir os metadados de um ativo, abra-o na Exibição de detalhes e examine o painel Metadados . Os campos de metadados neste painel fornecem informações descritivas sobre o ativo.
 
