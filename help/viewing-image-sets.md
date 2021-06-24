@@ -10,7 +10,6 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
 role: Business Practitioner
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
 source-wordcount: '466'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Exibindo Conjuntos de Imagens{#viewing-image-sets}
+# Visualização de conjuntos de imagens{#viewing-image-sets}
 
 Você pode visualizar seus Conjuntos de imagens na janela Visualizar, usando suas predefinições disponíveis. Você usa um Visualizador de Zoom: Predefinição personalizada do visualizador para conjuntos de imagens.
 
