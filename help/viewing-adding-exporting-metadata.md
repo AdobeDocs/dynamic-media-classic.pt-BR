@@ -10,7 +10,6 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Gerenciamento de ativos,Metadados
 role: Business Practitioner
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-translation-type: tm+mt
 source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
 source-wordcount: '2184'
@@ -149,7 +148,7 @@ Por exemplo:
 
 O log de trabalho do trabalho de Metadados mostra quais IDs foram renomeadas com êxito e quais não foram.
 
-## Crie um modelo para inserir metadados para carregar {#create-a-template-for-entering-metadata-to-upload}
+## Criar um modelo para inserir metadados para upload {#create-a-template-for-entering-metadata-to-upload}
 
 O Dynamic Media Classic oferece um comando para criar um modelo para registrar metadados. Usar o modelo garante que os metadados sejam inseridos no formato correto para que possam ser carregados corretamente no Dynamic Media Classic. Para criar um modelo para usar na gravação e importação de metadados para o Dynamic Media Classic, siga estas etapas:
 
@@ -217,5 +216,5 @@ Quando a propriedade tiver a estrutura Escolha aberta ou Escolha fechada, você 
 >[!MORELIKETHIS]
 >
 >* [Predefinições do visualizador](application-setup.md#viewer_presets)
->* [Predefinições de metadados](application-setup.md#metadata_presets)
+* [Predefinições de metadados](application-setup.md#metadata_presets)
 
