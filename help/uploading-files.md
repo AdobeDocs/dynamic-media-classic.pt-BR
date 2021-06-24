@@ -9,7 +9,6 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '3681'
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 Antes de fazer upload dos arquivos de ativos para o Dynamic Media Classic, verifique se os arquivos de ativos estão nomeados corretamente e se a estrutura de pastas está configurada e organizada da maneira desejada. Você pode fazer upload de arquivos de um site FTP fornecido pelo Dynamic Media Classic ou diretamente de seu computador ou rede. O Dynamic Media Classic oferece opções para otimização de arquivos durante o upload. Se você instalou o aplicativo de desktop Adobe Dynamic Media Classic, é possível fazer upload de arquivos e pastas arrastando-os diretamente da área de trabalho. Consulte [Configurações gerais do aplicativo](application-setup.md#general_settings).
 
-## Preparação de ativos e pastas para carregar {#preparing-your-assets-and-folders-for-uploading}
+## Preparação de ativos e pastas para upload {#preparing-your-assets-and-folders-for-uploading}
 
 Antes de fazer upload dos ativos no Dynamic Media Classic, verifique se eles estão no formato e tamanho corretos. Também é necessário observar as regras do Dynamic Media Classic para nomear ativos. Ao configurar uma organização de pastas e uma estrutura para os arquivos, você pode localizar e trabalhar com arquivos facilmente.
 
@@ -111,7 +110,7 @@ Os seguintes tipos de arquivo podem ser publicados:
 
 O Dynamic Media Classic não fornece a opção para gerar um URL de visualização de conteúdo estático.
 
-### Requisitos do nome de arquivo {#filename-requirements}
+### Requisitos de nome de arquivo {#filename-requirements}
 
 Como as extensões de nome de arquivo são removidas dos nomes de arquivo durante o processo de upload, o sistema não permite que os arquivos tenham o mesmo nome raiz. No sistema Dynamic Media Classic, o nome do arquivo de ativo menos a extensão do nome do arquivo se torna a ID do ativo para o ativo. Por esse motivo, dois ativos não podem ter o mesmo nome.
 
@@ -179,7 +178,7 @@ O nome dessa opção pode ser diferente, dependendo das configurações em **App
 1. No canto inferior direito da página Upload, clique em **[!UICONTROL Submit Upload]**.
 Para ver o progresso do upload, clique em **[!UICONTROL Jobs]** na Barra de Navegação Global. Você pode continuar trabalhando no Dynamic Media Classic e retornar à página Trabalhos a qualquer momento para revisar um trabalho em andamento. Para cancelar um trabalho de upload em andamento, selecione **[!UICONTROL Cancel]** ao lado da Duração.
 
-### Upload de arquivos usando a guia FTP VIA {#upload-files-using-via-ftp}
+### Upload de arquivos usando a guia FTP do VIA {#upload-files-using-via-ftp}
 
 1. Faça logon no site FTP do Dynamic Media Classic, que é específico para sua região específica. Use o nome de usuário e a senha FTP recebidos do seu administrador.
 1. No Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Upload]**.
@@ -306,6 +305,6 @@ A nova tarefa envia uma notificação para o endereço especificado para que o c
 >[!MORELIKETHIS]
 >
 >* [Trabalhar com pastas de ativos](asset-folders.md#working_with_asset_folders)
->* [Lidar com trabalhos recorrentes de upload e publicação](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+* [Lidar com trabalhos recorrentes de upload e publicação](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+* [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
 
