@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '1772'
@@ -199,11 +198,11 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
 
 
-## Vídeo de apresentação sobre o uso do aplicativo de desktop Dynamic Media Classic {#dmc-app-video-walk-through}
+## Vídeo de apresentação sobre o uso do aplicativo Dynamic Media Classic Desktop {#dmc-app-video-walk-through}
 
 Assista a [apresentação de vídeo usando o aplicativo de desktop Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duração: 2 minutos (36 segundos).
 
-## Limpar o cache de imagem e o cache de ativos no seu computador usando o aplicativo de desktop {#clear-cache}
+## Limpar o cache de imagem e o cache de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
 1. No aplicativo de desktop do Dynamic Media Classic, próximo ao canto superior direito, toque em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Na página **[!UICONTROL Personal Setup]**, sob o cabeçalho **[!UICONTROL Desktop]**, siga um destes procedimentos:
