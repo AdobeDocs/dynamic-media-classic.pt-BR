@@ -10,7 +10,6 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '1567'
@@ -45,7 +44,7 @@ Após publicar vídeos, o Dynamic Media Classic ativa as cadeias de caracteres d
    * Para publicar vídeos automaticamente e instantaneamente no upload, na página Upload , clique em **[!UICONTROL Publish after uploading]**. Você terminou; não há outras etapas a serem concluídas.
    * Para publicar vídeos manualmente após o upload, no Painel de navegação, selecione os vídeos e, em seguida, na barra Navegação global, clique em **Publicar**.
 
-## Vincular um URL de vídeo a um site móvel ou {#linking-a-video-url-to-a-mobile-site-or-a-website}
+## Vincular um URL de vídeo a um site móvel ou de site {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
 Após publicar um vídeo, você pode obter o URL para uso no seu site, site para dispositivos móveis ou aplicativo de desktop. Use o URL do vídeo quando quiser exibir o vídeo em uma janela pop-up ou modal na parte superior da página da Web.
 
