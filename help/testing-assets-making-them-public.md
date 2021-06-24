@@ -10,7 +10,6 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1005'
@@ -79,7 +78,7 @@ Os seguintes tipos de ativos e funcionalidades não são suportados no momento:
 * Web-to-print
 * Pesquisa de informações ou catálogo eletrônico do Dynamic Media Classic
 
-## Testando o serviço de Teste Seguro {#testing-the-secure-testing-service}
+## Testando o serviço de teste seguro {#testing-the-secure-testing-service}
 
 Teste o serviço de Teste Seguro para certificar-se de que ele funciona conforme o esperado.
 
