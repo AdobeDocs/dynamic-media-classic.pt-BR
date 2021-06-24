@@ -9,7 +9,6 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Visualizadores,Predefinições do visualizador,Catálogo eletrônico
 role: Business Practitioner
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-translation-type: tm+mt
 source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
 workflow-type: tm+mt
 source-wordcount: '465'
