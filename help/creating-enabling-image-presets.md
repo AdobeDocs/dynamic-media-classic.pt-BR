@@ -10,7 +10,6 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Colaboração,Predefinições de imagem,Gerenciamento de ativos
 role: Administrator,Business Practitioner
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '260'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Criar e ativar predefinições de imagem{#creating-and-enabling-image-presets}
+# Criar e ativar predefinições de imagens{#creating-and-enabling-image-presets}
 
 Quando os usuários exportam ativos de imagem usando o Media Portal, eles podem escolher uma Predefinição de imagem na caixa de diálogo Exportar ativos selecionados . Uma predefinição de imagem é uma coleção de configurações predefinidas que alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 
