@@ -9,7 +9,6 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '1814'
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
-# Configuração da Administração{#administration-setup}
+# Configuração da administração{#administration-setup}
 
 As telas de Configuração de administração são para administrar usuários do Dynamic Media Classic. Use essas telas para permitir que os usuários trabalhem no Dynamic Media Classic e se comuniquem por email com os usuários.
 
@@ -69,7 +68,7 @@ Após adicionar um usuário, o Dynamic Media Classic envia uma mensagem de email
 
    Ao adicionar novos usuários do Media Portal, você também pode ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, clicar em **[!UICONTROL Upload User List]** e selecionar um arquivo .csv que não contenha mais de 500 usuários.
 
-### Excluindo um usuário {#deleting-a-user}
+### Excluir um usuário {#deleting-a-user}
 
 Você pode excluir usuários do Dynamic Media Classic tornando-os inválidos. Usuários inválidos são removidos do sistema e de todas as contas.
 
@@ -85,7 +84,7 @@ Os usuários que foram desativados não têm mais permissão para entrar na cont
 1. Clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Na lista de usuários, selecione ou desmarque a opção **[!UICONTROL Active]** ao lado do nome do usuário.
 
-### Editar informações de usuário {#editing-user-information}
+### Editar informações do usuário {#editing-user-information}
 
 As informações do usuário que você pode editar dependem de sua função como administrador e da função atribuída ao usuário cujas informações você deseja editar. As opções que estão esmaecidas (indisponíveis) não são editáveis.
 
@@ -189,7 +188,7 @@ Para gerar uma largura de banda, armazenamento, conteúdo de imagem, domínio, s
 
    Consulte [Tipos de relatórios](administration-setup.md#types_of_reports).
 
-### Visualização de dados de diferentes maneiras {#viewing-data-in-different-ways}
+### Visualização de dados de maneiras diferentes {#viewing-data-in-different-ways}
 
 Após gerar um relatório na página Largura de banda e armazenamento , é possível escolher as opções para exibir as informações. Você pode escolher como as informações são apresentadas, exibir informações em um gráfico ou grade de dados e especificar um período de tempo para capturar informações. Na Exibição de dados, também é possível classificar as informações e reorganizar as colunas.
 
