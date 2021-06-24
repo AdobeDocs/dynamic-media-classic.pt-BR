@@ -10,7 +10,6 @@ discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
-translation-type: tm+mt
 source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
 source-wordcount: '587'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Configuração de uma predefinição do visualizador de conjunto de mídias mistas{#setting-up-a-mixed-media-set-viewer-preset}
+# Configuração de uma predefinição do visualizador do conjunto de mídias mistas{#setting-up-a-mixed-media-set-viewer-preset}
 
 As Predefinições do visualizador de conjunto de mídias mistas determinam o estilo, o comportamento e a aparência do visualizador principal. Ao configurar uma predefinição, especifique outros visualizadores que deseja exibir dentro do Visualizador de mídia mista. Por exemplo, se você incluiu um Conjunto de imagens em seu Conjunto de mídias mistas, especifique uma Predefinição do visualizador do conjunto de imagens para o visualizador de conjunto de mídias mistas.
 
