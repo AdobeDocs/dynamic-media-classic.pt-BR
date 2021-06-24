@@ -10,7 +10,6 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-translation-type: tm+mt
 source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
 source-wordcount: '515'
@@ -28,7 +27,7 @@ Você pode recortar uma imagem para remover o espaço em branco ao seu redor ou 
 >
 >Após cortar, você pode clicar no botão Salvar como e salvar uma versão recortada da imagem com um nome diferente. Na janela Salvar como, escolha Salvar como novo Principal para salvar uma segunda cópia da imagem. Clique em **[!UICONTROL Save As Addition View Of Master]** para salvar o original e sua versão cortada com um nome diferente. Clique em **[!UICONTROL Replace Original]** para excluir o arquivo original do qual você cortou a imagem. Em seguida, insira um nome para a imagem e clique em **[!UICONTROL Submit]**.
 
-## Recorte para remover o espaço em branco ao redor de uma imagem {#crop-to-remove-white-space-around-an-image}
+## Recortar para remover o espaço em branco ao redor de uma imagem {#crop-to-remove-white-space-around-an-image}
 
 Você pode cortar os pixels transparentes ou de cor sólida da borda de uma imagem.
 
@@ -44,7 +43,7 @@ Você pode cortar os pixels transparentes ou de cor sólida da borda de uma imag
 >
 >Para restaurar uma imagem ao seu estado original depois de cortá-la, exiba a imagem na tela Editor de corte e clique em **[!UICONTROL Reset]**.
 
-## Selecione uma área para cortar {#select-an-area-to-crop}
+## Selecionar uma área para cortar {#select-an-area-to-crop}
 
 1. Para recortar uma imagem, clique no botão **[!UICONTROL Edit]** sobreposto e escolha **[!UICONTROL Crop]**, ou exiba-a no Painel de navegação na exibição Detalhes e clique em **[!UICONTROL Crop]**.
 
@@ -64,6 +63,6 @@ Você pode cortar os pixels transparentes ou de cor sólida da borda de uma imag
 >[!MORELIKETHIS]
 >
 >* [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Recortar espaço em branco de um arquivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Recortar das laterais das páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+* [Recortar espaço em branco de um arquivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+* [Recortar das laterais das páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
