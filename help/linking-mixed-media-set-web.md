@@ -10,7 +10,6 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '578'
@@ -45,7 +44,7 @@ Depois de publicar um Conjunto de mídias mistas, você pode obter o URL para us
 
 A maneira mais comum de implantar Conjuntos de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando clicado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
 
-## Copiando o código incorporado de um visualizador de Conjunto de mídias mistas {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Como copiar o código incorporado de um visualizador de Conjunto de mídias mistas {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador do Conjunto de mídias mistas selecionado. Você também pode copiar o código para a área de transferência, de modo que possa colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
