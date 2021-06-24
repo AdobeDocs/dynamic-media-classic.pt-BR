@@ -7,18 +7,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-
-# Preparando ativos do Conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
+# Preparação de ativos do Conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
 
 Antes de carregar as imagens, você precisa dos Conjuntos de imagens no Dynamic Media Classic, verifique se as imagens têm o tamanho e o formato corretos.
 
@@ -31,5 +30,5 @@ Para obter instruções detalhadas sobre como fazer upload de ativos, consulte [
 >[!MORELIKETHIS]
 >
 >* [Upload de arquivos](uploading-files.md#uploading_your_files)
->* [Trabalhar com vinheta, cobertura de janela e arquivos de gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+* [Trabalhar com vinheta, cobertura de janela e arquivos de gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 
