@@ -9,7 +9,6 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
 role: Administrator,Business Practitioner
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '368'
@@ -44,5 +43,5 @@ Consulte também [Exportação de ativos do Dynamic Media Classic](exporting-ass
 >[!MORELIKETHIS]
 >
 >* [Predefinições de imagem](application-setup.md#image_presets)
->* [Escolher permissões de acesso à predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+* [Escolher permissões de acesso à predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 
