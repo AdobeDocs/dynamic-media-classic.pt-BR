@@ -10,7 +10,6 @@ discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
 exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '229'
@@ -43,5 +42,5 @@ Consulte [Pré-visualização de um ativo](previewing-asset.md#previewing_an_ass
 >[!MORELIKETHIS]
 >
 >* [Configuração das predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers)
+* [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers)
 
