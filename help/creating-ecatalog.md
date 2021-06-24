@@ -10,7 +10,6 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '965'
@@ -18,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# Criação de um eCatalog{#creating-an-ecatalog}
+# Criação de um catálogo eletrônico{#creating-an-ecatalog}
 
 A criação de um eCatalog implica solicitar as páginas, escolher o layout da página e vincular as páginas, desenhando os Mapas de imagem e inserindo dados de sobreposição e link de hipertexto. Como opção, você pode personalizar o TOC para que os visualizadores vejam nomes de página em vez de números de página no Visualizador de catálogo eletrônico.
 
-## Criação de um eCatalog {#create}
+## Criação de um catálogo eletrônico {#create}
 
 Você pode incluir arquivos de imagem e arquivos PDF no seu eCatalog.
 
@@ -84,7 +83,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 1. Quando a edição for concluída, próximo ao canto inferior direito da página, verifique se **Publish after save** está selecionado (padrão).
 1. Clique em **Salvar**, selecione uma pasta de armazenamento, insira um nome para o conjunto e clique em **Salvar**.
 
-## Excluindo um eCatalog {#deleting-an-ecatalog}
+## Excluir um catálogo eletrônico {#deleting-an-ecatalog}
 
 Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) desse conjunto não são afetados; em vez disso, cada um mantém seu estado publicado ou não publicado.
 
@@ -95,7 +94,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 1. Na Exibição de grade, Exibição de lista ou Exibição de detalhes, selecione um ou mais catálogos eletrônicos.
 1. Na Barra de Navegação Global, clique em **Arquivo** > **Excluir** > **Excluir**.
 
-## Personalização do índice (TOC) {#customizing-the-table-of-contents-toc}
+## Personalização do sumário (TOC) {#customizing-the-table-of-contents-toc}
 
 O Dynamic Media Classic fornece números de página padrão no seu eCatalog na guia Páginas do pedido da tela do eCatalog. Para nomes de página personalizados, você pode alterar os rótulos de página que constituem o sumário (TOC). Recomenda-se renomear a tampa frontal e traseira. Por exemplo, a capa frontal pode ler &quot;Capa&quot; em vez de &quot;Página 0-1&quot;.
 
@@ -105,7 +104,7 @@ Você pode criar um sumário personalizado (TOC) para seu eCatalog manualmente o
 >
 >Para restaurar os títulos de página padrão, clique no botão Rótulos de sumário na guia Páginas de ordem e escolha Restaurar padrões (Todos).
 
-### Inserir manualmente nomes de página {#manually-entering-page-names}
+### Inserção manual de nomes de página {#manually-entering-page-names}
 
 Para inserir manualmente nomes de página, um de cada vez, vá para a guia Páginas do pedido da tela Catálogo eletrônico. Em seguida, clique em no campo page number e insira um nome. Insira um nome para cada página que você deseja nomear.
 
