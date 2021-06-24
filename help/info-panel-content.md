@@ -10,7 +10,6 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '848'
@@ -72,7 +71,7 @@ Ao formatar o conteúdo de origem, lembre-se das seguintes diretrizes:
 1. (Opcional) Especifique um horário para atualizar o conteúdo usando os menus Agendar atualização e clique em Adicionar. É possível selecionar várias vezes para atualização. Cada hora de atualização é exibida na caixa Atualizar horas . (Para remover uma hora, selecione-a e clique em Excluir.)
 1. (Opcional) Clique em Executar atualização agora para atualizar imediatamente o conteúdo.
 
-### Importe um arquivo CSV ou delimitado por tabulação {#import-a-tab-delimited-or-csv-file}
+### Importar um arquivo CSV ou delimitado por tabulação {#import-a-tab-delimited-or-csv-file}
 
 <!-- 
 
