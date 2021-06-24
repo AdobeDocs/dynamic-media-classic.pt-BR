@@ -10,7 +10,6 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '712'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Criação de destinos de zoom para zoom guiado{#creating-zoom-targets-for-guided-zoom}
+# Criação de metas de zoom para zoom guiado{#creating-zoom-targets-for-guided-zoom}
 
 Os direcionamentos de zoom orientam seus visualizadores a determinadas partes de uma imagem. Além do zoom de forma livre, os visualizadores podem clicar em uma miniatura de direcionamento de zoom e aplicar zoom na parte da imagem em que deseja que se concentrem. Os direcionamentos de zoom são uma oportunidade para que você destaque as partes atraentes ou interessantes de uma imagem.
 
@@ -35,7 +34,7 @@ A porcentagem máxima de zoom dos destinos de zoom é de 100%. A porcentagem mí
 
 Você pode alterar o tamanho do Visualizador de Zoom para corresponder ao tamanho usado em sua página da Web. Para alterar essa configuração permanentemente, você pode alterar o tamanho do visualizador na tela Configuração (se você for um administrador). Consulte [Configuração das predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## Criar e editar destinos de zoom {#creating-and-editing-zoom-targets}
+## Criação e edição de metas de zoom {#creating-and-editing-zoom-targets}
 
 Crie e edite metas de zoom na tela Editor de direcionamento de zoom . Para abrir esta tela, selecione uma imagem e siga um destes procedimentos:
 
@@ -73,7 +72,7 @@ Para criar um direcionamento de zoom, abra a página Editor de direcionamento de
 >
 >Para ver a aparência dos destinos de zoom em um Visualizador de zoom, clique no botão Visualizar na tela Editor de direcionamento de zoom e escolha um Visualizador de zoom na tela Visualização. Para obter informações sobre essa tela, consulte [Visualização de imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
-### Editar destinos de zoom {#editing-zoom-targets}
+### Edição de destinos de zoom {#editing-zoom-targets}
 
 Para editar metas de zoom, use as seguintes técnicas na página Editor de direcionamento de zoom:
 
