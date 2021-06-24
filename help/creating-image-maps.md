@@ -10,7 +10,6 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '2393'
@@ -35,7 +34,7 @@ Ao criar Mapas de imagem, você pode fazer o seguinte:
 * Defina outras ações conforme determinado pelo World Wide Web Consortium.
 * Visualizar mapas de imagem.
 
-## Desenho e ajuste de um Mapa de imagem {#drawing-and-adjusting-an-image-map}
+## Desenho e ajuste de um mapa de imagem {#drawing-and-adjusting-an-image-map}
 
 1. Siga um destes procedimentos:
 
@@ -88,7 +87,7 @@ Para alterar a posição, a forma e o tamanho de um Mapa de imagem, selecione o 
 
 **Mapa de imagem poligonal**  - Arraste uma alça de seleção quadrada. Para criar um identificador de seleção, clique na borda do Mapa de imagem e comece a arrastar.
 
-### Manipular mapas de imagem sobrepostos {#handling-overlapping-image-maps}
+### Manipulação de mapas de imagem sobrepostos {#handling-overlapping-image-maps}
 
 Se a sua página de imagem ou eCatalog incluir mais de um Mapa de imagem e os mapas se sobrepõem, você pode determinar como os mapas se sobrepõem. Para fazer isso, altere a ordem dos mapas na lista Mapa de imagem. Arraste os nomes para cima ou para baixo da lista. A altura em que um nome está na lista determina se o Mapa de imagem se sobrepõe a outros Mapas de imagem.
 
@@ -132,7 +131,7 @@ Você pode definir um modelo de URL (também conhecido como modelo Href) para to
 >
 >Quando você adiciona o código JavaScript™ ao atributo HREF do mapa de imagem, o código é executado no computador do cliente. Portanto, verifique se o código JavaScript™ está seguro.
 
-### Sobre os modelos de URL {#about-url-templates}
+### Sobre templates de URL {#about-url-templates}
 
 O modelo de URL funciona substituindo o conteúdo da coluna URL na lista Mapa de imagem pelos sinais de dólar duplo (‘$$’) no modelo:
 
@@ -168,7 +167,7 @@ Para criar um modelo de URL:
 1. Insira o código JavaScript™ e o URL completo (com a parte variável substituída por cifrões [$]). Você pode colar o código clicando com o botão direito do mouse e escolhendo Colar.
 1. Selecione o botão Save .
 
-### Manipular modelos de URL {#handling-url-templates}
+### Manipulação de modelos de URL {#handling-url-templates}
 
 A página Editor de mapa (imagens e Conjuntos de rotação) e a guia Páginas de mapa da tela eCatalog (eCatalogs) oferecem esses comandos para manipular modelos de URL:
 
@@ -176,7 +175,7 @@ A página Editor de mapa (imagens e Conjuntos de rotação) e a guia Páginas de
 
 * **Opção de** ModeloDesmarque uma opção de Modelo na lista Mapa de imagem do URL se não quiser que um Mapa de imagem individual use o modelo de URL.
 
-## Definir outras ações para os Mapas de imagem {#defining-other-actions-for-image-maps}
+## Definição de outras ações para Mapas de imagem {#defining-other-actions-for-image-maps}
 
 Você pode selecionar o menu Exibir e escolher Outras ações para acionar ações diferentes de rolagem de texto e de inicializações de página da Web. Quando o usuário move o ponteiro sobre um Mapa de imagem, você pode iniciar uma ação. Essas ações são atributos definidos para mapas de imagem do lado do cliente pelas especificações HTML do World Wide Web Consortium. Eles incluem:
 
