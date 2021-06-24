@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
 role: Administrator,Business Practitioner
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '922'
