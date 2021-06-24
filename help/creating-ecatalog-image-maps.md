@@ -10,7 +10,6 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: Business Practitioner
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-translation-type: tm+mt
 source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
 source-wordcount: '1443'
@@ -72,7 +71,7 @@ Opcionalmente, também é possível exibir o texto da dica de ferramenta quando 
 1. (Opcional) No painel da lista Mapa de imagem, no cabeçalho da coluna **[!UICONTROL Tool Tip]**, digite o texto que deseja que os visualizadores vejam na tela ao mover o ponteiro sobre o Mapa de imagem.
 1. Clique em **[!UICONTROL Save]**.
 
-## Editar mapas de imagem do catálogo eletrônico {#editing-ecatalog-image-maps}
+## Edição de mapas de imagem do catálogo eletrônico {#editing-ecatalog-image-maps}
 
 A partir da guia Mapear páginas da tela Catálogo eletrônico, use estas técnicas para editar os Mapas de imagem do catálogo eletrônico:
 
@@ -84,7 +83,7 @@ A partir da guia Mapear páginas da tela Catálogo eletrônico, use estas técni
 
    Consulte [Ajustar a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Exclusão de mapas de imagem**  - Selecione a ferramenta Deslocamento, clique no mapa de imagem para selecioná-lo e, em seguida, clique em  **[!UICONTROL Delete]**.
+* **Excluindo mapas de imagem**  - Selecione a ferramenta Deslocar, clique no mapa de imagem para selecioná-lo e, em seguida, clique em  **[!UICONTROL Delete]**.
 
    Para remover todos os mapas de imagem de um eCatalog, clique na guia **[!UICONTROL Order Pages]** e, em seguida, clique em **[!UICONTROL Clear Maps]**.
 
@@ -130,7 +129,7 @@ A partir da tela Resumo do mapa, siga estas etapas para importar os dados do Map
 1. No campo Nome do trabalho , digite um nome para o arquivo (tenha cuidado para manter sua extensão).
 1. Clique em **[!UICONTROL Upload]**.
 
-## Copiando mapas de imagem entre eCatalogs {#copying-image-maps-between-ecatalogs}
+## Copiando mapas de imagem entre catálogos eletrônicos {#copying-image-maps-between-ecatalogs}
 
 Você pode copiar todos os mapas de imagem em um eCatalog para um eCatalog diferente. Copiar mapas de imagem dessa forma é um método conveniente de copiar mapas de imagem entre traduções de idioma estrangeiro do mesmo eCatalog. Para que a cópia seja bem-sucedida, o Dynamic Media Classic recomenda copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens.
 
