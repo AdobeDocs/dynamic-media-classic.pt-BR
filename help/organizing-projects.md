@@ -10,7 +10,6 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '460'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Organizar seu trabalho com Projetos{#organizing-your-work-with-projects}
+# Organizar o trabalho com Projetos{#organizing-your-work-with-projects}
 
 Os projetos fornecem uma maneira opcional e secundária de organizar ativos independentemente das pastas em que estão armazenados. Um ativo pode ser colocado em apenas uma pasta, mas pode ser copiado em mais de uma pasta do Projeto para fins organizacionais.
 
@@ -56,7 +55,7 @@ Para exibir, excluir e renomear uma pasta de Projeto, siga um destes procediment
 
 * **Renomear pastas de projeto**  - Clique duas vezes no nome da pasta no Painel de ativos e digite um novo nome.
 
-## Adicionar ativos a uma pasta de Projeto {#adding-assets-to-a-project-folder}
+## Adicionar ativos a uma pasta Projeto {#adding-assets-to-a-project-folder}
 
 Você pode adicionar imagens a uma pasta de Projeto, começando no Painel de navegação ou ao fazer upload de arquivos para o Dynamic Media Classic:
 
