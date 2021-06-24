@@ -3,14 +3,13 @@ title: Vídeos de treinamento do Dynamic Media Classic
 description: Vídeos de treinamento do Dynamic Media Classic sobre a introdução, geração dinâmica de imagens, vídeo, portal de mídia, modelos e criação e renderização de imagens.
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '6550'
+source-wordcount: '6547'
 ht-degree: 0%
 
 ---
-
 
 # Vídeos de treinamento do Adobe Dynamic Media Classic {#training-videos}
 
@@ -98,7 +97,7 @@ Vídeos de treinamento do Dynamic Media Classic sobre a introdução, geração 
 
 * [SPS 6.5, visão geral da atualização](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/529_6.5%20highlights_2012.11.06%20-%20Scene7%20-%206.5%20Release%20Highlights_Scratch-AVS)
 
-## Criação e renderização de imagem {#image-authoring-rendering-training}
+## Criação e renderização de imagens {#image-authoring-rendering-training}
 
 Vídeos de treinamento sobre vários aspectos dos seguintes:
 
@@ -214,7 +213,7 @@ Retorne para [Criação e renderização de imagem](#image-authoring-rendering-t
 
 * [Introdução à iluminação](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/602_IA003-Intro-Illumination_ia_03illum-AVS)
 
-### Ferramenta de Repetição de Material {#material-repeat-tool}
+### Ferramenta Repetição de Material {#material-repeat-tool}
 
 Retorne para [Criação e renderização de imagem](#image-authoring-rendering-training)
 
@@ -301,7 +300,3 @@ Retorne para [Criação e renderização de imagem](#image-authoring-rendering-t
 * [Modificadores de URL de renderização](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/640_904_rendering_url_modifiers_ia_09rendering-AVS)
 
 * [Introdução à renderização](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)\
-
-
-
-
