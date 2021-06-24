@@ -10,7 +10,6 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de rotação
 role: Business Practitioner
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '868'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Criação de um Conjunto de rotação{#creating-a-spin-set}
+# Criação de um conjunto de rotação{#creating-a-spin-set}
 
 Para criar um Conjunto de rotação eficaz, certifique-se de fotografar as imagens corretamente. Você pode criar um Conjunto de rotação no Dynamic Media Classic selecionando o botão Criar e escolhendo Conjuntos de rotação. Edite Conjuntos de rotação na tela Conjuntos de rotação .
 
@@ -26,7 +25,7 @@ Para criar um Conjunto de rotação eficaz, certifique-se de fotografar as image
 >
 >As versões anteriores do Dynamic Media Classic não ofereciam Conjuntos de rotação bidimensionais. Se você criou um Conjunto de rotação em uma versão anterior do Dynamic Media Classic, não poderá salvar seu Conjunto de rotação unidimensional sem primeiro salvá-lo com um nome diferente. Clique em Salvar como na tela Conjunto de rotação e insira um novo nome para que você possa editá-lo no Dynamic Media Classic.
 
-## Diretrizes para fotografar imagens do conjunto de rotação {#guidelines-for-shooting-spin-set-images}
+## Diretrizes para fotografar imagens do Conjunto de rotação {#guidelines-for-shooting-spin-set-images}
 
 Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito giratório da imagem. No entanto, incluir muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. O Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em Conjuntos de rotação:
 
@@ -96,7 +95,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually-publ
 1. Quando a edição for concluída, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionado (padrão).
 1. Clique em **[!UICONTROL Save]**, selecione uma pasta de armazenamento, insira um nome para o conjunto e clique em **[!UICONTROL Save]**.
 
-## Excluindo um Conjunto de rotação {#deleting-a-spin-set}
+## Excluindo um conjunto de rotação {#deleting-a-spin-set}
 
 Ao excluir um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) desse conjunto não são afetados; em vez disso, cada um mantém seu estado publicado ou não publicado.
 
