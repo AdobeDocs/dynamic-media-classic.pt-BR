@@ -10,7 +10,6 @@ discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de rotação
 role: Business Practitioner
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '237'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Visualização de um Conjunto de rotação{#previewing-a-spin-set}
+# Visualização de um conjunto de rotação{#previewing-a-spin-set}
 
 Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em uma plataforma específica do tipo de visualizador, como o HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para visualização, nem todas as plataformas estarão disponíveis na Lista de visualizadores.
 
