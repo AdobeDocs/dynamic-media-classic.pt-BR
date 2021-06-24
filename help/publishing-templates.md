@@ -10,7 +10,6 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '164'
@@ -26,7 +25,7 @@ Publicar seu modelo o coloca em Servidores de imagem da Dynamic Media, onde est�
 >
 >Para usar seu modelo, publique todo o conteúdo que foi usado para torná-lo, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
 
-## Marcar modelos para publicar {#marking-templates-for-publish}
+## Modelos de marcação para publicação {#marking-templates-for-publish}
 
 Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que sejam colocados nos Servidores de Imagem Dynamic Media. Você pode marcar esses itens para publicação no Painel de navegação clicando no ícone **[!UICONTROL Mark for Publish]**.
 
@@ -37,5 +36,5 @@ Para publicar modelos nos Dynamic Media Image Servers, na barra Navegação glob
 >[!MORELIKETHIS]
 >
 >* [Marcar ativos para publicar](publishing-files.md#publish_after_uploading)
->* [Criação de um trabalho de publicação](publishing-files.md#creating_a_publish_job)
+* [Criação de um trabalho de publicação](publishing-files.md#creating_a_publish_job)
 
