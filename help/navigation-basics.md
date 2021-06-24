@@ -10,7 +10,6 @@ discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
-translation-type: tm+mt
 source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
 source-wordcount: '623'
@@ -79,7 +78,7 @@ O painel Procurar/Criar é onde você faz grande parte do seu trabalho. As funç
 >[!MORELIKETHIS]
 >
 >* [Gerenciamento de ativos](about-managing-assets.md)
->* [Visualização de ativos no painel Procurar](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
->* [Seleção de ativos no painel Procurar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [Pesquisar ativos](searching-assets.md#searching_assets)
+* [Visualização de ativos no painel Procurar](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
+* [Seleção de ativos no painel Procurar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+* [Pesquisar ativos](searching-assets.md#searching_assets)
 
