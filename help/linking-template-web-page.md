@@ -10,7 +10,6 @@ discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '326'
