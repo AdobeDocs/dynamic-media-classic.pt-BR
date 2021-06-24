@@ -10,7 +10,6 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-translation-type: tm+mt
 source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
 workflow-type: tm+mt
 source-wordcount: '1372'
@@ -34,7 +33,7 @@ Para ver apenas arquivos de um determinado tipo conforme você navega, na Biblio
 >
 >Se você não vir o painel Biblioteca de ativos no lado esquerdo, clique na seta do triângulo à direita no lado esquerdo, na metade da janela do Dynamic Media Classic, para abrir a Biblioteca de ativos.)
 
-## Classificação de arquivos no Painel de navegação {#sorting-files-in-the-browse-panel}
+## Classificação de arquivos no painel Procurar {#sorting-files-in-the-browse-panel}
 
 Para classificar o conteúdo de uma pasta ou os resultados de pesquisa que aparecem no Painel de navegação no lado direito, na barra Navegação global, clique em **[!UICONTROL Sort]** e escolha uma opção. As opções são **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]** e **[!UICONTROL Last Modified]**.
 
@@ -58,7 +57,7 @@ Use o campo Pesquisa na Biblioteca de ativos para realizar pesquisas simples. Vo
 >
 >Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
-## Realizar uma pesquisa avançada {#conducting-an-advanced-search}
+## Condução de uma pesquisa avançada {#conducting-an-advanced-search}
 
 Na Biblioteca de ativos, logo abaixo do campo Pesquisar , clique em **[!UICONTROL Advanced Search]** para pesquisar usando muitos critérios, incluindo valores em campos de metadados.
 
@@ -172,5 +171,5 @@ Clique em **[!UICONTROL Publish Now]** para iniciar a tarefa. Uma confirmação 
 >[!MORELIKETHIS]
 >
 >* [Elementos básicos de navegação](navigation-basics.md#navigation_basics)
->* [Exibição, adição e exportação de metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+* [Exibição, adição e exportação de metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 
