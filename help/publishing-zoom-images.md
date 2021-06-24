@@ -10,7 +10,6 @@ discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Visualizadores,Zoom
 role: Business Practitioner
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '144'
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 A publicação coloca suas imagens de zoom nos Servidores de Imagem do Dynamic Media para que possam ser disponibilizadas para seu site e aplicativo. Como parte do processo de publicação, o Dynamic Media Classic ativa as cadeias de caracteres do URL. Você pode colocar essas cadeias de caracteres de URL no código HTML do site.
 
-## Marcar imagens para publicar {#marking-images-for-publish}
+## Marcar imagens para publicação {#marking-images-for-publish}
 
 As imagens devem ser marcadas para publicação para que sejam copiadas para os Servidores de imagem da Dynamic Media. Você pode marcar suas imagens para publicação no Painel de navegação selecionando o ícone **[!UICONTROL Mark for Publish]**. Também é possível marcar imagens para publicação ao carregá-las.
 
