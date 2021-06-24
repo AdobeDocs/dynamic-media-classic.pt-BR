@@ -10,7 +10,6 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Visualizadores,Vídeo
 role: Business Practitioner
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '736'
@@ -91,5 +90,5 @@ Consulte [Predefinições do visualizador](application-setup.md#viewer_presets).
 >[!MORELIKETHIS]
 >
 >* [Práticas recomendadas para codificação de vídeo](uploading-encoding-videos.md#best_practices_for_video_encoding)
->* [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
+* [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
 
