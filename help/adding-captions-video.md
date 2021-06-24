@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# Adicionar legendas ao vídeo{#adding-captions-to-video}
+# Adição de legendas ao vídeo{#adding-captions-to-video}
 
 Você pode estender o alcance de seus vídeos para os mercados globais adicionando legendas a vídeos individuais ou aos Conjuntos de vídeos adaptáveis. Ao adicionar legendas, você evita a necessidade de dublar o áudio ou a necessidade de usar alto-falantes nativos para regravar o áudio para cada idioma diferente. O vídeo é reproduzido no idioma em que foi gravado. As legendas em idioma estrangeiro são exibidas para que pessoas de idiomas diferentes ainda possam entender a parte de áudio.
 
