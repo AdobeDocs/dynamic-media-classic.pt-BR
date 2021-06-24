@@ -10,7 +10,6 @@ discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '235'
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Publicar um conjunto de mídia mista{#publishing-a-mixed-media-set}
+# Publicação de um conjunto de mídia mista{#publishing-a-mixed-media-set}
 
 Crie um trabalho de publicação para publicar um Conjunto de mídias mistas que você marcou para publicação no Dynamic Media Classic Video Server e no Image Server. O Dynamic Media Classic oferece opções de publicação avançadas para servidores específicos e opções para republicação de ativos que já foram publicados.
 
