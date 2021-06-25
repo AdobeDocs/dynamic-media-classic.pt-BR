@@ -135,8 +135,7 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
 
 1. Copie o arquivo .APP para **[!UICONTROL Applications]** usando o seguinte comando:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. Ao abrir o aplicativo, a nova página de Logon do Adobe Dynamic Media Classic é exibida:
 
