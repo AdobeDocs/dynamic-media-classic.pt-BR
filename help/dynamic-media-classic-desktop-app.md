@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: cba2c0ff2478b480d51b3c0f132003e14463a08a
 workflow-type: tm+mt
 source-wordcount: '1772'
 ht-degree: 0%
@@ -135,7 +135,10 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
 
 1. Copie o arquivo .APP para **[!UICONTROL Applications]** usando o seguinte comando:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
+   ```
+   rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
+   Unmount DMG - hdiutil detach <mount_point_path>
+   ```
 
 1. Ao abrir o aplicativo, a nova página de Logon do Adobe Dynamic Media Classic é exibida:
 
