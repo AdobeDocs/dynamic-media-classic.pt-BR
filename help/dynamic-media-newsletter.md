@@ -3,9 +3,9 @@ description: 'O informativo do Dynamic Media por Experience League é um informa
 keywords: dynamic media, boletim informativo, atualizações de produtos, dicas e truques, eventos, sucesso do cliente, blog, blogs, imagens, vídeos, recursos, recursos
 title: Informativo do Dynamic Media
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
