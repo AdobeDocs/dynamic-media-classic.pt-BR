@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
-role: Business Practitioner
+feature: Dynamic Media Classic,Visualizadores,Conjunto de mídias mistas
+role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '581'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Depois de publicar um Conjunto de mídias mistas, você pode obter o URL para us
 
 ## Adicionar URLs de conjuntos de mídia mista à página da Web {#add-mixed-media-set-urls-to-your-web-page}
 
-A maneira mais comum de implantar Conjuntos de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando clicado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
+A maneira mais comum de implantar um Conjunto de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando clicado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
 
 ## Como copiar o código incorporado de um visualizador de Conjunto de mídias mistas {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
