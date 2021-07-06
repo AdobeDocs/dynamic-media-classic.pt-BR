@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
-role: Business Practitioner
+role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -83,7 +83,7 @@ A partir da guia Mapear páginas da tela Catálogo eletrônico, use estas técni
 
    Consulte [Ajustar a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Excluindo mapas de imagem**  - Selecione a ferramenta Deslocar, clique no mapa de imagem para selecioná-lo e, em seguida, clique em  **[!UICONTROL Delete]**.
+* **Exclusão de mapas de imagem**  - Selecione a ferramenta Deslocamento, clique no mapa de imagem para selecioná-lo e, em seguida, clique em  **[!UICONTROL Delete]**.
 
    Para remover todos os mapas de imagem de um eCatalog, clique na guia **[!UICONTROL Order Pages]** e, em seguida, clique em **[!UICONTROL Clear Maps]**.
 
