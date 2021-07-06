@@ -7,10 +7,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
-role: Business Practitioner
+feature: Dynamic Media Classic,Visualizadores,Conjunto de mídias mistas
+role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
-source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
