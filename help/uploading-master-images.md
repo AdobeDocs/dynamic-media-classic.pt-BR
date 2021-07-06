@@ -10,7 +10,7 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -23,11 +23,11 @@ Antes de fazer upload das imagens para o Dynamic Media Classic, verifique se ela
 
 Para obter detalhes sobre o upload de imagens, consulte [Upload de arquivos](uploading-files.md#uploading_files).
 
-**Preparação das imagens principais para upload:**
+**Prepare suas imagens principais para upload:**
 
 Prepare seus arquivos de imagem principais antes de carregá-los no Dynamic Media Classic:
 
-* **Tamanho da imagem**  - Crie as imagens de maior tamanho que você prevê usar. Tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. Se você pretende usar o recurso Zoom, o Dynamic Media Classic recomenda usar imagens que tenham pelo menos 2000 pixels no tamanho mais longo para obter os detalhes ideais do zoom. O Dynamic Media Classic pode renderizar imagens de até 25 megapixels cada. Por exemplo, você pode usar uma imagem de 5000 x 5000 megapixels ou qualquer outra combinação de tamanho até 25 megapixels.
+* **Tamanho da imagem**  - Crie as imagens de maior tamanho que você prevê usar. Tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. Se você pretende usar o recurso Zoom, o Dynamic Media Classic recomenda usar imagens que tenham pelo menos 2000 pixels no tamanho mais longo para obter os detalhes ideais do zoom. O Dynamic Media Classic pode renderizar imagens de até 25 megapixels cada. Por exemplo, você pode usar uma imagem de 5000 x 5000 MP ou qualquer outra combinação de tamanho de até 25 MP.
 
 * **Formatos de arquivo**  - O Dynamic Media Classic é compatível com todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS. Formatos de imagem sem perdas — TIFF e PNG — são recomendados. Se estiver usando uma imagem JPEG, use as configurações de mais alta qualidade.
 
