@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
-role: Administrator
+role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '10595'
 ht-degree: 3%
@@ -382,7 +382,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do nome da predefinição/texto da dica de ferramenta | Velocidade de conexão do Target (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Igual à origem | 64º | Baixa resolução de ecrã panorâmico |
+| 3 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Igual à origem | 64º | Baixa resolução de ecrã panorâmico |
 | 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Igual à origem | 80º | Resolução widescreen média |
 | 1 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | Igual à origem | 96 | Resolução média-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | Igual à origem | 128 | Alta definição, widescreen |
@@ -401,7 +401,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação do nome da predefinição/texto da dica de ferramenta | Velocidade de conexão do Target (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura dos pixels | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 512x288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à origem | 64º | Baixa resolução, 3G |
+| 1 | 16:9, 512x288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à origem | 64º | Baixa resolução, 3G |
 | 2 | 16:9, 512x288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Igual à origem | 64º | Resolução média, 3G |
 | 1 | 16:9, 512x288, Móvel (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Igual à origem | 80º | Resolução média, Wi-Fi |
 | 4 | 16:9, 512x288, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | Igual à origem | 80º | Alta resolução, Wi-Fi |
