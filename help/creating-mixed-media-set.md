@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídias mistas
-role: Business Practitioner
+role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
    >[!NOTE]
    >
-   >Os Conjuntos de mídia mista não são compatíveis com ativos com nomes de arquivo que contêm qualquer um dos seguintes caracteres: `( ) { }`.
+   >Um Conjunto de mídias mistas não é compatível com ativos com nomes de arquivo que contêm qualquer um dos seguintes caracteres: `( ) { }`.
 
 1. Siga um destes procedimentos:
 
