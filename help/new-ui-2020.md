@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Os usuários clássicos da Dynamic Media agora têm acesso a uma nova experiênc
 
 ### **_Quando os navegadores pararem de oferecer suporte ao Flash do Adobe em 31 de dezembro de 2020, haverá algum impacto no Dynamic Media Classic (antigo Scene7)?_**
 
-O Adobe Flash Player era um plug-in de navegador da Web que permitia que os navegadores usassem conteúdo desenvolvido na Adobe Flash Platform. A interface do usuário da Web do Dynamic Media Classic (atualmente rotulada como [!DNL Scene7 Publishing System] ou [!DNL SPS] no produto) exigia o Flash Player Adobe. Quando o Flash do Adobe for descontinuado em 31 de dezembro de 2020, os clientes do Dynamic Media Classic não poderão mais fazer logon na interface do usuário da Web. Devido a essa alteração, o Adobe forneceu aos clientes um aplicativo de desktop que substitui a experiência do navegador.
+O Adobe Flash Player era um plug-in de navegador da Web que permitia que os navegadores usassem conteúdo desenvolvido no Adobe Flash Platform. A interface do usuário da Web do Dynamic Media Classic (atualmente rotulada como [!DNL Scene7 Publishing System] ou [!DNL SPS] no produto) exigia o Flash Player Adobe. Quando o Flash do Adobe for descontinuado em 31 de dezembro de 2020, os clientes do Dynamic Media Classic não poderão mais fazer logon na interface do usuário da Web. Devido a essa alteração, o Adobe forneceu aos clientes um aplicativo de desktop que substitui a experiência do navegador.
 
 ### **_Como faço para acessar o novo aplicativo de desktop?_**
 
@@ -98,7 +98,7 @@ Além disso, [assine o informativo do Dynamic Media](https://www.adobe.com/subsc
 
 ### **_Estou interessado em saber mais sobre como atualizar para o Dynamic Media com AEM Assets. Onde posso encontrar mais informações?_**
 
-Para saber mais sobre os benefícios da atualização para a próxima geração de criação, publicação e entrega dinâmica de mídia avançada, visite o [portal de atualização do Dynamic Media](http://exploreadobe.com/dynamic-media-upgrade/).
+Para saber mais sobre os benefícios da atualização para a próxima geração de criação, publicação e entrega dinâmica de mídia avançada, visite o [portal de atualização do Dynamic Media](https://exploreadobe.com/dynamic-media-upgrade/).
 
 >[!MORELIKETHIS]
 >
