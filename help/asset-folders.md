@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com pastas de ativos
-description: Saiba como trabalhar com pastas de ativos.
+description: Saiba como trabalhar com pastas de ativos no Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,19 @@ Certifique-se de estabelecer uma estrutura de pastas e uma organização para ar
 
 A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo é exibido no Painel de navegação. Use essas técnicas para localizar pastas na árvore de pastas:
 
-* **Exibição de subpastas**  - Selecione o ícone Expandir pasta para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Exibir subpastas**  - Selecione o  **[!UICONTROL Expand Folder]** ícone para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Mover uma pasta**  - Você pode movê-la arrastando-a e soltando-a no novo local ou selecionando Arquivo > Mover pasta.
+* **Mover uma pasta**  - Você pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando  **[!UICONTROL File]** >  **[!UICONTROL Move Folder]**.
 
-* **Ocultar pastas**  - Selecione o ícone Recolher pasta para recolher subpastas. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Ocultar pastas**  - selecione o  **[!UICONTROL Collapse Folder]** ícone se desejar recolher as subpastas para ocultá-las da visualização. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Abertura de uma pasta**  - Selecione uma pasta para exibir seu conteúdo no Painel Procurar.
+* **Abrir uma pasta**  - Selecione uma pasta se desejar exibir seu conteúdo no Painel Procurar.
 
 >[!TIP]
 >
->Você pode ocultar ou exibir a Biblioteca de ativos clicando no controle **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.
+>Você pode ocultar ou exibir a Biblioteca de ativos selecionando o controle **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** no lado esquerdo. Recoloque o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.
 
-## Criação de pastas {#creating-folders}
-
-Para criar pastas, siga estas etapas:
+## Criar pastas {#creating-folders}
 
 1. Na Biblioteca de ativos, selecione a pasta na qual deseja criar uma pasta.
 1. Selecione o botão **[!UICONTROL Add Folder]**. Esse ícone fica na parte superior da lista de pastas.
@@ -49,15 +47,15 @@ Para criar pastas, siga estas etapas:
 
    >[!NOTE]
    >
-   >Você também pode criar pastas no Dynamic Media Classic ao fazer upload de arquivos via FTP. Selecionar a opção Incluir subpastas ao fazer upload via FTP replica a estrutura de pastas em seu computador no sistema. Arquivos e subpastas em seu computador ou rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
+   >Você também pode criar pastas no Dynamic Media Classic ao fazer upload de arquivos via FTP. Selecionar a opção **[!UICONTROL Include Subfolders]** ao fazer upload via FTP replica a estrutura de pastas em seu computador no sistema. Arquivos e subpastas em seu computador ou rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
 
-## Exclusão e renomeação de pastas {#deleting-and-renaming-folders}
+## Excluir e renomear pastas {#deleting-and-renaming-folders}
 
 Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-* **Exclusão**  - Selecione o botão Remover pasta . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los de lá.
+* **Excluir**  - Selecione o  **[!UICONTROL Remove Folder]** botão . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los de lá.
 
-* **Renomeação**  - Clique duas vezes no nome e digite um novo nome.
+* **Renomear**  - Clique duas vezes no nome e digite um novo nome.
 
 >[!NOTE]
 >
