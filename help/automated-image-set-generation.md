@@ -1,6 +1,6 @@
 ---
 title: Geração de Conjunto de Imagens Automatizado
-description: 'Saiba como automatizar a geração de conjuntos de imagens. '
+description: 'Saiba como automatizar a geração de conjuntos de imagens no Dynamic Media Classic. '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -31,13 +31,13 @@ Last Modified Date:
 
 Você pode automatizar a geração de conjuntos como um trabalho independente que não depende de um upload.
 
-**Para automatizar a geração do conjunto de imagens**
+**Para automatizar a geração do Conjunto de imagens:**
 
-1. Clique em **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
+1. Vá para **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
 1. Na caixa de diálogo Gerar conjunto , especifique um nome de trabalho.
 
    Por padrão, o trabalho recebe um nome que indica que ele é um trabalho gerado e quando ele foi gerado.
 
 1. Selecione a predefinição que deseja aplicar.
-1. Clique em **[!UICONTROL Destination Folder]** e especifique a pasta que deseja usar.
-1. Clique em **[!UICONTROL Submit]**.
+1. Selecione **[!UICONTROL Destination Folder]** e especifique a pasta que deseja usar.
+1. Selecione **[!UICONTROL Submit]**.
