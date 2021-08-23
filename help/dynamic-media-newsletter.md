@@ -5,7 +5,7 @@ title: Arquivo de informativo do Dynamic Media
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ca42d0167f72adc1b22f1e6e65b7026b6f6897a3
+source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 O informativo do Dynamic Media disponibilizado pelo Experience League foi projetado para ajudar você a usar o Dynamic Media e o Dynamic Media Classic para obter vantagens desde o início.
 
 Neste boletim informativo arquivado de balcão único, você pode encontrar recursos valiosos para a criação de conhecimento, como vídeos explicativos e visões gerais de soluções. Há também introduções para recursos e características principais, como predefinições de imagens, predefinições do visualizador e perfis de vídeo.
+
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
 <!-- ## Get inspired. Stay informed.
 
