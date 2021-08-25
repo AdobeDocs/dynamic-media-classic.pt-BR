@@ -1,6 +1,6 @@
 ---
 title: Criar e ativar predefinições de imagens
-description: Saiba como criar e ativar predefinições de imagens.
+description: Saiba como criar e ativar predefinições de imagens no Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Colaboração,Predefinições de imagem,Gerenciamento de ativos
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Os administradores do Media Portal podem criar Predefinições de imagem para co
 
 As seguintes restrições se aplicam quando você exporta ativos de imagem:
 
-* A largura x altura deve ser inferior ou igual a 100 MB por imagem. Por exemplo, a imagem não pode exceder 10K x 10K ou qualquer variação de aspecto abaixo, como 8K x 12K.
+* A largura x altura deve ser inferior ou igual a 100 MB por imagem. Por exemplo, a imagem não pode exceder 10 K x 10 K, ou qualquer variação de aspecto abaixo, como 8 K x 12 K.
 * Existe um tamanho de arquivo total máximo de 1 GB por trabalho de exportação.
 * Você pode ter no máximo 500 ativos totais por trabalho de exportação.
 
