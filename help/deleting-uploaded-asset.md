@@ -1,6 +1,6 @@
 ---
-title: Exclusão de um ativo carregado
-description: Saiba como excluir um ativo carregado.
+title: Excluir um ativo carregado
+description: Saiba como excluir um ativo carregado no Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
-# Exclusão de um ativo carregado{#deleting-an-uploaded-asset}
+# Excluir um ativo carregado{#deleting-an-uploaded-asset}
 
 Você pode usar o parâmetro `delete` neste formato para excluir um ativo:
 
@@ -45,9 +45,9 @@ Este é um exemplo de resposta quando um ativo de imagem é excluído:
 Você pode usar os seguintes campos na sequência de consulta de URL para excluir um ativo:
 
 | Parâmetro de URL | Obrigatório/opcional | Valor |
-|--- |--- |--- |
-| op | Obrigatório | excluir |
-| shared_secret | Obrigatório | A chave secreta compartilhada da empresa. |
+| --- | --- | --- |
+| `op` | Obrigatório | excluir |
+| `shared_secret` | Obrigatório | A chave secreta compartilhada da empresa. |
 | <ul><li>Para imagens:image_name</li><li>Para vetor:fxg_name</li></ul> | Obrigatório | Nome do ativo a ser excluído. |
 
 **Exemplo de URL da imagem:**
