@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Este novo aplicativo agora está disponível para Windows® e MacOS.
 >
 >O Adobe recomenda instalar o novo aplicativo de desktop Adobe Classic até 1º de outubro de 2020. Isso garantirá uma transição suave para que o Adobe Flash Player seja descontinuado em 31 de dezembro de 2020. Depois dessa data, você não poderá fazer logon na versão do navegador do Adobe Dynamic Media Classic user interface, rotulada como Dynamic Media Classic no produto.
 
-Consulte as Perguntas frequentes da experiência de logon do [Novo Dynamic Media Classic disponível.](/help/new-ui-2020.md)
+Consulte as Perguntas frequentes da [Nova experiência de logon do Dynamic Media Classic disponível.](/help/new-ui-2020.md)
 
 ## Requisitos de sistema para o aplicativo de desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -87,7 +87,7 @@ Consulte também:
 
 1. Siga um destes procedimentos com base no instalador baixado.
 
-   * **Para macOS**  - Na caixa de  **[!UICONTROL Drag & drop to install]** diálogo, arraste-a  **[!UICONTROL Adobe Dynamic Media Classic]** e solte-a no  **[!UICONTROL Applications]**.
+   * **macOS**  - Na caixa de  **[!UICONTROL Drag & drop to install]** diálogo, arraste-a  **[!UICONTROL Adobe Dynamic Media Classic]** e solte-a  **[!UICONTROL Applications]**.
 
       ![Arraste e solte a instalação no macOS](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ Consulte também:
 
       ![Abrir aplicativo baixado](/help/assets/open-dmclassicapp1.png)
 
-   * **Para Windows**  - execute o binário do instalador e siga as instruções na tela para instalar o aplicativo de desktop.
+   * **Windows**  - Execute o binário do instalador e siga as instruções na tela para instalar o aplicativo de desktop.
 
 1. Ao abrir o aplicativo, a nova página de Logon do Adobe Dynamic Media Classic é exibida:
 
@@ -107,7 +107,7 @@ Consulte também:
    Para que **[!UICONTROL Server]** use, consulte o seguinte mapeamento para o ambiente de produção:
 
    | URL do navegador | Nome do servidor de aplicativos de desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produção de NA (América do Norte) |
    | https://s7sps3.scene7.com/ | Produção da EMEA (Europa, Oriente Médio e África) |
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
@@ -149,7 +149,7 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
    Para que **[!UICONTROL Server]** use, consulte o seguinte mapeamento para o ambiente de produção:
 
    | URL do navegador | Nome do servidor de aplicativos de desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produção de NA (América do Norte) |
    | https://s7sps3.scene7.com/ | Produção da EMEA (Europa, Oriente Médio e África) |
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
@@ -194,7 +194,7 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
    Para que **[!UICONTROL Server]** use, consulte o seguinte mapeamento para o ambiente de produção:
 
    | URL do navegador | Nome do servidor de aplicativos de desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produção de NA (América do Norte) |
    | https://s7sps3.scene7.com/ | Produção da EMEA (Europa, Oriente Médio e África) |
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
