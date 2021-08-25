@@ -1,18 +1,18 @@
 ---
 title: Recortar uma imagem
-description: Saiba como recortar uma imagem.
+description: Saiba como recortar uma imagem no Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Você pode recortar uma imagem para remover o espaço em branco ao seu redor ou 
 
 >[!NOTE]
 >
->Após cortar, você pode selecionar **[!UICONTROL Save As]** e salvar uma versão cortada da imagem com um nome diferente. Na janela Salvar como, escolha Salvar como novo Principal para salvar uma segunda cópia da imagem. Selecione **[!UICONTROL Save As Addition View Of Master]** para que possa salvar o original e sua versão cortada com um nome diferente. Selecione **[!UICONTROL Replace Original]** para excluir o arquivo original do qual você cortou a imagem. Em seguida, insira um nome para a imagem e Selecione **[!UICONTROL Submit]**.
+>Após cortar, você pode selecionar **[!UICONTROL Save As]** e salvar uma versão cortada da imagem com um nome diferente. Na janela Salvar como, selecione **[!UICONTROL Save As New Master]** para salvar uma segunda cópia da imagem. Selecione **[!UICONTROL Save As Addition View Of Master]** para que possa salvar o original e sua versão cortada com um nome diferente. Selecione **[!UICONTROL Replace Original]** para excluir o arquivo original do qual você cortou a imagem. Em seguida, insira um nome para a imagem e selecione **[!UICONTROL Submit]**.
 
 ## Recortar para remover o espaço em branco ao redor de uma imagem {#crop-to-remove-white-space-around-an-image}
 
 Você pode cortar os pixels transparentes ou de cor sólida da borda de uma imagem.
 
-1. Para recortar uma imagem, selecione o botão **[!UICONTROL Edit]** sobreposto e escolha **[!UICONTROL Crop]**, ou exiba-o no Painel de navegação na exibição Detalhes e selecione o botão **[!UICONTROL Crop]**.
+1. Para recortar uma imagem, selecione seu botão **[!UICONTROL Edit]** sobreposto e selecione **[!UICONTROL Crop]**, ou exiba-o no Painel de navegação na exibição Detalhes e selecione o botão **[!UICONTROL Crop]**.
 1. Na página Editor de corte, siga um destes procedimentos:
 
    * Para aparar pixels de cor, vá para **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Na caixa de diálogo **[!UICONTROL Auto Crop By Color]**, selecione o menu **[!UICONTROL Corner]** e escolha um canto com a cor de plano de fundo que deseja recortar. Em seguida, insira uma configuração **[!UICONTROL Tolerance]** de 0 a 1. A configuração 0 corta pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Os números mais próximos de 1 permitem mais diferenças de cor. Selecione **[!UICONTROL Crop]**.
@@ -63,6 +63,6 @@ Você pode cortar os pixels transparentes ou de cor sólida da borda de uma imag
 >[!MORELIKETHIS]
 >
 >* [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload)
-* [Recortar espaço em branco de um arquivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [Recortar nas laterais das páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Recortar espaço em branco de um arquivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Recortar nas laterais das páginas PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
