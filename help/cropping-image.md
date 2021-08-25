@@ -10,9 +10,9 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Gerenciamento de ativos
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ Você pode cortar os pixels transparentes ou de cor sólida da borda de uma imag
 1. Para recortar uma imagem, selecione o botão **[!UICONTROL Edit]** sobreposto e escolha **[!UICONTROL Crop]**, ou exiba-o no Painel de navegação na exibição Detalhes e selecione o botão **[!UICONTROL Crop]**.
 1. Na página Editor de corte, siga um destes procedimentos:
 
-   * Para aparar pixels de cor, vá para **[!UICONTROL Trim]** > **[!UICONTROL Color]**. A caixa de diálogo Cortar automaticamente por cor é exibida. Selecione o menu **[!UICONTROL Corner]** e escolha um canto com a cor de plano de fundo que deseja recortar. Em seguida, insira uma configuração **[!UICONTROL Tolerance]** de 0 a 1. A configuração 0 corta pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Os números mais próximos de 1 permitem mais diferenças de cor. Selecione **[!UICONTROL Crop]**.
-   * Para aparar pixels transparentes, vá para **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. A caixa de diálogo Cortar automaticamente por transparência é exibida. Insira uma configuração de tolerância de 0 a 1. A configuração 0 recorta pixels somente se forem transparentes. Os números mais próximos de 1 permitem mais transparência. Selecione **[!UICONTROL Crop]**.
+   * Para aparar pixels de cor, vá para **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Na caixa de diálogo **[!UICONTROL Auto Crop By Color]**, selecione o menu **[!UICONTROL Corner]** e escolha um canto com a cor de plano de fundo que deseja recortar. Em seguida, insira uma configuração **[!UICONTROL Tolerance]** de 0 a 1. A configuração 0 corta pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Os números mais próximos de 1 permitem mais diferenças de cor. Selecione **[!UICONTROL Crop]**.
+   * Para aparar pixels transparentes, vá para **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Na caixa de diálogo **[!UICONTROL Auto Crop By Transparency]**, insira uma configuração de tolerância de 0 a 1. A configuração 0 recorta pixels somente se forem transparentes. Os números mais próximos de 1 permitem mais transparência. Selecione **[!UICONTROL Crop]**.
 
 1. Selecione **[!UICONTROL Save]**.
 
