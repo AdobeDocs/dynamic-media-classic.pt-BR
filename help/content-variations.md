@@ -1,6 +1,6 @@
 ---
-title: Gerenciamento de variações de conteúdo
-description: Saiba como gerenciar variações de conteúdo.
+title: Gerenciar variações de conteúdo
+description: Saiba como gerenciar variações de conteúdo no Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# Gerenciamento de variações de conteúdo{#managing-content-variations}
+# Gerenciar variações de conteúdo{#managing-content-variations}
 
 Use conjuntos de modelos para gerenciar a maneira como as variações de ativos são publicadas.
 
@@ -27,10 +27,10 @@ URLs universais são usados para exibir a variação do modelo que aparece na p�
 
 Você pode usar qualquer URL predefinido de imagem da lista. URLs predefinidos de imagem são como URLs universais. Pode haver mais de um URL predefinido de imagem.
 
-1. Clique em **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**. O construtor é aberto.
-1. Selecione um modelo e clique em **[!UICONTROL Add/Preview]**.
-1. Modifique as propriedades do modelo e clique em **[!UICONTROL Save As]** para criar outra versão.
-1. Digite um nome e clique em **[!UICONTROL Save]**.
+1. Vá para **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
+1. No construtor, selecione um modelo e depois selecione **[!UICONTROL Add/Preview]**.
+1. Modifique as propriedades do modelo e selecione **[!UICONTROL Save As]** para criar outra versão.
+1. Digite um nome e selecione **[!UICONTROL Save]**.
 
    O ativo e o template devem ser publicados.
 
