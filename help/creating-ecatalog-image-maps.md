@@ -1,6 +1,6 @@
 ---
-title: Criação de mapas de imagem do catálogo eletrônico
-description: Saiba como criar mapas de imagem do eCatalog.
+title: Criar mapas de imagem do catálogo eletrônico
+description: Saiba como criar mapas de imagem do catálogo eletrônico no Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
 
-# Criação de mapas de imagem do catálogo eletrônico{#creating-ecatalog-image-maps}
+# Criar mapas de imagem do catálogo eletrônico{#creating-ecatalog-image-maps}
 
 Um Mapa de imagem é uma região em uma página de Catálogo eletrônico que você pode passar com o mouse ou selecionar para acionar ações de vários tipos. Ao mover o ponteiro sobre um Mapa de imagem, por exemplo, você vê uma descrição de texto sobreposto de um item. Ao selecionar um Mapa de imagem, outra ação é iniciada. Por exemplo, você pode abrir uma página da Web para que os visualizadores possam saber mais sobre um item ou comprá-lo, ou iniciar um vídeo para ver um item em uso.
 
-## Mapeamentos de imagem do catálogo eletrônico de desenho {#drawing-ecatalog-image-maps}
+## Desenhar mapas de imagem do catálogo eletrônico {#drawing-ecatalog-image-maps}
 
 Para eCatalogs, você desenha mapas de imagem na guia Mapear páginas da tela eCatalog. Esta tela consiste na área Mapa de imagem onde as páginas de Catálogo eletrônico são exibidas e, à direita, na lista Mapa de imagem. À medida que você cria mapas de imagem, seus nomes são inseridos na Lista de mapas de imagem.
 
@@ -41,19 +41,19 @@ Para eCatalogs, você desenha mapas de imagem na guia Mapear páginas da tela eC
 
    Para facilitar a inserção de URLs (modelos Href), selecione **[!UICONTROL Edit]** e insira um modelo.
 
-Consulte [Usando um modelo para inserir JavaScript e URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+Consulte [Use um modelo para inserir JavaScript e URLs](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Opcional) Na lista suspensa Exibir , selecione **[!UICONTROL Rollover Text]** e insira o texto que deseja que os usuários vejam na tela quando moverem seus ponteiros sobre o Mapa de imagem.
 1. (Opcional) Na lista suspensa Exibir , selecione **[!UICONTROL Other Actions]** e insira um atributo para acionar uma ação de desfoque ou foco quando os usuários moverem seus ponteiros sobre um Mapa de imagem.
 
-   Consulte [Definindo outras ações para os Mapas de imagem](creating-image-maps.md#defining_other_actions_for_image_maps).
+   Consulte [Definir outras ações para Mapas de imagem](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Selecione **[!UICONTROL Save]**.
 1. (Opcional) Selecione **[!UICONTROL Preview]** para exibir o eCatalog com a predefinição padrão do Visualizador do eCatalog.
 
 Para excluir um Mapa de imagem, selecione seu nome na lista Mapa de imagem e selecione **[!UICONTROL Delete]**. Para desativar temporariamente um Mapa de imagem em uma página sem excluir o Mapa de imagem, desmarque a opção Ativado do Mapa de imagem no painel Lista de mapa de imagem .
 
-## Como incorporar mídia avançada em um eCatalog {#embedding-rich-media-in-an-ecatalog}
+## Incorporar mídia avançada a um eCatalog {#embedding-rich-media-in-an-ecatalog}
 
 Você pode usar a opção Mídia avançada do Catálogo eletrônico para adicionar vídeos no formato MP4 ou conjuntos de rotação aos Mapas de imagem que você adicionou a um Catálogo eletrônico. Quando um usuário seleciona a área Mapa de imagem no eCatalog, o conjunto de rotação ou vídeo associado é exibido. Essa funcionalidade é especialmente útil se você quiser que os clientes vejam um item em uso ou vejam um item de diferentes ângulos e perspectivas.
 
@@ -63,7 +63,7 @@ Opcionalmente, também é possível exibir o texto da dica de ferramenta quando 
 
 1. Desenhar um mapa de imagem do catálogo eletrônico.
 
-   Consulte [Mapeamentos de imagem do catálogo eletrônico de desenho](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
+   Consulte [Desenhar mapas de imagem do catálogo eletrônico](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Na lista suspensa Exibir , selecione **[!UICONTROL Rich Media]**.
 1. No painel Adicionar ativos à esquerda, navegue até uma pasta que contém o conjunto de rotação ou o ativo de vídeo (formato MP4) que você deseja incorporar.
@@ -77,11 +77,11 @@ A partir da guia Mapear páginas da tela Catálogo eletrônico, use estas técni
 
 * **Ajustar a posição**  - Selecione a ferramenta Deslocar e mova o ponteiro para perto, mas não sobre a borda do mapa. Quando o ponteiro mostrar uma seta de quatro pontas, arraste o mapa de imagem inteiro até um novo local.
 
-   Consulte [Ajustar a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Consulte [Ajuste a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Alteração da forma e do tamanho**  - Para redimensionar um Mapa de imagem retangular, selecione a ferramenta Deslocar. Em seguida, mova o ponteiro sobre uma linha de borda ou um canto e, ao visualizar o ícone de seta de duas pontas, arraste. Para redimensionar um Mapa de imagem polígono, arraste uma alça de seleção quadrada. Para criar uma alça de seleção, selecione a borda do Mapa de imagem e arraste.
+* **Alterar a forma e o tamanho**  - Para redimensionar um Mapa de imagem retangular, selecione a ferramenta Deslocar. Em seguida, mova o ponteiro sobre uma linha de borda ou um canto e, ao visualizar o ícone de seta de duas pontas, arraste. Para redimensionar um Mapa de imagem polígono, arraste uma alça de seleção quadrada. Para criar uma alça de seleção, selecione a borda do Mapa de imagem e arraste.
 
-   Consulte [Ajustar a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+   Consulte [Ajuste a posição, a forma e o tamanho dos mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Exclusão de mapas de imagem**  - Selecione a ferramenta Deslocar, selecione o Mapa de imagem para selecioná-lo e selecione  **[!UICONTROL Delete]**.
 
@@ -89,15 +89,15 @@ A partir da guia Mapear páginas da tela Catálogo eletrônico, use estas técni
 
 * **Manuseio de mapas de imagem sobrepostos**  - Arraste para alterar a ordem dos mapas de imagem na lista do mapa de imagem.
 
-   Consulte [Manipulação de mapas de imagem sobrepostos](creating-image-maps.md#handling_overlapping_image_maps).
+   Consulte [Manipular mapas de imagem sobrepostos](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Copiando mapas de imagem para outras páginas**  - Selecione  **[!UICONTROL Copy Maps To]** (verifique se você está na guia Mapear páginas). Na tela Selecionar imagens , selecione a página ou páginas em que deseja copiar os Mapas de imagem e selecione **[!UICONTROL Select]**.
 
-   Consulte [Copiando mapas de imagem para outras imagens](creating-image-maps.md#copying_image_maps).
+   Consulte [Copiar mapas de imagem para outras imagens](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
->Além de copiar mapas de imagem para páginas diferentes em um eCatalog, você pode copiar todos os mapas de imagem em um eCatalog para um eCatalog diferente. Consulte [Copiando mapas de imagem entre eCatalogs](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Além de copiar mapas de imagem para páginas diferentes em um eCatalog, você pode copiar todos os mapas de imagem em um eCatalog para um eCatalog diferente. Consulte [Copiar mapas de imagem entre eCatalogs](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Revisar e importar dados do Mapa de imagem {#reviewing-and-importing-image-map-data}
 
@@ -129,7 +129,7 @@ A partir da tela Resumo do mapa, siga estas etapas para importar os dados do Map
 1. No campo Nome do trabalho , digite um nome para o arquivo (tenha cuidado para manter sua extensão).
 1. Selecione **[!UICONTROL Upload]**.
 
-## Copiando mapas de imagem entre catálogos eletrônicos {#copying-image-maps-between-ecatalogs}
+## Copiar mapas de imagem entre catálogos eletrônicos {#copying-image-maps-between-ecatalogs}
 
 Você pode copiar todos os mapas de imagem em um eCatalog para um eCatalog diferente. Copiar mapas de imagem dessa forma é um método conveniente de copiar mapas de imagem entre traduções de idioma estrangeiro do mesmo eCatalog. Para que a cópia seja bem-sucedida, o Dynamic Media Classic recomenda copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens.
 
