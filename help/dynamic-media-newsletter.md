@@ -1,16 +1,17 @@
 ---
+title: Arquivo de informativo do Dynamic Media
 description: 'O informativo arquivado do Dynamic Media por Experience League foi um informativo mensal. Ele foi projetado para ajudar você a usar o Dynamic Media e o Dynamic Media Classic de forma a obter valor imediatamente. Os boletins informativos arquivados contêm recursos valiosos para a criação de conhecimento que estavam disponíveis neste boletim informativo de balcão único que foi descontinuado. Os boletins informativos arquivados incluem vídeos práticos e visões gerais da solução. Há também introduções para recursos e características principais, como predefinições de imagens, predefinições do visualizador e perfis de vídeo. '
 keywords: dynamic media, boletim informativo, atualizações de produtos, dicas e truques, eventos, sucesso do cliente, blog, blogs, imagens, vídeos, recursos, recursos
-title: Arquivo de informativo do Dynamic Media
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
+
 
 # ![Logotipo do informativo do Dynamic Media](/help/assets/dynamic-media-newsletter-logo.png)
 
