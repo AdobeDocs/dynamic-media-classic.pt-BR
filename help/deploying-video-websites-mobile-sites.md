@@ -1,23 +1,23 @@
 ---
-title: Implantação de vídeo em seus sites e sites móveis
-description: Saiba como implantar vídeo em seus sites e sites móveis.
+title: Implantar vídeo em seus sites e sites móveis
+description: Saiba como implantar vídeo em seus sites e sites móveis do Dynamic Media Classic.
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
-feature: Dynamic Media Classic,Visualizadores,Vídeo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 2%
+source-wordcount: '1573'
+ht-degree: 1%
 
 ---
 
-# Implantação de vídeo em seus sites e sites móveis{#deploying-video-to-your-websites-and-mobile-sites}
+# Implantar vídeo em seus sites e sites móveis{#deploying-video-to-your-websites-and-mobile-sites}
 
 Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor Dynamic Media Classic, incluindo vídeo, usando strings de URL ou código incorporado. O Dynamic Media Classic ativa essas cadeias de caracteres de URL durante o processo de publicação. Para colocar a string do URL ou o código incorporado do vídeo nas páginas da Web, páginas móveis e aplicativos de desktop, copie-o do Dynamic Media Classic.
 
@@ -25,7 +25,7 @@ Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor Dy
 >
 >O URL ou código incorporado não fica ativo até que você publique o ativo.
 
-## Publicação de vídeo {#publishing-video}
+## Publicar vídeo {#publishing-video}
 
 A publicação de um vídeo permite que os servidores Dynamic Media Classic forneçam vídeo ao seu site, site para dispositivos móveis ou aplicativo.
 
@@ -41,39 +41,39 @@ Após publicar vídeos, o Dynamic Media Classic ativa as cadeias de caracteres d
 
 1. Siga um destes procedimentos:
 
-   * Para publicar vídeos automaticamente e instantaneamente no upload, na página Upload , clique em **[!UICONTROL Publish after uploading]**. Você terminou; não há outras etapas a serem concluídas.
-   * Para publicar vídeos manualmente após o upload, no Painel de navegação, selecione os vídeos e, em seguida, na barra Navegação global, clique em **Publicar**.
+   * Para publicar vídeos automaticamente e instantaneamente no upload, na página Upload , selecione **[!UICONTROL Publish after uploading]**. Você terminou; não há outras etapas a serem concluídas.
+   * Para publicar vídeos manualmente após o upload, no Painel de navegação, selecione os vídeos e, na barra de Navegação global, selecione **Publicar**.
 
 ## Vincular um URL de vídeo a um site móvel ou de site {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
 Após publicar um vídeo, você pode obter o URL para uso no seu site, site para dispositivos móveis ou aplicativo de desktop. Use o URL do vídeo quando quiser exibir o vídeo em uma janela pop-up ou modal na parte superior da página da Web.
 
-Quando um cliente clica no link, o dispositivo, a largura de banda e o tamanho da tela são automaticamente detectados. O vídeo apropriado é exibido para reprodução em um visualizador predefinido para desktop ou no reprodutor de vídeo nativo do dispositivo móvel para smartphones e tablets.
+Quando um cliente seleciona o link, o dispositivo, a largura de banda e o tamanho da tela são automaticamente detectados. O vídeo apropriado é exibido para reprodução em um visualizador predefinido para desktop ou no reprodutor de vídeo nativo do dispositivo móvel para smartphones e tablets.
 
 Consulte também [Incorporar o visualizador de vídeo em uma página da Web](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
 **Para vincular um URL de vídeo a um site para dispositivos móveis ou a um site:**
 
-1. No painel Navegação de ativos , na lista suspensa **[!UICONTROL Show]**, clique em **[!UICONTROL Video]** ou **[!UICONTROL Adaptive Video Set]**.
+1. No painel Navegação de ativos , na lista suspensa **[!UICONTROL Show]**, selecione **[!UICONTROL Video]** ou **[!UICONTROL Adaptive Video Set]**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o vídeo ou o conjunto de vídeos adaptáveis que você deseja vincular.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **[!UICONTROL Grid View]** ou **[!UICONTROL List View]**. No painel Navegação de ativos, clique duas vezes na miniatura de vídeo de um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, em HTTP Streaming (Transmissão HTTP), clique em **[!UICONTROL Copy URL]** à direita do visualizador desejado. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
-   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]** ou **[!UICONTROL List View]**. No painel Navegação de ativos, clique duas vezes na miniatura de vídeo de um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, em HTTP Streaming, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**. Como prática recomendada, copie o URL associado ao visualizador `Universal_HTML5_Video`.
 
 1. Cole o link HTML5 video URL no seu site e site móvel.
 
-## Incorporação do visualizador de vídeo em uma página da Web {#embedding-the-video-viewer-on-a-web-page}
+## Incorporar o visualizador de vídeo em uma página da Web {#embedding-the-video-viewer-on-a-web-page}
 
 Use o recurso Incorporar código quando quiser reproduzir o vídeo incorporado na página da Web. Copie o código incorporado na área de transferência para poder colá-lo nuas páginas da Web. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
@@ -81,31 +81,31 @@ Consulte também [Vincular um URL de vídeo a um site para dispositivos móveis 
 
 **Para incorporar o visualizador de vídeo em uma página da Web:**
 
-1. No painel Navegação de ativos , na lista suspensa Mostrar , clique em **[!UICONTROL Video]** ou **[!UICONTROL Adaptive Video Set]**.
+1. No painel Navegação de ativos , na lista suspensa Mostrar , selecione **[!UICONTROL Video]** ou **[!UICONTROL Adaptive Video Set]**.
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o vídeo ou conjunto de vídeos adaptáveis cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **[!UICONTROL Grid View]** ou **[!UICONTROL List View]**. No painel Navegação de ativos, clique duas vezes na miniatura de vídeo de um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, em HTTP Streaming (Transmissão HTTP), clique em **[!UICONTROL Embed Code]** à direita do visualizador desejado. Como prática recomendada, clique em **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
-   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem de miniatura do vídeo, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]** ou **[!UICONTROL List View]**. No painel Navegação de ativos, clique duas vezes na miniatura de vídeo de um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, em HTTP Streaming, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado. Como prática recomendada, selecione **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem de miniatura do vídeo, selecione **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**. Como prática recomendada, clique em **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**. Como prática recomendada, selecione **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**. Como prática recomendada, clique em **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**. Como prática recomendada, selecione **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
 
-   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**. Como prática recomendada, clique em **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**. Como prática recomendada, selecione **[!UICONTROL Embed Code]** que está associado ao visualizador `Universal_HTML5_Video`.
 
-1. Na caixa de diálogo Incorporar código , clique em **[!UICONTROL Copy to Clipboard]**.
+1. Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
    A edição do código não é permitida na caixa de diálogo Incorporar código .
 
-1. Clique em **[!UICONTROL Close]**.
+1. selecione **[!UICONTROL Close]**.
 1. Cole o código incorporado nas páginas da Web.
 
-### Implementação do código incorporado para usar vídeo HTML5 com ativos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implemente o código incorporado para usar vídeo HTML5 com ativos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
 Se você não usar o reprodutor de vídeo HTML5 do Dynamic Media Classic, mas quiser usar a tag HTML5 nativa `<video>` com ativos de vídeo MP4, poderá usar a seguinte amostra de código integrado:
 
@@ -129,13 +129,13 @@ Se você não usar o reprodutor de vídeo HTML5 do Dynamic Media Classic, mas qu
 
    Consulte [Vincular um URL de vídeo a um site para dispositivos móveis ou a um site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-## Implantação de vídeo usando um reprodutor de vídeo de terceiros {#deploying-video-using-a-third-party-video-player}
+## Implantar vídeo usando um reprodutor de vídeo de terceiros {#deploying-video-using-a-third-party-video-player}
 
-Se você usar um reprodutor de vídeo de terceiros ou um reprodutor de vídeo personalizado em vez de um visualizador de vídeo do Dynamic Media Classic, poderá obter o URL do vídeo direto que funciona para streaming de vídeo com taxa de bits múltipla HLS ou download progressivo.
+Se você usar um reprodutor de vídeo de terceiros ou um reprodutor de vídeo personalizado em vez de um visualizador de vídeo do Dynamic Media Classic, obterá o URL do vídeo direto que funciona para streaming de vídeo com taxa de bits múltipla HLS ou download progressivo.
 
 **Para implantar vídeo usando um reprodutor de vídeo de terceiros:**
 
-1. No Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
+1. No Dynamic Media Classic, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 1. Dependendo do tipo de URL que deseja usar, execute uma das seguintes tarefas:
 
 * Para gerar um URL de vídeo de transmissão direta de HLS (taxa de bits múltipla)
@@ -175,11 +175,11 @@ O Dynamic Media Classic gera miniaturas de vídeo automaticamente durante o proc
 
 Para gerar URLs para miniaturas de vídeo, execute uma operação de publicação.
 
-Consulte [Publicação de vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
+Consulte [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Após a publicação, é possível obter os URLs de miniatura do vídeo na Exibição de detalhes nos URLs e no painel Código incorporado . Clique em **[!UICONTROL Copy URL]** à direita da miniatura do vídeo para copiar o URL.
+Após a publicação, é possível obter os URLs de miniatura do vídeo na Exibição de detalhes nos URLs e no painel Código incorporado . Selecione **[!UICONTROL Copy URL]** à direita da miniatura do vídeo para copiar o URL.
 
-### Modificação de quadros de pôster em visualizadores de vídeo {#modifying-poster-frames-in-video-viewers}
+### Modificar quadros de pôster em visualizadores de vídeo {#modifying-poster-frames-in-video-viewers}
 
 O *quadro de pôster* é o quadro inicial exibido nos visualizadores de Vídeo antes da reprodução do vídeo. O Dynamic Media Classic usa miniaturas de vídeo como quadros de pôster.
 
@@ -193,4 +193,4 @@ Também é possível modificar as miniaturas de vídeo ao anexar modificadores a
 
 >[!MORELIKETHIS]
 >
->* [Publicação de arquivos ](publishing-files.md#publishing_files)
+>* [Publicar arquivos](publishing-files.md#publishing_files)
