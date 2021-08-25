@@ -6,12 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '268'
 ht-degree: 7%
 
 ---
@@ -24,30 +24,29 @@ As notas de versão também estão disponíveis para alguns módulos. As notas d
 
 Guias de referência para exibição de imagens e renderização de imagens, e Visualizadores descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites da Web que desejam personalizar e usar a mídia avançada do Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. O Dynamic Media Classic assume que o usuário está familiarizado com o aplicativo de desktop, padrões e convenções gerais de protocolo http e terminologia básica de geração de imagens.
 
-
 ## API do Dynamic Media Classic
 
 | Documento | Endereço Web |
-|--- |--- |
+| --- | --- |
 | Guia de referência da API | Entre em contato com o suporte técnico do Dynamic Media Classic para obter a documentação. |
 
 ## Criação de imagens
 
 | Documento | Endereço Web |
-|--- |--- |
+| --- | --- |
 | Guia do usuário | Entre em contato com o suporte técnico do Dynamic Media Classic para obter esta documentação. |
 | Notas de versão | Entre em contato com o suporte técnico do Dynamic Media Classic para obter esta documentação. |
 
 ##  de disponibilização de imagens e de processamento de imagens
 
 | Documento | Endereço Web |
-|--- |--- |
+| --- | --- |
 | Guia de referência da API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
 ## Visualizadores
 
 | Documento | Endereço Web |
-|--- |--- |
+| --- | --- |
 | Guia de referência de visualizadores e notas de versão | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 | Exemplos da biblioteca do visualizador | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
