@@ -1,6 +1,6 @@
 ---
 title: Vincular URLs ao aplicativo da Web
-description: Saiba como vincular URLs ao aplicativo da Web.
+description: Saiba como vincular URLs ao seu aplicativo da Web a partir do Adobe Dynamic Media Classic.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Vincular URLs ao aplicativo da Web{#linking-urls-to-your-web-application}
 
-Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL. Após publicar uma imagem, o Dynamic Media Classic ativa uma string de URL que faz referência à Predefinição de imagem nos Servidores de imagem da Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
+Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL. Depois de publicar uma imagem, o Adobe Dynamic Media Classic ativa uma string de URL que faz referência à Predefinição de imagem nos Servidores de imagem Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
 
-Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Dynamic Media Classic. Para obter uma string de URL gerada com uma Predefinição de imagem, vá para a tela Visualização ou o Painel de navegação (na exibição de Detalhes).
+Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Adobe Dynamic Media Classic. Para obter uma string de URL gerada com uma Predefinição de imagem, vá para a tela Visualização ou o Painel de navegação (na Exibição de detalhes).
 
 ## Obter um URL de predefinição de imagem {#obtaining-an-image-preset-url}
 
@@ -36,21 +36,21 @@ Você pode obter uma string de URL gerada por uma Predefinição de imagem a par
 1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja visualizar.
 1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem e, em seguida, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL List View]**. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
 1. (Opcional) Na Lista predefinida de imagem, na lista suspensa Codificação de URL para Geração de URL de Cópia, selecione a codificação de URL que deseja aplicar ao URL do ativo de imagem quando ele for copiado.
-1. Na janela Lista de predefinições de imagens, na área superior direita do painel de visualização, clique em **[!UICONTROL Copy URL]** para o tipo de predefinição selecionado.
-1. No canto inferior direito da janela Lista de predefinições de imagens, clique em **[!UICONTROL Close]** para retornar à tela Ativos.
+1. Na janela Lista de predefinições de imagens, na área superior direita do painel de visualização, selecione **[!UICONTROL Copy URL]** para o tipo de predefinição selecionado.
+1. No canto inferior direito da janela Lista de predefinições de imagens, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
 
 ### Obter um URL de predefinição de imagem no painel Procurar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. No painel Biblioteca de ativos, à esquerda, navegue até as pastas Ativos que contêm o ativo de imagem que você deseja visualizar.
-1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem.
-1. Acima da janela Ativos, no lado direito da barra de ferramentas, clique em **[!UICONTROL Detail View]**.
-1. Clique em **[!UICONTROL URLs]** no painel no lado direito da tela para abrir a lista de Predefinições de imagem.
-1. Clique no link **[!UICONTROL Copy URL]** ao lado do nome da Predefinição de imagem com o URL que você deseja copiar para a Área de transferência.
+1. Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem.
+1. Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**.
+1. Selecione **[!UICONTROL URLs]** no painel no lado direito da tela, para que você possa abrir a lista de Predefinições de imagem.
+1. Selecione **[!UICONTROL Copy URL]** link ao lado do nome da Predefinição de imagem com o URL que você deseja copiar para a Área de transferência.
 
 ## Sobre as cadeias de caracteres do URL da predefinição de imagem {#about-image-preset-url-strings}
 
@@ -80,7 +80,7 @@ Nomes de predefinições de imagens em URLs são colocados em cifrões ($). Quan
 
 ## Adicionar imagens dinâmicas à página da Web {#adding-dynamic-images-to-your-web-page}
 
-Para adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no código da página da Web HTML normalmente é modificada usando a sequência de caracteres de URL do Dynamic Media Classic para fazer uma solicitação aos Servidores de imagem da Dynamic Media. Essa string produz a imagem no tamanho e nas especificações de formatação definidos pela Predefinição de imagem.
+Para adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no código da página da Web HTML normalmente é modificada usando a Adobe Dynamic Media Classic URL string para fazer uma solicitação para Servidores de Imagem Dynamic Media. Essa string produz a imagem no tamanho e nas especificações de formatação definidos pela Predefinição de imagem.
 
 Por exemplo, em vez da chamada típica para abrir uma imagem estática como
 
@@ -88,7 +88,7 @@ Por exemplo, em vez da chamada típica para abrir uma imagem estática como
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Agora você usa a tag `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Dynamic Media Classic. Um exemplo de chamada tem esta aparência:
+Agora você usa a tag `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Adobe Dynamic Media Classic. Um exemplo de chamada tem esta aparência:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”

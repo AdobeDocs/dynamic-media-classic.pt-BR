@@ -1,22 +1,22 @@
 ---
 title: Configuração de publicação
-description: As configurações de Configuração de publicação permitem determinar como os ativos são entregues por padrão dos servidores Dynamic Media Classic em sites ou aplicativos da Web.
+description: As configurações de Configuração de publicação permitem determinar como os ativos são entregues por padrão dos servidores Adobe Dynamic Media Classic para sites ou aplicativos da Web.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
 
 # Configuração de publicação {#publish-setup}
 
-As configurações da página Publicar configuração determinam como os ativos são entregues por padrão dos servidores Dynamic Media Classic para sites ou aplicativos da Web. Se nenhuma configuração for especificada, o servidor do Dynamic Media Classic fornecerá um ativo de acordo com uma configuração padrão em uma página de Configuração de publicação. Por exemplo, uma solicitação para fornecer uma imagem que não inclua um atributo de resolução gera uma imagem com a configuração de Resolução de objeto padrão na página Servidor de imagem.
+As configurações da página Publicar configuração determinam como os ativos são entregues por padrão dos servidores Adobe Dynamic Media Classic para sites ou aplicativos da Web. Se nenhuma configuração for especificada, o servidor Adobe Dynamic Media Classic fornecerá um ativo de acordo com uma configuração padrão em uma página de Configuração de publicação. Por exemplo, uma solicitação para fornecer uma imagem que não inclua um atributo de resolução gera uma imagem com a configuração de Resolução de objeto padrão na página Servidor de imagem.
 
 Os administradores podem alterar as configurações padrão nas páginas Servidor de imagem, Renderizador de imagem e Vinheta para estabelecer configurações padrão para o fornecimento de ativos dos servidores.
 
@@ -24,15 +24,15 @@ Para abrir as páginas de Configuração de publicação, clique em **[!UICONTRO
 
 >[!NOTE]
 >
->As páginas de Configuração da publicação são para uso por desenvolvedores e programadores de sites experientes. O Dynamic Media Classic presume que os usuários que alteram configurações nessas páginas estejam familiarizados com o Dynamic Media Classic, padrões e convenções de protocolo HTTP e tecnologia básica de geração de imagens.
+>As páginas de Configuração da publicação são para uso por desenvolvedores e programadores de sites experientes. O Adobe Dynamic Media Classic assume que os usuários que alteram configurações nessas páginas estão familiarizados com o Adobe Dynamic Media Classic, padrões e convenções de protocolo HTTP e tecnologia básica de geração de imagens.
 
 ## Servidor de imagem {#image-server}
 
 A página Servidor de imagens estabelece as configurações padrão para o fornecimento de imagens de servidores de imagens. As configurações estão disponíveis nessas cinco categorias (consulte a própria página Servidor de imagens para obter descrições detalhadas das configurações).
 
-Altere essas configurações somente com a assistência de uma pessoa de suporte do Dynamic Media Classic.
+Altere essas configurações somente com a assistência de uma pessoa de suporte do Adobe Dynamic Media Classic.
 
-* **Gerenciamento de catálogo**  - Essas configurações determinam como o Dynamic Media Classic e o catálogo interagem. Ao contrário da maioria dos servidores da Web, as chamadas de URL do servidor de imagem da Dynamic Media vão para um arquivo manifest-ou de catálogo, em vez de para um arquivo de imagem adequado. O arquivo de catálogo (não confundir com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem junto com o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações do usuário na seção Informações do usuário da Digimarc .
+* **Gerenciamento de catálogo**  - Essas configurações determinam como o Adobe Dynamic Media Classic e o catálogo interagem. Ao contrário da maioria dos servidores da Web, as chamadas de URL do servidor de imagem da Dynamic Media vão para um arquivo manifest-ou de catálogo, em vez de para um arquivo de imagem adequado. O arquivo de catálogo (não confundir com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem junto com o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações do usuário na seção Informações do usuário da Digimarc .
 
 * **Atributos de solicitação**  - essas configurações impõem limites às imagens que podem ser entregues a partir do servidor. Por exemplo, o *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
 
@@ -59,9 +59,9 @@ Altere essas configurações somente com a assistência de uma pessoa de suporte
 
 >[!NOTE]
 >
->Se você quiser configurar as opções de Suporte de localização no Dynamic Media Classic, como o campo Mapa de localidade , [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) No seu caso de suporte, solicite ajuda para a configuração.
+>Se você quiser configurar as opções de Suporte de localização no Adobe Dynamic Media Classic, como o campo Mapa de localidade , [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) No seu caso de suporte, solicite ajuda para a configuração.
 
-Uma maneira comum de usar o Dynamic Media Classic é gerenciar a imagem do produto em sites de comércio eletrônico. As empresas internacionais enfrentam o desafio de que os ativos para produtos similares pareçam diferentes de país para país. Normalmente, as diferenças são para algumas partes da mídia geral. Enfrentar essas diferenças copiando todos os ativos para cada um dos países e sobrescrevendo apenas as diferenças é um tremendo esforço e contradiz a metáfora única de ativos principais. Essas diferenças para os ativos podem durar, desde vídeos específicos do país com diferentes faixas de áudio, até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Dynamic Media Classic usa um mecanismo de pesquisa básico. Você define uma ordem de sufixos de ativos na qual o Servidor de imagens está procurando, começando pelo local necessário.
+Uma maneira comum de usar o Adobe Dynamic Media Classic é gerenciar as imagens do produto em sites de comércio eletrônico. As empresas internacionais enfrentam o desafio de que os ativos para produtos similares pareçam diferentes de país para país. Normalmente, as diferenças são para algumas partes da mídia geral. Enfrentar essas diferenças copiando todos os ativos para cada um dos países e sobrescrevendo apenas as diferenças é um tremendo esforço e contradiz a metáfora única de ativos principais. Essas diferenças para os ativos podem durar, desde vídeos específicos do país com diferentes faixas de áudio, até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Adobe Dynamic Media Classic usa um mecanismo de pesquisa básico. Você define uma ordem de sufixos de ativos na qual o Servidor de imagens está procurando, começando pelo local necessário.
 
 #### Como os ativos são localizados
 
@@ -97,7 +97,7 @@ Alguns dos benefícios de usar `locale=` e `attribute::DefaultLocale` incluem o 
 
 #### Implementação da localização de ativos
 
-O Dynamic Media Classic e o Image Serving têm uma interface que permite a localização de imagens e conteúdo estático.
+O Adobe Dynamic Media Classic e o Image Serving têm uma interface que permite a localização de imagens e conteúdo estático.
 
 Sem localização, um URL de servidor de imagem tem a seguinte aparência:
 
@@ -117,7 +117,7 @@ Se um valor de sufixo ou um valor de substituição for aplicado depende da conf
 
 >[!NOTE]
 >
->A configuração Local global só é possível ao defini-la por meio da API, não dentro da interface do Dynamic Media Classic.
+>A configuração Local global só é possível quando você a configura por meio da API, não dentro da interface do Adobe Dynamic Media Classic.
 
 **Exemplo de sufixo:**
 
@@ -137,7 +137,7 @@ Se um parâmetro de local desconhecido ou vazio for fornecido com `locale=`, o l
 
 #### Sobre defaultImage
 
-O Servidor de Imagens tenta as opções para a localidade solicitada, uma após a outra. Se nenhuma correspondência for encontrada, as opções de local serão aplicadas a defaultImage e a versão correspondente será retornada. Portanto, cada localidade deve incluir uma opção para a imagem sem localização ou as versões de defaultImage localizadas são disponibilizadas no Dynamic Media Classic.
+O Servidor de Imagens tenta as opções para a localidade solicitada, uma após a outra. Se nenhuma correspondência for encontrada, as opções de local serão aplicadas a defaultImage e a versão correspondente será retornada. Portanto, cada localidade deve incluir uma opção para a imagem sem localização ou as versões de defaultImage localizadas são disponibilizadas no Adobe Dynamic Media Classic.
 
 #### Cenários para localizar o localeMap
 
@@ -220,7 +220,7 @@ Usando o primeiro exemplo como base, as imagens para todos os idiomas podem ter 
 
 A página Renderizador de imagem estabelece as configurações padrão para o fornecimento de Conjuntos de imagens a partir dos servidores de renderização de imagem. As configurações estão disponíveis nessas cinco categorias (consulte a própria página Servidor de imagens para obter descrições detalhadas das configurações):
 
-* **Gerenciamento de catálogo**  - Essas configurações determinam como o Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do servidor de renderização do Dynamic Media Classic são feitas ao catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a assistência de uma pessoa de suporte do Dynamic Media Classic.
+* **Gerenciamento de catálogo**  - Essas configurações determinam como o Adobe Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do servidor de renderização do Adobe Dynamic Media Classic são feitas ao catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a assistência de uma pessoa de suporte do Adobe Dynamic Media Classic.
 
 * **Atributos da sessão**  - Essas configurações estabelecem parâmetros de erro, o URL para URLs de imagem relativa e se a sobreposição de objeto é permitida.
 

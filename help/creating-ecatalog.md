@@ -1,18 +1,18 @@
 ---
 title: Criar um catálogo eletrônico
-description: Saiba como criar um eCatalog no Dynamic Media Classic.
+description: Saiba como criar um eCatalog no Adobe Dynamic Media Classic.
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
-feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
 ## Personalizar o sumário (TOC) {#customizing-the-table-of-contents-toc}
 
-O Dynamic Media Classic fornece números de página padrão no seu eCatalog na guia Páginas do pedido da tela do eCatalog. Para nomes de página personalizados, você pode alterar os rótulos de página que constituem o sumário (TOC). Recomenda-se renomear a tampa frontal e traseira. Por exemplo, a capa frontal pode ler &quot;Capa&quot; em vez de &quot;Página 0-1&quot;.
+O Adobe Dynamic Media Classic fornece números de página padrão no seu eCatalog na guia Páginas do pedido da tela do eCatalog. Para nomes de página personalizados, você pode alterar os rótulos de página que constituem o sumário (TOC). Recomenda-se renomear a tampa frontal e traseira. Por exemplo, a capa frontal pode ler &quot;Capa&quot; em vez de &quot;Página 0-1&quot;.
 
 Você pode criar um sumário personalizado (TOC) para seu eCatalog manualmente ou importando os nomes das páginas de um arquivo CSV (somente Mac) ou XML.
 

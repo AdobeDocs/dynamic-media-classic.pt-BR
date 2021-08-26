@@ -1,6 +1,6 @@
 ---
 title: Trabalhar na exibição de detalhes
-description: Saiba como trabalhar na Exibição de detalhes no Dynamic Media Classic.
+description: Saiba como trabalhar na Exibição de detalhes no Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Para examinar, visualizar ou trabalhar em um ativo detalhadamente, você pode ex
 
 1. No painel Procurar, siga um destes procedimentos:
 
-   * Selecione o ativo. Próximo ao canto superior direito do Dynamic Media Classic, selecione o ícone **[!UICONTROL Detail View]** .
+   * Selecione o ativo. Próximo ao canto superior direito do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL Detail View]** .
    * Clique duas vezes no ativo.
    * Selecione o ativo e vá para **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
@@ -54,7 +54,7 @@ Para examinar, visualizar ou trabalhar em um ativo detalhadamente, você pode ex
 
 ## Obter informações na Exibição de detalhes {#getting-information-in-detail-view}
 
-A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Ele mostra estas informações sobre um item: a pasta onde está armazenado, seu nome de arquivo, a data em que o item foi carregado no Dynamic Media Classic e seu histórico de publicação. Você também pode exibir e editar metadados e adicionar palavras-chave a um ativo na Exibição de detalhes.
+A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Ele mostra estas informações sobre um item: a pasta onde está armazenado, o nome do arquivo, a data em que o item foi carregado no Adobe Dynamic Media Classic e o histórico de publicação. Você também pode exibir e editar metadados e adicionar palavras-chave a um ativo na Exibição de detalhes.
 
 Você pode obter um URL de ativo na Exibição de detalhes; no entanto, o URL não fica ativo até que você publique o ativo. Para imagens, a Exibição de detalhes também fornece uma lista de ativos e metadados de criação e derivados, como destinos de zoom e Conjuntos de imagens.
 

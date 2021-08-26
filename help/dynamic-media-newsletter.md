@@ -1,13 +1,13 @@
 ---
 title: Arquivo de informativo do Dynamic Media
-description: 'O informativo arquivado do Dynamic Media por Experience League foi um informativo mensal. Ele foi projetado para ajudar você a usar o Dynamic Media e o Dynamic Media Classic de forma a obter valor imediatamente. Os boletins informativos arquivados contêm recursos valiosos para a criação de conhecimento que estavam disponíveis neste boletim informativo de balcão único que foi descontinuado. Os boletins informativos arquivados incluem vídeos práticos e visões gerais da solução. Há também introduções para recursos e características principais, como predefinições de imagens, predefinições do visualizador e perfis de vídeo. '
+description: 'O informativo arquivado do Dynamic Media por Experience League foi um informativo mensal. Ele foi projetado para ajudar você a se familiarizar com o Dynamic Media e o Adobe Dynamic Media Classic, para que você possa obter valor imediatamente. Os boletins informativos arquivados contêm recursos valiosos para a criação de conhecimento que estavam disponíveis neste boletim informativo de balcão único que foi descontinuado. Os boletins informativos arquivados incluem vídeos práticos e visões gerais da solução. Há também introduções para recursos e características principais, como predefinições de imagens, predefinições do visualizador e perfis de vídeo. '
 keywords: dynamic media, boletim informativo, atualizações de produtos, dicas e truques, eventos, sucesso do cliente, blog, blogs, imagens, vídeos, recursos, recursos
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >O boletim informativo mensal agora é descontinuado. No entanto, você ainda pode acessar os arquivos do boletim informativo abaixo.
 
-O informativo do Dynamic Media disponibilizado pelo Experience League foi projetado para ajudar você a usar o Dynamic Media e o Dynamic Media Classic para obter vantagens desde o início.
+O informativo do Dynamic Media disponibilizado pelo Experience League foi projetado para ajudar você a usar o Dynamic Media e o Adobe Dynamic Media Classic, para que você possa começar a obter valor imediatamente.
 
 Neste boletim informativo arquivado de balcão único, você pode encontrar recursos valiosos para a criação de conhecimento, como vídeos explicativos e visões gerais de soluções. Há também introduções para recursos e características principais, como predefinições de imagens, predefinições do visualizador e perfis de vídeo.
 
@@ -52,28 +52,28 @@ Neste boletim informativo arquivado de balcão único, você pode encontrar recu
 
    * Explore três formas de seu investimento em mídias avançadas ajudar durante esses tempos desafiadores.
    * Cadastre-se no webinário para saber como aliviar o carregamento de sua página com o Smart Imaging.
-   * Assista aos webinários on-demand do Skill Builder para Dynamic Media Classic.
+   * Assista aos webinários on-demand do Skill Builder para Adobe Dynamic Media Classic.
    * Exiba as sessões do Dynamic Media do Online Adobe Summit 2020.
-   * Saiba mais sobre as auditorias gratuitas do Dynamic Media Classic.
+   * Saiba mais sobre auditorias gratuitas do Adobe Classic.
    * Conheça `John Monroe`, Gerente de Programa Sênior para Serviços de Sucesso do Cliente.
 
 * **[Fevereiro de 2020, Edição 2](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
    Nesta edição:
 
-   * Participe dos novos webinars do Skill Builder e transforme-se em um especialista do Dynamic Media Classic.
+   * Participe dos novos webinars do Skill Builder e transforme-se em um especialista do Adobe Dynamic Media Classic.
    * Veja onde você pode encontrar o Dynamic Media no Adobe Summit 2020.
    * Explore como usar a magia de corte do Dynamic Media.
-   * Para ajudá-lo a tirar maior proveito do Dynamic Media Classic, utilize uma auditoria gratuita do Adobe.
-   * Saiba mais sobre a nova interface do usuário do Dynamic Media Classic.
+   * Para ajudá-lo a tirar maior proveito do Adobe Dynamic Media Classic, utilize uma auditoria gratuita do Adobe.
+   * Saiba mais sobre a nova interface de usuário do Adobe Dynamic Media Classic.
    * Conheça `Georgia Myers`, Gerente de sucesso do cliente para Adobe Experience Cloud.
 
 * **[Janeiro de 2020, Edição 1](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_01_2020_Jan.html)**
 
    Nesta edição:
 
-   * Cinco novos webinários do Skill Builder para aprimorar suas habilidades do Dynamic Media Classic.
-   * Uma auditoria gratuita para ajudá-lo a obter mais valor do Dynamic Media Classic.
+   * Cinco novos webinários do Skill Builder para aprimorar suas habilidades do Adobe Dynamic Media Classic.
+   * Uma auditoria gratuita para ajudá-lo a obter mais valor do Adobe Dynamic Media Classic.
    * Uma temporada de compras recorde rich media para clientes de mídia Adobe.
    * Seu guia para selecionar um DAM (Digital Asset Manager) que atende às suas necessidades atuais e o prepara para as novidades na mídia avançada amanhã.
    * Conheça `Mark Dean`, especialista em mídia digital.
@@ -82,7 +82,7 @@ Neste boletim informativo arquivado de balcão único, você pode encontrar recu
 
    Nesta edição:
 
-   * Uma atualização da interface do usuário do Dynamic Media Classic.
+   * Uma atualização da interface do usuário do Adobe Dynamic Media Classic.
    * Novos recursos de segurança poderosos.
    * Como o Adobe está se preparando para que você tenha uma temporada de férias bem-sucedida.
    * Compartilhe o informativo com seus colegas para criar experiência em equipe.
@@ -97,7 +97,7 @@ Neste boletim informativo arquivado de balcão único, você pode encontrar recu
    * Um artigo do CMSwire que ajuda você a entender como atualizar sua estratégia de mídia avançada para atender às expectativas atuais do cliente.
    * Acesso ao webinário sob demanda no Dynamic Media a partir da série Skill Builder.
    * Conheça `Nick Peters`, Gerente, Engenharia de Confiabilidade de Site, Adobe Experience Manager.
-   * Acesse o Dynamic Media e o Dynamic Media Classic no Experience League.
+   * Acesse o Dynamic Media e o Adobe Dynamic Media Classic no Experience League.
 
 * **[Setembro de 2019, Edição 09](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html)**
 
@@ -108,7 +108,7 @@ Neste boletim informativo arquivado de balcão único, você pode encontrar recu
    * Uma segunda chance de capturar dois webinars recentes do Skill Builder.
    * Assista ao webinário sob demanda sobre a proteção de seus ativos digitais contra pirataria.
    * Conheça `Bridget Roman`, Gerente de marketing de produto sênior para ativos Experience Manager.
-   * Acesse o Dynamic Media e o Dynamic Media Classic no Experience League.
+   * Acesse o Dynamic Media e o Adobe Dynamic Media Classic no Experience League.
 
 * **[Agosto de 2019, Edição 08](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_08_2019_Aug.html)**
 
@@ -140,13 +140,13 @@ Neste boletim informativo arquivado de balcão único, você pode encontrar recu
    * Saiba mais sobre o Adobe Insider Tour futuro.
    * Leia sobre como você pode proteger seus ativos digitais da pirataria.
    * Saiba mais sobre o Recorte inteligente controlado por IA para imagens.
-   * Conheça `Alex Thiers`, uma das forças impulsionadoras por trás de muitos dos grandes recursos e inovações do Dynamic Media e Dynamic Media Classic.
+   * Conheça `Alex Thiers`, uma das forças motoras por trás de muitos dos grandes recursos e inovações do Dynamic Media e do Adobe Dynamic Media Classic.
 
 * **[Maio de 2019, Edição 05](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 
    Nesta edição:
 
-   * Explore os dez principais recursos ocultos do Dynamic Media Classic em uma publicação de blog.
+   * Explore os dez principais recursos ocultos do Adobe Dynamic Media Classic em uma publicação do blog.
    * Assista aos principais vídeos de instruções do Experience League.
    * Saiba mais sobre o Adobe Insider Tour futuro.
    * Para atualizar sua estratégia de mídia avançada, leia uma série de blogues de três partes.

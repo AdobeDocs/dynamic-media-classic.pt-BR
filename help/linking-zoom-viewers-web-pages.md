@@ -1,53 +1,53 @@
 ---
 title: Vincular visualizadores de zoom às suas páginas da Web
-description: Saiba como vincular visualizadores de Zoom às suas páginas da Web.
+description: Saiba como vincular visualizadores de Zoom às suas páginas da Web no Adobe Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-feature: Dynamic Media Classic,Visualizadores,Zoom
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 3%
+source-wordcount: '621'
+ht-degree: 2%
 
 ---
 
 # Vincular visualizadores de zoom às suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
 
-Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Server, incluindo imagens principais e direcionamentos de zoom associados, e as Predefinições do visualizador de zoom, por meio de sequências de URL ou código incorporado. Essas cadeias de caracteres do URL são ativadas durante o processo de publicação. Para colocar essas cadeias de caracteres de URL ou o código incorporado em suas páginas e aplicativos da Web, você as copia do Dynamic Media Classic.
+Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Server, incluindo imagens principais e direcionamentos de zoom associados, e as Predefinições do visualizador de zoom, por meio de sequências de URL ou código incorporado. Essas cadeias de caracteres do URL são ativadas durante o processo de publicação. Para colocar essas cadeias de caracteres de URL ou o código incorporado em suas páginas e aplicativos da Web, você as copia do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
 >O URL não fica ativo até que você publique o ativo.
 
-## Copiando um URL do visualizador de Zoom {#copying-a-zoom-viewer-url}
+## Copiar um URL do visualizador de zoom {#copying-a-zoom-viewer-url}
 
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o visualizador de Zoom cujo URL você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **[!UICONTROL Grid View]** ou **[!UICONTROL List View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **[!UICONTROL Copy URL]** à direita do visualizador desejado.
-   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]** ou **[!UICONTROL List View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Copy URL]**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
 ## Adicionar URLs do visualizador de zoom à sua página da Web {#adding-zoom-viewer-urls-to-your-web-page}
 
 Normalmente, os visitantes ampliam imagens em um site selecionando primeiro um ícone de Zoom (geralmente, o ícone mostra a imagem de uma lupa). A seleção desse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente ampliam a imagem.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporando o Visualizador de Zoom Básico do HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporar Visualizador de Zoom Básico HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Cópia da cópia incorporada de um visualizador de Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
+## Copiar a cópia incorporada de um visualizador de Zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
 Usar o recurso Incorporar código permite que você revise o código do visualizador para o visualizador de Zoom selecionado. Você também pode copiar o código para a área de transferência, de modo que possa colá-lo em suas páginas da Web para a implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
@@ -56,21 +56,21 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o visualizador de Zoom cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, clique em **[!UICONTROL Embed Code]** à direita do visualizador desejado.
-   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-   * Clique em **[!UICONTROL List View]**. No painel Navegação de ativos , selecione um único ativo e, à direita da imagem em miniatura, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista de visualizadores , na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]**.
+      Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-1. Na caixa de diálogo Incorporar código , clique em **[!UICONTROL Copy to Clipboard]**.
+1. Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
    A edição do código não é permitida na caixa de diálogo Incorporar código .
 
-1. Clique em **[!UICONTROL Close]**.
+1. Selecione **[!UICONTROL Close]**.

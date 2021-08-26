@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Antes de fazer upload de um ativo de imagem, primeiro solicite uma chave secreta
 
 Solicite uma *chave secreta compartilhada* de [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) No seu caso de suporte, solicite uma chave secreta compartilhada.
 
-Na mensagem de email, forneça o nome da empresa que deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Dynamic Media Classic, salve-a localmente para uso futuro.
+Na mensagem de email, forneça o nome da empresa que deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
 ## Recuperação do token de upload {#retrieving-the-upload-token}
 

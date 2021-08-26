@@ -1,6 +1,6 @@
 ---
-title: Exportar ativos do Dynamic Media Classic
-description: Saiba como exportar ativos do Dynamic Media Classic.
+title: Exportar ativos do Adobe Dynamic Media Classic
+description: Saiba como exportar ativos do Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
-# Exportar ativos do Dynamic Media Classic{#exporting-assets-from-dmc}
+# Exportar ativos do Adobe Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Você pode salvar ativos editados no Dynamic Media Classic em uma unidade de rede local. Os ativos exportados são agrupados em um arquivo ZIP para download ou envio por email.
+Você pode salvar ativos editados no Adobe Dynamic Media Classic em uma unidade de rede local. Os ativos exportados são agrupados em um arquivo ZIP para download ou envio por email.
 
 O arquivo Zip compactado tem um tamanho máximo de arquivo de 1 GB para o trabalho de exportação. Além disso, você tem permissão de no máximo 500 ativos totais por trabalho de exportação.
 
-O Dynamic Media Classic mantém um registro de trabalhos de exportação na tela Trabalhos .
+O Adobe Dynamic Media Classic mantém um registro de tarefas de exportação na tela Trabalhos.
 
-**Para exportar ativos do Dynamic Media Classic:**
+**Para exportar ativos do Adobe Dynamic Media Classic:**
 
 1. Selecione os ativos que deseja exportar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
 1. Na janela Exportar ativos selecionados , clique em **[!UICONTROL Image Options]** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):

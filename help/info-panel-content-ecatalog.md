@@ -1,6 +1,6 @@
 ---
 title: Gerenciar o conteúdo do painel Informações em catálogos eletrônicos
-description: Saiba como gerenciar o conteúdo do Painel de informações em eCatalogs no Dynamic Media Classic.
+description: Saiba como gerenciar o conteúdo do Painel de informações em Catálogos eletrônicos no Adobe Dynamic Media Classic.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Além de usar o texto do Mapa de imagem para suas sobreposições em eCatalogs, você pode usar um Painel de informações para adicionar grandes quantidades de texto sobreposto, incluindo links. Você também pode gerenciar o InfoPanel usando o armazenamento em cache programado e o agendamento de atualizações de conteúdo.
 
-Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Dynamic Media Classic:
+Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
 * O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do Painel de Informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, você pode especificar se os catálogos eletrônicos são publicados automaticamente.
 * O painel Datafeed do InfoPanel permite que você especifique um arquivo CSV contendo o texto que deseja que apareça no texto de sobreposição do InfoPanel e os horários de agendamento para a atualização das informações.
@@ -45,7 +45,7 @@ Você pode selecionar um dos três modelos de resposta predefinidos para exibir 
    * Selecione uma predefinição no menu Modelo de resposta. O XML para o design de modelo é exibido na caixa Modelo do usuário .
    * Para criar seu próprio modelo de resposta, selecione **[!UICONTROL Custom]**. Digite a definição do modelo XML na caixa Modelo do usuário. Você pode usar os modelos predefinidos como base para os seus próprios.
 
-1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja que apareça se o Dynamic Media Classic encontrar um erro na recuperação de informações para um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de catálogo eletrônico, mas nenhum identificador de sobreposição, essa mensagem será exibida para o usuário.
+1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja que apareça se o Adobe Dynamic Media Classic encontrar um erro na recuperação de informações para um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de catálogo eletrônico, mas nenhum identificador de sobreposição, essa mensagem será exibida para o usuário.
 1. Na caixa TTL de resposta, digite o número de horas que deseja aguardar antes de armazenar os dados em cache:
 
    * Defina um número menor se os dados forem atualizados com frequência ao longo de um dia.
@@ -89,7 +89,7 @@ Last Modified Date:
 1. Selecione **[!UICONTROL Browse]**, selecione o arquivo TXT delimitado por tabulação, CSV ou SSV que deseja usar e selecione **[!UICONTROL Open]**.
 1. Selecione **[!UICONTROL Upload]**.
 
-O Dynamic Media Classic envia uma mensagem de email informando se o upload foi bem-sucedido ou não.
+O Adobe Dynamic Media Classic envia uma mensagem de email informando se o upload foi bem-sucedido ou não.
 
 ## Visualizar texto da chave de substituição para um Mapa de imagem {#preview-rollover-key-text-for-an-image-map}
 

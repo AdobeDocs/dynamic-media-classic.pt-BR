@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2133'
 ht-degree: 0%
 
 ---
@@ -21,29 +21,29 @@ ht-degree: 0%
 
 A nitidez é uma técnica de manipulação de imagem para tornar os contornos de uma imagem digital mais distintos. A nitidez aumenta o contraste entre pixels de borda e enfatiza a transição entre áreas escuras e claras. A nitidez aumenta o contraste local e traz detalhes. Não há fórmula estrita para ajustar a nitidez correta de todas as imagens. Muito pouca nitidez pode fazer com uma imagem suave, mas a nitidez excessiva adiciona halos, artefatos e ruídos.
 
-O Dynamic Media Classic recomenda que você use Predefinições de imagem para todas as imagens. Eles garantem um tamanho uniforme, e a nitidez é aplicada em qualquer imagem chamada com uma predefinição de imagem. Além disso, você pode editar e alterar facilmente os parâmetros de nitidez de uma predefinição de imagem. Na próxima vez que você publicar, todas as imagens chamadas com essa predefinição receberão os novos valores.
+O Adobe Dynamic Media Classic recomenda que você use Predefinições de imagem para todas as imagens. Eles garantem um tamanho uniforme, e a nitidez é aplicada em qualquer imagem chamada com uma predefinição de imagem. Além disso, você pode editar e alterar facilmente os parâmetros de nitidez de uma predefinição de imagem. Na próxima vez que você publicar, todas as imagens chamadas com essa predefinição receberão os novos valores.
 
-O Dynamic Media Classic também recomenda adicionar nitidez às Predefinições do visualizador e, em seguida, chamar um visualizador com essa predefinição. Isso garante que as imagens em seus visualizadores sejam nítidas e atraentes.
+O Adobe Dynamic Media Classic também recomenda adicionar nitidez às Predefinições do visualizador e, em seguida, chamar um visualizador com essa predefinição. Isso garante que as imagens em seus visualizadores sejam nítidas e atraentes.
 
 No entanto, se você usar Predefinições de imagem e Predefinições do visualizador ou algum método alternativo de nitidez, a conclusão é que você deve tornar suas imagens mais nítidas. Caso contrário, suas imagens (e seu site) podem parecer suaves e difusas.
 
 >[!NOTE]
 >
->Os comandos Nitidez substituem as configurações da Predefinição de imagem, incluindo seus efeitos de nitidez. Uma predefinição de imagem governa o tamanho e a formatação com que as imagens são entregues dos servidores de imagem da Dynamic Media. O Dynamic Media Classic recomenda o uso de predefinições de imagens para fornecer todas as imagens, para garantir que elas sejam entregues em um tamanho e nitidez uniformes. Depois que as configurações de nitidez de uma imagem individual forem alteradas, no entanto, as configurações de nitidez da Predefinição de imagem não se aplicarão mais à imagem. Ele é entregue sem as configurações de nitidez da predefinição de imagem.
+>Os comandos Nitidez substituem as configurações da Predefinição de imagem, incluindo seus efeitos de nitidez. Uma predefinição de imagem governa o tamanho e a formatação com que as imagens são entregues dos servidores de imagem da Dynamic Media. O Adobe Dynamic Media Classic recomenda o uso de predefinições de imagens para fornecer todas as imagens, para garantir que elas sejam entregues em um tamanho e nitidez uniformes. Depois que as configurações de nitidez de uma imagem individual forem alteradas, no entanto, as configurações de nitidez da Predefinição de imagem não se aplicarão mais à imagem. Ele é entregue sem as configurações de nitidez da predefinição de imagem.
 
-Geralmente é necessário ajustar a nitidez das imagens. Os Servidores Dynamic Media Classic e Image oferecem várias opções de nitidez. É importante entender o que a nitidez faz em uma imagem e a nitidez necessária. A maioria das imagens precisa de alguma nitidez, mas a quantidade necessária depende da imagem.
+Geralmente é necessário ajustar a nitidez das imagens. Os Adobe Dynamic Media Classic e Image Servers oferecem várias opções de nitidez. É importante entender o que a nitidez faz em uma imagem e a nitidez necessária. A maioria das imagens precisa de alguma nitidez, mas a quantidade necessária depende da imagem.
 
 A nitidez da imagem aumenta o contraste dos pixels para criar o efeito de acentuar as bordas. Os seres humanos percebem este contraste de borda melhorado como nitidez. Embora seja fácil aprimorar uma imagem executando filtros de nitidez em uma imagem, também é fácil tornar uma imagem mais nítida.
 
 Acima da nitidez de uma imagem cria um efeito de halo ou faixas das linhas da borda.
 
-Há práticas recomendadas que você pode seguir para otimizar a nitidez de suas imagens no Dynamic Media Classic e no Dynamic Media Image Server.
+Há práticas recomendadas que você pode seguir para otimizar a nitidez de suas imagens no Adobe Dynamic Media Classic e no Dynamic Media Image Server.
 
-Consulte [Práticas recomendadas para nitidez de imagens no Dynamic Media Classic e no Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Consulte [Práticas recomendadas para nitidez de imagens no Adobe Dynamic Media Classic e no Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Para ajustar a nitidez de uma imagem:**
 
-Para ajustar a nitidez de uma imagem, clique no botão de sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Sharpen]**, ou abra-a no Painel de navegação na exibição Detalhes e clique em **[!UICONTROL Sharpen]**. A página Editor de nitidez é aberta com comandos de nitidez. Escolha comandos e clique em **[!UICONTROL Save]**.
+Para ajustar a nitidez de uma imagem, clique no botão de sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Sharpen]**, ou abra-a no Painel de navegação na Exibição de detalhes e clique em **[!UICONTROL Sharpen]**. A página Editor de nitidez é aberta com comandos de nitidez. Escolha comandos e clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Selecione o menu **[!UICONTROL Sharpening]** e escolha uma opção:
 
 Escolha essas opções para ajustar a nitidez com Tirar nitidez da máscara:
 
-* **Quantia**  - Controla a quantidade de contraste aplicado aos pixels da borda. O padrão é 0,0. Para imagens de alta resolução, você pode aumentá-lo até 5,0. Considere Quantia como uma medida de intensidade de filtro. A configuração **[!UICONTROL Amount]** no Dynamic Media Classic não é a mesma que a configuração Valor no Adobe Photoshop. O Adobe Photoshop usa uma quantidade no intervalo de 1% a 500%, enquanto o Dynamic Media Classic é dimensionado de 0,0 para 5,0. (5.0 equivale aproximadamente a 500% no Photoshop, 0.9 é semelhante a 90% e assim por diante.)
+* **Quantia**  - Controla a quantidade de contraste aplicado aos pixels da borda. O padrão é 0,0. Para imagens de alta resolução, você pode aumentá-lo até 5,0. Considere Quantia como uma medida de intensidade de filtro. A configuração **[!UICONTROL Amount]** no Adobe Dynamic Media Classic não é a mesma que a configuração Valor no Adobe Photoshop. O Adobe Photoshop usa uma quantidade no intervalo de 1% a 500%, enquanto o Adobe Dynamic Media Classic é dimensionado de 0,0 a 5,0. (5.0 equivale aproximadamente a 500% no Photoshop, 0.9 é semelhante a 90% e assim por diante.)
 
 * **Raio**  - Determina o número de pixels ao redor dos pixels da borda que afetam a nitidez. O efeito é executado em todos os pixels na imagem e irradia em todas as direções.
 
@@ -101,7 +101,7 @@ Clique no menu **[!UICONTROL Resampling]** e escolha uma opção. Essas opções
 
 **Nitidez e predefinições de imagens**
 
-Você pode incorporar todos os três efeitos de nitidez para obter o resultado final. No entanto, esse método não é recomendado. O Dynamic Media Classic recomenda que você salve seus efeitos de nitidez como parte de uma predefinição de imagem. As Predefinições de imagem permitem agrupar os modificadores de imagem usados com mais frequência para criar uma imagem redimensionada dinamicamente em uma pequena string de texto. Uma predefinição de imagem contém valores para o formato de arquivo (geralmente JPEG para a Web), contagem de pixels e nitidez da imagem. Em vez de anexar o URL a cada modificador de imagem que deve ser usado para criar um tipo específico de tamanho de imagem, crie uma Predefinição de imagem chamada, como &quot;miniatura&quot;. Em seguida, configure a predefinição de imagem em miniatura com o tamanho, formato de arquivo e opções de nitidez apropriados. Chame a imagem usando o nome Predefinição de imagem. As predefinições de imagem reduzem o comprimento do URL geral. Esses dois URLs produzem a mesma imagem JPEG 350x350 com nitidez:
+Você pode incorporar todos os três efeitos de nitidez para obter o resultado final. No entanto, esse método não é recomendado. O Adobe Dynamic Media Classic recomenda que você salve seus efeitos de nitidez como parte de uma predefinição de imagem. As Predefinições de imagem permitem agrupar os modificadores de imagem usados com mais frequência para criar uma imagem redimensionada dinamicamente em uma pequena string de texto. Uma predefinição de imagem contém valores para o formato de arquivo (geralmente JPEG para a Web), contagem de pixels e nitidez da imagem. Em vez de anexar o URL a cada modificador de imagem que deve ser usado para criar um tipo específico de tamanho de imagem, crie uma Predefinição de imagem chamada, como &quot;miniatura&quot;. Em seguida, configure a predefinição de imagem em miniatura com o tamanho, formato de arquivo e opções de nitidez apropriados. Chame a imagem usando o nome Predefinição de imagem. As predefinições de imagem reduzem o comprimento do URL geral. Esses dois URLs produzem a mesma imagem JPEG 350x350 com nitidez:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -144,4 +144,4 @@ A predefinição aqui ajuste a nitidez e altera a pele padrão do visualizador.
 
 O último método de nitidez, e o menos recomendado, é criar substituições de nitidez em uma base imagem por imagem. Esse método substitui a nitidez em uma predefinição de imagem por seus próprios valores específicos. No entanto, esse método também substitui todos os outros métodos de nitidez em qualquer tamanho. O melhor caso de uso para esse método é se algumas de suas imagens não tiverem alta resolução e os valores nas Predefinições de imagem forem altos demais para essas imagens pequenas. Nesse caso, é possível que seja necessária alguma nitidez por imagem.
 
-No Dynamic Media Classic, selecione qualquer imagem, vá para a Exibição de detalhes (clicando duas vezes ou pressionando o botão **[!UICONTROL Detail View]**) e clique em **[!UICONTROL Sharpen]**. Altere qualquer parâmetro e clique em **[!UICONTROL Save]**. Esse processo instrui o Servidor de imagem a usar esses parâmetros de nitidez em vez de qualquer comando que você chamar no URL, como um modificador de nitidez ou Predefinição de imagem. Certifique-se de publicar para ver se as alterações entrarão em vigor.
+No Adobe Dynamic Media Classic, selecione qualquer imagem, vá para a Exibição de detalhes (clicando duas vezes ou pressionando o botão **[!UICONTROL Detail View]**) e clique em **[!UICONTROL Sharpen]**. Altere qualquer parâmetro e clique em **[!UICONTROL Save]**. Esse processo instrui o Servidor de imagem a usar esses parâmetros de nitidez em vez de qualquer comando que você chamar no URL, como um modificador de nitidez ou Predefinição de imagem. Certifique-se de publicar para ver se as alterações entrarão em vigor.

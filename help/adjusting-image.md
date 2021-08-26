@@ -1,31 +1,31 @@
 ---
 title: Ajustar uma imagem
-description: Saiba como ajustar uma imagem no Dynamic Media Classic.
+description: Saiba como ajustar uma imagem no Adobe Dynamic Media Classic.
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 # Ajustar uma imagem{#adjusting-an-image}
 
-O Dynamic Media Classic oferece vários comandos para ajustar a aparência de uma imagem. Você pode inverter, girar, desfocar, alterar o equilíbrio de cores e colorir uma imagem. À medida que você experimenta esses comandos, você pode ver seus efeitos na imagem com a qual você está trabalhando.
+O Adobe Dynamic Media Classic oferece vários comandos para ajustar a aparência de uma imagem. Você pode inverter, girar, desfocar, alterar o equilíbrio de cores e colorir uma imagem. À medida que você experimenta esses comandos, você pode ver seus efeitos na imagem com a qual você está trabalhando.
 
 Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an_alias_for_an_image).
 
 **Para ajustar uma imagem:**
 
-1. Selecione o botão Editar de sobreposição da imagem e escolha Ajustar, ou no Painel de navegação, clique duas vezes na imagem para que ela seja aberta na exibição Detalhes.
+1. Selecione o botão Editar de sobreposição da imagem e escolha Ajustar, ou no Painel de navegação, clique duas vezes na imagem para que ela seja aberta na Exibição de detalhes.
 1. Selecione um tamanho e Predefinição de imagem (na parte inferior da janela).
 1. Use os comandos no lado direito da janela Ajustar editor para ajustar a imagem:
 

@@ -1,38 +1,38 @@
 ---
 title: Upload e codificação de vídeos
-seo-title: Upload e codificação de vídeos
+seo-title: Uploading and encoding videos
 description: Saiba como fazer upload e codificar vídeos.
-seo-description: Saiba como fazer upload e codificar vídeos.
+seo-description: Learn how to upload and encode videos.
 uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Visualizadores,Vídeo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3778'
+source-wordcount: '3789'
 ht-degree: 1%
 
 ---
 
 # Upload e codificação de vídeos{#uploading-and-encoding-videos}
 
-Para criar um único vídeo ou conjuntos de vídeos adaptáveis para entrega na Web ou em dispositivos móveis, primeiro carregue seus arquivos de vídeo principais no Dynamic Media Classic. O Dynamic Media Classic codifica vídeos para o formato MP4 e publica vídeo nos seguintes formatos de arquivo:
+Para criar um único vídeo ou conjuntos de vídeos adaptáveis para entrega na Web ou em dispositivos móveis, primeiro carregue seus arquivos de vídeo principais no Adobe Dynamic Media Classic. O Adobe Dynamic Media Classic codifica vídeos para o formato MP4 e publica vídeo nos seguintes formatos de arquivo:
 
-* **MP4**  - O Dynamic Media Classic recomenda o MP4 como o formato de arquivo de vídeo preferencial. Use arquivos MP4 para o seguinte:
+* **MP4**  - O Adobe Dynamic Media Classic recomenda o MP4 como o formato de arquivo de vídeo preferido. Use arquivos MP4 para o seguinte:
 
    * HTTP Dynamic Streaming em desktops.
    * HTTP Live Streaming (protocolo de transmissão da Apple).
    * Entrega de vídeo progressivo para dispositivos móveis Android™, BlackBerry® e Windows®
 
-   O Dynamic Media Classic oferece dois fluxos de trabalho para carregar arquivos de vídeo:
+   O Adobe Dynamic Media Classic oferece dois fluxos de trabalho para carregar arquivos de vídeo:
 
-* **Vídeos pré-codificados**  - Você carrega arquivos MP4 diretamente no Dynamic Media Classic. Com esse fluxo de trabalho, os arquivos não são codificados no momento em que você os carrega. Os arquivos são pré-codificados em preparação para entrega no desktop e em dispositivos móveis.
+* **Vídeos pré-codificados**  - Você carrega arquivos MP4 diretamente no Adobe Dynamic Media Classic. Com esse fluxo de trabalho, os arquivos não são codificados no momento em que você os carrega. Os arquivos são pré-codificados em preparação para entrega no desktop e em dispositivos móveis.
 
-* **Vídeos de origem principal**  - Faça upload de arquivos de vídeo de origem principal e, ao fazer upload, codifique esses arquivos em arquivos MP4. Os vídeos codificados são rotulados como &quot;Vídeo&quot; no painel Procurar. O Dynamic Media Classic é compatível com a codificação de arquivos de vídeo em vários formatos.
+* **Vídeos de origem principal**  - Faça upload de arquivos de vídeo de origem principal e, ao fazer upload, codifique esses arquivos em arquivos MP4. Os vídeos codificados são rotulados como &quot;Vídeo&quot; no painel Procurar. O Adobe Dynamic Media Classic é compatível com a codificação de arquivos de vídeo em vários formatos.
 
    * Verifique se os arquivos de vídeo de origem principal que você deseja codificar são compatíveis.
 
@@ -44,7 +44,7 @@ Para criar um único vídeo ou conjuntos de vídeos adaptáveis para entrega na 
 
       Consulte [Práticas recomendadas para codificação de vídeo](uploading-encoding-videos.md#best-practices-for-video-encoding).
 
-O Dynamic Media Classic também gera miniaturas de vídeo. Saiba mais sobre miniaturas de vídeo, como obter URLs e modificar quadros de pôster.
+O Adobe Dynamic Media Classic também gera miniaturas de vídeo. Saiba mais sobre miniaturas de vídeo, como obter URLs e modificar quadros de pôster.
 
 Consulte [Trabalhar com miniaturas de vídeo](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
@@ -61,7 +61,7 @@ Siga qualquer um destes procedimentos.
 1. Na página Upload , verifique se **[!UICONTROL Publish After Uploading]** está marcado.
 1. Clique em **[!UICONTROL Submit Upload]**.
 
-*Se quiser codificar seus vídeos usando o Dynamic Media Classic*
+*Se quiser codificar seus vídeos usando o Adobe Dynamic Media Classic*
 
 1. Na barra Navegação global, clique em **[!UICONTROL Upload]**.
 1. Na página Upload , clique na guia **[!UICONTROL From Desktop]** .
@@ -79,7 +79,7 @@ Consulte [Predefinições de codificação de vídeo de desktop](application-set
 
 *Se quiser codificar novamente um arquivo de vídeo que você carregou anteriormente*
 
-1. No Dynamic Media Classic, no painel Procurar, navegue até o vídeo e selecione-o.
+1. No Adobe Dynamic Media Classic, no painel Procurar, navegue até o vídeo e selecione-o.
 1. Clique em **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.
 1. Na caixa de diálogo Reprocessar ativos , expanda **[!UICONTROL EVideo Options]** e siga um destes procedimentos:
    * A prática recomendada é usar o seguinte método. Selecione **Adaptive Video**.
@@ -125,7 +125,7 @@ A tabela a seguir lista os tipos de arquivos de vídeo (com codecs de vídeo per
 
 ## Práticas recomendadas para codificação de vídeo {#best-practices-for-video-encoding}
 
-A seguir estão dicas de práticas recomendadas para a codificação de arquivos de vídeo de origem no Dynamic Media Classic.
+A seguir estão dicas de práticas recomendadas para a codificação de arquivos de vídeo de origem no Adobe Dynamic Media Classic.
 
 <!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
@@ -147,7 +147,7 @@ A tabela a seguir descreve o tamanho recomendado, a proporção e a taxa mínima
 
 ### Obter os metadados de um arquivo {#obtaining-a-file-s-metadata}
 
-Você pode obter os metadados de um arquivo ao exibir os metadados no Dynamic Media Classic, usando uma ferramenta de edição de vídeo ou um aplicativo projetado para obter metadados. A seguir estão as instruções para usar MediaInfo, um aplicativo de terceiros, para obter os metadados de um arquivo de vídeo:
+Você pode obter os metadados de um arquivo exibindo seus metadados no Adobe Dynamic Media Classic, usando uma ferramenta de edição de vídeo ou um aplicativo projetado para obter metadados. A seguir estão as instruções para usar MediaInfo, um aplicativo de terceiros, para obter os metadados de um arquivo de vídeo:
 
 1. Vá para esta página da Web: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Selecione e baixe o instalador da versão da GUI e siga as instruções de instalação.
@@ -244,7 +244,7 @@ Por exemplo, suponha que o vídeo de origem seja 1920 x 1080. Na tabela a seguir
 |--- |--- |--- |--- |
 | Origem | 1920 x 1080 | 1 | 1 |
 | Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 1 | 3 |
+| Codificado | 640 x 360 | 1 | 1 |
 | Codificado | 480 x 270 | 4 | 4 |
 
 ### Formato de arquivo de vídeo codificado {#encoded-video-file-format}
@@ -257,7 +257,7 @@ Os arquivos de vídeo principais criados com equipamento de produção de vídeo
 
 Consulte [Fazer upload e codificar vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-O Dynamic Media Classic oferece uma biblioteca de predefinições de codificação de vídeo predefinidas que refletem as configurações de codificação mais comuns usadas hoje. Essas predefinições de codificação são otimizadas para reprodução nas telas de destino. Além disso, os administradores podem criar suas próprias predefinições de codificação de vídeo para personalizar o tamanho e a qualidade da reprodução dos vídeos para os usuários finais. Todas as predefinições de codificação de vídeo, sejam elas prontas para uso do Dynamic Media Classic ou personalizadas, exibem vídeo no formato de arquivo MP4.
+O Adobe Dynamic Media Classic oferece uma biblioteca de predefinições de codificação de vídeo predefinidas que refletem as configurações de codificação mais comuns usadas hoje. Essas predefinições de codificação são otimizadas para reprodução nas telas de destino. Além disso, os administradores podem criar suas próprias predefinições de codificação de vídeo para personalizar o tamanho e a qualidade da reprodução dos vídeos para os usuários finais. Todas as predefinições de codificação de vídeo, sejam elas prontas para uso do Adobe Dynamic Media Classic ou personalizadas, exibem o vídeo de saída no formato de arquivo MP4.
 
 Na tela Predefinições de vídeo, os administradores podem configurar e gerenciar a codificação de vídeo. Eles podem fazer o seguinte:
 
@@ -266,7 +266,7 @@ Na tela Predefinições de vídeo, os administradores podem configurar e gerenci
 * Edite as predefinições de codificação de vídeo.
 * Excluir predefinições de vídeo.
 
-Qualquer vídeo que você faça upload para o Dynamic Media Classic ou que codifique no Dynamic Media Classic será tratado como &quot;vídeo&quot;. Em outras palavras, essa classificação de ativos significa que você pode fornecer o vídeo para reprodução em desktops, dispositivos móveis ou ambos. Por exemplo, você pode visualizar esses tipos de vídeos no Dynamic Media Classic. Também é possível gerar URLs (usando o recurso Copiar URL) e código que você pode incorporar (usando o recurso Incorporar código) para usar com players de vídeo, em sites e assim por diante.
+Qualquer vídeo que você faça upload para o Adobe Dynamic Media Classic ou que você codifique no Adobe Dynamic Media Classic será tratado como &quot;vídeo&quot;. Em outras palavras, essa classificação de ativos significa que você pode fornecer o vídeo para reprodução em desktops, dispositivos móveis ou ambos. Por exemplo, você pode visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Também é possível gerar URLs (usando o recurso Copiar URL) e código que você pode incorporar (usando o recurso Incorporar código) para usar com players de vídeo, em sites e assim por diante.
 
 Consulte [Visualização de vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
@@ -274,7 +274,7 @@ Consulte [Vincular um URL de vídeo a um site para dispositivos móveis ou a um 
 
 Consulte [Incorporar o visualizador de vídeo em uma página da Web](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
 
-Para ativos de vídeo que você faz upload e codifica no Dynamic Media Classic, o vídeo é entregue no seguinte formato de arquivo:
+Para ativos de vídeo que você faz upload e codifica no Adobe Dynamic Media Classic, o vídeo é entregue no seguinte formato de arquivo:
 
 **MP4 H.264** Use arquivos MP4 para o seguinte:
 
@@ -282,7 +282,7 @@ Para ativos de vídeo que você faz upload e codifica no Dynamic Media Classic, 
 * HLS (HTTP Live Streaming, protocolo de transmissão da Apple).
 * Entrega de vídeo progressivo para dispositivos móveis Android™, BlackBerry® e Windows®.
 
-Qualquer outro formato e codec de vídeo é tratado como um &quot;Vídeo Principal&quot;. Essa classificação de ativo significa que o vídeo é um arquivo de vídeo de origem e não pode ser usado para reprodução de delivery em desktops ou dispositivos móveis. Por exemplo, você não pode visualizar esses tipos de vídeos no Dynamic Media Classic. Também não é possível gerar Copiar URLs ou Incorporar código para uso em players de vídeo, sites e assim por diante.
+Qualquer outro formato e codec de vídeo é tratado como um &quot;Vídeo Principal&quot;. Essa classificação de ativo significa que o vídeo é um arquivo de vídeo de origem e não pode ser usado para reprodução de delivery em desktops ou dispositivos móveis. Por exemplo, você não pode visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Também não é possível gerar Copiar URLs ou Incorporar código para uso em players de vídeo, sites e assim por diante.
 
 ### Filtragem da lista de predefinições de codificação de vídeo {#filtering-the-list-of-video-encoding-presets}
 
@@ -294,7 +294,7 @@ Também é possível filtrar com base em uma opção de dispositivo de reproduç
 
 **Para filtrar a lista de predefinições de codificação de vídeo:**
 
-1. No Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Adaptive Video Presets]** ou **[!UICONTROL Single Encoding Presets]**.
+1. No Adobe Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Adaptive Video Presets]** ou **[!UICONTROL Single Encoding Presets]**.
 
    As páginas para Predefinições de vídeo adaptativo e Predefinições de codificação única incluem uma tabela que lista o status Ativo, o nome predefinido, o Dispositivo de reprodução pretendido, as dimensões do vídeo e a taxa de dados de cada predefinição de vídeo.
 
@@ -307,7 +307,7 @@ Também é possível filtrar com base em uma opção de dispositivo de reproduç
 
 As predefinições de vídeo ativadas são exibidas na caixa de diálogo Opções de trabalho de upload . A caixa de diálogo é exibida quando um usuário carrega arquivos de vídeo durante o processo de upload. Eles podem escolher em uma lista de todas as predefinições de codificação ativadas.
 
-1. No Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
+1. No Adobe Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
 1. Siga um destes procedimentos:
 
    * Clique em **[!UICONTROL Adaptive Video Presets]**.
@@ -326,9 +326,9 @@ As predefinições de vídeo ativadas são exibidas na caixa de diálogo Opçõe
 
 ### Adicionar ou editar uma predefinição de codificação de vídeo {#adding-or-editing-a-video-encoding-preset}
 
-Você pode criar suas próprias predefinições de vídeo de codificação única personalizadas e adicioná-las à tabela de Predefinições de vídeo. Também é possível alterar qualquer predefinição de vídeo de codificação única e predefinida que vem com o Dynamic Media Classic, desde que você salve a predefinição editada com um novo nome.
+Você pode criar suas próprias predefinições de vídeo de codificação única personalizadas e adicioná-las à tabela de Predefinições de vídeo. Também é possível alterar qualquer predefinição de vídeo de codificação única predefinida que vem com o Adobe Dynamic Media Classic, desde que você salve a predefinição editada com um novo nome.
 
-O Dynamic Media Classic definiu limites máximos para a taxa de dados do target, a altura da resolução e a largura da resolução para garantir uma experiência de reprodução adequada. As mensagens de aviso são exibidas se você exceder esses limites, que são os seguintes:
+O Adobe Dynamic Media Classic definiu limites máximos para a taxa de dados de destino, a altura da resolução e a largura da resolução para garantir uma experiência de reprodução adequada. As mensagens de aviso são exibidas se você exceder esses limites, que são os seguintes:
 
 * Para reprodução de computador, os limites são: (Largura/16) * (Altura/16) &lt; 8192.
 * Para reprodução móvel, os limites são: (Largura/16) * (Altura/16) &lt; 660; taxa de dados pretendida &lt; 4000.
@@ -336,14 +336,14 @@ O Dynamic Media Classic definiu limites máximos para a taxa de dados do target,
 
 **Para adicionar ou editar uma predefinição de codificação de vídeo:**
 
-1. No Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
+1. No Adobe Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
 1. Clique em **[!UICONTROL Single Encoding Presets]**.
 1. Na página Predefinições de vídeo , siga um destes procedimentos:
 
    * Na barra de ferramentas Predefinições de vídeo, clique em **[!UICONTROL Add]** para adicionar uma Predefinição de vídeo.
    * Selecione uma predefinição de vídeo. Na barra de ferramentas, clique em **[!UICONTROL Edit]**.
 
-      Não é possível editar predefinições predefinidas do Dynamic Media Classic; você só pode criar uma predefinição a partir de uma predefinição existente escolhendo **[!UICONTROL Save As]**.
+      Não é possível editar predefinições predefinidas do Adobe Dynamic Media Classic; você só pode criar uma predefinição a partir de uma predefinição existente escolhendo **[!UICONTROL Save As]**.
 
 1. Na página Adicionar predefinição de vídeo ou Editar predefinição de vídeo , defina as opções de Predefinição de vídeo desejadas.
 
@@ -358,7 +358,7 @@ O Dynamic Media Classic definiu limites máximos para a taxa de dados do target,
    | Proporção | Proporção é a relação entre a largura e a altura do vídeo. As duas primeiras proporções listadas abaixo são normalmente usadas para exibir o vídeo horizontalmente:<ul><li> 4:3 - Usado para quase todo o conteúdo de transmissão de TV de definição padrão.</li><li>16:9 - Usado para quase todos os conteúdos de TV de alta definição (HDTV) e filmes em tela larga.</li><li>Dimensionamento automático - (Padrão) Uma única predefinição de codificação que funciona com qualquer proporção para criar vídeos para entrega em dispositivos móveis, tablets e desktops. Os vídeos de origem carregados codificados com essa predefinição são definidos com uma altura fixa. No entanto, a largura é dimensionada automaticamente para preservar a proporção do aspecto do vídeo (relação largura/altura).</li><li>Personalizado - Usado quando você deseja definir um tamanho de vídeo não padrão.</li><li>A proporção escolhida determina as configurações de largura e altura do Tamanho da Resolução; o valor de largura e altura é dimensionado automaticamente para a proporção correta.</li></ul> |
    | Tamanho da Resolução | O tamanho da resolução, expresso pelo número de pixels de largura pelo número de pixels de altura, determina o tamanho. Insira um valor de largura e altura em pixels ou arraste o controle deslizante para inserir esses valores. O espectro de resolução lista os tamanhos de resolução típicos. Os valores de largura e altura aderem automaticamente à proporção selecionada. Por exemplo, se você selecionar 4:3 como proporção e inserir 400 para largura, 300 será inserido automaticamente para altura. Se você selecionou Dimensionamento automático para a configuração Proporção de aspecto , o valor de Largura para o Tamanho da resolução é automaticamente definido como Automático. Clique em Visualizar para que você possa abrir uma janela do navegador e ver suas opções de resolução lá. |
    | Codificar sufixo do arquivo | Insira um sufixo. Esse sufixo é anexado ao arquivo de vídeo codificado resultante. Você pode inserir um hífen e um sublinhado no nome; espaços em branco e caracteres especiais não são permitidos. |
-   | Outras configurações | O Dynamic Media Classic determina todas as outras configurações de codificação automaticamente de acordo com as diretrizes de codificação de práticas recomendadas. |
+   | Outras configurações | O Adobe Dynamic Media Classic determina todas as outras configurações de codificação automaticamente de acordo com as diretrizes de codificação de práticas recomendadas. |
 
 1. Siga um destes procedimentos:
 
@@ -367,9 +367,9 @@ O Dynamic Media Classic definiu limites máximos para a taxa de dados do target,
 
 ### Exclusão de uma predefinição de codificação de vídeo {#deleting-a-video-encoding-preset}
 
-Os administradores podem excluir predefinições de vídeo personalizadas. As predefinições de vídeo fornecidas com o Dynamic Media Classic não podem ser excluídas.
+Os administradores podem excluir predefinições de vídeo personalizadas. As predefinições de vídeo fornecidas com o Adobe Dynamic Media Classic não podem ser excluídas.
 
-1. No Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
+1. No Adobe Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
 1. Clique em **[!UICONTROL Single Encoding Presets]**.
 1. Na página Predefinições de vídeo , selecione uma Predefinição de vídeo na tabela que não deseja mais nem precisa.
 1. Na barra de ferramentas Predefinições de vídeo, clique em **[!UICONTROL Delete]**.
@@ -378,6 +378,6 @@ Os administradores podem excluir predefinições de vídeo personalizadas. As pr
 >[!MORELIKETHIS]
 >
 >* [Início rápido: Vídeo](quick-start-video.md#quick-start-video)
-* [Upload e codificação de vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
-* [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [Upload e codificação de vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 

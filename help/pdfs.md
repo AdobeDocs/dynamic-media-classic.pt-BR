@@ -1,25 +1,25 @@
 ---
 title: Como trabalhar com PDFs
-description: Saiba como trabalhar com PDFs no Dynamic Media Classic.
+description: Saiba como trabalhar com PDFs no Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 # Como trabalhar com PDFs{#working-with-pdfs}
 
-Os arquivos PDF (Portable Document Format) são usados com mais frequência no Dynamic Media Classic para criar catálogos eletrônicos. Ao fazer upload de um arquivo PDF, o Dynamic Media Classic rasteriza ou extrai as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
+Os arquivos PDF (Portable Document Format) são usados com mais frequência no Adobe Dynamic Media Classic para criar catálogos eletrônicos. Ao fazer upload de um arquivo PDF, o Adobe Dynamic Media Classic rasteriza ou extrai as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
 
 ## Opções de upload de PDF {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ Selecione o menu Espaço de cores e escolha um espaço de cores para o arquivo P
 
 * **Manter espaço de cor original**  - Mantém o espaço de cor original.
 
-* **Personalizado de > Para**  - abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Dynamic Media Classic.
+* **Personalizado de > Para**  - abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 Consulte também [Perfis ICC](/help/icc-profiles.md#icc_profiles).
 
@@ -85,6 +85,6 @@ Consulte também [Perfis ICC](/help/icc-profiles.md#icc_profiles).
 Você pode remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF à medida que você o carrega.
 
 1. No menu Cortar, clique em **[!UICONTROL Manual]**.
-1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e laterais das páginas.
+1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e lados das páginas.
 
 A quantidade de páginas cortadas depende da configuração de Resolução PX/Inch inserida para o arquivo PDF. Por exemplo, se você digitar 150 (padrão) como a configuração Resolução PX/Polegada e cortar 75 pixels das laterais das páginas, meia polegada será cortada; a 150 pixels por polegada, 75 pixels é igual a meia polegada.

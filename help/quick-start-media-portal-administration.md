@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
-feature: Dynamic Media Classic,Colaboração,Gerenciamento de ativos
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
 
 # Início rápido: Portal de mídia{#quick-start-media-portal}
 
-O Media Portal permite que as empresas adquiram, controlem e distribuam facilmente ativos aprovados para parceiros e canais externos, bem como para usuários internos de uma empresa. Esse ambiente de &quot;autoatendimento&quot; baseado em navegador fornece aos usuários do Media Portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Dynamic Media Classic para fácil acesso, navegação, pesquisa, visualização e exportação de ativos em formatos aprovados pela empresa.
+O Media Portal permite que as empresas adquiram, controlem e distribuam facilmente ativos aprovados para parceiros e canais externos, bem como para usuários internos de uma empresa. Esse ambiente de &quot;autoatendimento&quot; baseado em navegador fornece aos usuários do Media Portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Adobe Dynamic Media Classic para fácil acesso, navegação, pesquisa, visualização e exportação de ativos em formatos aprovados pela empresa.
 
 Como administrador, você controla como os usuários visualizam, acessam e usam ativos no Media Portal. Além disso, você pode personalizar a interface do Media Portal para corresponder ao seu site e marca. Você pode especificar fonte, cor da fonte, tamanho da fonte e incorporar elementos de marca, como logotipos, na interface do Media Portal.
 
@@ -45,7 +45,7 @@ Consulte [Adicionar e gerenciar usuários do Media Portal](adding-media-portal-u
 
 ## 4. Gerenciar contas FTP
 
-Você pode ter contas FTP separadas associadas ao Media Portal e mapeadas para uma pasta específica na conta do Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais para sua conta usando contas FTP separadas.
+Você pode ter contas FTP separadas associadas ao Media Portal e mapeadas para uma pasta específica na sua conta Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais para sua conta usando contas FTP separadas.
 
 Consulte [Gerenciamento de contas FTP](ftp-accounts.md#managing_ftp_accounts).
 

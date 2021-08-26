@@ -10,9 +10,9 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 As Noções básicas sobre o modelo são arquivos de imagem em camadas criados dinamicamente e endereçáveis, como arquivos em camadas em aplicativos de edição de imagens, como o Adobe Photoshop. Ao contrário de um arquivo estático contendo camadas, como um arquivo PSD, um modelo pode incluir parâmetros. Por meio de parâmetros, os diferentes aspectos da imagem podem ser abordados e personalizados.
 
-Um modelo pode conter qualquer número de camadas de imagem e camadas de texto. Você pode converter um arquivo estático contendo camadas, como um arquivo PSD em camadas, em um modelo e criar modelos no Dynamic Media Classic. Você pode criar camadas de texto em modelos usando fontes carregadas no Dynamic Media Classic. Após adicionar texto a um modelo, é possível formatá-lo alterando sua justificação, fontes, tamanho da fonte e cor.
+Um modelo pode conter qualquer número de camadas de imagem e camadas de texto. Você pode converter um arquivo estático contendo camadas, como um arquivo PSD em camadas, em um modelo e criar modelos no Adobe Dynamic Media Classic. Você pode criar camadas de texto em modelos usando fontes carregadas no Adobe Dynamic Media Classic. Após adicionar texto a um modelo, é possível formatá-lo alterando sua justificação, fontes, tamanho da fonte e cor.
 
 Usando a página Parâmetros , é possível converter qualquer aspecto de um template em um parâmetro endereçável. Ao fazer isso, você pode alterar a imagem em camadas a ser usada ou o valor do texto a ser usado no modelo. Os parâmetros são passados com a string do URL, permitindo alterar qualquer parâmetro para personalizar dinamicamente a imagem de resposta gerada do servidor de imagem.
 
@@ -29,13 +29,13 @@ Este Início Rápido foi projetado para entrar em operação rapidamente com as 
 
 ## 1. Faça upload dos arquivos
 
-Comece carregando o arquivo PSD ou o arquivo de imagem para seu modelo. O Dynamic Media Classic é compatível com vários formatos de arquivo de imagem, além do PSD, mas imagens TIFF e PNG sem perdas são recomendadas para modelos, pois permitem transparência.
+Comece carregando o arquivo PSD ou o arquivo de imagem para seu modelo. O Adobe Dynamic Media Classic é compatível com vários formatos de arquivo de imagem, além do PSD, mas imagens TIFF e PNG sem perdas são recomendadas para modelos, pois permitem transparência.
 
-Se estiver usando um arquivo PSD para criar seu modelo, selecione **[!UICONTROL Create Template]** na caixa de diálogo **[!UICONTROL Upload Job Options]** ao carregar o arquivo PSD. Escolha também uma opção **[!UICONTROL Layer Naming]** para que o Dynamic Media Classic saiba como nomear camadas PSD quando elas são carregadas no Dynamic Media Classic.
+Se estiver usando um arquivo PSD para criar seu modelo, selecione **[!UICONTROL Create Template]** na caixa de diálogo **[!UICONTROL Upload Job Options]** ao carregar o arquivo PSD. Escolha também uma opção **[!UICONTROL Layer Naming]** para que o Adobe Dynamic Media Classic saiba como nomear camadas PSD quando elas são carregadas no Adobe Dynamic Media Classic.
 
 Se estiver usando arquivos de imagem, você pode recortar as imagens e também criar uma máscara a partir de caminhos de recorte nas imagens, conforme você as carrega.
 
-Na barra Navegação global, clique em **[!UICONTROL Upload]** para carregar um arquivo PSD ou outros arquivos de imagem do seu computador para uma pasta no Dynamic Media Classic. Consulte [Upload de arquivos de modelo](uploading-template-files.md#uploading_template_files).
+Na barra Navegação global, clique em **[!UICONTROL Upload]** para carregar um arquivo PSD ou outros arquivos de imagem do seu computador para uma pasta no Adobe Dynamic Media Classic. Consulte [Upload de arquivos de modelo](uploading-template-files.md#uploading_template_files).
 
 ## 2. Criar um modelo
 

@@ -7,29 +7,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Gerenciamento de ativos,Metadados
+feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
 
 # Exibição, adição e exportação de metadados{#viewing-adding-and-exporting-metadata}
 
-Você pode armazenar informações específicas para os arquivos com os quais trabalha no Dynamic Media Classic; essas informações são chamadas de *metadata*. Você pode usar metadados no Dynamic Media Classic para organizar, pesquisar, filtrar e classificar seus ativos.
+Você pode armazenar informações específicas para os arquivos com os quais trabalha no Adobe Dynamic Media Classic; essas informações são chamadas de *metadata*. Você pode usar metadados no Adobe Dynamic Media Classic para organizar, pesquisar, filtrar e classificar seus ativos.
 
-Os metadados aparecem na exibição de Detalhes junto com as informações geradas pelo Dynamic Media Classic, como a data de criação do arquivo, a data de publicação e as palavras-chave. Para exibir metadados, abra o ativo na exibição Detalhes e selecione o painel Metadados. Você pode inserir e editar metadados na exibição de Detalhes.
+Os metadados aparecem na Exibição de detalhes junto com as informações geradas pelo Adobe Dynamic Media Classic, como a data de criação do arquivo, a data de publicação e as palavras-chave. Para exibir metadados, abra o ativo na Exibição de detalhes e selecione o painel Metadados . Você pode inserir e editar metadados na Exibição de detalhes.
 
-Alguns metadados são incorporados diretamente em um arquivo. Se um arquivo contiver esses metadados, o Dynamic Media Classic o carregará automaticamente com o arquivo . Você pode incorporar metadados em ativos de origem no Adobe Photoshop, InDesign, Illustrator e outros aplicativos; O Dynamic Media Classic reconhece esses metadados. Você também pode adicionar metadados a arquivos individuais no painel Metadados na exibição Detalhes. Para garantir a consistência entre os ativos, os administradores da empresa criam modelos de metadados que fornecem os campos de metadados que podem ser preenchidos.
+Alguns metadados são incorporados diretamente em um arquivo. Se um arquivo contiver esses metadados, o Adobe Dynamic Media Classic o carregará automaticamente com o arquivo . Você pode incorporar metadados em ativos de origem no Adobe Photoshop, InDesign, Illustrator e outros aplicativos; O Adobe Dynamic Media Classic reconhece esses metadados. Você também pode adicionar metadados a arquivos individuais no painel Metadados na Exibição de detalhes. Para garantir a consistência entre os ativos, os administradores da empresa criam modelos de metadados que fornecem os campos de metadados que podem ser preenchidos.
 
 Para obter mais informações sobre metadados incorporados, consulte [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## Exibir metadados {#view-metadata}
 
-Para exibir os metadados de um ativo, abra o ativo na exibição Detalhes e toque no painel Metadados. Para selecionar um conjunto de campos de metadados, escolha uma opção no menu Exibição de metadados . O Dynamic Media Classic oferece estas Exibições de metadados:
+Para exibir os metadados de um ativo, abra o ativo na Exibição de detalhes e toque no painel Metadados . Para selecionar um conjunto de campos de metadados, escolha uma opção no menu Exibição de metadados . O Adobe Dynamic Media Classic oferece estas Exibições de metadados:
 
 * **Exibição compacta**  - Uma lista básica de valores.
 
@@ -43,7 +43,7 @@ Consulte [Exibições de metadados](application-setup.md#metadata_views) para ob
 
 ## Inserir manualmente metadados para um ativo {#manually-enter-metadata-for-an-asset}
 
-1. Abra o ativo na exibição de Detalhes.
+1. Abra o ativo na Exibição de detalhes.
 1. Abra o painel Metadados e execute um ou ambos os procedimentos a seguir:
 
    * Escolha uma Exibição de metadados para determinar quais campos de metadados aparecem no painel.
@@ -72,7 +72,7 @@ Se você adicionou palavras-chave a outros arquivos durante esta sessão, ou se 
 
 >[!NOTE]
 >
->Você pode adicionar palavras-chave a arquivos à medida que você as carrega no Dynamic Media Classic. Na caixa de diálogo Upload Job Options , escolha **[!UICONTROL Additional Metadata]** e insira palavras-chave.
+>Você pode adicionar palavras-chave a arquivos à medida que você as carrega no Adobe Dynamic Media Classic. Na caixa de diálogo Upload Job Options , escolha **[!UICONTROL Additional Metadata]** e insira palavras-chave.
 >Consulte [Opções de upload](uploading-files.md#upload_options).
 
 ## Importar metadados {#import-metadata}
@@ -81,7 +81,7 @@ Em vez de inserir metadados manualmente em um ativo por vez, você pode importar
 
 >[!NOTE]
 >
->Você pode criar um modelo para inserir metadados, de modo que ele possa ser importado corretamente para o Dynamic Media Classic. Depois de criar o modelo, você pode usá-lo para inserir os metadados.
+>Você pode criar um modelo para inserir metadados, de modo que ele possa ser importado corretamente para o Adobe Dynamic Media Classic. Depois de criar o modelo, você pode usá-lo para inserir os metadados.
 >Consulte [Criar um modelo para inserir metadados a serem carregados](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Você pode encontrar mais informações sobre propriedades padronizadas em [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
@@ -135,9 +135,9 @@ Na barra Navegação global, clique em **[!UICONTROL Upload]**. Para importar os
 
 ## Renomear IDs em lote usando metadados {#batch-rename-ids-using-metadata}
 
-Com os metadados importados de um arquivo delimitado por tabulação ou XML, é possível renomear as IDs do Dynamic Media Classic. Os metadados importados são aplicados somente às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
+Com os metadados importados de um arquivo delimitado por tabulação ou XML, é possível renomear as IDs clássicas do Adobe Dynamic Media. Os metadados importados são aplicados somente às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
 
-Para renomear uma Dynamic Media Classic ID de imagem, adicione uma coluna rotulada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado `new_vc_objectname` aos dados XML.
+Para renomear uma ID Adobe do Dynamic Media Classic de uma imagem, adicione uma coluna rotulada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado `new_vc_objectname` aos dados XML.
 
 Por exemplo:
 
@@ -150,7 +150,7 @@ O log de trabalho do trabalho de Metadados mostra quais IDs foram renomeadas com
 
 ## Criar um modelo para inserir metadados para upload {#create-a-template-for-entering-metadata-to-upload}
 
-O Dynamic Media Classic oferece um comando para criar um modelo para registrar metadados. Usar o modelo garante que os metadados sejam inseridos no formato correto para que possam ser carregados corretamente no Dynamic Media Classic. Para criar um modelo para usar na gravação e importação de metadados para o Dynamic Media Classic, siga estas etapas:
+O Adobe Dynamic Media Classic oferece um comando para criar um modelo para registrar metadados. Usar o modelo garante que os metadados sejam inseridos no formato correto para que possam ser carregados corretamente no Adobe Dynamic Media Classic. Para criar um modelo para usar na gravação e importação de metadados para o Adobe Dynamic Media Classic, siga estas etapas:
 
 1. Selecione ativos de imagem com campos de metadados que você deseja para seu modelo.
 1. Clique em **[!UICONTROL File]** > **[!UICONTROL Import Metadata]**.
@@ -181,15 +181,15 @@ O sistema gera automaticamente um esquema personalizado para campos definidos pe
 
 >[!NOTE]
 >
->Alterações no schema nunca alteram os próprios metadados do ativo. No entanto, elas não estão visíveis para todas as funcionalidades do Dynamic Media Classic e do Servidor de Metadados e não podem ser acessadas após serem alteradas. Da mesma forma, se houver metadados para um ativo, a criação do schema correspondente torna os metadados utilizáveis no Dynamic Media Classic e no Servidor de metadados.
+>Alterações no schema nunca alteram os próprios metadados do ativo. No entanto, elas não estão visíveis para todas as funcionalidades do Adobe Dynamic Media Classic e do Servidor de Metadados e não podem ser acessadas após serem alteradas. Da mesma forma, se houver metadados para um ativo, a criação do schema correspondente torna os metadados utilizáveis no Adobe Dynamic Media Classic e no Servidor de metadados.
 
-O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou editar um esquema de empresa personalizado dentro do Dynamic Media Classic. Um schema é definido por um prefixo, um namespace e uma lista de propriedades.
+O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou editar um esquema de empresa personalizado dentro do Adobe Dynamic Media Classic. Um schema é definido por um prefixo, um namespace e uma lista de propriedades.
 
 * **Nome**  - UI-Name do schema. Usado para identificar as propriedades nas Exibições de metadados e na Pesquisa avançada. Semelhante a XMP seções como Básico, IPTC, PDF.
 
-* **Prefixo**  - Identificador exclusivo técnico para o esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco de XMP e no banco de dados. O prefixo é usado para identificar exclusivamente campos de metadados em consultas de pesquisa de metadados no Servidor de Metadados ou na importação.
+* **Prefixo**  - Identificador exclusivo técnico para o esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco de XMP e no banco de dados. O prefixo é usado para identificar exclusivamente campos de metadados em consultas de pesquisa de metadados no Servidor de Metadados ou na importação.
 
-* **Namespace**  - Identificador exclusivo técnico para o esquema, normalmente um URL no formulário  `https://your.company.com/name/version/`. Consulte a lista de schemas padrão para obter exemplos. O namespace não está visível na interface do usuário do Dynamic Media Classic, mas é usado para armazenar metadados no bloco de XMP.
+* **Namespace**  - Identificador exclusivo técnico para o esquema, normalmente um URL no formulário  `https://your.company.com/name/version/`. Consulte a lista de schemas padrão para obter exemplos. O namespace não é visível na interface do usuário clássica do Adobe Dynamic Media, mas é usado para armazenar metadados no bloco de XMP.
 
 * **Descrição**  - Descrição do formulário gratuito do esquema.
 
@@ -201,7 +201,7 @@ As propriedades descrevem os metadados que podem ser armazenados com esse esquem
 
 | Propriedade | Descrição |
 |--- |--- |
-| ID | Identificador técnico para esta propriedade. A ID não está visível na interface do usuário do Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco de XMP e no banco de dados. A ID é usada para criar consultas de pesquisa no Servidor de Metadados. A ID tem algumas restrições, como: <ul><li>Sem espaços</li><li>Sem &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Nenhum número como primeiro caractere</li><li>A prática recomendada é usar a-z ou A-Z como primeiro caractere</li></ul> <br>Depois de criada, a ID não pode ser alterada. |
+| ID | Identificador técnico para esta propriedade. A ID não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco de XMP e no banco de dados. A ID é usada para criar consultas de pesquisa no Servidor de Metadados. A ID tem algumas restrições, como: <ul><li>Sem espaços</li><li>Sem &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Nenhum número como primeiro caractere</li><li>A prática recomendada é usar a-z ou A-Z como primeiro caractere</li></ul> <br>Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para esta propriedade. |
 | Estrutura | Determina o tipo da propriedade junto com o Tipo de dados. A estrutura pode ser uma das seguintes:<ul><li>Tipo simples: valor único do tipo de dados</li><li>Sequência: uma lista de valores do mesmo tipo de dados</li><li>Opção aberta: selecione um item de uma lista de valores predefinidos ou insira texto livre. Pode ser somente do tipo de dados String ou Integer</li><li>Escolha fechada: selecione um item em uma lista de valores predefinidos (um pop-up ou caixa de combinação)</li></ul> |
 | Tipo de dados | Selecione entre estes tipos disponíveis: <ul><li>String</li><li>Número inteiro</li><li>Flutuar</li><li>Sim/Não (Booleano)</li><li>Data</li></ul> |
@@ -210,11 +210,11 @@ Quando a propriedade tiver a estrutura Escolha aberta ou Escolha fechada, você 
 
 | Propriedade | Descrição |
 |--- |--- |
-| ID | Identificador técnico para este valor. A ID não está visível na interface do usuário do Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco de XMP e no banco de dados. A ID é usada em consultas de pesquisa no Servidor de Metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
+| ID | Identificador técnico para este valor. A ID não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco de XMP e no banco de dados. A ID é usada em consultas de pesquisa no Servidor de Metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para este valor. |
 
 >[!MORELIKETHIS]
 >
 >* [Predefinições do visualizador](application-setup.md#viewer_presets)
-* [Predefinições de metadados](application-setup.md#metadata_presets)
+>* [Predefinições de metadados](application-setup.md#metadata_presets)
 

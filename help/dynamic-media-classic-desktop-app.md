@@ -1,6 +1,6 @@
 ---
 title: Aplicativo de desktop Adobe Dynamic Media Classic - Agora disponível
-description: Saiba mais sobre o aplicativo de desktop do Dynamic Media Classic.
+description: Saiba mais sobre o aplicativo de desktop Adobe Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,24 +8,24 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1792'
 ht-degree: 0%
 
 ---
 
 # Agora disponível: Aplicativo de desktop Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Os usuários do Dynamic Media Classic agora têm acesso a uma nova experiência de aplicativo de desktop que não depende mais da tecnologia de Flash no navegador.
+Os usuários do Adobe Dynamic Media Classic agora têm acesso a uma nova experiência de aplicativo de desktop que não depende mais da tecnologia de Flash do Adobe no navegador.
 
 Este novo aplicativo agora está disponível para Windows® e MacOS.
 
 >[!IMPORTANT]
 >
->O Adobe recomenda instalar o novo aplicativo de desktop Adobe Classic até 1º de outubro de 2020. Isso garantirá uma transição suave para que o Adobe Flash Player seja descontinuado em 31 de dezembro de 2020. Depois dessa data, você não poderá fazer logon na versão do navegador do Adobe Dynamic Media Classic user interface, rotulada como Dynamic Media Classic no produto.
+>O Adobe recomenda instalar o novo aplicativo de desktop Adobe Classic até 1º de outubro de 2020. Isso garantirá uma transição suave para que o Adobe Flash Player seja descontinuado em 31 de dezembro de 2020. Depois dessa data, você não poderá fazer logon na versão do navegador do Adobe Dynamic Media Classic user interface, rotulada como Adobe Dynamic Media Classic no produto.
 
-Consulte as Perguntas frequentes da [Nova experiência de logon do Dynamic Media Classic disponível.](/help/new-ui-2020.md)
+Consulte as Perguntas frequentes sobre a [Nova experiência de logon do Adobe Dynamic Media Classic agora disponível.](/help/new-ui-2020.md)
 
 ## Requisitos de sistema para o aplicativo de desktop Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -36,7 +36,7 @@ O aplicativo de desktop Adobe Dynamic Media Classic é compatível com os seguin
 
 >[!NOTE]
 >
->A notificação de atualização no aplicativo de desktop do Dynamic Media Classic não é gerada para versões *minor*. Os clientes que se beneficiam de correções em uma versão secundária podem atualizar.
+>A notificação de atualização no aplicativo de desktop Adobe Dynamic Media Classic não é gerada para versões *minor*. Os clientes que se beneficiam de correções em uma versão secundária podem atualizar.
 
 ## Correções na versão secundária (20.21.2) {#minor-release}
 
@@ -44,7 +44,7 @@ O aplicativo de desktop Adobe Dynamic Media Classic é compatível com os seguin
 * Em **[!UICONTROL Upload Job Options]**, o valor padrão de nomeação de camada em **[!UICONTROL Photoshop Options]**, agora é **[!UICONTROL Photoshop and Layer Name]**. As camadas no arquivo PSD são carregadas como imagens separadas.
    * O padrão anterior de **[!UICONTROL Layer name]**, as imagens são nomeadas após o nome da camada ou o número da camada no arquivo PSD. O número da camada foi usado se os nomes da camada no arquivo PSD fossem nomes padrão da camada do Photoshop.
    * O novo padrão de **[!UICONTROL Photoshop and Layer Name]** nomeia as imagens após o arquivo PSD seguido do nome da camada ou do número da camada. O número da camada é usado se os nomes da camada no arquivo PSD forem nomes padrão da camada do Photoshop.
-   * Considerando que as imagens de camada no Dynamic Media Classic agora têm nomes exclusivos, nenhuma atualização no PSD ou nos Modelos existentes acontecerá (que compartilharam nomes de camada nos arquivos PSD originais).
+   * Considerando que as imagens de camada no Adobe Dynamic Media Classic agora têm nomes exclusivos, nenhuma atualização para o PSD ou Modelos existentes acontecerá (que compartilhou nomes de camada nos arquivos PSD originais).
 * Miniaturas de ativos quebradas.
 
 ## Correções na versão mais recente (20.21.1) {#latest-fixes-desktop-app}
@@ -67,7 +67,7 @@ Consulte também:
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Classic mais recente no Mac](#install-silent-mac-dmc-app)
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Classic mais recente no Windows®](#install-silent-windows-dmc-app)
 
-1. Desinstale as versões mais antigas do aplicativo de desktop Dynamic Media Classic em seu sistema.
+1. Desinstale as versões mais antigas do aplicativo de desktop Adobe Classic no seu sistema.
 
 1. Baixe o instalador mais recente para o aplicativo de desktop Adobe Dynamic Media Classic.
 
@@ -100,9 +100,9 @@ Consulte também:
 
 1. Ao abrir o aplicativo, a nova página de Logon do Adobe Dynamic Media Classic é exibida:
 
-   ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Logon no Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Para fazer logon no aplicativo de desktop Adobe Dynamic Media Classic, use as mesmas credenciais usadas para fazer logon no Dynamic Media Classic no navegador.
+1. Para fazer logon no aplicativo de desktop Adobe Dynamic Media Classic, use as mesmas credenciais usadas para fazer logon no Adobe Dynamic Media Classic no navegador.
 
    Para que **[!UICONTROL Server]** use, consulte o seguinte mapeamento para o ambiente de produção:
 
@@ -112,7 +112,7 @@ Consulte também:
    | https://s7sps3.scene7.com/ | Produção da EMEA (Europa, Oriente Médio e África) |
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
 
-1. Após fazer logon, observe a experiência familiar da interface do usuário do navegador. Você pode continuar sua atividade diária do Dynamic Media Classic como de costume no aplicativo de desktop.
+1. Após fazer logon, observe a experiência familiar da interface do usuário do navegador. Você pode continuar sua atividade diária do Adobe Dynamic Media Classic, como de costume no aplicativo de desktop.
 
 ## Baixe e *silencioso* instale o aplicativo de desktop Adobe Classic mais recente no macOS {#install-silent-mac-dmc-app}
 
@@ -123,7 +123,7 @@ Consulte também:
 
 Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desktop Adobe Dynamic Media Classic no macOS:
 
-1. Desinstale as versões mais antigas do aplicativo de desktop Dynamic Media Classic em seu sistema.
+1. Desinstale as versões mais antigas do aplicativo de desktop Adobe Classic no seu sistema.
 
 1. Baixe o instalador mais recente do aplicativo de desktop Adobe Dynamic Media Classic para macOS.
 
@@ -142,9 +142,9 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
 
 1. Ao abrir o aplicativo, a nova página de Logon do Adobe Dynamic Media Classic é exibida:
 
-   ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Logon no Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Para fazer logon no aplicativo de desktop Adobe Dynamic Media Classic, use as mesmas credenciais usadas para fazer logon no Dynamic Media Classic no navegador.
+1. Para fazer logon no aplicativo de desktop Adobe Dynamic Media Classic, use as mesmas credenciais usadas para fazer logon no Adobe Dynamic Media Classic no navegador.
 
    Para que **[!UICONTROL Server]** use, consulte o seguinte mapeamento para o ambiente de produção:
 
@@ -156,7 +156,7 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
 
 ## Baixe e *silencioso* instale o aplicativo de desktop Adobe Classic mais recente no Windows® {#install-silent-windows-dmc-app}
 
-O comando usado é para uma instalação silenciosa MSI básica. No entanto, o instalador do aplicativo de desktop Dynamic Media Classic é um instalador do InstallScript MSI criado com o InstallShield. Quando você executa o instalador no modo de registro, qualquer interação do usuário é registrada em um arquivo de resposta. Esse arquivo de resposta é usado para uma instalação silenciosa conforme descrito em [Executando Instalações no Modo Silencioso.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+O comando usado é para uma instalação silenciosa MSI básica. No entanto, o instalador do aplicativo de desktop Adobe Dynamic Media Classic é um instalador do InstallScript MSI criado usando o InstallShield. Quando você executa o instalador no modo de registro, qualquer interação do usuário é registrada em um arquivo de resposta. Esse arquivo de resposta é usado para uma instalação silenciosa conforme descrito em [Executando Instalações no Modo Silencioso.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Consulte também:
 
@@ -165,7 +165,7 @@ Consulte também:
 
 Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desktop Adobe Dynamic Media Classic no Windows®:
 
-1. Desinstale as versões mais antigas do aplicativo de desktop Dynamic Media Classic em seu sistema.
+1. Desinstale as versões mais antigas do aplicativo de desktop Adobe Classic no seu sistema.
 
 1. Baixe o instalador mais recente para o aplicativo de desktop Adobe Dynamic Media Classic.
 
@@ -187,9 +187,9 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
 
 1. Ao abrir o aplicativo, a nova página de Logon do Adobe Dynamic Media Classic é exibida:
 
-   ![Logon no Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Logon no Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. Para fazer logon no aplicativo de desktop Adobe Dynamic Media Classic, use as mesmas credenciais usadas para fazer logon no Dynamic Media Classic no navegador.
+1. Para fazer logon no aplicativo de desktop Adobe Dynamic Media Classic, use as mesmas credenciais usadas para fazer logon no Adobe Dynamic Media Classic no navegador.
 
    Para que **[!UICONTROL Server]** use, consulte o seguinte mapeamento para o ambiente de produção:
 
@@ -200,13 +200,13 @@ Para baixar e *silencioso* instalar a versão mais recente do aplicativo de desk
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
 
 
-## Vídeo de apresentação sobre o uso do aplicativo Dynamic Media Classic Desktop {#dmc-app-video-walk-through}
+## Vídeo de apresentação sobre o uso do aplicativo Adobe Dynamic Media Classic Desktop {#dmc-app-video-walk-through}
 
-Assista a [apresentação de vídeo usando o aplicativo de desktop Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duração: 2 minutos (36 segundos).
+Assista a [vídeo de apresentação usando o Adobe Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duração: 2 minutos (36 segundos).
 
 ## Limpar o cache de imagem e o cache de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
-1. No aplicativo de desktop do Dynamic Media Classic, próximo ao canto superior direito, toque em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+1. No aplicativo de desktop Adobe Dynamic Media Classic, próximo ao canto superior direito, toque em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Na página **[!UICONTROL Personal Setup]**, sob o cabeçalho **[!UICONTROL Desktop]**, siga um destes procedimentos:
    * Para remover todos os arquivos de imagem em cache do Adobe Dynamic Media de seu computador, toque em **[!UICONTROL Clear Image Cache]** e toque em **[!UICONTROL OK]**.
    * Para remover todos os arquivos de ativos em cache do Adobe Dynamic Media de seu computador, toque em **[!UICONTROL Clear Asset Cache]** e toque em **[!UICONTROL OK]**.
@@ -221,26 +221,26 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Limitação conhecida no Dynamic Media Classic 20.21.1
+## Limitação conhecida no Adobe Dynamic Media Classic 20.21.1
 
-* A lista suspensa **[!UICONTROL Server]** fica vazia após a atualização para o aplicativo de desktop do Dynamic Media Classic 20.21.1 - Cenário: Você instala e faz logon no Dynamic Media Classic 20.20.1 ou 20.20.2, em seguida, fecha o aplicativo. Em seguida, atualize para o Dynamic Media Classic 20.21.1. Ao tentar fazer logon, a lista suspensa **[!UICONTROL Server]** na caixa de diálogo **[!UICONTROL Sign in to your account]** fica vazia. Para contornar esse problema, você deve [limpar manualmente o cache](#clear-cache) (consulte as etapas acima).
+* A lista suspensa **[!UICONTROL Server]** fica vazia após a atualização para o aplicativo de desktop Adobe Dynamic Media Classic 20.21.1 - Cenário: Instale e faça logon no Adobe Dynamic Media Classic 20.20.1 ou 20.20.2 e então feche o aplicativo. Em seguida, atualize para o Adobe Dynamic Media Classic 20.21.1. Ao tentar fazer logon, a lista suspensa **[!UICONTROL Server]** na caixa de diálogo **[!UICONTROL Sign in to your account]** fica vazia. Para contornar esse problema, você deve [limpar manualmente o cache](#clear-cache) (consulte as etapas acima).
 
-## Limitações conhecidas do Dynamic Media Classic 20.20.1 (corrigidas em 20.20.2)
+## Limitações conhecidas do Adobe Dynamic Media Classic 20.20.1 (corrigidas na 20.20.2)
 
 **_Aplica-se somente ao Windows® - Existe uma limitação no número de arquivos que podem ser carregados por meio da interface do usuário do aplicativo de desktop?_**<br>Sim, um máximo de 150 arquivos pode ser carregado de cada vez por meio da interface do usuário do aplicativo de desktop.
 
 **_Aplica-se ao Windows® e macOS - Como faço para alternar entre empresas?_**<br>Para alternar entre empresas, faça o seguinte:
 
-* No aplicativo Dynamic Media Classic, selecione a nova empresa na lista suspensa da empresa.
+* No aplicativo Adobe Dynamic Media Classic, selecione a nova empresa na lista suspensa da empresa.
 * Quando a janela pop-up for exibida, toque em **[!UICONTROL OK]** para sair e fechar o aplicativo.
 
    ![Para usar a nova empresa, reinicie o aplicativo](/help/assets/dmclassic-new-company1.png)
 
-* Reinicie o Dynamic Media Classic e faça logon como de costume para trabalhar com a nova empresa.
+* Reinicie o Adobe Dynamic Media Classic e faça logon como de costume para trabalhar com a nova empresa.
 
 ## Dicas e truques
 
-**_Não consigo ver o painel Carrinho de mídia na página de aterrissagem do Dynamic Media Classic._**<br>No Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Browser , verifique se **[!UICONTROL Show MediaPortal Features]**está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
+**_Não consigo ver o painel Carrinho de mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Browser , verifique se **[!UICONTROL Show MediaPortal Features]**está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
 
 **_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, era necessário fazer logon novamente na interface do usuário para visualizar o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone **[!UICONTROL Refresh]**na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresh]**para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
 

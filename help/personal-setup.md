@@ -1,6 +1,6 @@
 ---
 title: Configuração pessoal
-description: Todos os usuários podem alterar as configurações na tela Configuração pessoal do Dynamic Media Classic.
+description: Todos os usuários podem alterar as configurações na tela Configuração pessoal do Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Todos os usuários podem alterar as configurações na tela Configuração pesso
 
 >[!NOTE]
 >
->A tela Configuração pessoal lista qual função de usuário você tem no Dynamic Media Classic: Administrador, Administrador ou Usuário da Empresa.
+>A tela Configuração pessoal lista qual função de usuário você tem no Adobe Dynamic Media Classic: Administrador, Administrador ou Usuário da Empresa.
 
 As configurações de Configuração pessoal controlam o comportamento padrão do Painel de navegação, como você recebe e-mail e as configurações de senha. Lembre-se de clicar em Salvar depois de alterar essas configurações.
 
@@ -45,7 +45,7 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 **Para instalar a extensão Adobe Dynamic Media Creative Suite:**
 
-1. No Dynamic Media Classic, na barra de ferramentas, clique em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Extensão do Creative Suite, clique em **[!UICONTROL Download Now]** para baixar o arquivo `s7csxs.zxp`.
+1. No Adobe Dynamic Media Classic, na barra de ferramentas, clique em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Creative Suite Extension, clique em **[!UICONTROL Download Now]** para baixar o arquivo `s7csxs.zxp`.
 1. Clique nos links **[!UICONTROL Installation]** e **[!UICONTROL System Requirements]** para obter informações adicionais sobre a extensão.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -72,11 +72,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Navegador
 
-* **Tamanho da miniatura**  - Determina o tamanho padrão das imagens em miniatura na exibição em Grade no Painel de navegação.
+* **Tamanho da miniatura**  - Determina o tamanho padrão das imagens em miniatura na Exibição de grade no Painel de navegação.
 * **Exibição da biblioteca de ativos padrão**  - Determina se os ativos na Biblioteca de ativos para conjuntos de build são exibidos como miniaturas ou por nome. Se você estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, é possível visualizar os ativos por nome. Por exemplo, se você estiver criando um grande eCatalog com muitos arquivos PDF, poderá exibir os ativos por nome para tornar a lista mais curta.
 * **Ordem de classificação de navegação padrão**  - Determina a ordem em que os ativos aparecem por padrão no painel Procurar. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
 * **Localização de navegação padrão**  - Permite definir o local do navegador para o padrão, a última pasta navegada ou para um local específico no qual você navega e identifica. Você também pode definir o local do navegador para classificar os arquivos e pastas em ordem crescente ou decrescente.
-* **Exibição de navegação padrão**  - Determina se a exibição de Grade ou de Lista é a exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.
+* **Exibição de navegação padrão**  - Determina se a Exibição de grade ou de lista é a exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.
 * **Exibição da tela inicial**  - Determina se você vê alguma tela inicial, incluindo a tela inicial de Boas-vindas.
 * **Mostrar dicas de ferramentas**  - Determina se as dicas de ferramentas aparecem quando você move o ponteiro sobre botões, menus e links de navegação. As dicas de ferramentas descrevem os itens da interface do usuário na tela.
 * **Plano de fundo do quadro de verificação**  - Exibe uma camada do quadro de verificação atrás das imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Email
 
-* **Opções de email**  - Escolha como deseja que o Dynamic Media Classic o informe por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalho somente se ocorrerem avisos ou erros.
+* **Opções de email**  - Escolha como deseja que o Adobe Dynamic Media Classic o informe por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalho somente se ocorrerem avisos ou erros.
 * **Escopo de email**  - Determina se você recebe todo o email de trabalho da sua empresa ou somente o email sobre trabalhos de upload e publicação iniciados.
 * **Tipos de email**  - Determina se você é informado quando tarefas de upload e publicação são concluídas.
 

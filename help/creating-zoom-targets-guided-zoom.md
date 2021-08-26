@@ -1,6 +1,6 @@
 ---
 title: Criar metas de zoom para zoom guiado
-description: Saiba como criar direcionamentos de zoom para o Zoom guiado no Dynamic Media Classic.
+description: Saiba como criar direcionamentos de zoom para o Zoom guiado no Adobe Dynamic Media Classic.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Você pode alterar o tamanho do Visualizador de Zoom para corresponder ao tamanh
 
 Crie e edite metas de zoom na tela Editor de direcionamento de zoom . Para abrir esta tela, selecione uma imagem e siga um destes procedimentos:
 
-* selecione o botão **[!UICONTROL Edit]** de sobreposição e escolha Metas de zoom.
+* Selecione o botão **[!UICONTROL Edit]** de sobreposição e escolha Metas de Zoom.
 * No Painel Procurar, exiba a imagem em **[!UICONTROL Detail View]** e selecione **[!UICONTROL Zoom Targets]**.
 
 Na tela Editor de direcionamento de zoom , selecione o botão **[!UICONTROL Select Target]** (seta) para selecionar um destino antes de alterar seu tamanho ou posição. Para criar um destino de zoom na imagem, selecione **[!UICONTROL Add Targets]** (retângulo). A página Editor de direcionamento de zoom também oferece ferramentas para excluir, copiar e nomear direcionamentos de zoom.

@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Você pode visualizar seus Conjuntos de imagens na janela Visualizar, usando suas predefinições disponíveis. Você usa um Visualizador de Zoom: Predefinição personalizada do visualizador para conjuntos de imagens.
 
-O Dynamic Media Classic vem com as Predefinições do visualizador padrão. Os administradores podem criar ou modificar as Predefinições do visualizador.
+O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão. Os administradores podem criar ou modificar as Predefinições do visualizador.
 
 ## Configuração das predefinições do Visualizador de Zoom para Conjuntos de Imagens {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -51,9 +51,9 @@ Você pode usar a Visualização para ver como um ativo aparece em um tipo de vi
 1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas de ativos para selecionar o Conjunto de imagens que deseja visualizar.
 1. Siga um destes procedimentos
 
-   * Perto do canto superior direito da janela do Dynamic Media Classic, clique no ícone **[!UICONTROL List View]**. Na janela Ativo, passe o mouse sobre um ativo e clique em **[!UICONTROL Preview]** (não na lista suspensa Visualização ).
-   * Perto do canto superior direito da janela do Dynamic Media Classic, clique no ícone **[!UICONTROL Grid View]**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **[!UICONTROL Preview]** (não na lista suspensa Visualização).
-   * Perto do canto superior direito da janela do Dynamic Media Classic, clique no ícone **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** (não na lista suspensa Visualização ).
+   * Perto do canto superior direito da janela Adobe Dynamic Media Classic, clique no ícone **[!UICONTROL List View]**. Na janela Ativo, passe o mouse sobre um ativo e clique em **[!UICONTROL Preview]** (não na lista suspensa Visualização ).
+   * Perto do canto superior direito da janela Adobe Dynamic Media Classic, clique no ícone **[!UICONTROL Grid View]**. Na janela Ativo, em uma janela de miniatura de ativo, clique em **[!UICONTROL Preview]** (não na lista suspensa Visualização).
+   * Perto do canto superior direito da janela Adobe Dynamic Media Classic, clique no ícone **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, clique em **[!UICONTROL Preview]** (não na lista suspensa Visualização ).
 
 1. (Opcional) Na janela Visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
 1. Para visualizar o ativo no visualizador selecionado, clique em um link do visualizador.

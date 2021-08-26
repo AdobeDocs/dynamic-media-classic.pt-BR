@@ -1,69 +1,71 @@
 ---
-source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
-translation-type: tm+mt
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 4%
 
 ---
 # Diretrizes para contribuir para a documentação do Adobe Dynamic Media Classic
 
 ## Filosofia de documentação do Adobe Dynamic Media Classic
 
-Sabemos que os usuários do Adobe Dynamic Media Classic estão trabalhando em ambientes altamente competitivos, tentando criar experiências digitais que os separarão de seus concorrentes. Portanto, é vital que, quando a Adobe fornecer novas ferramentas avançadas, essas ferramentas sejam complementadas com documentação precisa e clara para permitir que o cliente aproveite imediatamente seu investimento no Dynamic Media Classic e maximize o ROI.
+Sabemos que os usuários do Adobe Dynamic Media Classic estão trabalhando em ambientes altamente competitivos, trabalhando para criar experiências digitais que os separarão de seus concorrentes. Portanto, é essencial que, quando o Adobe oferece novas ferramentas avançadas, essas ferramentas sejam complementadas com documentação precisa e clara para permitir que o cliente aproveite imediatamente seu investimento no Adobe Dynamic Media Classic e maximize o ROI.
 
-O objetivo da documentação é colocar a documentação atualizada nas mãos dos usuários o mais rápido possível. Portanto, priorizamos a documentação precisa e utilizável e nos esforçamos para atualizá-la continuamente e aprimorá-la.
+O objetivo da documentação é colocar a documentação atualizada nas mãos dos usuários o mais rápido possível. Portanto, priorizamos a documentação precisa e utilizável e nos esforçamos para atualizá-la continuamente e melhorá-la.
 
-## Contribuições de documentação
+## Contribuições da documentação
 
-A fim de melhorar continuamente a documentação, a comunidade inteira de usuários é bem-vinda para contribuir com a documentação. Seja por meio de solicitações ou problemas, as melhorias na documentação podem ser correções, esclarecimentos, expansões e exemplos adicionais.
+Com o intuito de melhorar continuamente a documentação, toda a comunidade de usuários é bem-vinda para contribuir com a documentação. Seja por meio de solicitações ou problemas de pull, as melhorias na documentação podem ser correções, esclarecimentos, expansões e exemplos adicionais.
 
-## Normas de documentação
+## Padrões de documentação
 
-Embora nos congratulemos com os contributos para a nossa documentação, qualquer contribuição para a documentação, quer sob a forma de um pedido de extradição, quer sob a forma de um problema, deverá estar em conformidade com as nossas normas de contribuição e documentação.
+Embora nos congratulemos com os contributos para a nossa documentação, qualquer contribuição para a documentação, seja sob a forma de um pedido de pull ou de um problema, deve estar em conformidade com as nossas normas de contribuição e documentação.
 
 As contribuições que não cumprem estes padrões podem ser rejeitadas.
 
-### Nós documento casos de uso padrão.
+### Documentamos casos de uso padrão.
 
-A documentação abrange casos de uso padrão. Casos de uso que não se enquadram no escopo da instalação padrão e da utilização do produto não fazem parte da documentação.
+A documentação abrange casos de uso padrão. Casos de uso que não estejam no escopo da instalação e uso padrão do produto não fazem parte da documentação.
 
-### Geralmente, não documento erros nem as suas soluções.
+### Geralmente, não documentamos bugs ou suas soluções alternativas.
 
-A documentação abrange casos de uso padrão. Por essa razão, os erros, os efeitos causados por erros e as soluções alternativas para erros geralmente não estão documentados.
+A documentação abrange casos de uso padrão. Por essa razão, bugs, efeitos causados por bugs e soluções alternativas para bugs geralmente não são documentados.
 
-As exceções a essa regra se aplicam às notas de versão, onde os problemas conhecidos podem ser listados com possíveis soluções aprovadas pelo Gerenciamento de produtos.
+As exceções a essa regra se aplicam às notas de versão, onde os problemas conhecidos podem ser listados com possíveis soluções que foram aprovadas pelo Gerenciamento de produtos.
 
-### As contribuições para a documentação não se destinam a responder a questões técnicas.
+### As contribuições para a documentação não se destinam a responder questões técnicas.
 
-Quaisquer ideias que você precise melhorar a documentação são bem-vindas como contribuições. No entanto, comentários, problemas e solicitações de baixa automática são destinados apenas a *contribuições* . Eles não devem ser usados para responder suas perguntas sobre como usar o Dynamic Media Classic, implementar seu projeto ou resolver problemas técnicos.
+Quaisquer ideias que você possa ter para melhorar a documentação são bem-vindas como contribuições. No entanto, comentários, problemas e solicitações de pull destinam-se somente a *contribuições*. Eles não se destinam a ser usados para responder suas perguntas sobre como usar o Adobe Dynamic Media Classic, implementar seu projeto ou resolver problemas técnicos.
 
-Quaisquer dúvidas sobre o uso do Dynamic Media Classic ou erros técnicos que possam ter sido relatados por meio do portal [de suporte empresarial da](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud ou discutidos na comunidade [da](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)Experience Cloud.
+Qualquer dúvida sobre o uso do Adobe Dynamic Media Classic ou erros técnicos que você possa ter deve ser relatada por meio do [Portal de suporte corporativo Experience Cloud](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) ou discutida na [comunidade Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***As contribuições de documentação não substituem o Atendimento*** ao cliente da Adobe e quaisquer contribuições que busquem respostas para perguntas relacionadas ao suporte serão rejeitadas.
+***As contribuições para a documentação não são uma substituição do Adobe Customer*** Care e quaisquer contribuições que buscam respostas para perguntas relacionadas ao suporte serão rejeitadas.
 
-### As contribuições devem mencionar claramente as páginas de documentação afetadas.
+### As contribuições devem fazer referência claramente às páginas de documentação afetadas.
 
 Se você criar um problema para sugerir melhorias na documentação, deverá incluir links para as páginas afetadas. Caso crie um problema usando o link **Editar esta página** em uma página de documentação, o problema será criado automaticamente com um link para a página.
 
-Isso não se aplica a solicitações de baixa automática, pois as solicitações de baixa automática por sua natureza fazem referência às páginas afetadas.
+Isso não se aplica às solicitações de pull, pois as solicitações de pull, por sua natureza, fazem referência às páginas afetadas.
 
 ## Diretrizes de documentação
 
-Solicitamos que qualquer contribuição para nossa documentação siga determinadas diretrizes de estilo.
+Pedimos que qualquer contribuição para nossa documentação siga determinadas diretrizes de estilo.
 
-Seguir essas diretrizes facilita a revisão de sua contribuição e, portanto, a integração à nossa documentação é mais rápida.
+Seguir essas diretrizes facilita a análise da sua contribuição e, portanto, a integração em nossa documentação é mais rápida.
 
 ### Idioma e estilo
 
 #### Idioma
 
-* A documentação foi criada e mantida em inglês dos EUA.
+* A documentação foi criada e mantida em inglês americano.
 * Mantenha as frases o mais simples possível.
 * Mantenha o idioma claro e conciso.
 
-Lembre-se de que os leitores da documentação são espalhados pelo mundo inteiro e não se pode esperar que sejam falantes nativos ou fluentes do inglês. Evite coloquialismos e mantenha a linguagem o mais clara e simples possível.
+Lembre-se, os leitores da documentação são de todo o mundo e não é de se esperar que sejam falantes nativos ou fluentes do inglês. Evite coloquialismos e mantenha a linguagem o mais clara e simples possível.
 
-#### Siga o Manual de estilo da Microsoft
+#### Siga o Manual de Estilo da Microsoft
 
-[O Manual de estilo](https://docs.microsoft.com/en-us/style-guide/welcome/) da Microsoft é um guia de estilo de documentação disponível gratuitamente, que se concentra na documentação do software e a documentação do Dynamic Media Classic segue este guia sempre que possível.
+[O Manual de ](https://docs.microsoft.com/en-us/style-guide/welcome/) estilo da Microsoft é um guia de estilo de documentação disponível gratuitamente, que se concentra na documentação do software e a documentação do Adobe Dynamic Media Classic segue este guia sempre que possível.
 
 ### Formatação
 
@@ -73,12 +75,12 @@ Lembre-se de que os leitores da documentação são espalhados pelo mundo inteir
 | Nome do arquivo, caminho, entrada do usuário, valores de parâmetro | `monospaced` |
 | Código, linha de comando | ```Code Block``` |
 
-### Capturas de tela
+### Sapatos na tela
 
-As capturas de tela devem ser utilizadas de forma sensata e apenas quando uma descrição textual for insuficiente.
+As capturas de tela devem ser usadas criteriosamente e somente quando uma descrição textual for insuficiente.
 
 Marcadores ou outras anotações em capturas de tela (como quadros vermelhos, setas ou texto) não devem ser usados. Dessa forma, as capturas de tela são mais fáceis de reutilizar ou replicar em versões localizadas da documentação.
 
-### Referências específicas à versão
+### Referências específicas da versão
 
-Tente evitar referências diretas a uma versão específica em todo o conteúdo da documentação, sempre que possível. Isso torna a documentação mais flexível e extensível para versões futuras.
+Tente evitar referências diretas a uma versão específica no conteúdo da documentação sempre que possível. Isso torna a documentação mais flexível e extensível para versões futuras.

@@ -1,6 +1,6 @@
 ---
 title: Gerenciar variações de conteúdo
-description: Saiba como gerenciar variações de conteúdo no Dynamic Media Classic.
+description: Saiba como gerenciar variações de conteúdo no Adobe Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---

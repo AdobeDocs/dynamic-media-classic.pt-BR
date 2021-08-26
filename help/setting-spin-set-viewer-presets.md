@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic, Visualizadores, Conjuntos de rotação, Predefinições do visualizador
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
 # Configuração das predefinições do visualizador de conjunto de rotação{#setting-up-spin-set-viewer-presets}
 
-As Predefinições do visualizador de conjunto de rotação determinam o estilo, o comportamento e a aparência dos visualizadores. O Dynamic Media Classic vem com as predefinições do visualizador de conjunto de rotação padrão. Se você for um administrador, também poderá criar suas próprias Predefinições do visualizador de conjunto de rotação. Você pode configurar uma Predefinição do visualizador de conjunto de rotação com cores, bordas, fontes e configurações de imagem diferentes.
+As Predefinições do visualizador de conjunto de rotação determinam o estilo, o comportamento e a aparência dos visualizadores. O Adobe Dynamic Media Classic vem com as predefinições do visualizador de conjunto de rotação padrão. Se você for um administrador, também poderá criar suas próprias Predefinições do visualizador de conjunto de rotação. Você pode configurar uma Predefinição do visualizador de conjunto de rotação com cores, bordas, fontes e configurações de imagem diferentes.
 
 **Para criar uma predefinição do visualizador de conjunto de rotação:**
 

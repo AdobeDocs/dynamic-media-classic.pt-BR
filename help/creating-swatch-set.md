@@ -1,6 +1,6 @@
 ---
 title: Criar um conjunto de amostras
-description: Saiba como criar um conjunto de amostras no Dynamic Media Classic.
+description: Saiba como criar um conjunto de amostras no Adobe Dynamic Media Classic.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
 **Para editar um conjunto de amostras:**
 
-1. Na exibição de Grade, navegue até um SwatchSet e, em seguida, abaixo da imagem, selecione **[!UICONTROL Edit]**.
+1. Na Exibição de grade, navegue até um Conjunto de amostras e, em seguida, abaixo da imagem, selecione **[!UICONTROL Edit]**.
 1. Siga um destes procedimentos:
 
    * Para adicionar uma imagem (publicada ou não publicada), arraste-a de uma pasta em Adicionar ativos para a página do Conjunto de amostras **[!UICONTROL Views]**.

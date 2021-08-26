@@ -1,6 +1,6 @@
 ---
 title: Gerenciar o conteúdo do painel Informações em conjuntos de imagens
-description: Saiba como gerenciar o conteúdo do Painel de informações em Conjuntos de imagens no Dynamic Media Classic.
+description: Saiba como gerenciar o conteúdo do Painel de informações em Conjuntos de imagens no Adobe Dynamic Media Classic.
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Além de usar o texto do Mapa de imagem para suas sobreposições em Conjuntos de imagens, você pode usar um painel de informações para adicionar grandes quantidades de texto de sobreposição, incluindo links. Você também pode gerenciar o InfoPanel usando o armazenamento em cache programado e o agendamento de atualizações de conteúdo.
 
-Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Dynamic Media Classic:
+Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
 * O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do painel de informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, você pode especificar se o Conjunto de imagens é publicado automaticamente.
 * O painel Dados do InfoPanel permite que você especifique um arquivo CSV contendo o texto que deseja que apareça no texto de sobreposição do painel de informações e os horários de agendamento para a atualização das informações.
@@ -40,7 +40,7 @@ Você pode selecionar um dos três modelos de resposta predefinidos para exibir 
    * Para usar a resposta padrão, selecione **[!UICONTROL Default]**. O XML para o design de modelo é exibido, esmaecido, na caixa de texto Modelo de usuário.
    * Para criar seu próprio modelo de resposta, selecione **[!UICONTROL Custom]**. Na caixa de texto Modelo do usuário, digite a definição do modelo XML. Você pode usar o modelo padrão já definido na caixa de texto como base para sua própria resposta.
 
-1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja que apareça se o Dynamic Media Classic encontrar um erro na recuperação de informações para um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de Conjunto de imagens, mas nenhum identificador de sobreposição, essa mensagem será exibida para o usuário.
+1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja que apareça se o Adobe Dynamic Media Classic encontrar um erro na recuperação de informações para um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de Conjunto de imagens, mas nenhum identificador de sobreposição, essa mensagem será exibida para o usuário.
 1. No campo de texto TTL de Resposta , insira o número de horas que você deseja esperar antes de armazenar os dados em cache.
 
    * Defina um número menor se os dados forem atualizados com frequência ao longo do dia.

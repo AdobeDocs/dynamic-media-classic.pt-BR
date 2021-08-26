@@ -10,20 +10,20 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 # Publicar informações de configuração do Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Publique seus visualizadores do Dynamic Media Classic para que as informações sobre a configuração de relatórios do Adobe Analytics sejam enviadas para os servidores do Dynamic Media Classic. Essas informações são incorporadas aos visualizadores. A publicação é necessária para que as informações contidas nos visualizadores estejam disponíveis nos servidores do Dynamic Media Classic. Nos servidores, ele pode ser reenviado para a Adobe Analytics depois que os usuários executarem a atividade nos visualizadores.
+Publique seus visualizadores Adobe Dynamic Media Classic para que as informações sobre a configuração de relatórios do Adobe Analytics sejam enviadas para os servidores Adobe Dynamic Media Classic. Essas informações são incorporadas aos visualizadores. A publicação é necessária para que as informações contidas nos visualizadores estejam disponíveis nos servidores Adobe Dynamic Media Classic. Nos servidores, ele pode ser reenviado para a Adobe Analytics depois que os usuários executarem a atividade nos visualizadores.
 
 >[!NOTE]
 >
->Sempre que alterar as configurações do Relatório do Adobe Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics a partir do Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e, em seguida, republicar.
+>Sempre que alterar as configurações do Relatório do Adobe Analytics no Adobe Analytics, certifique-se de fazer logon novamente no Adobe Analytics a partir do Adobe Dynamic Media Classic, salvar novamente as configurações do Adobe Analytics e, em seguida, republicar.
 
 Consulte [Fazer logon no Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 

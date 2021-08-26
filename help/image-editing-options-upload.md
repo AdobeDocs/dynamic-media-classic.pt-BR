@@ -1,6 +1,6 @@
 ---
 title: Opções de ajuste de imagem no upload
-description: Saiba mais sobre as opções de ajuste fino de imagem disponíveis no momento do upload no Dynamic Media Classic.
+description: Saiba mais sobre as opções de ajuste fino de imagem disponíveis no momento do upload no Adobe Dynamic Media Classic.
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Para selecionar um espaço de cores para a imagem, escolha uma opção de Perfil
 
 * **[!UICONTROL Keep Original Color Space]** - Mantém o espaço de cores original.
 
-* **[!UICONTROL Custom From]** >  **[!UICONTROL To]** - Abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Dynamic Media Classic.
+* **[!UICONTROL Custom From]** >  **[!UICONTROL To]** - Abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
 
@@ -76,7 +76,7 @@ Em Tirar nitidez da máscara, defina as opções desejadas. As opções de confi
 
 | Tirar nitidez das opções de Máscara | Descrição |
 | --- | --- |
-| Valor | Controla a quantidade de contraste que é aplicada aos pixels da borda.<br><br>Pense nisso como a intensidade do efeito. A principal diferença entre os valores de quantidade de Tirar nitidez da máscara no Dynamic Media Classic e os valores de quantidade no Adobe Photoshop é que o Photoshop tem um intervalo de quantidade de 1% a 500%. Considerando que no Dynamic Media Classic, o intervalo de valor é de 0,0 a 5,0. Um valor de 5,0 no Dynamic Media Classic é o equivalente bruto de 500% no Photoshop; um valor de 0,9 é o equivalente a 90%, e assim por diante. |
+| Valor | Controla a quantidade de contraste que é aplicada aos pixels da borda.<br><br>Pense nisso como a intensidade do efeito. A principal diferença entre os valores de quantidade de Tirar nitidez da máscara no Adobe Dynamic Media Classic e os valores de quantidade no Adobe Photoshop é que o Photoshop tem um intervalo de quantidade de 1% a 500%. Considerando que no Adobe Dynamic Media Classic, o intervalo de valor é de 0,0 a 5,0. Um valor de 5,0 no Adobe Dynamic Media Classic é o equivalente bruto de 500% no Photoshop; um valor de 0,9 é o equivalente a 90%, e assim por diante. |
 | Raio | Controla o raio do efeito. <br><br>O intervalo de valores é de 0 a 250. O efeito é executado em todos os pixels em uma imagem e irradia de todos os pixels em todas as direções. O raio é medido em pixels. Por exemplo, para obter um efeito de nitidez semelhante para uma imagem de 2000 x 2000 pixels e imagem de 500 x 500 pixels, você define um raio de dois pixels na imagem de 2000 x 2000 pixels. Em seguida, defina um valor de raio de um pixel na imagem de 500 x 500 pixels. Um valor maior é usado para uma imagem que tem mais pixels. |
 | Limite | O limite é um intervalo de contraste que é ignorado quando o filtro Tirar nitidez da máscara é aplicado. Esse efeito é importante para que nenhum &quot;ruído&quot; seja introduzido em uma imagem quando esse filtro for usado. O intervalo de valores é de 0 a 255, que é o número de etapas de brilho em uma imagem em tons de cinza. 0=preto, 128=50% cinza e 255=branco.<br><br>Por exemplo, um valor limite de 12 ignora pequenas variações é o brilho do tom da pele para evitar a adição de ruído, mas ainda adiciona o contraste da borda a áreas contrastantes, como onde as pálpebras tocam a pele.<br><br>Por exemplo, se você tiver uma foto do rosto de alguém, a Máscara de Nitidez afeta as partes contrastantes da imagem. Por exemplo, onde as pálpebras e a pele se encontram para criar uma área de contraste óbvia e a própria pele lisa. Mesmo a pele mais suave apresenta alterações sutis nos valores de brilho. Se você não usar um valor de limite, o filtro acentuará essas sutis alterações em pixels da pele. Por sua vez, um efeito ruidoso e indesejável é criado enquanto o contraste nas pálpebras aumenta, aumentando a nitidez.<br><br>Para evitar esse problema, é introduzido um valor limite que informa ao filtro para ignorar pixels que não alteram o contraste drasticamente, como pele lisa. <br><br>No gráfico zipper mostrado anteriormente, observe a textura ao lado dos zippers. O ruído da imagem é exibido porque os valores de limite eram muito baixos para suprimir o ruído. |
 | Monocromático | Selecione para ativar o brilho (intensidade) da imagem da máscara de nitidez.<br><br>Desmarque para desfazer a nitidez de cada componente de cor separadamente. |

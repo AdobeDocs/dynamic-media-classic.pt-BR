@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
 
-Os PSD (arquivos de documento do Photoshop) são usados com mais frequência no Dynamic Media Classic para criar modelos. Ao carregar um arquivo PSD, você pode criar um modelo do Dynamic Media Classic automaticamente a partir do arquivo (selecione a opção Criar modelo na tela Upload ).
+Os PSD (arquivos de documento do Photoshop) são usados com mais frequência no Adobe Dynamic Media Classic para criar modelos. Ao carregar um arquivo PSD, você pode criar um modelo do Adobe Dynamic Media Classic automaticamente a partir do arquivo (selecione a opção Criar modelo na tela Upload ).
 
-O Dynamic Media Classic cria várias imagens de um arquivo PSD com camadas se você usar o arquivo para criar um modelo; ele cria uma imagem para cada camada.
+O Adobe Dynamic Media Classic cria várias imagens de um arquivo PSD com camadas se você usar o arquivo para criar um modelo; ele cria uma imagem para cada camada.
 
 ## Opções de upload de PSD {#psd-upload-options}
 
@@ -47,11 +47,11 @@ Essas opções estão disponíveis ao carregar arquivos PSD:
 
    * **Manter espaço de cor original**  - Mantém o espaço de cor original da imagem.
 
-   * **Personalizado de > Para**  - abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Dynamic Media Classic. Consulte [Perfis ICC](/help/icc-profiles.md).
+   * **Personalizado de > Para**  - abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic. Consulte [Perfis ICC](/help/icc-profiles.md).
 
 * **Opções do Photoshop**
 
-   * **Manter camadas**  - Pega as camadas na PSD, se houver, em ativos individuais. As camadas de ativo permanecem associadas ao PSD. Você pode visualizá-los abrindo o arquivo PSD na exibição de Detalhes e selecionando o painel de camada. Consulte Exibição e edição de camadas em um arquivo PSD.
+   * **Manter camadas**  - Pega as camadas na PSD, se houver, em ativos individuais. As camadas de ativo permanecem associadas ao PSD. Você pode visualizá-los abrindo o arquivo PSD na Exibição detalhada e selecionando o painel da camada. Consulte Exibição e edição de camadas em um arquivo PSD.
 
    * **Criar modelo**  - Cria um modelo a partir das camadas no arquivo PSD.
 
@@ -59,7 +59,7 @@ Essas opções estão disponíveis ao carregar arquivos PSD:
 
    * **Estender camadas ao tamanho do plano de fundo**  - Estende o tamanho das camadas de imagem cortadas ao tamanho da camada de plano de fundo.
 
-   * **Nomenclatura de camada**  - as camadas no arquivo PSD são carregadas como imagens separadas. Para nomear essas imagens no Dynamic Media Classic, escolha uma das seguintes opções:
+   * **Nomenclatura de camada**  - as camadas no arquivo PSD são carregadas como imagens separadas. Para nomear essas imagens no Adobe Dynamic Media Classic, escolha uma das seguintes opções:
 
       * **Nome da camada**  - Nomeia as imagens após seus nomes de camada no arquivo PSD. Por exemplo, uma camada chamada Tag de preço no arquivo PSD original se torna uma imagem chamada Tag de preço. No entanto, se os nomes de camada no arquivo PSD forem nomes de camada padrão do Photoshop (Plano de fundo, Camada 1, Camada 2 e assim por diante), as imagens serão nomeadas após seus números de camada no arquivo PSD, não seus nomes de camada padrão.
 
@@ -71,9 +71,9 @@ Essas opções estão disponíveis ao carregar arquivos PSD:
 
 ## Exibição e edição de camadas em um arquivo PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Se você selecionou a opção Manter camadas ao fazer upload do PSD, o Dynamic Media Classic recortou as camadas individuais em ativos. Você pode exibir e editar as camadas de ativo pertencentes a um arquivo PSD abrindo o arquivo no Painel de navegação na exibição de Detalhes.
+Se você selecionou a opção Manter camadas ao fazer upload do PSD, o Adobe Dynamic Media Classic recortou as camadas individuais em ativos. Você pode exibir e editar as camadas de ativo pertencentes a um arquivo PSD abrindo o arquivo no Painel de navegação na Exibição de detalhes.
 
-1. Clique duas vezes no arquivo PSD completo no painel Procurar. O arquivo é aberto na exibição de Detalhes.
+1. Clique duas vezes no arquivo PSD completo no painel Procurar. O arquivo é aberto na Exibição de detalhes.
 
    >[!NOTE]
    >
@@ -90,4 +90,4 @@ Se você selecionou a opção Manter camadas ao fazer upload do PSD, o Dynamic M
 
 1. Clique em **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
 1. Para exibir ou editar uma camada diferente, clique em uma seta na parte inferior da visualização da camada.
-1. Para sair da exibição Detalhes da camada, clique no ícone **[!UICONTROL Grid view]**.
+1. Para sair da Exibição de detalhes da camada, clique no ícone **[!UICONTROL Grid View]**.

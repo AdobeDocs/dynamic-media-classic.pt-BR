@@ -1,6 +1,6 @@
 ---
 title: Criar um conjunto de imagens
-description: Saiba como criar um conjunto de imagens no Dynamic Media Classic.
+description: Saiba como criar um conjunto de imagens no Adobe Dynamic Media Classic.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
 **Para editar um conjunto de imagens:**
 
-1. Na exibição de Grade, navegue até um ImageSet e, em seguida, abaixo da imagem, selecione **[!UICONTROL Edit]**.
+1. Na Exibição de grade, navegue até um Conjunto de imagens e, em seguida, abaixo da imagem, selecione **[!UICONTROL Edit]**.
 1. Siga um destes procedimentos:
 
    * Para adicionar uma imagem (publicada ou não publicada), arraste-a de uma pasta em Adicionar ativos para a página **[!UICONTROL Views]** do conjunto de imagens.

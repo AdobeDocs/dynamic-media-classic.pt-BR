@@ -6,27 +6,27 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3711'
 ht-degree: 0%
 
 ---
 
 # Upload de arquivos{#uploading-files}
 
-Antes de fazer upload dos arquivos de ativos para o Dynamic Media Classic, verifique se os arquivos de ativos estão nomeados corretamente e se a estrutura de pastas está configurada e organizada da maneira desejada. Você pode fazer upload de arquivos de um site FTP fornecido pelo Dynamic Media Classic ou diretamente de seu computador ou rede. O Dynamic Media Classic oferece opções para otimização de arquivos durante o upload. Se você instalou o aplicativo de desktop Adobe Dynamic Media Classic, é possível fazer upload de arquivos e pastas arrastando-os diretamente da área de trabalho. Consulte [Configurações gerais do aplicativo](application-setup.md#general_settings).
+Antes de fazer upload dos arquivos de ativos para o Adobe Dynamic Media Classic, verifique se os arquivos de ativos estão nomeados corretamente e se a estrutura de pastas está configurada e organizada da maneira desejada. Você pode fazer upload de arquivos de um site FTP fornecido pelo Adobe Dynamic Media Classic ou diretamente de seu computador ou rede. O Adobe Dynamic Media Classic oferece opções para otimização de arquivos durante o upload. Se você instalou o aplicativo de desktop Adobe Dynamic Media Classic, é possível fazer upload de arquivos e pastas arrastando-os diretamente da área de trabalho. Consulte [Configurações gerais do aplicativo](application-setup.md#general_settings).
 
 ## Preparação de ativos e pastas para upload {#preparing-your-assets-and-folders-for-uploading}
 
-Antes de fazer upload dos ativos no Dynamic Media Classic, verifique se eles estão no formato e tamanho corretos. Também é necessário observar as regras do Dynamic Media Classic para nomear ativos. Ao configurar uma organização de pastas e uma estrutura para os arquivos, você pode localizar e trabalhar com arquivos facilmente.
+Antes de fazer upload dos ativos para o Adobe Dynamic Media Classic, verifique se eles estão no formato e tamanho corretos. Também é necessário observar as regras do Adobe Dynamic Media Classic para nomear ativos. Ao configurar uma organização de pastas e uma estrutura para os arquivos, você pode localizar e trabalhar com arquivos facilmente.
 
 ### Formatos de arquivo de ativo compatíveis {#supported-asset-file-formats}
 
-Esta tabela lista os formatos de arquivo de ativo compatíveis com o Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw suportados, consulte [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+Esta tabela lista os formatos de arquivo de ativo compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw suportados, consulte [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Formatos de arquivo de ativos | Descrição |
 |--- |--- |
@@ -42,7 +42,7 @@ Esta tabela lista os formatos de arquivo de ativo compatíveis com o Dynamic Med
 | PDF | PDF |
 | Photoshop | PSD, FXG e Camera Raw |
 | PostScript | EPS, PS |
-| Criação de imagem do Dynamic Media Classic | VNC, VNT, VNW |
+| Criação de imagem clássica do Adobe Dynamic Media | VNC, VNT, VNW |
 | SVG | SVG, SVGX |
 | TAR | TAR |
 | Vídeo | 3GP, AVI, M2P, M2T, M2TS, M2V, M4V, MOV, MP4, MPEG, MPG, MTS, OGV, TS, VOB, WMV/ASF |
@@ -66,7 +66,7 @@ Consulte também [Detectar formatos de arquivo não suportados para Dynamic Medi
 
 ### Tipos de ativos {#asset-types}
 
-Para obter os melhores resultados com o programa Dynamic Media Classic, use os formatos e tamanhos de arquivo recomendados. Esta tabela lista os tipos de ativos, alguns com formatos recomendados e tamanhos de arquivo para ativos usados com frequência.
+Para obter os melhores resultados com o programa Adobe Dynamic Media Classic, use os formatos e tamanhos de arquivo recomendados. Esta tabela lista os tipos de ativos, alguns com formatos recomendados e tamanhos de arquivo para ativos usados com frequência.
 
 | Tipo de ativo | Descrição/Recommendations |
 |--- |--- |
@@ -74,7 +74,7 @@ Para obter os melhores resultados com o programa Dynamic Media Classic, use os f
 | Imagens (para Dimensionamento de imagem, Zoom, Conjuntos de imagens, Conjuntos de rotação) | As imagens devem ter pelo menos 2000 pixels no tamanho mais longo; os tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. Recomendamos formatos de imagem sem perdas, incluindo arquivos TIFF e PNG. Se você usar uma imagem JPEG, use as configurações de mais alta qualidade. Os arquivos GIF de animação são manipulados como outro conteúdo estático. |
 | Catálogos eletrônicos | Use arquivos PDF de alta resolução criados no Adobe® Acrobat® ou um aplicativo Creative Suite salvo como &quot;pronto para a imprensa&quot;. Os PDFs incluem todas as fontes, imagens, máscaras e elementos gráficos referenciados necessários, como páginas únicas, páginas espelhadas duplas ou em um formato de várias páginas. Ordene suas páginas nomeando os arquivos em ordem alfanumérica. Coloque todos os PDFs do seu eCatalog em uma única pasta para facilitar o upload. Você pode selecionar opções de recorte no upload para remover a área de corte dos PDFs, incluindo marcas de recorte, destinos de registro ou barras de cores. A maioria dos arquivos PDF prontos para impressão está no espaço de cores CMYK, portanto, é importante obter o perfil de cores CMYK ICC usado com seus arquivos PDF. |
 | Modelos | Imagem em camadas ou design de layout que pode incluir texto, imagens e camadas. Camadas de imagem, sequências de texto e atributos, como cor e tamanho, podem ser parametrizados para que os dados variáveis possam ser personalizados. Os requisitos de imagem para usar em modelos são os mesmos que outras imagens. Prepare seus gráficos no Photoshop ou em outro programa de edição de imagens. Salve cada gráfico como um arquivo transparente nivelado no formato TIFF ou PNG. Certifique-se de que a resolução da imagem seja apropriada para o uso esperado. As imagens para impressão são 300 ppi. |
-| Vídeos | O Dynamic Media Classic é compatível com arquivos de vídeo salvos no formato OGV e MP4. Você pode transcodificar arquivos no formato MP4 no upload. Consulte [Formatos de arquivo de ativo compatíveis](#supported-static-file-formats). |
+| Vídeos | O Adobe Dynamic Media Classic é compatível com arquivos de vídeo salvos no formato OGV e MP4. Você pode transcodificar arquivos no formato MP4 no upload. Consulte [Formatos de arquivo de ativo compatíveis](#supported-static-file-formats). |
 | Fontes | TrueType, Type1 (somente Windows®), fontes OpenType® e fontes PhotoFonts carregadas |
 | Imagens | Imagens e arquivos de imagem em camadas. |
 | Conjuntos de imagens e conjuntos de amostras | Um conjunto de imagens relacionadas que pode ser exibido em um visualizador. |
@@ -89,11 +89,11 @@ Para obter os melhores resultados com o programa Dynamic Media Classic, use os f
 
 >[!NOTE]
 >
->Ao fazer upload de arquivos de imagem e PDFs para o Dynamic Media Classic, o sistema converte esses arquivos de origem em arquivos P-TIFF (Pyramid TIFF). Esses P-TIFFs são os arquivos publicados posteriormente nos Servidores de Imagem da Dynamic Media. O Dynamic Media Classic usa o formato de arquivo Pyramid Tiff , pois contém várias taxas de zoom que permitem o zoom rápido quando visualizado com um Visualizador de Zoom do Dynamic Media Classic.
+>Quando você carrega arquivos de imagem e PDFs no Adobe Dynamic Media Classic, o sistema converte esses arquivos de origem em arquivos P-TIFF (Pyramid TIFF). Esses P-TIFFs são os arquivos publicados posteriormente nos Servidores de Imagem da Dynamic Media. O Adobe Dynamic Media Classic usa o formato de arquivo Pyramid Tiff , pois contém várias taxas de zoom que permitem o zoom rápido quando visualizado com um Visualizador de zoom Adobe Classic.
 
 ### Formatos de arquivo estático compatíveis {#supported-static-file-formats}
 
-O Dynamic Media Classic é compatível com vários formatos de arquivo estáticos. O conteúdo estático é qualquer ativo publicado &quot;no estado em que se encontra&quot;, como CSS, PDF, SVG e XML.
+O Adobe Dynamic Media Classic é compatível com vários formatos de arquivo estático. O conteúdo estático é qualquer ativo publicado &quot;no estado em que se encontra&quot;, como CSS, PDF, SVG e XML.
 
 Os seguintes tipos de arquivo podem ser publicados:
 
@@ -108,17 +108,17 @@ Os seguintes tipos de arquivo podem ser publicados:
 * XML
 * ZIP
 
-O Dynamic Media Classic não fornece a opção para gerar um URL de visualização de conteúdo estático.
+O Adobe Dynamic Media Classic não fornece a opção para gerar um URL de visualização de conteúdo estático.
 
 ### Requisitos de nome de arquivo {#filename-requirements}
 
-Como as extensões de nome de arquivo são removidas dos nomes de arquivo durante o processo de upload, o sistema não permite que os arquivos tenham o mesmo nome raiz. No sistema Dynamic Media Classic, o nome do arquivo de ativo menos a extensão do nome do arquivo se torna a ID do ativo para o ativo. Por esse motivo, dois ativos não podem ter o mesmo nome.
+Como as extensões de nome de arquivo são removidas dos nomes de arquivo durante o processo de upload, o sistema não permite que os arquivos tenham o mesmo nome raiz. No sistema Adobe Dynamic Media Classic, o nome do arquivo de ativo menos a extensão do nome do arquivo se torna a ID do ativo. Por esse motivo, dois ativos não podem ter o mesmo nome.
 
 Certifique-se de que todos os usuários da empresa entendam essas regras de nomenclatura de arquivos:
 
 * As IDs de ativo com o mesmo nome exato não são permitidas no sistema.
 * Os nomes de ID de ativo fazem distinção entre maiúsculas e minúsculas.
-* Como prática recomendada, verifique se as IDs de ativo não contêm espaços em branco (por exemplo, jacket.tif e blue jacket.jpg). O ASCII do Dynamic Media Classic codifica espaços em branco em nomes de ativos quando usa nomes de ativos para criar strings de URL. Esses códigos ASCII são difíceis de ler, o que pode dificultar a leitura de URLs.
+* Como prática recomendada, verifique se as IDs de ativo não contêm espaços em branco (por exemplo, jacket.tif e blue jacket.jpg). O Adobe Dynamic Media Classic ASCII codifica espaços em branco em nomes de ativos quando usa nomes de ativos para criar strings de URL. Esses códigos ASCII são difíceis de ler, o que pode dificultar a leitura de URLs.
 * Caracteres específicos de idioma são permitidos em nomes de arquivo. No entanto, os seguintes caracteres não são permitidos em nomes de arquivo:
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -134,12 +134,12 @@ Geralmente, um nome de arquivo de ativo pode ser o mesmo que o número do item, 
 
 ### Organização e estrutura de pastas {#folder-organization-and-structure}
 
-Organize e estruture pastas e subpastas de seu conteúdo no Dynamic Media Classic antes de fazer upload do seu conteúdo no sistema. O planejamento dessa forma tem duas grandes vantagens:
+Organize e estruture pastas e subpastas para seu conteúdo no Adobe Dynamic Media Classic antes de fazer upload do seu conteúdo no sistema. O planejamento dessa forma tem duas grandes vantagens:
 
-* Ao carregar seu conteúdo para o Dynamic Media Classic via FTP, você pode dizer ao sistema para replicar sua estrutura de pastas durante o upload. Dessa forma, seu conteúdo é organizado nas mesmas pastas e subpastas do Dynamic Media Classic que está em seu computador ou rede. (Para replicar a estrutura de pastas no Dynamic Media Classic, selecione a opção Incluir subpastas ao fazer upload de ativos via FTP.)
+* Ao carregar seu conteúdo para o Adobe Dynamic Media Classic via FTP, você pode dizer ao sistema para replicar sua estrutura de pastas durante o upload. Dessa forma, seu conteúdo é organizado nas mesmas pastas e subpastas no Adobe Dynamic Media Classic, como está no computador ou na rede. (Para replicar a estrutura de pastas no Adobe Dynamic Media Classic, selecione a opção Incluir subpastas ao fazer upload de ativos via FTP.)
 * Reorganizar pastas dentro do sistema depois que os arquivos forem carregados é muito mais difícil do que começar com uma estrutura de pastas cuidadosamente considerada.
 
-A abordagem de nomenclatura de pastas e a estrutura que você escolher para armazenar seu conteúdo no Dynamic Media Classic dependem das necessidades da sua organização. Estas são algumas estruturas de pastas de exemplo:
+A abordagem de nomenclatura de pastas e a estrutura que você escolher para armazenar seu conteúdo no Adobe Dynamic Media Classic dependem das necessidades da sua organização. Estas são algumas estruturas de pastas de exemplo:
 
 **Baseado em SKU**  - as pastas são nomeadas de acordo com SKUs ou números de item. Por exemplo, pastas separadas são criadas para todas as séries de 0, 20 e 30 números.
 
@@ -153,19 +153,19 @@ A abordagem de nomenclatura de pastas e a estrutura que você escolher para arma
 
 Você pode fazer upload de arquivos individuais da área de trabalho ou fazer upload de pastas via FTP. Se desejar fazer upload de mais de 100 MB de arquivos ou fazer upload de pastas e subpastas inteiras, selecione a guia **VIA FTP**.
 
-O Dynamic Media Classic envia uma mensagem de email para confirmar quando seu trabalho de upload começa e termina, e para notificá-lo de qualquer problema.
+O Adobe Dynamic Media Classic envia uma mensagem de email para confirmar o início e o término do trabalho de upload, bem como para notificá-lo sobre qualquer problema.
 
-Durante (ou imediatamente após) um grande trabalho de upload, alguns novos itens poderiam exibir a mensagem &quot;Imagem ainda não otimizada&quot;. Essa mensagem é exibida porque os arquivos ainda não foram totalmente processados e adicionados ao Dynamic Media Classic. Você pode otimizar esses arquivos posteriormente. Consulte [Otimizar arquivos](application-setup.md#optimize_files).
+Durante (ou imediatamente após) um grande trabalho de upload, alguns novos itens poderiam exibir a mensagem &quot;Imagem ainda não otimizada&quot;. Essa mensagem é exibida porque os arquivos ainda não foram totalmente processados e adicionados ao Adobe Dynamic Media Classic. Você pode otimizar esses arquivos posteriormente. Consulte [Otimizar arquivos](application-setup.md#optimize_files).
 
 ### Upload de arquivos usando a guia Da área de trabalho {#upload-files-using-sps-desktop-application}
 
-O aplicativo Dynamic Media Classic Desktop permite fazer upload de arquivos e pastas arrastando.
+O aplicativo Adobe Dynamic Media Classic Desktop permite carregar arquivos e pastas arrastando.
 
-1. No aplicativo Dynamic Media Classic Desktop, na barra Navegação global, clique em **[!UICONTROL Upload]**.
+1. No aplicativo Adobe Dynamic Media Classic Desktop, na barra Navegação global, clique em **[!UICONTROL Upload]**.
 1. Na página Upload , clique na guia **[!UICONTROL From Desktop]** .
 1. No lado esquerdo da página Upload, na área **[!UICONTROL Select Files for Upload]**, clique em **[!UICONTROL Browse]** para selecionar os arquivos ou pastas que deseja fazer upload e clique em **[!UICONTROL Open]**.
 1. No lado direito da página Upload, na área **Escolher destino da pasta**, navegue até uma pasta de destino onde deseja adicionar os arquivos ou pastas carregados.
-1. (Opcional) Próximo à parte inferior da página Upload , no campo **[!UICONTROL Job Name]** , especifique o novo nome do trabalho de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema fornecido pelo Dynamic Media Classic. O trabalho e outros trabalhos de upload e publicação são registrados na página Trabalhos, onde você pode verificar o status dos trabalhos. Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
+1. (Opcional) Próximo à parte inferior da página Upload , no campo **[!UICONTROL Job Name]** , especifique o novo nome do trabalho de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema fornecido pelo Adobe Dynamic Media Classic. O trabalho e outros trabalhos de upload e publicação são registrados na página Trabalhos, onde você pode verificar o status dos trabalhos. Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
 1. (Opcional) Próximo à parte inferior da página Fazer upload , selecione **[!UICONTROL Publish After Uploading]** se desejar publicar automaticamente os ativos que você fez upload.
 Ao publicar arquivos, os arquivos são enviados para servidores dinâmicos. As URLs desses arquivos podem ser usadas em sites e aplicativos externos. Essa mesma opção também está disponível na caixa de diálogo Opções de trabalho.
 1. (Opcional) Próximo à parte inferior da página Upload , selecione **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** se desejar que os arquivos carregados substituam os arquivos existentes com os mesmos nomes. Essa mesma opção também está disponível na caixa de diálogo Opções de trabalho.
@@ -176,16 +176,16 @@ O nome dessa opção pode ser diferente, dependendo das configurações em **App
 
 1. Na caixa de diálogo Upload Job Options , clique em **[!UICONTROL Save]**.
 1. No canto inferior direito da página Upload, clique em **[!UICONTROL Submit Upload]**.
-Para ver o progresso do upload, clique em **[!UICONTROL Jobs]** na Barra de Navegação Global. Você pode continuar trabalhando no Dynamic Media Classic e retornar à página Trabalhos a qualquer momento para revisar um trabalho em andamento. Para cancelar um trabalho de upload em andamento, selecione **[!UICONTROL Cancel]** ao lado da Duração.
+Para ver o progresso do upload, clique em **[!UICONTROL Jobs]** na Barra de Navegação Global. Você pode continuar trabalhando no Adobe Dynamic Media Classic e retornar à página Trabalhos a qualquer momento para revisar um trabalho em andamento. Para cancelar um trabalho de upload em andamento, selecione **[!UICONTROL Cancel]** ao lado da Duração.
 
 ### Upload de arquivos usando a guia FTP do VIA {#upload-files-using-via-ftp}
 
-1. Faça logon no site FTP do Dynamic Media Classic, que é específico para sua região específica. Use o nome de usuário e a senha FTP recebidos do seu administrador.
-1. No Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Upload]**.
+1. Faça logon no site FTP do Adobe Dynamic Media Classic, específico para sua região específica. Use o nome de usuário e a senha FTP recebidos do seu administrador.
+1. No Adobe Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Upload]**.
 1. Na página Upload , clique na guia **[!UICONTROL VIA FTP]** .
 1. No lado esquerdo da página Upload, na área **[!UICONTROL Choose FTP Folder For Upload]**, escolha uma pasta FTP da qual deseja fazer upload de arquivos.
-1. No lado direito da página Upload , na área **[!UICONTROL Choose Adobe Dynamic Media Folder Destination]** , escolha uma pasta de destino no Dynamic Media Classic.
-1. (Opcional) Próximo à parte inferior da página Upload , no campo **[!UICONTROL Job Name]** , especifique o novo nome do trabalho de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema fornecido pelo Dynamic Media Classic. O trabalho e outros trabalhos de upload e publicação são registrados na página Trabalhos, onde você pode verificar o status dos trabalhos.
+1. No lado direito da página Upload , na área **[!UICONTROL Choose Adobe Dynamic Media Folder Destination]** , escolha uma pasta de destino no Adobe Dynamic Media Classic.
+1. (Opcional) Próximo à parte inferior da página Upload , no campo **[!UICONTROL Job Name]** , especifique o novo nome do trabalho de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema fornecido pelo Adobe Dynamic Media Classic. O trabalho e outros trabalhos de upload e publicação são registrados na página Trabalhos, onde você pode verificar o status dos trabalhos.
 Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
 1. (Opcional) Próximo à parte inferior da página Fazer upload , selecione **[!UICONTROL Publish After Upload]** se desejar publicar automaticamente os ativos que você fez upload.
 Ao publicar arquivos, os arquivos são enviados para servidores dinâmicos. As URLs desses arquivos podem ser usadas em sites e aplicativos externos. Essa mesma opção também está disponível na caixa de diálogo Opções de trabalho.
@@ -199,7 +199,7 @@ O nome dessa opção pode ser diferente, dependendo das configurações em **[!U
 1. Na caixa de diálogo Upload Job Options , clique em **[!UICONTROL Save]**.
 1. No canto inferior direito da página Upload, clique em **[!UICONTROL Submit Upload]**.
 
-   Para ver o progresso do upload, na Barra de Navegação Global, clique em **[!UICONTROL Jobs]**. A página Trabalhos mostra o progresso do upload. Você pode continuar trabalhando no Dynamic Media Classic e retornar à página Trabalhos a qualquer momento para revisar um trabalho em andamento.
+   Para ver o progresso do upload, na Barra de Navegação Global, clique em **[!UICONTROL Jobs]**. A página Trabalhos mostra o progresso do upload. Você pode continuar trabalhando no Adobe Dynamic Media Classic e retornar à página Trabalhos a qualquer momento para revisar um trabalho em andamento.
 
 Para cancelar um trabalho de upload em andamento, clique em **[!UICONTROL Cancel]** ao lado de Duração.
 
@@ -228,7 +228,7 @@ Ao carregar arquivos, você pode escolher entre as seguintes opções na caixa d
 Selecione essa opção se quiser extrair automaticamente todos os arquivos do arquivo ZIP ou TAR carregado. Essa mesma opção também está disponível na caixa de diálogo Opções de trabalho.
 
    * **Incluir subpastas**  - Disponível somente se você selecionou a  **[!UICONTROL VIA FTP]** guia.
-Selecione essa opção se desejar fazer upload de subpastas da pasta que deseja fazer upload. Os nomes da pasta e suas subpastas que você faz upload são inseridos automaticamente no Dynamic Media Classic.
+Selecione essa opção se desejar fazer upload de subpastas da pasta que deseja fazer upload. Os nomes da pasta e suas subpastas que você faz upload são inseridos automaticamente no Adobe Dynamic Media Classic.
 
    * **Processar arquivos de metadados**  - Disponível somente se você selecionou uma das  **[!UICONTROL VIA FTP]** guias. Selecione essa opção se desejar fazer upload de um arquivo XML ou delimitado por tabulação para adicionar metadados a vários ativos.
 Consulte [Importar metadados (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
@@ -243,10 +243,10 @@ Aparar com base na cor: Especifique 0 para cortar pixels somente se eles corresp
 Aparar com base na transparência: Especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
       * **Tolerância**  - Arraste o controle deslizante para especificar uma tolerância de 0 a 1.
 
-* **OPTIONS DE PERFIL DE COR**  - Escolha uma conversão de cores ao criar arquivos otimizados usados para a entrega dinâmica do Dynamic Media Classic:
+* **OPTIONS DE PERFIL DE COR**  - Escolha uma conversão de cores ao criar arquivos otimizados usados para a entrega dinâmica do Adobe Dynamic Media Classic:
 
    * **Preservação de cor padrão**  - Mantém as cores da imagem de origem sempre que as imagens contêm informações sobre o espaço de cores; não há conversão de cores. Quase todas as imagens atuais têm o perfil de cores apropriado já incorporado. No entanto, se uma imagem de origem CMYK não contiver um perfil de cor incorporado, as cores serão convertidas em espaço de cor sRGB (azul verde padrão). sRGB é o espaço de cores recomendado para exibir imagens nas páginas da Web.
-   * **Manter o espaço de cores original**  - Mantém as cores originais sem qualquer conversão de cores no ponto de assimilação no Dynamic Media Classic. Para imagens sem um perfil de cor incorporado, qualquer conversão de cor necessária para processar solicitações para a imagem é feita usando os perfis de cor padrão, conforme configurado nas configurações de Publicação. Esses perfis de cores nem sempre estão alinhados com a cor nos arquivos criados com essa opção. Portanto, é recomendável usar a opção Preservação de cor padrão.
+   * **Manter o espaço de cores original**  - Mantém as cores originais sem qualquer conversão de cores no ponto de assimilação no Adobe Dynamic Media Classic. Para imagens sem um perfil de cor incorporado, qualquer conversão de cor necessária para processar solicitações para a imagem é feita usando os perfis de cor padrão, conforme configurado nas configurações de Publicação. Esses perfis de cores nem sempre estão alinhados com a cor nos arquivos criados com essa opção. Portanto, é recomendável usar a opção Preservação de cor padrão.
    * **Personalizado de > Para**  - abre menus para que você possa escolher um  **[!UICONTROL Convert From]** e um espaço de  **[!UICONTROL Convert To]** cores. Essa opção avançada substitui qualquer informação de cor incorporada no arquivo de origem. Selecione essa opção somente quando todas as imagens enviadas contiverem dados de perfil de cores incorretos ou ausentes.
 
 * **OPTIONS de EDIÇÃO DE IMAGEM**  - É possível preservar as  &lt;> máscaras de recorte em imagens e escolher um perfil de cor.
@@ -305,6 +305,6 @@ A nova tarefa envia uma notificação para o endereço especificado para que o c
 >[!MORELIKETHIS]
 >
 >* [Trabalhar com pastas de ativos](asset-folders.md#working_with_asset_folders)
-* [Lidar com trabalhos recorrentes de upload e publicação](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
-* [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+>* [Lidar com trabalhos recorrentes de upload e publicação](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+>* [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
 

@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # Publicação de um conjunto de mídia mista{#publishing-a-mixed-media-set}
 
-Crie um trabalho de publicação para publicar um Conjunto de mídias mistas que você marcou para publicação no Dynamic Media Classic Video Server e no Image Server. O Dynamic Media Classic oferece opções de publicação avançadas para servidores específicos e opções para republicação de ativos que já foram publicados.
+Crie um trabalho de publicação para publicar um Conjunto de mídias mistas marcado para publicação no Adobe Dynamic Media Classic Video Server e no Image Server. O Adobe Dynamic Media Classic oferece opções de publicação avançadas para servidores específicos e opções para republicação de ativos que já foram publicados.
 
 >[!NOTE]
 >
 >Os Conjuntos de mídias mistas exigem que você publique no **Servidor de vídeo** e também no **Servidor de imagem**. Você usa o **Servidor de vídeo** para publicar os vídeos reais que você marcou para publicação. E você usa o **Servidor de imagem** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.
 
-O Dynamic Media Classic acompanha trabalhos de publicação na tela Trabalhos .
+O Adobe Dynamic Media Classic acompanha trabalhos de publicação na tela Trabalhos .
 
 Consulte [Publicação](publishing-files.md#publishing_files).
 

@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
 # Publicação de imagens principais{#publishing-master-images}
 
-Publicar seus arquivos de imagem os publica nos Servidores de Imagem da Dynamic Media, onde estão disponíveis para seu site e aplicativo. Além disso, durante o processo de publicação, o Dynamic Media Classic ativa as cadeias de caracteres de URL necessárias para o site e aplicativo.
+Publicar seus arquivos de imagem os publica nos Servidores de Imagem da Dynamic Media, onde estão disponíveis para seu site e aplicativo. Além disso, durante o processo de publicação, o Adobe Dynamic Media Classic ativa as cadeias de caracteres de URL necessárias para o site e aplicativo.
 
 ## Marcar imagens principais para publicação {#marking-master-images-for-publish}
 
-Imagens principais devem ser marcadas para publicação para que sejam copiadas para os Servidores de Imagem Dynamic Media. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando no ícone **[!UICONTROL Mark for Publish]**. Também é possível marcar imagens para publicação ao carregá-las no Dynamic Media Classic.
+Imagens principais devem ser marcadas para publicação para que sejam copiadas para os Servidores de Imagem Dynamic Media. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando no ícone **[!UICONTROL Mark for Publish]**. Também é possível marcar imagens para publicação ao carregá-las no Adobe Dynamic Media Classic.
 
 ## Publicar suas imagens principais {#publishing-your-master-images}
 

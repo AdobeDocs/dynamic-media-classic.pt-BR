@@ -6,10 +6,10 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
-feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -22,13 +22,13 @@ Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog. Esses arquivos c
 
 ## Preparação de arquivos PDF {#preparing-your-pdf-files}
 
-Prepare seus arquivos PDF antes de carregá-los no Dynamic Media Classic:
+Prepare seus arquivos PDF antes de carregá-los no Adobe Dynamic Media Classic:
 
 * Para facilitar o upload dos arquivos, coloque todos os arquivos na mesma pasta no computador ou na rede.
 * Nomeie os arquivos em ordem alfanumérica por página. A ordenação das páginas facilitará colocar as páginas na ordem correta após os arquivos serem carregados.
-* Para ver se as páginas em PDF contêm marcas de corte, destinos de registro ou barras de cores, examine as páginas. Estas marcas determinam onde cortar o papel quando os documentos são impressos; eles devem ser removidos antes que seu eCatalog seja colocado na Web. O Dynamic Media Classic fornece opções para marcas de corte ao carregar arquivos PDF.
+* Para ver se as páginas em PDF contêm marcas de corte, destinos de registro ou barras de cores, examine as páginas. Estas marcas determinam onde cortar o papel quando os documentos são impressos; eles devem ser removidos antes que seu eCatalog seja colocado na Web. O Adobe Dynamic Media Classic fornece opções para marcas de corte ao carregar arquivos PDF.
 * Se você quiser que os visualizadores pesquisem seu eCatalog por palavra-chave, descubra se seus arquivos PDF estão &quot;nivelados&quot;. Não é possível extrair palavras de pesquisa de arquivos PDF nivelados. Para descobrir se um PDF está nivelado, tente selecionar texto dentro dele. Se não for possível selecionar o texto, o PDF será nivelado e os visualizadores não poderão pesquisar por palavra-chave em seu eCatalog.
-* Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. Por padrão, o Dynamic Media Classic pode detectar de forma inteligente essas imagens CMYK e convertê-las usando um perfil de cores CMYK interno. No entanto, se você quiser usar um perfil de cor personalizado para converter imagens CMYK, poderá fazer isso.
+* Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. Por padrão, o Adobe Dynamic Media Classic pode detectar de forma inteligente essas imagens CMYK e convertê-las usando um perfil de cor CMYK interno. No entanto, se você quiser usar um perfil de cor personalizado para converter imagens CMYK, poderá fazer isso.
 
    Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
 
@@ -46,7 +46,7 @@ Selecione os arquivos que deseja fazer upload e, em seguida, selecione estas *Op
 
 * **Gerar catálogo eletrônico automaticamente a partir de várias páginas em PDF (opcional)**  - na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. Selecione **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** para criar automaticamente um eCatalog ao fazer upload. Você pode ir direto para a tela eCatalog e começar a trabalhar em seu eCatalog sem precisar primeiro selecionar arquivos PDF e selecionar o comando Criar. O eCatalog é nomeado após seu arquivo PDF.
 
-* **Solução**  - Na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. No campo de texto **[!UICONTROL Resolution]**, insira um valor. O Dynamic Media Classic recomenda 150 pixels por polegada.
+* **Solução**  - Na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. No campo de texto **[!UICONTROL Resolution]**, insira um valor. O Adobe Dynamic Media Classic recomenda 150 pixels por polegada.
 
 * **Colorspace**  - Na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cores, escolha **[!UICONTROL Detect automatically]**. Geralmente, os PDFs criados para saída de impressão estão em CMYK; Os PDFs para visualização online são RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDFs usam ambos os espaços de cores, por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam RGB. Se você tiver carregado um perfil ICC, seu nome aparecerá no menu Colorspace e você poderá escolhê-lo lá.
 
@@ -56,7 +56,7 @@ Selecione os arquivos que deseja fazer upload e, em seguida, selecione estas *Op
 
    * **Manter espaço de cor original**  - Mantém o espaço de cor original.
 
-   * **Personalizar de > Para**  - Abre submenus para que você possa escolher um  **[!UICONTROL Convert From]** e um espaço de  **[!UICONTROL Convert To]** cores. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Dynamic Media Classic.
+   * **Personalizar de > Para**  - Abre submenus para que você possa escolher um  **[!UICONTROL Convert From]** e um espaço de  **[!UICONTROL Convert To]** cores. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 <!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
 

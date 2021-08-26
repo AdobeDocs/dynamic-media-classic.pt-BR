@@ -10,9 +10,9 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,13 @@ Como parte da criação do seu eCatalog, você pode organizar páginas ou págin
 >
 >No canto superior esquerdo da página de CRXDE Lite, clique em **[!UICONTROL Save All]**.
 >
->Agora você pode criar eCatalogs no Dynamic Media Classic.
+>Agora você pode criar eCatalogs no Adobe Dynamic Media Classic.
 
 Este eCatalog Quick Start foi projetado para ajudar você a ativar e executar rapidamente com eCatalogs. Siga as etapas de 1 a 7. Após cada etapa é uma referência cruzada a um cabeçalho de tópico, onde você pode encontrar mais informações.
 
 ## 1. Upload dos arquivos PDF
 
-Os arquivos Adobe PDF geralmente são a origem de um eCatalog. Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. O Dynamic Media Classic detecta essas imagens e as converte usando um perfil de cor CMYK padrão. No entanto, você deve carregar e usar um perfil de cor personalizado.
+Os arquivos Adobe PDF geralmente são a origem de um eCatalog. Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. O Adobe Dynamic Media Classic detecta essas imagens e as converte usando um perfil de cores CMYK padrão. No entanto, você deve carregar e usar um perfil de cor personalizado.
 
 Na barra Navegação global, clique em **[!UICONTROL Upload]** para iniciar o upload de arquivos PDF ou imagens para seu eCatalog. Você pode fazer upload de arquivos do desktop ou via FTP; O FTP é recomendado se você estiver carregando muitos arquivos ou arquivos com mais de 100 MB.
 
@@ -69,7 +69,7 @@ Na página Catálogo eletrônico , na guia **[!UICONTROL Order Pages]** , seleci
 
 Para adicionar páginas, selecione uma pasta na Biblioteca de ativos e arraste arquivos PDF ou de imagem da tela Páginas de pedidos. Em vez dos números de página padrão, você pode fornecer nomes de página personalizados ou importar muitos nomes de página.
 
-Clique em **[!UICONTROL Save]**, insira um nome para seu eCatalog, escolha uma pasta do Dynamic Media Classic para armazená-lo e clique em **[!UICONTROL Save]**. Sempre que alterar a ordem da página ou editar seu eCatalog, salve as alterações clicando em **[!UICONTROL Save]**.
+Clique em **[!UICONTROL Save]**, insira um nome para seu eCatalog, escolha uma pasta do Adobe Dynamic Media Classic para armazená-lo e clique em **[!UICONTROL Save]**. Sempre que alterar a ordem da página ou editar seu eCatalog, salve as alterações clicando em **[!UICONTROL Save]**.
 
 Consulte [Criação de um Catálogo eletrônico](creating-ecatalog.md).
 
@@ -91,7 +91,7 @@ Consulte [Gerenciar conteúdo do painel de informações em Catálogos eletrôni
 
 ## 4. Configuração das predefinições do visualizador de catálogo eletrônico
 
-Os usuários finais visualizam seu eCatalog no Visualizador do eCatalog. Se você for um administrador, poderá configurar o eCatalog Viewer. Você pode alterar a cor do contorno e selecionar uma nova &quot;capa&quot; para marcar seu eCatalog. O Dynamic Media Classic vem com várias predefinições do visualizador de catálogo eletrônico de &quot;prática recomendada&quot;. Você pode escolher uma dessas predefinições para exibir seus eCatalogs. Você também pode criar uma predefinição do visualizador do eCatalog própria se você for um administrador.
+Os usuários finais visualizam seu eCatalog no Visualizador do eCatalog. Se você for um administrador, poderá configurar o eCatalog Viewer. Você pode alterar a cor do contorno e selecionar uma nova &quot;capa&quot; para marcar seu eCatalog. O Adobe Dynamic Media Classic vem com várias Predefinições de visualizador de catálogo eletrônico de &quot;práticas recomendadas&quot;. Você pode escolher uma dessas predefinições para exibir seus eCatalogs. Você também pode criar uma predefinição do visualizador do eCatalog própria se você for um administrador.
 
 Para criar uma Predefinição do Visualizador de Catálogo Eletrônico, na barra Navegação Global, clique em **[!UICONTROL Setup]** e escolha **[!UICONTROL Viewer Presets]**. Em seguida, clique em **[!UICONTROL Add]**, escolha uma plataforma e clique em **[!UICONTROL eCatalog > Viewer]**.
 
@@ -109,7 +109,7 @@ Consulte [Visualização de catálogos eletrônicos no Visualizador de catálogo
 
 ## 6. Publicar eCatalog e PDFs associados
 
-A publicação do seu eCatalog e do PDF associado o coloca nos Servidores de Imagem da Dynamic Media para que ele possa ser entregue ao seu site e aplicativo. Como parte do processo de publicação, o Dynamic Media Classic ativa a cadeia de caracteres de URL do seu eCatalog. Use este URL para chamar o eCatalog dos Servidores de Imagem da Dynamic Media para seu site ou aplicativo.
+A publicação do seu eCatalog e do PDF associado o coloca nos Servidores de Imagem da Dynamic Media para que ele possa ser entregue ao seu site e aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa a cadeia de caracteres de URL do seu eCatalog. Use este URL para chamar o eCatalog dos Servidores de Imagem da Dynamic Media para seu site ou aplicativo.
 
 Depois de marcar seu eCatalog e o PDF para publicação no Painel de navegação, selecione o botão Publicar na barra de navegação global para iniciar uma publicação. Na tela Publicar , clique em **[!UICONTROL Submit Publish]**.
 
@@ -117,7 +117,7 @@ Consulte [Publicar catálogos eletrônicos e PDFs associados](publishing-ecatalo
 
 ## 7. Vincular um eCatalog a uma página da Web
 
-O Dynamic Media Classic ativa a string de chamada de URL necessária para exibir seu eCatalog quando você o publica nos Dynamic Media Image Servers. Você pode copiar essa cadeia de caracteres do URL da tela de Visualização e do Painel de navegação (na exibição de Detalhes) selecionando URLs no painel. Após copiar a string do URL, ele fica disponível para seus sites e aplicativos.
+O Adobe Dynamic Media Classic ativa a string de chamada de URL necessária para exibir seu eCatalog ao publicá-lo em Servidores de imagem da Dynamic Media. Você pode copiar essa cadeia de caracteres do URL da tela Visualização e do Painel de navegação (na Exibição de detalhes) selecionando URLs no painel. Após copiar a string do URL, ele fica disponível para seus sites e aplicativos.
 
 Trabalhe com sua equipe de TI para colocar o link para o eCatalog no local apropriado em sua página da Web. Quando os usuários clicam no link, o eCatalog Viewer é exibido e os usuários podem navegar no seu eCatalog.
 

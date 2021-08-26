@@ -10,16 +10,16 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
 # Publicar modelos{#publishing-templates}
 
-Publicar seu modelo o coloca em Servidores de imagem da Dynamic Media, onde está disponível para seu site e aplicativo. Durante o processo de publicação, o Dynamic Media Classic ativa os URLs necessários para seu site e aplicativo.
+Publicar seu modelo o coloca em Servidores de imagem da Dynamic Media, onde está disponível para seu site e aplicativo. Durante o processo de publicação, o Adobe Dynamic Media Classic ativa os URLs necessários para seu site e aplicativo.
 
 >[!NOTE]
 >
@@ -36,5 +36,5 @@ Para publicar modelos nos Dynamic Media Image Servers, na barra Navegação glob
 >[!MORELIKETHIS]
 >
 >* [Marcar ativos para publicar](publishing-files.md#publish_after_uploading)
-* [Criação de um trabalho de publicação](publishing-files.md#creating_a_publish_job)
+>* [Criação de um trabalho de publicação](publishing-files.md#creating_a_publish_job)
 

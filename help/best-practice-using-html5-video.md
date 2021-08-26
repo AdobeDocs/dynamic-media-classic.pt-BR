@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
-feature: Dynamic Media Classic,Visualizadores,Vídeo
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
 # Práticas recomendadas para usar o visualizador de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
-As predefinições do visualizador de vídeo HTML5 do Dynamic Media Classic são players de vídeo robustos. No lado de design do reprodutor, é possível criar a funcionalidade inteira do reprodutor de vídeo usando ferramentas de desenvolvimento da Web padrão. Por exemplo, você pode projetar os botões, controles e o plano de fundo personalizado da imagem de pôster usando HTML5 e CSS para ajudar você a alcançar seus clientes com uma aparência personalizada.
+As predefinições do visualizador de vídeo HTML5 do Adobe Dynamic Media Classic são players de vídeo robustos. No lado de design do reprodutor, é possível criar a funcionalidade inteira do reprodutor de vídeo usando ferramentas de desenvolvimento da Web padrão. Por exemplo, você pode projetar os botões, controles e o plano de fundo personalizado da imagem de pôster usando HTML5 e CSS para ajudar você a alcançar seus clientes com uma aparência personalizada.
 
 No lado da reprodução do visualizador, ele detecta automaticamente o recurso de vídeo do navegador. Em seguida, ele serve o vídeo usando HLS (HTTP Live Streaming), também conhecido como streaming de vídeo adaptável. Ou, se esse método de delivery não estiver presente, o HTML5 progressivo será usado.
 
@@ -33,13 +33,13 @@ Você estende o alcance do seu conteúdo de mídia avançada para usuários de d
 
 Consulte também [Sobre visualizadores HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
 
-## Reprodução de vídeo em computadores desktop e dispositivos móveis usando o Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+## Reprodução de vídeo em computadores desktop e dispositivos móveis usando o Adobe Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 Para streaming de vídeo adaptável para desktop e dispositivos móveis, os vídeos usados para alternância de taxa de bits são baseados em todos os vídeos MP4 no Adaptive Video Set.
 
 A reprodução de vídeo ocorre usando HLS ou vídeo progressivo. O HLS (HTTP Live Streaming) é um padrão da Apple para streaming de vídeo adaptável que ajusta automaticamente a reprodução com base na capacidade da largura de banda da rede. Ele também permite que o cliente &quot;procure&quot; em qualquer ponto do vídeo, sem precisar aguardar o download do restante do vídeo. Consulte também [HTTP Live Streaming](https://developer.apple.com/streaming/). O vídeo progressivo é fornecido pelo download e armazenamento local do vídeo na tela de desktop de um usuário ou no dispositivo móvel.
 
-A tabela a seguir descreve o dispositivo, o navegador e o método de reprodução de vídeos em computadores desktop e dispositivos móveis usando o Dynamic Media Classic Video Viewer.
+A tabela a seguir descreve o dispositivo, o navegador e o método de reprodução de vídeos em computadores desktop e dispositivos móveis usando o Adobe Dynamic Media Classic Video Viewer.
 
 | Dispositivo | Navegador | Modo de reprodução de vídeo |
 |--- |--- |--- |

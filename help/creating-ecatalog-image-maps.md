@@ -1,18 +1,18 @@
 ---
 title: Criar mapas de imagem do catálogo eletrônico
-description: Saiba como criar mapas de imagem do catálogo eletrônico no Dynamic Media Classic.
+description: Saiba como criar mapas de imagem do catálogo eletrônico no Adobe Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic,Visualizadores,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Para eCatalogs, você desenha mapas de imagem na guia Mapear páginas da tela eC
 
    * **Mapa retangular**  - Selecione a ferramenta Mapa de imagem do retângulo e arraste na página para criar o retângulo.
 
-   * **Mapa poligonal**  - Selecione a ferramenta Mapa de imagem de polígono e selecione quantas vezes forem necessárias ao redor do perímetro da imagem. À medida que você seleciona, o Dynamic Media Classic desenha as bordas do Mapa de imagem.
+   * **Mapa poligonal**  - Selecione a ferramenta Mapa de imagem de polígono e selecione quantas vezes forem necessárias ao redor do perímetro da imagem. À medida que você seleciona, o Adobe Dynamic Media Classic desenha as bordas do Mapa de imagem.
 
-      Depois de desenhar um Mapa de imagem, o Dynamic Media Classic atribui a ele um nome na lista Mapa de imagem. Para formar o nome, o Dynamic Media Classic anexa um número sequencial ao nome da página eCatalog na qual você está trabalhando.
+      Depois de desenhar um Mapa de imagem, o Adobe Dynamic Media Classic atribui a ele um nome na lista Mapa de imagem. Para formar o nome, o Adobe Dynamic Media Classic anexa um número sequencial ao nome da página eCatalog na qual você está trabalhando.
 
 1. (Opcional) Na lista Mapa de imagem, na coluna [!UICONTROL Name], você pode inserir um novo nome para o Mapa de imagem. Não inclua espaços em branco no nome inserido.
 1. Você pode fazer com que os visualizadores abram uma nova página da Web ao selecionar o Mapa de imagem. No painel de lista Mapa de imagem, insira o URL da página da Web na coluna URL.
@@ -131,7 +131,7 @@ A partir da tela Resumo do mapa, siga estas etapas para importar os dados do Map
 
 ## Copiar mapas de imagem entre catálogos eletrônicos {#copying-image-maps-between-ecatalogs}
 
-Você pode copiar todos os mapas de imagem em um eCatalog para um eCatalog diferente. Copiar mapas de imagem dessa forma é um método conveniente de copiar mapas de imagem entre traduções de idioma estrangeiro do mesmo eCatalog. Para que a cópia seja bem-sucedida, o Dynamic Media Classic recomenda copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens.
+Você pode copiar todos os mapas de imagem em um eCatalog para um eCatalog diferente. Copiar mapas de imagem dessa forma é um método conveniente de copiar mapas de imagem entre traduções de idioma estrangeiro do mesmo eCatalog. Para que a cópia seja bem-sucedida, o Adobe Adobe Dynamic Media Classic recomenda copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Para copiar todos os mapas de imagem em um eCatalog para outro eCatalog, faça o
 1. Na guia Páginas da ordem , selecione **[!UICONTROL Copy Maps]**.
 1. Na caixa de diálogo Selecionar ativo, selecione o eCatalog onde deseja copiar os mapas de imagem e selecione **[!UICONTROL Select]**.
 
-O Dynamic Media Classic exibe uma mensagem de aviso se o eCatalog de destino (o eCatalog para o qual você copia mapas de imagem) tiver um número diferente de páginas ou imagens que tenham um tamanho diferente. Selecione **[!UICONTROL Continue]** para copiar os Mapas de imagem apesar do aviso.
+O Adobe Dynamic Media Classic exibe uma mensagem de aviso se o eCatalog de destino (o eCatalog para o qual você copia mapas de imagem) tiver um número diferente de páginas ou imagens que tenham um tamanho diferente. Selecione **[!UICONTROL Continue]** para copiar os Mapas de imagem apesar do aviso.
