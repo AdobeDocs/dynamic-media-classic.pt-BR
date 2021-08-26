@@ -1,5 +1,5 @@
 ---
-title: Integração do Adobe Dynamic Media Classic com o Adobe Target Standard/Premium
+title: Integrar o Adobe Dynamic Media Classic ao Adobe Target Standard/Premium
 description: Saiba como integrar o Adobe Dynamic Media Classic ao Adobe Target Standard/Premium.
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: admin
@@ -10,14 +10,14 @@ discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Integração do Adobe Dynamic Media Classic com o Adobe Target Standard/Premium {#integrating-dmc-with-target}
+# Integrar o Adobe Dynamic Media Classic ao Adobe Target Standard/Premium {#integrating-dmc-with-target}
 
 Antes de integrar [!DNL Dynamic Media Classic] com [!DNL Target Standard/Premium], você deve inserir o URL do Target na tela [!DNL Dynamic Media Classic] Configurações gerais do aplicativo. Para obter o URL de destino e inseri-lo na página Configurações gerais do aplicativo , faça o seguinte:
 
@@ -26,6 +26,6 @@ Antes de integrar [!DNL Dynamic Media Classic] com [!DNL Target Standard/Premium
 
    Por exemplo, se o URL *ficcional* (os caminhos de URLs sempre contêm barras invertidas, não barras invertidas como neste exemplo) na barra de endereços for `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie apenas esta parte do URL *fictional*: `https:\\www.myfictionalsite.com`.
 
-1. Em [!DNL Dynamic Media Classic], clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
+1. Em [!DNL Dynamic Media Classic], vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
 1. Na página Configurações gerais do aplicativo , no campo **[!UICONTROL Test&Target Server Name]** , cole o URL copiado na etapa 2.
-1. Clique em **[!UICONTROL Close]**.
+1. Selecione **[!UICONTROL Close]**.

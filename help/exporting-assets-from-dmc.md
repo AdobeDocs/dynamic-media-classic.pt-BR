@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic,Gerenciamento de ativos
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -27,28 +27,28 @@ O Dynamic Media Classic mantém um registro de trabalhos de exportação na tela
 
 **Para exportar ativos do Dynamic Media Classic:**
 
-1. Selecione os ativos que deseja exportar e clique em **[!UICONTROL File]** > **[!UICONTROL Export]**.
-1. Na janela Exportar ativos selecionados , clique em **Opções de imagem** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):
+1. Selecione os ativos que deseja exportar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
+1. Na janela Exportar ativos selecionados , clique em **[!UICONTROL Image Options]** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):
 
-   * **Predefinições**  - Opcionalmente, escolha uma Predefinição de imagem para formatar o ativo ao exportá-lo. Se você escolher uma Predefinição de imagem, as outras opções de formatação não estarão disponíveis, pois o ativo adota os formatos definidos pela Predefinição de imagem.
+   * **[!UICONTROL Presets]** - Opcionalmente, escolha uma Predefinição de imagem para formatar o ativo ao exportá-lo. Se você escolher uma Predefinição de imagem, as outras opções de formatação não estarão disponíveis, pois o ativo adota os formatos definidos pela Predefinição de imagem.
 
-   * **Conversão**  - Converta o arquivo de ativo ou a imagem original.
+   * **[!UICONTROL Conversion]** - Converta o arquivo de ativo ou a imagem original.
 
-   * **Tamanho**  - Você pode selecionar um tamanho padrão. Ou você pode clicar em **[!UICONTROL Other]** na lista suspensa **[!UICONTROL Size]**, escolher a unidade de medida desejada e especificar a largura e a altura.
+   * **[!UICONTROL Size]** - Você pode selecionar um tamanho padrão. Ou você pode selecionar **[!UICONTROL Other]** na lista suspensa **[!UICONTROL Size]**, escolher a unidade de medida desejada e especificar a largura e a altura.
 
       Consulte também [Especificar opções de exportação disponíveis para usuários do Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **Formato**  - Escolha um formato de imagem.
+   * **[!UICONTROL Format]** - Escolha um formato de imagem.
 
-   * **Cor**  - Escolha RGB, CMYK ou Cinza.
+   * **[!UICONTROL Color]** - Escolha RGB, CMYK ou Cinza.
 
-   * **Solução**  - escolha 72 ppi, 150 ppi ou 300 ppi.
+   * **[!UICONTROL Resolution]** - Escolha 72 ppi, 150 ppi ou 300 ppi.
 
-   * **Nome do trabalho**  - Você pode atribuir um nome de trabalho à exportação.
+   * **[!UICONTROL Job Name]** - Você pode atribuir um nome de trabalho à exportação.
 
-   * **Enviar email para**  - Opcionalmente, insira um endereço de email para enviar os ativos por email. A mensagem de email lista o URL para onde o recipient pode baixar os ativos.
+   * **[!UICONTROL Send Email To]** - Opcionalmente, informe um endereço de e-mail se pretende enviar os ativos por e-mail. A mensagem de email lista o URL para onde o recipient pode baixar os ativos.
 
-1. Clique em **[!UICONTROL Export]**.
+1. Selecione **[!UICONTROL Export]**.
 
 Há suporte para três ações básicas de exportação:
 

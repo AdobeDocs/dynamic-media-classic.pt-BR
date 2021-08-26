@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Visualizadores,Conjuntos de imagens
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para criar um Conjunto de imagens, na barra Navegação global, clique em **[!UI
 
 Consulte [Criação de um conjunto de imagens](creating-image-set.md#creating-an-image-set).
 
-Consulte também [Inclusão metas de zoom e mapas de imagem em conjuntos de imagens](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)
+Consulte também [Inclusão metas de zoom e mapas de imagem em conjuntos de imagens](/help/including-zoom-targets-image-maps-image-sets.md)
 
 ## 3. Configuração das predefinições do visualizador do conjunto de imagens, conforme necessário
 

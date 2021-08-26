@@ -1,6 +1,6 @@
 ---
-title: Instrumentação de um visualizador usando o Kit de instrumentação do Adobe Analytics
-description: Saiba como instrumentar um visualizador usando o Adobe Analytics Instrumentation Kit.
+title: Instrumentar um visualizador usando o Kit de instrumentação do Adobe Analytics
+description: Saiba como instrumentar um visualizador usando o Adobe Analytics Instrumentation Kit no Dynamic Media Classic.
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Instrumentação de um visualizador usando o Kit de instrumentação do Adobe Analytics{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
+# Instrumentar um visualizador usando o Kit de instrumentação do Adobe Analytics{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
 Você pode usar o Kit de instrumentação do Adobe Analytics para integrar um visualizador de HTML5 ao Adobe Analytics.
 
@@ -25,13 +25,13 @@ Se você usar qualquer uma das predefinições do visualizador HTML5 do Dynamic 
 
 ## Configurar o rastreamento do Adobe Analytics no Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-Para todos os visualizadores HTML5, adicione o seguinte JavaScript™ ao contêiner HTML, normalmente no elemento &lt;head> :
+Para todos os visualizadores HTML5, adicione o seguinte JavaScript ao contêiner HTML, normalmente no elemento &lt;head> :
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Em que `Dynamic Media Classic Company ID` é definido como o nome da empresa do Dynamic Media Classic. E `&preset` é opcional, a menos que o nome predefinido da empresa não seja `companypreset`. Nesses casos, pode ser `companypreset-1, companypreset-2` e assim por diante. O número mais alto é uma instância mais recente da predefinição. Para determinar o nome correto do valor predefinido da empresa, clique em **[!UICONTROL Copy URL]** e olhe o parâmetro `preset=`para encontrar o nome predefinido da empresa.
+Em que `Dynamic Media Classic Company ID` é definido como o nome da empresa do Dynamic Media Classic. E `&preset` é opcional, a menos que o nome predefinido da empresa não seja `companypreset`. Nesses casos, pode ser `companypreset-1, companypreset-2` e assim por diante. O número mais alto é uma instância mais recente da predefinição. Para determinar o nome correto do valor predefinido da empresa, selecione **[!UICONTROL Copy URL]** e olhe o parâmetro `preset=`para encontrar o nome predefinido da empresa.
 
 Continuando, agora adicione uma função que transmita o evento do visualizador ao código de rastreamento do Adobe Analytics.
 

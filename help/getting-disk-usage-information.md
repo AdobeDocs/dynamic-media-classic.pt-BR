@@ -1,6 +1,6 @@
 ---
-title: Obtendo informações de uso do disco
-description: Saiba como obter informações de uso do disco.
+title: Obter informações sobre o uso do disco
+description: Saiba como obter informações de uso do disco no Dynamic Media Classic.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# Obtendo informações de uso do disco {#getting-disk-usage-information}
+# Obter informações sobre o uso do disco {#getting-disk-usage-information}
 
 Você pode usar o parâmetro `disk_info` para recuperar informações sobre o uso do espaço em disco de uma empresa, como mostrado no exemplo a seguir:
 
@@ -45,7 +45,7 @@ Um exemplo de resposta é semelhante ao seguinte:
 Você pode usar os seguintes campos na string de consulta de URL para obter informações de uso do disco:
 
 | Parâmetro de URL | Obrigatório/opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obrigatório | disk_info |
 | shared_secret | Obrigatório | A chave secreta compartilhada para a empresa |
 
