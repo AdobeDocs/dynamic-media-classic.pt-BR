@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Entre em contato com o Suporte do Adobe para verificar se há problemas ao usar 
 
 O Adobe Dynamic Media Classic é uma solução poderosa e repleta de recursos, projetada para aprimorar suas estratégias de mídia avançada. Para garantir que você aproveite todos os recursos, explore os seguintes recursos práticos:
 
-* [Tutorial de práticas recomendadas do Adobe Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Publicações do blog do Adobe](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Arquivos de informativo do Adobe Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 

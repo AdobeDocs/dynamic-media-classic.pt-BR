@@ -1,6 +1,6 @@
 ---
-title: Preparação de ativos do Conjunto de imagens para upload
-description: Saiba como preparar ativos do Conjunto de imagens para upload.
+title: Preparar ativos do Conjunto de imagens para upload
+description: Saiba como preparar ativos do Conjunto de imagens para upload no Adobe Dynamic Media Classic.
 uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
-# Preparação de ativos do Conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
+# Preparar ativos do Conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
 
 Antes de carregar as imagens, você precisa dos Conjuntos de imagens para o Adobe Dynamic Media Classic, verifique se as imagens têm o tamanho e o formato corretos.
 
@@ -29,6 +29,6 @@ Para obter instruções detalhadas sobre como fazer upload de ativos, consulte [
 
 >[!MORELIKETHIS]
 >
->* [Upload de arquivos](uploading-files.md#uploading_your_files)
->* [Trabalhar com vinheta, cobertura de janela e arquivos de gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Fazer upload de seus arquivos](uploading-files.md#uploading_your_files)
+>* [Trabalhar com arquivos de vinheta, cobertura de janela e gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

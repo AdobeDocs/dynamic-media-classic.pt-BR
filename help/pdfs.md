@@ -1,5 +1,5 @@
 ---
-title: Como trabalhar com PDFs
+title: Trabalhar com PDFs
 description: Saiba como trabalhar com PDFs no Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
@@ -10,14 +10,14 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
-# Como trabalhar com PDFs{#working-with-pdfs}
+# Trabalhar com PDFs{#working-with-pdfs}
 
 Os arquivos PDF (Portable Document Format) são usados com mais frequência no Adobe Dynamic Media Classic para criar catálogos eletrônicos. Ao fazer upload de um arquivo PDF, o Adobe Dynamic Media Classic rasteriza ou extrai as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
 
@@ -29,13 +29,13 @@ As opções para fazer upload de arquivos PDF estão na página Fazer upload em 
 
 ### Opções de processamento
 
-**Rasterizar**  - (Padrão) Ripsa as páginas no arquivo PDF e converte gráficos vetoriais em imagens bitmap. Para criar um eCatalog, escolha essa opção.
+**[!UICONTROL Rasterize]** - (Padrão) Ripsa as páginas no arquivo PDF e converte gráficos vetoriais em imagens de bitmap. Para criar um eCatalog, escolha essa opção.
 
-**Extrair palavras de pesquisa**  - Extrai palavras do arquivo PDF para que o arquivo possa ser pesquisado por palavras-chave em um visualizador de eCatalog.
+**[!UICONTROL Extract Search Words]** - Extrai palavras do arquivo PDF para que o arquivo possa ser pesquisado por palavra-chave em um Visualizador de catálogo eletrônico.
 
-**Extrair links**  - Extrai links dos arquivos PDF e os converte em mapas de imagens usados em um visualizador de eCatalog.
+**[!UICONTROL Extract Links]** - Extrai links dos arquivos PDF e os converte em mapas de imagem usados em um visualizador de eCatalog.
 
-**Gerar catálogo eletrônico automaticamente com PDF de várias páginas**  - Cria automaticamente um catálogo eletrônico a partir do arquivo PDF. O eCatalog é nomeado após o arquivo PDF que você carregou. (Essa opção só estará disponível se você rasterizar o arquivo PDF ao carregá-lo.)
+**[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]** - Cria automaticamente um eCatalog a partir do arquivo PDF. O eCatalog é nomeado após o arquivo PDF que você carregou. (Essa opção só estará disponível se você rasterizar o arquivo PDF ao carregá-lo.)
 
 ### Resolução
 
@@ -45,21 +45,21 @@ Determina a configuração de resolução. Essa configuração determina quantos
 
 Selecione o menu Espaço de cores e escolha um espaço de cores para o arquivo PDF. A maioria dos arquivos PDF tem imagens coloridas RGB e CMYK. O espaço de cores RGB é preferível para visualização online.
 
-* **Detectar automaticamente**  - Mantém o espaço de cores do arquivo PDF.
+* **[!UICONTROL Detect Automatically]** - Retém o espaço de cores do arquivo PDF.
 
-* **Forçar como RGB**  - Converte para o espaço de cores RGB.
+* **[!UICONTROL Force As RGB]** - Converte para o espaço de cores RGB.
 
-* **Forçar como CMYK**  - Converte para o espaço de cores CMYK.
+* **[!UICONTROL Force As CMYK]** - Converte para o espaço de cores CMYK.
 
-* **Forçar como escala de cinza**  - Converte para o espaço de cores da escala de cinza.
+* **[!UICONTROL Force As Grayscale]** - Converte para o espaço de cor Escala de Cinza.
 
 ### Opções de perfil de cor
 
-* **Converter em sRGB**  - Converte em sRGB (Azul Verde Vermelho Padrão). sRGB é o espaço de cores recomendado para exibir imagens nas páginas da Web.
+* **[!UICONTROL Convert To sRGB]** - Converte em sRGB (Azul Verde Vermelho Padrão). sRGB é o espaço de cores recomendado para exibir imagens nas páginas da Web.
 
-* **Manter espaço de cor original**  - Mantém o espaço de cor original.
+* **[!UICONTROL Keep Original Color Space]** - Mantém o espaço de cores original.
 
-* **Personalizado de > Para**  - abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** >  **[!UICONTROL To]** - Abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 Consulte também [Perfis ICC](/help/icc-profiles.md#icc_profiles).
 
@@ -68,23 +68,23 @@ Consulte também [Perfis ICC](/help/icc-profiles.md#icc_profiles).
 1. Para cortar automaticamente pixels de espaço em branco de um arquivo PDF à medida que você o carrega, selecione o menu Recortar e escolha Aparar.
 1. Especifique as seguintes opções:
 
-   * **Aparar com base em**  - Escolha se deseja recortar com base na cor ou na transparência:
+   * **[!UICONTROL Trim Away Based On]** - Escolha se deseja cortar com base na cor ou na transparência:
 
-   * **Cor**  - Escolha a opção Cor. Em seguida, selecione o menu Canto e escolha o canto do PDF com a cor que melhor representa a cor do espaço em branco que deseja recortar.
+      * **[!UICONTROL Color]** - Escolha a opção Color . Em seguida, selecione o menu **[!UICONTROL Corner]** e escolha o canto do PDF com a cor que melhor representa a cor do espaço em branco que deseja recortar.
 
-   * **Transparência**  - Escolha a opção Transparência.
+      * **[!UICONTROL Transparency]** - Escolha a opção Transparency .
+   * **[!UICONTROL Tolerance]** - Arraste o controle deslizante para especificar uma tolerância de 0 a 1.
 
-   * **Tolerância**  - Arraste o controle deslizante para especificar uma tolerância de 0 a 1.
+   * **[!UICONTROL Trimming based on color]** - Especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PDF. Os números mais próximos de 1 permitem mais diferenças de cor.
 
-   * **Aparar com base na cor**  - Especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PDF. Os números mais próximos de 1 permitem mais diferenças de cor.
+   * **[!UICONTROL Trimming based on transparency]** - Especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
 
-   * **Aparar com base na transparência**  - Especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
 
-## Recortar das laterais das páginas PDF {#cropping-from-the-sides-of-pdf-pages}
+## Recortar nas laterais das páginas PDF {#cropping-from-the-sides-of-pdf-pages}
 
 Você pode remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF à medida que você o carrega.
 
-1. No menu Cortar, clique em **[!UICONTROL Manual]**.
+1. No menu Cortar, selecione **[!UICONTROL Manual]**.
 1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e lados das páginas.
 
 A quantidade de páginas cortadas depende da configuração de Resolução PX/Inch inserida para o arquivo PDF. Por exemplo, se você digitar 150 (padrão) como a configuração Resolução PX/Polegada e cortar 75 pixels das laterais das páginas, meia polegada será cortada; a 150 pixels por polegada, 75 pixels é igual a meia polegada.

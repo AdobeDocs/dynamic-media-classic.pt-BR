@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '563'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Consulte [Perguntas frequentes](new-ui-2020.md). Novas atualizações a partir d
 ## Recursos do usuário do Adobe Dynamic Media Classic
 
 * [Informativo mensal do Dynamic Media](dynamic-media-newsletter.md)
-* [Guia: Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Guia: Guia de práticas recomendadas para nitidez de imagens](/help/assets/s7_sharpening_images.pdf)
 * [Guia: Como o Adobe Dynamic Media Classic suporta SEO](/help/assets/s7_seo.pdf)  - Os mecanismos de pesquisa atualmente permitem a pesquisa de sites e imagens. O Adobe Dynamic Media Classic suporta esforços para tornar as imagens compatíveis com o mecanismo de pesquisa, de modo que mais tráfego seja direcionado para o site do usuário do Adobe Dynamic Media Classic. Este guia em PDF fornece as recomendações de plano de fundo e implementação para que isso aconteça.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
