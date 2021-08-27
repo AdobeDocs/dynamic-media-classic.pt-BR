@@ -1,6 +1,6 @@
 ---
 title: Publicar um conjunto de rotação
-description: Saiba como publicar um Conjunto de rotação.
+description: Saiba como publicar um Conjunto de rotação do Adobe Dynamic Media Classic.
 uuid: 3b21ee5c-e494-48d0-8ccf-cb7670d11f5b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Marque seu Conjunto de rotação para publicar para que ele seja copiado para os
 
 ## Publicar o conjunto de rotação {#publishing-the-spin-set}
 
-Para publicar um Conjunto de rotação em servidores de imagem da Dynamic Media, na barra Navegação global, clique em **[!UICONTROL Publish]**. Em seguida, selecione uma opção **[!UICONTROL When]** . Opcionalmente, você pode inserir um nome para o trabalho de publicação. Clique em **[!UICONTROL Submit Publish]**.
+Para publicar um Conjunto de rotação em servidores de imagem da Dynamic Media, na barra Navegação global, selecione **[!UICONTROL Publish]**. Em seguida, selecione uma opção **[!UICONTROL When]** . Opcionalmente, você pode inserir um nome para o trabalho de publicação. Selecione **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >
->* [Publicação](publishing-files.md#publishing_files)
+>* [Publicar arquivos](publishing-files.md#publishing_files)
 

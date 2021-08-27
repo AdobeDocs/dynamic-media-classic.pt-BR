@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Siga estas etapas para criar uma predefinição do visualizador do catálogo ele
 
    * **Criação de uma predefinição do visualizador de catálogo eletrônico**  - Clique em  **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador do catálogo eletrônico e clique em **[!UICONTROL Add]**.
 
-   * **Editar uma predefinição do visualizador de eCatalog**  - Selecione uma predefinição do visualizador do eCatalog e clique em Editar. Clique em **[!UICONTROL Save As]** depois de concluir a criação da predefinição.
+   * **Editar uma predefinição do visualizador de catálogo eletrônico**  - Selecione uma predefinição do visualizador de catálogo eletrônico e clique em  **[!UICONTROL Edit]**. Clique em **[!UICONTROL Save As]** depois de concluir a criação da predefinição.
 
 1. Na tela Configurar visualizador , digite um nome para sua predefinição do visualizador do catálogo eletrônico.
 1. Na tela Configurar visualizador, defina as opções desejadas.

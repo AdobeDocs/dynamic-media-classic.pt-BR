@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2345'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ As configurações da página Publicar configuração determinam como os ativos 
 
 Os administradores podem alterar as configurações padrão nas páginas Servidor de imagem, Renderizador de imagem e Vinheta para estabelecer configurações padrão para o fornecimento de ativos dos servidores.
 
-Para abrir as páginas de Configuração de publicação, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
+Para abrir as páginas de Configuração de publicação, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
 
 >[!NOTE]
 >
@@ -30,30 +30,30 @@ Para abrir as páginas de Configuração de publicação, clique em **[!UICONTRO
 
 A página Servidor de imagens estabelece as configurações padrão para o fornecimento de imagens de servidores de imagens. As configurações estão disponíveis nessas cinco categorias (consulte a própria página Servidor de imagens para obter descrições detalhadas das configurações).
 
-Altere essas configurações somente com a assistência de uma pessoa de suporte do Adobe Dynamic Media Classic.
+Altere essas configurações somente com a assistência de um suporte do Adobe Dynamic Media Classic.
 
-* **Gerenciamento de catálogo**  - Essas configurações determinam como o Adobe Dynamic Media Classic e o catálogo interagem. Ao contrário da maioria dos servidores da Web, as chamadas de URL do servidor de imagem da Dynamic Media vão para um arquivo manifest-ou de catálogo, em vez de para um arquivo de imagem adequado. O arquivo de catálogo (não confundir com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem junto com o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações do usuário na seção Informações do usuário da Digimarc .
+* **[!UICONTROL Catalog Management]** - Essas configurações determinam como o Adobe Dynamic Media Classic e o catálogo interagem. Ao contrário da maioria dos servidores da Web, as chamadas de URL do servidor de imagem da Dynamic Media vão para um arquivo manifest-ou de catálogo, em vez de para um arquivo de imagem adequado. O arquivo de catálogo (não confundir com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem junto com o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações do usuário na seção Informações do usuário da Digimarc .
 
-* **Atributos de solicitação**  - essas configurações impõem limites às imagens que podem ser entregues a partir do servidor. Por exemplo, o *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
+* **[!UICONTROL Request Attributes]** - Essas configurações impõem limites para imagens que podem ser entregues a partir do servidor. Por exemplo, o *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
 
-* **Atributos de solicitação padrão**  - Essas configurações pertencem à aparência padrão das imagens.
+* **[!UICONTROL Default Request Attributes]** - Essas configurações pertencem à aparência padrão das imagens.
 
-* **Atributos de miniatura comuns**  - Essas configurações pertencem à aparência padrão e ao alinhamento de imagens de miniatura.
+* **[!UICONTROL Common Thumbnail Attributes]** - Essas configurações pertencem à aparência padrão e ao alinhamento de imagens em miniatura.
 
-* **Padrões para campos de catálogo**  - Essas configurações pertencem à resolução e ao tipo de miniatura padrão de imagens.
+* **[!UICONTROL Defaults for Catalog Fields]** - Essas configurações pertencem à resolução e ao tipo de miniatura padrão de imagens.
 
-* **Atributos de gerenciamento de cores**  - Essas configurações determinam quais perfis de cores ICC são usados.
+* **[!UICONTROL Color Management Attributes]** - Essas configurações determinam quais perfis de cores ICC serão usados.
 
-* **Atributos de compatibilidade**  - Essa configuração permite que parágrafos anteriores e posteriores em camadas de texto sejam tratados como na versão 3.6 para compatibilidade com versões anteriores.
+* **[!UICONTROL Compatibility Attributes]** - Essa configuração permite que os parágrafos anteriores e posteriores em camadas de texto sejam tratados como na versão 3.6 para compatibilidade com versões anteriores.
 
-* **Suporte à localização**  - Essas configurações permitem gerenciar vários atributos de localidade. Ela também permite especificar uma sequência de mapa de localidade para que você possa definir quais idiomas deseja suportar para as várias dicas de ferramentas em Visualizadores.
+* **[!UICONTROL Localization Support]*** - Essas configurações permitem gerenciar vários atributos de localidade. Ela também permite especificar uma sequência de mapa de localidade para que você possa definir quais idiomas deseja suportar para as várias dicas de ferramentas em Visualizadores.
 
    Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico da localidade. Para realizar essa funcionalidade, especifique uma string de mapa de localidade. Em seguida, edite o texto da dica de ferramenta em uma predefinição do Visualizador, adicionando as sequências de texto traduzidas para o idioma desejado.
 
    >[!NOTE]
    > Para configurar as opções de Suporte de localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) No seu caso de suporte, solicite ajuda para a configuração.
 
-   Para obter mais informações sobre como configurar o **Suporte de localização**, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+   Para obter mais informações sobre como configurar **[!UICONTROL Localization Support]**, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Considerações ao configurar a localização de ativos {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,12 +90,12 @@ Alguns dos benefícios de usar `locale=` e `attribute::DefaultLocale` incluem o 
 #### Cenários do aplicativo
 
 | Aplicativo | Cenário |
-|--- |--- |
+| --- | --- |
 | Localização do visualizador | Depois que os catálogos de conteúdo estático são implementados, a localização é controlada inteiramente com o parâmetro locale=, anexado a todas as solicitações feitas ao IS. Registros de configuração, capas, telas iniciais e assim por diante podem ter variantes específicas da localidade ou não. O conteúdo correto é fornecido pelo IS, sem que o visualizador precise saber qual conteúdo está localizado e quais são suas IDs. |
 | Imagens e vídeo | As empresas multinacionais têm frequentemente uma combinação de conteúdos genéricos e específicos para cada localidade. Com esse mecanismo, uma referência a uma imagem ou vídeo pode ser genérica e o IS serve o conteúdo específico da localidade, se estiver disponível. |
-| Conjuntos de imagens e Conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um genérico para um conjunto de imagens específico da localidade manipulado pelo visualizador. Mais comumente, as IDs individuais em um conjunto genérico podem se referir a conteúdos localizados. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto a foto do Painel de controle do Campaign. O IS traduz IDs automaticamente, de modo que não há necessidade de gerar conjuntos de imagens específicos para localidades. |
+| Conjuntos de imagens e conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um genérico para um conjunto de imagens específico da localidade manipulado pelo visualizador. Mais comumente, as IDs individuais em um conjunto genérico podem se referir a conteúdos localizados. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto a foto do Painel de controle do Campaign. O IS traduz IDs automaticamente, de modo que não há necessidade de gerar conjuntos de imagens específicos para localidades. |
 
-#### Implementação da localização de ativos
+#### Implementar a localização do ativo
 
 O Adobe Dynamic Media Classic e o Image Serving têm uma interface que permite a localização de imagens e conteúdo estático.
 
@@ -107,7 +107,7 @@ Com a localização, um URL de servidor de imagem adiciona o parâmetro `locale=
 
 `https://server/is/image/company/image?locale=de_DE`
 
-Ao receber a chamada http pelo Servidor de imagem, o parâmetro `locale=` é analisado pelo campo localeMap encontrado no grupo **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**.
+Ao receber a chamada http pelo Servidor de imagem, o parâmetro `locale=` é analisado pelo campo `localeMap` encontrado no grupo **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]**.
 
 O campo Mapa de localidade contém uma lista de entradas que são separadas usando o símbolo da barra vertical (|).
 
@@ -122,18 +122,18 @@ Se um valor de sufixo ou um valor de substituição for aplicado depende da conf
 **Exemplo de sufixo:**
 
 | URL | localeMap IDs | Resultado |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que não há um GlobalLocale definido. O parâmetro de localidade de_DE corresponde à primeira entrada no localeMap. O primeiro valor correspondente _DE é adicionado como um sufixo ao asset image_DE e é feita uma tentativa de encontrá-lo no Servidor de imagens. Se for encontrado no servidor, ele será retornado. Caso contrário, o segundo valor &quot; é usado como um sufixo, resultando no retorno da própria imagem. |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que não há um GlobalLocale definido. O parâmetro de localidade de_DE corresponde à primeira entrada em `localeMap`. O primeiro valor correspondente _DE é adicionado como um sufixo ao asset image_DE e é feita uma tentativa de encontrá-lo no Servidor de imagens. Se for encontrado no servidor, ele será retornado. Caso contrário, o segundo valor &quot; é usado como um sufixo, resultando no retorno da própria imagem. |
 
 **Exemplo de substituição:**
 
-| URL | IDs do GlobalLocale e do LocaleMap | Resultado |
+| URL | `GlobalLocale` e  `localeMap` IDs | Resultado |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | No exemplo de substituição acima, GlobalLocale é definido como main. O parâmetro de localidade de_DE corresponde à primeira entrada no localeMap. A substring GlobalLocale é encontrada e substituída pelo primeiro valor correspondente `de` no localeMap: `image-de-01`. Se for encontrado no Servidor de imagem, ele será retornado. Caso contrário, o segundo valor será substituído, resultando em `image-main-01`. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | No exemplo de substituição acima, GlobalLocale é definido como main. O parâmetro de localidade de_DE corresponde à primeira entrada em `localeMap`. A substring GlobalLocale é encontrada e substituída pelo primeiro valor correspondente `de` em `localeMap`: `image-de-01`. Se for encontrado no Servidor de imagem, ele será retornado. Caso contrário, o segundo valor será substituído, resultando em `image-main-01`. |
 
 Se nenhuma localidade estiver definida no URL, o Servidor de imagem pega a DefaultLocale, se estiver definida, e a aplica ao URL.
 
-Se um parâmetro de local desconhecido ou vazio for fornecido com `locale=`, o localeMap será verificado para procurar o valor vazio &quot;começando com&quot;. É importante ter uma localidade padrão aplicada para localidades desconhecidas.
+Se um parâmetro de local desconhecido ou vazio for fornecido com `locale=`, `localeMap` será verificado para que o valor vazio seja &quot;iniciado com&quot;. É importante ter uma localidade padrão aplicada para localidades desconhecidas.
 
 #### Sobre defaultImage
 
@@ -154,9 +154,9 @@ As IDs de localidade são mapeadas para seus sufixos correspondentes. Se nenhuma
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | locale= | IDs de saída a serem pesquisadas |
-|--- |--- |
-| en,en_us, en_uk | myImg_E, myImg |
-| de,de_de,de_at | myImg_D, myImg |
+| --- | --- |
+| en , en_us, en_uk | myImg_E, myImg |
+| de , de_de , de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
 | Todos os outros | - |
 
@@ -167,10 +167,10 @@ Você pode mapear localidades desconhecidas para IDs específicas ou para IDs ge
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | locale= | IDs de saída a serem pesquisadas |
-|--- |--- |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
-| Todos os outros | myImg_E,myImg |
+| --- | --- |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
+| Todos os outros | myImg_E, myImg |
 
 Você também pode ter um locSuffix dedicado, como U, apenas para localidades desconhecidas, e forçar para a imagem padrão se nenhum `_U` existir, como no seguinte:
 
@@ -180,7 +180,7 @@ Ou você pode mapear diretamente para a ID genérica, como no seguinte:
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-##### Encontrar o localeMap usando uma pesquisa em várias camadas
+##### Encontre o localeMap usando uma pesquisa em várias camadas
 
 Geralmente é desejável agrupar localidades, como a Europa, o Oriente Médio e a América do Norte, para atender aos padrões regionais, como a exposição da pele. Você pode obter esse efeito usando uma pesquisa em várias camadas.
 
@@ -189,14 +189,14 @@ Neste exemplo, suponhamos que você queira oferecer suporte a coleções para us
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | locale= | IDs de saída a serem pesquisadas |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
 | m2 | myImg-M2, myImg-M, myImg |
 | Todos os outros | mylmg |
 
-##### LocaleMap ao pesquisar por IDs específicas
+##### Encontre o localeMap ao pesquisar por IDs específicas
 
 Algumas convenções de nomenclatura de imagem não suportam IDs de imagem genéricas. As IDs genéricas da solicitação devem ser mapeadas para uma ID específica no catálogo. No entanto, há instâncias em que a ID específica exata não é conhecida.
 
@@ -205,7 +205,7 @@ Usando o primeiro exemplo como base, as imagens para todos os idiomas podem ter 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | locale= | IDs de saída a serem pesquisadas |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2, myImg_3 |
 | Todos os outros | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ Usando o primeiro exemplo como base, as imagens para todos os idiomas podem ter 
 
 A página Renderizador de imagem estabelece as configurações padrão para o fornecimento de Conjuntos de imagens a partir dos servidores de renderização de imagem. As configurações estão disponíveis nessas cinco categorias (consulte a própria página Servidor de imagens para obter descrições detalhadas das configurações):
 
-* **Gerenciamento de catálogo**  - Essas configurações determinam como o Adobe Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do servidor de renderização do Adobe Dynamic Media Classic são feitas ao catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a assistência de uma pessoa de suporte do Adobe Dynamic Media Classic.
+* **[!UICONTROL Catalog Management]** - Essas configurações determinam como o Adobe Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do servidor de renderização do Adobe Dynamic Media Classic são feitas ao catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a assistência de um suporte do Adobe Dynamic Media Classic.
 
-* **Atributos da sessão**  - Essas configurações estabelecem parâmetros de erro, o URL para URLs de imagem relativa e se a sobreposição de objeto é permitida.
+* **[!UICONTROL Session Attributes]** - Essas configurações estabelecem parâmetros de erro, o URL para URLs de imagens relativas e se a sobreposição de objetos é permitida.
 
-* **Atributos de material padrão**  - Essas configurações estabelecem configurações padrão de resolução e nitidez para imagens.
+* **[!UICONTROL Default Material Attributes]** - Essas configurações estabelecem configurações padrão de resolução e nitidez para imagens.
 
-* **Atributos de imagem de resposta**  - Essas configurações pertencem à aparência padrão das imagens.
+* **[!UICONTROL Response Image Attributes]** - Essas configurações pertencem à aparência padrão das imagens.
 
-* **Atributos de gerenciamento de cores**  - Essas configurações pertencem às configurações de cores padrão das imagens.
+* **[!UICONTROL Color Management Attributes]** - Essas configurações pertencem às configurações de cores padrão das imagens.
 
 ## Vinheta {#vignette}
 

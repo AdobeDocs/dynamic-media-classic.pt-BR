@@ -1,6 +1,6 @@
 ---
 title: Publicar modelos
-description: Saiba como publicar modelos.
+description: Saiba como publicar modelos do Adobe Dynamic Media Classic.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,16 @@ Publicar seu modelo o coloca em Servidores de imagem da Dynamic Media, onde est�
 >
 >Para usar seu modelo, publique todo o conteúdo que foi usado para torná-lo, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
 
-## Modelos de marcação para publicação {#marking-templates-for-publish}
+## Marcar modelos para publicação {#marking-templates-for-publish}
 
-Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que sejam colocados nos Servidores de Imagem Dynamic Media. Você pode marcar esses itens para publicação no Painel de navegação clicando no ícone **[!UICONTROL Mark for Publish]**.
+Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação, para que sejam colocados nos Servidores de Imagem Dynamic Media. Você pode marcar esses itens para publicação no Painel de navegação selecionando o ícone **[!UICONTROL Mark for Publish]**.
 
-## Publicar seu modelo {#publishing-your-template}
+## Publicar o modelo {#publishing-your-template}
 
-Para publicar modelos nos Dynamic Media Image Servers, na barra Navegação global, clique em **[!UICONTROL Publish]** e selecione uma opção **[!UICONTROL When]**. Opcionalmente, você pode inserir um nome para o trabalho de publicação. Clique em **[!UICONTROL Submit Publish]**.
+Para publicar modelos nos Dynamic Media Image Servers, na barra Navegação global, selecione **[!UICONTROL Publish]** e selecione uma opção **[!UICONTROL When]**. Opcionalmente, você pode inserir um nome para o trabalho de publicação. Selecione **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >
 >* [Marcar ativos para publicar](publishing-files.md#publish_after_uploading)
->* [Criação de um trabalho de publicação](publishing-files.md#creating_a_publish_job)
+>* [Criar um trabalho de publicação](publishing-files.md#creating_a_publish_job)
 

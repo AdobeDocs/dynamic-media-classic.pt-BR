@@ -1,6 +1,6 @@
 ---
-title: Publicação de imagens de zoom
-description: Saiba como publicar imagens de Zoom.
+title: Publicar imagens de zoom
+description: Saiba como publicar imagens de Zoom do Adobe Dynamic Media Classic.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: admin
 content-type: reference
@@ -10,26 +10,26 @@ discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-# Publicação de imagens de zoom{#publishing-zoom-images}
+# Publicar imagens de zoom{#publishing-zoom-images}
 
 A publicação coloca suas imagens de zoom nos Servidores de Imagem do Dynamic Media para que possam ser disponibilizadas para seu site e aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa as cadeias de caracteres do URL. Você pode colocar essas cadeias de caracteres de URL no código HTML do site.
 
-## Marcar imagens para publicação {#marking-images-for-publish}
+## Marcar imagens para publicar {#marking-images-for-publish}
 
 As imagens devem ser marcadas para publicação para que sejam copiadas para os Servidores de imagem da Dynamic Media. Você pode marcar suas imagens para publicação no Painel de navegação selecionando o ícone **[!UICONTROL Mark for Publish]**. Também é possível marcar imagens para publicação ao carregá-las.
 
-## Publicação das imagens {#publishing-the-images}
+## Publicar as imagens {#publishing-the-images}
 
-Para publicar imagens de zoom, na barra Navegação global, clique em **[!UICONTROL Publish]** e selecione uma opção **[!UICONTROL When]** (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**). Opcionalmente, você pode inserir um nome para o trabalho de publicação. Clique em **Enviar publicação**.
+Para publicar imagens de zoom, na barra Navegação global, selecione **[!UICONTROL Publish]** e selecione uma opção **[!UICONTROL When]** (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**). Opcionalmente, você pode inserir um nome para o trabalho de publicação. Selecione **Enviar publicação**.
 
 >[!MORELIKETHIS]
 >
->* [Publicação](publishing-files.md#publishing_files)
+>* [Publicar arquivos](publishing-files.md#publishing_files)
 
