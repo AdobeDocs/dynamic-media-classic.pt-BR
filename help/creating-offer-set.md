@@ -1,6 +1,6 @@
 ---
 title: Criar um conjunto de ofertas
-description: Saiba como criar um conjunto de ofertas no Adobe Dynamic Media Classic.
+description: Saiba como criar um conjunto de ofertas no Dynamic Media Classic.
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Você pode criar qualquer um dos seguintes tipos de conjuntos de ofertas:
 
 Para modelos, selecione **[!UICONTROL Add and Preview]** e defina os parâmetros escolhidos. Os outros tipos de conjunto de ofertas não incluem parâmetros, mas você ainda pode personalizá-los selecionando **[!UICONTROL Preview]** e alterando as predefinições disponíveis.
 
-O Adobe Dynamic Media Classic oferece ferramentas para edição e criação de conjuntos de ofertas.
+O Dynamic Media Classic oferece ferramentas para edição e criação de conjuntos de ofertas.
 
 >[!NOTE]
 >
->Antes de criar um conjunto de ofertas, publique todos os ativos que pretende usar para o conjunto como Adobe Dynamic Media Classic. Consulte [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+>Antes de criar um conjunto de ofertas, publique todos os ativos que pretende usar para o conjunto do Dynamic Media Classic. Consulte [Publicar manualmente ativos](publishing-files.md#manually_publishing_assets) e [Cancelar publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipos de conjuntos de ofertas {#types-of-offer-sets}
 
@@ -39,7 +39,7 @@ Crie um conjunto de ofertas a partir dos seguintes tipos de conjuntos de ofertas
 
 * **Imagens**  - Você pode reunir imagens para um conjunto de ofertas. Cada imagem inclui uma oferta diferente no conjunto.
 
-* **Modelo de imagem**  - Você pode parametrizar modelos de imagem no Adobe Dynamic Media Classic com o comando Criar > Noções básicas do modelo. Por meio de parâmetros, componentes do modelo — o texto em quadros de texto, as diferentes imagens — podem ser trocados e personalizados. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem em seu conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte Criação de parâmetros de modelo.
+* **Modelo de imagem**  - Você pode parametrizar modelos de imagem no Dynamic Media Classic com o comando Criar > Noções básicas do modelo. Por meio de parâmetros, componentes do modelo — o texto em quadros de texto, as diferentes imagens — podem ser trocados e personalizados. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem em seu conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte Criação de parâmetros de modelo.
 
 * **Vídeo**  - Você pode montar vídeo para um conjunto de ofertas. Cada vídeo é uma oferta diferente no conjunto.
 
@@ -93,7 +93,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
    * **Tela**  Conjunto de ofertas do Test&amp;Target - Vá até  **[!UICONTROL Build]** >  **[!UICONTROL Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar vários tamanhos de vídeos ou imagens, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
 
-   * **Exibição em grade ou Exibição de lista**  - Selecione as imagens ou vídeos e vá para  **[!UICONTROL Build]** >  **[!UICONTROL Test&Target Offer Set]**.
+   * **Exibição em grade ou Exibição de lista**  - Selecione as imagens ou os vídeos e vá para  **[!UICONTROL Build]** >  **[!UICONTROL Test&Target Offer Set]**.
 
 1. Como opção, selecione uma imagem ou vídeo e selecione **[!UICONTROL Preview]**. Na página Visualizar ofertas , é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no conjunto de ofertas.
 
@@ -122,7 +122,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
 **Para editar um conjunto de ofertas:**
 
-1. Para editar um conjunto de ofertas, exiba o conjunto de ofertas em Exibição de Grade ou Exibição de Lista e selecione seu botão de rolagem **[!UICONTROL Edit]**.
+1. Para editar um conjunto de ofertas, exiba o conjunto de ofertas na Exibição de grade ou na Exibição de lista e selecione seu botão de rolagem **[!UICONTROL Edit]**.
 1. Na página Conjunto de ofertas do Test&amp;Target, execute um dos seguintes procedimentos:
 
    * **Remoção de uma oferta**  - Selecione a oferta e selecione  **[!UICONTROL Delete]** para remover uma oferta do conjunto.
@@ -132,7 +132,7 @@ Consulte também [Publicar manualmente ativos](publishing-files.md#manually_publ
 
    >[!NOTE]
    >
-   >Não é possível excluir um conjunto de ofertas associado a uma campanha. Para excluir um conjunto de ofertas associado a uma campanha, faça logon no Adobe Target Standard/Premium e remova as associações de campanha primeiro. Mesmo depois de cancelar a associação de uma campanha, o ativo só pode ser excluído do Adobe Dynamic Media Classic, exigindo um logon no Adobe Target Standard/Premium, e não do Adobe Target Standard/Premium.
+   >Não é possível excluir um conjunto de ofertas associado a uma campanha. Para excluir um conjunto de ofertas associado a uma campanha, faça logon no Adobe Target Standard/Premium e remova as associações de campanha primeiro. Mesmo depois de cancelar a associação de uma campanha, o ativo só pode ser excluído do Dynamic Media Classic, exigindo um logon no Adobe Target Standard/Premium e não do Adobe Target Standard/Premium.
 
 1. Ao terminar a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionado (padrão).
 1. Selecione **[!UICONTROL Save]**, selecione uma pasta de armazenamento, insira um nome para o conjunto e selecione **[!UICONTROL Save]**.

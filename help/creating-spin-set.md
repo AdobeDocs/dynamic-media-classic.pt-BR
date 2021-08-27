@@ -1,6 +1,6 @@
 ---
 title: Criar um conjunto de rotação
-description: Saiba como criar um Conjunto de rotação no Adobe Dynamic Media Classic.
+description: Saiba como criar um Conjunto de rotação no Dynamic Media Classic.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Criar um conjunto de rotação{#creating-a-spin-set}
 
-Para criar um Conjunto de rotação eficaz, certifique-se de fotografar as imagens corretamente. Você pode criar um Conjunto de rotação no Adobe Dynamic Media Classic selecionando o botão Criar e escolhendo Conjuntos de rotação. Edite Conjuntos de rotação na tela Conjuntos de rotação .
+Para criar um Conjunto de rotação eficaz, certifique-se de fotografar as imagens corretamente. Você pode criar um Conjunto de rotação no Dynamic Media Classic selecionando o botão Criar e escolhendo Conjuntos de rotação. Edite Conjuntos de rotação na tela Conjuntos de rotação .
 
 >[!NOTE]
 >
->As versões anteriores do Adobe Dynamic Media Classic não ofereciam Conjuntos de rotação bidimensionais. Se você criou um Conjunto de rotação em uma versão anterior do Adobe Dynamic Media Classic, não poderá salvar seu Conjunto de rotação unidimensional sem primeiro salvá-lo com um nome diferente. Selecione **[!UICONTROL Save As]** na tela Conjunto de rotação e insira um novo nome para que você possa editá-lo no Adobe Dynamic Media Classic.
+>As versões anteriores do Dynamic Media Classic não ofereciam Conjuntos de rotação bidimensionais. Se você criou um Conjunto de rotação em uma versão anterior do Dynamic Media Classic, não poderá salvar seu Conjunto de rotação unidimensional sem primeiro salvá-lo com um nome diferente. Selecione **[!UICONTROL Save As]** na tela Conjunto de rotação e insira um novo nome para que você possa editá-lo no Dynamic Media Classic.
 
 ## Diretrizes para fotografar imagens do Conjunto de rotação {#guidelines-for-shooting-spin-set-images}
 
-Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito giratório da imagem. No entanto, incluir muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. O Adobe Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em Conjuntos de rotação:
+Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito giratório da imagem. No entanto, incluir muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. O Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em Conjuntos de rotação:
 
 * No mínimo, use 8 a 12 imagens em um conjunto de rotação unidimensional e 16 a 24 imagens em um conjunto de rotação bidimensional.
 * Usar um formato sem perdas; Recomenda-se TIFF e PNG.
@@ -37,7 +37,7 @@ Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor se
 
 ## Criar um conjunto de rotação {#create}
 
-A ordem em que o Conjunto de rotação é criado ou criado no Adobe Dynamic Media Classic é importante. Dependendo de como você ordena os ativos quando você arrasta e solta imagens na grade na página Conjunto de rotação , o Conjunto de rotação gira em uma determinada direção . Portanto, a ordem em que é exibido visualmente no construtor é como o ativo é executado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
+A ordem em que o Conjunto de rotação é criado ou criado no Dynamic Media Classic é importante. Dependendo de como você ordena os ativos quando você arrasta e solta imagens na grade na página Conjunto de rotação , o Conjunto de rotação gira em uma determinada direção . Portanto, a ordem em que é exibido visualmente no construtor é como o ativo é executado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
 
 Ao criar um conjunto, a opção **[!UICONTROL Publish after save]** afeta o conjunto e os membros do conjunto das seguintes maneiras:
 
