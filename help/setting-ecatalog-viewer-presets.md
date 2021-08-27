@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: fa0a3992e02f70e5fb4a54e770e2fe2b4f0371e1
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Siga estas etapas para criar uma predefinição do visualizador do catálogo ele
    | --- | --- | --- |
    | `$1$` | valor de rolover_key | O identificador de item do elemento `<area>` do mapa. |
    | `$2$` | quadro | O número de sequência do quadro exibido no momento no conjunto de imagens. |
-   | `$3$` | raiz da imagem | O primeiro elemento de caminho do primeiro item especificado no comando image (normalmente a ID do catálogo de imagens da entrada do catálogo especificando o conjunto de imagens). |
+   | `$3$` | imageroot | O primeiro elemento de caminho do primeiro item especificado no comando image (normalmente a ID do catálogo de imagens da entrada do catálogo especificando o conjunto de imagens). |
 
 1. (Opcional) Na caixa **[!UICONTROL Info Panel Settings]**, digite o texto que deseja que apareça na caixa **[!UICONTROL Response Template]** se o Adobe Dynamic Media Classic encontrar um erro na recuperação de informações para um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de catálogo eletrônico, mas nenhum identificador de sobreposição, essa mensagem será exibida para o usuário.
 

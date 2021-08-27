@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
 source-wordcount: '10365'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
 * **[!UICONTROL Published Server Name]** - Este servidor é o servidor CDN (Content Deliver Network) em tempo real usado em todas as chamadas de URL geradas pelo sistema específicas da sua conta. Não altere o nome deste servidor a menos que seja instruído a fazê-lo por um técnico de suporte Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Origin Server Name]** - Este servidor é utilizado apenas para testes de garantia de qualidade. Não altere o nome deste servidor a menos que seja instruído a fazê-lo por um técnico de suporte do Adobe Dynamic Media Classic.
+* **[!UICONTROL Origin Server Name]** - Este servidor é utilizado apenas para testes de garantia de qualidade. Não altere o nome deste servidor a menos que seja instruído por um técnico de suporte Adobe Dynamic Media Classic.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
@@ -334,7 +334,7 @@ Uma predefinição de codificação que funciona com qualquer proporção de asp
 
 |  | Codificação do nome da predefinição/texto da dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 600 | Autox360 | Igual à origem | 64º | Para dispositivos móveis (iPhone, iPad, Android™) |
+| 1 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual à origem | 64º | Para dispositivos móveis (iPhone, iPad, Android™) |
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à origem | 96 | Para tablet (iPad, Android™) |
 | 1 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à origem | 128 | Para desktop |
 
@@ -352,8 +352,8 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à origem | 64º | Baixa resolução, 3G |
 | 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_512x288_600K | 800 | 512x288 | Igual à origem | 64º | Resolução média, 3G |
 | 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_384x288_600 | 800 | 384x288 | Igual à origem | 64º | Resolução média, 3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Igual à origem | 80º | Resolução média, WiFi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Igual à origem | 80º | Resolução média, WiFi |
+| 5 | `16:9, 640x360, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x360_800K | 600 | 640x360 | Igual à origem | 80º | Resolução média, WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x480_800K | 600 | 640x480 | Igual à origem | 80º | Resolução média, WiFi |
 | 7 | `16:9, 768x432, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | Igual à origem | 96 | Alta resolução, WiFi |
 | 8 | `4:3, 768x576, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | Igual à origem | 96 | Alta resolução, WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Igual à origem | 128 | Alta definição, widescreen |
@@ -374,7 +374,7 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 | 1 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800x450 | Igual à origem | 96 | Resolução média-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Igual à origem | 128 | Alta definição, widescreen |
 | 5 | 4:3, 320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320x240 | Igual à origem | 64º | Baixa resolução |
-| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480x360 | Igual à origem | 80º | Resolução média |
+| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 600 | 480x360 | Igual à origem | 80º | Resolução média |
 | 7 | 4:3, 640x480 (1200 Kbps) | 1,5 Mbps | _640x480_1200K | 1200 | 640x480 | Igual à origem | 96 | Resolução média-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 | 1280x960 | Igual à origem | 128 | Alta definição |
 
@@ -407,8 +407,8 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 | 4 | 16:9, 512x288, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | Igual à origem | 80º | Alta resolução, Wi-Fi |
 | 5 | 16:9, 512x288, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | Igual à origem | 96 | Alta resolução, Wi-Fi |
 | 6 | 4:3, 384x288, Móvel (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à origem | 64º | Baixa resolução, 3G |
-| 7 | 4:3, 384x288, Móvel (600 Kbps) | 700 | _Mobile_384x288_600K | 800 | 384x288 | Igual à origem | 64º | Resolução média, 3G |
-| 8 | 4:3, 448x336, Móvel (800 Kbps) | 900 | _Mobile_448x336_800K | 600 | 448x336 | Igual à origem | 80º | Resolução média, Wi-Fi |
+| 7 | 4:3, 384x288, Móvel (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | Igual à origem | 64º | Resolução média, 3G |
+| 8 | 4:3, 448x336, Móvel (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Igual à origem | 80º | Resolução média, Wi-Fi |
 | 9 | 4:3, 448x336, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | Igual à origem | 80º | Alta resolução, Wi-Fi |
 | 10º | 4:3, 448x336, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | Igual à origem | 96 | Alta resolução, Wi-Fi |
 
@@ -623,7 +623,7 @@ Consulte [Exportar uma predefinição do Visualizador HTML5](application-setup.m
 
 Você pode exportar uma Predefinição do visualizador HTML5 existente para usar como a base para criar uma Predefinição do visualizador HTML5. Essa opção de exportação é útil, pois não é necessário criar o visualizador do zero. Em vez disso, você exporta uma predefinição que se comporta e tem a aparência desejada, então pode usá-la como ponto de partida para fazer ajustes de design.
 
-Todos os arquivos CSS predefinidos padrão e prontos para uso do Visualizador no Adobe Adobe Dynamic Media Classic usam caminhos de veiculação de imagens relativas que apontam para ativos em `Scene7SharedAssets`. Por exemplo, o seguinte é um caminho relativo para um ativo de imagem em um arquivo CSS predefinido do visualizador em
+Todos os arquivos CSS predefinidos padrão e prontos para uso do Visualizador no Adobe Dynamic Media Classic usam caminhos de exibição de imagens relativas que apontam para ativos em `Scene7SharedAssets`. Por exemplo, o seguinte é um caminho relativo para um ativo de imagem em um arquivo CSS predefinido do visualizador em
 
 `Scene7SharedAsset`:  `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
