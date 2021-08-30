@@ -1,6 +1,6 @@
 ---
-title: Noções básicas de configuração
-description: Saiba como usar a tela Configuração para inserir suas configurações pessoais. Se você for um administrador, configure as configurações da empresa.
+title: 'Noções básicas de configuração '
+description: Saiba como usar a tela Configuração para inserir suas configurações pessoais no Adobe Dynamic Media Classic. Se você for um administrador, configure as configurações da empresa.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Noções básicas de configuração{#setup-basics}
 
-Use a página Configuração do Adobe Dynamic Media Classic para inserir suas configurações pessoais. Se você for um administrador, configure as configurações da empresa. Para abrir uma página Configuração, na barra Navegação global, clique em **[!UICONTROL Setup]**.
+Use a página Configuração do Adobe Dynamic Media Classic para inserir suas configurações pessoais. Se você for um administrador, configure as configurações da empresa. Para abrir uma página Configuração, na barra Navegação global, selecione **[!UICONTROL Setup]**.
 
 As configurações disponíveis para você nesta página dependem do seu status de usuário ou administrador:
 

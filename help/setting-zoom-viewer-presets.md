@@ -1,6 +1,6 @@
 ---
-title: Configuração das predefinições do visualizador de zoom
-description: Saiba como configurar as Predefinições do visualizador de zoom.
+title: Configurar predefinições do visualizador de zoom
+description: Saiba como configurar as Predefinições do visualizador de zoom no Adobe Dynamic Media Classic.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Configuração das predefinições do visualizador de zoom{#setting-up-zoom-viewer-presets}
+# Configurar predefinições do visualizador de zoom{#setting-up-zoom-viewer-presets}
 
 As Predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Adobe Dynamic Media Classic oferece várias opções para personalizar e aprimorar visualizadores. O Adobe Dynamic Media Classic vem com predefinições básicas (rápidas), de fly-out e personalizadas de Visualizador de Zoom. Se você for um administrador, poderá criar Predefinições de visualizador de zoom da empresa ou editar uma predefinição padrão e salvá-la com um novo nome.
 
@@ -43,27 +43,27 @@ O Adobe Dynamic Media Classic recomenda os seguintes parâmetros para predefini�
 
 * **Visualizador de zoom: Personalizado**  - Fornece zoom guiado ou não guiado com imagens, Conjuntos de imagens com várias exibições ou Conjuntos de amostras de cores.
 
-## Criação e edição de predefinições do visualizador de zoom {#creating-and-editing-zoom-viewer-presets}
+## Criar e editar predefinições do visualizador de zoom {#creating-and-editing-zoom-viewer-presets}
 
-1. Na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Siga um destes procedimentos:
 
-   * **Criação de uma predefinição**  - Clique em  **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um visualizador de zoom e clique em **[!UICONTROL Add]**. Insira um nome para a predefinição na caixa Nome da predefinição .
+   * **Criar uma predefinição**  - Selecione  **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um visualizador de zoom e selecione **[!UICONTROL Add]**. Insira um nome para a predefinição na caixa Nome da predefinição .
 
-   * **Editar uma predefinição**  - Selecione uma predefinição de visualizador de zoom e clique em  **[!UICONTROL Edit]**.
+   * **Editar uma predefinição**  - Selecione uma predefinição do visualizador de zoom e selecione  **[!UICONTROL Edit]**.
 
 1. Especifique as configurações conforme desejado.
 
-   Para ver uma descrição de uma opção, clique no ícone **[!UICONTROL Info Tip]** ao lado da opção .
+   Para ver uma descrição de uma opção, selecione o ícone **[!UICONTROL Info Tip]** ao lado da opção .
 
    A página Visualização exibe o visualizador conforme você atualiza e altera as configurações.
 
-1. Clique em **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
-1. Na página Predefinições do visualizador , examine a Predefinição do visualizador de zoom ou a Predefinição do visualizador de zoom guiado que você criou. Se precisar de ajuste, clique em **[!UICONTROL Edit]**, altere as configurações na página Configurar Visualizador e clique em ****[!UICONTROL Save]****.
+1. Selecione **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
+1. Na página Predefinições do visualizador , examine a Predefinição do visualizador de zoom ou a Predefinição do visualizador de zoom guiado que você criou. Se precisar de ajuste, selecione **[!UICONTROL Edit]**, altere as configurações na página Configurar visualizador e selecione **[!UICONTROL Save]**.
 
 Para obter informações sobre o gerenciamento de Predefinições do visualizador na tela Predefinições do visualizador, consulte [Predefinições do visualizador](application-setup.md#viewer_presets).
 
 >[!MORELIKETHIS]
 >
->* [Criação e edição de predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets)
+>* [Criar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets)
 

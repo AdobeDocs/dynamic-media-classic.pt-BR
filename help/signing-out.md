@@ -1,5 +1,5 @@
 ---
-title: Fazer logon e sair do Adobe Dynamic Media Classic
+title: Faça logon no Adobe Dynamic Media Classic e saia dele
 description: Saiba mais sobre como fazer logon no Adobe Dynamic Media Classic e conectar-se a um servidor de ambiente de produção na América do Norte (NA) ou Europa, Oriente Médio, África (EMEA) ou Pacífico Asiático (APAC).
 contentOwner: admin
 content-type: reference
@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,16 @@ Certifique-se de ter o seguinte antes de usar o aplicativo de desktop Adobe Dyna
 Use o mapeamento a seguir para selecionar o ambiente de produção que deseja usar.
 
    | URL do navegador | Nome do servidor de aplicativos de desktop |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produção de NA (América do Norte) |
    | https://s7sps3.scene7.com/ | Produção da EMEA (Europa, Oriente Médio e África) |
    | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
 
-1. Toque em **[!UICONTROL Sign in]**.
+1. Selecione **[!UICONTROL Sign in]**.
 
 ## Sair do Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. No canto superior direito do aplicativo de desktop Adobe Dynamic Media Classic, toque **[!UICONTROL Sign out]** e toque **[!UICONTROL Sign out]** novamente.
+1. No canto superior direito do aplicativo de desktop Adobe Dynamic Media Classic, selecione **[!UICONTROL Sign out]** e selecione **[!UICONTROL Sign out]** novamente.
 
 >[!MORELIKETHIS]
 >

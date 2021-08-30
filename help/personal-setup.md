@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -95,9 +95,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Email
 
-* ****[!UICONTROL Email Options]**** - Escolha como deseja que o Adobe Dynamic Media Classic o informe por e-mail quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalho somente se ocorrerem avisos ou erros.
-* ****[!UICONTROL Email Scope]**** - Determina se você recebe todo o email de trabalho da sua empresa ou apenas o email sobre trabalhos de upload e publicação iniciados.
-* ****[!UICONTROL Email Types]**** - Determina se você é informado quando trabalhos de upload e publicação são concluídos.
+* **[!UICONTROL Email Options]** - Escolha como deseja que o Adobe Dynamic Media Classic o informe por e-mail quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalho somente se ocorrerem avisos ou erros.
+* **[!UICONTROL Email Scope]** - Determina se você recebe todo o email de trabalho da sua empresa ou apenas o email sobre trabalhos de upload e publicação iniciados.
+* **[!UICONTROL Email Types]** - Determina se você é informado quando trabalhos de upload e publicação são concluídos.
 
 ## Idioma
 

@@ -1,6 +1,6 @@
 ---
 title: Especificar opções de exportação disponíveis para usuários do Media Portal
-description: Saiba como especificar opções de exportação que estão disponíveis para usuários do Media Portal.
+description: Saiba como especificar opções de exportação que estão disponíveis para usuários do Media Portal no Adobe Dynamic Media Classic.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ As duas restrições a seguir se aplicam se você exportar ativos de imagem por 
 * O arquivo de exportação Zip compactado tem um tamanho máximo de arquivo de 1 GB para o trabalho de exportação.
 * Você pode ter no máximo 500 ativos totais por trabalho de exportação.
 
-Consulte também [Exportação de ativos do Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Consulte também [Exportar ativos do Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Para especificar opções de exportação disponíveis para usuários do Media Portal:**
 
-1. Na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
+1. Na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 1. Na janela Predefinições de imagem, selecione uma das opções a seguir:
 
    * **Ativar a conversão definida pelo usuário**  - Quando selecionada, essa opção permite que os usuários escolham outra opção na lista  **[!UICONTROL Size]** suspensa da janela Exportar ativos selecionados. Em seguida, os usuários podem escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.

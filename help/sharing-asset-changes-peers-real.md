@@ -1,6 +1,6 @@
 ---
-title: Compartilhamento de alterações de ativos com colegas em tempo real
-description: Saiba como compartilhar alterações de ativos com colegas em tempo real.
+title: Compartilhar alterações de ativos com colegas em tempo real
+description: Saiba como compartilhar alterações de ativos com colegas em tempo real no Adobe Dynamic Media Classic.
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Compartilhamento de alterações de ativos com colegas em tempo real{#sharing-asset-changes-with-peers-in-real-time}
+# Compartilhar alterações de ativos com colegas em tempo real{#sharing-asset-changes-with-peers-in-real-time}
 
-Com várias cópias do Adobe Dynamic Media Classic em execução em um ou mais computadores na mesma empresa, as seguintes ações de qualquer cliente Adobe Dynamic Media Classic são atualizadas em tempo real com todos os clientes peer:
+Com várias cópias do Adobe Dynamic Media Classic em execução em vários computadores na mesma empresa, as seguintes ações de qualquer cliente Adobe Dynamic Media Classic são atualizadas em tempo real com todos os clientes peer:
 
 * Editar um ativo (construtor, editor de imagens e assim por diante)
 * Renomear um ativo

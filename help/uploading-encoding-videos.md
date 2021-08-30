@@ -11,10 +11,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
-source-wordcount: '3789'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,9 +84,9 @@ Consulte [Predefinições de codificação de vídeo de desktop](application-set
 1. Na caixa de diálogo Reprocessar ativos , expanda **[!UICONTROL EVideo Options]** e siga um destes procedimentos:
    * A prática recomendada é usar o seguinte método. Selecione **Adaptive Video**.
 Consulte [Vídeo adaptável (padrão)](application-setup.md#adaptive-video-default).
-   * Opcional. Se desejar usar configurações de codificação individuais, expanda ****[!UICONTROL Single Encoding Presets]**** e selecione as opções de codificação desejadas para Desktop, Móvel e Tablet.
+   * Opcional. Se desejar usar configurações de codificação individuais, expanda **[!UICONTROL Single Encoding Presets]** e selecione as opções de codificação desejadas para Desktop, Móvel e Tablet.
 Consulte [Predefinições de codificação de vídeo de desktop](application-setup.md#desktop-video-encoding-presets), [Predefinições de codificação de vídeo móvel](application-setup.md#mobile-video-encoding-presets), [Predefinições de codificação de vídeo de tablet](application-setup.md#tablet-video-encoding-presets).
-1. Na caixa de diálogo Reprocessar ativos , clique em **[!UICONTROL Submit]**.
+1. Na caixa de diálogo Reprocessar ativos , selecione **[!UICONTROL Submit]**.
 
 Quando você usa a predefinição de codificação Vídeo adaptativo ou usa várias predefinições de codificação única, o resultado é um Conjunto de vídeos adaptáveis criado automaticamente com várias codificações de vídeo. Você também pode criar manualmente um Conjunto de vídeos adaptativos selecionando vídeos individuais.
 
@@ -140,7 +140,7 @@ Ao codificar um arquivo de vídeo, use um arquivo de vídeo de origem com a maio
 A tabela a seguir descreve o tamanho recomendado, a proporção e a taxa mínima de bits que seus arquivos de vídeo de origem devem ter ao codificá-los:
 
 | Tamanho | Proporção | Taxa mínima de bits |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 X 768 | 4:3 | 4500 kbps para a maioria dos vídeos. |
 | 1280 X 720 | 16:99 | 3000 - 6000 kbps, dependendo da quantidade de movimento no vídeo. |
 | 1920 X 1080 | 16:99 | 6000 - 8000 kbps, dependendo da quantidade de movimento no vídeo. |
@@ -149,7 +149,7 @@ A tabela a seguir descreve o tamanho recomendado, a proporção e a taxa mínima
 
 Você pode obter os metadados de um arquivo exibindo seus metadados no Adobe Dynamic Media Classic, usando uma ferramenta de edição de vídeo ou um aplicativo projetado para obter metadados. A seguir estão as instruções para usar MediaInfo, um aplicativo de terceiros, para obter os metadados de um arquivo de vídeo:
 
-1. Vá para esta página da Web: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Vá para esta página da Web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Selecione e baixe o instalador da versão da GUI e siga as instruções de instalação.
 1. Após a instalação, clique com o botão direito do mouse no arquivo de vídeo (somente Windows®) e selecione MediaInfo ou abra MediaInfo e arraste o arquivo de vídeo para o aplicativo. Você verá todos os metadados associados ao arquivo de vídeo, incluindo largura, altura e fps.
 
@@ -187,7 +187,7 @@ Esta tabela descreve a taxa de dados de velocidades de conexão típicas.
 | Velocidade (Kbps) | Tipo de conexão |
 |--- |--- |
 | 256 | Conexão discada. |
-| 800 | Conexão móvel típica. Para essa conexão, direcione uma taxa de dados no intervalo de 400 a um máximo de 800 para experiências 3G. |
+| 600 | Conexão móvel típica. Para essa conexão, direcione uma taxa de dados no intervalo de 400 a um máximo de 800 para experiências 3G. |
 | 2000 | Conexão típica de desktop de banda larga. Para esta conexão, direcione uma taxa de dados no intervalo de 800-2000 Kbps, com a maioria dos destinos com média de 1200-1500 Kbps. |
 | 5000 | Conexão típica de alta banda larga. A codificação nesse intervalo superior não é recomendada porque a entrega de vídeo nessa velocidade não está disponível para a maioria dos consumidores. |
 
