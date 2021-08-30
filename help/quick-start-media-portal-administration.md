@@ -1,6 +1,6 @@
 ---
 title: '"Início rápido: Portal de mídia"'
-description: Uma introdução e o Início rápido do Media Portal para ajudá-lo a ativar e executar rapidamente com as técnicas e a administração do Media Portal.
+description: Uma introdução e o Início rápido do Media Portal para ajudá-lo a ativar e executar rapidamente com as técnicas do Media Portal e a administração no Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ O Media Portal permite que as empresas adquiram, controlem e distribuam facilmen
 
 Como administrador, você controla como os usuários visualizam, acessam e usam ativos no Media Portal. Além disso, você pode personalizar a interface do Media Portal para corresponder ao seu site e marca. Você pode especificar fonte, cor da fonte, tamanho da fonte e incorporar elementos de marca, como logotipos, na interface do Media Portal.
 
-Este Início Rápido foi projetado para colocar você em operação rapidamente com a administração do Media Portal. No final de cada etapa, clique no link do tópico para saber mais.
+Este Início Rápido foi projetado para colocar você em operação rapidamente com a administração do Media Portal. No final de cada etapa, selecione o link de tópico para saber mais.
 
 ## 1. Entender as funções de usuário do Media Portal
 
@@ -47,7 +47,7 @@ Consulte [Adicionar e gerenciar usuários do Media Portal](adding-media-portal-u
 
 Você pode ter contas FTP separadas associadas ao Media Portal e mapeadas para uma pasta específica na sua conta Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais para sua conta usando contas FTP separadas.
 
-Consulte [Gerenciamento de contas FTP](ftp-accounts.md#managing_ftp_accounts).
+Consulte [Gerenciar contas FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Consulte [Especificar opções de exportação disponíveis para usuários do Me
 
 Uma predefinição de imagem é uma coleção de configurações predefinidas que alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada. Você pode criar Predefinições de imagem para controlar como as imagens são reformatadas quando os usuários as exportam.
 
-Consulte [Criação e ativação de predefinições de imagem](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Consulte [Criar e ativar Predefinições de imagem](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Criar predefinições de metadados e campos de metadados definidos pelo usuário
 

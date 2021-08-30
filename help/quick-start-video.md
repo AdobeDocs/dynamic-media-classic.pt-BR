@@ -1,5 +1,5 @@
 ---
-title: '"Início rápido: Vídeo"'
+title: '"Início rápido: Vídeo no Adobe Dynamic Media Classic"'
 description: Uma introdução e o Início rápido para o Adobe Dynamic Media Classic Video para ajudá-lo a ativar e executar rapidamente.
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
 
-# Início rápido: Vídeo{#quick-start-video}
+# Início rápido: Vídeo no Adobe Dynamic Media Classic{#quick-start-video}
 
 O Adobe Dynamic Media Classic Video é uma solução completa que facilita a publicação de vídeo adaptável de alta qualidade para transmissão em várias telas, incluindo dispositivos móveis para desktop, iOS, Android™, BlackBerry® e Windows®. Um Conjunto de vídeos adaptáveis agrupa versões do mesmo vídeo codificadas em diferentes formatos e taxas de bits, como 400 kbps, 800 kbps e 1000 kbps. O computador desktop ou dispositivo móvel detecta a largura de banda disponível.
 
@@ -47,7 +47,7 @@ Para gerenciar conjuntos de vídeo único e adaptativos, o Adobe Dynamic Media C
 
    Consulte [Adicionar legendas ao vídeo](adding-captions-video.md).
 
-   Consulte [Adicionar marcadores de capítulo a vídeo](adding-chapter-markers-video.md).
+   Consulte [Adicionar marcadores de capítulo ao vídeo](adding-chapter-markers-video.md).
 
 * Organize, navegue e pesquise vídeos com suporte completo a metadados para o gerenciamento eficiente dos ativos de vídeo.
 * Forneça Conjuntos de Vídeos Adaptativos para a Web e para desktops e dispositivos móveis, incluindo iPhone, iPad, Android™, BlackBerry® e telefone Windows®.
@@ -76,14 +76,14 @@ Para gerenciar conjuntos de vídeo único e adaptativos, o Adobe Dynamic Media C
 
 A seguinte descrição passo a passo do fluxo de trabalho foi criada para ajudá-lo a ativar e executar rapidamente com conjuntos de vídeos adaptáveis no Adobe Dynamic Media Classic. Após cada etapa é uma referência cruzada a um cabeçalho de tópico, onde você pode encontrar mais informações.
 
-## 1. Upload e codificação de vídeos
+## 1. Fazer upload e codificar vídeos
 
 Faça upload e gere conjuntos de vídeos adaptáveis usando um dos dois cenários a seguir:
 
-* **Fazer upload de vídeos pré-codificados**  - Se os vídeos já tiverem sido codificados fora do Adobe Dynamic Media Classic, na barra Navegação global, clique  **[!UICONTROL Upload]** para navegar e fazer upload de arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, clique em **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até seus arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Adaptive Video Set e salve o conjunto.
-* **Fazer upload de vídeos de origem principal**  - Se os vídeos não estiverem codificados, na barra Navegação global, clique  **[!UICONTROL Upload]** para fazer upload de arquivos de origem de vídeo principais (não MP4) e solicite que o Adobe Dynamic Media Classic os codifique em arquivos MP4 para você. Na caixa de diálogo **[!UICONTROL Upload Job Options]**, em **[!UICONTROL EVideo Options]**, selecione **[!UICONTROL Adaptive Video]**.
+* **Fazer upload de vídeos pré-codificados**  - Se os vídeos já tiverem sido codificados fora do Adobe Dynamic Media Classic, na barra Navegação global, selecione  **[!UICONTROL Upload]** para navegar e fazer upload de arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, vá para **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até seus arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Adaptive Video Set e salve o conjunto.
+* **Fazer upload de vídeos de origem principal**  - Se os vídeos não estiverem codificados, na barra de Navegação global, selecione  **[!UICONTROL Upload]** para fazer upload de arquivos de origem de vídeo principais (não MP4). O Adobe Dynamic Media Classic os codifica em arquivos MP4 para você. Na caixa de diálogo **[!UICONTROL Upload Job Options]**, em **[!UICONTROL EVideo Options]**, selecione **[!UICONTROL Adaptive Video]**.
 
-   Essa opção preferida permite criar um Conjunto de vídeos adaptáveis que aplica automaticamente a predefinição de codificação correta ao vídeo, seja 16:9 ou 4:3, para corresponder às dimensões do vídeo que você enviou. Quando você envia seu trabalho de upload, um Conjunto de vídeos adaptáveis é criado automaticamente para você, o que inclui três codificações de vídeo na proporção correta.
+   Essa opção preferida permite criar um Conjunto de vídeos adaptáveis que aplica automaticamente a predefinição de codificação correta ao vídeo, seja 16:9 ou 4:3, para corresponder às dimensões do vídeo que você enviou. Quando você envia seu trabalho de upload, um Conjunto de vídeos adaptativos é criado automaticamente para você, o que inclui três configurações de vídeo codificadas na proporção correta.
 
    Ou, na mesma caixa de diálogo **[!UICONTROL Job Options]**, em **[!UICONTROL EVideo Options]**, expanda **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições de codificação de vídeo individuais que você deseja de **Desktop**, **Celular (iPhone, iPad, Android™)** e **Tablet (iPad, Android™)** para criar os arquivos MP4.
 
@@ -99,29 +99,29 @@ No entanto, se for necessária uma personalização adicional, os administradore
 
 Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-## 2. Visualização de vídeos em um visualizador de vídeo
+## 2. Visualizar vídeos em um visualizador de vídeo
 
-Para ver como um vídeo é reproduzido para usuários finais em um desktop, site ou em um dispositivo móvel, selecione o vídeo no Painel Procurar e clique em **[!UICONTROL Preview]**.
+Para ver como um vídeo é reproduzido para usuários finais em um desktop, site ou em um dispositivo móvel, selecione o vídeo no Painel de navegação e selecione **[!UICONTROL Preview]**.
 
-Consulte [Visualização de vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Consulte [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 Você pode reproduzir o vídeo na página Visualização. Você também pode escolher visualizadores de vídeo diferentes para descobrir como o vídeo aparece em diferentes players. Como prática recomendada, use o reprodutor de vídeo HTML5 para reprodução de várias telas em desktops, tablets e dispositivos móveis.
 
 **Opcional**
 
-Personalização de predefinições do visualizador - o Adobe Dynamic Media Classic oferece predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar as Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, clique em **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
+Personalização de predefinições do visualizador - o Adobe Dynamic Media Classic oferece predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar as Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
 
 Consulte [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-## 3. Implantação de vídeos em seus sites e sites móveis
+## 3. Implante vídeos em seus sites e sites móveis
 
 Para integrar vídeo ao seu site, você pode fazer um dos seguintes procedimentos:
 
 * Exiba o vídeo em sua própria janela pop-up ou modal, nesse caso, use o recurso **[!UICONTROL Copy URL]**.
 
-   Para obter o URL de um vídeo, na Exibição de grade ou Exibição de lista, selecione-o no Painel de navegação. Clique em **[!UICONTROL Preview]** e em **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
+   Para obter o URL de um vídeo, na Exibição de grade ou Exibição de lista, selecione-o no Painel de navegação. Selecione **[!UICONTROL Preview]** e selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
 
-   Ao clicar em **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código no HTML do seu site, site móvel ou aplicativo.
+   Quando você seleciona **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código no HTML do seu site, site móvel ou aplicativo.
 
    >[!NOTE]
    >
@@ -129,15 +129,15 @@ Para integrar vídeo ao seu site, você pode fazer um dos seguintes procedimento
 
 * Exiba o vídeo incorporado na página da Web, nesse caso, use o recurso **[!UICONTROL Embed Code]**.
 
-   Para obter o código incorporado de um vídeo, na Exibição de grade ou Exibição de lista, selecione o vídeo no Painel de navegação. Clique em **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, clique em **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
+   Para obter o código incorporado de um vídeo, na Exibição de grade ou Exibição de lista, selecione o vídeo no Painel de navegação. Vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Actions da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
-   Clique em **[!UICONTROL Close]** e cole o código incorporado nas páginas da Web.
+   Selecione **[!UICONTROL Close]** e cole o código incorporado nas páginas da Web.
 
    >[!NOTE]
    >
    >O código Incorporado só é ativado após a publicação do vídeo ou do Conjunto de vídeos adaptáveis.
 
-Consulte [Implantação de vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+Consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >
