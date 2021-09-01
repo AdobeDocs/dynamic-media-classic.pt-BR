@@ -1,19 +1,19 @@
 ---
 title: Vídeos de treinamento do Adobe Dynamic Media Classic
-description: Vídeos de treinamento do Adobe Dynamic Media Classic sobre a introdução, geração dinâmica de imagens, vídeo, portal de mídia, modelos e criação e renderização de imagens.
+description: Vídeos de treinamento do Adobe Dynamic Media Classic sobre a introdução, Dynamic Imaging, vídeo, portal de mídia, modelos e criação e renderização de imagens.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '6546'
+source-wordcount: '6552'
 ht-degree: 0%
 
 ---
 
 # Vídeos de treinamento do Adobe Dynamic Media Classic {#training-videos}
 
-Vídeos de treinamento do Adobe Dynamic Media Classic sobre a introdução, geração dinâmica de imagens, vídeo, portal de mídia, modelos e criação e renderização de imagens.
+Vídeos de treinamento do Adobe Dynamic Media Classic sobre a introdução, Dynamic Imaging, vídeo, portal de mídia, modelos e criação e renderização de imagens.
 
 ## Introdução {#get-started-training}
 
@@ -61,7 +61,7 @@ Vídeos de treinamento do Adobe Dynamic Media Classic sobre a introdução, gera
 
 * [Início rápido 2: Catálogos eletrônicos](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
-## Vídeo {#video-training}
+## Vídeo no Adobe Dynamic Media Classic {#video-training}
 
 * [Visão geral do vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
@@ -97,7 +97,7 @@ Vídeos de treinamento do Adobe Dynamic Media Classic sobre a introdução, gera
 
 * [SPS 6.5, visão geral da atualização](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/529_6.5%20highlights_2012.11.06%20-%20Scene7%20-%206.5%20Release%20Highlights_Scratch-AVS)
 
-## Criação e renderização de imagens {#image-authoring-rendering-training}
+## Criação de imagens e renderização de imagens {#image-authoring-rendering-training}
 
 Vídeos de treinamento sobre vários aspectos dos seguintes:
 
@@ -155,11 +155,11 @@ Retorne para [Criação e renderização de imagem](#image-authoring-rendering-t
 
 * [Erros no mapa de iluminação](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/999_21_common_mistakes_bad_illumination_maps_ia_01colorizing-AVS)
 
-### Mapeamento de padrão {#pattern-mapping}
+### Mapa de padrões {#pattern-mapping}
 
 Retorne para [Criação e renderização de imagem](#image-authoring-rendering-training)
 
-* [Visão geral do mapeamento de padrão](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
+* [Visão geral do mapa de padrões](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
 
 * [Etapas antes da edição da malha](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/579_02_steps_before_mesh_editing_ia_02pattern-AVS)
 
@@ -261,7 +261,7 @@ Retorne para [Criação e renderização de imagem](#image-authoring-rendering-t
 
 * [Revisão da coloração do vestuário](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/620_700_apparel_colorization_review_ia_07apparel-AVS)
 
-* [Avaliar o esforço de mapeamento de padrões](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
+* [Avaliar esforço do mapa de padrões](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
 
 * [Criação de flowline de roupas de vestuário](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/622_702_apparel_flowline_authoring_ia_07apparel-AVS)
 

@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento da pasta Lixeira
+title: Gerenciar a pasta Lixeira
 description: Saiba como gerenciar a pasta Lixeira.
 uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: admin
@@ -10,14 +10,14 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
 
-# Gerenciamento da pasta Lixeira{#managing-the-trash-folder}
+# Gerenciar a pasta Lixeira{#managing-the-trash-folder}
 
 Os itens que você excluir do Adobe Dynamic Media Classic são movidos para a pasta Lixeira. Os excluídos permanecem nessa pasta por sete dias até serem restaurados ou excluídos permanentemente. Você pode examinar os itens excluídos clicando no ícone **[!UICONTROL Trash]** na parte inferior da Biblioteca de ativos e visualizando os itens na página da pasta Lixeira.
 
@@ -37,25 +37,25 @@ Excluir um item em uma pasta coloca o item na pasta Lixeira. O seguinte acontece
 * O item não pode ser publicado. Mesmo se o item tiver sido marcado para publicação ao excluí-lo, ele não será publicado.
 * O item permanece na pasta Lixeira até ser restaurado, sete dias se passam ou alguém escolhe o comando **[!UICONTROL Empty the Trash]**. Após sete dias, uma operação automática de limpeza exclui permanentemente o item.
 
-## Restauração de ativos da pasta Lixeira {#restoring-assets-from-the-trash-folder}
+## Restaurar ativos da pasta Lixeira {#restoring-assets-from-the-trash-folder}
 
 Não é necessário que a pessoa que excluiu um ativo o restaure; qualquer pessoa pode restaurar ativos da pasta Lixeira. Os ativos restaurados são colocados nas pastas das quais foram excluídos. Se essas pastas não existirem mais, o Adobe Dynamic Media Classic as recriará e os ativos restaurados serão colocados nas pastas recriadas.
 
 Para restaurar ativos da pasta Lixeira para as pastas das quais foram excluídos, faça o seguinte:
 
-1. Na parte inferior do painel Biblioteca de ativos, clique no ícone **[!UICONTROL Trash]** para abrir a pasta Lixeira.
+1. Na parte inferior do painel Biblioteca de ativos, selecione o ícone **[!UICONTROL Trash]** para abrir a pasta Lixeira.
 1. Selecione o ativo ou os ativos que deseja restaurar.
-1. Clique em **[!UICONTROL File]** > **[!UICONTROL Restore from trash]**.
+1. Vá para **[!UICONTROL File]** > **[!UICONTROL Restore from trash]**.
 
 ## Exclusão permanente de ativos na pasta Lixeira {#permanently-deleting-assets-in-the-trash-folder}
 
 Ao excluir ativos na pasta Lixeira, os ativos são excluídos permanentemente. Os ativos são excluídos automaticamente da pasta Lixeira após sete dias.
 
-Para excluir permanentemente os ativos da pasta Lixeira, clique no ícone **[!UICONTROL Trash]**. Na página da pasta Lixeira, siga um destes procedimentos:
+Para excluir permanentemente os ativos da pasta Lixeira, selecione o ícone **[!UICONTROL Trash]**. Na página da pasta Lixeira, siga um destes procedimentos:
 
-* **Exclusão de ativos individuais**  - Selecione os ativos que deseja excluir permanentemente e clique em  **[!UICONTROL File]** >  **[!UICONTROL Empty From Trash]**.
+* **Exclusão de ativos individuais**  - Selecione os ativos que deseja excluir permanentemente e acesse  **[!UICONTROL File]** >  **[!UICONTROL Empty From Trash]**.
 
-* **Exclusão de todos os ativos**  - Clique em  **[!UICONTROL File]** >  **[!UICONTROL Empty trash]**.
+* **Exclusão de todos os ativos**  - Vá até  **[!UICONTROL File]** >  **[!UICONTROL Empty trash]**.
 
 >[!MORELIKETHIS]
 >

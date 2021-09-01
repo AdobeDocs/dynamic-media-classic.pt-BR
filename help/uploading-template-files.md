@@ -1,6 +1,6 @@
 ---
 title: Upload de arquivos de modelo
-description: Saiba como fazer upload de arquivos de modelo.
+description: Saiba como fazer upload de arquivos de modelo no Adobe Dynamic Media Classic.
 uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 1%
+source-wordcount: '234'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Os modelos podem ser criados a partir de arquivos Adobe Photoshop PSD ou arquivo
 
 Para obter instruções detalhadas sobre como fazer upload de arquivos, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files). Lembre-se do seguinte ao carregar arquivos de modelo:
 
-* Se você estiver carregando um arquivo PSD, poderá criar um modelo a partir dele. O Adobe Dynamic Media Classic cria uma imagem separada para cada camada no PSD. Na caixa de diálogo Upload Job Options , clique em **[!UICONTROL Photoshop Options]** e selecione **[!UICONTROL Maintain Layers]** e **[!UICONTROL Create Template]**. Em seguida, escolha uma opção na lista suspensa **[!UICONTROL Layer Naming]** para nomear as imagens que o Adobe Dynamic Media Classic cria das camadas no PSD.
+* Se você estiver carregando um arquivo PSD, poderá criar um modelo a partir dele. O Adobe Dynamic Media Classic cria uma imagem separada para cada camada no PSD. Na caixa de diálogo Upload Job Options , selecione **[!UICONTROL Photoshop Options]** e selecione **[!UICONTROL Maintain Layers]** e **[!UICONTROL Create Template]**. Em seguida, escolha uma opção na lista suspensa **[!UICONTROL Layer Naming]** para nomear as imagens que o Adobe Dynamic Media Classic cria das camadas no PSD.
 Consulte [Opções de carregamento de PSD](psd-files.md#psd_upload_options).
 
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
@@ -37,6 +37,6 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 
 >[!MORELIKETHIS]
 >
->* [Upload de arquivos](uploading-files.md#uploading_your_files)
->* [Trabalhar com arquivos PSD ](psd-files.md#working_with_psd_files)
+>* [Fazer upload de seus arquivos](uploading-files.md#uploading_your_files)
+>* [Trabalhar com arquivos PSD](psd-files.md#working_with_psd_files)
 

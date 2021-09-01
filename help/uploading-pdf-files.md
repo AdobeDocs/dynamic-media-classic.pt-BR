@@ -1,6 +1,6 @@
 ---
-title: Upload de arquivos PDF
-description: Saiba como fazer upload dos arquivos PDF associados a um eCatalog.
+title: Fazer upload dos arquivos PDF
+description: Saiba como fazer upload dos arquivos PDF associados a um eCatalog no Adobe Dynamic Media Classic.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
 content-type: reference
@@ -9,18 +9,18 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
 
-# Upload de arquivos PDF{#uploading-the-pdf-files}
+# Fazer upload dos arquivos PDF{#uploading-the-pdf-files}
 
-Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog. Esses arquivos contêm todas as informações de imagem, fontes e gráficos vetoriais. Você também pode criar um eCatalog com imagens. Depois de preparar seus arquivos PDF para upload, na barra Navegação global, clique em **[!UICONTROL Upload]** para começar a carregar os PDFs.
+Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog. Esses arquivos contêm todas as informações de imagem, fontes e gráficos vetoriais. Você também pode criar um eCatalog com imagens. Depois de preparar os arquivos PDF para upload, na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a carregar os PDFs.
 
-## Preparação de arquivos PDF {#preparing-your-pdf-files}
+## Preparar seus arquivos PDF {#preparing-your-pdf-files}
 
 Prepare seus arquivos PDF antes de carregá-los no Adobe Dynamic Media Classic:
 
@@ -30,7 +30,7 @@ Prepare seus arquivos PDF antes de carregá-los no Adobe Dynamic Media Classic:
 * Se você quiser que os visualizadores pesquisem seu eCatalog por palavra-chave, descubra se seus arquivos PDF estão &quot;nivelados&quot;. Não é possível extrair palavras de pesquisa de arquivos PDF nivelados. Para descobrir se um PDF está nivelado, tente selecionar texto dentro dele. Se não for possível selecionar o texto, o PDF será nivelado e os visualizadores não poderão pesquisar por palavra-chave em seu eCatalog.
 * Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. Por padrão, o Adobe Dynamic Media Classic pode detectar de forma inteligente essas imagens CMYK e convertê-las usando um perfil de cor CMYK interno. No entanto, se você quiser usar um perfil de cor personalizado para converter imagens CMYK, poderá fazer isso.
 
-   Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
+   Consulte [Perfis ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 
 ## Opções de upload de PDF de práticas recomendadas {#best-practice-pdf-upload-options}
 
@@ -38,21 +38,21 @@ Para obter informações detalhadas sobre os diferentes métodos de upload, cons
 
 Selecione os arquivos que deseja fazer upload e, em seguida, selecione estas *Opções de PDF de Práticas Recomendadas*:
 
-* **Opções de corte**  - Na caixa de diálogo Opções de trabalho de upload , clique em  **[!UICONTROL Crop Options]**. Se as páginas do PDF contiverem marcas de corte, marcas de registro ou outras marcas, na lista suspensa **[!UICONTROL Crop]**, escolha **[!UICONTROL Manual]**. Insira o número de pixels para cortar a partir dos lados superior, direito, inferior e esquerdo das páginas. As marcas de corte são frequentemente definidas a uma margem de meia polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução de pixel por polegada e digite 75, 75, 75, 75 nas caixas de texto Superior, Direita, Inferior e Esquerda. Nesse caso, ele recorta uma meia polegada das margens (em 150 ppi, metade de 1 é igual a 75 pixels).
+* **Opções de corte**  - Na caixa de diálogo Opções de upload de trabalho , selecione  **[!UICONTROL Crop Options]**. Se as páginas do PDF contiverem marcas de corte, marcas de registro ou outras marcas, na lista suspensa **[!UICONTROL Crop]**, escolha **[!UICONTROL Manual]**. Insira o número de pixels para cortar a partir dos lados superior, direito, inferior e esquerdo das páginas. As marcas de corte são frequentemente definidas a uma margem de meia polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução de pixel por polegada e digite 75, 75, 75, 75 nas caixas de texto Superior, Direita, Inferior e Esquerda. Nesse caso, ele recorta uma meia polegada das margens (em 150 ppi, metade de 1 é igual a 75 pixels).
 
-* **Processamento**  - Na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. Na lista suspensa **[!UICONTROL Processing]**, escolha **[!UICONTROL Rasterize]**. O arquivo PDF deve ser rasterizado para que todas as páginas e imagens possam ser exibidas no eCatalog.
+* **Processamento**  - Na caixa de diálogo Upload Job Options , selecione  **[!UICONTROL PDF Options]**. Na lista suspensa **[!UICONTROL Processing]**, escolha **[!UICONTROL Rasterize]**. O arquivo PDF deve ser rasterizado para que todas as páginas e imagens possam ser exibidas no eCatalog.
 
-* **Extrair palavras de pesquisa (opcional)**  - Na caixa de diálogo Opções de trabalho de upload , clique em  **[!UICONTROL PDF Options]**. Na lista suspensa Extrair , escolha **[!UICONTROL Search words]** se desejar que os visualizadores possam pesquisar por palavra-chave em seu eCatalog.
+* **Extrair palavras de pesquisa (opcional)**  - Na caixa de diálogo Opções de trabalho de upload , selecione  **[!UICONTROL PDF Options]**. Na lista suspensa Extrair , escolha **[!UICONTROL Search words]** se desejar que os visualizadores possam pesquisar por palavra-chave em seu eCatalog.
 
-* **Gerar catálogo eletrônico automaticamente a partir de várias páginas em PDF (opcional)**  - na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. Selecione **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** para criar automaticamente um eCatalog ao fazer upload. Você pode ir direto para a tela eCatalog e começar a trabalhar em seu eCatalog sem precisar primeiro selecionar arquivos PDF e selecionar o comando Criar. O eCatalog é nomeado após seu arquivo PDF.
+* **Gerar catálogo eletrônico automaticamente a partir de várias páginas em PDF (opcional)**  - na caixa de diálogo Upload Job Options , selecione  **[!UICONTROL PDF Options]**. Selecione **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** para criar automaticamente um eCatalog ao fazer upload. Você pode ir direto para a tela eCatalog e começar a trabalhar em seu eCatalog sem precisar primeiro selecionar arquivos PDF e selecionar o comando Criar. O eCatalog é nomeado após seu arquivo PDF.
 
-* **Solução**  - Na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. No campo de texto **[!UICONTROL Resolution]**, insira um valor. O Adobe Dynamic Media Classic recomenda 150 pixels por polegada.
+* **Solução**  - Na caixa de diálogo Upload Job Options , selecione  **[!UICONTROL PDF Options]**. No campo de texto **[!UICONTROL Resolution]**, insira um valor. O Adobe Dynamic Media Classic recomenda 150 pixels por polegada.
 
-* **Colorspace**  - Na caixa de diálogo Upload Job Options (Opções de trabalho de upload), clique em  **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cores, escolha **[!UICONTROL Detect automatically]**. Geralmente, os PDFs criados para saída de impressão estão em CMYK; Os PDFs para visualização online são RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDFs usam ambos os espaços de cores, por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam RGB. Se você tiver carregado um perfil ICC, seu nome aparecerá no menu Colorspace e você poderá escolhê-lo lá.
+* **Colorspace**  - Na caixa de diálogo Upload Job Options , selecione  **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cores, escolha **[!UICONTROL Detect automatically]**. Geralmente, os PDFs criados para saída de impressão estão em CMYK; Os PDFs para visualização online são RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDFs usam ambos os espaços de cores, por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam RGB. Se você tiver carregado um perfil ICC, seu nome aparecerá no menu Colorspace e você poderá escolhê-lo lá.
 
-   Consulte [Perfis ICC](/help/icc-profiles.md).
+   Consulte [Perfis ICC (International Color Consortium)](/help/icc-profiles.md).
 
-* **Opções de perfil de cor**  - Na caixa de diálogo Upload de opções de trabalho, clique em  **[!UICONTROL Color Profile Options]** e escolha uma opção de Perfil de cor:
+* **Opções de perfil de cor**  - Na caixa de diálogo Upload de opções de trabalho, selecione  **[!UICONTROL Color Profile Options]** e escolha uma opção de Perfil de cor:
 
    * **Manter espaço de cor original**  - Mantém o espaço de cor original.
 
@@ -60,7 +60,7 @@ Selecione os arquivos que deseja fazer upload e, em seguida, selecione estas *Op
 
 <!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
 
-Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
+Consulte [Perfis ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 
 >[!NOTE]
 >

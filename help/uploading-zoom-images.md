@@ -1,6 +1,6 @@
 ---
-title: Upload de imagens de zoom
-description: Saiba como fazer upload de imagens de Zoom.
+title: Fazer upload de imagens de zoom
+description: Saiba como fazer upload de imagens de Zoom no Adobe Dynamic Media Classic.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-# Upload de imagens de zoom{#uploading-zoom-images}
+# Fazer upload de imagens de zoom{#uploading-zoom-images}
 
 As imagens de zoom devem ter uma contagem alta de pixels. Um número alto de pixels é necessário para que os visualizadores possam ver claramente os detalhes da imagem ao ampliar as imagens. Certifique-se de que as imagens usadas tenham o tamanho apropriado antes de carregá-las no Adobe Dynamic Media Classic.
 
-Na barra Navegação global, clique em **[!UICONTROL Upload]** para começar a carregar imagens.
+Na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a carregar imagens.
 
 Para obter instruções detalhadas sobre como fazer upload de imagens, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
-**Preparação das imagens para ampliar:**
+**Prepare suas imagens para ampliar:**
 
 Para aproveitar ao máximo os recursos de Zoom do Adobe Dynamic Media Classic, prepare os arquivos de imagem de zoom antes de carregá-los:
 

@@ -1,20 +1,20 @@
 ---
-title: Upload de um ativo de imagem ou de vetor
-description: Saiba como fazer upload de um ativo de imagem ou de um ativo de vetor.
+title: Fazer upload de um ativo de imagem ou de um ativo de vetor
+description: Saiba como fazer upload de um ativo de imagem ou de um ativo vetorial no Adobe Dynamic Media Classic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
 
-# Upload de um ativo de imagem ou de vetor{#uploading-an-image-asset-or-a-vector-asset}
+# Fazer upload de um ativo de imagem ou de um ativo de vetor{#uploading-an-image-asset-or-a-vector-asset}
 
 Antes de fazer upload de um ativo de imagem, primeiro solicite uma chave secreta compartilhada. Use essa chave secreta compartilhada para recuperar um token de upload. Em seguida, use o token de upload para carregar ativos de imagem ou ativos vetoriais.
 
@@ -24,7 +24,7 @@ Solicite uma *chave secreta compartilhada* de [usando o Admin Console para criar
 
 Na mensagem de email, forneça o nome da empresa que deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
-## Recuperação do token de upload {#retrieving-the-upload-token}
+## Recuperar o token de upload {#retrieving-the-upload-token}
 
 O *token de carregamento* garante que ninguém possa usar a mesma chave compartilhada-secreta para carregar ativos. Ele garante que o upload seja legítimo e provém de uma fonte confiável.
 
@@ -68,7 +68,7 @@ Salve o token de upload localmente para uso com solicitações futuras.
 Você pode usar os seguintes campos na cadeia de caracteres do URL de consulta para recuperar um token de upload:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obrigatório | get_uploadtoken |
 | shared_secret | Obrigatório | A chave secreta compartilhada da empresa que está fazendo o upload. |
 | expira | Opcional | Número de segundos que o token de carregamento é válido. O padrão é 300 segundos, se não especificado. |
@@ -88,7 +88,7 @@ Agora é possível fazer upload de um ativo de imagem.
 
 Consulte [Fazer upload de um ativo de imagem](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Upload de um ativo de imagem {#uploading-an-image-asset}
+## Fazer upload de um ativo de imagem {#uploading-an-image-asset}
 
 Após recuperar um token de upload válido por um período específico, é possível fazer upload de um ativo de imagem. Você faz upload do ativo como uma publicação de várias partes/formulários ao enviar o restante dos valores como uma sequência de consulta de URL, como mostrado neste exemplo:
 
@@ -98,9 +98,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Os campos `upload_token` e `company_name` são obrigatórios.
 
-Consulte [Recuperando o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulte [Recuperar o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulte [Recuperando uma chave secreta compartilhada](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulte [Recuperar uma chave secreta compartilhada](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Você também pode enviar outros valores opcionais como cadeias de caracteres de consulta de URL, como neste exemplo:
 
@@ -113,7 +113,7 @@ O parâmetro `file_limit` especifica o limite de tamanho do arquivo em bytes. O 
 Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviou na solicitação for um subconjunto dos limites globais, ele será honrado. Os limites globais são os seguintes:
 
 | Limite global | Valor |
-|--- |--- |
+| --- | --- |
 | Tamanho do arquivo para todos os clientes | 20 MB |
 | Formatos de arquivo de imagem compatíveis para upload | BMP, GIF, JPG, PNG, PSD |
 
@@ -125,7 +125,7 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Uma lista de extensões de nome de arquivo.
 * Se é necessário preservar o perfil de cor e o nome do arquivo associados ao ativo.
 * Se deseja usar o Plano de Fundo do Knockout. Se você ativar o Plano de Fundo de Knockout, defina o Canto, a Tolerância e o Método de Preenchimento.
-Consulte Plano de fundo de nocaute em [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte Plano de fundo de nocaute em [Opções de ajuste fino de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-Você pode exibir o código-fonte HTML associado ao formulário acima clicando em [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Você pode exibir o código-fonte HTML associado ao formulário acima selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito do mouse na janela do navegador e depois clique em **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **[!UICONTROL Submit]**.
+No Firefox, clique com o botão direito do mouse na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **[!UICONTROL Submit]**.
 
-Para exibir a resposta XML no Internet Explorer, clique em **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, clique em **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
+Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, vá para **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
 
 Veja a seguir uma amostra de resposta de um upload bem-sucedido:
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 Envie o ativo para fazer upload como uma publicação de várias partes/formulários, enquanto envia o restante dos valores como uma sequência de consulta de URL. Você pode usar os seguintes campos na cadeia de caracteres de consulta de URL para carregar um ativo:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obrigatório | fazer upload |
 | `upload_token` | Obrigatório | Faça upload do token da chave secreta compartilhada associada à empresa. |
 | `company_name` | Obrigatório | Nome da empresa que está executando o upload. |
@@ -235,7 +235,7 @@ Um exemplo de resposta bem-sucedida é exibido de maneira semelhante ao seguinte
 Você pode usar os seguintes campos na sequência de consulta do URL para solicitar informações para um ativo:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obrigatório | image_info |
 | `shared_secret` | Obrigatório | A chave secreta compartilhada da empresa. |
 | `image_name` | Obrigatório | Nome da imagem. |
@@ -248,7 +248,7 @@ Você pode usar os seguintes campos na sequência de consulta do URL para solici
 
 GET e POST
 
-## Upload de um ativo vetorial {#uploading-a-vector-asset}
+## Fazer upload de um ativo vetorial {#uploading-a-vector-asset}
 
 Após recuperar um token de upload válido por um período específico, é possível fazer upload de um ativo de vetor. Você faz upload do ativo como uma publicação de várias partes/formulários ao enviar o restante dos valores como uma sequência de consulta de URL, como mostrado neste exemplo:
 
@@ -258,9 +258,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Os campos `upload_token` e `company_name` são obrigatórios.
 
-Consulte [Recuperando o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulte [Recuperar o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Consulte [Recuperando uma chave secreta compartilhada](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Consulte [Recuperar uma chave secreta compartilhada](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Você também pode enviar outros valores opcionais como cadeias de caracteres de consulta de URL, como neste exemplo:
 
@@ -273,7 +273,7 @@ O parâmetro `file_limit` especifica o limite de tamanho do arquivo em bytes. O 
 Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviou na solicitação for um subconjunto dos limites globais, ele será honrado. Os limites globais são os seguintes:
 
 | Limite global | Valor |
-|--- |--- |
+| --- | --- |
 | Tamanho do arquivo para todos os clientes | 20 MB |
 | Formatos de arquivo de vetor compatíveis para upload | AI, EPS, PDF (somente quando o PDF foi aberto e salvo no Adobe Illustrator CS6) |
 
@@ -285,7 +285,7 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Uma lista de extensões de nome de arquivo.
 * Se é necessário preservar o perfil de cor e o nome do arquivo associados ao ativo.
 * Se deseja usar o Plano de Fundo do Knockout. Se você ativar o Plano de Fundo de Knockout, defina o Canto, a Tolerância e o Método de Preenchimento.
-Consulte Plano de fundo de nocaute em [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte Plano de fundo de nocaute em [Opções de ajuste fino de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e, em seguida, clica em **[!UICONTROL View Source]** para o formulário mostrado no exemplo. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **[!UICONTROL Submit]**.
+O seguinte código HTML é exibido quando você clica com o botão direito do mouse na janela do navegador e depois seleciona **[!UICONTROL View Source]** para o formulário mostrado no exemplo. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário seleciona **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-Para exibir a resposta XML no Internet Explorer, clique em **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, clique em **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. O Firefox é recomendado para exibir respostas XML.
+Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, vá para **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. O Firefox é recomendado para exibir respostas XML.
 
 Veja a seguir uma amostra de resposta de um upload bem-sucedido:
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 Envie o ativo para fazer upload como uma publicação de várias partes/formulários, enquanto envia o restante dos valores como uma sequência de consulta de URL. Você pode usar os seguintes campos na cadeia de caracteres de consulta de URL para carregar um ativo:
 
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obrigatório | fazer upload |
 | `upload_token` | Obrigatório | Faça upload do token da chave secreta compartilhada associada à empresa. |
 | `company_name` | Obrigatório | Nome da empresa que está executando o upload. |

@@ -1,6 +1,6 @@
 ---
 title: SEO de vídeo (Otimização do mecanismo de pesquisa)
-description: Saiba como definir as configurações de SEO de vídeo.
+description: Saiba como definir as configurações de SEO de vídeo no Adobe Dynamic Media Classic.
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ O Adobe Dynamic Media Classic cria relatórios sobre mapas de site de vídeo e f
 >
 >Para os feeds do Site de Vídeo e do mRSS, o Adobe Dynamic Media Classic captura metadados somente de vídeos que estão marcados para publicação. Marque vídeos para publicação para incluir seus metadados em Mapas de vídeo e feeds de mRSS.
 
-## Escolha das configurações de SEO do vídeo {#choosing-video-seo-settings}
+## Escolher definições de SEO de Vídeo {#choosing-video-seo-settings}
 
-Clique em Configurações de SEO de vídeo para obter os mapas de site de vídeo e os feeds de mRSS na página **[!UICONTROL Video Search Engine Optimization Settings]**. Para abrir esta página, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**.
+Selecione as configurações de SEO de vídeo para os mapas de site de vídeo e os feeds de mRSS na página **[!UICONTROL Video Search Engine Optimization Settings]**. Para abrir esta página, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**.
 
 Na área **[!UICONTROL General Setting]**, escolha se deseja gerar mapas do Site de Vídeo, feeds de RSS ou ambos. Na área **[!UICONTROL Generation Settings]**, mapeie os campos de metadados para campos de entrada.
 
-Depois de escolher as configurações, clique em **[!UICONTROL Save]** (ou **[!UICONTROL Save & Generate]**) para criar o Mapa do Site de Vídeo, os feeds de RSS ou ambos.
+Depois de escolher as configurações, selecione **[!UICONTROL Save]** (ou **[!UICONTROL Save & Generate]**) para criar o Mapa do Site de Vídeo, os feeds de RSS ou ambos.
 
-### Como escolher configurações gerais {#choosing-general-settings}
+### Configurar configurações gerais {#choosing-general-settings}
 
 Na lista suspensa **[!UICONTROL Generation Mode]**, escolha um modo de relatório:
 
@@ -65,11 +65,11 @@ Na lista suspensa **[!UICONTROL Generation Mode]**, escolha um modo de relatóri
 
 Na lista suspensa **[!UICONTROL Automatic/Manual Mode]**, escolha se deseja gerar automaticamente ou manualmente:
 
-* **Modo automático**  - O Adobe Dynamic Media Classic gera automaticamente um Mapa do site de vídeo, feed RSS de mídia (mRSS), ou ambos, a cada dia. Escolha a opção Marcar para publicação para marcar automaticamente para publicar o arquivo XML gerado pelo Adobe Dynamic Media Classic.
+* **Modo automático**  - O Adobe Dynamic Media Classic gera automaticamente um Mapa do site de vídeo, feed RSS de mídia (mRSS), ou ambos, a cada dia. Selecione a opção **[!UICONTROL Mark for Publish]** para marcar automaticamente a publicação do arquivo XML gerado pelo Adobe Dynamic Media Classic.
 
    * **Marque para** PublicarMarcas para publicar o arquivo XML gerado.
 
-* **Modo manual**  - O Adobe Dynamic Media Classic gera o Mapa do site de vídeo, o RSS da mídia (mRSS) ou ambos, quando você clica em Gerar ou Salvar e gerar na tela Configurações de otimização da pesquisa de vídeo. Escolha também essas opções:
+* **Modo Manual**  - O Adobe Dynamic Media Classic gera o Mapa do Site de Vídeo, o RSS da Mídia (mRSS) ou ambos, ao selecionar  **[!UICONTROL Generate]** ou  **[!UICONTROL Save & Generate]** na tela Configurações de otimização da pesquisa de vídeo. Escolha também essas opções:
 
    * **Sem mais configurações**  - Não marca para publicar o arquivo XML gerado.
 
@@ -91,16 +91,16 @@ Consulte [Visualizações de metadados](application-setup.md#metadata_views).
 
 1. Siga um destes procedimentos:
 
-   * Para salvar suas configurações sem gerar o arquivo XML, clique em **[!UICONTROL Save]**.
-   * Para salvar e gerar o arquivo, clique em **[!UICONTROL Save & Generate]**.
+   * Para salvar suas configurações sem gerar o arquivo XML, selecione **[!UICONTROL Save]**.
+   * Para salvar e gerar o arquivo, selecione **[!UICONTROL Save & Generate]**.
 
       O arquivo XML é gerado e registrado no log Trabalho. Os arquivos do Mapa do site de vídeo (video-sitemap) e de um feed RSS de mídia (mRSS) (mrss-feed) são armazenados na pasta raiz da sua empresa.
 
 >[!NOTE]
 >
->Publique o Mapa do Site de Vídeo ou o feed do mRSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e clique em **[!UICONTROL Publish]**.
+>Publique o Mapa do Site de Vídeo ou o feed do mRSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e selecione **[!UICONTROL Publish]**.
 
-## Envio de arquivos de Sitemap de vídeo e Feed de RSS para mecanismos de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
+## Enviar arquivos de Mapa do Site de Vídeo e de Feed RSS para um mecanismo de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
 Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são armazenados na pasta raiz da empresa:
 
@@ -109,8 +109,8 @@ Os arquivos de feed do Mapa do Site de Vídeo e do RSS do Media (mRSS) são arma
 
 Copie um desses URLs nas ferramentas do webmaster do mecanismo de pesquisa para enviar seu arquivo de feed Video Sitemap ou Media RSS (mRSS) para mecanismos de pesquisa.
 
-## Exibição de relatórios de SEO de vídeo {#viewing-video-seo-reports}
+## Exibir relatórios de SEO de vídeo {#viewing-video-seo-reports}
 
-Visualize relatórios de SEO de vídeo na página Relatório de otimização do mecanismo de pesquisa de vídeo . Para abrir esta página, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]**.
+Visualize relatórios de SEO de vídeo na página Relatório de otimização do mecanismo de pesquisa de vídeo . Para abrir esta página, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]**.
 
 Se ocorreram erros quando um relatório foi gerado, eles são listados na página Relatório .

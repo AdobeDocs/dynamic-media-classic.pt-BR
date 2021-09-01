@@ -1,33 +1,32 @@
 ---
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '533'
-ht-degree: 2%
+source-wordcount: '505'
+ht-degree: 0%
 
 ---
-# Contribuição para a documentação do Adobe Dynamic Media Classic
+# Contribuir para a documentação do Adobe Dynamic Media Classic
 
-Agradecemos por ter contribuído para a documentação do Adobe Dynamic Media Classic! Saudamos as contribuições de conteúdo de toda nossa comunidade de leitores, bem como de outros funcionários do Adobe.
+Obrigado por contribuir com a documentação do Adobe Dynamic Media Classic! O Adobe saúda as contribuições de conteúdo de toda a comunidade de leitores e de outros funcionários do Adobe.
 
-Este arquivo descreve como você pode contribuir, além de apontar as diretrizes a serem seguidas ao fazer suas contribuições.
+Este arquivo descreve como você pode contribuir e mostra as diretrizes a serem seguidas ao fazer suas contribuições.
 
-## Código de Conduta de Origem Aberta do Adobe
+## Código de conduta de fonte aberta do Adobe
 
-Este projeto adotou o [Código de Conduta de Origem Aberta do Adobe](code-of-conduct.md). Ao contribuir para a documentação, você concorda em seguir este código de conduta. Informe um comportamento inaceitável para [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este projeto adotou o [Código de Conduta de Origem Aberta do Adobe](code-of-conduct.md). Ao contribuir com a documentação, você concorda em aderir a esse código de conduta. Relate um comportamento inaceitável a [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Diretrizes para contribuir
+## Diretrizes de contribuição
 
-Embora nos congratulemos com quaisquer contributos para melhorar a documentação, pedimos que os contributos sejam respeitados, sempre que possível, em certas orientações e normas. Consulte as [Diretrizes para contribuir para a Documentação do Adobe Dynamic Media Classic](guidelines.md) para obter mais informações.
+Embora o Adobe aplauda quaisquer contribuições para melhorar a documentação, certifique-se de que o que você contribui segue, sempre que possível, determinadas diretrizes e normas. Consulte as [Diretrizes para contribuir para a documentação do Adobe Dynamic Media Classic](guidelines.md) para obter mais informações.
 
 ## Como contribuir
 
-Queremos facilitar ao máximo a apresentação das suas contribuições. Você pode contribuir de duas formas:
+A Adobe quer facilitar ao máximo o envio das suas contribuições. Você pode contribuir de duas formas:
 
 * [Criar um problema](#create-an-issue)
-* [Criar uma solicitação de baixa automática](#create-a-pull-request)
+* [Criar uma solicitação de pull](#create-a-pull-request)
 
-Qual método você escolhe depende de quão confortável você está editando a documentação no GitHub.
+O método escolhido depende de como você está confortável editando a documentação no GitHub.
 
 >[!NOTE]
 >
@@ -35,19 +34,19 @@ Qual método você escolhe depende de quão confortável você está editando a 
 
 ### Criar um problema {#create-an-issue}
 
-Você tem uma sugestão, uma observação sobre os documentos atuais, ou pergunta como algo é descrito? Em seguida, crie um problema. Os problemas também são excelentes se você tiver algo para contribuir, mas não se sinta confortável em editar os documentos ou fazer uma solicitação por push.
+Você tem uma sugestão, observação sobre os documentos atuais ou pergunta como algo é descrito? Em seguida, crie um problema. Os problemas também são excelentes se você tiver algo para contribuir, mas não se sinta confortável em editar os documentos ou fazer uma solicitação de pull sozinho.
 
-Os problemas permitem que você descreva facilmente sua ideia para melhorar os documentos e um membro da equipe de documentação pode analisá-la. Basta clicar no link **Registre um problema** na parte superior do painel de navegação direito em qualquer página para criar um problema.
+Problemas permitem descrever facilmente sua ideia para melhorar os documentos e um membro da equipe de documentação pode analisá-la. Para criar um problema, selecione **[!UICONTROL Log an issue]** na parte superior do painel de navegação direito em qualquer página.
 
-### Criar uma solicitação de recebimento {#create-a-pull-request}
+### Criar uma solicitação de pull {#create-a-pull-request}
 
-Se você vir um problema e souber exatamente como corrigi-lo, considere criar uma solicitação de baixa automática. As solicitações de recebimento permitem que você faça suas próprias edições na documentação, que são então revisadas para inclusão por um membro da equipe de documentação. Basta clicar no link **Editar esta página** na parte superior do painel de navegação direito em qualquer página para fazer as alterações sugeridas e criar a solicitação de baixa automática.
+Caso veja um problema e saiba exatamente como corrigi-lo, considere criar uma solicitação de pull. As solicitações de pull permitem fazer suas próprias edições na documentação, que são revisadas para inclusão por um membro da equipe de documentação. Para fazer as alterações sugeridas e criar a solicitação de pull, selecione **[!UICONTROL Edit this page]** na parte superior direita do painel de navegação em qualquer página.
 
-Todas as solicitações de baixa automática devem ser acompanhadas por um [contrato de licença de contribuinte ou CLA assinado.](https://opensource.adobe.com/cla.html)  Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. Você só precisa enviar um Adobe CLA uma vez, portanto, se você já enviou um anteriormente, é bom ir!
+Todas as solicitações de pull devem ser acompanhadas por um [contrato de licença de colaborador ou CLA](https://opensource.adobe.com/cla.html) assinado. Esse workflow fornece ao Adobe permissão para redistribuir suas contribuições como parte do projeto. Você só envia um Adobe CLA uma vez, portanto, se já enviou um anteriormente, você está definido.
 
-### Introdução rápida ao vídeo
+### Introdução ao vídeo rápido
 
-Assista ao vídeo a seguir para obter uma rápida visão geral de como criar problemas e solicitações.
+Assista ao vídeo a seguir para obter uma visão geral rápida de como criar problemas e solicitações de pull.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27069)
 
@@ -55,8 +54,8 @@ Assista ao vídeo a seguir para obter uma rápida visão geral de como criar pro
 
 Se você for um funcionário do Adobe e tiver uma contribuição, use a organização `AdobeDocs` no git corporativo.
 
-É claro que estamos satisfeitos com qualquer contribuição e iremos rever sua contribuição se ela for feita no repositório público. No entanto, solicitações dos funcionários do Adobe são mais fáceis de processar e podem ser aprovadas mais rapidamente no acordo de recompra. Certifique-se de que qualquer informação proprietária seja apenas discutida no acordo de recompra das empresas.
+A Adobe saúda qualquer contribuição. As contribuições são revisadas se forem feitas no repositório público. No entanto, as solicitações de pull dos funcionários do Adobe são mais fáceis de processar e são aprovadas mais rapidamente no repositório corporativo. Certifique-se de que todas as informações proprietárias sejam discutidas somente no repositório corporativo.
 
 ## Outras informações
 
-Consulte o [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obter mais detalhes sobre como usar a plataforma de criação do GitHub.
+Consulte o [Guia do colaborador Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obter mais detalhes sobre como usar a plataforma de criação do GitHub.

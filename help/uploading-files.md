@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3654'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Certifique-se de que todos os usuários da empresa entendam essas regras de nome
 Geralmente, um nome de arquivo de ativo pode ser o mesmo que o número do item, SKU do produto ou outro nome, como no seguinte:
 
 | Item | Nome do arquivo | ID do ativo |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -234,7 +234,7 @@ Selecione essa opção se desejar fazer upload de subpastas da pasta que deseja 
 Consulte [Importar metadados (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **OPTIONS de CORTE**  - Para cortar automaticamente pixels de espaço em branco de uma imagem, abra o  **[!UICONTROL Crop]** menu, selecione  **[!UICONTROL Manual]** e insira medidas de pixel nos campos de texto Superior, Direita, Inferior e Esquerdo para cortar das laterais. Você também pode selecionar **[!UICONTROL Trim]** no menu Recortar e escolher estas opções:
+* **Opções de recorte**  - Para recortar automaticamente pixels de espaço em branco de uma imagem, abra o  **[!UICONTROL Crop]** menu, selecione  **[!UICONTROL Manual]** e insira medidas de pixel nos campos de texto Superior, Direita, Inferior e Esquerdo para recortar das laterais. Você também pode selecionar **[!UICONTROL Trim]** no menu Recortar e escolher estas opções:
 
    * **[!UICONTROL Trim Away Based On]** - Escolha se deseja cortar com base na cor ou na transparência:
       * **[!UICONTROL Color]** - Escolha a opção Color . Em seguida, selecione o menu Canto e escolha o canto da imagem com a cor que melhor representa a cor do espaço em branco que deseja recortar.
@@ -243,7 +243,7 @@ Aparar com base na cor: Especifique 0 para cortar pixels somente se eles corresp
 Aparar com base na transparência: Especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
       * **[!UICONTROL Tolerance]** - Arraste o controle deslizante para especificar uma tolerância de 0 a 1.
 
-* **OPTIONS DE PERFIL DE COR**  - Escolha uma conversão de cores ao criar arquivos otimizados usados para a entrega dinâmica do Adobe Dynamic Media Classic:
+* **Opções de perfil de cores**  - Escolha uma conversão de cores ao criar arquivos otimizados usados para a entrega dinâmica do Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Default Color Preservation]** - Mantém as cores das imagens de origem sempre que as imagens contêm informações sobre o espaço de cores; não há conversão de cores. Quase todas as imagens atuais têm o perfil de cores apropriado já incorporado. No entanto, se uma imagem de origem CMYK não contiver um perfil de cor incorporado, as cores serão convertidas em espaço de cor sRGB (azul verde padrão). sRGB é o espaço de cores recomendado para exibir imagens nas páginas da Web.
    * **[!UICONTROL Keep Original Color Space]** - Mantém as cores originais sem qualquer conversão de cores no ponto de ingestão no Adobe Dynamic Media Classic. Para imagens sem um perfil de cor incorporado, qualquer conversão de cor necessária para processar solicitações para a imagem é feita usando os perfis de cor padrão, conforme configurado nas configurações de Publicação. Esses perfis de cores nem sempre estão alinhados com a cor nos arquivos criados com essa opção. Portanto, é recomendável usar a opção Preservação de cor padrão.
@@ -264,7 +264,7 @@ Consulte [Opções de upload de PDF](pdfs.md#pdf_upload_options).
 * **Opções do Illustrator**  - Você pode rasterizar arquivos Adobe Illustrator®, manter planos de fundo transparentes, escolher uma resolução e escolher um espaço de cores.
 Consulte [Trabalhar com arquivos PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Opções de vídeo**  - Você pode transcodificar um arquivo de vídeo escolhendo uma Predefinição de vídeo.
+* **Opções de EVIDEO**  - Você pode transcodificar um arquivo de vídeo escolhendo uma Predefinição de vídeo.
 Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Metadados adicionais**  - Insira palavras-chave que descrevem os arquivos que você pretende carregar. Separe as palavras-chave por vírgula. As palavras-chave facilitam a pesquisa de ativos.

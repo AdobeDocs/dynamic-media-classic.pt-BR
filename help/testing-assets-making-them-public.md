@@ -1,6 +1,6 @@
 ---
 title: Testar ativos antes de torná-los públicos
-description: Saiba como testar ativos antes de torná-los públicos.
+description: Saiba como testar ativos no Adobe Dynamic Media Classic antes de torná-los públicos.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Se desejar, crie um ambiente de preparo em vez de tornar os ativos disponíveis 
 
 A maioria das corporações mantém a Internet por trás de um firewall. O acesso à Internet é possível através de determinadas rotas e geralmente através de uma gama limitada de endereços IP públicos.
 
-Em sua rede corporativa, você pode descobrir seu endereço IP público usando sites como https://whatismyip.com ou solicitar essas informações de sua organização corporativa de TI.
+Em sua rede corporativa, você pode descobrir seu endereço IP público usando sites como [https://www.whatismyip.com](https://www.whatismyip.com/) ou solicitar essas informações de sua organização corporativa de TI.
 
 Com o Teste Seguro, o Adobe Dynamic Media Classic estabelece um Servidor de Imagem dedicado para ambientes de preparo temporário ou aplicativos internos. Qualquer solicitação para este servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa Adobe Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de Teste Seguro da empresa.
 
@@ -78,9 +78,9 @@ Os seguintes tipos de ativos e funcionalidades não são suportados no momento:
 * Web-to-print
 * Pesquisa do Adobe Dynamic Media Classic ou eCatalog
 
-## Testando o serviço de teste seguro {#testing-the-secure-testing-service}
+## Testar o serviço de teste seguro {#testing-the-secure-testing-service}
 
-Teste o serviço de Teste Seguro para certificar-se de que ele funciona conforme o esperado.
+Teste o serviço de Teste Seguro para garantir que funcione conforme o esperado.
 
 <!-- >[!NOTE]
 >
@@ -99,9 +99,9 @@ Last Modified Date:
  -->
 
 1. Entre em contato com o Atendimento ao cliente do Adobe e solicite que ele ative o Teste seguro em sua conta.
-1. No Adobe Dynamic Media Classic, na barra Navegação global, clique em **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
+1. No Adobe Dynamic Media Classic, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
 1. Na página Publicação do servidor de imagens, na lista suspensa **[!UICONTROL Publish Context]**, selecione **[!UICONTROL Test Image Serving]**.
-1. Para o Filtro de endereço do cliente, clique em **[!UICONTROL Add]**.
+1. Para o Filtro de endereço do cliente, selecione **[!UICONTROL Add]**.
 1. Marque a caixa de seleção para que o endereço seja ativado (ativado) e digite um endereço IP e uma máscara de rede nos respectivos campos de texto.
 
    >[!NOTE]
@@ -111,16 +111,16 @@ Last Modified Date:
 1. Siga um destes procedimentos:
    * Repita as duas etapas anteriores se precisar adicionar mais endereços IP.
    * Prossiga para a próxima etapa.
-1. Na parte inferior esquerda da página Publicação do servidor de imagens, clique em **[!UICONTROL Save]**
+1. Na parte inferior esquerda da página Publicação do servidor de imagens, selecione **[!UICONTROL Save]**
 1. Faça upload das imagens desejadas para sua conta do Adobe Dynamic Media Classic.
 
-   Consulte [Upload de arquivos](uploading-files.md#uploading_files).
+   Consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
 1. Certifique-se de que algumas imagens estejam marcadas para publicação e outras não estejam marcadas e envie o trabalho de publicação.
 
-   Consulte [Publicação](publishing-files.md#publishing_files).
+   Consulte [Publicar arquivos](publishing-files.md#publishing_files).
 
-1. Determine o nome do seu serviço de Teste Seguro clicando em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
+1. Determine o nome do seu serviço de Teste Seguro acessando **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 1. Na página Configurações gerais do aplicativo , no grupo Servidores , localize o nome à direita de **[!UICONTROL Test Publish Context Server Name]**.
 
 Entre em contato com o Adobe Care se o nome do servidor estiver ausente ou se os URLs do servidor não funcionarem.
