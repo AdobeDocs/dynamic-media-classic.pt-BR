@@ -9,9 +9,9 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Você pode usar os seguintes campos na sequência de consulta de URL para exclui
 | `op` | Obrigatório | excluir |
 | `shared_secret` | Obrigatório | A chave secreta compartilhada da empresa. |
 | <ul><li>Para imagens:image_name</li><li>Para vetor:fxg_name</li></ul> | Obrigatório | Nome do ativo a ser excluído. |
+
+>[!IMPORTANT]
+>
+>O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic será encerrado em 30 de setembro de 2021.
 
 **Exemplo de URL da imagem:**
 

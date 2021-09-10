@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Fazer upload de um ativo de imagem ou de um ativo de vetor{#uploading-an-image-asset-or-a-vector-asset}
 
 Antes de fazer upload de um ativo de imagem, primeiro solicite uma chave secreta compartilhada. Use essa chave secreta compartilhada para recuperar um token de upload. Em seguida, use o token de upload para carregar ativos de imagem ou ativos vetoriais.
+
+>[!IMPORTANT]
+>
+>O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic será encerrado em 30 de setembro de 2021.
 
 ## Solicitar uma chave secreta compartilhada {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ Você pode usar os seguintes campos na sequência de consulta do URL para solici
 GET e POST
 
 ## Fazer upload de um ativo vetorial {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic será encerrado em 30 de setembro de 2021.
 
 Após recuperar um token de upload válido por um período específico, é possível fazer upload de um ativo de vetor. Você faz upload do ativo como uma publicação de várias partes/formulários ao enviar o restante dos valores como uma sequência de consulta de URL, como mostrado neste exemplo:
 

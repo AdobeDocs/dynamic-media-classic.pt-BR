@@ -9,9 +9,9 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ O UGC oferece suporte aos seguintes formatos de arquivo:
 
 * Rastreamento: JPG, PNG, TIFF
 * Vetor: AI, EPS (arquivos EPS do Adobe Illustrator 2018 não são compatíveis), PDF (somente quando o arquivo PDF é aberto e salvo anteriormente no Adobe Illustrator CS6)
+
+>[!IMPORTANT]
+>
+>O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic será encerrado em 30 de setembro de 2021.
 
 Antes de fazer upload de ativos, você obtém uma chave secreta compartilhada. Use essa chave para recuperar um token de upload. Você envia o token de upload quando carrega ativos e executa outras tarefas UGC.
 
