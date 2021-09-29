@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2349'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Ao criar Mapas de imagem, você pode fazer o seguinte:
    * Se estiver trabalhando com um SpinSet na Exibição de Grade ou na Exibição de Lista, selecione **[!UICONTROL Edit]**. Ou abra-o na Exibição de detalhes e selecione **[!UICONTROL Edit]**. Selecione um ativo de imagem e selecione **[!UICONTROL Image Map]**.
    * Se você estiver trabalhando com um eCatalog, na Exibição de grade, Exibição de lista, Exibição de detalhes, selecione **[!UICONTROL Edit]**. Selecione a guia **[!UICONTROL Map Pages]**.
 
-   ![](assets/ma_image_map.png)
+   ![Imagem do mapa de imagem](assets/ma_image_map.png)
 
 1. Desenhar um mapa de imagem retangular ou polígono (de vários lados):
 
