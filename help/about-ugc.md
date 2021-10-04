@@ -9,9 +9,9 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,12 @@ ht-degree: 0%
 
 O uso de UGC (conteúdo gerado pelo usuário) consiste em carregar ativos em um repositório de armazenamento dedicado do Adobe Dynamic Media Classic e executar operações relacionadas.
 
-O UGC oferece suporte aos seguintes formatos de arquivo:
-
-* Rastreamento: JPG, PNG, TIFF
-* Vetor: AI, EPS (arquivos EPS do Adobe Illustrator 2018 não são compatíveis), PDF (somente quando o arquivo PDF é aberto e salvo anteriormente no Adobe Illustrator CS6)
+O UGC suporta formatos de arquivo de imagem rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
 >
->O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic será encerrado em 30 de setembro de 2021.
+>O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 
 Antes de fazer upload de ativos, você obtém uma chave secreta compartilhada. Use essa chave para recuperar um token de upload. Você envia o token de upload quando carrega ativos e executa outras tarefas UGC.
 

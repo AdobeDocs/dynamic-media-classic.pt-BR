@@ -6,9 +6,9 @@ user-guide-title: Guia do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic
 index: y
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 2%
    + [Sobre conteúdo gerado pelo usuário](about-ugc.md)
    + [Excluir um ativo carregado](deleting-uploaded-asset.md)
    + [Obter informações sobre o uso do disco](getting-disk-usage-information.md)
-   + [Fazer upload de um ativo de imagem ou de um ativo de vetor](uploading-image-asset-or-vector.md)
+   + [Fazer upload de um ativo de imagem rasterizada](uploading-image-asset-or-vector.md)
 + Arquivos principais {#master-files}
    + [Práticas recomendadas para otimização da qualidade de imagens](best-practices-optimizing-quality-images.md)
    + [Editar imagens](editing-images.md)

@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -73,14 +73,14 @@ Last Modified Date:
 
 Os seguintes tipos de ativos e funcionalidades não são suportados no momento:
 
-* Transmissão de vídeo RTMP
-* Serviços UGC (Conteúdo gerado pelo usuário)
-* Web-to-print
 * Pesquisa do Adobe Dynamic Media Classic ou eCatalog
+* Transmissão de vídeo RTMP
+* Web-to-print
+* Serviços UGC (Conteúdo gerado pelo usuário)
 
 >[!IMPORTANT]
 >
->O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic será encerrado em 30 de setembro de 2021.
+>O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 
 ## Testar o serviço de teste seguro {#testing-the-secure-testing-service}
 
