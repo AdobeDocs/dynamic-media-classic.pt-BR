@@ -10,9 +10,9 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2230'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,27 @@ ht-degree: 0%
 
 A nitidez é uma técnica de manipulação de imagem para tornar os contornos de uma imagem digital mais distintos. A nitidez aumenta o contraste entre pixels de borda e enfatiza a transição entre áreas escuras e claras. A nitidez aumenta o contraste local e traz detalhes. Não há fórmula estrita para ajustar a nitidez correta de todas as imagens. Muito pouca nitidez pode fazer com uma imagem suave, mas a nitidez excessiva adiciona halos, artefatos e ruídos.
 
-O Adobe Dynamic Media Classic recomenda que você use Predefinições de imagem para todas as imagens. Eles garantem um tamanho uniforme, e a nitidez é aplicada em qualquer imagem chamada com uma predefinição de imagem. Além disso, você pode editar e alterar facilmente os parâmetros de nitidez de uma predefinição de imagem. Na próxima vez que você publicar, todas as imagens chamadas com essa predefinição receberão os novos valores.
+A Adobe Dynamic Media Classic recomenda usar as Predefinições de imagem para todas as imagens. Eles garantem um tamanho uniforme, e a nitidez é aplicada em qualquer imagem chamada com uma predefinição de imagem. Além disso, você pode editar e alterar facilmente os parâmetros de nitidez de uma predefinição de imagem. Na próxima vez que você publicar, todas as imagens chamadas com essa predefinição receberão os novos valores.
 
-O Adobe Dynamic Media Classic também recomenda adicionar nitidez às Predefinições do visualizador e, em seguida, chamar um visualizador com essa predefinição. Isso garante que as imagens em seus visualizadores sejam nítidas e atraentes.
+A Adobe Dynamic Media Classic também recomenda adicionar nitidez às Predefinições do visualizador e, em seguida, chamar um visualizador com essa predefinição. Isso garante que as imagens em seus visualizadores sejam nítidas e atraentes.
 
 No entanto, se você usar Predefinições de imagem e Predefinições do visualizador ou algum método alternativo de nitidez, a conclusão é que você deve tornar suas imagens mais nítidas. Caso contrário, suas imagens (e seu site) podem parecer suaves e difusas.
 
 >[!NOTE]
 >
->Os comandos Nitidez substituem as configurações da Predefinição de imagem, incluindo seus efeitos de nitidez. Uma predefinição de imagem governa o tamanho e a formatação com que as imagens são entregues dos servidores de imagem da Dynamic Media. O Adobe Dynamic Media Classic recomenda o uso de predefinições de imagens para fornecer todas as imagens, para garantir que elas sejam entregues em um tamanho e nitidez uniformes. Depois que as configurações de nitidez de uma imagem individual forem alteradas, no entanto, as configurações de nitidez da Predefinição de imagem não se aplicarão mais à imagem. Ele é entregue sem as configurações de nitidez da predefinição de imagem.
+>Os comandos Nitidez substituem as configurações da Predefinição de imagem, incluindo seus efeitos de nitidez. Uma predefinição de imagem governa o tamanho e a formatação com que as imagens são entregues dos servidores de imagem da Dynamic Media. A Adobe Dynamic Media Classic recomenda usar as Predefinições de imagem para fornecer todas as imagens e garantir que elas sejam entregues em um tamanho e nitidez uniformes. Depois que as configurações de nitidez de uma imagem individual forem alteradas, no entanto, as configurações de nitidez da Predefinição de imagem não se aplicarão mais à imagem. Ele é entregue sem as configurações de nitidez da predefinição de imagem.
 
-Geralmente é necessário ajustar a nitidez das imagens. Os Adobe Dynamic Media Classic e Image Servers oferecem várias opções de nitidez. É importante entender o que a nitidez faz em uma imagem e a nitidez necessária. A maioria das imagens precisa de alguma nitidez, mas a quantidade necessária depende da imagem.
+Geralmente é necessário ajustar a nitidez das imagens. Adobe Dynamic Media Classic e Servidores de Imagem oferecem várias opções de nitidez. É importante entender o que a nitidez faz em uma imagem e a nitidez necessária. A maioria das imagens precisa de alguma nitidez, mas a quantidade necessária depende da imagem.
 
 A nitidez da imagem aumenta o contraste dos pixels para criar o efeito de acentuar as bordas. Os seres humanos percebem este contraste de borda melhorado como nitidez. Embora seja fácil aprimorar uma imagem executando filtros de nitidez em uma imagem, também é fácil tornar uma imagem mais nítida.
 
 Acima da nitidez de uma imagem cria um efeito de halo ou faixas das linhas da borda.
 
-Há práticas recomendadas que você pode seguir para otimizar a nitidez de suas imagens no Adobe Dynamic Media Classic e no Dynamic Media Image Server.
+Você pode seguir as práticas recomendadas para otimizar a nitidez de suas imagens no Adobe Dynamic Media Classic e no Dynamic Media Image Server.
 
 Consulte [Práticas recomendadas para nitidez de imagens no Adobe Dynamic Media Classic e no Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+
+Consulte também [Nitidez](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vídeo de treinamento.
 
 **Para ajustar a nitidez de uma imagem:**
 
@@ -56,7 +58,7 @@ A tabela a seguir mostra as opções de nitidez do Servidor de imagem.
 | Nome | Protocolo de URL | Valores | Exemplo |
 | --- | --- | --- | --- |
 | Nitidez simples | `op_sharpen` | `0` ou  `1` | `op_sharpen=1` |
-| Modo de reamostra | `resMode` | `bilin`,  `bicub`,  `sharp2`,  `trilin`<br><br>`bilin`: Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de aliasing geralmente são perceptíveis.<br>`bicub`: Seleciona a interpolação bicúbica. Mais uso de CPU do que bilin, mas produz imagens mais nítidas com artefatos de aliasing menos perceptíveis.<br><br>`sharp2`: Seleciona uma função do Lanczos Windows® modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto.<br><br>`trilin`: Seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponível. Recomendado somente quando a aliasing é um problema. Reduz os tamanhos de JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
+| Modo de reamostra | `resMode` | `bilin`,  `bicub`,  `sharp2`,  `trilin`<br><br>`bilin`: Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de aliasing geralmente são perceptíveis.<br>`bicub`: Seleciona a interpolação bicúbica. Mais uso de CPU do que bilin, mas produz imagens mais nítidas com artefatos de aliasing menos perceptíveis.<br><br>`sharp2`: Seleciona uma função do Lanczos Windows® modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto.<br><br>`trilin`: Seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponível. Recomendado somente quando a aliasing é um problema. Reduz os tamanhos dos JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
 | Tirar nitidez da máscara | `op_usm` | `amount`,  `radius`,  `threshold`,  `monochrome`<br><br>`amount`: fator de força do filtro (real 0...5)<br><br>`radius`: raio do kernel do filtro em pixels (real 0...250)  <br><br>`threshold`: nível do limite do filtro (int 0...255)<br><br>`monochrome`: definido  `0` para desfazer a nitidez da máscara de cada componente de cor separadamente, definido  `1` para desfazer nitidez do brilho da imagem da máscara de nitidez (intensidade) | `op_usm=1,1,10,0` |
 
 Selecione o menu **[!UICONTROL Sharpening]** e escolha uma opção:
@@ -69,7 +71,7 @@ Selecione o menu **[!UICONTROL Sharpening]** e escolha uma opção:
 
 Escolha essas opções para ajustar a nitidez com Tirar nitidez da máscara:
 
-* **Quantia**  - Controla a quantidade de contraste aplicado aos pixels da borda. O padrão é 0,0. Para imagens de alta resolução, você pode aumentá-lo até 5,0. Considere Quantia como uma medida de intensidade de filtro. A configuração **[!UICONTROL Amount]** no Adobe Dynamic Media Classic não é a mesma que a configuração Valor no Adobe Photoshop. O Adobe Photoshop usa uma quantidade no intervalo de 1% a 500%, enquanto o Adobe Dynamic Media Classic é dimensionado de 0,0 a 5,0. (5.0 equivale aproximadamente a 500% no Photoshop, 0.9 é semelhante a 90% e assim por diante.)
+* **Quantia**  - Controla a quantidade de contraste aplicado aos pixels da borda. O padrão é 0,0. Para imagens de alta resolução, você pode aumentá-lo até 5,0. Considere Quantia como uma medida de intensidade de filtro. A configuração **[!UICONTROL Amount]** no Adobe Dynamic Media Classic não é igual à configuração Valor no Adobe Photoshop. O Adobe Photoshop usa uma quantidade no intervalo de 1% a 500%, enquanto o Adobe Dynamic Media Classic é dimensionado de 0,0 para 5,0. (5.0 equivale aproximadamente a 500% no Photoshop, 0.9 é semelhante a 90% e assim por diante.)
 
 * **Raio**  - Determina o número de pixels ao redor dos pixels da borda que afetam a nitidez. O efeito é executado em todos os pixels na imagem e irradia em todas as direções.
 
@@ -101,7 +103,7 @@ Selecione o menu **[!UICONTROL Resampling]** e escolha uma opção. Essas opçõ
 
 **Predefinições de nitidez e imagem**
 
-Você pode incorporar todos os três efeitos de nitidez para obter o resultado final. No entanto, esse método não é recomendado. O Adobe Dynamic Media Classic recomenda que você salve seus efeitos de nitidez como parte de uma predefinição de imagem. As Predefinições de imagem permitem agrupar os modificadores de imagem usados com mais frequência para criar uma imagem redimensionada dinamicamente em uma pequena string de texto. Uma predefinição de imagem contém valores para o formato de arquivo (geralmente JPEG para a Web), contagem de pixels e nitidez da imagem. Em vez de anexar o URL a cada modificador de imagem que deve ser usado para criar um tipo específico de tamanho de imagem, crie uma Predefinição de imagem chamada, como &quot;miniatura&quot;. Em seguida, configure a predefinição de imagem em miniatura com o tamanho, formato de arquivo e opções de nitidez apropriados. Chame a imagem usando o nome Predefinição de imagem. As predefinições de imagem reduzem o comprimento do URL geral. Esses dois URLs produzem a mesma imagem JPEG 350x350 com nitidez:
+Você pode incorporar todos os três efeitos de nitidez para obter o resultado final. No entanto, esse método não é recomendado. A Adobe Dynamic Media Classic recomenda salvar seus efeitos de nitidez como parte de uma Predefinição de imagem. As Predefinições de imagem permitem agrupar os modificadores de imagem usados com mais frequência para criar uma imagem redimensionada dinamicamente em uma pequena string de texto. Uma predefinição de imagem contém valores para o formato de arquivo (geralmente JPEG para a Web), contagem de pixels e nitidez da imagem. Em vez de anexar o URL a cada modificador de imagem que deve ser usado para criar um tipo específico de tamanho de imagem, crie uma Predefinição de imagem chamada, como &quot;miniatura&quot;. Em seguida, configure a predefinição de imagem em miniatura com o tamanho, formato de arquivo e opções de nitidez apropriados. Chame a imagem usando o nome Predefinição de imagem. As predefinições de imagem reduzem o comprimento do URL geral. Esses dois URLs produzem a mesma imagem de JPEG 350x350 com nitidez:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -114,11 +116,11 @@ Se você usar uma predefinição para cada imagem em uma categoria de tamanho, q
 
 As opções de Qualidade JPG controlam o nível de compactação JPG:
 
-* **Qualidade JPG**  - Selecione essa opção se quiser controlar os níveis de compactação e a redução da amostragem de crominância.
+* **Qualidade do JPG**  - Selecione essa opção se desejar controlar os níveis de compactação e a redução da amostragem de crominância.
 
-* **Controle deslizante**  - Determina o nível de compactação JPG. Essa configuração afeta o tamanho do arquivo e a qualidade da imagem. A escala de qualidade JPG é de 1 a 100.
+* **Controle deslizante**  - Determina o nível de compactação de JPG. Essa configuração afeta o tamanho do arquivo e a qualidade da imagem. A escala de qualidade do JPG é de 1 a 100.
 
-* **Ativar a Redução do Chrominance JPG**  - Como o olho é menos sensível às informações de cores de alta frequência do que à luminância de alta frequência, as imagens JPEG dividem as informações da imagem em componentes de luminância e cor. Quando uma imagem JPEG é compactada, o componente de luminância é deixado em resolução completa, enquanto os componentes de cor são reduzidos pela média de grupos de pixels. A redução da amostragem reduz o volume de dados em um terço ou metade, quase sem impacto na qualidade percebida. A redução da amostragem não é aplicável a imagens em tons de cinza. Essa técnica reduz a quantidade de compactação útil para imagens com alto contraste (por exemplo, imagens com texto sobreposto).
+* **Ativar a redução da frequência do JPG Chrominance**  - Como o olho é menos sensível às informações de cores de alta frequência do que à luminância de alta frequência, as imagens de JPEG dividem as informações da imagem em luminância e componentes de cores. Quando uma imagem de JPEG é compactada, o componente de luminância é deixado em resolução completa, enquanto os componentes de cor são reduzidos pela média de grupos de pixels. A redução da amostragem reduz o volume de dados em um terço ou metade, quase sem impacto na qualidade percebida. A redução da amostragem não é aplicável a imagens em tons de cinza. Essa técnica reduz a quantidade de compactação útil para imagens com alto contraste (por exemplo, imagens com texto sobreposto).
 
 **Definir opções de nitidez em toda a empresa**
 
@@ -131,6 +133,8 @@ Para definir as opções de nitidez padrão da sua empresa, vá para **[!UICONTR
 A menos que você adicione modificadores de imagem de nitidez à predefinição, a pequena imagem de carregamento inicial pode parecer suave, pois a resolução é reduzida para caber na janela do visualizador sem ser nitidez.
 
 As Predefinições do visualizador (como as Predefinições de imagem) permitem centralizar várias opções em um único local, incluindo opções de capa e do visualizador (como incluir um botão Imprimir ou controlar a velocidade da animação de zoom). As Predefinições do visualizador são encontradas na mesma seção que as Predefinições de imagem, em **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Viewer Presets]**.
+
+Consulte [Vídeo de treinamento de predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 A opção Modificadores é encontrada na seção Configurações principais de todas as predefinições do eCatalog, rotação e do visualizador de zoom personalizado. Ao adicionar os comandos de nitidez do URL à caixa Modificadores, adicione a nitidez sempre que o visualizador for chamado com essa predefinição do visualizador.
 

@@ -10,9 +10,9 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,15 @@ O Media Portal permite que as empresas adquiram, controlem e distribuam facilmen
 
 Como administrador, você controla como os usuários visualizam, acessam e usam ativos no Media Portal. Além disso, você pode personalizar a interface do Media Portal para corresponder ao seu site e marca. Você pode especificar fonte, cor da fonte, tamanho da fonte e incorporar elementos de marca, como logotipos, na interface do Media Portal.
 
-Este Início Rápido foi projetado para colocar você em operação rapidamente com a administração do Media Portal. No final de cada etapa, selecione o link de tópico para saber mais.
+Veja os seguintes vídeos de treinamento:
+
+* [Visão geral do Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+
+* [Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+
+* [Tour do Media Portal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+
+O seguinte Início rápido foi projetado para ajudar você a funcionar rapidamente com a administração do Media Portal. No final de cada etapa, selecione o link de tópico para saber mais.
 
 ## 1. Entender as funções de usuário do Media Portal
 
@@ -45,7 +53,7 @@ Consulte [Adicionar e gerenciar usuários do Media Portal](adding-media-portal-u
 
 ## 4. Gerenciar contas FTP
 
-Você pode ter contas FTP separadas associadas ao Media Portal e mapeadas para uma pasta específica na sua conta Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais para sua conta usando contas FTP separadas.
+Você pode ter contas FTP separadas associadas ao Media Portal e mapeadas para uma pasta específica na sua conta do Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais para sua conta usando contas FTP separadas.
 
 Consulte [Gerenciar contas FTP](ftp-accounts.md#managing_ftp_accounts).
 

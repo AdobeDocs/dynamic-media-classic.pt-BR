@@ -10,9 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,11 @@ Consulte [Adicionar e editar Predefinições do visualizador](application-setup.
 
 Os usuários assistem a vídeos no Visualizador de vídeo. O comportamento do Visualizador de vídeo, a aparência e o funcionamento dos controles de reprodução dependem da Predefinição do visualizador escolhida para a reprodução do vídeo. Escolha uma Predefinição do visualizador na tela Visualização. Após escolher uma predefinição, é possível obter o URL ou o código incorporado para a reprodução do vídeo usando a Predefinição do visualizador escolhida.
 
-O Adobe Dynamic Media Classic vem com muitas predefinições predefinidas do visualizador para reprodução de vídeo e, se você for um administrador, poderá criar predefinições personalizadas do visualizador. Há mais de uma dúzia de configurações diferentes para definir o Visualizador de vídeo. Você pode configurar o tamanho, a cor, os controles de vídeo e áudio, a barra de progresso, a interface do usuário de capa e os recursos sociais.
+O Adobe Dynamic Media Classic vem com muitas Predefinições de visualizador predefinidas para reprodução de vídeo e, se você for um administrador, poderá criar Predefinições de visualizador personalizadas. Há mais de uma dúzia de configurações diferentes para definir o Visualizador de vídeo. Você pode configurar o tamanho, a cor, os controles de vídeo e áudio, a barra de progresso, a interface do usuário de capa e os recursos sociais.
 
-Consulte também [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Consulte [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+
+Consulte também [Vídeo de treinamento sobre predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Adicionar ou editar uma predefinição do visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
@@ -58,6 +60,8 @@ Você pode usar Predefinições do visualizador para ver vários tipos de visual
 Em Predefinições do visualizador, você pode ativar, filtrar, classificar e visualizar Predefinições do visualizador.
 
 Consulte [Predefinições do visualizador](application-setup.md#viewer_presets).
+
+Consulte também [Vídeo de treinamento sobre predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 **Para adicionar ou editar uma predefinição do visualizador de vídeo:**
 

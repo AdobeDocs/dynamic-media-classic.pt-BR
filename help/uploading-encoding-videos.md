@@ -9,28 +9,28 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # Fazer upload e codificar vídeos{#uploading-and-encoding-videos}
 
-Para criar um único vídeo ou conjuntos de vídeos adaptáveis para entrega na Web ou em dispositivos móveis, primeiro carregue seus arquivos de vídeo principais no Adobe Dynamic Media Classic. O Adobe Dynamic Media Classic codifica vídeos para o formato MP4 e publica vídeo nos seguintes formatos de arquivo:
+Para criar um único vídeo ou conjuntos de vídeos adaptáveis para entrega na Web ou em dispositivos móveis, primeiro carregue seus arquivos de vídeo principais no Adobe Dynamic Media Classic. O Adobe Dynamic Media Classic codifica vídeos no formato MP4 e publica vídeo nos seguintes formatos de arquivo:
 
-* **MP4**  - O Adobe Dynamic Media Classic recomenda o MP4 como o formato de arquivo de vídeo preferido. Use arquivos MP4 para o seguinte:
+* **MP4**  - A Adobe Dynamic Media Classic recomenda o MP4 como o formato de arquivo de vídeo preferencial. Use arquivos MP4 para o seguinte:
 
    * HTTP Dynamic Streaming em desktops.
-   * HTTP Live Streaming (protocolo de transmissão da Apple).
+   * HTTP Live Streaming (protocolo de transmissão do Apple).
    * Entrega de vídeo progressivo para dispositivos móveis Android™, BlackBerry® e Windows®
 
-   O Adobe Dynamic Media Classic oferece dois fluxos de trabalho para carregar arquivos de vídeo:
+   O Adobe Dynamic Media Classic oferece dois fluxos de trabalho para fazer upload de arquivos de vídeo:
 
 * **Vídeos pré-codificados**  - Você carrega arquivos MP4 diretamente no Adobe Dynamic Media Classic. Com esse fluxo de trabalho, os arquivos não são codificados no momento em que você os carrega. Os arquivos são pré-codificados em preparação para entrega no desktop e em dispositivos móveis.
 
-* **Vídeos de origem principal**  - Faça upload de arquivos de vídeo de origem principal e, ao fazer upload, codifique esses arquivos em arquivos MP4. Os vídeos codificados são rotulados como &quot;Vídeo&quot; no painel Procurar. O Adobe Dynamic Media Classic é compatível com a codificação de arquivos de vídeo em vários formatos.
+* **Vídeos de origem principal**  - Faça upload de arquivos de vídeo de origem principal e, ao fazer upload, codifique esses arquivos em arquivos MP4. Os vídeos codificados são rotulados como &quot;Vídeo&quot; no painel Procurar. O Adobe Dynamic Media Classic oferece suporte à codificação de arquivos de vídeo em vários formatos.
 
    * Verifique se os arquivos de vídeo de origem principal que você deseja codificar são compatíveis.
 
@@ -145,7 +145,7 @@ A tabela a seguir descreve o tamanho recomendado, a proporção e a taxa mínima
 
 ### Obter os metadados de um arquivo {#obtaining-a-file-s-metadata}
 
-Você pode obter os metadados de um arquivo exibindo seus metadados no Adobe Dynamic Media Classic, usando uma ferramenta de edição de vídeo ou um aplicativo projetado para obter metadados. A seguir estão as instruções para usar MediaInfo, um aplicativo de terceiros, para obter os metadados de um arquivo de vídeo:
+Você pode obter os metadados de um arquivo ao exibir os metadados no Adobe Dynamic Media Classic, usando uma ferramenta de edição de vídeo ou um aplicativo projetado para obter metadados. A seguir estão as instruções para usar MediaInfo, um aplicativo de terceiros, para obter os metadados de um arquivo de vídeo:
 
 1. Vá para esta página da Web: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Selecione e baixe o instalador da versão da GUI e siga as instruções de instalação.
@@ -185,7 +185,7 @@ Esta tabela descreve a taxa de dados de velocidades de conexão típicas.
 | Velocidade (Kbps) | Tipo de conexão |
 | --- | --- |
 | 256 | Conexão discada. |
-| 600 | Conexão móvel típica. Para essa conexão, direcione uma taxa de dados no intervalo de 400 a um máximo de 800 para experiências 3G. |
+| 800 | Conexão móvel típica. Para essa conexão, direcione uma taxa de dados no intervalo de 400 a um máximo de 800 para experiências 3G. |
 | 2000 | Conexão típica de desktop de banda larga. Para esta conexão, direcione uma taxa de dados no intervalo de 800-2000 Kbps, com a maioria dos destinos com média de 1200-1500 Kbps. |
 | 5000 | Conexão típica de alta banda larga. A codificação nesse intervalo superior não é recomendada porque a entrega de vídeo nessa velocidade não está disponível para a maioria dos consumidores. |
 
@@ -242,12 +242,12 @@ Por exemplo, suponha que o vídeo de origem seja 1920 x 1080. Na tabela a seguir
 | --- | --- | --- | --- |
 | Origem | 1920 x 1080 | 1 | 1 |
 | Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 1 | 1 |
+| Codificado | 640 x 360 | 3 | 3 |
 | Codificado | 480 x 270 | 4 | 4 |
 
 ### Formato de arquivo de vídeo codificado {#encoded-video-file-format}
 
-O Adobe Dynamic Media Classic recomenda o uso de predefinições de codificação de vídeo MP4 H.264. Como os arquivos MP4 usam o codec de vídeo H.264, ele fornece vídeo de alta qualidade, mas em um tamanho de arquivo compactado.
+A Adobe Dynamic Media Classic recomenda usar predefinições de codificação de vídeo MP4 H.264. Como os arquivos MP4 usam o codec de vídeo H.264, ele fornece vídeo de alta qualidade, mas em um tamanho de arquivo compactado.
 
 ## Trabalhar com predefinições de codificação de vídeo {#working-with-video-encoding-presets}
 
@@ -264,7 +264,7 @@ Na tela Predefinições de vídeo, os administradores podem configurar e gerenci
 * Edite as predefinições de codificação de vídeo.
 * Excluir predefinições de vídeo.
 
-Qualquer vídeo que você faça upload para o Adobe Dynamic Media Classic ou que você codifique no Adobe Dynamic Media Classic será tratado como &quot;vídeo&quot;. Em outras palavras, essa classificação de ativos significa que você pode fornecer o vídeo para reprodução em desktops, dispositivos móveis ou ambos. Por exemplo, você pode visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Também é possível gerar URLs (usando o recurso Copiar URL) e código que você pode incorporar (usando o recurso Incorporar código) para usar com players de vídeo, em sites e assim por diante.
+Qualquer vídeo que você fizer upload no Adobe Dynamic Media Classic ou codificar no Adobe Dynamic Media Classic será tratado como &quot;vídeo&quot;. Em outras palavras, essa classificação de ativos significa que você pode fornecer o vídeo para reprodução em desktops, dispositivos móveis ou ambos. Por exemplo, você pode visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Também é possível gerar URLs (usando o recurso Copiar URL) e código que você pode incorporar (usando o recurso Incorporar código) para usar com players de vídeo, em sites e assim por diante.
 
 Consulte [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
@@ -280,7 +280,7 @@ Para ativos de vídeo que você faz upload e codifica no Adobe Dynamic Media Cla
 * HLS (HTTP Live Streaming, protocolo de transmissão da Apple).
 * Entrega de vídeo progressivo para dispositivos móveis Android™, BlackBerry® e Windows®.
 
-Qualquer outro formato e codec de vídeo é tratado como um &quot;Vídeo Principal&quot;. Essa classificação de ativo significa que o vídeo é um arquivo de vídeo de origem e não pode ser usado para reprodução de delivery em desktops ou dispositivos móveis. Por exemplo, você não pode visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Também não é possível gerar Copiar URLs ou Incorporar código para uso em players de vídeo, sites e assim por diante.
+Qualquer outro formato e codec de vídeo é tratado como um &quot;Vídeo Principal&quot;. Essa classificação de ativo significa que o vídeo é um arquivo de vídeo de origem e não pode ser usado para reprodução de delivery em desktops ou dispositivos móveis. Por exemplo, não é possível visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Também não é possível gerar Copiar URLs ou Incorporar código para uso em players de vídeo, sites e assim por diante.
 
 ### Filtrar a lista de predefinições de codificação de vídeo {#filtering-the-list-of-video-encoding-presets}
 
@@ -324,9 +324,9 @@ As predefinições de vídeo ativadas são exibidas na caixa de diálogo Opçõe
 
 ### Adicionar ou editar uma predefinição de codificação de vídeo {#adding-or-editing-a-video-encoding-preset}
 
-Você pode criar suas próprias predefinições de vídeo de codificação única personalizadas e adicioná-las à tabela de Predefinições de vídeo. Também é possível alterar qualquer predefinição de vídeo de codificação única predefinida que vem com o Adobe Dynamic Media Classic, desde que você salve a predefinição editada com um novo nome.
+Você pode criar suas próprias predefinições de vídeo de codificação única personalizadas e adicioná-las à tabela de Predefinições de vídeo. Também é possível alterar qualquer predefinição de vídeo de codificação única e predefinida que vem com o Adobe Dynamic Media Classic, desde que você salve a predefinição editada com um novo nome.
 
-O Adobe Dynamic Media Classic definiu limites máximos para a taxa de dados de destino, a altura da resolução e a largura da resolução para garantir uma experiência de reprodução adequada. As mensagens de aviso são exibidas se você exceder esses limites, que são os seguintes:
+A Adobe Dynamic Media Classic definiu limites máximos para a taxa de dados do target, a altura da resolução e a largura da resolução para garantir uma experiência de reprodução adequada. As mensagens de aviso são exibidas se você exceder esses limites, que são os seguintes:
 
 * Para reprodução de computador, os limites são: (Largura/16) * (Altura/16) &lt; 8192.
 * Para reprodução móvel, os limites são: (Largura/16) * (Altura/16) &lt; 660; taxa de dados pretendida &lt; 4000.
@@ -378,4 +378,5 @@ Os administradores podem excluir predefinições de vídeo personalizadas. As pr
 >* [Início rápido: Vídeo no Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
 >* [Fazer upload e codificar vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [Vídeo de ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) pré-definição de vídeo
 

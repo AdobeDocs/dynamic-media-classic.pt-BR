@@ -6,9 +6,9 @@ user-guide-title: Guia do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 2%
 
 ---
@@ -18,10 +18,10 @@ ht-degree: 2%
 
 + [Guia do Adobe Dynamic Media Classic](home.md)
 + [Tutorial de práticas recomendadas de classe do Adobe Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [A NOVA experiência de logon do Adobe Dynamic Media Classic está disponível](new-ui-2020.md)
++ [A NOVA experiência de logon do Adobe Dynamic Media Classic agora está disponível](new-ui-2020.md)
 + [Arquivo de informativo do Adobe Dynamic Media por Experience League](dynamic-media-newsletter.md)
 + Introdução ao Adobe Dynamic Media Classic {#intro}
-   + [Adobe Dynamic Media Classic Desktop - Agora disponível](dynamic-media-classic-desktop-app.md)
+   + [Aplicativo de desktop do Adobe Dynamic Media Classic - Agora disponível](dynamic-media-classic-desktop-app.md)
    + [Sobre a Ajuda do Adobe Dynamic Media Classic](introduction.md)
    + [Recursos do desenvolvedor](developer-resources.md)
    + [Novidades](whats-new.md)
@@ -29,7 +29,7 @@ ht-degree: 2%
    + [Suporte](support.md)
    + [Ajuda do Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Serviços de treinamento do Adobe](training-services.md)
-   + [Recursos populares](popular-resources.md)
+   + [Recursos de aprendizagem populares](popular-resources.md)
    + [Vídeos de treinamento](training-videos.md)
 + Introdução {#getting-started}
    + [Visão geral do programa Adobe Dynamic Media Classic](dmc-platform-overview.md)
@@ -92,13 +92,13 @@ ht-degree: 2%
    + [Vincular visualizadores de zoom às suas páginas da Web](linking-zoom-viewers-web-pages.md)
 + Catálogos eletrônicos {#ecatalogs}
    + [Início rápido: Catálogos eletrônicos](quick-start-ecatalog.md)
-   + [Fazer upload dos arquivos PDF](uploading-pdf-files.md)
+   + [Fazer upload dos arquivos do PDF](uploading-pdf-files.md)
    + [Criar um catálogo eletrônico](creating-ecatalog.md)
    + [Criar mapas de imagem do catálogo eletrônico](creating-ecatalog-image-maps.md)
    + [Gerenciar o conteúdo do painel Informações em catálogos eletrônicos](info-panel-content-ecatalog.md)
    + [Configurar predefinições do visualizador de catálogo eletrônico](setting-ecatalog-viewer-presets.md)
    + [Visualizar eCatalogs no Visualizador de Catálogo Eletrônico](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Publicar catálogos eletrônicos e PDFs associados](publishing-ecatalogs-associated-pdfs.md)
+   + [Publicar catálogos eletrônicos e PDF associados](publishing-ecatalogs-associated-pdfs.md)
    + [Vincular um eCatalog a uma página da Web](linking-ecatalog-web-page.md)
 + Conjuntos de imagens {#image-sets}
    + [Início rápido: Conjuntos de imagens](quick-start-image-sets.md)
@@ -147,7 +147,7 @@ ht-degree: 2%
    + [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md)
    + [Vincular um conjunto de mídias mistas a uma página da Web](linking-mixed-media-set-web.md)
 + Kit de instrumentação do Adobe Analytics {#analytics-kit}
-   + [Início rápido: Integração do Adobe Dynamic Media Classic ao Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [Início rápido: Integração do Adobe Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Faça logon no Adobe Analytics](log-analytics.md)
    + [Configurar relatórios do Adobe Analytics](configuring-analytics-reports.md)
    + [Instrumentação de um visualizador usando o Kit de instrumentação do Adobe Analytics](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,7 +157,7 @@ ht-degree: 2%
    + [Publicar informações de configuração do Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integração do Adobe Target Standard/Premium {#target-classic}
    + [Início rápido: Integração do Adobe Target Standard/Premium](quick-start-target-integration.md)
-   + [Integrar o Adobe Dynamic Media Classic ao Adobe Target Standard/Premium](integrating-dmc-with-target.md)
+   + [Integrar o Adobe Dynamic Media Classic com o Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Criar um conjunto de ofertas](creating-offer-set.md)
    + [Encaminhar conjuntos de ofertas para o Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Conteúdo gerado pelo usuário {#user-generated-content}
@@ -173,7 +173,7 @@ ht-degree: 2%
    + [Nitidez de uma imagem](sharpening-image.md)
    + [Ajustar uma imagem](adjusting-image.md)
    + [Opções de edição de ajuste de imagem no upload](image-editing-options-upload.md)
-   + [Trabalhar com PDFs](pdfs.md)
+   + [Trabalhar com PDF](pdfs.md)
    + [Trabalhar com arquivos PSD](psd-files.md)
    + [Trabalhar com arquivos PostScript e Illustrator](postscript-illustrator-files.md)
    + [Trabalhar com arquivos de vinheta, cobertura de janela e gabinete](vignette-window-covering-cabinet-files.md)

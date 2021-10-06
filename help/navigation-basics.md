@@ -10,9 +10,9 @@ discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 0%
 A tela Adobe Dynamic Media Classic inclui três áreas principais: Barra de navegação global, Biblioteca de ativos, guia Filtros de ativos, Painel de navegação/Painel de compilação e Carrinho de mídia (somente Media Portal).
 
 ![Elementos ](/help/assets/gs_navigation_basics_popup_popup.png)
-*básicos de navegaçãoAdobe principal*
-*Áreas clássicas do Dynamic Media A) Barra de navegação global B) Painel Biblioteca de ativos C) Guia Filtros de ativos D) Painel de navegação E) Carrinho de mídia (somente no Media Portal)*
+*básicos de navegação*
+*Áreas principais do Adobe Dynamic Media ClassicA) Barra de navegação global B) Painel Biblioteca de ativos C) Guia Filtros de ativos D) Painel de navegação E) Carrinho de mídia (somente no Media Portal)*
 
 ## Barra de navegação global {#global-navigation-bar}
 
@@ -35,7 +35,7 @@ A barra Navegação global, localizada na parte superior da tela, oferece botõe
 
 * **[!UICONTROL Build]** - Escolha uma tarefa Criar no menu . O painel Criar é aberto para que você possa criar um tipo de ativo.
 
-* **[!UICONTROL Publish]** - Abre a tela Publicar para que você possa publicar ativos de mídia avançada no Adobe Dynamic Media Image Servers e no restante da Adobe Dynamic Media Classic SAAS Infrastructure.
+* **[!UICONTROL Publish]** - Abre a tela Publicar para que você possa publicar ativos de mídia avançada no Adobe Dynamic Media Image Servers e no restante da infraestrutura Adobe Dynamic Media Classic SAAS.
 
 * **[!UICONTROL Jobs]** - abre a tela Trabalhos para que você possa examinar registros de trabalhos de upload e publicação.
 
@@ -49,7 +49,7 @@ A barra Navegação global, localizada na parte superior da tela, oferece botõe
    * **[!UICONTROL Video Tutorial]** - Acessa vídeos em tópicos específicos que mostram como começar a usar cada fluxo de trabalho de publicação de mídia avançada.
    * **[!UICONTROL Help Contents]** - Abre o sistema de Ajuda para a página Introdução. É possível selecionar o Índice para encontrar e exibir tópicos diferentes.
    * **[!UICONTROL About]** - Informa qual versão do Adobe Dynamic Media Classic você está executando.
-   * **[!UICONTROL Support]** - Informa como obter suporte técnico do Adobe Dynamic Media Classic.
+   * **[!UICONTROL Support]** - Informa como obter suporte técnico da Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Sign out]** - Sai do Adobe Dynamic Media Classic.
 
@@ -70,6 +70,8 @@ O painel Procurar/Criar é onde você faz grande parte do seu trabalho. As funç
 * **[!UICONTROL Browse mode]** - Para exibir e trabalhar com o conteúdo de uma pasta no Painel de navegação, selecione uma pasta na Biblioteca de ativos. Esse painel oferece os menus **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]** e **[!UICONTROL Sort]** para trabalhar com ativos. Você também pode exibir ativos de diferentes maneiras movendo o controle deslizante ou selecionar **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Selecionar **[!UICONTROL Detail View]** ou clicar duas vezes em um ativo abre o ativo na Exibição de detalhes, onde você pode executar operações de arquivos dependentes de ativos.
 
 * **[!UICONTROL Build mode]** - Selecione  **[!UICONTROL Build]** e escolha uma opção para começar a criar um Catálogo eletrônico, um Conjunto de imagens, um Conjunto de rotação ou um de vários outros itens disponíveis no menu Criar. A página Criar é aberta. Você pode selecionar os ativos com os quais deseja trabalhar antes ou depois de entrar no modo Criar .
+
+Consulte também [Vídeo de treinamento sobre noções básicas de navegação](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
 title: '"Início rápido: Conjunto de mídias mistas"'
-description: Uma introdução e o Início rápido para Conjuntos de mídias mistas para ajudá-lo a ativar e executar rapidamente no Adobe Dynamic Media Classic.
+description: Uma introdução e o Início rápido para Conjuntos de mídias mistas para ajudar você a ativar e executar rapidamente no Adobe Dynamic Media Classic.
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Os Conjuntos de mídias mistas proporcionam aos usuários uma experiência de vi
 
 As Predefinições do visualizador de conjunto de mídias mistas incluem opções de comunidade para os usuários finais incorporar código, copiar URLs e vincular ao site principal. Os usuários podem usar essas opções para compartilhar informações sobre produtos em seus sites pessoais ou sites de redes sociais.
 
-O Início rápido dos Conjuntos de mídia mista foi projetado para entrar em operação rapidamente com as técnicas do Conjunto de mídias mistas no Adobe Dynamic Media Classic.
+O Início rápido dos Conjuntos de mídia mista foi projetado para ajudar você a funcionar rapidamente com as técnicas do Conjunto de mídias mistas no Adobe Dynamic Media Classic.
 
 ## 1. Carregue imagens, arquivos de amostra e vídeos
 
@@ -53,6 +53,8 @@ Ao configurar uma predefinição do visualizador de Conjunto de mídias mistas, 
 
 Consulte [Configurar uma predefinição do visualizador de conjunto de mídias mistas](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) e [Criar e editar predefinições do visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
+Consulte também [Vídeo de treinamento de predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+
 ## 5. Visualizar um conjunto de mídia mista
 
 Selecione o botão **[!UICONTROL Preview]** do Conjunto de mídias mistas. Você pode selecionar os ícones de miniatura e amostra para examinar seu Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas. Você pode escolher visualizadores diferentes dos menus Predefinições.
@@ -61,7 +63,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 ## 6. Publicar um conjunto de mídia mista
 
-A publicação de um Conjunto de mídias mistas o coloca em servidores Adobe Dynamic Media Classic e ativa a string do URL.
+A publicação de um Conjunto de mídias mistas o coloca em servidores da Adobe Dynamic Media Classic e ativa a string do URL.
 
 Os Conjuntos de mídias mistas exigem que você publique no **Servidor de vídeo** e também no **Servidor de imagem**. Você usa o **Servidor de vídeo** para publicar os vídeos reais que você marcou para publicação. E você usa o **Servidor de imagem** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptáveis.
 
@@ -69,6 +71,6 @@ Consulte [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md#pu
 
 ## 7. Vincular um conjunto de mídias mistas a uma página da Web
 
-O Adobe Dynamic Media Classic ativa chamadas de URL para Conjuntos de mídia mista depois de publicá-los. Você pode copiar esses URLs da página Visualizar.
+O Adobe Dynamic Media Classic ativa chamadas de URL para Conjuntos de mídias mistas depois que você as publica. Você pode copiar esses URLs da página Visualizar.
 
 Selecione o Conjunto de mídias mistas e selecione **[!UICONTROL Preview]**. Na página Visualização, selecione uma Predefinição do visualizador de conjunto de mídias mistas e selecione **[!UICONTROL Copy URL]**. Consulte [Vincular um conjunto de mídias mistas a uma página da Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

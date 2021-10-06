@@ -10,9 +10,9 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Ao criar parâmetros de modelo, você declara quais partes do modelo chamar em u
 Nos parâmetros da camada de texto, também é possível tornar a cadeia de caracteres de texto um campo dinâmico vinculado aos valores em um banco de dados. A capacidade de vincular texto a um banco de dados é útil, por exemplo, em promoções. Você pode personalizar imagens de modelo para fazer com que elas mostrem nomes de clientes ou de clientes. Você também pode vincular um parâmetro de camada de texto a um banco de dados de preços para mostrar o preço de um item em uma imagem de modelo.
 
 Você pode fazer referência a um parâmetro mais de uma vez. Use a caixa de combinação para cada comando na caixa de diálogo do parâmetro para selecionar qualquer parâmetro que corresponda a esse comando específico. Por exemplo, todos os parâmetros de tamanho estão disponíveis para o comando `size=`. Você pode reatribuir a referência do parâmetro a qualquer parâmetro que já esteja na caixa de combinação e renomear para algo que não esteja na caixa de combinação. No último caso, o nome deve ser exclusivo. Caso contrário, um erro indicará que o parâmetro existe. Quando você exclui uma referência de parâmetro, o parâmetro é removido do URL se não for referenciado em outro lugar. Quando você altera o valor padrão de um parâmetro de texto, todas as referências a esse parâmetro são atualizadas. Você pode ver a atualização na tabela de camadas, na renderização do modelo e no URL. Quando você altera um atributo de camada manipulando alças de redimensionamento ou digitando valores no painel de propriedades, o valor do parâmetro é atualizado e todas as referências ao parâmetro são atualizadas. Por exemplo, se você parametrizou o tamanho de duas camadas usando um parâmetro, ambos os tamanhos de camada são atualizados quando qualquer um dos tamanhos de camada é alterado. Ao visualizar um modelo e alterar um parâmetro, todas as referências a ele são atualizadas.
+
+Consulte também vídeo de treinamento [Noções básicas sobre o modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 ## Parameterizar uma camada {#parameterizing-a-layer}
 

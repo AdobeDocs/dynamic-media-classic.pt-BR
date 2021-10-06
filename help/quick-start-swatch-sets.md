@@ -10,9 +10,9 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Os Conjuntos de amostras do Adobe Dynamic Media Classic proporcionam aos usuários uma experiência de visualização integrada. No Visualizador dinâmico de conjunto de amostras, os usuários podem ver um item renderizado em uma cor, material, textura, acabamento ou malha diferente apenas clicando em uma miniatura.
 
-O Início rápido dos conjuntos de amostras foi projetado para entrar em operação rapidamente com as técnicas do conjunto de amostras no Adobe Dynamic Media Classic.
+O Início rápido dos conjuntos de amostras foi projetado para ajudar você a funcionar rapidamente com as técnicas do conjunto de amostras no Adobe Dynamic Media Classic.
 
 ## 1. Carregue as imagens e os arquivos de amostra
 
@@ -35,7 +35,7 @@ Para criar um Conjunto de amostras, na barra Navegação global, vá para **[!UI
 
 ## 3. Configurar predefinições do visualizador do conjunto de amostras
 
-Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Usar o Visualizador de Zoom: Personalizado > Conjuntos de imagens/Amostras de cores para exibir seus Conjuntos de amostras.
+Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com as Predefinições do visualizador padrão para cada tipo de mídia avançada. Usar o Visualizador de Zoom: Personalizado > Conjuntos de imagens/Amostras de cores para exibir seus Conjuntos de amostras.
 
 Consulte [Criar e editar Predefinições do visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -47,7 +47,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 ## 5. Publicar um conjunto de amostras
 
-A publicação de um Conjunto de amostras o coloca em servidores Adobe Dynamic Media Classic e ativa a string do URL.
+A publicação de um Conjunto de amostras o coloca em servidores da Adobe Dynamic Media Classic e ativa a string do URL.
 
 Selecione o ícone **[!UICONTROL Mark For Publish]** à esquerda de seu nome no Painel de navegação. Em seguida, selecione **[!UICONTROL Publish]**. Na página Publicar , selecione **[!UICONTROL Submit Publish]**.
 
@@ -55,6 +55,6 @@ Consulte [Publicar arquivos](publishing-files.md#publishing-files).
 
 ## 6. Vincular um conjunto de amostras a uma página da Web
 
-O Adobe Dynamic Media Classic cria chamadas de URL para conjuntos de amostras e as ativa após a publicação. Você pode copiar esses URLs da página Visualizar.
+O Adobe Dynamic Media Classic cria chamadas de URL para Conjuntos de amostras e as ativa após a publicação. Você pode copiar esses URLs da página Visualizar.
 
 Selecione o Conjunto de amostras e selecione o botão Visualizar. A página Visualização é aberta. Selecione uma Predefinição do visualizador de conjunto de amostras e selecione o botão Copiar URL . Consulte [Vincular um conjunto de amostras a uma página da Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

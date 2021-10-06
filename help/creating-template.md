@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3246'
+source-wordcount: '3307'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ ht-degree: 0%
 
 Para criar um modelo, vá para **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Selecione Designer ou Desenvolvedor. Nesta página, é possível adicionar camadas de imagem e texto. Também é possível reorganizar camadas, alterar o tamanho e a posição das camadas e aplicar efeitos de sombra e brilho a imagens e texto.
 
+Consulte também vídeo de treinamento [Noções básicas sobre o modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+
 >[!NOTE]
 >
->Se você editar um modelo criado em uma versão anterior do Adobe Dynamic Media Classic, um prompt o solicitará ao salvar &quot;Deseja adicionar uma camada de tela?&quot;. Selecione **[!UICONTROL No]** para evitar a adição de uma camada base. Se você selecionar **[!UICONTROL Yes]** acidentalmente, exclua os modificadores `&allowCanvasPrompt` e `&layer=0` no URL e pressione **[!UICONTROL Enter]** ou **[!UICONTROL Return]**.
+>Se você editar um modelo criado em uma versão anterior do Adobe Dynamic Media Classic, um prompt solicitará que você salve &quot;Deseja adicionar uma camada de tela?&quot;. Selecione **[!UICONTROL No]** para evitar a adição de uma camada base. Se você selecionar **[!UICONTROL Yes]** acidentalmente, exclua os modificadores `&allowCanvasPrompt` e `&layer=0` no URL e pressione **[!UICONTROL Enter]** ou **[!UICONTROL Return]**.
 
 ## Criar o modelo inicial {#creating-the-initial-template}
 
@@ -42,7 +44,7 @@ Você pode criar um template a partir de um template existente. Abra o modelo, s
 
 1. Para criar seu template inicial, use um dos seguintes métodos:
 
-   * **Selecione o PSD ou as imagens primeiro**  - No painel Procurar, selecione o arquivo PSD ou as imagens que deseja para o modelo, vá para  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**.
+   * **Selecione o PSD ou as imagens primeiro**  - No painel Procurar, selecione o PSD ou as imagens que deseja para o modelo, vá para  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**.
 
    * **Comece na tela**  Modelo - Vá para  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**. Selecione Designer ou Desenvolvedor.
 
@@ -103,7 +105,7 @@ Use essas ferramentas na tela Modelo para criar modelos:
 
    >[!NOTE]
    >
-   >O Editor de texto v4.2 está planejado para ser removido como uma opção no Adobe Dynamic Media Classic, portanto, é recomendável usar o Editor de texto 4.3 quando possível. A opção **[!UICONTROL Word Wrap]** será incorporada em uma versão futura do Editor de texto.
+   >O Editor de texto v4.2 está planejado para remoção como uma opção no Adobe Dynamic Media Classic, portanto, recomenda-se usar o Editor de texto 4.3 quando possível. A opção **[!UICONTROL Word Wrap]** será incorporada em uma versão futura do Editor de texto.
 
 * **[!UICONTROL Designer and Developer]** - Selecione a opção que melhor descreve sua função.
 
@@ -121,7 +123,7 @@ Use essas ferramentas na tela Modelo para criar modelos:
 
    >[!NOTE]
    >
-   >Se necessário, o Adobe Dynamic Media Classic encolhe as imagens para ajustá-las à tela ao criar uma camada de imagem.
+   >Se necessário, o Adobe Dynamic Media Classic encolhe as imagens para ajustá-las à tela quando você cria uma camada de imagem.
 
 ## Criar uma camada de texto {#creating-a-text-layer}
 
@@ -142,7 +144,7 @@ Para formatar o texto em uma camada de texto, faça o seguinte:
 1. Na caixa de texto do Editor de texto, selecione o texto que deseja formatar. Você pode selecionar todo o texto, partes do texto ou caracteres individuais.
 1. Especifique qualquer uma das opções de formatação a seguir e selecione **[!UICONTROL Apply]**.
 
-   * **[!UICONTROL Font]** - Escolha uma fonte no menu Fonte. Se uma fonte desejada não aparecer no menu, você poderá carregá-la no Adobe Dynamic Media Classic. Consulte Fontes.
+   * **[!UICONTROL Font]** - Escolha uma fonte no menu Fonte. Se uma fonte desejada não aparecer no menu, você poderá carregá-la na Adobe Dynamic Media Classic. Consulte Fontes.
 
    * **[!UICONTROL Font Size]** - Escolha um tamanho de fonte no menu, digite um tamanho específico na caixa ou selecione as  **[!UICONTROL Up]** setas  **[!UICONTROL Down]** ou para aumentar ou diminuir o tamanho em dois pontos.
 
@@ -244,7 +246,7 @@ As camadas devem ser pequenas o suficiente para caber na tela. Você pode altera
 
 >[!NOTE]
 >
->O Adobe Dynamic Media Classic recomenda criar uma predefinição de imagem que tenha o tamanho exato do modelo. A correspondência do tamanho da predefinição de imagem ao tamanho do modelo garante que o tamanho de saída final e as opções de nitidez do modelo sejam definidos corretamente. Depois de criar essa predefinição de imagem, você pode escolhê-la no menu Aplicar predefinição na tela Visualização do modelo. A tela mostra a aparência da imagem quando ela é entregue pelo servidor. Consulte [Configurar predefinições de imagem](setting-image-presets.md#setting_up_image_presets).
+>A Adobe Dynamic Media Classic recomenda criar uma Predefinição de imagem com o tamanho exato do modelo. A correspondência do tamanho da predefinição de imagem ao tamanho do modelo garante que o tamanho de saída final e as opções de nitidez do modelo sejam definidos corretamente. Depois de criar essa predefinição de imagem, você pode escolhê-la no menu Aplicar predefinição na tela Visualização do modelo. A tela mostra a aparência da imagem quando ela é entregue pelo servidor. Consulte [Configurar predefinições de imagem](setting-image-presets.md#setting_up_image_presets).
 
 * **Alteração do tamanho de uma camada**  - Para alterar o tamanho de uma camada ou da tela, selecione a camada ou a tela na lista Camadas e use uma destas técnicas:
 
@@ -288,7 +290,7 @@ Para escolher uma cor de plano de fundo, uma opacidade e um modo de mesclagem pa
 
 ## Usar efeitos de sombra e brilho em camadas {#using-shadow-and-glow-effects-on-layers}
 
-Você pode aplicar uma sombra ou brilho a uma camada. A sombra ou o brilho é aplicado ao perímetro da camada e se estende para dentro ou para fora, dependendo da opção de sombra ou brilho escolhida. Se o modelo se originou de um arquivo PSD com efeitos de sombra e brilho, você pode ajustar esses efeitos no Adobe Dynamic Media Classic.
+Você pode aplicar uma sombra ou brilho a uma camada. A sombra ou o brilho é aplicado ao perímetro da camada e se estende para dentro ou para fora, dependendo da opção de sombra ou brilho escolhida. Se seu modelo se originou de um arquivo PSD com sombra e efeitos de brilho, você pode ajustar esses efeitos no Adobe Dynamic Media Classic.
 
 Depois de aplicar um efeito de sombra ou brilho, você pode ajustar o tamanho, a cor, a opacidade e a posição na área Propriedades da camada da tela Modelo.
 

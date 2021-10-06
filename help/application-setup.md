@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '10417'
+source-wordcount: '10717'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Você pode usar as páginas de Configuração do aplicativo para inserir configu
 
 >[!NOTE]
 >
->Somente administradores do Adobe Dynamic Media Classic podem alterar as configurações nas páginas de Configuração do aplicativo.
+>Somente administradores do Adobe Dynamic Media Classic podem alterar as configurações nas páginas Configuração do aplicativo.
 
 ## Configurações gerais {#general-settings}
 
@@ -29,13 +29,13 @@ Para abrir a página Configurações gerais do aplicativo , na barra Navegação
 
 ### Servidores
 
-Na criação da conta, o Adobe Dynamic Media Classic fornece automaticamente os servidores atribuídos à sua empresa. Esses servidores são usados para criar strings de URL para seu site e aplicativos. Essas chamadas de URL são específicas da sua conta do .
+Na criação da conta, a Adobe Dynamic Media Classic fornece automaticamente os servidores atribuídos para sua empresa. Esses servidores são usados para criar strings de URL para seu site e aplicativos. Essas chamadas de URL são específicas da sua conta do .
 
 Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL Published Server Name]** - Este servidor é o servidor CDN (Content Deliver Network) em tempo real usado em todas as chamadas de URL geradas pelo sistema específicas da sua conta. Não altere o nome deste servidor a menos que seja instruído a fazê-lo por um técnico de suporte Adobe Dynamic Media Classic.
+* **[!UICONTROL Published Server Name]** - Este servidor é o servidor CDN (Content Deliver Network) em tempo real usado em todas as chamadas de URL geradas pelo sistema específicas da sua conta. Não altere o nome deste servidor a menos que um técnico de suporte da Adobe Dynamic Media Classic o instrua.
 
-* **[!UICONTROL Origin Server Name]** - Este servidor é utilizado apenas para testes de garantia de qualidade. Não altere o nome deste servidor a menos que seja instruído por um técnico de suporte Adobe Dynamic Media Classic.
+* **[!UICONTROL Origin Server Name]** - Este servidor é utilizado apenas para testes de garantia de qualidade. Não altere o nome deste servidor a menos que um técnico de suporte da Adobe Dynamic Media Classic tenha instruído a fazê-lo.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
@@ -43,7 +43,7 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
 <!-- **Test Publish Context Server Name** -->
 
-* **[!UICONTROL iOS Streaming Server Name]** - O URL do seu servidor de transmissão  [!DNL Adobe Dynamic Media Classic] iOS. Este servidor fornece vídeo de transmissão para dispositivos baseados em iOS usando protocolo HTTP.
+* **[!UICONTROL iOS Streaming Server Name]** - O URL do servidor de transmissão do  [!DNL Adobe Dynamic Media Classic] iOS. Este servidor fornece vídeo de transmissão para dispositivos baseados em iOS usando protocolo HTTP.
 
 * **[!UICONTROL Progressive Video Server Name]** - O URL do seu servidor de vídeo  [!DNL Adobe Dynamic Media Classic] progressivo. Este servidor fornece vídeo progressivo usando protocolo HTTP.
 
@@ -59,7 +59,7 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
    `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   Se o Modelo contiver apenas `<ID>`, o Adobe Dynamic Media Classic preencherá o `https://<server>/is/image`, onde `<server>` é o Nome do servidor de publicação definido nas Configurações gerais.
+   Se o Modelo contiver apenas `<ID>`, o Adobe Dynamic Media Classic preencherá o `https://<server>/is/image`, onde `<server>` é o Nome do Servidor de Publicação definido nas Configurações Gerais.
 
    Definir o modelo de invalidação CDN, selecionar uma imagem chamada Backpack_B e, em seguida, ir para **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]** resulta no seguinte URL gerado na interface de invalidação CDN:
 
@@ -77,11 +77,11 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
 ### Procurar
 
-* **[!UICONTROL Show Projects]** - Determina se os Projetos estão disponíveis como meio de organizar os ativos do Adobe Dynamic Media Classic. Consulte Organizar o trabalho com Projetos.
+* **[!UICONTROL Show Projects]** - Determina se os Projetos estão disponíveis como forma de organizar os ativos da Adobe Dynamic Media Classic. Consulte [Organize seu trabalho com Projetos](/help/organizing-projects.md).
 
 * **[!UICONTROL Show Sample eVideo Content]** - Ativa ou desativa a exibição do conteúdo de amostra do eVideo.
 
-* **[!UICONTROL Show Generated Content]** - Em pastas, mostra o conteúdo gerado de um ativo. Por exemplo, quando um arquivo PDF é rasterizado à medida que é carregado, o Adobe Dynamic Media Classic cria uma imagem para cada página no PDF original. Se a opção Mostrar conteúdo gerado estiver selecionada, cada imagem gerada quando o PDF original foi carregado aparecerá junto com o PDF na pasta para a qual o PDF foi carregado.
+* **[!UICONTROL Show Generated Content]** - Em pastas, mostra o conteúdo gerado de um ativo. Por exemplo, quando um arquivo PDF é rasterizado à medida que é carregado, o Adobe Dynamic Media Classic cria uma imagem para cada página no PDF original. Se Mostrar conteúdo gerado for selecionado, cada imagem gerada quando o PDF original foi carregado será exibida junto com o PDF na pasta para a qual o PDF foi carregado.
 
 * **[!UICONTROL Show Encoded Videos]** - Desmarcado (desativado) por padrão.
 
@@ -89,7 +89,7 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
    No entanto, você ainda pode acessar vídeos individuais codificados do Vídeo Principal ou do Conjunto de vídeos adaptáveis. Para fazer isso, clique duas vezes na imagem de miniatura do vídeo para abrir a Exibição de detalhes. Em seguida, selecione **[!UICONTROL Encoded Videos]** no painel direito para acessar todos os vídeos &quot;filho&quot;.
 
-   Você também pode acessar **[!UICONTROL File]** > **[!UICONTROL Reprocess]** para criar vídeos &quot;secundários&quot; mais codificados diretamente de um Conjunto de vídeos adaptáveis. O Adobe Dynamic Media Classic encontra automaticamente o vídeo Principal &quot;principal&quot; do Conjunto de vídeos adaptáveis e o usa como vídeo de origem para transcodificação. No entanto, ao salvar os novos vídeos codificados individuais, eles não são vistos quando você pesquisa ou navega. No entanto, elas ainda podem ser acessadas na guia Vídeos codificados na Exibição detalhada.
+   Você também pode acessar **[!UICONTROL File]** > **[!UICONTROL Reprocess]** para criar vídeos &quot;secundários&quot; mais codificados diretamente de um Conjunto de vídeos adaptáveis. O Adobe Dynamic Media Classic encontra automaticamente o vídeo Principal &quot;principal&quot; do Conjunto de vídeos adaptativos e o usa como o vídeo de origem para transcodificação. No entanto, ao salvar os novos vídeos codificados individuais, eles não são vistos quando você pesquisa ou navega. No entanto, elas ainda podem ser acessadas na guia Vídeos codificados na Exibição detalhada.
 
    Consulte [Fazer upload e transcodificar o vídeo](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -99,11 +99,11 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
    >[!NOTE]
    >
-   >Se você não tiver usado o Adobe Dynamic Media Classic para fazer upload e codificar seus ativos de vídeo, o Adobe Dynamic Media Classic exibirá todos os seus vídeos codificados individuais, mesmo que essa opção esteja desmarcada.
+   >Se você não usou o Adobe Dynamic Media Classic para fazer upload e codificar seus ativos de vídeo, o Adobe Dynamic Media Classic mostra todos os seus vídeos codificados individuais, mesmo se essa opção estiver desmarcada.
 
 * **[!UICONTROL Show Refresh Subfolders Button]** - Ativa ou desativa a exibição do botão Atualizar das subpastas.
 
-### Conta FTP do Adobe Dynamic Media Classic
+### Conta FTP da Adobe Dynamic Media Classic
 
 * **[!UICONTROL Server]** - Lista seu servidor de contas FTP.
 
@@ -111,7 +111,9 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
 ### Fazer upload para o aplicativo
 
-* **[!UICONTROL Overwrite Images]** - O Adobe Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A Adobe Dynamic Media Classic ID de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Upload tem uma opção de Substituição. O efeito exato dessa opção depende da opção de Substituição de imagens especificada. Essas opções especificam como as imagens de substituição são carregadas: se eles substituem as imagens originais ou se tornam imagens duplicadas. Imagens duplicadas são renomeadas com um &quot;-1&quot; (por exemplo, chair.tif é renomeado chair-1.tif). Essas opções afetam as imagens enviadas para uma pasta diferente da original ou as imagens com uma extensão de nome de arquivo diferente da original (como JPG, TIF ou PNG). (Consulte Uso da opção Substituir imagens .)
+Consulte também [Vídeo de treinamento sobre opções padrão de trabalho de upload](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS).
+
+* **[!UICONTROL Overwrite Images]** - O Adobe Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A Adobe Dynamic Media Classic ID de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Upload tem uma opção de Substituição. O efeito exato dessa opção depende da opção de Substituição de imagens especificada. Essas opções especificam como as imagens de substituição são carregadas: se eles substituem as imagens originais ou se tornam imagens duplicadas. Imagens duplicadas são renomeadas com um &quot;-1&quot; (por exemplo, chair.tif é renomeado chair-1.tif). Essas opções afetam as imagens carregadas em uma pasta diferente da original ou as imagens com uma extensão de nome de arquivo diferente da original (como JPG, TIF ou PNG). Consulte [Usar a opção Substituir imagens](#using-the-overwrite-images-option).
 
    * **[!UICONTROL Overwrite in current folder, same base image name/extension]** - Essa opção é a regra mais estrita para substituição. Ela requer que você carregue a imagem de substituição na mesma pasta do original e que a imagem de substituição tenha a mesma extensão de nome de arquivo do original. Se esses requisitos não forem atendidos, uma duplicata será criada.
 
@@ -121,11 +123,11 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** - Essa é a regra de substituição mais inclusiva. Você pode fazer upload de uma imagem de substituição para uma pasta diferente do original, fazer upload de um arquivo com uma extensão de nome de arquivo diferente e substituir o arquivo original. Se o arquivo original estiver em uma pasta diferente, a imagem de substituição residirá na nova pasta para a qual foi carregada.
 
-* **[!UICONTROL Retain Publish]** - Especifica se uma imagem de substituição carregada no Adobe Dynamic Media Classic retém a configuração Pronto para publicar da imagem que está substituindo ou se a configuração está especificada no upload.
+* **[!UICONTROL Retain Publish]** - Especifica se uma imagem de substituição carregada no Adobe Dynamic Media Classic retém a configuração Pronto para publicar da imagem que está substituindo ou se a configuração é especificada no upload.
 
 * **[!UICONTROL Default Color Profiles]** - Especifica os perfis de cores aplicados como parte das Opções de perfil de cor padrão ao adicionar imagens CMYK.
 
-* **[!UICONTROL Default Upload Options]** - Abre a caixa de diálogo Upload Job Options , onde é possível especificar as opções de upload padrão. Para obter informações sobre essas opções, consulte Opções de upload .
+* **[!UICONTROL Default Upload Options]** - Abre a caixa de diálogo Upload Job Options , onde é possível especificar as opções de upload padrão. Para obter informações sobre essas opções, consulte [Upload options](/help/uploading-files.md#upload_options).
 
 ### Editor do Mapa de Imagens, para Aplicativo
 
@@ -135,17 +137,17 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
 
 ### Outras configurações, para Aplicativo
 
-* **[!UICONTROL Trash Can Clean Up Warnings]** - Os ativos na lixeira são removidos automaticamente em sete dias. Selecione &quot;Enviar emails antes que os itens de lixo sejam excluídos automaticamente&quot; se desejar que as notificações sejam enviadas para administradores de empresas quando os ativos que estão na Lixeira estiverem a quatro dias de serem excluídos permanentemente. Consulte Gerenciamento da pasta Lixeira.
+* **[!UICONTROL Trash Can Clean Up Warnings]** - Os ativos na lixeira são removidos automaticamente em sete dias. Selecione &quot;Enviar emails antes que os itens de lixo sejam excluídos automaticamente&quot; se desejar que as notificações sejam enviadas para administradores de empresas quando os ativos que estão na Lixeira estiverem a quatro dias de serem excluídos permanentemente. Consulte [Gerenciar a pasta Lixeira](/help/trash-folder.md).
 
 ## Use a opção Substituir imagens {#using-the-overwrite-images-option}
 
-O Adobe Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A Adobe Dynamic Media Classic ID de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Carregar inclui as opções de Substituir imagens. O efeito exato dessa opção depende de uma configuração das configurações internas do Adobe Dynamic Media Classic de cada empresa.
+O Adobe Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A Adobe Dynamic Media Classic ID de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Carregar inclui as opções de Substituir imagens. O efeito exato dessa opção depende de uma configuração das Configurações internas do Adobe Dynamic Media Classic de cada empresa.
 
 Se você carregou imagens anteriormente e alterou os arquivos originais (ou as substituiu), a opção Substituir escolhida especifica como o Adobe Dynamic Media Classic substitui as imagens. Nenhuma informação sobre a imagem muda, mas a nova imagem substitui a antiga. Se a pasta também contiver imagens que ainda não estão no Adobe Dynamic Media Classic, essas imagens serão adicionadas.
 
-Use esta opção se as imagens que você carregou tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem permanece a mesma. A substituição também é útil ao carregar e extrair PDFs Adobe®. Para ajustar como o Adobe Dynamic Media Classic *rips* da imagem, ajuste as opções de perfil de cor ICC na caixa de diálogo Carregar e faça novamente o upload usando o recurso Substituir .
+Use esta opção se as imagens que você carregou tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem permanece a mesma. A substituição também é útil ao carregar e extrair PDF Adobe®. Para ajustar como o Adobe Dynamic Media Classic *rips* a imagem, ajuste as opções de perfil de cor ICC na caixa de diálogo Upload e faça upload novamente usando o recurso Substituir .
 
-As IDs do Adobe Dynamic Media Classic usadas para acessar imagens dos servidores de produção são derivadas dos nomes de arquivo da imagem. O uso de caracteres em maiúsculas e minúsculas no nome do arquivo é importante, tanto para a substituição de arquivos existentes quanto para as IDs clássicas do Adobe usadas para acessar a imagem. Certifique-se de que o uso de caracteres em letras maiúsculas e minúsculas em nomes de arquivo esteja correto antes de fazer upload no Adobe Dynamic Media Classic para evitar as IDs do Adobe Dynamic Media Classic que diferem somente em letras maiúsculas e minúsculas para a mesma imagem.
+As Adobe Dynamic Media Classic IDs usadas para acessar imagens dos servidores de produção são derivadas dos nomes de arquivo da imagem. O uso de caracteres em maiúsculas e minúsculas no nome do arquivo é importante, tanto para a substituição de arquivos existentes quanto para as Adobe Dynamic Media Classic IDs usadas para acessar a imagem. Certifique-se de que o uso de caracteres em maiúsculas e minúsculas em nomes de arquivo esteja correto antes de fazer upload no Adobe Dynamic Media Classic para evitar Adobe Dynamic Media Classic IDs que diferem apenas no caso da mesma imagem.
 
 Se você desmarcar essa opção, todas as imagens com os mesmos nomes de arquivo das imagens existentes serão tratadas como duplicatas e não serão adicionadas.
 
@@ -187,7 +189,7 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
 * **[!UICONTROL Format]** - Selecione um formato no menu . Escolher o formato GIF, JPEG, PDF ou TIFF traz mais opções:
 
-   * Opções de quantificação de cores GIF
+   * Opções de quantificação de cores do GIF
 
       * **[!UICONTROL Type]** - Selecione Adaptável (padrão), Web ou Macintosh. Se você selecionar **[!UICONTROL GIF With Alpha]**, a opção Macintosh não estará disponível.
 
@@ -196,11 +198,11 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
       * **[!UICONTROL Number Of Colors]** - Arraste o controle deslizante para entrar em 2-255.
 
       * **[!UICONTROL Color List]** - Insira uma lista separada por vírgulas. Por exemplo, para branco, cinza e preto, digite `000000,888888,ffffff`.
-   * Opções JPEG
+   * Opções de JPEG
 
-      * **[!UICONTROL Quality]** - Controla o nível de compactação JPEG. Essa configuração afeta o tamanho do arquivo e a qualidade da imagem. A escala de qualidade JPEG é de 1 a 100.
+      * **[!UICONTROL Quality]** - Controla o nível de compactação JPEG. Essa configuração afeta o tamanho do arquivo e a qualidade da imagem. A escala de qualidade do JPEG é de 1 a 100.
 
-      * **[!UICONTROL Enable JPG Chrominance Downsampling]** - Como o olho é menos sensível à informação de cores de alta frequência do que à luminância de alta frequência, as imagens JPEG dividem as informações da imagem em componentes de luminância e cor. Quando uma imagem JPEG é compactada, o componente de luminância é deixado em resolução completa, enquanto os componentes de cor são reduzidos pela média de grupos de pixels. A redução da amostragem reduz o volume de dados em um terço ou metade, quase sem impacto na qualidade percebida. A redução da amostragem não é aplicável a imagens em tons de cinza. Essa técnica reduz a quantidade de compactação útil para imagens com alto contraste (por exemplo, imagens com texto sobreposto).
+      * **[!UICONTROL Enable JPG Chrominance Downsampling]** - Como o olho é menos sensível à informação de cores de alta frequência do que à luminância de alta frequência, as imagens de JPEG dividem a informação da imagem em componentes de luminância e cor. Quando uma imagem de JPEG é compactada, o componente de luminância é deixado em resolução completa, enquanto os componentes de cor são reduzidos pela média de grupos de pixels. A redução da amostragem reduz o volume de dados em um terço ou metade, quase sem impacto na qualidade percebida. A redução da amostragem não é aplicável a imagens em tons de cinza. Essa técnica reduz a quantidade de compactação útil para imagens com alto contraste (por exemplo, imagens com texto sobreposto).
    * Opções de PDF e TIFF
 
       * **[!UICONTROL Compression]** - Selecione um algoritmo de compactação.
@@ -211,7 +213,7 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
 * **[!UICONTROL Sharpening]** - Selecione a opção Ativar nitidez simples para aplicar um filtro de nitidez básico à imagem depois que toda a escala ocorrer. A nitidez pode ajudar a compensar a indefinição que pode resultar na exibição de uma imagem em um tamanho diferente.
 
-   Para obter mais informações sobre nitidez, modos de amostra e mascaramento com nitidez, consulte [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).
+   Para obter mais informações sobre nitidez, modos de amostra e mascaramento com nitidez, consulte [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image). Consulte também [Nitidez](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) vídeo de treinamento.
 
 * **[!UICONTROL Resample Mode]** - Selecione uma opção Resampling mode . Essas opções aprimoram a imagem quando ela é reduzida:
 
@@ -231,11 +233,11 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
 * **[!UICONTROL Threshold]** - Determina o intervalo de contraste a ser ignorado quando o filtro de máscara nítida for aplicado. Em outras palavras, essa opção determina o quão diferentes os pixels com nitidez devem ser da área ao redor antes de serem considerados pixels de borda e terem nitidez. Para evitar a introdução de ruído, experimente valores entre .02 e 0.2. O valor padrão de 6 ajuste a nitidez de todos os pixels na imagem.
 
-* **[!UICONTROL Color Space]** - Determina se a imagem usa o espaço em que a imagem foi criada, geralmente RGB (Original) ou um espaço de luminância (Intensidade).
+* **[!UICONTROL Color Space]** - Determina se a imagem usa o espaço em que a imagem foi criada, normalmente RGB (Original) ou um espaço de luminância (Intensidade).
 
 * **[!UICONTROL Color]** Escolha estas opções:
 
-* **[!UICONTROL Output Color Profile]** - Selecione  **[!UICONTROL Use Default]** ou um dos perfis de cores ICC disponíveis no Adobe Dynamic Media Classic.
+* **[!UICONTROL Output Color Profile]** - Selecione  **[!UICONTROL Use Default]** ou um dos perfis de cores ICC disponíveis na Adobe Dynamic Media Classic.
 
    Consulte também [Perfis ICC](icc-profiles.md#icc_profiles).
 
@@ -260,11 +262,13 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
 ## Ativar ou desativar predefinições de vídeo adaptável {#activating-or-deactivating-adaptive-video-presets}
 
-O Adobe Dynamic Media Classic oferece predefinições de codificação de vídeo adaptável. É uma lista principal de predefinições que combina predefinições de Vídeo adaptável 16:9 e predefinições de Vídeo adaptável 4:3 em um grupo. Essas predefinições predefinidas refletem as configurações de codificação mais comuns e são otimizadas para reprodução em dispositivos móveis, tablets e desktops de destino.
+O Adobe Dynamic Media Classic oferece predefinições de codificação de Vídeo adaptável. É uma lista principal de predefinições que combina predefinições de Vídeo adaptável 16:9 e predefinições de Vídeo adaptável 4:3 em um grupo. Essas predefinições predefinidas refletem as configurações de codificação mais comuns e são otimizadas para reprodução em dispositivos móveis, tablets e desktops de destino.
 
 Somente as predefinições de codificação de &quot;Vídeo adaptável&quot; são ativadas (ativadas ou &quot;ativadas&quot;) por padrão. Você pode desativá-la, se desejar. As predefinições de Vídeo adaptativo inativo não aparecem como uma opção selecionável na seção eVideo da caixa de diálogo Opções de trabalho de upload .
 
 Consulte [Fazer upload e codificar vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+
+Consulte também [Vídeo de treinamento sobre predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 **Para ativar ou desativar predefinições de vídeo adaptável:**
 
@@ -282,7 +286,7 @@ Para selecionar uma predefinição de codificação, no canto inferior direito d
 
 * Selecione dentre as seguintes predefinições de codificação de vídeo adaptável ou de codificação única:
 
-   * **[!UICONTROL 16:9 Adaptive Video]** - Crie vídeos com a taxa de proporção de 16:9 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android™) e tablets (iPad, Android™), otimizados com a resolução e a taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
+   * **[!UICONTROL 16:9 Adaptive Video]** - Crie vídeos com taxa de proporção de 16:9 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android™) e tablets (iPad, Android™), otimizados com a resolução e a taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
 
    * **[!UICONTROL 4:3 Adaptive Video]** - Crie vídeos com relação de aspecto de 4:3 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android™) e tablets (iPad, Android™), otimizados com a resolução e a taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
 
@@ -292,7 +296,7 @@ Para selecionar uma predefinição de codificação, no canto inferior direito d
 
       Consulte [Adicionar ou editar uma predefinição de codificação de vídeo](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   * **[!UICONTROL Adaptive Video Encoding (16:9 or 4:3)]** - Crie vídeos com proporção de aspecto de 16:9 e 4:3 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android™) e tablets (iPad, Android™). Tudo otimizado com a resolução e a taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
+   * **[!UICONTROL Adaptive Video Encoding (16:9 or 4:3)]** - Crie vídeos com a taxa de proporção de 16:9 e 4:3 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android™) e tablets (iPad, Android™). Tudo otimizado com a resolução e a taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
 
       Consulte [Adaptive Video Encoding (16:9 ou 4:3) video presets](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
@@ -300,7 +304,7 @@ Para selecionar uma predefinição de codificação, no canto inferior direito d
 
       >[!NOTE]
       >
-      >Para enviar vídeo para iPads, você pode selecionar uma predefinição de codificação Mobile ou uma predefinição de codificação Tablet. As predefinições de tablet são projetadas especialmente para o iPad, normalmente com maior resolução e qualidade para aproveitar o tamanho da tela e a conexão de largura de banda maiores. A entrega de arquivos de vídeo codificados com uma predefinição do Tablet requer que você inclua o código de detecção do dispositivo no site ou aplicativo móvel. Esse código alterna entre uma experiência de vídeo de iPhone ou iPad, dependendo do dispositivo de reprodução. Escolher uma predefinição para dispositivos móveis para fornecer arquivos de vídeo ao iPad é um fluxo de trabalho mais simplificado. Isso ocorre porque você pode usar o mesmo arquivo de vídeo para iPhones e iPads. No entanto, a qualidade é padronizada para a experiência de iPhone em resolução mais baixa.
+      >Para enviar vídeo para iPads, você pode selecionar uma predefinição de codificação Mobile ou uma predefinição de codificação Tablet. As predefinições de tablet são projetadas especialmente para o iPad, normalmente com maior resolução e qualidade para aproveitar o tamanho da tela e a conexão de largura de banda maiores. A entrega de arquivos de vídeo codificados com uma predefinição do Tablet requer que você inclua o código de detecção do dispositivo no site ou aplicativo móvel. Esse código alterna entre uma experiência de vídeo de iPhone ou iPad, dependendo do dispositivo de reprodução. Escolher uma predefinição de Dispositivo móvel para fornecer arquivos de vídeo ao iPad é um fluxo de trabalho mais simplificado. Isso ocorre porque você pode usar o mesmo arquivo de vídeo para iPhones e iPads. No entanto, a qualidade é padronizada para a experiência iPhone de resolução mais baixa.
 
       * No grupo Predefinições de codificação , na lista suspensa Classificar predefinições de codificação , selecione Nome ou Tamanho para classificar predefinições por nome ou tamanho de resolução.
       * Selecione uma predefinição de codificação com base no tamanho da resolução e na largura de banda com a qual planeja reproduzir o vídeo.
@@ -336,7 +340,7 @@ Uma predefinição de codificação que funciona com qualquer proporção de asp
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto x 360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | Igual à origem | 64º | Para dispositivos móveis (iPhone, iPad, Android™) |
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à origem | 96 | Para tablet (iPad, Android™) |
-| 1 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à origem | 128 | Para desktop |
+| 3 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à origem | 128 | Para desktop |
 
 ### Predefinições de vídeo da Codificação de vídeo adaptável (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -350,8 +354,8 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à origem | 64º | Baixa resolução, 3G |
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à origem | 64º | Baixa resolução, 3G |
-| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | Igual à origem | 64º | Resolução média, 3G |
-| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_384x288_600 | 800 | 384x288 | Igual à origem | 64º | Resolução média, 3G |
+| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | Igual à origem | 64º | Resolução média, 3G |
+| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | Igual à origem | 64º | Resolução média, 3G |
 | 5 | `16:9, 640x360, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Igual à origem | 80º | Resolução média, WiFi |
 | 6 | `4:3, 640x480, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Igual à origem | 80º | Resolução média, WiFi |
 | 7 | `16:9, 768x432, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | Igual à origem | 96 | Alta resolução, WiFi |
@@ -371,10 +375,10 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | Igual à origem | 64º | Baixa resolução de ecrã panorâmico |
 | 2 | 16:9, 640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | Igual à origem | 80º | Resolução widescreen média |
-| 1 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800x450 | Igual à origem | 96 | Resolução média-alta |
+| 3 | 16:9, 800x450 (1200 Kbps) | 1,5 Mbps | _800x450_1200K | 1200 | 800x450 | Igual à origem | 96 | Resolução média-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps) | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Igual à origem | 128 | Alta definição, widescreen |
 | 5 | 4:3, 320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320x240 | Igual à origem | 64º | Baixa resolução |
-| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 600 | 480x360 | Igual à origem | 80º | Resolução média |
+| 6 | 4:3, 480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480x360 | Igual à origem | 80º | Resolução média |
 | 7 | 4:3, 640x480 (1200 Kbps) | 1,5 Mbps | _640x480_1200K | 1200 | 640x480 | Igual à origem | 96 | Resolução média-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps) | 3,0 Mbps | _1280x960_2000K | 2000 | 1280x960 | Igual à origem | 128 | Alta definição |
 
@@ -384,10 +388,10 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 Kbps), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Igual à origem | 64º | Baixa resolução de ecrã panorâmico |
 | 2 | 16:9, 640x360 (800 Kbps), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Igual à origem | 80º | Resolução widescreen média |
-| 1 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | Igual à origem | 96 | Resolução média-alta |
+| 3 | 16:9, 800x450 (1200 Kbps), OGG | 1,5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | Igual à origem | 96 | Resolução média-alta |
 | 4 | 16:9, 1280x720 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | Igual à origem | 128 | Alta definição, widescreen |
 | 5 | 4:3, 320x240 (400 Kbps), OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | Igual à origem | 64º | Baixa resolução |
-| 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 600 | 480x360 | Igual à origem | 80º | Resolução média |
+| 6 | 4:3, 480x360 (800 Kbps), OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | Igual à origem | 80º | Resolução média |
 | 7 | 4:3, 640x480 (1200 Kbps), OGG | 1,5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | Igual à origem | 96 | Resolução média-alta |
 | 8 | 4:3, 1280x960 (2000 Kbps), OGG | 3,0 Mbps | _OGG_1280x960_2000K | 2000 | 1280x960 | Igual à origem | 128 | Alta definição |
 
@@ -402,12 +406,12 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 |  | Codificação do nome da predefinição/texto da dica de ferramenta | Velocidade de conexão do Target (Kbps) | Sufixo de arquivo codificado | Taxa de bits do vídeo (Kbps) | Largura/altura dos pixels | Fps | Taxa de bits de áudio (Kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512x288, Móvel (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Igual à origem | 64º | Baixa resolução, 3G |
-| 2 | 16:9, 512x288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Igual à origem | 64º | Resolução média, 3G |
-| 1 | 16:9, 512x288, Móvel (800 Kbps) | 900 | _Mobile_512x288_800K | 600 | 512x288 | Igual à origem | 80º | Resolução média, Wi-Fi |
+| 2 | 16:9, 512x288, Móvel (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Igual à origem | 64º | Resolução média, 3G |
+| 3 | 16:9, 512x288, Móvel (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Igual à origem | 80º | Resolução média, Wi-Fi |
 | 4 | 16:9, 512x288, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | Igual à origem | 80º | Alta resolução, Wi-Fi |
 | 5 | 16:9, 512x288, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | Igual à origem | 96 | Alta resolução, Wi-Fi |
 | 6 | 4:3, 384x288, Móvel (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Igual à origem | 64º | Baixa resolução, 3G |
-| 7 | 4:3, 384x288, Móvel (600 Kbps) | 700 | _Mobile_384x288_600K | 800 | 384x288 | Igual à origem | 64º | Resolução média, 3G |
+| 7 | 4:3, 384x288, Móvel (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | Igual à origem | 64º | Resolução média, 3G |
 | 8 | 4:3, 448x336, Móvel (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Igual à origem | 80º | Resolução média, Wi-Fi |
 | 9 | 4:3, 448x336, Móvel (1000 Kbps) | 1,2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | Igual à origem | 80º | Alta resolução, Wi-Fi |
 | 10º | 4:3, 448x336, Móvel (1200 Kbps) | 1,5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | Igual à origem | 96 | Alta resolução, Wi-Fi |
@@ -416,11 +420,11 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 >[!NOTE]
 >
->**Aviso de fim de vida útil de visualizadores de Flash**  - a partir de 31 de janeiro de 2017, o Adobe Dynamic Media Classic oficialmente encerrou o suporte para a plataforma do visualizador de Flashes.
+>**Aviso de fim de vida útil de visualizadores de Flashes**  - a partir de 31 de janeiro de 2017, a Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma do visualizador de Flashes.
 
 Uma *Predefinição do visualizador* é uma coleção de configurações que determinam como os usuários visualizam ativos de mídia avançada em suas telas de computadores e dispositivos móveis. Como administrador, você pode criar Predefinições do visualizador. As configurações estão disponíveis para uma matriz de opções de configuração do visualizador. Por exemplo, você pode alterar o tamanho de exibição do visualizador, o comportamento de zoom, esquemas de cores, bordas e fontes.
 
-Como prática recomendada, use visualizadores de vídeo HTML5 do Adobe Dynamic Media Classic. As predefinições usadas em visualizadores de vídeo HTML5 são players de vídeo robustos.
+Como prática recomendada, use os visualizadores de vídeo do Adobe Dynamic Media Classic HTML5. As predefinições usadas em visualizadores de vídeo do HTML5 são players de vídeo robustos.
 
 Ao combinar em um único reprodutor o seguinte:
 
@@ -430,11 +434,11 @@ Ao combinar em um único reprodutor o seguinte:
 
 Você estende o alcance do seu conteúdo de mídia avançada para usuários de desktop, tablet e dispositivos móveis e garante uma experiência de vídeo simplificada.
 
-Consulte [Sobre visualizadores HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
+Consulte [Sobre visualizadores do HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
 
-Consulte [Matriz de compatibilidade de predefinições do visualizador do Adobe Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Consulte [Matriz de compatibilidade de Predefinição do Visualizador do Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
-Consulte [Prática recomendada: Usando o visualizador de vídeo HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
+Consulte [Prática recomendada: Uso do visualizador de vídeo do HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
 Dependendo do visualizador, você pode adicionar recursos da comunidade. Os recursos da comunidade incluem um botão Incorporar, um botão de Email, um botão Link e um botão Visitar site. Esses botões permitem que as pessoas que usam os visualizadores compartilhem o visualizador com outras pessoas ou abram o site do Adobe Dynamic Media Classic.
 
@@ -442,7 +446,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 ### Suporte de visualizador para páginas da Web responsivas projetadas {#viewer-support-for-responsive-designed-web-pages}
 
-Páginas da Web diferentes têm necessidades diferentes. Às vezes, você deseja uma página da Web que forneça um link que abra o Visualizador de HTML5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web provavelmente tem um layout estático. Ou é &quot;responsivo&quot; e exibido de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, os visualizadores HTML5 fornecidos com o Adobe Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
+Páginas da Web diferentes têm necessidades diferentes. Às vezes, você deseja uma página da Web que forneça um link que abra o Visualizador do HTML5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador do HTML5 diretamente na página de hospedagem. No último caso, a página da Web provavelmente tem um layout estático. Ou é &quot;responsivo&quot; e exibido de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, os visualizadores do HTML5 que vêm com o Adobe Dynamic Media Classic suportam páginas da Web estáticas e páginas da Web responsivas projetadas.
 
 Para obter mais informações sobre como incorporar visualizadores responsivos às suas páginas da Web, consulte [Sobre a biblioteca de imagens responsivas](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Usar biblioteca de imagens responsivas](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api) e [Referência de comando - Atributos de comando](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
 
@@ -468,13 +472,13 @@ Os administradores podem criar e personalizar os seguintes tipos de Predefiniç�
 
 Ao determinar o uso total da largura de banda para esse visualizador, considere que a imagem principal e a imagem flyout são servidas no visualizador. O tamanho da imagem principal (Largura e Altura do Palco) e o Fator de Zoom determinam o tamanho da imagem do flyout. Para impedir que o tamanho do arquivo flyout se torne muito grande, equilibre esses dois valores: se você tiver um tamanho de imagem principal grande, abaixe o valor de Fator de Zoom. (A Largura do Flyout e a Altura do Flyout determinam o tamanho da janela do flyout, mas não o tamanho da imagem do flyout que é servida no visualizador.)
 
-Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade JPEG (as configurações recomendadas estão entre 80 e 90), você pode diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
+Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade do JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 
 ### Matriz de compatibilidade de predefinições do visualizador do Adobe Dynamic Media Classic {#scene-viewer-preset-compatibility-matrix}
 
-**Aviso** de fim de vida útil de visualizadores de Flashes: A partir de 31 de janeiro de 2017, o Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma do visualizador de Flashes.
+**Aviso** de fim de vida útil de visualizadores de Flashes: A partir de 31 de janeiro de 2017, a Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma do visualizador de Flashes.
 
-A tabela a seguir identifica as predefinições do visualizador clássico do Adobe atualmente disponíveis. A tabela também especifica a compatibilidade do visualizador com dispositivos móveis e de desktop e a tecnologia usada para cada visualizador específico.
+A tabela a seguir identifica as Predefinições do visualizador do Adobe Dynamic Media Classic atualmente disponíveis. A tabela também especifica a compatibilidade do visualizador com dispositivos móveis e de desktop e a tecnologia usada para cada visualizador específico.
 
 Consulte também [Exemplos de biblioteca de referência de visualizadores do Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -509,7 +513,7 @@ Consulte [Notas de versão de referência de visualizadores do Adobe](https://ex
 |--- |--- |--- |--- |--- |--- |--- |
 | Visualizadores do eCatalog |  |  |  |  |  |  |
 | Universal_HTML5_eCatalog_Adv(Inclui suporte para mídia social e pesquisa de catálogo.) | HTML5 | X | X | X | X | X |
-| Universal_HTML5_eCatalog(Inclui suporte para mídia social e pesquisa de catálogo.) | HTML5 | X | X | X | X | X |
+| Universal_HTML5_eCatalog(Inclui suporte para redes sociais e pesquisa de catálogo.) | HTML5 | X | X | X | X | X |
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Tablet Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -519,15 +523,15 @@ Consulte [Notas de versão de referência de visualizadores do Adobe](https://ex
 
 **Visualizadores de eVideo**
 
-O Adobe Dynamic Media Classic é compatível com a reprodução de vídeo móvel para vídeo MP4 H.264.
+O Adobe Dynamic Media Classic oferece suporte para reprodução de vídeo móvel para vídeo MP4 H.264.
 
 * Você pode encontrar dispositivos BlackBerry® que suportam este formato de vídeo no seguinte endereço: [Formatos de vídeo suportados no BlackBerry®](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * Você também pode encontrar dispositivos Windows® que suportam este formato de vídeo no seguinte endereço: [Formatos de vídeo suportados no Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Tablet Android™ | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video(Inclui suporte para legendas ocultas.) Consulte [Prática recomendada: Usando o visualizador de vídeo HTML5 universal.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
-| Universal_HTML5_Video_social(Inclui suporte para legendas ocultas e redes sociais.) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(Inclui suporte para legendas ocultas.) Consulte [Prática recomendada: Uso do visualizador de vídeo Universal HTML5.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video_social(Inclui suporte para legendas ocultas e redes sociais). | HTML5 | X | X | X | X | X | X | X |
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Tablet Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -537,7 +541,7 @@ O Adobe Dynamic Media Classic é compatível com a reprodução de vídeo móvel
 
 ### Matriz de gestos de visualizadores móveis compatíveis {#supported-mobile-viewers-gestures-matrix}
 
-A tabela a seguir identifica os gestos do visualizador móvel que são suportados em dispositivos iOS, Android™ 2.x e Android™ 3.x.
+A tabela a seguir identifica os gestos do visualizador móvel que são compatíveis com dispositivos iOS, Android™ 2.x e Android™ 3.x.
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Tablet Android™ |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -562,9 +566,9 @@ A tela Predefinições do visualizador oferece ferramentas para executar estas t
    
 * **Excluir uma predefinição**  - Selecione uma predefinição e selecione  **[!UICONTROL Delete]**.
 
-* **Exportar uma predefinição**  - Selecione uma predefinição do visualizador HTML5 e selecione  **[!UICONTROL Export]** para baixar a capa do visualizador para usá-la como a base para criar e adicionar outra predefinição do visualizador.
+* **Exportar uma predefinição**  - Selecione uma predefinição do visualizador do HTML5 e selecione  **[!UICONTROL Export]** para baixar a capa do visualizador para usá-la como a base para criar e adicionar outra predefinição do visualizador.
 
-       Consulte [Exportar uma predefinição do visualizador de HTML5](application-setup.md#export_an_html5_viewer_preset).
+       Consulte [Exportar uma predefinição do visualizador do HTML5](application-setup.md#export_an_html5_viewer_preset).
    
 * **Filtrar a lista Predefinição do visualizador**  - Use estas ferramentas para filtrar a lista:
 
@@ -583,9 +587,11 @@ A tela Predefinições do visualizador oferece ferramentas para executar estas t
 
 ### Adicionar e editar predefinições do visualizador {#adding-and-editing-viewer-presets}
 
-Além de adicionar predefinições do visualizador usando **[!UICONTROL Add]** na interface do usuário, você também pode usar **[!UICONTROL Export]** para adicionar uma predefinição do visualizador. Basta exportar uma predefinição existente do visualizador de HTML5 e usá-la como a base para a nova predefinição.
+Além de adicionar predefinições do visualizador usando **[!UICONTROL Add]** na interface do usuário, você também pode usar **[!UICONTROL Export]** para adicionar uma predefinição do visualizador. Basta exportar uma predefinição existente do visualizador do HTML5 e usá-la como a base para a nova predefinição.
 
-Consulte [Exportar uma predefinição do Visualizador HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+Consulte [Exportar uma predefinição do Visualizador do HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+
+Consulte também [Vídeo de treinamento de predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 **Para adicionar e editar predefinições do Visualizador:**
 
@@ -619,17 +625,17 @@ Consulte [Exportar uma predefinição do Visualizador HTML5](application-setup.m
    * Selecione **[!UICONTROL Save As]** se tiver adicionado uma predefinição do Visualizador, começando com uma predefinição existente.
    * Selecione **[!UICONTROL Save]** se tiver adicionado ou editado uma predefinição do Visualizador.
 
-### Exportar uma predefinição de visualizador HTML5 {#exporting-an-html-viewer-preset}
+### Exportar uma predefinição do visualizador do HTML5 {#exporting-an-html-viewer-preset}
 
-Você pode exportar uma Predefinição do visualizador HTML5 existente para usar como a base para criar uma Predefinição do visualizador HTML5. Essa opção de exportação é útil, pois não é necessário criar o visualizador do zero. Em vez disso, você exporta uma predefinição que se comporta e tem a aparência desejada, então pode usá-la como ponto de partida para fazer ajustes de design.
+É possível exportar uma predefinição de visualizador do HTML5 existente para usar como a base para criar uma predefinição de visualizador do HTML5. Essa opção de exportação é útil, pois não é necessário criar o visualizador do zero. Em vez disso, você exporta uma predefinição que se comporta e tem a aparência desejada, então pode usá-la como ponto de partida para fazer ajustes de design.
 
-Todos os arquivos CSS predefinidos padrão e prontos para uso do Visualizador no Adobe Dynamic Media Classic usam caminhos de exibição de imagens relativas que apontam para ativos em `Scene7SharedAssets`. Por exemplo, o seguinte é um caminho relativo para um ativo de imagem em um arquivo CSS predefinido do visualizador em
+Todos os arquivos CSS predefinidos padrão e prontos para uso do Visualizador no Adobe Dynamic Media Classic usam caminhos de veiculação de imagens relativas que apontam para ativos em `Scene7SharedAssets`. Por exemplo, o seguinte é um caminho relativo para um ativo de imagem em um arquivo CSS predefinido do visualizador em
 
 `Scene7SharedAsset`:  `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
 No entanto, se você hospeda arquivos CSS do Visualizador em seu próprio site, é necessário resolver esses caminhos de imagem relativos usando um caminho explícito para o Servidor de imagem em seu próprio ambiente. Por exemplo, se você atualizasse o caminho relativo acima para um caminho explícito, ele poderia parecer o seguinte, onde `https://s7d1.scene7.com` é o caminho direto para o seu servidor de imagem: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
-**Para exportar uma predefinição do visualizador HTML5:**
+**Para exportar uma predefinição de visualizador do HTML5:**
 
 ```as3
 .s7videoviewer .s7fullscreenbutton[state][selected] 
@@ -643,7 +649,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Na barra de ferramentas Predefinições do visualizador, na segunda lista suspensa à esquerda, selecione **[!UICONTROL HTML5]**.
 1. Na terceira lista suspensa à esquerda, selecione **[!UICONTROL All Viewers]**.
-1. Selecione a predefinição do visualizador que você deseja usar como a base para uma nova Predefinição do visualizador HTML5.
+1. Selecione a predefinição do visualizador que você deseja usar como a base para uma nova Predefinição do visualizador do HTML5.
 1. Na barra de ferramentas, selecione **[!UICONTROL Export]**.
 1. Na caixa de diálogo Exportar ativos selecionados , selecione **[!UICONTROL Submit Export]**.
 
@@ -652,15 +658,15 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 1. Abra o arquivo CSS em um editor de CSS, faça as alterações e salve o arquivo.
 1. Faça upload do arquivo CSS para o Adobe Dynamic Media Classic.
 
-   Consulte [Upload de arquivos](uploading-files.md#uploading_files).
+   Consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
 1. Publique o arquivo CSS no servidor de imagem do Dynamic Media.
 
-   Consulte [Publicação de arquivos](publishing-files.md#publishing_files).
+   Consulte [Publicar arquivos](publishing-files.md#publishing_files).
 
 1. Adicione a nova predefinição do visualizador como de costume. Selecione o arquivo CSS do visualizador que você carregou.
 
-   Consulte [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
+   Consulte [Adicionar e editar Predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
 ### Ativar ou desativar predefinições do visualizador {#activating-or-deactivating-viewer-presets}
 
@@ -677,7 +683,7 @@ A menos que você desative as Predefinições do visualizador na tela Predefini�
 
 Após publicar um ativo, é possível copiar um URL para exibir o ativo com as configurações de uma Predefinição do visualizador.
 
-O URL é copiado para a Área de Transferência. Você pode usá-lo conforme necessário no código HTML de sua página da Web, dispositivo móvel ou aplicativo.
+O URL é copiado para a Área de Transferência. Você pode usá-lo conforme necessário no código HTML da página da Web, do dispositivo móvel ou do aplicativo.
 
 **Para copiar o URL de uma predefinição do visualizador:**
 
@@ -743,7 +749,7 @@ Você pode usar Visualizadores padrão para configurar o visualizador padrão as
 
 ## Visualizações de metadados {#metadata-views}
 
-** Metadados padronizam informações sobre um ativo. Você pode usar metadados para simplificar seu fluxo de trabalho, organizar seus ativos e melhorar a pesquisa. O Adobe Dynamic Media Classic é compatível com o padrão IPTC (International Press Telecommunications Council) e o padrão XMP (extensible metadata platform). Antes de os usuários visualizarem ou inserirem metadados sobre um ativo na Exibição de detalhes, eles podem abrir o menu Visualizações de metadados . A partir daí, é possível selecionar o conjunto de campos de metadados que deseja exibir ou usar para descrever o ativo.
+** Metadados padronizam informações sobre um ativo. Você pode usar metadados para simplificar seu fluxo de trabalho, organizar seus ativos e melhorar a pesquisa. A Adobe Dynamic Media Classic oferece suporte ao padrão IPTC (International Press Telecommunications Council) e ao padrão XMP (extensible metadata platform). Antes de os usuários visualizarem ou inserirem metadados sobre um ativo na Exibição de detalhes, eles podem abrir o menu Visualizações de metadados . A partir daí, é possível selecionar o conjunto de campos de metadados que deseja exibir ou usar para descrever o ativo.
 
 O Adobe Dynamic Media Classic vem com Exibições de metadados predefinidas, e os administradores podem criar suas próprias Exibições de metadados para que os usuários escolham quando inserem metadados.
 
@@ -798,7 +804,7 @@ Crie uma Predefinição de metadados para cada conjunto de valores de metadados 
 
 ## Campos definidos pelo usuário {#user-defined-fields}
 
-Um Administrador do Media Portal ou um Administrador de empresa pode criar campos de metadados personalizados e definidos pelo usuário. Os campos personalizados podem ajudar a organizar ativos no Adobe Dynamic Media Classic. Você pode marcar os campos como Ativos, conforme necessário. Quando ativados, os nomes desses campos de metadados personalizados são exibidos no painel Metadados na Exibição de detalhes. Os usuários podem inserir informações em campos de metadados definidos pelo usuário para descrever ativos. Os usuários também podem tornar um campo de metadados definido pelo usuário um critério em pesquisas.
+Um Administrador do Media Portal ou um Administrador de empresa pode criar campos de metadados personalizados e definidos pelo usuário. Campos personalizados podem ajudar você a organizar ativos no Adobe Dynamic Media Classic. Você pode marcar os campos como Ativos, conforme necessário. Quando ativados, os nomes desses campos de metadados personalizados são exibidos no painel Metadados na Exibição de detalhes. Os usuários podem inserir informações em campos de metadados definidos pelo usuário para descrever ativos. Os usuários também podem tornar um campo de metadados definido pelo usuário um critério em pesquisas.
 
 Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo de ativação de um ativo para uma inicialização ou venda específica. Você define um campo &quot;ativação&quot;, com base no tipo *Date*. Em seguida, usando o painel **[!UICONTROL Metadata]** na Exibição de detalhes ou **[!UICONTROL File]** > **[!UICONTROL Edit Info]**, é possível especificar quando o ativo é ativado. O Adobe Dynamic Media Classic verifica o status de publicação de um ativo e o histórico de publicação. Se não estiver dentro do tempo de ativação, o status de publicação será exibido como &quot;Não publicado&quot;.
 
@@ -866,7 +872,7 @@ Para abrir esta tela, vá para **[!UICONTROL Setup]** > **[!UICONTROL Applicatio
 
 À medida que você carrega arquivos no Adobe Dynamic Media Classic, o sistema os otimiza para armazenamento e publicação. No entanto, se o processo de upload for interrompido, algumas imagens não poderão ser otimizadas. Nesse caso, você verá a mensagem &quot;Imagem ainda não otimizada&quot;. No entanto, você pode otimizar esses arquivos se for um administrador.
 
-O Adobe Dynamic Media Classic pesquisa seus arquivos e otimiza apenas as imagens que não estavam totalmente otimizadas antes.
+O Adobe Dynamic Media Classic pesquisa seus arquivos e otimiza apenas as imagens que não tinham sido totalmente otimizadas antes.
 
 1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** e selecione **[!UICONTROL Optimize Files]**.
 1. Insira as informações do trabalho de otimização e selecione **[!UICONTROL Submit]**.
@@ -875,7 +881,7 @@ O Adobe Dynamic Media Classic pesquisa seus arquivos e otimiza apenas as imagens
 
 ## Predefinições do conjunto de lotes {#batch-set-presets}
 
-Use as predefinições do conjunto de lotes para criar automaticamente conjuntos de imagens ou conjuntos de rotação enquanto uma tarefa está em execução para carregar ativos no Adobe Dynamic Media Classic.
+Use as predefinições do conjunto de lotes para criar automaticamente conjuntos de imagens ou conjuntos de rotação enquanto uma tarefa estiver em execução para fazer upload de ativos para o Adobe Dynamic Media Classic.
 
 Os administradores de empresas definem primeiro as convenções de nomenclatura dos ativos que desejam agrupar em um conjunto. Em seguida, é possível criar uma predefinição de conjunto de lotes para fazer referência a essas imagens. Cada predefinição é um conjunto de instruções autocontidas e com nome exclusivo que define como construir o conjunto usando imagens que correspondem às convenções de nomenclatura definidas na receita predefinida.
 
@@ -906,13 +912,15 @@ Dois elementos estão disponíveis para definição, Correspondência e Nome de 
 
 ### Criar uma predefinição de conjunto de lotes {#creating-a-batch-set-preset}
 
-O Adobe Dynamic Media Classic usa predefinições de conjunto em lote para organizar ativos que compartilham algumas informações ou conteúdo comuns em conjuntos de imagens para exibição em visualizadores. As receitas predefinidas do conjunto de lotes são executadas automaticamente junto com os trabalhos de importação de ativos agendados no Adobe Dynamic Media Classic.
+O Adobe Dynamic Media Classic usa predefinições de conjuntos em lotes para organizar ativos que compartilham algumas informações ou conteúdos comuns em conjuntos de imagens para exibição em visualizadores. As receitas predefinidas do conjunto de lotes são executadas automaticamente junto com os trabalhos de importação de ativos agendados no Adobe Dynamic Media Classic.
 
 Use a predefinição do conjunto de lotes para criar, editar e gerenciar as predefinições do conjunto de lotes. É possível criar quantas predefinições forem necessárias para cobrir todas as tarefas de assimilação de ativos forem necessárias. Existem duas formas de definições predefinidas de conjunto de lotes: um para uma convenção de nomenclatura padrão que você configurou e um para convenções de nomenclatura personalizadas que você cria em tempo real.
 
 Você pode usar o método de campo de formulário para definir uma predefinição de conjunto de lotes ou o método de código, que permite usar expressões regulares. Como em **[!UICONTROL Default Naming]**, você pode selecionar **[!UICONTROL Code View]** ao mesmo tempo em que está definindo na Exibição de formulário e usando expressões regulares para criar suas definições. Como alternativa, você pode desmarcar qualquer exibição para usar uma ou a outra exclusivamente.
 
 Consulte também [Criar uma predefinição de conjunto de lotes para a geração automática de um Conjunto de rotação 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
+
+Consulte também vídeo de treinamento [2D spin sets](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS).
 
 **Para criar uma predefinição de conjunto de lotes:**
 
@@ -928,7 +936,7 @@ Consulte também [Criar uma predefinição de conjunto de lotes para a geração
    * Se estiver usando uma convenção de nomenclatura padrão configurada anteriormente em **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Default Naming]**, expanda **[!UICONTROL Asset Naming Conventions]** e, na lista suspensa Nomenclatura de Arquivo, selecione **[!UICONTROL Default]**.
    * Para definir uma convenção de nomenclatura conforme configura a predefinição, expanda **[!UICONTROL Asset Naming Conventions]** e, na lista suspensa Nomeação de arquivo , selecione **[!UICONTROL Custom]**.
 
-1. Para Sequência, defina a ordem das imagens depois que o conjunto for agrupado no Adobe Dynamic Media Classic. Por padrão, os ativos são classificados alfanumérico. No entanto, é possível usar uma lista separada por vírgulas de expressões regulares para definir a ordem.
+1. Para Ordem de sequência, defina a ordem das imagens depois que o conjunto for agrupado em Adobe Dynamic Media Classic. Por padrão, os ativos são classificados alfanumérico. No entanto, é possível usar uma lista separada por vírgulas de expressões regulares para definir a ordem.
 1. Para Definir a Convenção de Nomenclatura e Criação, especifique o sufixo ou prefixo do nome básico definido na Convenção de Nomenclatura de Ativos. Defina também onde o conjunto de imagens é criado na estrutura de pastas do Adobe Dynamic Media Classic.
 
    Se você definir grandes números de conjuntos de imagens, mantenha esses conjuntos separados das pastas que contêm os próprios ativos. Muitos clientes criam uma pasta de Conjuntos de imagens e redirecionam o aplicativo para colocar conjuntos gerados por conjuntos em lotes aqui.

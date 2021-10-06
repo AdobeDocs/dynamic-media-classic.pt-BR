@@ -10,9 +10,9 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,14 @@ As configurações disponíveis para você nesta página dependem do seu status 
 
 Os administradores também podem configurar as Predefinições de imagem e as Predefinições do visualizador na página **[!UICONTROL Setup]** :
 
-* **Predefinições de imagem**  - As predefinições de imagens são formatos salvos para a exibição de imagens principais em diferentes tamanhos e formatos.
+* **Predefinições de imagem**  - As predefinições de imagens são formatos salvos para exibir imagens primárias em diferentes tamanhos e formatos.
 
 * **Predefinições do visualizador**  - As predefinições do visualizador determinam como você vê sua mídia avançada quando você a vê em um visualizador.
 
 >[!MORELIKETHIS]
 >
->* [Funções e privilégios de usuário do Adobe Dynamic Media Classic](administration-setup.md#user_administration)
+>* [Vídeo de treinamento sobre noções básicas de configuração](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Funções e privilégios do usuário do Adobe Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Predefinições de imagem](application-setup.md#image_presets)
 >* [Predefinições do visualizador](application-setup.md#viewer_presets)
 

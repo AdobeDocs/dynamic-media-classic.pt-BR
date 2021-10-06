@@ -10,9 +10,9 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,9 @@ Os Conjuntos de rotação também aceitam os Mapas de imagem. Um Mapa de imagem 
 
 Consulte [Criar mapas de imagem](creating-image-maps.md).
 
-O Início rápido dos conjuntos de rotação foi projetado para funcionar rapidamente com as técnicas do conjunto de rotação no Adobe Dynamic Media Classic. Siga as etapas de 1 a 7. Ao final de cada etapa, você pode selecionar um link de tópico para saber mais.
+Consulte [Conjuntos de imagem e rotação: Vídeo de treinamento do Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+
+O Início rápido dos conjuntos de rotação foi projetado para ajudar você a funcionar rapidamente com as técnicas do conjunto de rotação no Adobe Dynamic Media Classic. Siga as etapas de 1 a 7. Ao final de cada etapa, você pode selecionar um link de tópico para saber mais.
 
 ## 1. Crie e faça upload das imagens
 
@@ -65,7 +67,7 @@ Consulte [Visualizar um Conjunto de rotação](previewing-spin-set.md#previewing
 
 ## 6. Publicar um conjunto de rotação
 
-A publicação de um Conjunto de rotação o coloca em servidores Adobe Dynamic Media Classic, para que possa ser entregue dinamicamente ao seu site ou aplicativo. Ela também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem da Dynamic Media para o site ou aplicativo.
+A publicação de um Conjunto de rotação o coloca em servidores da Adobe Dynamic Media Classic para que possa ser entregue dinamicamente ao seu site ou aplicativo. Ela também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem da Dynamic Media para o site ou aplicativo.
 
 Para publicar um Conjunto de rotação, marque-o para publicação selecionando o ícone **[!UICONTROL Mark for Publish]** ao lado de seu nome no Painel de navegação. Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar uma publicação. Na tela Publicar , selecione **[!UICONTROL Submit Publish]**.
 
@@ -73,7 +75,7 @@ Consulte [Publicar um conjunto de rotação](publishing-spin-set.md#publishing-a
 
 ## 7. Vincular um conjunto de rotação a uma página da Web
 
-O Adobe Dynamic Media Classic cria sequências de chamada de URL para Conjuntos de rotação e as ativa após você publicá-las. Você pode copiar esses URLs da página Visualizar.
+O Adobe Dynamic Media Classic cria cadeias de caracteres de chamada de URL para Conjuntos de rotação e as ativa depois que você as publica. Você pode copiar esses URLs da página Visualizar.
 
 Selecione o Conjunto de rotação e selecione **[!UICONTROL Preview]**. Selecione uma predefinição do visualizador de conjunto de rotação. Em seguida, selecione **[!UICONTROL Copy URL]**.
 

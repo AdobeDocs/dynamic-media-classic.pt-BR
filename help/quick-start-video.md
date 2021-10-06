@@ -1,6 +1,6 @@
 ---
 title: '"Início rápido: Vídeo no Adobe Dynamic Media Classic"'
-description: Uma introdução e o Início rápido para o Adobe Dynamic Media Classic Video para ajudá-lo a ativar e executar rapidamente.
+description: Uma introdução e o Quick Start para Adobe Dynamic Media Classic Video para ajudá-lo a ativar e executar rapidamente.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,20 +8,20 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
 # Início rápido: Vídeo no Adobe Dynamic Media Classic{#quick-start-video}
 
-O Adobe Dynamic Media Classic Video é uma solução completa que facilita a publicação de vídeo adaptável de alta qualidade para transmissão em várias telas, incluindo dispositivos móveis para desktop, iOS, Android™, BlackBerry® e Windows®. Um Conjunto de vídeos adaptáveis agrupa versões do mesmo vídeo codificadas em diferentes formatos e taxas de bits, como 400 kbps, 800 kbps e 1000 kbps. O computador desktop ou dispositivo móvel detecta a largura de banda disponível.
+O Adobe Dynamic Media Classic Video é uma solução completa que facilita a publicação de Vídeo adaptável de alta qualidade para transmissão em várias telas, incluindo dispositivos móveis de desktop, iOS, Android™, BlackBerry® e Windows®. Um Conjunto de vídeos adaptáveis agrupa versões do mesmo vídeo codificadas em diferentes formatos e taxas de bits, como 400 kbps, 800 kbps e 1000 kbps. O computador desktop ou dispositivo móvel detecta a largura de banda disponível.
 
 Por exemplo, em um dispositivo móvel iOS, ele detecta uma largura de banda como 3G, 4G ou Wi-Fi. Em seguida, ele seleciona automaticamente o vídeo codificado direito dentre as várias taxas de bits de vídeo no Conjunto de vídeos adaptáveis. O vídeo é transmitido em desktops, dispositivos móveis ou tablets.
 
-Além disso, a qualidade do vídeo é alternada dinamicamente automaticamente se as condições da rede mudarem no desktop ou no dispositivo móvel. Além disso, se um cliente entrar no modo de tela cheia em um desktop, o Adaptive Video Set responde usando uma resolução melhor, melhorando a experiência de visualização do cliente. O uso de conjuntos de vídeos adaptáveis fornece a melhor reprodução possível para os clientes que reproduzem o vídeo Adobe Dynamic Media Classic em várias telas e dispositivos.
+Além disso, a qualidade do vídeo é alternada dinamicamente automaticamente se as condições da rede mudarem no desktop ou no dispositivo móvel. Além disso, se um cliente entrar no modo de tela cheia em um desktop, o Adaptive Video Set responde usando uma resolução melhor, melhorando a experiência de visualização do cliente. O uso de conjuntos de vídeos adaptáveis fornece a melhor reprodução possível para os clientes que reproduzem o vídeo do Adobe Dynamic Media Classic em várias telas e dispositivos.
 
 A lógica usada por um reprodutor de vídeo para determinar qual vídeo codificado reproduzir ou selecionar durante a reprodução é baseada no seguinte algoritmo:
 
@@ -33,30 +33,34 @@ A lógica usada por um reprodutor de vídeo para determinar qual vídeo codifica
 
 Consulte a lógica do algoritmo em [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) para obter informações técnicas sobre ele.
 
-Para gerenciar conjuntos de vídeo único e adaptativos, o Adobe Dynamic Media Classic oferece suporte ao seguinte:
+Para gerenciar vídeos únicos e conjuntos de vídeos adaptáveis, o Adobe Dynamic Media Classic suporta o seguinte:
 
 * Upload de vídeo de vários formatos de vídeo e formatos de áudio suportados e codificação de vídeo para o formato MP4 H.264 para reprodução em várias telas. Você pode usar predefinições de vídeo adaptáveis predefinidas do Adobe Dynamic Media Classic, predefinições de codificação de vídeo único ou personalizar sua própria codificação para controlar a qualidade e o tamanho do vídeo.
 
-   Quando um conjunto de vídeo adaptável é gerado, ele inclui vídeos MP4.
+Consulte [Ativar ou desativar predefinições de vídeo adaptável](/help/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-   >[!NOTE]
-   >
-   >Vídeos principais/de origem e qualquer outro vídeo no formato de origem são *e não* adicionados a um Conjunto de Vídeos Adaptativos.
+Consulte também [Vídeo de treinamento sobre predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
-* As legendas de vídeo em Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e a navegação de capítulo de vídeo em Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
+Quando um conjunto de vídeo adaptável é gerado, ele inclui vídeos MP4.
+
+>[!NOTE]
+>
+>Vídeos principais/de origem e qualquer outro vídeo no formato de origem são *e não* adicionados a um Conjunto de Vídeos Adaptativos.
+
+* Legenda de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e navegação de capítulo de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
    Consulte [Adicionar legendas ao vídeo](adding-captions-video.md).
 
    Consulte [Adicionar marcadores de capítulo ao vídeo](adding-chapter-markers-video.md).
 
 * Organize, navegue e pesquise vídeos com suporte completo a metadados para o gerenciamento eficiente dos ativos de vídeo.
-* Forneça Conjuntos de Vídeos Adaptativos para a Web e para desktops e dispositivos móveis, incluindo iPhone, iPad, Android™, BlackBerry® e telefone Windows®.
+* Forneça Conjuntos de Vídeos Adaptativos para a Web e para desktops e dispositivos móveis, incluindo iPhone, iPad, Android™, BlackBerry® e o telefone Windows®.
 
    O streaming de vídeo adaptável é compatível com várias plataformas iOS.
 
    Consulte o suporte mais recente no [Adobe Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   O Adobe Dynamic Media Classic é compatível com a reprodução de vídeo móvel para vídeo MP4 H.264. Você pode encontrar dispositivos BlackBerry® que suportam este formato de vídeo no seguinte site:
+   O Adobe Dynamic Media Classic oferece suporte para reprodução de vídeo móvel para vídeo MP4 H.264. Você pode encontrar dispositivos BlackBerry® que suportam este formato de vídeo no seguinte site:
 
    Consulte [Formatos de vídeo suportados no BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -64,13 +68,22 @@ Para gerenciar conjuntos de vídeo único e adaptativos, o Adobe Dynamic Media C
 
    Consulte [Formatos de vídeo suportados no Windows® Phone](https://docs.microsoft.com/en-us/).
 
-* Reproduza o vídeo usando as Predefinições do visualizador do Adobe Dynamic Media Classic, incluindo o seguinte:
+* Reproduzir o vídeo usando as Predefinições do visualizador do Adobe Dynamic Media Classic, incluindo o seguinte:
 
    * Visualizadores de vídeo individuais.
    * Visualizadores de mídia mista que combinam conteúdo de vídeo e imagem.
 
 * Configure players de vídeo para atender às suas necessidades de marca.
 * Integre vídeo ao seu site, site móvel ou aplicativo móvel com um URL simples ou código incorporado.
+
+Veja os seguintes vídeos de treinamento:
+* [Visão geral do vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+
+* [Pré-visualização de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+
+* [Upload de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+
+* [Visão geral de streaming](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Início rápido**
 
@@ -80,12 +93,12 @@ A seguinte descrição passo a passo do fluxo de trabalho foi criada para ajudá
 
 Faça upload e gere conjuntos de vídeos adaptáveis usando um dos dois cenários a seguir:
 
-* **Fazer upload de vídeos pré-codificados**  - Se os vídeos já tiverem sido codificados fora do Adobe Dynamic Media Classic, na barra Navegação global, selecione  **[!UICONTROL Upload]** para navegar e fazer upload de arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, vá para **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até seus arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Adaptive Video Set e salve o conjunto.
+* **Fazer upload de vídeos pré-codificados**  - Se os vídeos já tiverem sido codificados fora do Adobe Dynamic Media Classic, na barra de Navegação global, selecione  **[!UICONTROL Upload]** para navegar e fazer upload de arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, vá para **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até seus arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Adaptive Video Set e salve o conjunto.
 * **Fazer upload de vídeos de origem principal**  - Se os vídeos não estiverem codificados, na barra de Navegação global, selecione  **[!UICONTROL Upload]** para fazer upload de arquivos de origem de vídeo principais (não MP4). O Adobe Dynamic Media Classic os codifica em arquivos MP4 para você. Na caixa de diálogo **[!UICONTROL Upload Job Options]**, em **[!UICONTROL EVideo Options]**, selecione **[!UICONTROL Adaptive Video]**.
 
    Essa opção preferida permite criar um Conjunto de vídeos adaptáveis que aplica automaticamente a predefinição de codificação correta ao vídeo, seja 16:9 ou 4:3, para corresponder às dimensões do vídeo que você enviou. Quando você envia seu trabalho de upload, um Conjunto de vídeos adaptativos é criado automaticamente para você, o que inclui três configurações de vídeo codificadas na proporção correta.
 
-   Ou, na mesma caixa de diálogo **[!UICONTROL Job Options]**, em **[!UICONTROL EVideo Options]**, expanda **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições de codificação de vídeo individuais que você deseja de **Desktop**, **Celular (iPhone, iPad, Android™)** e **Tablet (iPad, Android™)** para criar os arquivos MP4.
+   Ou, na mesma caixa de diálogo **[!UICONTROL Job Options]**, em **[!UICONTROL EVideo Options]**, expanda **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições de codificação de vídeo individuais que você deseja em **Desktop**, **Móvel (iPhone, iPad, Android™)** e **Tablet (iPad, Android™)** para criar os arquivos MP4.
 
 * Ou você pode reprocessar um vídeo principal usando o recurso **[!UICONTROL Reprocess]**. Os vídeos recém-codificados são adicionados ao Conjunto de vídeos adaptáveis existente.
 
@@ -109,9 +122,11 @@ Você pode reproduzir o vídeo na página Visualização. Você também pode esc
 
 **Opcional**
 
-Personalização de predefinições do visualizador - o Adobe Dynamic Media Classic oferece predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar as Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
+Personalização da predefinição do visualizador - a Adobe Dynamic Media Classic oferece predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar as Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
 
 Consulte [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+
+Consulte também [Vídeo de treinamento sobre predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ## 3. Implante vídeos em seus sites e sites móveis
 
@@ -121,7 +136,7 @@ Para integrar vídeo ao seu site, você pode fazer um dos seguintes procedimento
 
    Para obter o URL de um vídeo, na Exibição de grade ou Exibição de lista, selecione-o no Painel de navegação. Selecione **[!UICONTROL Preview]** e selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
 
-   Quando você seleciona **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código no HTML do seu site, site móvel ou aplicativo.
+   Quando você seleciona **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código na HTML do site, site móvel ou aplicativo.
 
    >[!NOTE]
    >
