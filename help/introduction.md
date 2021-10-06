@@ -1,20 +1,20 @@
 ---
 title: Ajuda do Adobe Dynamic Media Classic
-description: Bem-vindo ao Adobe Adobe Dynamic Media Classic, o sistema de publicação de mídia cruzada sob demanda líder para carregar, gerenciar, aprimorar e publicar conteúdo rico dinâmico para todos os dispositivos e telas.
+description: Bem-vindo ao Adobe Dynamic Media Classic, o sistema de publicação de mídia cruzada sob demanda líder para carregar, gerenciar, aprimorar e publicar conteúdo rico dinâmico para todos os dispositivos e telas.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
 # Ajuda do Adobe Dynamic Media Classic {#scene7-overview}
 
-Bem-vindo ao Adobe Adobe Dynamic Media Classic, o sistema de publicação de mídia cruzada sob demanda líder para carregar, gerenciar, aprimorar e publicar conteúdo rico dinâmico para todos os dispositivos e telas. As soluções da Adobe Dynamic Media Classic incluem:
+Bem-vindo ao Adobe Dynamic Media Classic, o sistema de publicação de mídia cruzada sob demanda líder para carregar, gerenciar, aprimorar e publicar conteúdo rico dinâmico para todos os dispositivos e telas. As soluções da Adobe Dynamic Media Classic incluem:
 
 * Dynamic Imaging: Edição, formatação e dimensionamento em tempo real, zoom interativo e panorâmico; Monitorização de cores e amostra de textura; 360° rotação; modelos de imagem; visualizadores de multimídia.
 * Catálogos eletrônicos: Criação, vinculação de pontos de acesso, habilitada para pesquisa, publicação e entrega de catálogos online dinamicamente veiculados em visualizadores configuráveis.

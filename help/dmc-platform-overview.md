@@ -10,9 +10,9 @@ discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ As principais etapas do fluxo de trabalho do Adobe Dynamic Media Classic são:
 
 * **Criar rich media**  - crie diferentes configurações de ativos, como catálogos eletrônicos, conjuntos de imagens, conjuntos de rotação, conjuntos de amostras, conjuntos de mídia mista, modelos básicos e modelos FXG.
 
-* **Publicar e administrar**  - Publique ativos na rede Adobe Dynamic Media Classic SaaS, bem como monitore o status dos ativos quando eles são publicados, administre os direitos do usuário e mantenha a segurança.
+* **Publicar e administrar**  - Publique ativos na rede Adobe Dynamic Media Classic SaaS. Monitore o status dos ativos quando eles forem publicados. Administre os direitos do usuário e mantenha a segurança.
 
 * **Servir**  - fornecer mídia da rede SaaS da Adobe Dynamic Media Classic para páginas da Web, aplicativos e dispositivos móveis; as mídias são otimizadas para desempenho e fornecidas com o armazenamento em cache CDN. O Adobe Dynamic Media Classic fornece um URL para cada ativo. Após publicar o ativo, o URL fica ativo.
 
