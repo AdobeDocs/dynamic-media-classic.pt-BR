@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Edição de imagem **[!UICONTROL Save]** os botões não funcionavam.
 * Não foi possível inserir `d` e `e` em **[!UICONTROL Username]** e **[!UICONTROL Password]** ao executar o macOS Monterey.
 * As APIs de análise restantes foram movidas para a versão 2.0.
 
-## Correções na versão (20.21.3) {#release-sept2021}
+## Correções na versão 20.21.3 {#release-sept2021}
 
 * Miniaturas quebradas para ativos vistos após um período de inatividade no aplicativo de desktop.
 * O aplicativo de desktop para de responder, normalmente após as operações Definir.
