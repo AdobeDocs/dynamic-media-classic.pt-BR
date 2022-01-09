@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ O aplicativo de desktop do Adobe Dynamic Media Classic é compatível com os seg
 >A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media Classic não é gerada para *menor* versões. Os clientes que se beneficiam de correções em uma versão secundária podem atualizar.
 
 ## Correções na versão mais recente (20.22.1) {#release-jan2022}
-
-Edição de imagem **[!UICONTROL Save]** os botões não funcionavam.
 
 * Edição de imagem **[!UICONTROL Save]** os botões não funcionavam.
 * Nos editores do Conjunto, a variável **[!UICONTROL Close]**, **[!UICONTROL Save]** e **[!UICONTROL Save As]** os botões ficam desativados depois de rolar os ativos no **[!UICONTROL Add Assets]** painel.
