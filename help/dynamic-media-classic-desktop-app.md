@@ -1,16 +1,16 @@
 ---
 title: Aplicativo de desktop do Adobe Dynamic Media Classic - Agora disponível
 description: Saiba mais sobre o aplicativo de desktop do Adobe Dynamic Media Classic.
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,14 @@ Consulte as Perguntas frequentes da [A nova experiência de logon do Adobe Dynam
 O aplicativo de desktop do Adobe Dynamic Media Classic é compatível com os seguintes sistemas operacionais:
 
 * macOS 10.10 ou mais recente.
+
+   >[!NOTE]
+   >
+   >O aplicativo de desktop da Dynamic Media Classic está vendo funcionalidade degradada quando usado com o macOS Monterey. Dessa forma, o Adobe está trabalhando no lançamento de uma nova versão de aplicativo para desktop nas próximas semanas.
+
 * Windows® 7 ou mais recente.
 
->[!NOTE]
->
->A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media Classic não é gerada para *menor* versões. Os clientes que se beneficiam de correções em uma versão secundária podem atualizar.
+A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media Classic não é gerada para *menor* versões. Os clientes que se beneficiam de correções em uma versão secundária podem atualizar.
 
 ## Correções na versão mais recente (20.22.1) {#release-jan2022}
 
@@ -108,7 +111,7 @@ Consulte também:
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
-1. Siga um destes procedimentos com base no instalador baixado.
+1. Siga um destes procedimentos com base no instalador que você baixou.
 
    * **macOS** -No **[!UICONTROL Drag & drop to install]** caixa de diálogo, arrastar **[!UICONTROL Adobe Dynamic Media Classic]** e solte-o em **[!UICONTROL Applications]**.
 
