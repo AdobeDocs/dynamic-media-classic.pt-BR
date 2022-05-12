@@ -10,18 +10,18 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
 # Requisitos de sistema para o aplicativo de desktop Adobe Dynamic Media Classic {#system-requirements}
 
-Para obter a melhor experiência usando o aplicativo de desktop Adobe Dynamic Media Classic, verifique se o sistema atende aos seguintes requisitos e sugestões de sistema:
+Para obter a melhor experiência usando o aplicativo de desktop do Adobe Dynamic Media Classic, verifique se o sistema atende aos seguintes requisitos e sugestões de sistema:
 
-* Processador Microsoft® Windows® 7 ou posterior ou macOS X 10.6 ou superior Macintosh Intel® necessário.
+* Microsoft® Windows® 7 ou mais recente ou macOS X 10.10 ou mais recente Processador Intel® Macintosh necessário.
 * 3 GB de RAM ou superior necessário (4 GB ou superior sugerido).
 * Monitor colorido.
 * Placa de vídeo com suporte a True Color em resolução de 1280x1024 ou superior.
