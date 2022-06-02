@@ -1,6 +1,6 @@
 ---
-title: Trabalhar com PDFs
-description: Saiba como trabalhar com PDFs no Adobe Dynamic Media Classic.
+title: Trabalhar com PDF
+description: Saiba como trabalhar com o PDF no Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
@@ -10,42 +10,51 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Trabalhar com PDFs{#working-with-pdfs}
+# Trabalhar com PDF{#working-with-pdfs}
 
-Os arquivos PDF (Portable Document Format) são usados com mais frequência no Adobe Dynamic Media Classic para criar catálogos eletrônicos. Ao fazer upload de um arquivo PDF, o Adobe Dynamic Media Classic rasteriza ou extrai as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
+Os arquivos PDF (Portable Document Format) são usados com mais frequência no Adobe Dynamic Media Classic para criar catálogos eletrônicos. Quando você faz upload de um arquivo PDF, o Adobe Dynamic Media Classic rasteriza ou rasga as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
 
-## Opções de upload de PDF {#pdf-upload-options}
+>[!NOTE]
+>
+>Ao fazer upload de um PDF para extração de página, o Adobe impõe a diretriz de práticas recomendadas e o limite imposto a seguir.
+>
+>* Número máximo de páginas por PDF consideradas para extração
+   >   * Prática recomendada: 100
+   >   * Limite imposto: 1000 (para uploads de atualização)
 
-Ao carregar um arquivo PDF, você pode formatá-lo de várias maneiras. Você recorta suas páginas, extrai palavras de pesquisa, digita uma resolução de pixels por polegada e escolhe um espaço de cores. Os arquivos PDF geralmente contêm uma margem de corte, marcas de corte, marcas de registro e outras marcas de impressora. É possível recortar essas marcas das laterais das páginas ao carregar um arquivo PDF.
 
-As opções para fazer upload de arquivos PDF estão na página Fazer upload em Opções de PDF.
+## Opções de upload do PDF {#pdf-upload-options}
+
+Ao fazer upload de um arquivo PDF, você pode formatá-lo de várias maneiras. Você recorta suas páginas, extrai palavras de pesquisa, digita uma resolução de pixels por polegada e escolhe um espaço de cores. Os arquivos PDF geralmente contêm uma margem de aparação, marcas de corte, marcas de registro e outras marcas de impressora. Você pode recortar essas marcas das laterais das páginas ao carregar um arquivo PDF.
+
+As opções para carregar arquivos do PDF estão na página Upload em Opções de PDF.
 
 ### Opções de processamento
 
-**[!UICONTROL Rasterize]** - (Padrão) Ripsa as páginas no arquivo PDF e converte gráficos vetoriais em imagens de bitmap. Para criar um eCatalog, escolha essa opção.
+**[!UICONTROL Rasterize]** - (Padrão) Ripsa as páginas no arquivo PDF e converte gráficos vetoriais em imagens bitmap. Para criar um eCatalog, escolha essa opção.
 
-**[!UICONTROL Extract Search Words]** - Extrai palavras do arquivo PDF para que o arquivo possa ser pesquisado por palavra-chave em um Visualizador de catálogo eletrônico.
+**[!UICONTROL Extract Search Words]** - Extrai palavras do arquivo PDF para que o arquivo possa ser pesquisado por palavra-chave em um visualizador de eCatalog.
 
-**[!UICONTROL Extract Links]** - Extrai links dos arquivos PDF e os converte em mapas de imagem usados em um visualizador de eCatalog.
+**[!UICONTROL Extract Links]** - Extrai links dos arquivos do PDF e os converte em mapas de imagem usados em um visualizador de eCatalog.
 
-**[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]** - Cria automaticamente um eCatalog a partir do arquivo PDF. O eCatalog é nomeado após o arquivo PDF que você carregou. (Essa opção só estará disponível se você rasterizar o arquivo PDF ao carregá-lo.)
+**[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]** - Cria automaticamente um eCatalog a partir do arquivo do PDF. O eCatalog é nomeado após o arquivo PDF que você carregou. (Essa opção só estará disponível se você rasterizar o arquivo PDF à medida que fizer upload dele.)
 
 ### Resolução
 
-Determina a configuração de resolução. Essa configuração determina quantos pixels são exibidos por polegada no arquivo PDF. O padrão é 150.
+Determina a configuração de resolução. Esta configuração determina quantos pixels são exibidos por polegada no arquivo PDF. O padrão é 150.
 
 ### Opções de Espaço de cor
 
-Selecione o menu Espaço de cores e escolha um espaço de cores para o arquivo PDF. A maioria dos arquivos PDF tem imagens coloridas RGB e CMYK. O espaço de cores RGB é preferível para visualização online.
+Selecione o menu Espaço de cores e escolha um espaço de cores para o arquivo PDF. A maioria dos arquivos PDF tem imagens de cores RGB e CMYK. O espaço de cores do RGB é preferível para visualização online.
 
-* **[!UICONTROL Detect Automatically]** - Retém o espaço de cores do arquivo PDF.
+* **[!UICONTROL Detect Automatically]** - Mantém o espaço de cores do arquivo PDF.
 
 * **[!UICONTROL Force As RGB]** - Converte para o espaço de cores RGB.
 
@@ -59,18 +68,18 @@ Selecione o menu Espaço de cores e escolha um espaço de cores para o arquivo P
 
 * **[!UICONTROL Keep Original Color Space]** - Mantém o espaço de cores original.
 
-* **[!UICONTROL Custom From]** >  **[!UICONTROL To]** - Abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores Photoshop padrão ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 Consulte também [Perfis ICC](/help/icc-profiles.md#icc_profiles).
 
 ## Recortar espaço em branco de um arquivo PDF {#cropping-white-space-from-a-pdf-file}
 
-1. Para cortar automaticamente pixels de espaço em branco de um arquivo PDF à medida que você o carrega, selecione o menu Recortar e escolha Aparar.
+1. Para cortar automaticamente os pixels de espaço em branco de um arquivo de PDF à medida que você o carrega, selecione o menu Recortar e escolha Aparar.
 1. Especifique as seguintes opções:
 
    * **[!UICONTROL Trim Away Based On]** - Escolha se deseja cortar com base na cor ou na transparência:
 
-      * **[!UICONTROL Color]** - Escolha a opção Color . Em seguida, selecione o menu **[!UICONTROL Corner]** e escolha o canto do PDF com a cor que melhor representa a cor do espaço em branco que deseja recortar.
+      * **[!UICONTROL Color]** - Escolha a opção Color . Em seguida, selecione o **[!UICONTROL Corner]** e escolha o canto da PDF com a cor que melhor representa a cor do espaço em branco que deseja recortar.
 
       * **[!UICONTROL Transparency]** - Escolha a opção Transparency .
    * **[!UICONTROL Tolerance]** - Arraste o controle deslizante para especificar uma tolerância de 0 a 1.
@@ -80,9 +89,9 @@ Consulte também [Perfis ICC](/help/icc-profiles.md#icc_profiles).
    * **[!UICONTROL Trimming based on transparency]** - Especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
 
 
-## Recortar nas laterais das páginas PDF {#cropping-from-the-sides-of-pdf-pages}
+## Recortar das laterais das PDF pages {#cropping-from-the-sides-of-pdf-pages}
 
-Você pode remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF à medida que você o carrega.
+Você pode remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF à medida que faz o upload.
 
 1. No menu Cortar, selecione **[!UICONTROL Manual]**.
 1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e lados das páginas.

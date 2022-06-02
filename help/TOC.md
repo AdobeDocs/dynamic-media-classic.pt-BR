@@ -2,21 +2,21 @@
 cloud: Experience Cloud
 product: adobe dynamic media classic
 audience: end-user
-user-guide-title: Guia do Adobe Dynamic Media Classic
+user-guide-title: Manual do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic
 index: y
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Guia do Adobe Dynamic Media Classic {#using}
+# Manual do Adobe Dynamic Media Classic {#using}
 
-+ [Guia do Adobe Dynamic Media Classic](home.md)
++ [Manual do Adobe Dynamic Media Classic](home.md)
 + [Tutorial de práticas recomendadas de classe do Adobe Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [A NOVA experiência de logon do Adobe Dynamic Media Classic agora está disponível](new-ui-2020.md)
 + [Arquivo de informativo do Adobe Dynamic Media por Experience League](dynamic-media-newsletter.md)
@@ -59,6 +59,7 @@ ht-degree: 2%
    + [Sobre upload e publicação de ativos](about-asset-upload-publish.md)
    + [Upload de arquivos](uploading-files.md)
    + [Publicar arquivos](publishing-files.md)
+   + [Práticas recomendadas e limites impostos pela Dynamic Media sobre os tipos de ativos](best-practices-enforced-limits.md)
    + [Testar ativos antes de torná-los públicos](testing-assets-making-them-public.md)
    + [Verificar arquivos de trabalho](checking-job-files.md)
 + Gerenciamento de ativos {#managing-assets}
@@ -76,7 +77,7 @@ ht-degree: 2%
    + [Imprimir ativos](printing-assets.md)
    + [Gerenciar a pasta Lixeira](trash-folder.md)
    + [Organize o trabalho com Projetos](organizing-projects.md)
-+ Tamanho da imagem {#image-sizing}
++ Dimensionamento de imagem {#image-sizing}
    + [Início rápido: Dimensionamento de imagem](quick-start-image-sizing.md)
    + [Upload de imagens principais](uploading-master-images.md)
    + [Publicar imagens principais](publishing-master-images.md)
@@ -165,7 +166,7 @@ ht-degree: 2%
    + [Excluir um ativo carregado](deleting-uploaded-asset.md)
    + [Obter informações sobre o uso do disco](getting-disk-usage-information.md)
    + [Fazer upload de um ativo de imagem rasterizada](uploading-image-asset-or-vector.md)
-+ Arquivos principais {#master-files}
++ arquivos principais {#master-files}
    + [Práticas recomendadas para otimização da qualidade de imagens](best-practices-optimizing-quality-images.md)
    + [Editar imagens](editing-images.md)
    + [Criar mapas de imagem](creating-image-maps.md)

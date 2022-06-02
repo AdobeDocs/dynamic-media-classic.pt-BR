@@ -5,9 +5,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
+source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

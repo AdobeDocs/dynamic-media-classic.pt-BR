@@ -10,9 +10,9 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,9 @@ Para obter a melhor experiência usando o aplicativo de desktop do Adobe Dynamic
 * Navegador habilitado para JAVA.
 * Navegadores compatíveis com Windows: Internet Explorer 9.0 ou superior; Firefox 23 ou superior.
 * Navegadores compatíveis com Macintosh: Safari 6.0 ou superior, Firefox™ 23 ou superior.
+
+>[!MORELIKETHIS]
+>
+>* [Práticas recomendadas e limites impostos pela Dynamic Media sobre os tipos de ativos](/help/best-practices-enforced-limits.md)
+
+

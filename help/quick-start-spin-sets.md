@@ -10,9 +10,9 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,17 @@ Os Conjuntos de rotação também aceitam os Mapas de imagem. Um Mapa de imagem 
 
 Consulte [Criar mapas de imagem](creating-image-maps.md).
 
-Consulte [Conjuntos de imagem e rotação: Vídeo de treinamento do Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+Consulte [Conjuntos de imagem e rotação: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vídeo de treinamento.
+
+>[!NOTE]
+>
+>Ao criar um Conjunto de rotação, o Adobe recomenda a diretriz de práticas recomendadas e o limite imposto a seguir.
+>
+>* Número máximo de linhas/colunas por Conjunto de rotação 2D
+   > 
+   >   * Prática recomendada: 1000
+   >   * Limite imposto: 1000
+
 
 O Início rápido dos conjuntos de rotação foi projetado para ajudar você a funcionar rapidamente com as técnicas do conjunto de rotação no Adobe Dynamic Media Classic. Siga as etapas de 1 a 7. Ao final de cada etapa, você pode selecionar um link de tópico para saber mais.
 
@@ -41,21 +51,21 @@ Consulte [Diretrizes para fotografar imagens do Conjunto de rotação](creating-
 
 ## 2. Criar um conjunto de rotação
 
-Para criar um Conjunto de rotação, na barra Navegação global, vá para **[!UICONTROL Build]** > **[!UICONTROL Spin Sets]**. Na caixa de diálogo Tamanho do conjunto de rotação, escolha quantas linhas e células você deseja e selecione **[!UICONTROL OK]**. Em seguida, arraste as imagens para a grade na página Conjunto de rotação .
+Para criar um Conjunto de rotação, na barra Navegação global, acesse **[!UICONTROL Build]** > **[!UICONTROL Spin Sets]**. Na caixa de diálogo Tamanho do conjunto de rotação, escolha quantas linhas e células você deseja e selecione **[!UICONTROL OK]**. Em seguida, arraste as imagens para a grade na página Conjunto de rotação .
 
 Consulte [Criar um conjunto de rotação](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Editar um conjunto de rotação
 
-Para editar um Conjunto de rotação, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Selecione um conjunto de rotação e depois selecione **[!UICONTROL Edit]**. Adicione, remova e altere a posição das imagens. É possível alterar a posição das linhas em conjuntos de rotação bidimensionais.
+Para editar um Conjunto de rotação, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Selecione um conjunto de rotação e depois selecione **[!UICONTROL Edit]**. Adicione, remova e altere a posição das imagens. É possível alterar a posição das linhas em conjuntos de rotação bidimensionais.
 
-Consulte [Editar um Conjunto de rotação](creating-spin-set.md#editing-a-spin-set).
+Consulte [Editar um conjunto de rotação](creating-spin-set.md#editing-a-spin-set).
 
 ## 4. Configurar as predefinições do visualizador do conjunto de rotação
 
-Os administradores podem criar Predefinições do visualizador de conjunto de rotação. Essas predefinições determinam a aparência do Visualizador de conjunto de rotação. Para configurar uma nova Predefinição do Visualizador do Conjunto de rotação, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+Os administradores podem criar Predefinições do visualizador de conjunto de rotação. Essas predefinições determinam a aparência do Visualizador de conjunto de rotação. Para configurar uma nova Predefinição do Visualizador do Conjunto de rotação, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
-Na página Predefinições do visualizador , selecione **[!UICONTROL Add]**, selecione **[!UICONTROL Spin Set Viewer]** na lista suspensa e selecione **[!UICONTROL Add]**. Escolha as opções na página Configurar visualizador e selecione **[!UICONTROL Save]**.
+Na página Predefinições do visualizador , selecione **[!UICONTROL Add]**, em seguida selecione **[!UICONTROL Spin Set Viewer]** na lista suspensa e selecione **[!UICONTROL Add]**. Escolha as opções na página Configurar visualizador e selecione **[!UICONTROL Save]**.
 
 Consulte [Configurar predefinições do visualizador de conjunto de rotação](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -63,13 +73,13 @@ Consulte [Configurar predefinições do visualizador de conjunto de rotação](s
 
 Selecione seu Conjunto de rotação no painel Navegar e selecione **[!UICONTROL Preview]**. Na página Visualização, mantenha pressionado o botão do mouse e arraste o ponteiro para a esquerda ou direita para &quot;girar&quot; visualmente o item.
 
-Consulte [Visualizar um Conjunto de rotação](previewing-spin-set.md#previewing-a-spin-set).
+Consulte [Visualizar um conjunto de rotação](previewing-spin-set.md#previewing-a-spin-set).
 
 ## 6. Publicar um conjunto de rotação
 
 A publicação de um Conjunto de rotação o coloca em servidores da Adobe Dynamic Media Classic para que possa ser entregue dinamicamente ao seu site ou aplicativo. Ela também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem da Dynamic Media para o site ou aplicativo.
 
-Para publicar um Conjunto de rotação, marque-o para publicação selecionando o ícone **[!UICONTROL Mark for Publish]** ao lado de seu nome no Painel de navegação. Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar uma publicação. Na tela Publicar , selecione **[!UICONTROL Submit Publish]**.
+Para publicar um Conjunto de rotação, marque-o para publicação selecionando o **[!UICONTROL Mark for Publish]** ao lado do nome no painel Procurar. Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar uma publicação. Na tela Publicar , selecione **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicar um conjunto de rotação](publishing-spin-set.md#publishing-a-spin-set).
 
