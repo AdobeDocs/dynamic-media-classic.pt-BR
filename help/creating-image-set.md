@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recome
 | --- | --- | --- | --- |
 | Número de ativos duplicados por conjunto | Sem duplicatas | 100 | 20º |
 | Número máximo de imagens por conjunto | 5 a 10 imagens por conjunto | 1000 |
+
+Consulte também [Limitações do Dynamic Media](/help/limitations.md).
 
 **Para criar um conjunto de imagens:**
 

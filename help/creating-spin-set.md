@@ -10,9 +10,9 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,8 @@ Quando você cria um Conjunto de rotação, o Adobe recomenda a seguinte prátic
 | Tipo de limite do Conjunto de rotação | Prática recomendada | Limite implementado |
 | --- | --- | --- |
 | Número máximo de linhas/colunas por conjunto 2D | 12 a 18 imagens por conjunto | 1000 |
+
+Consulte também [Limitações do Dynamic Media](/help/limitations.md).
 
 Depois de salvar um Conjunto de rotação, você pode usar Visualização na compilação: Página Conjunto de rotação para ver a aparência do seu Conjunto de rotação no visualizador padrão.
 
