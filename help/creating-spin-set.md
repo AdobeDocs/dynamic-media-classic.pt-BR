@@ -10,9 +10,9 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,11 @@ Ao criar um conjunto, a variável **[!UICONTROL Publish after save]** afeta o co
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
->[!NOTE]
->
->Ao criar um Conjunto de rotação, o Adobe recomenda a diretriz de práticas recomendadas e o limite imposto a seguir.
->
->* Número máximo de linhas/colunas por Conjunto de rotação 2D
-   > 
-   >   * Prática recomendada: 1000
-   >   * Limite imposto: 1000
+Quando você cria um Conjunto de rotação, o Adobe recomenda a seguinte prática recomendada e aplica o seguinte limite:
 
+| Tipo de limite do Conjunto de rotação | Prática recomendada | Limite implementado |
+| --- | --- | --- |
+| Número máximo de linhas/colunas por conjunto 2D | 12 a 18 imagens por conjunto | 1000 |
 
 Depois de salvar um Conjunto de rotação, você pode usar Visualização na compilação: Página Conjunto de rotação para ver a aparência do seu Conjunto de rotação no visualizador padrão.
 

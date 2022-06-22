@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: fe765d1acfa37e9d13f5ef1b655f8cf04195a8a6
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,12 @@ Ao criar um conjunto, a variável **[!UICONTROL Publish after save]** afeta o co
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
->[!NOTE]
->
->Quando você cria um Conjunto de imagens, o Adobe recomenda as seguintes diretrizes de práticas recomendadas e limites impostos.
->
->* Número de ativos duplicados por Conjunto de Imagens
-   >   * Prática recomendada: 20º
-   >   * Limite imposto: 20º
-> * Número máximo de páginas por conjunto de imagens
-   >   * Prática recomendada: 1000
-   >   * Limite imposto: 1000
+Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recomendadas e aplica os seguintes limites:
 
+| Tipo de limite do conjunto de imagens | Prática recomendada | Limite implementado | Alterações no limite de 31 de dezembro de 2022 |
+| --- | --- | --- | --- |
+| Número de ativos duplicados por conjunto | Sem duplicatas | 100 | 20º |
+| Número máximo de imagens por conjunto | 5 a 10 imagens por conjunto | 1000 |
 
 **Para criar um conjunto de imagens:**
 

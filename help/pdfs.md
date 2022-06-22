@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 0%
 
 Os arquivos PDF (Portable Document Format) são usados com mais frequência no Adobe Dynamic Media Classic para criar catálogos eletrônicos. Quando você faz upload de um arquivo PDF, o Adobe Dynamic Media Classic rasteriza ou rasga as páginas por padrão, para que as páginas possam ser usadas para criar mídia avançada.
 
->[!NOTE]
->
->Ao fazer upload de um PDF para extração de página, o Adobe impõe a diretriz de práticas recomendadas e o limite imposto a seguir.
->
->* Número máximo de páginas por PDF consideradas para extração
-   >   * Prática recomendada: 100
-   >   * Limite imposto: 1000 (para uploads de atualização)
+Ao fazer upload de um PDF para extração de página, o Adobe aplica o seguinte limite:
 
+| Tipo de limite PDF | Limite implementado | Alterações no limite de 31 de dezembro de 2022 |
+| --- | --- | --- |
+| Número máximo de páginas para um PDF a ser considerado para extração | 5000 (para novos uploads) | 100 |
 
 ## Opções de upload do PDF {#pdf-upload-options}
 

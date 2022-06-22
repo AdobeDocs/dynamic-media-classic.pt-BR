@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,20 @@ ht-degree: 0%
 
 Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog. Esses arquivos contêm todas as informações de imagem, fontes e gráficos vetoriais. Você também pode criar um eCatalog com imagens. Depois de preparar os arquivos de PDF para upload, na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a fazer upload do PDF.
 
+Ao fazer upload de um PDF para extração de página, o Adobe aplica o seguinte limite:
+
+| Tipo de limite PDF | Limite implementado | Alterações no limite de 31 de dezembro de 2022 |
+| --- | --- | --- |
+| Número máximo de páginas para um PDF a ser considerado para extração | 5000 (para novos uploads) | 100 |
+
+<!-- 
 >[!NOTE]
 >
->Ao fazer upload de um PDF para extração de página, o Adobe impõe a diretriz de práticas recomendadas e o limite imposto a seguir.
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* Número máximo de páginas por PDF consideradas para extração
-   >   * Prática recomendada: 100
-   >   * Limite imposto: 1000 (para uploads de atualização)
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## Prepare seus arquivos do PDF {#preparing-your-pdf-files}
 
