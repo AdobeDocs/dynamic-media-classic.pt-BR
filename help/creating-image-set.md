@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recomendadas e aplica os seguintes limites:
 
-| Tipo de limite do conjunto de imagens | Prática recomendada | Limite implementado | Alterações no limite de 31 de dezembro de 2022 |
-| --- | --- | --- | --- |
-| Número de ativos duplicados por conjunto | Sem duplicatas | 100 | 20º |
+| Tipo de limite | Prática recomendada | Limite imposto |
+| --- | --- | --- |
+| Número de ativos duplicados por conjunto | Sem duplicatas | 20º |
 | Número máximo de imagens por conjunto | 5 a 10 imagens por conjunto | 1000 |
 
 Consulte também [Limitações do Dynamic Media](/help/limitations.md).

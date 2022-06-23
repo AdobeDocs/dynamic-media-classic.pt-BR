@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Normalmente, os arquivos Adobe PDF são a fonte de um eCatalog. Esses arquivos c
 
 Ao fazer upload de um PDF para extração de página, o Adobe aplica o seguinte limite:
 
-| Tipo de limite PDF | Limite implementado | Alterações no limite de 31 de dezembro de 2022 |
+| Tipo de limite PDF | Limite imposto | Alteração do limite em 31 de dezembro de 2022 |
 | --- | --- | --- |
 | Número máximo de páginas para um PDF a ser considerado para extração | 5000 (para novos uploads) | 100 |
 
