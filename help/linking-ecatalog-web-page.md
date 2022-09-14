@@ -2,7 +2,7 @@
 title: Vincular um eCatalog a uma página da Web
 description: Saiba como vincular um eCatalog a uma página da Web no Adobe Dynamic Media Classic.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,7 +10,7 @@ discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 2%
@@ -31,16 +31,16 @@ Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Serve
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
-   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
+   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-   * Selecione **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecionar **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecionar **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **Copiar URL**.
 
@@ -48,7 +48,7 @@ Seus sites e aplicativos da Web acessam o conteúdo do Dynamic Media Image Serve
 
 A maneira mais comum de implantar um eCatalog é colocar um link no formato de uma página de capa de miniatura do eCatalog em sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços do navegador sejam exibidas.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporar o visualizador de catálogo eletrônico HTML5 no Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e amostras de código, consulte [Incorpore o visualizador de catálogo eletrônico do HTML5 no Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
@@ -60,16 +60,16 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 1. no painel Biblioteca de ativos, à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
-   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs à direita, selecione **[!UICONTROL Embed Code]**.
-   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs à direita, selecione **[!UICONTROL Embed Code]**.
+   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-   * Selecione **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecionar **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecionar **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
@@ -77,4 +77,4 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 
    A edição do código não é permitida na caixa de diálogo Incorporar código .
 
-1. Selecione **[!UICONTROL Close]**.
+1. Selecionar **[!UICONTROL Close]**.

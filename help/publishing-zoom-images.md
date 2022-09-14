@@ -2,7 +2,7 @@
 title: Publicar imagens de zoom
 description: Saiba como publicar imagens de Zoom do Adobe Dynamic Media Classic.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
@@ -10,7 +10,7 @@ discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -23,11 +23,11 @@ A publicação coloca suas imagens de zoom nos Servidores de Imagem do Dynamic M
 
 ## Marcar imagens para publicar {#marking-images-for-publish}
 
-As imagens devem ser marcadas para publicação para que sejam copiadas para os Servidores de imagem da Dynamic Media. Você pode marcar suas imagens para publicação no Painel de navegação selecionando o ícone **[!UICONTROL Mark for Publish]**. Também é possível marcar imagens para publicação ao carregá-las.
+As imagens devem ser marcadas para publicação para que sejam copiadas para os Servidores de imagem da Dynamic Media. Você pode marcar suas imagens para publicação no Painel de navegação selecionando o **[!UICONTROL Mark for Publish]** ícone . Também é possível marcar imagens para publicação ao carregá-las.
 
 ## Publicar as imagens {#publishing-the-images}
 
-Para publicar imagens de zoom, na barra Navegação global, selecione **[!UICONTROL Publish]** e selecione uma opção **[!UICONTROL When]** (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**). Opcionalmente, você pode inserir um nome para o trabalho de publicação. Selecione **Enviar publicação**.
+Para publicar imagens de zoom, na barra Navegação global, selecione **[!UICONTROL Publish]**, em seguida selecione um **[!UICONTROL When]** opção (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**). Opcionalmente, você pode inserir um nome para o trabalho de publicação. Selecionar **Enviar publicação**.
 
 >[!MORELIKETHIS]
 >

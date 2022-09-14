@@ -2,7 +2,7 @@
 title: Faça logon no Adobe Analytics
 description: Saiba como fazer logon no Adobe Analytics pelo Adobe Dynamic Media Classic.
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Ao fazer logon, você tem a opção de inserir a ID de organização do Experien
 
 Comece integrando o Dynamic Media Classic ao Adobe Analytics OAuth. A integração do Adobe Analytics OAuth com o Dynamic Media Classic geralmente é feita apenas uma vez por usuário.
 
-1. Acesso [Console do desenvolvedor do Adobe](https://developer.adobe.com/console). Certifique-se de que sua conta tenha permissões de administrador para a organização para a qual a integração é necessária.
+1. Acesso [Console do Adobe Developer](https://developer.adobe.com/console). Certifique-se de que sua conta tenha permissões de administrador para a organização para a qual a integração é necessária.
 1. Próximo ao canto superior direito da Página inicial, na lista suspensa, selecione a empresa apropriada. (A captura de tela abaixo é apenas para fins informativos; o nome real da empresa selecionado pode variar.)
 
    ![Criar um novo projeto](assets/analytics-oauth1.png)
@@ -73,7 +73,6 @@ Comece integrando o Dynamic Media Classic ao Adobe Analytics OAuth. A integraç�
 >* Um novo relatório é adicionado ao Analytics e o usuário deseja começar a enviar dados para esse novo relatório.
 >* O servidor de rastreamento é atualizado no Adobe Analytics.
 >* Uma nova variável de rastreamento é introduzida em um relatório e você deseja vincular uma variável de Visualizador específica na interface do usuário do Dynamic Media Classic a essa nova variável do Analytics.
-
 >
 
 

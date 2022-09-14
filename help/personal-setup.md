@@ -2,7 +2,7 @@
 title: Configuração pessoal
 description: Todos os usuários podem alterar as configurações na tela Configuração pessoal do Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Todos os usuários podem alterar as configurações na tela Configuração pesso
 >
 >A tela Configuração pessoal lista qual função de usuário você tem no Adobe Dynamic Media Classic: Administrador, Administrador ou Usuário da Empresa.
 
-As configurações de Configuração pessoal controlam o comportamento padrão do Painel de navegação, como você recebe e-mail e as configurações de senha. Lembre-se de selecionar **[!UICONTROL Save]** depois de alterar essas configurações.
+As configurações de Configuração pessoal controlam o comportamento padrão do Painel de navegação, como você recebe e-mail e as configurações de senha. Lembrar para selecionar **[!UICONTROL Save]** depois de alterar essas configurações.
 
 ## Informações da Minha Conta
 
@@ -33,8 +33,8 @@ Identifica o nome da conta, o nome, o nome de usuário (endereço de email) e a 
 
 ## Desktop
 
-* **Limpar cache de imagem**  - Remove todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador.
-* **Limpar cache de ativos**  - Remove todos os arquivos de ativos do Adobe Dynamic Media em cache do seu computador.
+* **Limpar Cache de Imagem** - Remove todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador.
+* **Limpar Cache de Ativos** - Remove todos os arquivos de ativos em cache do Adobe Dynamic Media do seu computador.
 
 Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos. Com base no seu sistema operacional, navegue até o seguinte:
 
@@ -45,8 +45,8 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 **Para instalar a extensão Adobe Dynamic Media Creative Suite:**
 
-1. No Adobe Dynamic Media Classic, na barra de ferramentas, vá para **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Creative Suite Extension, selecione **[!UICONTROL Download Now]** para baixar o arquivo `s7csxs.zxp`.
-1. Selecione os links **[!UICONTROL Installation]** e **[!UICONTROL System Requirements]** para obter informações adicionais sobre a extensão.
+1. No Adobe Dynamic Media Classic, na barra de ferramentas, acesse **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Creative Suite Extension, selecione **[!UICONTROL Download Now]** para baixar a `s7csxs.zxp` arquivo.
+1. Selecione o **[!UICONTROL Installation]** e **[!UICONTROL System Requirements]** links para obter informações adicionais sobre a extensão do .
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -85,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
    Se a maioria de suas pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, você poderá selecionar essa opção para ativá-los. Como alternativa, use a Pesquisa avançada para fornecer uma experiência de pesquisa mais direcionada e mais rápida do que incluir campos definidos pelo usuário.
 
-   Consulte [Realização de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
+   Consulte [Condução de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
 
    Consulte também [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Basic Search Type]** - É possível selecionar entre duas opções:  **[!UICONTROL Contains]** pesquisa a string completa para o valor especificado;  **[!UICONTROL StartsWith]** pesquisa a partir do início da string e retorna os resultados mais rapidamente do que  **[!UICONTROL Contains]**. Qualquer opção substitui o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
+* **[!UICONTROL Basic Search Type]** - É possível selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a string completa para o valor especificado; **[!UICONTROL StartsWith]** pesquisa a partir do início da string e retorna os resultados mais rapidamente que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
 * **[!UICONTROL Show Command Feedback]** - Selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desligar.
 * **[!UICONTROL Show Dialog During Export]** - Selecione para mostrar uma caixa de diálogo pop-up durante uma exportação. Se você desmarcar (desativar) essa opção, ainda poderá acessar a página Trabalhos para recuperar os resultados da exportação.
 

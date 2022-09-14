@@ -2,17 +2,17 @@
 title: Recursos do desenvolvedor
 description: Saiba mais sobre quais recursos do desenvolvedor estão disponíveis para o Dynamic Media.
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 61c433567870cedfa36b89c6e7be97abd3b0fdca
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 

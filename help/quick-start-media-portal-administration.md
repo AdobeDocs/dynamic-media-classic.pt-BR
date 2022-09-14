@@ -1,8 +1,8 @@
 ---
-title: '"Início rápido: Portal de mídia"'
+title: "Início rápido: Portal de mídia"
 description: Uma introdução e o Início rápido do Media Portal para ajudá-lo a ativar e executar rapidamente com as técnicas do Media Portal e a administração no Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Consulte [Funções de usuário do Media Portal](media-portal-user-roles.md#medi
 
 ## 5. Especificar opções de exportação
 
-Os usuários do Media Portal, ao exportar arquivos, podem reformatar os arquivos e exportar arquivos principais originais — se você conceder permissão para isso. Como administrador, você decide como os usuários exportam arquivos.
+Os usuários do Media Portal, ao exportar arquivos, podem reformatar os arquivos e exportar os arquivos primários originais — se você conceder permissão para isso. Como administrador, você decide como os usuários exportam arquivos.
 
 Consulte [Especificar opções de exportação disponíveis para usuários do Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
@@ -73,13 +73,13 @@ Consulte [Especificar opções de exportação disponíveis para usuários do Me
 
 Uma predefinição de imagem é uma coleção de configurações predefinidas que alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada. Você pode criar Predefinições de imagem para controlar como as imagens são reformatadas quando os usuários as exportam.
 
-Consulte [Criar e ativar Predefinições de imagem](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Consulte [Criar e ativar predefinições de imagens](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Criar predefinições de metadados e campos de metadados definidos pelo usuário
 
 Os metadados descrevem e identificam um arquivo; é usado para pesquisar e organizar ativos. Para garantir que os metadados sejam inseridos corretamente e que os campos de metadados que exigem dados sejam preenchidos, é possível criar predefinições de metadados. Uma predefinição de metadados é um conjunto predefinido de entradas de metadados. Também é possível criar campos de metadados que descrevem exclusivamente os arquivos com os quais você trabalha.
 
-Consulte [Fazer uso mais eficiente dos metadados](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
+Consulte [Como usar metadados de forma mais eficiente](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
 ## 8. Personalizar a página do Media Portal
 

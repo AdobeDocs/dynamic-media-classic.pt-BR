@@ -2,7 +2,7 @@
 title: Pesquisar ativos do Dynamic Media Classic
 description: Saiba como pesquisar ativos no Adobe Dynamic Media Classic.
 uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,28 +10,28 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
 
 # Pesquisar ativos no Adobe Dynamic Media Classic{#searching-assets}
 
-Para localizar ativos de arquivo no Adobe Dynamic Media Classic, você pode exibir ativos por tipo, classificar ativos no Painel de navegação, realizar uma pesquisa simples, realizar uma pesquisa avançada e filtrar ativos.
+Para localizar ativos de arquivo no Adobe Dynamic Media Classic, você pode exibir ativos por tipo, classificar ativos no Painel Procurar, realizar uma pesquisa simples, realizar uma pesquisa avançada e filtrar ativos.
 
 >[!NOTE]
 >
->A página Configuração pessoal oferece opções para escolher como você deseja realizar pesquisas. Por exemplo, você pode escolher um tipo de pesquisa padrão e escolher se deseja incluir campos definidos pelo usuário em pesquisas. Para obter mais informações, consulte [Configuração Pessoal](personal-setup.md#personal_setup).
+>A página Configuração pessoal oferece opções para escolher como você deseja realizar pesquisas. Por exemplo, você pode escolher um tipo de pesquisa padrão e escolher se deseja incluir campos definidos pelo usuário em pesquisas. Para obter mais informações, consulte [Configuração pessoal](personal-setup.md#personal_setup).
 
 ## Exibir ativos por tipo {#viewing-assets-by-type}
 
-Para ver apenas arquivos de um determinado tipo conforme você navega, na Biblioteca de ativos no lado esquerdo, na lista suspensa **[!UICONTROL Show]**, escolha um tipo de arquivo. Somente os ativos do tipo que você escolheu mostrar aparecem na Biblioteca de ativos.
+Para ver apenas arquivos de um determinado tipo ao navegar, na Biblioteca de ativos, no lado esquerdo, na **[!UICONTROL Show]** escolha um tipo de arquivo. Somente os ativos do tipo que você escolheu mostrar aparecem na Biblioteca de ativos.
 
 >[!NOTE]
 >
->Se você não vir o painel Biblioteca de ativos no lado esquerdo, selecione a seta do triângulo à direita no lado esquerdo, a meio da janela Adobe Dynamic Media Classic, para abrir a Biblioteca de ativos.)
+>Se você não vir o painel Biblioteca de ativos no lado esquerdo, selecione a seta do triângulo à direita no lado esquerdo, na metade da janela do Adobe Dynamic Media Classic, para abrir a Biblioteca de ativos.)
 
 ## Classificar arquivos no painel Procurar {#sorting-files-in-the-browse-panel}
 
@@ -45,11 +45,11 @@ Na Exibição de lista, é possível classificar clicando no nome de uma coluna.
 
 Use o campo Pesquisa na Biblioteca de ativos para realizar pesquisas simples. Você pode pesquisar itens por nome ou pesquisar itens cujos metadados contenham uma palavra-chave.
 
-1. Na Biblioteca de ativos, no painel **[!UICONTROL Folders]**, selecione a pasta a ser pesquisada em uma pasta específica e em suas subpastas.
-1. À esquerda do campo Pesquisar na Biblioteca de ativos, selecione o ícone **[!UICONTROL Magnifying Glass]** para abrir a lista suspensa.
+1. Na Biblioteca de ativos, no **[!UICONTROL Folders]** , selecione a pasta a ser pesquisada em uma pasta específica e suas subpastas.
+1. À esquerda do campo Pesquisar na Biblioteca de ativos, selecione o **[!UICONTROL Magnifying Glass]** para abrir a lista suspensa.
 1. Na lista suspensa, escolha uma opção que descreva o quão estreita ou ampla você deseja que a pesquisa seja. Você pode escolher **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]** ou **[!UICONTROL Within Selected Folder & Subfolders]**.
 1. No campo Pesquisar , insira um termo de pesquisa.
-1. À direita do campo Search (Pesquisa), selecione **[!UICONTROL Go]** ou pressione **[!UICONTROL Enter]**.
+1. À direita do campo Search , selecione **[!UICONTROL Go]** ou pressione **[!UICONTROL Enter]**.
 
    Os resultados da sua pesquisa são exibidos no Painel de navegação à direita.
 
@@ -63,31 +63,31 @@ Na Biblioteca de ativos, logo abaixo do campo Pesquisar , selecione **[!UICONTRO
 
 Especifique qualquer um dos seguintes critérios em sua pesquisa avançada:
 
-* **Filtrar por tipo de ativo**  - Restrinja sua pesquisa a apenas um tipo de ativo escolhendo um tipo de ativo no menu.
+* **Filtrar por tipo de ativo** - Restrinja sua pesquisa a apenas um tipo de ativo escolhendo um tipo de ativo no menu.
 
-* **Arquivos e pastas**  - Escolha onde deseja pesquisar:  **[!UICONTROL Within All Files & Folders]**,  **[!UICONTROL Within Selected Folder]**, ou  **[!UICONTROL Within Selected Folder & Subfolders]**.
+* **Arquivos e pastas** - Escolha onde deseja pesquisar: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]** ou **[!UICONTROL Within Selected Folder & Subfolders]**.
 
-* **Todos os estados de publicação**  - Procure por arquivos marcados como prontos para publicação, não estão marcados como prontos para publicação ou todos os arquivos.
+* **Todos os estados de publicação** - Pesquise por arquivos marcados como prontos para publicação, não estão marcados como prontos para publicação ou todos os arquivos.
 
-* **Condições**  - Se você especificar critérios de metadados para a pesquisa, selecione se a pesquisa deve corresponder a todas as condições (uma pesquisa ALL) ou qualquer condição (uma pesquisa OR).
+* **Condições** - Se você especificar critérios de metadados para a pesquisa, selecione se a pesquisa deve corresponder a todas as condições (uma pesquisa ALL) ou qualquer condição (uma pesquisa OR).
 
-* **Critérios de pesquisa**  - crie um ou mais campos de pesquisa para pesquisar metadados. Para criar campos de pesquisa:
+* **Critérios de pesquisa** - Crie um ou mais campos de pesquisa para pesquisar metadados. Para criar campos de pesquisa:
 
-   1. Em Pesquisa avançada, no cabeçalho **[!UICONTROL Search criteria]** e à esquerda do menu **[!UICONTROL Add a Field]**), selecione o ícone de seta de triângulo para baixo para abrir a lista suspensa. Escolha uma exibição de Metadados. Você pode escolher **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]** ou **[!UICONTROL XMP]**.
-   1. Selecione o menu suspenso **[!UICONTROL Add a Field]** e escolha um nome de campo.
-   1. Escolha uma opção **[!UICONTROL Contains]**: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** ou **[!UICONTROL Equals]**.
+   1. Na Pesquisa avançada, em **[!UICONTROL Search criteria]** e à esquerda do **[!UICONTROL Add a Field]** ), selecione o ícone de seta de triângulo para baixo para abrir a lista suspensa. Escolha uma exibição de Metadados. Você pode escolher **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]** ou **[!UICONTROL XMP]**.
+   1. Selecione o **[!UICONTROL Add a Field]** e escolha um nome de campo.
+   1. Escolha um **[!UICONTROL Contains]** opção: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** ou **[!UICONTROL Equals]**.
    1. Para campos numéricos, escolha um valor ou insira um intervalo de datas personalizado.
    1. (Opcional) Repita as etapas 1 a 4 para criar mais campos de pesquisa.
 
-Selecione o ícone **[!UICONTROL Remove search field]** (círculo com &quot;X&quot; dentro) para que o campo de pesquisa seja excluído.
+Selecione o **[!UICONTROL Remove search field]** ícone (círculo com &quot;X&quot; dentro) para que o campo de pesquisa seja excluído.
 
-No canto inferior direito do painel Pesquisa avançada, selecione **[!UICONTROL Search]** para iniciar a pesquisa. Os resultados da pesquisa são exibidos no Painel de navegação à direita. Você pode alterar qualquer condição de pesquisa e selecionar **[!UICONTROL Search]** para executar a pesquisa novamente.
+No canto inferior direito do painel Pesquisa avançada, selecione **[!UICONTROL Search]** para iniciar sua pesquisa. Os resultados da pesquisa são exibidos no Painel de navegação à direita. Você pode alterar qualquer condição de pesquisa e selecionar **[!UICONTROL Search]** para executar a pesquisa novamente.
 
-Selecione **[!UICONTROL Clear]** para limpar os critérios de pesquisa e iniciar uma nova pesquisa. Selecione **[!UICONTROL Close]** quando terminar a pesquisa para fechar o painel Pesquisar.
+Selecionar **[!UICONTROL Clear]** se quiser apagar os critérios de pesquisa e iniciar uma nova pesquisa. Selecionar **[!UICONTROL Close]** quando terminar a pesquisa para fechar o painel Pesquisar.
 
 ## Filtrar ativos usando metadados {#filter-assets-using-metadata}
 
-Filtrar ativos na guia Filtros da Biblioteca de ativos. Para filtrar ativos, você usa valores de metadados como critério. Depois de escolher um campo de metadados que deseja filtrar, a guia Filtros lista todos os valores de metadados inseridos no campo escolhido. Também lista o número de ativos aos quais cada valor foi atribuído. Por exemplo, em uma operação de filtro no campo de metadados **[!UICONTROL Creator]**, a guia **[!UICONTROL Filters]** lista todos os nomes que foram inseridos no campo de metadados **[!UICONTROL Creator]** para ativos diferentes. Também lista para cada nome, o número de ativos atribuídos ao nome. Em seguida, selecione um valor de metadados para ver todos os ativos aos quais foi atribuído esse valor. No exemplo, você seleciona o valor de metadados `Prairie Cat` para ver todos os ativos em que o nome `Prairie Cat` foi inserido no campo de metadados **[!UICONTROL Creator]**. Você pode filtrar usando mais de um campo de metadados como um critério de filtragem.
+Filtrar ativos na guia Filtros da Biblioteca de ativos. Para filtrar ativos, você usa valores de metadados como critério. Depois de escolher um campo de metadados que deseja filtrar, a guia Filtros lista todos os valores de metadados inseridos no campo escolhido. Também lista o número de ativos aos quais cada valor foi atribuído. Por exemplo, em uma operação de filtro na variável **[!UICONTROL Creator]** campo de metadados, a variável **[!UICONTROL Filters]** lista todos os nomes inseridos na guia **[!UICONTROL Creator]** campo de metadados para diferentes ativos. Também lista para cada nome, o número de ativos atribuídos ao nome. Em seguida, selecione um valor de metadados para ver todos os ativos aos quais foi atribuído esse valor. No exemplo, você seleciona a variável `Prairie Cat` valor de metadados para ver todos os ativos em que o nome `Prairie Cat` foi inserido no **[!UICONTROL Creator]** campo de metadados. Você pode filtrar usando mais de um campo de metadados como um critério de filtragem.
 
 Você pode salvar operações de filtro para executá-las várias vezes.
 
@@ -101,17 +101,17 @@ Consulte [Visualizações de metadados](application-setup.md#metadata_views).
 
 Siga estas etapas para localizar ativos filtrando com seus valores de metadados:
 
-1. Na Biblioteca de ativos, selecione a guia **[!UICONTROL Filters]**.
+1. Na Biblioteca de ativos, selecione o **[!UICONTROL Filters]** guia .
 
    Os critérios da operação de filtro anterior aparecem no painel Filtros . O painel Filtros é dividido em painéis, e cada painel representa um campo de metadados. Use os painéis para escolher quais campos de metadados serão filtrados e, em cada campo, para escolher um valor de metadados para a operação de filtro.
 
-   Para executar uma operação de filtro que você criou e salvou, selecione **[!UICONTROL Select Preset]** e escolha o nome da operação no menu.
+   Para executar uma operação de filtro que você criou e salvou, selecione **[!UICONTROL Select Preset]** e escolha o nome da operação no menu .
 
    Consulte [Salvar, repetir e excluir operações de filtro](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
-1. Selecione **[!UICONTROL Field]** em um painel e siga estas instruções para exibir o menu de filtragem e criar a operação de filtro:
+1. Selecionar **[!UICONTROL Field]** em um painel, siga estas instruções para exibir o menu de filtragem e criar a operação de filtro:
 
-   * **Escolha um campo de metadados**  - Selecione o nome do campo no menu de filtragem.
+   * **Escolha um campo de metadados** - Selecione o nome do campo no menu do filtro.
 
       >[!NOTE]
       >
@@ -119,9 +119,9 @@ Siga estas etapas para localizar ativos filtrando com seus valores de metadados:
 
       Consulte [Visualizações de metadados](application-setup.md#metadata_views).
 
-   * **Adicionar um campo**  de metadados - Selecione  **[!UICONTROL Add a Panel]**. Depois que o painel for exibido no painel Filtros , selecione o botão **[!UICONTROL Field]** e escolha o nome de um campo de metadados no menu de filtragem.
+   * **Adicionar um campo de metadados** - Selecionar **[!UICONTROL Add a Panel]**. Depois que o painel for exibido no painel Filtros , selecione seu **[!UICONTROL Field]** e escolha o nome de um campo de metadados no menu de filtragem.
 
-   * **Remover um campo de metadados**  - Selecione  **[!UICONTROL Remove This Panel]** no menu de filtragem.
+   * **Remover um campo de metadados** - Selecionar **[!UICONTROL Remove This Panel]** no menu do filtro.
 
    Ao escolher um campo de metadados, o painel lista o seguinte:
 
@@ -138,23 +138,23 @@ Siga estas etapas para localizar ativos filtrando com seus valores de metadados:
    >
    >Para remover temporariamente um campo da operação de filtro, selecione **[!UICONTROL Deselect All]**. Essa opção fica na parte superior de cada painel, acima dos valores de metadados.
 
-1. (Opcional) Para salvar a operação de filtro e executá-la posteriormente, selecione **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** e insira um nome na caixa de diálogo **[!UICONTROL Save]**.
+1. (Opcional) Para salvar a operação de filtro e executá-la posteriormente, selecione **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** e, em seguida, insira um nome no **[!UICONTROL Save]** caixa de diálogo.
 
 ### Salvar, repetir e excluir operações de filtro {#saving-repeating-and-deleting-filter-operations}
 
 Siga estas instruções na guia Filters para salvar, repetir e excluir operações de filtro:
 
-* **Salve uma operação de filtro**  - Vá até  **[!UICONTROL Select Preset]** >  **[!UICONTROL Save Current As New Presets]** e digite um nome na caixa de  **[!UICONTROL Save]** diálogo.
+* **Salvar uma operação de filtro** - Ir para **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** e, em seguida, insira um nome no **[!UICONTROL Save]** caixa de diálogo.
 
-* **Repita uma operação de filtro**  - Escolha  **[!UICONTROL Select Preset]** e escolha o nome de uma operação de filtro no menu. O menu lista as operações de filtro que você salvou.
+* **Repetir uma operação de filtro** - Choose **[!UICONTROL Select Preset]** e escolha o nome de uma operação de filtro no menu. O menu lista as operações de filtro que você salvou.
 
-* **Exclua uma operação de filtro do menu Selecionar predefinição**  - Execute a operação de filtro. Em seguida, vá para **[!UICONTROL Select Preset]** > **[!UICONTROL Delete Preset]** no menu.
+* **Exclua uma operação de filtro do menu Selecionar predefinição** - Execute a operação de filtro. Em seguida, vá para **[!UICONTROL Select Preset]** > **[!UICONTROL Delete Preset]** no menu .
 
 ## Usar o servidor de metadados {#using-the-metadata-server}
 
 O servidor de metadados é uma API pública que pode ser usada para pesquisar ativos por metadados por meio de solicitações http.
 
-Para configurar o servidor de metadados, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**.
+Para configurar o servidor de metadados, acesse **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**.
 
 A página Publicação do servidor de metadados permite definir as seguintes opções:
 
@@ -166,7 +166,7 @@ A página Publicação do servidor de metadados permite definir as seguintes op�
 
 * **[!UICONTROL Metadata Server Publish Fields]** - Selecione os campos a serem incluídos nos metadados. Essa opção permite determinar quantas informações sobre seus ativos estão disponíveis para o público. Esses campos também são exibidos nas Exibições de metadados, mas só podem ser alterados no servidor de metadados.
 
-Selecione **[!UICONTROL Publish Now]** para iniciar a tarefa. Uma confirmação é exibida informando que o trabalho foi iniciado.
+Selecionar **[!UICONTROL Publish Now]** para iniciar o trabalho. Uma confirmação é exibida informando que o trabalho foi iniciado.
 
 >[!MORELIKETHIS]
 >

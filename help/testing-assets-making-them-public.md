@@ -2,7 +2,7 @@
 title: Testar ativos antes de torná-los públicos
 description: Saiba como testar ativos no Adobe Dynamic Media Classic antes de torná-los públicos.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
@@ -10,7 +10,7 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Testar ativos antes de torná-los públicos {#testing-assets-before-making-them-public}
 
-O Teste Seguro ajuda você a definir um ambiente de teste seguro e criar uma solução B2B robusta, com base em um conjunto configurável de endereços IP e intervalos. Essa funcionalidade permite que você combine suas implantações do Adobe Dynamic Media Classic com a arquitetura do gerenciamento de conteúdo e do sistema comercial.
+O Teste Seguro ajuda você a definir um ambiente de teste seguro e criar uma solução B2B robusta, com base em um conjunto configurável de endereços IP e intervalos. Essa funcionalidade permite que você combine suas implantações do Adobe Dynamic Media Classic com a arquitetura do seu sistema de negócios e de gerenciamento de conteúdo.
 
 Com o Teste Seguro, você pode visualizar a versão de preparo do site com conteúdo não publicado.
 
@@ -31,15 +31,15 @@ Se desejar, crie um ambiente de preparo em vez de tornar os ativos disponíveis 
 
 >[!NOTE]
 >
->O Teste Seguro não afeta o acesso ao Adobe Dynamic Media Classic. A segurança do Adobe Dynamic Media Classic permanece consistente e requer as credenciais usuais para acessar o Adobe Dynamic Media Classic e serviços da Web relacionados.
+>O Teste Seguro não afeta o acesso ao Adobe Dynamic Media Classic. A segurança do Adobe Dynamic Media Classic permanece consistente e requer as credenciais usuais para acesso ao Adobe Dynamic Media Classic e serviços da Web relacionados.
 
 ## Como o teste seguro funciona {#how-secure-testing-works}
 
 A maioria das corporações mantém a Internet por trás de um firewall. O acesso à Internet é possível através de determinadas rotas e geralmente através de uma gama limitada de endereços IP públicos.
 
-Em sua rede corporativa, você pode descobrir seu endereço IP público usando sites como [https://www.whatismyip.com](https://www.whatismyip.com/) ou solicitar essas informações de sua organização corporativa de TI.
+Na sua rede corporativa, você pode descobrir seu endereço IP público usando sites como [https://www.whatismyip.com](https://www.whatismyip.com/) ou solicite essas informações à sua organização de TI corporativa.
 
-Com o Teste Seguro, o Adobe Dynamic Media Classic estabelece um Servidor de Imagem dedicado para ambientes de preparo temporário ou aplicativos internos. Qualquer solicitação para este servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa Adobe Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de Teste Seguro da empresa.
+Com o Teste Seguro, a Adobe Dynamic Media Classic estabelece um Servidor de Imagem dedicado para ambientes de preparo temporário ou aplicativos internos. Qualquer solicitação para este servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa da Adobe Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de Teste Seguro da empresa.
 
 Como a localização da solicitação original deve ser confirmada, o tráfego do serviço de Teste Seguro não é roteado por meio de uma rede de distribuição de conteúdo como o tráfego público do Dynamic Media Image Server. As solicitações para o serviço de teste seguro têm uma latência ligeiramente maior em comparação com os servidores públicos de imagem da Dynamic Media.
 
@@ -47,7 +47,7 @@ Os ativos não publicados ficam imediatamente disponíveis nos serviços de Test
 
 >[!NOTE]
 >
->Os serviços de Teste Seguro usam o Servidor de Catálogo configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste seguro, todos os ativos carregados no Adobe Dynamic Media Classic imediatamente se tornarão disponíveis nos serviços de Teste seguro. Essa funcionalidade é verdadeira independentemente de os ativos serem marcados para publicação no upload.
+>Os serviços de Teste Seguro usam o Servidor de Catálogo configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste Seguro, todos os ativos carregados no Adobe Dynamic Media Classic imediatamente se tornarão disponíveis nos serviços de Teste Seguro. Essa funcionalidade é verdadeira independentemente de os ativos serem marcados para publicação no upload.
 
 Os serviços de Teste Seguro atualmente oferecem suporte aos seguintes tipos de ativos e funcionalidades:
 
@@ -65,15 +65,15 @@ Last Modified Date:
 * Vinhetas (Solicitações do Servidor de Renderização).
 * Solicitações do Servidor de Renderização (suportadas, mas devem ser solicitadas explicitamente pelo cliente).
 * Conjuntos, incluindo conjuntos de imagens, eCatalog, conjuntos de renderização e conjuntos de mídia.
-* Visualizadores de mídia avançada padrão Adobe Dynamic Media Classic.
-* Páginas JSP OnDemand do Adobe Dynamic Media Classic.
+* Visualizadores de mídia avançada padrão do Adobe Dynamic Media Classic.
+* Páginas JSP Adobe Dynamic Media Classic OnDemand.
 * Conteúdo estático, como arquivos PDF e vídeos fornecidos progressivamente.
 * streaming de vídeo HTTP.
 * Transmissão contínua de vídeo.
 
 Os seguintes tipos de ativos e funcionalidades não são suportados no momento:
 
-* Pesquisa do Adobe Dynamic Media Classic ou eCatalog
+* Pesquisa de informações ou eCatalog do Adobe Dynamic Media Classic
 * Transmissão de vídeo RTMP
 * Web-to-print
 * Serviços UGC (Conteúdo gerado pelo usuário)
@@ -103,14 +103,14 @@ Last Modified Date:
  -->
 
 1. Entre em contato com o Atendimento ao cliente do Adobe e solicite que ele ative o Teste seguro em sua conta.
-1. No Adobe Dynamic Media Classic, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
-1. Na página Publicação do servidor de imagens, na lista suspensa **[!UICONTROL Publish Context]**, selecione **[!UICONTROL Test Image Serving]**.
+1. No Adobe Dynamic Media Classic, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
+1. Na página Publicação do servidor de imagens, no **[!UICONTROL Publish Context]** , selecione **[!UICONTROL Test Image Serving]**.
 1. Para o Filtro de endereço do cliente, selecione **[!UICONTROL Add]**.
 1. Marque a caixa de seleção para que o endereço seja ativado (ativado) e digite um endereço IP e uma máscara de rede nos respectivos campos de texto.
 
    >[!NOTE]
    >
-   >Se você adicionar um único endereço IP e máscara de rede, esse endereço poderá fazer chamadas de ativos. No entanto, quaisquer outros endereços IP e máscaras de rede adicionados não têm permissão para fazer chamadas de ativos. Dessa forma, considere desabilitar (desabilitar) a caixa de seleção na etapa acima para desabilitar a capacidade de especificar um endereço IP e uma máscara de rede. Isso permite que *todos* endereços IP façam chamadas de ativos e todos aparecem.
+   >Se você adicionar um único endereço IP e máscara de rede, esse endereço poderá fazer chamadas de ativos. No entanto, quaisquer outros endereços IP e máscaras de rede adicionados não têm permissão para fazer chamadas de ativos. Dessa forma, considere desabilitar (desabilitar) a caixa de seleção na etapa acima para desabilitar a capacidade de especificar um endereço IP e uma máscara de rede. Isso permite *all* Endereços IP para fazer chamadas de ativos e todos aparecem.
 
 1. Siga um destes procedimentos:
    * Repita as duas etapas anteriores se precisar adicionar mais endereços IP.
@@ -118,7 +118,7 @@ Last Modified Date:
 1. Na parte inferior esquerda da página Publicação do servidor de imagens, selecione **[!UICONTROL Save]**
 1. Faça upload das imagens desejadas para sua conta do Adobe Dynamic Media Classic.
 
-   Consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
+   Consulte [Upload de arquivos](uploading-files.md#uploading_files).
 
 1. Certifique-se de que algumas imagens estejam marcadas para publicação e outras não estejam marcadas e envie o trabalho de publicação.
 
@@ -133,7 +133,7 @@ Entre em contato com o Adobe Care se o nome do servidor estiver ausente ou se os
 
 Você precisa de duas variações de um site que vincula os ativos publicados e não publicados:
 
-* Versão pública - Vincule ativos usando a sintaxe de URL clássica tradicional do Adobe Dynamic Media.
+* Versão pública - Vincule ativos usando a sintaxe de URL tradicional do Adobe Dynamic Media Classic.
 * Versão de armazenamento temporário - Vincule ativos usando a mesma sintaxe, mas com o nome do site Teste seguro .
 
 ### Executar os testes

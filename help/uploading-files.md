@@ -2,16 +2,16 @@
 title: Upload de arquivos
 description: Saiba como fazer upload de arquivos no Adobe Dynamic Media Classic.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3714'
+source-wordcount: '3717'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Para obter os melhores resultados com o programa Adobe Dynamic Media Classic, us
 | Arquivos SVG | Arquivos gráficos vetoriais dimensionáveis que os servidores de Exibição de imagens podem renderizar. |
 | Arquivos XML | Arquivos que definem regras de pré-processamento que são usadas para modificar o caminho e as partes de consulta de solicitações. |
 | Arquivos de folha de estilos em cascata. | Fazer upload de capas de CSS para personalização de visualizadores do HTML5. |
-| Arquivos JavaScript | Os arquivos JavaScript são usados para instrumentação do visualizador para conter informações da conta. A Segurança de Adobe recomenda esse tipo de ativo somente para contas de clientes que tenham um domínio separado em uso para entrega (para evitar scripts entre sites). |
+| Arquivos JavaScript | Os arquivos JavaScript são usados para instrumentação do visualizador para conter informações da conta. A Segurança do Adobe recomenda esse tipo de ativo somente para contas de clientes que têm um domínio separado em uso para entrega (para evitar scripts entre sites). |
 
 >[!NOTE]
 >
@@ -114,14 +114,14 @@ O Adobe Dynamic Media Classic não fornece a opção para gerar um URL de visual
 
 Como as extensões de nome de arquivo são removidas dos nomes de arquivo durante o processo de upload, o sistema não permite que os arquivos tenham o mesmo nome raiz. No sistema Adobe Dynamic Media Classic, o nome do arquivo de ativo menos a extensão do nome do arquivo se torna a ID do ativo do ativo. Por esse motivo, dois ativos não podem ter o mesmo nome.
 
-Certifique-se de que todos os usuários da empresa entendam essas regras de nomenclatura de arquivos:
+Certifique-se de que todos os usuários da empresa entendam essas regras para nomear arquivos:
 
 * As IDs de ativo com o mesmo nome exato não são permitidas no sistema.
 * Os nomes de ID de ativo fazem distinção entre maiúsculas e minúsculas.
 * Como prática recomendada, verifique se as IDs de ativo não contêm espaços em branco (por exemplo, jacket.tif e blue jacket.jpg). O Adobe Dynamic Media Classic ASCII codifica espaços em branco em nomes de ativos quando usa nomes de ativos para criar strings de URL. Esses códigos ASCII são difíceis de ler, o que pode dificultar a leitura de URLs.
 * Caracteres específicos de idioma são permitidos em nomes de arquivo. No entanto, os seguintes caracteres não são permitidos em nomes de arquivo:
 
-   \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    Se um nome de arquivo contiver um ou mais dos caracteres acima, os caracteres serão removidos do nome do arquivo no upload.
 
@@ -279,7 +279,7 @@ Consulte [Predefinições do conjunto de lotes](application-setup.md#batch_set_p
 
 Ao fazer upload de itens usando FTP, você pode agendar um trabalho subsequente para começar quando o upload for concluído. Se outras tarefas estiverem programadas para começar, a tarefa agendada aqui será colocada em fila depois delas.
 
-A nova tarefa envia uma notificação para o endereço especificado para que o código nesse local possa ser acionado. Esse trabalho de publicação de continuação usa o mesmo nome do trabalho de upload, mas com o texto *Pub_* adicionado ao início.
+O novo trabalho envia uma notificação para o endereço especificado para que o código nesse local possa ser acionado. Esse trabalho de publicação de continuação usa o mesmo nome do trabalho de upload, mas com o texto *Pub_* adicionado ao início.
 
 **Para seguir um upload com outro trabalho:**
 

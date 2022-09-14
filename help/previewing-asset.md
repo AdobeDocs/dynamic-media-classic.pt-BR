@@ -2,7 +2,7 @@
 title: Visualizar um ativo
 description: Saiba como visualizar um ativo no Adobe Dynamic Media Classic.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,7 +10,7 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Consulte [Configurar visualizadores padrão](application-setup.md#configuring_de
 
 Se você estiver visualizando um ativo de modelo com camadas de parâmetro, é possível alterar parâmetros ou alterar a predefinição de imagem. Como as alterações são feitas em linha, é possível exibir os resultados imediatamente na mesma janela de Visualização.
 
-Consulte também [Exemplos de biblioteca de referência de visualizadores do Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte também [Exemplos da biblioteca de referência de visualizadores do Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Para visualizar um ativo:**
 
@@ -38,12 +38,12 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 1. Dependendo da exibição usada, siga um destes procedimentos:
 
-   * Na janela Ativo da Exibição de Grade ou Exibição de Lista, selecione um único ativo e selecione **[!UICONTROL Preview]** próximo à imagem em miniatura.
+   * Na janela Ativo da Exibição de Grade ou Exibição de Lista, selecione um único ativo e, em seguida, selecione **[!UICONTROL Preview]** perto da imagem em miniatura.
    * Na barra de ferramentas acima da janela Ativos da Exibição de Grade, Exibição de Lista ou Exibição de Detalhes, selecione **[!UICONTROL Preview]**.
 
 ## Visualizar um ativo com base no tipo de plataforma do visualizador {#previewing-an-asset-based-on-viewer-platform-type}
 
-Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em um tipo específico de plataforma de visualizador, como o HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para visualização, nem todas as plataformas estarão disponíveis na Lista de visualizadores.
+Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em um tipo específico de plataforma de visualizador, como HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para visualização, nem todas as plataformas estarão disponíveis na Lista de visualizadores.
 
 Você também pode usar a Lista de visualizadores para copiar o URL de um visualizador ou exibir e copiar o código do visualizador para incorporação em suas páginas da Web.
 
@@ -56,7 +56,7 @@ Para uma determinada plataforma de visualizador, a janela Lista de visualizadore
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
 1. (Opcional) Na janela Lista de visualizadores, selecione o cabeçalho da coluna **[!UICONTROL Name]** ou **[!UICONTROL Platform type]** para classificar a coluna em ordem crescente ou decrescente.
 1. Na janela Lista de visualizadores, na coluna Ações da tabela, selecione **[!UICONTROL Preview]** para ver como o ativo aparece para um visualizador e tipo de plataforma selecionados.
@@ -72,11 +72,11 @@ Para uma determinada plataforma de visualizador, a janela Lista de visualizadore
 
    * Na janela Lista de visualizadores, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-      Quando você seleciona **[!UICONTROL Embed Code]**, a janela Código incorporado é aberta, onde é possível revisar o código do visualizador. A edição do código não é permitida na janela . Você também pode copiar o código para a área de transferência, para colá-lo em suas páginas da Web.
+      Ao selecionar **[!UICONTROL Embed Code]**, a janela Código incorporado é aberta, onde você pode revisar o código do visualizador. A edição do código não é permitida na janela . Você também pode copiar o código para a área de transferência, para colá-lo em suas páginas da Web.
 
       Feche a visualização exibida.
 
-1. No canto inferior direito da janela Lista de visualizadores, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
+1. No canto inferior direito da janela Lista de visualizadores, selecione **[!UICONTROL Close]** para retornar à tela Ativos .
 
 ## Visualizar um ativo de imagem com base em sua Predefinição de imagem {#previewing-an-image-asset-based-on-its-image-preset}
 
@@ -84,9 +84,9 @@ Você pode visualizar um ativo de imagem com base em sua predefinição de image
 
 Uma predefinição de imagem é uma coleção de configurações predefinidas que alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 
-Consulte [Configurar predefinições de imagem](setting-image-presets.md#setting_up_image_presets).
+Consulte [Configurar predefinições da imagem](setting-image-presets.md#setting_up_image_presets).
 
-Consulte [Criar e ativar Predefinições de imagem](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+Consulte [Criar e ativar predefinições de imagens](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 **Para visualizar um ativo de imagem com base em sua Predefinição de imagem:**
 
@@ -95,12 +95,12 @@ Consulte [Criar e ativar Predefinições de imagem](creating-enabling-image-pres
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, acesse **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
 1. Na janela Lista de predefinições de imagens, na tabela, selecione o nome de um tipo predefinido cujo ativo de imagem você deseja visualizar em linha no painel direito.
-1. (Opcional) Na janela Lista de predefinições de imagem, na lista suspensa **[!UICONTROL URL Encoding for Copy URL Generation]** na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo de imagem quando ele for copiado.
+1. (Opcional) Na janela Lista de predefinições de imagens, na **[!UICONTROL URL Encoding for Copy URL Generation]** na lista suspensa na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo de imagem quando ele for copiado.
 1. (Opcional) Na janela Lista de predefinições de imagens, na área superior direita do painel de visualização, selecione **[!UICONTROL Copy URL]** para o tipo de predefinição selecionado.
 
    Ao selecionar **[!UICONTROL Copy URL]**, o URL associado é copiado automaticamente para a área de transferência.
 
-1. No canto inferior direito da janela Lista de predefinições de imagens, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
+1. No canto inferior direito da janela Lista de predefinições de imagens, selecione **[!UICONTROL Close]** para retornar à tela Ativos .

@@ -2,7 +2,7 @@
 title: Vincular um conjunto de mídias mistas a uma página da Web
 description: Saiba como vincular um Conjunto de mídias mistas a uma página da Web no Adobe Dynamic Media Classic.
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
@@ -10,7 +10,7 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Depois de publicar um Conjunto de mídias mistas, você pode obter o URL para us
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
    * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
-   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
@@ -36,7 +36,7 @@ Depois de publicar um Conjunto de mídias mistas, você pode obter o URL para us
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
@@ -55,7 +55,7 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 1. Acima do painel Navegação de ativos , no lado direito da barra de ferramentas, execute um dos seguintes procedimentos:
 
    * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.
-   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, em seguida, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
@@ -63,7 +63,7 @@ Usar o recurso Incorporar código permite que você revise o código do visualiz
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Clique em **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
       Na página Lista de visualizadores , na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 

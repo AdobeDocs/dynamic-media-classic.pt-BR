@@ -2,16 +2,16 @@
 title: Fazer upload dos arquivos do PDF
 description: Saiba como fazer upload dos arquivos do PDF associados a um eCatalog no Adobe Dynamic Media Classic.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Para obter informações detalhadas sobre os diferentes métodos de upload, cons
 
 Selecione os arquivos que deseja fazer upload e selecione-os *prática recomendada* Opções de PDF:
 
-* **Opções de corte** - Na caixa de diálogo Upload Job Options , selecione **[!UICONTROL Crop Options]**. Se as PDF pages contiverem marcas de corte, marcas de registro ou outras marcas, na **[!UICONTROL Crop]** lista suspensa, escolha **[!UICONTROL Manual]**. Insira o número de pixels para cortar a partir dos lados superior, direito, inferior e esquerdo das páginas. As marcas de corte são frequentemente definidas a uma margem de meia polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução de pixel por polegada e insira 75, 75, 75, 75 nas caixas de texto Superior, Direita, Inferior e Esquerda. Nesse caso, ele recorta uma meia polegada das margens (em 150 ppi, metade de 1 é igual a 75 pixels).
+* **Opções de corte** - Na caixa de diálogo Upload Job Options , selecione **[!UICONTROL Crop Options]**. Se as PDF pages contiverem marcas de corte, marcas de registro ou outras marcas, na **[!UICONTROL Crop]** lista suspensa, escolha **[!UICONTROL Manual]**. Insira o número de pixels para cortar a partir dos lados superior, direito, inferior e esquerdo das páginas. As marcas de corte são frequentemente definidas com uma margem de meia polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução de pixel por polegada e insira 75, 75, 75, 75 nas caixas de texto Superior, Direita, Inferior e Esquerda. Nesse caso, ele recorta uma meia polegada das margens (em 150 ppi, metade de 1 é igual a 75 pixels).
 
 * **Processamento** - Na caixa de diálogo Upload Job Options , selecione **[!UICONTROL PDF Options]**. No **[!UICONTROL Processing]** lista suspensa, escolha **[!UICONTROL Rasterize]**. O arquivo PDF deve ser rasterizado para que todas as páginas e imagens possam ser exibidas no eCatalog.
 

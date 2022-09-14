@@ -1,16 +1,16 @@
 ---
 title: Limitações do Dynamic Media
-description: 'Saiba mais sobre as práticas recomendadas e os limites impostos ao criar um Conjunto de imagens ou um Conjunto de rotação ou carregar um PDF. Saiba também sobre navegador da Web e combinações de sistema operacional não compatíveis com visualizadores do Dynamic Media. '
-contentOwner: admin
+description: Saiba mais sobre as práticas recomendadas e os limites impostos ao criar um Conjunto de imagens ou um Conjunto de rotação ou carregar um PDF. Saiba também sobre navegador da Web e combinações de sistema operacional não compatíveis com visualizadores do Dynamic Media.
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: ec840640b1131a56c1261f22b7638e53dac1bce8
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Os visualizadores Adobe Dynamic Media não são compatíveis com as seguintes co
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-## Fim de suporte para TLS 1.0 e 1.1 {#tls}
+## Fim do suporte para Transport Layer Security 1.0 e 1.1 {#tls}
 
 <!-- CQDOC-19433 -->
 

@@ -2,7 +2,7 @@
 title: Trabalhar com PDF
 description: Saiba como trabalhar com o PDF no Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -95,4 +95,4 @@ Você pode remover manualmente as marcas da impressora das laterais das páginas
 1. No menu Cortar, selecione **[!UICONTROL Manual]**.
 1. Insira as configurações de pixel nas caixas de texto Superior, Direita, Inferior e Esquerda para cortar da parte superior, inferior e lados das páginas.
 
-A quantidade de páginas cortadas depende da configuração de Resolução PX/Inch inserida para o arquivo PDF. Por exemplo, se você digitar 150 (padrão) como a configuração Resolução PX/Polegada e cortar 75 pixels das laterais das páginas, meia polegada será cortada; a 150 pixels por polegada, 75 pixels é igual a meia polegada.
+A quantidade de páginas cortadas depende da configuração de Resolução PX/Inch inserida para o arquivo PDF. Por exemplo, suponha que você insira 150 (o padrão) como a configuração Resolução PX/Polegada. Em seguida, você recorta 75 pixels das laterais das páginas. Nesse caso, 0,5 pol. é cortada. A 150 pixels por polegada, 75 pixels é igual a meia polegada.

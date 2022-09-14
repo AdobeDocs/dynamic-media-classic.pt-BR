@@ -1,8 +1,8 @@
 ---
-title: '"Início rápido: Catálogos eletrônicos"'
+title: "Início rápido: Catálogos eletrônicos"
 description: Uma introdução e o início rápido dos catálogos eletrônicos para ajudá-lo a ativar e executar rapidamente com as técnicas do catálogo eletrônico no Adobe Dynamic Media Classic.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,9 +10,9 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Como parte da criação do seu eCatalog, você pode organizar páginas ou págin
 >
 >Agora é possível criar eCatalogs no Adobe Dynamic Media Classic.
 
-Este eCatalog Quick Start foi projetado para ajudar você a ativar e executar rapidamente com eCatalogs. Siga as etapas de 1 a 7. Após cada etapa é uma referência cruzada a um cabeçalho de tópico, onde você pode encontrar mais informações.
+Este eCatalog Quick Start foi projetado para ajudar você a ativar e executar rapidamente com eCatalogs. Siga as etapas de 1 a 7. Após cada etapa, há uma referência cruzada em um cabeçalho de tópico no qual você pode encontrar mais informações.
 
 ## 1. Faça upload dos arquivos PDF
 

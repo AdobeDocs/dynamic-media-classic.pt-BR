@@ -1,13 +1,13 @@
 ---
 title: Fazer upload de um ativo de imagem rasterizada
 description: Saiba como fazer upload de um ativo de imagem rasterizada no Adobe Dynamic Media Classic
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 0%
@@ -24,18 +24,18 @@ Antes de fazer upload de um ativo de imagem, primeiro solicite uma chave secreta
 
 ## Solicitar uma chave secreta compartilhada {#requesting-a-shared-secret-key}
 
-Solicite uma *chave secreta compartilhada* de [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite uma chave secreta compartilhada.
+Solicitar um *chave secreta compartilhada* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite uma chave secreta compartilhada.
 
 Na mensagem de email, forneça o nome da empresa que deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
 ## Recuperar o token de upload {#retrieving-the-upload-token}
 
-O *token de carregamento* garante que ninguém possa usar a mesma chave compartilhada-secreta para carregar ativos. Ele garante que o upload seja legítimo e provém de uma fonte confiável.
+O *carregar token* garante que ninguém possa usar a mesma chave compartilhada-secreta para fazer upload de ativos. Ele garante que o upload seja legítimo e provém de uma fonte confiável.
 
 O token de upload é uma sequência de caracteres alfanumérica que está disponível somente para um período específico. Use os seguintes URLs, substituindo sua chave secreta compartilhada, para recuperar o token de upload.
 
 * Imagem rasterizada
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Neste exemplo, a chave shared-secret é  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Neste exemplo, a chave shared-secret é `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -86,7 +86,7 @@ Você pode usar os seguintes campos na cadeia de caracteres do URL de consulta p
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **Métodos HTTP permitidos:**
-`GET` e  `POST`
+`GET` e `POST`
 
 Agora é possível fazer upload de um ativo de imagem.
 
@@ -100,7 +100,7 @@ Após recuperar um token de upload válido por um período específico, é poss�
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Os campos `upload_token` e `company_name` são obrigatórios.
+O `upload_token` e `company_name` são obrigatórios.
 
 Consulte [Recuperar o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
@@ -112,7 +112,7 @@ Você também pode enviar outros valores opcionais como cadeias de caracteres de
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-O parâmetro `file_limit` especifica o limite de tamanho do arquivo em bytes. O parâmetro `file_exts` especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
+O `file_limit` especifica o limite de tamanho do arquivo em bytes. O `file_exts` especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
 
 Um limite global é definido no aplicativo para o limite de tamanho de arquivo e as extensões de nome de arquivo permitidas. Se o que você enviou na solicitação for um subconjunto dos limites globais, ele será honrado. Os limites globais são os seguintes:
 
@@ -129,14 +129,14 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Uma lista de extensões de nome de arquivo.
 * Se é necessário preservar o perfil de cor e o nome do arquivo associados ao ativo.
 * Se deseja usar o Plano de Fundo do Knockout. Se você ativar o Plano de Fundo de Knockout, defina o Canto, a Tolerância e o Método de Preenchimento.
-Consulte Plano de fundo de nocaute em [Opções de ajuste fino de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte Plano de Fundo de Definição em [Opções de ajuste de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado.
 
-Você pode exibir o código-fonte HTML associado ao formulário acima selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Você pode exibir o código fonte do HTML associado ao formulário acima, selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito do mouse na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica em **[!UICONTROL Submit]**.
+No Firefox, clique com o botão direito do mouse na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário clica **[!UICONTROL Submit]**.
 
-Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, vá para **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
+Para exibir a resposta XML no Internet Explorer, acesse **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, acesse **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
 
 Veja a seguir uma amostra de resposta de um upload bem-sucedido:
 
@@ -196,7 +196,7 @@ POST
 
 ### Obter metadados de ativos para imagens {#getting-asset-metadata-for-images}
 
-Você pode usar `image_info` para recuperar metadados para um ativo que você carregou, como mostrado no exemplo a seguir:
+Você pode usar `image_info` para recuperar metadados de um ativo que você carregou, como mostrado no exemplo a seguir:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

@@ -2,7 +2,7 @@
 title: Serviços de treinamento do Adobe
 description: Saiba mais sobre os Serviços de treinamento do Adobe para Adobe Dynamic Media Classic.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
@@ -10,7 +10,7 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 4%
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 # Serviços de treinamento do Adobe{#adobe-training-services}
 
-O Dynamic Media Classic oferece treinamento na forma de treinamento em vídeo, workshops ministrados por instrutores e sessões da Web, e demonstrações.
+A Dynamic Media Classic oferece treinamento na forma de treinamento em vídeo, workshops ministrados por instrutores e sessões na web, e demonstrações.
 
 ## Serviços de treinamento do Adobe
 
@@ -29,7 +29,7 @@ Consulte [Serviços de treinamento do Adobe](https://learning.adobe.com/)
 
 ## Demonstrações
 
-Assista às demonstrações dos recursos do visualizador Adobe Dynamic Media Classic.
+Assista às demonstrações dos recursos do visualizador do Adobe Dynamic Media Classic.
 
 Consulte [Demonstrações](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 

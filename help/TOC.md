@@ -6,7 +6,7 @@ user-guide-title: Manual do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 3%
@@ -79,8 +79,8 @@ ht-degree: 3%
    + [Organize o trabalho com Projetos](organizing-projects.md)
 + Dimensionamento de imagem {#image-sizing}
    + [Início rápido: Dimensionamento de imagem](quick-start-image-sizing.md)
-   + [Upload de imagens principais](uploading-master-images.md)
-   + [Publicar imagens principais](publishing-master-images.md)
+   + [Upload das imagens primárias](uploading-master-images.md)
+   + [Publicar imagens primárias](publishing-master-images.md)
    + [Configurar predefinições da imagem](setting-image-presets.md)
    + [Vincular URLs ao aplicativo da Web](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -166,7 +166,7 @@ ht-degree: 3%
    + [Excluir um ativo carregado](deleting-uploaded-asset.md)
    + [Obter informações sobre o uso do disco](getting-disk-usage-information.md)
    + [Fazer upload de um ativo de imagem rasterizada](uploading-image-asset-or-vector.md)
-+ arquivos principais {#master-files}
++ Arquivos principais {#master-files}
    + [Práticas recomendadas para otimização da qualidade de imagens](best-practices-optimizing-quality-images.md)
    + [Editar imagens](editing-images.md)
    + [Criar mapas de imagem](creating-image-maps.md)

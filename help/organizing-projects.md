@@ -2,7 +2,7 @@
 title: Organize o trabalho com Projetos
 description: Saiba como organizar seu trabalho com Projetos no Adobe Dynamic Media Classic.
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,7 +10,7 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Você pode criar um Projeto ao fazer upload de arquivos ou criar Projetos no Pai
 
 >[!NOTE]
 >
->O Adobe Dynamic Media Classic recomenda organizar ativos com metadados em vez de Projetos. Consulte [Exibir, adicionar e exportar metadados](viewing-adding-exporting-metadata.md).
+>A Adobe Dynamic Media Classic recomenda organizar ativos com metadados em vez de Projetos. Consulte [Exibir, adicionar e exportar metadados](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ Você pode criar um Projeto ao fazer upload de arquivos ou criar Projetos no Pai
 
 Você pode criar uma pasta de Projeto começando na Biblioteca de ativos ou ao fazer upload de arquivos para o Adobe Dynamic Media Classic:
 
-* **Na Biblioteca de ativos**  - Role até a parte inferior da Biblioteca de ativos, até a seção Projetos e selecione  **[!UICONTROL Add Project]**. Insira um nome para o projeto.
+* **Na Biblioteca de ativos** - Role até a parte inferior da Biblioteca de ativos, até a seção Projetos e selecione **[!UICONTROL Add Project]**. Insira um nome para o projeto.
 
-* **Ao fazer upload de arquivos**  - Na tela Upload , acesse  **[!UICONTROL Add to Project]** >  **[!UICONTROL Create Project]**. Insira um nome para o projeto.
+* **Ao carregar arquivos** - Na tela Upload , acesse **[!UICONTROL Add to Project]** > **[!UICONTROL Create Project]**. Insira um nome para o projeto.
 
 >[!NOTE]
 >
@@ -49,16 +49,16 @@ Você pode criar uma pasta de Projeto começando na Biblioteca de ativos ou ao f
 
 Para exibir, excluir e renomear uma pasta de Projeto, siga um destes procedimentos:
 
-* **Navegar pelo conteúdo**  - Selecione o nome da pasta na Biblioteca de ativos. Seus ativos aparecem no painel Procurar.
+* **Conteúdo de navegação** - Selecione o nome da pasta na Biblioteca de ativos. Seus ativos aparecem no painel Procurar.
 
-* **Excluindo pastas de projeto**  - Selecione a pasta Projeto e selecione  **[!UICONTROL Remove Project]**. A exclusão de ativos de uma pasta de Projeto não os exclui do Adobe Dynamic Media Classic; os ativos permanecem nas pastas originais em que são armazenados.
+* **Excluindo pastas de projeto** - Selecione a pasta Projeto e selecione **[!UICONTROL Remove Project]**. A exclusão de ativos de uma pasta de Projeto não os exclui do Adobe Dynamic Media Classic; os ativos permanecem nas pastas originais em que são armazenados.
 
-* **Renomear pastas de projeto**  - Clique duas vezes no nome da pasta no Painel de ativos e digite um novo nome.
+* **Renomear pastas de projeto** - Clique duas vezes no nome da pasta no Painel de ativos e digite um novo nome.
 
 ## Adicionar ativos a uma pasta Projeto {#adding-assets-to-a-project-folder}
 
-Você pode adicionar imagens a uma pasta de Projeto começando no Painel de navegação ou ao fazer upload de arquivos para o Adobe Dynamic Media Classic:
+É possível adicionar imagens a uma pasta de Projeto, iniciando no Painel de navegação ou ao fazer upload de arquivos para o Adobe Dynamic Media Classic:
 
-* **No painel Procurar**  - Selecione os ativos e arraste-os para uma pasta Projeto. Também é possível acessar **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Selecione um nome de pasta Projeto na caixa de diálogo Selecionar projeto e selecione **[!UICONTROL Submit]**.
+* **No painel Procurar** - Selecione os ativos e arraste-os para uma pasta Projeto. Também pode ir para **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Selecione um nome de pasta Projeto na caixa de diálogo Selecionar projeto e selecione **[!UICONTROL Submit]**.
 
-* **Ao carregar arquivos**  - Na página Upload, selecione  **[!UICONTROL Job Options]**. Na caixa de diálogo Upload Job Options , selecione **[!UICONTROL Projects]** e selecione um nome de projeto.
+* **Ao carregar arquivos** - Na página Upload , selecione **[!UICONTROL Job Options]**. Na caixa de diálogo Fazer upload de opções de trabalho , selecione **[!UICONTROL Projects]** e selecione um nome de projeto.

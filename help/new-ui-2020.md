@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 705409e8c63dbc6cc6c336b9733c0090af84f4f7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Consulte [Aplicativo de desktop do Adobe Dynamic Media Classic](/help/dynamic-me
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Como funciona o novo aplicativo de desktop?_**
-Depois de baixar, instalar e iniciar o aplicativo de desktop, você verá uma experiência de logon atualizada. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você pode fazer logon no Adobe Dynamic Media Classic. A experiência geral é a mesma da versão familiar do navegador da Web em que você está acostumado. No aplicativo de desktop, você pode acessar os ambientes de produção e preparo da Adobe Dynamic Media Classic. Você também pode acessar o Media Portal se tiver credenciais para esse recurso.
+Depois de baixar, instalar e iniciar o aplicativo de desktop, você verá uma experiência de logon atualizada. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você pode fazer logon no Adobe Dynamic Media Classic. A experiência geral é a mesma que a versão familiar do navegador da Web para a qual você está acostumado. No aplicativo de desktop, você pode acessar os ambientes de produção e preparo da Adobe Dynamic Media Classic. Você também pode acessar o Media Portal se tiver credenciais para esse recurso.
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,7 @@ Após o lançamento do aplicativo de desktop do Adobe Dynamic Media Classic em 3
 +++
 
 +++**_Como obter ajuda para todos os problemas que tenho com o aplicativo de desktop do Adobe Dynamic Media Classic?_**
-Entre em contato com o Suporte do Adobe para verificar se há problemas ao usar o aplicativo.
+Entre em contato com o Suporte ao Adobe com qualquer problema que tenha durante o uso do aplicativo.
 +++
 
 +++**_Quero ter certeza de que estou otimizando minha estratégia de mídia avançada. Como posso aprender ainda mais sobre o Adobe Dynamic Media Classic?_**
@@ -101,7 +101,7 @@ O Adobe Dynamic Media Classic é uma solução poderosa e repleta de recursos, p
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 +++**_Estou interessado em saber mais sobre como atualizar para o Adobe Dynamic Media com Adobe Experience Manager Assets. Onde posso encontrar mais informações?_**
-Para saber mais sobre os benefícios da atualização para a próxima geração de criação, publicação e entrega dinâmica de mídia avançada, visite o [Portal de atualização Adobe Dynamic Media](https://exploreadobe.com/dynamic-media-upgrade/).
+Para saber mais sobre os benefícios da atualização para a próxima geração de criação, publicação e entrega dinâmica de mídia avançada, visite o [Portal Adobe Dynamic Media para atualização](https://exploreadobe.com/dynamic-media-upgrade/).
 +++
 
 >[!MORELIKETHIS]

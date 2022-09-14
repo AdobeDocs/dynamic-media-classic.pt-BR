@@ -1,16 +1,16 @@
 ---
 title: Publicar arquivos
-description: '"Saiba como publicar ativos nos Servidores de imagem da Dynamic Media. Você pode publicar ativos de uma só vez ou fazer com que a Adobe Dynamic Media Classic publique ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo."'
-contentOwner: admin
+description: "Saiba como publicar ativos nos Servidores de imagem da Dynamic Media. Você pode publicar ativos de uma só vez ou fazer com que a Adobe Dynamic Media Classic publique ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo."
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ O Adobe Dynamic Media Classic acompanha trabalhos de publicação na página Tra
 
 >[!NOTE]
 >
->Os ativos que você republica (você os publicou antes) não aparecem imediatamente no seu site devido ao mecanismo de armazenamento em cache da Web na rede de entrega de conteúdo (CDN). Consulte [Ativos republicados e atrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
+>Os ativos que você republica (você já os publicou antes) não aparecem imediatamente no seu site devido ao mecanismo de armazenamento em cache da Web na rede de entrega de conteúdo (CDN). Consulte [Ativos republicados e atrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Criar um trabalho de publicação único {#creating-a-one-time-publish-job}
 

@@ -1,15 +1,15 @@
 ---
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 4%
+source-wordcount: '687'
+ht-degree: 0%
 
 ---
-# Diretrizes para contribuir para a documentação do Adobe Dynamic Media Classic
+# Diretrizes para contribuir para a documentação da Adobe Dynamic Media Classic
 
 ## Filosofia de documentação do Adobe Dynamic Media Classic
 
-Sabemos que os usuários do Adobe Dynamic Media Classic estão trabalhando em ambientes altamente competitivos, trabalhando para criar experiências digitais que os separarão de seus concorrentes. Portanto, é essencial que, quando o Adobe oferece novas ferramentas avançadas, essas ferramentas sejam complementadas com documentação precisa e clara para permitir que o cliente aproveite imediatamente seu investimento no Adobe Dynamic Media Classic e maximize o ROI.
+Sabemos que os usuários do Adobe Dynamic Media Classic estão trabalhando em ambientes altamente competitivos, trabalhando para criar experiências digitais que os separam de seus concorrentes. Portanto, é essencial que, quando o Adobe oferece novas ferramentas avançadas, essas ferramentas sejam complementadas com documentação precisa e clara. Isso permite que o cliente use imediatamente o investimento da Adobe Dynamic Media Classic e maximize o ROI.
 
 O objetivo da documentação é colocar a documentação atualizada nas mãos dos usuários o mais rápido possível. Portanto, priorizamos a documentação precisa e utilizável e nos esforçamos para atualizá-la continuamente e melhorá-la.
 
@@ -29,23 +29,23 @@ A documentação abrange casos de uso padrão. Casos de uso que não estejam no 
 
 ### Geralmente, não documentamos bugs ou suas soluções alternativas.
 
-A documentação abrange casos de uso padrão. Por essa razão, bugs, efeitos causados por bugs e soluções alternativas para bugs geralmente não são documentados.
+A documentação abrange casos de uso padrão. Por essa razão, bugs, efeitos causados por bugs e soluções alternativas para bugs não são documentados.
 
 As exceções a essa regra se aplicam às notas de versão, onde os problemas conhecidos podem ser listados com possíveis soluções que foram aprovadas pelo Gerenciamento de produtos.
 
 ### As contribuições para a documentação não se destinam a responder questões técnicas.
 
-Quaisquer ideias que você possa ter para melhorar a documentação são bem-vindas como contribuições. No entanto, comentários, problemas e solicitações de pull destinam-se somente a *contribuições*. Eles não se destinam a ser usados para responder suas perguntas sobre como usar o Adobe Dynamic Media Classic, implementar seu projeto ou resolver problemas técnicos.
+Quaisquer ideias que você possa ter para melhorar a documentação são bem-vindas como contribuições. No entanto, comentários, problemas e solicitações de pull destinam-se a *contribuições* somente. Eles não se destinam a responder suas perguntas sobre como usar o Adobe Dynamic Media Classic, implementar seu projeto ou resolver problemas técnicos.
 
-Qualquer dúvida sobre o uso do Adobe Dynamic Media Classic ou erros técnicos que você possa ter deve ser relatada por meio do [Portal de suporte corporativo Experience Cloud](https://helpx.adobe.com/br/contact/enterprise-support.ec.html) ou discutida na [comunidade Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Qualquer dúvida sobre o uso do Adobe Dynamic Media Classic ou erros técnicos que você possa ter deve ser relatada por meio do [Portal de suporte empresarial Experience Cloud](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) ou discutidos na [comunidade Experience Cloud](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***As contribuições para a documentação não são uma substituição do Adobe Customer*** Care e quaisquer contribuições que buscam respostas para perguntas relacionadas ao suporte serão rejeitadas.
+***As contribuições de documentação não são uma substituição do Atendimento ao cliente do Adobe*** e quaisquer contribuições que procurem respostas para questões relacionadas com o apoio são rejeitadas.
 
 ### As contribuições devem fazer referência claramente às páginas de documentação afetadas.
 
-Se você criar um problema para sugerir melhorias na documentação, deverá incluir links para as páginas afetadas. Caso crie um problema usando o link **Editar esta página** em uma página de documentação, o problema será criado automaticamente com um link para a página.
+Se você criar um problema para sugerir melhorias na documentação, deverá incluir links para as páginas afetadas. Se você criar um problema usando o **Editar esta página** em uma página de documentação, o problema é criado automaticamente com um link para a página.
 
-Isso não se aplica às solicitações de pull, pois as solicitações de pull, por sua natureza, fazem referência às páginas afetadas.
+Isso não se aplica às solicitações de pull, pois as solicitações de pull fazem referência às páginas afetadas.
 
 ## Diretrizes de documentação
 
@@ -61,11 +61,11 @@ Seguir essas diretrizes facilita a análise da sua contribuição e, portanto, a
 * Mantenha as frases o mais simples possível.
 * Mantenha o idioma claro e conciso.
 
-Lembre-se, os leitores da documentação são de todo o mundo e não é de se esperar que sejam falantes nativos ou fluentes do inglês. Evite coloquialismos e mantenha a linguagem o mais clara e simples possível.
+Lembre-se de que os leitores da documentação estão no mundo inteiro. Não se pode esperar que eles sejam falantes nativos ou fluentes do inglês. Evite coloquialismos e mantenha a linguagem o mais clara e simples possível.
 
-#### Siga o Manual de Estilo da Microsoft
+#### Siga o manual de estilo da Microsoft®
 
-[O Manual de ](https://docs.microsoft.com/en-us/style-guide/welcome/) estilo da Microsoft é um guia de estilo de documentação disponível gratuitamente, que se concentra na documentação do software e a documentação do Adobe Dynamic Media Classic segue este guia sempre que possível.
+[Manual de estilo da Microsoft®](https://docs.microsoft.com/en-us/style-guide/welcome/) O é um guia de estilo de documentação disponível gratuitamente, que se concentra na documentação do software e a documentação da Adobe Dynamic Media Classic segue este guia sempre que possível.
 
 ### Formatação
 

@@ -2,7 +2,7 @@
 title: Exportar ativos do Adobe Dynamic Media Classic
 description: Saiba como exportar ativos do Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,9 +10,9 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -23,18 +23,18 @@ Você pode salvar ativos editados no Adobe Dynamic Media Classic em uma unidade 
 
 O arquivo Zip compactado tem um tamanho máximo de arquivo de 1 GB para o trabalho de exportação. Além disso, você tem permissão de no máximo 500 ativos totais por trabalho de exportação.
 
-O Adobe Dynamic Media Classic mantém um registro de tarefas de exportação na tela Trabalhos.
+A Adobe Dynamic Media Classic mantém um registro de trabalhos de exportação na tela Trabalhos .
 
 **Para exportar ativos do Adobe Dynamic Media Classic:**
 
-1. Selecione os ativos que deseja exportar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
-1. Na janela Exportar ativos selecionados , clique em **[!UICONTROL Image Options]** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):
+1. Selecione os ativos que deseja exportar e acesse **[!UICONTROL File]** > **[!UICONTROL Export]**.
+1. Na janela Exportar ativos selecionados , clique em **[!UICONTROL Image Options]** e, em seguida, especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):
 
    * **[!UICONTROL Presets]** - Opcionalmente, escolha uma Predefinição de imagem para formatar o ativo ao exportá-lo. Se você escolher uma Predefinição de imagem, as outras opções de formatação não estarão disponíveis, pois o ativo adota os formatos definidos pela Predefinição de imagem.
 
    * **[!UICONTROL Conversion]** - Converta o arquivo de ativo ou a imagem original.
 
-   * **[!UICONTROL Size]** - Você pode selecionar um tamanho padrão. Ou você pode selecionar **[!UICONTROL Other]** na lista suspensa **[!UICONTROL Size]**, escolher a unidade de medida desejada e especificar a largura e a altura.
+   * **[!UICONTROL Size]** - Você pode selecionar um tamanho padrão. Ou, você pode selecionar **[!UICONTROL Other]** do **[!UICONTROL Size]** na lista suspensa, escolha a unidade de medida desejada e especifique a largura e a altura.
 
       Consulte também [Especificar opções de exportação disponíveis para usuários do Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
@@ -48,7 +48,7 @@ O Adobe Dynamic Media Classic mantém um registro de tarefas de exportação na 
 
    * **[!UICONTROL Send Email To]** - Opcionalmente, informe um endereço de e-mail se pretende enviar os ativos por e-mail. A mensagem de email lista o URL para onde o recipient pode baixar os ativos.
 
-1. Selecione **[!UICONTROL Export]**.
+1. Selecionar **[!UICONTROL Export]**.
 
 Há suporte para três ações básicas de exportação:
 
@@ -62,7 +62,7 @@ Os seguintes tipos de ativos não podem ser exportados. Todos os outros geram um
 * Conjuntos de renderização
 * Conjuntos de rotação
 * Conjuntos de mídia
-* Conjuntos de taxa de bits múltipla
+* Conjuntos multibitrate
 * Catálogos eletrônicos
 
 Além disso, os modelos não podem ser exportados como um &quot;arquivo original&quot;.

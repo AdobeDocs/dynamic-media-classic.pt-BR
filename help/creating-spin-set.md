@@ -2,7 +2,7 @@
 title: Criar um conjunto de rotação
 description: Saiba como criar um Conjunto de rotação no Adobe Dynamic Media Classic.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,7 +10,7 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Para criar um Conjunto de rotação eficaz, certifique-se de fotografar as image
 
 ## Diretrizes para fotografar imagens do Conjunto de rotação {#guidelines-for-shooting-spin-set-images}
 
-Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito giratório da imagem. No entanto, incluir muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. A Adobe Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em Conjuntos de rotação:
+Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito giratório de imagem. No entanto, incluir muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. A Adobe Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em Conjuntos de rotação:
 
 * No mínimo, use 8 a 12 imagens em um conjunto de rotação unidimensional e 16 a 24 imagens em um conjunto de rotação bidimensional.
 * Usar um formato sem perdas; TIFF e PNG são recomendadas.

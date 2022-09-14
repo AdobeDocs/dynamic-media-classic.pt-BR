@@ -2,7 +2,7 @@
 title: Fontes
 description: Saiba como usar fontes no Adobe Dynamic Media Classic.
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
@@ -10,7 +10,7 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Fontes{#fonts}
 
-Às vezes, o Adobe Dynamic Media Classic exige que você faça o upload de um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, faça upload do arquivo de fonte. Para exibir os números de página do Visualizador de catálogo eletrônico em uma fonte específica, faça upload do arquivo de fonte.
+Às vezes, o Adobe Dynamic Media Classic exige que você faça upload de um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, faça upload do arquivo de fonte. Para exibir os números de página do Visualizador de catálogo eletrônico em uma fonte específica, faça upload do arquivo de fonte.
 
-O Adobe Dynamic Media Classic é compatível com esses tipos de fonte:
+O Adobe Dynamic Media Classic oferece suporte para esses tipos de fonte:
 
 * Todas as fontes TrueType
 * Fontes PostScript®
@@ -29,15 +29,15 @@ O Adobe Dynamic Media Classic é compatível com esses tipos de fonte:
 * Fontes OpenType/PostScript
 * PhotoFonts
 
-Depois que um arquivo de fonte for carregado, é possível alterar o Adobe Dynamic Media Classic ID, o nome da fonte e digitar as informações na tela Editar informações.
+Depois que um arquivo de fonte for carregado, é possível alterar a Adobe Dynamic Media Classic ID, o nome da fonte e digitar as informações na tela Editar informações .
 
 >[!NOTE]
 >
->O Adobe Dynamic Media Classic recomenda o upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes em camadas de modelo. O Adobe Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Type1 associados a uma fonte também é recomendado, pois algumas dessas fontes contêm informações detalhadas de ajuste do espaço.
+>A Adobe Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes nas camadas do modelo. O Adobe Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Type1 associados a uma fonte também é recomendado, pois algumas dessas fontes contêm informações detalhadas de ajuste do espaço.
 
 ## Upload de arquivos de fonte {#uploading-font-files}
 
-Faça upload de arquivos de fonte com as mesmas técnicas usadas para fazer upload de outros arquivos. Você pode armazenar arquivos de fontes em qualquer pasta do Adobe Dynamic Media Classic. Consulte [Fazer upload de seus arquivos](uploading-files.md#uploading_your_files).
+Faça upload de arquivos de fonte com as mesmas técnicas usadas para fazer upload de outros arquivos. Você pode armazenar arquivos de fontes em qualquer pasta do Adobe Dynamic Media Classic. Consulte [Upload de arquivos](uploading-files.md#uploading_your_files).
 
 ## Editar informações do arquivo de fonte {#editing-font-file-information}
 
