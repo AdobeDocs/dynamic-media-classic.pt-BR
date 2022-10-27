@@ -1,16 +1,16 @@
 ---
 title: Limitações do Dynamic Media
-description: Saiba mais sobre as práticas recomendadas e os limites impostos ao criar um Conjunto de imagens ou um Conjunto de rotação ou carregar um PDF. Saiba também sobre navegador da Web e combinações de sistema operacional não compatíveis com visualizadores do Dynamic Media.
+description: Saiba mais sobre as práticas recomendadas e os limites impostos ao criar um Conjunto de imagens ou um Conjunto de rotação ou carregar um PDF. Saiba também sobre combinações de navegador da Web e sistema operacional não compatíveis com o Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
+feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: 09f105e47eddee81fc9612282a4ef305e9ccb105
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ As seções a seguir descrevem as limitações no Dynamic Media.
 Este tópico inclui as seguintes seções:
 
 * [Práticas recomendadas e limites impostos pela Dynamic Media sobre os tipos de ativos](#best-practice-enforced-limits)
-* [Navegador da Web não suportado e combinações de sistema operacional para Visualizadores do Dynamic Media](#unsupported-browser-os)
+* [Navegador da Web e combinações de sistema operacional não compatíveis para Dynamic Media](#unsupported-browser-os)
 
 ## Práticas recomendadas e limites impostos pela Dynamic Media sobre os tipos de ativos {#best-practice-enforced-limits}
 
@@ -38,11 +38,11 @@ Quando você cria um Conjunto de rotação ou um Conjunto de imagens, ou faz upl
 
 <!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
 
-## Navegador da Web não suportado e combinações de sistema operacional para Visualizadores do Dynamic Media {#unsupported-browser-os}
+## Navegador da Web e combinações de sistema operacional não compatíveis para Dynamic Media {#unsupported-browser-os}
 
 <!-- CQDOC-19433 -->
 
-Os visualizadores Adobe Dynamic Media não são compatíveis com as seguintes combinações de navegador da Web e sistema operacional.
+O Adobe Dynamic Media não é compatível com as seguintes combinações de navegador e sistema operacional.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -58,7 +58,7 @@ Os visualizadores Adobe Dynamic Media não são compatíveis com as seguintes co
 
 <!-- CQDOC-19433 -->
 
-A partir de 30 de setembro de 2022, os visualizadores do Adobe Dynamic Media encerrarão o suporte para o seguinte:
+A partir de 30 de setembro de 2022, o Adobe Dynamic Media encerrará o suporte para o seguinte:
 
 * TLS (Transport Layer Security) 1.0 e 1.1
 * As seguintes cifras fracas no TLS 1.2:
