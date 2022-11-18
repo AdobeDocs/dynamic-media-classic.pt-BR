@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 09f105e47eddee81fc9612282a4ef305e9ccb105
+source-git-commit: 10e603f566cd7f968c3a6aea1ba277697a1734ca
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 2%
+source-wordcount: '282'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Quando você cria um Conjunto de rotação ou um Conjunto de imagens, ou faz upl
 
 | Ativo - Tipo de limite | Prática recomendada | Limite imposto | Alteração do limite em 31 de dezembro de 2022 |
 | --- | --- | --- | --- |
-| **Imagem** - Número de Smart Crops por imagem | 5 | 100 | 20º |
+| **Imagem** - Número de Smart Crops por imagem | 5 | 100 | Não aplicável |
 | **Todos os conjuntos** - Número de ativos duplicados por conjunto | Sem duplicatas | 20º | Não aplicável |
 | **Todos os conjuntos** - Número máximo de ativos por conjunto | 5 a 10 imagens por conjunto | 1000 | Não aplicável |
 | **Conjunto de rotação** - Número máximo de linhas/colunas por conjunto 2D | 12 a 18 imagens por conjunto | 1000 | Não aplicável |
