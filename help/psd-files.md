@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,12 @@ Essas opções estão disponíveis ao carregar arquivos PSD:
 * **Opções de corte** - Localizado em **[!UICONTROL Crop Options]**. Selecionar **[!UICONTROL Trim]** para cortar automaticamente o espaço em branco das bordas de um arquivo PSD; select **[!UICONTROL Manual]** para cortar os lados do arquivo PSD:
 
    * **[!UICONTROL Trim]** - Selecione o **[!UICONTROL Trim Away Based On]** e escolha **[!UICONTROL Color]** ou **[!UICONTROL Transparency]**.
+   Se você escolher a variável **[!UICONTROL Color]** selecione o menu Canto e escolha o canto do PSD com a cor que melhor represente a cor do espaço em branco que deseja recortar.
 
-      Se você escolher a variável **[!UICONTROL Color]** selecione o menu Canto e escolha o canto do PSD com a cor que melhor represente a cor do espaço em branco que deseja recortar.
-
-      Arraste o controle deslizante para especificar uma tolerância de 0 a 1. Para cortar com base na cor, especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PSD. Os números mais próximos de 1 permitem mais diferenças de cor. Para cortar com base na transparência, especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
+   Arraste o controle deslizante para especificar uma tolerância de 0 a 1. Para cortar com base na cor, especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PSD. Os números mais próximos de 1 permitem mais diferenças de cor. Para cortar com base na transparência, especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos de 1 permitem mais transparência.
 
    * **[!UICONTROL Manual]** - Insira o número de pixels para cortar de qualquer lado ou de cada lado da imagem. A quantidade de imagens cortadas depende da configuração ppi (pixels por polegada) no arquivo de imagem. Por exemplo, se a imagem exibir 150 ppi e você inserir 75 nas caixas de texto Superior, Direita, Inferior e Esquerda, 0,5 pol. é cortada de cada lado da imagem.
+
 
 * **Opções de perfil de cores** - Localizado em **[!UICONTROL Color Profile Options]**.
 
@@ -72,6 +72,10 @@ Essas opções estão disponíveis ao carregar arquivos PSD:
 ## Exibir e editar camadas em um arquivo PSD {#viewing-and-editing-layers-in-a-psd-file}
 
 Se você selecionou a opção Manter camadas ao fazer upload do PSD, a Adobe Dynamic Media Classic recortou as camadas individuais em ativos. Você pode exibir e editar as camadas de ativo pertencentes a um arquivo PSD abrindo o arquivo no Painel de navegação na Exibição de detalhes.
+
+>[!NOTE]
+>
+>O Adobe Dynamic Media Classic suporta até cinco níveis em um grupo de camadas aninhado.
 
 1. Clique duas vezes no arquivo PSD completo no painel Procurar. O arquivo é aberto na Exibição de detalhes.
 
