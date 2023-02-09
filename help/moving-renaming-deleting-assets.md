@@ -10,9 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Você pode mover, renomear e excluir ativos do Painel de navegação. Além diss
 
 Você pode mover ativos para pastas diferentes no Painel de navegação.
 
+**Para mover ativos:**
+
 1. Selecione o ativo ou os ativos no Painel de navegação e siga um destes procedimentos:
 
    * Exiba a pasta para a qual deseja mover os ativos na Biblioteca de ativos e arraste os ativos para a pasta.
@@ -35,9 +37,7 @@ Você pode mover ativos para pastas diferentes no Painel de navegação.
 1. Selecione o ativo no Painel de navegação e siga um destes procedimentos:
 
    * Selecione o nome, digite um novo nome e pressione **[!UICONTROL Enter]** ou selecione longe do nome.
-   * Ir para **[!UICONTROL File]** > **[!UICONTROL Rename]**. O nome do ativo é realçado. Digite um novo nome e pressione **[!UICONTROL Enter]**.
-
-Certifique-se de não inserir o nome de um ativo existente do Adobe Dynamic Media Classic.
+   * Ir para **[!UICONTROL File]** > **[!UICONTROL Rename]**. O nome do ativo é realçado. Digite um novo nome e pressione **[!UICONTROL Enter]**. Certifique-se de não inserir o nome de um ativo existente do Adobe Dynamic Media Classic.
 
 ## Excluir ativos {#delete-assets}
 
@@ -45,9 +45,13 @@ Certifique-se de não inserir o nome de um ativo existente do Adobe Dynamic Medi
 
 Ao excluir um ativo, todos os ativos derivados dele também são excluídos. Por exemplo, excluir uma imagem para a qual você criou destinos de zoom exclui os destinos de zoom junto com a imagem.
 
->[!NOTE]
+Destinos de zoom, atributos de imagem e entradas de histórico são excluídos permanentemente quando você exclui os ativos dos quais derivam. Eles não são movidos junto com o ativo para a pasta Lixeira; eles não podem ser restaurados a partir da lixeira.
+
+>[!IMPORTANT]
 >
->Destinos de zoom, atributos de imagem e entradas de histórico são excluídos permanentemente quando você exclui os ativos dos quais derivam. Eles não são movidos junto com o ativo para a pasta Lixeira; eles não podem ser restaurados a partir da lixeira.
+>A exclusão em massa é uma operação intensiva. Certifique-se de executar as exclusões em massa sequencialmente em vez de executar operações de exclusão pesadas e simultâneas. O Adobe recomenda limitar as operações de exclusão a 5000 ou menos exclusões de ativos por hora. Um número maior que 5000 por hora pode causar limite de taxa.
+
+**Para excluir ativos:**
 
 1. Siga um destes procedimentos:
 
@@ -56,9 +60,7 @@ Ao excluir um ativo, todos os ativos derivados dele também são excluídos. Por
 
       A exclusão de uma pasta exclui a pasta, todos os ativos na pasta e todos os ativos em suas subpastas.
 
->[!NOTE]
->
->A Adobe Dynamic Media Classic recomenda substituir os arquivos de ativos em vez de excluí-los se o motivo para excluir um arquivo de ativo for substituí-lo por outro pelo mesmo nome.
+A Adobe Dynamic Media Classic recomenda substituir os arquivos de ativos em vez de excluí-los se o motivo para excluir um arquivo de ativo for substituí-lo por outro pelo mesmo nome.
 
 ## Excluir vários ativos com um arquivo de texto {#delete-multiple-assets-with-a-text-file}
 
