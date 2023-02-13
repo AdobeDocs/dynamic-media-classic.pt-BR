@@ -10,7 +10,7 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Destinos de zoom, atributos de imagem e entradas de histórico são excluídos p
 
 >[!IMPORTANT]
 >
->A exclusão em massa é uma operação intensiva. Certifique-se de executar as exclusões em massa sequencialmente em vez de executar operações de exclusão pesadas e simultâneas. O Adobe recomenda limitar as operações de exclusão a 5000 ou menos exclusões de ativos por hora. Um número maior que 5000 por hora pode causar limite de taxa.
+>A exclusão em massa é uma operação intensiva. Certifique-se de executar as exclusões em massa sequencialmente em vez de executar operações de exclusão pesadas e simultâneas. O Adobe recomenda limitar as operações de exclusão a 5000 ou menos exclusões de ativos por hora. Qualquer número maior que 5000 por hora pode causar limite de taxa.
 
 **Para excluir ativos:**
 
