@@ -10,7 +10,7 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 532d4ec9515b561682678d3a0140096c8b3deae8
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -26,11 +26,11 @@ As configurações disponíveis para você nesta página dependem do seu status 
 * Os usuários só podem acessar **[!UICONTROL Personal Setup]** e as contas das sociedades de que são membros; não podem executar quaisquer tarefas administrativas.
 * Os administradores podem acessar **[!UICONTROL Personal Setup]** e exibir e administrar suas próprias contas da empresa. Eles também podem executar todas as funções de configuração do aplicativo e todas as funções de administração, incluindo a adição de administradores e usuários.
 
-Os administradores também podem configurar as Predefinições de imagem e as Predefinições do visualizador na **[!UICONTROL Setup]** página:
+Os administradores também podem configurar as predefinições de Imagem e as predefinições do Visualizador na **[!UICONTROL Setup]** página:
 
 * **Predefinições de imagem** - As predefinições de imagens são formatos salvos para a exibição de imagens primárias em diferentes tamanhos e formatos.
 
-* **Predefinições do visualizador** - As Predefinições do visualizador determinam como você vê sua mídia avançada quando você a vê em um visualizador.
+* **Predefinições do visualizador** - As predefinições do visualizador determinam como você vê sua mídia avançada quando você a vê em um visualizador.
 
 >[!MORELIKETHIS]
 >
