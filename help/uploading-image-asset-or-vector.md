@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 Antes de fazer upload de um ativo de imagem, primeiro solicite uma chave secreta compartilhada. Use essa chave secreta compartilhada para recuperar um token de upload. Em seguida, use o token de upload para fazer upload de ativos de imagem rasterizada.
 
 >[!IMPORTANT]
+>
+>A partir de 1º de maio de 2023, os ativos de rasterização UGC no Dynamic Media Classic estarão disponíveis para uso em até 60 dias a partir da data de upload. Após 60 dias, os ativos serão removidos.
+
+>[!NOTE]
 >
 >O suporte para ativos de vetor UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 

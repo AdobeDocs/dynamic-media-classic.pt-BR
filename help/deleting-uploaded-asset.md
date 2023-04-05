@@ -1,5 +1,5 @@
 ---
-title: Excluir um ativo carregado
+title: Excluir um ativo de imagem rasterizada carregado
 description: Saiba como excluir um ativo carregado no Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,9 +9,9 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,10 @@ Você pode usar os seguintes campos na sequência de consulta de URL para exclui
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>A partir de 1º de maio de 2023, os ativos de rasterização UGC no Dynamic Media Classic estarão disponíveis para uso em até 60 dias a partir da data de upload. Após 60 dias, os ativos serão removidos.
+
+>[!NOTE]
 >
 >O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 

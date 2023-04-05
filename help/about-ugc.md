@@ -9,21 +9,26 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
 # Sobre conteúdo gerado pelo usuário no Adobe Dynamic Media Classic {#about-user-generated-content}
 
-O uso de UGC (conteúdo gerado pelo usuário) consiste em carregar ativos em um repositório de armazenamento dedicado do Adobe Dynamic Media Classic e executar operações relacionadas.
+O uso do UGC (conteúdo gerado pelo usuário) consiste em fazer upload de ativos para um repositório de armazenamento dedicado do Adobe Dynamic Media Classic e executar operações relacionadas.
 
 O UGC suporta formatos de arquivo de imagem rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
-<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
+>
+>A partir de 1º de maio de 2023, os ativos de rasterização UGC no Dynamic Media Classic estarão disponíveis para uso em até 60 dias a partir da data de upload. Após 60 dias, os ativos serão removidos.
+
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
+
+>[!NOTE]
 >
 >O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 
