@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Antes de fazer upload de um ativo de imagem, primeiro solicite uma chave secreta
 
 >[!IMPORTANT]
 >
->A partir de 1º de maio de 2023, os ativos de rasterização UGC no Dynamic Media Classic estarão disponíveis para uso em até 60 dias a partir da data de upload. Após 60 dias, os ativos serão removidos.
+>A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso em até 60 dias a partir da data de upload. Após 60 dias, os ativos serão removidos.
 
 >[!NOTE]
 >
