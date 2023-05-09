@@ -3,13 +3,13 @@ title: Comparação de recursos
 description: Tabela de comparação de recursos entre [!DNL Dynamic Media] em [!DNL Adobe Experience Manager] Ativos e [!DNL Adobe Dynamic Media Classic] aplicativo de desktop.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 1b18fbc086fb6296aef8674d8471dd5b15a845c7
+exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
+source-git-commit: fa69e9df791597462db1bad9204c40896ea74020
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # Comparação de recursos
 
@@ -38,8 +38,8 @@ Uma tabela de comparação de recursos entre [!DNL Dynamic Media] em [!DNL Adobe
 | Codificação de vídeo | ✓ | ✓ |
 | Acessibilidade do visualizador | ✓ | ✓ |
 | Integração do visualizador com o Analytics | ✓ | ✓ |
-| Modelos 1:1 | - | ✓ |
-| Configurador Visual<br>(personalização do produto) | - | ✓ |
+| Modelos 1:1 | ✓<br>*Pacote de mídia personalizado* | ✓ |
+| Configurador Visual<br>(personalização do produto) | ✓<br>*Pacote de mídia personalizado* | ✓ |
 | 3D - Experience Manager Sites<br>Componente WCM | ✓ | - |
 | 3D - Visualizador de experiência interativa | ✓ | - |
 | 3D - Publicar arquivos AR/VR e 3D principal | ✓ | - |
