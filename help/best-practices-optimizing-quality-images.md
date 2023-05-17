@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: f3082fc6b66cf0903bf6cb1907a8615a12399fdc
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 3%
+source-wordcount: '1569'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,18 @@ A otimização da qualidade da imagem pode ser um processo demorado, pois muitos
 O Adobe Dynamic Media Classic inclui mais de 100 comandos de fornecimento de imagens para ajustar e otimizar imagens e resultados de renderização. As diretrizes a seguir podem ajudar você a simplificar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
 
 Consulte também [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+
+>[!TIP]
+>
+>Experimente e descubra os benefícios dos modificadores de imagem da Dynamic Media e do Smart Imaging, usando o Dynamic Media [_Instantâneo_](https://snapshot.scene7.com/).
+>
+> O Snapshot é uma ferramenta de demonstração visual, projetada para ilustrar o poder do Dynamic Media para a entrega de imagens otimizada e dinâmica. Experimente imagens de teste ou URLs do Dynamic Media para observar visualmente a saída de vários modificadores de imagem do Dynamic Media e otimizações de Smart Imaging para o seguinte:
+>* Tamanho do arquivo (com entrega de WebP e AVIF)
+>* Largura de banda de rede
+>* DPR (Proporção de pixels do dispositivo)
+>
+>Para saber como é fácil usar o Snapshot, reproduza o [Vídeo de treinamento de instantâneo](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutos e 17 segundos).
+
 
 ## Práticas recomendadas para o formato de imagem (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
