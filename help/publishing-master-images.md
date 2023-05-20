@@ -1,6 +1,6 @@
 ---
-title: Publicar imagens primárias
-description: Saiba como publicar imagens primárias do Adobe Dynamic Media Classic.
+title: Publicar imagens principais
+description: Saiba como publicar imagens principais do Adobe Dynamic Media Classic.
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: Rick Brough
 content-type: reference
@@ -17,23 +17,23 @@ ht-degree: 0%
 
 ---
 
-# Publicar imagens primárias{#publishing-master-images}
+# Publicar imagens principais{#publishing-master-images}
 
-Publicar seus arquivos de imagem os publica nos Servidores de Imagem da Dynamic Media, onde estão disponíveis para seu site e aplicativo. Além disso, durante o processo de publicação, o Adobe Dynamic Media Classic ativa as cadeias de caracteres de URL necessárias para o site e aplicativo.
+A publicação dos arquivos de imagem os publica nos Servidores de imagem da Dynamic Media, onde ficam disponíveis para o seu site e aplicativo. Além disso, durante o processo de publicação, o Adobe Dynamic Media Classic ativa as cadeias de caracteres de URL necessárias para o site e o aplicativo.
 
-## Marcar imagens primárias para publicar {#marking-master-images-for-publish}
+## Marcar imagens principais para publicação {#marking-master-images-for-publish}
 
-As imagens primárias devem ser marcadas para publicação para que sejam copiadas para os Servidores de Imagem do Dynamic Media. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando em **[!UICONTROL Mark for Publish]** ícone . Também é possível marcar imagens para publicação ao carregá-las no Adobe Dynamic Media Classic.
+As imagens primárias devem ser marcadas para publicação, para serem copiadas para os servidores de imagem da Dynamic Media. Você pode marcar suas imagens principais para publicação no Painel de navegação clicando em **[!UICONTROL Mark for Publish]** ícone. Você também pode marcar imagens para publicação ao carregá-las no Adobe Dynamic Media Classic.
 
-## Publicar as imagens principais {#publishing-your-master-images}
+## Publicar suas imagens principais {#publishing-your-master-images}
 
-1. Na barra Navegação global, selecione **[!UICONTROL Publish]**. Na caixa de diálogo Publicar , selecione uma opção Quando (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**) e, opcionalmente, insira um nome para o trabalho de publicação
+1. Na barra Navegação global, selecione **[!UICONTROL Publish]**. Na caixa de diálogo Publicar, selecione uma opção Quando (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**) e, opcionalmente, informe um nome para o trabalho de publicação
 
 1. Selecionar **[!UICONTROL Submit Publish]**.
 
 >[!NOTE]
 >
->O URL não fica ativo até que você publique o ativo.
+>O URL não estará ativo até que você publique o ativo.
 
 >[!MORELIKETHIS]
 >

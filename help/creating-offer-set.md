@@ -22,132 +22,132 @@ ht-degree: 0%
 Você pode criar qualquer um dos seguintes tipos de conjuntos de ofertas:
 
 * Vídeo
-* Modelo parametrizado
+* Modelo com parâmetros
 * Imagem
 
 Para modelos, selecione **[!UICONTROL Add and Preview]**, em seguida, defina os parâmetros escolhidos. Os outros tipos de conjunto de ofertas não incluem parâmetros, mas você ainda pode personalizá-los selecionando **[!UICONTROL Preview]** e alterar as predefinições disponíveis.
 
-A Adobe Dynamic Media Classic oferece ferramentas para edição e criação de conjuntos de ofertas.
+O Adobe Dynamic Media Classic oferece ferramentas para edição e criação de conjuntos de ofertas.
 
 >[!NOTE]
 >
->Antes de criar um conjunto de ofertas, publique todos os ativos que pretende usar para o conjunto como Adobe Dynamic Media Classic. Consulte [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+>Antes de criar um conjunto de ofertas, publique todos os ativos que pretende usar para o conjunto no Adobe Dynamic Media Classic. Consulte [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 ## Tipos de conjuntos de ofertas {#types-of-offer-sets}
 
 Crie um conjunto de ofertas a partir dos seguintes tipos de conjuntos de ofertas:
 
-* **Imagens** - Você pode montar imagens para um conjunto de ofertas. Cada imagem inclui uma oferta diferente no conjunto.
+* **Imagens** - É possível montar imagens para um conjunto de ofertas. Cada imagem inclui uma oferta diferente no conjunto.
 
-* **Modelo de imagem** - Você pode parametrizar modelos de imagem no Adobe Dynamic Media Classic com a variável **[!UICONTROL Build]** > comando Noções básicas sobre modelo . Por meio de parâmetros, componentes do modelo — o texto em quadros de texto, as diferentes imagens — podem ser trocados e personalizados. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem em seu conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte [Criar parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
+* **Modelo de imagem** - Você pode parametrizar modelos de imagem no Adobe Dynamic Media Classic com o **[!UICONTROL Build]** > Noções básicas do modelo. Por meio de parâmetros, os componentes do modelo — o texto em quadros de texto, as diferentes imagens — podem ser trocados e personalizados. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte [Criar parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
 
-Consulte também [Noções básicas do modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de treinamento.
+Consulte também [Noções básicas de modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de treinamento.
 
-* **Vídeo** - Você pode montar vídeo para um conjunto de ofertas. Cada vídeo é uma oferta diferente no conjunto.
+* **Vídeo** - É possível montar vídeos para um conjunto de ofertas. Cada vídeo é uma oferta diferente no conjunto.
 
-## Criar um conjunto de ofertas com um modelo parametrizado {#creating-an-offer-set-with-a-parameterized-template}
+## Criar um conjunto de ofertas com um modelo com parâmetros {#creating-an-offer-set-with-a-parameterized-template}
 
-Ao criar um Conjunto de ofertas, a variável **[!UICONTROL Publish after save]** afeta o conjunto e o conjunto de membros das seguintes maneiras:
+Ao criar um Conjunto de ofertas, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
 
-| **[!UICONTROL Publish after save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
+| **[!UICONTROL Publish after save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
-| Não | Não publicado | Os membros do conjunto mantêm seu estado publicado ou não publicado. |
+| Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
 
-Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
-**Para criar um conjunto de ofertas com um modelo parametrizado:**
+**Para criar um conjunto de ofertas com um template parametrizado:**
 
 1. Selecione o modelo ou banner.
 1. Ir para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
 
-   A página Conjunto de ofertas do Test&amp;Target lista as ofertas no conjunto de ofertas. O primeiro item na lista é o objeto .
+   A página Conjunto de ofertas Test&amp;Target lista as ofertas no conjunto de ofertas. O primeiro item da lista é o objeto.
 
 1. Selecione o objeto e selecione **[!UICONTROL Add & Preview]**.
 
    O lado esquerdo da página lista os parâmetros no modelo e seus valores.
 
-1. Altere os valores do parâmetro para criar a oferta. Por exemplo, insira texto diferente em um campo de texto, altere o tamanho de uma camada, troque uma imagem por outra ou escolha uma predefinição do visualizador diferente.
+1. Altere os valores de parâmetro para criar a oferta. Por exemplo, insira texto diferente em um campo de texto, altere o tamanho de uma camada, troque uma imagem por outra ou escolha uma predefinição do visualizador diferente.
 1. Selecionar **[!UICONTROL Save]** ou **[!UICONTROL Save As**]** para salvar a oferta como parte do conjunto de ofertas.
 
-   A página Conjunto de ofertas do Test&amp;Target lista as ofertas que você criou.
+   A página Conjunto de ofertas Test&amp;Target lista as ofertas que você criou.
 
 1. Repita as etapas de 3 a 5 para criar mais ofertas para o conjunto.
-1. Ao terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save*]** está selecionada (padrão).
-1. Selecionar **[!UICONTROL Close]**, insira um nome para o conjunto de ofertas e selecione **[!UICONTROL Save]**.
+1. Ao concluir, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save*]** está selecionada (padrão).
+1. Selecionar **[!UICONTROL Close]**, digite um nome para o conjunto de ofertas e selecione **[!UICONTROL Save]**.
 
-Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie a oferta para Adobe Target Standard/Premium. Consulte [Encaminhar conjuntos de ofertas para o Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie o conjunto de ofertas para o Adobe Target Standard/Premium. Consulte [Encaminhar conjuntos de ofertas para Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Criar um conjunto de ofertas com imagens ou vídeos {#creating-an-offer-set-with-images-or-videos}
 
-Ao criar um Conjunto de ofertas, a variável **[!UICONTROL Publish after save]** afeta o conjunto e o conjunto de membros das seguintes maneiras:
+Ao criar um Conjunto de ofertas, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
 
-| **[!UICONTROL Publish after save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
+| **[!UICONTROL Publish after save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
-| Não | Não publicado | Os membros do conjunto mantêm seu estado publicado ou não publicado. |
+| Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
 
-Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para criar um conjunto de ofertas com imagens ou vídeos:**
 
-1. Monte imagens ou vídeos para o conjunto de ofertas. Comece na tela Conjunto de Ofertas do Test&amp;Target ou na Exibição de Grade ou em Lista e use um dos seguintes métodos:
+1. Monte imagens ou vídeos para o conjunto de ofertas. Comece na tela Conjunto de ofertas Test&amp;Target ou na Exibição em grade ou em lista e use um dos seguintes métodos:
 
-   * **Tela Conjunto de ofertas do Test&amp;Target** - Ir para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar vários tamanhos de vídeos ou imagens, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
+   * **Tela Conjunto de ofertas Test&amp;Target** - Vá para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar vídeos ou imagens de tamanhos variados, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
 
-   * **Exibição de Grade ou Exibição de Lista** - Selecione as imagens ou os vídeos e acesse **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
+   * **Exibição em grade ou em lista** - Selecione as imagens ou vídeos e vá para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
 
-1. Como opção, selecione uma imagem ou vídeo e selecione **[!UICONTROL Preview]**. Na página Visualizar ofertas , é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no conjunto de ofertas.
+1. Como opção, selecione uma imagem ou vídeo e **[!UICONTROL Preview]**. Na página Visualizar ofertas, é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no conjunto de ofertas.
 
    * Escolha uma predefinição para alterar a aparência e o tamanho da imagem ou do vídeo.
-   * Para aplicar a predefinição escolhida para todas as ofertas no conjunto de ofertas, selecione a variável **[!UICONTROL Select Presets to All]** caixa de seleção.
+   * Para aplicar a predefinição escolhida a todas as ofertas do conjunto de ofertas, selecione a **[!UICONTROL Select Presets to All]** caixa de seleção
 
-   Selecionar **[!UICONTROL Save]** para salvar as alterações na oferta de imagem ou vídeo. Em seguida, selecione **[!UICONTROL Close]** para retornar à página Conjunto de Ofertas do Test&amp;Target.
+   Selecionar **[!UICONTROL Save]** para salvar as alterações na oferta de imagem ou vídeo. Em seguida, selecione **[!UICONTROL Close]** para retornar à página Conjunto de ofertas Test&amp;Target.
 
 1. Depois de concluir a criação de ofertas para o conjunto de ofertas e escolher Predefinições de imagem para imagens diferentes, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]** e insira um nome para o conjunto de ofertas e selecione **[!UICONTROL Save]**.
 
-Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie a oferta para Adobe Target Standard/Premium. Consulte [Encaminhar conjuntos de ofertas para o Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie o conjunto de ofertas para o Adobe Target Standard/Premium. Consulte [Encaminhar conjuntos de ofertas para Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Editar um conjunto de ofertas {#editing-an-offer-set}
 
-Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** afeta o conjunto e o conjunto de membros das seguintes maneiras:
+Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
 
-| Definir já publicado? | **[!UICONTROL Publish after save]** opção selecionada antes de salvar a edição? | Estado do conjunto após salvar | Estado dos membros do conjunto após salvar |
+| Conjunto já publicado? | **[!UICONTROL Publish after save]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- | --- |
 | Sim | Sim | Publicado | Publicado |
-| Sim | Não | Publicado | Os membros do conjunto existente mantêm seu estado publicado. Qualquer novo conjunto de membros adicionado durante a edição manterá o estado publicado ou não. |
+| Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |
 | Não | Sim | Publicado | Publicado |
-| Não | Não | Não publicado | Os membros do conjunto existente e quaisquer novos membros do conjunto adicionados durante a edição mantêm o estado publicado ou não. |
+| Não | Não | Não publicado | Os membros do conjunto existentes e os novos membros do conjunto adicionados durante a edição mantêm seus estados publicado ou não. |
 
-Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para editar um conjunto de ofertas:**
 
-1. Para editar um conjunto de ofertas, exiba o conjunto de ofertas na Exibição de Grade ou na Exibição de Lista e selecione seu **[!UICONTROL Edit]** botão de sobreposição.
-1. Na página Conjunto de ofertas do Test&amp;Target, execute um dos seguintes procedimentos:
+1. Para editar um conjunto de ofertas, exiba o conjunto de ofertas na Exibição de grade ou na Exibição de lista e selecione seu **[!UICONTROL Edit]** botão de rolagem.
+1. Na página Conjunto de ofertas Test&amp;Target, siga um destes procedimentos:
 
    * **Remoção de uma oferta** - Selecione a oferta e selecione **[!UICONTROL Delete]** para remover uma oferta do conjunto.
-   * **Adição de uma oferta** - A forma como você adiciona uma oferta depende do tipo de conjunto de ofertas com o qual você está trabalhando:
-      * **Modelos** - Selecionar **[!UICONTROL Add & Preview]** e, na página Adicionar e visualizar ofertas , crie outra oferta.
+   * **Adição de uma oferta** - A maneira como você adiciona uma oferta depende do tipo de conjunto de ofertas com o qual você está trabalhando:
+      * **Modelos** - Selecionar **[!UICONTROL Add & Preview]**, e na página Adicionar e visualizar ofertas, crie outra oferta.
       * **Imagens e vídeos** - Arraste uma imagem ou vídeo para a página Conjunto de ofertas do Test&amp;Target.
 
    >[!NOTE]
    >
-   >Não é possível excluir um conjunto de ofertas associado a uma campanha. Para excluir um conjunto de ofertas associado a uma campanha, faça logon no Adobe Target Standard/Premium e remova as associações de campanha primeiro. Mesmo depois de cancelar a associação de uma campanha, o ativo só pode ser excluído do Adobe Dynamic Media Classic, exigindo um logon no Adobe Target Standard/Premium e não do Adobe Target Standard/Premium.
+   >Não é possível excluir um conjunto de ofertas associado a uma campanha. Para excluir um conjunto de ofertas associado a uma campanha, faça logon no Adobe Target Standard/Premium e remova as associações de campanha primeiro. Mesmo depois de desassociar-se de uma campanha, o ativo só pode ser excluído do Adobe Dynamic Media Classic, o que exige um logon no Adobe Target Standard/Premium, e não do Adobe Target Standard/Premium.
 
-1. Ao terminar a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
-1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, insira um nome para o conjunto e selecione **[!UICONTROL Save]**.
+1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
 ## Excluir um conjunto de ofertas {#deleting-an-offer-set}
 
-Ao excluir um Conjunto de ofertas, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) desse conjunto não são afetados; em vez disso, cada um mantém seu estado publicado ou não publicado.
+Quando você exclui um Conjunto de ofertas, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 
-Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para excluir um conjunto de ofertas:**
 
-1. Na Exibição de Grade, Exibição de Lista ou Exibição de Detalhes, selecione um conjunto de ofertas ou mais.
+1. Na Exibição em Grade, Exibição em Lista ou Exibição de Detalhes, selecione um conjunto de ofertas ou mais.
 1. Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Delete]** > **Excluir**.
 
 >[!MORELIKETHIS]

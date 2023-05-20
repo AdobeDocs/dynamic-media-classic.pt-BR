@@ -1,5 +1,5 @@
 ---
-title: Obter informações sobre o uso do disco
+title: Obter informações de uso do disco
 description: Saiba como obter informações de uso do disco no Adobe Dynamic Media Classic.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# Obter informações sobre o uso do disco {#getting-disk-usage-information}
+# Obter informações de uso do disco {#getting-disk-usage-information}
 
-Você pode usar o `disk_info` para recuperar informações sobre o uso do espaço em disco de uma empresa, como mostrado no exemplo a seguir:
+Você pode usar o `disk_info` para recuperar informações sobre o uso de espaço em disco de uma empresa, conforme mostrado no exemplo a seguir:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63
 ```
 
-Um exemplo de resposta é semelhante ao seguinte:
+Uma resposta de amostra é semelhante ao seguinte:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -42,14 +42,14 @@ Um exemplo de resposta é semelhante ao seguinte:
 </scene7>
 ```
 
-Você pode usar os seguintes campos na string de consulta de URL para obter informações de uso do disco:
+Você pode usar os seguintes campos na string de consulta do URL para obter informações de uso do disco:
 
 | Parâmetro de URL | Obrigatório/opcional | Valor |
 | --- | --- | --- |
 | op | Obrigatório | disk_info |
-| shared_secret | Obrigatório | A chave secreta compartilhada para a empresa |
+| shared_secret | Obrigatório | A chave de segredo compartilhado da empresa |
 
-O código de amostra a seguir obtém informações do disco para a empresa 000Empresa:
+O código de exemplo a seguir obtém informações do disco para 000Empresa:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602

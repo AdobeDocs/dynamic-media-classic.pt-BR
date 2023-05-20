@@ -20,23 +20,23 @@ ht-degree: 0%
 
 O uso do UGC (conteúdo gerado pelo usuário) consiste em fazer upload de ativos para um repositório de armazenamento dedicado do Adobe Dynamic Media Classic e executar operações relacionadas.
 
-O UGC suporta formatos de arquivo de imagem rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
+O UGC suporta formatos de arquivos de imagem rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
 >
->A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso em até 60 dias a partir da data de upload. Após 60 dias, os ativos serão removidos.
+>A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso por até 60 dias a partir da data do upload. Após 60 dias, os ativos serão removidos.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!NOTE]
 >
->O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
+>O suporte a ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 
-Antes de fazer upload de ativos, você obtém uma chave secreta compartilhada. Use essa chave para recuperar um token de upload. Você envia o token de upload quando carrega ativos e executa outras tarefas UGC.
+Antes de carregar ativos, você obtém uma chave de segredo compartilhado. Você usa essa chave para recuperar um token de upload. Você envia o token de upload ao fazer upload de ativos e executar outras tarefas de UGC.
 
-Depois de recuperar uma chave secreta compartilhada e um token de upload, você pode executar as seguintes operações para o conteúdo gerado pelo usuário:
+Depois de recuperar uma chave de segredo compartilhado e fazer upload do token, você pode executar as seguintes operações para o conteúdo gerado pelo usuário:
 
-* Faça upload de um ativo.
+* Fazer upload de um ativo.
 * Obter metadados de ativos de imagem.
 * Exclua um ativo carregado.
-* Obtenha informações sobre o uso de espaço em disco de uma empresa.
+* Obter informações sobre o uso de espaço em disco de uma empresa.

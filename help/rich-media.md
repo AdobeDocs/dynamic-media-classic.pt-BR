@@ -19,31 +19,31 @@ ht-degree: 0%
 
 # Mídia avançada{#rich-media}
 
-O Adobe Dynamic Media Classic oferece muitas ferramentas para criar mídia avançada. Você cria esses tipos de mídia avançada:
+O Adobe Dynamic Media Classic oferece muitas ferramentas para criar mídia avançada. Você pode criar estes tipos de mídia avançada:
 
-* **Catálogos eletrônicos** - apresente uma versão da Web interativa e habilitada para pesquisa do catálogo ou outro material de impressão. Crie áreas clicáveis (chamadas de Mapas de imagem) que mostram o conteúdo de sobreposição e permitem que os clientes rodem páginas, ampliem, panoramizem e anexem notas adesivas às páginas.
-Consulte [Início rápido: Catálogo eletrônico](/help/quick-start-ecatalog.md).
+* **eCatalogs** : apresente uma versão da Web interativa e ativada para pesquisa do catálogo ou outro material impresso. Crie áreas clicáveis (chamadas de Mapas de imagem) que mostram o conteúdo de sobreposição e permitem que os clientes girem páginas, ampliem, desloquem e anexem notas adesivas a páginas.
+Consulte [Início rápido: eCatalog](/help/quick-start-ecatalog.md).
 
-* **eVideo** - Forneça experiências de vídeo de alta qualidade para várias telas, incluindo desktops, dispositivos móveis e tablets. Use predefinições de codificação predefinidas do Adobe Dynamic Media Classic ou personalize a codificação para controlar a qualidade e o tamanho do vídeo. Organize, navegue e pesquise vídeos com suporte completo a metadados para o gerenciamento eficiente dos ativos de vídeo.
-Consulte [Início rápido: Vídeo no Adobe Dynamic Media Classic](/help/quick-start-video.md).
+* **eVideo** - Ofereça experiências de vídeo de alta qualidade para várias telas, incluindo desktops, dispositivos móveis e tablets. Use predefinições de codificação predefinidas do Adobe Dynamic Media Classic ou personalize a codificação para controlar a qualidade e o tamanho do vídeo. Organize, navegue e pesquise vídeos com suporte completo a metadados para obter um gerenciamento eficiente dos ativos de vídeo.
+Consulte [Início rápido: vídeo no Adobe Dynamic Media Classic](/help/quick-start-video.md).
 
-* **Mapas de imagem** - Servir imagens dinamicamente em qualquer tamanho e formato em todo o seu site. Em vez de criar manualmente muitas imagens em tamanhos diferentes, você só usa uma imagem primária. Como o Adobe Dynamic Media Classic fornece a imagem solicitada, ele otimiza a imagem para obter resultados de maior qualidade em tamanho, formato, peso, qualidade e nitidez.
-Consulte [Início rápido: Dimensionamento de imagem](/help/quick-start-image-sizing.md).
+* **Mapas de imagem** - Fornecer imagens dinamicamente, em qualquer tamanho e formato, em todo o site. Em vez de criar manualmente muitas imagens em tamanhos diferentes, use apenas uma imagem principal. À medida que o Adobe Dynamic Media Classic entrega a imagem solicitada, ele otimiza a imagem para obter resultados da mais alta qualidade em tamanho, formato, peso, qualidade e nitidez.
+Consulte [Início rápido: dimensionamento de imagem](/help/quick-start-image-sizing.md).
 
-* **Conjuntos de imagens** - Forneça uma experiência de compra interativa na qual os usuários possam visualizar produtos em várias exibições. É possível combinar zoom, várias exibições e amostras de cores para uma experiência de visualização integrada.
-Consulte [Início rápido: Conjuntos de imagens](/help/quick-start-image-sets.md).
+* **Conjuntos de imagem** - Fornecer uma experiência de compra interativa na qual os usuários podem visualizar produtos em várias visualizações. É possível combinar zoom, várias exibições e amostras de cores para obter uma experiência de visualização integrada.
+Consulte [Início rápido: conjuntos de imagens](/help/quick-start-image-sets.md).
 
-* **Conjuntos de mídia mista** - Forneça uma combinação de conjuntos de imagens, conjuntos de rotação, conjuntos de amostras, metas de zoom, vídeo e áudio em uma apresentação. Você pode configurar conjuntos de mídias mistas com guias para separar vídeos de imagens. Você também pode especificar onde e como exibir amostras e metas de zoom e fornecer aos usuários uma visualização multimídia completa de seus produtos ou serviços.
-Consulte [Início rápido: Conjuntos de mídia mista](/help/quick-start-mixed-media-sets.md).
+* **Conjuntos de mídia mista** - Fornecer uma combinação de conjuntos de imagens, conjuntos de rotação, conjuntos de amostras, destinos de zoom, vídeo e áudio em uma apresentação. Você pode configurar conjuntos de mídias mistas com guias para separar vídeos de imagens. Você também pode especificar onde e como exibir amostras e destinos de zoom e fornecer aos usuários uma visualização multimídia completa de seus produtos ou serviços.
+Consulte [Início rápido: conjuntos de mídia mista](/help/quick-start-mixed-media-sets.md).
 
-* **Conjuntos de rotação** - Imagens de sequência para girá-las horizontalmente. Os Conjuntos de rotação permitem que os visitantes do site transformem produtos e os visualizem de diferentes lados. Você pode criar Conjuntos de rotação unidimensionais e bidimensionais.
-Consulte [Início rápido: Conjuntos de rotação](/help/quick-start-spin-sets.md).
+* **Conjuntos de rotação** - Sequenciar imagens para girá-las horizontalmente. Os Conjuntos de rotação permitem que os visitantes do site direcionem os produtos e os visualizem de lados diferentes. É possível criar Conjuntos de rotação unidimensionais e bidimensionais.
+Consulte [Início rápido: conjuntos de rotação](/help/quick-start-spin-sets.md).
 
-* **Conjuntos de amostras** - Forneça uma experiência de compra interativa na qual os usuários possam visualizar produtos com cores e padrões diferentes. É possível combinar zoom, várias exibições e amostras de cores para uma experiência de visualização integrada.
-Consulte [Início rápido: Conjuntos de amostras](/help/quick-start-swatch-sets.md).
+* **Conjuntos de amostras** - Ofereça uma experiência de compra interativa na qual os usuários possam visualizar produtos em diferentes cores e padrões. É possível combinar zoom, várias exibições e amostras de cores para obter uma experiência de visualização integrada.
+Consulte [Início rápido: conjuntos de amostras](/help/quick-start-swatch-sets.md).
 
-* **Noções básicas do modelo** - Crie modelos orientados por dados que combinam fontes, imagens e gráficos para programação, personalização online e promoções. Por exemplo, venda de camadas ou outros gráficos promocionais em imagens de produtos ou colocar os nomes dos clientes em T-shirts ou canecas de café. Os clientes podem ver seus nomes em mensagens de email ou brochuras impressas enviadas para eles.
-Consulte [Início rápido: Noções básicas do modelo](/help/quick-start-template-basics.md).
+* **Noções básicas de modelo** : crie modelos orientados por dados que combinam fontes, imagens e gráficos para monogramação, personalização online e promoções. Por exemplo, venda em camadas ou outros gráficos promocionais em imagens de produtos ou coloque os nomes dos clientes em camisetas ou canecas de café. Os clientes podem ver seus nomes em mensagens de e-mail ou imprimir folhetos enviados a eles.
+Consulte [Início rápido: Noções básicas de modelo](/help/quick-start-template-basics.md).
 
-* **Metas de zoom** - Permite que os clientes ampliem, diminuam o zoom e desloquem imagens usando os visualizadores configuráveis que vêm com o Adobe Dynamic Media Classic. Os clientes podem visualizar de forma rápida e interativa detalhes de produtos de alta resolução.
+* **Destinos de zoom** - Permite que os clientes ampliem, reduzam e desloquem imagens com o uso dos visualizadores configuráveis que acompanham o Adobe Dynamic Media Classic. Os clientes podem visualizar detalhes de produtos de alta resolução de maneira rápida e interativa.
 Consulte [Início rápido: Zoom](/help/quick-start-zoom.md).

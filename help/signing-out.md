@@ -1,6 +1,6 @@
 ---
-title: Faça logon no Adobe Dynamic Media Classic e saia dele
-description: Saiba mais sobre como fazer logon no Adobe Dynamic Media Classic e se conectar a um servidor de ambiente de produção na América do Norte (NA) ou Europa, Oriente Médio, África (EMEA) ou Pacífico Asiático (APAC).
+title: Fazer logon ou logoff do Adobe Dynamic Media Classic
+description: Saiba mais sobre como fazer logon ou logon no Adobe Dynamic Media Classic e conectar-se a um servidor de ambiente de produção na América do Norte (NA) ou na Europa, Oriente Médio, África (EMEA) ou Ásia-Pacífico (APAC).
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,26 +19,26 @@ ht-degree: 0%
 
 # Fazer logon no Adobe Dynamic Media Classic {#dmc-sign-in}
 
-Certifique-se de ter o seguinte antes de usar o aplicativo de desktop do Adobe Dynamic Media Classic:
+Verifique se você tem o seguinte antes de usar o aplicativo de desktop do Adobe Dynamic Media Classic:
 
-* **Nome do usuário** - Você usa seu endereço de email como nome de logon.
+* **Nome do usuário** - Use seu endereço de e-mail como nome de login.
 
-* **Senha** - Você obtém sua senha temporária em um email de &quot;Boas-vindas&quot; do Adobe Dynamic Media Classic ou do administrador do Adobe Dynamic Media Classic. Na primeira vez que você entrar, será solicitado a alterar essa senha temporária.
+* **Senha** - Você obtém sua senha temporária em um email de &quot;Boas-vindas&quot; da Adobe Dynamic Media Classic ou do administrador do Adobe Dynamic Media Classic. Na primeira vez que fizer logon, você será solicitado a alterar essa senha temporária.
 
 1. Abra o aplicativo de desktop do Adobe Dynamic Media Classic.
 
    ![Logon no Adobe Dynamic Media Classic](/help/assets/dmclassic-login1.png)
 
-1. No **[!UICONTROL User Name]** digite seu endereço de email.
+1. No **[!UICONTROL User Name]** insira seu endereço de e-mail.
 1. No **[!UICONTROL Password]** digite a senha.
-1. No **[!UICONTROL Server]** selecione um servidor na lista suspensa.
+1. No **[!UICONTROL Server]** selecione um servidor.
 Use o mapeamento a seguir para selecionar o ambiente de produção que deseja usar.
 
    | URL do navegador | Nome do servidor de aplicativos de desktop |
    | --- | --- |
    | https://s7sps1.scene7.com/ | Produção de NA (América do Norte) |
-   | https://s7sps3.scene7.com/ | Produção da EMEA (Europa, Oriente Médio e África) |
-   | https://s7sps5.scene7.com/ | Produção de APAC (Ásia-Pacífico) |
+   | https://s7sps3.scene7.com/ | Produção na EMEA (Europa, Oriente Médio e África) |
+   | https://s7sps5.scene7.com/ | Produção da APAC (Ásia-Pacífico) |
 
 1. Selecionar **[!UICONTROL Sign in]**.
 

@@ -1,6 +1,6 @@
 ---
-title: Sobre upload e publicação de ativos
-description: Saiba como fazer upload e publicar ativos no Adobe Dynamic Media Classic.
+title: Sobre o upload e a publicação de ativos
+description: Saiba como fazer upload e publicar de ativos no Adobe Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 ---
 
-# Sobre upload e publicação de ativos {#about-uploading-and-publishing-assets}
+# Sobre o upload e a publicação de ativos {#about-uploading-and-publishing-assets}
 
 Seu trabalho no Adobe Dynamic Media Classic se enquadra em três áreas básicas:
 
-* Upload de ativos de arquivo no Adobe Dynamic Media Classic.
-* Gerencie seus arquivos para usá-los na criação de ativos de mídia avançada.
-* Publique seus arquivos de ativos em um servidor do Dynamic Media Classic para que fiquem disponíveis para entrega em seu site e aplicativo.
+* Fazer upload de ativos de arquivo para o Adobe Dynamic Media Classic.
+* Gerenciamento de arquivos para que você possa usá-los para criar ativos de mídia avançada.
+* Publicar seus arquivos de ativos em um servidor do Dynamic Media Classic para que eles estejam disponíveis para entrega em seu site e aplicativo.
 
-Ao fazer upload de arquivos de ativos para o Adobe Dynamic Media Classic e ao publicar arquivos de ativos em servidores Adobe Dynamic Media Classic, o sistema registra essas transferências de arquivos na página **[!UICONTROL Jobs]**. Você pode acessar esta página para acompanhar e monitorar suas atividades de upload e publicação.
+Ao fazer upload de arquivos de ativos para o Adobe Dynamic Media Classic e publicar arquivos de ativos nos servidores da Adobe Dynamic Media Classic, o sistema registra essas transferências de arquivos no **[!UICONTROL Jobs]** página. Você pode ir para esta página para rastrear e monitorar suas atividades de upload e publicação.
 
 >[!NOTE]
 >
->Quando você carrega um arquivo, o Adobe Dynamic Media Classic gera o URL para o arquivo. Esse URL não fica ativo até que você publique o arquivo.
+>Ao fazer upload de um arquivo, o Adobe Dynamic Media Classic gera o URL do arquivo. Este URL não estará ativo até que você publique o arquivo.
 
 <!-- >[!NOTE]
 >

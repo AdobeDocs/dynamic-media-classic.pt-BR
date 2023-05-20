@@ -1,6 +1,6 @@
 ---
-title: Funções de usuário do Media Portal
-description: Saiba mais sobre as várias funções de usuário disponíveis no Media Portal no Adobe Dynamic Media Classic.
+title: Funções de usuário do Portal de mídia
+description: Saiba mais sobre as várias funções de usuário disponíveis no Portal de mídia no Adobe Dynamic Media Classic.
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: Rick Brough
 content-type: reference
@@ -17,27 +17,27 @@ ht-degree: 0%
 
 ---
 
-# Funções de usuário do Media Portal{#media-portal-user-roles}
+# Funções de usuário do Portal de mídia{#media-portal-user-roles}
 
-O Media Portal fornece as seguintes funções, cada uma com direitos de acesso e permissões diferentes. Ao inscrever um usuário, você atribui uma das seguintes funções a ele:
+O Media Portal fornece as seguintes funções, cada uma com direitos de acesso e permissões diferentes. Ao inscrever um usuário, você atribui a ele uma das seguintes funções:
 
-* **[!UICONTROL Media Portal Administrator]** - Pode adicionar e remover administradores, colaboradores e usuários. O administrador também pode definir direitos de acesso de grupo, gerenciar contas FTP, atribuir formatos de conversão aprovados pela empresa (predefinições), enviar e-mail para usuários do Media Portal e exibir o uso do portal e os relatórios de armazenamento.
+* **[!UICONTROL Media Portal Administrator]** - Pode adicionar e remover administradores, colaboradores e usuários. O administrador também pode definir direitos de acesso a grupos, gerenciar contas FTP, atribuir formatos de conversão (predefinições) aprovados pela empresa, enviar emails para usuários do Media Portal e exibir o uso do portal e os relatórios de armazenamento.
 
-* **[!UICONTROL Media Portal User]** - Tem acesso a pastas e arquivos. Um usuário só pode navegar, visualizar e baixar arquivos. Essa função é adequada para parceiros de canal ou de serviço que precisam acessar seus ativos aprovados pela empresa.
+* **[!UICONTROL Media Portal User]** - Tem acesso a pastas e arquivos. Um usuário só pode navegar, visualizar e baixar arquivos. Essa função é adequada para parceiros de canal ou serviço que precisam de acesso aos ativos aprovados pela empresa.
 
-* **[!UICONTROL Media Portal Contributor]** - Pode carregar, visualizar e navegar em arquivos e metadados em áreas para as quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
+* **[!UICONTROL Media Portal Contributor]** - Pode fazer upload, pré-visualizar e procurar arquivos e metadados em áreas às quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
 
-* **[!UICONTROL Media Portal Contributor-User]** - Tem acesso a pastas e arquivos. Um usuário do contribuidor pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários colaboradores podem alterar os nomes dos arquivos, mover os arquivos para pastas diferentes e excluir arquivos.
+* **[!UICONTROL Media Portal Contributor-User]** - Tem acesso a pastas e arquivos. Um usuário colaborador pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários do Colaborador podem alterar os nomes dos arquivos, movê-los para pastas diferentes e excluí-los.
 
 Esta tabela descreve as tarefas que os usuários com diferentes funções podem realizar. Administradores e colaboradores-usuários podem realizar todas as tarefas listadas nesta tabela:
 
-| Tarefa | Usuário | Colaborador | Contribuidor-usuário |
+| Tarefa | Usuário | Colaborador | Colaborador-Usuário |
 | --- | --- | --- | --- |
 | Procurar pastas e arquivos | X | X | X |
-| Navegar pelos metadados | X | X | X |
+| Procurar metadados | X | X | X |
 | Visualizar arquivos | X | X | X |
-| Procurar ficheiros | X | X | X |
-| Upload de arquivos para o Adobe Dynamic Media Classic |  | X | X |
+| Procurar arquivos | X | X | X |
+| Fazer upload de arquivos para o Adobe Dynamic Media Classic |  | X | X |
 | Editar e importar metadados de ativos |  | X | X |
 | Criar, renomear e excluir pastas |  | X | X |
 | Exportar metadados de ativos | X |  | X |

@@ -1,6 +1,6 @@
 ---
 title: Configuração pessoal
-description: Todos os usuários podem alterar as configurações na tela Configuração pessoal do Adobe Dynamic Media Classic.
+description: Todos os usuários podem alterar configurações na tela Configuração pessoal do Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: Rick Brough
 content-type: reference
@@ -19,34 +19,34 @@ ht-degree: 0%
 
 # Configuração pessoal {#personal-setup}
 
-Todos os usuários podem alterar as configurações na tela Configuração pessoal. Para abrir a tela Configuração pessoal, vá para **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+Todos os usuários podem alterar configurações na tela Configuração Pessoal. Para abrir a tela Configuração pessoal, vá para **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 
 >[!NOTE]
 >
->A tela Configuração pessoal lista qual função de usuário você tem no Adobe Dynamic Media Classic: Administrador, Administrador ou Usuário da Empresa.
+>A tela Configuração pessoal lista a função de usuário que você tem no Adobe Dynamic Media Classic: Administrador da empresa, Administrador ou Usuário.
 
-As configurações de Configuração pessoal controlam o comportamento padrão do Painel de navegação, como você recebe e-mail e as configurações de senha. Lembrar para selecionar **[!UICONTROL Save]** depois de alterar essas configurações.
+As configurações de Configuração pessoal controlam o comportamento padrão do Painel de navegação, como você recebe configurações de email e senha. Lembre-se de selecionar **[!UICONTROL Save]** depois de alterar essas configurações.
 
-## Informações da Minha Conta
+## Informações da Minha conta
 
 Identifica o nome da conta, o nome, o nome de usuário (endereço de email) e a função de usuário atribuída.
 
 ## Desktop
 
-* **Limpar Cache de Imagem** - Remove todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador.
-* **Limpar Cache de Ativos** - Remove todos os arquivos de ativos em cache do Adobe Dynamic Media do seu computador.
+* **Limpar cache de imagem** - Remove todos os arquivos de imagem em cache do Adobe Dynamic Media do computador.
+* **Limpar cache de ativos** - Remove todos os arquivos de ativos de caches Adobe Dynamic Media do computador.
 
 Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos. Com base no seu sistema operacional, navegue até o seguinte:
 
 * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
 * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Extensão Creative Suite
+## Extensão do Creative Suite
 
-**Para instalar a extensão Adobe Dynamic Media Creative Suite:**
+**Para instalar o Adobe Dynamic Media Creative Suite Extension:**
 
-1. No Adobe Dynamic Media Classic, na barra de ferramentas, acesse **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Creative Suite Extension, selecione **[!UICONTROL Download Now]** para baixar a `s7csxs.zxp` arquivo.
-1. Selecione o **[!UICONTROL Installation]** e **[!UICONTROL System Requirements]** links para obter informações adicionais sobre a extensão do .
+1. No Adobe Dynamic Media Classic, na barra de ferramentas, acesse **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Extensão do Creative Suite, selecione **[!UICONTROL Download Now]** para baixar o `s7csxs.zxp` arquivo.
+1. Selecione o **[!UICONTROL Installation]** e **[!UICONTROL System Requirements]** links para obter informações adicionais sobre a extensão.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -72,45 +72,45 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Navegador
 
-* **[!UICONTROL Thumbnail Size]** - Determina o tamanho padrão de imagens em miniatura na Exibição de grade no Painel de navegação.
-* **[!UICONTROL Default Asset Library View]** - Determina se os ativos na Biblioteca de ativos para conjuntos de build aparecem como miniaturas ou por nome. Se você estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, é possível visualizar os ativos por nome. Por exemplo, se você estiver criando um grande eCatalog com muitos arquivos PDF, poderá exibir os ativos por nome para tornar a lista mais curta.
+* **[!UICONTROL Thumbnail Size]** - Determina o tamanho padrão das imagens em miniatura no Modo de exibição de grade no Painel de navegação.
+* **[!UICONTROL Default Asset Library View]** - Determina se os ativos na Biblioteca de ativos para conjuntos de builds aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, se estiver criando um eCatalog grande com muitos arquivos PDF, você pode visualizar os ativos por nome para encurtar a lista.
 * **[!UICONTROL Default Browse Sort Order]** - Determina a ordem em que os ativos aparecem por padrão no Painel de navegação. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
-* **[!UICONTROL Default Browse Location]** - Permite definir o local do navegador para o padrão, a última pasta navegada ou para um local específico no qual você navega e identifica. Você também pode definir o local do navegador para classificar os arquivos e pastas em ordem crescente ou decrescente.
-* **[!UICONTROL Default Browse View]** - Determina se a Exibição de Grade ou de Lista é a exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.
-* **[!UICONTROL Splash Screen Display]** - Determina se você vê alguma tela inicial, incluindo a tela inicial de Boas-vindas.
-* **[!UICONTROL Show ToolTips]** - Determina se as dicas de ferramentas aparecem quando você move o ponteiro sobre botões, menus e links de navegação. As dicas de ferramentas descrevem os itens da interface do usuário na tela.
-* **[!UICONTROL Checkerboard Background]** - Exibe uma camada de tabuleiro atrás de imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
-* **[!UICONTROL Show File Size]** - Exibe o tamanho do arquivo de um ativo durante a navegação.
-* **[!UICONTROL Include UDFs in Search]** - Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados executadas, desmarcado (padrão).
+* **[!UICONTROL Default Browse Location]** - Permite definir o local de navegação como padrão, a última pasta pesquisada ou um local específico para o qual você navega e identifica. Você também pode definir o local de navegação para classificar os arquivos e pastas em ordem crescente ou decrescente.
+* **[!UICONTROL Default Browse View]** - Determina se a exibição em grade ou em lista é a exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.
+* **[!UICONTROL Splash Screen Display]** - Determina se você verá alguma tela inicial, incluindo a tela inicial de boas-vindas.
+* **[!UICONTROL Show ToolTips]** - Determina se as dicas de ferramentas aparecem quando você move o ponteiro sobre botões, menus e links de navegação. As dicas de ferramentas descrevem itens da interface do usuário na tela.
+* **[!UICONTROL Checkerboard Background]** - Exibe uma camada xadrez atrás das imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
+* **[!UICONTROL Show File Size]** - Exibe o tamanho do arquivo de um ativo quando você está navegando.
+* **[!UICONTROL Include UDFs in Search]** - Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados executadas, desmarcada (padrão).
 
-   Se a maioria de suas pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, você poderá selecionar essa opção para ativá-los. Como alternativa, use a Pesquisa avançada para fornecer uma experiência de pesquisa mais direcionada e mais rápida do que incluir campos definidos pelo usuário.
+   Se a maioria das pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, é possível selecionar essa opção para ativá-la. Como alternativa, use a Pesquisa avançada para oferecer uma experiência de pesquisa mais direcionada e rápida do que a inclusão de campos definidos pelo usuário.
 
-   Consulte [Condução de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
+   Consulte [Realização de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
 
    Consulte também [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Basic Search Type]** - É possível selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a string completa para o valor especificado; **[!UICONTROL StartsWith]** pesquisa a partir do início da string e retorna os resultados mais rapidamente que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
-* **[!UICONTROL Show Command Feedback]** - Selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desligar.
-* **[!UICONTROL Show Dialog During Export]** - Selecione para mostrar uma caixa de diálogo pop-up durante uma exportação. Se você desmarcar (desativar) essa opção, ainda poderá acessar a página Trabalhos para recuperar os resultados da exportação.
+* **[!UICONTROL Basic Search Type]** - É possível selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a string inteira para o valor especificado; **[!UICONTROL StartsWith]** pesquisa desde o início da string e retorna resultados mais rapidamente do que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
+* **[!UICONTROL Show Command Feedback]** - Selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desativar.
+* **[!UICONTROL Show Dialog During Export]** - Selecione para mostrar uma caixa de diálogo pop-up durante uma exportação. Se você desmarcar (desativar) essa opção, ainda poderá ir para a página Trabalhos para recuperar os resultados da exportação.
 
-## Email
+## E-mail
 
-* **[!UICONTROL Email Options]** - Escolha como deseja que o Adobe Dynamic Media Classic o informe por e-mail quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de trabalho somente se ocorrerem avisos ou erros.
-* **[!UICONTROL Email Scope]** - Determina se você recebe todo o email de trabalho da sua empresa ou apenas o email sobre trabalhos de upload e publicação iniciados.
-* **[!UICONTROL Email Types]** - Determina se você é informado quando trabalhos de upload e publicação são concluídos.
+* **[!UICONTROL Email Options]** - Escolha como você deseja que o Adobe Dynamic Media Classic informe você por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de tarefas somente se ocorrerem avisos ou erros.
+* **[!UICONTROL Email Scope]** - Determina se você recebe todos os e-mails de trabalho da sua empresa ou somente e-mails sobre os trabalhos de upload e publicação iniciados.
+* **[!UICONTROL Email Types]** - Determina se você será informado quando os trabalhos de upload e de publicação forem concluídos.
 
 ## Idioma
 
-* **[!UICONTROL Preferred Language]** - Determina o idioma que deseja usar na interface.
+* **[!UICONTROL Preferred Language]** - Determina o idioma que você deseja usar para a interface.
 
 ## Senha
 
 * **[!UICONTROL Current Password]** - Digite a senha da sua senha atual.
 * **[!UICONTROL New Password]** - Digite uma senha nova e válida. Sua senha deve atender aos seguintes requisitos:
    * Ter entre 8 e 25 caracteres.
-   * Ter pelo menos uma letra minúscula.
-   * Ter pelo menos uma letra maiúscula.
+   * Contêm pelo menos uma letra minúscula.
+   * Contêm pelo menos uma letra maiúscula.
    * Ter pelo menos um número.
-   * Ter pelo menos um dos seguintes caracteres especiais: `# $ & - _ : { }`
-* **[!UICONTROL Re-Type Password]** - Insira novamente a nova senha para confirmar que está digitando corretamente.
-* **[!UICONTROL Password Expiration]** - Determina se a senha expira após 72 dias como medida de segurança. Se você selecionar Sim, será solicitado a criar uma senha após 72 dias.
+   * Conter pelo menos um dos seguintes caracteres especiais: `# $ & - _ : { }`
+* **[!UICONTROL Re-Type Password]** - Digite novamente a nova senha para confirmar que você a está digitando corretamente.
+* **[!UICONTROL Password Expiration]** - Determina se a senha expira após 72 dias como uma medida de segurança. Se você selecionar Sim, será solicitado que crie uma senha após 72 dias.

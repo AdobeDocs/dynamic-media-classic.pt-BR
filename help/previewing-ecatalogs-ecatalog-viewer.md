@@ -1,6 +1,6 @@
 ---
-title: Visualizar eCatalogs no Visualizador de Catálogo Eletrônico
-description: Saiba como visualizar eCatalogs no Visualizador de Catálogo Eletrônico no Adobe Dynamic Media Classic.
+title: Visualizar eCatalogs no Visualizador de eCatalog
+description: Saiba como visualizar eCatalogs no eCatalog Viewer no Adobe Dynamic Media Classic.
 uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: Rick Brough
 content-type: reference
@@ -17,29 +17,29 @@ ht-degree: 0%
 
 ---
 
-# Visualizar eCatalogs no Visualizador de Catálogo Eletrônico{#previewing-ecatalogs-in-the-ecatalog-viewer}
+# Visualizar eCatalogs no Visualizador de eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-Você pode usar Visualizar para exibir seu eCatalog usando diferentes Predefinições do visualizador do eCatalog. Você pode experimentar com diferentes controles para girar páginas, escrever notas autoadesivas e navegar.
+Você pode usar Visualizar para exibir seu eCatalog usando diferentes Predefinições do visualizador de eCatalog. Você pode experimentar os diferentes controles para virar páginas, escrever notas adesivas e navegar.
 
 Consulte [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers).
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 
-**Para visualizar eCatalogs no Visualizador de Catálogo Eletrônico:**
+**Para visualizar eCatalogs no eCatalog Viewer:**
 
-1. No painel Biblioteca de ativos, à esquerda, na lista suspensa Mostrar , selecione um tipo de ativo com base em vídeo, como Vídeo ou Conjunto de vídeos.
-1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas Ativos que contêm vídeos que você deseja visualizar com um Visualizador de catálogo eletrônico.
+1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione um tipo de ativo baseado em vídeo, como Vídeo ou Conjunto de vídeos.
+1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos que contêm vídeos que você deseja visualizar com um visualizador de eCatalog.
 1. Siga um destes procedimentos:
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
 1. Na janela Lista de visualizadores, na tabela, selecione um link de visualizador para visualizar o ativo no visualizador selecionado.
 1. Feche o visualizador exibido.
-1. No canto inferior direito da janela Lista de visualizadores, selecione **[!UICONTROL Close]** para retornar à tela Ativos .
+1. No canto inferior direito da janela Lista de visualizadores, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
 
 >[!MORELIKETHIS]
 >
->* [Configurar predefinições do visualizador de catálogo eletrônico](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)
+>* [Configurar Predefinições do Visualizador de eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)
 

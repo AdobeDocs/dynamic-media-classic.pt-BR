@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Exportar vídeos de origem e codificados{#exporting-source-and-encoded-videos}
 
-No painel Procurar, os vídeos de origem são rotulados *Vídeo principal*. Os vídeos codificados são rotulados *Vídeo*. Você pode exportar vídeos e vídeos primários. Para exportar arquivos de vídeo, selecione-os no painel Procurar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
+No painel Procurar, os vídeos de origem são rotulados *Vídeo principal*. Vídeos codificados são rotulados *Vídeo*. Você pode exportar vídeos e vídeos principais. Para exportar arquivos de vídeo, selecione-os no painel Procurar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
 
 Consulte [Exportar ativos do Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 

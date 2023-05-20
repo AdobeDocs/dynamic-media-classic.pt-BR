@@ -1,6 +1,6 @@
 ---
-title: Opções de suporte para Adobe Dynamic Media Classic
-description: Saiba mais sobre as opções de suporte técnico do Adobe Dynamic Media Classic.
+title: Opções de suporte para o Adobe Dynamic Media Classic
+description: Saiba mais sobre as opções de suporte técnico para o Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,24 +17,24 @@ ht-degree: 0%
 
 # Suporte {#support}
 
-As ofertas de suporte técnico foram projetadas para atender às necessidades de qualquer empresa de porte. A tabela a seguir descreve as ofertas de Atendimento ao cliente da Adobe Dynamic Media Classic:
+As ofertas de suporte técnico foram projetadas para atender às necessidades de empresas de qualquer porte. A tabela a seguir descreve as ofertas do Atendimento ao cliente da Adobe Dynamic Media Classic:
 
-| Suporte | Assinatura |
+| Suporte | Inscrição |
 | --- | --- |
-| Limite de casos | Ilimitado. |
-| Verifique o status do sistema do Adobe | [Status de sistema da Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Limite de caso | Ilimitado. |
+| Verifique o status do sistema Adobe | [Status do sistema Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
 | Não consegue encontrar uma resposta? | [Para obter ajuda do Suporte, abra um tíquete](https://experienceleague.adobe.com/?support-solution=General#support). |
-| Fórum da comunidade | [fórum da comunidade Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA (Contratos de nível de serviço) | [Serviços de suporte / Termos e condições](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Fórum da comunidade | [fórum da comunidade do Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| SLA (Service Level Agreements, contratos de nível de serviço) | [Serviços de suporte/Termos e condições](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Usuários suportados | Até dez usuários por organização podem ser designados como Usuários suportados, que podem abrir casos com o Atendimento ao cliente. |
-| Treinamento online gratuito e vídeos de instruções | Incluído. |
-| Suporte telefônico | <ul><li>EUA e Canadá: 1-800-497-0335 </li><li>[Números de telefone para outras regiões](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
+| Treinamento online gratuito e vídeos de instrução | Incluído. |
+| Suporte telefônico | <ul><li>EUA e Canadá: 1-800-497-0335 </li><li>[Números de telefone de outras regiões](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
-Ao relatar problemas ao Suporte técnico, inclua estas informações:
+Ao relatar problemas para o suporte técnico, inclua estas informações:
 
-* Nome da empresa do Adobe Dynamic Media Classic.
+* Nome da empresa Adobe Dynamic Media Classic.
 * Seu nome, número de telefone e endereço de email.
 * Aplicativo, plataforma e versão do Adobe Dynamic Media Classic.
 * Descrição do problema e as etapas necessárias para reproduzi-lo.

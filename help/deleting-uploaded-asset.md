@@ -42,25 +42,25 @@ Este é um exemplo de resposta quando um ativo de imagem é excluído:
 </scene7>
 ```
 
-Você pode usar os seguintes campos na sequência de consulta de URL para excluir um ativo:
+Você pode usar os seguintes campos na sequência de consulta do URL para excluir um ativo:
 
 | Parâmetro de URL | Obrigatório/opcional | Valor |
 | --- | --- | --- |
 | `op` | Obrigatório | excluir |
-| `shared_secret` | Obrigatório | A chave secreta compartilhada da empresa. |
+| `shared_secret` | Obrigatório | A chave de segredo compartilhado da empresa. |
 | `image_name` | Obrigatório | Nome do ativo a ser excluído. |
 
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso em até 60 dias a partir da data de upload. Após 60 dias, os ativos serão removidos.
+>A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso por até 60 dias a partir da data do upload. Após 60 dias, os ativos serão removidos.
 
 >[!NOTE]
 >
->O suporte para ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
+>O suporte a ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 
-**Exemplo de URL da imagem:**
+**Amostra da URL da imagem:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif`
 

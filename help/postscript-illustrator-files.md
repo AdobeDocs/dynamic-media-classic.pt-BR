@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Você pode usar os arquivos Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) no Adobe Dynamic Media Classic. O Adobe Dynamic Media Classic oferece comandos para configurar esses arquivos à medida que você os carrega.
 
-Ao carregar arquivos de imagem PostScript (EPS) ou Illustrator (AI), você pode formatá-los de várias maneiras. Você pode rasterizar os arquivos, convertê-los em FXG para publicação de modelos, manter o plano de fundo transparente, escolher uma resolução e escolher um espaço de cores. As opções para formatar arquivos PostScript e Illustrator estão disponíveis na tela Upload em Opções de PostScript e Opções do Illustrator na caixa Opções de trabalho de upload .
+Ao fazer upload de arquivos de imagem PostScript (EPS) ou Illustrator (AI), você pode formatá-los de várias maneiras. É possível rasterizar os arquivos, convertê-los em FXG para Publicação de Modelo, manter o plano de fundo transparente, escolher uma resolução e escolher um espaço de cores. As opções para formatar arquivos PostScript e Illustrator estão disponíveis na tela Fazer upload em Opções PostScript e Opções Illustrator na caixa Fazer upload de opções de trabalho.
 
-* **[!UICONTROL Processing]** - Choose **[!UICONTROL Rasterize]** para converter gráficos vetoriais no arquivo para o formato de bitmap.
+* **[!UICONTROL Processing]** - Escolher **[!UICONTROL Rasterize]** para converter gráficos vetoriais no arquivo para o formato bitmap.
 
-* **[!UICONTROL Maintain Transparent Background In Rendered Image]** - Mantém a transparência de plano de fundo do arquivo.
+* **[!UICONTROL Maintain Transparent Background In Rendered Image]** - Mantém a transparência de fundo do arquivo.
 
 * **[!UICONTROL Resolution]** - Determina a configuração da resolução. Essa configuração determina quantos pixels são exibidos por polegada no arquivo.
 
@@ -33,8 +33,8 @@ Ao carregar arquivos de imagem PostScript (EPS) ou Illustrator (AI), você pode 
 
    * **[!UICONTROL Detect Automatically]** - Mantém o espaço de cores do arquivo.
 
-   * **[!UICONTROL Force As RGB]** - Converte para o espaço de cores RGB.
+   * **[!UICONTROL Force As RGB]** - Converte para o espaço de cores do RGB.
 
    * **[!UICONTROL Force As CMYK]** - Converte para o espaço de cores CMYK.
 
-   * **[!UICONTROL Force As Grayscale]** - Converte para o espaço de cor Escala de Cinza.
+   * **[!UICONTROL Force As Grayscale]** - Converte para o espaço de cores Tons de cinza.

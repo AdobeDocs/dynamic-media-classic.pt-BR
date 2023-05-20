@@ -19,25 +19,25 @@ ht-degree: 0%
 
 # Gerenciar variações de conteúdo{#managing-content-variations}
 
-Use conjuntos de modelos para gerenciar a maneira como as variações de ativos são publicadas.
+Use conjuntos de modelos para gerenciar a forma como as variações de ativos são publicadas.
 
-Crie um conjunto de modelos para gerenciar variações de um modelo. Você pode controlar qual variação é usada sem alterar o código do site. Esse método ajuda os gerentes de conteúdo a girarem o conteúdo sem exigir que a TI altere um URL no código da Web.
+Crie um conjunto de modelos para gerenciar variações de um modelo. Você pode controlar qual variação é usada sem alterar o código no site. Esse método ajuda os gerentes de conteúdo a girar o conteúdo sem exigir que a TI altere um URL no código da Web.
 
-URLs universais são usados para exibir a variação do modelo que aparece na página, com base na ordem em que estão listados no conjunto. O modelo na parte superior da lista de conjuntos de modelos é sempre publicado.
+URLs universais são usados para exibir a variação de modelo exibida na página, com base na ordem em que são listados no conjunto. O modelo na parte superior da lista de conjuntos de modelos é sempre publicado.
 
-Você pode usar qualquer URL predefinido de imagem da lista. URLs predefinidos de imagem são como URLs universais. Pode haver mais de um URL predefinido de imagem.
+Você pode usar qualquer URL de predefinição de imagem da lista. URLs de predefinição de imagem são como URLs universais. Pode haver mais de um URL de predefinição de imagem.
 
 1. Ir para **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
-1. No construtor, selecione um modelo e depois selecione **[!UICONTROL Add/Preview]**.
-1. Modifique as propriedades do modelo e selecione **[!UICONTROL Save As]** para criar outra versão.
+1. No construtor, selecione um modelo e, em seguida, **[!UICONTROL Add/Preview]**.
+1. Modifique as propriedades do template e selecione **[!UICONTROL Save As]** para criar outra versão.
 1. Digite um nome e selecione **[!UICONTROL Save]**.
 
-   O ativo e o template devem ser publicados.
+   O ativo e o modelo devem ser publicados.
 
-1. Vá para a página Detalhes para obter um URL de cópia da seção URLs .
+1. Vá para a página Detalhes para obter uma cópia do URL da seção URLs.
 
-Você pode mover um modelo na ordem do modelo (por exemplo, para a parte superior da lista) arrastando-o para o novo local. Publique novamente para enviar o novo pedido.
+É possível mover um modelo na ordem do modelo (por exemplo, para a parte superior da lista) arrastando-o para o novo local. Publique novamente para enviar o novo pedido.
 
 >[!NOTE]
 >
->Se necessário, limpe o cache para ver as alterações. A alteração só aparece no site depois que a alteração passou pelo ciclo do cache.
+>Se necessário, limpe o cache para ver as alterações. A alteração só é exibida no site depois que ela passa pelo ciclo de cache.

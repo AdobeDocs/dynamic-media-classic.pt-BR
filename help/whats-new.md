@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # Novidades {#what-s-new}
 
-Para consultar as informações mais recentes da versão do Adobe Dynamic Media Classic, incluindo novos recursos, melhorias e correções, consulte o [Notas de versão da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+Para consultar as informações mais recentes da versão do Adobe Dynamic Media Classic, incluindo novos recursos, aprimoramentos e correções, consulte a [Notas de versão do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).

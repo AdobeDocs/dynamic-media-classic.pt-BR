@@ -19,19 +19,19 @@ ht-degree: 0%
 
 # Compartilhar alterações de ativos com colegas em tempo real{#sharing-asset-changes-with-peers-in-real-time}
 
-Com várias cópias do Adobe Dynamic Media Classic em execução em vários computadores na mesma empresa, as seguintes ações de qualquer cliente Adobe Dynamic Media Classic são atualizadas em tempo real com todos os clientes pares:
+Com várias cópias do Adobe Dynamic Media Classic sendo executadas em vários computadores na mesma empresa, as seguintes ações de qualquer cliente Adobe Dynamic Media Classic são atualizadas em tempo real com todos os clientes de mesmo nível:
 
-* Editar um ativo (construtor, editor de imagens e assim por diante)
+* Editar um ativo (construtor, editor de imagens etc.)
 * Renomear um ativo
 * Excluir um ativo
 * Mover um ativo
 * Fazer upload de um ou mais ativos (desktop e FTP)
 * Criar, excluir ou renomear uma pasta
 
-Depois que uma alteração é feita no cliente de origem, todos os clientes peer que entraram na mesma empresa são atualizados com a alteração. As alterações são feitas a pares sem notificação, a menos que o par edite um ativo em alteração em qualquer um dos editores ou construtores de imagem.
+Depois que uma alteração é feita no cliente de origem, todos os clientes de mesmo nível conectados à mesma empresa são atualizados com a alteração. As alterações são feitas em colegas sem notificação, a menos que o colega esteja editando um ativo em alteração em qualquer um dos editores ou construtores de imagem.
 
-Ao fazer logon, você será solicitado a permitir ou negar atualizações de peer. Você pode &quot;lembrar&quot; a escolha para ser solicitado apenas uma vez. Para limpar sua escolha, exclua o site apropriado do painel Peer Assisted Networking nas Configurações globais.
+Ao fazer logon, você será solicitado a permitir ou negar atualizações de colegas. Você pode &quot;lembrar&quot; a escolha para que seja solicitado apenas uma vez. Para limpar sua escolha, exclua o site apropriado do painel Rede assistida entre parceiros em Configurações globais.
 
-Se você estiver editando um ativo que é alterado por um par, será solicitado a assimilar a alteração no construtor ou editor. Se você escolher **[!UICONTROL Yes]**, o construtor ou editor descarta qualquer alteração feita no ativo e importa o ativo atualizado. Se você escolher **[!UICONTROL No]**, o ativo permanece inalterado no construtor ou editor e todas as alterações feitas persistem nessa sessão.
+Se você estiver editando um ativo que é alterado por um item de mesmo nível, será solicitado a assimilar a alteração no construtor ou editor. Se você escolher **[!UICONTROL Yes]**, o construtor ou editor descarta quaisquer alterações feitas no ativo e importa o ativo atualizado. Se você escolher **[!UICONTROL No]**, o ativo não é alterado no construtor ou editor e todas as alterações feitas persistem nessa sessão.
 
-Ao salvar o ativo, você é notificado de que existe uma versão mais recente e perguntado se deseja substituir o ativo por suas alterações.
+Ao salvar o ativo, você é notificado de que existe uma versão mais recente e perguntado se deseja substituir o ativo pelas alterações.

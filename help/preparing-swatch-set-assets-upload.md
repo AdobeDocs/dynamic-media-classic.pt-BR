@@ -1,6 +1,6 @@
 ---
-title: Preparar ativos do Conjunto de amostras para upload
-description: Saiba como preparar ativos de Conjunto de amostras para upload no Adobe Dynamic Media Classic.
+title: Preparar ativos do conjunto de amostras para upload
+description: Saiba como preparar ativos do conjunto de amostras para upload no Adobe Dynamic Media Classic.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: Rick Brough
 content-type: reference
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 ---
 
-# Preparar ativos do Conjunto de amostras para upload{#preparing-swatch-set-assets-for-upload}
+# Preparar ativos do conjunto de amostras para upload{#preparing-swatch-set-assets-for-upload}
 
-Antes de carregar as imagens necessárias, verifique se as imagens estão no tamanho e formato corretos. Além disso, monte os arquivos de amostra de que você precisa.
+Antes de carregar as imagens necessárias, verifique se as imagens têm o tamanho e o formato corretos. Também monte os arquivos de amostra necessários.
 
-Para criar um Conjunto de amostras, você precisa de vinhetas ou fotos diferentes da mesma imagem mostrando-a em cores, padrões ou finalizações diferentes. Você também precisa de arquivos de amostra que correspondam às diferentes cores, padrões ou finalizações. Por exemplo, para apresentar um Conjunto de amostras mostrando a mesma jaqueta em preto, marrom e verde, é necessário:
+Para criar um Conjunto de Amostras, você precisa de vinhetas ou de diferentes capturas da mesma imagem mostrando-o em cores, padrões ou acabamentos diferentes. Você também precisa de arquivos de amostra que correspondam às diferentes cores, padrões ou acabamentos. Por exemplo, para apresentar um Conjunto de amostras mostrando a mesma jaqueta em preto, marrom e verde, é necessário:
 
-* Um tiro preto, marrom e verde da mesma jaqueta.
+* Um tiro preto, marrom e verde do mesmo casaco.
 * Uma amostra de cor preta, marrom e verde.
 
-Como os usuários podem ampliar imagens em Conjuntos de amostras, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic oferece suporte a vários formatos de arquivo de imagem, mas as imagens TIFF, PNG e EPS sem perdas são recomendadas.
+Como os usuários podem ampliar imagens em Conjuntos de amostras, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas são recomendados TIFF, PNG e imagens EPS sem perdas.
 
-Para obter instruções detalhadas sobre como fazer upload de ativos, consulte [Upload de arquivos](uploading-files.md#uploading_files).
+Para obter instruções detalhadas sobre como fazer upload de ativos, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Trabalhar com arquivos de vinheta, cobertura de janela e gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Trabalhar com vinheta, cobertura de janelas e arquivos de gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

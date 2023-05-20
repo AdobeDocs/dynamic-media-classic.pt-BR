@@ -1,6 +1,6 @@
 ---
 title: Exibir conjuntos de amostras
-description: Saiba como visualizar Conjuntos de amostras no Adobe Dynamic Media Classic.
+description: Saiba como exibir Conjuntos de amostras no Adobe Dynamic Media Classic.
 uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: Rick Brough
 content-type: reference
@@ -19,48 +19,48 @@ ht-degree: 0%
 
 # Exibir conjuntos de amostras{#viewing-swatch-sets}
 
-Você pode exibir seus Conjuntos de amostras na janela Visualizar, usando as predefinições disponíveis. Você usa um Visualizador de Zoom: Predefinição personalizada do visualizador para conjuntos de amostras.
+É possível exibir os Conjuntos de amostras na janela Visualizar, usando as predefinições disponíveis. Use um Visualizador de zoom: Predefinição do visualizador personalizado para Conjuntos de amostras.
 
-O Adobe Dynamic Media Classic vem com as Predefinições do visualizador padrão. Os administradores podem criar ou modificar as Predefinições do visualizador.
+O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão. Os administradores podem criar ou modificar as Predefinições do visualizador.
 
-## Configurar predefinições do Visualizador de Zoom para Conjuntos de Amostras {#setting-up-zoom-viewer-presets-for-swatch-sets}
+## Configurar predefinições do visualizador de zoom para Conjuntos de amostras {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-Você pode criar e personalizar Predefinições do visualizador de acordo com suas necessidades.
+Você pode criar e personalizar as Predefinições do visualizador de acordo com suas necessidades.
 
-1. Na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Siga um destes procedimentos:
 
-   * Para criar uma predefinição, selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador , na lista suspensa Visualizador , escolha **[!UICONTROL Swatch Set Viewer]**, em seguida selecione **[!UICONTROL Add]**.
-   * Para editar uma predefinição de Visualizador de Conjunto de Amostras existente, selecione a predefinição e **[!UICONTROL Edit]**.
+   * Para criar uma predefinição, selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, na lista suspensa Visualizador, escolha **[!UICONTROL Swatch Set Viewer]** e selecione **[!UICONTROL Add]**.
+   * Para editar uma predefinição existente do Visualizador de conjunto de amostras, selecione a predefinição e, em seguida, **[!UICONTROL Edit]**.
 
-1. Na página Configurar Visualizador, no campo de texto Nome da predefinição , digite um nome para a predefinição do Visualizador do conjunto de amostras.
-1. Escolha opções na tela Configurar visualizador .
+1. Na página Configurar visualizador, no campo de texto Nome da predefinição, digite um nome para a predefinição do visualizador Conjunto de amostras.
+1. Escolha opções na tela Configurar Visualizador.
 
-   Para ver uma descrição de uma opção, selecione o **[!UICONTROL Info Tip]** à direita da opção .
+   Para ver uma descrição de uma opção, selecione a opção **[!UICONTROL Info Tip]** ícone à direita da opção.
 
-   A página Visualização exibe o visualizador conforme você atualiza e altera as configurações.
+   A página Visualizar exibe o visualizador à medida que você atualiza e altera as configurações.
 
 1. Selecionar **[!UICONTROL Save]**.
 
 ## Visualizar conjuntos de amostras em um visualizador {#previewing-swatch-sets-in-a-viewer}
 
-Você pode usar a Visualização para ver como um ativo aparece em um tipo de visualizador específico, como HTML5. Dependendo do tipo de ativo e do visualizador associado selecionado para visualização, nem todas as plataformas do tipo de visualizador estarão disponíveis em Visualização.
+É possível usar a Visualização para ver como um ativo é exibido em um tipo de visualizador específico, como HTML5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas do tipo de visualizador estão disponíveis em Visualização.
 
-1. No painel Biblioteca de ativos, no lado esquerdo, na **[!UICONTROL Show]** na lista suspensa, selecione um tipo de ativo com base em Conjunto de amostras, como **[!UICONTROL Swatch Set]**.
-1. No painel Biblioteca de ativos, à esquerda, navegue pelas pastas Ativos que contêm Conjunto de amostras que você deseja visualizar com um visualizador.
+1. No painel Biblioteca de ativos à esquerda, na guia **[!UICONTROL Show]** selecione um tipo de ativo baseado no Conjunto de amostras, como **[!UICONTROL Swatch Set]**.
+1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos que contêm o Conjunto de amostras que você deseja visualizar com um visualizador.
 1. Siga um destes procedimentos:
 
-   * Ao lado do canto superior direito da janela do Adobe Dynamic Media Classic, selecione o **[!UICONTROL List View]** ícone . Na janela Ativo, passe o mouse sobre um ativo e selecione **[!UICONTROL Preview]** (não a lista suspensa Visualização ).
-   * Ao lado do canto superior direito da janela do Adobe Dynamic Media Classic, selecione o **[!UICONTROL Grid View]** ícone . Na janela Ativo, em uma janela de miniatura de ativo, selecione **[!UICONTROL Preview]** (não a lista suspensa Visualização ).
-   * Ao lado do canto superior direito da janela do Adobe Dynamic Media Classic, selecione o **[!UICONTROL Detail View]** ícone . Na mesma barra de ferramentas, selecione **[!UICONTROL Preview]** (não a lista suspensa Visualização ).
+   * Próximo ao canto superior direito da janela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL List View]** ícone. Na janela Ativo, passe o mouse sobre um ativo e selecione **[!UICONTROL Preview]** (não na lista suspensa Visualização).
+   * Próximo ao canto superior direito da janela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL Grid View]** ícone. Na janela Ativo, em uma janela de miniatura de ativo, selecione **[!UICONTROL Preview]** (não na lista suspensa Visualização).
+   * Próximo ao canto superior direito da janela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL Detail View]** ícone. Na mesma barra de ferramentas, selecione **[!UICONTROL Preview]** (não na lista suspensa Visualização).
 
-1. (Opcional) Na janela Visualização, na lista suspensa na parte inferior, selecione a codificação de URL que deseja aplicar ao URL do ativo quando ele for copiado.
-1. Para visualizar o ativo no visualizador selecionado, selecione um link do visualizador.
+1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação do URL que você deseja aplicar ao URL do ativo quando ele for copiado.
+1. Para visualizar o ativo no visualizador selecionado, selecione um link de visualizador.
 
-   Ao selecionar um determinado link do visualizador, o URL associado é copiado automaticamente para a área de transferência.
+   Ao selecionar um determinado link do visualizador, o URL associado a ele é copiado automaticamente para a área de transferência.
 
 1. Para retornar ao pager Visualização, feche o visualizador exibido.
-1. Selecionar **[!UICONTROL Close]** para retornar à página Ativos .
+1. Selecionar **[!UICONTROL Close]** para retornar à página Ativos.
 
 >[!MORELIKETHIS]
 >

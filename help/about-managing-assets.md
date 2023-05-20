@@ -16,8 +16,8 @@ ht-degree: 0%
 
 # Sobre o gerenciamento de ativos no Adobe Dynamic Media Classic {#about-managing-assets}
 
-O Adobe Dynamic Media Classic oferece a Biblioteca de ativos para gerenciar ativos. A Biblioteca de ativos contém as pastas onde você armazena seus arquivos de ativos. Selecionar uma pasta na Biblioteca de ativos exibe o conteúdo da pasta no Painel de navegação. Você pode visualizar itens no Painel de navegação em Grade, Lista ou Exibição de Detalhes. Quando quiser se concentrar em um único ativo, clique duas vezes nele no Painel de navegação para exibi-lo na Exibição de detalhes.
+A Adobe Dynamic Media Classic oferece a Biblioteca de ativos para gerenciamento de ativos. A Biblioteca de ativos contém as pastas em que você armazena os arquivos de ativos. Selecionar uma pasta na Biblioteca de ativos exibe o conteúdo da pasta no Painel de navegação. É possível exibir itens no Painel de navegação na exibição de grade, lista ou detalhe. Quando quiser se concentrar em um único ativo, clique duas vezes nele no Painel de navegação para exibi-lo na Exibição de detalhes.
 
-O Painel de navegação oferece ferramentas para visualizar, selecionar, localizar, visualizar, mover, renomear e excluir ativos. Os ativos que você exclui são colocados na pasta Lixeira; é possível recuperar ativos dessa pasta.
+O Painel de navegação oferece ferramentas para exibir, selecionar, localizar, visualizar, mover, renomear e excluir ativos. Os ativos excluídos são colocados na pasta Lixeira; você pode recuperar ativos dessa pasta.
 
 Quando quiser examinar ou trabalhar com um ativo, abra-o na Exibição de detalhes. Você pode registrar metadados na Exibição de detalhes para facilitar a localização e o trabalho com um ativo.

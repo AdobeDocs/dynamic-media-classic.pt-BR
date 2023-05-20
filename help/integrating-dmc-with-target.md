@@ -1,6 +1,6 @@
 ---
 title: Integrar o Adobe Dynamic Media Classic com o Adobe Target Standard/Premium
-description: Saiba como integrar o Adobe Dynamic Media Classic com o Adobe Target Standard/Premium.
+description: Saiba como integrar o Adobe Dynamic Media Classic ao Adobe Target Standard/Premium.
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: Rick Brough
 content-type: reference
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Integrar o Adobe Dynamic Media Classic com o Adobe Target Standard/Premium {#integrating-dmc-with-target}
 
-Antes de se integrar [!DNL Adobe Dynamic Media Classic] com [!DNL Target Standard/Premium], você deve inserir o URL do Target no [!DNL Adobe Dynamic Media Classic] Tela Configurações gerais do aplicativo. Para obter o URL de destino e inseri-lo na página Configurações gerais do aplicativo , faça o seguinte:
+Antes de integrar [!DNL Adobe Dynamic Media Classic] com [!DNL Target Standard/Premium], você deve inserir seu URL do Target no [!DNL Adobe Dynamic Media Classic] tela Configurações gerais do aplicativo. Para obter o URL do Target e inseri-lo na página Configurações Gerais da Aplicação, faça o seguinte:
 
-1. Em [!DNL Adobe Experience Cloud], faça logon no [!DNL Target Standard/Premium] conta.
-1. Depois de fazer logon, na barra de endereços do seu navegador, copie o URL até , inclusive `.com`.
+1. Entrada [!DNL Adobe Experience Cloud], faça logon no [!DNL Target Standard/Premium] conta.
+1. Depois de fazer logon, na barra de endereços do navegador, copie o URL para e incluindo `.com`.
 
-   Por exemplo, se a variável *ficcional* URL (os caminhos de URLs sempre contêm barras, e não barras invertidas, como neste exemplo) na barra de endereços é `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie somente essa parte do *ficcional* URL: `https:\\www.myfictionalsite.com`.
+   Por exemplo, se a variável *ficcional* O URL (caminhos de URLs sempre contêm barras, não barras invertidas, como neste exemplo) na barra de endereços é `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie somente esta parte do *ficcional* URL: `https:\\www.myfictionalsite.com`.
 
-1. Em [!DNL Adobe Dynamic Media Classic], vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
-1. Na página Configurações gerais do aplicativo , no **[!UICONTROL Test&Target Server Name]** cole o URL copiado na etapa 2.
+1. Entrada [!DNL Adobe Dynamic Media Classic], vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
+1. Na página Definições Gerais da Aplicação, no campo **[!UICONTROL Test&Target Server Name]** cole o URL copiado na etapa 2.
 1. Selecionar **[!UICONTROL Close]**.

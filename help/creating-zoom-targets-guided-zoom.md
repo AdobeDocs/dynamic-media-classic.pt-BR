@@ -1,6 +1,6 @@
 ---
-title: Criar metas de zoom para zoom guiado
-description: Saiba como criar metas de zoom para o Zoom guiado no Adobe Dynamic Media Classic.
+title: Criar destinos de zoom para Zoom guiado
+description: Saiba como criar destinos de zoom para Zoom guiado no Adobe Dynamic Media Classic.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: Rick Brough
 content-type: reference
@@ -17,77 +17,77 @@ ht-degree: 0%
 
 ---
 
-# Criar metas de zoom para zoom guiado{#creating-zoom-targets-for-guided-zoom}
+# Criar destinos de zoom para Zoom guiado{#creating-zoom-targets-for-guided-zoom}
 
-Os direcionamentos de zoom orientam seus visualizadores a determinadas partes de uma imagem. Além do zoom de forma livre, os visualizadores podem selecionar uma miniatura de direcionamento de zoom e aplicar zoom na parte da imagem em que deseja que se concentrem. Os direcionamentos de zoom são uma oportunidade para que você destaque as partes atraentes ou interessantes de uma imagem.
+Os destinos de zoom orientam os visualizadores para determinadas partes de uma imagem. Além do zoom de forma livre, os visualizadores podem selecionar uma miniatura de destino de zoom e aplicar zoom à parte da imagem na qual você deseja que eles se concentrem. Os destinos de zoom são uma oportunidade para destacar as partes atraentes ou interessantes de uma imagem.
 
-![Criar metas de zoom para zoom guiado](/help/assets/zo_guided_zoom.png)
+![Criar destinos de zoom para Zoom guiado](/help/assets/zo_guided_zoom.png)
 
-## Sobre direcionamentos de zoom {#about-zoom-targets}
+## Sobre destinos de zoom {#about-zoom-targets}
 
 A porcentagem máxima de zoom dos destinos de zoom é de 100%. A porcentagem mínima de zoom varia com base em uma combinação do tamanho do visualizador e do tamanho da imagem, conforme mostrado nesta tabela:
 
 | Tamanho da imagem | Tamanho do visualizador | Porcentagem de zoom |
 | --- | --- | --- |
-| Grande | Menor | Menor mínimo |
-| Pequeno | Maior | Maior mínimo |
+| Grande | Menor | Mínimo menor |
+| Pequeno | Maior | Mínimo maior |
 
-Você pode alterar o tamanho do Visualizador de Zoom para corresponder ao tamanho usado em sua página da Web. Para alterar essa configuração permanentemente, você pode alterar o tamanho do visualizador na tela Configuração (se você for um administrador). Consulte [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Você pode alterar o tamanho do Zoom Viewer para corresponder ao tamanho que está sendo usado em sua página da web. Para alterar essa configuração permanentemente, é possível alterar o tamanho do visualizador na tela Configuração (se você for um administrador). Consulte [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## Criar e editar metas de zoom {#creating-and-editing-zoom-targets}
+## Criar e editar destinos do zoom {#creating-and-editing-zoom-targets}
 
-Crie e edite metas de zoom na tela Editor de direcionamento de zoom . Para abrir esta tela, selecione uma imagem e siga um destes procedimentos:
+Criar e editar destinos de zoom na tela Editor de destino de zoom. Para abrir essa tela, selecione uma imagem e siga um destes procedimentos:
 
-* Selecione a sobreposição **[!UICONTROL Edit]** e escolha Metas de zoom.
-* No painel Procurar, exiba a imagem em **[!UICONTROL Detail View]**, em seguida selecione **[!UICONTROL Zoom Targets]**.
+* Selecione a sobreposição **[!UICONTROL Edit]** e escolha Destinos de zoom.
+* No painel Procurar, exiba a imagem em **[!UICONTROL Detail View]** e selecione **[!UICONTROL Zoom Targets]**.
 
-Na tela Editor de direcionamento de zoom , selecione **[!UICONTROL Select Target]** botão (seta) para selecionar um target antes de alterar seu tamanho ou posição. Para criar um direcionamento de zoom na imagem, selecione **[!UICONTROL Add Targets]** (retângulo). A página Editor de direcionamento de zoom também oferece ferramentas para excluir, copiar e nomear direcionamentos de zoom.
+Na tela Editor de destino de zoom, selecione **[!UICONTROL Select Target]** botão (seta) para selecionar um alvo antes de alterar seu tamanho ou posição. Para criar um destino de zoom na imagem, selecione **[!UICONTROL Add Targets]** (retângulo). A página Editor de destino de zoom também oferece ferramentas para excluir, copiar e nomear destinos de zoom.
 
-### Criar um direcionamento de zoom {#creating-a-zoom-target}
+### Criar um destino de zoom {#creating-a-zoom-target}
 
-Para criar um direcionamento de zoom, abra a página Editor de direcionamento de zoom e faça o seguinte:
+Para criar um destino de zoom, abra a página Editor do Destino de Zoom e faça o seguinte:
 
-1. Selecionar **[!UICONTROL Add Targets]** (retângulo), mova o ponteiro sobre a imagem e selecione o local em que deseja aplicar o zoom.
+1. Selecionar **[!UICONTROL Add Targets]** (retângulo), mova o ponteiro sobre a imagem e selecione onde deseja que o destino de zoom esteja.
 
-   Uma imagem em miniatura do destino de zoom aparece no painel no lado direito da tela.
+   Uma imagem em miniatura do destino de zoom é exibida no painel no lado direito da tela.
 
-1. Selecionar **[!UICONTROL Select Target]** (seta), selecione o direcionamento de zoom criado e ajuste o tamanho e a posição do alvo.
+1. Escolher **[!UICONTROL Select Target]** (seta), selecione o destino de zoom criado e ajuste o tamanho e a posição do destino.
 
-   * **Redimensionar** - Mova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou diminuir o destino.
+   * **Redimensionar** - Mova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou reduzir o destino.
 
    * **Position** - Mova o ponteiro sobre o destino de zoom e arraste-o para um local diferente.
 
-1. Digite um nome para o direcionamento de zoom na caixa Nome.
+1. Digite um nome para o destino do zoom na caixa Nome.
 
    >[!NOTE]
    >
-   >O que você insere na caixa Nome é mais do que um nome. Quando os usuários movem o ponteiro sobre o destino de zoom, eles veem o que você insere na caixa Nome. Insira uma breve descrição do direcionamento de zoom na caixa Nome para que os usuários saibam o que podem ampliar.
+   >O que você digita na caixa Nome é mais do que um nome. Quando os usuários movem o ponteiro sobre o destino de zoom, eles veem o que você insere na caixa Nome. Insira uma breve descrição do destino do zoom na caixa Nome para que os usuários saibam o que podem ampliar.
 
-1. Opcionalmente, informe os dados do usuário no campo Dados do Usuário. Este campo é para designers de sites da Web adicionarem informações ao direcionamento de zoom.
+1. Opcionalmente, informe os dados do usuário no campo Dados do Usuário. Este campo é para designers de sites adicionarem informações ao destino de zoom.
 1. Selecionar **[!UICONTROL Save]**.
 
-   As coordenadas e o nível de zoom do destino de zoom são salvos. Uma miniatura do destino de zoom com o nome digitado é exibida no lado direito da tela.
+   As coordenadas e o nível de zoom do destino de zoom são salvos. Uma miniatura do destino de zoom com o nome inserido é exibida no lado direito da tela.
 
 >[!NOTE]
 >
->Para ver a aparência dos destinos de zoom em um Visualizador de zoom, selecione a opção **[!UICONTROL Preview]** na tela Editor de direcionamento de zoom e escolha um Visualizador de zoom na tela Visualização. Para obter informações sobre esta tela, consulte [Visualizar imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>Para ver a aparência dos seus destinos de zoom em um Visualizador de zoom, selecione a **[!UICONTROL Preview]** na tela Editor de destino de zoom e escolha um Visualizador de zoom na tela Visualizar. Para obter informações sobre essa tela, consulte [Visualizar imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### Editar destinos de zoom {#editing-zoom-targets}
 
-Para editar metas de zoom, use as seguintes técnicas na página Editor de direcionamento de zoom:
+Para editar destinos de zoom, use as seguintes técnicas na página Editor de destino de zoom:
 
-* **Reposição** - Com o botão Selecionar meta (a seta), selecione o target. Em seguida, arraste o target para um local diferente.
+* **Reposicionar** - Com o botão Selecionar destino (a seta), selecione o destino. Em seguida, arraste o target para um local diferente.
 
-* **Redimensionar** - Com o botão Selecionar meta (a seta), selecione o target. Para aumentar ou diminuir o destino, mova o ponteiro sobre um canto do destino de zoom e arraste.
+* **Redimensionar** - Com o botão Selecionar destino (a seta), selecione o destino. Para ampliar ou reduzir o destino, mova o ponteiro sobre um canto do destino de zoom e arraste.
 
-* **Excluir** - Selecione a imagem em miniatura do público-alvo no lado direito da tela. Em seguida, selecione **[!UICONTROL Delete Target]**.
+* **Excluir** - Selecione a imagem em miniatura do público alvo no lado direito da tela. Em seguida, selecione **[!UICONTROL Delete Target]**.
 
-* **Renomeação** - Selecione a imagem em miniatura do público-alvo no lado direito da tela. Em seguida, insira um nome no **[!UICONTROL Name]** campo de texto e selecione **[!UICONTROL Save]**.
+* **Renomeando** - Selecione a imagem em miniatura do público alvo no lado direito da tela. Em seguida, insira um nome no campo **[!UICONTROL Name]** e selecione **[!UICONTROL Save]**.
 
 ### Copiar destinos de zoom {#copying-zoom-targets}
 
-Você pode copiar destinos de zoom de uma imagem para outra. Copie os destinos quando duas imagens apresentarem conteúdo semelhante e seus destinos de zoom pertencerem aos mesmos locais. Para copiar destinos de zoom para outra imagem, faça o seguinte:
+É possível copiar destinos de zoom de uma imagem para outra. Copie destinos quando duas imagens apresentarem conteúdo semelhante e seus destinos de zoom pertencerem aos mesmos locais. Para copiar destinos de zoom para outra imagem, faça o seguinte:
 
-1. Abra a imagem com destinos de zoom que deseja copiar na tela Editor de direcionamento de zoom.
+1. Abra a imagem com os destinos de zoom que deseja copiar na tela Editor de destino de zoom.
 1. Selecionar **[!UICONTROL Copy Targets To]**.
-1. Na caixa de diálogo Selecionar imagens , selecione uma imagem e escolha **[!UICONTROL Select]**.
+1. Na caixa de diálogo Selecionar imagens, selecione uma imagem e escolha **[!UICONTROL Select]**.

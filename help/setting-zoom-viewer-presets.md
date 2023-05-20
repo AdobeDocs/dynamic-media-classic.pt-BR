@@ -19,47 +19,47 @@ ht-degree: 0%
 
 # Configurar predefinições do visualizador de zoom{#setting-up-zoom-viewer-presets}
 
-As Predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Adobe Dynamic Media Classic oferece muitas opções para personalizar e aprimorar visualizadores. O Adobe Dynamic Media Classic vem com predefinições básicas (rápidas), de fly-out e personalizadas do Visualizador de Zoom. Se você for um administrador, poderá criar Predefinições de visualizador de zoom da empresa ou editar uma predefinição padrão e salvá-la com um novo nome.
+As predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Adobe Dynamic Media Classic oferece muitas opções para personalizar e atribuir capa aos visualizadores. O Adobe Dynamic Media Classic vem com predefinições básicas (rápidas), de saída e personalizadas do visualizador de zoom. Se você for um administrador, poderá criar Predefinições do visualizador de zoom de empresa ou editar uma predefinição padrão e salvá-la com um novo nome.
 
-Todos os Visualizadores de zoom têm botões para aumentar, diminuir o zoom, diminuir o panorama e redefinir a imagem para o estado original após o zoom. A aparência desses botões e a forma como a janela em si será exibida dependem da escolha de Predefinições de visualizador de zoom. É possível configurar uma Predefinição do Visualizador de Zoom com cores, bordas, fontes e configurações de imagem diferentes. Ao configurar um Visualizador de zoom guiado, você também pode escolher onde colocar os destinos de zoom. Os direcionamentos de zoom são as miniaturas que os usuários clicam para aumentar o zoom para as áreas especificadas.
+Todos os Visualizadores de zoom têm botões para ampliar, reduzir, deslocar e redefinir a imagem para seu estado original após o zoom. A aparência desses botões e a forma como a janela é exibida dependem da escolha de Predefinições do visualizador de zoom. É possível configurar uma Predefinição do visualizador de zoom com diferentes cores, bordas, fontes e configurações de imagem. Ao configurar um Visualizador de zoom guiado, você também pode escolher onde colocar os destinos de zoom. Os destinos de zoom são as miniaturas em que os usuários clicam para aplicar zoom nas áreas especificadas.
 
-## Sobre predefinições do visualizador de zoom {#about-zoom-viewer-presets}
+## Sobre as predefinições do visualizador de zoom {#about-zoom-viewer-presets}
 
-A Adobe Dynamic Media Classic oferece estas predefinições do visualizador de zoom:
+O Adobe Dynamic Media Classic oferece estas Predefinições do visualizador de zoom:
 
-* **Visualizador de zoom: Básico** - Fornece um zoom básico na imagem original.
+* **Zoom Viewer: Basic** - Fornece um zoom básico na imagem original.
 
-* **Visualizador de zoom: Fly-out** - Exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção para a área que desejam visualizar.
+* **Zoom Viewer: Fly-out** - Exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção sobre a área que desejam visualizar.
 
-Ao determinar o uso total da largura de banda para esse visualizador, considere que a imagem principal e a imagem flyout são servidas no visualizador. O tamanho da imagem do flyout é determinado pelo tamanho da imagem principal (Largura e Altura do Palco) e pelo Fator de Zoom. Para impedir que o tamanho do arquivo flyout se torne muito grande, equilibre esses dois valores: se você tiver um tamanho de imagem principal grande, abaixe o valor de Fator de Zoom. (A Largura do Flyout e a Altura do Flyout determinam o tamanho da janela do flyout, mas não o tamanho da imagem do flyout que é servida no visualizador.)
+Ao determinar o uso completo da largura de banda para esse visualizador, considere que tanto a imagem principal quanto a imagem suspensa são fornecidas no visualizador. O tamanho da imagem suspensa é determinado pelo tamanho da imagem principal (Largura e altura do palco) e pelo Fator de zoom. Para evitar que o tamanho do arquivo de imagem suspensa fique muito grande, equilibre esses dois valores: se você tiver um tamanho grande de imagem principal, diminua o valor do Fator de zoom. (A Largura da imagem suspensa e a Altura da imagem suspensa determinam o tamanho da janela da imagem suspensa, mas não o tamanho da imagem suspensa que é exibida no visualizador.)
 
-Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem de flyout resultante será de 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem de flyout será de 1200 por 1200 pixels. Dependendo da configuração de qualidade do JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
+Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem suspensa resultante será 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem suspensa será de 1200 por 1200 pixels. Dependendo da configuração de qualidade do JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 
-A Adobe Dynamic Media Classic recomenda os seguintes parâmetros para as Predefinições do visualizador de zoom de fly-out:
+O Adobe Dynamic Media Classic recomenda os seguintes parâmetros para as Predefinições do visualizador de zoom de saída:
 
-* **Tamanho ampliado da imagem** - Aproximadamente 1500 por 1500 pixels, não devendo exceder 2000 por 2000 pixels.
+* **Tamanho da imagem ampliado** - Aproximadamente 1500 por 1500 píxeis, sem exceder 2000 por 2000 píxeis.
 
-* **Tamanho da imagem** - 100 KB ou menos, não deve exceder 150 KB (compacte o arquivo para mantê-lo abaixo de 150 KB).
+* **Tamanho da imagem** - 100 KB ou menos, para não exceder 150 KB (compacte o arquivo para mantê-lo abaixo de 150 KB).
 
-* **Visualizador de zoom: Personalizado** - Fornece zoom guiado ou não guiado com imagens, Conjuntos de imagens com várias exibições ou Conjuntos de amostras de cores.
+* **Visualizador de zoom: personalizado** - Fornece zoom guiado ou não guiado com imagens, Conjuntos de imagens com várias visualizações ou Conjuntos de amostras de cores.
 
-## Criar e editar predefinições do visualizador de zoom {#creating-and-editing-zoom-viewer-presets}
+## Criar e editar as predefinições do visualizador de zoom {#creating-and-editing-zoom-viewer-presets}
 
-1. Na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Siga um destes procedimentos:
 
-   * **Criar uma predefinição** - Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um visualizador de zoom e selecione **[!UICONTROL Add]**. Insira um nome para a predefinição na caixa Nome da predefinição .
+   * **Criar uma predefinição** - Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um visualizador de zoom e selecione **[!UICONTROL Add]**. Digite um nome para a predefinição na caixa Nome da predefinição.
 
-   * **Editar uma predefinição** - Selecione uma Predefinição do Visualizador de Zoom e selecione **[!UICONTROL Edit]**.
+   * **Editar uma predefinição** - Selecione uma Predefinição do visualizador de zoom e, em seguida, **[!UICONTROL Edit]**.
 
 1. Especifique as configurações conforme desejado.
 
-   Para ver uma descrição de uma opção, selecione o **[!UICONTROL Info Tip]** ícone ao lado da opção .
+   Para ver uma descrição de uma opção, selecione a opção **[!UICONTROL Info Tip]** ícone ao lado da opção.
 
-   A página Visualização exibe o visualizador conforme você atualiza e altera as configurações.
+   A página Visualizar exibe o visualizador à medida que você atualiza e altera as configurações.
 
 1. Selecionar **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
-1. Na página Predefinições do visualizador , examine a Predefinição do visualizador de zoom ou a Predefinição do visualizador de zoom guiado que você criou. Se precisar de ajuste, selecione **[!UICONTROL Edit]**, altere as configurações na página Configurar visualizador e selecione **[!UICONTROL Save]**.
+1. Na página Predefinições do visualizador, examine a Predefinição do visualizador de zoom ou a Predefinição do visualizador de zoom guiado que você criou. Se precisar de ajuste, selecione **[!UICONTROL Edit]**, alterar as definições na página Configurar Visualizador e, em seguida, selecionar **[!UICONTROL Save]**.
 
 Para obter informações sobre o gerenciamento de Predefinições do visualizador na tela Predefinições do visualizador, consulte [Predefinições do visualizador](application-setup.md#viewer_presets).
 

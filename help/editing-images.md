@@ -19,18 +19,18 @@ ht-degree: 0%
 
 # Editar imagens{#editing-images}
 
-O Adobe Dynamic Media Classic oferece muitas ferramentas para criar efeitos de mídia avançada. Essas ferramentas estão disponíveis ao clicar na sobreposição **[!UICONTROL Edit]** e no painel Procurar na Exibição de detalhes. Você pode realizar as seguintes tarefas de edição de imagens no Adobe Dynamic Media Classic:
+O Adobe Dynamic Media Classic oferece muitas ferramentas para criar efeitos de mídia avançada. Essas ferramentas estão disponíveis clicando na sobreposição **[!UICONTROL Edit]** e no Painel de Navegação na Exibição de Detalhes. Você pode executar as seguintes tarefas de edição de imagens no Adobe Dynamic Media Classic:
 
-* **Criar mapas de imagem** - Para criar um Mapa de imagem, selecione o comando Imagem ou **[!UICONTROL Image Map]** botão. Um Mapa de imagem é um ponto de acesso em uma imagem, uma página de catálogo eletrônico ou uma imagem em um Conjunto de rotação que exibe um painel com texto de sobreposição. Os usuários podem selecionar um Mapa de imagem, por exemplo, para iniciar uma nova página da Web. Consulte [Criar mapas de imagem](/help/creating-image-maps.md).
+* **Criar mapas de imagem** - Para criar um Mapa de Imagem, selecione o comando Imagem ou **[!UICONTROL Image Map]** botão. Um Mapa de imagem é um ponto de acesso em uma imagem, uma página de eCatalog ou uma imagem em um SpinSet que exibe um painel com texto de sobreposição. Os usuários podem selecionar um Mapa de imagem, por exemplo, para iniciar uma nova página da Web. Consulte [Criar mapas de imagem](/help/creating-image-maps.md).
 
-* **Criar metas de zoom** - Para criar metas de miniatura, selecione o comando Zoom Targets ou o **[!UICONTROL Zoom Targets]** botão. Os usuários podem selecionar um destino de miniatura no Visualizador de Zoom para aplicar zoom diretamente em uma parte específica de uma imagem. Consulte [Criar metas de zoom para zoom guiado](/help/creating-zoom-targets-guided-zoom.md).
+* **Criar públicos alvo de zoom** - Para criar destinos de miniatura, selecione o comando Destinos de zoom ou a **[!UICONTROL Zoom Targets]** botão. Os usuários podem selecionar um destino de miniatura no Visualizador de zoom para aplicar zoom diretamente a uma parte específica de uma imagem. Consulte [Criar destinos de zoom para Zoom guiado](/help/creating-zoom-targets-guided-zoom.md).
 
-* **Recortar uma imagem** - Para recortar uma imagem, selecione o comando Recortar ou a **[!UICONTROL Crop]** botão. Consulte [Recortar uma imagem](/help/cropping-image.md).
+* **Cortar uma imagem** - Para recortar uma imagem, selecione o comando Cortar ou a **[!UICONTROL Crop]** botão. Consulte [Cortar uma imagem](/help/cropping-image.md).
 
-* **Nitidez de uma imagem** - Para ajustar a nitidez de uma imagem e tornar seus contornos menos borrados e mais distintos, selecione o comando Nitidez ou o **[!UICONTROL Sharpen]** botão. Consulte [Nitidez de uma imagem](/help/sharpening-image.md).
+* **Nitidez de uma imagem** - Para ajustar a nitidez de uma imagem e tornar seus contornos menos borrados e mais distintos, selecione o comando Nitidez ou **[!UICONTROL Sharpen]** botão. Consulte [Nitidez de uma imagem](/help/sharpening-image.md).
 
-* **Ajustar uma imagem** - Selecione o comando Ajustar ou o **[!UICONTROL Adjust]** botão para inverter, girar, desfocar, colorir ou alterar o equilíbrio de cores de uma imagem. Consulte [Ajustar uma imagem](/help/adjusting-image.md).
+* **Ajustar uma imagem** - Selecione o comando Ajustar ou a variável **[!UICONTROL Adjust]** botão para virar, girar, desfocar, colorir ou alterar o equilíbrio de cores de uma imagem. Consulte [Ajustar uma imagem](/help/adjusting-image.md).
 
-* **Editar camadas** - Para exibir camadas individuais editáveis em um arquivo PSD, selecione a variável **[!UICONTROL Layers]** guia . Ao carregar um arquivo do PSD, todas as camadas são carregadas individualmente como arquivos separados, para que você possa editá-las no Adobe Dynamic Media Classic.
+* **Editar camadas** - Para exibir camadas individuais editáveis em um arquivo de PSD, selecione a **[!UICONTROL Layers]** guia. Ao fazer upload de um arquivo PSD, todas as camadas são carregadas individualmente como arquivos separados, para que você possa editá-las no Adobe Dynamic Media Classic.
 
-Além de usar essas ferramentas para editar imagens, você pode editar as imagens conforme as carrega no Adobe Dynamic Media Classic. Por exemplo, você pode recortar imagens, criar uma máscara de um traçado de recorte e selecionar um perfil de cor para uma imagem enquanto você a carrega.
+Além de usar essas ferramentas para editar imagens, você pode editar as imagens ao carregá-las no Adobe Dynamic Media Classic. Por exemplo, é possível cortar imagens, criar uma máscara a partir de um traçado de recorte e selecionar um perfil de cor para uma imagem ao carregá-la.

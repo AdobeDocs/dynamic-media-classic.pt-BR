@@ -1,6 +1,6 @@
 ---
-title: Prática recomendada para usar o visualizador de vídeo HTML5
-description: Saiba mais sobre as práticas recomendadas para usar o visualizador de vídeo do HTML5.
+title: Prática recomendada para usar o visualizador de vídeo do HTML5
+description: Conheça as práticas recomendadas para usar o visualizador de vídeo HTML5.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: Rick Brough
 content-type: reference
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 # Práticas recomendadas para usar o visualizador de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
-As predefinições do visualizador de vídeo do Adobe Dynamic Media Classic HTML5 são players de vídeo robustos. No lado de design do reprodutor, é possível criar a funcionalidade inteira do reprodutor de vídeo usando ferramentas de desenvolvimento da Web padrão. Por exemplo, você pode projetar botões, controles e imagens de fundo de pôster personalizadas usando HTML5 e CSS para ajudá-lo a alcançar seus clientes com uma aparência personalizada.
+As predefinições do visualizador de vídeo Adobe Dynamic Media Classic HTML5 são players de vídeo robustos. No lado do design do reprodutor, é possível criar toda a funcionalidade dele usando as ferramentas padrão de desenvolvimento na Web. Por exemplo, você pode projetar os botões, os controles e o plano de fundo personalizado da imagem de pôster usando o HTML5 e o CSS para ajudar você a alcançar seus clientes com uma aparência personalizada.
 
-No lado da reprodução do visualizador, ele detecta automaticamente o recurso de vídeo do navegador. Em seguida, ele serve o vídeo usando HLS (HTTP Live Streaming), também conhecido como streaming de vídeo adaptável. Ou, se esse método de delivery não estiver presente, HTML5 progressivo será usado.
+No lado da reprodução do visualizador, ele detecta automaticamente o recurso de vídeo do navegador. Em seguida, ele serve o vídeo usando HLS (HTTP Live Streaming), também conhecido como transmissão de vídeo adaptável. Ou, se esse método de delivery não estiver presente, será usado o HTML5 progressive.
 
-Ao combinar em um único reprodutor as seguintes capacidades:
+Ao combinar em um único jogador as seguintes habilidades:
 
-* Componentes de reprodução projetados com HTML5 e CSS
+* Componentes de reprodução projetados usando HTML5 e CSS
 * Reprodução incorporada
-* Uso de streaming adaptável e progressivo com base na capacidade do navegador
+* Uso de transmissão adaptável e progressiva com base na capacidade do navegador
 
-Você estende o alcance do seu conteúdo de mídia avançada para usuários de desktop e de dispositivos móveis. Você também garante uma experiência em vídeo simplificada.
+Você estende o alcance do seu conteúdo de mídia avançada para usuários de desktop e dispositivos móveis. Você também garante uma experiência de vídeo otimizada.
 
 Consulte também [Sobre visualizadores do HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
 
@@ -37,23 +37,23 @@ Consulte também [Predefinições do visualizador](https://s7d5.scene7.com/s7vie
 
 ## Reprodução de vídeo em computadores desktop e dispositivos móveis usando o Adobe Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
-Para streaming de vídeo adaptável para desktop e dispositivos móveis, os vídeos usados para alternância de taxa de bits são baseados em todos os vídeos MP4 no Adaptive Video Set.
+Para streaming de vídeo adaptável de desktop e móvel, os vídeos usados para a alternância da taxa de bits são baseados em todos os vídeos MP4 no Conjunto de vídeos adaptados.
 
-A reprodução de vídeo ocorre usando HLS ou vídeo progressivo. O HLS (HTTP Live Streaming) é um padrão Apple para streaming de vídeo adaptável que ajusta automaticamente a reprodução com base na capacidade da largura de banda da rede. Ele também permite que o cliente &quot;procure&quot; em qualquer ponto do vídeo, sem precisar aguardar o download do restante do vídeo. Consulte também [HTTP Live Streaming](https://developer.apple.com/streaming/). O vídeo progressivo é fornecido pelo download e armazenamento local do vídeo na tela de desktop de um usuário ou no dispositivo móvel.
+A reprodução de vídeo ocorre usando HLS ou vídeo progressivo. HLS (HTTP Live Streaming) é um padrão da Apple para transmissão de vídeo adaptável que ajusta automaticamente a reprodução com base na capacidade de largura de banda da rede. Ele também permite que o cliente &quot;procure&quot; qualquer ponto do vídeo, sem a necessidade de aguardar o download do restante do vídeo. Consulte também [HTTP Live Streaming](https://developer.apple.com/streaming/). O vídeo progressivo é fornecido ao baixar e armazenar o vídeo localmente na tela do desktop de um usuário ou no dispositivo móvel.
 
-A tabela a seguir descreve o dispositivo, o navegador e o método de reprodução de vídeos em computadores desktop e dispositivos móveis usando o Adobe Dynamic Media Classic Video Viewer.
+A tabela a seguir descreve o dispositivo, o navegador e o método de reprodução de vídeos em computadores desktop e dispositivos móveis que usam o Adobe Dynamic Media Classic Video Viewer.
 
 | Dispositivo | Navegador | Modo de reprodução de vídeo |
 |--- |--- |--- |
 | Desktop | Internet Explorer 9 e 10 | Download progressivo. |
 | Desktop | Internet Explorer 11+ | Transmissão de vídeo HLS. |
 | Desktop | Firefox 23-44 | Download progressivo. |
-| Desktop | Firefox 45 ou superior | Transmissão de vídeo HLS. |
+| Desktop | Firefox 45 ou posterior | Transmissão de vídeo HLS. |
 | Desktop | Cromo | Transmissão de vídeo HLS. |
 | Desktop | Safari (Mac) | Transmissão de vídeo HLS. |
-| Celular | Chrome (Android™ 6 ou anterior) | Download progressivo. |
-| Celular | Chrome (Android™ 7 ou posterior) | Transmissão de vídeo HLS. |
-| Celular | Android™ (Navegador padrão) | Download progressivo. |
-| Celular | Safari (iOS) | Transmissão de vídeo HLS. |
-| Celular | Chrome (iOS) | Transmissão de vídeo HLS. |
-| Celular | BlackBerry® | Transmissão de vídeo HLS. |
+| Dispositivo móvel | Chrome (Android™ 6 ou anterior) | Download progressivo. |
+| Dispositivo móvel | Chrome (Android™ 7 ou posterior) | Transmissão de vídeo HLS. |
+| Dispositivo móvel | Android™ (navegador padrão) | Download progressivo. |
+| Dispositivo móvel | Safari (iOS) | Transmissão de vídeo HLS. |
+| Dispositivo móvel | Chrome (iOS) | Transmissão de vídeo HLS. |
+| Dispositivo móvel | BlackBerry® | Transmissão de vídeo HLS. |

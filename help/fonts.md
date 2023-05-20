@@ -19,50 +19,50 @@ ht-degree: 0%
 
 # Fontes{#fonts}
 
-Às vezes, o Adobe Dynamic Media Classic exige que você faça upload de um arquivo de fonte para inserir ou renderizar o texto em uma fonte específica. Por exemplo, para usar uma fonte específica para o texto em uma camada de modelo, faça upload do arquivo de fonte. Para exibir os números de página do Visualizador de catálogo eletrônico em uma fonte específica, faça upload do arquivo de fonte.
+Às vezes, o Adobe Dynamic Media Classic exige que você carregue um arquivo de fonte para inserir ou renderizar texto em uma fonte específica. Por exemplo, para usar uma fonte específica para texto em uma camada de modelo, faça upload do arquivo de fonte. Para exibir os números de página do Visualizador de eCatalog em uma fonte específica, faça upload do arquivo de fonte.
 
-O Adobe Dynamic Media Classic oferece suporte para esses tipos de fonte:
+O Adobe Dynamic Media Classic é compatível com estes tipos de fonte:
 
 * Todas as fontes TrueType
-* Fontes PostScript®
-* Fontes OpenType/TrueType
+* PostScript® fonts
+* fontes OpenType/TrueType
 * Fontes OpenType/PostScript
 * PhotoFonts
 
-Depois que um arquivo de fonte for carregado, é possível alterar a Adobe Dynamic Media Classic ID, o nome da fonte e digitar as informações na tela Editar informações .
+Depois que um arquivo de fonte for carregado, você poderá alterar sua Adobe Dynamic Media Classic ID, o nome da fonte e digitar as informações na tela Editar informações.
 
 >[!NOTE]
 >
->A Adobe Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes nas camadas do modelo. O Adobe Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Type1 associados a uma fonte também é recomendado, pois algumas dessas fontes contêm informações detalhadas de ajuste do espaço.
+>O Adobe Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes nas camadas de modelo. O Adobe Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Type associados a uma fonte também é recomendado porque algumas dessas fontes contêm informações detalhadas de kerning.
 
-## Upload de arquivos de fonte {#uploading-font-files}
+## Fazer upload de arquivos de fonte {#uploading-font-files}
 
-Faça upload de arquivos de fonte com as mesmas técnicas usadas para fazer upload de outros arquivos. Você pode armazenar arquivos de fontes em qualquer pasta do Adobe Dynamic Media Classic. Consulte [Upload de arquivos](uploading-files.md#uploading_your_files).
+Fazer upload de arquivos de fonte com as mesmas técnicas usadas para fazer upload de outros arquivos. Você pode armazenar arquivos de fontes em qualquer pasta da Adobe Dynamic Media Classic. Consulte [Carregamento de arquivos](uploading-files.md#uploading_your_files).
 
-## Editar informações do arquivo de fonte {#editing-font-file-information}
+## Editar informações do arquivo de fontes {#editing-font-file-information}
 
-É possível alterar o nome da ID de uma fonte e suas informações de tipo. Editar um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação de fontes.
+Você pode alterar o nome da ID de uma fonte e suas informações de tipo. A edição de um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação das fontes.
 
-No Painel Procurar, selecione o arquivo de fonte que deseja editar na Exibição de detalhes e escolha Arquivo > Editar informações. A tela Editar informações é aberta. Escolha as opções a seguir e selecione **[!UICONTROL Submit]**.
+No Painel de navegação, selecione o arquivo de fonte que deseja editar na Exibição de detalhes e escolha Arquivo > Editar informações. A tela Editar informações é aberta. Escolha as seguintes opções e selecione **[!UICONTROL Submit]**.
 
-* **[!UICONTROL Font Name]** - Esse nome identifica a fonte quando é publicada.
+* **[!UICONTROL Font Name]** - Esse nome identifica a fonte quando ela é publicada.
 
-* **[!UICONTROL PostScript Name]** - Esse nome é o nome completo do PostScript para a fonte. Normalmente, indica o peso ou o estilo.
+* **[!UICONTROL PostScript Name]** - Esse é o nome PostScript completo da fonte. Normalmente, indica o peso ou estilo.
 
 * **[!UICONTROL RTF Name]** - Esse nome aparece em um menu pop-up no editor RTF, onde as camadas de texto do modelo são criadas.
 
-* **[!UICONTROL Font Family Name]** - Esse nome lista o nome da fonte sem o indicador de estilo, peso ou tipo de fonte.
+* **[!UICONTROL Font Family Name]** - Esse nome lista o nome da fonte sem o estilo, peso ou indicador de tipo de fonte.
 
-* **[!UICONTROL Font Style]** - As opções são Simples, Negrito, Itálico e Negrito-Itálico.
+* **[!UICONTROL Font Style]** - As opções são Plain (Comum), Bold (Negrito), Italic (Itálico) e Bold-Italic (Negrito-Itálico).
 
 * **[!UICONTROL Font Type]** - As opções são TrueType e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
 
 * **[!UICONTROL Font Type Abbreviation]** - As opções são as seguintes:
 
-   * **[!UICONTROL TTF]** - Arquivos de fonte TrueType usados para renderização de PDF/PostScript e exibição de imagens.
+   * **[!UICONTROL TTF]** - Arquivos de fontes TrueType usados para renderização de PDF/PostScript e fornecimento de imagens.
 
-   * **[!UICONTROL AFM]** - Arquivos de fonte Adobe PostScript que contêm informações de Métricas de fonte do Adobe e são usados para exibição de imagens.
+   * **[!UICONTROL AFM]** - Arquivos de fontes do Adobe PostScript que contêm informações de Métricas de fontes do Adobe e são usados para veiculação de imagens.
 
-   * **[!UICONTROL PFM]** - Arquivos de fonte Adobe PostScript que contêm informações de métrica de fonte binária.
+   * **[!UICONTROL PFM]** - Arquivos de fontes do Adobe PostScript que contêm informações de métricas de fontes binárias.
 
-   * **[!UICONTROL PFB]** - Arquivos de fonte Adobe PostScript que contêm informações binárias sobre contorno de fonte e são usados para renderização de PDF/PostScript e veiculação de imagens.
+   * **[!UICONTROL PFB]** - Arquivos de fontes Adobe PostScript que contêm informações binárias de contorno de fontes e são usados para renderização de PDF/PostScript e fornecimento de imagens.

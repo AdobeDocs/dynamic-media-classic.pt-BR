@@ -1,6 +1,6 @@
 ---
-title: Trabalhar com arquivos de vinheta, cobertura de janela e gabinete
-description: Saiba como trabalhar com vinheta, cobertura de janela e arquivos de gabinete no Adobe Dynamic Media Classic.
+title: Trabalhar com vinheta, cobertura de janelas e arquivos de gabinete
+description: Saiba como trabalhar com vinheta, cobertura de janelas e arquivos de gabinete no Adobe Dynamic Media Classic.
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# Trabalhar com arquivos de vinheta, cobertura de janela e gabinete{#working-with-vignette-window-covering-and-cabinet-files}
+# Trabalhar com vinheta, cobertura de janelas e arquivos de gabinete{#working-with-vignette-window-covering-and-cabinet-files}
 
-Os usuários da ferramenta de criação de imagens do Adobe Dynamic Media Classic podem *use* vinhetas (arquivos VNT), coberturas de janela (arquivos VNW) e gabinetes (arquivos VNC). Esses arquivos não podem ser criados ou editados no Adobe Dynamic Media Classic.
+Os usuários da ferramenta de criação de imagens do Adobe Dynamic Media Classic podem *use* vinhetas (arquivos VNT), coberturas de janelas (arquivos VNW) e gabinetes (arquivos VNC). Esses arquivos não podem ser criados ou editados no Adobe Dynamic Media Classic.
 
-Vinhetas, revestimentos de janelas e armários são imagens criadas. Usando um programa diferente do Adobe Dynamic Media Classic chamado Criação de imagem, mascara objetos em uma imagem para que os usuários possam ver a mesma imagem em várias texturas ou cores. Por exemplo, os usuários veem um sofá estofado com vários tecidos, uma janela decorada com vários tratamentos de janela ou um gabinete acabado com diferentes tipos de madeira.
+Vinhetas, coberturas de janelas e gabinetes são imagens criadas. Usando um programa diferente do Adobe Dynamic Media Classic chamado Criação de imagem, você mascara objetos em uma imagem para que os usuários possam ver a mesma imagem em várias texturas ou cores. Por exemplo, os usuários veem um sofá estofado com vários tecidos, uma janela decorada com vários tratamentos de janelas, ou um armário terminado com diferentes tipos de madeira.
 
-Faça upload de vinhetas, cobertura de janela e gabinetes como faria com qualquer outro arquivo.
+Carregue vinhetas, janelas e gabinetes como faria com qualquer outro arquivo.
 
 >[!MORELIKETHIS]
 >

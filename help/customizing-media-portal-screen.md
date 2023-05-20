@@ -1,6 +1,6 @@
 ---
-title: Personalizar a tela do Media Portal
-description: Saiba como personalizar a tela do Media Portal no Adobe Dynamic Media Classic.
+title: Personalizar a tela do Portal de mídia
+description: Saiba como personalizar a tela do Portal de mídia no Adobe Dynamic Media Classic.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: Rick Brough
 content-type: reference
@@ -17,29 +17,29 @@ ht-degree: 0%
 
 ---
 
-# Personalizar a tela do Media Portal{#customizing-the-media-portal-screen}
+# Personalizar a tela do Portal de mídia{#customizing-the-media-portal-screen}
 
-As configurações de estilo do Media Portal permitem que você atribua uma marca à tela do Media Portal com o logotipo e as cores de sua empresa. Use as configurações de estilo para colocar a marca da sua empresa no Media Portal.
+As configurações de estilo do Portal de mídia permitem que você marque a tela Portal de mídia com o logotipo e as cores da sua empresa. Use as configurações de estilo para colocar a marca da sua empresa no Portal de mídia.
 
-Para acessar as configurações de estilo, acesse **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]**. Certifique-se de selecionar **[!UICONTROL Save]** para salvar suas configurações depois de fazê-las. Você pode selecionar **[!UICONTROL Restore]** para retornar as configurações padrão. Conforme você faz suas escolhas, o painel Visualização mostra como elas são exibidas.
+Para acessar as configurações de estilo, vá para **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]**. Certifique-se de selecionar **[!UICONTROL Save]** para salvar suas configurações depois de criá-las. É possível selecionar **[!UICONTROL Restore]** para retornar às configurações padrão. À medida que você faz suas escolhas, o painel Visualização mostra como elas são exibidas.
 
-* **[!UICONTROL Logo]** - Selecionar **[!UICONTROL Browse]** e escolha um gráfico na janela Selecionar imagem do logotipo.
+* **[!UICONTROL Logo]** - Selecionar **[!UICONTROL Browse]** e escolha um gráfico na janela Selecionar imagem de logotipo.
 
-* **[!UICONTROL Application]** - Crie uma mistura de cores de gradiente fazendo escolhas nos menus Cores do gradiente de plano de fundo .
+* **[!UICONTROL Application]** - Crie uma mistura de cores de gradiente fazendo escolhas nos menus Cores de gradiente de plano de fundo.
 
-* **[!UICONTROL Tree]** - Escolha uma cor de sobreposição (a cor que aparece quando você move o ponteiro sobre um item) e a cor da seleção (a cor que aparece quando você seleciona um item).
+* **[!UICONTROL Tree]** - Escolha uma cor de rolagem (a cor que aparece ao mover o ponteiro sobre um item) e a cor de seleção (a cor que aparece ao selecionar um item).
 
-* **[!UICONTROL Accordion]** - Escolha as cores de plano de fundo, um estilo de borda e as cores de sobreposição e selecionadas para a opção que aparece no lado direito da tela na exibição Detalhes.
+* **[!UICONTROL Accordion]** - Escolha cores de plano de fundo, um estilo de borda, sobreposição e cores selecionadas para o acordeão exibido no lado direito da tela na exibição de Detalhes.
 
-* **[!UICONTROL Accordion Header]** - Escolha se deseja fazer texto na face do cabeçalho acordeão.
+* **[!UICONTROL Accordion Header]** - Escolha se deseja criar texto em negrito no cabeçalho do acordeão.
 
-* **[!UICONTROL Datagrid]** - Escolha as cores da linha de cabeçalho nas grades de dados.
+* **[!UICONTROL Datagrid]** - Escolher cores para a linha de cabeçalho nas grades de dados.
 
-* **[!UICONTROL Alert]** - Escolha uma cor de plano de fundo para caixas de mensagem de alerta.
+* **[!UICONTROL Alert]** - Escolha uma cor de fundo para as caixas de mensagem de alerta.
 
-* **[!UICONTROL Progress Bar]** - Escolha uma cor para a barra que indique o progresso dos uploads e downloads.
+* **[!UICONTROL Progress Bar]** - Escolha uma cor para a barra que indica o progresso dos uploads e downloads.
 
-Para que os usuários do Media Portal vejam as configurações de estilo que você escolheu, eles devem anexar `?company=(company name)` ao URL com o qual acessam o Media Portal. Por exemplo, para ver as configurações de estilo, os usuários do Media Portal que acessam a empresa PortalCo no seguinte endereço:
+Para que os usuários do Media Portal vejam as configurações de estilo escolhidas, eles devem anexar `?company=(company name)` ao URL com o qual acessam o Media Portal. Por exemplo, para ver as configurações de estilo, os usuários do Portal de mídia que acessam a empresa PortalCo no seguinte endereço:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -47,8 +47,8 @@ Em vez disso, use o seguinte URL:
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 
-Incluir o nome da empresa no URL permite que o Media Portal reconheça a empresa que um usuário deseja acessar e aplique as configurações de estilo da empresa de acordo.
+A inclusão do nome da empresa no URL permite que o Media Portal reconheça a empresa que um usuário deseja acessar e aplique as configurações de estilo da empresa de acordo.
 
-Você pode saber mais sobre como comunicar alterações de URL a usuários do Media Portal e configurar uma mensagem de email de boas-vindas para que novos usuários recebam o URL correto do Media Portal.
+Você pode saber mais sobre como comunicar alterações de URL aos usuários do Media Portal e configurar uma mensagem de email de boas-vindas para que novos usuários recebam o URL correto do Media Portal.
 
-Consulte [Configurar a mensagem de email de boas-vindas para usuários do Media Portal](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
+Consulte [Configure a mensagem de e-mail de boas-vindas para os usuários do Portal de mídia](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
