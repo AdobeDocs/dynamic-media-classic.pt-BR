@@ -4,9 +4,9 @@ description: Perguntas frequentes ao atualizar do [!DNL Adobe Dynamic Media Clas
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 * Gerenciamento de ativos digitais de nível empresarial com suporte robusto a metadados, pesquisa inteligente, lightbox e coleções, controle de versão e compartilhamento seguro de ativos para uso por fornecedores, parceiros e franqueados Fluxos de trabalho de revisão e aprovação para ativos de produção em andamento.
 * Facilidade de adoção e uso com a nova interface.
 * Crie experiências de mídia shoppable/interativa usando imagens e vídeos que impulsionam a conversão e enriquecem o engajamento e a satisfação do usuário.
-* Combine ativos da campanha com informações do produto para simplificar o clique no carrinho.
+* Simplifique o clique no carrinho combinando ativos da campanha com informações do produto.
 * Crie, ajuste, marque e implante facilmente visualizadores interativos usando o WYSIWYG Viewer Designer.
 * Forneça mídia avançada otimizada para [!DNL Experience Cloud] soluções.
 * Integração com [!DNL Experience Cloud] para análise avançada de ativos, direcionamento e reutilização de ativos em pontos de contato de marketing. Esses pontos de contato incluem [!DNL Adobe Campaign] para email, [!DNL Adobe Social] para canais sociais, e [!DNL Experience Manager] Sites para aplicativos responsivos para dispositivos móveis e da Web.
@@ -43,7 +43,7 @@ Sim, [!DNL Dynamic Media] O usa a rede de entrega de nível superior Adobe.
 
 * Melhor fornecedor de mídia avançada para Internet Retail 1000, nove anos consecutivos.
 * Suporte 24 horas por dia, 7 dias por semana, 265 dias por ano; SLAs de 99,95%.
-* Infraestrutura comprovada atendendo a mais de 800 clientes em todo o mundo, tráfego de 3,5 petabytes por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.
+* Infraestrutura comprovada que atende a mais de 800 clientes em todo o mundo, tráfego de 3,5 PB por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.
 
 +++
 
@@ -175,7 +175,7 @@ O Adobe continua a oferecer suporte e manutenção totais [!DNL Dynamic Media Cl
 +++
 
 +++**Quanto armazenamento vem com [!DNL Dynamic Media]?**
-Sessenta gigabytes de armazenamento estão incluídos. Você pode adquirir armazenamento adicional em blocos de 250 GB. Verifique os detalhes do contrato para obter a alocação de armazenamento atual.
+O armazenamento de 60 GB está incluído. Você pode adquirir armazenamento adicional em blocos de 250 GB. Para obter sua alocação de armazenamento atual, verifique os detalhes do contrato.
 
 +++
 
@@ -205,7 +205,7 @@ Sim. Você pode usar seu próprio CDN com [!DNL Dynamic Media].
 +++
 
 +++**Faz [!DNL Dynamic Media] possui os recursos que preciso atualizar? Quais recursos estão disponíveis com o [!DNL Dynamic Media] em [!DNL Experience Manager] Ativos?**
-Consulte a [Comparação de recursos](/help/upgrade-feature-comparison.md) para saber mais.
+Consulte a [Comparação de recursos](/help/upgrade-feature-comparison.md) página.
 
 +++
 
@@ -216,7 +216,7 @@ Os clientes que precisarem de algo a seguir podem continuar a ter acesso a [!DNL
 * Modelos de imagem.
 * eCatalogs.
 
-Consulte também a [Comparação de recursos](/help/upgrade-feature-comparison.md) para saber mais.
+Consulte também a [Comparação de recursos](/help/upgrade-feature-comparison.md) página.
 
 +++
 

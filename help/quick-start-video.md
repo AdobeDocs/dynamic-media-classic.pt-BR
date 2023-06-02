@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Quando um conjunto de vídeos adaptáveis é gerado, ele inclui vídeos MP4.
 
    Você pode encontrar dispositivos Windows® compatíveis com este formato de vídeo no link a seguir:
 
-   Consulte [Formatos de vídeo compatíveis com o Windows® Phone](https://docs.microsoft.com/en-us/).
+   Consulte [Formatos de vídeo compatíveis com o Windows® Phone](https://learn.microsoft.com/en-us/).
 
 * Reproduza o vídeo usando as Predefinições do visualizador do Adobe Dynamic Media Classic, incluindo o seguinte:
 

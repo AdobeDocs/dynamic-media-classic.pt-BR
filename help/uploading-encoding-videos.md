@@ -9,7 +9,7 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '3862'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Você pode obter os metadados de um arquivo visualizando os metadados no Adobe D
 
 Ao escolher ou criar uma predefinição de codificação de vídeo para o arquivo de vídeo principal, verifique se a predefinição tem a mesma proporção do arquivo de vídeo principal. A variável *taxa de proporção* é a relação entre a largura e a altura do vídeo.
 
-Para determinar a proporção de um arquivo de vídeo, obtenha os metadados do arquivo e observe a largura e a altura do arquivo (consulte [Obter os metadados de um arquivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Em seguida, use esta fórmula para determinar a proporção:
+Para determinar a proporção de um arquivo de vídeo, obtenha os metadados do arquivo e anote a largura e a altura do arquivo (consulte [Obter os metadados de um arquivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Em seguida, use esta fórmula para determinar a proporção:
 
 largura/altura = taxa de proporção
 
@@ -277,7 +277,7 @@ Para ativos de vídeo que você carrega e codifica no Adobe Dynamic Media Classi
 **MP4 H.264** Use arquivos MP4 para o seguinte:
 
 * HTTP Dynamic Streaming em desktops.
-* HLS (HTTP Live Streaming, protocolo de transmissão da Apple).
+* HLS (HTTP Live Streaming, protocolo de transmissão do Apple).
 * Entrega de vídeo progressiva para dispositivos móveis Android™, BlackBerry® e Windows®.
 
 Qualquer outro formato de vídeo e codec é tratado como um &quot;Vídeo principal&quot;. Essa classificação de ativos significa que o vídeo é um arquivo de vídeo de origem e não pode ser usado para a reprodução do delivery em desktops ou dispositivos móveis. Por exemplo, não é possível visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Também não é possível gerar Copiar URLs ou Incorporar código para uso em players de vídeo, em sites e assim por diante.

@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 
 * O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do Painel de Informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, você pode especificar se os eCatalogs serão publicados automaticamente.
 * O painel de feed de dados do InfoPanel permite especificar um arquivo CSV contendo o texto que você deseja exibir no texto de sobreposição do InfoPanel e agendar tempos para atualizar as informações.
-* A caixa de diálogo Importar metadados (acessada na visualização Mapear páginas ) permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Alimentação de dados com a opção de arquivo CSV para o texto de sobreposição.
+* A caixa de diálogo Importar metadados (acessada na visualização Mapear páginas ) permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Feed de dados com a opção de arquivo CSV para o texto de sobreposição.
 * A visualização Mapear páginas fornece uma opção para visualizar o xml que aparece para mapas de imagem específicos.
 
 ## Configurar um modelo de resposta para eCatalogs {#set-up-a-response-template-for-ecatalogs}
@@ -49,7 +49,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 1. Na caixa Resposta TTL, informe o número de horas que deseja aguardar antes de armazenar os dados em cache:
 
    * Defina um número menor se os dados forem atualizados com frequência ao longo de um dia.
-   * Defina um número mais alto se os dados forem relativamente estáveis e não exigirem atualizações com frequência ao longo do dia. O padrão é dez horas.
+   * Defina um número mais alto se os dados estiverem relativamente estáveis e não exigirem atualizações frequentes ao longo do dia. O padrão é dez horas.
 
 1. Selecionar **[!UICONTROL Publish]**.
 
@@ -66,7 +66,7 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 ### Importar conteúdo CSV para eCatalogs de um local hospedado externamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Clique duas vezes no eCatalog para abri-lo na Exibição de detalhes.
-1. Selecione o **[!UICONTROL InfoPanel Datafeed]** painel.
+1. Selecione o **[!UICONTROL InfoPanel Data feed]** painel.
 1. Insira o URL do arquivo CSV na caixa Local do arquivo CSV hospedado externamente. Você pode colar o URL nesse campo ou digitá-lo diretamente.
 1. (Opcional) Especifique um horário para atualizar o conteúdo usando os menus Agendar atualização e selecione **[!UICONTROL Add]**. Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa Atualizar horas. (Para remover um horário, selecione-o e, em seguida, **[!UICONTROL Delete]**.)
 1. (Opcional) Selecione **[!UICONTROL Run Update Now]** para atualizar imediatamente o conteúdo.

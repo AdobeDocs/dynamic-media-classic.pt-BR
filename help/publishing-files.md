@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1682'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ O Adobe Dynamic Media Classic rastreia trabalhos de publicação na página Trab
 
 Crie um trabalho de publicação único selecionando o **[!UICONTROL One-Time]** opção na página Publicar.
 
-Se desejar que o trabalho de publicação ocorra posteriormente, na página Publicar, selecione **[!UICONTROL One-Time]** e selecione **[!UICONTROL Schedule For Later]** menu suspenso. Use o controle deslizante Calendário e Tempo para selecionar um dia e hora para executar o trabalho de publicação.
+Se desejar que o trabalho de publicação ocorra posteriormente, na página Publicar, selecione **[!UICONTROL One-Time]** e selecione **[!UICONTROL Schedule For Later]** lista suspensa. Use o controle deslizante Calendário e Tempo para selecionar um dia e hora para executar o trabalho de publicação.
 
 ### Criar um trabalho de publicação recorrente {#creating-a-recurring-publish-job}
 
@@ -114,7 +114,7 @@ Para cancelar um trabalho de publicação, vá para a página Trabalhos e seleci
 
 Você pode publicar ativos individuais manualmente em vez de criar um trabalho de publicação. Ao publicar conjuntos, como um Conjunto de imagens ou um Conjunto de vídeos adaptados, o conjunto (ou &quot;pai&quot;) e todos os membros (ou &quot;filhos&quot;) dentro desse conjunto são publicados.
 
-Os ativos não publicados são indicados na interface do usuário por um ícone cinza redondo com uma barra (estado não publicado), à esquerda do nome do ativo. Depois que um ativo é publicado, o ícone fica verde e tem uma marca de seleção branca no centro (estado publicado).
+Os ativos não publicados são indicados na interface do usuário por um ícone cinza redondo com uma barra (estado não publicado) à esquerda do nome do ativo. Depois que um ativo é publicado, o ícone fica verde e tem uma marca de seleção branca no centro (estado publicado).
 
 **Para publicar ativos manualmente:**
 
@@ -130,7 +130,7 @@ Os ativos não publicados são indicados na interface do usuário por um ícone 
 
 Você pode cancelar a publicação de ativos individuais manualmente. Ao cancelar a publicação de conjuntos, como um Conjunto de amostras ou um eCatalog, o conjunto (ou &quot;principal&quot;) entra em um estado não publicado. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 
-Os ativos publicados são indicados na interface do usuário por um ícone redondo e verde com uma marca de seleção branca no centro (estado publicado), à esquerda do nome do ativo. Depois que a publicação de um ativo é desfeita, o ícone fica cinza com uma barra (estado não publicado),
+Os ativos publicados são indicados na interface do usuário por um ícone verde e redondo com uma marca de seleção branca no centro (estado publicado), à esquerda do nome do ativo. Depois que a publicação de um ativo é desfeita, o ícone fica cinza com uma barra (estado não publicado),
 
 **Para cancelar a publicação de ativos manualmente:**
 
@@ -142,7 +142,7 @@ Os ativos publicados são indicados na interface do usuário por um ícone redon
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione o ícone de marca de seleção arredondado e verde à esquerda do nome do ativo.
 
-## Obter o histórico de publicação de um ativo {#getting-an-asset-s-publish-history}
+## Obter um histórico de publicação do ativo {#getting-an-asset-s-publish-history}
 
 A última data em que um ativo foi publicado é mostrada na Exibição de detalhes na parte superior do painel. Para obter mais detalhes sobre o histórico de publicação, abra o painel Histórico e Servidores publicados na Exibição de detalhes. A partir daí, você pode ver quando o ativo foi publicado e em quais servidores ele foi publicado.
 

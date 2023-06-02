@@ -4,9 +4,9 @@ description: Atualizar do [!DNL Adobe Dynamic Media Classic] para [!DNL Dynamic 
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ O novo [!DNL Dynamic Media] em [!DNL Adobe Experience Manager] baseia-se na func
 | Fácil criação | Crie, personalize e inicie experiências avançadas rapidamente, sem precisar de ajuda técnica. |
 | Interface intuitiva | Edite visualizadores de imagens e players de vídeo com uma interface WYSIWYG (What You See It What You Get, o que você vê é o que você obtém) que é fácil de usar. |
 | Mídia comprável | Crie imagens, vídeos e carrosséis que podem ser comprados com pontos de acesso de imagem e links clicáveis. |
-| CDN escalável | Acesse a melhor rede de entrega de conteúdo (CDN) com dimensionamento e desempenho comprovados para atender a qualquer demanda. |
+| CDN (Content Delivery Network, rede de entrega de conteúdo) escalonável | Acesse a melhor CDN do setor, com dimensionamento e desempenho comprovados para atender a qualquer demanda. |
 | Dynamic Imaging | Usar um arquivo principal, gerar e publicar automaticamente versões ilimitadas, alterando tamanho, formato, resolução, recorte ou efeito. |
 | Dynamic Video | O vídeo em tamanho normal é dimensionado automaticamente para todas as telas e transmitido de forma adaptável para garantir uma experiência do usuário consistente e de qualidade. |
 | Personalização | Crie e publique facilmente [!DNL Dynamic Media] experiências interativas, como configuradores de produtos, banners personalizados e emails. |
