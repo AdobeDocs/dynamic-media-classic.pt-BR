@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 0%
@@ -42,9 +44,9 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
    * **Iniciar na tela eCatalog** - Vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Selecione uma pasta na Biblioteca de ativos e arraste os arquivos da pasta para a guia Ordenar páginas da página eCatalog.
 
-      >[!NOTE]
-      >
-      >Para exibir os itens na Biblioteca de ativos por nome em vez de miniatura, selecione a opção Nome para Exibição da biblioteca de ativos padrão em Configuração pessoal.
+     >[!NOTE]
+     >
+     >Para exibir os itens na Biblioteca de ativos por nome em vez de miniatura, selecione a opção Nome para Exibição da biblioteca de ativos padrão em Configuração pessoal.
 
 1. Selecione um layout geral para o eCatalog. Selecionar **[!UICONTROL 1 Up]** para páginas únicas, **[!UICONTROL 2 Up]** para páginas espelhadas duplas ou **[!UICONTROL Custom]** para páginas espelhadas superiores a duas. No **[!UICONTROL Change eCatalog Layout]** , selecione a **[!UICONTROL All Spreads]** e selecione **[!UICONTROL OK]**.
 1. Opcionalmente, altere o layout de páginas individuais ou de páginas espelhadas selecionando-as e, em seguida, escolhendo **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** ou **[!UICONTROL Custom]** botão. No **[!UICONTROL Change eCatalog Layout]** , selecione a **[!UICONTROL Selected Spreads]** e selecione **[!UICONTROL OK]**.

@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3310'
 ht-degree: 0%
@@ -103,9 +105,9 @@ Use estas ferramentas na tela Modelo para criar modelos:
 
 * **[!UICONTROL Text Editor v4.3 and Text Editor v4.2]** - Você pode optar por usar o editor de texto mais recente e completo, editor de texto v4.3, ou o editor de texto anterior, editor de texto v4.2. Ao criar modelos, o Editor de texto v4.3 é selecionado por padrão. Ao editar modelos mais antigos, o Editor de texto v4.2 é selecionado por padrão. No momento, o Editor de texto v4.3 não é compatível com quebra automática de linha. Portanto, ao editar modelos mais antigos que usam quebra automática de linha, use o Editor de texto v4.2 para manter a fidelidade do modelo totalmente intacta. Se o modelo mais antigo não usar quebra automática de linha, você poderá escolher o Editor de texto v4.3 para aproveitar os vários recursos novos que ele oferece. Por exemplo, Aumentar Margens, Diminuir Margens, Definir Texto em Todas as Maiúsculas e Copiar Ajustar Texto.
 
-   >[!NOTE]
-   >
-   >Como a remoção do Editor de texto v4.2 está planejada como uma opção no Adobe Dynamic Media Classic, é recomendável usar o Editor de texto 4.3, quando possível. A variável **[!UICONTROL Word Wrap]** será incorporada em uma versão futura do Editor de texto.
+  >[!NOTE]
+  >
+  >Como a remoção do Editor de texto v4.2 está planejada como uma opção no Adobe Dynamic Media Classic, é recomendável usar o Editor de texto 4.3, quando possível. A variável **[!UICONTROL Word Wrap]** será incorporada em uma versão futura do Editor de texto.
 
 * **[!UICONTROL Designer and Developer]** - Selecione a opção que melhor descreva sua função.
 

@@ -10,7 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -34,12 +36,12 @@ Estas opções estão disponíveis ao fazer upload de arquivos PSD:
 * **Opções de corte** - Localizado em **[!UICONTROL Crop Options]**. Selecionar **[!UICONTROL Trim]** para cortar automaticamente o espaço em branco das bordas de um arquivo PSD; selecione **[!UICONTROL Manual]** para cortar lados do arquivo PSD:
 
    * **[!UICONTROL Trim]** - Selecione o **[!UICONTROL Trim Away Based On]** e escolha **[!UICONTROL Color]** ou **[!UICONTROL Transparency]**.
-   Se você escolher a variável **[!UICONTROL Color]** selecione o menu Canto e escolha o canto do PSD com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
 
-   Arraste o controle deslizante para especificar uma tolerância de 0 a 1. Para recortar com base na cor, especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PSD. Números próximos a 1 permitem mais diferença de cor. Para cortar com base na transparência, especifique 0 para cortar pixels apenas se forem transparentes; números mais próximos de 1 permitem mais transparência.
+  Se você escolher a variável **[!UICONTROL Color]** selecione o menu Canto e escolha o canto do PSD com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
+
+  Arraste o controle deslizante para especificar uma tolerância de 0 a 1. Para recortar com base na cor, especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PSD. Números próximos a 1 permitem mais diferença de cor. Para cortar com base na transparência, especifique 0 para cortar pixels apenas se forem transparentes; números mais próximos de 1 permitem mais transparência.
 
    * **[!UICONTROL Manual]** - Digite o número de pixels a serem cortados de qualquer lado ou de cada lado da imagem. O quanto da imagem é cortada depende da configuração ppi (pixels por polegada) no arquivo de imagem. Por exemplo, se a imagem exibir 150 ppi e você inserir 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo, 0,5 pol. é cortado de cada lado da imagem.
-
 
 * **Opções de perfil de cores** - Localizado em **[!UICONTROL Color Profile Options]**.
 
@@ -66,8 +68,8 @@ Estas opções estão disponíveis ao fazer upload de arquivos PSD:
       * **[!UICONTROL Photoshop and layer number]** - Nomeia as imagens de acordo com seus números de camada no arquivo PSD, ignorando os nomes de camada originais. As imagens são nomeadas com o nome de arquivo do Photoshop e um número de camada anexado. Por exemplo, a segunda camada de um arquivo chamado `Spring Ad.psd` é nomeado `Spring Ad_2` mesmo que tivesse um nome não padrão no Photoshop.
 
       * **[!UICONTROL Photoshop and layer name]** - Nomeia as imagens após o arquivo PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo PSD forem nomes de camadas Photoshop padrão. Por exemplo, uma camada chamada `Price Tag` em um arquivo de PSD chamado `SpringAd` é nomeado `Spring Ad_Price Tag`. Uma camada com o nome padrão Camada 2 é chamada `Spring Ad_2`.
-   * **[!UICONTROL Anchor]** - Especificar como as imagens são ancoradas em modelos gerados a partir da composição em camadas produzida a partir do arquivo PSD. Por padrão, a âncora é o centro. Uma âncora central permite que imagens de substituição preencham melhor o mesmo espaço, independentemente da proporção da imagem de substituição. As imagens com um aspecto diferente que substituem essa imagem, ao referenciar o modelo e usar a substituição de parâmetro, ocupam efetivamente o mesmo espaço. Altere para uma configuração diferente se seu aplicativo exigir que as imagens de substituição preencham o espaço alocado no modelo.
 
+   * **[!UICONTROL Anchor]** - Especificar como as imagens são ancoradas em modelos gerados a partir da composição em camadas produzida a partir do arquivo PSD. Por padrão, a âncora é o centro. Uma âncora central permite que imagens de substituição preencham melhor o mesmo espaço, independentemente da proporção da imagem de substituição. As imagens com um aspecto diferente que substituem essa imagem, ao referenciar o modelo e usar a substituição de parâmetro, ocupam efetivamente o mesmo espaço. Altere para uma configuração diferente se seu aplicativo exigir que as imagens de substituição preencham o espaço alocado no modelo.
 
 ## Exibir e editar camadas em um arquivo PSD {#viewing-and-editing-layers-in-a-psd-file}
 

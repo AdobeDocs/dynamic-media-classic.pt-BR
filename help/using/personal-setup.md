@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Show File Size]** - Exibe o tamanho do arquivo de um ativo quando você está navegando.
 * **[!UICONTROL Include UDFs in Search]** - Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados executadas, desmarcada (padrão).
 
-   Se a maioria das pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, é possível selecionar essa opção para ativá-la. Como alternativa, use a Pesquisa avançada para oferecer uma experiência de pesquisa mais direcionada e rápida do que a inclusão de campos definidos pelo usuário.
+  Se a maioria das pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, é possível selecionar essa opção para ativá-la. Como alternativa, use a Pesquisa avançada para oferecer uma experiência de pesquisa mais direcionada e rápida do que a inclusão de campos definidos pelo usuário.
 
-   Consulte [Realização de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
+  Consulte [Realização de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
 
-   Consulte também [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
+  Consulte também [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
 
 * **[!UICONTROL Basic Search Type]** - É possível selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a string inteira para o valor especificado; **[!UICONTROL StartsWith]** pesquisa desde o início da string e retorna resultados mais rapidamente do que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
 * **[!UICONTROL Show Command Feedback]** - Selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desativar.

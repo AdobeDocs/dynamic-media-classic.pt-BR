@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 0%
@@ -113,11 +115,11 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 
    * **Escolha um campo de metadados** - Selecione o nome do campo no menu de filtragem.
 
-      >[!NOTE]
-      >
-      >Somente os nomes dos campos de metadados na Visualização de metadados padrão aparecem no menu de filtragem.
+     >[!NOTE]
+     >
+     >Somente os nomes dos campos de metadados na Visualização de metadados padrão aparecem no menu de filtragem.
 
-      Consulte [Visualizações de metadados](application-setup.md#metadata_views).
+     Consulte [Visualizações de metadados](application-setup.md#metadata_views).
 
    * **Adicionar um campo de metadados** - Selecionar **[!UICONTROL Add a Panel]**. Depois que o painel for exibido no painel Filtros, selecione sua **[!UICONTROL Field]** e escolha o nome de um campo de metadados no menu de filtragem.
 
@@ -127,7 +129,6 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 
    * Todos os valores de metadados inseridos no campo.
    * Para cada valor de metadados, o número de ativos dado o valor.
-
 
 1. Repita a Etapa 2 quantas vezes forem necessárias para listar todos os campos de metadados para a operação de filtro em painéis.
 1. Em cada painel, selecione um valor de metadados para filtrar. Não é possível selecionar mais de um valor de metadados em cada painel.
@@ -172,4 +173,3 @@ Selecionar **[!UICONTROL Publish Now]** para iniciar o trabalho. Uma confirmaç�
 >
 >* [Noções básicas de navegação](navigation-basics.md#navigation_basics)
 >* [Visualizar, adicionar e exportar metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

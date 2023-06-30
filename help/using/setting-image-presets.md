@@ -10,7 +10,9 @@ discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
@@ -78,4 +80,3 @@ Para excluir uma predefinição de imagem, selecione-a na tela Predefinições d
 >* [Criar e editar predefinições de imagem](application-setup.md#creating_and_editing_image_presets)
 >* [Opções de predefinição de imagem](application-setup.md#image_preset_options)
 >* [Visualizar um ativo de imagem com base em sua Predefinição de imagem](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
-

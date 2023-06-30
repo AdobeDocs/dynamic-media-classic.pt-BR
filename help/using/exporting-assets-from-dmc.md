@@ -10,7 +10,9 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -36,7 +38,7 @@ O Adobe Dynamic Media Classic mantém um registro dos trabalhos de exportação 
 
    * **[!UICONTROL Size]** - É possível selecionar um tamanho padrão. Ou você pode selecionar **[!UICONTROL Other]** do **[!UICONTROL Size]** escolha a unidade de medida desejada e especifique a largura e a altura.
 
-      Consulte também [Especifique as opções de exportação disponíveis para os usuários do Portal de mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     Consulte também [Especifique as opções de exportação disponíveis para os usuários do Portal de mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
    * **[!UICONTROL Format]** - Escolher um formato de imagem.
 

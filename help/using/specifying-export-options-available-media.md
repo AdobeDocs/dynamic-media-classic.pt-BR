@@ -9,7 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Collaboration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
@@ -34,9 +36,9 @@ Consulte também [Exportar ativos do Adobe Dynamic Media Classic](exporting-asse
 
    * **Ativar conversão definida pelo usuário** - Quando selecionada, essa opção permite que os usuários escolham outras opções na **[!UICONTROL Size]** na janela Exportar ativos selecionados. Os usuários podem então escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
 
-      Quando **[!UICONTROL pixels]** são escolhidos entre os **[!UICONTROL Size]** lista suspensa, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
+     Quando **[!UICONTROL pixels]** são escolhidos entre os **[!UICONTROL Size]** lista suspensa, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
 
-      Desmarque essa opção se desejar que os usuários baixem os arquivos sem reformatar a maneira como eles são baixados.
+     Desmarque essa opção se desejar que os usuários baixem os arquivos sem reformatar a maneira como eles são baixados.
 
    * **Ativar exportação original** - Permite exportar as imagens principais originais. No **[!UICONTROL Export Selected Assets]** , os usuários podem abrir a **[!UICONTROL Conversion]** menu suspenso e escolha **[!UICONTROL Export Original]** para exportar arquivos originais. Desmarque essa opção se quiser forçar os usuários a escolher uma predefinição de imagem ou escolher opções de conversão ao exportar imagens.
 
@@ -44,4 +46,3 @@ Consulte também [Exportar ativos do Adobe Dynamic Media Classic](exporting-asse
 >
 >* [Predefinições da imagem](application-setup.md#image_presets)
 >* [Escolher permissões de acesso de Predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
-

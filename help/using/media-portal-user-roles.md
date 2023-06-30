@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -37,12 +39,12 @@ Esta tabela descreve as tarefas que os usuários com diferentes funções podem 
 | Procurar metadados | X | X | X |
 | Visualizar arquivos | X | X | X |
 | Procurar arquivos | X | X | X |
-| Fazer upload de arquivos para o Adobe Dynamic Media Classic |  | X | X |
-| Editar e importar metadados de ativos |  | X | X |
-| Criar, renomear e excluir pastas |  | X | X |
-| Exportar metadados de ativos | X |  | X |
-| Alterar nomes de arquivo |  | X | X |
-| Mover arquivos para pastas diferentes |  | X | X |
-| Renomear arquivos |  | X | X |
-| Excluir arquivos |  | X | X |
-| Exportar (baixar) arquivos do Adobe Dynamic Media Classic | X |  | X |
+| Fazer upload de arquivos para o Adobe Dynamic Media Classic | | X | X |
+| Editar e importar metadados de ativos | | X | X |
+| Criar, renomear e excluir pastas | | X | X |
+| Exportar metadados de ativos | X | | X |
+| Alterar nomes de arquivo | | X | X |
+| Mover arquivos para pastas diferentes | | X | X |
+| Renomear arquivos | | X | X |
+| Excluir arquivos | | X | X |
+| Exportar (baixar) arquivos do Adobe Dynamic Media Classic | X | | X |

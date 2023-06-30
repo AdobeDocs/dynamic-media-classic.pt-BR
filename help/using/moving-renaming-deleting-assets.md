@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -58,7 +60,7 @@ Os destinos de zoom, os atributos de imagem e as entradas do histórico são exc
    * Para excluir um ou mais ativos, selecione-os no Painel Procurar e pressione **[!UICONTROL Delete]** ou vá para **[!UICONTROL File]** > **[!UICONTROL Delete]**.
    * Para excluir uma pasta, selecione-a na Biblioteca de ativos e selecione **[!UICONTROL Remove Folder]**.
 
-      A exclusão de uma pasta exclui a pasta, todos os ativos na pasta e todos os ativos em suas subpastas.
+     A exclusão de uma pasta exclui a pasta, todos os ativos na pasta e todos os ativos em suas subpastas.
 
 A Adobe Dynamic Media Classic recomenda substituir os arquivos de ativos em vez de excluí-los se o motivo para excluir um arquivo de ativos for substituí-lo por outro com o mesmo nome.
 
@@ -81,4 +83,3 @@ Ao excluir ativos com um arquivo de texto, se qualquer ID do Adobe Dynamic Media
 >* [Selecionar ativos no painel Procurar](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Preparar seus ativos e pastas para upload](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Restaurar ativos da pasta Lixeira](trash-folder.md#restoring_assets_from_the_trash_folder)
-

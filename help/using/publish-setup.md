@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 0%
@@ -48,12 +50,12 @@ Altere essas configurações somente com a assistência de um suporte técnico d
 
 * **[!UICONTROL Localization Support]*** - Essas configurações permitem gerenciar vários atributos de localidade. Também permite especificar uma sequência de mapa de localidade para que você possa definir quais idiomas deseja suportar para as várias dicas de ferramentas em Visualizadores.
 
-   Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico de localidade. Para obter essa funcionalidade, especifique uma string de mapa de local. Em seguida, edite o texto da dica de ferramenta na predefinição do Visualizador, adicionando as cadeias de caracteres de texto traduzidas para o idioma desejado.
+  Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico de localidade. Para obter essa funcionalidade, especifique uma string de mapa de local. Em seguida, edite o texto da dica de ferramenta na predefinição do Visualizador, adicionando as cadeias de caracteres de texto traduzidas para o idioma desejado.
 
-   >[!NOTE]
-   > Para configurar as opções de Suporte à localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite ajuda para a configuração.
+  >[!NOTE]
+  > Para configurar as opções de Suporte à localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite ajuda para a configuração.
 
-   Para obter mais informações sobre a configuração do **[!UICONTROL Localization Support]**, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+  Para obter mais informações sobre a configuração do **[!UICONTROL Localization Support]**, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Considerações ao configurar a localização de ativos {#considerations-when-setting-up-localization-of-assets}
 

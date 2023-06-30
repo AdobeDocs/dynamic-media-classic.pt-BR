@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Beginner
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 0%
@@ -49,24 +51,24 @@ Quando um conjunto de vídeos adaptáveis é gerado, ele inclui vídeos MP4.
 
 * Legenda de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e navegação de capítulo de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
-   Consulte [Adicionar legendas ao vídeo](adding-captions-video.md).
+  Consulte [Adicionar legendas ao vídeo](adding-captions-video.md).
 
-   Consulte [Adicionar marcadores de capítulo ao vídeo](adding-chapter-markers-video.md).
+  Consulte [Adicionar marcadores de capítulo ao vídeo](adding-chapter-markers-video.md).
 
 * Organize, navegue e pesquise vídeos com suporte completo a metadados para obter um gerenciamento eficiente dos ativos de vídeo.
 * Forneça Conjuntos de vídeos adaptados para a Web e para desktops e dispositivos móveis, incluindo iPhone, iPad, Android™, BlackBerry® e Windows® phone.
 
-   O streaming de vídeo adaptável é suportado em várias plataformas iOS.
+  O streaming de vídeo adaptável é suportado em várias plataformas iOS.
 
-   Veja o suporte mais recente na [Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Veja o suporte mais recente na [Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   O Adobe Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264. Você pode encontrar dispositivos BlackBerry® compatíveis com esse formato de vídeo no seguinte site:
+  O Adobe Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264. Você pode encontrar dispositivos BlackBerry® compatíveis com esse formato de vídeo no seguinte site:
 
-   Consulte [Formatos de vídeo compatíveis com o BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  Consulte [Formatos de vídeo compatíveis com o BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
-   Você pode encontrar dispositivos Windows® compatíveis com este formato de vídeo no link a seguir:
+  Você pode encontrar dispositivos Windows® compatíveis com este formato de vídeo no link a seguir:
 
-   Consulte [Formatos de vídeo compatíveis com o Windows® Phone](https://docs.microsoft.com/en-us/).
+  Consulte [Formatos de vídeo compatíveis com o Windows® Phone](https://docs.microsoft.com/en-us/).
 
 * Reproduza o vídeo usando as Predefinições do visualizador do Adobe Dynamic Media Classic, incluindo o seguinte:
 
@@ -96,9 +98,9 @@ Carregue e gere conjuntos de vídeos adaptáveis usando um dos dois cenários a 
 * **Carregar vídeos pré-codificados** - Se os vídeos já tiverem sido codificados fora do Adobe Dynamic Media Classic, na barra Navegação global, selecione **[!UICONTROL Upload]** para navegar e carregar arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, acesse **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até os arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Conjunto de vídeos adaptados e salve o conjunto.
 * **Fazer upload de vídeos de origem primária** - Se os vídeos não estiverem codificados, na barra de Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos de origem de vídeo principal (não MP4). O Adobe Dynamic Media Classic os codifica em arquivos MP4 para você. No **[!UICONTROL Upload Job Options]** caixa de diálogo, em **[!UICONTROL EVideo Options]**, selecione **[!UICONTROL Adaptive Video]**.
 
-   Essa opção preferencial permite criar um Conjunto de vídeos adaptados que aplica automaticamente a predefinição de codificação correta ao vídeo, seja 16:9 ou 4:3, para corresponder às dimensões do vídeo carregado. Ao enviar o trabalho de upload, um Conjunto de vídeos adaptados é criado automaticamente para você, o que inclui três configurações de codificação de vídeo na taxa de proporção correta.
+  Essa opção preferencial permite criar um Conjunto de vídeos adaptados que aplica automaticamente a predefinição de codificação correta ao vídeo, seja 16:9 ou 4:3, para corresponder às dimensões do vídeo carregado. Ao enviar o trabalho de upload, um Conjunto de vídeos adaptados é criado automaticamente para você, o que inclui três configurações de codificação de vídeo na taxa de proporção correta.
 
-   Ou, no mesmo **[!UICONTROL Job Options]** caixa de diálogo, em **[!UICONTROL EVideo Options]**, expandir **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições individuais de codificação de vídeo que deseja **Desktop**, **Móvel (iPhone, iPad, Android™)**, e **Tablet (iPad, Android™)** para criar os arquivos MP4.
+  Ou, no mesmo **[!UICONTROL Job Options]** caixa de diálogo, em **[!UICONTROL EVideo Options]**, expandir **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições individuais de codificação de vídeo que deseja **Desktop**, **Móvel (iPhone, iPad, Android™)**, e **Tablet (iPad, Android™)** para criar os arquivos MP4.
 
 * Ou você pode reprocessar um vídeo principal usando a variável **[!UICONTROL Reprocess]** recurso. Os vídeos recém-codificados são adicionados ao Conjunto de vídeos adaptados existente.
 
@@ -134,27 +136,26 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
 
 * Exibir o vídeo em sua própria janela pop-up ou modal; nesse caso, use **[!UICONTROL Copy URL]** recurso.
 
-   Para obter o URL para um vídeo, na Exibição em grade ou na Exibição em lista, selecione-o no Painel de navegação. Selecionar **[!UICONTROL Preview]** e selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
+  Para obter o URL para um vídeo, na Exibição em grade ou na Exibição em lista, selecione-o no Painel de navegação. Selecionar **[!UICONTROL Preview]** e selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
 
-   Ao selecionar **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código na HTML do site, site para dispositivos móveis ou aplicativo.
+  Ao selecionar **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código na HTML do site, site para dispositivos móveis ou aplicativo.
 
-   >[!NOTE]
-   >
-   >Os URLs são ativados somente após a publicação do vídeo ou do Conjunto de vídeos adaptados.
+  >[!NOTE]
+  >
+  >Os URLs são ativados somente após a publicação do vídeo ou do Conjunto de vídeos adaptados.
 
 * Exibir o vídeo incorporado na página da Web, nesse caso, use o **[!UICONTROL Embed Code]** recurso.
 
-   Para obter o código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no Painel de navegação. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
+  Para obter o código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no Painel de navegação. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
-   Selecionar **[!UICONTROL Close]** e cole o código incorporado nas páginas da web.
+  Selecionar **[!UICONTROL Close]** e cole o código incorporado nas páginas da web.
 
-   >[!NOTE]
-   >
-   >O código de inserção só é ativado após a publicação do vídeo ou do Conjunto de vídeos adaptados.
+  >[!NOTE]
+  >
+  >O código de inserção só é ativado após a publicação do vídeo ou do Conjunto de vídeos adaptados.
 
 Consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >
 >* [Práticas recomendadas para codificação de vídeo](uploading-encoding-videos.md#best_practices_for_video_encoding)
-

@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -68,13 +70,13 @@ Para determinada plataforma de visualização, a janela Lista de visualizadores 
 
    * Na janela Lista de visualizadores, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]** para um visualizador e tipo de plataforma selecionados.
 
-      Ao selecionar **[!UICONTROL Copy URL]**, seu URL associado é copiado automaticamente para a área de transferência.
+     Ao selecionar **[!UICONTROL Copy URL]**, seu URL associado é copiado automaticamente para a área de transferência.
 
    * Na janela Lista de visualizadores, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-      Ao selecionar **[!UICONTROL Embed Code]**, a janela Código de inserção é aberta, onde você pode revisar o código do visualizador. A edição do código não é permitida na janela. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web.
+     Ao selecionar **[!UICONTROL Embed Code]**, a janela Código de inserção é aberta, onde você pode revisar o código do visualizador. A edição do código não é permitida na janela. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web.
 
-      Fechar a visualização exibida.
+     Fechar a visualização exibida.
 
 1. No canto inferior direito da janela Lista de visualizadores, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
 

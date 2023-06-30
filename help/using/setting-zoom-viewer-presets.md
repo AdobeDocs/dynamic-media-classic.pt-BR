@@ -10,7 +10,9 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -66,4 +68,3 @@ Para obter informações sobre o gerenciamento de Predefinições do visualizado
 >[!MORELIKETHIS]
 >
 >* [Criar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets)
-

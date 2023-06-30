@@ -10,7 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -34,7 +36,7 @@ Para eCatalogs, você desenha Mapas de imagem na guia Páginas de mapa da tela e
 
    * **Mapa poligonal** - Selecione a ferramenta Mapa de imagem de polígono e, em seguida, selecione quantas vezes forem necessárias em torno do perímetro da imagem. À medida que você seleciona, o Adobe Dynamic Media Classic desenha as bordas do Mapa de imagem.
 
-      Depois de desenhar um Mapa de imagem, o Adobe Dynamic Media Classic atribui a ele um nome na lista Mapa de imagem. Para formar o nome, o Adobe Dynamic Media Classic anexa um número sequencial ao nome da página do eCatalog na qual você está trabalhando.
+     Depois de desenhar um Mapa de imagem, o Adobe Dynamic Media Classic atribui a ele um nome na lista Mapa de imagem. Para formar o nome, o Adobe Dynamic Media Classic anexa um número sequencial ao nome da página do eCatalog na qual você está trabalhando.
 
 1. (Opcional) Na lista Mapa de imagem, na guia [!UICONTROL Name] é possível inserir um novo nome para o Mapa de imagem. Não inclua espaços em branco no nome digitado.
 1. Os visualizadores podem abrir uma nova página da Web ao selecionar o Mapa de imagem. No painel Image Map list, digite o URL da página da Web na coluna URL.
@@ -77,23 +79,23 @@ Começando pela guia Mapear páginas da tela do eCatalog, use essas técnicas pa
 
 * **Ajustar a posição** - Selecione a ferramenta Deslocar e mova o ponteiro próximo, mas não acima, da borda do mapa. Quando o ponteiro mostrar uma seta de quatro pontas, arraste o mapa de imagem inteiro para um novo local.
 
-   Consulte [Ajustar a posição, a forma e o tamanho dos Mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Consulte [Ajustar a posição, a forma e o tamanho dos Mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Alterar forma e tamanho** - Para redimensionar um Mapa de Imagem retangular, selecione a ferramenta Deslocar. Em seguida, mova o ponteiro sobre uma linha de borda ou um canto e, ao visualizar o ícone de seta de duas pontas, arraste. Para redimensionar um Mapa de Imagem poligonal, arraste uma alça de seleção quadrada. Para criar uma alça de seleção, selecione a borda do Mapa de imagem e arraste.
 
-   Consulte [Ajustar a posição, a forma e o tamanho dos Mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Consulte [Ajustar a posição, a forma e o tamanho dos Mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Exclusão de Mapas de Imagem** - Selecione a ferramenta Panorâmica, selecione o Mapa de imagem para selecioná-lo e, em seguida, selecione **[!UICONTROL Delete]**.
 
-   Para remover todos os Mapas de imagens de um eCatalog, selecione o **[!UICONTROL Order Pages]** e selecione **[!UICONTROL Clear Maps]**.
+  Para remover todos os Mapas de imagens de um eCatalog, selecione o **[!UICONTROL Order Pages]** e selecione **[!UICONTROL Clear Maps]**.
 
 * **Lidar com mapas de imagem sobrepostos** - Arraste para alterar a ordem dos Mapas de imagem na lista Mapa de imagem.
 
-   Consulte [Manipular mapas de imagem sobrepostos](creating-image-maps.md#handling_overlapping_image_maps).
+  Consulte [Manipular mapas de imagem sobrepostos](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Como copiar mapas de imagem para outras páginas** - Selecionar **[!UICONTROL Copy Maps To]** (verifique se você está na guia Mapear páginas ). Na tela Selecionar imagens, selecione as páginas nas quais deseja copiar os Mapas de imagens e selecione **[!UICONTROL Select]**.
 
-   Consulte [Copiar Mapas de Imagens para outras imagens](creating-image-maps.md#copying_image_maps).
+  Consulte [Copiar Mapas de Imagens para outras imagens](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

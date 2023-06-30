@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Development, Integrations
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -23,11 +25,11 @@ Usando o relatório de vídeo baseado em pulsação do Adobe Analytics, você n�
 
 * A integração dos relatórios de vídeo do Adobe Analytics com o Adobe Dynamic Media Classic é compatível com variáveis da solução, mas não com variáveis personalizadas.
 
-   Consulte [Parâmetros de áudio e vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) para obter mais informações sobre variáveis de solução e variáveis personalizadas.
+  Consulte [Parâmetros de áudio e vídeo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) para obter mais informações sobre variáveis de solução e variáveis personalizadas.
 
 * Segmentos prontos para uso com incrementos de um minuto são compatíveis. No entanto, os relatórios de segmento personalizados, como marcos definidos pelo cliente com base em incrementos de tempo, % de marcos ou marcos de compensação, não são compatíveis.
 
-   Para obter mais informações sobre os requisitos e a configuração da mídia de transmissão, consulte [Meça a mídia de streaming no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+  Para obter mais informações sobre os requisitos e a configuração da mídia de transmissão, consulte [Meça a mídia de streaming no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 * Para obter informações sobre variáveis personalizadas e de solução, consulte [Ativação de relatórios de mídia](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 

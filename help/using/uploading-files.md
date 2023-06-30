@@ -9,7 +9,9 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3717'
 ht-degree: 0%
@@ -121,9 +123,9 @@ Certifique-se de que todos os usuários em sua empresa entendam essas regras par
 * Como prática recomendada, verifique se as IDs de ativo não contêm espaços em branco (por exemplo, jaqueta preta.tif e jaqueta azul.jpg). O Adobe Dynamic Media Classic ASCII codifica espaços em branco em nomes de ativos quando usa nomes de ativos para criar sequências de caracteres de URL. Esses códigos ASCII são difíceis de ler, o que pode dificultar a leitura dos URLs.
 * Caracteres específicos de idioma são permitidos em nomes de arquivo. No entanto, os seguintes caracteres não são permitidos em nomes de arquivo:
 
-   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
-   Se um nome de arquivo contiver um ou mais dos caracteres acima, os caracteres serão removidos do nome do arquivo no upload.
+  Se um nome de arquivo contiver um ou mais dos caracteres acima, os caracteres serão removidos do nome do arquivo no upload.
 
 Normalmente, um nome de arquivo de ativo pode ser igual ao número do item, SKU do produto ou outro nome como no seguinte:
 
@@ -209,7 +211,7 @@ Ao fazer upload de arquivos, você pode escolher entre as seguintes opções na 
 
 * **TRABALHO** - Selecionar **[!UICONTROL JOB]** para escolher opções que afetam todo o job de upload.
 
-   Você também pode escolher *padrão* opções para fazer upload de tarefas usando o **[!UICONTROL Default Upload Options]** caixa de diálogo em Configurações gerais. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** e defina as opções padrão desejadas.
+  Você também pode escolher *padrão* opções para fazer upload de tarefas usando o **[!UICONTROL Default Upload Options]** caixa de diálogo em Configurações gerais. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** e defina as opções padrão desejadas.
 
    * **[!UICONTROL When]** - Essa opção só estará disponível se você tiver selecionado a opção **[!UICONTROL VIA FTP]** guia.
       * **[!UICONTROL One-Time]** - Especifique um trabalho de upload que é executado uma vez. As opções incluem o seguinte:
@@ -220,6 +222,7 @@ Ao fazer upload de arquivos, você pode escolher entre as seguintes opções na 
          * **[!UICONTROL Weekly]** - Escolha um dia da semana e hora específicos em que deseja que o job seja executado.
          * **[!UICONTROL Monthly]** - Escolha um dia específico do mês ou dia da semana, incluindo a hora de início, em que deseja que o job seja executado.
          * **[!UICONTROL Custom]** - Personalize um intervalo de tempo para fazer upload ou publicar de acordo com suas próprias especificações. Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento ou publicação](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+
    * **[!UICONTROL Publish After Uploading]** - Disponível se você selecionou a opção **[!UICONTROL FROM DESKTOP]** ou na guia **[!UICONTROL VIA FTP]** guia. Selecione essa opção para publicar automaticamente os ativos dos quais você fez upload. Ao publicar arquivos, eles são enviados para servidores ativos. Os URLs desses arquivos podem ser usados em sites e aplicativos externos. Essa opção também está disponível na página Fazer upload.
 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** - Disponível se você selecionou a opção **[!UICONTROL FROM DESKTOP]** ou na guia **[!UICONTROL VIA FTP]** guia. Selecione essa opção se desejar que os arquivos dos quais você fez upload substituam arquivos existentes com os mesmos nomes. Essa opção também está disponível na página Fazer upload. O nome dessa opção pode ser diferente, dependendo das configurações em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
@@ -232,7 +235,6 @@ Selecione essa opção se desejar fazer upload de subpastas da pasta que deseja 
 
    * **[!UICONTROL Process metadata files]** - Disponível somente se você selecionou a opção **[!UICONTROL VIA FTP]** guia. Selecione essa opção se desejar fazer upload de um arquivo XML delimitado por tabulação para adicionar metadados a vários ativos.
 Consulte [Importar metadados (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
-
 
 * **Opções de corte** - Para cortar automaticamente os pixels de espaço em branco de uma imagem, abra o **[!UICONTROL Crop]** selecione **[!UICONTROL Manual]** e insira medidas de pixel nos campos de texto Superior, Direito, Inferior e Esquerdo para cortar das laterais. Também é possível selecionar **[!UICONTROL Trim]** no menu Cortar e escolha estas opções:
 
@@ -307,4 +309,3 @@ O novo trabalho envia uma notificação para o endereço especificado, para que 
 >* [Trabalhar com pastas de ativos](asset-folders.md#working_with_asset_folders)
 >* [Lidar com trabalhos recorrentes de upload e publicação](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
-

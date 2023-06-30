@@ -10,7 +10,9 @@ discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -34,15 +36,15 @@ Os sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, inclui
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
+     Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
    * Selecionar **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
+     Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
    * Selecionar **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
+     Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
 ## Adicionar URLs do grupo de rotação à página da Web {#adding-spin-set-urls-to-your-web-page}
 
@@ -67,15 +69,15 @@ Usar o recurso Incorporar código permite revisar o código do visualizador do c
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
+     Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
    * Selecionar **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
+     Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
    * Selecionar **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
+     Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
 1. Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 

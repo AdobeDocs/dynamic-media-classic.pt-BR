@@ -10,7 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -94,7 +96,7 @@ Consulte [Visualizações de metadados](application-setup.md#metadata_views).
    * Para salvar as configurações sem gerar o arquivo XML, selecione **[!UICONTROL Save]**.
    * Para salvar e gerar o arquivo, selecione **[!UICONTROL Save & Generate]**.
 
-      O arquivo XML é gerado e registrado no log de tarefas. Os arquivos de mapa do site de vídeo (mapa do site de vídeo) e de feed de Mídia RSS (feed de mrss) são armazenados na pasta raiz da sua empresa.
+     O arquivo XML é gerado e registrado no log de tarefas. Os arquivos de mapa do site de vídeo (mapa do site de vídeo) e de feed de Mídia RSS (feed de mrss) são armazenados na pasta raiz da sua empresa.
 
 >[!NOTE]
 >

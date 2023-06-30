@@ -10,7 +10,9 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 0%
@@ -141,7 +143,7 @@ Para renomear a Adobe Dynamic Media Classic ID de uma imagem, adicione uma colun
 
 Por exemplo:
 
-|  | newipsid |
+| | newipsid |
 | --- | --- |
 | testcoat_1 | Jacket_test_1 |
 | testcoat_blue | Jacket_test_2 |
@@ -217,4 +219,3 @@ Quando a propriedade tiver a estrutura Escolha Aberta ou Escolha Fechada, você 
 >
 >* [Predefinições do visualizador](application-setup.md#viewer_presets)
 >* [Predefinições de metadados](application-setup.md#metadata_presets)
-

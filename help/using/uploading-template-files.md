@@ -10,7 +10,9 @@ discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -31,7 +33,6 @@ Para obter instruções detalhadas sobre o upload de arquivos, consulte [Fazer u
 
 * Se você estiver carregando um arquivo PSD, é possível criar um modelo a partir dele. O Adobe Dynamic Media Classic cria uma imagem separada para cada camada no PSD. Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Photoshop Options]** e selecione **[!UICONTROL Maintain Layers]** e **[!UICONTROL Create Template]**. Em seguida, escolha uma opção no **[!UICONTROL Layer Naming]** lista suspensa para nomear as imagens que o Adobe Dynamic Media Classic cria a partir de camadas no PSD.
 Consulte [opções de upload de PSD](psd-files.md#psd_upload_options).
-
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
@@ -39,4 +40,3 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 >
 >* [Fazer upload dos arquivos](uploading-files.md#uploading_your_files)
 >* [Trabalhar com arquivos PSD](psd-files.md#working_with_psd_files)
-

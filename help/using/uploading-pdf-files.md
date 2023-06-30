@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -38,7 +40,7 @@ Prepare seus arquivos PDF antes de carregá-los no Adobe Dynamic Media Classic:
 * Se você quiser que os visualizadores pesquisem seu eCatalog por palavra-chave, descubra se seus arquivos de PDF estão &quot;nivelados&quot;. Não é possível extrair palavras de pesquisa de arquivos de PDF nivelados. Para saber se um PDF está nivelado, tente selecionar o texto dentro dele. Se não for possível selecionar o texto, o PDF será nivelado e os visualizadores não poderão pesquisar por palavra-chave no eCatalog.
 * Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. Por padrão, o Adobe Dynamic Media Classic pode detectar de forma inteligente essas imagens CMYK e convertê-las usando um perfil de cores CMYK interno. No entanto, se você quiser usar um perfil de cores personalizado para converter imagens CMYK, faça isso.
 
-   Consulte [Perfis ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
+  Consulte [Perfis ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 
 ## Prática recomendada para opções de upload de PDF {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ Selecione os arquivos que deseja fazer upload e selecione-os *prática recomenda
 
 * **Espaço de cor** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cores, escolha **[!UICONTROL Detect automatically]**. Normalmente, os PDF criados para saída de impressão estão em CMYK; os PDF para visualização on-line são RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDF usam ambos os espaços de cores, por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam RGB. Se você carregou um perfil ICC, seu nome aparece no menu Espaço de cores e você pode escolhê-lo lá.
 
-   Consulte [Perfis ICC (International Color Consortium)](/help/using/icc-profiles.md).
+  Consulte [Perfis ICC (International Color Consortium)](/help/using/icc-profiles.md).
 
 * **Opções de perfil de cores** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Color Profile Options]** e escolha uma opção de Perfil de cor:
 

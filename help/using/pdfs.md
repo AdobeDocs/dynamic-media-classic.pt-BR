@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -81,12 +83,12 @@ Consulte também [Perfis ICC](/help/using/icc-profiles.md#icc_profiles).
       * **[!UICONTROL Color]** - Escolha a opção Cor. Em seguida, selecione o **[!UICONTROL Corner]** e escolha o canto do PDF com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
 
       * **[!UICONTROL Transparency]** - Escolha a opção Transparência.
+
    * **[!UICONTROL Tolerance]** - Arraste o controle deslizante para especificar uma tolerância de 0 a 1.
 
    * **[!UICONTROL Trimming based on color]** - Especifique 0 para cortar os pixels somente se eles corresponderem exatamente à cor selecionada no canto do PDF. Números próximos a 1 permitem mais diferença de cor.
 
    * **[!UICONTROL Trimming based on transparency]** - Especifique 0 para cortar os pixels somente se eles forem transparentes; números mais próximos a 1 permitem mais transparência.
-
 
 ## Cortar nas laterais das páginas de PDF {#cropping-from-the-sides-of-pdf-pages}
 

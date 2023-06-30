@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
@@ -56,18 +58,18 @@ Consulte [Veicular conteúdo estático (não imagem)](https://experienceleague.a
 
    * Para obter uma experiência de visualizador de vídeo pop-up, selecione **[!UICONTROL Copy URL]** à direita do nome.
 
-      Anexe o URL copiado do vídeo com a seguinte sintaxe para que você possa associá-lo ao URL copiado para o seu arquivo de legenda:
+     Anexe o URL copiado do vídeo com a seguinte sintaxe para que você possa associá-lo ao URL copiado para o seu arquivo de legenda:
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Observe que `,1` no final da legenda URL path. Imediatamente após a extensão de nome de arquivo VTT no caminho, é possível ativar ou desativar o botão de legendas ocultas na barra do reprodutor de vídeo, definindo como `1` ou `0`, respectivamente.
+     Observe que `,1` no final da legenda URL path. Imediatamente após a extensão de nome de arquivo VTT no caminho, é possível ativar ou desativar o botão de legendas ocultas na barra do reprodutor de vídeo, definindo como `1` ou `0`, respectivamente.
 
    * Para obter uma experiência de visualizador de vídeo incorporado, selecione **[!UICONTROL Embed Code]** à direita do nome.
 
-      Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
+     Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
-      Para o HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`ou `Universal_HTML5_MixedMedia_light` , anexe o código incorporado copiado com o seguinte:
+     Para o HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`ou `Universal_HTML5_MixedMedia_light` , anexe o código incorporado copiado com o seguinte:
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Observe que `,1` no final do caminho do URL. Imediatamente após a extensão de nome de arquivo VTT no caminho do URL, é possível ativar ou desativar o botão de legenda na barra do reprodutor de vídeo, definindo como `1` ou `0`, respectivamente.
+     Observe que `,1` no final do caminho do URL. Imediatamente após a extensão de nome de arquivo VTT no caminho do URL, é possível ativar ou desativar o botão de legenda na barra do reprodutor de vídeo, definindo como `1` ou `0`, respectivamente.

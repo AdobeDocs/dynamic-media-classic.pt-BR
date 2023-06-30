@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -122,7 +124,7 @@ Os ativos não publicados são indicados na interface do usuário por um ícone 
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, use os métodos padrão de seleção de arquivos para selecionar um ou mais ativos não publicados.
 
-      Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Publish]**.
+     Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Publish]**.
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione o ícone cinza e redondo com uma barra sobre ele, à esquerda do nome do ativo.
 
@@ -138,7 +140,7 @@ Os ativos publicados são indicados na interface do usuário por um ícone redon
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um ou mais ativos publicados.
 
-      Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+     Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione o ícone de marca de seleção arredondado e verde à esquerda do nome do ativo.
 
@@ -162,4 +164,3 @@ Para liberar o cache, na barra Navegação global, vá para **[!UICONTROL File]*
 >
 >* [Verificar arquivos de trabalho](checking-job-files.md)
 >* [Editar, excluir, pausar e retomar tarefas recorrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-

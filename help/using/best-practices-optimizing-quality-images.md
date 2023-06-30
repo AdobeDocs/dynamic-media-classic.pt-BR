@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 0%
@@ -75,13 +77,13 @@ Há dois métodos de nitidez de imagem que podem ser usados:
       * `amount` (0-5, intensidade do efeito.)
       * `radius` (0-250, largura das &quot;linhas de nitidez&quot; desenhadas ao redor do objeto com nitidez, medida em pixels.)
 
-         Lembre-se de que os parâmetros `radius` e `amount` trabalham uns contra os outros. Reduzindo `radius` pode ser compensado pelo aumento do `amount`. `Radius` permite um controle mais fino, pois um valor mais baixo aplica nitidez apenas aos pixels da borda, enquanto um valor mais alto aplica nitidez a uma faixa mais ampla de pixels.
+        Lembre-se de que os parâmetros `radius` e `amount` trabalham uns contra os outros. Reduzindo `radius` pode ser compensado pelo aumento do `amount`. `Radius` permite um controle mais fino, pois um valor mais baixo aplica nitidez apenas aos pixels da borda, enquanto um valor mais alto aplica nitidez a uma faixa mais ampla de pixels.
 
       * `threshold` (0-255, sensibilidade do efeito.)
 
-         Esse parâmetro determina como deve ser a diferença dos pixels com nitidez em relação à área ao redor antes de serem considerados pixels de borda e o filtro ajuste a nitidez deles. A opção Limiar ajuda a evitar áreas de nitidez excessiva com cores semelhantes, como tons de pele. Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de &quot;ruído&quot;, enquanto ainda adiciona o contraste da borda a áreas de alto contraste, como onde as pálpebras tocam a pele.
+        Esse parâmetro determina como deve ser a diferença dos pixels com nitidez em relação à área ao redor antes de serem considerados pixels de borda e o filtro ajuste a nitidez deles. A opção Limiar ajuda a evitar áreas de nitidez excessiva com cores semelhantes, como tons de pele. Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de &quot;ruído&quot;, enquanto ainda adiciona o contraste da borda a áreas de alto contraste, como onde as pálpebras tocam a pele.
 
-         Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte [Nitidez de imagens no Adobe Dynamic Media Classic e no Servidor de imagens](/help/using/assets/s7_sharpening_images.pdf).
+        Para obter mais informações sobre como você define esses três parâmetros, incluindo as práticas recomendadas para usar com o filtro, consulte [Nitidez de imagens no Adobe Dynamic Media Classic e no Servidor de imagens](/help/using/assets/s7_sharpening_images.pdf).
 
       * O Adobe Dynamic Media Classic também permite controlar um quarto parâmetro: monocromático ( `0,1`). Esse parâmetro determina se a máscara de nitidez é aplicada a cada componente de cor separadamente usando o valor `0` ou para o brilho/intensidade da imagem usando o valor `1`.
 

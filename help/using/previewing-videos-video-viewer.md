@@ -10,7 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 0%
@@ -72,14 +74,14 @@ Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/h
 1. Adicionar ou editar uma predefinição do visualizador para mostrar o vídeo:
 
    * **Adicionar** - Selecionar **[!UICONTROL Add]** na barra de ferramentas. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e um visualizador nas respectivas listas suspensas e selecione **[!UICONTROL Add]**.
+
    Consulte também [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
    * **Adicionar ao iniciar com base em uma Predefinição do visualizador existente** - Na tabela, selecione uma Predefinição do visualizador de vídeo e, em seguida, **[!UICONTROL Edit]** na barra de ferramentas.
+
    Após reconfigurar o Visualizador de vídeo, selecione **[!UICONTROL Save As]** para salvar a predefinição usando um nome diferente no campo de texto Nome da predefinição.
 
    * **Editar** - Selecione uma predefinição do visualizador de vídeo e, em seguida, **[!UICONTROL Edit]**.
-
-
 
 1. Na página Configurar visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
 1. Defina as opções restantes desejadas.
@@ -95,4 +97,3 @@ Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/h
 >
 >* [Práticas recomendadas para codificação de vídeo](uploading-encoding-videos.md#best_practices_for_video_encoding)
 >* [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets)
-

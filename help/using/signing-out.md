@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
@@ -49,4 +51,3 @@ Use o mapeamento a seguir para selecionar o ambiente de produção que deseja us
 >[!MORELIKETHIS]
 >
 >* [Configuração pessoal](personal-setup.md#personal_setup)
-

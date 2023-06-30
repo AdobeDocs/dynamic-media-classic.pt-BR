@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -41,17 +43,17 @@ Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an
 
    * Para substituir o original da imagem, selecione **[!UICONTROL Save As]**.
 
-      Na lista suspensa, selecione **[!UICONTROL Replace original]** e selecione **[!UICONTROL Save]**.
+     Na lista suspensa, selecione **[!UICONTROL Replace original]** e selecione **[!UICONTROL Save]**.
 
    * Para salvar a imagem como uma nova imagem principal, selecione **[!UICONTROL Save As]**.
 
-      Na lista suspensa, selecione **[!UICONTROL Save as new master]**.
+     Na lista suspensa, selecione **[!UICONTROL Save as new master]**.
 No **[!UICONTROL Folder Name]** , selecione a pasta onde deseja salvar a nova imagem principal.
 Selecionar **[!UICONTROL Save]**.
 
    * Para salvar a imagem como outra visualização da imagem principal. você pode criar um alias para ele. Selecionar **[!UICONTROL Save As]**.
 
-      No **[!UICONTROL Save As]** , na lista suspensa, selecione **[!UICONTROL Save as another view of master]**.
+     No **[!UICONTROL Save As]** , na lista suspensa, selecione **[!UICONTROL Save as another view of master]**.
 No **[!UICONTROL Folder Name]** , selecione a pasta onde deseja salvar a nova imagem principal.
 Selecionar **[!UICONTROL Save]**.
 

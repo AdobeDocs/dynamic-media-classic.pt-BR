@@ -10,7 +10,9 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -77,14 +79,14 @@ Consulte [WebVTT: o formato de rastreamento de texto de vídeo na Web](https://w
 
    * Para obter uma experiência de visualizador de vídeo pop-up, selecione **[!UICONTROL Copy URL]** à direita do nome.
 
-      Anexe o URL copiado do vídeo com a seguinte sintaxe para que você possa associá-lo ao URL copiado para o seu arquivo de legenda:
+     Anexe o URL copiado do vídeo com a seguinte sintaxe para que você possa associá-lo ao URL copiado para o seu arquivo de legenda:
 
-      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
+     `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
    * Para obter uma experiência de visualizador de vídeo incorporado, selecione **[!UICONTROL Embed Code]** à direita do nome.
 
-      Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
+     Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
-      Para o HTML5 `Universal_HTML5_Video` , anexe o código incorporado copiado com o seguinte:
+     Para o HTML5 `Universal_HTML5_Video` , anexe o código incorporado copiado com o seguinte:
 
-      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
