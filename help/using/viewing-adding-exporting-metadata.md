@@ -12,7 +12,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 0%
@@ -139,7 +139,7 @@ Na barra Navegação global, selecione **[!UICONTROL Upload]**. Para importar os
 
 Usando metadados importados de um arquivo delimitado por tabulação ou arquivo XML, você pode renomear Adobe Dynamic Media Classic IDs. Os metadados importados são aplicados apenas às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
 
-Para renomear a Adobe Dynamic Media Classic ID de uma imagem, adicione uma coluna rotulada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado `new_vc_objectname` aos dados XML.
+Para renomear uma ID do Adobe Dynamic Media Classic de imagem, adicione uma coluna rotulada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado `new_vc_objectname` aos dados XML.
 
 Por exemplo:
 
@@ -176,7 +176,7 @@ Você pode usar o Editor de esquema de metadados para executar as seguintes aç�
 | Adicionar | Adiciona uma propriedade ao esquema. Uma caixa de diálogo modal coleta as informações: ID, Rótulo, Estrutura e Tipo de dados. |
 | Adicionar valor de escolha | Adiciona uma nova opção selecionável a uma propriedade com estrutura Opção aberta ou Opção fechada. Todos os valores de escolha têm o mesmo tipo. Selecione a própria propriedade para ativar o botão. |
 | Editar | Edite o Rótulo de uma propriedade ou valor de opção. Você só pode alterar as informações de Rótulo, ID e tipo que são imutáveis. |
-| Mover para cima/Mover para baixo | A ordem no esquema é refletida na interface do usuário. Para alterar a ordem, selecione uma propriedade ou um valor de escolha e mova-o com os botões. Arrastar e soltar não é suportado atualmente. |
+| Mover para cima/Mover para baixo | A ordem no esquema é refletida na interface do usuário. Para alterar a ordem, selecione uma propriedade ou um valor de escolha e mova-o com os botões. Arrastar e soltar não é suportado no momento. |
 | Excluir | Exclui uma propriedade ou um valor de opção do esquema. Ele não exclui valores do bloco XMP ou do banco de dados. A propriedade não está mais disponível para Exibições de metadados e é removida da Exibição de detalhes do ativo. Se a propriedade tiver sido publicada no Servidor de Metadados, execute uma publicação forçada para remover os dados do Servidor de Metadados voltado para o público. |
 
 O sistema gera automaticamente um esquema personalizado para campos definidos pelo usuário com o prefixo `s7udf`. São Campos Definidos pelo Usuário existentes e são editados em sua própria seção Configuração.

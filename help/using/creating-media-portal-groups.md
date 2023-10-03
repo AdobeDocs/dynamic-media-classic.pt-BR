@@ -12,7 +12,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Consulte também [Especifique as opções de exportação disponíveis para os u
 1. Na página Lista de grupos, siga um destes procedimentos:
 
    * Para adicionar um grupo e especificar quais Predefinições de imagem estão disponíveis para ele, selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar grupo, digite um nome para o grupo, selecione **[!UICONTROL Add Group]** e adicionar usuários ao grupo.
-   * Para editar as opções de Predefinição de imagem de um grupo, selecione o grupo e **[!UICONTROL Edit]**.
+   * Para editar as opções de Predefinição de imagem de um grupo, selecione o grupo e, em seguida, **[!UICONTROL Edit]**.
 
 1. Na caixa de diálogo Adicionar grupo ou Editar grupo, selecione a **[!UICONTROL Image Preset Access Permissions]** guia.
 1. Para especificar quais predefinições estão disponíveis para os usuários do Media Portal ao exportar ativos, selecione ou desmarque Predefinições de imagem.

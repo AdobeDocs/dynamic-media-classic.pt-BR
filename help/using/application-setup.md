@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '10713'
+source-wordcount: '10711'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Você pode usar as páginas de Configuração do aplicativo para inserir configu
 
 >[!NOTE]
 >
->Somente os administradores do Adobe Dynamic Media Classic podem alterar as configurações nas páginas de Configuração do aplicativo.
+>Somente os administradores do Adobe Dynamic Media Classic podem alterar as configurações nas páginas em Configuração do aplicativo.
 
 ## Configurações gerais {#general-settings}
 
@@ -292,7 +292,7 @@ Para selecionar uma predefinição de codificação, no canto inferior direito d
 
    * **[!UICONTROL 4:3 Adaptive Video]** : crie vídeos com taxa de proporção de 4:3 para entrega em desktops, dispositivos móveis (iPhone, iPad, Android™) e tablets (iPad, Android™), otimizados com a resolução e a taxa de bits que melhor correspondem à velocidade de conexão do visualizador.
 
-   * **[!UICONTROL Adaptive Video]** - Uma única predefinição de codificação que funciona com qualquer taxa de proporção para criar vídeos, para exibição em dispositivos móveis, tablets e computadores de mesa. Os vídeos de origem carregados codificados com essa predefinição são definidos com uma altura fixa. No entanto, a largura é dimensionada automaticamente para preservar a taxa de proporção do vídeo.
+   * **[!UICONTROL Adaptive Video]** - Uma predefinição de codificação única que funciona com qualquer taxa de proporção para criar vídeos, para exibição em dispositivos móveis, tablets e computadores de mesa. Os vídeos de origem carregados codificados com essa predefinição são definidos com uma altura fixa. No entanto, a largura é dimensionada automaticamente para preservar a proporção do vídeo.
 
      Essa flexibilidade de ter uma &quot;Escala automática&quot; também está disponível por padrão ao criar sua própria predefinição de codificação de vídeo personalizada.
 
@@ -341,7 +341,7 @@ Uma predefinição de codificação que funciona com qualquer taxa de proporçã
 |  | Codificação de nome de predefinição/texto de dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Automático x 360, 800 Kbps | _Dispositivo Móvel_Autox360p_800K | 800 | Autox360 | Igual à origem | 64 | Para dispositivos móveis (iPhone, iPad, Android™) |
-| 2 | Automático x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à origem | 96 | Para tablet (iPad, Android™) |
+| 2 | Automático x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à origem | 96 | Para tablets (iPad, Android™) |
 | 3 | Automático x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à origem | 128 | Para desktop |
 
 ### Predefinições de vídeo da Codificação de vídeo adaptável (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
@@ -354,14 +354,14 @@ Para obter informações sobre parâmetros de opções de codificação, consult
 
 |  | Codificação de nome de predefinição/texto de dica de ferramenta | Velocidade de conexão de destino (Kbps) | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Celular_512x288_400K | 400 | 512x288 | Igual à origem | 64 | Baixa resolução, 3G |
-| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Celular_384x288_400K | 400 | 384x288 | Igual à origem | 64 | Baixa resolução, 3G |
-| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Celular_512x288_600K | 600 | 512x288 | Igual à origem | 64 | Resolução média, 3G |
-| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Celular_384x288_600 | 600 | 384x288 | Igual à origem | 64 | Resolução média, 3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Igual à origem | 80 | Resolução média, WiFi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Igual à origem | 80 | Resolução média, WiFi |
-| 7 | `16:9, 768x432, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | Igual à origem | 96 | Alta resolução, WiFi |
-| 8 | `4:3, 768x576, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | Igual à origem | 96 | Alta resolução, WiFi |
+| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Celular_512x288_400K | 400 | 512x288 | Igual à origem | 64 | Baixa resolução, 3G |
+| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Celular_384x288_400K | 400 | 384x288 | Igual à origem | 64 | Baixa resolução, 3G |
+| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Celular_512x288_600K | 600 | 512x288 | Igual à origem | 64 | Resolução média, 3G |
+| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Celular_384x288_600 | 600 | 384x288 | Igual à origem | 64 | Resolução média, 3G |
+| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Igual à origem | 80 | Resolução média, WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Igual à origem | 80 | Resolução média, WiFi |
+| 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbps | _iPad_768x432_1200K | 1200 | 768x432 | Igual à origem | 96 | Alta resolução, WiFi |
+| 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | Igual à origem | 96 | Alta resolução, WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3,0 Mbps | _1280x720_2000K | 2000 | 1280x720 | Igual à origem | 128 | Tela widescreen de alta definição |
 | 10 | `4:3, 1280x960, Desktop, (2000 Kbps)` | 3,0 Mbps | _1280x960_2000K | 2000 Kbps | 1280x960 | Igual à origem | 128 | Alta definição |
 
@@ -432,7 +432,7 @@ Ao combinar em um único player o seguinte:
 
 * A capacidade de projetar os componentes de reprodução usando HTML5 e CSS.
 * Têm reprodução integrada.
-* Use a transmissão adaptável e progressiva dependendo da capacidade do navegador.
+* Use o fluxo adaptável e progressivo, dependendo da capacidade do navegador.
 
 Estenda o alcance do seu conteúdo de mídia avançada para desktops, tablets e usuários de dispositivos móveis e garanta uma experiência de vídeo otimizada.
 
@@ -528,7 +528,7 @@ Consulte [Notas de versão de referência de visualizadores do Adobe](https://ex
 O Adobe Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264.
 
 * Você pode encontrar dispositivos BlackBerry® compatíveis com esse formato de vídeo no seguinte endereço: [Formatos de vídeo compatíveis com o BlackBerry®](https://developers.blackberry.com/us/en)
-* Você também pode encontrar dispositivos Windows® compatíveis com esse formato de vídeo no link a seguir: [Formatos de vídeo compatíveis com o Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
+* Você também pode encontrar dispositivos Windows® compatíveis com esse formato de vídeo no link a seguir: [Formatos de vídeo compatíveis com o Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -872,7 +872,7 @@ Para abrir esta tela, vá para **[!UICONTROL Setup]** > **[!UICONTROL Applicatio
 
 * **Excluir um campo** - Selecione o campo e selecione **[!UICONTROL Delete]**.
 
-* **Ativar campo** - Selecione ou desmarque a variável **[!UICONTROL Active]** ao lado do nome de um campo. Se você estiver em uma função de administração de empresa, essa opção não será exibida. Como essa opção está relacionada ao MediaPortal, você deve selecionar (ativar) Mostrar recursos do MediaPortal na configuração pessoal para ver os campos de ativação.
+* **Ativar campo** - Selecione ou desmarque a variável **[!UICONTROL Active]** ao lado do nome de um campo. Se você estiver em uma função de administração de empresa, essa opção não será exibida. Como essa opção está relacionada ao MediaPortal, você deve selecionar (ativar) Mostrar recursos do MediaPortal na configuração pessoal para ver os campos ativados.
 
 ## Otimizar arquivos {#optimize-files}
 
@@ -995,7 +995,7 @@ Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome d
 
    Use os parênteses para incorporar a posição da linha ou da coluna no nome do arquivo.
 
-   Por exemplo, para sua expressão regular de linha, ela pode ser semelhante ao seguinte:
+   Por exemplo, para a expressão regular da linha, ela pode ser semelhante ao seguinte:
 
    `\w+-R([0-9]+)-\w+`
 

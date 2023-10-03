@@ -10,9 +10,9 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ A lógica que um reprodutor de vídeo usa para determinar qual vídeo codificado
 1. O reprodutor de vídeo muda com base nas alterações na velocidade da largura de banda, usando os seguintes critérios:
 
    1. O player escolhe o fluxo de largura de banda mais alto abaixo ou igual à largura de banda estimada.
-   1. O player considera apenas 80% da largura de banda disponível. No entanto, se estiver mudando, é mais conservador em apenas 70% para evitar superestimar e ter que retornar imediatamente.
+   1. O player considera apenas 80% da largura de banda disponível. No entanto, se estiver mudando para cima, é mais conservador, com apenas 70%, para evitar superestimar e ter que voltar imediatamente.
 
 Consulte a lógica do algoritmo em [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) para obter informações técnicas sobre ele.
 
 Para gerenciar vídeos únicos e Conjuntos de vídeos adaptados, o Adobe Dynamic Media Classic é compatível com o seguinte:
 
-* Fazer upload de vídeo de vários formatos de vídeo e formatos de áudio suportados e codificar vídeo para o formato MP4 H.264 para reprodução em várias telas. Você pode usar predefinições predefinidas de vídeos adaptáveis Adobe Dynamic Media Classic, predefinições de codificação de vídeos únicos ou personalizar sua própria codificação para controlar a qualidade e o tamanho do vídeo.
+* Fazer upload de vídeo a partir de vários formatos de vídeo e formatos de áudio suportados e codificar vídeo para o formato MP4 H.264 para reprodução em várias telas. Você pode usar predefinições predefinidas de vídeos adaptáveis Adobe Dynamic Media Classic, predefinições de codificação de vídeos únicos ou personalizar sua própria codificação para controlar a qualidade e o tamanho do vídeo.
 
 Consulte [Ativar ou desativar predefinições de vídeo adaptável](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
@@ -68,7 +68,7 @@ Quando um conjunto de vídeos adaptáveis é gerado, ele inclui vídeos MP4.
 
   Você pode encontrar dispositivos Windows® compatíveis com este formato de vídeo no link a seguir:
 
-  Consulte [Formatos de vídeo compatíveis com o Windows® Phone](https://docs.microsoft.com/en-us/).
+  Consulte [Formatos de vídeo compatíveis com o Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * Reproduza o vídeo usando as Predefinições do visualizador do Adobe Dynamic Media Classic, incluindo o seguinte:
 
@@ -148,7 +148,7 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
 
   Para obter o código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no Painel de navegação. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
-  Selecionar **[!UICONTROL Close]** e cole o código incorporado nas páginas da web.
+  Selecionar **[!UICONTROL Close]** e cole o código incorporado em uma ou mais páginas da web.
 
   >[!NOTE]
   >

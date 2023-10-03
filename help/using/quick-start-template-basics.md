@@ -12,9 +12,9 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Noções básicas de modelo são arquivos de imagem em camadas criados dinamicamente e endereçáveis, como arquivos em camadas em aplicativos de edição de imagens, como o Adobe Photoshop. Diferentemente de um arquivo estático contendo camadas, como um arquivo PSD, um modelo pode incluir parâmetros. Por meio de parâmetros, os diferentes aspectos da imagem podem ser abordados e personalizados.
 
-Um modelo pode conter qualquer número de camadas de imagem e camadas de texto. É possível converter um arquivo estático contendo camadas, como um arquivo de PSD em camadas, em um modelo e criar modelos no Adobe Dynamic Media Classic. É possível criar camadas de texto em modelos usando fontes carregadas no Adobe Dynamic Media Classic. Depois de adicionar texto a um modelo, é possível formatá-lo alterando a justificação, as fontes, o tamanho da fonte e a cor.
+Um modelo pode conter qualquer número de camadas de imagem e camadas de texto. É possível converter um arquivo estático contendo camadas, como um arquivo de PSD em camadas, em um modelo e criar modelos no Adobe Dynamic Media Classic. É possível criar camadas de texto em modelos usando fontes carregadas no Adobe Dynamic Media Classic. Depois de adicionar texto a um modelo, é possível formatá-lo alterando sua justificação, sua fonte, tamanho da fonte e cor.
 
 Usando a página Parâmetros, você pode converter qualquer aspecto de um modelo em um parâmetro endereçável. Ao fazer isso, você pode alterar qual imagem em camada usar ou qual valor de texto usar no modelo. Os parâmetros são passados com a string do URL, permitindo alterar qualquer parâmetro para personalizar dinamicamente a imagem de resposta gerada a partir do servidor de imagem.
 
@@ -37,7 +37,7 @@ Comece fazendo upload do arquivo PSD ou arquivo de imagem para seu modelo. O Ado
 
 Se estiver usando um arquivo PSD para criar seu modelo, selecione **[!UICONTROL Create Template]** no **[!UICONTROL Upload Job Options]** caixa de diálogo ao fazer upload do arquivo PSD. Escolha também uma **[!UICONTROL Layer Naming]** para que o Adobe Dynamic Media Classic saiba como nomear camadas de PSD quando elas forem carregadas no Adobe Dynamic Media Classic.
 
-Se estiver usando arquivos de imagem, você pode cortar as imagens e também criar uma máscara dos caminhos de recorte nas imagens à medida que as carrega.
+Se estiver usando arquivos de imagem, você pode cortar as imagens e também criar uma máscara dos caminhos de recorte nas imagens ao carregá-las.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar um arquivo PSD ou outros arquivos de imagem do seu computador para uma pasta no Adobe Dynamic Media Classic. Consulte [Fazer upload de arquivos de modelo](uploading-template-files.md#uploading_template_files).
 

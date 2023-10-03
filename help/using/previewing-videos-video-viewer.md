@@ -12,9 +12,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Consulte [Adicionar e editar predefinições do visualizador](application-setup.
 
 **Para visualizar vídeos em um visualizador de vídeo:**
 
-1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione **[!UICONTROL Video]** (vídeos únicos codificados) ou **[!UICONTROL Adaptive Video Set]**. Quando a predefinição de codificação do Vídeo adaptável é usada, ela resulta em um conjunto de vídeos codificados com taxa de multibits.
+1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione **[!UICONTROL Video]** (vídeos codificados únicos) ou **[!UICONTROL Adaptive Video Set]**. Quando a predefinição de codificação do Vídeo adaptável é usada, ela resulta em um conjunto de vídeos codificados com taxa de multibits.
 1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos para selecionar o vídeo que deseja visualizar.
 1. Siga um destes procedimentos
 
@@ -47,7 +47,7 @@ Consulte [Adicionar e editar predefinições do visualizador](application-setup.
 
 ## Trabalhar com predefinições do visualizador de vídeo {#working-with-video-viewer-presets}
 
-Os usuários assistem a vídeos no Visualizador de vídeo. O comportamento, a aparência e o funcionamento dos controles de reprodução do visualizador de vídeo dependem da Predefinição do visualizador escolhida para a reprodução do vídeo. Você escolhe uma predefinição do visualizador na tela Visualizar. Depois de escolher uma predefinição, obtenha o URL ou o código incorporado para reproduzir o vídeo usando a Predefinição do visualizador escolhida.
+Os usuários assistem a vídeos no Visualizador de vídeo. O comportamento, a aparência e o funcionamento dos controles de reprodução do visualizador de vídeo dependem da Predefinição do visualizador escolhida para a reprodução do vídeo. Você escolhe uma predefinição do visualizador na tela Visualizar. Após escolher uma predefinição, obtenha o URL ou o código incorporado para reproduzir o vídeo usando a Predefinição do visualizador escolhida.
 
 O Adobe Dynamic Media Classic vem com muitas Predefinições do visualizador predefinidas para reproduzir vídeo e, se você for um administrador, poderá criar Predefinições do visualizador personalizadas. Há mais de 12 configurações diferentes para configurar o Visualizador de vídeo. Você pode configurar o tamanho, a cor, os controles de vídeo e áudio, a barra de progresso, a interface de capa do usuário e os recursos sociais.
 

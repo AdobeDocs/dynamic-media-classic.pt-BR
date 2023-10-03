@@ -12,16 +12,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
 
 # Verificar arquivos de trabalho{#checking-job-files}
 
-Para monitorar os uploads de arquivos para a Adobe Dynamic Media Classic e os arquivos publicados nos servidores da Adobe Dynamic Media Classic, a Adobe Dynamic Media Classic oferece a página Jobs. Você pode revisar e publicar trabalhos na página Trabalhos, verificar o status dos trabalhos e cancelar trabalhos de publicação nesta página. Você também pode agendar trabalhos de upload e publicação.
+Para monitorar os uploads de arquivos para o Adobe Dynamic Media Classic e os arquivos publicados nos servidores da Adobe Dynamic Media Classic, a Adobe Dynamic Media Classic oferece a página Jobs. Você pode revisar e publicar trabalhos na página Trabalhos, verificar o status dos trabalhos e cancelar trabalhos de publicação nesta página. Você também pode agendar trabalhos de upload e publicação.
 
 Ao fazer upload de ativos, um ícone giratório é exibido ao lado do menu Trabalhos, indicando que um trabalho está em andamento e o número de arquivos em andamento. Você pode selecionar o ícone para ver mais informações sobre o job ativo.
 
@@ -43,7 +43,7 @@ Os jobs são listados nestas categorias na guia Histórico da página Jobs:
 
 * **[!UICONTROL Total]** - O número de arquivos transferidos.
 
-* **[!UICONTROL W (warnings)]** - O número de avisos na tarefa (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Por exemplo, `.DS_store` arquivos (Macintosh) e arquivos Thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem aos usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas porque não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
+* **[!UICONTROL W (warnings)]** - O número de avisos na tarefa (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Por exemplo, `.DS_store` arquivos (Macintosh) e arquivos Thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem aos usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas, pois não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
 
 * **[!UICONTROL E (errors)]** - Lista o número de erros na tarefa (se houver). Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre erros.
 
@@ -73,7 +73,7 @@ Use essas técnicas para classificar jobs ou alterar a exibição da guia Histó
 
 ## Exibir, copiar ou imprimir um relatório de Detalhes do trabalho {#viewing-copying-or-printing-a-job-details-report}
 
-Clique duas vezes no nome de um relatório na página Trabalhos para que a página Detalhes do trabalho seja aberta. Esta página fornece um relatório resumido sobre os arquivos do job. Selecionar **[!UICONTROL View Detail]** para que você possa ver a Adobe Dynamic Media Classic ID de uma entrada, o caminho de destino e as informações de status. Se você carregou um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Adobe Dynamic Media Classic, o relatório listará as fontes ausentes.
+Clique duas vezes no nome de um relatório na página Trabalhos para que a página Detalhes do trabalho seja aberta. Esta página fornece um relatório resumido sobre os arquivos do job. Selecionar **[!UICONTROL View Detail]** assim, você pode ver a Adobe Dynamic Media Classic ID de uma entrada, o caminho de destino e as informações de status. Se você carregou um arquivo PDF ou PostScript que requer fontes que não estão disponíveis no Adobe Dynamic Media Classic, o relatório listará as fontes ausentes.
 
 Você pode copiar essas informações para a Área de transferência.
 
@@ -83,7 +83,7 @@ Você pode copiar essas informações para a Área de transferência.
 
 ## Lidar com trabalhos recorrentes de upload e publicação {#handling-recurring-upload-and-publish-jobs}
 
-Os trabalhos de upload e publicação recorrentes criados nas páginas Fazer upload e publicar são listados na guia Programado da página Trabalhos. É possível editar e excluir tarefas recorrentes na guia Scheduled.
+Os trabalhos de upload e publicação recorrentes, criados nas páginas Upload e Publicar, são listados na guia Programado da página Trabalhos. É possível editar e excluir tarefas recorrentes na guia Scheduled.
 
 Selecione o botão Trabalhos na barra Navegação global e, na página Trabalhos, selecione o botão **[!UICONTROL Scheduled]** para poder editar e excluir tarefas recorrentes.
 

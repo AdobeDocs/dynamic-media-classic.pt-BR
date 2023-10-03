@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ A Adobe Dynamic Media Classic recomenda usar Predefinições de imagem para toda
 
 A Adobe Dynamic Media Classic também recomenda adicionar nitidez às Predefinições do visualizador e, em seguida, chamar um visualizador com essa predefinição. Isso garante que as imagens dos visualizadores sejam nítidas e atraentes.
 
-No entanto, se você usar Predefinições de imagem e Predefinições do visualizador ou algum método alternativo de nitidez, o resultado final é que você deve tornar as imagens mais nítidas. Caso contrário, suas imagens (e site) podem parecer suaves e difusas.
+No entanto, se você usar Predefinições de imagem e Predefinições do visualizador ou algum método de nitidez, o resultado final é que você deve tornar as imagens mais nítidas. Caso contrário, suas imagens (e site) podem parecer suaves e difusas.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Muitas vezes, é necessário ajustar a nitidez das imagens. O Adobe Dynamic Medi
 
 A nitidez da imagem aumenta o contraste dos pixels para criar o efeito de bordas acentuadas. Os seres humanos percebem esse contraste avançado de bordas como nitidez. Embora seja fácil aprimorar uma imagem executando filtros de nitidez em uma imagem, também é fácil aumentar a nitidez de uma imagem.
 
-A nitidez excessiva de uma imagem cria um efeito de halo ou uma faixa das linhas da borda.
+A nitidez excessiva de uma imagem cria um efeito de halo ou banda das linhas da borda.
 
 Há práticas recomendadas que você pode seguir para otimizar a nitidez das imagens no Adobe Dynamic Media Classic e no Dynamic Media Image Server.
 

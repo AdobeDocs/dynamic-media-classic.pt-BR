@@ -1,20 +1,18 @@
 ---
 title: "Início rápido: eCatalogs"
 description: Uma introdução e o Início rápido dos eCatalogs para ajudar você a começar a usar rapidamente as técnicas de eCatalog no Adobe Dynamic Media Classic.
-uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -86,7 +84,7 @@ Consulte [Criar um eCatalog](creating-ecatalog.md).
 
 Os mapas de imagem adicionam outro aspecto às páginas do eCatalog. Um Mapa de imagem é uma região de uma página que fornece mais informações sobre um item. Quando os visualizadores rolam o ponteiro sobre um Mapa de imagem, eles veem uma descrição do item. Clicar em um Mapa de imagem ativa uma referência externa que abre uma nova página da Web onde você pode saber mais sobre um item.
 
-Para criar um Mapa de imagem, abra a tela eCatalog. Em seguida, acesse o **[!UICONTROL Map Pages]** da tela eCatalog, e enquadre o mapa com a ferramenta Mapa de imagem retangular ou mapa de imagem poligonal. É possível ajustar a posição e o tamanho dos Mapas de imagem arrastando as bordas do mapa com a ferramenta Deslocar.
+Para criar um Mapa de imagem, abra a tela eCatalog. Em seguida, acesse o **[!UICONTROL Map Pages]** da tela eCatalog e enquadre o mapa com a ferramenta Mapa de imagem retangular ou Mapa de imagem poligonal. É possível ajustar a posição e o tamanho dos Mapas de imagem arrastando as bordas do mapa com a ferramenta Deslocar.
 
 Depois de enquadrar o Mapa de imagem, insira o endereço do URL para o qual deseja ir ao selecionar o Mapa de imagem. Também é possível inserir o texto de sobreposição exibido ao mover o ponteiro sobre o Mapa de imagem.
 

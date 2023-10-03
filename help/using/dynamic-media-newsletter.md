@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
 
   Nesta edição:
 
-   * Explore três maneiras pelas quais seu investimento em mídia avançada pode ajudar nesses tempos desafiadores.
+   * Explore três maneiras das quais seu investimento em mídia avançada pode ajudar durante esses tempos desafiadores.
    * Cadastre-se no webinário para saber como aliviar o carregamento de página com o Smart Imaging.
-   * Assista aos webinários sob demanda do Skill Builder para Adobe Dynamic Media Classic.
+   * Assista ao webinário sob demanda do Skill Builder para Adobe Dynamic Media Classic.
    * Veja as sessões do Dynamic Media no Adobe Summit Online 2020.
    * Saiba mais sobre o Adobe auditorias gratuitas da Adobe Dynamic Media Classic.
    * Reunir `John Monroe`, Gerente de programa sênior de soluções para clientes do Adobe.
@@ -95,7 +95,7 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
   Nesta edição:
 
    * Como obter análises avançadas sobre as ações que os visitantes realizam nos visualizadores do Dynamic Media.
-   * Um infográfico com dicas para deixar cair o queixo resulta da entrega de imagens e vídeos de alta qualidade.
+   * Um infográfico com dicas para resultados impressionantes da entrega de imagens e vídeos de alta qualidade.
    * Um artigo da CMSwire que o ajudará a entender como atualizar sua estratégia de mídia avançada para atender às expectativas atuais dos clientes.
    * Acesso ao webinário sob demanda no Dynamic Media na série Skill Builder.
    * Reunir `Nick Peters`, Gerente, Engenharia de confiabilidade do site, Adobe Experience Manager.
@@ -105,7 +105,7 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
 
   Nesta edição:
 
-   * Turbine suas experiências de cliente eliminando esses 9 pontos problemáticos.
+   * Turbine sua experiência com o cliente eliminando esses 9 pontos problemáticos.
    * Descubra como a equipe do Dynamic Media pode ajudar você a se preparar para um dia com tráfego de visitantes maior do que o normal.
    * Uma segunda chance de assistir a dois webinários recentes do Skill Builder.
    * Assista ao webinário sob demanda sobre como proteger seus ativos digitais da pirataria.
@@ -120,7 +120,7 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
    * Saiba mais sobre uma série de webinários projetada para atualizar você sobre o Experience Manager Assets e o Dynamic Media.
    * Comece sua jornada a obter valor do Dynamic Media no Experience League.
    * Obtenha uma prévia de uma integração poderosa em setembro, que permite analisar como os visitantes interagem com sua mídia avançada.
-   * Reunir `PieterJan Pieper`, assistente de suporte técnico do Dynamic Media.
+   * Reunir `PieterJan Pieper`, guru de suporte técnico da Dynamic Media.
 
 * **[Julho de 2019, Edição 07](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
 
@@ -128,7 +128,7 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
 
    * Recursos e informações que permitem gerenciar adequadamente seus ativos de alto valor para fornecer experiências com confiança que mantêm seus visitantes voltando.
    * Saiba mais sobre um webinário futuro sobre como proteger seus ativos digitais.
-   * As próximas paradas no tour do Adobe Insider preenchido com informações.
+   * Próxima parada do tour do Adobe Insider preenchido com informações.
    * Recursos interessantes disponíveis quando você tem o Dynamic Media no Experience Manager Assets (Experience Manager Assets).
    * Adicionar vídeos de 360° e miniaturas de vídeo personalizadas ao seu site.
    * Reunir `Andrew Hathaway`, Consultor principal de soluções para Dynamic Media na Experience Manager Assets.
