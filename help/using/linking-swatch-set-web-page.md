@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
 # Vincular um conjunto de amostras a uma página da Web{#linking-a-swatch-set-to-a-web-page}
 
-Depois de publicar um Conjunto de amostras, você pode usar o URL ou o código incorporado no site ou aplicativo. Em seguida, é possível implantar o URL ou o código incorporado, conforme necessário, para que os usuários possam exibir o Conjunto de amostras em seu site ou aplicativo.
+Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o código incorporado no site ou aplicativo. Em seguida, é possível implantar o URL ou o código incorporado, conforme necessário, para que os usuários possam exibir o Conjunto de amostras em seu site ou aplicativo.
 
 >[!NOTE]
 >

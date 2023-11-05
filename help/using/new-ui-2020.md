@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Consulte [aplicativo de desktop do Adobe Dynamic Media Classic](/help/using/dyna
 
 ## _Última revisão em 30 de junho de 2020_
 
-Os usuários do Adobe Dynamic Media Classic agora têm acesso a uma nova experiência de logon que não depende mais da tecnologia de Flash Adobe no navegador.
+Os usuários do Adobe Dynamic Media Classic agora têm acesso a um novo logon que não depende mais da tecnologia de Flash Adobe no navegador.
 
 ## Perguntas frequentes
 
@@ -39,7 +39,7 @@ Consulte [aplicativo de desktop do Adobe Dynamic Media Classic](/help/using/dyna
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Como funciona o novo aplicativo de desktop?_**
-Depois de baixar, instalar e iniciar o aplicativo de desktop, você verá uma experiência de logon atualizada. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você pode fazer logon no Adobe Dynamic Media Classic. A experiência geral é a mesma da versão familiar do navegador da Web com a qual você está acostumado. No aplicativo de desktop, é possível acessar os ambientes de produção e preparo do Adobe Dynamic Media Classic. Você também pode acessar o Portal de mídia se tiver credenciais para esse recurso.
+Depois de baixar, instalar e iniciar o aplicativo de desktop, você verá um logon atualizado. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você pode fazer logon no Adobe Dynamic Media Classic. A experiência geral é a mesma da versão familiar do navegador da Web com a qual você está acostumado. No aplicativo de desktop, é possível acessar os ambientes de produção e preparo do Adobe Dynamic Media Classic. Você também pode acessar o Portal de mídia se tiver credenciais para esse recurso.
 
 >[!IMPORTANT]
 >
@@ -68,7 +68,7 @@ A Adobe está comprometida em garantir que seus produtos atendam aos requisitos 
 +++
 
 +++**_Minha empresa não me permite instalar softwares e aplicativos em meu computador. Como você recomenda que eu obtenha acesso ao novo aplicativo de desktop?_**
-Algumas empresas não permitem que você baixe e instale software e aplicativos no seu sistema sem aprovação. Nesses casos, trabalhe com suas equipes de TI antecipadamente para obter permissão para acessar o novo aplicativo de desktop do Adobe Dynamic Media Classic. Lembre-se de que após 31 de dezembro de 2020 a versão do navegador será descontinuada. É importante evitar esperar até o último minuto para baixar o novo aplicativo de desktop.
+Algumas empresas não permitem que você baixe e instale software e aplicativos no seu sistema sem aprovação. Nesses casos, trabalhe com sua equipe de TI antecipadamente para obter permissão para acessar o novo aplicativo de desktop do Adobe Dynamic Media Classic. Lembre-se de que após 31 de dezembro de 2020 a versão do navegador será descontinuada. É importante evitar esperar até o último minuto para baixar o novo aplicativo de desktop.
 +++
 
 +++**_Várias instâncias do novo aplicativo de desktop podem ser abertas ao mesmo tempo?_**
@@ -102,7 +102,7 @@ O Adobe Dynamic Media Classic é uma solução poderosa, repleta de recursos, pr
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 +++**_Estou interessado em saber mais sobre como atualizar para o Adobe Dynamic Media com o Adobe Experience Manager Assets. Onde posso encontrar mais informações?_**
-Para saber mais sobre os benefícios de atualizar para a próxima geração de criação, publicação e disponibilização dinâmica de mídia, visite o [Adobe Dynamic Media Portal para atualização](https://exploreadobe.com/dynamic-media-upgrade/).
+Para saber mais sobre os benefícios de atualizar para a próxima geração de criação, publicação e disponibilização dinâmica de mídia, visite o [Adobe Dynamic Media Portal para atualização](/help/using/upgrade.md).
 +++
 
 >[!MORELIKETHIS]

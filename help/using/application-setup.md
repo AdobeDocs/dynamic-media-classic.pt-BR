@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '10711'
+source-wordcount: '10703'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Você pode usar as páginas de Configuração do aplicativo para inserir configu
 
 >[!NOTE]
 >
->Somente os administradores do Adobe Dynamic Media Classic podem alterar as configurações nas páginas em Configuração do aplicativo.
+>Somente administradores do Adobe Dynamic Media Classic podem alterar configurações na Configuração do aplicativo.
 
 ## Configurações gerais {#general-settings}
 
@@ -131,13 +131,13 @@ Consulte também [Opções de trabalho de upload padrão](https://s7d5.scene7.co
 
 * **[!UICONTROL Default Upload Options]** - Abre a caixa de diálogo Fazer upload das opções de trabalho, onde é possível especificar as opções de upload padrão. Para obter informações sobre essas opções, consulte [Opções de upload](/help/using/uploading-files.md#upload_options).
 
-### Editor de mapa de imagem, para aplicativo
+### Editor de mapa de imagem (para aplicativo)
 
 * **[!UICONTROL Default Image Mapping HREF]** - Define o URL padrão usado para a coluna HREF no mapeamento de imagem. Esse é o URL padrão que você vê ao criar Mapas de imagem.
 
 * **[!UICONTROL Default Image Mapping Template]** - Define o JavaScript padrão para o modelo HREF no mapeamento de imagem. Você pode definir aqui o código personalizado a ser executado sempre que selecionar um mapa de imagem.
 
-### Outras Configurações, para Aplicativo
+### Outras Configurações (para Aplicativo)
 
 * **[!UICONTROL Trash Can Clean Up Warnings]** - Os ativos na Lixeira são removidos automaticamente em sete dias. Selecione &quot;Enviar emails antes que os itens da lixeira sejam excluídos automaticamente&quot; se desejar que as notificações sejam enviadas aos administradores da empresa quando os ativos contidos na lixeira estiverem a quatro dias de serem excluídos permanentemente. Consulte [Gerenciar a pasta Lixeira](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
 * **[!UICONTROL Bi-Cubic]** - Aumenta o uso da CPU no Servidor de imagens, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.
 
-* **[!UICONTROL Sharp2]** - Pode produzir resultados ligeiramente mais nítidos do que a opção Bi-Cubic, porém com um custo de CPU ainda maior no servidor de imagem.
+* **[!UICONTROL `Sharp 2`]** - Pode produzir resultados ligeiramente mais nítidos do que a opção Bi-Cubic, porém com um custo de CPU ainda maior no servidor de imagem.
 
 * **[!UICONTROL Tri-Linear]** - Usa resoluções mais altas e mais baixas, se disponíveis; recomendado somente quando o alias for um problema. Este método reduz o tamanho do JPEG devido à redução dos dados de alta frequência.
 
@@ -340,9 +340,9 @@ Uma predefinição de codificação que funciona com qualquer taxa de proporçã
 
 |  | Codificação de nome de predefinição/texto de dica de ferramenta | Sufixo de arquivo codificado | Taxa de dados de vídeo (Kbps) | Largura/altura (pixels) | Fps | Taxa de bits de áudio (kbps) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Automático x 360, 800 Kbps | _Dispositivo Móvel_Autox360p_800K | 800 | Autox360 | Igual à origem | 64 | Para dispositivos móveis (iPhone, iPad, Android™) |
-| 2 | Automático x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | Igual à origem | 96 | Para tablets (iPad, Android™) |
-| 3 | Automático x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | Igual à origem | 128 | Para desktop |
+| 1 | Automático × 360, 800 Kbps | _Celular_Automático×360p_800K | 800 | Automático×360 | Igual à origem | 64 | Para dispositivos móveis (iPhone, iPad, Android™) |
+| 2 | Automático × 480, 1400 Kbps | _Tablet_Auto×480p_1400K | 1400 | Automático×480 | Igual à origem | 96 | Para tablets (iPad, Android™) |
+| 3 | Automático × 720, 2600 Kbps | _Desktop_Automático×720p_2600K | 2600 | Automático×720 | Igual à origem | 128 | Para desktop |
 
 ### Predefinições de vídeo da Codificação de vídeo adaptável (16:9 ou 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Todos os arquivos CSS predefinidos e prontos para uso do Visualizador no Adobe D
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-No entanto, se você hospeda arquivos CSS do Visualizador no seu próprio site, é necessário resolver esses caminhos de imagem relativos usando um caminho explícito para o Servidor de imagens no seu próprio ambiente. Por exemplo, se você atualizasse o caminho relativo acima para um caminho explícito, ele seria semelhante ao seguinte, em que `https://s7d1.scene7.com` é o caminho direto para o servidor de imagens: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+No entanto, se você hospeda arquivos CSS do Visualizador no seu próprio site, é necessário resolver esses caminhos de imagem relativos usando um caminho explícito para o Servidor de imagens no seu próprio ambiente. Por exemplo, se você atualizou o caminho relativo acima para um caminho explícito, ele pode ser semelhante ao seguinte, onde `https://s7d1.scene7.com` é o caminho direto para o servidor de imagens: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Para exportar uma predefinição do visualizador HTML5:**
 
@@ -926,7 +926,7 @@ Você pode usar o método de campo de formulário para definir uma predefiniçã
 
 Consulte também [Criar uma predefinição de conjunto de lotes para a geração automática de um Conjunto de rotação 2D](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-Consulte também [Conjuntos de rotação 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vídeo de treinamento.
+Consulte também [Grupo de rotação 2D](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) vídeo de treinamento.
 
 **Para criar uma predefinição de conjunto de lotes:**
 

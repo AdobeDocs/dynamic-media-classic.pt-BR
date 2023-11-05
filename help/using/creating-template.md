@@ -12,9 +12,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3309'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Use estas ferramentas na tela Modelo para criar modelos:
 
 * **[!UICONTROL Designer and Developer]** - Selecione a opção que melhor descreva sua função.
 
-* **[!UICONTROL Canvas]** - Define a área total disponível, em pixels, para definir o modelo. O tamanho padrão é 300 x 300 pixels. As camadas são colocadas na tela de desenho.
+* **[!UICONTROL Canvas]** - Define a área total disponível, em pixels, para definir o modelo. O tamanho padrão é 300 × 300 pixels. As camadas são colocadas na tela de desenho.
 
 * **[!UICONTROL Layers list]** - Lista o nome das camadas no modelo. Para selecionar uma camada, selecione seu nome na lista Camadas. A lista Camadas oferece ferramentas para adicionar efeitos a camadas, excluir camadas, reordenar camadas e parametrizar camadas. Consulte [Trabalhar com camadas](#working-with-layers).
 

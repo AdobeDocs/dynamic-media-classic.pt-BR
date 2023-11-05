@@ -9,9 +9,9 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ As configurações da página Configuração de publicação determinam como os 
 
 Os administradores podem alterar as configurações padrão nas páginas Servidor de imagens, Renderizador de imagens e Vinheta para estabelecer configurações padrão para fornecer ativos dos servidores.
 
-Para abrir as páginas de configuração de publicação, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
+Para abrir as páginas de Configuração de publicação, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Altere essas configurações somente com a assistência de um suporte técnico d
 >
 >Se desejar configurar as opções de Suporte à localização no Adobe Dynamic Media Classic, como o campo Mapa da localidade, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite ajuda para a configuração.
 
-Uma maneira comum de usar o Adobe Dynamic Media Classic é gerenciar as imagens do produto em sites de comércio eletrônico. As empresas internacionais enfrentam o desafio de que os ativos para produtos semelhantes pareçam diferentes de país para país. Geralmente, as diferenças se referem a algumas partes da mídia geral. Resolver essas diferenças copiando todos os ativos para cada um dos países e sobregravando apenas as diferenças é um esforço tremendo e contradiz a metáfora do ativo principal individual. Essas diferenças nos recursos podem variar, desde vídeos específicos de cada país com faixas de áudio diferentes até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Adobe Dynamic Media Classic usa um mecanismo básico de pesquisa. Você define uma ordem de sufixos de ativos que o Servidor de imagens procura, começando pelo local necessário.
+Uma maneira comum de usar o Adobe Dynamic Media Classic é gerenciar as imagens do produto em sites de comércio eletrônico. As empresas internacionais enfrentam o desafio de que os ativos para produtos semelhantes pareçam diferentes de país para país. Geralmente, as diferenças se referem a algumas partes da mídia geral. Resolver essas diferenças copiando todos os ativos para cada um dos países e substituindo apenas as diferenças é um esforço tremendo e contradiz a metáfora do ativo principal individual. Essas diferenças nos recursos podem variar, desde vídeos específicos de cada país com faixas de áudio diferentes até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Adobe Dynamic Media Classic usa um mecanismo básico de pesquisa. Você define uma ordem de sufixos de ativos que o Servidor de imagens procura, começando pelo local necessário.
 
 #### Como os ativos são localizados
 
@@ -95,7 +95,7 @@ Alguns dos benefícios de usar `locale=` e `attribute::DefaultLocale` incluem:
 | --- | --- |
 | Localização do visualizador | Depois que os catálogos de conteúdo estático são implementados, a localização é controlada totalmente com o parâmetro locale=, anexado a todas as solicitações feitas no IS. Registros de configuração, capas, telas iniciais e assim por diante podem ter variantes específicas do local ou não. O conteúdo correto é fornecido pelo IS sem que o visualizador precise saber qual conteúdo está localizado e quais são suas IDs. |
 | Imagens e vídeo | As empresas multinacionais geralmente têm uma combinação de conteúdos genéricos e específicos do local. Com esse mecanismo, uma referência a uma imagem ou vídeo pode ser genérica, e o IS serve o conteúdo específico do local, se disponível. |
-| Conjuntos de imagens e conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um conjunto de imagens genérico para um conjunto específico de localidades manipulada pelo visualizador. Normalmente, as IDs individuais em um conjunto genérico podem se referir ao conteúdo localizado. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto na foto do Painel de controle do Campaign. O IS traduz IDs automaticamente, de modo que não há necessidade de gerar conjuntos de imagens específicos do local. |
+| Conjuntos de imagens e conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um conjunto de imagens genérico para um conjunto específico de localidades manipulada pelo visualizador. Normalmente, as IDs individuais em um conjunto genérico podem se referir a conteúdos localizados. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto na foto do Painel de controle do Campaign. O IS traduz IDs automaticamente, de modo que não há necessidade de gerar conjuntos de imagens específicos do local. |
 
 #### Implementar a localização de ativos
 

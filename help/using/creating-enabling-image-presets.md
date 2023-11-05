@@ -12,9 +12,9 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Os administradores do Portal de mídia podem criar Predefinições de imagem par
 
 As seguintes restrições se aplicam quando você exporta ativos de imagem:
 
-* A largura x altura deve ser menor que ou igual a 100 MB por imagem. Por exemplo, a imagem não pode exceder 10 K x 10 K, ou qualquer variação de aspecto abaixo, como 8 K x 12 K.
+* A largura × altura deve ser inferior ou igual a 100 MB por imagem. Por exemplo, a imagem não pode exceder 10 K × 10 K, ou qualquer variação de aspecto abaixo, como 8 K × 12 K.
 * Há um tamanho máximo total de 1 GB por trabalho de exportação.
 * Você pode ter um máximo de 500 ativos totais por trabalho de exportação.
 

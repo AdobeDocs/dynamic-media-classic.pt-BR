@@ -11,9 +11,9 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Consulte também [Exportar ativos do Adobe Dynamic Media Classic](exporting-asse
 
    * **Ativar conversão definida pelo usuário** - Quando selecionada, essa opção permite que os usuários escolham outras opções na **[!UICONTROL Size]** na janela Exportar ativos selecionados. Os usuários podem então escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
 
-     Quando **[!UICONTROL pixels]** são escolhidos entre os **[!UICONTROL Size]** lista suspensa, a largura x altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 x 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 x 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
+     Quando **[!UICONTROL pixels]** são escolhidos entre os **[!UICONTROL Size]** lista suspensa, a largura × altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 × 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 × 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
 
      Desmarque essa opção se desejar que os usuários baixem os arquivos sem reformatar a maneira como eles são baixados.
 

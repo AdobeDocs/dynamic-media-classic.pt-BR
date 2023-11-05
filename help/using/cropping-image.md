@@ -1,20 +1,18 @@
 ---
 title: Cortar uma imagem
 description: Saiba como cortar uma imagem no Adobe Dynamic Media Classic.
-uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---

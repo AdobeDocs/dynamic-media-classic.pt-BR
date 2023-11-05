@@ -12,7 +12,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Início rápido: conjuntos de rotação{#quick-start-spin-sets}
 
-Um Conjunto de rotação simula o ato do mundo real de virar um objeto para examiná-lo. Os Conjuntos de rotação permitem a visualização de itens de qualquer ângulo, obtendo os principais detalhes visuais de qualquer ângulo. Um Conjunto de rotação simula uma experiência de visualização de 360°. O Adobe Dynamic Media Classic oferece Conjuntos de rotação unidimensionais nos quais os visualizadores podem girar um item e Conjuntos de rotação bidimensionais nos quais os visualizadores podem girar e virar o item. Além disso, os usuários podem aplicar o zoom de forma &quot;livre&quot; e deslocar qualquer uma das visualizações com apenas alguns cliques do mouse. Dessa forma, os usuários podem examinar um item mais detalhadamente de um ponto de vista específico.
+Um Conjunto de rotação simula o ato do mundo real de virar um objeto para examiná-lo. Os Conjuntos de rotação permitem a visualização de itens de qualquer ângulo, obtendo os principais detalhes visuais de qualquer ângulo. Um Conjunto de rotação simula uma experiência de visualização de 360 graus. O Adobe Dynamic Media Classic oferece Conjuntos de rotação unidimensionais nos quais os visualizadores podem girar um item e Conjuntos de rotação bidimensionais nos quais os visualizadores podem girar e virar o item. Além disso, os usuários podem aplicar o zoom de forma &quot;livre&quot; e deslocar qualquer uma das visualizações com apenas alguns cliques do mouse. Dessa forma, os usuários podem examinar um item mais detalhadamente de um ponto de vista específico.
 
 ![Imagens para um grupo de rotação.](/help/using/assets/spin_set.png)
 
@@ -31,7 +31,7 @@ Consulte [Criar mapas de imagem](creating-image-maps.md).
 
 Consulte [Conjuntos de imagem e rotação: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vídeo de treinamento.
 
-Ao criar um Conjunto de rotação, o Adobe recomenda a seguinte prática recomendada e impõe o seguinte limite:
+Ao criar um Conjunto de rotação, o Adobe recomenda a seguinte prática recomendada e impõe os seguintes limites:
 
 | Tipo de limite do grupo de rotação | Prática recomendada | Limite imposto |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ Este Início rápido dos conjuntos de rotação foi projetado para colocar suas 
 
 ## 1. Criar e carregar as imagens
 
-No mínimo, você precisa de 8 a 12 imagens de um item para um Conjunto de rotação unidimensional e 16 a 24 para um Conjunto de rotação bidimensional. As fotos devem ser tiradas em intervalos regulares para dar a impressão de que o item está girando e sendo virado. Por exemplo, se um Conjunto de rotação unidimensional incluir 12 disparos, gire o item 30° (360°/12) para cada disparo.
+No mínimo, você precisa de 8 a 12 imagens de um item para um Conjunto de rotação unidimensional e 16 a 24 para um Conjunto de rotação bidimensional. As fotos devem ser tiradas em intervalos regulares para dar a impressão de que o item está girando e sendo virado. Por exemplo, se um Conjunto de rotação unidimensional incluir 12 disparos, gire o item 30° (360/12) para cada disparo.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para fazer upload de imagens giratórias do seu computador ou rede para o Adobe Dynamic Media Classic.
 

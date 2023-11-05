@@ -1,20 +1,18 @@
 ---
 title: Implantar vídeo em seus sites e sites móveis
 description: Saiba como implantar vídeo em seus sites e sites móveis da Adobe Dynamic Media Classic.
-uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 0%
 
 ---
@@ -48,7 +46,7 @@ Depois de publicar vídeos, o Adobe Dynamic Media Classic ativa as cadeias de ca
 
 ## Vincular um URL de vídeo a um site para dispositivos móveis ou site {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-Após publicar um vídeo, você pode obter o URL para uso no seu site, site para dispositivos móveis ou aplicativo de desktop. Use o URL do vídeo quando quiser exibir o vídeo em uma janela pop-up ou modal na parte superior da página da Web.
+Ao publicar um vídeo, você pode obter o URL associado para uso no seu site, site para dispositivos móveis ou aplicativo de desktop. Use o URL do vídeo quando quiser exibir o vídeo em uma janela pop-up ou modal na parte superior da página da Web.
 
 Quando um cliente seleciona o link, seu dispositivo, largura de banda e tamanho de tela são detectados automaticamente. O vídeo apropriado é exibido para reprodução em um visualizador predefinido para desktop ou no player de vídeo nativo do dispositivo móvel para smartphones e tablets.
 
@@ -179,7 +177,7 @@ Para gerar URLs para miniaturas de vídeo, execute uma operação de publicaçã
 
 Consulte [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Após a publicação, é possível obter URLs de miniatura de vídeo na Exibição de detalhes no painel URLs e Código incorporado. Selecionar **[!UICONTROL Copy URL]** à direita da miniatura do vídeo para que você possa copiar o URL.
+Após a publicação, é possível obter URLs de miniatura de vídeo na Exibição de detalhes no painel URLs e Código incorporado. Selecionar **[!UICONTROL Copy URL]** à direita da miniatura do vídeo para que você possa copiar o URL associado.
 
 ### Modificar quadros de pôster em visualizadores de vídeo {#modifying-poster-frames-in-video-viewers}
 

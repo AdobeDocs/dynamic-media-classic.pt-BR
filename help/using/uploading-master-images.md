@@ -12,9 +12,9 @@ role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Para obter detalhes sobre o upload de imagens, consulte [Fazer upload de arquivo
 
 Prepare seus arquivos de imagem principais antes de carregá-los no Adobe Dynamic Media Classic:
 
-* **Tamanho da imagem** : crie as imagens de maior tamanho que você antecipa usando o. Os tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. Se você pretende usar o recurso Zoom, a Adobe Dynamic Media Classic recomenda usar imagens com pelo menos 2000 pixels no tamanho mais longo para obter o detalhe de zoom ideal. O Adobe Dynamic Media Classic pode renderizar imagens de até 25 megapixels cada. Por exemplo, você pode usar uma imagem de 5000 x 5000 MP ou qualquer outra combinação de tamanho de até 25 MP.
+* **Tamanho da imagem** : crie as imagens de maior tamanho que você antecipa usando o. Os tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. Se você pretende usar o recurso Zoom, a Adobe Dynamic Media Classic recomenda usar imagens com pelo menos 2000 pixels no tamanho mais longo para obter o detalhe de zoom ideal. O Adobe Dynamic Media Classic pode renderizar imagens de até 25 megapixels cada. Por exemplo, você pode usar uma imagem de 5000 × 5000 MP ou qualquer outra combinação de tamanho até 25 MP.
 
 * **Formatos de arquivo** - A Adobe Dynamic Media Classic suporta todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS. São recomendados formatos de imagem sem perda (TIFF e PNG). Se você estiver usando uma imagem de JPEG, use as configurações de mais alta qualidade.
 

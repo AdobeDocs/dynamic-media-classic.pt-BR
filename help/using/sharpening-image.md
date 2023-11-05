@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ A tabela a seguir mostra as opções de nitidez do Servidor de imagens.
 | Nome | Protocolo de URL | Valores | Exemplo |
 | --- | --- | --- | --- |
 | Nitidez simples | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
-| Modo de reamostragem | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleciona a interpolação bilinear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização são geralmente visíveis.<br>`bicub`: seleciona a interpolação bi-cúbica. Mais intensivo de CPU do que o bilin, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.<br><br>`sharp2`: seleciona uma função do Windows® Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto.<br><br>`trilin`: seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponíveis. Recomendado somente quando o alias for um problema. Reduz os tamanhos de JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
+| Modo de reamostragem | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: seleciona a interpolação bilinear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização são geralmente visíveis.<br>`bicub`: seleciona a interpolação bi-cúbica. Maior uso intenso da CPU do que `bilin`, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.<br><br>`sharp2`: seleciona uma função do Windows® Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto.<br><br>`trilin`: seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponíveis. Recomendado somente quando o alias for um problema. Reduz os tamanhos de JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
 | Tirar nitidez da máscara | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fator de resistência do filtro (real 0 a 5)<br><br>`radius`: raio do kernel do filtro em pixels (0 a 250 reais) <br><br>`threshold`: nível limite do filtro (int 0...255)<br><br>`monochrome`: defina como `0` para tornar cada componente de cor menos nítido, defina como `1` para aumentar a nitidez da imagem (intensidade) | `op_usm=1,1,10,0` |
 
 Selecione o **[!UICONTROL Sharpening]** e escolha uma opção:
@@ -79,7 +79,7 @@ Escolha estas opções para poder ajustar a nitidez com a opção Tirar nitidez 
 
 O melhor valor de raio depende do tamanho da imagem. Um valor baixo aplica nitidez apenas aos pixels da borda. Um valor alto aplica nitidez a uma faixa mais ampla de pixels.
 
-Por exemplo, para obter um efeito de nitidez semelhante para uma imagem de 2000 x 2000 pixels e uma imagem de 500 x 500 pixels, você pode definir um valor de raio de dois pixels na imagem de 2000 x 2000 pixels. Em seguida, defina um valor de raio de um pixel na imagem de 500 x 500 pixels (um valor maior para uma imagem com mais pixels).
+Por exemplo, para obter um efeito de nitidez semelhante para uma imagem de 2000 × 2000 pixels e uma imagem de 500 × 500 pixels, você pode definir um valor de raio de dois pixels na imagem de 2000 × 2000 pixels. Em seguida, defina um valor de raio de um pixel na imagem de 500 × 500 pixels (um valor maior para uma imagem com mais pixels).
 
 * **Limite** - Determina o intervalo de contraste que deve ser ignorado quando o filtro Tirar nitidez da máscara é aplicado. Essa opção determina como deve ser a diferença dos pixels com nitidez em relação à área ao redor antes de serem considerados pixels de borda e antes da nitidez.
 
@@ -99,7 +99,7 @@ Selecione o **[!UICONTROL Resampling]** e escolha uma opção. Essas opções de
 
 * **[!UICONTROL Bicubic]** - Aumenta o uso da CPU no Servidor de imagens, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.
 
-* **[!UICONTROL Sharpen2]** - Produz resultados ligeiramente mais nítidos do que **[!UICONTROL Bicubic]**, mas com um custo de CPU ainda maior no Servidor de imagens.
+* **[!UICONTROL `Sharpen2`]** - Produz resultados ligeiramente mais nítidos do que **[!UICONTROL Bicubic]**, mas com um custo de CPU ainda maior no Servidor de imagens.
 
 * **[!UICONTROL Trilinear]** - Usa resoluções mais altas e mais baixas, se disponíveis; recomendado somente quando a suavização for um problema. Este método reduz o tamanho do JPEG devido à redução dos dados de alta frequência.
 
@@ -128,7 +128,7 @@ As opções de Qualidade de JPG controlam o nível de compactação de JPG:
 
 Se você não usar uma Predefinição de imagem ou enviar protocolos de nitidez específicos do Servidor de imagens ao longo da cadeia de caracteres do URL, a imagem não receberá nitidez quando sua resolução for reduzida. No entanto, se essa falta de nitidez ocorrer, será possível definir valores de nitidez padrão e, em seguida, qualquer imagem terá sempre alguma nitidez.
 
-Para definir as opções de nitidez padrão da sua empresa, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Se você definir o Modo de reamostragem padrão como **[!UICONTROL Sharp2]**, ela sempre aplica nitidez à imagem ao diminuir a resolução.
+Para definir as opções de nitidez padrão da sua empresa, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Se você definir o Modo de reamostragem padrão como **[!UICONTROL `Sharp2`]**, ela sempre aplica nitidez à imagem ao diminuir a resolução.
 
 **Adicionar nitidez às predefinições do visualizador**
 

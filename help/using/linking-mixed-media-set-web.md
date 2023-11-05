@@ -1,27 +1,25 @@
 ---
 title: Vincular um conjunto de mídias mistas a uma página da Web
 description: Saiba como vincular um Conjunto de mídias mistas a uma página da Web no Adobe Dynamic Media Classic.
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Vincular um conjunto de mídias mistas a uma página da Web{#linking-a-mixed-media-set-to-a-web-page}
 
-Após publicar um Conjunto de mídias mistas, você pode obter o URL para uso no seu site ou aplicativo. Em seguida, é possível implantar o URL conforme necessário para que os usuários possam visualizar o Conjunto de mídias mistas em seu site ou aplicativo.
+Após publicar um Conjunto de mídias mistas, você pode obter o URL associado para uso no seu site ou aplicativo. Em seguida, é possível implantar o URL conforme necessário para que os usuários possam visualizar o Conjunto de mídias mistas em seu site ou aplicativo.
 
 ## Obter um URL de conjunto de mix de mídia {#obtain-a-mixed-media-set-url}
 

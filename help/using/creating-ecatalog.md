@@ -12,9 +12,9 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o eCatalog. No campo Nome do arquivo, digite o nome do conjunto de rotação.
 1. Selecionar **[!UICONTROL Save]**.
 
-   Você pode visualizar seu eCatalog depois de salvá-lo selecionando **[!UICONTROL Preview]**.
+   Você pode visualizar seu eCatalog, depois de salvá-lo, selecionando **[!UICONTROL Preview]**.
 
 ## Editar um eCatalog {#editing-an-ecatalog}
 
@@ -114,7 +114,7 @@ Para inserir manualmente os nomes de página, um de cada vez, vá para a guia Or
 
 A importação de nomes de página é recomendada se você estiver lidando com um eCatalog com muitas páginas. Você pode importar os nomes de um arquivo XML ou delimitado por tabulação.
 
-O rótulo do índice é armazenado no campo Dados do usuário de uma imagem; formate esses dados como uma lista de `name=<value>` ` pairs separated by two question marks “??” `. Por exemplo, para definir um rótulo para um campo de índice chamado `tocEN`, defina os Dados do usuário da imagem como:
+O rótulo do índice é armazenado no campo Dados do usuário de uma imagem; formate esses dados como uma lista de `name=<value>` ` pairs separated by two question marks "??" `. Por exemplo, para definir um rótulo para um campo de índice chamado `tocEN`, defina os Dados do usuário da imagem como:
 
 `tocEN=&lt;EN_page_label>`
 

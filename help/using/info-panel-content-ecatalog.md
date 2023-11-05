@@ -1,18 +1,16 @@
 ---
 title: Gerenciar conteúdo do Painel de Informações em eCatalogs
 description: Saiba como gerenciar o conteúdo do Painel de informações em eCatalogs no Adobe Dynamic Media Classic.
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -51,7 +49,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 1. Na caixa Resposta TTL, informe o número de horas que deseja aguardar antes de armazenar os dados em cache:
 
    * Defina um número menor se os dados forem atualizados com frequência ao longo de um dia.
-   * Defina um número mais alto se os dados forem relativamente estáveis e não exigirem atualizações com frequência ao longo do dia. O padrão é dez horas.
+   * Defina um número mais alto se os dados estiverem relativamente estáveis e não exigirem atualizações frequentes ao longo do dia. O padrão é dez horas.
 
 1. Selecionar **[!UICONTROL Publish]**.
 

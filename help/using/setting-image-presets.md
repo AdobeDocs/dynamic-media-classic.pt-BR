@@ -12,16 +12,16 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 2%
 
 ---
 
 # Configurar predefinições da imagem{#setting-up-image-presets}
 
-Como uma macro, uma Predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. Para entender como as Predefinições de imagem funcionam, suponha que seu site exija que cada imagem de produto seja exibida em dois tamanhos diferentes: 500 x 500 pixels e 150 x 150 pixels. Você cria duas Predefinições de imagem, uma chamada &quot;Ampliar&quot; para exibir imagens a 500x500 pixels e outra chamada &quot;Miniatura&quot; para exibir imagens a 150 x 150 pixels. Para fornecer imagens no tamanho &quot;Ampliar&quot; e &quot;Miniatura&quot;, um Servidor de imagens do Dynamic Media pesquisa a definição da Predefinição de imagem ampliada e da Predefinição de imagem em miniatura. Em seguida, o servidor gera dinamicamente uma imagem com as especificações de tamanho e formatação de cada Predefinição de imagem.
+Como uma macro, uma Predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. Para entender como as Predefinições de imagem funcionam, suponha que seu site exija que cada imagem de produto seja exibida em dois tamanhos diferentes: 500 × 500 pixels e 150 × 150 pixels. Você cria duas Predefinições de imagem, uma chamada &quot;Ampliar&quot; para exibir imagens a 500x500 pixels e outra chamada &quot;Miniatura&quot; para exibir imagens a 150 × 150 pixels. Para fornecer imagens no tamanho &quot;Ampliar&quot; e &quot;Miniatura&quot;, um Servidor de imagens do Dynamic Media pesquisa a definição da Predefinição de imagem ampliada e da Predefinição de imagem em miniatura. Em seguida, o servidor gera dinamicamente uma imagem com as especificações de tamanho e formatação de cada Predefinição de imagem.
 
 O Adobe Dynamic Media Classic vem com várias Predefinições de imagem de &quot;prática recomendada&quot; que já estão configuradas para você usar. Os administradores também podem criar Predefinições de imagem. Para criar uma Predefinição de imagem, comece do zero ou a partir de uma predefinição existente e salve com um novo nome.
 
@@ -48,7 +48,7 @@ Você poderá criar suas próprias Predefinições de imagem se for um administr
 
    A Adobe Dynamic Media Classic recomenda que essas opções de &quot;práticas recomendadas&quot; comecem:
 
-   * **[!UICONTROL Format]** - Escolha o JPEG ou outro formato que atenda aos requisitos. Todos os navegadores da Web são compatíveis com o formato de imagem JPEG; ele oferece um bom equilíbrio entre arquivos pequenos e qualidade de imagem. No entanto, as imagens no formato JPEG usam um esquema de compactação com perdas que pode apresentar artefatos de imagem indesejados se a configuração de compactação for muito baixa. Por esse motivo, a Adobe Dynamic Media Classic recomenda definir a qualidade de compactação (no controle deslizante) como 75. Essa configuração oferece um bom equilíbrio entre a qualidade da imagem e o tamanho pequeno de arquivo.
+   * **[!UICONTROL Format]** - Escolha o JPEG ou outro formato que atenda aos requisitos. Todos os navegadores da Web são compatíveis com o formato de imagem JPEG; ele oferece um bom equilíbrio entre arquivos pequenos e qualidade de imagem. No entanto, as imagens de JPEG usam um esquema de compactação com perdas que pode apresentar artefatos de imagem indesejados se a configuração de compactação for muito baixa. Por esse motivo, a Adobe Dynamic Media Classic recomenda definir a qualidade de compactação (no controle deslizante) como 75. Essa configuração oferece um bom equilíbrio entre a qualidade da imagem e o tamanho pequeno de arquivo.
 
    * **[!UICONTROL Sharpening]** - Não selecione Nitidez (este filtro de nitidez oferece menos controle do que **[!UICONTROL Unsharp Masking]** configurações).
 
@@ -58,14 +58,14 @@ Você poderá criar suas próprias Predefinições de imagem se for um administr
 
    | Tipo de predefinição | Tamanho | USM: Quantidade | USM: Raio | USM: Limite |
    | --- | --- | --- | --- | --- |
-   | Venda cruzada (miniminiminiatura) | 75 x 75 | 1.5 | 0.8 | 5 |
-   | Miniatura | 150 x 150 | 1.1 | 1 | 5 |
-   | Principal | 350 x 350 | 1 | 1 | 6 |
-   | Ampliar | 500 x 500 | 1.2 | 1.2 | 5 |
+   | Venda cruzada (miniminiminiatura) | 75 × 75 | 1.5 | 0.8 | 5 |
+   | Miniatura | 150 × 150 | 1.1 | 1 | 5 |
+   | Principal | 350 × 350 | 1 | 1 | 6 |
+   | Ampliar | 500 × 500 | 1.2 | 1.2 | 5 |
 
 1. Selecionar **[!UICONTROL Save]**.
 
-As opções de &quot;prática recomendada&quot; do Adobe Dynamic Media Classic para criar Predefinições de imagem listadas aqui são recomendações gerais; a nitidez é altamente subjetiva. Essas configurações de &quot;práticas recomendadas&quot; eram baseadas em uma imagem primária de 2000 x 2000; as configurações para arquivos principais maiores ou menores podem ser diferentes. Se você quiser ajustar as configurações Tirar nitidez da máscara, a Adobe Dynamic Media Classic recomenda estes intervalos:
+As opções de &quot;prática recomendada&quot; do Adobe Dynamic Media Classic para criar Predefinições de imagem listadas aqui são recomendações gerais; a nitidez é altamente subjetiva. Essas configurações de &quot;práticas recomendadas&quot; foram baseadas em uma imagem primária de 2000 × 2000; as configurações para arquivos primários maiores ou menores podem ser diferentes. Se você quiser ajustar as configurações Tirar nitidez da máscara, a Adobe Dynamic Media Classic recomenda estes intervalos:
 
 * **[!UICONTROL Amount]** - Entre .8 e 1.5.
 

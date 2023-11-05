@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1943'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Este novo aplicativo agora está disponível para Windows® e macOS.
 >
 >A Adobe recomenda que você instale o novo aplicativo de desktop Adobe Dynamic Media Classic até 1º de outubro de 2020. Isso garantirá uma transição suave antes que o Adobe Flash Player seja descontinuado em 31 de dezembro de 2020. Após essa data, não será possível fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic rotulada como Adobe Dynamic Media Classic no produto.
 
-Consulte as Perguntas frequentes do [Nova experiência de logon do Adobe Dynamic Media Classic já disponível.](/help/using/new-ui-2020.md)
+Consulte as Perguntas frequentes do [Novo logon na Adobe Dynamic Media Classic já disponível.](/help/using/new-ui-2020.md)
 
 ## Requisitos de sistema para o aplicativo de desktop do Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -91,7 +91,7 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 Consulte também:
 
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac](#install-silent-mac-dmc-app)
-* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows®](#install-silent-windows-dmc-app)
+* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows](#install-silent-windows-dmc-app)
 
 1. Desinstale todas as versões mais antigas do aplicativo de desktop do Adobe Dynamic Media Classic no sistema.
 
@@ -110,7 +110,7 @@ Consulte também:
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -149,8 +149,8 @@ Consulte também:
 
 Consulte também:
 
-* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows®](#installation-dmc-app)
-* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows®](#install-silent-windows-dmc-app)
+* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows](#installation-dmc-app)
+* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows](#install-silent-windows-dmc-app)
 
 Para baixar e *silencioso* instale a versão mais recente do aplicativo de desktop do Adobe Dynamic Media Classic no macOS:
 
@@ -191,7 +191,7 @@ O comando usado é para uma instalação silenciosa básica do MSI. No entanto, 
 
 Consulte também:
 
-* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows®](#installation-dmc-app)
+* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows](#installation-dmc-app)
 
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no macOS](#install-silent-mac-dmc-app)
 

@@ -12,7 +12,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Usando o Adobe Dynamic Media Classic Video SEO, você pode aplicar metadados de 
 >
 >O Google é compatível com os protocolos Video Sitemap e feed mRSS para o envio de informações para mecanismos de pesquisa.
 
-O Adobe Dynamic Media Classic pode gerar mapas de site de vídeo e feeds mRSS a partir de metadados armazenados em cada vídeo. Ao criar mapas de site de vídeo e feeds mRSS, você decide quais campos de metadados de arquivos de vídeo incluir. Dessa forma, você descreve os vídeos nos mecanismos de pesquisa para que os mecanismos de pesquisa possam direcionar com mais precisão o tráfego para vídeos no seu site
+O Adobe Dynamic Media Classic pode gerar mapas de site de vídeo e feeds mRSS a partir de metadados armazenados em cada vídeo. Ao criar mapas de site de vídeo e feeds mRSS, você decide quais campos de metadados de arquivos de vídeo incluir. Dessa forma, você descreve os vídeos nos mecanismos de pesquisa para que os mecanismos de pesquisa possam direcionar com mais precisão o tráfego para vídeos no seu site.
 
 >[!NOTE]
 >
->Antes de criar um mapa do site de vídeo ou feed mRSS, descubra quais campos o mecanismo de pesquisa requer no arquivo XML e como estruturá-los. Para criar um Mapa do site de vídeo ou feed mRSS bem-sucedido, ele deve atender aos requisitos do mecanismo de pesquisa.
+>Antes de criar um Mapa do site de vídeo ou feed mRSS, descubra quais campos o mecanismo de pesquisa requer no arquivo XML e como estruturá-los. Para criar um Mapa do site de vídeo ou feed mRSS bem-sucedido, ele deve atender aos requisitos do mecanismo de pesquisa.
 
 O Adobe Dynamic Media Classic cria relatórios sobre mapas de site de vídeo e feeds mRSS após gerá-los. Esses relatórios estão disponíveis na página Video SEO Report.
 

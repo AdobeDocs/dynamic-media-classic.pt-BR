@@ -12,9 +12,9 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Depois que um arquivo de fonte for carregado, você poderá alterar sua Adobe Dy
 
 >[!NOTE]
 >
->O Adobe Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes nas camadas de modelo. O Adobe Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. O upload de todos os arquivos PostScript/Adobe Type associados a uma fonte também é recomendado porque algumas dessas fontes contêm informações detalhadas de kerning.
+>O Adobe Dynamic Media Classic recomenda fazer upload de todos os estilos de fonte (negrito, itálico, negrito/itálico e regular) se você planeja usar fontes nas camadas de modelo. O Adobe Dynamic Media Classic precisa desses estilos de fonte para processar solicitações. Fazendo upload de tudo `PostScript/Adobe Type1` arquivos associados a uma fonte também são recomendados porque algumas dessas fontes contêm informações detalhadas de kerning.
 
 ## Fazer upload de arquivos de fonte {#uploading-font-files}
 

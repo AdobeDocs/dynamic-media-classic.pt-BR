@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3717'
+source-wordcount: '3716'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Para obter os melhores resultados com o programa Adobe Dynamic Media Classic, ce
 | eCatalogs | Use arquivos de PDF de alta resolução criados no Adobe Acrobat ou um aplicativo de Creative Suite de Adobe salvo como &quot;pronto para impressão&quot;. Os PDF incluem todas as fontes, imagens, máscaras e elementos gráficos referenciados necessários, como páginas únicas, páginas duplas ou em um formato de várias páginas. Ordene suas páginas nomeando os arquivos em ordem alfanumérica. Coloque todos os PDF do eCatalog em uma única pasta para facilitar o upload. Você pode selecionar opções de corte no upload para remover a área de corte dos PDF, incluindo marcas de corte, destinos de registro ou barras de cores. A maioria dos arquivos de PDF prontos para impressão está no espaço de cores CMYK, portanto, é importante obter o perfil de cores CMYK ICC usado com seus arquivos de PDF. |
 | Modelos | Design de imagem ou layout em camadas que pode incluir texto, imagens e camadas. Camadas de imagem, cadeias de caracteres de texto e atributos, como cor e tamanho, podem ser parametrizados para que os dados variáveis possam ser personalizados. Os requisitos de imagem para uso em modelos são os mesmos de outras imagens. Prepare seus gráficos no Photoshop ou outro programa de edição de imagens. Salve cada gráfico como um arquivo plano transparente no formato TIFF ou PNG. Verifique se a resolução da imagem é adequada para o uso esperado. As imagens para impressão têm 300 ppi. |
 | Vídeos | O Adobe Dynamic Media Classic é compatível com arquivos de vídeo salvos nos formatos OGV e MP4. Você pode transcodificar arquivos para o formato MP4 no upload. Consulte [Formatos de arquivo de ativo compatíveis](#supported-static-file-formats). |
-| Fontes | Carregado TrueType, Type1 (somente Windows®), fontes OpenType® e PhotoFonts. |
+| Fontes | TrueType carregado, `Type1` (Somente Windows®), fontes OpenType® e PhotoFonts. |
 | Imagens | Imagens e arquivos de imagem em camadas. |
 | Conjuntos de imagens e conjuntos de amostras | Um conjunto de imagens relacionadas que podem ser exibidas em um visualizador. |
 | Perfis ICC | Um perfil de cores que pode ser usado para converter uma imagem carregada de seu espaço de cores de origem em um espaço de cores diferente. |

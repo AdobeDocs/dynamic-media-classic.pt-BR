@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Sim, [!DNL Dynamic Media] O usa a rede de entrega de nível superior Adobe.
 
 * Melhor fornecedor de mídia avançada para Internet Retail 1000, nove anos consecutivos.
 * Suporte 24 horas por dia, 7 dias por semana, 265 dias por ano; SLAs de 99,95%.
-* Infraestrutura comprovada atendendo a mais de 800 clientes em todo o mundo, tráfego de 3,5 petabytes por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.
+* Infraestrutura comprovada que atende a mais de 800 clientes em todo o mundo, tráfego de 3,5 PB por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.
 
 +++
 

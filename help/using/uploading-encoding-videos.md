@@ -11,9 +11,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3846'
 ht-degree: 1%
 
 ---
@@ -170,7 +170,7 @@ A tabela a seguir descreve como os resultados da fórmula são convertidos em op
 | 1.78 | 16:9 |
 | 0.56 | 9:16 |
 
-Por exemplo, um vídeo com largura de 1440 x altura de 1080 tem uma taxa de proporção de 1440/1080 ou 1,33. Nesse caso, você escolhe uma predefinição de codificação de vídeo com uma proporção 4:3 para codificar o arquivo de vídeo.
+Por exemplo, um vídeo com 1440 de largura × 1080 de altura tem uma proporção largura/altura de 1440/1080 ou 1,33. Nesse caso, você escolhe uma predefinição de codificação de vídeo com uma proporção 4:3 para codificar o arquivo de vídeo.
 
 ### Taxa de dados {#data-rate}
 
@@ -193,16 +193,16 @@ Esta tabela descreve a taxa de dados de velocidades de conexão típicas.
 
 ### Resolução {#resolution}
 
-*Resolução* descreve a altura e a largura de um arquivo de vídeo em pixels. A maioria dos vídeos de origem é armazenada em alta resolução (por exemplo, 1920 x 1080). Para fins de transmissão, o vídeo de origem é compactado em uma resolução menor (640 x 480 ou menor).
+*Resolução* descreve a altura e a largura de um arquivo de vídeo em pixels. A maioria dos vídeos de origem é armazenada em alta resolução (por exemplo, 1920 × 1080). Para fins de transmissão, o vídeo de origem é compactado para uma resolução menor (640 × 480 ou menor).
 
-Resolução e taxa de dados são dois fatores vinculados integralmente que determinam a qualidade do vídeo. Para manter a mesma qualidade de vídeo, quanto maior o número de pixels em um arquivo de vídeo (quanto maior a resolução), maior deverá ser a taxa de dados. Por exemplo, considere o número de pixels por quadro em uma resolução de 320 x 240 e um arquivo de vídeo de resolução de 640 x 480:
+Resolução e taxa de dados são dois fatores vinculados integralmente que determinam a qualidade do vídeo. Para manter a mesma qualidade de vídeo, quanto maior o número de pixels em um arquivo de vídeo (quanto maior a resolução), maior deverá ser a taxa de dados. Por exemplo, considere o número de pixels por quadro em um arquivo de vídeo de resolução 320 × 240 e resolução 640 × 480:
 
 | Resolução | Pixels por quadro |
 | --- | --- |
-| 320 x 240 | 76,800 |
-| 640 x 480 | 307,200 |
+| 320 × 240 | 76,800 |
+| 640 × 480 | 307,200 |
 
-O arquivo de 640 x 480 tem quatro vezes mais pixels por quadro. Para obter a mesma taxa de dados para essas duas resoluções de exemplo, aplique quatro vezes a compactação ao arquivo 640 x 480, o que pode reduzir a qualidade do vídeo. Portanto, uma taxa de dados de vídeo de 250 Kbps produz uma visualização de alta qualidade com resolução de 320 x 240, mas não com resolução de 640 x 480.
+O arquivo de 640 × 480 tem quatro vezes mais pixels por quadro. Para obter a mesma taxa de dados para essas duas resoluções de exemplo, aplique a compactação quatro vezes maior ao arquivo 640 × 480, o que pode reduzir a qualidade do vídeo. Portanto, uma taxa de dados de vídeo de 250 Kbps produz uma visualização de alta qualidade com resolução de 320 × 240, mas não com resolução de 640 × 480.
 
 >[!NOTE]
 >
@@ -238,14 +238,14 @@ Para calcular essa proporção, divida a largura da origem pela largura codifica
 
 Se a proporção resultante for um inteiro, significa que o vídeo está dimensionado de maneira ideal. Se a proporção resultante não for um número inteiro, ela afetará a qualidade do vídeo, deixando artefatos de pixel restantes na exibição. Esse efeito é mais perceptível quando o vídeo tem texto.
 
-Por exemplo, suponha que a origem de vídeo seja 1920 x 1080. Na tabela a seguir, os três vídeos codificados fornecem as configurações de codificação ideais para usar.
+Por exemplo, suponha que a fonte de vídeo seja 1920 × 1080. Na tabela a seguir, os três vídeos codificados fornecem as configurações de codificação ideais para usar.
 
-| Tipo de vídeo | Largura x altura | Proporção de largura | Taxa de altura |
+| Tipo de vídeo | Largura × altura | Proporção de largura | Taxa de altura |
 | --- | --- | --- | --- |
-| Origem | 1920 x 1080 | 1 | 1 |
-| Codificado | 960 x 540 | 2 | 2 |
-| Codificado | 640 x 360 | 3 | 3 |
-| Codificado | 480 x 270 | 4 | 4 |
+| Origem | 1920 × 1080 | 1 | 1 |
+| Codificado | 960 × 540 | 2 | 2 |
+| Codificado | 640 × 360 | 3 | 3 |
+| Codificado | 480 × 270 | 4 | 4 |
 
 ### Formato de arquivo de vídeo codificado {#encoded-video-file-format}
 

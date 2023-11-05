@@ -1,17 +1,15 @@
 ---
 title: Guia do Adobe Dynamic Media Classic
-seo-title: Technical documentation and self help for Adobe Dynamic Media Classic
-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic para gerenciar vídeos, flyouts e muito mais, com os documentos do AEM Cloud Services.
-seo-description: Technical documentation, release notes and self-help materials for Adobe Dynamic Media Classic, formerly Scene 7
+description: Saiba mais sobre como usar o Adobe Dynamic Media Classic para gerenciar vídeos, flyouts e muito mais, com os documentos AEM Cloud Service.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -20,9 +18,9 @@ ht-degree: 0%
 
 Bem-vindo à Ajuda da Adobe Dynamic Media Classic. Aqui você pode acessar todos os recursos disponíveis para saber mais sobre como usar o Adobe Dynamic Media Classic (anteriormente conhecido como Scene7).
 
-## Nova experiência de logon do Adobe Dynamic Media Classic disponível em 30 de junho de 2020
+## Novo logon do Adobe Dynamic Media Classic disponível em 30 de junho de 2020
 
-Em 30 de junho de 2020, os usuários do Dynamic Media Classic ganharam acesso a uma nova experiência de logon que não depende mais da tecnologia de Flash Adobe no navegador.
+Em 30 de junho de 2020, os usuários do Dynamic Media Classic ganharam acesso a um novo logon que não depende mais da tecnologia de Flash Adobe no navegador.
 
 Consulte [Perguntas frequentes](new-ui-2020.md). Novas atualizações desde 7 de maio de 2020.
 
