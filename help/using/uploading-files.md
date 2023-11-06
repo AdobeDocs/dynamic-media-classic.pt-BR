@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3716'
+source-wordcount: '3722'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Normalmente, um nome de arquivo de ativo pode ser igual ao número do item, SKU 
 
 Organize e estruture pastas e subpastas para o conteúdo no Adobe Dynamic Media Classic antes de fazer upload do conteúdo para o sistema. O planejamento antecipado dessa maneira tem duas vantagens principais:
 
-* Ao fazer upload do conteúdo para a Adobe Dynamic Media Classic via FTP, você pode solicitar que o sistema replique a estrutura de pastas durante o upload. Dessa forma, o conteúdo é organizado nas mesmas pastas e subpastas do Adobe Dynamic Media Classic que está no computador ou na rede. (Para replicar a estrutura de pastas no Adobe Dynamic Media Classic, selecione a opção Incluir subpastas ao fazer upload de ativos via FTP.)
+* Ao fazer upload do conteúdo para a Adobe Dynamic Media Classic por meio do FTP, você pode solicitar que o sistema replique a estrutura de pastas durante o upload. Dessa forma, o conteúdo é organizado nas mesmas pastas e subpastas do Adobe Dynamic Media Classic que está no computador ou na rede. (Para replicar a estrutura de pastas no Adobe Dynamic Media Classic, selecione a opção Incluir subpastas ao fazer upload de ativos por meio do FTP.)
 * Reorganizar as pastas dentro do sistema depois que os arquivos forem carregados é muito mais difícil do que começar com uma estrutura de pastas cuidadosamente considerada.
 
 A abordagem de nomenclatura de pastas e a estrutura escolhidas para armazenar o conteúdo na Adobe Dynamic Media Classic dependem das necessidades da organização. Estes são alguns exemplos de estruturas de pastas:
@@ -153,7 +153,7 @@ A abordagem de nomenclatura de pastas e a estrutura escolhidas para armazenar o 
 
 ## Sobre o upload de arquivos {#uploading-your-files}
 
-Você pode fazer upload de arquivos individuais da área de trabalho ou carregar pastas via FTP. Para carregar mais de 100 MB de arquivos ou carregar pastas e subpastas inteiras, selecione a **VIA FTP** guia.
+Você pode fazer upload de arquivos individuais da área de trabalho ou carregar pastas por meio do FTP. Para carregar mais de 100 MB de arquivos ou carregar pastas e subpastas inteiras, selecione a **VIA FTP** guia.
 
 O Adobe Dynamic Media Classic envia uma mensagem de email para confirmar quando o trabalho de upload começa e termina e para notificá-lo de quaisquer problemas.
 
@@ -193,7 +193,7 @@ Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_f
 Ao publicar arquivos, eles são enviados para servidores ativos. Os URLs desses arquivos podem ser usados em sites e aplicativos externos. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** se quiser que os arquivos carregados substituam arquivos existentes com os mesmos nomes. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 O nome dessa opção pode ser diferente, dependendo das configurações em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
-1. Opcional; disponível somente se você clicou na opção **[!UICONTROL VIA FTP]** guia. Próximo à parte inferior da página Upload, selecione **[!UICONTROL Uncompress Zip or Tar Files on Upload]** se você deseja extrair automaticamente todos os arquivos do arquivo ZIP ou TAR carregado. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
+1. Opcional; disponível somente se você selecionou a opção **[!UICONTROL VIA FTP]** guia. Próximo à parte inferior da página Upload, selecione **[!UICONTROL Uncompress Zip or Tar Files on Upload]** se você deseja extrair automaticamente todos os arquivos do arquivo ZIP ou TAR carregado. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 1. Próximo ao canto inferior direito da página Fazer upload, selecione **[!UICONTROL Job Options]** e, em seguida, especifique as opções desejadas.
 
    Consulte [Opções de upload](uploading-files.md#upload_options).

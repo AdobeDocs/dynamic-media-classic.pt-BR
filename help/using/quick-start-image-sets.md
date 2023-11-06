@@ -12,7 +12,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Início rápido: conjuntos de imagens{#quick-start-image-sets}
 
-Os Conjuntos de imagens do Adobe Dynamic Media Classic oferecem aos usuários uma experiência de visualização integrada. No Visualizador dinâmico do conjunto de imagens, os usuários podem ver diferentes exibições de um item clicando em uma imagem em miniatura. Os Conjuntos de imagens permitem apresentar visualizações alternativas de alta resolução de um item.
+Os Conjuntos de imagens do Adobe Dynamic Media Classic oferecem aos usuários uma experiência de visualização integrada. No Visualizador dinâmico do conjunto de imagens, os usuários podem ver diferentes exibições de um item selecionando uma imagem em miniatura. Os Conjuntos de imagens permitem apresentar visualizações alternativas de alta resolução de um item.
 
 O Visualizador de conjunto de imagens oferece ferramentas de zoom para examinar as imagens com atenção. Se desejar, você pode tornar destinos de zoom guiados e Mapas de imagem parte do Conjunto de imagens. Os conjuntos de imagens proporcionam uma experiência de visualização mais organizada e íntima.
 

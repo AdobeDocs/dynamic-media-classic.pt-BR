@@ -12,9 +12,9 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
    >[!NOTE]
    >
-   >Você também pode criar pastas no Adobe Dynamic Media Classic ao fazer upload de arquivos via FTP. Selecionar o **[!UICONTROL Include Subfolders]** opção ao fazer upload via FTP replica a estrutura de pastas no computador no sistema. Os arquivos e subpastas do computador ou da rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
+   >Você também pode criar pastas no Adobe Dynamic Media Classic ao fazer upload de arquivos por meio do FTP. Selecionar o **[!UICONTROL Include Subfolders]** opção quando você faz upload por meio do FTP replica a estrutura de pastas no computador no sistema. Os arquivos e subpastas do computador ou da rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
 
 ## Excluir e renomear pastas {#deleting-and-renaming-folders}
 

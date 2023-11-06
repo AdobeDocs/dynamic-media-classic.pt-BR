@@ -12,7 +12,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -25,7 +25,7 @@ A publicação de um Conjunto de rotação coloca as imagens no conjunto nos Ser
 
 ## Marcar um grupo de rotação para publicação {#marking-a-spin-set-for-publish}
 
-Marque seu Spin Set para publicar para que seja copiado para os servidores de imagem da Adobe Dynamic Media Classic. Você pode marcar seu Conjunto de rotação para publicação no Painel de navegação clicando no **[!UICONTROL Mark for Publish]** ícone à esquerda do nome. Todas as imagens no conjunto são marcadas para publicação quando você marca o próprio Conjunto de rotação para publicação.
+Marque seu Spin Set para publicar para que seja copiado para os servidores de imagem da Adobe Dynamic Media Classic. Você pode marcar seu Conjunto de rotação para publicação no Painel de navegação selecionando o **[!UICONTROL Mark for Publish]** ícone à esquerda do nome. Todas as imagens no conjunto são marcadas para publicação quando você marca o próprio Conjunto de rotação para publicação.
 
 ## Publicar o grupo de rotação {#publishing-the-spin-set}
 

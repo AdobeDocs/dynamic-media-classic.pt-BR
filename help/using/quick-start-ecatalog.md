@@ -10,9 +10,9 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Dependendo das configurações escolhidas para o seu eCatalog, o visualizador po
 * Pesquise no catálogo por uma ou mais palavras-chave. Os resultados da pesquisa são exibidos como uma lista de miniaturas em um painel de pesquisa no lado esquerdo do catálogo. Cada miniatura clicável representa uma página espelhada no catálogo em que o termo de pesquisa destacado foi encontrado.
 
 * Compartilhe o catálogo por meio de redes sociais; baixe o catálogo para exibi-lo offline; habilite os Favoritos para marcar os itens que deseja retornar rapidamente ou imprima o catálogo.
-* Navegue pelo catálogo usando o índice ou a exibição de grade da página; avançar ou retroceder página clicando na borda intermediária de uma página.
+* Navegue pelo catálogo usando o índice ou a exibição de grade da página; avançar ou retroceder página selecionando a borda intermediária de uma página.
 * Amplie, reduza e desloque para examinar os itens em uma página.
 * Mova o ponteiro sobre uma região da página (chamada de Mapa de imagem) para que você possa ver uma janela pop-up com informações sobre um item.
 * Selecione uma região de página para abrir uma nova página da Web com mais informações sobre um item.
@@ -62,7 +62,7 @@ Este Início rápido do eCatalog foi projetado para ajudá-lo a começar a traba
 
 Os arquivos do Adobe PDF geralmente são a origem de um eCatalog. Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. O Adobe Dynamic Media Classic detecta essas imagens e as converte usando um perfil de cores CMYK padrão. No entanto, você deve carregar e usar um perfil de cores personalizado.
 
-Na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a fazer upload de arquivos PDF ou imagens para seu eCatalog. É possível fazer upload de arquivos do desktop ou via FTP. O FTP é recomendado se você estiver fazendo upload de muitos arquivos ou de arquivos com mais de 100 MB.
+Na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a fazer upload de arquivos PDF ou imagens para seu eCatalog. Você pode fazer upload de arquivos do seu desktop ou por meio do FTP. O FTP é recomendado se você estiver fazendo upload de muitos arquivos ou de arquivos com mais de 100 MB.
 
 Em Opções de PDF, a tela Upload fornece opções para fazer upload de arquivos PDF na resolução adequada e no espaço de cores correto. Recomenda-se uma resolução de 150 pixels por polegada. Você pode selecionar a opção Gerar eCatalog automaticamente para criar um eCatalog ao fazer upload de um arquivo PDF.
 
@@ -76,7 +76,7 @@ Na página eCatalog, no campo **[!UICONTROL Order Pages]** selecione uma opção
 
 Para adicionar páginas, selecione uma pasta na Biblioteca de ativos e arraste arquivos de PDF ou de imagem da para a tela Ordenar páginas. Em vez de números de página padrão, você pode fornecer nomes de página personalizados ou importar muitos nomes de página.
 
-Selecionar **[!UICONTROL Save]**, digite um nome para o eCatalog, escolha uma pasta do Adobe Dynamic Media Classic para armazená-lo e selecione **[!UICONTROL Save]**. Sempre que alterar a ordem de paginação ou editar o eCatalog, salve as alterações clicando em **[!UICONTROL Save]**.
+Selecionar **[!UICONTROL Save]**, digite um nome para o eCatalog, escolha uma pasta do Adobe Dynamic Media Classic para armazená-lo e selecione **[!UICONTROL Save]**. Sempre que alterar a ordem de paginação ou editar o eCatalog, salve as alterações selecionando **[!UICONTROL Save]**.
 
 Consulte [Criar um eCatalog](creating-ecatalog.md).
 

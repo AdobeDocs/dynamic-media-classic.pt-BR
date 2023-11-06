@@ -12,7 +12,7 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
 
    * **Link** - Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão de link, digite o nome que deseja exibir no visualizador do botão Link. Se desejar, selecione **[!UICONTROL Browse]** para localizar e selecionar uma capa personalizada para o botão.
 
-   * **Visita** - Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão de visita, digite o nome que deseja exibir no visualizador do botão de visita. Na caixa URL da visita, digite o URL do site que você deseja abrir quando o link for clicado.
+   * **Visita** - Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão de visita, digite o nome que deseja exibir no visualizador do botão de visita. Na caixa URL da visita, digite o URL do site que você deseja abrir quando o link for selecionado.
 
 1. Especifique outras opções, conforme desejado. Para ver uma descrição de uma opção, selecione o ícone Dica de informações ao lado da opção.
 

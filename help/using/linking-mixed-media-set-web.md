@@ -10,7 +10,7 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Após publicar um Conjunto de mídias mistas, você pode obter o URL associado p
 
 ## Adicionar URLs do conjunto de mix de mídia à sua página da Web {#add-mixed-media-set-urls-to-your-web-page}
 
-A maneira mais comum de implantar um Conjunto de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando clicado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
+A maneira mais comum de implantar um Conjunto de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
 
 ## Copiar o código incorporado de um visualizador do Conjunto de mídias mistas {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

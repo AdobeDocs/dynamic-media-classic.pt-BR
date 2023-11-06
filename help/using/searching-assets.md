@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para classificar o conteúdo de uma pasta ou os resultados de pesquisa exibidos 
 
 Você também pode escolher **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]** para classificar ativos em ordem crescente ou decrescente pelos critérios escolhidos.
 
-Na Exibição em lista, você pode classificar clicando em um nome de coluna.
+Na Exibição de lista, você pode classificar selecionando um nome de coluna.
 
 ## Realizar uma pesquisa simples {#conducting-a-simple-search}
 
@@ -153,7 +153,7 @@ Siga estas instruções na guia Filtros para salvar, repetir e excluir operaçõ
 
 ## Usar o servidor de metadados {#using-the-metadata-server}
 
-O servidor de metadados é uma API pública que pode ser usada para pesquisar ativos por metadados por solicitações http.
+O servidor de metadados é uma API pública que pode ser usada para pesquisar ativos por metadados por meio de solicitações http.
 
 Para configurar o servidor de metadados, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**.
 

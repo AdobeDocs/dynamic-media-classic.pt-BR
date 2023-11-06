@@ -12,9 +12,9 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ A barra de Navegação global, localizada na parte superior da tela, oferece bot
 
 * **[!UICONTROL Select Company]** - Escolha a empresa que deseja acessar no menu. Esse botão não estará disponível se você estiver trabalhando com uma empresa.
 
-* **[!UICONTROL Upload]** - Abre a tela Upload para que você possa fazer upload de arquivos do seu computador ou rede para a Adobe Dynamic Media Classic. Você pode fazer upload de arquivos do seu desktop ou via FTP. Consulte [Fazer upload de arquivos](/help/using/uploading-files.md).
+* **[!UICONTROL Upload]** - Abre a tela Upload para que você possa fazer upload de arquivos do seu computador ou rede para a Adobe Dynamic Media Classic. Você pode fazer upload de arquivos do seu desktop ou por meio do FTP. Consulte [Fazer upload de arquivos](/help/using/uploading-files.md).
 
 * **[!UICONTROL Build]** - Escolha uma tarefa Criar no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
 

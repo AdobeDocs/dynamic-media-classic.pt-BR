@@ -12,7 +12,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Editar imagens{#editing-images}
 
-O Adobe Dynamic Media Classic oferece muitas ferramentas para criar efeitos de mídia avançada. Essas ferramentas estão disponíveis clicando na sobreposição **[!UICONTROL Edit]** e no Painel de Navegação na Exibição de Detalhes. Você pode executar as seguintes tarefas de edição de imagens no Adobe Dynamic Media Classic:
+O Adobe Dynamic Media Classic oferece muitas ferramentas para criar efeitos de mídia avançada. Essas ferramentas estão disponíveis ao selecionar a sobreposição **[!UICONTROL Edit]** e no Painel de Navegação na Exibição de Detalhes. Você pode executar as seguintes tarefas de edição de imagens no Adobe Dynamic Media Classic:
 
 * **Criar mapas de imagem** - Para criar um Mapa de Imagem, selecione o comando Imagem ou **[!UICONTROL Image Map]** botão. Um Mapa de imagem é um ponto de acesso em uma imagem, uma página de eCatalog ou uma imagem em um SpinSet que exibe um painel com texto de sobreposição. Os usuários podem selecionar um Mapa de imagem, por exemplo, para iniciar uma nova página da Web. Consulte [Criar mapas de imagem](/help/using/creating-image-maps.md).
 

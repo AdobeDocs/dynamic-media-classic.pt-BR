@@ -12,7 +12,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Gerenciar a pasta Lixeira{#managing-the-trash-folder}
 
-Os itens excluídos do Adobe Dynamic Media Classic são movidos para a pasta Lixeira. Os arquivos excluídos permanecem nessa pasta por sete dias até que sejam restaurados ou excluídos permanentemente. Você pode examinar os itens excluídos clicando no **[!UICONTROL Trash]** ícone na parte inferior da Biblioteca de ativos e exibindo itens na página da pasta Lixeira.
+Os itens excluídos do Adobe Dynamic Media Classic são movidos para a pasta Lixeira. Os arquivos excluídos permanecem nessa pasta por sete dias até que sejam restaurados ou excluídos permanentemente. Você pode examinar os itens excluídos selecionando o **[!UICONTROL Trash]** ícone na parte inferior da Biblioteca de ativos e exibindo itens na página da pasta Lixeira.
 
 Todos os usuários podem restaurar itens na pasta Lixeira para as pastas das quais foram excluídos. Todos os usuários também podem esvaziar a pasta Lixeira de todo o seu conteúdo.
 

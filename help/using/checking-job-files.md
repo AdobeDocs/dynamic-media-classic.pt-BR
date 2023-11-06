@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1542'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento 
 
 ### Criar um intervalo de tempo de trabalho personalizado de carregamento ou publicação {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Para criar um intervalo de tempo personalizado para um upload (via FTP) ou um job de publicação, na página Fazer upload ou Publicar, vá para **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**. Em seguida, insira números e curingas na caixa Regra descrevendo um intervalo de tempo para que os trabalhos de upload ou publicação voltem a ocorrer.
+Para criar um intervalo personalizado para um upload (por meio do FTP) ou um trabalho de publicação, na página Fazer upload ou publicar, vá para **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**. Em seguida, insira números e curingas na caixa Regra descrevendo um intervalo de tempo para que os trabalhos de upload ou publicação voltem a ocorrer.
 
 A sintaxe para descrever os intervalos de tempo personalizados de upload e publicação na caixa Regra é:
 
@@ -156,6 +156,6 @@ Esta lista fornece exemplos de descrição de intervalos de tempo na caixa Regra
 
 ## Usar um trabalho de upload ou publicação como acionador {#using-an-upload-or-publish-job-as-a-trigger}
 
-Ao fazer upload de ativos via FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar quando o upload estiver concluído. (Se outros trabalhos estiverem programados para começar, o trabalho programado aqui será enfileirado atrás deles.) O novo trabalho envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Esse trabalho de upload complementar recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
+Ao fazer upload de ativos por FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar quando o upload estiver concluído. (Se outros trabalhos estiverem programados para começar, o trabalho programado aqui será enfileirado atrás deles.) O novo trabalho envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Esse trabalho de upload complementar recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
 
 Para fazer um trabalho de upload ou publicação acionar outro trabalho, selecione **[!UICONTROL Advanced]** na página Fazer upload ou publicar. Em seguida, insira o URL no campo de texto Notificação HTTP.
