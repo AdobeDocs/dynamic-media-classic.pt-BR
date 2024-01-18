@@ -12,7 +12,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -55,7 +55,7 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
 Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-* **Excluir** - Selecione o **[!UICONTROL Remove Folder]** botão . Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los a partir daí.
+* **Excluir** - Selecione o **[!UICONTROL Remove Folder]** botão. Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los a partir daí.
 
 * **Renomear** - Clique duas vezes no nome e insira um novo nome.
 

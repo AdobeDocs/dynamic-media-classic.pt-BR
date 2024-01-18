@@ -12,9 +12,9 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor se
 
 ## Criar um grupo de rotação {#create}
 
-A ordem em que o conjunto de rotação é criado ou criado no Adobe Dynamic Media Classic é importante. Dependendo de como você ordena os ativos ao arrastar e soltar imagens na grade na página Conjunto de rotação, o Conjunto de rotação gira em uma determinada direção . Portanto, a ordem em que ele é exibido visualmente no construtor é como o ativo é girado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
+A ordem em que o conjunto de rotação é criado ou criado no Adobe Dynamic Media Classic é importante. Dependendo de como você ordena os ativos ao arrastar e soltar imagens na grade na página Conjunto de rotação, o Conjunto de rotação gira em uma determinada direção. Portanto, a ordem em que ele é exibido visualmente no construtor é como o ativo é girado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
 
 Ao criar um conjunto, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
 

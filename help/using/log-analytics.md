@@ -1,7 +1,6 @@
 ---
 title: Fazer logon no Adobe Analytics
 description: Saiba como fazer logon no Adobe Analytics a partir do Adobe Dynamic Media Classic.
-uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -12,9 +11,9 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---

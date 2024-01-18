@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3722'
+source-wordcount: '3666'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Para ver o progresso do upload, selecione **[!UICONTROL Jobs]** na Barra de nave
 
 ### Fazer upload de arquivos usando a guia VIA FTP {#upload-files-using-via-ftp}
 
-1. Faça logon no site FTP da Adobe Dynamic Media Classic que é específico para a sua região específica. Use o nome de usuário e a senha FTP recebidos do administrador.
+1. Faça logon no site FTP da Adobe Dynamic Media Classic específico da sua região. Use o nome de usuário e a senha FTP recebidos do administrador.
 1. No Adobe Dynamic Media Classic, na barra Navegação global, selecione **[!UICONTROL Upload]**.
 1. Na página Upload, selecione a variável **[!UICONTROL VIA FTP]** guia.
 1. No lado esquerdo da página Upload, na guia **[!UICONTROL Choose FTP Folder For Upload]** escolha uma pasta FTP da qual fazer upload de arquivos.

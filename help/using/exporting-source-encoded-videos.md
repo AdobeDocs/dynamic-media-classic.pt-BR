@@ -1,18 +1,16 @@
 ---
 title: Exportar vídeos de origem e codificados
 description: Saiba como exportar vídeos de origem e codificados no Adobe Dynamic Media Classic.
-uuid: 17511bdf-27b7-41e1-bf39-a5e39f55f5d8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%

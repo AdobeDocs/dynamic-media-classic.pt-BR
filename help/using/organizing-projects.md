@@ -12,7 +12,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Depois de criar uma pasta de projeto, você pode colocar ativos nela. No entanto
 
 >[!NOTE]
 >
->Para que você organize ativos em Projetos, o administrador deve ter configurado você para usá-los. Se você não visualizar uma seção da pasta Projetos na parte inferior da Biblioteca de ativos, esse método de organização de ativos não estará disponível. Consulte [Configurações gerais do aplicativo](application-setup.md#general-settings).
+>Para que você organize ativos em Projetos, o administrador deve ter configurado você para usá-los. Se você não visualizar uma seção Pasta de projetos na parte inferior da Biblioteca de ativos, esse método de organização de ativos não estará disponível para você. Consulte [Configurações gerais do aplicativo](application-setup.md#general-settings).
 
 ## Criar uma pasta de projeto {#creating-a-project-folder}
 
@@ -61,6 +61,6 @@ Para exibir, excluir e renomear uma pasta Projeto, siga um destes procedimentos:
 
 Você pode adicionar imagens a uma pasta Projeto iniciando no Painel Procurar ou ao fazer upload de arquivos para a Adobe Dynamic Media Classic:
 
-* **No painel Procurar** - Selecione os ativos e arraste-os para uma pasta Projeto. Você também pode ir para **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Selecione um nome de pasta de projeto na caixa de diálogo Selecionar projeto e selecione **[!UICONTROL Submit]**.
+* **No painel Procurar**, selecione os ativos e arraste-os para uma pasta Projeto. Você também pode ir para **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Selecione um nome de pasta de projeto na caixa de diálogo Selecionar projeto e selecione **[!UICONTROL Submit]**.
 
 * **Ao fazer upload de arquivos** - Na página Upload, selecione **[!UICONTROL Job Options]**. Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Projects]** e selecione um nome de projeto.

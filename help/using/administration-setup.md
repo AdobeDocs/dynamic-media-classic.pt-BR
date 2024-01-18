@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Após adicionar um usuário, o Adobe Dynamic Media Classic envia a ele uma mensa
 
    >[!NOTE]
    >
-   >O apóstrofo (`‘`) não é permitido em endereços de email.
+   >O apóstrofo (`'`) não é permitido em endereços de email.
 
 1. Para atribuir uma função ao usuário, escolha uma opção Função.
 
@@ -140,7 +140,7 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
 ## Largura de banda e armazenamento {#bandwidth-storage}
@@ -226,7 +226,7 @@ Os administradores do Adobe Dynamic Media Classic podem gerar relatórios de err
 
    * Para classificar os erros pelas informações do cabeçalho, selecione um cabeçalho. Por padrão, os erros são classificados por número de ocorrências, do mais alto para o mais baixo.
    * Mova o cursor sobre o campo Response para ver uma mensagem de erro específica.
-   * Para ver o link para a imagem ou página da Web do referenciador, mova o cursor sobre o campo URL ou sobre o campo Referenciador.
+   * Para ver o link para a imagem ou a página da Web do referenciador, mova o cursor sobre o campo URL ou sobre o campo Referenciador.
    * Para copiar o link para a imagem real, selecione **[!UICONTROL URL Copy URL]**. Você pode colar esse link em uma janela do navegador para ir para a imagem e investigar o erro.
    * Para copiar o link para a página da Web de referência, selecione **[!UICONTROL Referrer Copy URL]**.
 

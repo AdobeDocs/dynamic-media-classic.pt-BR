@@ -1,20 +1,18 @@
 ---
 title: Fazer upload e codificar vídeos
 description: Saiba como carregar e codificar vídeos no Adobe Dynamic Media Classic.
-uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3846'
-ht-degree: 1%
+source-wordcount: '3881'
+ht-degree: 0%
 
 ---
 
@@ -157,7 +155,7 @@ Você pode obter os metadados de um arquivo visualizando os metadados no Adobe D
 
 Ao escolher ou criar uma predefinição de codificação de vídeo para o arquivo de vídeo principal, verifique se a predefinição tem a mesma proporção do arquivo de vídeo principal. A variável *taxa de proporção* é a relação entre a largura e a altura do vídeo.
 
-Para determinar a proporção de um arquivo de vídeo, obtenha os metadados do arquivo e anote a largura e a altura do arquivo (consulte [Obter os metadados de um arquivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Em seguida, use esta fórmula para determinar a proporção:
+Para determinar a proporção de um arquivo de vídeo, obtenha os metadados do arquivo e observe a largura e a altura do arquivo (consulte [Obter os metadados de um arquivo](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Em seguida, use esta fórmula para determinar a proporção:
 
 largura/altura = taxa de proporção
 
@@ -165,10 +163,10 @@ A tabela a seguir descreve como os resultados da fórmula são convertidos em op
 
 | Resultado da fórmula | Taxa de proporção |
 | --- | --- |
-| 1.33 | 4:3 |
-| 0.75 | 3:4 |
-| 1.78 | 16:9 |
-| 0.56 | 9:16 |
+| 1,33 | 4:3 |
+| 0,75 | 3:4 |
+| 1,78 | 16:9 |
+| 0,56 | 9:16 |
 
 Por exemplo, um vídeo com 1440 de largura × 1080 de altura tem uma proporção largura/altura de 1440/1080 ou 1,33. Nesse caso, você escolhe uma predefinição de codificação de vídeo com uma proporção 4:3 para codificar o arquivo de vídeo.
 
@@ -199,8 +197,8 @@ Resolução e taxa de dados são dois fatores vinculados integralmente que deter
 
 | Resolução | Pixels por quadro |
 | --- | --- |
-| 320 × 240 | 76,800 |
-| 640 × 480 | 307,200 |
+| 320 × 240 | 76.800 |
+| 640 × 480 | 307.200 |
 
 O arquivo de 640 × 480 tem quatro vezes mais pixels por quadro. Para obter a mesma taxa de dados para essas duas resoluções de exemplo, aplique a compactação quatro vezes maior ao arquivo 640 × 480, o que pode reduzir a qualidade do vídeo. Portanto, uma taxa de dados de vídeo de 250 Kbps produz uma visualização de alta qualidade com resolução de 320 × 240, mas não com resolução de 640 × 480.
 
@@ -355,7 +353,7 @@ A Adobe Dynamic Media Classic definiu limites máximos para a taxa de dados de d
    | Descrição | Descreva a predefinição de vídeo. O que você insere aparece como uma dica de ferramenta ao mover o ponteiro sobre o nome da predefinição na caixa de diálogo Fazer upload das opções de trabalho, na qual os usuários escolhem as opções de transcodificação. |
    | Dispositivo de reprodução | Escolha o dispositivo no qual o vídeo deve ser reproduzido. As opções são Computador (desktops), Dispositivo móvel (iPhone, iPad, Android™) ou Tablet (somente iPad). Essa configuração determina automaticamente o codec de vídeo e áudio apropriado, usado durante a codificação. |
    | Taxa de dados de público alvo | Insira a velocidade média de conexão com a Internet (em quilobits por segundo) do usuário final de destino. Você pode inserir a taxa ou arrastar o controle deslizante para inseri-la. O espectro Velocidade de conexão do usuário lista as velocidades típicas para conexões de banda larga, DSL, portáteis e dial-up. Essa configuração determina automaticamente a taxa de dados de vídeo e áudio combinados. Em outras palavras, a quantidade de dados codificada para compor um único segundo de reprodução de vídeo. Quanto maior a taxa de dados, melhor a qualidade do vídeo resultante. No entanto, taxas de dados muito altas resultam em arquivos grandes que criam experiências de visualização discretas para usuários com baixa largura de banda. Como prática recomendada, encontre um equilíbrio entre taxas de dados altas e baixas. Crie uma experiência de reprodução de qualidade adequada sem alienar os usuários que têm larguras de banda estreitas. |
-   | Taxa de proporção | Taxa de proporção é a proporção da largura para a altura do vídeo. As duas primeiras proporções listadas abaixo são normalmente usadas para exibir vídeo horizontalmente:<ul><li> 4:3 - Usado para quase todo o conteúdo de transmissão de TV de definição padrão.</li><li>16:9 - Usado para quase todos os conteúdos e filmes de tela larga na High-Definition Television (HDTV).</li><li>Escala automática - (padrão) Uma predefinição de codificação única que funciona com qualquer taxa de proporção para criar vídeos, permitindo sua entrega em dispositivos móveis, tablets e computadores de mesa. Os vídeos de origem carregados codificados com essa predefinição são definidos com uma altura fixa. No entanto, a largura é dimensionada automaticamente para preservar a proporção do vídeo (proporção largura e altura).</li><li>Personalizado - Usado quando você deseja definir um tamanho de vídeo não padrão.</li><li>A taxa de proporção escolhida determina as configurações de largura e altura para o Tamanho da resolução; o valor de largura e altura é dimensionado automaticamente para a taxa de proporção adequada.</li></ul> |
+   | Taxa de proporção | Taxa de proporção é a proporção da largura para a altura do vídeo. As duas primeiras proporções listadas abaixo são normalmente usadas para exibir vídeo horizontalmente:<ul><li> 4:3 - Usado para quase todo o conteúdo de transmissão de TV de definição padrão.</li><li>16:9 - Usado para quase todos os conteúdos e filmes de tela larga na High-Definition Television (HDTV).</li><li>Escala automática - (padrão) Uma predefinição de codificação única que funciona com qualquer taxa de proporção para criar vídeos, permitindo sua entrega em dispositivos móveis, tablets e computadores de mesa. Os vídeos de origem carregados codificados com essa predefinição são definidos com uma altura fixa. No entanto, a largura é dimensionada automaticamente para preservar a proporção do vídeo (proporção largura e altura).</li><li>Personalizado - Usado quando você deseja definir um tamanho de vídeo não padrão.</li><li>A taxa de proporção escolhida determina as configurações de largura e altura para o Tamanho da resolução. O valor de largura e altura é dimensionado automaticamente de acordo com a taxa de proporção adequada.</li></ul> |
    | Tamanho da resolução | O tamanho da resolução, expresso pelo número de pixels de largura pelo número de pixels de altura, determina o tamanho. Insira um valor de largura e altura em pixels ou arraste o controle deslizante para inserir esses valores. O espectro de Resolução lista os tamanhos típicos de resolução. Os valores de largura e altura aderem automaticamente à taxa de proporção selecionada. Por exemplo, se você selecionar 4:3 como taxa de proporção e inserir 400 para largura, 300 será inserido automaticamente para altura. Se tiver selecionado Dimensionar automaticamente para a configuração Proporção, o valor Largura do Tamanho da Resolução será automaticamente definido como Automático. Selecionar **[!UICONTROL Preview]** para que você possa abrir uma janela do navegador e ver suas opções de resolução lá. |
    | Codificar sufixo do arquivo | Insira um sufixo. Esse sufixo é anexado ao arquivo de vídeo codificado resultante. Você pode inserir um hífen e um sublinhado no nome; espaços em branco e caracteres especiais não são permitidos. |
    | Outras configurações | O Adobe Dynamic Media Classic determina todas as outras configurações de codificação automaticamente de acordo com as diretrizes de codificação de práticas recomendadas. |

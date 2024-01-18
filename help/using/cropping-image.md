@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Você pode cortar uma imagem para remover um espaço em branco ao redor dela ou 
 
 >[!NOTE]
 >
->Depois de recortar, é possível selecionar **[!UICONTROL Save As]** e salve uma versão cortada da imagem com um nome diferente. Na janela Salvar como, selecione **[!UICONTROL Save As New Master]** para salvar uma segunda cópia da imagem. Selecionar **[!UICONTROL Save As Addition View Of Master]** para poder salvar o original e sua versão cortada com um nome diferente. Selecionar **[!UICONTROL Replace Original]** para excluir o arquivo original do qual cortou a imagem. Em seguida, digite um nome para a imagem e selecione **[!UICONTROL Submit]**.
+>Depois de recortar, é possível selecionar **[!UICONTROL Save As]** e salve uma versão cortada da imagem com um nome diferente. Na janela Salvar como, selecione **[!UICONTROL Save As New Primary]** para salvar uma segunda cópia da imagem. Selecionar **[!UICONTROL Save As Addition View Of Primary]** para poder salvar o original e sua versão cortada com um nome diferente. Selecionar **[!UICONTROL Replace Original]** para excluir o arquivo original do qual cortou a imagem. Em seguida, digite um nome para a imagem e selecione **[!UICONTROL Submit]**.
 
 ## Recortar para remover o espaço em branco ao redor da imagem {#crop-to-remove-white-space-around-an-image}
 

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '10703'
+source-wordcount: '10399'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,7 @@ Os administradores podem criar predefinições para exportar ativos. Os usuário
 
 Para abrir a tela Predefinição de imagem, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Consulte [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Consulte [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### Criar e editar predefinições de imagem {#creating-and-editing-image-presets}
 
@@ -193,7 +193,7 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
    * Opções de quantização de cores do GIF
 
-      * **[!UICONTROL Type]** - Selecione Adaptável (o padrão), Web ou Macintosh. Se você selecionar **[!UICONTROL GIF With Alpha]**, a opção Macintosh não está disponível.
+      * **[!UICONTROL Type]** - Selecione Adaptável (o padrão), Web ou Mac. Se você selecionar **[!UICONTROL GIF With Alpha]**, a opção Mac não está disponível.
 
       * **[!UICONTROL Dither]** - Selecione Difuso ou Desativado.
 

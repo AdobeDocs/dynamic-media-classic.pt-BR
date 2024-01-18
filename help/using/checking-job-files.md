@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Os jobs são listados nestas categorias na guia Histórico da página Jobs:
 
 * **[!UICONTROL Total]** - O número de arquivos transferidos.
 
-* **[!UICONTROL W (warnings)]** - O número de avisos na tarefa (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Por exemplo, `.DS_store` arquivos (Macintosh) e arquivos Thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem aos usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas, pois não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
+* **[!UICONTROL W (warnings)]** - O número de avisos na tarefa (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Por exemplo, `.DS_store` arquivos (Mac) e arquivos thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem para os usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas, pois não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
 
 * **[!UICONTROL E (errors)]** - Lista o número de erros na tarefa (se houver). Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre erros.
 

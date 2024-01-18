@@ -12,9 +12,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3309'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Você pode criar um template a partir de um template existente. Abra o modelo e 
 
    * **Iniciar na tela Modelo** - Vá para **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Selecione Designer ou Desenvolvedor.
 
-1. Na caixa de diálogo Inserir Tamanho da Tela de Pintura, insira medidas de largura e altura para o modelo.
+1. Na caixa de diálogo Inserir Tamanho da Tela de Pintura, insira as medidas de largura e altura do seu modelo.
 1. Selecione uma pasta na Biblioteca de ativos e arraste o arquivo PSD ou as imagens desejadas para o modelo na tela Modelo.
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**.

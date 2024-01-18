@@ -10,9 +10,9 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Além de usar o texto do Mapa de imagem para suas sobreposições em eCatalogs, 
 Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
 * O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do Painel de Informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, você pode especificar se os eCatalogs serão publicados automaticamente.
-* O painel de feed de dados do InfoPanel permite especificar um arquivo CSV contendo o texto que você deseja exibir no texto de sobreposição do InfoPanel e agendar tempos para atualizar as informações.
-* A caixa de diálogo Importar metadados (acessada na visualização Mapear páginas ) permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Alimentação de dados com a opção de arquivo CSV para o texto de sobreposição.
+* O painel Feed de dados do InfoPanel permite especificar um arquivo CSV contendo o texto que você deseja exibir no texto de sobreposição do InfoPanel e agendar tempos para atualizar as informações.
+* A caixa de diálogo Importar metadados (acessada na visualização Mapear páginas ) permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Feed de dados com a opção de arquivo CSV para o texto de sobreposição.
 * A visualização Mapear páginas fornece uma opção para visualizar o xml que aparece para mapas de imagem específicos.
 
 ## Configurar um modelo de resposta para eCatalogs {#set-up-a-response-template-for-ecatalogs}
@@ -66,7 +66,7 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 ### Importar conteúdo CSV para eCatalogs de um local hospedado externamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Clique duas vezes no eCatalog para abri-lo na Exibição de detalhes.
-1. Selecione o **[!UICONTROL InfoPanel Datafeed]** painel.
+1. Selecione o **[!UICONTROL InfoPanel Data feed]** painel.
 1. Insira o URL do arquivo CSV na caixa Local do arquivo CSV hospedado externamente. Você pode colar o URL nesse campo ou digitá-lo diretamente.
 1. (Opcional) Especifique um horário para atualizar o conteúdo usando os menus Agendar atualização e selecione **[!UICONTROL Add]**. Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa Atualizar horas. (Para remover um horário, selecione-o e, em seguida, **[!UICONTROL Delete]**.)
 1. (Opcional) Selecione **[!UICONTROL Run Update Now]** para atualizar imediatamente o conteúdo.

@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2154'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ As opções de Qualidade de JPG controlam o nível de compactação de JPG:
 
 Se você não usar uma Predefinição de imagem ou enviar protocolos de nitidez específicos do Servidor de imagens ao longo da cadeia de caracteres do URL, a imagem não receberá nitidez quando sua resolução for reduzida. No entanto, se essa falta de nitidez ocorrer, será possível definir valores de nitidez padrão e, em seguida, qualquer imagem terá sempre alguma nitidez.
 
-Para definir as opções de nitidez padrão da sua empresa, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Se você definir o Modo de reamostragem padrão como **[!UICONTROL `Sharp2`]**, ela sempre aplica nitidez à imagem ao diminuir a resolução.
+Para definir as opções de nitidez padrão da sua empresa, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Se você definir o Modo de reamostragem padrão como **`Sharp2`**, ela sempre aplica nitidez à imagem ao diminuir a resolução.
 
 **Adicionar nitidez às predefinições do visualizador**
 

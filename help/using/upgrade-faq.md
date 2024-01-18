@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Sim, [!DNL Dynamic Media] O usa a rede de entrega de nível superior Adobe.
 
 * Melhor fornecedor de mídia avançada para Internet Retail 1000, nove anos consecutivos.
 * Suporte 24 horas por dia, 7 dias por semana, 265 dias por ano; SLAs de 99,95%.
-* Infraestrutura comprovada que atende a mais de 800 clientes em todo o mundo, tráfego de 3,5 PB por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.
+* Infraestrutura comprovada que atende a mais de 800 clientes em todo o mundo, 3,5 petabytes de tráfego por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.
 
 +++
 
@@ -113,7 +113,7 @@ Não. O Adobe continua a oferecer suporte e manutenção totais [!DNL Dynamic Me
 
 +++
 
-+++**Posso continuar a usar [!DNL Dynamic Media Classic] (antigo Adobe Scene7) depois que atualizei para [!DNL Dynamic Media]?**
++++**Ainda posso usar [!DNL Dynamic Media Classic] (antigo Adobe Scene7) depois que atualizei para [!DNL Dynamic Media]?**
 Depois de atualizar para [!DNL Dynamic Media], você só deve usar o Dynamic Media para criação de imagens e vídeo. Você pode continuar a usar [!DNL Dynamic Media Classic] somente para recursos que ainda não estão disponíveis no [!DNL Dynamic Media] incluindo o seguinte:
 
 * Configurador visual (autor de imagem, renderização de imagem).

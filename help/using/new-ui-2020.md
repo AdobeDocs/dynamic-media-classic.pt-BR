@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -99,9 +99,9 @@ O Adobe Dynamic Media Classic é uma solução poderosa, repleta de recursos, pr
 * [Arquivos de informativos do Adobe Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
-+++**_Estou interessado em saber mais sobre como atualizar para o Adobe Dynamic Media com o Adobe Experience Manager Assets. Onde posso encontrar mais informações?_**
++++**_Estou interessado em saber mais sobre como atualizar para o Adobe Dynamic Media com Adobe Experience Manager Assets. Onde posso encontrar mais informações?_**
 Para saber mais sobre os benefícios de atualizar para a próxima geração de criação, publicação e disponibilização dinâmica de mídia, visite o [Adobe Dynamic Media Portal para atualização](/help/using/upgrade.md).
 +++
 

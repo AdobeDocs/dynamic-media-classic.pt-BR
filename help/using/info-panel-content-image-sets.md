@@ -1,20 +1,18 @@
 ---
 title: Gerenciar conteúdo do Painel de informações em Conjuntos de imagens
 description: Saiba como gerenciar o conteúdo do Painel de informações em Conjuntos de imagens no Adobe Dynamic Media Classic.
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -26,7 +24,7 @@ Além de usar o texto do Mapa de imagem para sobreposições em Conjuntos de ima
 Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
 * O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do painel de informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, é possível especificar se o Conjunto de imagens é publicado automaticamente.
-* O painel Data Feed do InfoPanel permite especificar um arquivo CSV contendo o texto que você deseja exibir no texto de sobreposição do painel de informações e programar horários para atualizar as informações.
+* O painel Feed de dados do InfoPanel permite especificar um arquivo CSV contendo o texto que você deseja exibir no texto de sobreposição do painel de informações e agendar tempos para atualizar as informações.
 * A caixa de diálogo Importar metadados permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Feed de dados do InfoPanel com a opção de arquivo CSV para o texto de sobreposição.
 
 ## Configurar um modelo de resposta para conjuntos de imagens {#set-up-a-response-template-for-image-sets}
@@ -68,7 +66,7 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 ### Importar conteúdo de CSV para conjuntos de imagens de um local hospedado externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Clique duas vezes no Conjunto de imagens para abri-lo na Exibição de detalhes.
-1. Selecionar **[!UICONTROL InfoPanel Datafeed]**.
+1. Selecionar **[!UICONTROL InfoPanel Data feed]**.
 1. No campo de texto Localização do arquivo CSV hospedado externamente (HTTP), insira o URL do arquivo CSV.
 1. (Opcional) Nos campos Agendar atualização, especifique um horário para atualizar o conteúdo e selecione **[!UICONTROL Add]**.
 

@@ -12,9 +12,9 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Esta tabela mostra quais outras opções estão disponíveis com diferentes tipo
 | Tipo de ativo | Editar/ajustar | Visualizar |
 | --- | --- | --- |
 | Imagens | Adicionar mapas de imagem<br>Adicionar destinos de zoom<br>Cortar<br>Nitidez<br>Criar exibições ajustadas | Sim; Predefinições de zoom e imagem |
-| Imagens de gabinete e janelas | Não | Miniatura |
+| Imagens de revestimento de gabinete e janela | Não | Miniatura |
 | eCatalogs | Editar | Sim<br>O Painel de informações também está disponível |
 | Fontes | Editar informações da fonte | Não |
 | Arquivos FXG | Editar | Sim |

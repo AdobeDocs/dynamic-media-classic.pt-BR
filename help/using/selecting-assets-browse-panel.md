@@ -12,7 +12,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Selecione um ativo no Painel de navegação para poder trabalhar com ele. Use es
 
 * **Um único ativo** - Selecione o ativo (clicar duas vezes abre o ativo na Exibição de detalhes).
 
-* **Vários ativos** - Ctrl + clique (Windows®) ou Command + clique (Macintosh) ativos para selecionar ativos em diferentes locais no Painel de navegação. Shift + clique (clique em um ativo e, em seguida, Shift + clique em outro) para selecionar ativos adjacentes.
+* **Vários ativos** - Pressione Ctrl e clique (Windows®) ou Command e clique (Mac) para selecionar ativos em diferentes locais no Painel de navegação. Shift + clique (clique em um ativo e, em seguida, Shift + clique em outro) para selecionar ativos adjacentes.
 
 * **Todos os ativos no painel Procurar** - Vá para **[!UICONTROL Select]** > **[!UICONTROL All]**.
 
