@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3665'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Certifique-se de que todos os usuários em sua empresa entendam essas regras par
 * Como prática recomendada, verifique se as IDs de ativo não contêm espaços em branco (por exemplo, jaqueta preta.tif e jaqueta azul.jpg). O Adobe Dynamic Media Classic ASCII codifica espaços em branco em nomes de ativos quando usa nomes de ativos para criar sequências de caracteres de URL. Esses códigos ASCII são difíceis de ler, o que pode dificultar a leitura dos URLs.
 * Caracteres específicos de idioma são permitidos em nomes de arquivo. No entanto, os seguintes caracteres não são permitidos em nomes de arquivo:
 
-  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
 
   Se um nome de arquivo contiver um ou mais dos caracteres acima, os caracteres serão removidos do nome do arquivo no upload.
 

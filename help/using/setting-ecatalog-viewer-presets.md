@@ -11,9 +11,9 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Siga estas etapas para criar uma Predefinição do visualizador do eCatalog (voc
 
    * **Editar uma predefinição do visualizador de eCatalog** - Selecione uma Predefinição do visualizador de eCatalog e, em seguida, **[!UICONTROL Edit]**. Selecionar **[!UICONTROL Save As]** após concluir a criação da predefinição.
 
-1. Na tela Configurar visualizador, digite um nome para a Predefinição do visualizador do eCatalog.
-1. Na tela Configurar visualizador, defina as opções desejadas.
+1. Na página Configurar visualizador, digite um nome para a Predefinição do visualizador do eCatalog.
+1. Na página Configurar visualizador, defina as opções desejadas.
 
    selecione o **[!UICONTROL Info Tip]** ícone ao lado da opção se desejar ler sua descrição.
 

@@ -12,7 +12,7 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Você pode criar e personalizar as Predefinições do visualizador de acordo com
    * Para editar uma predefinição existente do Visualizador de conjunto de amostras, selecione a predefinição e, em seguida, **[!UICONTROL Edit]**.
 
 1. Na página Configurar visualizador, no campo de texto Nome da predefinição, digite um nome para a predefinição do visualizador Conjunto de amostras.
-1. Escolha opções na tela Configurar Visualizador.
+1. Selecione opções na página Configurar visualizador.
 
    Para ver uma descrição de uma opção, selecione a opção **[!UICONTROL Info Tip]** ícone à direita da opção.
 

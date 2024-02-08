@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Algumas empresas não permitem que você baixe e instale software e aplicativos 
 +++
 
 +++**_Várias instâncias do novo aplicativo de desktop podem ser abertas ao mesmo tempo?_**
-Não, a tecnologia do AIR na qual o novo aplicativo de desktop do Adobe Dynamic Media Classic é criado impede que um usuário tenha várias instâncias do aplicativo abertas em um determinado momento.
+Não. A tecnologia do AIR na qual o novo aplicativo de desktop do Adobe Dynamic Media Classic é criado impede que um usuário tenha várias instâncias do aplicativo abertas em um determinado momento.
 +++
 
 +++**_Existem restrições quanto ao número de arquivos que podem ser carregados no Adobe Dynamic Media Classic por meio de um computador local?_**
@@ -80,7 +80,7 @@ Ao usar o novo aplicativo de desktop Adobe Dynamic Media Classic no Windows®, v
 +++
 
 +++**_O novo aplicativo de desktop do Adobe Dynamic Media Classic requer um novo SKU? Há um custo de licença envolvido?_**
-Não é necessário usar SKU ou alteração de licença para usar o novo aplicativo de desktop do Adobe Dynamic Media Classic.
+Não para ambas as perguntas. Não é necessário usar SKU ou alteração de licença para usar o novo aplicativo de desktop do Adobe Dynamic Media Classic.
 +++
 
 +++**_Como as atualizações para o aplicativo de desktop do Adobe Dynamic Media Classic são ativadas?_**

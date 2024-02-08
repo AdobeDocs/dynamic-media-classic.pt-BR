@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '10399'
 ht-degree: 1%
@@ -613,7 +613,7 @@ Consulte também [Predefinições do visualizador](https://s7d5.scene7.com/s7vie
      
    * **Editar** - Selecione uma Predefinição do visualizador existente e, em seguida, **[!UICONTROL Edit]**.
 
-1. Na tela Configurar visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
+1. Na página Configurar visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
 1. Defina as opções restantes desejadas.
 
    >[!NOTE]

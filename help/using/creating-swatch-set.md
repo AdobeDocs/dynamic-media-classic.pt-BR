@@ -12,7 +12,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -58,10 +58,10 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
 
 | Conjunto já publicado? | **[!UICONTROL Publish after]** opção salvar selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
-|--- |--- |--- |--- |
-| Sim | Sim | Publicado | Publicado |
+|--- | --- | --- | --- |
+| Sim | Sim | Publicado | Publicado. |
 | Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |
-| Não | Sim | Publicado | Publicado |
+| Não | Sim | Publicado | Publicado. |
 | Não | Não | Não publicado | Os membros do conjunto existentes e os novos membros do conjunto adicionados durante a edição mantêm seus estados publicado ou não. |
 
 Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
@@ -71,7 +71,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Na Exibição de grade, navegue até um SwatchSet e, abaixo da imagem, selecione **[!UICONTROL Edit]**.
 1. Siga um destes procedimentos:
 
-   * Para adicionar uma imagem (publicada ou não), arraste-a de uma pasta em Adicionar ativos para o do Conjunto de amostras **[!UICONTROL Views]** página.
+   * Para adicionar uma imagem (publicada ou não), arraste-a de uma pasta em Adicionar ativos para o conjunto de amostras **[!UICONTROL Views]** página.
    * Para remover uma imagem, selecione-a e **[!UICONTROL Delete]** na barra de ferramentas.
    * Para reordenar imagens, arraste uma imagem para uma nova posição.
 

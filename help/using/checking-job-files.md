@@ -12,7 +12,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -131,7 +131,7 @@ Esta tabela mostra os incrementos de tempo, seus valores permitidos e os curinga
 Esta tabela descreve os caracteres curingas permitidos na caixa Regra e como usá-los:
 
 | Caractere curinga | Nome | O que ele descreve |
-|--- |--- |--- |
+| --- | --- | --- |
 | `*` | Asterisco | Todos os valores (por exemplo, &quot;a cada minuto&quot;). |
 | `?` | Ponto de interrogação | Nenhum valor específico (por exemplo, &quot;qualquer minuto dentro da hora especificada&quot;). |
 | `,` | Vírgula | Outros valores (por exemplo, &quot;segunda e quarta-feira&quot;). |
@@ -139,7 +139,7 @@ Esta tabela descreve os caracteres curingas permitidos na caixa Regra e como us�
 | `/` | Barra inclinada | Incrementos (por exemplo, &quot;a cada 15 minutos&quot;). |
 | `L` | L maiúsculo | Último &quot;dia do mês&quot; ou &quot;dia da semana&quot; (disponível somente para esses campos). Por exemplo, se o mês for janeiro, um valor L para o campo &quot;dia do mês&quot; agendará o trabalho para 31 de janeiro. Para o campo &quot;dia da semana&quot;, você pode inserir esse caractere sozinho para agendar o trabalho no sábado. Você pode usá-lo com um número (por exemplo, `6L`) para especificar a última sexta-feira do mês. Não especificar `L` com os curingas de vírgula ou hífen. |
 | `#` | Sinal numérico | Dia da semana &quot;enésimo&quot; do mês (disponível somente para o campo &quot;dia da semana&quot;). Por exemplo, `6#3` no campo &quot;dia da semana&quot; especifica a terceira sexta-feira do mês. A variável `6` significa &quot;sexta-feira&quot; (o sexto dia da semana) e o `3` indica a terceira ocorrência do mês. |
-| `C` | # Maiúscula C | Primeiro &quot;dia do mês&quot; ou &quot;dia da semana&quot; do calendário (disponível somente para esses campos). Por exemplo, especificar um valor de `1C` para &quot;dia do mês&quot; agenda o primeiro dia no calendário que ocorre no quinto dia ou depois dele. Para o campo &quot;dia da semana&quot;, especificando `1C` programa o primeiro dia do calendário que ocorre no domingo ou depois |
+| `C` | # Maiúscula C | Primeiro &quot;dia do mês&quot; ou &quot;dia da semana&quot; do calendário (disponível somente para esses campos). Por exemplo, especificar um valor de `1C` para &quot;dia do mês&quot; agenda o primeiro dia no calendário que ocorre no quinto dia ou depois dele. Para o campo &quot;dia da semana&quot;, especificando `1C` programa o primeiro dia do calendário que ocorre no domingo ou depois. |
 
 Esta lista fornece exemplos de descrição de intervalos de tempo na caixa Regra:
 
