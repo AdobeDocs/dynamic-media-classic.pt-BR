@@ -1,20 +1,18 @@
 ---
 title: "Início rápido: conjuntos de imagens"
 description: Uma introdução e o Início rápido para conjuntos de imagens para ajudar você a começar a usar rapidamente as técnicas do Conjunto de imagens no Adobe Dynamic Media Classic.
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -31,8 +29,10 @@ Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recome
 
 | Tipo de limite | Prática recomendada | Limite imposto |
 | --- | --- | --- |
-| Número de ativos duplicados por conjunto | Sem duplicatas | 20 |
+| Número de ativos duplicados por conjunto | Sem duplicatas | 20‡ |
 | Número máximo de imagens por conjunto | De 5 a 10 imagens por conjunto | 1000 |
+
+‡ A prática recomendada é não ter ativos duplicados em um conjunto. O limite é de 20 duplicatas para um único ativo. Se você adicionar outra duplicata para esse ativo — dentro desse conjunto — a solicitação retornará um erro ou ignorará a duplicata.
 
 Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
 

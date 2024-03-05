@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
@@ -33,10 +33,12 @@ Ao criar um Conjunto de rotação ou um Conjunto de imagens, ou fazer upload de 
 | Ativo - Tipo de limite | Prática recomendada | Limite imposto |
 | --- | --- | --- |
 | **Imagem** - Número de cortes inteligentes por imagem | 5 | 100 |
-| **Todos os conjuntos** - Número de ativos duplicados por conjunto | Sem duplicatas | 20 |
+| **Todos os conjuntos** - Número de ativos duplicados por conjunto | Sem duplicatas | 20‡ |
 | **Todos os conjuntos** - Número máximo de ativos por conjunto | De 5 a 10 imagens por conjunto | 1000 |
 | **Grupo de rotação** - Número máximo de linhas/colunas por conjunto 2D | 12 a 18 imagens por conjunto | 1000 |
 | **PDF** - Número máximo de páginas para um PDF a ser considerado para extração |  | 100 (para todos os PDF) |
+
+‡ A prática recomendada é não ter ativos duplicados em um conjunto. O limite é de 20 duplicatas para um único ativo. Se você adicionar outra duplicata para esse ativo — dentro desse conjunto — a solicitação retornará um erro ou ignorará a duplicata.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

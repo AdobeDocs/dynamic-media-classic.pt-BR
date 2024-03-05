@@ -1,20 +1,18 @@
 ---
 title: Criar um conjunto de imagens
 description: Saiba como criar um conjunto de imagens no Adobe Dynamic Media Classic.
-uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -38,8 +36,10 @@ Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recome
 
 | Tipo de limite | Prática recomendada | Limite imposto |
 | --- | --- | --- |
-| Número de ativos duplicados por conjunto | Sem duplicatas | 20 |
+| Número de ativos duplicados por conjunto | Sem duplicatas | 20‡ |
 | Número máximo de imagens por conjunto | De 5 a 10 imagens por conjunto | 1000 |
+
+‡ A prática recomendada é não ter ativos duplicados em um conjunto. O limite é de 20 duplicatas para um único ativo. Se você adicionar outra duplicata para esse ativo — dentro desse conjunto — a solicitação retornará um erro ou ignorará a duplicata.
 
 Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
 
@@ -74,7 +74,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Na Exibição de grade, navegue até um ImageSet e, abaixo da imagem, selecione **[!UICONTROL Edit]**.
 1. Siga um destes procedimentos:
 
-   * Para adicionar uma imagem (publicada ou não), arraste-a de uma pasta em Adicionar ativos para o do Conjunto de imagens **[!UICONTROL Views]** página.
+   * Para adicionar uma imagem (publicada ou não), arraste-a de uma pasta em Adicionar ativos para a **[!UICONTROL Views]** página.
    * Para remover uma imagem, selecione-a e **[!UICONTROL Delete]** na barra de ferramentas.
    * Para reordenar imagens, arraste uma imagem para uma nova posição.
 
