@@ -1,20 +1,18 @@
 ---
 title: Opções de ajuste de imagem no upload
 description: Saiba mais sobre as opções de ajuste de imagem disponíveis no momento do upload no Adobe Dynamic Media Classic.
-uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Em Tirar nitidez da máscara, defina as opções desejadas. As opções de confi
 | --- | --- |
 | Quantidade | Controla a quantidade de contraste aplicada aos pixels de borda.<br><br>Pense nisso como a intensidade do efeito. A principal diferença entre os valores de quantidade de Unsharp Mask no Adobe Dynamic Media Classic e os valores de quantidade no Adobe Photoshop é que o Photoshop tem um intervalo de quantidade de 1% a 500%. Enquanto no Adobe Dynamic Media Classic, o intervalo de valores é de 0,0 a 5,0. Um valor de 5,0 no Adobe Dynamic Media Classic é o equivalente aproximado de 500% no Photoshop; um valor de 0,9 é o equivalente de 90% e assim por diante. |
 | Raio | Controla o raio do efeito. <br><br>O intervalo de valores é de 0 a 250. O efeito é executado em todos os pixels em uma imagem e irradia de todos os pixels em todas as direções. O raio é medido em pixels. Por exemplo, para obter um efeito de nitidez semelhante para uma imagem de 2000 × 2000 pixels e uma imagem de 500 × 500 pixels, você definiria um raio de dois pixels na imagem de 2000 × 2000 pixels. Em seguida, defina um valor de raio de um pixel na imagem de 500 × 500 pixels. Um valor maior é usado para uma imagem com mais pixels. |
-| Limite | O limite é um intervalo de contraste ignorado quando o filtro Tirar nitidez da máscara é aplicado. Esse efeito é importante para que nenhum &quot;ruído&quot; seja introduzido em uma imagem quando esse filtro for usado. O intervalo de valores é de 0 a 255, que é o número de etapas de brilho em uma imagem em tons de cinza. 0=preto, 128=50% cinza e 255=branco.<br><br>Por exemplo, um valor limite de 12 ignora pequenas variações, ou seja, o brilho do tom da pele para evitar a adição de ruído, mas ainda adiciona o contraste da borda a áreas de contraste, como onde as pálpebras tocam a pele.<br><br>Por exemplo, se você tiver uma foto do rosto de alguém, a Tirar nitidez da máscara afetará as partes contrastadas da imagem. Por exemplo, onde pestanas e pele se encontram para criar uma área óbvia de contraste e a própria pele lisa. Mesmo a pele mais suave exibe alterações sutis nos valores de brilho. Se você não usar um valor de limite, o filtro acentua essas alterações sutis nos pixels de capa. Por sua vez, um efeito ruidoso e indesejável é criado enquanto o contraste das pálpebras é aumentado, aumentando a nitidez.<br><br>Para evitar esse problema, é introduzido um valor de limite que instrui o filtro a ignorar pixels que não alteram drasticamente o contraste, como a capa lisa. <br><br>No gráfico de zíper mostrado anteriormente, observe a textura ao lado dos zíperes. O ruído da imagem é exibido porque os valores de limite eram muito baixos para suprimir o ruído. |
+| Limite | O limite é um intervalo de contraste ignorado quando o filtro Tirar nitidez da máscara é aplicado. Esse efeito é importante para que nenhum &quot;ruído&quot; seja introduzido em uma imagem quando esse filtro for usado. O intervalo de valores é de 0 a 255, que é o número de etapas de brilho em uma imagem em tons de cinza. 0=preto, 128=50% cinza e 255=branco.<br><br>Por exemplo, um valor limite de 12 ignora pequenas variações, ou seja, o brilho do tom da pele para evitar a adição de ruído, mas ainda adiciona o contraste da borda a áreas de contraste, como onde as pálpebras tocam a pele.<br><br>Por exemplo, se você tiver uma foto do rosto de alguém, a Tirar nitidez da máscara afetará as partes contrastadas da imagem. Por exemplo, onde pestanas e pele se encontram para criar uma área óbvia de contraste e a própria pele lisa. Mesmo a pele mais suave exibe alterações sutis nos valores de brilho. Se você não usar um valor de limite, o filtro acentua essas alterações sutis nos pixels de capa. Por sua vez, um efeito ruidoso e indesejável é criado enquanto o contraste das pálpebras é aumentado, aumentando a nitidez.<br><br>Para evitar esse problema, é introduzido um valor de limite que instrui o filtro a ignorar pixels que não alteram drasticamente o contraste, como a capa lisa. <br><br>No gráfico de zíper mostrado anteriormente, observe a textura ao lado dos zíperes. O ruído da imagem é exibido porque os valores de limite são muito baixos para suprimir o ruído. |
 | Monocromático | Selecione para desfazer a nitidez da imagem de brilho (intensidade).<br><br>Desmarque para tornar cada componente de cor menos nítido separadamente. |
 
 Consulte também [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).

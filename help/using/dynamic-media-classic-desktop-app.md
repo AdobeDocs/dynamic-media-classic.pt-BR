@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Este novo aplicativo agora está disponível para Windows® e macOS.
 >
 >A Adobe recomenda que você instale o novo aplicativo de desktop Adobe Dynamic Media Classic até 1º de outubro de 2020. Isso garantirá uma transição suave antes que o Adobe Flash Player seja descontinuado em 31 de dezembro de 2020. Após essa data, não será possível fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic rotulada como Adobe Dynamic Media Classic no produto.
 
-Consulte as Perguntas frequentes do [Novo logon na Adobe Dynamic Media Classic já disponível.](/help/using/new-ui-2020.md)
+Consulte as Perguntas frequentes do [Novo logon no Adobe Dynamic Media Classic já disponível.](/help/using/new-ui-2020.md)
 
 ## Requisitos de sistema para o aplicativo de desktop do Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -46,7 +46,7 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 
 ## Correções na versão mais recente (20.22.1) {#release-jan2022}
 
-* Edição de imagem **[!UICONTROL Save]** Os botões do não funcionavam.
+* Ao editar uma imagem, a variável **[!UICONTROL Save]** Os botões do não funcionavam.
 * Nos editores de Conjunto, a variável **[!UICONTROL Close]**, **[!UICONTROL Save]**, e **[!UICONTROL Save As]** Os botões são desativados após rolar os ativos no **[!UICONTROL Add Assets]** painel.
 * **[!UICONTROL Play]** na exibição de Detalhes do vídeo não funcionou.
 * Não foi possível inserir `d` e `e` in **[!UICONTROL Username]** e **[!UICONTROL Password]** campos ao executar o macOS Monterey.
@@ -233,7 +233,7 @@ Para baixar e *silencioso* instale a versão mais recente do aplicativo de deskt
 
 ## Apresentação em vídeo sobre como usar o aplicativo de desktop do Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Assista a um [apresentação em vídeo sobre como usar o aplicativo de desktop do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Duração: 2 minutos e 36 segundos).
+Assista a um [apresentação em vídeo sobre como usar o aplicativo de desktop do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
 
 ## Limpeza do cache de imagens e de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
@@ -252,7 +252,7 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Limitação conhecida no Adobe Dynamic Media Classic 20.21.1
+## Limitações conhecidas do Adobe Dynamic Media Classic 20.21.1
 
 * A variável **[!UICONTROL Server]** A lista suspensa fica vazia após a atualização para o aplicativo de desktop do Adobe Dynamic Media Classic 20.21.1 - Cenário: você instala e faz logon no Adobe Dynamic Media Classic 20.20.1 ou 20.20.2 e, em seguida, fecha o aplicativo. Em seguida, atualize para o Adobe Dynamic Media Classic 20.21.1. Ao tentar fazer logon, a variável **[!UICONTROL Server]** lista suspensa na **[!UICONTROL Sign in to your account]** está vazia. Para contornar esse problema, você deve [limpar manualmente o cache](#clear-cache) (veja as etapas acima).
 

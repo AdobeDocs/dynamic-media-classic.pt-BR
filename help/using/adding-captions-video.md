@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
-# Adicionar legendas ao vídeo {#adding-captions-to-video}
+# Adicionar legendas ao vídeo {#add-captions-to-video}
 
 Você pode estender o alcance de seus vídeos para mercados globais adicionando legendas a vídeos únicos ou a Conjuntos de vídeos adaptados. Ao adicionar legendas, você evita a necessidade de dublar o áudio ou a necessidade de usar alto-falantes nativos para regravar o áudio para cada idioma diferente. O vídeo é reproduzido no idioma em que foi gravado. Legendas em idiomas estrangeiros aparecem para que pessoas de diferentes idiomas ainda possam entender a parte de áudio.
 
@@ -38,7 +38,7 @@ Consulte também [Adicionar e editar predefinições do visualizador](applicatio
 
 O Adobe Dynamic Media Classic pode converter arquivos de legenda para o formato JSON (JavaScript Object Notation). Essa conversão significa que você pode incorporar o texto JSON em uma página da Web como uma transcrição oculta, mas completa, do vídeo. Os mecanismos de pesquisa podem rastrear e indexar o conteúdo para facilitar a descoberta dos vídeos e fornecer aos clientes mais detalhes sobre o conteúdo do vídeo.
 
-Consulte [Veicular conteúdo estático (não imagem)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) no *Ajuda da API do Adobe Image Serving* para obter mais informações sobre como usar a função JSON em um URL.
+Consulte [Veicular conteúdo estático (não imagem)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) no *Ajuda da API do Adobe Image Serving* para obter mais informações sobre como usar a função JSON em um URL.
 
 **Para adicionar legendas ao vídeo:**
 
@@ -52,7 +52,7 @@ Consulte [Veicular conteúdo estático (não imagem)](https://experienceleague.a
 
    Consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
 
-1. No painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o arquivo de vídeo que você deseja associar ao arquivo de legenda carregado.
+1. No painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o arquivo de vídeo a ser associado ao arquivo de legenda carregado.
 1. No painel Navegar por ativos, selecione um único ativo de vídeo e, abaixo da imagem em miniatura do ativo, selecione **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 1. Na tabela Lista do visualizador, localize o visualizador do HTML5 chamado **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** ou **Universal_HTML5_MixedMedia_light**, siga um destes procedimentos:
 

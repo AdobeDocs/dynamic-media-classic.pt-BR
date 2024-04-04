@@ -1,6 +1,6 @@
 ---
 title: Fazer upload de um ativo de imagem rasterizada
-description: Saiba como fazer upload de um ativo de imagem rasterizada no Adobe Dynamic Media Classic
+description: Saiba como fazer upload de um ativo de imagem rasterizada no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 A variável `file_limit` O parâmetro especifica o limite do tamanho do arquivo em bytes. A variável `file_exts` parameter especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
 
-Um limite global é definido no aplicativo para o limite de tamanho do arquivo e as extensões de nome do arquivo permitidas. Se o que você enviar na solicitação for um subconjunto dos limites globais, ela será atendida. Os limites globais são os seguintes:
+Um limite global é definido no aplicativo para o limite de tamanho do arquivo e as extensões de nome do arquivo permitidas. Se o que você enviou na solicitação for um subconjunto dos limites globais, ele será atendido. Os limites globais são os seguintes:
 
 | Limite global | Valor |
 | --- | --- |
@@ -140,7 +140,7 @@ Consulte Plano de fundo de separação em [Opções de ajuste de imagem no uploa
 
 Você pode exibir o código-fonte do HTML associado ao formulário acima selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito do mouse na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST que são executados quando o usuário seleciona **[!UICONTROL Submit]**.
+No Firefox, clique com o botão direito do mouse na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST executado quando o usuário seleciona **[!UICONTROL Submit]**.
 
 Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, acesse **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
 
@@ -237,7 +237,7 @@ Você pode usar os seguintes campos na cadeia de caracteres de consulta do URL p
 | Parâmetro de URL | Obrigatório ou opcional | Valor |
 | --- | --- | --- |
 | `op` | Obrigatório | image_info |
-| `shared_secret` | Obrigatório | A chave de segredo compartilhado da empresa. |
+| `shared_secret` | Obrigatório | A chave que é um segredo compartilhado para a empresa. |
 | `image_name` | Obrigatório | Nome da imagem. |
 
 **Amostra do URL:**

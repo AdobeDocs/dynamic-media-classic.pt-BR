@@ -10,9 +10,9 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Depois de publicar um Conjunto de imagens, você pode copiar o URL associado ou 
 
 A maneira mais comum de implantar Conjuntos de imagens é colocar um link (por meio de um ícone de navegação) em sua página da Web. Quando selecionado, o link inicia uma página dinâmica (JSP) que exibe o Conjunto de imagens em uma janela pop-up de zoom. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporar o visualizador de zoom do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporar o visualizador de zoom do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de conjunto de imagens {#copying-the-embed-code-of-an-image-set-viewer}
 

@@ -1,6 +1,6 @@
 ---
 title: Configuração do aplicativo
-description: Saiba como instalar e configurar a área Aplicativo do Adobe Dynamic Media Classic. A área Aplicativo permite inserir configurações gerais, criar predefinições de imagem, visualizador e codificação de vídeo, definir visualizadores e metadados padrão, configurações de publicação e configurações de SEO de vídeo. Você também pode usar a área para configurar predefinições de conjunto de lotes para automatizar a geração de conjuntos de rotação 2D.
+description: Saiba como instalar e configurar a área Aplicativo do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10399'
+source-wordcount: '10355'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Consulte também [Testar o serviço de teste seguro](testing-assets-making-them-
 
   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-  Se o modelo contiver apenas `<ID>`, em seguida, o Adobe Dynamic Media Classic preenche o `https://<server>/is/image`, onde `<server>` é o Nome do servidor de publicação definido em Configurações gerais.
+  Se o modelo contiver apenas `<ID>`, em seguida, o Adobe Dynamic Media Classic preenche o `https://<server>/is/image`, onde `<server>` é o Nome do Servidor de Publicação definido em Configurações Gerais.
 
   Definindo o Modelo Invalidar da CDN, selecione uma imagem chamada Backpack_B e vá para **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]** O resulta no seguinte URL gerado na interface CDN Invalidate:
 
@@ -147,7 +147,7 @@ O Adobe Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome
 
 Se você carregou imagens anteriormente e alterou os arquivos originais (ou os substituiu), a opção de Substituição escolhida especifica como o Adobe Dynamic Media Classic substitui as imagens. Nenhuma informação sobre a imagem é alterada, mas a nova imagem substitui a antiga. Se a pasta também contiver imagens que ainda não estão no Adobe Dynamic Media Classic, essas imagens serão adicionadas.
 
-Use essa opção se as imagens carregadas tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem permanecer a mesma. A substituição também é útil ao carregar e ripar PDF Adobe®. Para ajustar como o Adobe Dynamic Media Classic *rips* Na imagem, ajuste as opções de perfil de cores ICC na caixa de diálogo Fazer upload e faça upload novamente usando o recurso Substituir.
+Use essa opção se as imagens carregadas tiverem sido alteradas de alguma forma (a imagem foi alterada), mas a referência à imagem permanecer a mesma. A substituição também é útil ao carregar e ripar PDF Adobe®. Para ajustar como o Adobe Dynamic Media Classic *rips* Na imagem, ajuste as opções de perfil de cores ICC na caixa de diálogo Fazer upload e faça upload novamente usando o recurso de substituição.
 
 As Adobe Dynamic Media Classic IDs usadas para acessar imagens dos servidores de produção são derivadas dos nomes de arquivo de imagem. O uso de caracteres em maiúsculas e minúsculas no nome do arquivo é importante, tanto para a substituição de arquivos existentes quanto para as Adobe Dynamic Media Classic IDs usadas para acessar a imagem. Verifique se o uso de caracteres em maiúsculas e minúsculas nos nomes de arquivo está correto antes de fazer upload no Adobe Dynamic Media Classic para evitar que as IDs do Adobe Dynamic Media Classic sejam diferentes apenas em maiúsculas e minúsculas para a mesma imagem.
 
@@ -161,7 +161,7 @@ Os administradores podem criar predefinições para exportar ativos. Os usuário
 
 Para abrir a tela Predefinição de imagem, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Consulte [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+Consulte [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Criar e editar predefinições de imagem {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Ao combinar em um único player o seguinte:
 
 Estenda o alcance do seu conteúdo de mídia avançada para desktops, tablets e usuários de dispositivos móveis e garanta uma experiência de vídeo otimizada.
 
-Consulte [Sobre visualizadores do HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
+Consulte [Sobre visualizadores do HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
 
 Consulte [Matriz de compatibilidade da Predefinição do visualizador do Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Páginas da Web diferentes têm necessidades diferentes. Às vezes, você quer ter uma página da Web que forneça um link que abra o Visualizador de HTML 5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador HTML5 diretamente na página de hospedagem. No último caso, a página da Web provavelmente tem um layout estático. Ou é &quot;responsivo&quot; e é exibido de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela de navegador. Para acomodar essas necessidades, os Visualizadores HTML5 fornecidos com o Adobe Dynamic Media Classic são compatíveis com páginas da Web estáticas e com páginas da Web com design responsivo.
 
-Para obter mais informações sobre como incorporar visualizadores responsivos nas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api), e [Referência de comando - Atributos de comando](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+Para obter mais informações sobre como incorporar visualizadores responsivos nas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api), e [Referência de comando - Atributos de comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipos de predefinição do visualizador {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para Visualizadores, consulte as Notas de versão dos Visualizadores.
 
-Consulte [Notas de versão de referência de visualizadores do Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+Consulte [Notas de versão de referência de visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Smartphone Android™ | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -613,7 +613,7 @@ Consulte também [Predefinições do visualizador](https://s7d5.scene7.com/s7vie
      
    * **Editar** - Selecione uma Predefinição do visualizador existente e, em seguida, **[!UICONTROL Edit]**.
 
-1. Na página Configurar visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
+1. Na página Configurando o visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
 1. Defina as opções restantes desejadas.
 
    >[!NOTE]
@@ -732,7 +732,7 @@ A edição do código não é permitida na caixa de diálogo Incorporar código.
 1. Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 1. Selecionar **[!UICONTROL Close]**.
 
-## Configurar visualizadores padrão {#configuring-default-viewers}
+## Configurar visualizadores padrão {#configure-default-viewers}
 
 Você pode usar Visualizadores padrão para configurar o visualizador padrão associado a um ativo ao usar Visualização no Adobe Dynamic Media Classic. Você pode configurar a experiência de visualização padrão para os seguintes tipos de ativos:
 
@@ -812,7 +812,7 @@ Crie uma Predefinição de metadados para cada conjunto de valores de metadados 
 
 Um Administrador do Media Portal ou um Administrador da empresa pode criar campos de metadados personalizados definidos pelo usuário. Campos personalizados podem ajudar a organizar ativos no Adobe Dynamic Media Classic. Você pode marcar os campos como Ativos, conforme necessário. Quando ativados, os nomes desses campos de metadados personalizados aparecem no painel Metadados na Exibição de detalhes. Os usuários podem inserir informações em campos de metadados definidos pelo usuário para descrever ativos. Os usuários também podem tornar um campo de metadados definido pelo usuário um critério nas pesquisas.
 
-Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo de ativação de um ativo para uma inicialização ou venda específica. Você define um campo &quot;ativação&quot;, com base no tipo *Data*. Em seguida, usando o **[!UICONTROL Metadata]** painel na Exibição de detalhes ou **[!UICONTROL File]** > **[!UICONTROL Edit Info]**, é possível especificar quando o ativo será ativado. O Adobe Dynamic Media Classic verifica o status de publicação de um ativo e o histórico de publicação. Se não estiver no tempo de ativação, o status de publicação será exibido como &quot;Não publicado&quot;.
+Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo de ativação de um ativo para uma inicialização ou venda específica. Você define um campo &quot;ativação&quot;, com base no tipo *Data*. Em seguida, usando o **[!UICONTROL Metadata]** painel na Exibição de detalhes ou **[!UICONTROL File]** > **[!UICONTROL Edit Info]**, é possível especificar quando o ativo será ativado. O Adobe Dynamic Media Classic verifica o status publicado de um ativo e o histórico de publicação. Se não estiver no tempo de ativação, o status de publicação será exibido como &quot;Não publicado&quot;.
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ A configuração de uma convenção de nomenclatura padrão não é necessária 
 
 Como alternativa, você pode usar Exibir código sem campos de formulário disponíveis. Nesta visualização, você cria suas definições de convenção de nomenclatura inteiramente usando expressões regulares.
 
-Dois elementos estão disponíveis para definição: Correspondência e Nome de base. Esses campos permitem definir todos os elementos de uma convenção de nomenclatura e identificar a parte da convenção usada para nomear o conjunto no qual eles estão contidos. Uma convenção de nomenclatura individual de uma empresa poderia usar uma ou mais linhas de definição para cada um desses elementos. É possível usar quantas linhas forem necessárias para a definição exclusiva e agrupá-las em elementos distintos, como Imagem principal, Elemento de cor, Elemento de exibição alternativa e Elemento de amostra.
+Dois elementos estão disponíveis para definição: Correspondência e Nome de base. Esses campos são todos os elementos definidos para uma convenção de nomenclatura e identificam a parte da convenção usada para nomear o conjunto no qual eles estão contidos. Uma convenção de nomenclatura individual de uma empresa poderia usar uma ou mais linhas de definição para cada um desses elementos. É possível usar quantas linhas forem necessárias para a definição exclusiva e agrupá-las em elementos distintos, como Imagem principal, Elemento de cor, Elemento de exibição alternativa e Elemento de amostra.
 
 ### Criar uma predefinição de conjunto de lotes {#creating-a-batch-set-preset}
 

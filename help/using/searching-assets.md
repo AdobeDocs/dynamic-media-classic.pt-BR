@@ -1,18 +1,16 @@
 ---
 title: Pesquisar ativos do Dynamic Media Classic
 description: Saiba como pesquisar ativos no Adobe Dynamic Media Classic.
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 0%
@@ -29,7 +27,7 @@ Para localizar ativos de arquivo no Adobe Dynamic Media Classic, você pode visu
 
 ## Exibir ativos por tipo {#viewing-assets-by-type}
 
-Para ver somente os arquivos de um determinado tipo à medida que você navega, na Biblioteca de ativos no lado esquerdo, na **[!UICONTROL Show]** escolha um tipo de arquivo. Somente ativos do tipo que você optou por mostrar são exibidos na Biblioteca de ativos.
+Para ver somente os arquivos de um determinado tipo à medida que você navega, na Biblioteca de ativos no lado esquerdo, na **[!UICONTROL Show]** escolha um tipo de arquivo. Somente ativos do tipo escolhido para exibição aparecem na Biblioteca de ativos.
 
 >[!NOTE]
 >
@@ -69,7 +67,7 @@ Especifique qualquer um dos critérios a seguir na pesquisa avançada:
 
 * **Arquivos e pastas** - Escolha onde deseja pesquisar: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]** ou **[!UICONTROL Within Selected Folder & Subfolders]**.
 
-* **Todos os estados de publicação** : procure arquivos marcados como prontos para publicação, arquivos que não estão marcados como prontos para publicação ou todos os arquivos.
+* **Todos os estados de publicação** - Procurar arquivos marcados como prontos para publicação, arquivos que não estão marcados como prontos para publicação ou todos os arquivos.
 
 * **Condições** - Se você especificar critérios de metadados para a pesquisa, selecione se a pesquisa deve corresponder a todas as condições (uma pesquisa ALL) ou a qualquer condição (uma pesquisa OR).
 
@@ -81,7 +79,7 @@ Especifique qualquer um dos critérios a seguir na pesquisa avançada:
    1. Para campos numéricos, escolha um valor ou insira um intervalo de datas personalizado.
    1. (Opcional) Repita as etapas 1 a 4 para criar mais campos de pesquisa.
 
-Selecione o **[!UICONTROL Remove search field]** ícone (círculo com &quot;X&quot; dentro) para que o campo de pesquisa seja excluído.
+Selecione o **[!UICONTROL Remove a search field]** ícone (círculo com &quot;X&quot; dentro) para que o campo de pesquisa seja excluído.
 
 No canto inferior direito do painel Pesquisa avançada, selecione **[!UICONTROL Search]** para iniciar a pesquisa. Os resultados da pesquisa são exibidos no Painel Procurar à direita. É possível alterar qualquer condição de pesquisa e selecionar **[!UICONTROL Search]** para executar a pesquisa novamente.
 
@@ -89,7 +87,7 @@ Selecionar **[!UICONTROL Clear]** se quiser limpar os critérios de pesquisa e i
 
 ## Filtrar ativos usando metadados {#filter-assets-using-metadata}
 
-Filtre ativos na guia Filtros da Biblioteca de ativos. Para filtrar ativos, use valores de metadados como critérios. Depois de escolher um campo de metadados que deseja filtrar, a guia Filtros lista todos os valores de metadados inseridos no campo escolhido. Ele também lista o número de ativos que foram atribuídos a cada valor. Por exemplo, em uma operação de filtro no **[!UICONTROL Creator]** campo de metadados, a variável **[!UICONTROL Filters]** lista todos os nomes que foram inseridos na variável **[!UICONTROL Creator]** campo de metadados para ativos diferentes. Ele também lista, para cada nome, o número de ativos atribuídos ao nome. Em seguida, selecione um valor de metadados para ver todos os ativos que foram atribuídos a esse valor. No exemplo, selecione a variável `Prairie Cat` valor de metadados para ver todos os ativos nos quais o nome `Prairie Cat` foi inscrito no **[!UICONTROL Creator]** campo de metadados. É possível filtrar usando mais de um campo de metadados como critério de filtragem.
+Filtre ativos na guia Filtros da Biblioteca de ativos. Para filtrar ativos, use valores de metadados como critérios. Após escolher um campo de metadados para filtrar, a guia Filtros lista todos os valores de metadados inseridos no campo escolhido. Ele também lista o número de ativos que foram atribuídos a cada valor. Por exemplo, em uma operação de filtro no **[!UICONTROL Creator]** campo de metadados, a variável **[!UICONTROL Filters]** lista todos os nomes que foram inseridos na variável **[!UICONTROL Creator]** campo de metadados para ativos diferentes. Ele também lista, para cada nome, o número de ativos atribuídos ao nome. Em seguida, selecione um valor de metadados para ver todos os ativos que foram atribuídos a esse valor. No exemplo, selecione a variável `Prairie Cat` valor de metadados para ver todos os ativos nos quais o nome `Prairie Cat` foi inscrito no **[!UICONTROL Creator]** campo de metadados. É possível filtrar usando mais de um campo de metadados como critério de filtragem.
 
 É possível salvar operações de filtro para executá-las várias vezes.
 

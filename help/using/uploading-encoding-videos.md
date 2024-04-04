@@ -9,9 +9,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3882'
+source-wordcount: '3883'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Siga qualquer um destes procedimentos.
 1. Na barra Navegação global, selecione **[!UICONTROL Upload]**.
 1. Na página Upload, selecione **[!UICONTROL From Desktop]** guia.
 1. Na página Upload, no campo **[!UICONTROL Select Files for Upload]** , selecione **[!UICONTROL Browse]**, navegue até um arquivo de vídeo MP4 e selecione **[!UICONTROL Open]**.
-1. No **[!UICONTROL Choose Folder Destination]** selecione uma pasta para o arquivo carregado.
+1. No escolhido **[!UICONTROL Folder Destination]** selecione uma pasta para o arquivo carregado.
 1. Na página Upload, verifique se **[!UICONTROL Publish After Uploading]** está marcado.
 1. Selecionar **[!UICONTROL Submit Upload]**.
 
@@ -64,7 +64,7 @@ Siga qualquer um destes procedimentos.
 1. Na barra Navegação global, selecione **[!UICONTROL Upload]**.
 1. Na página Upload, selecione **[!UICONTROL From Desktop]** guia.
 1. No **[!UICONTROL Select Files to Upload]** , selecione **[!UICONTROL Browse]**, navegue até um arquivo de vídeo de origem principal e selecione **[!UICONTROL Open]**.
-1. No **[!UICONTROL Choose Folder Destination]** selecione uma pasta para o arquivo carregado.
+1. No escolhido **[!UICONTROL Folder Destination]** selecione uma pasta para o arquivo carregado.
 1. No canto inferior direito da página, selecione **[!UICONTROL Job Options]**,
 1. Na caixa de diálogo Fazer Upload das Opções de Job, expanda **[!UICONTROL EVideo Options]**, siga um destes procedimentos:
 
@@ -78,7 +78,7 @@ Consulte [Predefinições de codificação de vídeo da área de trabalho](appli
 *Se quiser codificar novamente um arquivo de vídeo carregado anteriormente,*
 
 1. No Adobe Dynamic Media Classic, no painel Procurar, navegue até o vídeo e selecione-o.
-1. Ir para **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.
+1. Ir para **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.&quot;
 1. Na caixa de diálogo Reprocessar ativos, expanda **[!UICONTROL EVideo Options]**, siga um destes procedimentos:
    * A prática recomendada é usar o método a seguir. Selecionar **Vídeo adaptável**.
 Consulte [Vídeo adaptável (padrão)](application-setup.md#adaptive-video-default).
@@ -351,7 +351,7 @@ A Adobe Dynamic Media Classic definiu limites máximos para a taxa de dados de d
    | --- | --- |
    | Nome da predefinição | Digite um nome descritivo para a predefinição de vídeo. O nome informado é exibido na caixa de diálogo Fazer Upload das Opções de Job, na qual os usuários escolhem as opções de transcodificação. |
    | Descrição | Descreva a predefinição de vídeo. O que você insere aparece como uma dica de ferramenta ao mover o ponteiro sobre o nome da predefinição na caixa de diálogo Fazer upload das opções de trabalho, na qual os usuários escolhem as opções de transcodificação. |
-   | Dispositivo de reprodução | Escolha o dispositivo no qual o vídeo deve ser reproduzido. As opções são Computador (desktops), Dispositivo móvel (iPhone, iPad, Android™) ou Tablet (somente iPad). Essa configuração determina automaticamente o codec de vídeo e áudio apropriado, usado durante a codificação. |
+   | Dispositivo de reprodução | Escolha o dispositivo no qual o vídeo deve ser reproduzido. As opções são Computador (desktops), Dispositivo móvel (iPhone, iPad, Android™) ou Tablet (somente iPad). Essa configuração determina automaticamente o codec de áudio e vídeo apropriado usado durante a codificação. |
    | Taxa de dados de público alvo | Insira a velocidade média de conexão com a Internet (em quilobits por segundo) do usuário final de destino. Você pode inserir a taxa ou arrastar o controle deslizante para inseri-la. O espectro Velocidade de conexão do usuário lista as velocidades típicas para conexões de banda larga, DSL, portáteis e dial-up. Essa configuração determina automaticamente a taxa de dados de vídeo e áudio combinados. Em outras palavras, a quantidade de dados codificada para compor um único segundo de reprodução de vídeo. Quanto maior a taxa de dados, melhor a qualidade do vídeo resultante. No entanto, taxas de dados muito altas resultam em arquivos grandes que criam experiências de visualização discretas para usuários com baixa largura de banda. Como prática recomendada, encontre um equilíbrio entre taxas de dados altas e baixas. Crie uma experiência de reprodução de qualidade adequada sem alienar os usuários que têm larguras de banda estreitas. |
    | Taxa de proporção | Taxa de proporção é a proporção da largura para a altura do vídeo. As duas primeiras proporções listadas abaixo são normalmente usadas para exibir vídeo horizontalmente:<ul><li> 4:3 - Usado para quase todo o conteúdo de transmissão de TV de definição padrão.</li><li>16:9 - Usado para quase todos os conteúdos e filmes de tela larga na High-Definition Television (HDTV).</li><li>Escala automática - (padrão) Uma predefinição de codificação única que funciona com qualquer taxa de proporção para criar vídeos, permitindo sua entrega em dispositivos móveis, tablets e computadores de mesa. Os vídeos de origem carregados codificados com essa predefinição são definidos com uma altura fixa. No entanto, a largura é dimensionada automaticamente para preservar a proporção do vídeo (proporção largura e altura).</li><li>Personalizado - Usado quando você deseja definir um tamanho de vídeo não padrão.</li><li>A taxa de proporção escolhida determina as configurações de largura e altura para o Tamanho da resolução. O valor de largura e altura é dimensionado automaticamente de acordo com a taxa de proporção adequada.</li></ul> |
    | Tamanho da resolução | O tamanho da resolução, expresso pelo número de pixels de largura pelo número de pixels de altura, determina o tamanho. Insira um valor de largura e altura em pixels ou arraste o controle deslizante para inserir esses valores. O espectro de Resolução lista os tamanhos típicos de resolução. O valor da largura e o valor da altura aderem automaticamente à taxa de proporção selecionada. Por exemplo, se você selecionar 4:3 como taxa de proporção e inserir 400 para largura, 300 será inserido automaticamente para altura. Se tiver selecionado Dimensionar automaticamente para a configuração Proporção, o valor Largura do Tamanho da Resolução será automaticamente definido como Automático. Selecionar **[!UICONTROL Preview]** para que você possa abrir uma janela do navegador e ver suas opções de resolução lá. |
@@ -363,7 +363,7 @@ A Adobe Dynamic Media Classic definiu limites máximos para a taxa de dados de d
    * Selecionar **[!UICONTROL Save]** se você adicionou ou editou uma Predefinição de vídeo.
    * Selecionar **[!UICONTROL Save As]** se você tiver adicionado uma predefinição de vídeo iniciando com uma predefinição existente.
 
-### Excluir uma predefinição de codificação de vídeo {#deleting-a-video-encoding-preset}
+### Excluir uma predefinição de codificação de vídeo {#delete-a-video-encoding-preset}
 
 Os administradores podem excluir predefinições de vídeo personalizadas. As predefinições de vídeo que acompanham o Adobe Dynamic Media Classic não podem ser excluídas.
 

@@ -1,24 +1,22 @@
 ---
 title: Obter informações de uso do disco
 description: Saiba como obter informações de uso do disco no Adobe Dynamic Media Classic.
-uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-# Obter informações de uso do disco {#getting-disk-usage-information}
+# Obter informações de uso do disco {#get-disk-usage-information}
 
 Você pode usar o `disk_info` para recuperar informações sobre o uso de espaço em disco de uma empresa, conforme mostrado no exemplo a seguir:
 
@@ -49,7 +47,7 @@ Você pode usar os seguintes campos na string de consulta do URL para obter info
 | Parâmetro de URL | Obrigatório/opcional | Valor |
 | --- | --- | --- |
 | op | Obrigatório | disk_info |
-| shared_secret | Obrigatório | A chave de segredo compartilhado da empresa |
+| shared_secret | Obrigatório | A chave que é um segredo compartilhado para a empresa |
 
 O código de exemplo a seguir obtém informações do disco para 000Empresa:
 

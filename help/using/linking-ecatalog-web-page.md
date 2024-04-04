@@ -1,20 +1,18 @@
 ---
 title: Vincular um eCatalog a uma página da Web
 description: Saiba como vincular um eCatalog a uma página da Web no Adobe Dynamic Media Classic.
-uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -50,7 +48,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incl
 
 A maneira mais comum de implantar um eCatalog é colocar um link no formato de uma página de capa em miniatura do eCatalog na sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços no navegador sejam exibidas.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporar o visualizador eCatalog do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporar o visualizador eCatalog do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 

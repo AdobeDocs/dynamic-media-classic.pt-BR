@@ -1,20 +1,18 @@
 ---
 title: Prática recomendada para usar o visualizador de vídeo do HTML5
 description: Conheça as práticas recomendadas para usar o visualizador de vídeo HTML5.
-uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -33,7 +31,7 @@ Ao combinar em um único jogador as seguintes habilidades:
 
 Você estende o alcance do seu conteúdo de mídia avançada para usuários de desktop e dispositivos móveis. Você também garante uma experiência de vídeo otimizada.
 
-Consulte também [Sobre visualizadores do HTML5](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
+Consulte também [Sobre visualizadores do HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
 
 Consulte também [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vídeo de treinamento.
 
@@ -41,7 +39,7 @@ Consulte também [Predefinições do visualizador](https://s7d5.scene7.com/s7vie
 
 Para streaming de vídeo adaptável de desktop e móvel, os vídeos usados para a alternância da taxa de bits são baseados em todos os vídeos MP4 no Conjunto de vídeos adaptados.
 
-A reprodução de vídeo ocorre usando HLS ou vídeo progressivo. HLS (HTTP Live Streaming) é um padrão da Apple para transmissão de vídeo adaptável que ajusta automaticamente a reprodução com base na capacidade de largura de banda da rede. Ele também permite que o cliente &quot;procure&quot; qualquer ponto do vídeo, sem a necessidade de aguardar o download do restante do vídeo. Consulte também [HTTP Live Streaming](https://developer.apple.com/streaming/). O vídeo progressivo é fornecido ao baixar e armazenar o vídeo localmente na tela do desktop de um usuário ou no dispositivo móvel.
+A reprodução de vídeo ocorre usando HLS ou vídeo progressivo. HLS (HTTP Live Streaming) é um padrão da Apple para transmissão de vídeo adaptável que ajusta automaticamente a reprodução com base na capacidade de largura de banda da rede. Ele também permite que o cliente &quot;procure&quot; qualquer ponto do vídeo, sem a necessidade de aguardar o download do restante do vídeo. Consulte também [HTTP Live Streaming](https://developer.apple.com/streaming/). O vídeo progressivo é fornecido ao baixar e armazenar o vídeo localmente na tela de desktop de um usuário ou no dispositivo móvel.
 
 A tabela a seguir descreve o dispositivo, o navegador e o método de reprodução de vídeos em computadores desktop e dispositivos móveis que usam o Adobe Dynamic Media Classic Video Viewer.
 

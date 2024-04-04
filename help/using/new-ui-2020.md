@@ -1,6 +1,6 @@
 ---
 title: aplicativo Adobe Dynamic Media Classic Desktop
-description: Os usuários do Adobe Dynamic Media Classic agora podem experimentar uma atualização completa da interface do usuário. Adobe A experiência fornece um logon atualizado com links para recursos valiosos, além de que essa atualização não depende mais da tecnologia de Flash no navegador.
+description: Os usuários do Adobe Dynamic Media Classic agora podem experimentar uma atualização completa da interface do usuário.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Consulte [aplicativo de desktop do Adobe Dynamic Media Classic](/help/using/dyna
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Como funciona o novo aplicativo de desktop?_**
-Depois de baixar, instalar e iniciar o aplicativo de desktop, você verá um logon atualizado. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você pode fazer logon no Adobe Dynamic Media Classic. A experiência geral é a mesma da versão familiar do navegador da Web com a qual você está acostumado. No aplicativo de desktop, é possível acessar os ambientes de produção e preparo do Adobe Dynamic Media Classic. Você também pode acessar o Portal de mídia se tiver credenciais para esse recurso.
+Após baixar, instalar e iniciar o aplicativo de desktop, você verá um logon atualizado. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você pode fazer logon no Adobe Dynamic Media Classic. A experiência geral é a mesma da versão familiar do navegador da Web com a qual você está acostumado. No aplicativo de desktop, é possível acessar os ambientes de produção e preparo do Adobe Dynamic Media Classic. Você também pode acessar o Portal de mídia se tiver credenciais para esse recurso.
 
 >[!IMPORTANT]
 >
@@ -94,9 +94,9 @@ Entre em contato com o Suporte do Adobe em caso de problemas durante o uso do ap
 +++**_Quero ter certeza de que estou otimizando minha estratégia de mídia avançada. Como posso saber ainda mais sobre o Adobe Dynamic Media Classic?_**
 O Adobe Dynamic Media Classic é uma solução poderosa, repleta de recursos, projetada para aprimorar suas estratégias de mídia avançada. Para aproveitar todos os recursos, explore estes recursos práticos:
 
-* [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Publicações no blog do Adobe](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Arquivos de informativos do Adobe Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Arquivos de informativos do Adobe Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

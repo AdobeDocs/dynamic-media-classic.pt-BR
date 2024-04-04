@@ -1,19 +1,17 @@
 ---
 title: Configuração de administração
 description: Saiba como configurar a área de administração do Adobe Dynamic Media Classic.
-uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -70,7 +68,7 @@ Após adicionar um usuário, o Adobe Dynamic Media Classic envia a ele uma mensa
 
    Ao adicionar novos usuários do Portal de mídia, você também pode acessar **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]** e selecione **[!UICONTROL Upload User List]** e selecione um arquivo .csv que contenha no máximo 500 usuários.
 
-### Excluir um usuário {#deleting-a-user}
+### Excluir um usuário {#delet-a-user}
 
 Você pode excluir usuários do Adobe Dynamic Media Classic tornando-os inválidos. Usuários inválidos são removidos do sistema e de todas as contas.
 

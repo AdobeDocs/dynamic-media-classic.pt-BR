@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Fazer logon no Adobe Dynamic Media Classic {#dmc-sign-in}
+# Fazer logon no Adobe Dynamic Media Classic {#dmc-signin}
 
 Verifique se você tem o seguinte antes de usar o aplicativo de desktop do Adobe Dynamic Media Classic:
 

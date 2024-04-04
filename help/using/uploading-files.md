@@ -1,19 +1,17 @@
 ---
 title: Fazer upload de arquivos
 description: Saiba como carregar arquivos no Adobe Dynamic Media Classic.
-uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3665'
+source-wordcount: '3658'
 ht-degree: 0%
 
 ---
@@ -104,7 +102,7 @@ Os seguintes tipos de arquivos podem ser publicados:
 * CSS
 * JavaScript (quando a empresa está configurada com seu próprio domínio)
 * Vídeo principal
-* PDF (quando PDF estiver marcado para publicação após o upload, para evitar o delivery de todos os PDF para o fluxo de trabalho eCatalog/PDF existente)
+* PDF (quando PDF estiver marcado para publicação após o upload, para evitar o delivery de todos os PDF para o workflow eCatalog/PDF existente)
 * Vídeo PrX
 * SVG
 * XML
@@ -166,8 +164,8 @@ O aplicativo Adobe Dynamic Media Classic Desktop permite fazer upload de arquivo
 1. No aplicativo Adobe Dynamic Media Classic Desktop, na barra Navegação global, selecione **[!UICONTROL Upload]**.
 1. Na página Upload, selecione a variável **[!UICONTROL From Desktop]** guia.
 1. No lado esquerdo da página Upload, na guia **[!UICONTROL Select Files for Upload]** , selecione **[!UICONTROL Browse]** para selecionar os arquivos ou pastas dos quais deseja fazer upload, selecione **[!UICONTROL Open]**.
-1. No lado direito da página Upload, na guia **Escolher destino da pasta** navegue até uma pasta de destino na qual deseja adicionar os arquivos ou pastas carregados.
-1. (Opcional) Próximo à parte inferior da página Upload, no campo de texto Nome da tarefa, digite o novo nome da tarefa de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema que a Adobe Dynamic Media Classic fornece. O job e outros jobs de upload e publicação são registrados na página Jobs, onde você pode verificar o status dos jobs. Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
+1. No lado direito da página de Upload, no **Destino da pasta** navegue até uma pasta de destino na qual deseja adicionar os arquivos ou pastas carregados.
+1. (Opcional) Próximo à parte inferior da página Upload, no campo de texto Nome da tarefa, digite o novo nome da tarefa de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema que a Adobe Dynamic Media Classic fornece. Os processos de upload e publicação são registrados na página Jobs, onde você pode verificar o status dos processos. Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
 1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Publish After Uploading]** se quiser publicar automaticamente os ativos dos quais fez upload.
 Ao publicar arquivos, eles são enviados para servidores ativos. Os URLs desses arquivos podem ser usados em sites e aplicativos externos. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** se quiser que os arquivos carregados substituam arquivos existentes com os mesmos nomes. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
@@ -186,8 +184,8 @@ Para ver o progresso do upload, selecione **[!UICONTROL Jobs]** na Barra de nave
 1. No Adobe Dynamic Media Classic, na barra Navegação global, selecione **[!UICONTROL Upload]**.
 1. Na página Upload, selecione a variável **[!UICONTROL VIA FTP]** guia.
 1. No lado esquerdo da página Upload, na guia **[!UICONTROL Choose FTP Folder For Upload]** escolha uma pasta FTP da qual fazer upload de arquivos.
-1. No lado direito da página Upload, na guia **[!UICONTROL Choose Adobe Dynamic Media Folder Destination]** selecione uma pasta de destino no Adobe Dynamic Media Classic.
-1. (Opcional) Próximo à parte inferior da página Upload, no campo de texto Nome da tarefa, digite o novo nome da tarefa de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema que a Adobe Dynamic Media Classic fornece. O job e outros jobs de upload e publicação são registrados na página Jobs, onde você pode verificar o status dos jobs.
+1. No lado direito da página de Upload, no **[!UICONTROL Adobe Dynamic Media Folder Destination]** selecione uma pasta de destino no Adobe Dynamic Media Classic.
+1. (Opcional) Próximo à parte inferior da página Upload, no campo de texto Nome da tarefa, digite o novo nome da tarefa de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema que a Adobe Dynamic Media Classic fornece. Os processos de upload e publicação são registrados na página Jobs, onde você pode verificar o status dos processos.
 Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
 1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Publish After Upload]** se quiser publicar automaticamente os ativos dos quais fez upload.
 Ao publicar arquivos, eles são enviados para servidores ativos. Os URLs desses arquivos podem ser usados em sites e aplicativos externos. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
@@ -248,7 +246,7 @@ Corte baseado em transparência: especifique 0 para cortar pixels apenas se fore
 * **Opções de perfil de cores** - Escolha uma conversão de cores ao criar arquivos otimizados usados para a entrega dinâmica do Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Default Color Preservation]** - Mantém as cores da imagem de origem sempre que as imagens contêm informações de espaço de cores; não há conversão de cores. Quase todas as imagens atuais têm o perfil de cores apropriado já incorporado. No entanto, se uma imagem de origem CMYK não contiver um perfil de cores incorporado, as cores serão convertidas no espaço de cores sRGB (azul vermelho verde padrão). sRGB é o espaço de cores recomendado para exibir imagens em páginas da Web.
-   * **[!UICONTROL Keep Original Color Space]** - Mantém as cores originais sem nenhuma conversão de cores no ponto de assimilação no Adobe Dynamic Media Classic. Para imagens sem um perfil de cores incorporado, qualquer conversão de cores necessária para processar solicitações da imagem é feita usando os perfis de cores padrão, conforme definido nas configurações de Publicação. Esses perfis de cores nem sempre estão alinhados com a cor nos arquivos criados com essa opção. Portanto, é recomendável usar a opção Preservação de cor padrão.
+   * **[!UICONTROL Keep Original Color Space]** - Mantém as cores originais sem nenhuma conversão de cores no ponto de assimilação no Adobe Dynamic Media Classic. Para imagens sem um perfil de cores incorporado, qualquer conversão de cores necessária para processar solicitações da imagem é feita usando os perfis de cores padrão, conforme definido nas configurações de Publicação. Esses perfis de cores nem sempre estão alinhados com as cores nos arquivos criados com essa opção. Portanto, é recomendável usar a opção Preservação de cor padrão.
    * **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Abre menus para que você possa escolher um **[!UICONTROL Convert From]** e **[!UICONTROL Convert To]** espaço de cores. Essa opção avançada substitui qualquer informação de cor incorporada no arquivo de origem. Selecione essa opção somente quando todas as imagens que você está enviando contiverem dados de perfil de cores incorretos ou ausentes.
 
 * **Opções de edição de imagem** - É possível preservar as máscaras de recorte &lt;> em imagens e escolher um perfil de cores.
@@ -269,8 +267,9 @@ Consulte [Trabalhar com arquivos PostScript e Illustrator](postscript-illustrato
 * **Opções de VÍDEO** - É possível transcodificar um arquivo de vídeo escolhendo uma Predefinição de vídeo.
 Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Metadados adicionais** - Insira palavras-chave que descrevam os arquivos que você pretende fazer upload. Separe as palavras-chave por vírgula. As palavras-chave facilitam a pesquisa de ativos.
-Consulte [Realizar uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search). Consulte também [Fazer upload de palavras-chave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vídeo de treinamento.
+* **Mais metadados** - Insira palavras-chave que descrevam os arquivos que você pretende fazer upload. Separe as palavras-chave por vírgula. As palavras-chave facilitam a pesquisa de ativos.
+Consulte [Realizar uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
+Consulte também [Fazer upload de palavras-chave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vídeo de treinamento.
 
 * **Predefinições de conjunto de lotes** - Se quiser criar um Conjunto de imagens, um Conjunto de rotação ou um Conjunto de amostras a partir dos arquivos carregados, selecione a variável **[!UICONTROL Active]** para a predefinição que deseja usar. É possível selecionar mais de uma predefinição. Crie as predefinições na página Configuração do aplicativo/Predefinições de conjunto de lotes.
 Consulte [Predefinições de conjunto de lotes](application-setup.md#batch_set_presets).
@@ -279,7 +278,7 @@ Consulte [Predefinições de conjunto de lotes](application-setup.md#batch_set_p
 
 ## Seguir um upload com outro trabalho {#follow-an-upload-with-another-job}
 
-Ao fazer upload de itens usando o FTP, você pode agendar um trabalho subsequente para começar quando o upload estiver concluído. Se outros trabalhos estiverem agendados para começar, o trabalho agendado aqui será enfileirado depois deles.
+Ao fazer upload de itens usando o FTP, você pode agendar um trabalho subsequente para começar quando o upload estiver concluído. Se outras tarefas estiverem programadas para começar, as tarefas que você programar aqui serão colocadas na fila depois delas.
 
 O novo trabalho envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Esse trabalho de publicação complementar usa o mesmo nome do trabalho de upload, mas com o texto *Pub_* adicionado ao início.
 
@@ -307,5 +306,5 @@ O novo trabalho envia uma notificação para o endereço especificado, para que 
 >[!MORELIKETHIS]
 >
 >* [Trabalhar com pastas de ativos](asset-folders.md#working_with_asset_folders)
->* [Lidar com trabalhos recorrentes de upload e publicação](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+>* [Lidar com trabalhos de carregamento e publicação recorrentes](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)

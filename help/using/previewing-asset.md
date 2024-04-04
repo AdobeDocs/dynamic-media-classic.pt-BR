@@ -1,20 +1,18 @@
 ---
 title: Visualizar um ativo
 description: Saiba como visualizar um ativo no Adobe Dynamic Media Classic.
-uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -31,7 +29,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 **Para visualizar um ativo:**
 
-1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm o ativo que deseja visualizar.
+1. No painel Biblioteca de ativos à esquerda, navegue até a pasta Ativo que contém o ativo que deseja visualizar.
 1. Siga um destes procedimentos:
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**.
@@ -53,7 +51,7 @@ Para determinada plataforma de visualização, a janela Lista de visualizadores 
 
 **Para visualizar um ativo com base no tipo de plataforma do visualizador:**
 
-1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm o ativo que deseja visualizar.
+1. No painel Biblioteca de ativos à esquerda, navegue até a pasta Ativo que contém o ativo que deseja visualizar.
 1. Siga um destes procedimentos:
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
@@ -65,7 +63,7 @@ Para determinada plataforma de visualização, a janela Lista de visualizadores 
 
    Fechar a visualização exibida.
 
-1. (Opcional) Na janela Lista de visualizadores, na lista suspensa Codificação de URL para geração de URL de cópia na parte inferior, selecione a codificação de URL que você deseja aplicar ao URL do ativo quando ele for copiado.
+1. (Opcional) Na janela Lista de visualizadores, na lista suspensa Codificação de URL para geração de URL de cópia na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo quando ele for copiado.
 1. (Opcional) Siga qualquer um destes procedimentos:
 
    * Na janela Lista de visualizadores, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]** para um visualizador e tipo de plataforma selecionados.
@@ -92,7 +90,7 @@ Consulte [Criar e ativar predefinições de imagem](creating-enabling-image-pres
 
 **Para visualizar um ativo de imagem com base em sua Predefinição de imagem:**
 
-1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm o ativo de imagem que deseja visualizar.
+1. No painel Biblioteca de ativos à esquerda, navegue até a pasta Ativo que contém o ativo de imagem que deseja visualizar.
 1. Siga um destes procedimentos:
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.

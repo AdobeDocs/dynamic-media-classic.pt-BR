@@ -1,6 +1,6 @@
 ---
 title: Publicar arquivos
-description: "Saiba como publicar seus ativos nos servidores de imagem da Dynamic Media. Você pode publicar ativos de uma só vez ou combinar o Adobe Dynamic Media Classic para publicar ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo."
+description: Saiba como publicar seus ativos nos servidores de imagem da Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Publique seus ativos nos Dynamic Media Image Servers. Você pode publicar ativos de uma só vez ou combinar o Adobe Dynamic Media Classic para publicar ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
 
-O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado é entregue por meio do protocolo HTTP/2. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado é entregue por meio do protocolo HTTP/2. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicar após o upload {#publish-after-uploading}
 
@@ -35,7 +35,7 @@ Use essas técnicas para marcar ativos para publicação:
 
 * **[!UICONTROL Publish After Uploading]** - Na caixa de diálogo Opções de trabalho, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
 
-Alguns ativos &quot;secundários&quot; são marcados automaticamente para publicação quando seus pais são marcados para publicação. Esta tabela lista os ativos secundários marcados para publicação automática.
+Alguns ativos &quot;secundários&quot; são marcados automaticamente para publicação quando seus pais são marcados para publicação. Esta tabela lista os ativos filhos marcados para publicação automática.
 
 | Item (de grupo) principal | Itens filhos (membro) |
 | --- | --- |
@@ -44,7 +44,7 @@ Alguns ativos &quot;secundários&quot; são marcados automaticamente para public
 | Conjuntos de rotação | Imagens no conjunto. |
 | Modelos | Arquivos de modelo, páginas e imagens. |
 
-As imagens derivadas também são marcadas automaticamente para publicação quando as imagens principais estão sendo publicadas. As imagens derivadas incluem imagens ajustadas com opções de edição de imagens. Você pode ver essas imagens derivadas na Exibição de detalhes em Construído e derivados.
+As imagens derivadas também são marcadas automaticamente para publicação quando as imagens principais são publicadas. As imagens derivadas incluem imagens ajustadas com opções de edição de imagens. Você pode ver essas imagens derivadas na Exibição de detalhes em Construído e derivados.
 
 ## Criar um trabalho de publicação {#creating-a-publish-job}
 
@@ -53,7 +53,7 @@ Crie um trabalho de publicação para publicar ativos carregados nos servidores 
 **Para criar um trabalho de publicação:**
 
 1. Na barra Navegação global, selecione **[!UICONTROL Publish]**.
-1. Na caixa de diálogo Publicar, escolha se deseja um trabalho de publicação único ou recorrente.
+1. Na caixa de diálogo Publicação, escolha se deseja um trabalho de publicação único ou recorrente.
 
    Consulte [Criar um trabalho de publicação único](publishing-files.md#creating_a_one_time_publish_job) e [Criar um trabalho de publicação recorrente](publishing-files.md#creating_a_recurring_publish_job).
 
@@ -72,13 +72,13 @@ O Adobe Dynamic Media Classic rastreia trabalhos de publicação na página Trab
 
 ### Criar um trabalho de publicação único {#creating-a-one-time-publish-job}
 
-Crie um trabalho de publicação único selecionando o **[!UICONTROL One-Time]** opção na página Publicar.
+Crie um trabalho de publicação único selecionando o **[!UICONTROL One-Time]** opção na página Publicação.
 
-Se desejar que o trabalho de publicação ocorra posteriormente, na página Publicar, selecione **[!UICONTROL One-Time]** e selecione **[!UICONTROL Schedule For Later]** na lista suspensa. Use o controle deslizante Calendário e Tempo para selecionar um dia e hora para executar o trabalho de publicação.
+Se desejar que o trabalho de publicação ocorra posteriormente, na página Publicação, selecione **[!UICONTROL One-Time]**. Na lista suspensa, selecione **[!UICONTROL Schedule For Later]**. Use o controle deslizante Calendário e Tempo para selecionar um dia e hora para executar o trabalho de publicação.
 
 ### Criar um trabalho de publicação recorrente {#creating-a-recurring-publish-job}
 
-Criar um trabalho de publicação recorrente selecionando **[!UICONTROL Recurring]** na página Publicar.
+Criar um trabalho de publicação recorrente selecionando **[!UICONTROL Recurring]** na página Publicação.
 
 Em seguida, escolha uma opção Repetir de **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Custom]** e, em seguida, especifique quando deseja que o trabalho de publicação se repita. O Adobe Dynamic Media Classic apresenta as ferramentas de calendário para agendar o trabalho de publicação recorrente. É possível selecionar **[!UICONTROL Custom]** e insira uma regra no campo Texto da regra para descrever um intervalo de job personalizado.
 
@@ -90,7 +90,7 @@ Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento 
 
 ### Opções de publicação avançadas {#advanced-publish-options}
 
-É possível exibir as opções avançadas na página Publicar e escolher essas opções para manipular um trabalho de publicação:
+É possível exibir as opções avançadas na página Publicação e escolher essas opções para manipular um trabalho de publicação:
 
 * **[!UICONTROL Publish To]** - Para publicar ativos somente em um servidor específico, escolha um tipo de servidor.
 
@@ -110,7 +110,7 @@ Para cancelar um trabalho de publicação, vá para a página Trabalhos e seleci
 
 >[!NOTE]
 >
->Depois de cancelar um trabalho de publicação, seu status muda para &quot;parando&quot; até que o trabalho atinja um ponto em que possa parar com segurança. A interrupção de um trabalho de publicação pode levar algum tempo se o trabalho estiver no processo de obter dados do banco de dados.
+>Depois de cancelar um trabalho de publicação, seu status muda para &quot;parando&quot; até que o trabalho atinja um ponto em que possa parar com segurança. A interrupção de um trabalho de publicação pode levar algum tempo se o trabalho estiver no processo de obtenção de dados do banco de dados.
 
 ## Publicar ativos manualmente {#manually-publishing-assets}
 

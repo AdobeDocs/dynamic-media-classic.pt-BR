@@ -9,9 +9,9 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2322'
 ht-degree: 0%
 
 ---
@@ -123,15 +123,15 @@ A aplicação de um valor de sufixo ou de um valor de substituição depende da 
 
 **Exemplo de sufixo:**
 
-| URL | IDs do localeMap | Resultado |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observe que não há GlobalLocale definido. O parâmetro de localidade de_DE é comparado com a primeira entrada no `localeMap`. O primeiro valor _DE correspondente é adicionado como um sufixo ao ativo image_DE e é feita uma tentativa de encontrá-lo no Servidor de imagens. Se for encontrada no servidor, ela será retornada. Caso contrário, o segundo valor &quot;&quot; será usado como um sufixo, resultando na imagem propriamente dita ser retornada. |
+| URL | IDs do localeMap | Resultado | Notas |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | Observe que não há GlobalLocale definido. O parâmetro de localidade de_DE é comparado com a primeira entrada no `localeMap`. O primeiro valor _DE correspondente é adicionado como um sufixo ao ativo image_DE e é feita uma tentativa de encontrá-lo no Servidor de imagens. Se encontrado no servidor, é retornado. Caso contrário, o segundo valor &quot;&quot; será usado como um sufixo, resultando na imagem propriamente dita ser retornada. |
 
 **Exemplo de substituição:**
 
-| URL | `GlobalLocale` e `localeMap` IDs | Resultado |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | No exemplo de substituição acima, GlobalLocale está definido como main. O parâmetro de localidade de_DE é comparado com a primeira entrada no `localeMap`. A substring GlobalLocale é encontrada e substituída pelo primeiro valor correspondente `de` no `localeMap`: `image-de-01`. Se for encontrada no Servidor de imagens, ela será retornada. Caso contrário, o segundo valor é substituído, resultando em `image-main-01`. |
+| URL | `GlobalLocale` e `localeMap` IDs | Resultado | Notas |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | No exemplo de substituição acima, GlobalLocale está definido como main. O parâmetro de localidade de_DE é comparado com a primeira entrada no `localeMap`. A substring GlobalLocale é encontrada e substituída pelo primeiro valor correspondente `de` no `localeMap`: `image-de-01`. Se for encontrada no Servidor de imagens, ela será retornada. Caso contrário, o segundo valor é substituído, resultando em `image-main-01`. |
 
 Se nenhum local for definido no URL, o Servidor de imagens usará o Local padrão, se estiver definido, e o aplicará ao URL.
 

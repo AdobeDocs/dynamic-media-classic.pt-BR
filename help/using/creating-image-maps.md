@@ -1,20 +1,18 @@
 ---
 title: Criar mapas de imagem
 description: Saiba como criar mapas de imagem no Adobe Dynamic Media Classic.
-uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2354'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -103,7 +101,7 @@ Em vez de inserir dados do Mapa de imagem em cada página, você pode importar o
 1. Vá para a página do editor de Mapa de imagem (para imagens ou imagens em SpinSets) ou para a guia Páginas de mapa da tela de edição do eCatalog.
 1. Selecionar **[!UICONTROL Import Metadata]**.
 1. Na caixa de diálogo Fazer upload de metadados, selecione Imagem ou Mapa de imagem para fazer upload dos metadados do tipo de propriedade do ativo desejado.
-1. Na lista suspensa Gerar arquivo, selecione o tipo de arquivo que deseja criar.
+1. No `Generate File` selecione o tipo de arquivo que deseja criar.
 1. (Opcional) Selecione **[!UICONTROL Generate]** para visualizar os dados resultantes com base no tipo de arquivo que você deseja criar. Selecionar **[!UICONTROL Close]** para retornar à caixa de diálogo Fazer upload de metadados.
 1. Navegue até o arquivo que deseja fazer upload. No campo de texto Nome do arquivo, especifique o nome do arquivo gerado.
 1. (Opcional) No campo Nome do trabalho, especifique um nome para o trabalho de upload de metadados.
@@ -136,17 +134,17 @@ Você pode definir um modelo de URL (também conhecido como modelo Href) para to
 
 ### Sobre modelos de URL {#about-url-templates}
 
-O modelo de URL funciona substituindo o conteúdo da coluna de URL na lista do Mapa de imagem pelos sinais de cifrão duplo (‘$$’) no modelo:
+O modelo de URL funciona substituindo o conteúdo da coluna de URL na lista do Mapa de imagem pelos sinais de cifrão duplo (&#39;$$&#39;) no modelo:
 
 ```as3
-Javascript:loadProduct(‘$$’);void(0);
+Javascript:loadProduct('$$');void(0);
 ```
 
 Você coloca todos os valores que não são alterados entre Mapas de imagem no modelo de URL. Adicione apenas os valores que são alterados na coluna URL na lista Mapa de imagem. Por exemplo:
 
-* Modelo de URL - `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* Modelo de URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * Valor do URL - `product.htm`
-* URL real gerado - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* URL real gerado - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Por padrão, o modelo de URL inclui um manipulador Adobe Dynamic Media Classic JavaScript proprietário chamado `loadProduct` que abre uma nova janela com o destino do URL. No entanto, você pode usar qualquer código JavaScript para substituir esse manipulador JavaScript ou usar um dos seguintes manipuladores Adobe Dynamic Media Classic:
 

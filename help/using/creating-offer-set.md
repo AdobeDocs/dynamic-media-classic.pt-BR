@@ -1,20 +1,18 @@
 ---
 title: Criar um conjunto de ofertas
 description: Saiba como criar um conjunto de ofertas no Adobe Dynamic Media Classic.
-uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
-discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1159'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ Você pode criar qualquer um dos seguintes tipos de conjuntos de ofertas:
 * Modelo com parâmetros
 * Imagem
 
-Para modelos, selecione **[!UICONTROL Add and Preview]**, em seguida, defina os parâmetros escolhidos. Os outros tipos de conjunto de ofertas não incluem parâmetros, mas você ainda pode personalizá-los selecionando **[!UICONTROL Preview]** e alterar as predefinições disponíveis.
+Para modelos, selecione **[!UICONTROL Add and Preview]**, em seguida, defina os parâmetros escolhidos. Outros tipos de conjunto de ofertas não incluem parâmetros, mas você ainda pode personalizá-los selecionando **[!UICONTROL Preview]** e alterar as predefinições disponíveis.
 
 O Adobe Dynamic Media Classic oferece ferramentas para edição e criação de conjuntos de ofertas.
 
@@ -141,7 +139,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
-## Excluir um conjunto de ofertas {#deleting-an-offer-set}
+## Excluir um conjunto de ofertas {#delet-an-offer-set}
 
 Quando você exclui um Conjunto de ofertas, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 

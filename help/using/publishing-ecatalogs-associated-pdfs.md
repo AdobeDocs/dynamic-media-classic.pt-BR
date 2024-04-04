@@ -1,20 +1,18 @@
 ---
 title: Publicar eCatalogs e PDF associados
 description: Saiba como publicar eCatalogs e PDF associados no Adobe Dynamic Media Classic.
-uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -30,10 +28,10 @@ A publicação coloca o eCatalog e o PDF nos Dynamic Media Image Servers para qu
 **Para publicar eCatalogs e PDF associados:**
 
 1. Na barra Navegação global, selecione **[!UICONTROL Publish]**.
-1. Na tela Publicar, selecione **[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**.
-1. (Opcional) No campo Nome do trabalho, informe um nome para o trabalho de publicação, mas mantenha o texto predefinido de data e hora.
+1. Na tela Publicação, selecione **[!UICONTROL One-Time]** ou selecione **[!UICONTROL Recurring]**.
+1. (Opcional) No campo Nome do trabalho, insira um nome para o trabalho de publicação, mas mantenha o texto predefinido de data e hora.
 
-   Se você configurar seu eCatalog para que visualizadores possam realizar pesquisas por palavra-chave, certifique-se de que os dados da palavra-chave sejam publicados. Na caixa de diálogo Publicar, selecione **[!UICONTROL Advanced]**. No **[!UICONTROL Publish]** selecione **[!UICONTROL Full w/ Search Data]**. Essa opção é selecionada por padrão.
+   Se você configurar seu eCatalog para que visualizadores possam realizar pesquisas por palavra-chave, certifique-se de que os dados da palavra-chave sejam publicados. Na caixa de diálogo Publicação, selecione **[!UICONTROL Advanced]**. No **[!UICONTROL Publish]** selecione **[!UICONTROL Full w/ Search Data]**. Essa opção é selecionada por padrão.
 
 1. Clique em **[!UICONTROL Submit Publish]**.
 

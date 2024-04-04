@@ -1,20 +1,18 @@
 ---
 title: Verificar arquivos de trabalho
 description: Saiba como verificar arquivos de trabalho no Adobe Dynamic Media Classic.
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1559'
 ht-degree: 0%
 
 ---
@@ -89,7 +87,7 @@ Selecione o botão Trabalhos na barra Navegação global e, na página Trabalhos
 
 >[!NOTE]
 >
->É possível filtrar a lista de trabalhos na **[!UICONTROL Scheduled]** com a guia **[!UICONTROL Job Type]** e **[!UICONTROL Show]** menus. Selecione um tipo de trabalho para restringir a lista para publicar trabalhos de um tipo específico. Selecione um **[!UICONTROL Show]** opção se quiser exibir os trabalhos criados ou os trabalhos criados por todos na empresa.
+>É possível filtrar a lista de trabalhos na **[!UICONTROL Scheduled]** com a guia **[!UICONTROL Job Type]** e **[!UICONTROL Show]** menus. Selecione um tipo de trabalho para restringir a lista para publicar trabalhos de um tipo específico. Selecione um **[!UICONTROL Show]** para exibir os trabalhos criados ou os trabalhos criados por todos na empresa.
 
 ### Editar, excluir, pausar e retomar tarefas recorrentes {#editing-deleting-pausing-and-resuming-recurring-jobs}
 

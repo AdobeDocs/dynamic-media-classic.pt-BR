@@ -1,6 +1,6 @@
 ---
 title: "Início rápido: integrar o Adobe Dynamic Media Classic e o Adobe Analytics"
-description: Uma introdução e um Início rápido sobre como integrar o Adobe Dynamic Media Classic e o Adobe Analytics para ajudar você a começar a usar o rapidamente.
+description: Uma introdução e um Início rápido sobre como integrar o Adobe Dynamic Media Classic e o Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Depois de integrar o Adobe Analytics com o Adobe Dynamic Media Classic, você po
 
 Usando os relatórios do Adobe Analytics, você pode obter uma visão clara da atividade dos clientes em seu site. É possível determinar quais apresentações de produto levam à conversão e quais não atraem o interesse do cliente.
 
-Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Consulte [Configurar relatórios do Adobe Analytics](configuring-analytics-repor
 
 ## 3. Publicar seus visualizadores do Adobe Dynamic Media Classic
 
-Publique seus visualizadores do Adobe Dynamic Media Classic para que os visualizadores (com código para rastrear a atividade do usuário nos relatórios do Adobe Analytics) sejam carregados nos servidores da Adobe Dynamic Media Classic. Após a publicação, essas informações são incluídas nos visualizadores e podem ser usadas para análises pelo Adobe Analytics.
+Publique seus visualizadores do Adobe Dynamic Media Classic para que os visualizadores (com código para rastrear a atividade do usuário nos relatórios do Adobe Analytics) sejam carregados nos servidores da Adobe Dynamic Media Classic. Após a publicação, essas informações são incluídas nos visualizadores e podem ser usadas para análise pelo Adobe Analytics.
 
 Consulte [Publicar informações de configuração](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

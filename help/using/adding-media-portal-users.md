@@ -1,20 +1,18 @@
 ---
 title: Adicionar e gerenciar usuários do Portal de mídia
 description: Saiba como adicionar e gerenciar usuários do Portal de mídia no Adobe Dynamic Media Classic.
-uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -43,7 +41,7 @@ Os usuários do Portal de mídia, os colaboradores e os usuários-colaboradores 
 
 1. Navegue até **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Na página Administração do usuário, selecione **Adicionar**.
-1. Na caixa de diálogo Adicionar usuário, no painel Informações do usuário, digite o Nome, Sobrenome e Endereço de email do usuário e selecione **[!UICONTROL Next]**.
+1. No **[!UICONTROL `Add User`]** caixa de diálogo, no painel Informações do usuário, digite o Nome, Sobrenome e Endereço de email do usuário e selecione **[!UICONTROL Next]**.
 1. No painel Empresa/Função, na lista suspensa Empresas, selecione uma empresa ou empresas para o usuário.
 1. Na lista Função, selecione uma função Portal de mídia e, em seguida, selecione **[!UICONTROL Next]**.
 
@@ -67,7 +65,7 @@ Se você tiver vários usuários para adicionar, é possível fazer upload de um
 
 Crie a lista de usuários como um arquivo CSV (valores separados por vírgula) contendo as informações do usuário. Depois que a lista é carregada, os usuários na lista são adicionados automaticamente à conta com suas atribuições de grupo especificadas. Um email de boas-vindas é enviado para cada novo usuário, incluindo um link para o Portal de mídia e uma senha temporária.
 
-### Criar o arquivo CSV {#creating-the-csv-file}
+### Criar o arquivo CSV {#create-the-csv-file}
 
 Crie um arquivo CSV (filename.csv) que esteja em conformidade com o formato e os campos a seguir. A primeira linha do arquivo deve conter os cabeçalhos de coluna listados nesta tabela; é possível ordenar essas colunas conforme desejado. Todas as colunas são obrigatórias.
 
@@ -115,7 +113,7 @@ Você pode enviar um email de boas-vindas ao adicionar novos usuários, colabora
 1. Na tela User Administration Setup, selecione **[!UICONTROL Email Settings]**.
 1. Na caixa de diálogo Configurações de email, especifique qualquer uma das seguintes configurações:
 
-   * **[!UICONTROL Send Email]** - Desmarque essa opção se não quiser informar novos usuários por e-mail que você os inscreveu.
+   * **[!UICONTROL Send Email]** - Desmarque essa opção para informar aos novos usuários por e-mail que você os inscreveu.
 
    * **[!UICONTROL Default Password]** - Insira uma senha temporária para novos usuários ou deixe o campo vazio para que o Adobe Dynamic Media Classic gere senhas aleatórias. Os usuários são solicitados a alterar as senhas na primeira vez que entrarem.
 

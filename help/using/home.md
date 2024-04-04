@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Consulte [Perguntas frequentes](new-ui-2020.md). Novas atualizações desde 7 de
 
 ## Recursos do desenvolvedor do Dynamic Media
 
-* [Página de aterrissagem dos Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) - Inclui o Guia de referência de visualizadores, a API de disponibilização de imagens/renderização de imagens, a API do sistema de produção de imagens e as Notas de versão da Adobe Dynamic Media Classic.
+* [Página de aterrissagem dos Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources) - Inclui o Guia de referência de visualizadores, a API de disponibilização de imagens/renderização de imagens, a API do sistema de produção de imagens e as Notas de versão da Adobe Dynamic Media Classic.
 * [Exemplos da biblioteca do visualizador](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) - Inclui exemplos de visualizador para vídeo, mídia que pode ser comprada, mídia mista, conjuntos de rotação, zoom em linha, conjuntos de imagens e amostras e flyouts.
 
 ## Recursos do usuário do Adobe Dynamic Media Classic
 
 * [Informativo mensal do Dynamic Media](dynamic-media-newsletter.md)
-* [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guia: Guia de práticas recomendadas para nitidez de imagens](/help/using/assets/s7_sharpening_images.pdf)
 * [Guia: como o Adobe Dynamic Media Classic oferece suporte a SEO](/help/using/assets/s7_seo.pdf) - Os mecanismos de pesquisa permitem hoje a pesquisa de sites e imagens. O Adobe Dynamic Media Classic apoia os esforços para tornar as imagens compatíveis com o mecanismo de pesquisa, de modo que mais tráfego seja direcionado para o site do usuário do Adobe Dynamic Media Classic. Este guia no PDF fornece o plano de fundo e as recomendações de implementação para fazer isso acontecer.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
