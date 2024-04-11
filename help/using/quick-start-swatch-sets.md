@@ -1,20 +1,18 @@
 ---
 title: "Início rápido: conjuntos de amostras"
 description: Uma introdução e o Início rápido do conjunto de amostras para ajudar você a começar a usar o Adobe Dynamic Media Classic rapidamente.
-uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -51,7 +49,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 A publicação de um Conjunto de amostras o coloca nos servidores do Adobe Dynamic Media Classic e ativa a cadeia de caracteres do URL.
 
-Selecione o **[!UICONTROL Mark For Publish]** ícone à esquerda do nome no Painel de navegação. Em seguida, selecione **[!UICONTROL Publish]**. Na página Publicar, selecione **[!UICONTROL Submit Publish]**.
+Selecione o **[!UICONTROL Mark For Publish]** ícone à esquerda do nome no Painel de navegação. Em seguida, selecione **[!UICONTROL Publish]**. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicar arquivos](publishing-files.md#publishing-files).
 

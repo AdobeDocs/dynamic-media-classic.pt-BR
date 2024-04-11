@@ -1,20 +1,18 @@
 ---
 title: Editar imagens
 description: Saiba como editar imagens no Adobe Dynamic Media Classic.
-uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -31,7 +29,7 @@ O Adobe Dynamic Media Classic oferece muitas ferramentas para criar efeitos de m
 
 * **Nitidez de uma imagem** - Para ajustar a nitidez de uma imagem e tornar seus contornos menos borrados e mais distintos, selecione o comando Nitidez ou **[!UICONTROL Sharpen]** botão. Consulte [Nitidez de uma imagem](/help/using/sharpening-image.md).
 
-* **Ajustar uma imagem** - Selecione o comando Ajustar ou a variável **[!UICONTROL Adjust]** botão para virar, girar, desfocar, colorir ou alterar o equilíbrio de cores de uma imagem. Consulte [Ajustar uma imagem](/help/using/adjusting-image.md).
+* **Ajustar uma imagem** - Selecione o `Adjust` ou o comando **[!UICONTROL Adjust]** botão para virar, girar, desfocar, colorir ou alterar o equilíbrio de cores de uma imagem. Consulte [Ajustar uma imagem](/help/using/adjusting-image.md).
 
 * **Editar camadas** - Para exibir camadas individuais editáveis em um arquivo de PSD, selecione a **[!UICONTROL Layers]** guia. Ao fazer upload de um arquivo PSD, todas as camadas são carregadas individualmente como arquivos separados, para que você possa editá-las no Adobe Dynamic Media Classic.
 

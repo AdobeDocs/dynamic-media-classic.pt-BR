@@ -1,20 +1,18 @@
 ---
 title: Exibir conjuntos de imagens
 description: Saiba como visualizar conjuntos de imagens no Adobe Dynamic Media Classic.
-uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -32,12 +30,12 @@ Você pode criar e personalizar as Predefinições do visualizador de acordo com
 1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Crie ou edite uma predefinição do Visualizador na página Predefinições do visualizador seguindo um destes procedimentos:
 
-   * **Criar** - Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, na lista suspensa Visualizador, escolha **[!UICONTROL Zoom Viewer]** e selecione **[!UICONTROL Add]**. Você também pode criar uma predefinição do Visualizador de zoom iniciando com uma predefinição existente. Exibir o nome da predefinição, selecione-a e selecione **[!UICONTROL Edit]**. Na página Configurar visualizador, digite um novo nome para a predefinição.
+   * **Criar** - Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, na lista suspensa Visualizador, escolha **[!UICONTROL Zoom Viewer]** e selecione **[!UICONTROL Add]**. Você também pode criar uma predefinição do Visualizador de zoom iniciando com uma predefinição existente. Exibir o nome da predefinição, selecione-a e selecione **[!UICONTROL Edit]**. No `Configure Viewer` insira um novo nome para a predefinição.
 
    * **Editar** - Exibir o nome de uma predefinição, selecione-a e, em seguida, **[!UICONTROL Edit]**.
 
-1. Na página Configurar visualizador, no campo de texto Nome da predefinição, digite um nome para a predefinição do visualizador Conjunto de amostras.
-1. Escolha opções na página Configurar Visualizador.
+1. No `Configure Viewer` , no campo de texto Nome da predefinição, digite um nome para a predefinição do Visualizador de conjunto de amostras.
+1. Escolha as opções no `Configure Viewer` página.
 
    Para ver uma descrição de uma opção, selecione a opção **[!UICONTROL Info Tip]** ícone à direita da opção.
 
@@ -57,7 +55,7 @@ Você pode criar e personalizar as Predefinições do visualizador de acordo com
    * Próximo ao canto superior direito da janela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL Grid View]** ícone. Na janela Ativo, em uma janela de miniatura de ativo, selecione **[!UICONTROL Preview]** (não na lista suspensa Visualização).
    * Próximo ao canto superior direito da janela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL Detail View]** ícone. Na mesma barra de ferramentas, selecione **[!UICONTROL Preview]** (não na lista suspensa Visualização).
 
-1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação do URL que você deseja aplicar ao URL do ativo quando ele for copiado.
+1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo quando ele for copiado.
 1. Para visualizar o ativo no visualizador selecionado, selecione um link de visualizador.
 
    Ao selecionar um determinado link do visualizador, o URL associado a ele é copiado automaticamente para a área de transferência.

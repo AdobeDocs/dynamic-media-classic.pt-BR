@@ -1,18 +1,16 @@
 ---
 title: Exibição do Trabalho em Detalhes
 description: Saiba como trabalhar na Exibição de detalhes no Adobe Dynamic Media Classic.
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -56,15 +54,15 @@ Para examinar, visualizar ou trabalhar detalhadamente em um ativo, é possível 
 
 ## Obter informações na Exibição de detalhes {#getting-information-in-detail-view}
 
-A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Ela mostra essas informações sobre um item: a pasta onde ele está armazenado, seu nome de arquivo, a data em que o item foi carregado no Adobe Dynamic Media Classic e seu histórico de publicação. Também é possível exibir e editar metadados e adicionar palavras-chave para um ativo na Exibição de detalhes.
+A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Essas informações são exibidas sobre um item: a pasta onde ele está armazenado, seu nome de arquivo, a data em que o item foi carregado para o Adobe Dynamic Media Classic e seu histórico de publicação. Também é possível exibir e editar metadados e adicionar palavras-chave para um ativo na Exibição de detalhes.
 
-É possível obter um URL do ativo na Exibição de detalhes; no entanto, o URL não estará ativo até que você publique o ativo. Para imagens, a Exibição de detalhes também fornece uma lista de ativos e metadados derivados e de criação, como destinos de zoom e Conjuntos de imagens.
+É possível obter um URL do ativo na Exibição de detalhes; no entanto, o URL não estará ativo até que você publique o ativo. Para imagens, a Exibição de detalhes também fornece uma lista de ativos e metadados criados e derivados, como destinos de zoom e Conjuntos de imagens.
 
 ## Trabalhar com ativos na Exibição de detalhes {#working-with-assets-in-detail-view}
 
 A Exibição de detalhes oferece ferramentas para trabalhar com o ativo que você abriu. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a Exibição de detalhes sempre oferece estas funções:
 
-* **itens para publicação** - Selecione o **[!UICONTROL Publish]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+* **itens para publicação** - Selecione o **[!UICONTROL `Publish`]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
 * **Renomear o ativo** - Selecione o nome e insira um novo nome.
 

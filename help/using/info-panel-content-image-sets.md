@@ -10,7 +10,7 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Gerenciar conteúdo do Painel de informações em Conjuntos de imagens{#managing-info-panel-content-in-image-sets}
 
-Além de usar o texto do Mapa de imagem para sobreposições em Conjuntos de imagens, você pode usar um painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o InfoPanel usando o cache cronometrado e programando atualizações de conteúdo.
+Além de usar o texto do Mapa de imagem para sobreposições em Conjuntos de imagens, você pode usar um painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o InfoPanel usando o armazenamento em cache de tempo e agendando atualizações de conteúdo.
 
 Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
@@ -46,7 +46,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
    * Defina um número menor se os dados forem atualizados com frequência ao longo do dia.
    * Defina um número mais alto se os dados estiverem relativamente estáveis e não exigirem atualização com frequência ao longo do dia. O padrão é dez horas.
 
-1. Selecionar **[!UICONTROL Upload]** para carregar o conteúdo do painel info, com base nos valores rollover_key, para s7info.
+1. Selecionar **[!UICONTROL Upload]** para carregar o conteúdo do painel info, com base no valor rollover_key, para s7info.
 1. Na caixa de diálogo Upload S7Info, navegue até o arquivo que deseja usar e selecione **[!UICONTROL Upload]**.
 
    Os formatos de arquivo compatíveis são arquivos delimitados por TAB com codificação UTF-16 e arquivos CSV com codificação ASCII. Para arquivos CSV, os caracteres não ASCII devem ser codificados em HTML.
@@ -55,7 +55,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 
 ## Importar conteúdo de origem para o Painel Informações em Conjuntos de imagens {#import-source-content-for-the-info-panel-in-image-sets}
 
-Você pode usar um arquivo CSV (Valor separado por vírgulas) com codificação ASCII (o caractere não ASCII deve ser codificado em HTML) ou um arquivo delimitado por tabulação para o texto de origem de um painel de informações de um Conjunto de imagens. Os arquivos delimitados por tabulação devem usar a codificação UTF-16 (Unicode). Importe os diferentes tipos de arquivo usando métodos diferentes.
+Você pode usar um arquivo CSV (valores separados por vírgula) com codificação ASCII (caracteres não ASCII devem ser codificados por HTML) ou um arquivo delimitado por tabulação para o texto de origem de um painel de informações de um Conjunto de imagens. Os arquivos delimitados por tabulação devem usar a codificação UTF-16 (Unicode). Importe os diferentes tipos de arquivo usando métodos diferentes.
 
 Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 
@@ -68,7 +68,7 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 1. Clique duas vezes no Conjunto de imagens para abri-lo na Exibição de detalhes.
 1. Selecionar **[!UICONTROL InfoPanel Data feed]**.
 1. No campo de texto Localização do arquivo CSV hospedado externamente (HTTP), insira o URL do arquivo CSV.
-1. (Opcional) Nos campos Agendar atualização, especifique um horário para atualizar o conteúdo e selecione **[!UICONTROL Add]**.
+1. (Opcional) No campo Agendar atualização, especifique um horário para atualizar o conteúdo e selecione **[!UICONTROL Add]**.
 
    Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa de texto Atualizar horas. Para remover um horário agendado, selecione-o e, em seguida, **[!UICONTROL Delete]**.
 

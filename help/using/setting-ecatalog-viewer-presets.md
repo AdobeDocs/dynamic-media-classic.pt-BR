@@ -1,19 +1,17 @@
 ---
 title: Configurar Predefinições do Visualizador de eCatalog
 description: Saiba como configurar Predefinições do visualizador do eCatalog no Adobe Dynamic Media Classic.
-uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -35,8 +33,8 @@ Siga estas etapas para criar uma Predefinição do visualizador do eCatalog (voc
 
    * **Editar uma predefinição do visualizador de eCatalog** - Selecione uma Predefinição do visualizador de eCatalog e, em seguida, **[!UICONTROL Edit]**. Selecionar **[!UICONTROL Save As]** após concluir a criação da predefinição.
 
-1. Na página Configurar visualizador, digite um nome para a Predefinição do visualizador do eCatalog.
-1. Na página Configurar visualizador, defina as opções desejadas.
+1. No `Configure Viewer` digite um nome para a Predefinição do visualizador do eCatalog.
+1. No `Configure Viewer` defina as opções desejadas.
 
    selecione o **[!UICONTROL Info Tip]** ícone ao lado da opção se desejar ler sua descrição.
 
@@ -57,7 +55,7 @@ Siga estas etapas para criar uma Predefinição do visualizador do eCatalog (voc
 >Para usar esse Modelo de resposta em vez do modelo definido no próprio eCatalog, adicione `fmt=1` até o final do URL do Servidor de Informações. Por exemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Selecionar **[!UICONTROL Save]**.
-1. Selecionar **[!UICONTROL Default]** se desejar que a Predefinição do visualizador do eCatalog criada seja a usada para exibir eCatalogs na página da Web.
+1. Selecionar **[!UICONTROL Default]** para que a Predefinição do visualizador do eCatalog criada seja a usada para exibir eCatalogs na sua página da Web.
 
 Para excluir uma Predefinição do visualizador de eCatalog, selecione-a na tela Predefinições do visualizador e **[!UICONTROL Delete]**.
 

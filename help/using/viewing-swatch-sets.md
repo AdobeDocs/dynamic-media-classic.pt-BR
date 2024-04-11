@@ -12,9 +12,9 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Você pode criar e personalizar as Predefinições do visualizador de acordo com
    * Para criar uma predefinição, selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, na lista suspensa Visualizador, escolha **[!UICONTROL Swatch Set Viewer]** e selecione **[!UICONTROL Add]**.
    * Para editar uma predefinição existente do Visualizador de conjunto de amostras, selecione a predefinição e, em seguida, **[!UICONTROL Edit]**.
 
-1. Na página Configurar visualizador, no campo de texto Nome da predefinição, digite um nome para a predefinição do visualizador Conjunto de amostras.
-1. Selecione opções na página Configurar visualizador.
+1. No `Configure Viewer` , no campo de texto Nome da predefinição, digite um nome para a predefinição do Visualizador de conjunto de amostras.
+1. Selecione as opções no `Configure Viewer` página.
 
    Para ver uma descrição de uma opção, selecione a opção **[!UICONTROL Info Tip]** ícone à direita da opção.
 
@@ -56,7 +56,7 @@ Você pode criar e personalizar as Predefinições do visualizador de acordo com
    * Próximo ao canto superior direito da janela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL Grid View]** ícone. Na janela Ativo, em uma janela de miniatura de ativo, selecione **[!UICONTROL Preview]** (não na lista suspensa Visualização).
    * Próximo ao canto superior direito da janela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL Detail View]** ícone. Na mesma barra de ferramentas, selecione **[!UICONTROL Preview]** (não na lista suspensa Visualização).
 
-1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação do URL que você deseja aplicar ao URL do ativo quando ele for copiado.
+1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo quando ele for copiado.
 1. Para visualizar o ativo no visualizador selecionado, selecione um link de visualizador.
 
    Ao selecionar um determinado link do visualizador, o URL associado a ele é copiado automaticamente para a área de transferência.

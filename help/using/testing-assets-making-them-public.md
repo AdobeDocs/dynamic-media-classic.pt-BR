@@ -1,20 +1,18 @@
 ---
 title: Testar ativos antes de torná-los públicos
 description: Saiba como testar ativos no Adobe Dynamic Media Classic antes de torná-los públicos.
-uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -59,7 +57,7 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>Added videos to list below 9/11/2012. Moved “Render Server requests” from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
+<p>Added videos to list below 9/11/2012. Moved "Render Server requests" from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
 
  -->
 
@@ -100,13 +98,13 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>RB: Rewrote entire steps under “Prepare your account” 9/10/2012</p>
+<p>RB: Rewrote entire steps under "Prepare your account" 9/10/2012</p>
 
  -->
 
 1. Entre em contato com o Atendimento ao cliente da Adobe e solicite que ele ative o Teste seguro em sua conta.
 1. No Adobe Dynamic Media Classic, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
-1. Na página Publicação do servidor de imagens, no **[!UICONTROL Publish Context]** selecione **[!UICONTROL Test Image Serving]**.
+1. Na página Publicação do servidor de imagens, no **[!UICONTROL `Publish Context`]** selecione **[!UICONTROL Test Image Serving]**.
 1. Para o Filtro de endereço de cliente, selecione **[!UICONTROL Add]**.
 1. Marque a caixa de seleção para que o endereço seja ativado e digite um endereço IP e uma máscara de rede nos respectivos campos de texto.
 
@@ -150,6 +148,6 @@ Execute os seguintes testes:
 
 1. De fora da rede corporativa, verifique se os ativos não publicados (ou seja, desmarcados para publicação) estão protegidos do acesso de terceiros.
 
-   Acesse sua rede de fora (como do computador doméstico ou por uma conexão 3G) e verifique se a versão pública do site mostra todos os ativos publicados, mas nenhum conteúdo não publicado.
+   Acesse sua rede de fora (como a partir de seu computador doméstico ou por uma conexão 3G) e verifique se a versão pública do site mostra todos os ativos publicados, mas nenhum do conteúdo não publicado.
 
    Confirme se a versão de preparo não mostra nenhum ativo porque você está acessando o serviço de Teste seguro de um endereço IP não aprovado.

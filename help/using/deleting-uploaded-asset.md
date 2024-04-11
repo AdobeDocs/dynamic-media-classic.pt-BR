@@ -1,19 +1,17 @@
 ---
 title: Excluir um ativo de imagem rasterizada carregado
 description: Saiba como excluir um ativo carregado no Adobe Dynamic Media Classic.
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -49,7 +47,7 @@ Você pode usar os seguintes campos na sequência de consulta do URL para exclui
 | Parâmetro de URL | Obrigatório/opcional | Valor |
 | --- | --- | --- |
 | `op` | Obrigatório | excluir |
-| `shared_secret` | Obrigatório | A chave de segredo compartilhado da empresa. |
+| `shared_secret` | Obrigatório | A chave que é um segredo compartilhado para a empresa. |
 | `image_name` | Obrigatório | Nome do ativo a ser excluído. |
 
 <!-- <li>For Vector:fxg_name</li> -->

@@ -1,20 +1,18 @@
 ---
 title: Publicar um conjunto de mix de mídia
 description: Saiba como publicar um conjunto de mídia mista do Adobe Dynamic Media Classic.
-uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ Crie um trabalho de publicação para publicar um Conjunto de mídias mistas que
 
 >[!NOTE]
 >
->Os Conjuntos de mídias mistas exigem que você publique no **Servidor de vídeo** e também para **Servidor de imagens**. Você usa **Servidor de vídeo** para publicar os vídeos reais marcados para publicação. E, você usa **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo e definir informações para qualquer Conjunto de vídeos adaptados.
+>Os Conjuntos de mídias mistas exigem que você publique no **Servidor de vídeo** e também para **Servidor de imagens**. Uso **Servidor de vídeo** para publicar os vídeos reais marcados para publicação. E, você usa **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo e definir informações para qualquer Conjunto de vídeos adaptados.
 
 O Adobe Dynamic Media Classic rastreia trabalhos de publicação na tela Trabalhos.
 
