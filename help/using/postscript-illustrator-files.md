@@ -1,18 +1,16 @@
 ---
 title: Trabalhar com arquivos PostScript e Illustrator
 description: Saiba como trabalhar com arquivos PostScript e Illustrator no Adobe Dynamic Media Classic.
-uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%

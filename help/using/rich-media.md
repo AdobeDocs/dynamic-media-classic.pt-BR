@@ -1,18 +1,16 @@
 ---
 title: Mídia avançada
 description: Saiba mais sobre a variedade de ferramentas no Adobe Dynamic Media Classic que podem ajudá-lo a criar mídia avançada.
-uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%

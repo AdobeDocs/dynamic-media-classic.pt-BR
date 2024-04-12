@@ -1,18 +1,16 @@
 ---
 title: Vincular um modelo a uma página da Web
 description: Saiba como vincular um modelo a uma página da Web no Adobe Dynamic Media Classic.
-uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -31,7 +29,7 @@ Para inserir strings de URL em suas páginas da Web e aplicativos, copie-as do A
 
 ## Obter um URL de modelo {#obtaining-a-template-url}
 
-É possível obter uma cadeia de caracteres de URL de modelo gerada por uma Predefinição de imagem na tela Visualização de modelo. Depois de copiar o URL, ele é colocado na Área de transferência para que você possa colá-lo conforme necessário. Para obter uma string de URL de modelo gerada com uma Predefinição de imagem a partir da página Visualização de modelo, faça o seguinte:
+Você pode obter uma cadeia de caracteres de URL de modelo gerada por uma Predefinição de imagem na tela Visualização de modelo. Depois de copiar o URL, ele é colocado na Área de transferência para que você possa colá-lo conforme necessário. Para obter uma string de URL de modelo gerada com uma Predefinição de imagem a partir da página Visualização de modelo, faça o seguinte:
 
 1. Selecione a sobreposição do modelo **[!UICONTROL Preview]** ou vá para **[!UICONTROL File]** > **[!UICONTROL Preview]**.
 1. Usando os menus da Predefinição, escolha a Predefinição de imagem com a qual deseja fornecer a imagem de modelo. A página Visualizar mostra a aparência do modelo quando ele é entregue pelo servidor.

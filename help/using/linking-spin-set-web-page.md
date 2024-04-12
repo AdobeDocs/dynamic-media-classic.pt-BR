@@ -1,18 +1,16 @@
 ---
 title: Vincular um grupo de rotação a uma página da Web
 description: Saiba como vincular um Conjunto de rotação a uma página da Web no Adobe Dynamic Media Classic.
-uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
