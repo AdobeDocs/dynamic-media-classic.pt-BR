@@ -1,18 +1,16 @@
 ---
 title: Ajustar uma imagem
 description: Saiba como ajustar uma imagem no Adobe Dynamic Media Classic.
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -59,13 +57,13 @@ Selecionar **[!UICONTROL Save]**.
 
 ## Criar um alias para uma imagem {#creating-an-alias-for-an-image}
 
-Quando tiver ajustado uma imagem, você poderá salvá-la como outra visualização da imagem principal. Para fazer isso, você pode criar um alias para a imagem usando o **[!UICONTROL Save as additional view of primary]** recurso.
+Quando tiver ajustado uma imagem, você poderá salvá-la como outra visualização da imagem principal. Para fazer isso, você pode criar um alias para a imagem usando o **[!UICONTROL Save as another view of primary]** recurso.
 
 **Para criar um alias para uma imagem:**
 
 1. Na Exibição em Grade ou em Lista, no campo **[!UICONTROL Edit]** ao lado de uma imagem para a qual deseja criar um alias, selecione **[!UICONTROL Adjust]**.
 1. No canto inferior direito da página, selecione **[!UICONTROL Save As]**.
-1. Na lista suspensa do **[!UICONTROL Save As]** caixa de diálogo, selecione **[!UICONTROL Save as additional view of primary]**.
+1. Na lista suspensa do **[!UICONTROL Save As]** caixa de diálogo, selecione **[!UICONTROL Save as another view of primary]**.
 1. No **[!UICONTROL Folder Name]** , selecione a pasta onde deseja salvar a imagem com alias.
 1. No **[!UICONTROL File Name]** digite o nome que deseja usar para o alias.
 1. Selecionar **[!UICONTROL Save]**.

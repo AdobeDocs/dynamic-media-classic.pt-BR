@@ -1,20 +1,18 @@
 ---
 title: Nitidez de uma imagem
 description: Saiba como ajustar a nitidez de uma imagem no Adobe Dynamic Media Classic.
-uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -99,7 +97,7 @@ Selecione o **[!UICONTROL Resampling]** e escolha uma opção. Essas opções de
 
 * **[!UICONTROL Bicubic]** - Aumenta o uso da CPU no Servidor de imagens, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.
 
-* **[!UICONTROL `Sharpen2`]** - Produz resultados ligeiramente mais nítidos do que **[!UICONTROL Bicubic]**, mas com um custo de CPU ainda maior no Servidor de imagens.
+* **[!UICONTROL `Sharpen 2`]** - Produz resultados ligeiramente mais nítidos do que **[!UICONTROL Bicubic]**, mas com um custo de CPU ainda maior no Servidor de imagens.
 
 * **[!UICONTROL Trilinear]** - Usa resoluções mais altas e mais baixas, se disponíveis; recomendado somente quando a suavização for um problema. Este método reduz o tamanho do JPEG devido à redução dos dados de alta frequência.
 
@@ -126,13 +124,13 @@ As opções de Qualidade de JPG controlam o nível de compactação de JPG:
 
 **Definir opções de nitidez em toda a empresa**
 
-Se você não usar uma Predefinição de imagem ou enviar protocolos de nitidez específicos do Servidor de imagens ao longo da cadeia de caracteres do URL, a imagem não receberá nitidez quando sua resolução for reduzida. No entanto, se essa falta de nitidez ocorrer, será possível definir valores de nitidez padrão e, em seguida, qualquer imagem terá sempre alguma nitidez.
+Se você não tiver usado uma Predefinição de imagem ou passado protocolos de nitidez específicos do Servidor de imagens ao longo da cadeia de caracteres do URL, a imagem não receberá nitidez quando a resolução for reduzida. No entanto, se essa falta de nitidez ocorrer, será possível definir os valores de nitidez padrão para garantir que qualquer imagem sempre tenha alguma nitidez.
 
 Para definir as opções de nitidez padrão da sua empresa, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Se você definir o Modo de reamostragem padrão como **`Sharp2`**, ela sempre aplica nitidez à imagem ao diminuir a resolução.
 
 **Adicionar nitidez às predefinições do visualizador**
 
-A menos que você adicione modificadores de nitidez de imagem à predefinição, a imagem de carregamento inicial pequena pode parecer suave porque tem uma resolução reduzida para caber na janela do visualizador sem sofrer nitidez.
+A menos que você tenha adicionado modificadores de nitidez de imagem à predefinição, a imagem de carregamento inicial pequena pode parecer suave porque tem uma resolução reduzida para caber na janela do visualizador sem ter nitidez.
 
 As Predefinições do visualizador (como Predefinições de imagem) permitem centralizar muitas opções em um único local, incluindo a escolha de opções de capa e do visualizador (como incluir um botão Imprimir ou controlar a velocidade da animação de zoom). As Predefinições do visualizador são encontradas na mesma seção que Predefinições da imagem, em **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Viewer Presets]**.
 

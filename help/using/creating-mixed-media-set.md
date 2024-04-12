@@ -1,17 +1,15 @@
 ---
 title: Criar um conjunto de mix de mídia
 description: Saiba como criar um Conjunto de mídias mistas no Adobe Dynamic Media Classic.
-uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -83,7 +81,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
 
-## Excluir um conjunto de mix de mídia {#deleting-a-mixed-media-set}
+## Excluir um conjunto de mix de mídia
 
 Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Com os problemas, você pode descrever facilmente sua ideia para aprimorar os do
 
 Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com pull requests é possível fazer edições na documentação, que depois são revisadas e incluídas por um membro da equipe de documentação. Para fazer as alterações sugeridas e criar a solicitação de pull, selecione **[!UICONTROL Edit this page]** na parte superior direita do painel de navegação em qualquer página.
 
-Todos os pull requests devem estar acompanhados de um [Contrato de licença de colaborador ou CLA](https://opensource.adobe.com/cla.html). Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você envia um CLA de Adobe somente uma vez. Portanto, se já tiver enviado um, você está configurado.
+Todos os pull requests devem estar acompanhados de um [Contrato de licença de colaborador ou CLA](https://opensource.adobe.com/cla.html). Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você envia um CLA de Adobe somente uma vez. Portanto, se você enviou um anteriormente, estará configurado.
 
 ### Introdução rápida ao vídeo
 
@@ -58,4 +58,4 @@ O Adobe saúda qualquer contribuição. As contribuições são revisadas se for
 
 ## Informações adicionais
 
-Consulte a [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) para obter mais detalhes sobre como usar a plataforma de criação do GitHub.
+Consulte a [Guia do colaborador do Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) para obter mais detalhes sobre como usar a plataforma de criação do GitHub.

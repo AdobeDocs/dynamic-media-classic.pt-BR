@@ -1,7 +1,7 @@
 ---
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Não alinhado com o presente Código de conduta. Ou, para proibir, temporária o
 
 ## Escopo
 
-Este Código de conduta se aplica tanto em espaços de projetos quanto em espaços públicos quando um indivíduo representa o projeto ou sua comunidade. Exemplos de representação de um projeto ou comunidade incluem o uso de um endereço de email oficial do projeto, a publicação por meio de uma conta oficial de mídia social ou a atuação como representante designado em um evento online ou offline. A representação de um projeto pode ser definida e esclarecida pelos responsáveis pela manutenção do projeto.
+Este Código de conduta se aplica tanto em espaços de projetos quanto em espaços públicos quando um indivíduo representa o projeto ou sua comunidade. Exemplos de representação de um projeto ou comunidade incluem o uso de um endereço de email de projeto oficial ou a publicação por meio de uma conta oficial de mídia social. Também inclui atuar como representante designado em um evento online ou offline. A representação de um projeto pode ser definida e esclarecida pelos responsáveis pela manutenção do projeto.
 
 ## Aplicação
 

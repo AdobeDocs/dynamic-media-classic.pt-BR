@@ -1,20 +1,18 @@
 ---
 title: Noções básicas de navegação
 description: Saiba mais sobre como navegar na interface do usuário do Adobe Dynamic Media Classic.
-uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -37,7 +35,7 @@ A barra de Navegação global, localizada na parte superior da tela, oferece bot
 
 * **[!UICONTROL Build]** - Escolha uma tarefa Criar no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
 
-* **[!UICONTROL Publish]** : abre a tela Publicar para que você possa publicar ativos de mídia avançada nos Servidores de imagem Dynamic Media Adobe e no restante da infraestrutura SAAS da Adobe Dynamic Media Classic.
+* **[!UICONTROL Publish]** - Abre a tela Publicação para que você possa publicar ativos de mídia avançada em servidores de imagem Adobe Dynamic Media e no restante da infraestrutura Adobe Dynamic Media Classic SAAS.
 
 * **[!UICONTROL Jobs]** : abre a tela Trabalhos para que você possa examinar registros de trabalhos de upload e publicação.
 
@@ -59,7 +57,7 @@ A barra de Navegação global, localizada na parte superior da tela, oferece bot
 
 Use a Biblioteca de ativos para organizar os ativos com os quais você está trabalhando. Você pode criar pastas e subpastas para organizar seus ativos na Biblioteca de ativos.
 
-A parte superior do painel Biblioteca de ativos tem comandos para localizar ativos. Você pode pesquisar por ativos e filtrar para localizar ativos. Selecione o **[!UICONTROL Trash]** ícone na parte inferior da Biblioteca de ativos se desejar examinar os ativos excluídos.
+A parte superior do painel Biblioteca de ativos tem comandos para localizar ativos. Você pode pesquisar por ativos e filtrar para localizar ativos. Para examinar os ativos excluídos, selecione a **[!UICONTROL Trash]** ícone na parte inferior da Biblioteca de ativos.
 
 >[!NOTE]
 >

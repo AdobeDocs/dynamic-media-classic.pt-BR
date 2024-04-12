@@ -1,20 +1,18 @@
 ---
 title: Configurar predefinições do visualizador de conjunto de rotação
 description: Saiba como configurar as predefinições do visualizador de conjunto de rotação no Adobe Dynamic Media Classic.
-uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -31,7 +29,7 @@ As predefinições do visualizador de conjunto de rotação determinam o estilo,
    * Para criar uma predefinição, selecione **[!UICONTROL Add]**, na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e selecione **[!UICONTROL Spin Set Viewer]**.
    * Para editar uma predefinição existente do visualizador de conjunto de rotação, selecione a predefinição e **[!UICONTROL Edit]**.
 
-1. Na página Configurar visualizador, digite um nome na caixa Nome da predefinição da predefinição do visualizador de conjunto de rotação.
+1. No `Configure Viewer` digite um nome na caixa Nome da predefinição da predefinição do Visualizador de conjunto de rotação.
 1. Especifique outras opções, conforme desejado. Para ver uma descrição de uma opção, selecione a opção **[!UICONTROL Info Tip]** ícone ao lado da opção.
 
    A página Visualizar exibe o visualizador à medida que você atualiza e altera as configurações.

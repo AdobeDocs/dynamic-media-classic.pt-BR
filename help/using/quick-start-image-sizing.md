@@ -1,7 +1,6 @@
 ---
 title: "Início rápido: dimensionamento de imagem"
 description: Uma introdução e o Início rápido do dimensionamento de imagem para ajudar você a começar a usar rapidamente as técnicas de dimensionamento de imagem no Adobe Dynamic Media Classic.
-uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,12 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 feature: Dynamic Media Classic,Asset Management
 role: User
-exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 0%
 Dimensionamento de imagem refere-se à capacidade do Adobe Dynamic Media Classic de criar várias imagens derivadas com base em uma única imagem de alta resolução. Em vez de criar manualmente várias imagens (por exemplo, uma miniatura e uma imagem ampliada) para seu site ou aplicativo, você fornece uma única imagem principal. O Adobe Dynamic Media Classic gera todas as imagens modificadas da mesma maneira que você as solicita. A capacidade de fornecer imagens dinamicamente a partir de uma única imagem principal tem muitas vantagens:
 
 * Não é necessário criar manualmente várias cópias da imagem em tamanhos diferentes. Você fornece uma imagem principal para o Adobe Dynamic Media Classic, e o Adobe Dynamic Media Classic gera derivados de tamanhos diferentes da imagem principal.
-* Você pode alterar rapidamente o tamanho de um tipo de imagem em todo o site ou aplicativo. Por exemplo, para alterar todas as imagens em miniatura, é possível modificar a Predefinição de imagem da &quot;miniatura&quot;. Uma Predefinição de imagem (semelhante a uma macro) é uma coleção de atributos de tamanho e formatação. Você pode modificar a predefinição de imagem de &quot;miniatura&quot; para alterar o tamanho de todas as imagens em miniatura em todo o site ou aplicativo.
+* Você pode alterar rapidamente o tamanho de um tipo de imagem em todo o site ou aplicativo. Por exemplo, para alterar todas as imagens em miniatura, é possível modificar a Predefinição de imagem da &quot;miniatura&quot;. Uma Predefinição de imagem — semelhante a uma macro — é uma coleção de atributos de tamanho e formatação. Você pode modificar a predefinição de imagem de &quot;miniatura&quot; para alterar o tamanho de todas as imagens em miniatura em todo o site ou aplicativo.
 * Não é necessário gerenciar os arquivos principais e todos os vários derivados em nenhum de seus sistemas de gerenciamento de conteúdo ou ativos interna ou externamente.
 
 ![É possível criar várias imagens derivadas em tamanhos diferentes do mesmo arquivo principal de alta resolução.](/help/using/assets/is_derivative_sizes_popup.png)
@@ -64,7 +63,7 @@ A publicação dos arquivos de imagem principais tem dois objetivos essenciais:
 * Publicar suas imagens principais nos servidores de imagens da Dynamic Media para que as imagens possam ser entregues dinamicamente ao seu site e aplicativo.
 * A publicação ativa as cadeias de caracteres de URL para chamar imagens dos Dynamic Media Image Servers para seu site ou aplicativo. Após a publicação, você pode copiar e colocar os URLs gerados pela Adobe Dynamic Media Classic onde necessário no site ou aplicativo.
 
-Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar um trabalho de publicação. Na caixa de diálogo Publicar, selecione **[!UICONTROL Submit Publish]**. Consulte [Publicar imagens principais](publishing-master-images.md#publishing_master_images).
+Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar um trabalho de publicação. Na caixa de diálogo Publicação, selecione **[!UICONTROL Submit Publish]**. Consulte [Publicar imagens principais](publishing-master-images.md#publishing_master_images).
 
 ## 5. Vincular URLs ao aplicativo da Web
 

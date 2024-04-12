@@ -1,20 +1,18 @@
 ---
 title: "Início rápido: Zoom"
 description: Uma introdução e o Início rápido do Zoom para ajudá-lo a começar a trabalhar rapidamente.
-uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -47,7 +45,7 @@ Para criar um destino de zoom, selecione **[!UICONTROL Edit]** e escolha Destino
 
 As predefinições do visualizador de zoom determinam o estilo e o comportamento dos visualizadores de zoom. Você pode configurar as Predefinições do visualizador de zoom se for um administrador; o Adobe Dynamic Media Classic também vem com as &quot;práticas recomendadas&quot; padrão de Predefinições do visualizador de zoom.
 
-Para criar uma Predefinição do visualizador de zoom, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Na página Predefinições do visualizador, selecione **[!UICONTROL Add]**, escolha uma plataforma e um Visualizador de zoom e selecione **[!UICONTROL Add]**. Em seguida, escolha as opções na página Configurar visualizador.
+Para criar uma Predefinição do visualizador de zoom, na barra Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Na página Predefinições do visualizador, selecione **[!UICONTROL Add]**, escolha uma plataforma e um Visualizador de zoom e selecione **[!UICONTROL Add]**. Em seguida, escolha as opções no `Configure Viewer` página.
 
 Ofertas do Adobe Dynamic Media Classic **[!UICONTROL Zoom Viewer Preset]** opções que permitem selecionar o estilo do botão e a aparência geral do visualizador. Você também pode personalizar as configurações de zoom do seu site. Consulte [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
@@ -55,7 +53,7 @@ Ofertas do Adobe Dynamic Media Classic **[!UICONTROL Zoom Viewer Preset]** opç�
 
 Você pode visualizar imagens em um Visualizador de zoom para ver qual é a experiência de zoom quando as imagens são ampliadas.
 
-Para explorar diferentes Predefinições do Visualizador de zoom e como elas apresentam a experiência de zoom, selecione uma imagem no Painel Procurar e selecione **[!UICONTROL Preview]**. Ir para **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** e selecione uma predefinição com os menus Zoom.
+Para explorar diferentes Predefinições do Visualizador de zoom e como elas apresentam a experiência de zoom, selecione uma imagem no Painel Procurar e selecione **[!UICONTROL Preview]**. Ir para **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** e selecione uma predefinição com o menu Zoom.
 
 Botões de zoom são exibidos. Você pode ver como o zoom das imagens se parece no seu site. Selecione os botões de Zoom (e os destinos de zoom) para testar as configurações da Predefinição do visualizador de zoom escolhida. Consulte [Visualizar imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
@@ -63,7 +61,7 @@ Botões de zoom são exibidos. Você pode ver como o zoom das imagens se parece 
 
 A publicação das imagens de zoom as coloca nos Dynamic Media Image Servers para que possam ser entregues ao seu site e aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa strings de URL. Essas cadeias de caracteres de URL chamam as imagens de zoom dos servidores de imagem da Dynamic Media para o site ou aplicativo.
 
-Na barra Navegação global, selecione **[!UICONTROL Publish]**. Na caixa de diálogo Publicar, selecione **[!UICONTROL Submit Publish]**. Consulte [Publicação de imagens com zoom](publishing-zoom-images.md#publishing_zoom_images).
+Na barra Navegação global, selecione **[!UICONTROL Publish]**. Na caixa de diálogo Publicação, selecione **[!UICONTROL Submit Publish]**. Consulte [Publicação de imagens com zoom](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Vincular visualizadores de zoom à página da Web
 

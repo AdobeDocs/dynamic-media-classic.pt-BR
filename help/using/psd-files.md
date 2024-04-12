@@ -1,20 +1,18 @@
 ---
 title: Trabalhar com arquivos PSD
 description: Saiba como trabalhar com arquivos PSD no Adobe Dynamic Media Classic.
-uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -73,7 +71,7 @@ Estas opções estão disponíveis ao fazer upload de arquivos PSD:
 
 ## Exibir e editar camadas em um arquivo PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Se você selecionou a opção Manter camadas ao fazer upload do PSD, o Adobe Dynamic Media Classic rasgou as camadas individuais em ativos. É possível visualizar e editar as camadas de ativos pertencentes a um arquivo PSD abrindo o arquivo no Painel de navegação na Exibição de detalhes.
+Se você selecionou a opção **[!UICONTROL Maintain Layers]** ao fazer upload do PSD, o Adobe Dynamic Media Classic rasgou as camadas individuais em ativos. É possível visualizar e editar as camadas de ativos pertencentes a um arquivo PSD abrindo o arquivo no Painel de navegação na Exibição de detalhes.
 
 >[!NOTE]
 >

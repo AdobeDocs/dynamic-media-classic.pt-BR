@@ -1,19 +1,17 @@
 ---
 title: Especifique as opções de exportação disponíveis para os usuários do Portal de mídia
 description: Saiba como especificar opções de exportação que estão disponíveis para usuários do Portal de mídia no Adobe Dynamic Media Classic.
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -38,7 +36,7 @@ Consulte também [Exportar ativos do Adobe Dynamic Media Classic](exporting-asse
 
      Quando **[!UICONTROL pixels]** são escolhidos entre os **[!UICONTROL Size]** lista suspensa, a largura × altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 × 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 × 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
 
-     Desmarque essa opção se desejar que os usuários baixem os arquivos sem reformatar a maneira como eles são baixados.
+     Desmarque essa opção para que os usuários baixem os arquivos sem reformatar a maneira como eles são baixados.
 
    * **Ativar exportação original** - Permite exportar as imagens principais originais. No **[!UICONTROL Export Selected Assets]** , os usuários podem abrir a **[!UICONTROL Conversion]** menu suspenso e escolha **[!UICONTROL Export Original]** para exportar arquivos originais. Desmarque essa opção se quiser forçar os usuários a escolher uma predefinição de imagem ou escolher opções de conversão ao exportar imagens.
 

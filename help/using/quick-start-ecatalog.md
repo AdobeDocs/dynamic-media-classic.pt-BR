@@ -10,9 +10,9 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Os arquivos do Adobe PDF geralmente são a origem de um eCatalog. Como devem ser
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a fazer upload de arquivos PDF ou imagens para seu eCatalog. Você pode fazer upload de arquivos do seu desktop ou por meio do FTP. O FTP é recomendado se você estiver fazendo upload de muitos arquivos ou de arquivos com mais de 100 MB.
 
-Em Opções de PDF, a tela Upload fornece opções para fazer upload de arquivos PDF na resolução adequada e no espaço de cores correto. Recomenda-se uma resolução de 150 pixels por polegada. Você pode selecionar a opção Gerar eCatalog automaticamente para criar um eCatalog ao fazer upload de um arquivo PDF.
+Em Opções de PDF, a tela Upload fornece opções para fazer upload de arquivos PDF na resolução adequada e no espaço de cores correto. Recomenda-se uma resolução de 150 pixels por polegada. É possível selecionar a opção **[!UICONTROL Auto-Generate eCatalog]** para criar um eCatalog ao fazer upload de um arquivo PDF.
 
 Consulte [Fazer upload dos arquivos PDF](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -118,7 +118,7 @@ Consulte [Visualizar eCatalogs no Visualizador de eCatalog](previewing-ecatalogs
 
 A publicação do eCatalog e do PDF associado o coloca nos Dynamic Media Image Servers para que ele possa ser entregue ao seu site e aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa a cadeia de caracteres de URL do seu eCatalog. Use esse URL para chamar o eCatalog dos Dynamic Media Image Servers para o seu site ou aplicativo.
 
-Depois de marcar seu eCatalog e PDF para publicação no Painel Navegar, selecione o botão Publicar na barra Navegação global para iniciar uma publicação. Na tela Publicar, selecione **[!UICONTROL Submit Publish]**.
+Depois de marcar seu eCatalog e PDF para publicação no Painel Navegar, selecione o botão Publicar na barra Navegação global para iniciar uma publicação. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicar eCatalogs e PDF associados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

@@ -1,20 +1,18 @@
 ---
 title: Trabalhar com PDF
 description: Saiba como trabalhar com PDF no Adobe Dynamic Media Classic.
-uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -65,7 +63,7 @@ Selecione o menu Espaço de cor e escolha um espaço de cor para o arquivo PDF. 
 
 ### Opções de perfil de cores
 
-* **[!UICONTROL Convert To sRGB]** - Converte para sRGB (azul vermelho verde padrão). sRGB é o espaço de cores recomendado para exibir imagens em páginas da Web.
+* **[!UICONTROL Convert To sRGB]** - Converte para sRGB (azul vermelho verde padrão). sRGB é o espaço de cores recomendado para exibir imagens em uma página da Web.
 
 * **[!UICONTROL Keep Original Color Space]** - Mantém o espaço de cores original.
 

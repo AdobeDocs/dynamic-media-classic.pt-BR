@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
 # Gerenciar conteúdo do Painel de Informações em eCatalogs{#managing-info-panel-content-in-ecatalogs}
 
-Além de usar o texto do Mapa de imagem para suas sobreposições em eCatalogs, você pode usar um Painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o InfoPanel usando o cache cronometrado e programando atualizações de conteúdo.
+Além de usar o texto do Mapa de imagem para suas sobreposições em eCatalogs, você pode usar um Painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o InfoPanel usando um armazenamento em cache cronometrado e programando atualizações de conteúdo.
 
 Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
@@ -68,7 +68,7 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 1. Clique duas vezes no eCatalog para abri-lo na Exibição de detalhes.
 1. Selecione o **[!UICONTROL InfoPanel Data feed]** painel.
 1. Insira o URL do arquivo CSV na caixa Local do arquivo CSV hospedado externamente. Você pode colar o URL nesse campo ou digitá-lo diretamente.
-1. (Opcional) Especifique um horário para atualizar o conteúdo usando os menus Agendar atualização e selecione **[!UICONTROL Add]**. Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa Atualizar horas. (Para remover um horário, selecione-o e, em seguida, **[!UICONTROL Delete]**.)
+1. (Opcional) Especifique um horário para atualizar o conteúdo usando o menu Agendar atualização e selecione **[!UICONTROL Add]**. Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa Atualizar horas. (Para remover um horário, selecione-o e, em seguida, **[!UICONTROL Delete]**.)
 1. (Opcional) Selecione **[!UICONTROL Run Update Now]** para atualizar imediatamente o conteúdo.
 
 ### Importar um arquivo CSV ou delimitado por tabulação {#import-a-tab-delimited-or-csv-file}

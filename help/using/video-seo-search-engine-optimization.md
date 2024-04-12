@@ -1,20 +1,18 @@
 ---
 title: SEO em vídeo (otimização do mecanismo de pesquisa)
 description: Saiba como definir configurações de SEO de vídeo no Adobe Dynamic Media Classic.
-uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -43,9 +41,9 @@ O Adobe Dynamic Media Classic cria relatórios sobre mapas de site de vídeo e f
 
 >[!NOTE]
 >
->Para os mapas do site de vídeo e feeds mRSS, o Adobe Dynamic Media Classic captura metadados somente de vídeos marcados para publicação. Marque vídeos para publicação a fim de incluir seus metadados nos mapas do site de vídeo e feeds mRSS.
+>Para os mapas do site de vídeo e feeds mRSS, o Adobe Dynamic Media Classic captura metadados somente de vídeos marcados para publicação. Marque vídeos para publicação para incluir seus metadados em mapas de site de vídeo e feeds mRSS.
 
-## Escolher configurações de SEO de vídeo {#choosing-video-seo-settings}
+## Escolher configurações de SEO de vídeo
 
 Selecione as configurações de SEO do vídeo para mapas do site de vídeo e feeds mRSS na **[!UICONTROL Video Search Engine Optimization Settings]** página. Para abrir esta página, na barra de Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**.
 

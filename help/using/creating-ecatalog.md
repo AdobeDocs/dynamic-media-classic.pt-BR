@@ -1,20 +1,18 @@
 ---
 title: Criar um eCatalog
 description: Saiba como criar um eCatalog no Adobe Dynamic Media Classic.
-uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -56,7 +54,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
    * **Botão Mover para** - Selecione uma página ou página espelhada, selecione **[!UICONTROL Move To]** e escolha a página no menu que deve aparecer antes da sua página.
 
-   * **Sequence #** - Na Exibição de Lista, insira números de página nos campos Nº da Sequência.
+   * **Sequence #** - Na Exibição de Lista, insira números de página nos campos de Nº de Sequência.
 
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**.
@@ -85,7 +83,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
-## Excluir um eCatalog {#deleting-an-ecatalog}
+## Excluir um eCatalog
 
 Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 

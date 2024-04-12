@@ -1,25 +1,23 @@
 ---
 title: Criar um modelo
 description: Saiba como criar um modelo no Adobe Dynamic Media Classic.
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3259'
 ht-degree: 0%
 
 ---
 
-# Criar um modelo {#creating-a-template}
+# Criar um modelo
 
 Para criar um template, acesse **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Selecione Designer ou Desenvolvedor. Nessa página, é possível adicionar camadas de imagem e texto. Também é possível reordenar camadas, alterar o tamanho e a posição das camadas e aplicar efeitos de sombra e brilho a imagens e texto.
 
@@ -78,7 +76,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
-## Excluir um modelo {#deleting-a-template}
+## Excluir um modelo
 
 Ao excluir um conjunto de modelos, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 
@@ -278,7 +276,7 @@ Você pode ocultar uma camada ou um efeito de camada selecionando o ícone de ol
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### Determine a cor do plano de fundo, a opacidade e o modo de mesclagem {#determining-the-background-color-opacity-and-blend-mode}
+### Determine a cor do plano de fundo, a opacidade e o modo de mesclagem
 
 Para escolher uma cor de plano de fundo, opacidade e modo de mesclagem para uma camada ou tela de desenho, selecione a camada ou tela de desenho e use estas técnicas:
 
@@ -299,7 +297,7 @@ Depois de aplicar um efeito de sombra ou brilho, é possível ajustar seu tamanh
 ### Aplicar um efeito de sombra ou brilho a uma camada {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Selecione uma camada na lista Camadas.
-1. Selecione o menu Adicionar Efeito e escolha uma opção:
+1. Selecione o **[!UICONTROL `Add Effect`]** e escolha uma opção:
 
    * **[!UICONTROL Drop Shadow]** - Aplica uma sombra na parte inferior e no lado direito da camada.
 

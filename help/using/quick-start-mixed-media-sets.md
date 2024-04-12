@@ -1,20 +1,18 @@
 ---
 title: "Início rápido: conjunto de mídias mistas"
 description: Uma introdução e o Início rápido para conjuntos de mídia mista para ajudar você a começar a usar o Adobe Dynamic Media Classic rapidamente.
-uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -59,7 +57,7 @@ Consulte também [Predefinições do visualizador](https://s7d5.scene7.com/s7vie
 
 ## 5. Visualizar um conjunto de mídias mistas
 
-Selecione o do conjunto de mídias mistas **[!UICONTROL Preview]** botão. Você pode selecionar os ícones de miniatura e amostra para examinar o conjunto de mídias mistas no Visualizador de conjunto de mídias mistas. É possível escolher Visualizadores diferentes nos menus Predefinições.
+Selecione o do conjunto de mix de mídia **[!UICONTROL Preview]** botão. Você pode selecionar os ícones de miniatura e amostra para examinar o conjunto de mídias mistas no Visualizador de conjunto de mídias mistas. É possível escolher Visualizadores diferentes nos menus Predefinições.
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
@@ -67,7 +65,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 A publicação de um Conjunto de mídias mistas o coloca nos servidores do Adobe Dynamic Media Classic e ativa a cadeia de caracteres do URL.
 
-Os Conjuntos de mídias mistas exigem que você publique no **Servidor de vídeo** e também para **Servidor de imagens**. Você usa **Servidor de vídeo** para publicar os vídeos reais marcados para publicação. E, você usa **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo e definir informações para qualquer Conjunto de vídeos adaptados.
+Os Conjuntos de mídias mistas exigem que você publique no **Servidor de vídeo** e também para **Servidor de imagens**. Uso **Servidor de vídeo** para publicar os vídeos reais marcados para publicação. E, você usa **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo e definir informações para qualquer Conjunto de vídeos adaptados.
 
 Consulte [Publicar um conjunto de mix de mídia](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 

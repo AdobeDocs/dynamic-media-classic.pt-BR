@@ -1,20 +1,18 @@
 ---
 title: "Início rápido: conjuntos de rotação"
 description: Uma introdução e um conjunto de início rápido para rotação para ajudar você a começar a usar o Adobe Dynamic Media Classic rapidamente.
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -65,7 +63,7 @@ Consulte [Editar um grupo de rotação](creating-spin-set.md#editing-a-spin-set)
 
 Os administradores podem criar Predefinições do visualizador de conjunto de rotação. Essas predefinições determinam a aparência do Visualizador de conjunto de rotação. Para configurar uma nova Predefinição do visualizador de conjunto de rotação, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
-Na página Predefinições do visualizador, selecione **[!UICONTROL Add]** e selecione **[!UICONTROL Spin Set Viewer]** na lista suspensa e selecione **[!UICONTROL Add]**. Escolha opções na página Configurar Visualizador e, em seguida, selecione **[!UICONTROL Save]**.
+Na página Predefinições do visualizador, selecione **[!UICONTROL Add]** e selecione **[!UICONTROL Spin Set Viewer]** na lista suspensa e selecione **[!UICONTROL Add]**. Escolha as opções no `Configure Viewer` e selecione **[!UICONTROL Save]**.
 
 Consulte [Configurar predefinições do visualizador de conjunto de rotação](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ Consulte [Visualizar um conjunto de rotação](previewing-spin-set.md#previewing
 
 A publicação de um conjunto de rotação o coloca em servidores Adobe Dynamic Media Classic para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. Ele também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem da Dynamic Media para o site ou aplicativo.
 
-Para publicar um Conjunto de rotação, marque-o para publicação selecionando o **[!UICONTROL Mark for Publish]** ícone ao lado de seu nome no Painel de navegação. Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar uma publicação. Na tela Publicar, selecione **[!UICONTROL Submit Publish]**.
+Para publicar um Conjunto de rotação, marque-o para publicação selecionando o **[!UICONTROL Mark for Publish]** ícone ao lado de seu nome no Painel de navegação. Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar uma publicação. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicar um grupo de rotação](publishing-spin-set.md#publishing-a-spin-set).
 

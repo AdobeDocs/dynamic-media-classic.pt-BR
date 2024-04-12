@@ -1,19 +1,17 @@
 ---
 title: Fazer upload dos arquivos PDF
 description: Saiba como fazer upload dos arquivos PDF associados a um eCatalog no Adobe Dynamic Media Classic.
-uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -30,7 +28,7 @@ Ao fazer upload de um PDF para extração de página, o Adobe impõe o seguinte 
 
 Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
 
-## Preparar seus arquivos PDF {#preparing-your-pdf-files}
+## Preparar seus arquivos PDF
 
 Prepare seus arquivos PDF antes de carregá-los no Adobe Dynamic Media Classic:
 

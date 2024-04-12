@@ -1,20 +1,18 @@
 ---
 title: Criar parâmetros de modelo
 description: Saiba como criar parâmetros de modelo no Adobe Dynamic Media Classic.
-uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -35,7 +33,7 @@ Consulte também [Noções básicas de modelo](https://s7d5.scene7.com/s7viewers
 
 Para cada camada do modelo, siga estas etapas para criar parâmetros do modelo:
 
-1. Na lista Camadas, selecione o botão Parâmetros ao lado do nome da camada para a qual deseja criar parâmetros. A tela Parâmetros é aberta. Ela lista os nomes de cada parâmetro na camada, seu valor e seu tipo.
+1. Na lista Camadas, selecione o botão Parâmetros ao lado do nome da camada para a qual deseja criar parâmetros. A tela Parâmetros é aberta. Ela lista o nome de cada parâmetro na camada, seu valor e seu tipo.
 1. Selecione a opção Ativado ao lado do nome de cada parâmetro que você deseja incluir na imagem de modelo.
 1. Selecionar **[!UICONTROL Close]** para sair da tela Parâmetros.
 
@@ -43,7 +41,7 @@ Para cada camada do modelo, siga estas etapas para criar parâmetros do modelo:
 >
 >Você pode renomear parâmetros na tela Parâmetros. Renomear um parâmetro facilita a identificação do parâmetro em cadeias de caracteres de URL e o uso como um valor de banco de dados. Para renomear um parâmetro, selecione seu **[!UICONTROL On]** selecione seu nome e insira um novo nome no campo Nome.
 
-Para ver uma lista dos parâmetros criados para o modelo, selecione o botão Resumo de Parâmetros na tela Modelo. A tela Resumo de Parâmetros é aberta. Ela lista o nome de cada camada e, se você tiver criado parâmetros para uma camada, os nomes e valores dos parâmetros.
+Para ver uma lista dos parâmetros criados para o modelo, selecione o botão Resumo de Parâmetros na tela Modelo. Na tela Resumo de Parâmetros, o nome de cada camada é listado e, se você tiver criado parâmetros para uma camada, os nomes e valores dos parâmetros.
 
 ## Criar parâmetros de texto dinâmicos {#creating-dynamic-text-parameters}
 

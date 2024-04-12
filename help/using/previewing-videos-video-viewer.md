@@ -1,20 +1,18 @@
 ---
 title: Visualizar vídeos em um visualizador de vídeo
 description: Saiba como visualizar vídeos em um visualizador de vídeo.
-uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -36,7 +34,7 @@ Consulte [Adicionar e editar predefinições do visualizador](application-setup.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, selecione **[!UICONTROL Preview]**.
    * Na janela Ativo, selecione um ativo. Na barra de ferramentas, vá para **[!UICONTROL File]** > **[!UICONTROL Preview]**.
 
-1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação do URL que você deseja aplicar ao URL do ativo quando ele for copiado.
+1. (Opcional) Na janela Visualizar, na lista suspensa na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo quando ele for copiado.
 1. Selecione o **[!UICONTROL Preview]** para que possa revisar o ativo no visualizador selecionado.
 1. Feche o visualizador exibido.
 1. Selecionar **[!UICONTROL Close]** para retornar à tela Ativos.
@@ -83,7 +81,7 @@ Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/h
 
    * **Editar** - Selecione uma predefinição do visualizador de vídeo e, em seguida, **[!UICONTROL Edit]**.
 
-1. Na página Configurar visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
+1. No `Configure Viewer` no campo Nome da predefinição, digite ou edite o nome da predefinição.
 1. Defina as opções restantes desejadas.
 
    Para ver uma descrição de uma opção, selecione o ícone de Dica de informações.

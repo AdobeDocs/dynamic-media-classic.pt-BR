@@ -1,20 +1,18 @@
 ---
 title: Personalizar a tela do Portal de mídia
 description: Saiba como personalizar a tela do Portal de mídia no Adobe Dynamic Media Classic.
-uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -27,7 +25,7 @@ Para acessar as configurações de estilo, vá para **[!UICONTROL Setup]** > **[
 
 * **[!UICONTROL Logo]** - Selecionar **[!UICONTROL Browse]** e escolha um gráfico na janela Selecionar imagem de logotipo.
 
-* **[!UICONTROL Application]** - Crie uma mistura de cores de gradiente fazendo escolhas nos menus Cores de gradiente de plano de fundo.
+* **[!UICONTROL Application]** - Crie uma mistura de cores de gradiente fazendo escolhas nos menus do painel Cores de gradiente de fundo.
 
 * **[!UICONTROL Tree]** - Escolha uma cor de rolagem (a cor que aparece ao mover o ponteiro sobre um item) e a cor de seleção (a cor que aparece ao selecionar um item).
 

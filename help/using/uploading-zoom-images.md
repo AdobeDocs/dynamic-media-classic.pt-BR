@@ -1,20 +1,18 @@
 ---
 title: Carregar imagens Zoom
 description: Saiba como carregar imagens do Zoom no Adobe Dynamic Media Classic.
-uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -31,7 +29,7 @@ Para obter instruções detalhadas sobre como carregar imagens, consulte [Fazer 
 
 Para aproveitar ao máximo os recursos do Adobe Dynamic Media Classic Zoom, prepare seus arquivos de imagem de zoom antes de carregá-los:
 
-* **Tamanho da imagem** - A Adobe Dynamic Media Classic recomenda usar arquivos de imagens com, no mínimo, 2000 pixels no tamanho mais longo. Dessa forma, as imagens podem ser vistas claramente quando os usuários as ampliam.
+* **Tamanho da imagem** - A Adobe Dynamic Media Classic recomenda usar arquivos de imagem com, no mínimo, 2000 pixels no tamanho mais longo. Dessa forma, as imagens podem ser vistas claramente quando os usuários as ampliam.
 
 * **Formatos de arquivo** - A Adobe Dynamic Media Classic suporta todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS. São recomendados formatos de imagem sem perda (TIFF e PNG). Se você estiver usando uma imagem de JPEG, use as configurações de mais alta qualidade.
 

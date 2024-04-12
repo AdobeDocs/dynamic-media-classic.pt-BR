@@ -1,20 +1,18 @@
 ---
 title: Vincular URLs ao aplicativo da Web
 description: Saiba como vincular URLs ao seu aplicativo Web do Adobe Dynamic Media Classic.
-uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -35,20 +33,20 @@ Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplica
 
 ### Obter um URL de predefinição de imagem a partir da visualização {#obtaining-an-image-preset-url-from-preview}
 
-1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm o ativo de imagem que deseja visualizar.
+1. No painel Biblioteca de ativos à esquerda, navegue até a pasta Ativo que contém o ativo de imagem a ser visualizado.
 1. Siga um destes procedimentos:
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
-1. (Opcional) Na Lista de predefinições de imagem, na lista suspensa Codificação de URL para geração de URL de cópia, selecione a codificação de URL que você deseja aplicar ao URL do ativo de imagem quando ele for copiado.
+1. (Opcional) Na Lista de predefinições de imagem, na lista suspensa Codificação de URL para geração de URL de cópia, selecione a codificação de URL a ser aplicada ao URL do ativo de imagem quando ele for copiado.
 1. Na janela Lista de predefinições de imagem, na área superior direita do painel de visualização, selecione **[!UICONTROL Copy URL]** para o tipo de predefinição selecionado.
 1. No canto inferior direito da janela Lista de predefinições de imagens, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
 
 ### Obter um URL de predefinição de imagem no painel Procurar {#obtaining-an-image-preset-url-from-the-browse-panel}
 
-1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm o ativo de imagem que deseja visualizar.
+1. No painel Biblioteca de ativos à esquerda, navegue até a pasta Ativo que contém o ativo de imagem que deseja visualizar.
 1. Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem.
 1. Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**.
 1. Selecionar **[!UICONTROL URLs]** no painel do lado direito da tela, para que você possa abrir a lista de Predefinições de imagem.
@@ -93,7 +91,7 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 Agora você usa o `<IMG>`para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Adobe Dynamic Media Classic. Uma chamada de amostra tem esta aparência:
 
 ```as3
-img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
+img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
 Neste exemplo, um servidor de imagens Dynamic Media &quot;pesquisa&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pelo `thumbnail`Predefinição de imagem. Em uma string de URL, todos os itens, exceto o nome do arquivo de imagem do produto ( `backpack_trns` nesse caso) normalmente são programados para o modelo de página. O único elemento inserido automaticamente no modelo de página do servidor de comércio é a ID de IPS ou o nome da imagem.

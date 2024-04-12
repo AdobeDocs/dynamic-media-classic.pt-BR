@@ -10,7 +10,7 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -33,7 +33,7 @@ A publicação coloca o eCatalog e o PDF nos Dynamic Media Image Servers para qu
 
    Se você configurar seu eCatalog para que visualizadores possam realizar pesquisas por palavra-chave, certifique-se de que os dados da palavra-chave sejam publicados. Na caixa de diálogo Publicação, selecione **[!UICONTROL Advanced]**. No **[!UICONTROL Publish]** selecione **[!UICONTROL Full w/ Search Data]**. Essa opção é selecionada por padrão.
 
-1. Clique em **[!UICONTROL Submit Publish]**.
+1. Selecionar **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >

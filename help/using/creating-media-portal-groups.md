@@ -1,18 +1,16 @@
 ---
 title: Criar e gerenciar grupos do Portal de mídia
 description: Saiba como criar e gerenciar grupos do Portal de mídia no Adobe Dynamic Media Classic.
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -75,9 +73,9 @@ Se você não conceder especificamente uma permissão de grupo a um ativo ou pas
 
 >[!NOTE]
 >
->Os direitos de acesso são estabelecidos ao selecionar uma caixa. Quando você atribui direitos a uma pasta, suas subpastas e todos os arquivos dentro dela recebem os mesmos direitos da pasta principal. No entanto, é possível especificar direitos diferentes para subpastas individuais e arquivos de ativos.
+>Os direitos de acesso são estabelecidos ao selecionar uma caixa. Quando você atribuiu direitos a uma pasta, suas subpastas e todos os arquivos dentro dela recebem os mesmos direitos que a pasta principal. No entanto, é possível especificar direitos diferentes para subpastas individuais e arquivos de ativos.
 
-## Escolher permissões de acesso de Predefinição de imagem para um grupo {#choosing-image-preset-access-permissions-for-a-group}
+## Escolher permissões de acesso de Predefinição de imagem para um grupo
 
 Escolha permissões de acesso de Predefinição de imagem para um grupo se desejar especificar quais Predefinições de imagem estão disponíveis para os membros do grupo quando eles exportam ativos com o Media Portal.
 
