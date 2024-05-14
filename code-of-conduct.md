@@ -1,5 +1,5 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Com o intuito de promover um ambiente aberto e acolhedor, os colaboradores e man
 
 Exemplos de comportamento que contribuem para criar um ambiente positivo incluem:
 
-* Uso de idioma acolhedor e inclusivo
+* Usar um idioma acolhedor e inclusivo
 * Respeito pelos diferentes pontos de vista e experiências
 * Aceitar críticas construtivas
 * Focar no que é melhor para a comunidade
@@ -39,7 +39,7 @@ Exemplos de comportamento inaceitável por parte dos participantes incluem:
 * Brincadeiras de mal gosto, insultos/comentários depreciativos e ataques pessoais ou políticos
 * Assédio público ou privado
 * Publicação de informações privadas de outras pessoas, como endereços físicos ou eletrônicos, sem permissão explícita
-* Outros comportamentos que poderiam ser considerados inadequados em um ambiente profissional
+* Outros comportamentos que podem ser considerados inadequados em um ambiente profissional
 
 ## Responsabilidades do Adobe
 
@@ -54,7 +54,8 @@ Não alinhado com o presente Código de conduta. Ou, para proibir, temporária o
 
 ## Escopo
 
-Este Código de conduta se aplica tanto em espaços de projetos quanto em espaços públicos quando um indivíduo representa o projeto ou sua comunidade. Exemplos de representação de um projeto ou comunidade incluem o uso de um endereço de email de projeto oficial ou a publicação por meio de uma conta oficial de mídia social. Também inclui atuar como representante designado em um evento online ou offline. A representação de um projeto pode ser definida e esclarecida pelos responsáveis pela manutenção do projeto.
+Este Código de conduta se aplica tanto em espaços de projetos quanto em espaços públicos quando um indivíduo representa o projeto ou sua comunidade.
+Exemplos de representação de um projeto ou comunidade incluem o uso de um endereço de email de projeto oficial ou a publicação por meio de uma conta oficial de mídia social. Também inclui atuar como representante designado em um evento online ou offline. Os administradores do projeto podem definir e esclarecer melhor a representação de um projeto.
 
 ## Aplicação
 

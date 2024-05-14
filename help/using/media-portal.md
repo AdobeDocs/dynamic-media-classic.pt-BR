@@ -10,18 +10,18 @@ role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 # Portal de mídia{#media-portal}
 
-O Portal Adobe Medium fornece às empresas a capacidade de adquirir, controlar e distribuir facilmente ativos aprovados para parceiros externos e canais, bem como usuários internos. O ambiente de &quot;autoatendimento&quot; baseado em navegador fornece aos usuários do portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Adobe Dynamic Media Classic para facilitar o acesso a upload, navegação, pesquisa, pré-visualização e exportação de ativos em formatos corporativos aprovados.
+Usando o Adobe Medium Portal, as empresas podem adquirir, controlar e distribuir ativos aprovados para parceiros externos, canais e usuários internos. O ambiente de &quot;autoatendimento&quot; baseado em navegador fornece aos usuários do portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Adobe Dynamic Media Classic para facilitar o acesso a upload, navegação, pesquisa, pré-visualização e exportação de ativos em formatos corporativos aprovados.
 
-Para obter mais informações sobre o Media Portal, incluindo requisitos de sistema, consulte [Usar o Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
+Para obter mais informações sobre o Media Portal, incluindo requisitos de sistema, consulte [Usar o Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
 
 Para obter informações sobre como administrar o Portal de mídia, consulte [Início rápido: administração do Portal de mídia](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
 

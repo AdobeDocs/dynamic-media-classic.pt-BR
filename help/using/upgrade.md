@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ O novo [!DNL Dynamic Media] em [!DNL Adobe Experience Manager] baseia-se na func
 | --- | --- |
 | Abordagem de arquivo principal | Fazer upload de um ativo de tamanho normal, em seguida [!DNL Dynamic Media] O cria tamanhos automaticamente, conforme necessário. |
 | Fácil criação | Crie, personalize e inicie experiências avançadas rapidamente, sem precisar de ajuda técnica. |
-| Interface intuitiva | Edite visualizadores de imagens e players de vídeo com uma interface WYSIWYG (What You See It What You Get, o que você vê é o que você obtém) que é fácil de usar. |
+| Interface intuitiva | Edite visualizadores de imagens e players de vídeo com uma interface WYSIWYG (What You See It What You Get, o que você vê é o que você obtém) fácil de usar. |
 | Mídia comprável | Crie imagens, vídeos e carrosséis que podem ser comprados com pontos de acesso de imagem e links clicáveis. |
 | CDN escalável | Acesse a melhor rede de entrega de conteúdo (CDN) com dimensionamento e desempenho comprovados para atender a qualquer demanda. |
 | Dynamic Imaging | Usar um arquivo principal, gerar e publicar automaticamente versões ilimitadas, alterando tamanho, formato, resolução, recorte ou efeito. |
@@ -35,7 +35,7 @@ O novo [!DNL Dynamic Media] em [!DNL Adobe Experience Manager] baseia-se na func
 
 ## Principais benefícios e recursos do [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] é a evolução natural de [!DNL Dynamic Media Classic] O e o oferecem conjuntos de ferramentas de criação, publicação e entrega de mídia avançada, incluindo o melhor fornecimento da categoria, com uma interface inovadora e centrada no usuário, promovendo fluxos de trabalho modernos e reais.
+[!DNL Dynamic Media] é a evolução natural de [!DNL Dynamic Media Classic]. Ele oferece conjuntos de ferramentas de criação, publicação e entrega de mídia avançada. Ele também inclui a melhor entrega do setor, com uma interface inovadora e centrada no usuário, que promove fluxos de trabalho reais modernos.
 
 * Experiência contínua e unificada, além de integração com [!DNL Adobe Experience Manager]: configure e forneça dinamicamente conteúdo avançado de um armazenamento, uma fonte
 * Nova experiência de usuário centrada no profissional de marketing para facilitar a criação e o fornecimento de conteúdo de mídia avançada
@@ -52,7 +52,7 @@ O novo [!DNL Dynamic Media] em [!DNL Adobe Experience Manager] baseia-se na func
 
 ## Por que Adobe?
 
-* Maior motor positivo no relatório do ativo digital Forrester WAVE.
+* O maior impulsionador positivo no relatório da Forrester WAVE sobre ativos digitais.
 * Forte desempenho no relatório 2016 da plataforma de vídeo online.
 * Melhor fornecedor de mídia avançada para Internet Retail 1000, nove anos consecutivos.
 * Suporte 24 horas por dia, 7 dias por semana, 265 dias por ano; SLAs de 99,95%; Adobe Professional Services.

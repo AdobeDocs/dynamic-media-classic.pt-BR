@@ -5,9 +5,9 @@ type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.pt-BR
 recommendations: noDisplay
-source-git-commit: 4e5487742ac1dcbf7db5ba3568fdf7784664e25b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ O arquivo metadata.md inclui metadados de nível de repositório que passam para
 |--- |--- |
 | solution-title | Usado no cabeçalho do artigo como link |
 | url do hub da solução | Abre a página do hub |
-| solution-icon | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
+| solution-icon | Exibe um ícone de solução ao lado do título da solução. Ainda não implementado |
 | getting-started-url | Link para a página de introdução |
 | url de tutoriais | Link para tutoriais em vídeo — tutoriais ou tutoriais do KT |
 | minitoc-levels | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |

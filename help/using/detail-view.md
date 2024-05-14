@@ -10,9 +10,9 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -40,17 +40,17 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## Abra um ativo na Exibição de detalhes {#open-an-asset-in-detail-view}
 
-Para examinar, visualizar ou trabalhar detalhadamente em um ativo, é possível exibi-lo na Exibição de detalhes.
+É possível exibir um ativo na Exibição de detalhes para examinar, visualizar ou trabalhar detalhadamente nele.
 
 1. No Painel de navegação, siga um destes procedimentos:
 
-   * Selecione o ativo. Próximo ao canto superior direito da Adobe Dynamic Media Classic, selecione a **[!UICONTROL Detail View]** ícone .
+   * Selecione o ativo. Próximo ao canto superior direito da Adobe Dynamic Media Classic, selecione a **[!UICONTROL Detail View]** ícone.
    * Clique duas vezes no ativo.
    * Selecione o ativo e vá para **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
->Você pode paginar de ativo a ativo na mesma pasta na Exibição de detalhes selecionando **[!UICONTROL Previous Asset]** ou **[!UICONTROL Next Asset]**. Esses botões estão no canto superior direito da Exibição de detalhes.
+>É possível paginar de ativo a ativo na mesma pasta da Exibição de detalhes. Basta clicar em **[!UICONTROL Previous Asset]** ou **[!UICONTROL Next Asset]**. Esses botões estão no canto superior direito da Exibição de detalhes.
 
 ## Obter informações na Exibição de detalhes {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Essas 
 
 A Exibição de detalhes oferece ferramentas para trabalhar com o ativo que você abriu. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a Exibição de detalhes sempre oferece estas funções:
 
-* **itens para publicação** - Selecione o **[!UICONTROL `Publish`]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+* **itens para publicação**: selecione a variável **[!UICONTROL `Publish`]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
-* **Renomear o ativo** - Selecione o nome e insira um novo nome.
+* **Renomear o ativo**: selecione o nome e insira um novo nome.
 
-* **Editar e adicionar metadados** - Selecione o painel Metadados e altere conforme desejado. Consulte [Visualizar, adicionar e exportar metadados](/help/using/viewing-adding-exporting-metadata.md).
+* **Editar e adicionar metadados**: selecione o painel Metadados e altere conforme desejado. Consulte [Visualizar, adicionar e exportar metadados](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Editar e adicionar palavras-chave** - Selecione Palavras-chave e adicione-as ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/using/viewing-adding-exporting-metadata.md).
+* **Editar e adicionar palavras-chave**: selecione Palavras-chave e adicione-as ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Excluir o ativo** - Vá para **[!UICONTROL File]** > **[!UICONTROL Delete]**.
+* **Excluir o ativo**: Vá para **[!UICONTROL File]** > **[!UICONTROL Delete]**.
 
 Para arquivos discretos (imagens, conjuntos de imagens e fontes, por exemplo), é possível exibir o histórico de publicação e edição e verificar os detalhes da tarefa na Exibição detalhada.
 

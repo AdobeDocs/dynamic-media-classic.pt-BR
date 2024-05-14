@@ -10,14 +10,14 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
 
-# Agora disponível: aplicativo de desktop do Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
+# Disponível agora: aplicativo de desktop do Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
 Os usuários do Adobe Dynamic Media Classic agora têm acesso a uma nova experiência de aplicativo de desktop que não depende mais da tecnologia de Flash Adobe no navegador.
 
@@ -48,7 +48,7 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 
 * Ao editar uma imagem, a variável **[!UICONTROL Save]** Os botões do não funcionavam.
 * Nos editores de Conjunto, a variável **[!UICONTROL Close]**, **[!UICONTROL Save]**, e **[!UICONTROL Save As]** Os botões são desativados após rolar os ativos no **[!UICONTROL Add Assets]** painel.
-* **[!UICONTROL Play]** na exibição de Detalhes do vídeo não funcionou.
+* A variável **[!UICONTROL Play]** na exibição de Detalhes do vídeo não funcionou.
 * Não foi possível inserir `d` e `e` in **[!UICONTROL Username]** e **[!UICONTROL Password]** campos ao executar o macOS Monterey.
 * As APIs restantes do Analytics foram movidas para a versão 2.0.
 
@@ -58,7 +58,7 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 * O aplicativo de desktop para de responder, normalmente após as operações Set.
 * Ofuscação de solicitação e modo de bloqueio ativados automaticamente em **[!UICONTROL Test Image Serving]**.
 
-  Consulte [Testar o serviço de teste seguro](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  Consulte [O serviço de teste seguro](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * Mecanismo de autenticação atualizado com o Adobe Analytics. Relevante para novas integrações ou se algumas variáveis do Analytics precisam ser atualizadas no aplicativo de desktop do Dynamic Media Classic.
 
@@ -67,7 +67,7 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 ## Correções na versão 20.21.2 {#minor-release}
 
 * Limitação conhecida no 20.21.1: a **[!UICONTROL Server]** lista suspensa na tela de entrada estava vazia.
-* Entrada **[!UICONTROL Upload Job Options]**, Valor padrão de nomeação de camada em **[!UICONTROL Photoshop Options]**, agora é **[!UICONTROL Photoshop and Layer Name]**. As camadas no arquivo PSD são carregadas como imagens separadas.
+* Entrada **[!UICONTROL Upload Job Options]**, o valor padrão do Nome da camada em **[!UICONTROL Photoshop Options]**, agora é **[!UICONTROL Photoshop and Layer Name]**. As camadas no arquivo PSD são carregadas como imagens separadas.
    * O padrão anterior de **[!UICONTROL Layer name]**, nomearam as imagens após o nome ou o número da camada no arquivo PSD. O número da camada era usado se os nomes das camadas no arquivo PSD fossem nomes de camadas Photoshop padrão.
    * O novo padrão de **[!UICONTROL Photoshop and Layer Name]**, nomeia as imagens após o arquivo PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo PSD forem nomes de camadas Photoshop padrão.
    * Como as imagens de camada no Adobe Dynamic Media Classic agora têm nomes exclusivos, não ocorrerá nenhuma atualização no PSD ou nos Modelos existentes (que compartilharam nomes de camada nos arquivos PSD originais).
@@ -95,7 +95,7 @@ Consulte também:
 
 1. Desinstale todas as versões mais antigas do aplicativo de desktop do Adobe Dynamic Media Classic no sistema.
 
-1. Baixe o instalador mais recente do aplicativo de desktop do Adobe Dynamic Media Classic.
+1. Baixe o instalador mais recente para o aplicativo de desktop do Adobe Dynamic Media Classic.
 
    * A versão mais recente está disponível no site a seguir:
 
@@ -145,14 +145,14 @@ Consulte também:
 
 1. Após fazer logon, observe a experiência familiar da interface do usuário do navegador. Você pode continuar sua atividade diária do Adobe Dynamic Media Classic como de costume no aplicativo de desktop.
 
-## Baixar e *silencioso* instale o aplicativo de desktop do Adobe Dynamic Media Classic mais recente no macOS {#install-silent-mac-dmc-app}
+## Baixar e *silenciosamente* instale o aplicativo de desktop do Adobe Dynamic Media Classic mais recente no macOS {#install-silent-mac-dmc-app}
 
 Consulte também:
 
 * [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows](#installation-dmc-app)
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows](#install-silent-windows-dmc-app)
 
-Para baixar e *silencioso* instale a versão mais recente do aplicativo de desktop do Adobe Dynamic Media Classic no macOS:
+Para baixar e *silenciosamente* instale a versão mais recente do aplicativo de desktop do Adobe Dynamic Media Classic no macOS:
 
 1. Desinstale todas as versões mais antigas do aplicativo de desktop do Adobe Dynamic Media Classic no sistema.
 
@@ -185,7 +185,7 @@ Para baixar e *silencioso* instale a versão mais recente do aplicativo de deskt
    | Produção na EMEA (Europa, Oriente Médio e África) | https://s7sps3.scene7.com/ |
    | Produção da APAC (Ásia-Pacífico) | https://s7sps5.scene7.com/ |
 
-## Baixar e *silencioso* instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows® {#install-silent-windows-dmc-app}
+## Baixar e *silenciosamente* instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows® {#install-silent-windows-dmc-app}
 
 O comando usado é para uma instalação silenciosa básica do MSI. No entanto, o instalador do aplicativo de desktop do Adobe Dynamic Media Classic é um instalador MSI do InstallScript criado com o InstallShield. Quando você executa o instalador no modo de registro, qualquer interação do usuário é registrada em um arquivo de resposta. Esse arquivo de resposta é então usado para uma instalação silenciosa, conforme descrito em [Funcionamento das instalações em modo silencioso](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -195,11 +195,11 @@ Consulte também:
 
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no macOS](#install-silent-mac-dmc-app)
 
-Para baixar e *silencioso* instale a versão mais recente do aplicativo de desktop Adobe Dynamic Media Classic no Windows®:
+Para baixar e *silenciosamente* instale a versão mais recente do aplicativo de desktop da Adobe Dynamic Media Classic no Windows®:
 
 1. Desinstale todas as versões mais antigas do aplicativo de desktop do Adobe Dynamic Media Classic no sistema.
 
-1. Baixe o instalador mais recente do aplicativo de desktop do Adobe Dynamic Media Classic.
+1. Baixe o instalador mais recente para o aplicativo de desktop do Adobe Dynamic Media Classic.
 
    * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
@@ -254,11 +254,11 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 ## Limitações conhecidas do Adobe Dynamic Media Classic 20.21.1
 
-* A variável **[!UICONTROL Server]** A lista suspensa fica vazia após a atualização para o aplicativo de desktop do Adobe Dynamic Media Classic 20.21.1 - Cenário: você instala e faz logon no Adobe Dynamic Media Classic 20.20.1 ou 20.20.2 e, em seguida, fecha o aplicativo. Em seguida, atualize para o Adobe Dynamic Media Classic 20.21.1. Ao tentar fazer logon, a variável **[!UICONTROL Server]** lista suspensa na **[!UICONTROL Sign in to your account]** está vazia. Para contornar esse problema, você deve [limpar manualmente o cache](#clear-cache) (veja as etapas acima).
+* A variável **[!UICONTROL Server]** A lista suspensa fica vazia após a atualização para o aplicativo de desktop do Adobe Dynamic Media Classic 20.21.1 - Cenário: você instala e faz logon no Adobe Dynamic Media Classic 20.20.1 ou 20.20.2 e, em seguida, fecha o aplicativo. Em seguida, atualize para o Adobe Dynamic Media Classic 20.21.1. Ao tentar fazer logon, a variável **[!UICONTROL Server]** lista suspensa na **[!UICONTROL Sign-in to your account]** está vazia. Para contornar esse problema, você deve [limpar manualmente o cache](#clear-cache) (veja as etapas acima).
 
 ## Limitações conhecidas no Adobe Dynamic Media Classic 20.20.1 (corrigidas na versão 20.20.2)
 
-**_Aplica-se somente ao Windows® — há uma limitação no número de arquivos que podem ser carregados por meio da interface do usuário do aplicativo de desktop?_**<br>Sim, um máximo de 150 arquivos pode ser carregado de cada vez por meio da interface do usuário do aplicativo de desktop.
+**_Aplica-se somente ao Windows® — há uma limitação no número de arquivos que podem ser carregados por meio da interface do usuário do aplicativo de desktop?_**<br>Sim, um máximo de 150 arquivos pode ser carregado de cada vez usando a interface do usuário do aplicativo de desktop.
 
 **_Aplicável ao Windows® e macOS - Como alterno entre empresas?_**<br>Para alternar entre empresas, faça o seguinte:
 

@@ -10,9 +10,9 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Para obter instruções detalhadas sobre como carregar imagens, consulte [Fazer 
 
 Para aproveitar ao máximo os recursos do Adobe Dynamic Media Classic Zoom, prepare seus arquivos de imagem de zoom antes de carregá-los:
 
-* **Tamanho da imagem** - A Adobe Dynamic Media Classic recomenda usar arquivos de imagem com, no mínimo, 2000 pixels no tamanho mais longo. Dessa forma, as imagens podem ser vistas claramente quando os usuários as ampliam.
+* **Tamanho da imagem**: a Adobe Dynamic Media Classic recomenda usar arquivos de imagem com no mínimo 2000 pixels no tamanho mais longo. Dessa forma, as imagens podem ser vistas claramente quando os usuários as ampliam.
 
-* **Formatos de arquivo** - A Adobe Dynamic Media Classic suporta todos os formatos de arquivo de imagem padrão, incluindo TIFF, BMP, JPEG, PSD, GIF e EPS. São recomendados formatos de imagem sem perda (TIFF e PNG). Se você estiver usando uma imagem de JPEG, use as configurações de mais alta qualidade.
+* **Formatos de arquivo**: o Adobe Dynamic Media Classic oferece suporte a todos os formatos de arquivo de imagem padrão. Os formatos incluem TIFF, BMP, JPEG, PSD, GIF e EPS. Formatos de imagem sem perda - TIFF e PNG - são recomendados. Se você estiver usando uma imagem de JPEG, use as configurações de mais alta qualidade.
 
-* **Espaço de cor** - RGB é o espaço de cores para apresentações de imagens da Web; imagens CMYK são convertidas automaticamente em RGB ao carregá-las. É recomendado fazer upload de imagens CMYK que tenham um perfil de cores ICC incorporado para a conversão em RGB. Consulte também Perfis ICC.
+* **Espaço de cor**: RGB é o espaço de cores para apresentações de imagens da Web; imagens CMYK são convertidas automaticamente em RGB ao carregá-las. É recomendado fazer upload de imagens CMYK que tenham um perfil de cores ICC incorporado para a conversão em RGB. Consulte também Perfis ICC.
 
 >[!MORELIKETHIS]
 >

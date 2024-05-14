@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
 
 # Configurar relatórios do Adobe Analytics{#configuring-adobe-analytics-reports}
 
-Para informar ao Adobe Analytics quais informações você deseja incluir nos relatórios do Adobe Analytics, vá para a tela Configuração do Adobe Analytics. Depois de configurar relatórios, essa tela lista, para cada evento do visualizador sobre o qual deseja obter informações, uma variável do Adobe Analytics e uma variável do Adobe Dynamic Media Classic correspondentes. Essas combinações de variáveis do visualizador events-Adobe Analytics variable-Adobe Dynamic Media Classic determinam quais informações são relatadas.
+Para informar ao Adobe Analytics quais informações você deseja incluir nos relatórios do Adobe Analytics, vá para a tela Configuração do Adobe Analytics. Após os relatórios de configuração, essa tela lista, para cada evento do visualizador sobre o qual você deseja obter informações, uma variável do Adobe Analytics e uma variável do Adobe Dynamic Media Classic correspondentes. Essas combinações de variáveis do visualizador events-Adobe Analytics variable-Adobe Dynamic Media Classic determinam quais informações são relatadas.
 
 Além de associar eventos do visualizador a variáveis, a tela Configuração do Adobe Analytics oferece ferramentas para ativar, editar e excluir eventos do visualizador.
 
@@ -37,8 +37,8 @@ Use a tela Configuração do Adobe Analytics para associar eventos do visualizad
 
 **Para atribuir variáveis do Adobe Analytics a eventos e variáveis do visualizador do Adobe Dynamic Media Classic:**
 
-1. Depois de fazer logon no Adobe Analytics a partir do Adobe Dynamic Media Classic e selecionar um conjunto de relatórios, na página Configuração do Adobe Analytics, na coluna da tabela à direita, ative um evento do visualizador selecionando **[!UICONTROL Enable]**.
-1. Na coluna Variáveis, exiba o seletor de par de variáveis selecionando o botão de seta para o Evento do visualizador desejado.
+1. Depois de fazer logon no Adobe Analytics a partir do Dynamic Media Classic e selecionar um conjunto de relatórios, na página Configuração do Adobe Analytics, na coluna da tabela à direita, ative um evento do visualizador selecionando **[!UICONTROL Enable]**.
+1. Na coluna Variáveis, exiba o seletor de par de variáveis selecionando o botão de seta para o evento do visualizador desejado.
 
    Consulte [Eventos do visualizador](configuring-analytics-reports.md#viewer_events).
 
@@ -59,23 +59,23 @@ Use a tela Configuração do Adobe Analytics para associar eventos do visualizad
 
 ### Eventos do visualizador {#viewer-events}
 
-Os eventos do visualizador descrevem as ações que os usuários executam com visualizadores do Adobe Dynamic Media Classic. Quando um usuário inicia uma determinada ação, como selecionar uma miniatura ou iniciar ou parar um vídeo, o visualizador &quot;transmite&quot; um evento para a página da Web, juntamente com os dados associados a esse evento.
+Os eventos do visualizador descrevem as ações que os usuários executam com visualizadores do Dynamic Media Classic. Quando um usuário inicia uma ação, como selecionar uma miniatura ou iniciar ou parar um vídeo, o visualizador &quot;transmite&quot; um evento para a página da Web. Os dados associados a esse evento também são enviados.
 
 A tabela a seguir descreve os eventos do visualizador que podem ser adicionados à tela Configuração do Adobe Analytics.
 
 | Evento do visualizador | Suporte e visualizadores da HTML5 Viewer Platform | Descrição |
 | --- | --- | --- |
 | CARREGAR | **X** (eCatalog, Flyout, SpinSet, Vídeo, Zoom) | Quando um usuário inicia um visualizador |
-| PÁGINA | **X**  (eCatalog) | Em eCatalogs, quando um usuário gira uma página; em visualizadores de zoom direcionados, quando um usuário seleciona um destino diferente ou uma amostra de cor. |
-| TROCAR | **X**  (eCatalog, Flyout, SpinSet, Vídeo, Zoom) | Quando um usuário seleciona uma miniatura diferente para visualizar uma imagem diferente. |
-| ITEM | **X**  (eCatalog) | Em visualizadores compatíveis com Mapas de imagem nos quais as sobreposições são definidas, quando um usuário passa o ponteiro sobre um Mapa de imagem para ler o texto da sobreposição. |
-| HREF | **X**  (eCatalog) | Em visualizadores compatíveis com Mapas de imagem, quando um usuário seleciona um URL em um Mapa de imagem. |
+| PÁGINA | **X** (eCatalog) | Em eCatalogs, quando um usuário gira uma página; em visualizadores de zoom direcionados, quando um usuário seleciona um destino diferente ou uma amostra de cor. |
+| TROCAR | **X** (eCatalog, Flyout, SpinSet, Vídeo, Zoom) | Quando um usuário seleciona uma miniatura diferente para visualizar uma imagem diferente. |
+| ITEM | **X** (eCatalog) | Em visualizadores compatíveis com Mapas de imagem nos quais as sobreposições são definidas, quando um usuário passa o ponteiro sobre um Mapa de imagem para ler o texto da sobreposição. |
+| HREF | **X** (eCatalog) | Em visualizadores compatíveis com Mapas de imagem, quando um usuário seleciona um URL em um Mapa de imagem. |
 | TARGET | | Em visualizadores de zoom direcionados, quando um usuário seleciona um destino de zoom para aplicar zoom a parte de uma imagem. |
 | PESQUISAR | | Em eCatalogs, quando um usuário realiza uma pesquisa de palavra. |
-| PLAY | **X**  (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona Reproduzir para começar a reproduzir um vídeo.<br><br>**Nota:** Se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Adobe Dynamic Media Classic HTML5 Video e MixedMedia prontos para uso. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Ativar relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
+| PLAY | **X** (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona Reproduzir para começar a reproduzir um vídeo.<br><br>**Nota:** Se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Adobe Dynamic Media Classic HTML5 Video e MixedMedia prontos para uso. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Ativar relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
 | PAUSAR | **X** (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona **[!UICONTROL Pause]** para congelar um vídeo.<br><br>**Nota:** Se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Adobe Dynamic Media Classic HTML5 Video e MixedMedia prontos para uso. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Ativar relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
 | PARAR | **X** (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona **[!UICONTROL Stop]** para parar de reproduzir um vídeo.<br><br>**Nota:** Se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Adobe Dynamic Media Classic HTML5 Video e MixedMedia prontos para uso. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Ativar relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
-| ETAPA | **X**  (Vídeo) | Em visualizadores de vídeo, os eventos marcantes são gerados quando o usuário assiste a 0, 25, 50, 75 ou 100% do vídeo.<br><br>**Nota:** Se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Adobe Dynamic Media Classic HTML5 Video e MixedMedia prontos para uso. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Ativar relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
+| ETAPA | **X** (Vídeo) | Em visualizadores de vídeo, os eventos marcantes são gerados quando o usuário assiste a 0, 25, 50, 75 ou 100% do vídeo.<br><br>**Nota:** Se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores Adobe Dynamic Media Classic HTML5 Video e MixedMedia prontos para uso. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Ativar relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
 | AMOSTRA | **X** (Flyout, Zoom) | Este evento do visualizador é mapeado para o evento do visualizador de PÁGINA no Adobe Dynamic Media Classic. |
 | ZOOM | **X** (eCatalog, SpinSet, Zoom) | Não rastreado pelo Adobe Analytics. |
 | PAN | **X** (eCatalog, SpinSet, Zoom) | Não rastreado pelo Adobe Analytics. |
@@ -83,7 +83,7 @@ A tabela a seguir descreve os eventos do visualizador que podem ser adicionados 
 
 ### Variáveis do Adobe Dynamic Media Classic {#scene-variables}
 
-Para cada evento do visualizador na tela Configuração do Adobe Analytics, escolha uma variável do Adobe Analytics e um *variável do Adobe Dynamic Media Classic*. As variáveis do Adobe Dynamic Media Classic representam dados que podem ser obtidos para um relatório. Por exemplo, a variável `searchTerm` lista de palavras-chave usadas em pesquisas de eCatalog.
+Para cada evento do visualizador na tela Configuração do Adobe Analytics, escolha uma variável do Adobe Analytics e uma *variável do Adobe Dynamic Media Classic*. As variáveis do Adobe Dynamic Media Classic representam dados que podem ser obtidos para um relatório. Por exemplo, a variável `searchTerm` lista de palavras-chave usadas em pesquisas de eCatalog.
 
 A tabela a seguir descreve as variáveis do Adobe Dynamic Media Classic:
 
@@ -107,6 +107,6 @@ Na tela Configuração do Adobe Analytics, você pode ativar, editar e excluir e
 
 * **Ativar** - Selecionar **[!UICONTROL Enable]** para ativar ou **[!UICONTROL Disable]** para desativar um evento do visualizador selecionado.
 
-* **Editar** - Selecione um evento de visualizador e selecione **[!UICONTROL View/Edit]** Botão cinza de variáveis. Nas listas suspensas Variável Adobe Dynamic Media Classic e Variável Adobe Analytics, escolha uma variável diferente de cada lista. Para obter mais informações, consulte [Atribuição de variáveis do Adobe Analytics a eventos e variáveis do visualizador do Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Editar** - Selecione um evento de visualizador e selecione a variável **[!UICONTROL View/Edit]** Botão cinza de variáveis. Nas listas suspensas da variável Adobe Dynamic Media Classic e da variável Adobe Analytics, escolha uma variável diferente de cada lista. Para obter mais informações, consulte [Atribuição de variáveis do Adobe Analytics a eventos e variáveis do visualizador do Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Excluir** - Selecione um evento do visualizador e selecione **[!UICONTROL View/Edit]** Botão cinza de variáveis. Selecionar **[!UICONTROL Delete]**.
+* **Excluir** - Selecione um evento do visualizador e selecione a variável **[!UICONTROL View/Edit]** Botão cinza de variáveis. Selecionar **[!UICONTROL Delete]**.

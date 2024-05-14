@@ -10,9 +10,9 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Consulte também [Incluir destinos de zoom e mapas de imagem em conjuntos de ima
 
 Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: **[!UICONTROL Custom]** > **[!UICONTROL Images]** ou **[!UICONTROL Image Sets]**/**[!UICONTROL Multiple Views]** para exibir seus Conjuntos de imagens.
 
-Adicione ou edite Predefinições do visualizador na tela Configuração do aplicativo.
+Você pode adicionar ou editar as Predefinições do visualizador na tela Configuração do aplicativo.
 
 Consulte [Criar e editar predefinições do visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Consulte [Publicar arquivos](publishing-files.md#publishing-files).
 
 O Adobe Dynamic Media Classic cria chamadas de URL para conjuntos de imagens e as ativa após a publicação. Você pode copiar esses URLs da tela Preview.
 
-Selecione o Conjunto de imagens e selecione **[!UICONTROL Preview]**. Agora selecione uma Predefinição do visualizador do Conjunto de imagens e, em seguida, selecione **[!UICONTROL Copy URL]**.
+Selecione o Conjunto de imagens e selecione **[!UICONTROL Preview]**. Agora, selecione uma Predefinição do visualizador do Conjunto de imagens e clique na **[!UICONTROL Copy URL]** botão.
 
-Consulte [Vincular um conjunto de imagens a uma página da Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Consulte [Vincular o conjunto de imagens a uma página da Web](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

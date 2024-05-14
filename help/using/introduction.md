@@ -1,28 +1,28 @@
 ---
 title: Ajuda do Adobe Dynamic Media Classic
-description: Bem-vindo ao Adobe Dynamic Media Classic, o principal sistema de publicação sob demanda entre mídias para upload, gerenciamento, aprimoramento e publicação de conteúdo dinâmico avançado em todos os dispositivos e telas.
+description: O Adobe Dynamic Media Classic é o principal sistema de publicação sob demanda entre mídias. Você pode fazer upload, gerenciar, aprimorar e publicar conteúdo dinâmico avançado em todos os dispositivos e telas.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Ajuda do Adobe Dynamic Media Classic {#scene7-overview}
 
-Bem-vindo ao Adobe Dynamic Media Classic, o principal sistema de publicação sob demanda entre mídias para upload, gerenciamento, aprimoramento e publicação de conteúdo dinâmico avançado em todos os dispositivos e telas. As soluções da Adobe Dynamic Media Classic incluem o seguinte:
+O Adobe Dynamic Media Classic é o principal sistema de publicação sob demanda entre mídias. Você pode fazer upload, gerenciar, aprimorar e publicar conteúdo dinâmico avançado em todos os dispositivos e telas. As soluções da Adobe Dynamic Media Classic incluem o seguinte:
 
 * Dynamic Imaging: edição, formatação e dimensionamento em tempo real, zoom e panorâmica interativos; cor `swatching` e textura `swatching`; rotação de 360 graus, modelos de imagem, visualizadores multimídia.
 * eCatalogs: crie, vincule pontos de acesso, pesquise, publique e entregue catálogos online dinamicamente disponíveis em visualizadores configuráveis.
 * Media Portal: Um ambiente de autoatendimento que fornece aos usuários do portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Adobe Dynamic Media Classic para fácil acesso a upload, navegação, pesquisa, pré-visualização e exportação de ativos.
 * eVideo: carregue vídeos finais em qualquer formato, gerencie, edite, crie pontos de acesso e modelos de vídeo, publique e transmita para visualizadores de vídeo configuráveis
-* Visual Configurators: tecnologia de renderização em tempo real para permitir a configuração visual online para efeitos de personalização e personalização, como a renderização em tempo real de texturas, superfícies, padrões, monogramas e gravações em imagens ou cenas do produto.
+* Visual Configurators: tecnologia de renderização em tempo real para permitir a configuração visual online para efeitos de personalização. Efeitos como renderização em tempo real de cores, texturas, superfícies, padrões, monogramas e gravações em imagens ou cenas do produto.
 * Email e impressão do Target: fornecer campanhas de email personalizadas e visualmente direcionadas vinculadas ao perfil do cliente, ao produto e aos bancos de dados de canal.
 
 Consulte também os seguintes vídeos de treinamento:

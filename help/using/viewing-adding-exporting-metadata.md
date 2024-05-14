@@ -10,9 +10,9 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2154'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Você pode armazenar informações específicas para os arquivos com os quais trabalha no Adobe Dynamic Media Classic; essas informações são chamadas de *metadados*. Você pode usar metadados no Adobe Dynamic Media Classic para organizar, pesquisar, filtrar e classificar seus ativos.
 
-Os metadados são exibidos na Exibição de detalhes junto com as informações geradas pela Adobe Dynamic Media Classic, como a data de criação do arquivo, a data de publicação e as palavras-chave. Para exibir metadados, abra o ativo na Exibição de detalhes e selecione o painel Metadados. É possível inserir e editar metadados na Exibição de Detalhes.
+Os metadados são exibidos na Exibição de detalhes. Ela é exibida junto com as informações geradas pela Adobe Dynamic Media Classic. Por exemplo, data de criação do arquivo, data de publicação e palavras-chave. Para exibir metadados, abra o ativo na Exibição de detalhes e selecione o painel Metadados. É possível inserir e editar metadados na Exibição de Detalhes.
 
 Alguns metadados são incorporados diretamente a um arquivo. Se um arquivo contiver esses metadados, o Adobe Dynamic Media Classic fará o upload automaticamente com o arquivo. É possível incorporar metadados em ativos de origem no Adobe Photoshop, InDesign, Illustrator e outros aplicativos; a Adobe Dynamic Media Classic reconhece esses metadados. Você também pode adicionar metadados a arquivos individuais no painel Metadados na Exibição de detalhes. Para garantir a consistência entre os ativos, os administradores da empresa criam modelos de metadados que fornecem os campos de metadados que podem ser preenchidos.
 
@@ -49,7 +49,7 @@ Consulte [Visualizações de metadados](application-setup.md#metadata_views) par
    * Escolha uma Exibição de metadados para determinar quais campos de metadados aparecem no painel.
    * Escolha um Valor predefinido e selecione **[!UICONTROL Apply]** para preencher campos de metadados com valores predefinidos. Os administradores da empresa criam esses valores predefinidos.
 
-1. Insira valores no painel Metadados.
+1. Insira os valores no painel Metadados.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Em vez de inserir metadados manualmente um ativo de cada vez, você pode importa
 >Você pode criar um modelo para inserir metadados, de modo que eles possam ser importados corretamente para o Adobe Dynamic Media Classic. Após criar o template, você pode usá-lo para inserir os metadados.
 >Consulte [Crie um modelo para inserir metadados para fazer upload](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
-Você pode encontrar mais informações sobre propriedades padronizadas em [Centro de desenvolvedores do Adobe XMP](https://www.adobe.com/devnet/xmp.html).
+Você pode encontrar mais informações sobre propriedades padronizadas no [Centro de desenvolvedores do Adobe XMP](https://www.adobe.com/devnet/xmp.html).
 
 1. No Painel de navegação, selecione as imagens às quais deseja adicionar metadados do arquivo XML ou delimitado por tabulação.
 1. Ir para **[!UICONTROL File]** > **[!UICONTROL Import Metadata]**.
@@ -97,15 +97,15 @@ Você pode encontrar mais informações sobre propriedades padronizadas em [Cent
 
 Lembre-se do seguinte ao identificar diferentes tipos de metadados a serem importados:
 
-* Os campos definidos pelo usuário são identificados pelo nome, conforme criado em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL User-Defined fields]**. Use o `Generate file` funcionalidade para obter uma lista de todos os UDFs definidos no formato de importação correto.
+* Os nomes dos campos definidos pelo usuário são identificados como criados na **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL User-Defined fields]**. Use o `Generate file` funcionalidade para obter uma lista de todos os UDFs definidos no formato de importação correto.
 * As propriedades de metadados de XMP devem ter o prefixo XMP relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo XMP pode ser encontrado em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]** editor. Os nomes técnicos podem ser encontrados na documentação do schema XMP relacionado. Os nomes de propriedades do XMP não aparecem no `Generate file` recurso.
-* As propriedades do esquema de metadados devem ter o prefixo relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo e os nomes de propriedade são definidos no editor de esquema de metadados. Os nomes das propriedades do esquema de metadados não aparecem no `Generate file` recurso.
+* As propriedades do esquema de metadados devem ter o prefixo relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo e os nomes de propriedade são definidos no Editor de esquema de metadados. Os nomes das propriedades do esquema de metadados não aparecem no `Generate file` recurso.
 
 Por exemplo: a propriedade XMP para palavras-chave é o schema XMP &quot;Dublin Core&quot; com o prefixo `dc` e `subject` é o nome técnico do XMP. O prefixo e o nome técnico do XMP são combinados no `dc:subject` nome completo da propriedade. No formato de importação de metadados XML, `dc.subject` deve ser o nome da propriedade. No formato de importação delimitado por tabulação, deve ser o cabeçalho da coluna.
 
 ### Importar palavras-chave
 
-As palavras-chave podem ser importadas como uma lista separada por vírgulas. Se uma vírgula aparecer em qualquer um dos valores individuais, ela deverá ser evitada com uma barra invertida (\). Uma barra invertida literal é a barra invertida dupla usual (\\).
+As palavras-chave podem ser importadas como uma lista separada por vírgulas. Se uma vírgula aparecer em qualquer um dos valores individuais, escape-a usando uma barra invertida (\). Uma barra invertida literal é a barra invertida dupla usual (\\).
 
 Por exemplo, um arquivo de importação de metadados contendo o valor `Hello\, World!,back\\slash,foo` para `dc:subject` O define três palavras-chave XMP no ativo: `Hello, World!,` `back\slash,` e `foo`.
 
@@ -127,11 +127,11 @@ O prefixo deve ser adicionado ao cabeçalho de coluna relacionado do campo de im
 
 ## Importar metadados (via FTP) {#import-metadata-via-ftp}
 
-É possível importar metadados de vários arquivos inserindo-os em um arquivo XML ou delimitado por tabulação e selecionando **[!UICONTROL Process metadata files]** na página Fazer upload das opções de trabalho (pela guia FTP).
+É possível importar metadados de vários arquivos. Você insere os metadados em um arquivo XML delimitado por tabulação. Em seguida, selecione **[!UICONTROL Process metadata files]** na página Fazer upload das opções de trabalho (pela guia FTP).
 
 Verifique se os dados no arquivo XML ou delimitado por tabulação estão no formato correto. Na primeira linha, insira o campo ID seguido pelos nomes dos campos de metadados que devem ser modificados. Em cada linha subsequente, insira um nome de ID de ativo seguido por valores de metadados. Os campos que não estão incluídos no arquivo XML ou delimitado por tabulação não são modificados.
 
-Na barra Navegação global, selecione **[!UICONTROL Upload]**. Para importar os metadados, na página Upload, selecione a variável **[!UICONTROL Via FTP]** e selecione **[!UICONTROL Job Options]**. Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Job]** e selecione **[!UICONTROL Process metadata files]** caixa de seleção
+Na barra Navegação global, selecione **[!UICONTROL Upload]**. Para importar os metadados, na página Upload, selecione a variável **[!UICONTROL Via FTP]** e selecione **[!UICONTROL Job Options]**. Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Job]**, em seguida, selecione a **[!UICONTROL Process metadata files]** caixa de seleção
 
 ## Renomear IDs em lote usando metadados {#batch-rename-ids-using-metadata}
 
@@ -177,21 +177,21 @@ Você pode usar o Editor de esquema de metadados para executar as seguintes aç�
 | Mover para cima/Mover para baixo | A ordem no esquema é refletida na interface do usuário. Para alterar a ordem, selecione uma propriedade ou um valor de escolha e mova-o com os botões. Arrastar e soltar não é suportado no momento. |
 | Excluir | Exclui uma propriedade ou um valor de opção do esquema. Ele não exclui valores do bloco XMP ou do banco de dados. A propriedade não está mais disponível para Exibições de metadados e é removida da Exibição de detalhes do ativo. Se a propriedade tiver sido publicada no Servidor de Metadados, execute uma publicação forçada para remover os dados do Servidor de Metadados voltado para o público. |
 
-O sistema gera automaticamente um esquema personalizado para campos definidos pelo usuário com o prefixo `s7udf`. O esquema consiste em Campos existentes definidos pelo usuário que são editados em sua própria seção Configuração.
+O sistema gera automaticamente um esquema personalizado para campos definidos pelo usuário com o prefixo `s7udf`. O esquema consiste em campos existentes definidos pelo usuário que são editados em sua própria seção Configuração.
 
 >[!NOTE]
 >
 >As alterações no esquema nunca alteram os próprios metadados do ativo. No entanto, elas não estão visíveis para todas as funcionalidades do Adobe Dynamic Media Classic e do Servidor de metadados e não podem ser acessadas após serem alteradas. Da mesma forma, se existirem metadados para um ativo, a criação do esquema correspondente torna os metadados utilizáveis no Adobe Dynamic Media Classic e no Servidor de metadados.
 
-O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou editar um esquema de empresa personalizado dentro do Adobe Dynamic Media Classic. Um esquema é definido por um prefixo, um namespace e uma lista de propriedades.
+O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou editar um esquema de empresa personalizado dentro do Adobe Dynamic Media Classic. Um prefixo, um namespace e uma lista de propriedades definem um esquema.
 
 * **[!UICONTROL Name]** - Nome de interface do usuário para o esquema. Usado para identificar as propriedades em Visualizações de metadados e Pesquisa avançada. Semelhante a Seções XMP como Básico, IPTC, PDF.
 
-* **[!UICONTROL Prefix]** - Identificador técnico exclusivo do esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. O prefixo é usado para identificar exclusivamente campos de metadados em consultas de pesquisa de metadados no servidor de metadados ou na importação.
+* **[!UICONTROL Prefix]** - Identificador técnico exclusivo do esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. O prefixo identifica exclusivamente campos de metadados em consultas de pesquisa de metadados no servidor de metadados ou na importação.
 
 * **[!UICONTROL Namespace]** - Identificador técnico exclusivo do esquema, normalmente um URL no formulário `https://your.company.com/name/version/`. Consulte a lista de esquemas padrão para ver exemplos. O namespace não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado para armazenar metadados no bloco XMP.
 
-* **[!UICONTROL Description]** - Descrição de forma livre do esquema.
+* **[!UICONTROL Description]** - Descrição do esquema em formato livre.
 
 >[!NOTE]
 >
@@ -203,10 +203,10 @@ As propriedades descrevem os metadados que podem ser armazenados com esse schema
 | --- | --- |
 | ID | Identificador técnico desta propriedade. A ID não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. A ID é usada para criar consultas de pesquisa no Servidor de metadados. A ID tem algumas restrições, como: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para esta propriedade. |
-| Estrutura | Determina o tipo da propriedade junto com o Tipo de dados. A estrutura pode ser uma de:<ul><li>Tipo simples: valor único do tipo de dados</li><li>Sequência: uma lista de valores do mesmo tipo de dados</li><li>Abrir Opção: selecione um item de uma lista de valores predefinidos ou informe texto livre. Pode ser somente do tipo de dados String ou Integer</li><li>Opção Fechada: selecione um item em uma lista de valores predefinidos (uma pop-up ou caixa de combinação)</li></ul> |
+| Estrutura | Determina o tipo da propriedade junto com o Tipo de dados. A estrutura pode ser uma de:<ul><li>Tipo simples: valor único do tipo de dados</li><li>Sequência: uma lista de valores do mesmo tipo de dados</li><li>Abrir Opção: selecione um item de uma lista de valores predefinidos ou informe o texto. Ele só pode ser do tipo de dados String ou Integer</li><li>Opção Fechada: selecione um item em uma lista de valores predefinidos (uma pop-up ou caixa de combinação)</li></ul> |
 | Tipo de dados | Selecione um destes tipos disponíveis: <ul><li>String</li><li>Integer</li><li>Flutuante</li><li>Sim/Não (Booleano)</li><li>Data</li></ul> |
 
-Quando a propriedade tiver a estrutura Escolha Aberta ou Escolha Fechada, você deverá fornecer pelo menos um Valor de Escolha. A opção aberta pode ser alterada. Opção Fechada não pode ser alterada. Todos os Valores de Escolha têm o tipo de dados da propriedade.
+Quando a propriedade tiver a estrutura Escolha Aberta ou Escolha Fechada, você deverá fornecer pelo menos um valor de escolha. A opção aberta pode ser alterada. Opção Fechada não pode ser alterada. Todos os valores de escolha têm o Tipo de dados da propriedade.
 
 | Propriedade | Descrição |
 | --- | --- |

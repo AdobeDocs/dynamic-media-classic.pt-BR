@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
 
 # Fazer logon no Adobe Analytics{#log-in-to-adobe-analytics}
 
-Antes de fazer logon para configurar relatórios do Adobe Analytics e corresponder variáveis de relatório do Adobe Analytics a eventos do Adobe Dynamic Media Classic, verifique se você é membro do grupo de Acesso ao serviço da Web no Adobe Analytics. Os membros deste grupo podem acessar todos os relatórios nos conjuntos de relatórios especificados por meio da API de serviços da Web do Experience Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, vá para **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+Verifique se você é membro do grupo de Acesso ao serviço da Web no Adobe Analytics. Faça isso antes de fazer logon para configurar os relatórios do Adobe Analytics e corresponder as variáveis de relatório do Adobe Analytics aos eventos do Adobe Dynamic Media Classic. Os membros deste grupo podem acessar todos os relatórios nos Conjuntos de relatórios especificados. Faça isso usando a API de serviços da Web do Experience Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, vá para **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 
 Ao fazer logon, você tem a opção de inserir a ID da organização do Experience Cloud para usar a implementação de análise de vídeo mais recente. Se você optar por não inserir sua ID, o relatório de vídeo ainda funcionará. No entanto, isso pode fazer com que os dados não se integrem corretamente com outros dados para esse cliente de fora do Adobe Dynamic Media Classic.
 
@@ -38,8 +38,8 @@ Comece integrando o Dynamic Media Classic com o Adobe Analytics OAuth. Normalmen
 
 1. Siga um destes procedimentos:
 
-   * Na parte superior da página, no **[!UICONTROL Home]** selecione **[!UICONTROL Create new project]**.
-   * Na parte superior da página, no **[!UICONTROL Projects]** guia. Próximo ao canto direito da página, selecione **[!UICONTROL Create new project]**.
+   * Na parte superior da página, no **[!UICONTROL Home]** selecione **[!UICONTROL Create a new project]**.
+   * Na parte superior da página, no **[!UICONTROL Projects]** guia. Próximo ao canto direito da página, selecione **[!UICONTROL Create a new project]**.
 
 1. Na página do projeto, selecione **[!UICONTROL Add API]**.
 1. No **[!UICONTROL Add an API]** selecione **[!UICONTROL Adobe Analytics]**.
