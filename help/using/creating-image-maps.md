@@ -1,6 +1,6 @@
 ---
 title: Criar mapas de imagem
-description: Saiba como criar mapas de imagem no Adobe Dynamic Media Classic.
+description: Saiba como criar Mapas de imagem no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2368'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Um Mapa de imagem é uma região em uma imagem, uma página de eCatalog ou uma imagem em um SpinSet que exibe um painel de sobreposição com texto. Quando o usuário seleciona um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é iniciada para que o usuário possa saber mais sobre um produto. Um contorno é exibido ao redor de um Mapa de imagem quando o usuário move o ponteiro sobre ele.
 
-Além da capacidade de criar mapas de imagem no Adobe Dynamic Media Classic, você também pode criar mapas de imagem ao criar um catálogo no Adobe Acrobat ou Adobe InDesign.
+Além da capacidade de criar Mapas de imagem no Adobe Dynamic Media Classic, você também pode criar Mapas de imagem ao criar um catálogo no Adobe Acrobat ou no Adobe InDesign.
 
 Ao criar Mapas de imagem, você pode executar um dos seguintes procedimentos:
 
@@ -31,7 +31,7 @@ Ao criar Mapas de imagem, você pode executar um dos seguintes procedimentos:
 * Copie Mapas de imagem para outras imagens, páginas de eCatalog ou SpinSets.
 * Exportar mapas de imagem para CSV ou XML.
 * Importe metadados de imagem de um arquivo delimitado por tabulação ou de um arquivo XML.
-* Defina outras ações conforme determinado pelo World Wide Web Consortium.
+* Defina Outras ações conforme determinado pelo World Wide Web Consortium.
 * Visualizar mapas de imagem.
 
 ## Desenhar e ajustar um Mapa de imagem {#drawing-and-adjusting-an-image-map}
@@ -42,13 +42,13 @@ Ao criar Mapas de imagem, você pode executar um dos seguintes procedimentos:
    * Se estiver trabalhando com um SpinSet na Exibição em grade ou em lista, selecione **[!UICONTROL Edit]**. Ou abra-a na Exibição de Detalhes e selecione **[!UICONTROL Edit]**. Selecione um ativo de imagem e selecione **[!UICONTROL Image Map]**.
    * Se você estiver trabalhando com um eCatalog, na Exibição em Grade, Exibição em Lista, Exibição Detalhada, selecione **[!UICONTROL Edit]**. Selecione o **[!UICONTROL Map Pages]** guia.
 
-   ![Imagem do mapa de imagens](assets/ma_image_map.png)
+   ![Ilustração do Mapa de imagem](assets/ma_image_map.png)
 
 1. Desenhe um mapa de imagem retangular ou poligonal (em vários lados):
 
-   * **Mapa retangular** - Selecione a ferramenta Mapa de imagem de retângulo e arraste na página para criar o retângulo. Para adicionar um ponto a um mapa retangular (alterando-o para um mapa de polígono), pressione Ctrl, coloque a ferramenta de inserção no local desejado e selecione.
+   * **Mapa retangular**: selecione a ferramenta Mapa de imagem de retângulo e arraste na página para criar o retângulo. Para adicionar um ponto a um mapa retangular (alterando-o para um mapa de polígono), pressione Ctrl, coloque a ferramenta de inserção no local desejado e selecione.
 
-   * **Mapa poligonal** - Selecione a ferramenta Mapa de imagem de polígono e selecione pontos no perímetro da área da imagem que você deseja delimitar. Use o controle deslizante de densidade do polígono para variar a densidade do ponto no polígono. A densidade original é lembrada se você selecionar outros mapas. Se qualquer ponto for adicionado, excluído ou movido no polígono, a densidade original é perdida e o controle deslizante é redefinido para seu valor máximo.
+   * **Mapa poligonal**: selecione a ferramenta Mapa de Imagem de Polígono e selecione pontos no perímetro da área da imagem que você deseja delimitar. Use o controle deslizante de densidade do polígono para variar a densidade do ponto no polígono. A densidade original é lembrada se você selecionar outros mapas. Se algum ponto for adicionado, excluído ou movido no polígono, a densidade original será perdida. O controle deslizante é redefinido para seu valor máximo.
 
 1. Insira um nome para o Mapa de imagem, se desejado, na lista Mapa de imagem. Depois de desenhar um Mapa de imagem, o Adobe Dynamic Media Classic atribui um nome a ele.
 
@@ -68,7 +68,12 @@ Ao criar Mapas de imagem, você pode executar um dos seguintes procedimentos:
 
    * Para visualizar Mapas de imagem, selecione **[!UICONTROL Preview]**.
    * Para excluir um Mapa de Imagem ou vértice do polígono, selecione uma forma na imagem e selecione **[!UICONTROL Delete]**. Ou, para um eCatalog, na guia Ordenar páginas, selecione **[!UICONTROL Clear Maps]** para remover Mapas de imagem de todas as páginas.
-   * Para remover temporariamente um Mapa de imagem de uma imagem, uma imagem em um SpinSet ou uma página eCatalog, sem excluí-la, desmarque a opção Ativado apropriada na lista Mapa de imagem.
+   * Para remover um:
+      * Mapa de imagem de uma imagem
+      * uma imagem em um SpinSet
+      * ou uma página de eCatalog
+
+     temporariamente, sem excluí-lo, desmarque a opção Ativado apropriada na lista Mapa de imagem.
 
 1. Selecionar **[!UICONTROL Save]**.
 
@@ -76,17 +81,17 @@ Ao criar Mapas de imagem, você pode executar um dos seguintes procedimentos:
 
 Para alterar a posição, a forma e o tamanho de um Mapa de Imagem, selecione o botão Mapa de Imagem. Em seguida, selecione o **[!UICONTROL Pan]** e siga estas instruções:
 
-* **Alterar posição** - Mova o ponteiro próximo à borda do Mapa de imagem, mas não acima dela. Ao visualizar o ícone de seta de quatro pontas, arraste o mapa para um novo local.
+* **Alterar posição**: mova o ponteiro próximo à borda do Mapa de imagem, mas não acima dela. Ao visualizar o ícone de seta de quatro pontas, arraste o mapa para um novo local.
 
-* **Alterar tamanho e forma** - A maneira como você altera a forma e o tamanho de um Mapa de imagem depende se você está trabalhando com um Mapa de imagem retangular ou poligonal:
+* **Alterar tamanho e forma**: a forma como você altera a forma e o tamanho de um Mapa de imagem depende de você estar trabalhando com um Mapa de imagem retangular ou poligonal:
 
 >[!TIP]
 >
 >Você pode arrastar o controle deslizante Tamanho na parte inferior da tela para alterar visualizações e obter uma melhor visualização do Mapa de imagem.
 
-* **Mapa de imagem retangular** - Mova o ponteiro sobre um lado ou canto do Mapa de imagem. Ao visualizar o ícone de seta de duas pontas, comece a arrastar. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas mantenha a proporção (a forma).
+* **Mapa de imagem retangular**: mova o ponteiro sobre um lado ou canto do Mapa de imagem. Ao visualizar o ícone de seta de duas pontas, comece a arrastar. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas manter a proporção (a forma).
 
-* **Mapa de imagem poligonal** - Arraste uma alça de seleção quadrada. Para criar uma alça de seleção, selecione a borda do Mapa de imagem e comece a arrastar.
+* **Mapa de imagem poligonal**: arraste uma alça de seleção quadrada. Para criar uma alça de seleção, selecione a borda do Mapa de imagem e comece a arrastar.
 
 ### Manipular mapas de imagem sobrepostos {#handling-overlapping-image-maps}
 
@@ -94,7 +99,7 @@ Se sua página de imagem ou eCatalog incluir mais de um Mapa de imagem e os mapa
 
 ### Importar dados do Mapa de imagem {#importing-image-map-data}
 
-Em vez de inserir dados do Mapa de imagem em cada página, você pode importar os dados da imagem, do Conjunto de rotação ou do eCatalog na tela Resumo do mapa. Importe os dados do Mapa de imagem no formato de um arquivo delimitado por tabulação ou DTD XML. Os campos no arquivo devem estar na ordem mostrada na tela Resumo do Mapa: Nome, Rótulos do índice, Mapas, URLs, Texto de rolagem, Outras ações e Strings de pesquisa. A importação de dados do Mapa de imagem evita a dificuldade de inserir os dados na Lista de Mapas de imagem à medida que você cria cada Mapa de imagem.
+Em vez de inserir dados do Mapa de imagem em cada página, você pode importar os dados da imagem, do Conjunto de rotação ou do eCatalog na tela Resumo do mapa. Importe os dados do Mapa de imagem no formato de um arquivo delimitado por tabulação ou DTD XML. Os campos no arquivo devem estar na ordem mostrada na tela Resumo do Mapa: Nome, Rótulos do índice, Mapas, URLs, Texto de rolagem, Outras ações e Strings de pesquisa. A importação de dados do Mapa de imagem evita a dificuldade de inserir os dados na lista do Mapa de imagem à medida que você cria cada Mapa de imagem.
 
 **Para importar dados do Mapa de imagem:**
 
@@ -111,7 +116,7 @@ Em vez de inserir dados do Mapa de imagem em cada página, você pode importar o
 
 É possível copiar Mapas de imagem de uma imagem ou de uma página de eCatalog para outra. Uso **[!UICONTROL Copy Image Map]** para começar a criá-las. Também é possível copiar Mapas de imagem para recriá-los em imagens ou páginas que compartilham layout ou estrutura de mapeamento.
 
-Por exemplo, copiar Mapas de imagens em um eCatalog é uma maneira conveniente de copiar todos os mapas de imagens entre versões em outros idiomas do mesmo eCatalog. Para obter melhores resultados, a cópia é mais bem-sucedida se você copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens. Se o eCatalog para o qual você copiar já contiver Mapas de imagem, esses Mapas de imagem serão excluídos quando a cópia for feita.
+Por exemplo, copiar Mapas de imagens em um eCatalog é uma maneira conveniente de copiar todos os Mapas de imagens entre versões em outros idiomas do mesmo eCatalog. Para obter melhores resultados, a cópia é mais bem-sucedida se você copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens. Se o eCatalog para o qual você copiar já contiver Mapas de imagem, esses Mapas de imagem serão excluídos quando a cópia for feita.
 
 **Para copiar Mapas de Imagem:**
 
@@ -130,11 +135,11 @@ Você pode definir um modelo de URL (também conhecido como modelo Href) para to
 
 >[!NOTE]
 >
->Ao adicionar o código JavaScript ao atributo HREF do mapa de imagem, ele é executado no computador do cliente. Portanto, verifique se o código JavaScript é seguro.
+>Ao adicionar o código JavaScript ao atributo HREF do Mapa de imagem, ele é executado no computador do cliente. Portanto, verifique se o código JavaScript é seguro.
 
 ### Sobre modelos de URL {#about-url-templates}
 
-O modelo de URL funciona substituindo o conteúdo da coluna de URL na lista do Mapa de imagem pelos sinais de cifrão duplo (&#39;$$&#39;) no modelo:
+O modelo de URL funciona substituindo o conteúdo da coluna URL na lista Mapa de imagem. Ele o substitui pelos sinais de cifrão duplo (&#39;$$&#39;) no modelo:
 
 ```as3
 Javascript:loadProduct('$$');void(0);
@@ -148,9 +153,9 @@ Você coloca todos os valores que não são alterados entre Mapas de imagem no m
 
 Por padrão, o modelo de URL inclui um manipulador Adobe Dynamic Media Classic JavaScript proprietário chamado `loadProduct` que abre uma nova janela com o destino do URL. No entanto, você pode usar qualquer código JavaScript para substituir esse manipulador JavaScript ou usar um dos seguintes manipuladores Adobe Dynamic Media Classic:
 
-* `loadProductCW` - Exibe o destino de URL especificado na coluna URL na janela atual. Esse manipulador é principalmente para eCatalogs que são integrados em uma página em um site.
+* `loadProductCW`: exibe o destino do URL especificado na coluna URL na janela atual. Esse manipulador é principalmente para eCatalogs que são integrados em uma página em um site.
 
-* `loadProductPW` - Exibe o destino do URL especificado na coluna URL na janela principal (a página que abriu a atual). A janela atual permanece aberta, mas a janela pai é alterada para exibir o destino do URL.
+* `loadProductPW`: exibe o destino do URL especificado na coluna URL na janela principal (a página que abriu a atual). A janela atual permanece aberta, mas a janela pai é alterada para exibir o destino do URL.
 
   >[!NOTE]
   >
@@ -158,7 +163,7 @@ Por padrão, o modelo de URL inclui um manipulador Adobe Dynamic Media Classic J
 
 ### Criar um modelo de URL {#creating-a-url-template}
 
-1. Na tela Editor de mapas (imagens ou SpinSets) ou na guia Mapear páginas da tela eCatalog (eCatalogs), selecione Editar ao lado da opção Modelo de URL. A caixa de diálogo Editar modelo de mapa é aberta.
+1. Na tela Editor de mapas (imagens ou SpinSets) ou na guia Mapear páginas da tela eCatalog (eCatalogs), selecione Editar ao lado da opção de modelo de URL. A caixa de diálogo Editar modelo de mapa é aberta.
 1. Insira o código JavaScript e o URL completo (com a parte da variável substituída por cifrões) [$$]). Você pode colar o código clicando com o botão direito do mouse e escolhendo **[!UICONTROL Paste]**.
 1. Selecionar **[!UICONTROL Save]**.
 
@@ -166,19 +171,19 @@ Por padrão, o modelo de URL inclui um manipulador Adobe Dynamic Media Classic J
 
 A página Editor de mapa (imagens e SpinSets) e a guia Páginas de mapa da tela eCatalog (eCatalogs) oferecem estes comandos para manipular modelos de URL:
 
-* **Opção Modelo de URL** - Selecione a opção Modelo de URL para aplicar seu modelo de URL a todos os Mapas de imagem em uma página de imagem ou eCatalog.
+* **Opção de modelo de URL**: selecione a opção de modelo de URL para aplicar seu modelo de URL a todos os Mapas de imagem em uma página de imagem ou eCatalog.
 
-* **Opção de modelo** - Desmarque uma opção Modelo na lista Mapa de imagem de URL se não quiser que um Mapa de imagem individual use o modelo de URL.
+* **Opção de modelo**: Desmarque uma opção Modelo na lista Mapa de imagem do URL se não quiser que um Mapa de imagem individual use o modelo de URL.
 
 ## Definir outras ações para Mapas de imagem {#defining-other-actions-for-image-maps}
 
 É possível selecionar a variável **[!UICONTROL Show]** e escolha **[!UICONTROL Other Actions]** para acionar ações diferentes da sobreposição de texto e de inicializações de página da Web. Quando o usuário move o ponteiro sobre um Mapa de imagem, é possível iniciar uma ação. Essas ações são atributos definidos para mapas de imagem do lado do cliente pelas especificações de HTML do World Wide Web Consortium. Eles incluem:
 
-* **`accesskey`** - Aciona uma ação quando o usuário pressiona uma tecla designada no teclado.
+* **`accesskey`**: aciona uma ação quando o usuário pressiona uma tecla designada no teclado.
 
-* **`onfocus`** - Aciona um evento quando o Mapa de imagem recebe foco — pelo cursor, tabulação ou pressionando uma tecla de acesso. Por exemplo, é possível iniciar uma página da Web quando o Mapa de imagem recebe o foco e fechá-lo quando o Mapa de imagem perde o foco.
+* **`onfocus`**: aciona um evento quando o Mapa de imagem recebe foco — pelo cursor, tabulação ou pressionando uma tecla de acesso. Por exemplo, é possível iniciar uma página da Web quando o Mapa de imagem recebe o foco e fechá-lo quando o Mapa de imagem perde o foco.
 
-* **`onblur`** - Aciona um evento quando o Mapa de imagem perde o foco, seja pelo cursor ou pela tabulação.
+* **`onblur`**: aciona um evento quando o Mapa de imagem perde o foco, seja pelo cursor ou pela tabulação.
 
 **Para definir outras ações para Mapas de imagem:**
 
@@ -192,7 +197,7 @@ Selecione o **[!UICONTROL Show]** e selecione **[!UICONTROL Both]** se quiser qu
 
 É possível criar Mapas de imagem ao projetar seu eCatalog no Adobe Acrobat ou Adobe InDesign.
 
-No Adobe Acrobat ou Adobe InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem sejam exibidos e especifique os locais de URL do mapa de imagem. Selecionar a opção Extrair links ao fazer upload do arquivo de PDF no Adobe Dynamic Media Classic converte automaticamente os links para Mapas de imagem.
+No Adobe Acrobat ou Adobe InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem sejam exibidos e especifique os locais de URL para o Mapa de imagem. Selecionar a opção Extrair links ao fazer upload do arquivo de PDF no Adobe Dynamic Media Classic converte automaticamente os links para Mapas de imagem.
 
 Para obter mais informações, consulte Ajuda do Adobe InDesign ou Ajuda do Adobe Acrobat.
 
@@ -201,7 +206,7 @@ Para obter mais informações, consulte Ajuda do Adobe InDesign ou Ajuda do Adob
 1. No Adobe InDesign, acesse **[!UICONTROL Windows®]** > **[!UICONTROL Interactive]** > **[!UICONTROL Hyperlinks]**.
 1. No painel &#39;Hiperlinks&#39;, selecione o texto, o quadro ou o gráfico que deseja transformar em um mapa de imagem.
 1. Selecionar **[!UICONTROL New Hyperlink]** no menu do painel.
-1. Na caixa de diálogo Novo hiperlink, no **[!UICONTROL Link To]** escolha **[!UICONTROL URL]**.
+1. Na caixa de diálogo Novo hiperlink, no **[!UICONTROL Link To]** selecione o **[!UICONTROL URL]**.
 1. Digite ou cole a ID do produto na caixa URL.
 1. Selecionar **[!UICONTROL OK]**. (O Adobe Dynamic Media Classic conclui o URL usando o modelo de URL do Mapa de imagem.)
 
@@ -226,7 +231,7 @@ Para obter mais informações, consulte Ajuda do Adobe InDesign ou Ajuda do Adob
 
 1. Na caixa Propriedades do link, selecione **[!UICONTROL Actions]**.
 1. Selecionar **[!UICONTROL Open A Web Link]** no menu Selecionar ação e selecione **[!UICONTROL Add]**.
-1. Digite a ID do produto para o Mapa de imagem na caixa Editar URL e selecione **[!UICONTROL OK]**. (O Adobe Dynamic Media Classic conclui o URL usando o modelo de URL do mapa de imagem.)
+1. Digite a ID do produto para o Mapa de imagem na caixa Editar URL e selecione **[!UICONTROL OK]**. (O Adobe Dynamic Media Classic conclui o URL usando o modelo de URL do Mapa de imagem.)
 1. Repita as etapas de 1 a 7 para todos os Mapas de imagem que deseja criar.
 1. Salve o arquivo.
 1. Faça upload do PDF para o Adobe Dynamic Media Classic e selecione Extrair links nas Opções de PDF.

@@ -10,9 +10,9 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Você pode usar a Visualização para ver como um ativo digital aparece quando v
 
 Consulte [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers).
 
-Se você estiver visualizando um ativo de modelo com camadas de parâmetros, poderá alterar os parâmetros ou alterar a predefinição da imagem. Como as alterações são feitas em linha, é possível visualizar os resultados imediatamente na mesma janela de Pré-visualização.
+Se estiver visualizando um ativo de modelo com camadas de parâmetros, você poderá alterar parâmetros ou alterar a Predefinição de imagem. Como as alterações são feitas em linha, é possível visualizar os resultados imediatamente na mesma janela de Pré-visualização.
 
 Consulte também [Exemplos de biblioteca de referência de visualizadores do Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
@@ -43,7 +43,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 ## Visualizar um ativo com base no tipo de plataforma do visualizador {#previewing-an-asset-based-on-viewer-platform-type}
 
-Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em um tipo específico de plataforma do visualizador, como HTML5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Lista do visualizador.
+Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em um tipo específico de plataforma do visualizador, como HTML 5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Lista do visualizador.
 
 Você também pode usar a Lista de visualizadores para copiar o URL de um visualizador ou visualizá-lo e copiar o código do visualizador para incorporação nas páginas da Web.
 
@@ -63,7 +63,7 @@ Para determinada plataforma de visualização, a janela Lista de visualizadores 
 
    Fechar a visualização exibida.
 
-1. (Opcional) Na janela Lista de visualizadores, na lista suspensa Codificação de URL para geração de URL de cópia na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo quando ele for copiado.
+1. (Opcional) Na janela Lista de visualizadores, na lista suspensa Codificação de URL para geração de URL de cópia na parte inferior, selecione a Codificação de URL. Essa codificação é aplicada ao URL do ativo quando ele é copiado.
 1. (Opcional) Siga qualquer um destes procedimentos:
 
    * Na janela Lista de visualizadores, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]** para um visualizador e tipo de plataforma selecionados.
@@ -82,7 +82,7 @@ Para determinada plataforma de visualização, a janela Lista de visualizadores 
 
 Você pode visualizar um ativo de imagem com base em sua Predefinição de imagem para descobrir como sua imagem será exibida quando for entregue dinamicamente ao seu site ou aplicativo em tamanhos diferentes.
 
-Uma predefinição de imagem é uma coleção de configurações predefinidas que alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
+Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 
 Consulte [Configurar predefinições da imagem](setting-image-presets.md#setting_up_image_presets).
 
@@ -98,7 +98,8 @@ Consulte [Criar e ativar predefinições de imagem](creating-enabling-image-pres
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
 1. Na janela Lista de predefinições de imagem, na tabela, selecione o nome de um tipo de predefinição cujo ativo de imagem você deseja visualizar em linha no painel direito.
-1. (Opcional) Na janela Lista de predefinições de imagens, no **[!UICONTROL URL Encoding for Copy URL Generation]** na parte inferior, selecione a codificação de URL a ser aplicada ao URL do ativo de imagem quando ele for copiado.
+1. (Opcional) Na janela Lista de predefinições de imagens, no **[!UICONTROL URL Encoding for Copy URL Generation]** lista suspensa na parte inferior.
+1. Selecione a Codificação de URL a ser aplicada ao URL do ativo de imagem quando ele for copiado.
 1. (Opcional) Na janela Lista de predefinições de imagens, na área superior direita do painel de visualização, selecione **[!UICONTROL Copy URL]** para o tipo de predefinição selecionado.
 
    Ao selecionar **[!UICONTROL Copy URL]**, seu URL associado é copiado automaticamente para a área de transferência.

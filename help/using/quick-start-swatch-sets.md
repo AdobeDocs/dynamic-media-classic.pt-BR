@@ -10,9 +10,9 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Consulte [Criar e editar predefinições do visualizador](application-setup.md#a
 
 ## 4. Visualizar um conjunto de amostras
 
-Selecione o Conjunto de amostras no painel Procurar e selecione **[!UICONTROL Preview]**. Seu Conjunto de amostras aparece nesta página. Selecione os ícones de miniatura e amostra para examinar o Conjunto de amostras no Visualizador selecionado. É possível escolher Visualizadores diferentes no menu Predefinições.
+Selecione o Conjunto de amostras no painel Procurar e selecione **[!UICONTROL Preview]**. O Conjunto de amostras é exibido nesta página. Selecione os ícones de miniatura e amostra para examinar o Conjunto de amostras no Visualizador selecionado. É possível escolher Visualizadores diferentes no menu Predefinições.
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
@@ -57,4 +57,4 @@ Consulte [Publicar arquivos](publishing-files.md#publishing-files).
 
 O Adobe Dynamic Media Classic cria chamadas de URL para conjuntos de amostras e as ativa após a publicação. Você pode copiar esses URLs da página Pré-visualização.
 
-Selecione o Conjunto de amostras e clique no botão Visualizar. A página Visualizar é aberta. Selecione uma Predefinição do visualizador Conjunto de amostras e clique no botão Copiar URL. Consulte [Vincular um conjunto de amostras a uma página da Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Selecione o Conjunto de amostras e clique no botão Visualizar. A página Visualizar é aberta. Selecione uma Predefinição do visualizador Conjunto de amostras e clique no botão Copiar URL. Consulte [Vincular conjuntos de amostras a páginas da Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

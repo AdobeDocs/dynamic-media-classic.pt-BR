@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Com os problemas, você pode descrever facilmente sua ideia para aprimorar os do
 
 ### Criar um pull request {#create-a-pull-request}
 
-Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com pull requests é possível fazer edições na documentação, que depois são revisadas e incluídas por um membro da equipe de documentação. Para fazer as alterações sugeridas e criar a solicitação de pull, selecione **[!UICONTROL Edit this page]** na parte superior direita do painel de navegação em qualquer página.
+Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com os pull requests, é possível fazer edições na documentação, e um membro da equipe de documentação a revisa para inclusão. Para fazer as alterações sugeridas e criar a solicitação de pull, selecione **[!UICONTROL Edit this page]** na parte superior direita do painel de navegação em qualquer página.
 
-Todos os pull requests devem estar acompanhados de um [Contrato de licença de colaborador ou CLA](https://opensource.adobe.com/cla.html). Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você envia um CLA de Adobe somente uma vez. Portanto, se você enviou um anteriormente, estará configurado.
+Um assinado [Contrato de licença de colaborador ou CLA](https://opensource.adobe.com/cla.html) deve acompanhar todos os pull requests. Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você só pode enviar um CLA de Adobe uma vez. Se tiver enviado um anteriormente, você está configurado.
 
 ### Introdução rápida ao vídeo
 

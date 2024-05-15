@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ O Quick Start a seguir foi projetado para colocar suas operações em funcioname
 
 ## 1. Entenda as funções de usuário do Portal de mídia
 
-Os usuários do Media Portal têm três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Por exemplo, um colaborador pode renomear e excluir arquivos e pastas, mas um usuário não pode fazer essas tarefas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
+Os usuários do Portal de mídia têm três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Por exemplo, um colaborador pode renomear e excluir arquivos e pastas, mas um usuário não pode fazer essas tarefas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
 
 Consulte [Funções de usuário do Portal de mídia](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -47,13 +47,13 @@ Consulte [Criar e gerenciar grupos do Portal de mídia](creating-media-portal-gr
 
 ## 3. Adicionar usuários
 
-Ao adicionar um usuário, você atribui uma função a ele (usuário, colaborador ou usuário-colaborador). Também é possível atribuir o usuário a um ou mais grupos. Para acelerar o processo de adição de usuários, você pode fazer upload de uma lista de usuários no formato de um arquivo CSV. Os novos usuários recebem uma mensagem de e-mail de boas-vindas e instruções para fazer logon no Media Portal.
+Ao adicionar um usuário, você atribui uma função a ele (usuário, colaborador ou usuário-colaborador). Você também pode atribuir o usuário a um ou mais grupos. Para acelerar o processo de adição de usuários, você pode fazer upload de uma lista de usuários no formato de um arquivo CSV. Os novos usuários recebem uma mensagem de e-mail de boas-vindas e instruções para fazer logon no Media Portal.
 
 Consulte [Adicionar e gerenciar usuários do Portal de mídia](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Gerenciar contas FTP
 
-É possível ter contas FTP separadas, associadas ao Portal de mídia e mapeadas para uma pasta específica na sua conta do Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais em sua conta usando contas FTP separadas.
+Você pode ter contas FTP separadas, associadas ao Portal de mídia. Eles podem ser mapeados para uma pasta específica na sua conta da Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais em sua conta usando contas FTP separadas.
 
 Consulte [Gerenciar contas FTP](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Consulte [Especifique as opções de exportação disponíveis para os usuários
 
 ## 6. Criar predefinições de imagem
 
-Uma predefinição de imagem é uma coleção de configurações predefinidas que alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada. É possível criar Predefinições de imagem para controlar como as imagens são reformatadas quando os usuários as exportam.
+Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada. É possível criar Predefinições de imagem para controlar como as imagens são reformatadas quando os usuários as exportam.
 
 Consulte [Criar e ativar predefinições de imagem](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Criar predefinições de metadados e campos de metadados definidos pelo usuário
 
-Os metadados descrevem e identificam um arquivo; ele é usado para pesquisar e organizar ativos. Para garantir que os metadados sejam inseridos corretamente e que os campos de metadados que exigem dados sejam preenchidos, é possível criar predefinições de metadados. Uma predefinição de metadados é um conjunto predefinido de entradas de metadados. Também é possível criar campos de metadados que descrevam exclusivamente os arquivos com os quais você trabalha.
+Os metadados descrevem e identificam um arquivo. É usado para pesquisar e organizar ativos. É possível criar predefinições de metadados para garantir que os metadados sejam inseridos corretamente e que todos os campos de metadados que exigem dados sejam preenchidos. Uma predefinição de metadados é um conjunto predefinido de entradas de metadados. Também é possível criar campos de metadados que descrevam exclusivamente os arquivos com os quais você trabalha.
 
 Consulte [Utilização mais eficiente dos metadados](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 

@@ -9,9 +9,9 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '2322'
+source-wordcount: '2318'
 ht-degree: 0%
 
 ---
@@ -34,23 +34,23 @@ A página Servidor de imagens estabelece configurações padrão para fornecer i
 
 Altere essas configurações somente com a assistência de um suporte técnico da Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Catalog Management]** - Essas configurações determinam como o Adobe Dynamic Media Classic e o catálogo interagem. Diferentemente da maioria dos servidores da Web, as chamadas de URL do Dynamic Media Image Server são direcionadas a um arquivo de manifesto ou catálogo, e não a um arquivo de imagem. O arquivo de catálogo (que não deve ser confundido com um eCatalog) contém uma lista de todo o conteúdo publicado no servidor de imagem junto com o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações de usuário na seção Informações de usuário da Digimarc.
+* **[!UICONTROL Catalog Management]**: essas configurações determinam como o Adobe Dynamic Media Classic e o catálogo interagem. Diferentemente da maioria dos servidores da Web, as chamadas de URL do Dynamic Media Image Server são direcionadas a um arquivo de manifesto ou catálogo, e não a um arquivo de imagem. O arquivo de catálogo (que não deve ser confundido com um eCatalog) contém uma lista de todo o conteúdo publicado no Servidor de imagens. Ele também contém o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações de usuário na seção Informações de usuário da Digimarc.
 
-* **[!UICONTROL Request Attributes]** - Essas configurações impõem limites às imagens que podem ser entregues do servidor. Por exemplo, a variável *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
+* **[!UICONTROL Request Attributes]**: essas configurações impõem limites às imagens que podem ser entregues pelo servidor. Por exemplo, a variável *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
 
-* **[!UICONTROL Default Request Attributes]** - Essas configurações pertencem à aparência padrão das imagens.
+* **[!UICONTROL Default Request Attributes]**: essas configurações pertencem à aparência padrão das imagens.
 
-* **[!UICONTROL Common Thumbnail Attributes]** - Essas configurações pertencem à aparência e ao alinhamento padrão das imagens em miniatura.
+* **[!UICONTROL Common Thumbnail Attributes]**: essas configurações pertencem à aparência e ao alinhamento padrão das imagens em miniatura.
 
-* **[!UICONTROL Defaults for Catalog Fields]** - Essas configurações pertencem à resolução e ao tipo de miniatura padrão das imagens.
+* **[!UICONTROL Defaults for Catalog Fields]**: essas configurações pertencem à resolução e ao tipo de miniatura padrão das imagens.
 
-* **[!UICONTROL Color Management Attributes]** - Essas configurações determinam quais perfis de cores ICC são usados.
+* **[!UICONTROL Color Management Attributes]**: essas configurações determinam quais perfis de cores ICC são usados.
 
-* **[!UICONTROL Compatibility Attributes]** - Essa configuração permite que parágrafos à esquerda e à direita em camadas de texto sejam tratados como na versão 3.6 para oferecer compatibilidade com versões anteriores.
+* **[!UICONTROL Compatibility Attributes]**: essa configuração permite que parágrafos à esquerda e à direita em camadas de texto sejam tratados como estavam na versão 3.6 para oferecer compatibilidade com versões anteriores.
 
-* **[!UICONTROL Localization Support]*** - Essas configurações permitem gerenciar vários atributos de localidade. Também permite especificar uma sequência de mapa de localidade para que você possa definir quais idiomas deseja suportar para as várias dicas de ferramentas em Visualizadores.
+* **[!UICONTROL Localization Support]**: essas configurações permitem gerenciar vários atributos de localidade. Também permite especificar uma sequência de mapa de localidade para que você possa definir quais idiomas deseja suportar para as várias dicas de ferramentas em Visualizadores.
 
-  Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico de localidade. Para obter essa funcionalidade, especifique uma string de mapa de local. Em seguida, edite o texto da dica de ferramenta na predefinição do Visualizador, adicionando as cadeias de caracteres de texto traduzidas para o idioma desejado.
+  Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico de localidade. Para obter essa funcionalidade, especifique uma string de mapa de local. Em seguida, edite o texto da dica de ferramenta na predefinição do Visualizador. Basta adicionar as cadeias de texto traduzidas para o idioma desejado.
 
   >[!NOTE]
   > Para configurar as opções de Suporte à localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite ajuda para a configuração.
@@ -63,7 +63,7 @@ Altere essas configurações somente com a assistência de um suporte técnico d
 >
 >Se desejar configurar as opções de Suporte à localização no Adobe Dynamic Media Classic, como o campo Mapa da localidade, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite ajuda para a configuração.
 
-Uma maneira comum de usar o Adobe Dynamic Media Classic é gerenciar as imagens do produto em sites de comércio eletrônico. As empresas internacionais enfrentam o desafio de que os ativos para produtos semelhantes pareçam diferentes de país para país. Geralmente, as diferenças se referem a algumas partes da mídia geral. Resolver essas diferenças copiando todos os ativos para cada um dos países e substituindo apenas as diferenças é um esforço tremendo e contradiz a metáfora do ativo principal individual. Essas diferenças nos recursos podem variar, desde vídeos específicos de cada país com faixas de áudio diferentes até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Adobe Dynamic Media Classic usa um mecanismo básico de pesquisa. Você define uma ordem de sufixos de ativos que o Servidor de imagens procura, começando pelo local necessário.
+Uma maneira comum de usar o Adobe Dynamic Media Classic é gerenciar as imagens do produto em sites de e-Commerce. As empresas internacionais enfrentam o desafio de que os ativos para produtos semelhantes pareçam diferentes de país para país. Geralmente, as diferenças se referem a algumas partes da mídia geral. Resolver essas diferenças copiando todos os ativos para cada um dos países e substituindo apenas as diferenças é um esforço tremendo e contradiz a metáfora do ativo principal individual. Essas diferenças nos recursos podem variar, desde vídeos específicos de cada país com faixas de áudio diferentes até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Adobe Dynamic Media Classic usa um mecanismo básico de pesquisa. Você define uma ordem de sufixos de ativos que o Servidor de imagens procura, começando pelo local necessário.
 
 #### Como os ativos são localizados
 
@@ -71,7 +71,7 @@ O local de uma solicitação IS (Servidor de imagens) é identificado com o segu
 
 `locale=`
 
-Este comando aceita uma sequência de caracteres de ID de localidade (locId) que não diferencia maiúsculas de minúsculas. A ID do local geralmente é uma string de 2 a 6 caracteres composta por letras e &quot;_&quot;.
+Este comando aceita uma sequência de caracteres de ID de localidade (locId) que não diferencia maiúsculas de minúsculas. A ID do local geralmente é uma string de 2 a 6 caracteres composta por letras e &quot;`_`.&quot;
 
 IS suporta strings ASCII imprimíveis arbitrárias. A variável `locale=` tem um escopo global, o que significa que é aplicado a toda a solicitação, incluindo todas as solicitações IS e IR aninhadas, modelos referenciados e camadas de imagem. Não há suporte para várias localidades por solicitação, como uma localidade diferente para cada camada. No entanto, é concebível permitir substituições explícitas em solicitações aninhadas.
 
@@ -83,8 +83,8 @@ Alguns dos benefícios de usar `locale=` e `attribute::DefaultLocale` incluem:
 * Acesse o conteúdo específico do local usando ids genéricas.
 * Permita flexibilidade em convenções de nomenclatura e no gerenciamento de conteúdo específico da localidade, como prefixo de localidade versus sufixo ou conteúdo específico da localidade em um catálogo separado.
 * Acesso de suporte a versões específicas do local.
-* Objetos agregados, como conjuntos de imagens, às vezes podem conter referências genéricas a conteúdos potencialmente específicos de localidade.
-* Suporta todo o conteúdo gerenciado por catálogos que precisam de localização, incluindo imagens, conjuntos de imagens, vinhetas, materiais e registros de configuração do visualizador.
+* Objetos agregados, como Conjuntos de imagens, às vezes podem conter referências genéricas a conteúdos potencialmente específicos do local.
+* Suporta todo o conteúdo gerenciado por catálogos que precisam de localização, incluindo imagens, Conjuntos de imagens, vinhetas, materiais e registros de configuração do visualizador.
 * Minimize as alterações no banco de dados do IPS e nos mecanismos de manifesto do IS.
 * O suporte para conteúdo estático, como vídeos e capas, é adicionado quando o RFC IS-63 é implementado.
 * O local padrão é configurável.
@@ -95,7 +95,7 @@ Alguns dos benefícios de usar `locale=` e `attribute::DefaultLocale` incluem:
 | --- | --- |
 | Localização do visualizador | Depois que os catálogos de conteúdo estático são implementados, a localização é controlada totalmente com o parâmetro locale=, anexado a todas as solicitações feitas no IS. Registros de configuração, capas, telas iniciais e assim por diante podem ter variantes específicas do local ou não. O conteúdo correto é fornecido pelo IS sem que o visualizador precise saber qual conteúdo está localizado e quais são suas IDs. |
 | Imagens e vídeo | As empresas multinacionais geralmente têm uma combinação de conteúdos genéricos e específicos do local. Com esse mecanismo, uma referência a uma imagem ou vídeo pode ser genérica, e o IS serve o conteúdo específico do local, se disponível. |
-| Conjuntos de imagens e conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um conjunto de imagens genérico para um conjunto específico de localidades manipulada pelo visualizador. Normalmente, as IDs individuais em um conjunto genérico podem se referir a conteúdos localizados. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto na foto do Painel de controle do Campaign. O IS traduz IDs automaticamente, de modo que não há necessidade de gerar conjuntos de imagens específicos do local. |
+| Conjuntos de imagens e conjuntos de mídia | O conjunto de imagens inteiro pode ser diferente para algumas localidades, como quando um eCatalog é diferente, com a tradução de um conjunto de imagens genérico para um conjunto específico de localidade manipulada pelo visualizador. Normalmente, as IDs individuais em um conjunto genérico podem se referir a conteúdos localizados. Por exemplo, a maioria das fotos de um equipamento pode ser a mesma em todos os idiomas, exceto na foto do Painel de controle do Campaign. O é capaz de traduzir IDs automaticamente, de modo que não há necessidade de gerar Conjuntos de imagens específicos do local. |
 
 #### Implementar a localização de ativos
 
@@ -147,11 +147,11 @@ Suponha que você deseja oferecer suporte às seguintes localidades:
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-Você mapeia essas localidades para os sufixos `_E`, `_G`, e `_F`, para inglês, alemão e francês, respectivamente. Para todos os exemplos, a ID de imagem de entrada genérica é `myImg`.
+Você mapeia essas localidades para os sufixos `_E` (Inglês), `_G` (Alemão) e `_F` (Francês). Para todos os exemplos, a ID de imagem de entrada genérica é `myImg`.
 
 ##### Comportamento padrão para localizar localeMap
 
-As IDs de localidade são mapeadas para seus sufixos correspondentes. Se nenhuma ID específica da localidade for encontrada no catálogo, a ID genérica será tentada. Observe os valores locSuffix vazios que são mapeados para a ID genérica.
+As IDs de localidade são mapeadas para seus sufixos correspondentes. Se nenhuma ID específica da localidade for encontrada no catálogo, a ID genérica será tentada. Observe os valores de locSuffix vazios que são mapeados para a ID genérica.
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
@@ -164,7 +164,7 @@ As IDs de localidade são mapeadas para seus sufixos correspondentes. Se nenhuma
 
 ##### Localizar o localeMap quando o locale é desconhecido
 
-Você pode mapear localidades desconhecidas para IDs específicas ou para IDs genéricas. Por exemplo, é possível mapear locais desconhecidos para as IDs em inglês ou, se eles não existirem, para as IDs genéricas.
+Você pode mapear localidades desconhecidas para IDs específicas ou para IDs genéricas. Por exemplo, você pode mapear locais desconhecidos para as IDs em inglês ou, se eles não existirem, para as IDs genéricas.
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
@@ -186,7 +186,7 @@ Ou você pode mapear diretamente para a ID genérica, como no seguinte:
 
 Muitas vezes é desejável agrupar locais, como Europeu, Oriente Médio e América do Norte, para abordar padrões regionais, como a exposição da pele. Você pode obter esse efeito usando uma pesquisa em várias camadas.
 
-Neste exemplo, suponha que você queira oferecer suporte a coleções para uso no Oeste e no Oriente Médio. Ambas as coleções se baseiam na coleção de imagens genérica e adicionam ou modificam algumas imagens. Ambas as coleções são então refinadas para locais específicos, como `m1, m2` para duas variantes do médio oriente, e `w1, w2,` e `w3` para três localidades ocidentais, exceto que as imagens são compartilhadas para `w1` e `w3`. Locais desconhecidos são mapeados somente para a coleção genérica e não têm acesso a imagens específicas do local. O mapa seria mostrado a seguir:
+Por exemplo, suponha que você queira oferecer suporte a coleções para uso no Oeste e no Oriente Médio. Ambas as coleções se baseiam na coleção de imagens genérica e adicionam ou modificam algumas imagens. Ambas as coleções são então refinadas para localidades específicas. Por exemplo, `m1, m2` para duas variantes do médio oriente, e `w1, w2,` e `w3` para três localidades ocidentais, exceto que as imagens são compartilhadas para `w1` e `w3`. Locais desconhecidos são mapeados somente para a coleção genérica e não têm acesso a imagens específicas do local. O mapa seria mostrado a seguir:
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -214,7 +214,7 @@ Usando o primeiro exemplo como base, as imagens para todas as linguagens podem t
 
 ##### Considerações importantes ao implementar o suporte à localização
 
-* A localização é limitada a chamadas de ativos baseadas em ID e não pode ser usada em chamadas de ativos baseadas em caminho. Portanto, ao chamar vídeos com localidade, ele deve ser chamado como company/assetID; sem caminho completo para o vídeo. Você não pode usar rtmp com localização porque esse método é para uso somente com chamadas de vídeo baseadas em caminho.
+* A localização é limitada a chamadas de ativos baseadas em ID e não pode ser usada em chamadas de ativos baseadas em caminho. Portanto, ao chamar vídeos com localidade, ele deve ser chamado como company/assetID; sem caminho completo para o vídeo. Você não pode usar `RTMP` com localização, pois esse método deve ser usado somente com chamadas de vídeo baseadas em caminho.
 * Não é possível usar um Conjunto de mídias mistas que contenha um único vídeo quando o localeMap está ativo, caso contrário, a chamada para o conteúdo do conjunto falhará. Para contornar esse problema, você pode adicionar um único vídeo a um Conjunto de vídeos adaptados. Em seguida, adicione o Conjunto de vídeos adaptados a um Conjunto de mídias mistas.
 * Determinadas solicitações não são localizadas, como solicitações para o conteúdo de um Conjunto de vídeos adaptados. Portanto, se você pretende usar Conjuntos de vídeos adaptados com localização, coloque o Conjunto de vídeos adaptados em um Conjunto de mídias mistas. Em seguida, chame o conjunto em um visualizador de Mídia mista com a tag `locale=` parâmetro.
 

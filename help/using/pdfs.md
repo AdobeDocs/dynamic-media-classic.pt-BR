@@ -10,9 +10,9 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ As opções para fazer upload de arquivos PDF estão na página Upload em Opçõ
 
 **[!UICONTROL Rasterize]** - (Padrão) Extrai as páginas no arquivo PDF e converte gráficos de vetor em imagens de bitmap. Para criar um eCatalog, escolha essa opção.
 
-**[!UICONTROL Extract Search Words]** - Extrai palavras do arquivo PDF para que o arquivo possa ser pesquisado por palavra-chave em um eCatalog Viewer.
+**[!UICONTROL Extract Search Words]** - Extrai palavras do arquivo PDF para que as palavras-chave do arquivo possam ser pesquisadas em um eCatalog Viewer.
 
 **[!UICONTROL Extract Links]** - Extrai links dos arquivos PDF e os converte em Mapas de imagem que são usados em um eCatalog Viewer.
 
@@ -73,7 +73,9 @@ Consulte também [Perfis ICC](/help/using/icc-profiles.md#icc_profiles).
 
 ## Cortar espaço em branco de um arquivo PDF {#cropping-white-space-from-a-pdf-file}
 
-1. Para cortar automaticamente os pixels de espaço em branco de um arquivo PDF ao carregá-lo, selecione o menu Cortar e escolha Cortar.
+Você pode cortar automaticamente pixels de espaço em branco de um arquivo PDF ao carregá-lo.
+
+1. Selecione o menu Cortar e escolha Cortar.
 1. Especifique as seguintes opções:
 
    * **[!UICONTROL Trim Away Based On]** - Escolha se deseja cortar com base na cor ou na transparência:

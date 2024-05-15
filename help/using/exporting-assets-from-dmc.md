@@ -10,7 +10,7 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -46,7 +46,7 @@ O Adobe Dynamic Media Classic mantém um registro dos trabalhos de exportação 
 
    * **[!UICONTROL Job Name]** - Você pode atribuir um nome de trabalho à exportação.
 
-   * **[!UICONTROL Send Email To]** - Opcionalmente, informe um endereço de e-mail se pretender enviar os ativos por e-mail. A mensagem de email lista o URL no qual o destinatário pode ir para baixar os ativos.
+   * **[!UICONTROL Send Email To]** - Opcional. Insira um endereço de email se você pretende enviar os ativos por email. A mensagem de email lista o URL no qual o destinatário pode ir para baixar os ativos.
 
 1. Selecionar **[!UICONTROL Export]**.
 

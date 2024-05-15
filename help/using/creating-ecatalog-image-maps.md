@@ -10,9 +10,9 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Um Mapa de imagem é uma região em uma página de eCatalog que você pode rolar
 
 ## Desenhar mapas de imagem do eCatalog {#drawing-ecatalog-image-maps}
 
-Para eCatalogs, você desenha Mapas de imagem na guia Páginas de mapa da tela eCatalog. Essa tela consiste na área do Mapa de imagem onde as páginas do eCatalog são exibidas e, à direita, na lista Mapa de imagem. À medida que você cria Mapas de imagem, seus nomes são inseridos na Lista de Mapas de imagem.
+Para eCatalogs, você desenha Mapas de imagem na guia Páginas de mapa da tela eCatalog. Essa tela consiste na área do Mapa de imagem onde as páginas do eCatalog são exibidas e, à direita, na lista Mapa de imagem. À medida que você cria Mapas de imagem, seus nomes são inseridos na lista Mapa de imagem.
 
 1. Selecione a sobreposição do eCatalog **[!UICONTROL Edit]** botão.
 1. Selecionar **[!UICONTROL Map Pages]**.
@@ -51,7 +51,7 @@ Consulte [Use um modelo para inserir JavaScript e URLs](creating-image-maps.md#u
 1. Selecionar **[!UICONTROL Save]**.
 1. (Opcional) Selecione **[!UICONTROL Preview]** para exibir o eCatalog com a predefinição padrão do eCatalog Viewer.
 
-Para excluir um Mapa de imagem, selecione seu nome na lista Mapa de imagem e selecione **[!UICONTROL Delete]**. Para desativar temporariamente um Mapa de imagem em uma página sem excluir o Mapa de imagem, desmarque a opção Ativado do Mapa de imagem no painel Lista do Mapa de imagem.
+Para excluir um Mapa de imagem, selecione seu nome na lista Mapa de imagem e selecione **[!UICONTROL Delete]**. Você pode desativar temporariamente um Mapa de imagem em uma página sem excluir o Mapa de imagem. Selecione a opção Mapas de imagem ativados no painel Lista de mapas de imagem.
 
 ## Incorporar mídia avançada em um eCatalog {#embedding-rich-media-in-an-ecatalog}
 
@@ -75,7 +75,7 @@ Opcionalmente, também é possível exibir o texto da dica de ferramenta quando 
 
 Começando pela guia Mapear páginas da tela do eCatalog, use essas técnicas para editar os mapas de imagem do eCatalog:
 
-* **Ajustar a posição** - Selecione a ferramenta Deslocar e mova o ponteiro próximo, mas não acima, da borda do mapa. Quando o ponteiro mostrar uma seta de quatro pontas, arraste o mapa de imagem inteiro para um novo local.
+* **Ajustar a posição** - Selecione a ferramenta Deslocar e mova o ponteiro próximo, mas não acima, da borda do mapa. Quando o ponteiro mostrar uma seta de quatro pontas, arraste todo o Mapa de imagem para um novo local.
 
   Consulte [Ajustar a posição, a forma e o tamanho dos Mapas de imagem](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -97,7 +97,7 @@ Começando pela guia Mapear páginas da tela do eCatalog, use essas técnicas pa
 
 >[!NOTE]
 >
->Além de copiar Mapas de imagens para páginas diferentes em um eCatalog, você pode copiar todos os Mapas de imagens em um eCatalog para um eCatalog diferente. Consulte [Copiar Mapas de Imagem entre eCatalogs](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Ao copiar Mapas de imagem para páginas diferentes em um eCatalog, você pode copiar todos os Mapas de imagem em um eCatalog para um eCatalog diferente. Consulte [Copiar Mapas de Imagem entre outros eCatalogs](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Revisar e importar dados do Mapa de imagem {#reviewing-and-importing-image-map-data}
 
@@ -109,14 +109,14 @@ Para ver a tela Resumo do mapa, na guia Páginas do mapa da tela eCatalog, selec
 
 1. Na tela Mapear Páginas, selecione **[!UICONTROL Summary]**.
 
-   A tela Resumo do mapa exibe quantos Mapas de imagem, URLs, descrições de texto de rolagem e outras ações estão no eCatalog.
+   A tela Resumo do mapa exibe quantos Mapas de imagem, URLs, descrições de texto de rolagem e Outras ações estão no eCatalog.
 
 1. Se houver erros de chave de rollover, selecione o erro no campo **[!UICONTROL Rollover_Key Error]** para ver o que deve ser alterado na planilha para corrigir o erro. Você pode selecionar e copiar o texto desta mensagem e colá-lo em sua planilha.
-1. Selecionar **[!UICONTROL Preview]** para que você possa examinar uma página no eCatalog Viewer; selecione o X para fechar a tela Summary e retornar à tela Map Pages (Mapear páginas) ou selecione **[!UICONTROL Close]** para retornar a Procurar.
+1. Selecionar **[!UICONTROL Preview]** para que você possa examinar uma página no eCatalog Viewer. Selecione o X para fechar a tela Resumo e retornar à tela Mapear páginas, ou selecione **[!UICONTROL Close]** para retornar a Procurar.
 
 ### Importar dados do Mapa de imagem {#import-image-map-data}
 
-Em vez de inserir dados do Mapa de imagem em cada página, você pode importar os dados do eCatalog inteiro para a tela Resumo de mapa. Importe os dados do Mapa de imagem no formato de um arquivo delimitado por tabulação ou DTD XML. Os campos no arquivo devem estar na ordem mostrada na tela Resumo do Mapa: Nome, Rótulos do índice, Mapas, URLs, Texto de rolagem, Outras ações e Strings de pesquisa. A importação de dados do Mapa de imagem evita a dificuldade de inserir os dados na Lista de Mapas de imagem à medida que você cria cada Mapa de imagem.
+Em vez de inserir dados do Mapa de imagem em cada página, você pode importar os dados do eCatalog inteiro para a tela Resumo de mapa. Importe os dados do Mapa de imagem no formato de um arquivo delimitado por tabulação ou DTD XML. Os campos no arquivo devem estar na ordem mostrada na tela Resumo do Mapa: Nome, Rótulos do índice, Mapas, URLs, Texto de rolagem, Outras ações e Strings de pesquisa. A importação de dados do Mapa de imagem evita a dificuldade de inserir os dados na lista do Mapa de imagem à medida que você cria cada Mapa de imagem.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ A partir da tela Resumo do mapa, siga estas etapas para importar dados do Mapa d
 1. No campo Nome da tarefa, digite um nome para o arquivo (tenha cuidado para manter a extensão).
 1. Selecionar **[!UICONTROL Upload]**.
 
-## Copiar Mapas de Imagem entre eCatalogs {#copying-image-maps-between-ecatalogs}
+## Copiar Mapas de Imagem entre outros eCatalogs {#copying-image-maps-between-ecatalogs}
 
 É possível copiar todos os Mapas de imagens em um eCatalog para um eCatalog diferente. Copiar mapas de imagem dessa maneira é um método conveniente de copiar mapas de imagem entre traduções em idiomas estrangeiros do mesmo eCatalog. Para que a cópia seja bem-sucedida, a Adobe Dynamic Media Classic recomenda copiar entre eCatalogs com o mesmo número de páginas e as mesmas imagens.
 
@@ -143,4 +143,4 @@ Para copiar todos os Mapas de imagens de um eCatalog para outro eCatalog, faça 
 1. Na guia Ordenar páginas, selecione **[!UICONTROL Copy Maps]**.
 1. Na caixa de diálogo Selecionar ativo, selecione o eCatalog no qual deseja copiar os Mapas de imagem e selecione **[!UICONTROL Select]**.
 
-O Adobe Dynamic Media Classic exibirá uma mensagem de aviso se o eCatalog de destino (o eCatalog para o qual você copia Mapas de imagem) tiver um número diferente de páginas ou imagens de tamanho diferente. Selecionar **[!UICONTROL Continue]** para copiar os Mapas de imagem apesar do aviso.
+O Adobe Dynamic Media Classic exibirá uma mensagem de aviso se o eCatalog de destino do qual você copia Mapas de imagem tiver um número diferente de páginas ou imagens de tamanho diferente. Selecionar **[!UICONTROL Continue]** para copiar os Mapas de imagem apesar do aviso.

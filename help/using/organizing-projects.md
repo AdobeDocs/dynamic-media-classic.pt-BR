@@ -10,9 +10,9 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Os projetos fornecem uma maneira opcional e secundária de organizar os ativos independentemente das pastas em que estão armazenados. Um ativo pode ser colocado em apenas uma pasta, mas pode ser copiado para mais de uma pasta Projeto para fins organizacionais.
 
-Depois de criar uma pasta de projeto, você pode colocar ativos nela. No entanto, os ativos em um projeto são ponteiros para a pasta da Biblioteca de ativos na qual os ativos são armazenados. Você pode colocar um ativo em mais de um projeto. Por exemplo, uma imagem de uma blusa pode ser colocada nas pastas de projeto &quot;Blusas&quot; e &quot;Coleção de outono&quot;.
+Depois de criar uma pasta de projeto, você pode colocar ativos nela. Os ativos em um projeto são, na verdade, indicadores para a pasta da Biblioteca de ativos na qual os ativos são armazenados. Você pode colocar um ativo em mais de um projeto. Por exemplo, uma imagem de uma blusa pode ser colocada nas pastas de projeto &quot;Blusas&quot; e &quot;Coleção de outono&quot;.
 
 É possível criar um projeto ao fazer upload de arquivos ou criar projetos no painel Biblioteca de ativos.
 

@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # Visão geral do programa Adobe Dynamic Media Classic{#adobe-scene-platform-overview}
 
-O Adobe Dynamic Media Classic é um ambiente integrado de gerenciamento, publicação e fornecimento de mídia avançada. A mídia avançada pode ser fornecida para todos os canais de marketing e vendas, incluindo a Web, material impresso, campanhas de email, portais da Web, desktops e dispositivos.
+O Adobe Dynamic Media Classic é um ambiente integrado de gerenciamento, publicação e fornecimento de mídia avançada. A mídia avançada pode ser entregue a todos os canais de marketing e vendas. Esses canais incluem a Web, material impresso, campanhas de email, portais da Web, desktops e dispositivos.
 
 Consulte também [Visão geral da plataforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) vídeo de treinamento.
 
@@ -41,7 +41,7 @@ As principais etapas do fluxo de trabalho do Adobe Dynamic Media Classic são:
 
 O Adobe Dynamic Media Classic é fundamentalmente diferente de outros sistemas, pois você pode usar o Adobe Dynamic Media Classic para fornecer mídia dinamicamente a partir de ativos principais únicos e chamadas de URL.
 
-As cadeias de caracteres de URL geradas com o Adobe Dynamic Media Classic incluem instruções que informam ao servidor como exibir o ativo quando entregue. Por exemplo, a mesma imagem principal pode ser fornecida em diferentes tamanhos, formatos, pesos, cores e visualizações de zoom. Como parte da criação e publicação de ativos de mídia com o Adobe Dynamic Media Classic, você configura visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam corretamente ao servidor como apresentar seu ativo principal aos aplicativos.
+As cadeias de caracteres de URL geradas com o Adobe Dynamic Media Classic incluem instruções que informam ao servidor como exibir o ativo quando entregue. Por exemplo, a mesma imagem principal pode ser fornecida em diferentes tamanhos, formatos, pesos, cores e visualizações de zoom. Como parte da criação e publicação de ativos de mídia com o Adobe Dynamic Media Classic, você pode configurar visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam corretamente ao servidor como apresentar seu ativo principal aos aplicativos.
 
 ![O Adobe Dynamic Media Classic pode fornecer a mesma imagem principal a diferentes mídias em diferentes tamanhos e formatos.](/help/using/assets/gs_dynamic_publishing.png)
 *A Adobe Dynamic Media Classic garante que experiências consistentes e de qualidade sejam oferecidas em qualquer tela, independentemente do tamanho ou da largura de banda.*

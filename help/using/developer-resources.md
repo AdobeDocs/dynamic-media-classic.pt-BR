@@ -9,7 +9,7 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Recursos do desenvolvedor {#developer-resources}
 
-Os guias de referência para Visualizadores, Disponibilização de imagens e Renderização de imagens e Sistema de produção de imagens descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites que desejam personalizar e usar ainda mais a mídia avançada do Adobe Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. Presume-se que o usuário esteja familiarizado com o aplicativo de desktop do Dynamic Media Classic, padrões e convenções gerais do protocolo http e terminologia básica de geração de imagens.
+Os guias de referência para Visualizadores, Disponibilização de imagens e Renderização de imagens e Sistema de produção de imagens descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites que desejam personalizar ainda mais e usar a mídia avançada do Adobe Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. Presume-se que o usuário esteja familiarizado com o aplicativo de desktop do Dynamic Media Classic, padrões e convenções gerais do protocolo http e terminologia básica de geração de imagens.
 
 Consulte também [Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 

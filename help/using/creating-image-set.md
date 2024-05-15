@@ -1,6 +1,6 @@
 ---
 title: Criar um conjunto de imagens
-description: Saiba como criar um conjunto de imagens no Adobe Dynamic Media Classic.
+description: Saiba como criar um Conjunto de imagens no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Para criar um Conjunto de imagens com várias visualizações, você precisa de 
 
 Ao criar um conjunto, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
 
-| **[!UICONTROL Publish after save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| **[!UICONTROL `Publish after save`]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
@@ -39,7 +39,7 @@ Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recome
 | Número de ativos duplicados por conjunto | Sem duplicatas | 20‡ |
 | Número máximo de imagens por conjunto | De 5 a 10 imagens por conjunto | 1000 |
 
-‡ A prática recomendada é não ter ativos duplicados em um conjunto. O limite é de 20 duplicatas para um único ativo. Se você adicionar outra duplicata para esse ativo — dentro desse conjunto — a solicitação retornará um erro ou ignorará a duplicata.
+‡ A prática recomendada é não ter ativos duplicados em um conjunto. O limite é de 20 duplicatas para um único ativo. Se, no conjunto, você adicionar outra duplicata para esse ativo, a solicitação retornará um erro ou ignorará a duplicata.
 
 Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
 
 Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
 
-| Conjunto já publicado? | **[!UICONTROL Publish after save]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| Conjunto já publicado? | **[!UICONTROL `Publish after save`]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- | --- |
 | Sim | Sim | Publicado | Publicado |
 | Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |
