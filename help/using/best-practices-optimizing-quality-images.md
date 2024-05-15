@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ Consulte também [Imagem inteligente](https://experienceleague.adobe.com/en/docs
 >
 >Experimente e descubra os benefícios dos modificadores de imagem do Dynamic Media e do Smart Imaging, usando o Dynamic Media [_Instantâneo_](https://snapshot.scene7.com/).
 >
-> O Instantâneo é uma ferramenta de demonstração visual criada para ilustrar o potencial do Dynamic Media para entrega de imagens otimizadas e dinâmicas. Experimente com imagens de teste ou URLs do Dynamic Media, para observar visualmente a saída de vários modificadores de imagem do Dynamic Media e otimizações de Imagem inteligente para o seguinte:
+> O Instantâneo é uma ferramenta de demonstração visual criada para ilustrar o potencial do Dynamic Media para entrega de imagens otimizadas e dinâmicas. Experimente com imagens de teste ou URLs do Dynamic Media, para que você possa observar visualmente a saída de vários modificadores de imagem do Dynamic Media e otimizações de Imagem inteligente para o seguinte:
+>
 >* Tamanho do arquivo (com entrega WebP e AVIF)
 >* Largura de banda de rede
 >* DPR (Relação de pixels do dispositivo)
@@ -69,7 +70,7 @@ Com o Adobe Dynamic Media Classic, você pode ajustar a nitidez de imagens na as
 
 Há dois métodos de nitidez de imagem que podem ser usados:
 
-* Nitidez simples ( `&op_sharpen`) - Semelhante ao filtro de nitidez usado no Photoshop, a nitidez simples aplica a nitidez básica à exibição final da imagem após o redimensionamento dinâmico. No entanto, esse método não é configurável pelo usuário. A prática recomendada é não usar `&op_sharpen` a menos que seja necessário.
+* Nitidez simples ( `&op_sharpen`) - Semelhante ao filtro de nitidez usado no Photoshop, a nitidez simples aplica a nitidez básica à exibição final da imagem após o redimensionamento dinâmico. No entanto, esse método não é configurável pelo usuário. A prática recomendada é evitar a utilização de `&op_sharpen` a menos que seja necessário.
 * Mascaramento sem nitidez ( `&op_USM`) - A máscara sem nitidez é um filtro padrão do setor para nitidez. A prática recomendada é tornar mais nítidas as imagens com mascaramento sem nitidez, seguindo as diretrizes abaixo. O mascaramento sem nitidez permite controlar os três parâmetros a seguir:
 
    * `&op_sharpen=amount,radius,threshold`
@@ -98,10 +99,10 @@ Aumente gradualmente a quantidade de 1,75 para 4. Se a nitidez ainda não for a 
 
 Deixe a configuração de parâmetro monocromático em 0.
 
-## Práticas recomendadas para compactação de JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## Práticas recomendadas para compactação de JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Esse parâmetro controla a qualidade da codificação do JPG. Um valor mais alto significa uma imagem de qualidade superior, mas um tamanho de arquivo grande; como alternativa, um valor mais baixo significa uma imagem de qualidade inferior, mas um tamanho de arquivo menor. O intervalo desse parâmetro é de 0 a 100.
-* Para otimizar a qualidade, não defina o valor do parâmetro como 100. A diferença entre uma configuração de 90 ou 95 e 100 é quase imperceptível, mas 100 aumenta desnecessariamente o tamanho do arquivo de imagem. Portanto, para otimizar a qualidade, mas evitar que os arquivos de imagem fiquem muito grandes, defina o `qlt=` para 90 ou 95.
+* Para otimizar a qualidade, não defina o valor do parâmetro como 100. A diferença entre um ajuste de 90 ou 95 e 100 é quase imperceptível. No entanto, 100 aumenta desnecessariamente o tamanho do arquivo de imagem. Portanto, para otimizar a qualidade, mas evitar que os arquivos de imagem fiquem muito grandes, defina o `qlt=` para 90 ou 95.
 * Para otimizar o tamanho de um arquivo de imagem pequeno, mas manter a qualidade da imagem em um nível aceitável, defina o `qlt=` para 80. Valores abaixo de 70 a 75 resultam em degradação significativa da qualidade da imagem.
 * Como prática recomendada, para ficar no meio, defina o `qlt=` valor de 85 para ficar no meio.
 * Uso do sinalizador de croma no `qlt=`
@@ -116,7 +117,7 @@ Como prática recomendada para o uso da compactação JPG `&qlt=85,0`.
 O parâmetro `jpegSize` é útil se você deseja garantir que uma imagem não exceda um determinado tamanho para ser entregue a dispositivos que tenham memória limitada.
 
 * Esse parâmetro é definido em quilobytes ( `jpegSize=<size_in_kilobytes>`). Ele define o tamanho máximo permitido para a entrega de imagens.
-* `&jpegSize=` O interage com o parâmetro de compactação JPG `&qlt=`. Se a resposta do JPG com o parâmetro de compactação de JPG especificado ( `&qlt=`) não excede o `jpegSize` , a imagem é retornada com `&qlt=` conforme definido. Caso contrário, `&qlt=` é diminuído gradualmente até que a imagem se ajuste ao tamanho máximo permitido ou até que o sistema determine que não é possível se ajustar e retorne um erro.
+* `&jpegSize=` O interage com o parâmetro de compactação JPG `&qlt=`. Se a resposta do JPG com o parâmetro de compactação de JPG especificado ( `&qlt=`) não excede o `jpegSize` , a imagem é retornada com `&qlt=` conforme definido. Caso contrário, `&qlt=` é diminuído gradualmente até que a imagem se ajuste ao tamanho máximo permitido. Ou até que o sistema determine que não é possível ajustá-lo e retorne um erro.
 
 Como prática recomendada, defina `&jpegSize=` e adicione o parâmetro `&qlt=` se estiver fornecendo imagens de JPG para dispositivos com memória limitada.
 
@@ -126,7 +127,7 @@ Como prática recomendada, para atingir uma alta qualidade de imagem e um tamanh
 
 `fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0`
 
-Esta combinação de produtos de configurações excelentes resultados na maioria das circunstâncias.
+Essa combinação de configurações produz excelentes resultados na maioria das circunstâncias.
 
 Se a imagem exigir mais otimização, ajuste gradualmente os parâmetros de nitidez (mascaramento sem nitidez), começando com um raio definido como 0,2 ou 0,3. Em seguida, aumente gradualmente o valor de 1,75 para no máximo 4 (equivalente a 400% no Photoshop). Verifique se o resultado desejado foi atingido.
 

@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ As opções para fazer upload de arquivos PSD estão localizadas em Opções do 
 
 Estas opções estão disponíveis ao fazer upload de arquivos PSD:
 
-* **Opções de corte** - Localizado em **[!UICONTROL Crop Options]**. Selecionar **[!UICONTROL Trim]** para cortar automaticamente o espaço em branco das bordas de um arquivo PSD; selecione **[!UICONTROL Manual]** para cortar lados do arquivo PSD:
+* **Opções de corte** - Localizado em **[!UICONTROL Crop Options]**. Selecionar **[!UICONTROL Trim]** assim, você pode cortar automaticamente o espaço em branco das bordas de um arquivo PSD. Selecionar **[!UICONTROL Manual]** para cortar as laterais do arquivo PSD:
 
    * **[!UICONTROL Trim]** - Selecione o **[!UICONTROL Trim Away Based On]** e escolha **[!UICONTROL Color]** ou **[!UICONTROL Transparency]**.
 
@@ -39,7 +39,7 @@ Estas opções estão disponíveis ao fazer upload de arquivos PSD:
 
   Arraste o controle deslizante para especificar uma tolerância de 0 a 1. Para recortar com base na cor, especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto do PSD. Números próximos a 1 permitem mais diferença de cor. Para cortar com base na transparência, especifique 0 para cortar pixels apenas se forem transparentes; números mais próximos de 1 permitem mais transparência.
 
-   * **[!UICONTROL Manual]** - Digite o número de pixels a serem cortados de qualquer lado ou de cada lado da imagem. O quanto da imagem é cortada depende da configuração ppi (pixels por polegada) no arquivo de imagem. Por exemplo, se a imagem exibir 150 ppi e você inserir 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo, 0,5 pol. é cortado de cada lado da imagem.
+   * **[!UICONTROL Manual]** - Digite o número de pixels a serem cortados de qualquer lado ou de cada lado da imagem. O quanto da imagem é cortada depende da configuração ppi (pixels por polegada) no arquivo de imagem. Por exemplo, suponha que a imagem exiba 150 ppi. Em seguida, digite 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo. Cada lado da imagem é cortado, 0,5 pol.
 
 * **Opções de perfil de cores** - Localizado em **[!UICONTROL Color Profile Options]**.
 
@@ -67,7 +67,7 @@ Estas opções estão disponíveis ao fazer upload de arquivos PSD:
 
       * **[!UICONTROL Photoshop and layer name]** - Nomeia as imagens após o arquivo PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo PSD forem nomes de camadas Photoshop padrão. Por exemplo, uma camada chamada `Price Tag` em um arquivo PSD chamado `SpringAd` é nomeado `Spring Ad_Price Tag`. Uma camada com o nome padrão Camada 2 é chamada `Spring Ad_2`.
 
-   * **[!UICONTROL Anchor]** - Especificar como as imagens são ancoradas em modelos gerados a partir da composição em camadas produzida a partir do arquivo PSD. Por padrão, a âncora é o centro. Uma âncora central permite que imagens de substituição preencham melhor o mesmo espaço, independentemente da proporção da imagem de substituição. As imagens com um aspecto diferente que substituem essa imagem, ao referenciar o modelo e usar a substituição de parâmetro, ocupam efetivamente o mesmo espaço. Altere para uma configuração diferente se seu aplicativo exigir que as imagens de substituição preencham o espaço alocado no modelo.
+   * **[!UICONTROL Anchor]** - Especificar como as imagens são ancoradas em modelos gerados a partir da composição em camadas produzida a partir do arquivo PSD. Por padrão, a âncora é o centro. Uma âncora central permite substituir imagens que podem preencher melhor o mesmo espaço, independentemente da proporção da imagem de substituição. As imagens com um aspecto diferente que substituem essa imagem, ao referenciar o modelo e usar a substituição de parâmetro, ocupam efetivamente o mesmo espaço. Altere para uma configuração diferente se seu aplicativo exigir que as imagens de substituição preencham o espaço alocado no modelo.
 
 ## Exibir e editar camadas em um arquivo PSD {#viewing-and-editing-layers-in-a-psd-file}
 
@@ -86,9 +86,9 @@ Se você selecionou a opção **[!UICONTROL Maintain Layers]** ao fazer upload d
 1. Selecionar **[!UICONTROL Layers]**. Todas as camadas são exibidas como imagens separadas no painel Camadas.
 1. Clique duas vezes em uma camada e siga um destes procedimentos:
 
-   * Para criar um mapa de imagem na camada, selecione **[!UICONTROL Image Map]** ícone. (Consulte [Criar mapas de imagem](creating-image-maps.md#creating_image_maps).)
-   * Para criar destinos de zoom na camada, selecione **[!UICONTROL Zoom Targets]** ícone. (Consulte [Criar destinos de zoom para Zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
-   * Para cortar a camada, selecione **[!UICONTROL Crop]** ícone. (Consulte [Cortar uma imagem](cropping-image.md#cropping_an_image).)
+   * Para criar um mapa de imagem na camada, selecione a **[!UICONTROL Image Map]** ícone. (Consulte [Criar mapas de imagem](creating-image-maps.md#creating_image_maps).)
+   * Para criar destinos de zoom na camada, selecione a **[!UICONTROL Zoom Targets]** ícone. (Consulte [Criar destinos de zoom para Zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * Para cortar a camada, selecione a **[!UICONTROL Crop]** ícone. (Consulte [Cortar uma imagem](cropping-image.md#cropping_an_image).)
    * Para ajustar a nitidez da camada, selecione **[!UICONTROL Sharpen]**. (Consulte [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).)
    * Para ajustar a camada, selecione **[!UICONTROL Adjust]**. (Consulte [Ajustar uma imagem](adjusting-image.md#adjusting_an_image).)
 

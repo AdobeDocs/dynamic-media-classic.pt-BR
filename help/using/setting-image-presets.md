@@ -10,9 +10,9 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -65,11 +65,11 @@ Você poderá criar suas próprias Predefinições de imagem se for um administr
 
 As opções de &quot;prática recomendada&quot; do Adobe Dynamic Media Classic para criar Predefinições de imagem listadas aqui são recomendações gerais; a nitidez é altamente subjetiva. Essas configurações de &quot;práticas recomendadas&quot; foram baseadas em uma imagem primária de 2000 × 2000; as configurações para arquivos primários maiores ou menores podem ser diferentes. Se você quiser ajustar as configurações Tirar nitidez da máscara, a Adobe Dynamic Media Classic recomenda estes intervalos:
 
-* **[!UICONTROL Amount]** - Entre .8 e 1.5.
+* **[!UICONTROL Amount]** - Entre `.8` e `1.5`.
 
-* **[!UICONTROL Radius]** - Entre .6 e 2.
+* **[!UICONTROL Radius]** - Entre `.6` e `2`.
 
-* **[!UICONTROL Threshold]** - De 1 a 6.
+* **[!UICONTROL Threshold]** - De `1` até `6`.
 
 Para excluir uma predefinição de imagem, selecione-a na tela Predefinições de imagem e, em seguida, selecione **[!UICONTROL Delete]**.
 

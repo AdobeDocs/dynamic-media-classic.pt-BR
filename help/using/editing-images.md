@@ -10,9 +10,9 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ O Adobe Dynamic Media Classic oferece muitas ferramentas para criar efeitos de m
 
 * **Criar mapas de imagem** - Para criar um Mapa de Imagem, selecione o comando Imagem ou **[!UICONTROL Image Map]** botão. Um Mapa de imagem é um ponto de acesso em uma imagem, uma página de eCatalog ou uma imagem em um SpinSet que exibe um painel com texto de sobreposição. Os usuários podem selecionar um Mapa de imagem, por exemplo, para iniciar uma nova página da Web. Consulte [Criar mapas de imagem](/help/using/creating-image-maps.md).
 
-* **Criar públicos alvo de zoom** - Para criar destinos de miniatura, selecione o comando Destinos de zoom ou a **[!UICONTROL Zoom Targets]** botão. Os usuários podem selecionar um destino de miniatura no Visualizador de zoom para aplicar zoom diretamente a uma parte específica de uma imagem. Consulte [Criar destinos de zoom para Zoom guiado](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Criar públicos alvo de zoom** - Para criar destinos em miniatura, é possível selecionar o comando Destinos de zoom ou o **[!UICONTROL Zoom Targets]** botão. Os usuários podem selecionar um destino de miniatura no Visualizador de zoom para aplicar zoom diretamente a uma parte específica de uma imagem. Consulte [Criar destinos de zoom para Zoom guiado](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Cortar uma imagem** - Para recortar uma imagem, selecione o comando Cortar ou a **[!UICONTROL Crop]** botão. Consulte [Cortar uma imagem](/help/using/cropping-image.md).
 
-* **Nitidez de uma imagem** - Para ajustar a nitidez de uma imagem e tornar seus contornos menos borrados e mais distintos, selecione o comando Nitidez ou **[!UICONTROL Sharpen]** botão. Consulte [Nitidez de uma imagem](/help/using/sharpening-image.md).
+* **Nitidez de uma imagem** - Torne os contornos de uma imagem menos borrados selecionando o comando Nitidez ou o **[!UICONTROL Sharpen]** botão. Consulte [Nitidez de uma imagem](/help/using/sharpening-image.md).
 
 * **Ajustar uma imagem** - Selecione o `Adjust` ou o comando **[!UICONTROL Adjust]** botão para virar, girar, desfocar, colorir ou alterar o equilíbrio de cores de uma imagem. Consulte [Ajustar uma imagem](/help/using/adjusting-image.md).
 

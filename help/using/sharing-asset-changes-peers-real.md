@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Compartilhar alterações de ativos com colegas em tempo real{#sharing-asset-changes-with-peers-in-real-time}
 
-Com várias cópias do Adobe Dynamic Media Classic sendo executadas em vários computadores na mesma empresa, as seguintes ações de qualquer cliente Adobe Dynamic Media Classic são atualizadas em tempo real com todos os clientes de mesmo nível:
+Suponha que você tenha várias cópias do Adobe Dynamic Media Classic em execução em computadores na mesma empresa. Nesse cenário, as seguintes ações de qualquer cliente do Dynamic Media Classic são atualizadas em tempo real com todos os clientes de mesmo nível:
 
 * Editar um ativo (construtor, editor de imagens etc.)
 * Renomear um ativo
@@ -32,6 +32,6 @@ Depois que uma alteração é feita no cliente de origem, todos os clientes de m
 
 Ao fazer logon, você foi solicitado a permitir ou negar atualizações de colegas. Você pode &quot;lembrar&quot; a escolha para que seja solicitado apenas uma vez. Para limpar sua escolha, exclua o site apropriado do painel Rede assistida entre parceiros em Configurações globais.
 
-Se você estava editando um ativo que foi alterado por um item de mesmo nível, será solicitado a assimilar a alteração no construtor ou editor. Se você escolher **[!UICONTROL Yes]**, o construtor ou editor descarta quaisquer alterações feitas no ativo e importa o ativo atualizado. Se você escolher **[!UICONTROL No]**, o ativo não é alterado no construtor ou editor e todas as alterações feitas persistem nessa sessão.
+Se você estava editando um ativo alterado por um item de mesmo nível, será solicitado a assimilar a alteração no construtor ou editor. Se você escolher **[!UICONTROL Yes]**, o construtor ou editor descarta quaisquer alterações feitas no ativo e importa o ativo atualizado. Se você escolher **[!UICONTROL No]**, o ativo não é alterado no construtor ou editor e todas as alterações feitas persistem nessa sessão.
 
 Ao salvar o ativo, você foi notificado de que existe uma versão mais recente e perguntado se deseja substituir o ativo pelas alterações.

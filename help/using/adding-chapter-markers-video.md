@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -51,17 +51,17 @@ Cost-efficient access to rapidly evolving technology.
 
 No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora da indicação de `00:00:000 --> 01:04:364` especifica a hora inicial e final do capítulo, em 00:00:formato 000. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição real do conteúdo do capítulo. O identificador de sinalização, o tempo de sinalização inicial e o título do capítulo são exibidos em um pop-up no reprodutor de vídeo quando o ponteiro é posicionado sobre um ponto de sinalização visual na linha do tempo do vídeo.
 
-Como você está usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de capítulo criado segue o padrão WebVTT (Rastreamento de texto de vídeo da Web). A extensão de nome de arquivo do capítulo é .VTT. Você pode obter mais informações sobre o padrão de legendagem WebVTT.
+Como você está usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de capítulo criado segue o padrão WebVTT (Rastreamento de texto de vídeo da Web). A extensão de nome de arquivo do capítulo é `.VTT`. Você pode obter mais informações sobre o padrão de legendagem WebVTT.
 
 Consulte [WebVTT: o formato de rastreamento de texto de vídeo na Web](https://w3c.github.io/webvtt/).
 
-**Para adicionar marcadores de capítulo ao vídeo:**
+**Para adicionar marcadores de capítulo a um vídeo:**
 
 1. Usando um editor de texto simples fora do Adobe Dynamic Media Classic, crie seu arquivo de capítulo de vídeo.
 
    >[!NOTE]
    >
-   >Para suporte global de capítulos de vídeo em idiomas diferentes do inglês, o padrão WebVTT exige a criação de arquivos .vtt separados e chamadas para cada idioma ao qual você deseja oferecer suporte.
+   >Para suporte global de capítulos de vídeo em idiomas diferentes do inglês, o padrão WebVTT exige a criação de capítulos separados `.VTT` arquivos e chamadas para cada idioma que você deseja suportar.
 
 1. Salve o arquivo VTT na codificação UTF8 para que você possa evitar problemas com a representação de caracteres no texto do título do capítulo.
 

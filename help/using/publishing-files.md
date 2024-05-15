@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Publique seus ativos nos Dynamic Media Image Servers. Você pode publicar ativos de uma só vez ou combinar o Adobe Dynamic Media Classic para publicar ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
 
-O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado é entregue por meio do protocolo HTTP/2. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
+O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado usa o protocolo HTTP/2 para entregá-lo. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicar após o upload {#publish-after-uploading}
 
@@ -31,9 +31,9 @@ Para obter mais informações, consulte [PDF de aviso de publicação instantân
 
 Use essas técnicas para marcar ativos para publicação:
 
-* **[!UICONTROL Publish After Uploading]** - Na página Upload, próximo à parte inferior, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
+* **[!UICONTROL Publish After Uploading]**: Na página Fazer upload, próximo à parte inferior, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
 
-* **[!UICONTROL Publish After Uploading]** - Na caixa de diálogo Opções de trabalho, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
+* **[!UICONTROL Publish After Uploading]**: Na caixa de diálogo Opções de Job, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
 
 Alguns ativos &quot;secundários&quot; são marcados automaticamente para publicação quando seus pais são marcados para publicação. Esta tabela lista os ativos filhos marcados para publicação automática.
 
@@ -48,7 +48,7 @@ As imagens derivadas também são marcadas automaticamente para publicação qua
 
 ## Criar um trabalho de publicação {#creating-a-publish-job}
 
-Crie um trabalho de publicação para publicar ativos carregados nos servidores do Adobe Dynamic Media Classic, mas não deseja publicá-los automaticamente ainda. Você pode executar um trabalho de publicação único ou agendar trabalhos para que se repitam regularmente. O Adobe Dynamic Media Classic oferece opções avançadas de publicação para publicação em servidores específicos e opções para republicação de ativos que já foram publicados.
+Crie um trabalho de publicação para publicar ativos carregados nos servidores do Adobe Dynamic Media Classic, mas não deseja que eles sejam publicados automaticamente ainda. Você pode executar um trabalho de publicação único ou agendar trabalhos para que se repitam regularmente. O Adobe Dynamic Media Classic oferece opções avançadas de publicação para publicação em servidores específicos e opções para republicação de ativos que já foram publicados.
 
 **Para criar um trabalho de publicação:**
 
@@ -80,7 +80,7 @@ Se desejar que o trabalho de publicação ocorra posteriormente, na página Publ
 
 Criar um trabalho de publicação recorrente selecionando **[!UICONTROL Recurring]** na página Publicação.
 
-Em seguida, escolha uma opção Repetir de **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Custom]** e, em seguida, especifique quando deseja que o trabalho de publicação se repita. O Adobe Dynamic Media Classic apresenta as ferramentas de calendário para agendar o trabalho de publicação recorrente. É possível selecionar **[!UICONTROL Custom]** e insira uma regra no campo Texto da regra para descrever um intervalo de job personalizado.
+Em seguida, escolha uma opção Repetir de **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Custom]** e, em seguida, especifique quando deseja que o trabalho de publicação se repita. O Adobe Dynamic Media Classic apresenta as ferramentas de calendário para agendar o trabalho de publicação recorrente. É possível selecionar a variável **[!UICONTROL Custom]** e insira uma regra no campo Texto da regra para descrever um intervalo de job personalizado.
 
 Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento ou publicação](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -92,13 +92,13 @@ Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento 
 
 É possível exibir as opções avançadas na página Publicação e escolher essas opções para manipular um trabalho de publicação:
 
-* **[!UICONTROL Publish To]** - Para publicar ativos somente em um servidor específico, escolha um tipo de servidor.
+* **[!UICONTROL Publish To]**: para publicar ativos somente em um servidor específico, escolha um tipo de servidor.
 
-* **[!UICONTROL Publish]** - Por padrão, o Adobe Dynamic Media Classic publica somente ativos novos e que não foram publicados antes (a opção Novo desde a última publicação ). No entanto, é possível selecionar **[!UICONTROL Full Publish]** para publicar também ativos que foram atualizados ou alterados desde a última publicação. Selecionar **[!UICONTROL Full w/ Search Data]** se você estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
+* **[!UICONTROL Publish]** - Por padrão, o Adobe Dynamic Media Classic publica somente ativos novos e que não foram publicados antes (a opção Novo desde a última publicação ). No entanto, é possível selecionar **[!UICONTROL Full Publish]** portanto, você também pode publicar ativos que foram atualizados ou alterados desde a última publicação. Selecionar **[!UICONTROL Full w/ Search Data]** se você estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
 
-* **[!UICONTROL Run Job As]** - Escolha um nome de usuário na lista. Você pode classificar trabalhos por nome de usuário na página Trabalhos. Ao escolher um nome, você associa um trabalho de publicação a um usuário.
+* **[!UICONTROL Run Job As]**: escolha um nome de usuário na lista. Você pode classificar trabalhos por nome de usuário na página Trabalhos. Ao escolher um nome, você associa um trabalho de publicação a um usuário.
 
-**[!UICONTROL HTTP Notification]** - Insira um URL para acionar trabalhos de publicação subsequentes.
+**[!UICONTROL HTTP Notification]**: insira um URL para acionar trabalhos de publicação subsequentes.
 
 Consulte [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
@@ -124,7 +124,7 @@ Os ativos não publicados são indicados na interface do usuário por um ícone 
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, use os métodos padrão de seleção de arquivos para selecionar um ou mais ativos não publicados.
 
-     Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Publish]**.
+     Na barra de Navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Publish]**.
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione o ícone cinza e redondo com uma barra sobre ele, à esquerda do nome do ativo.
 
@@ -140,7 +140,7 @@ Os ativos publicados são indicados na interface do usuário por um ícone verde
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um ou mais ativos publicados.
 
-     Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+     Na barra de Navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione o ícone de marca de seleção arredondado e verde à esquerda do nome do ativo.
 
@@ -152,9 +152,9 @@ A última data em que um ativo foi publicado é mostrada na Exibição de detalh
 
 Os ativos do Adobe Dynamic Media Classic são distribuídos na rede de entrega de conteúdo (CDN). O CDN é um sistema de servidores de computador em rede que cooperam de forma transparente para fornecer conteúdo, especialmente conteúdo de mídia grande, aos usuários finais. No sistema CDN, o conteúdo da Web é armazenado em caches da Web na Internet (chamado de rede de cache de borda). O conteúdo da Web é fornecido a partir dos caches da Web para os usuários finais, para entregas mais rápidas.
 
-Na primeira vez que alguém baixa uma página da Web, os ativos são entregues a um servidor de cache da Web CDN. Eles são armazenados nesse servidor para que na próxima vez que alguém na mesma área acessar a página da Web, o mesmo conteúdo em cache possa ser entregue mais rapidamente. O conteúdo é entregue mais rápido porque está localizado mais próximo do usuário final. O CDN possibilita exibições mais rápidas da página da Web. Ele diminui as demandas de largura de banda no servidor central, porque o conteúdo é entregue a partir da rede de cache de borda, não a partir de um servidor central em cada instância.
+Na primeira vez que alguém baixa uma página da Web, os ativos são entregues a um servidor de cache da Web CDN. Esse servidor os armazena para que na próxima vez que alguém na mesma área acessar a página da Web, o mesmo conteúdo em cache seja entregue mais rapidamente. O conteúdo é entregue mais rápido porque está localizado mais próximo do usuário final. O CDN possibilita exibições mais rápidas da página da Web. Ele diminui as demandas de largura de banda no servidor central, porque o conteúdo é entregue a partir da rede de cache de borda, não a partir de um servidor central em cada instância.
 
-O conteúdo recém-publicado do Adobe Dynamic Media Classic está disponível imediatamente para o usuário final e preenche rapidamente a rede de cache de borda. No entanto, o conteúdo recém-republicado — imagens que têm exatamente os mesmos nomes das imagens publicadas anteriormente em um servidor de imagens — não é atualizado na CDN por até dez horas. Em vez disso, os usuários finais veem o que está em um cache da Web na rede CDN. Por esse motivo, os ativos republicados do Adobe Dynamic Media Classic não aparecem para os usuários finais por dez horas.
+O conteúdo recém-publicado do Adobe Dynamic Media Classic está disponível imediatamente para o usuário final e preenche rapidamente a rede de cache de borda. No entanto, o conteúdo recém-republicado, ou seja, imagens que têm os mesmos nomes que as imagens publicadas anteriormente em um servidor de imagens, não é atualizado na CDN por até dez horas. Em vez disso, os usuários finais veem o que está em um cache da Web na rede CDN. Por esse motivo, os ativos republicados do Adobe Dynamic Media Classic não aparecem para os usuários finais por dez horas.
 
 Se quiser que os ativos de imagem recém-republicados estejam disponíveis antes do atraso de dez horas, você poderá liberar caches da Web no CDN. A limpeza desses caches da Web remove o conteúdo antigo dos caches da Web CDN e o substitui pelos ativos publicados mais recentemente.
 

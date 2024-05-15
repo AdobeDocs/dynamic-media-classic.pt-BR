@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Para ver somente os arquivos de um determinado tipo à medida que você navega, 
 
 >[!NOTE]
 >
->Se você não vir o painel Biblioteca de ativos no lado esquerdo, selecione a seta de triângulo para a direita no lado esquerdo, na metade da janela do Adobe Dynamic Media Classic, para abrir a Biblioteca de ativos.)
+>Se não vir o painel Biblioteca de ativos no lado esquerdo, clique na seta de triângulo para a direita no lado esquerdo, na metade da janela do Dynamic Media Classic, para abrir a Biblioteca de ativos.
 
 ## Classificar arquivos no Painel de navegação {#sorting-files-in-the-browse-panel}
 
-Para classificar o conteúdo de uma pasta ou os resultados de pesquisa exibidos no Painel de navegação à direita, na barra Navegação global, selecione **[!UICONTROL Sort]** e escolha uma opção. As opções são **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]**, e **[!UICONTROL Last Modified]**.
+Você pode classificar o conteúdo de uma pasta ou os resultados da pesquisa exibidos no Painel de navegação no lado direito. Na barra Navegação global, selecione **[!UICONTROL Sort]** e escolha uma opção. As opções são **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]**, e **[!UICONTROL Last Modified]**.
 
 Você também pode escolher **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]** para classificar ativos em ordem crescente ou decrescente pelos critérios escolhidos.
 
@@ -63,7 +63,7 @@ Na Biblioteca de ativos, logo abaixo do campo Pesquisar, selecione **[!UICONTROL
 
 Especifique qualquer um dos critérios a seguir na pesquisa avançada:
 
-* **Filtrar por tipo de ativo** - Restrinja sua pesquisa a apenas um tipo de ativo, escolhendo um tipo de ativo no menu.
+* **Filtrar por tipo de ativo** - Restrinja sua pesquisa a apenas um tipo de ativo. Escolha um tipo de ativo no menu.
 
 * **Arquivos e pastas** - Escolha onde deseja pesquisar: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]** ou **[!UICONTROL Within Selected Folder & Subfolders]**.
 
@@ -73,7 +73,7 @@ Especifique qualquer um dos critérios a seguir na pesquisa avançada:
 
 * **Critérios de pesquisa** - Crie um ou mais campos de pesquisa para pesquisar metadados. Para criar campos de pesquisa:
 
-   1. Na Pesquisa avançada, na seção **[!UICONTROL Search criteria]** e à esquerda do **[!UICONTROL Add a Field]** ), selecione o ícone de seta para baixo triângulo para abrir a lista suspensa. Escolha uma visualização de Metadados. Você pode escolher **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]** ou **[!UICONTROL XMP]**.
+   1. Na Pesquisa avançada, na seção **[!UICONTROL Search criteria]** e à esquerda do **[!UICONTROL Add a Field]** ), selecione o ícone de seta para baixo triângulo para abrir a lista suspensa. Escolha uma visualização de metadados. Você pode escolher **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]** ou **[!UICONTROL XMP]**.
    1. Selecione o **[!UICONTROL Add a Field]** e escolha um nome de campo.
    1. Escolha um **[!UICONTROL Contains]** opção: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** ou **[!UICONTROL Equals]**.
    1. Para campos numéricos, escolha um valor ou insira um intervalo de datas personalizado.
@@ -87,7 +87,7 @@ Selecionar **[!UICONTROL Clear]** se quiser limpar os critérios de pesquisa e i
 
 ## Filtrar ativos usando metadados {#filter-assets-using-metadata}
 
-Filtre ativos na guia Filtros da Biblioteca de ativos. Para filtrar ativos, use valores de metadados como critérios. Após escolher um campo de metadados para filtrar, a guia Filtros lista todos os valores de metadados inseridos no campo escolhido. Ele também lista o número de ativos que foram atribuídos a cada valor. Por exemplo, em uma operação de filtro no **[!UICONTROL Creator]** campo de metadados, a variável **[!UICONTROL Filters]** lista todos os nomes que foram inseridos na variável **[!UICONTROL Creator]** campo de metadados para ativos diferentes. Ele também lista, para cada nome, o número de ativos atribuídos ao nome. Em seguida, selecione um valor de metadados para ver todos os ativos que foram atribuídos a esse valor. No exemplo, selecione a variável `Prairie Cat` valor de metadados para ver todos os ativos nos quais o nome `Prairie Cat` foi inscrito no **[!UICONTROL Creator]** campo de metadados. É possível filtrar usando mais de um campo de metadados como critério de filtragem.
+Filtre ativos na guia Filtros da Biblioteca de ativos. Para filtrar ativos, use valores de metadados como critérios. Após escolher um campo de metadados para filtrar, a guia Filtros lista todos os valores de metadados inseridos no campo escolhido. Ele também lista o número de ativos que foram atribuídos a cada valor. Por exemplo, em uma operação de filtro no **[!UICONTROL Creator]** campo de metadados, a variável **[!UICONTROL Filters]** lista todos os nomes que foram inseridos na variável **[!UICONTROL Creator]** campo de metadados para ativos diferentes. Também lista, para cada nome, o número de ativos atribuídos ao nome. Em seguida, selecione um valor de metadados para ver todos os ativos que foram atribuídos a esse valor. No exemplo, selecione a variável `Prairie Cat` valor de metadados para ver todos os ativos nos quais o nome `Prairie Cat` foi inscrito no **[!UICONTROL Creator]** campo de metadados. É possível filtrar usando mais de um campo de metadados como critério de filtragem.
 
 É possível salvar operações de filtro para executá-las várias vezes.
 
@@ -109,7 +109,7 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 
    Consulte [Salvar, repetir e excluir operações de filtro](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
-1. Selecionar **[!UICONTROL Field]** em um painel, siga estas instruções para exibir o menu de filtragem e construir a operação de filtro:
+1. Clique em **[!UICONTROL Field]** em um painel, siga estas instruções para exibir o menu de filtragem e construir a operação de filtro:
 
    * **Escolha um campo de metadados** - Selecione o nome do campo no menu de filtragem.
 
@@ -125,17 +125,17 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 
    Quando você escolhe um campo de metadados, seu painel lista o seguinte:
 
-   * Todos os valores de metadados inseridos no campo.
+   * Todos os valores de metadados são inseridos no campo.
    * Para cada valor de metadados, o número de ativos dado o valor.
 
 1. Repita a Etapa 2 quantas vezes forem necessárias para listar todos os campos de metadados para a operação de filtro em painéis.
 1. Em cada painel, selecione um valor de metadados para filtrar. Não é possível selecionar mais de um valor de metadados em cada painel.
 
-   Os ativos que correspondem a todos os valores selecionados aparecem no painel Procurar.
+   Os ativos que correspondem a todos os valores selecionados aparecem no Painel de navegação.
 
    >[!NOTE]
    >
-   >Para remover temporariamente um campo da operação de filtro, selecione **[!UICONTROL Deselect All]**. Essa opção está na parte superior de cada painel, acima dos valores de metadados.
+   >Remova temporariamente um campo da operação de filtro clicando em **[!UICONTROL Deselect All]**. Essa opção está na parte superior de cada painel, acima dos valores de metadados.
 
 1. (Opcional) Para salvar a operação de filtro e executá-la posteriormente, selecione **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** e insira um nome na variável **[!UICONTROL Save]** caixa de diálogo.
 
