@@ -9,7 +9,7 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Consulte [Veicular conteúdo estático (não imagem)](https://experienceleague.a
 
      Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
-     Para o HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`ou `Universal_HTML5_MixedMedia_light` , anexe o código incorporado copiado com o seguinte:
+     Para o HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`ou `Universal_HTML5_MixedMedia_light` anexe o Código de inserção copiado com o seguinte:
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 

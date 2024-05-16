@@ -10,7 +10,7 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incl
 ## Copiar um URL de eCatalog {#copying-an-ecatalog-url}
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Catalog]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
@@ -54,10 +54,10 @@ Para obter mais detalhes e exemplos de código, consulte [Incorporar o visualiza
 
 Usar o recurso Incorporar código permite revisar o código do visualizador do eCatalog selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador de eCatalog:**
+**Para copiar o Código de incorporação de um visualizador do eCatalog:**
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Catalog]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o eCatalog cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs à direita, selecione **[!UICONTROL Embed Code]**.

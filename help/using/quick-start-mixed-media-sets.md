@@ -10,7 +10,7 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Os Conjuntos de mídias mistas oferecem aos usuários uma experiência de visualização integrada. Os Conjuntos de mídias mistas podem incluir imagens, Conjuntos de imagens, Conjuntos de amostras, Conjuntos de rotação e vídeos. Os usuários podem selecionar diferentes guias no Visualizador de mídia mista para ver os itens nos diferentes visualizadores. Se nenhuma guia for especificada, todos os ativos serão exibidos juntos na linha de amostra.
 
-As Predefinições do visualizador de conjunto de mídia mista incluem opções de comunidade para os usuários finais incorporarem código, copiarem URLs e vincularem ao site principal. Os usuários podem usar essas opções para compartilhar informações sobre produtos em seus sites pessoais ou sites de redes sociais.
+As predefinições do visualizador de conjunto de mídia mista incluem opções de comunidade para usuários finais incorporarem código, copiarem URLs e vincularem ao site principal. Os usuários podem usar essas opções para compartilhar informações sobre produtos em seus sites pessoais ou sites de redes sociais.
 
 Este Início rápido de conjuntos de mídia mista foi projetado para você começar a usar rapidamente as técnicas de Conjunto de mídia mista no Adobe Dynamic Media Classic.
 

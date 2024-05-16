@@ -1,6 +1,6 @@
 ---
 title: Criar um conjunto de amostras
-description: Saiba como criar um conjunto de amostras no Adobe Dynamic Media Classic.
+description: Saiba como criar um Conjunto de amostras no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Por exemplo, suponha que você queira apresentar imagens de tampas com diferente
 
 Ao criar um conjunto, a variável **Publicar após salvar** opção afeta os membros set e set das seguintes maneiras:
 
-| **[!UICONTROL Publish after save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| **[!UICONTROL Publish after a save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
@@ -47,15 +47,15 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
    Verifique se a amostra de cor, padrão ou fim arrastada para cada espaço reservado representa a cor, o padrão ou o fim da imagem adjacente.
 
 1. Para alterar a ordem das imagens no Conjunto de amostras, arraste as imagens para novos locais.
-1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta para armazenar o Conjunto de amostras de cores, digite um nome para o conjunto e selecione **[!UICONTROL Submit]**.
 1. Para ver o conjunto de amostras no Visualizador de conjuntos de amostras, selecione **[!UICONTROL Preview]** na tela Conjunto de amostras. Você pode selecionar miniaturas de amostras no Visualizador de conjuntos de amostras para ver como elas se comportam.
 
 ## Editar um conjunto de amostras {#editing-a-swatch-set}
 
-Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
+Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
 
-| Conjunto já publicado? | **[!UICONTROL Publish after]** opção salvar selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| Conjunto já publicado? | **[!UICONTROL Publish after a save]** opção salvar selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 |--- | --- | --- | --- |
 | Sim | Sim | Publicado | Publicado. |
 | Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |
@@ -73,7 +73,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
    * Para remover uma imagem, selecione-a e **[!UICONTROL Delete]** na barra de ferramentas.
    * Para reordenar imagens, arraste uma imagem para uma nova posição.
 
-1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
 ## Excluir um conjunto de amostras

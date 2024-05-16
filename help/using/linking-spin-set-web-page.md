@@ -10,7 +10,7 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Vincular um conjunto de rotação a uma página da Web{#linking-a-spin-set-to-a-web-page}
 
-Os sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo Conjuntos de rotação, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu Spin Set em suas páginas da Web e aplicativos, copie-o do Adobe Dynamic Media Classic.
+Os sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo Conjuntos de rotação, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu conjunto de rotação nas páginas e aplicativos da Web, copie-o do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Os sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, inclui
 ## Copiar um URL do grupo de rotação {#copying-a-spin-set-url}
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Spin Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de rotação cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o conjunto de rotação cujo código de inserção você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
@@ -61,7 +61,7 @@ Usar o recurso Incorporar código permite revisar o código do visualizador do c
 **Para copiar o código incorporado de um visualizador de conjunto de rotação:**
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Spin Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de rotação cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o conjunto de rotação cujo código de inserção você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.

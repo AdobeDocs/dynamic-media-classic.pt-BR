@@ -10,7 +10,7 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Após publicar um Conjunto de mídias mistas, você pode obter o URL associado p
 ## Obter um URL de conjunto de mix de mídia {#obtain-a-mixed-media-set-url}
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Media Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o conjunto de mídias cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o conjunto de mídias cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
@@ -44,14 +44,14 @@ Após publicar um Conjunto de mídias mistas, você pode obter o URL associado p
 
 A maneira mais comum de implantar um Conjunto de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
 
-## Copiar o código incorporado de um visualizador do Conjunto de mídias mistas {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copiar o código de inserção de um visualizador de conjunto de mídia mista {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 O uso do recurso Incorporar código permite revisar o código do visualizador do Conjunto de mídias mistas selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador do Conjunto de mídias mistas:**
+**Para copiar o Código de inserção de um visualizador do Conjunto de mídias mistas:**
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Mixed Media Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de mídias mistas cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de mídias mistas cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.

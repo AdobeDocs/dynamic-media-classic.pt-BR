@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Vincular um conjunto de imagens a uma página da Web{#linking-an-image-set-to-a-web-page}
 
-Depois de publicar um Conjunto de imagens, você pode copiar o URL associado ou o código incorporado para uso no site ou aplicativo. Em seguida, é possível implantar o URL ou colar o código incorporado conforme necessário para que os usuários possam exibir o Conjunto de imagens em seu site ou aplicativo.
+Depois de publicar um Conjunto de imagens, você pode copiar o URL associado ou o Código incorporado para uso no site ou aplicativo. Em seguida, é possível implantar o URL ou colar o Código de inserção conforme necessário para que os usuários possam exibir o Conjunto de imagens em seu site ou aplicativo.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Depois de publicar um Conjunto de imagens, você pode copiar o URL associado ou 
 ## Copiar um URL do conjunto de imagens {#copying-an-image-set-url}
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Image Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de imagens cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de imagens cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
@@ -48,16 +48,16 @@ Depois de publicar um Conjunto de imagens, você pode copiar o URL associado ou 
 
 A maneira mais comum de implantar Conjuntos de imagens é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (JSP) que exibe o Conjunto de imagens em uma janela pop-up de zoom. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporar o visualizador de zoom do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e amostras de código, consulte a [Incorporar o visualizador de zoom do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de conjunto de imagens {#copying-the-embed-code-of-an-image-set-viewer}
 
 O uso do recurso Incorporar código permite revisar o código do visualizador para o Conjunto de imagens selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador de Conjunto de imagens:**
+**Para copiar o Código de incorporação de um visualizador de conjunto de imagens:**
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Image Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de imagens cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de imagens cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs à direita, selecione **[!UICONTROL Embed Code]**.

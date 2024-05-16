@@ -10,9 +10,9 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Last Modified Date:
 1. Na barra Navegação global, selecione **[!UICONTROL Publish]**.
 1. Defina as opções de agendamento desejadas.
 1. (Opcional) Na **[!UICONTROL Job Name]** digite um nome para o trabalho de publicação.
-1. Entrada **[!UICONTROL Advanced]** opções, na caixa **[!UICONTROL Publish To]** selecione **[!UICONTROL Video Server]**.
+1. No **[!UICONTROL Advanced]** opções, na caixa **[!UICONTROL Publish To]** selecione **[!UICONTROL Video Server]**.
 
    Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter mais opções, é possível definir.
 

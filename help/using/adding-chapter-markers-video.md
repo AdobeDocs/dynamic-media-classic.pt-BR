@@ -10,7 +10,7 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -85,6 +85,6 @@ Consulte [WebVTT: o formato de rastreamento de texto de vídeo na Web](https://w
 
      Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
-     Para o HTML5 `Universal_HTML5_Video` , anexe o código incorporado copiado com o seguinte:
+     Para o HTML5 `Universal_HTML5_Video` , anexe o Código incorporado copiado com o seguinte:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

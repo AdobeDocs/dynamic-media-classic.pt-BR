@@ -10,7 +10,7 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Para obter mais detalhes e amostras de código, consulte a [Incorporar o Visuali
 
 O recurso Incorporar código permite revisar o código do visualizador para o visualizador de zoom selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador de zoom:**
+**Para copiar o Código de incorporação de um visualizador de zoom:**
 
 1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o visualizador de zoom cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:

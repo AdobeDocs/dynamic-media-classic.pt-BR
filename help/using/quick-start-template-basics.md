@@ -10,9 +10,9 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Noções básicas de modelo são arquivos de imagem em camadas criados dinamicam
 
 Um modelo pode conter qualquer número de camadas de imagem e camadas de texto. É possível converter um arquivo estático contendo camadas, como um arquivo de PSD em camadas, em um modelo e criar modelos no Adobe Dynamic Media Classic. É possível criar camadas de texto em modelos usando fontes carregadas no Adobe Dynamic Media Classic. Depois de adicionar texto a um modelo, é possível formatá-lo alterando sua justificação, sua fonte, tamanho da fonte e cor.
 
-Usando a página Parâmetros, você pode converter qualquer aspecto de um modelo em um parâmetro endereçável. Ao fazer isso, você pode alterar qual imagem em camada usar ou qual valor de texto usar no modelo. Os parâmetros são passados com a string do URL, permitindo que você altere qualquer parâmetro para personalizar dinamicamente a imagem de resposta gerada a partir do Servidor de imagens.
+Usando a página Parâmetros, você pode converter qualquer aspecto de um modelo em um parâmetro endereçável. Ao fazer isso, você pode alterar qual imagem em camada usar ou qual valor de texto usar no modelo. Os parâmetros são passados com a string do URL, permitindo alterar qualquer parâmetro para personalizar dinamicamente a imagem de resposta gerada no Servidor de imagens.
 
 Consulte também [Noções básicas de modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de treinamento.
 
@@ -69,4 +69,4 @@ Para publicar um modelo, marque-o para publicação e, na barra Navegação glob
 
 O Dynamic Media Classic cria URLs para modelos e ativa os URLs ao publicar modelos nos Dynamic Media Image Servers. Você pode copiar essas cadeias de caracteres de URL da página Visualização de modelo.
 
-Selecione o modelo no Painel de navegação e selecione **[!UICONTROL Preview]** para abrir a página Visualização de modelo. Escolha uma Predefinição de imagem para fornecer o modelo e selecione **[!UICONTROL Copy URL]**. Depois de copiar o URL da página de Visualização, você pode usá-lo no site ou no aplicativo. Consulte [Vincular um modelo a uma página da Web](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Selecione o modelo no Painel de navegação e selecione **[!UICONTROL Preview]** para abrir a página Visualização de modelo. Escolha uma Predefinição de imagem para fornecer seu modelo e clique no **[!UICONTROL Copy URL]** botão. Depois de copiar o URL da página de Visualização, você pode usá-lo no site ou no aplicativo. Consulte [Vincular um modelo a uma página da Web](linking-template-web-page.md#linking_a_template_to_a_web_page).

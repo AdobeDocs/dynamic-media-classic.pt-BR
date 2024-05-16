@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
    * Visualizadores de mídia mista que combinam conteúdo de vídeo e imagem.
 
 * Configure players de vídeo para atender às suas necessidades de marca.
-* Integre vídeo ao seu site, site móvel ou aplicativo móvel com um URL simples ou código integrado.
+* Integre vídeo ao seu site, site móvel ou aplicativo móvel com um URL simples ou Código incorporado.
 
 Consulte os seguintes vídeos de treinamento:
 * [Visão geral do vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -146,13 +146,13 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
 
 * Exibir o vídeo incorporado na página da Web, nesse caso, use o **[!UICONTROL Embed Code]** recurso.
 
-  Para obter o código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no Painel de navegação. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
+  Para obter o código incorporado de um vídeo, na exibição em grade ou em lista, selecione o vídeo no painel Procurar. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
-  Selecionar **[!UICONTROL Close]** e cole o código incorporado em uma ou mais páginas da Web.
+  Selecionar **[!UICONTROL Close]** e cole o Código de inserção em uma ou mais páginas da Web.
 
   >[!NOTE]
   >
-  >O código incorporado só é ativado após a publicação do vídeo ou do Conjunto de vídeos adaptados.
+  >O código de inserção só é ativado após a publicação do vídeo ou do Conjunto de vídeos adaptados.
 
 Consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 

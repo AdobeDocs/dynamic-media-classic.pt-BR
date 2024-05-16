@@ -10,9 +10,9 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 Dimensionamento de imagem refere-se à capacidade do Adobe Dynamic Media Classic de criar várias imagens derivadas com base em uma única imagem de alta resolução. Em vez de criar manualmente várias imagens (por exemplo, uma miniatura e uma imagem ampliada) para seu site ou aplicativo, você fornece uma única imagem principal. O Adobe Dynamic Media Classic gera todas as imagens modificadas da mesma maneira que você as solicita. A capacidade de fornecer imagens dinamicamente a partir de uma única imagem principal tem muitas vantagens:
 
 * Não é necessário criar manualmente várias cópias da imagem em tamanhos diferentes. Você fornece uma imagem principal para o Adobe Dynamic Media Classic, e o Adobe Dynamic Media Classic gera derivados de tamanhos diferentes da imagem principal.
-* Você pode alterar rapidamente o tamanho de um tipo de imagem em todo o site ou aplicativo. Por exemplo, para alterar todas as imagens em miniatura, é possível modificar a Predefinição de imagem da &quot;miniatura&quot;. Uma Predefinição de imagem — semelhante a uma macro — é uma coleção de atributos de tamanho e formatação. É possível modificar a predefinição de imagem em &quot;miniatura&quot; para alterar o tamanho de todas as imagens em miniatura em todo o site ou aplicativo.
+* Você pode alterar rapidamente o tamanho de um tipo de imagem em todo o site ou aplicativo. Por exemplo, para alterar todas as imagens em miniatura, é possível modificar a Predefinição de imagem da &quot;miniatura&quot;. Uma predefinição de imagem é semelhante a uma macro, uma coleção de atributos de tamanho e formatação. É possível modificar a predefinição de imagem em &quot;miniatura&quot; para alterar o tamanho de todas as imagens em miniatura em todo o site ou aplicativo.
 * Não é necessário gerenciar os arquivos principais e todos os vários derivados em nenhum de seus sistemas de gerenciamento de conteúdo ou ativos interna ou externamente.
 
 ![É possível criar várias imagens derivadas em tamanhos diferentes do mesmo arquivo principal de alta resolução.](/help/using/assets/is_derivative_sizes_popup.png)
@@ -39,7 +39,7 @@ Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arq
 
 ## 2. Configurar predefinições da imagem
 
-Como uma macro, uma Predefinição de imagem é uma coleção de comandos de tamanho e formatação predefinidos salvos com um nome. Uma Predefinição de imagem controla o tamanho e a formatação com que as imagens são entregues dos Servidores de imagem da Dynamic Media. Você pode configurar as Predefinições de imagem por conta própria, caso tenha o status de Administrador da empresa. O Adobe Dynamic Media Classic também vem com Predefinições de imagem padrão, que podem ser usadas para fornecer imagens dinamicamente.
+Como uma macro, uma Predefinição de imagem é uma coleção de comandos de tamanho e formatação predefinidos salvos com um nome. Uma Predefinição de imagem controla o tamanho e a formatação com que as imagens são entregues dos Servidores de imagem da Dynamic Media. Você pode configurar as Predefinições de imagem por conta própria, caso tenha o status de Administrador da empresa. É possível fornecer imagens dinamicamente usando as Predefinições de imagem padrão que já vêm com o Adobe Dynamic Media Classic.
 
 Para criar uma Predefinição de imagem (se você for um administrador), na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Image Presets]**. Em seguida, selecione **[!UICONTROL Add]** para criar uma Predefinição de imagem ou selecione **[!UICONTROL Edit]** para alterar uma Predefinição de imagem existente.
 
@@ -66,6 +66,6 @@ Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar um 
 
 ## 5. Vincular URLs à sua aplicação web
 
-O Adobe Dynamic Media Classic cria strings de texto explicativo de URL para imagens. Ao publicar imagens nos Dynamic Media Image Servers, os URLs ficam ativos. Você pode copiar essas cadeias de caracteres de URL do Painel de navegação (na Exibição de detalhes) ou da tela de Visualização. Após copiar as cadeias de caracteres de URL, é possível usá-las no site e nos aplicativos. O URL para dimensionamento de imagem substitui a referência a um nome de imagem estática no código da página da Web. O URL faz referência a um nome de imagem primária, que é substituído pelo seu banco de dados para cada nova imagem a ser exibida.
+O Adobe Dynamic Media Classic cria strings de texto explicativo de URL para imagens. Ao publicar imagens nos Dynamic Media Image Servers, os URLs ficam ativos. Você pode copiar essas cadeias de caracteres de URL do Painel de navegação (na Exibição de detalhes) ou da tela de Visualização. Após copiar as cadeias de caracteres de URL, é possível usá-las no site e nos aplicativos. O URL para dimensionamento de imagem substitui a referência a um nome de imagem estática no código da página da Web. O URL faz referência a um nome de imagem principal que o banco de dados substitui para cada nova imagem a ser exibida.
 
 As cadeias de caracteres de URL geradas com Predefinições de imagem contêm o nome de uma Predefinição de imagem. Esse nome está entre cifrões (`$`). Por exemplo, `$thumbnail$` pode ser a Predefinição de imagem projetada para mostrar as imagens principais no tamanho da miniatura. Consulte [Vincular URLs ao aplicativo web](linking-urls-web-application.md#linking_urls_to_your_web_application).

@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -23,9 +23,9 @@ Para criar um Conjunto de imagens com várias visualizações, você precisa de 
 
 ## Criar um conjunto de imagens {#create}
 
-Ao criar um conjunto, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
+Ao criar um conjunto, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
 
-| **[!UICONTROL `Publish after save`]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| **[!UICONTROL `Publish after a save`]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
@@ -52,15 +52,15 @@ Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
    * **Comece na tela Conjunto de imagens**: Vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**. A tela Conjunto de imagens é aberta. Selecione uma pasta na Biblioteca de ativos e arraste as imagens desejadas para o Conjunto de imagens na tela Conjunto de imagens.
 
 1. Para alterar a ordem das imagens, arraste as imagens para novos locais.
-1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta para armazenar o Conjunto de imagens, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 1. Para ver o conjunto de imagens no Visualizador do conjunto de imagens, selecione **[!UICONTROL Preview]** na tela Conjunto de imagens. Você pode selecionar miniaturas de amostras no Visualizador de conjunto de imagens para ver como elas se comportam.
 
 ## Editar um conjunto de imagens {#editing-an-image-set}
 
-Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
+Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
 
-| Conjunto já publicado? | **[!UICONTROL `Publish after save`]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| Conjunto já publicado? | **[!UICONTROL `Publish after a save`]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- | --- |
 | Sim | Sim | Publicado | Publicado |
 | Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |
@@ -78,7 +78,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
    * Para remover uma imagem, selecione-a e **[!UICONTROL Delete]** na barra de ferramentas.
    * Para reordenar imagens, arraste uma imagem para uma nova posição.
 
-1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento para o conjunto, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
 ## Excluir um conjunto de imagens

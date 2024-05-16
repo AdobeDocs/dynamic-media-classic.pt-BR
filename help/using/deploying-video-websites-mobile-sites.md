@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Implantar vídeo em seus sites e sites móveis{#deploying-video-to-your-websites-and-mobile-sites}
 
-Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor do Adobe Dynamic Media Classic, incluindo vídeo, usando cadeias de caracteres de URL ou código incorporado. O Adobe Dynamic Media Classic ativa essas cadeias de caracteres de URL durante o processo de publicação. Para inserir a cadeia de caracteres de URL ou o código incorporado do vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie do Adobe Dynamic Media Classic.
+Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor do Adobe Dynamic Media Classic, incluindo vídeo, usando cadeias de caracteres de URL ou código incorporado. O Adobe Dynamic Media Classic ativa essas cadeias de caracteres de URL durante o processo de publicação. Para colocar a string de URL ou o código incorporado do vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie-o do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Consulte também [Vincular um URL de vídeo a um site para dispositivos móveis 
 **Para incorporar o visualizador de vídeo em uma página da Web:**
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Video]** ou **[!UICONTROL Adaptive Video Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o vídeo ou o conjunto de vídeos adaptáveis cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o vídeo ou o conjunto de vídeos adaptáveis cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]** ou **[!UICONTROL List View]**. No painel Navegação de ativos, clique duas vezes na miniatura de vídeo de um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, em HTTP Streaming, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado. Como prática recomendada, selecione **[!UICONTROL Embed Code]** que está associado à variável `Universal_HTML5_Video` visualizador.
@@ -107,7 +107,7 @@ Consulte também [Vincular um URL de vídeo a um site para dispositivos móveis 
 
 ### Implementar o código incorporado para usar vídeo HTML5 com ativos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Se você não usa o reprodutor de vídeo Adobe Dynamic Media Classic HTML5, mas deseja usar o HTML 5 nativo `<video>` com ativos de vídeo MP4, você pode usar a seguinte amostra de código incorporado:
+Se você não usa o reprodutor de vídeo Adobe Dynamic Media Classic HTML5, mas deseja usar o HTML 5 nativo `<video>` com ativos de vídeo MP4, você pode usar a seguinte amostra de Código incorporado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 

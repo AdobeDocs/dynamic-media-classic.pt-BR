@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -76,7 +76,7 @@ A publicação de um Conjunto de imagens o coloca nos servidores do Adobe Dynami
 
 >[!NOTE]
 >
->Esta etapa não é necessária se você selecionou **[!UICONTROL Publish after save]** (padrão) no momento em que você criou e salvou o Conjunto de imagens.
+>Esta etapa não é necessária se você selecionou **[!UICONTROL Publish after a save]** (padrão) no momento em que você criou e salvou o Conjunto de imagens.
 
 Selecionar **[!UICONTROL Mark for Publish]** ícone à esquerda do nome no Painel de navegação. Em seguida, selecione **[!UICONTROL Publish]**. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 

@@ -10,9 +10,9 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ A criação de um eCatalog implica ordenar as páginas, escolher o layout de pá
 
 Você pode incluir arquivos de imagem e arquivos PDF no eCatalog.
 
-Ao criar um eCatalog, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
+Ao criar um eCatalog, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
 
-| Opção &quot;Publicar após salvar&quot; selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| A opção &quot;Publicar após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
@@ -56,7 +56,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
    * **Sequence #**: Na Exibição de Lista, insira números de página nos campos de Número de Sequência.
 
-1. Quando terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Quando terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**.
 1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o eCatalog. No campo Nome do arquivo, digite o nome do conjunto de rotação.
 1. Selecionar **[!UICONTROL Save]**.
@@ -65,9 +65,9 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 ## Editar um eCatalog {#editing-an-ecatalog}
 
-Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
+Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
 
-| Conjunto já publicado? | Opção &quot;Publicar após salvar&quot; selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| Conjunto já publicado? | A opção &quot;Publicar após salvar&quot; foi selecionada antes de salvar a edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- | --- |
 | Sim | Sim | Publicado | Publicado |
 | Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |
@@ -80,7 +80,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 1. Selecione a sobreposição do eCatalog **[!UICONTROL Edit]** botão.
 1. Faça as alterações necessárias.
-1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
 ## Excluir um eCatalog

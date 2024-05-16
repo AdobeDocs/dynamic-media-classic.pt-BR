@@ -9,9 +9,9 @@ role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Crie um Conjunto de mídias mistas quando quiser combinar vários tipos de visua
 
 Ao criar um conjunto, a variável **Publicar após salvar** opção afeta os membros set e set das seguintes maneiras:
 
-| Opção &quot;Publicar após salvar&quot; selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| A opção &quot;Publicar após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
@@ -44,11 +44,11 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 1. Siga um destes procedimentos:
 
-   * Para adicionar uma trilha sonora, arraste um arquivo de áudio da Biblioteca de ativos para a caixa Trilha sonora. A trilha sonora é reproduzida enquanto as imagens são exibidas. Ele para quando o vídeo é reproduzido.
+   * Para adicionar uma trilha sonora, arraste um arquivo de áudio da Biblioteca de ativos para a caixa Trilha sonora. A trilha sonora é reproduzida enquanto as imagens são exibidas. Ele para quando um vídeo é reproduzido.
    * Para alterar a ordem dos conjuntos, arraste-os para novos locais na tela Conjunto de mídias mistas. A ordem dos conjuntos na tela determina a ordem da esquerda para a direita na qual os usuários veem os conjuntos no Visualizador de conjunto de mídias mistas.
    * (Opcional) Para adicionar uma miniatura personalizada para representar um vídeo no Visualizador, arraste um arquivo de imagem da Biblioteca de ativos para a caixa de espaço reservado Miniatura.
 
-1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**.
 1. Selecione uma pasta para armazenar o Conjunto de mídias mistas e digite um nome para o conjunto.
 1. Selecionar **[!UICONTROL Save]**.
@@ -57,11 +57,11 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 ## Editar um conjunto de mix de mídia {#edit-a-mixed-media-set}
 
-É possível editar um Conjunto de mídias mistas. Se você quiser editar um conjunto em um Conjunto de mídias mistas, abra esse conjunto separadamente, edite-o e salve-o. As edições são exibidas no conjunto de Mídia mista.
+É possível editar um Conjunto de mídias mistas. Se você quiser editar um conjunto em um Conjunto de mídias mistas, abra esse conjunto separadamente, edite-o e salve-o. As edições são exibidas no Conjunto de mídias mistas.
 
-Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after save]** opção afeta os membros set e set das seguintes maneiras:
+Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
 
-| Conjunto já publicado? | **[!UICONTROL Publish after save]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| Conjunto já publicado? | **[!UICONTROL Publish after a save]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- |--- |--- |--- |
 | Sim | Sim | Publicado | Publicado |
 | Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |
@@ -78,7 +78,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
    * Para remover itens, selecione-os e **[!UICONTROL Delete]**.
    * Para reordenar itens, arraste-os para novos locais.
 
-1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
+1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
 
 ## Excluir um conjunto de mix de mídia

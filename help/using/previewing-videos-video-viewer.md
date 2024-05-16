@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Consulte [Adicionar e editar predefinições do visualizador](application-setup.
 
 ## Trabalhar com predefinições do visualizador de vídeo {#working-with-video-viewer-presets}
 
-Os usuários assistem a vídeos no Visualizador de vídeo. O comportamento, a aparência e o funcionamento dos controles de reprodução do visualizador de vídeo dependem da Predefinição do visualizador escolhida para a reprodução do vídeo. Você escolhe uma predefinição do visualizador na tela Visualizar. Após escolher uma predefinição, obtenha o URL ou o código incorporado para reproduzir o vídeo usando a Predefinição do visualizador escolhida.
+Os usuários assistem a vídeos no Visualizador de vídeo. O comportamento, a aparência e o funcionamento dos controles de reprodução do visualizador de vídeo dependem da Predefinição do visualizador escolhida para a reprodução do vídeo. Você escolhe uma predefinição do visualizador na tela Visualizar. Depois de escolher uma predefinição, obtenha o URL ou o Código incorporado para reproduzir o vídeo usando a Predefinição do visualizador escolhida.
 
 O Adobe Dynamic Media Classic vem com muitas Predefinições do visualizador predefinidas para reproduzir vídeo e, se você for um administrador, poderá criar Predefinições do visualizador personalizadas. Há mais de 12 configurações diferentes para configurar o Visualizador de vídeo. Você pode configurar o tamanho, a cor, os controles de vídeo e áudio, a barra de progresso, a interface de capa do usuário e os recursos sociais.
 

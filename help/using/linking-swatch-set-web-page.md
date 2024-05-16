@@ -10,7 +10,7 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Vincular um conjunto de amostras a uma página da Web{#linking-a-swatch-set-to-a-web-page}
 
-Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o código incorporado no site ou aplicativo. Em seguida, é possível implantar o URL ou o código incorporado, conforme necessário, para que os usuários possam exibir o Conjunto de amostras em seu site ou aplicativo.
+Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o Código incorporado no site ou aplicativo. Em seguida, implante o URL ou o Código de inserção conforme necessário para que os usuários possam exibir o Conjunto de amostras em seu site ou aplicativo.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o
 ## Copiar um URL do conjunto de amostras {#copying-a-swatch-set-url}
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Swatch Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
@@ -54,10 +54,10 @@ Para obter mais detalhes e exemplos de código, consulte [Como incorporar o Visu
 
 O uso do recurso Incorporar código permite revisar o código do visualizador do Conjunto de amostras selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o código incorporado de um visualizador de conjunto de amostras:**
+**Para copiar o Código incorporado de um visualizador de Conjunto de amostras:**
 
 1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Swatch Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.
