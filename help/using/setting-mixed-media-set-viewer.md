@@ -10,9 +10,9 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
 1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Na página Predefinições do visualizador, siga um destes procedimentos:
 
-   * Para criar uma predefinição, selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e **[!UICONTROL Mixed Media Set Viewer]** e selecione **[!UICONTROL Add]**.
-   * Para editar uma predefinição do Visualizador de conjunto de mídia mista, selecione-a e, em seguida, **[!UICONTROL Edit]**.
+   * Para criar uma predefinição, selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma. Clique em **[!UICONTROL Mixed Media Set Viewer]** > **[!UICONTROL Add]**.
+   * Para editar uma Predefinição do visualizador de conjunto de mídia mista, selecione-a e, em seguida, **[!UICONTROL Edit]**.
 
-1. Na página Visualizador de configuração, digite um nome na caixa Nome da predefinição da predefinição do Visualizador de conjunto de mídia mista.
+1. Na página Visualizador de configuração, digite um nome na caixa Nome da predefinição da Predefinição do visualizador de conjunto de mídia mista.
 1. Especificar **[!UICONTROL Tabs]** ou **[!UICONTROL No Tabs]**. Tabulações separam itens por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especificar nenhuma guia, todos os itens aparecerão em uma linha na janela Visualizar.
 1. No **[!UICONTROL Name]** digite um nome para o visualizador que deseja adicionar.
 
    Por exemplo, se estiver adicionando um Conjunto de amostras ao Conjunto de mídias mistas, digite `Swatch Set A`.
 
-1. No menu Visualizador, escolha o tipo de ativo que deseja exibir, como Conjuntos de amostras.
-1. No menu Predefinição, escolha uma predefinição para o tipo de ativo escolhido.
+1. No menu Visualizador, selecione o tipo de ativo que deseja exibir, como Conjuntos de amostras.
+1. No menu Predefinição, selecione uma predefinição para o tipo de ativo escolhido.
 
-   Por exemplo, se estiver adicionando um Conjunto de amostras, escolha **[!UICONTROL SwatchSet1-Colors]**.
+   Por exemplo, se estiver adicionando um Conjunto de amostras, selecione **[!UICONTROL SwatchSet1-Colors]**.
 
 1. Selecionar **[!UICONTROL Add]**.
 

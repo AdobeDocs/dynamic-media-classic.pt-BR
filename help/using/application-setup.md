@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '10352'
+source-wordcount: '10351'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Consulte também [Testar o serviço de teste seguro](testing-assets-making-them-
 
 * **[!UICONTROL Progressive Video Server Name]**: O URL para o seu [!DNL Adobe Dynamic Media Classic] servidor de vídeo progressivo. Esse servidor fornece vídeo progressivo usando o protocolo HTTP.
 
-* **[!UICONTROL Show URL for unpublished assets]**: selecione esta opção se desejar [!DNL Adobe Dynamic Media Classic] para exibir um URL ao visualizar qualquer ativo, seja ele publicado ou não. Se o ativo não for publicado, o URL não funcionará. No entanto, você pode usar o URL para fins de planejamento ou organização.
+* **[!UICONTROL Show URL for unpublished assets]**: selecione esta opção se desejar [!DNL Adobe Dynamic Media Classic] para exibir um URL ao visualizar qualquer ativo, publicado ou não. Se o ativo não for publicado, o URL não funcionará. No entanto, você pode usar o URL para fins de planejamento ou organização.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -83,7 +83,7 @@ Consulte também [Testar o serviço de teste seguro](testing-assets-making-them-
 
 * **[!UICONTROL Show Sample eVideo Content]**: ativar ou desativar a exibição do conteúdo de amostra do eVideo.
 
-* **[!UICONTROL Show Generated Content]**: nas pastas, mostra o conteúdo gerado de um ativo. Por exemplo, quando um arquivo PDF é rasterizado à medida que é carregado, o Adobe Dynamic Media Classic cria uma imagem para cada página no PDF original. Se Mostrar conteúdo gerado estiver selecionado, cada imagem gerada quando o PDF original for carregado será exibida. Ele aparece junto com o PDF na pasta para a qual o PDF foi carregado.
+* **[!UICONTROL Show Generated Content]**: nas pastas, ele mostra o conteúdo gerado de um ativo. Por exemplo, quando um arquivo PDF é rasterizado à medida que é carregado, o Adobe Dynamic Media Classic cria uma imagem para cada página no PDF original. Se Mostrar conteúdo gerado estiver selecionado, cada imagem gerada quando o PDF original for carregado será exibida. Ele aparece junto com o PDF na pasta para a qual o PDF foi carregado.
 
 * **[!UICONTROL Show Encoded Videos]**: desmarcado (desativado) por padrão.
 
@@ -117,11 +117,11 @@ Consulte também [Opções para trabalhos de upload](https://s7d5.scene7.com/s7v
 
 * **[!UICONTROL Overwrite Images]**: o Adobe Dynamic Media Classic não permite que dois arquivos tenham o mesmo nome. A Adobe Dynamic Media Classic ID de cada item (o nome da imagem menos a extensão do nome do arquivo) deve ser exclusiva. Por causa dessa regra, a caixa de diálogo Fazer upload tem uma opção Substituir. O efeito exato dessa opção depende da opção Substituir imagens especificada. Essas opções especificam como as imagens de substituição são carregadas: se elas substituem as imagens originais ou se tornam imagens duplicadas. Imagens duplicadas são renomeadas com um &quot;-1&quot; (por exemplo, chair.tif é renomeado chair-1.tif). Essas opções afetam as imagens carregadas em uma pasta diferente da original ou as imagens com uma extensão de nome de arquivo diferente da original (como JPG, TIF ou PNG). Consulte [Usar a opção Substituir imagens](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Overwrite in current folder, same base image name/extension]**: essa opção é a regra mais rígida para substituição. Ela requer que você faça upload da imagem de substituição para a mesma pasta da original e que a imagem de substituição tenha a mesma extensão de nome de arquivo da original. Se esses requisitos não forem atendidos, uma duplicata será criada.
+   * **[!UICONTROL Overwrite in current folder, same base image name or extension]**: essa opção é a regra mais rígida para substituição. Ela requer que você faça upload da imagem de substituição para a mesma pasta da original e que a imagem de substituição tenha a mesma extensão de nome de arquivo da original. Se esses requisitos não forem atendidos, uma duplicata será criada.
 
    * **[!UICONTROL Overwrite in current folder, same base asset name regardless of extension]**: Requer que você faça upload da imagem de substituição na mesma pasta da original, no entanto, a extensão do nome do arquivo pode ser diferente da original. Por exemplo, chair.tif substitui chair.jpg.
 
-   * **[!UICONTROL Overwrite in any folder, same base asset name/extension]**: Requer que a imagem de substituição tenha a mesma extensão de nome de arquivo que a imagem original (por exemplo, chair.jpg deve substituir chair.jpg, não chair.tif). Entretanto, é possível fazer upload da imagem de substituição em uma pasta diferente da original. A imagem atualizada está na nova pasta; o arquivo não pode mais ser encontrado em seu local original
+   * **[!UICONTROL Overwrite in any folder, same base asset name or extension]**: requer que a imagem de substituição tenha a mesma extensão de nome de arquivo que a imagem original. Por exemplo, chair.jpg deve substituir chair.jpg, não chair.tif). Entretanto, é possível fazer upload da imagem de substituição em uma pasta diferente da original. A imagem atualizada está na nova pasta; o arquivo não pode mais ser encontrado em seu local original
 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]**: essa é a regra de substituição mais inclusiva. É possível fazer upload de uma imagem de substituição para uma pasta diferente da original, fazer upload de um arquivo com uma extensão de nome de arquivo diferente e substituir o arquivo original. Se o arquivo original estiver em uma pasta diferente, a imagem de substituição ficará localizada na nova pasta para a qual foi carregada.
 
@@ -135,7 +135,7 @@ Consulte também [Opções para trabalhos de upload](https://s7d5.scene7.com/s7v
 
 * **[!UICONTROL Default Image Mapping HREF]**: define o URL padrão usado para a coluna HREF no mapeamento de imagem. Esse é o URL padrão que você vê ao criar Mapas de imagem.
 
-* **[!UICONTROL Default Image Mapping Template]**: define o JavaScript padrão para o modelo HREF no mapeamento de imagem. Você pode definir um código personalizado aqui para ser executado sempre que selecionar um mapa de imagem.
+* **[!UICONTROL Default Image Mapping Template]**: define o JavaScript padrão para o modelo HREF no mapeamento de imagem. É possível definir um código personalizado aqui para ser executado sempre que você selecionar um Mapa de imagem.
 
 ### Outras Configurações (para Aplicativo)
 

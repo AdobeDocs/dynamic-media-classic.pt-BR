@@ -10,7 +10,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Ajustar uma imagem{#adjusting-an-image}
 
-O Adobe Dynamic Media Classic oferece vários comandos para ajustar a aparência de uma imagem. É possível virar, girar, desfocar, alterar o equilíbrio de cores e colorir uma imagem. À medida que você experimentar esses comandos, poderá ver seus efeitos na imagem com a qual está trabalhando.
+O Adobe Dynamic Media Classic oferece vários comandos para ajustar a aparência de uma imagem. É possível virar, girar, desfocar, alterar o Equilíbrio de Cores e colorir uma imagem. À medida que você experimentar esses comandos, poderá ver seus efeitos na imagem com a qual está trabalhando.
 
 Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -45,7 +45,7 @@ Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an
 
    * Para salvar a imagem como uma nova imagem primária, selecione **[!UICONTROL Save As]**.
 
-     Na lista suspensa, selecione **[!UICONTROL Save as new primary]**.
+     Na lista suspensa, selecione **[!UICONTROL Save as a new primary]**.
 No **[!UICONTROL Folder Name]** , selecione a pasta onde deseja salvar a nova imagem principal.
 Selecionar **[!UICONTROL Save]**.
 
@@ -57,7 +57,7 @@ Selecionar **[!UICONTROL Save]**.
 
 ## Criar um alias para uma imagem {#creating-an-alias-for-an-image}
 
-Quando tiver ajustado uma imagem, você poderá salvá-la como outra visualização da imagem principal. Para fazer isso, você pode criar um alias para a imagem usando o **[!UICONTROL Save as another view of primary]** recurso.
+Quando tiver ajustado uma imagem, você poderá salvá-la como outra visualização da imagem principal. Para fazer isso, você pode criar um alias para a imagem usando o **[!UICONTROL Save as another view of the primary]** recurso.
 
 **Para criar um alias para uma imagem:**
 

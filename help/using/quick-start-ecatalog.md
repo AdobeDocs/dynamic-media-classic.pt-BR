@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Dependendo das configurações escolhidas para o seu eCatalog, o visualizador po
 * Mova o ponteiro sobre uma região da página (chamada de Mapa de imagem) para que você possa ver uma janela pop-up com informações sobre um item.
 * Selecione uma região de página para que ela abra uma nova página da Web com mais informações sobre um item.
 * Escreva uma nota adesiva e anexe-a a uma página de eCatalog.
-* Toque nos ícones do mapa de imagem se desejar iniciar páginas da Web relacionadas ou painéis de informações no contexto.
+* Toque nos ícones do Mapa de imagem se desejar iniciar páginas da Web relacionadas ou painéis de informações no contexto.
 * Use interações de gestos, incluindo pinçar para aplicar zoom e deslizar o dedo para virar as páginas.
 * Procurar itens por palavra-chave.
 
@@ -92,7 +92,7 @@ Consulte [Criar mapas de imagem de eCatalog](creating-ecatalog-image-maps.md#cre
 
 Consulte [Usar mapas de imagem para incorporar mídia avançada em um eCatalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-Você pode configurar e gerenciar o texto do mapa de imagem usando as configurações do Painel de informações na tela eCatalog.
+Você pode configurar e gerenciar o texto do Mapa de imagem usando as configurações do Painel de informações na tela eCatalog.
 
 Consulte [Gerenciar conteúdo do Painel de Informações em eCatalogs](/help/using/info-panel-content-ecatalog.md).
 

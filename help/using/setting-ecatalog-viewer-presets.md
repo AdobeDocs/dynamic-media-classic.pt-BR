@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Siga estas etapas para criar uma Predefinição do visualizador do eCatalog (voc
    | `$2$` | quadro | O número sequencial do quadro mostrado no momento no conjunto de imagens. |
    | `$3$` | raiz da imagem | O primeiro elemento de caminho do primeiro item especificado no comando image (normalmente a ID do catálogo de imagens da entrada do catálogo especificando o conjunto de imagens). |
 
-1. (Opcional) Na **[!UICONTROL Info Panel Settings]**, no **[!UICONTROL Response Template]** digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de eCatalog, mas nenhum identificador de rollover, essa mensagem será exibida para o usuário.
+1. (Opcional) Na **[!UICONTROL Info Panel Settings]**, no **[!UICONTROL Response Template]** digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um Mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de eCatalog, mas nenhum identificador de rollover, essa mensagem será exibida para o usuário.
 
 >[!NOTE]
 >

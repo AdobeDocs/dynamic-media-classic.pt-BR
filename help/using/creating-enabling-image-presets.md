@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Criar e ativar predefinições de imagem{#creating-and-enabling-image-presets}
 
-Quando os usuários exportam ativos de imagem usando o Media Portal, eles podem escolher uma Predefinição de imagem na caixa de diálogo Exportar ativos selecionados. Uma predefinição de imagem é uma coleção de configurações predefinidas que alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
+Quando os usuários exportam ativos de imagem usando o Media Portal, eles podem escolher uma Predefinição de imagem na caixa de diálogo Exportar ativos selecionados. Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 
 Os administradores do Portal de mídia podem criar Predefinições de imagem para controlar como as imagens são reformatadas quando são exportadas. As Predefinições de imagem reformatam imagens de acordo com as especificações da sua empresa quando os usuários exportam imagens do Adobe Dynamic Media Classic. Em vez de reformatar imagens por conta própria, os usuários as exportam para as especificações precisas de uma Predefinição de imagem.
 

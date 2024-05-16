@@ -1,6 +1,6 @@
 ---
 title: SEO em vídeo (otimização do mecanismo de pesquisa)
-description: Saiba como definir configurações de SEO de vídeo no Adobe Dynamic Media Classic.
+description: Saiba como definir as configurações de SEO do vídeo no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # SEO em vídeo (otimização do mecanismo de pesquisa){#video-seo-search-engine-optimization}
 
-SEO é o processo de melhorar o volume de tráfego para um site a partir de mecanismos de pesquisa. Embora os mecanismos de pesquisa se sobressaiam na coleta de informações sobre o conteúdo baseado em texto, eles não podem adquirir informações adequadamente sobre o vídeo, a menos que essas informações sejam fornecidas a eles.
+SEO é o processo de melhorar o volume de tráfego para um site a partir de mecanismos de pesquisa. Embora os mecanismos de pesquisa se sobressaiam na coleta de informações sobre conteúdo baseado em texto, eles não podem adquirir informações adequadamente sobre vídeos. Essas informações devem ser-lhes fornecidas.
 
 Usando o Adobe Dynamic Media Classic Video SEO, você pode aplicar metadados de vídeo para fornecer aos mecanismos de pesquisa descrições de seus vídeos. O Adobe Dynamic Media Classic oferece a capacidade de criar mapas de site de vídeo e feeds mRSS. Esses arquivos XML padrão são usados para enviar informações de vídeo para mecanismos de pesquisa:
 
@@ -65,7 +65,7 @@ No **[!UICONTROL Generation Mode]** escolha um modo de relatório:
 
 No **[!UICONTROL Automatic/Manual Mode]** escolha entre gerar automática ou manualmente:
 
-* **Modo Automático**: o Adobe Dynamic Media Classic gera automaticamente um mapa do site de vídeo, um feed RSS de mídia (mRSS) ou ambos, todos os dias. Selecione o **[!UICONTROL Mark for Publish]** opção para marcar automaticamente para publicação o arquivo XML gerado pelo Adobe Dynamic Media Classic.
+* **Modo Automático**: o Adobe Dynamic Media Classic gera automaticamente um mapa do site de vídeo, um feed RSS de mídia (mRSS) ou ambos, todos os dias. Selecione o **[!UICONTROL Mark for Publish]** para que você possa marcar automaticamente para publicação o arquivo XML gerado pelo Adobe Dynamic Media Classic.
 
    * **Marcar para publicação** Marcas para publicar o arquivo XML gerado.
 
@@ -79,7 +79,7 @@ No **[!UICONTROL Automatic/Manual Mode]** escolha entre gerar automática ou man
 
 ### Escolhendo Configurações de Geração {#choosing-generation-settings}
 
-A área Configurações de geração lista os campos de entrada para o Mapa do site de vídeo, ou feed mRSS, ou ambos, e no painel Metadados, os nomes dos campos de metadados. Use a área Configurações gerais para mapear campos de entrada para campos de metadados. Ao fazer isso, você informa à Adobe Dynamic Media Classic onde obter metadados para o Mapa do site de vídeo e/ou feed mRSS.
+A área Configurações de geração lista os campos de entrada para o Mapa do site de vídeo, feed mRSS ou ambos. No painel Metadados, os nomes dos campos de metadados são listados. Use a área Configurações gerais para mapear campos de entrada para campos de metadados. Ao fazer isso, você informa à Adobe Dynamic Media Classic onde obter metadados para o Mapa do site de vídeo e/ou feed mRSS.
 
 1. No menu Visualizações de metadados, escolha uma visualização de metadados. Depois de escolher uma visualização, os nomes dos campos de metadados aparecem no painel Metadados.
 Consulte [Visualizações de metadados](application-setup.md#metadata_views).

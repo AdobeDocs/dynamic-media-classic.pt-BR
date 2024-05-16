@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '2163'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Se você não usou uma Predefinição de imagem ou transmitiu protocolos de niti
 
 Para definir as opções de nitidez padrão da sua empresa, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Se você definir o Modo de reamostragem padrão como **`Sharp2`**, ela sempre aplica nitidez à imagem ao diminuir a resolução.
 
-**Adicionar nitidez às predefinições do visualizador**
+**Adicionar nitidez às Predefinições do visualizador**
 
 A menos que você tenha adicionado modificadores de nitidez de imagem à predefinição, a imagem de carregamento inicial pequena pode parecer suave porque tem uma resolução reduzida para caber na janela do visualizador sem ter nitidez.
 

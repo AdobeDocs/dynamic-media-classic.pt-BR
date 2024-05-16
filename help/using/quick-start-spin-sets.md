@@ -10,9 +10,9 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Um Conjunto de rotação simula o ato do mundo real de virar um objeto para exam
 
 ![Imagens para um grupo de rotação.](/help/using/assets/spin_set.png)
 
-Os conjuntos de rotação também aceitam mapas de imagem. Um Mapa de imagem é uma região em uma imagem no Conjunto de rotação que exibe um painel de sobreposição com texto. Quando o usuário seleciona um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é iniciada para que o usuário possa saber mais sobre um produto. Para apontar um mapa de imagem em um Conjunto de rotação, um contorno é exibido ao redor do próprio Mapa de imagem quando o usuário move o ponteiro do mouse sobre ele.
+Os conjuntos de rotação também aceitam mapas de imagem. Um Mapa de imagem é uma região em uma imagem no Conjunto de rotação que exibe um painel de sobreposição com texto. Quando o usuário seleciona um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é iniciada para que o usuário possa saber mais sobre um produto. Para apontar um Mapa de imagem em um Conjunto de rotação, um contorno é exibido ao redor do próprio Mapa de imagem quando o usuário move o ponteiro do mouse sobre ele.
 
 Consulte [Criar mapas de imagem](creating-image-maps.md).
 
@@ -55,7 +55,7 @@ Consulte [Criar um grupo de rotação](creating-spin-set.md#creating-a-spin-set)
 
 ## 3. Editar um grupo de rotação
 
-Para editar um Conjunto de rotação, na barra de navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Selecione um conjunto de rotação e selecione **[!UICONTROL Edit]**. Adicionar, remover e alterar a posição das imagens. É possível alterar a posição das linhas em conjuntos de rotação bidimensionais.
+Para editar um Conjunto de rotação, na barra de navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Selecione um Conjunto de rotação e, em seguida, selecione **[!UICONTROL Edit]**. Adicionar, remover e alterar a posição das imagens. É possível alterar a posição das linhas em Conjuntos de rotação bidimensionais.
 
 Consulte [Editar um grupo de rotação](creating-spin-set.md#editing-a-spin-set).
 
@@ -85,6 +85,6 @@ Consulte [Publicar um grupo de rotação](publishing-spin-set.md#publishing-a-sp
 
 O Adobe Dynamic Media Classic cria cadeias de caracteres de texto explicativo de URL para conjuntos de rotação e os ativa após a publicação. Você pode copiar esses URLs da página Pré-visualização.
 
-Selecione o Conjunto de rotação e selecione **[!UICONTROL Preview]**. Selecione uma predefinição do visualizador de conjunto de rotação. Em seguida, selecione **[!UICONTROL Copy URL]**.
+Selecione o Conjunto de rotação e selecione **[!UICONTROL Preview]**. Selecione uma predefinição do visualizador de conjunto de rotação. Em seguida, selecione o **[!UICONTROL Copy URL]**.
 
 Consulte [Vincular um conjunto de rotação a uma página da Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).

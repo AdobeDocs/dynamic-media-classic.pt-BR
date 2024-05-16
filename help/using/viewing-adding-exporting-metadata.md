@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 0%
@@ -161,11 +161,11 @@ O Adobe Dynamic Media Classic oferece um comando para criar um modelo para grava
 
 ## Trabalhar com esquemas de metadados {#working-with-metadata-schemas}
 
-Um administrador de empresa pode exibir uma lista de todos os esquemas disponíveis. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**.
+Um Administrador de empresa pode exibir uma lista de todos os esquemas disponíveis. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**.
 
 Inicialmente, a lista de esquemas padrão globais como XMP está oculta. Eles podem ser exibidos usando a caixa de seleção na parte inferior da lista.
 
-O administrador da empresa pode criar um esquema personalizado ou editar um esquema personalizado existente.
+O Administrador da empresa pode criar um esquema personalizado ou editar um esquema personalizado existente.
 
 Você pode usar o Editor de esquema de metadados para executar as seguintes ações:
 

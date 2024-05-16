@@ -1,6 +1,6 @@
 ---
 title: Visualizar vídeos em um visualizador de vídeo
-description: Saiba como visualizar vídeos em um visualizador de vídeo.
+description: Saiba como visualizar vídeos em um Visualizador de vídeo.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Você pode visualizar a aparência e a reprodução de um vídeo no Visualizador
 
 Consulte [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
-**Para visualizar vídeos em um visualizador de vídeo:**
+**Para visualizar vídeos em um Visualizador de Vídeo:**
 
 1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione **[!UICONTROL Video]** (vídeos codificados únicos) ou **[!UICONTROL Adaptive Video Set]**. Quando a predefinição de codificação do Vídeo adaptável é usada, ela resulta em um conjunto de vídeos codificados com taxa de multibits.
 1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos para selecionar o vídeo que deseja visualizar.
-1. Siga um destes procedimentos
+1. Siga um destes procedimentos:
 
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, passe o mouse sobre um ativo e selecione **[!UICONTROL Preview]**.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, em uma janela de miniatura de ativo, selecione **[!UICONTROL Preview]**.
@@ -41,7 +41,7 @@ Consulte [Adicionar e editar predefinições do visualizador](application-setup.
 
 >[!NOTE]
 >
->O Adobe Dynamic Media Classic fornece um método conveniente de visualização de vídeo MP4 no desktop. Use esse método para visualizar o conteúdo móvel no desktop sem testá-lo fisicamente em dispositivos móveis. No entanto, esteja ciente de que o que é visto na pré-visualização do desktop não mostra de forma realista a aparência da reprodução no dispositivo móvel. Para visualizar como o vídeo é exibido e reproduzido em um dispositivo móvel, acesse a tela Visualizar, selecione **[!UICONTROL Copy URL]** e insira esse URL no navegador da Web de um dispositivo móvel. Para obter mais informações, consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>O Adobe Dynamic Media Classic fornece um método conveniente de visualização de vídeo MP4 no desktop. Use esse método para visualizar o conteúdo móvel no desktop sem testá-lo fisicamente em dispositivos móveis. No entanto, esteja ciente de que o que é visto na pré-visualização do desktop não mostra de forma realista a aparência da reprodução no dispositivo móvel. Para visualizar como o vídeo é exibido e reproduzido em um dispositivo móvel, acesse a tela Visualizar. Clique em **[!UICONTROL Copy URL]** e insira esse URL no navegador da Web de um dispositivo móvel. Para obter mais informações, consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Trabalhar com predefinições do visualizador de vídeo {#working-with-video-viewer-presets}
 
@@ -55,7 +55,7 @@ Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/h
 
 ### Adicionar ou editar uma predefinição do visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
-É possível usar as Predefinições do visualizador para visualizar vários tipos de visualizadores e suas configurações predefinidas. Também é possível adicionar e editar suas próprias predefinições personalizadas do visualizador ou editar predefinições existentes que acompanham o Adobe Dynamic Media Classic.
+É possível usar as Predefinições do visualizador para visualizar vários tipos de visualizadores e suas configurações predefinidas. Você também pode adicionar e editar suas próprias Predefinições do visualizador personalizadas ou editar Predefinições do visualizador existentes que acompanham o Adobe Dynamic Media Classic.
 
 Em Predefinições do visualizador, você pode ativar, filtrar, classificar e visualizar Predefinições do visualizador.
 
@@ -67,7 +67,7 @@ Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/h
 
 1. Próximo ao canto superior direito do Adobe Dynamic Media Classic, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
-   Para ver apenas as predefinições de Visualizadores de vídeo, selecione Visualizador de vídeo na lista suspensa Abrir visualizadores na barra de ferramentas logo acima da tabela.
+   É possível optar por visualizar apenas as predefinições de Visualizadores de vídeo. Na barra de ferramentas diretamente acima da tabela, selecione Visualizador de vídeo na lista suspensa Visualizadores abertos.
 
 1. Adicionar ou editar uma predefinição do visualizador para mostrar o vídeo:
 

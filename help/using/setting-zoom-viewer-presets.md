@@ -10,9 +10,9 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ O Adobe Dynamic Media Classic oferece estas Predefinições do visualizador de z
 
 * **Zoom Viewer: Fly-out**: exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção sobre a área que desejam visualizar.
 
-Ao determinar o uso completo da largura de banda para esse visualizador, considere que tanto a imagem principal quanto a imagem suspensa são fornecidas no visualizador. O tamanho da imagem suspensa é determinado pelo tamanho da imagem principal (Largura e altura do palco) e pelo Fator de zoom. Para evitar que o tamanho do arquivo de imagem suspensa fique muito grande, equilibre esses dois valores: se você tiver um tamanho grande de imagem principal, diminua o valor do Fator de zoom. (A Largura da imagem suspensa e a Altura da imagem suspensa determinam o tamanho da janela da imagem suspensa, mas não o tamanho da imagem suspensa que é exibida no visualizador.)
+Ao determinar o uso completo da largura de banda para esse visualizador, considere que tanto a imagem principal quanto a imagem suspensa são fornecidas no visualizador. O tamanho da imagem suspensa é determinado usando o tamanho da imagem principal (Largura e Altura do Palco) e o Fator de Zoom. Para evitar que o tamanho do arquivo de imagem suspensa fique muito grande, equilibre esses dois valores: se você tiver um tamanho grande de imagem principal, diminua o valor do Fator de zoom. (A Largura da imagem suspensa e a Altura da imagem suspensa determinam o tamanho da janela da imagem suspensa, mas não o tamanho da imagem suspensa que é exibida no visualizador.)
 
 Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem suspensa resultante será 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem suspensa será de 1200 por 1200 pixels. Dependendo da configuração de qualidade do JPEG (as configurações recomendadas estão entre 80 e 90), é possível diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 

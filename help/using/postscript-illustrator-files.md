@@ -10,9 +10,9 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Você pode usar os arquivos Adobe PostScript® (EPS) e Adobe® Illustrator® (AI
 
 Ao fazer upload de arquivos de imagem PostScript (EPS) ou Illustrator (AI), você pode formatá-los de várias maneiras. É possível rasterizar os arquivos, convertê-los em FXG para Publicação de Modelo, manter o plano de fundo transparente, escolher uma resolução e escolher um espaço de cores. As opções para formatar arquivos PostScript e Illustrator estão disponíveis na tela Fazer upload em Opções PostScript e Opções Illustrator na caixa Fazer upload de opções de trabalho.
 
-* **[!UICONTROL Processing]**: Escolher **[!UICONTROL Rasterize]** para converter gráficos vetoriais no arquivo para o formato bitmap.
+* **[!UICONTROL Processing]**: Escolher **[!UICONTROL Rasterize]** para converter os gráficos vetoriais no arquivo para o formato bitmap.
 
 * **[!UICONTROL Maintain Transparent Background In Rendered Image]**: mantém a transparência de plano de fundo do arquivo.
 

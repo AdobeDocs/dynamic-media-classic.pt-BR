@@ -10,7 +10,7 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arq
 
 ## 2. Configurar predefinições da imagem
 
-Como uma macro, uma Predefinição de imagem é uma coleção de comandos de tamanho e formatação predefinidos salvos com um nome. Uma Predefinição de imagem controla o tamanho e a formatação com que as imagens são entregues dos Servidores de imagem da Dynamic Media. Você pode configurar as Predefinições de imagem por conta própria, caso tenha o status de administrador da empresa. O Adobe Dynamic Media Classic também vem com Predefinições de imagem padrão, que podem ser usadas para fornecer imagens dinamicamente.
+Como uma macro, uma Predefinição de imagem é uma coleção de comandos de tamanho e formatação predefinidos salvos com um nome. Uma Predefinição de imagem controla o tamanho e a formatação com que as imagens são entregues dos Servidores de imagem da Dynamic Media. Você pode configurar as Predefinições de imagem por conta própria, caso tenha o status de Administrador da empresa. O Adobe Dynamic Media Classic também vem com Predefinições de imagem padrão, que podem ser usadas para fornecer imagens dinamicamente.
 
 Para criar uma Predefinição de imagem (se você for um administrador), na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Image Presets]**. Em seguida, selecione **[!UICONTROL Add]** para criar uma Predefinição de imagem ou selecione **[!UICONTROL Edit]** para alterar uma Predefinição de imagem existente.
 

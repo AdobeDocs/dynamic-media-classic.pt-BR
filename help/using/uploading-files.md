@@ -9,16 +9,16 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3658'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
 
 # Fazer upload de arquivos{#uploading-files}
 
-Antes de fazer upload de arquivos de ativos para o Adobe Dynamic Media Classic, verifique se os arquivos de ativos estão nomeados corretamente e se a estrutura de pastas está configurada e organizada da maneira desejada. Você pode fazer upload de arquivos de um site FTP fornecido pela Adobe Dynamic Media Classic ou diretamente do computador ou da rede. O Adobe Dynamic Media Classic oferece opções para otimizar os arquivos à medida que você os carrega. Se você instalou o aplicativo de desktop do Adobe Dynamic Media Classic, é possível fazer upload de arquivos e pastas arrastando-os diretamente da sua área de trabalho. Consulte [Configurações gerais do aplicativo](application-setup.md#general_settings).
+Antes de fazer upload de arquivos de ativos para o Adobe Dynamic Media Classic, verifique se os arquivos de ativos estão nomeados corretamente. E certifique-se de que a estrutura de pastas esteja configurada e organizada da maneira que desejar. Você pode fazer upload de arquivos de um site FTP fornecido pela Adobe Dynamic Media Classic ou diretamente do computador ou da rede. O Adobe Dynamic Media Classic oferece opções para otimizar os arquivos à medida que você os carrega. Se você instalou o aplicativo Adobe Dynamic Media Classic Desktop, é possível fazer upload de arquivos e pastas arrastando-os diretamente da sua área de trabalho. Consulte [Configurações gerais do aplicativo](application-setup.md#general_settings).
 
 ## Preparar seus ativos e pastas para upload {#preparing-your-assets-and-folders-for-uploading}
 
@@ -72,7 +72,7 @@ Para obter os melhores resultados com o programa Adobe Dynamic Media Classic, ce
 | --- | --- |
 | Áudio | Os formatos de ativos de áudio de entrada incluem AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3. É possível transcodificar áudio nos seguintes formatos: MP3, AAC e HE-AAC. |
 | Imagens (para dimensionamento de imagem, zoom, conjuntos de imagem, conjuntos de rotação) | As imagens devem ter pelo menos 2000 pixels no tamanho mais longo; os tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. São recomendados formatos de imagem sem perda, incluindo arquivos TIFF e PNG. Se você usar uma imagem de JPEG, use as configurações de mais alta qualidade. Os arquivos de GIF animados são tratados como outros conteúdos estáticos. |
-| eCatalogs | Use arquivos de PDF de alta resolução criados no Adobe Acrobat ou um aplicativo de Creative Suite de Adobe salvo como &quot;pronto para impressão&quot;. Os PDF incluem todas as fontes, imagens, máscaras e elementos gráficos referenciados necessários, como páginas únicas, páginas duplas ou em um formato de várias páginas. Ordene suas páginas nomeando os arquivos em ordem alfanumérica. Coloque todos os PDF do eCatalog em uma única pasta para facilitar o upload. Você pode selecionar opções de corte no upload para remover a área de corte dos PDF, incluindo marcas de corte, destinos de registro ou barras de cores. A maioria dos arquivos de PDF prontos para impressão está no espaço de cores CMYK, portanto, é importante obter o perfil de cores CMYK ICC usado com seus arquivos de PDF. |
+| eCatalogs | Use arquivos de PDF de alta resolução criados no Adobe Acrobat ou um aplicativo de Creative Suite de Adobe salvo como &quot;pronto para impressão&quot;. Os PDF incluem todas as fontes, imagens e máscaras necessárias. E inclua todos os elementos gráficos referenciados necessários, como páginas únicas, páginas duplas ou em um formato de várias páginas. Ordene suas páginas nomeando os arquivos em ordem alfanumérica. Coloque todos os PDF do eCatalog em uma única pasta para facilitar o upload. Você pode selecionar opções de corte no upload para remover a área de corte dos PDF, incluindo marcas de corte, destinos de registro ou barras de cores. A maioria dos arquivos de PDF prontos para impressão está no espaço de cores CMYK, portanto, é importante obter o perfil de cores CMYK ICC usado com seus arquivos de PDF. |
 | Modelos | Design de imagem ou layout em camadas que pode incluir texto, imagens e camadas. Camadas de imagem, cadeias de caracteres de texto e atributos, como cor e tamanho, podem ser parametrizados para que os dados variáveis possam ser personalizados. Os requisitos de imagem para uso em modelos são os mesmos de outras imagens. Prepare seus gráficos no Photoshop ou outro programa de edição de imagens. Salve cada gráfico como um arquivo plano transparente no formato TIFF ou PNG. Verifique se a resolução da imagem é adequada para o uso esperado. As imagens para impressão têm 300 ppi. |
 | Vídeos | O Adobe Dynamic Media Classic é compatível com arquivos de vídeo salvos nos formatos OGV e MP4. Você pode transcodificar arquivos para o formato MP4 no upload. Consulte [Formatos de arquivo de ativo compatíveis](#supported-static-file-formats). |
 | Fontes | TrueType carregado, `Type1` (Somente Windows®), fontes OpenType® e PhotoFonts. |
@@ -116,7 +116,7 @@ Como as extensões de nome de arquivo são removidas dos nomes de arquivo durant
 
 Certifique-se de que todos os usuários em sua empresa entendam essas regras para nomear arquivos:
 
-* IDs de ativos com o mesmo nome exato não são permitidas no sistema.
+* IDs de ativos com o mesmo nome não são permitidas no sistema.
 * Os nomes de ID de ativo fazem distinção entre maiúsculas e minúsculas.
 * Como prática recomendada, verifique se as IDs de ativo não contêm espaços em branco (por exemplo, jaqueta preta.tif e jaqueta azul.jpg). O Adobe Dynamic Media Classic ASCII codifica espaços em branco em nomes de ativos quando usa nomes de ativos para criar sequências de caracteres de URL. Esses códigos ASCII são difíceis de ler, o que pode dificultar a leitura dos URLs.
 * Caracteres específicos de idioma são permitidos em nomes de arquivo. No entanto, os seguintes caracteres não são permitidos em nomes de arquivo:
@@ -141,7 +141,7 @@ Organize e estruture pastas e subpastas para o conteúdo no Adobe Dynamic Media 
 
 A abordagem de nomenclatura de pastas e a estrutura escolhidas para armazenar o conteúdo na Adobe Dynamic Media Classic dependem das necessidades da organização. Estes são alguns exemplos de estruturas de pastas:
 
-**Baseado em SKU**: as pastas são nomeadas de acordo com SKUs ou números de item. Por exemplo, pastas separadas são criadas para todas as séries de 0, 20, 30 números.
+**Baseado em SKU**: as pastas são nomeadas de acordo com SKUs ou números de item. Por exemplo, pastas separadas são criadas para todas as séries de 0, 20 e 30 números.
 
 **Baseado em marca**: para fabricantes com várias linhas de marca e varejistas que comercializam outras marcas de outras empresas, separe os arquivos em pastas de produtos com nomes de marcas diferentes.
 
@@ -161,12 +161,12 @@ Durante (ou imediatamente após) um trabalho de upload grande, alguns novos iten
 
 O aplicativo Adobe Dynamic Media Classic Desktop permite fazer upload de arquivos e pastas arrastando.
 
-1. No aplicativo Adobe Dynamic Media Classic Desktop, na barra Navegação global, selecione **[!UICONTROL Upload]**.
+1. No aplicativo Adobe Dynamic Media Classic Desktop, na Barra de navegação global, selecione **[!UICONTROL Upload]**.
 1. Na página Upload, selecione a variável **[!UICONTROL From Desktop]** guia.
 1. No lado esquerdo da página Upload, na guia **[!UICONTROL Select Files for Upload]** , selecione **[!UICONTROL Browse]** para selecionar os arquivos ou pastas dos quais deseja fazer upload, selecione **[!UICONTROL Open]**.
 1. No lado direito da página de Upload, no **Destino da pasta** navegue até uma pasta de destino na qual deseja adicionar os arquivos ou pastas carregados.
 1. (Opcional) Próximo à parte inferior da página Upload, no campo de texto Nome da tarefa, digite o novo nome da tarefa de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema que a Adobe Dynamic Media Classic fornece. Os processos de upload e publicação são registrados na página Jobs, onde você pode verificar o status dos processos. Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
-1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Publish After Uploading]** se quiser publicar automaticamente os ativos dos quais fez upload.
+1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Publish After Uploading]** para que você possa publicar automaticamente os ativos carregados.
 Ao publicar arquivos, eles são enviados para servidores ativos. Os URLs desses arquivos podem ser usados em sites e aplicativos externos. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** se quiser que os arquivos carregados substituam arquivos existentes com os mesmos nomes. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 O nome dessa opção pode ser diferente, dependendo das configurações em **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
@@ -176,22 +176,22 @@ O nome dessa opção pode ser diferente, dependendo das configurações em **[!U
 
 1. Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Save]**.
 1. No canto inferior direito da página Upload, selecione **[!UICONTROL Submit Upload]**.
-Para ver o progresso do upload, selecione **[!UICONTROL Jobs]** na Barra de navegação global. Você pode continuar trabalhando no Adobe Dynamic Media Classic e retornar à página Jobs a qualquer momento para revisar um job em andamento. Para cancelar um trabalho de upload em andamento, selecione **[!UICONTROL Cancel]** ao lado de Duração.
+Para ver o progresso do upload, selecione **[!UICONTROL Jobs]** na Barra de navegação global. Você pode continuar trabalhando no Adobe Dynamic Media Classic. Retorne à página Jobs a qualquer momento para verificar um job em andamento. Para cancelar um trabalho de upload em andamento, selecione **[!UICONTROL Cancel]** ao lado de Duração.
 
 ### Fazer upload de arquivos usando a guia VIA FTP {#upload-files-using-via-ftp}
 
 1. Faça logon no site FTP da Adobe Dynamic Media Classic específico da sua região. Use o nome de usuário e a senha FTP recebidos do administrador.
-1. No Adobe Dynamic Media Classic, na barra Navegação global, selecione **[!UICONTROL Upload]**.
+1. No Adobe Dynamic Media Classic, na Barra de navegação global, selecione **[!UICONTROL Upload]**.
 1. Na página Upload, selecione a variável **[!UICONTROL VIA FTP]** guia.
 1. No lado esquerdo da página Upload, na guia **[!UICONTROL Choose FTP Folder For Upload]** escolha uma pasta FTP da qual fazer upload de arquivos.
 1. No lado direito da página de Upload, no **[!UICONTROL Adobe Dynamic Media Folder Destination]** selecione uma pasta de destino no Adobe Dynamic Media Classic.
 1. (Opcional) Próximo à parte inferior da página Upload, no campo de texto Nome da tarefa, digite o novo nome da tarefa de upload. Ou você pode simplesmente usar o nome padrão gerado pelo sistema que a Adobe Dynamic Media Classic fornece. Os processos de upload e publicação são registrados na página Jobs, onde você pode verificar o status dos processos.
 Consulte [Verificando arquivos de trabalho](checking-job-files.md#checking_job_files).
-1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Publish After Upload]** se quiser publicar automaticamente os ativos dos quais fez upload.
+1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Publish After Upload]** para que você possa publicar automaticamente os ativos carregados.
 Ao publicar arquivos, eles são enviados para servidores ativos. Os URLs desses arquivos podem ser usados em sites e aplicativos externos. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 1. (Opcional) Próximo à parte inferior da página Fazer upload, selecione **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** se quiser que os arquivos carregados substituam arquivos existentes com os mesmos nomes. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 O nome dessa opção pode ser diferente, dependendo das configurações em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
-1. Opcional; disponível somente se você selecionou a opção **[!UICONTROL VIA FTP]** guia. Próximo à parte inferior da página Upload, selecione **[!UICONTROL Uncompress Zip or Tar Files on Upload]** se você deseja extrair automaticamente todos os arquivos do arquivo ZIP ou TAR carregado. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
+1. Opcional; disponível somente se você selecionou a opção **[!UICONTROL VIA FTP]** guia. Próximo à parte inferior da página Upload, selecione **[!UICONTROL Uncompress Zip or Tar Files on Upload]** para que você possa extrair automaticamente todos os arquivos do arquivo ZIP ou TAR carregado. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 1. Próximo ao canto inferior direito da página Fazer upload, selecione **[!UICONTROL Job Options]** e, em seguida, especifique as opções desejadas.
 
    Consulte [Opções de upload](uploading-files.md#upload_options).
@@ -199,7 +199,7 @@ O nome dessa opção pode ser diferente, dependendo das configurações em **[!U
 1. Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Save]**.
 1. No canto inferior direito da página Upload, selecione **[!UICONTROL Submit Upload]**.
 
-   Para ver o progresso do upload, na Barra de navegação global, selecione **[!UICONTROL Jobs]**. A página Jobs mostra o progresso do upload. Você pode continuar trabalhando no Adobe Dynamic Media Classic e retornar à página Jobs a qualquer momento para revisar um job em andamento.
+   Para ver o progresso do upload, na Barra de navegação global, selecione **[!UICONTROL Jobs]**. A página Jobs mostra o progresso do upload. Você pode continuar trabalhando no Adobe Dynamic Media Classic. Retorne à página Jobs a qualquer momento para verificar um job em andamento.
 
 Para cancelar um trabalho de upload em andamento, selecione **[!UICONTROL Cancel]** ao lado de Duração.
 
@@ -209,7 +209,7 @@ Ao fazer upload de arquivos, você pode escolher entre as seguintes opções na 
 
 * **TRABALHO**: Selecionar **[!UICONTROL JOB]** para escolher opções que afetam todo o job de upload.
 
-  Você também pode escolher *padrão* opções para fazer upload de tarefas usando o **[!UICONTROL Default Upload Options]** caixa de diálogo em Configurações gerais. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** e defina as opções padrão desejadas.
+  Você também pode escolher a variável *padrão* opções para fazer upload de tarefas usando o **[!UICONTROL Default Upload Options]** caixa de diálogo em Configurações gerais. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** e defina as opções padrão desejadas.
 
    * **[!UICONTROL When]**: essa opção só estará disponível se você tiver selecionado a variável **[!UICONTROL VIA FTP]** guia.
       * **[!UICONTROL One-Time]**: especifique um trabalho de upload que é executado uma vez. As opções incluem o seguinte:
@@ -226,7 +226,7 @@ Ao fazer upload de arquivos, você pode escolher entre as seguintes opções na 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]**: Disponível se você selecionou a opção **[!UICONTROL FROM DESKTOP]** ou na guia **[!UICONTROL VIA FTP]** guia. Selecione essa opção se desejar que os arquivos dos quais você fez upload substituam arquivos existentes com os mesmos nomes. Essa opção também está disponível na página Fazer upload. O nome dessa opção pode ser diferente, dependendo das configurações em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
 
    * **[!UICONTROL Uncompress Zip or Tar Files on Upload]**: Disponível se você selecionou a opção **[!UICONTROL FROM DESKTOP]** ou na guia **[!UICONTROL VIA FTP]** guia.
-Selecione esta opção se você deseja extrair automaticamente todos os arquivos do arquivo ZIP ou TAR carregado. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
+Selecione esta opção para que você possa extrair automaticamente todos os arquivos do ZIP ou TAR carregado. Essa mesma opção também está disponível na caixa de diálogo Opções de tarefa.
 
    * **[!UICONTROL Include subfolders]**: Disponível somente se você tiver selecionado a variável **[!UICONTROL VIA FTP]** guia.
 Selecione essa opção se desejar fazer upload de subpastas da pasta que deseja fazer upload. Os nomes da pasta e suas subpastas que você faz upload são inseridos automaticamente no Adobe Dynamic Media Classic.
@@ -234,7 +234,7 @@ Selecione essa opção se desejar fazer upload de subpastas da pasta que deseja 
    * **[!UICONTROL Process metadata files]**: Disponível somente se você tiver selecionado a variável **[!UICONTROL VIA FTP]** guia. Selecione essa opção se desejar fazer upload de um arquivo XML delimitado por tabulação para adicionar metadados a vários ativos.
 Consulte [Importar metadados (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
-* **Opções de corte**: para cortar automaticamente os pixels de espaço em branco de uma imagem, abra a **[!UICONTROL Crop]** selecione **[!UICONTROL Manual]** e insira medidas de pixel nos campos de texto Superior, Direito, Inferior e Esquerdo para cortar das laterais. Também é possível selecionar **[!UICONTROL Trim]** no menu Cortar e escolha estas opções:
+* **Opções de corte**: Corta automaticamente os pixels de espaço em branco de uma imagem. Abra o **[!UICONTROL Crop]** selecione **[!UICONTROL Manual]** e insira medidas de pixel nos campos de texto Superior, Direito, Inferior e Esquerdo para cortar das laterais. Também é possível selecionar **[!UICONTROL Trim]** no menu Cortar e escolha estas opções:
 
    * **[!UICONTROL Trim Away Based On]**: escolha se deseja cortar com base na cor ou na transparência:
       * **[!UICONTROL Color]**: escolha a opção Cor. Em seguida, selecione o menu Canto e escolha o canto da imagem com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
@@ -271,7 +271,7 @@ Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-en
 Consulte [Realizar uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
 Consulte também [Fazer upload de palavras-chave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) vídeo de treinamento.
 
-* **Predefinições de conjunto de lotes**: se quiser criar um Conjunto de imagens, um Conjunto de rotação ou um Conjunto de amostras a partir dos arquivos carregados, selecione a variável **[!UICONTROL Active]** para a predefinição que deseja usar. É possível selecionar mais de uma predefinição. Crie as predefinições na página Configuração do aplicativo/Predefinições de conjunto de lotes.
+* **Predefinições de conjunto de lotes**: para criar um Conjunto de imagens, um Conjunto de rotação ou um Conjunto de amostras a partir dos arquivos carregados, selecione a variável **[!UICONTROL Active]** para a predefinição que deseja usar. É possível selecionar mais de uma predefinição. Você pode criar as predefinições na página Configuração do aplicativo/Predefinições de conjunto de lotes.
 Consulte [Predefinições de conjunto de lotes](application-setup.md#batch_set_presets).
 
 * **Avançado**: Consulte [Seguir um upload com outro trabalho](uploading-files.md#follow-an-upload-with-another-job).

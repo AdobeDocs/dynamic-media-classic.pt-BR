@@ -10,7 +10,7 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Se você selecionou a opção **[!UICONTROL Maintain Layers]** ao fazer upload d
 1. Selecionar **[!UICONTROL Layers]**. Todas as camadas são exibidas como imagens separadas no painel Camadas.
 1. Clique duas vezes em uma camada e siga um destes procedimentos:
 
-   * Para criar um mapa de imagem na camada, selecione a **[!UICONTROL Image Map]** ícone. (Consulte [Criar mapas de imagem](creating-image-maps.md#creating_image_maps).)
+   * Para criar um Mapa de imagem na camada, selecione o **[!UICONTROL Image Map]** ícone. (Consulte [Criar mapas de imagem](creating-image-maps.md#creating_image_maps).)
    * Para criar destinos de zoom na camada, selecione a **[!UICONTROL Zoom Targets]** ícone. (Consulte [Criar destinos de zoom para Zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
    * Para cortar a camada, selecione a **[!UICONTROL Crop]** ícone. (Consulte [Cortar uma imagem](cropping-image.md#cropping_an_image).)
    * Para ajustar a nitidez da camada, selecione **[!UICONTROL Sharpen]**. (Consulte [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).)

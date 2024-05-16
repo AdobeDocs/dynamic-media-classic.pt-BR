@@ -10,7 +10,7 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Consulte [Criar um conjunto de mix de mídia](creating-mixed-media-set.md#creati
 
 ## 4. Configurar predefinições do visualizador de mídia mista
 
-O Adobe Dynamic Media Classic vem com predefinições do visualizador padrão para Conjuntos de mídia mista. Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de mídia mista.
+O Adobe Dynamic Media Classic vem com Predefinições de visualizador padrão para Conjuntos de mídia mista. Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de mídia mista.
 
-Ao configurar uma Predefinição do visualizador de conjunto de mídia mista, adicione as predefinições do visualizador para todos os outros ativos no conjunto. Por exemplo, se o Conjunto de mídias mistas incluir vídeos, adicione uma Predefinição do visualizador de vídeo à Predefinição do visualizador do Conjunto de mídias mistas. Você também pode adicionar uma trilha sonora ao visualizador. Essa trilha sonora é reproduzida enquanto o visualizador está aberto, mas não é reproduzida quando um vídeo está ativo.
+Ao configurar uma Predefinição do visualizador de conjunto de mídia mista, adicione as Predefinições do visualizador para todos os outros ativos no conjunto. Por exemplo, se o Conjunto de mídias mistas incluir vídeos, adicione uma Predefinição do visualizador de vídeo à Predefinição do visualizador do Conjunto de mídias mistas. Você também pode adicionar uma trilha sonora ao visualizador. Essa trilha sonora é reproduzida enquanto o visualizador está aberto, mas não é reproduzida quando um vídeo está ativo.
 
 Consulte [Configurar uma predefinição do visualizador de conjunto de mídia mista](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) e [Criar e editar predefinições do visualizador](application-setup.md#adding-and-editing-viewer-presets).
 

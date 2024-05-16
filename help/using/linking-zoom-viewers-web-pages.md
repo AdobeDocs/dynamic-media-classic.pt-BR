@@ -10,16 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Vincular visualizadores Zoom às suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
 
-Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo imagens primárias e destinos de zoom associados, e as Predefinições do visualizador de zoom, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar essas cadeias de caracteres de URL ou o código incorporado nas páginas da Web e nos aplicativos, copie-as do Adobe Dynamic Media Classic.
+Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL ou código incorporado. Esse acesso inclui imagens primárias e metas de zoom associadas. Também inclui Predefinições do visualizador de zoom. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar essas cadeias de caracteres de URL ou o código incorporado nas páginas da Web e nos aplicativos, copie-as do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incl
 
 Normalmente, os visitantes ampliam imagens em um site selecionando primeiro um ícone Zoom (geralmente o ícone mostra a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente dão zoom na imagem.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporar o Visualizador de zoom básico do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e amostras de código, consulte a [Incorporar o Visualizador de zoom básico do HTML5 no Guia de referência do visualizador de Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar a cópia incorporada de um visualizador de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -55,7 +55,7 @@ O recurso Incorporar código permite revisar o código do visualizador para o vi
 
 **Para copiar o código incorporado de um visualizador de zoom:**
 
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o visualizador de zoom cujo código incorporado você deseja copiar.
+1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o visualizador de zoom cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.

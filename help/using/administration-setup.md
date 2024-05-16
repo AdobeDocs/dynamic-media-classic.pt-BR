@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Configuração de administração{#administration-setup}
 
-As telas Configuração de administração são para administrar usuários do Adobe Dynamic Media Classic. Use essas telas para permitir que os usuários trabalhem no Adobe Dynamic Media Classic e se comuniquem por email com os usuários.
+As telas Configuração de administração são para administrar usuários do Adobe Dynamic Media Classic. Use essas telas para permitir que os usuários trabalhem no Adobe Dynamic Media Classic e se comuniquem por email com outros usuários.
 
 1. Para acessar as opções de Configuração de administração, acesse **Configuração** > **Configuração pessoal** > **Configuração de administração**.
 
@@ -28,7 +28,7 @@ As telas Configuração de administração são para administrar usuários do Ad
 
 Todos os usuários do Adobe Dynamic Media Classic recebem uma função que determina seus privilégios e direitos de acesso aos recursos no Adobe Dynamic Media Classic. Os administradores determinam as diferentes funções e responsabilidades das empresas às quais estão atribuídos.
 
-Normalmente, o Adobe Dynamic Media Classic configura o primeiro conjunto de empresas e atribui um administrador de empresa. Em seguida, o administrador da empresa configura e administra os usuários do Adobe Dynamic Media Classic.
+Normalmente, o Adobe Dynamic Media Classic configura o primeiro conjunto de empresas e atribui um Administrador da empresa. O Administrador da empresa então configura e administra os usuários do Adobe Dynamic Media Classic.
 
 O Adobe Dynamic Media Classic oferece suporte a várias funções de usuário. Essas funções podem acessar empresas configuradas para o Adobe Dynamic Media Classic:
 
@@ -109,7 +109,7 @@ Você pode usar as seguintes técnicas de filtragem de lista de usuários:
 
 * **Filtrar usuários inválidos**: Desmarcar **[!UICONTROL Include Invalid]**. Os resultados da pesquisa exibem apenas os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
 
-* **Classificar por cabeçalho de coluna**: selecione um cabeçalho para classificar todos os usuários por seu status, em ordem alfabética, por nome, sobrenome ou email, por função de usuário ou por status válido/inválido.
+* **Classificar por cabeçalho de coluna**: selecione um cabeçalho para classificar todos os usuários por status, em ordem alfabética, por nome, sobrenome ou email. Ou classifique por função de usuário ou por status válido/inválido.
 
 Se você tiver muitos usuários, poderá limitar o tamanho da lista selecionando o menu Tamanho Máximo da Lista e escolhendo um número.
 
@@ -170,9 +170,9 @@ O relatório Conteúdo da imagem fornece informações sobre solicitações dos 
 
 * **Solicitação de mosaico do visualizador**: solicitações de imagem carregadas por um visualizador.
 
-* **Solicitação de objeto Vnt**: solicitações de renderização de imagem que retornam uma imagem com objetos especificados nas vinhetas solicitadas.
+* **Solicitação de objeto VNT**: solicitações de renderização de imagem que retornam uma imagem com objetos especificados nas vinhetas solicitadas.
 
-* **Solicitação De Informações De Vnt**: Solicitações de renderização de imagem que retornam informações sobre as vinhetas solicitadas.
+* **Solicitação de informações de VNT**: Solicitações de renderização de imagem que retornam informações sobre as vinhetas solicitadas.
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Depois de gerar um relatório na página Largura de banda e armazenamento, você
 
 * **Período personalizado**: No menu Relatório predefinido, selecione **[!UICONTROL Custom]**. Escolha uma data no campo **[!UICONTROL Start Month]** (ou **[!UICONTROL Start Date]**) e uma data no menu # de meses (ou # ou dias). Para relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e término específica para capturar informações de relatório.
 
-* **Classificar dados (somente visualização de dados)**: para classificar as informações em uma coluna, selecione o cabeçalho da coluna. Selecione novamente para classificar em ordem decrescente.
+* **Classificar dados (somente visualização de dados)**: Classifica as informações em uma coluna. Selecione o cabeçalho da coluna. Selecione novamente para classificar em ordem decrescente.
 
 * **Reorganizar colunas (somente visualização de dados)**: Para mover uma coluna para um local diferente na grade de dados, arraste o cabeçalho.
 

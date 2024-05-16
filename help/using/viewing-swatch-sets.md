@@ -10,16 +10,16 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Exibir conjuntos de amostras{#viewing-swatch-sets}
 
-É possível exibir os Conjuntos de amostras na janela Visualizar, usando as predefinições disponíveis. Use um Visualizador de zoom: Predefinição do visualizador personalizado para Conjuntos de amostras.
+É possível exibir os Conjuntos de amostras na janela Visualizar, usando as predefinições disponíveis. Você pode usar um Visualizador de zoom: Predefinição do visualizador personalizado para Conjuntos de amostras.
 
 O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão. Os administradores podem criar ou modificar as Predefinições do visualizador.
 
@@ -44,7 +44,7 @@ Você pode criar e personalizar as Predefinições do visualizador de acordo com
 
 ## Visualizar conjuntos de amostras em um visualizador {#previewing-swatch-sets-in-a-viewer}
 
-É possível usar a Visualização para ver como um ativo é exibido em um tipo de visualizador específico, como HTML5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas do tipo de visualizador estão disponíveis em Visualização.
+Você pode usar Visualização para ver como um ativo aparece em um tipo de visualizador específico, como HTML5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas do tipo de visualizador estão disponíveis em Visualização.
 
 1. No painel Biblioteca de ativos à esquerda, na guia **[!UICONTROL Show]** selecione um tipo de ativo baseado no Conjunto de amostras, como **[!UICONTROL Swatch Set]**.
 1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos que contêm o Conjunto de amostras que você deseja visualizar com um visualizador.
