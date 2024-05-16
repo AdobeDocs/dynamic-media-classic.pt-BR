@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -35,7 +35,7 @@ O Quick Start a seguir foi projetado para colocar suas operações em funcioname
 
 ## 1. Entenda as funções de usuário do Portal de mídia
 
-Os usuários do Portal de mídia têm três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Por exemplo, um colaborador pode renomear e excluir arquivos e pastas, mas um usuário não pode fazer essas tarefas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
+Os usuários do Media Portal têm três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Por exemplo, um colaborador pode renomear e excluir arquivos e pastas, mas um usuário não pode fazer essas tarefas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
 
 Consulte [Funções de usuário do Portal de mídia](media-portal-user-roles.md#media_portal_user_roles).
 

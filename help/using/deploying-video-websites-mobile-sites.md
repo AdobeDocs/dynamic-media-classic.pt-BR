@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Implantar vídeo em seus sites e sites móveis{#deploying-video-to-your-websites-and-mobile-sites}
 
-Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor do Adobe Dynamic Media Classic, incluindo vídeo, usando cadeias de caracteres de URL ou código incorporado. O Adobe Dynamic Media Classic ativa essas cadeias de caracteres de URL durante o processo de publicação. Para colocar a string de URL ou o código incorporado do vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie-o do Adobe Dynamic Media Classic.
+Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor do Adobe Dynamic Media Classic, incluindo vídeo, usando cadeias de caracteres de URL ou código incorporado. O Adobe Dynamic Media Classic ativa essas cadeias de caracteres de URL durante o processo de publicação. Para inserir a cadeia de caracteres de URL ou o código incorporado do vídeo em suas páginas da Web, páginas móveis e aplicativos de desktop, copie do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -31,9 +31,9 @@ A publicação de um vídeo permite que os servidores da Adobe Dynamic Media Cla
 
 Há dois métodos diferentes que podem ser usados para publicar vídeos:
 
-* **Publicar vídeos automática e instantaneamente no upload** - Como parte do processo de carregamento de vídeo, o Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. Essa capacidade de publicar instantaneamente significa que não há necessidade de publicar vídeos separadamente após o fato.
+* **Publicar vídeos automática e instantaneamente no upload**: como parte do processo de carregamento de vídeo, o Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. Essa capacidade de publicar instantaneamente significa que não há necessidade de publicar vídeos separadamente após o fato.
 
-* **Publicar vídeo manualmente após o upload** - Se não quiser publicar vídeos imediatamente, você poderá publicar vídeos manualmente a qualquer momento.
+* **Publicar vídeo manualmente após o upload**: se não quiser publicar vídeos imediatamente, você poderá publicar vídeos manualmente a qualquer momento.
 
 Depois de publicar vídeos, o Adobe Dynamic Media Classic ativa as cadeias de caracteres de URL da sua página de HTML ou código do aplicativo.
 

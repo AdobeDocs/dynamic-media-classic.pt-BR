@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 2c7c0838-0c48-450e-94ff-521bae19425f
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 O seguinte documento de Ajuda também está disponível no Adobe Dynamic Media Classic:
 
-**Usar o Adobe Dynamic Media Classic Media Portal** : o Adobe Dynamic Media Classic Media Portal é um ambiente baseado em navegador que fornece aos usuários do portal acesso fácil para carregar, navegar, pesquisar, visualizar e exportar ativos em formatos corporativos aprovados. Consulte [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
+**Usar o Adobe Dynamic Media Classic Media Portal**: o Adobe Dynamic Media Classic Media Portal é um ambiente com base em navegador que fornece aos usuários do portal acesso fácil para carregar, navegar, pesquisar, visualizar e exportar ativos em formatos corporativos aprovados. Consulte [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
 
 <!-- Is this topic still needed? -rb 04/22/21
  used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/-->

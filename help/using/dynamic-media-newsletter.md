@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 O informativo do Dynamic Media por Experience League foi projetado para ajudar você a usar o Dynamic Media e o Adobe Dynamic Media Classic e obter vantagens desde o início.
 
-Neste informativo arquivado em um único local, você pode encontrar recursos valiosos de desenvolvimento de conhecimento, como vídeos explicativos e visões gerais de soluções. Também há introduções a importantes recursos e funcionalidades, como predefinições de imagens, predefinições do visualizador e perfis de vídeo.
+Neste informativo arquivado em um único local, você pode encontrar recursos valiosos de desenvolvimento de conhecimento, como vídeos explicativos e visões gerais de soluções. Também há introduções a importantes recursos e funcionalidades, como Predefinições de imagem, Predefinições do visualizador e perfis de vídeo.
 
 <!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
@@ -107,7 +107,7 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
 
    * Turbine sua experiência com o cliente eliminando esses 9 pontos problemáticos.
    * Descubra como a equipe do Dynamic Media pode ajudar você a se preparar para um dia com tráfego de visitantes maior do que o normal.
-   * Uma segunda chance de assistir a dois webinários recentes do Skill Builder.
+   * Uma segunda chance de capturar dois webinários recentes do Skill Builder.
    * Assista ao webinário sob demanda sobre como proteger seus ativos digitais da pirataria.
    * Reunir `Bridget Roman`, Gerente de marketing de produto sênior da Experience Manager Assets.
    * Atualize-se com o Dynamic Media e o Adobe Dynamic Media Classic no Experience League.
@@ -126,10 +126,10 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
 
   Nesta edição:
 
-   * Recursos e informações que permitem gerenciar adequadamente seus ativos de alto valor para fornecer experiências com confiança que mantêm seus visitantes voltando.
+   * Recursos e informações que permitem gerenciar adequadamente seus ativos de alto valor para que você possa entregar com confiança experiências que mantêm seus visitantes voltando.
    * Saiba mais sobre um webinário futuro sobre como proteger seus ativos digitais.
    * Próxima parada do tour do Adobe Insider preenchido com informações.
-   * Recursos interessantes disponíveis quando você tem o Dynamic Media no Experience Manager Assets (Experience Manager Assets).
+   * Recursos interessantes estão disponíveis quando você tem o Dynamic Media no Experience Manager Assets (Experience Manager Assets).
    * Adicionar vídeos de 360 graus e miniaturas de vídeo personalizadas ao seu site.
    * Reunir `Andrew Hathaway`, Consultor principal de soluções para Dynamic Media na Experience Manager Assets.
 
@@ -142,7 +142,7 @@ Neste informativo arquivado em um único local, você pode encontrar recursos va
    * Saiba mais sobre o próximo tour do Adobe Insider.
    * Leia sobre como você pode proteger seus ativos digitais contra a pirataria.
    * Saiba mais sobre o Recorte inteligente orientado por IA para imagens.
-   * Reunir `Alex Thiers`, uma das forças motrizes por trás de muitos dos excelentes recursos e inovações da Dynamic Media e da Adobe Dynamic Media Classic.
+   * Reunir `Alex Thiers`, uma força motriz por trás de muitos dos excelentes recursos e inovações do Dynamic Media no AEM e no Adobe Dynamic Media Classic.
 
 * **[Maio de 2019, Edição 05](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 

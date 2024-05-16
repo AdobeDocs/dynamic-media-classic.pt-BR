@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -38,9 +38,9 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 1. Comece a criar seu eCatalog com uma destas técnicas:
 
-   * **Selecione os arquivos primeiro** - No Painel de navegação, selecione os arquivos e vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
+   * **Selecione os arquivos primeiro**: No Painel Procurar, selecione arquivos e vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
 
-   * **Iniciar na tela eCatalog** - Vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Selecione uma pasta na Biblioteca de ativos e arraste os arquivos da pasta para a guia Ordenar páginas da página eCatalog.
+   * **Iniciar na tela eCatalog**: Vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Selecione uma pasta na Biblioteca de ativos e arraste os arquivos da pasta para a guia Ordenar páginas da página eCatalog.
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Opcionalmente, altere o layout de páginas individuais ou de páginas espelhadas selecionando-as e, em seguida, escolhendo **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** ou **[!UICONTROL Custom]** botão. No **[!UICONTROL Change eCatalog Layout]** , selecione a **[!UICONTROL Selected Spreads]** e selecione **[!UICONTROL OK]**.
 1. Reordene as páginas conforme necessário com uma destas técnicas:
 
-   * **Arrastando** - Arraste uma página ou página espelhada para um novo local. A barra vertical mostra para onde a página está sendo movida.
+   * **Arrastando**: arraste uma página ou página espelhada para um novo local. A barra vertical mostra para onde a página está sendo movida.
 
-   * **Botão Mover para** - Selecione uma página ou página espelhada, selecione **[!UICONTROL Move To]** e escolha a página no menu que deve aparecer antes da sua página.
+   * **Botão Mover para**: selecione uma página ou página espelhada, selecione **[!UICONTROL Move To]** e escolha a página no menu que deve aparecer antes da sua página.
 
-   * **Sequence #** - Na Exibição de Lista, insira números de página nos campos de Nº de Sequência.
+   * **Sequence #**: Na Exibição de Lista, insira números de página nos campos de Número de Sequência.
 
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**.

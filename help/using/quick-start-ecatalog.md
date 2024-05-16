@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Dependendo das configurações escolhidas para o seu eCatalog, o visualizador po
 * Navegue pelo catálogo usando o índice ou a exibição de grade da página; avançar ou retroceder página selecionando a borda intermediária de uma página.
 * Amplie, reduza e desloque para examinar os itens em uma página.
 * Mova o ponteiro sobre uma região da página (chamada de Mapa de imagem) para que você possa ver uma janela pop-up com informações sobre um item.
-* Selecione uma região de página para abrir uma nova página da Web com mais informações sobre um item.
+* Selecione uma região de página para que ela abra uma nova página da Web com mais informações sobre um item.
 * Escreva uma nota adesiva e anexe-a a uma página de eCatalog.
 * Toque nos ícones do mapa de imagem se desejar iniciar páginas da Web relacionadas ou painéis de informações no contexto.
 * Use interações de gestos, incluindo pinçar para aplicar zoom e deslizar o dedo para virar as páginas.
@@ -44,11 +44,11 @@ Dependendo das configurações escolhidas para o seu eCatalog, o visualizador po
 
 Para criar um eCatalog, você geralmente usa arquivos PDF de alta resolução criados no Adobe Acrobat ou outro programa de impressão, mas também pode criar um eCatalog a partir de arquivos de imagem.
 
-Como parte da criação do eCatalog, você pode organizar as páginas ou páginas espelhadas na ordem escolhida. Você também pode declarar se deseja páginas únicas, páginas duplas ou páginas múltiplas. Você pode criar Mapas de imagem para regiões da página para que os visualizadores possam, por exemplo, selecionar uma área na página e abrir uma nova página em seu site. Você pode gerenciar o texto de sobreposição exibido usando as configurações do InfoPanel na tela do eCatalog. Você também pode configurar o eCatalog Viewer escolhendo entre mais de 100 opções de configuração diferentes. Você pode adaptar os recursos e a aparência do seu Visualizador para o seu público em particular.
+Como parte da criação do eCatalog, você pode organizar as páginas ou páginas espelhadas na ordem escolhida. Você também pode declarar se deseja páginas únicas, páginas duplas ou páginas múltiplas. Você pode criar Mapas de imagem para regiões da página para que os visualizadores possam, por exemplo, selecionar uma área na página e abrir uma nova página no seu site. Você pode gerenciar o texto de sobreposição exibido usando as configurações do InfoPanel na tela do eCatalog. Você também pode configurar o eCatalog Viewer escolhendo entre mais de 100 opções de configuração diferentes. Você pode adaptar os recursos e a aparência do seu Visualizador para o seu público em particular.
 
 >[!NOTE]
 >
->Se você for um usuário do modo Dynamic Media - Scene7 e quiser usar eCatalogs, edite o `pdfbrochure` valor em CRXDE Lite. Para fazer isso, no Adobe Experience Manager, acesse **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. Na árvore de navegação do painel esquerdo, navegue até `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Se você for um usuário do modo Dynamic Media: Scene7 e quiser usar eCatalogs, edite o `pdfbrochure` valor em CRXDE Lite. Para fazer isso, no Adobe Experience Manager, acesse **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. Na árvore de navegação do painel esquerdo, navegue até `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >No painel inferior direito, na caixa **[!UICONTROL Properties]** , selecione a `jobParam` linha. Definir o valor de `pdfbrochure` de `false` para `true`. Como em `pdfbrochure=true`
 >

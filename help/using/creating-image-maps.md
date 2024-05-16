@@ -10,7 +10,7 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 0%
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 Você coloca todos os valores que não são alterados entre Mapas de imagem no modelo de URL. Adicione apenas os valores que são alterados na coluna URL na lista Mapa de imagem. Por exemplo:
 
-* Modelo de URL - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* Valor do URL - `product.htm`
-* URL real gerado - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* Modelo de URL: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* Valor do URL: `product.htm`
+* URL real gerado: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Por padrão, o modelo de URL inclui um manipulador Adobe Dynamic Media Classic JavaScript proprietário chamado `loadProduct` que abre uma nova janela com o destino do URL. No entanto, você pode usar qualquer código JavaScript para substituir esse manipulador JavaScript ou usar um dos seguintes manipuladores Adobe Dynamic Media Classic:
 
@@ -177,7 +177,7 @@ A página Editor de mapa (imagens e SpinSets) e a guia Páginas de mapa da tela 
 
 ## Definir outras ações para Mapas de imagem {#defining-other-actions-for-image-maps}
 
-É possível selecionar a variável **[!UICONTROL Show]** e escolha **[!UICONTROL Other Actions]** para acionar ações diferentes da sobreposição de texto e de inicializações de página da Web. Quando o usuário move o ponteiro sobre um Mapa de imagem, é possível iniciar uma ação. Essas ações são atributos definidos para mapas de imagem do lado do cliente pelas especificações de HTML do World Wide Web Consortium. Eles incluem:
+É possível selecionar a variável **[!UICONTROL Show]** e escolha **[!UICONTROL Other Actions]** para acionar ações diferentes de texto de sobreposição e inicializações de página da Web. Quando o usuário move o ponteiro sobre um Mapa de imagem, é possível iniciar uma ação. Essas ações são atributos definidos para mapas de imagem do lado do cliente pelas especificações de HTML do World Wide Web Consortium. Eles incluem:
 
 * **`accesskey`**: aciona uma ação quando o usuário pressiona uma tecla designada no teclado.
 

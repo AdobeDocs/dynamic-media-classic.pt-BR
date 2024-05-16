@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -30,9 +30,9 @@ Você pode criar e personalizar as Predefinições do visualizador de acordo com
 1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Crie ou edite uma predefinição do Visualizador na página Predefinições do visualizador seguindo um destes procedimentos:
 
-   * **Criar** - Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, na lista suspensa Visualizador, escolha **[!UICONTROL Zoom Viewer]** e selecione **[!UICONTROL Add]**. Você também pode criar uma predefinição do Visualizador de zoom iniciando com uma predefinição existente. Exibir o nome da predefinição, selecione-a e selecione **[!UICONTROL Edit]**. No `Configure Viewer` insira um novo nome para a predefinição.
+   * **Criar**: Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, na lista suspensa Visualizador, escolha **[!UICONTROL Zoom Viewer]** e selecione **[!UICONTROL Add]**. Você também pode criar uma predefinição do Visualizador de zoom iniciando com uma predefinição existente. Exibir o nome da predefinição, selecione-a e selecione **[!UICONTROL Edit]**. No `Configure Viewer` insira um novo nome para a predefinição.
 
-   * **Editar** - Exibir o nome de uma predefinição, selecione-a e, em seguida, **[!UICONTROL Edit]**.
+   * **Editar**: Exibir o nome de uma predefinição, selecione-a e, em seguida, **[!UICONTROL Edit]**.
 
 1. No `Configure Viewer` no campo de texto Nome da predefinição, digite um nome para a Predefinição do visualizador Conjunto de amostras.
 1. Escolha as opções no `Configure Viewer` página.

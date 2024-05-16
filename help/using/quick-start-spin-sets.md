@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Consulte [Visualizar um conjunto de rotação](previewing-spin-set.md#previewing
 
 ## 6. Publicar um grupo de rotação
 
-A publicação de um conjunto de rotação o coloca em servidores Adobe Dynamic Media Classic para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. Ele também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem da Dynamic Media para o site ou aplicativo.
+A publicação de um Conjunto de rotação o coloca em servidores Adobe Dynamic Media Classic para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. Ele também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem da Dynamic Media para seu site ou aplicativo.
 
 Para publicar um Conjunto de rotação, marque-o para publicação selecionando o **[!UICONTROL Mark for Publish]** ícone ao lado de seu nome no Painel de navegação. Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar uma publicação. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
@@ -87,4 +87,4 @@ O Adobe Dynamic Media Classic cria cadeias de caracteres de texto explicativo de
 
 Selecione o Conjunto de rotação e selecione **[!UICONTROL Preview]**. Selecione uma predefinição do visualizador de conjunto de rotação. Em seguida, selecione **[!UICONTROL Copy URL]**.
 
-Consulte [Vincular um grupo de rotação a uma página da Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
+Consulte [Vincular um conjunto de rotação a uma página da Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).

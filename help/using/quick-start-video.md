@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Você pode reproduzir o vídeo na página Visualizar. Você também pode escolhe
 
 **Opcional**
 
-Personalização da predefinição do visualizador - O Adobe Dynamic Media Classic oferece Predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
+Personalização da predefinição do visualizador: o Adobe Dynamic Media Classic oferece Predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
 
 Consulte [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -148,7 +148,7 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
 
   Para obter o código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no Painel de navegação. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
-  Selecionar **[!UICONTROL Close]** e cole o código incorporado em uma ou mais páginas da web.
+  Selecionar **[!UICONTROL Close]** e cole o código incorporado em uma ou mais páginas da Web.
 
   >[!NOTE]
   >

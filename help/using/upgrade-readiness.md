@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -28,5 +28,5 @@ Use a lista de verificação a seguir para ajudá-lo a entender e se preparar pa
 | **Fase 5: Configuração administrativa** | Configurar usuários e permissões | Crie usuários e conceda as permissões apropriadas. |
 |   | Configurar perfis de codificação de vídeo | Criar perfis de codificação de vídeo. |
 |   | Configurar predefinições do visualizador | Criar predefinições do visualizador. |
-|   | Definir predefinições de imagem | Configurar predefinições de imagem. |
+|   | Definir predefinições da imagem | Configurar predefinições da imagem. |
 | **Fase 6: validação** | Validação | Verificar casos de uso, ativos, links e APIs. |

@@ -1,5 +1,5 @@
 ---
-title: Vincular visualizadores de zoom às suas páginas da Web
+title: Vincular visualizadores Zoom às suas páginas da Web
 description: Saiba como vincular visualizadores de zoom às suas páginas da Web no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,14 +10,14 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
 
 ---
 
-# Vincular visualizadores de zoom às suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
+# Vincular visualizadores Zoom às suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
 
 Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo imagens primárias e destinos de zoom associados, e as Predefinições do visualizador de zoom, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar essas cadeias de caracteres de URL ou o código incorporado nas páginas da Web e nos aplicativos, copie-as do Adobe Dynamic Media Classic.
 
@@ -43,7 +43,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incl
 
      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-## Adicionar URLs do visualizador de zoom à sua página da Web {#adding-zoom-viewer-urls-to-your-web-page}
+## Adicionar URLs do visualizador Zoom à sua página da Web {#adding-zoom-viewer-urls-to-your-web-page}
 
 Normalmente, os visitantes ampliam imagens em um site selecionando primeiro um ícone Zoom (geralmente o ícone mostra a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente dão zoom na imagem.
 

@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 O Media Portal fornece as seguintes funções, cada uma com direitos de acesso e permissões diferentes. Ao inscrever um usuário, você atribui a ele uma das seguintes funções:
 
-* **[!UICONTROL Media Portal Administrator]** - Pode adicionar e remover administradores, colaboradores e usuários. O administrador também pode definir direitos de acesso a grupos, gerenciar contas FTP, atribuir formatos de conversão (predefinições) aprovados pela empresa, enviar emails para usuários do Media Portal e exibir o uso do portal e os relatórios de armazenamento.
+* **[!UICONTROL Media Portal Administrator]**: pode adicionar e remover administradores, colaboradores e usuários. O administrador também pode definir direitos de acesso a grupos, gerenciar contas FTP, atribuir formatos de conversão (predefinições) aprovados pela empresa, enviar emails para usuários do Media Portal e exibir o uso do portal e os relatórios de armazenamento.
 
-* **[!UICONTROL Media Portal User]** - Tem acesso a pastas e arquivos. Um usuário só pode navegar, visualizar e baixar arquivos. Essa função é adequada para parceiros de canal ou serviço que precisam de acesso aos ativos aprovados pela empresa.
+* **[!UICONTROL Media Portal User]**: tem acesso a pastas e arquivos. Um usuário só pode navegar, visualizar e baixar arquivos. Essa função é adequada para parceiros de canal ou serviço que precisam de acesso aos ativos aprovados pela empresa.
 
-* **[!UICONTROL Media Portal Contributor]** - Pode fazer upload, pré-visualizar e procurar arquivos e metadados em áreas às quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
+* **[!UICONTROL Media Portal Contributor]**: pode fazer upload, pré-visualizar e procurar arquivos e metadados em áreas às quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
 
-* **[!UICONTROL Media Portal Contributor-User]** - Tem acesso a pastas e arquivos. Um usuário colaborador pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários do Colaborador podem alterar os nomes dos arquivos, movê-los para pastas diferentes e excluí-los.
+* **[!UICONTROL Media Portal Contributor-User]**: tem acesso a pastas e arquivos. Um usuário colaborador pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários do Colaborador podem alterar os nomes dos arquivos, movê-los para pastas diferentes e excluí-los.
 
 Esta tabela descreve as tarefas que os usuários com diferentes funções podem realizar. Administradores e colaboradores-usuários podem realizar todas as tarefas listadas nesta tabela:
 

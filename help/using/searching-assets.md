@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -63,15 +63,15 @@ Na Biblioteca de ativos, logo abaixo do campo Pesquisar, selecione **[!UICONTROL
 
 Especifique qualquer um dos critérios a seguir na pesquisa avançada:
 
-* **Filtrar por tipo de ativo** - Restrinja sua pesquisa a apenas um tipo de ativo. Escolha um tipo de ativo no menu.
+* **Filtrar por tipo de ativo**: restrinja sua pesquisa a apenas um tipo de ativo. Escolha um tipo de ativo no menu.
 
-* **Arquivos e pastas** - Escolha onde deseja pesquisar: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]** ou **[!UICONTROL Within Selected Folder & Subfolders]**.
+* **Arquivos e pastas**: escolha onde deseja pesquisar: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]** ou **[!UICONTROL Within Selected Folder & Subfolders]**.
 
-* **Todos os estados de publicação** - Procurar arquivos marcados como prontos para publicação, arquivos que não estão marcados como prontos para publicação ou todos os arquivos.
+* **Todos os estados de publicação**: procure arquivos marcados como prontos para publicação, arquivos que não estão marcados como prontos para publicação ou todos os arquivos.
 
-* **Condições** - Se você especificar critérios de metadados para a pesquisa, selecione se a pesquisa deve corresponder a todas as condições (uma pesquisa ALL) ou a qualquer condição (uma pesquisa OR).
+* **Condições**: Se você especificar critérios de metadados para pesquisa, selecione se a pesquisa deve corresponder a todas as condições (uma pesquisa ALL) ou a qualquer condição (uma pesquisa OR).
 
-* **Critérios de pesquisa** - Crie um ou mais campos de pesquisa para pesquisar metadados. Para criar campos de pesquisa:
+* **Critérios de pesquisa**: crie um ou mais campos de pesquisa para pesquisar metadados. Para criar campos de pesquisa:
 
    1. Na Pesquisa avançada, na seção **[!UICONTROL Search criteria]** e à esquerda do **[!UICONTROL Add a Field]** ), selecione o ícone de seta para baixo triângulo para abrir a lista suspensa. Escolha uma visualização de metadados. Você pode escolher **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]** ou **[!UICONTROL XMP]**.
    1. Selecione o **[!UICONTROL Add a Field]** e escolha um nome de campo.
@@ -111,7 +111,7 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 
 1. Clique em **[!UICONTROL Field]** em um painel, siga estas instruções para exibir o menu de filtragem e construir a operação de filtro:
 
-   * **Escolha um campo de metadados** - Selecione o nome do campo no menu de filtragem.
+   * **Escolha um campo de metadados**: selecione o nome do campo no menu de filtragem.
 
      >[!NOTE]
      >
@@ -119,9 +119,9 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 
      Consulte [Visualizações de metadados](application-setup.md#metadata_views).
 
-   * **Adicionar um campo de metadados** - Selecionar **[!UICONTROL Add a Panel]**. Depois que o painel for exibido no painel Filtros, selecione sua **[!UICONTROL Field]** e escolha o nome de um campo de metadados no menu de filtragem.
+   * **Adicionar um campo de metadados**: Selecionar **[!UICONTROL Add a Panel]**. Depois que o painel for exibido no painel Filtros, selecione sua **[!UICONTROL Field]** e escolha o nome de um campo de metadados no menu de filtragem.
 
-   * **Remover um campo de metadados** - Selecionar **[!UICONTROL Remove This Panel]** no menu de filtragem.
+   * **Remover um campo de metadados**: Selecionar **[!UICONTROL Remove This Panel]** no menu de filtragem.
 
    Quando você escolhe um campo de metadados, seu painel lista o seguinte:
 
@@ -143,11 +143,11 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 
 Siga estas instruções na guia Filtros para salvar, repetir e excluir operações de filtro:
 
-* **Salvar uma operação de filtro** - Vá para **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** e insira um nome na variável **[!UICONTROL Save]** caixa de diálogo.
+* **Salvar uma operação de filtro**: Vá para **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** e insira um nome na variável **[!UICONTROL Save]** caixa de diálogo.
 
-* **Repetir uma operação de filtro** - Escolher **[!UICONTROL Select Preset]** e escolha o nome de uma operação de filtro no menu. O menu lista as operações de filtro que você salvou.
+* **Repetir uma operação de filtro**: Escolher **[!UICONTROL Select Preset]** e escolha o nome de uma operação de filtro no menu. O menu lista as operações de filtro que você salvou.
 
-* **Excluir uma operação de filtro do menu Selecionar predefinição** - Execute a operação de filtro. Em seguida, acesse **[!UICONTROL Select Preset]** > **[!UICONTROL Delete Preset]** no menu.
+* **Excluir uma operação de filtro do menu Selecionar predefinição**: execute a operação de filtro. Em seguida, acesse **[!UICONTROL Select Preset]** > **[!UICONTROL Delete Preset]** no menu.
 
 ## Usar o servidor de metadados {#using-the-metadata-server}
 
@@ -157,13 +157,13 @@ Para configurar o servidor de metadados, vá para **[!UICONTROL Setup]** > **[!U
 
 A página Publicar do servidor de metadados permite definir as seguintes opções:
 
-* **[!UICONTROL Instant Publish]** : envia automaticamente todas as alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavra-chave e assim por diante.
+* **[!UICONTROL Instant Publish]**: envia automaticamente quaisquer alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavra-chave e assim por diante.
 
-* **[!UICONTROL XMP Packet]** - Publica o pacote XMP. Esse pacote não é usado para pesquisa, mas fornece o XMP mais atualizado.
+* **[!UICONTROL XMP Packet]**: publica o pacote XMP. Esse pacote não é usado para pesquisa, mas fornece o XMP mais atualizado.
 
-* **[!UICONTROL Keywords]** - Publica suas palavras-chave no servidor de metadados para uso em pesquisas.
+* **[!UICONTROL Keywords]**: publica suas palavras-chave no servidor de metadados para uso em pesquisas.
 
-* **[!UICONTROL Metadata Server Publish Fields]** - Selecione os campos que serão incluídos nos metadados. Essa opção permite determinar quanta informação sobre seus ativos está disponível para o público. Esses campos também são exibidos em Exibições de metadados, mas só podem ser alterados no servidor de metadados.
+* **[!UICONTROL Metadata Server Publish Fields]**: selecione os campos que serão incluídos nos metadados. Essa opção permite determinar quanta informação sobre seus ativos está disponível para o público. Esses campos também são exibidos em Exibições de metadados, mas só podem ser alterados no servidor de metadados.
 
 Selecionar **[!UICONTROL Publish Now]** para iniciar o trabalho. Uma confirmação é exibida, informando que o job foi iniciado.
 

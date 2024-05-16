@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -71,15 +71,15 @@ Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/h
 
 1. Adicionar ou editar uma predefinição do visualizador para mostrar o vídeo:
 
-   * **Adicionar** - Selecionar **[!UICONTROL Add]** na barra de ferramentas. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e um visualizador nas respectivas listas suspensas e selecione **[!UICONTROL Add]**.
+   * **Adicionar**: Selecionar **[!UICONTROL Add]** na barra de ferramentas. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e um visualizador nas respectivas listas suspensas e selecione **[!UICONTROL Add]**.
 
    Consulte também [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **Adicionar ao iniciar com base em uma Predefinição do visualizador existente** - Na tabela, selecione uma Predefinição do visualizador de vídeo e, em seguida, **[!UICONTROL Edit]** na barra de ferramentas.
+   * **Adicionar ao iniciar com base em uma Predefinição do visualizador existente**: na tabela, selecione uma Predefinição do visualizador de vídeo e, em seguida, selecione **[!UICONTROL Edit]** na barra de ferramentas.
 
    Após reconfigurar o Visualizador de vídeo, selecione **[!UICONTROL Save As]** para salvar a predefinição usando um nome diferente no campo de texto Nome da predefinição.
 
-   * **Editar** - Selecione uma predefinição do visualizador de vídeo e, em seguida, **[!UICONTROL Edit]**.
+   * **Editar**: selecione uma Predefinição do visualizador de vídeo e, em seguida, selecione **[!UICONTROL Edit]**.
 
 1. No `Configure Viewer` no campo Nome da predefinição, digite ou edite o nome da predefinição.
 1. Defina as opções restantes desejadas.

@@ -1,6 +1,6 @@
 ---
 title: Criar e ativar predefinições de imagem
-description: Saiba como criar e ativar predefinições de imagens no Adobe Dynamic Media Classic.
+description: Saiba como criar e ativar predefinições de imagem no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%

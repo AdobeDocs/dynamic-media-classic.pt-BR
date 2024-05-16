@@ -10,7 +10,7 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -32,7 +32,7 @@ A porcentagem máxima de zoom dos Destinos de zoom é 100%. A porcentagem mínim
 | Grande | Menor | Mínimo menor |
 | Pequeno | Maior | Mínimo maior |
 
-Você pode alterar o tamanho do Zoom Viewer para corresponder ao tamanho que está sendo usado em sua página da web. Você pode alterar essa configuração permanentemente alterando o tamanho do visualizador na tela Configuração (se você for um administrador). Consulte [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Você pode alterar o tamanho do Zoom Viewer para corresponder ao tamanho que está sendo usado em sua página da Web. Você pode alterar essa configuração permanentemente alterando o tamanho do visualizador na tela Configuração (se você for um administrador). Consulte [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Criar e editar Destinos de Zoom {#creating-and-editing-zoom-targets}
 
@@ -53,9 +53,9 @@ Para criar um destino de zoom, abra a página Editor do Destino de Zoom e faça 
 
 1. Escolher **[!UICONTROL Select Target]** (seta), selecione o destino de zoom criado e ajuste o tamanho e a posição do destino.
 
-   * **Redimensionar** - Mova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou reduzir o destino.
+   * **Redimensionar**: mova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou reduzir o destino.
 
-   * **Position** - Mova o ponteiro sobre o destino de zoom e arraste-o para um local diferente.
+   * **Position**: Mova o ponteiro sobre o destino de zoom e arraste-o para um local diferente.
 
 1. Digite um nome para o destino do zoom na caixa Nome.
 
@@ -76,13 +76,13 @@ Para criar um destino de zoom, abra a página Editor do Destino de Zoom e faça 
 
 Para editar Destinos de Zoom, use as seguintes técnicas na página Editor de Destino de Zoom:
 
-* **Reposicionar** - Com o botão Selecionar destino (a seta), selecione o destino. Em seguida, arraste o target para um local diferente.
+* **Reposicionar**: Com o botão Select Target (a seta), selecione o target. Em seguida, arraste o target para um local diferente.
 
-* **Redimensionar** - Com o botão Selecionar destino (a seta), selecione o destino. Para ampliar ou reduzir o destino, mova o ponteiro sobre um canto do destino de zoom e arraste.
+* **Redimensionar**: Com o botão Select Target (a seta), selecione o target. Para ampliar ou reduzir o destino, mova o ponteiro sobre um canto do destino de zoom e arraste.
 
-* **Excluir** - Selecione a imagem em miniatura do público alvo no lado direito da tela. Em seguida, selecione **[!UICONTROL Delete Target]**.
+* **Excluir**: selecione a imagem da miniatura de destino no lado direito da tela. Em seguida, selecione **[!UICONTROL Delete Target]**.
 
-* **Renomeando** - Selecione a imagem em miniatura do público alvo no lado direito da tela. Em seguida, insira um nome no campo **[!UICONTROL Name]** e selecione **[!UICONTROL Save]**.
+* **Renomeando**: selecione a imagem da miniatura de destino no lado direito da tela. Em seguida, insira um nome no campo **[!UICONTROL Name]** e selecione **[!UICONTROL Save]**.
 
 ### Copiar Destinos de Zoom {#copying-zoom-targets}
 

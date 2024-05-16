@@ -10,7 +10,7 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento 
 
 * **[!UICONTROL Publish To]**: para publicar ativos somente em um servidor específico, escolha um tipo de servidor.
 
-* **[!UICONTROL Publish]** - Por padrão, o Adobe Dynamic Media Classic publica somente ativos novos e que não foram publicados antes (a opção Novo desde a última publicação ). No entanto, é possível selecionar **[!UICONTROL Full Publish]** portanto, você também pode publicar ativos que foram atualizados ou alterados desde a última publicação. Selecionar **[!UICONTROL Full w/ Search Data]** se você estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
+* **[!UICONTROL Publish]**: por padrão, o Adobe Dynamic Media Classic publica somente ativos que são novos e que não foram publicados antes (a opção Novo desde a última publicação ). No entanto, é possível selecionar **[!UICONTROL Full Publish]** portanto, você também pode publicar ativos que foram atualizados ou alterados desde a última publicação. Selecionar **[!UICONTROL Full w/ Search Data]** se você estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
 
 * **[!UICONTROL Run Job As]**: escolha um nome de usuário na lista. Você pode classificar trabalhos por nome de usuário na página Trabalhos. Ao escolher um nome, você associa um trabalho de publicação a um usuário.
 
@@ -154,9 +154,9 @@ Os ativos do Adobe Dynamic Media Classic são distribuídos na rede de entrega d
 
 Na primeira vez que alguém baixa uma página da Web, os ativos são entregues a um servidor de cache da Web CDN. Esse servidor os armazena para que na próxima vez que alguém na mesma área acessar a página da Web, o mesmo conteúdo em cache seja entregue mais rapidamente. O conteúdo é entregue mais rápido porque está localizado mais próximo do usuário final. O CDN possibilita exibições mais rápidas da página da Web. Ele diminui as demandas de largura de banda no servidor central, porque o conteúdo é entregue a partir da rede de cache de borda, não a partir de um servidor central em cada instância.
 
-O conteúdo recém-publicado do Adobe Dynamic Media Classic está disponível imediatamente para o usuário final e preenche rapidamente a rede de cache de borda. No entanto, o conteúdo recém-republicado, ou seja, imagens que têm os mesmos nomes que as imagens publicadas anteriormente em um servidor de imagens, não é atualizado na CDN por até dez horas. Em vez disso, os usuários finais veem o que está em um cache da Web na rede CDN. Por esse motivo, os ativos republicados do Adobe Dynamic Media Classic não aparecem para os usuários finais por dez horas.
+O conteúdo recém-publicado do Adobe Dynamic Media Classic está disponível imediatamente para o usuário final e preenche rapidamente a rede de cache de borda. No entanto, o conteúdo recém-republicado, ou seja, imagens que têm os mesmos nomes que as imagens publicadas anteriormente em um Servidor de imagens, não é atualizado no CDN por até dez horas. Em vez disso, os usuários finais veem o que está em um cache da Web na rede CDN. Por esse motivo, os ativos republicados do Adobe Dynamic Media Classic não aparecem para os usuários finais por dez horas.
 
-Se quiser que os ativos de imagem recém-republicados estejam disponíveis antes do atraso de dez horas, você poderá liberar caches da Web no CDN. A limpeza desses caches da Web remove o conteúdo antigo dos caches da Web CDN e o substitui pelos ativos publicados mais recentemente.
+Se quiser que os ativos de imagem recém-publicados estejam disponíveis antes do atraso de dez horas, você poderá liberar caches da Web no CDN. A limpeza desses caches da Web remove o conteúdo antigo dos caches da Web CDN e o substitui pelos ativos publicados mais recentemente.
 
 Para liberar o cache, na barra Navegação global, vá para **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**. Todos os arquivos selecionados são removidos do cache. Se não houver ativos publicáveis ou se você não for um administrador de empresa, a opção Remover do CDN não estará disponível.
 

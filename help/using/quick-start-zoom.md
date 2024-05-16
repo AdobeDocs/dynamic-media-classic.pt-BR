@@ -10,7 +10,7 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -55,14 +55,14 @@ Você pode visualizar imagens em um Visualizador de zoom para ver qual é a expe
 
 Para explorar diferentes Predefinições do Visualizador de zoom e como elas apresentam a experiência de zoom, selecione uma imagem no Painel Procurar e selecione **[!UICONTROL Preview]**. Ir para **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** e selecione uma predefinição com o menu Zoom.
 
-Botões de zoom são exibidos. Você pode ver como o zoom das imagens se parece no seu site. Selecione os botões de Zoom (e os destinos de zoom) para testar as configurações da Predefinição do visualizador de zoom escolhida. Consulte [Visualizar imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Botões de zoom são exibidos. Você pode ver a aparência das imagens com zoom no seu site. Selecione os botões de Zoom (e os destinos de zoom) para testar as configurações da Predefinição do visualizador de zoom escolhida. Consulte [Visualizar imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publicar imagens com zoom
 
-A publicação das imagens de zoom as coloca nos Dynamic Media Image Servers para que possam ser entregues ao seu site e aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa strings de URL. Essas cadeias de caracteres de URL chamam as imagens de zoom dos servidores de imagem da Dynamic Media para o site ou aplicativo.
+A publicação das imagens de zoom as coloca nos Dynamic Media Image Servers para que elas possam ser entregues ao seu site e aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa strings de URL. Essas cadeias de caracteres de URL chamam as imagens de zoom dos servidores de imagem Dynamic Media para o seu site ou aplicativo.
 
 Na barra Navegação global, selecione **[!UICONTROL Publish]**. Na caixa de diálogo Publicação, selecione **[!UICONTROL Submit Publish]**. Consulte [Publicação de imagens com zoom](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Vincular visualizadores de zoom à página da Web
 
-O Adobe Dynamic Media Classic cria as strings de chamada de URL necessárias para aplicar zoom a imagens e as ativa ao publicar imagens nos servidores de imagem Dynamic Media. Você pode copiar essas cadeias de caracteres de URL do **[!UICONTROL Preview]** página. Depois de copiar as cadeias de caracteres de URL, elas ficam disponíveis para os sites e aplicativos. Consulte [Vincular visualizadores de zoom à página da Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+O Adobe Dynamic Media Classic cria as strings de chamada de URL necessárias para aplicar zoom a imagens e as ativa ao publicar imagens nos servidores de imagem Dynamic Media. Você pode copiar essas cadeias de caracteres de URL do **[!UICONTROL Preview]** página. Depois de copiar as cadeias de caracteres de URL, elas ficam disponíveis para seus sites e aplicativos. Consulte [Vincular visualizadores de zoom à página da Web](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

@@ -10,7 +10,7 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 1%
@@ -37,8 +37,8 @@ Você poderá criar suas próprias Predefinições de imagem se for um administr
 
 1. Siga um destes procedimentos:
 
-   * **Criar uma predefinição de imagem** - Selecionar **[!UICONTROL Add]**.
-   * **Editar uma predefinição de imagem** - Navegue até a Predefinição de imagem mais parecida com a que deseja criar e selecione **[!UICONTROL Edit]**.
+   * **Criar uma predefinição de imagem**: Selecionar **[!UICONTROL Add]**.
+   * **Editar uma predefinição de imagem**: navegue até a Predefinição de imagem mais parecida com a que deseja criar e selecione **[!UICONTROL Edit]**.
 
 1. Insira um nome para a Predefinição de imagem.
 1. Insira as medidas de Largura e Altura em pixels. Essas medidas determinam o tamanho em que as imagens são entregues.
@@ -46,13 +46,13 @@ Você poderá criar suas próprias Predefinições de imagem se for um administr
 
    A Adobe Dynamic Media Classic recomenda que essas opções de &quot;práticas recomendadas&quot; comecem:
 
-   * **[!UICONTROL Format]** - Escolha o JPEG ou outro formato que atenda aos requisitos. Todos os navegadores da Web são compatíveis com o formato de imagem JPEG; ele oferece um bom equilíbrio entre arquivos pequenos e qualidade de imagem. No entanto, as imagens de JPEG usam um esquema de compactação com perdas que pode apresentar artefatos de imagem indesejados se a configuração de compactação for muito baixa. Por esse motivo, a Adobe Dynamic Media Classic recomenda definir a qualidade de compactação (no controle deslizante) como 75. Essa configuração oferece um bom equilíbrio entre a qualidade da imagem e o tamanho pequeno de arquivo.
+   * **[!UICONTROL Format]**: escolha o JPEG ou outro formato que atenda aos requisitos. Todos os navegadores da Web são compatíveis com o formato de imagem JPEG; ele oferece um bom equilíbrio entre arquivos pequenos e qualidade de imagem. No entanto, as imagens de JPEG usam um esquema de compactação com perdas que pode apresentar artefatos de imagem indesejados se a configuração de compactação for muito baixa. Por esse motivo, a Adobe Dynamic Media Classic recomenda definir a qualidade de compactação (no controle deslizante) como 75. Essa configuração oferece um bom equilíbrio entre a qualidade da imagem e o tamanho pequeno de arquivo.
 
-   * **[!UICONTROL Sharpening]** - Não selecione Nitidez (este filtro de nitidez oferece menos controle do que **[!UICONTROL Unsharp Masking]** configurações).
+   * **[!UICONTROL Sharpening]**: Não selecione Nitidez (este filtro de nitidez oferece menos controle do que **[!UICONTROL Unsharp Masking]** configurações).
 
-   * **[!UICONTROL Resample Mode]** - Escolher **[!UICONTROL Bi-Cubic]**.
+   * **[!UICONTROL Resample Mode]**: Escolher **[!UICONTROL Bi-Cubic]**.
 
-   * **[!UICONTROL Unsharp Masking]** (USM) - Insira as seguintes configurações:
+   * **[!UICONTROL Unsharp Masking]** (USM): insira as seguintes configurações:
 
    | Tipo de predefinição | Tamanho | USM: Quantidade | USM: Raio | USM: Limite |
    | --- | --- | --- | --- | --- |
@@ -65,11 +65,11 @@ Você poderá criar suas próprias Predefinições de imagem se for um administr
 
 As opções de &quot;prática recomendada&quot; do Adobe Dynamic Media Classic para criar Predefinições de imagem listadas aqui são recomendações gerais; a nitidez é altamente subjetiva. Essas configurações de &quot;práticas recomendadas&quot; foram baseadas em uma imagem primária de 2000 × 2000; as configurações para arquivos primários maiores ou menores podem ser diferentes. Se você quiser ajustar as configurações Tirar nitidez da máscara, a Adobe Dynamic Media Classic recomenda estes intervalos:
 
-* **[!UICONTROL Amount]** - Entre `.8` e `1.5`.
+* **[!UICONTROL Amount]**: Entre `.8` e `1.5`.
 
-* **[!UICONTROL Radius]** - Entre `.6` e `2`.
+* **[!UICONTROL Radius]**: Entre `.6` e `2`.
 
-* **[!UICONTROL Threshold]** - De `1` até `6`.
+* **[!UICONTROL Threshold]**: De `1` até `6`.
 
 Para excluir uma predefinição de imagem, selecione-a na tela Predefinições de imagem e, em seguida, selecione **[!UICONTROL Delete]**.
 

@@ -9,7 +9,7 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Consulte [Veicular conteúdo estático (não imagem)](https://experienceleague.a
 
    | Tipo de visualizador | Arquivo de legendas |
    |--- |--- |
-   | HTML5 | Se estiver usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de legenda criado segue o padrão WebVTT (Web Video Text Tracks, Rastreamentos de texto de vídeo da Web). A extensão do nome de arquivo de legenda é `.VTT`. Você pode obter mais informações sobre o padrão de legendagem WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): o formato de faixas de texto do vídeo da Web. <br><br>Há muitos sites que oferecem ferramentas e serviços gratuitos e pagos que você pode usar para criar arquivos de legenda WebVTT. <br><br>Siga as instruções na tela de um site para criar e salvar o arquivo WebVTT. Quando terminar, copie o conteúdo do arquivo de legenda e cole-o em um editor de texto sem formatação e salve-o com uma extensão de nome de arquivo VTT. <br><br><b>Nota:</b> Para obter suporte global a legendas de vídeo em idiomas diferentes do inglês, o padrão WebVTT exige a criação de legendas separadas `.VTT` arquivos e chamadas para cada idioma que você deseja suportar. <br><br>Geralmente, você deseja nomear o arquivo de legenda VTT com o mesmo nome do arquivo de vídeo e anexá-lo com legendas. Ao fazer isso, ele pode ajudar você a automatizar a geração dos URLs de vídeo usando seu sistema existente de gerenciamento de conteúdo na Web. |
+   | HTML5 | Se estiver usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de legenda criado segue o padrão WebVTT (Web Video Text Tracks, Rastreamentos de texto de vídeo da Web). A extensão do nome de arquivo de legenda é `.VTT`. Você pode obter mais informações sobre o padrão de legendagem WebVTT.<br><br>[Consulte WebVTT](https://w3c.github.io/webvtt/): o formato de faixas de texto do vídeo da Web. <br><br>Há muitos sites que oferecem ferramentas e serviços gratuitos e pagos que você pode usar para criar arquivos de legenda WebVTT. <br><br>Siga as instruções na tela de um site para criar e salvar o arquivo WebVTT. Quando terminar, copie o conteúdo do arquivo de legenda e cole-o em um editor de texto sem formatação e salve-o com uma extensão de nome de arquivo VTT. <br><br><b>Nota:</b> Para obter suporte global a legendas de vídeo em idiomas diferentes do inglês, o padrão WebVTT exige a criação de legendas separadas `.VTT` arquivos e chamadas para cada idioma que você deseja suportar. <br><br>Geralmente, você deseja nomear o arquivo de legenda VTT com o mesmo nome do arquivo de vídeo e anexá-lo com legendas. Ao fazer isso, ele pode ajudar você a automatizar a geração dos URLs de vídeo usando seu sistema existente de gerenciamento de conteúdo da Web. |
 
 1. No Adobe Dynamic Media Classic, carregue seu arquivo de legenda WebVTT, DFXP ou SMPTE XML.
 

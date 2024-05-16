@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -113,24 +113,24 @@ Você pode enviar um email de boas-vindas ao adicionar novos usuários, colabora
 1. Na tela User Administration Setup, selecione **[!UICONTROL Email Settings]**.
 1. Na caixa de diálogo Configurações de email, especifique qualquer uma das seguintes configurações:
 
-   * **[!UICONTROL Send Email]** - Desmarque essa opção para informar aos novos usuários por e-mail que você os inscreveu.
+   * **[!UICONTROL Send Email]**: desmarque essa opção para informar aos novos usuários por e-mail que você os inscreveu.
 
-   * **[!UICONTROL Default Password]** - Insira uma senha temporária para novos usuários ou deixe o campo vazio para que o Adobe Dynamic Media Classic gere senhas aleatórias. Os usuários são solicitados a alterar as senhas na primeira vez que entrarem.
+   * **[!UICONTROL Default Password]**: digite uma senha temporária para novos usuários ou deixe o campo vazio para que o Adobe Dynamic Media Classic gere senhas aleatórias. Os usuários são solicitados a alterar as senhas na primeira vez que entrarem.
 
-   * **[!UICONTROL Replacement URL]** - Insira um URL diferente do padrão se os usuários acessarem o Adobe Dynamic Media Classic por meio de um URL diferente.
+   * **[!UICONTROL Replacement URL]**: insira um URL diferente do padrão se os usuários acessarem o Adobe Dynamic Media Classic por meio de um URL diferente.
 
 ## Outras tarefas de gerenciamento de usuários {#other-user-management-tasks}
 
 Começando pela tela Configuração de administração de usuário, você também pode executar estas tarefas:
 
-* **[!UICONTROL Filter and sort the user list]** - Filtrar a lista de usuários do Portal de mídia para localizar usuários.
+* **[!UICONTROL Filter and sort the user list]**: filtre a lista de usuários do Portal de mídia para localizar usuários.
 
-* **[!UICONTROL Delete users]** - Remover um usuário da lista.
+* **[!UICONTROL Delete users]**: remova um usuário da lista.
 
-* **[!UICONTROL Activate and deactivate users]** - Suspender um usuário de acessar pastas.
+* **[!UICONTROL Activate and deactivate users]**: impedir que um usuário acesse pastas.
 
-* **[!UICONTROL Edit user information]** - Insira informações atualizadas sobre um usuário.
+* **[!UICONTROL Edit user information]**: Insira informações atualizadas sobre um usuário.
 
-* **[!UICONTROL Create user-defined fields]** : crie campos de metadados personalizados definidos pelo usuário para que eles possam ajudar você a organizar ativos na Adobe Dynamic Media Classic. Os campos também podem ser ativados ou desativados, conforme necessário.
+* **[!UICONTROL Create user-defined fields]**: crie campos de metadados personalizados definidos pelo usuário para que eles possam ajudar você a organizar ativos na Adobe Dynamic Media Classic. Os campos também podem ser ativados ou desativados, conforme necessário.
 
 Consulte [Campos definidos pelo usuário](application-setup.md#user_defined_fields).

@@ -1,6 +1,6 @@
 ---
-title: Vincular URLs ao aplicativo da Web
-description: Saiba como vincular URLs ao seu aplicativo Web do Adobe Dynamic Media Classic.
+title: Vincular URLs ao aplicativo web
+description: Saiba como vincular URLs ao seu aplicativo web a partir do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,14 +10,14 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
-# Vincular URLs ao aplicativo da Web{#linking-urls-to-your-web-application}
+# Vincular URLs ao aplicativo web{#linking-urls-to-your-web-application}
 
 Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL. Depois de publicar uma imagem, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência à Predefinição de imagem nos servidores de imagem da Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
 
@@ -80,7 +80,7 @@ Os nomes das predefinições de imagem em URLs são colocados em cifrões ($). Q
 
 ## Adicionar imagens dinâmicas à sua página da Web {#adding-dynamic-images-to-your-web-page}
 
-Para adicionar imagens dinâmicas à sua página da Web, `<IMG>` A tag do no código da página da Web do HTML geralmente é modificada usando a string de URL do Adobe Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
+Para adicionar imagens dinâmicas à sua página da Web, `<IMG>` A tag do no código da página da Web do HTML geralmente é modificada usando a string de URL do Adobe Dynamic Media Classic para fazer uma solicitação aos servidores de imagem da Dynamic Media. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
 
 Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
 

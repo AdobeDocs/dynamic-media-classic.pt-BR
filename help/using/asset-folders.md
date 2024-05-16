@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -27,23 +27,23 @@ Estabeleça uma estrutura de pastas e uma organização para armazenar os arquiv
 
 A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo aparece no Painel de navegação. Use essas técnicas para localizar pastas na árvore de pastas:
 
-* **Exibir subpastas** - Selecione o **[!UICONTROL Expand Folder]** ícone para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Exibir subpastas**: selecione a variável **[!UICONTROL Expand Folder]** ícone para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Mover uma pasta** - Você pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
+* **Mover uma pasta**: é possível mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
 
-* **Ocultar pastas** - Selecione o **[!UICONTROL Collapse Folder]** ícone se quiser recolher subpastas para ocultá-las da exibição. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Ocultar pastas**: selecione a variável **[!UICONTROL Collapse Folder]** ícone se quiser recolher subpastas para ocultá-las da exibição. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Abrir uma pasta** - Selecione uma pasta se desejar exibir seu conteúdo no Painel de navegação.
+* **Abrir uma pasta**: selecione uma pasta se desejar exibir seu conteúdo no Painel de navegação.
 
 >[!TIP]
 >
->Você pode ocultar ou exibir a Biblioteca de ativos selecionando **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** controle no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no Painel de navegação.
+>Você pode ocultar ou exibir a Biblioteca de ativos selecionando o **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** controle no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no Painel de navegação.
 
 ## Criar pastas
 
 1. Na Biblioteca de ativos, selecione a pasta na qual deseja criar uma pasta.
 1. Selecione o **[!UICONTROL `Add Folder`]** botão. Este ícone está no topo da lista de pastas.
-1. Insira um nome descritivo para a nova pasta ou subpasta digitando-o no campo ao lado do ícone da pasta.
+1. Insira um nome descritivo para a nova pasta ou subpasta. Digite-o no campo ao lado do ícone de pasta.
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
 Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-* **Excluir** - Selecione o **[!UICONTROL `Remove Folder`]** botão. Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los a partir daí.
+* **Excluir**: selecione a variável **[!UICONTROL `Remove Folder`]** botão. Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los a partir daí.
 
-* **Renomear** - Clique duas vezes no nome e insira um novo nome.
+* **Renomear**: Clique duas vezes no nome e insira um novo nome.
 
 >[!NOTE]
 >

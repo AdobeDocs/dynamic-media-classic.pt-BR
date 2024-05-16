@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -152,7 +152,7 @@ Não. O Adobe continua a usar o [!DNL Dynamic Media Classic] infraestrutura de p
 Não. O Adobe continua a usar o [!DNL Dynamic Media Classic] infraestrutura de publicação e entrega como está no [!DNL Dynamic Media] solução. O benefício dessa abordagem é que você pode continuar a usar visualizadores personalizados, minimizando o risco e o esforço da migração para o [!DNL Dynamic Media].
 +++
 
-+++**Como migrar minhas configurações (como predefinições de imagens, codificações de vídeo) para [!DNL Dynamic Media]?**
++++**Como migrar minhas configurações (como Predefinições de imagem, codificações de vídeo) para [!DNL Dynamic Media]?**
 As predefinições e outras configurações devem ser recriadas no [!DNL Dynamic Media]. Como parte do projeto de serviço, os Adobe Global Services ou o Partner podem ajudar.
 
 +++
@@ -188,9 +188,9 @@ O Dynamic Media vem com 60 GB de armazenamento. Você pode adquirir armazenament
 +++
 
 +++**Qual métrica é usada para medir [!DNL Dynamic Media] uso?**
-Exibições de página por mês (PVM). Exibição de página significa uma exibição única de um email ou página da Web de um site da Internet. Também inclui exibições da tela do aplicativo, estados da tela do aplicativo, páginas da Web para dispositivos móveis e páginas de redes sociais. Exibições de página ocorrem:
+Exibições de página por mês (PVM). Exibição de página significa uma exibição única de um email ou página da Web de um site da Internet. Também inclui exibições de tela de aplicativos, estados de tela de aplicativos, páginas da Web para dispositivos móveis e páginas de redes sociais. Exibições de página ocorrem:
 
-* Sempre que ocorrer o carregamento ou a atualização de uma página da Web
+* Sempre que ocorre o carregamento ou a atualização de uma página da Web
 * Quando um aplicativo é carregado
 * Quando o conteúdo é renderizado
 * Mostrado por meio de um email aberto ou exibido

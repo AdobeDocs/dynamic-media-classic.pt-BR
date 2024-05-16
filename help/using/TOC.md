@@ -6,7 +6,7 @@ user-guide-title: Guia do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 + [NOVO logon do Adobe Dynamic Media Classic já disponível](new-ui-2020.md)
 + [Arquivo de informativos do Adobe Dynamic Media por Experience League](dynamic-media-newsletter.md)
 + Apresentação do Adobe Dynamic Media Classic {#intro}
-   + [Aplicativo Adobe Dynamic Media Classic Desktop - Agora disponível](dynamic-media-classic-desktop-app.md)
+   + [Aplicativo Adobe Dynamic Media Classic Desktop: agora disponível](dynamic-media-classic-desktop-app.md)
    + [Sobre a Ajuda da Adobe Dynamic Media Classic](introduction.md)
    + [Recursos do desenvolvedor](developer-resources.md)
    + [Novidades](whats-new.md)
@@ -87,7 +87,7 @@ ht-degree: 0%
    + [Fazer upload de imagens principais](uploading-master-images.md)
    + [Publicar imagens principais](publishing-master-images.md)
    + [Configurar predefinições da imagem](setting-image-presets.md)
-   + [Vincular URLs ao aplicativo da Web](linking-urls-web-application.md)
+   + [Vincular URLs ao aplicativo web](linking-urls-web-application.md)
 + Zoom {#zoom}
    + [Início rápido: Zoom](quick-start-zoom.md)
    + [Carregar imagens Zoom](uploading-zoom-images.md)
@@ -95,7 +95,7 @@ ht-degree: 0%
    + [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md)
    + [Visualizar ativos de imagem com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md)
    + [Publicar imagens com zoom](publishing-zoom-images.md)
-   + [Vincular visualizadores de zoom às suas páginas da Web](linking-zoom-viewers-web-pages.md)
+   + [Vincular visualizadores Zoom às suas páginas da Web](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
    + [Início rápido: eCatalogs](quick-start-ecatalog.md)
    + [Fazer upload dos arquivos PDF](uploading-pdf-files.md)
@@ -128,7 +128,7 @@ ht-degree: 0%
    + [Visualizar um conjunto de rotação](previewing-spin-set.md)
    + [Publicar um grupo de rotação](publishing-spin-set.md)
    + [Configurar predefinições do visualizador de conjunto de rotação](setting-spin-set-viewer-presets.md)
-   + [Vincular um grupo de rotação a uma página da Web](linking-spin-set-web-page.md)
+   + [Vincular um conjunto de rotação a uma página da Web](linking-spin-set-web-page.md)
 + Noções básicas de modelo {#template-basics}
    + [Início rápido: Noções básicas de modelo](quick-start-template-basics.md)
    + [Fazer upload de arquivos de modelo](uploading-template-files.md)
@@ -151,7 +151,7 @@ ht-degree: 0%
    + [Configurar uma predefinição do visualizador de conjunto de mídia mista](setting-mixed-media-set-viewer.md)
    + [Criar um conjunto de mix de mídia](creating-mixed-media-set.md)
    + [Publicar um conjunto de mix de mídia](publishing-mixed-media-set.md)
-   + [Vincular um conjunto de mídias mistas a uma página da Web](linking-mixed-media-set-web.md)
+   + [Vincular um conjunto de mídia mista a uma página da Web](linking-mixed-media-set-web.md)
 + Kit de instrumentação do Adobe Analytics {#analytics-kit}
    + [Início rápido: Integração do Adobe Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Fazer logon no Adobe Analytics](log-analytics.md)

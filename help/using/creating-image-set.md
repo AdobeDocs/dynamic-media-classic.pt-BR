@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
 
 1. Siga um destes procedimentos:
 
-   * **Selecione as imagens primeiro** - No Painel de navegação, selecione as imagens que deseja para o seu Conjunto de imagens, vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
+   * **Selecione as imagens primeiro**: no Painel de navegação, selecione as imagens que deseja para o conjunto de imagens, vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
 
-   * **Comece na tela Conjunto de imagens** - Vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**. A tela Conjunto de imagens é aberta. Selecione uma pasta na Biblioteca de ativos e arraste as imagens desejadas para o Conjunto de imagens na tela Conjunto de imagens.
+   * **Comece na tela Conjunto de imagens**: Vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**. A tela Conjunto de imagens é aberta. Selecione uma pasta na Biblioteca de ativos e arraste as imagens desejadas para o Conjunto de imagens na tela Conjunto de imagens.
 
 1. Para alterar a ordem das imagens, arraste as imagens para novos locais.
 1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).

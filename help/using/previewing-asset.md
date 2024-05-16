@@ -10,7 +10,7 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em um tipo específico de plataforma do visualizador, como HTML 5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Lista do visualizador.
 
-Você também pode usar a Lista de visualizadores para copiar o URL de um visualizador ou visualizá-lo e copiar o código do visualizador para incorporação nas páginas da Web.
+Você também pode usar a Lista de visualizadores para copiar o URL de um visualizador ou visualizá-lo e copiar o código do visualizador para incorporação nas suas páginas da Web.
 
 Para determinada plataforma de visualização, a janela Lista de visualizadores permite ver visualmente quais dispositivos, como tablets e smartphones, um visualizador está disponível para uso.
 
@@ -80,7 +80,7 @@ Para determinada plataforma de visualização, a janela Lista de visualizadores 
 
 ## Visualizar um ativo de imagem com base em sua Predefinição de imagem {#previewing-an-image-asset-based-on-its-image-preset}
 
-Você pode visualizar um ativo de imagem com base em sua Predefinição de imagem para descobrir como sua imagem será exibida quando for entregue dinamicamente ao seu site ou aplicativo em tamanhos diferentes.
+Você pode visualizar um ativo de imagem com base na sua Predefinição de imagem para descobrir como a sua imagem é exibida quando é entregue dinamicamente ao seu site ou aplicativo em tamanhos diferentes.
 
 Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações alteram o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 

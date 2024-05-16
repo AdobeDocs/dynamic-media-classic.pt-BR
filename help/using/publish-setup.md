@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Para abrir as páginas de Configuração de publicação, vá para **[!UICONTROL
 
 ## Servidor de imagens {#image-server}
 
-A página Servidor de imagens estabelece configurações padrão para fornecer imagens de servidores de imagens. As configurações estão disponíveis nessas cinco categorias (consulte a própria página Servidor de imagens para obter descrições detalhadas das configurações).
+A página Servidor de imagens estabelece configurações padrão para fornecer imagens de Servidores de imagens. As configurações estão disponíveis nessas cinco categorias (consulte a própria página Servidor de imagens para obter descrições detalhadas das configurações).
 
 Altere essas configurações somente com a assistência de um suporte técnico da Adobe Dynamic Media Classic.
 
@@ -160,7 +160,7 @@ As IDs de localidade são mapeadas para seus sufixos correspondentes. Se nenhuma
 | en, en_us, en_uk | myImg_E, myImg |
 | de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
-| Todos os outros | - |
+| Todos os outros | : |
 
 ##### Localizar o localeMap quando o locale é desconhecido
 
@@ -222,15 +222,15 @@ Usando o primeiro exemplo como base, as imagens para todas as linguagens podem t
 
 A página Renderizador de imagem estabelece configurações padrão para fornecer Conjuntos de imagens de servidores de renderização de imagem. As configurações estão disponíveis nestas cinco categorias (consulte a própria página Servidor de imagens para obter descrições detalhadas das configurações):
 
-* **[!UICONTROL Catalog Management]** - Essas configurações determinam como o Adobe Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do servidor de renderização do Adobe Dynamic Media Classic são feitas para o catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a assistência de um suporte técnico da Adobe Dynamic Media Classic.
+* **[!UICONTROL Catalog Management]**: essas configurações determinam como o Adobe Dynamic Media Classic e o arquivo de catálogo interagem. As chamadas de URL do servidor de renderização do Adobe Dynamic Media Classic são feitas para o catálogo, que, por sua vez, chama para fornecer imagens do servidor. Altere essas configurações somente com a assistência de um suporte técnico da Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Session Attributes]** - Essas configurações estabelecem parâmetros de erro, o URL para URLs de imagem relativa e se a sobreposição de objetos é permitida.
+* **[!UICONTROL Session Attributes]**: essas configurações estabelecem parâmetros de erro, o URL para URLs de imagem relativa e se a sobreposição de objetos é permitida.
 
-* **[!UICONTROL Default Material Attributes]** - Essas configurações estabelecem as configurações padrão de resolução e nitidez de imagens.
+* **[!UICONTROL Default Material Attributes]**: Essas configurações estabelecem as configurações padrão de resolução e nitidez para imagens.
 
-* **[!UICONTROL Response Image Attributes]** - Essas configurações pertencem à aparência padrão das imagens.
+* **[!UICONTROL Response Image Attributes]**: essas configurações pertencem à aparência padrão das imagens.
 
-* **[!UICONTROL Color Management Attributes]** - Essas configurações pertencem às configurações de cor padrão das imagens.
+* **[!UICONTROL Color Management Attributes]**: essas configurações pertencem às configurações de cor padrão das imagens.
 
 ## Vinheta {#vignette}
 

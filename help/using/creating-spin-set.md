@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -92,13 +92,13 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually-pu
 1. Selecione a sobreposição do conjunto de rotação **[!UICONTROL Edit]** botão.
 1. Siga um destes procedimentos:
 
-   * **Remoção de imagens** - Selecione a imagem e depois selecione **[!UICONTROL Delete]**.
+   * **Remoção de imagens**: selecione a imagem e, em seguida, **[!UICONTROL Delete]**.
 
-   * **Adição de imagens** - Arraste a imagem para uma célula.
+   * **Adição de imagens**: arraste a imagem para uma célula.
 
-   * **Reorganização de linhas (Conjuntos de rotação bidimensionais)** - Selecione uma caixa de seletor de linhas (à esquerda da linha) e selecione **[!UICONTROL Move Row Down]** ou **[!UICONTROL Move Row Up]**.
+   * **Reorganização de linhas (Conjuntos de rotação bidimensionais)**: selecione uma caixa de seletor de linhas (à esquerda da linha) e selecione **[!UICONTROL Move Row Down]** ou **[!UICONTROL Move Row Up]**.
 
-   * **Adição de linhas e células** - Insira um número na caixa Linhas e na caixa Células para determinar o número de linhas e o número de células em cada linha.
+   * **Adição de linhas e células**: Insira um número na caixa Linhas e na caixa Células para determinar o número de linhas e o número de células em cada linha.
 
 1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after save]** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.

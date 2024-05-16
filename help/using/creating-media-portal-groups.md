@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -98,6 +98,6 @@ Consulte também [Especifique as opções de exportação disponíveis para os u
 1. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Na página Lista de grupos, selecione um grupo e edite-o ou exclua-o.
 
-   **Editar um grupo** - Selecionar **[!UICONTROL Edit]** e escolha opções na caixa de diálogo Editar grupo.
+   **Editar um grupo**: Selecionar **[!UICONTROL Edit]** e escolha opções na caixa de diálogo Editar grupo.
 
-   **Excluir um grupo** - Selecionar **[!UICONTROL Delete]**.
+   **Excluir um grupo**: Selecionar **[!UICONTROL Delete]**.

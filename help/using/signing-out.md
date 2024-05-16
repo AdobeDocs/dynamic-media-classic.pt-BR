@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 Verifique se você tem o seguinte antes de usar o aplicativo de desktop do Adobe Dynamic Media Classic:
 
-* **Nome do usuário** - Use seu endereço de e-mail como nome de login.
+* **Nome do usuário**: use seu endereço de e-mail como nome de login.
 
-* **Senha** - Você obtém sua senha temporária em um email de &quot;Boas-vindas&quot; da Adobe Dynamic Media Classic ou do administrador do Adobe Dynamic Media Classic. Na primeira vez que fizer logon, você será solicitado a alterar essa senha temporária.
+* **Senha**: você obtém sua senha temporária em um email de &quot;Boas-vindas&quot; da Adobe Dynamic Media Classic ou do administrador do Adobe Dynamic Media Classic. Na primeira vez que fizer logon, você será solicitado a alterar essa senha temporária.
 
 1. Abra o aplicativo de desktop do Adobe Dynamic Media Classic.
 

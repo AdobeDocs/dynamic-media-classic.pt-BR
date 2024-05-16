@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 0%
@@ -101,15 +101,15 @@ As informações do usuário que você pode editar dependem da sua função como
 
 Você pode usar as seguintes técnicas de filtragem de lista de usuários:
 
-* **Filtrar por grupo** - Selecione o **[!UICONTROL By Group]** e escolha uma opção para restringir a lista a usuários em um grupo.
+* **Filtrar por grupo**: selecione a variável **[!UICONTROL By Group]** e escolha uma opção para restringir a lista a usuários em um grupo.
 
-* **Filtrar por função de usuário** - Selecione o **[!UICONTROL By User Role]** e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
+* **Filtrar por função de usuário**: selecione a variável **[!UICONTROL By User Role]** e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
 
-* **Filtrar por nome de campo** - Selecionar **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o **[!UICONTROL By Field Name]** , escolha uma coluna para filtrar a lista, selecione o menu Filtrar Caractere e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Para ver a lista completa, desmarque a opção **[!UICONTROL Enable Filter By Field]** opção.
+* **Filtrar por nome de campo**: Selecionar **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o **[!UICONTROL By Field Name]** , escolha uma coluna para filtrar a lista, selecione o menu Filtrar Caractere e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Para ver a lista completa, desmarque a opção **[!UICONTROL Enable Filter By Field]** opção.
 
-* **Filtrar usuários inválidos** - Desmarcar **[!UICONTROL Include Invalid]**. Os resultados da pesquisa exibem apenas os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
+* **Filtrar usuários inválidos**: Desmarcar **[!UICONTROL Include Invalid]**. Os resultados da pesquisa exibem apenas os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
 
-* **Classificar por cabeçalho de coluna** - Selecione um cabeçalho para classificar todos os usuários por seu status, em ordem alfabética, por nome, sobrenome ou email, por função de usuário ou por status válido/inválido.
+* **Classificar por cabeçalho de coluna**: selecione um cabeçalho para classificar todos os usuários por seu status, em ordem alfabética, por nome, sobrenome ou email, por função de usuário ou por status válido/inválido.
 
 Se você tiver muitos usuários, poderá limitar o tamanho da lista selecionando o menu Tamanho Máximo da Lista e escolhendo um número.
 
@@ -162,17 +162,17 @@ A tabela a seguir descreve os relatórios que podem ser gerados a partir da pág
 
 O relatório Conteúdo da imagem fornece informações sobre solicitações dos seguintes tipos de imagem:
 
-* **Solicitação de imagem** - Solicitações de imagens.
+* **Solicitação de imagem**: solicitações de imagens.
 
-* **Solicitação de miniatura** - Solicitações de amostra ou imagens alternativas em visualizadores.
+* **Solicitação de miniatura**: solicitações de amostra ou imagens alternativas em visualizadores.
 
-* **Solicitação de máscara** - Solicitações de imagens que retornam máscaras de escala de cinza.
+* **Solicitação de máscara**: solicitações de imagens que retornam máscaras de escala de cinza.
 
-* **Solicitação de mosaico do visualizador** - Solicitações de imagem carregadas por um visualizador.
+* **Solicitação de mosaico do visualizador**: solicitações de imagem carregadas por um visualizador.
 
-* **Solicitação de objeto Vnt** - Solicitações de renderização de imagem que retornam uma imagem com objetos especificados nas vinhetas solicitadas.
+* **Solicitação de objeto Vnt**: solicitações de renderização de imagem que retornam uma imagem com objetos especificados nas vinhetas solicitadas.
 
-* **Solicitação De Informações De Vnt** - Pedidos de processamento de imagens que retornam informações sobre as vinhetas solicitadas.
+* **Solicitação De Informações De Vnt**: Solicitações de renderização de imagem que retornam informações sobre as vinhetas solicitadas.
 
 >[!NOTE]
 >
@@ -192,27 +192,27 @@ Para gerar um relatório de largura de banda, armazenamento, conteúdo de imagem
 
 Depois de gerar um relatório na página Largura de banda e armazenamento, você pode escolher opções para visualizar informações. Você pode escolher como as informações são apresentadas, exibir as informações em um gráfico ou grade de dados e especificar um período para capturar as informações. Na Visualização de dados, também é possível classificar informações e reorganizar colunas.
 
-* **Exibir dados em um gráfico ou grade de dados** - Selecionar **[!UICONTROL Chart View]** para ver dados em um gráfico; selecione **[!UICONTROL Data View]** para exibir dados em uma grade de dados.
+* **Exibir dados em um gráfico ou grade de dados**: Selecionar **[!UICONTROL Chart View]** para ver dados em um gráfico; selecione **[!UICONTROL Data View]** para exibir dados em uma grade de dados.
 
-* **Escolher um tipo de apresentação de relatório** - No menu Tipo de relatório, selecione **[!UICONTROL Summary]**, **[!UICONTROL Daily]** ou **[!UICONTROL Monthly]** para organizar os dados de forma resumida, por dia ou por mês. Nem todos os relatórios fornecem essa opção.
+* **Escolher um tipo de apresentação de relatório**: No menu Tipo de relatório, selecione **[!UICONTROL Summary]**, **[!UICONTROL Daily]** ou **[!UICONTROL Monthly]** para organizar os dados de forma resumida, por dia ou por mês. Nem todos os relatórios fornecem essa opção.
 
-* **Especificar um período** - Escolha opções para definir um período de tempo para o relatório e selecione **[!UICONTROL Update]** após definir um período de tempo:
+* **Especificar um período**: escolha as opções para definir um período para o relatório e selecione **[!UICONTROL Update]** após definir um período de tempo:
 
-* **Período predefinido** - No menu Relatório predefinido, escolha uma opção. Por exemplo, escolha Último mês para capturar dados do mês anterior.
+* **Período predefinido**: no menu Relatório predefinido, escolha uma opção. Por exemplo, escolha Último mês para capturar dados do mês anterior.
 
-* **Período personalizado** - No menu Relatório predefinido, selecione **[!UICONTROL Custom]**. Escolha uma data no campo **[!UICONTROL Start Month]** (ou **[!UICONTROL Start Date]**) e uma data no menu # de meses (ou # ou dias). Para relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e término específica para capturar informações de relatório.
+* **Período personalizado**: No menu Relatório predefinido, selecione **[!UICONTROL Custom]**. Escolha uma data no campo **[!UICONTROL Start Month]** (ou **[!UICONTROL Start Date]**) e uma data no menu # de meses (ou # ou dias). Para relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e término específica para capturar informações de relatório.
 
-* **Classificar dados (somente visualização de dados)** - Para classificar informações em uma coluna, selecione o cabeçalho da coluna. Selecione novamente para classificar em ordem decrescente.
+* **Classificar dados (somente visualização de dados)**: para classificar as informações em uma coluna, selecione o cabeçalho da coluna. Selecione novamente para classificar em ordem decrescente.
 
-* **Reorganizar colunas (somente visualização de dados)** - Para mover uma coluna para um local diferente na grade de dados, arraste seu cabeçalho.
+* **Reorganizar colunas (somente visualização de dados)**: Para mover uma coluna para um local diferente na grade de dados, arraste o cabeçalho.
 
 ### Exportar e imprimir relatórios {#exporting-and-printing-reports}
 
 Após gerar um relatório, você pode exportar seus dados para uso em planilhas e outros aplicativos. Você também pode imprimir relatórios.
 
-* **Exportar dados do relatório** - Na Visualização de dados, classifique e organize os dados conforme necessário. Em seguida, abra o **[!UICONTROL Export]** e escolha um formato: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]** ou **[!UICONTROL HTML Formatted]**. Os dados são copiados para a Área de transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
+* **Exportar dados do relatório**: Na Visualização de dados, classifique e organize os dados conforme necessário. Em seguida, abra o **[!UICONTROL Export]** e escolha um formato: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]** ou **[!UICONTROL HTML Formatted]**. Os dados são copiados para a Área de transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
 
-* **Imprimir um relatório** - Selecionar **[!UICONTROL Print]**, escolha as opções desejadas na caixa de diálogo Imprimir e selecione **[!UICONTROL OK]**.
+* **Imprimir um relatório**: Selecionar **[!UICONTROL Print]**, escolha as opções desejadas na caixa de diálogo Imprimir e selecione **[!UICONTROL OK]**.
 
 ## Erros de imagem {#image-errors}
 
@@ -230,16 +230,16 @@ Os administradores do Adobe Dynamic Media Classic podem gerar relatórios de err
 
 Os erros exibidos são para a empresa na qual você está conectado no momento. Cada erro inclui as seguintes informações:
 
-* **ID da imagem** - ID da imagem incorreta.
+* **ID da imagem**: ID da imagem incorreta.
 
-* **Hora** - O intervalo de tempo entre a primeira vez que o erro foi relatado e a última vez que o erro foi relatado, nas últimas 24 horas.
+* **Hora**: O intervalo da primeira vez que o erro foi relatado até a última vez que o erro foi relatado, nas últimas 24 horas.
 
-* **Contagem** - O número de erros relatados na imagem.
+* **Contagem**: o número de erros relatados na imagem.
 
-* **Resposta** - A mensagem de erro específica. Os erros são 4xx ou 5xx.
+* **Resposta**: a mensagem de erro específica. Os erros são 4xx ou 5xx.
 
-* **URLs** - Lista o URL para a imagem no Adobe Dynamic Media Classic.
+* **URLs**: lista o URL para a imagem no Adobe Dynamic Media Classic.
 
-* **Referenciador** - Especifica a URL do site de onde a solicitação inicial veio. O referenciador pode ser qualquer site da Web que tenha um link para a imagem.
+* **Referenciador**: especifica o URL do site de onde a solicitação inicial veio. O referenciador pode ser qualquer site da Web que tenha um link para a imagem.
 
 As colunas URL e Referenciador têm URL de cópia associado a elas para simplificar os testes.

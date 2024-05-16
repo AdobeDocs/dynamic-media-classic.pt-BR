@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -45,24 +45,24 @@ Você pode alterar o nome da ID de uma fonte e suas informações de tipo. A edi
 
 No Painel de navegação, selecione o arquivo de fonte que deseja editar na Exibição de detalhes e escolha Arquivo > Editar informações. A tela Editar informações é aberta. Escolha as seguintes opções e selecione **[!UICONTROL Submit]**.
 
-* **[!UICONTROL Font Name]** - Esse nome identifica a fonte quando ela é publicada.
+* **[!UICONTROL Font Name]**: Esse nome identifica a fonte quando ela é publicada.
 
-* **[!UICONTROL PostScript Name]** - Esse é o nome PostScript completo da fonte. Normalmente, indica o peso ou estilo.
+* **[!UICONTROL PostScript Name]**: esse é o nome PostScript completo da fonte. Normalmente, indica o peso ou estilo.
 
-* **[!UICONTROL RTF Name]** - Esse nome aparece em um menu pop-up no editor RTF, onde as camadas de texto do modelo são criadas.
+* **[!UICONTROL RTF Name]**: esse nome aparece em um menu pop-up no editor RTF, onde as camadas de texto do modelo são criadas.
 
-* **[!UICONTROL Font Family Name]** - Esse nome lista o nome da fonte sem o estilo, peso ou indicador de tipo de fonte.
+* **[!UICONTROL Font Family Name]**: esse nome lista o nome da fonte sem o estilo, a espessura ou o indicador de tipo de fonte.
 
-* **[!UICONTROL Font Style]** - As opções são Plain (Comum), Bold (Negrito), Italic (Itálico) e Bold-Italic (Negrito-Itálico).
+* **[!UICONTROL Font Style]**: As opções são Simples, Negrito, Itálico e Negrito-Itálico.
 
-* **[!UICONTROL Font Type]** - As opções são TrueType e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
+* **[!UICONTROL Font Type]**: as opções são TrueType e Adobe Type 1. Se você chamar essas fontes por outro nome, poderá inseri-las.
 
-* **[!UICONTROL Font Type Abbreviation]** - As opções são as seguintes:
+* **[!UICONTROL Font Type Abbreviation]**: As opções são as seguintes:
 
-   * **[!UICONTROL TTF]** - Arquivos de fontes TrueType usados para renderização de PDF/PostScript e fornecimento de imagens.
+   * **[!UICONTROL TTF]**: arquivos de fonte TrueType usados para renderização de PDF/PostScript e veiculação de imagens.
 
-   * **[!UICONTROL AFM]** - Arquivos de fontes do Adobe PostScript que contêm informações de Métricas de fontes do Adobe e são usados para veiculação de imagens.
+   * **[!UICONTROL AFM]**: arquivos de fontes do Adobe PostScript que contêm informações de Métricas de fontes do Adobe e são usados para veiculação de imagens.
 
-   * **[!UICONTROL PFM]** - Arquivos de fontes do Adobe PostScript que contêm informações de métricas de fontes binárias.
+   * **[!UICONTROL PFM]**: arquivos de fontes do Adobe PostScript que contêm informações de métricas de fontes binárias.
 
-   * **[!UICONTROL PFB]** - Arquivos de fontes Adobe PostScript que contêm informações binárias de contorno de fontes e são usados para renderização de PDF/PostScript e fornecimento de imagens.
+   * **[!UICONTROL PFB]**: arquivos de fonte Adobe PostScript que contêm informações de contorno de fonte binária e são usados para renderização PDF/PostScript e veiculação de imagens.

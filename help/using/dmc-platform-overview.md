@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -27,13 +27,13 @@ Consulte também [Visão geral da plataforma](https://s7d5.scene7.com/s7viewers/
 
 As principais etapas do fluxo de trabalho do Adobe Dynamic Media Classic são:
 
-* **Fazer upload e gerenciar ativos** - Faça upload dos ativos de mídia para o Adobe Dynamic Media Classic. Você pode organizar, procurar e procurar ativos no sistema. Também é possível aplicar metadados a ativos.
+* **Fazer upload e gerenciar ativos**: faça upload dos ativos de mídia para o Adobe Dynamic Media Classic. Você pode organizar, procurar e procurar ativos no sistema. Também é possível aplicar metadados a ativos.
 
-* **Criar mídia avançada** : crie configurações diferentes de seus ativos, como eCatalogs, Conjuntos de imagens, Conjuntos de rotação, Conjuntos de amostras, Conjuntos de mídia mista, Modelos básicos e Modelos FXG.
+* **Criar mídia avançada**: crie configurações diferentes de seus ativos, como eCatalogs, Conjuntos de imagens, Conjuntos de rotação, Conjuntos de amostras, Conjuntos de mídia mista, Modelos básicos e Modelos FXG.
 
-* **Publicar e administrar** - Publicar ativos na rede SaaS da Adobe Dynamic Media Classic. Monitorar o status de ativos quando eles são publicados. Administre os direitos do usuário e mantenha a segurança.
+* **Publicar e administrar**: publique ativos na rede SaaS do Adobe Dynamic Media Classic. Monitorar o status de ativos quando eles são publicados. Administre os direitos do usuário e mantenha a segurança.
 
-* **Atendimento** : forneça mídia da rede SaaS da Adobe Dynamic Media Classic para páginas da Web, aplicativos e dispositivos móveis; as mídias têm desempenho otimizado e são fornecidas com armazenamento em cache de CDN. A Adobe Dynamic Media Classic fornece um URL para cada ativo. Depois de publicar o ativo, o URL torna-se ativo.
+* **Atendimento**: forneça mídia da rede SaaS da Adobe Dynamic Media Classic para páginas da Web, aplicativos e dispositivos móveis; as mídias têm desempenho otimizado e são fornecidas com armazenamento em cache de CDN. A Adobe Dynamic Media Classic fornece um URL para cada ativo. Depois de publicar o ativo, o URL torna-se ativo.
 
 ![O processo de fluxo de trabalho Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
 

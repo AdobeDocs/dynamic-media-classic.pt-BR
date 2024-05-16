@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -70,8 +70,8 @@ Com o Adobe Dynamic Media Classic, você pode ajustar a nitidez de imagens na as
 
 Há dois métodos de nitidez de imagem que podem ser usados:
 
-* Nitidez simples ( `&op_sharpen`) - Semelhante ao filtro de nitidez usado no Photoshop, a nitidez simples aplica a nitidez básica à exibição final da imagem após o redimensionamento dinâmico. No entanto, esse método não é configurável pelo usuário. A prática recomendada é evitar a utilização de `&op_sharpen` a menos que seja necessário.
-* Mascaramento sem nitidez ( `&op_USM`) - A máscara sem nitidez é um filtro padrão do setor para nitidez. A prática recomendada é tornar mais nítidas as imagens com mascaramento sem nitidez, seguindo as diretrizes abaixo. O mascaramento sem nitidez permite controlar os três parâmetros a seguir:
+* Nitidez simples ( `&op_sharpen`): Semelhante ao filtro de nitidez usado no Photoshop, a nitidez simples aplica a nitidez básica à exibição final da imagem após o redimensionamento dinâmico. No entanto, esse método não é configurável pelo usuário. A prática recomendada é evitar a utilização de `&op_sharpen` a menos que seja necessário.
+* Mascaramento sem nitidez ( `&op_USM`): Tirar nitidez da máscara é um filtro padrão do setor para nitidez. A prática recomendada é tornar mais nítidas as imagens com mascaramento sem nitidez, seguindo as diretrizes abaixo. O mascaramento sem nitidez permite controlar os três parâmetros a seguir:
 
    * `&op_sharpen=amount,radius,threshold`
 
@@ -136,5 +136,5 @@ Se os resultados da nitidez ainda não forem satisfatórios, aumente o raio em i
 À medida que você experimenta, as seguintes sugestões gerais são úteis para otimizar seu fluxo de trabalho:
 
 * Experimente e teste diferentes parâmetros em tempo real, diretamente em um URL ou usando a funcionalidade de ajuste de imagem do Adobe Dynamic Media Classic. Este último fornece pré-visualizações em tempo real para operações de ajuste.
-* Como prática recomendada, lembre-se de que é possível agrupar comandos do Servidor de imagens do Dynamic Media em uma predefinição de imagem. Uma predefinição de imagem consiste basicamente em macros de comando de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome da predefinição personalizada em um caminho de URL chama essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no site e reduz o comprimento geral dos URLs.
+* Como prática recomendada, lembre-se de que é possível agrupar comandos do Servidor de imagens do Dynamic Media em uma Predefinição de imagem. Basicamente, uma predefinição de imagem consiste em macros de comando de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome da predefinição personalizada em um caminho de URL chama essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no site e reduz o comprimento geral dos URLs.
 * O Adobe Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar nitidez de imagem na assimilação. Para casos de uso avançados em que o ajuste e a otimização adicionais de resultados renderizados são uma opção, o Adobe Professional Services pode ajudá-lo com insights e práticas recomendadas personalizadas.

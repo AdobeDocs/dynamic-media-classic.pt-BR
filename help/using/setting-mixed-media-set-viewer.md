@@ -10,7 +10,7 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
 
    A nova predefinição do visualizador é exibida na lista.
 
-1. Repita as etapas de 6 a 9 para todas as predefinições do visualizador que você deseja adicionar.
+1. Repita as etapas 6: 9 para todas as predefinições do visualizador que você deseja adicionar.
 1. Para editar a lista predefinida, siga um destes procedimentos:
 
    * Para excluir uma predefinição da lista, selecione-a e **[!UICONTROL Delete]**.
@@ -52,13 +52,13 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
 
 1. Para adicionar recursos da comunidade (Incorporar, Link, Visita) ao visualizador, especifique opções para qualquer um dos seguintes itens:
 
-   * **E-mail** - Selecionar **[!UICONTROL On]** para ativar um botão Email no visualizador. Quando os usuários selecionam o botão Email ao visualizar o conjunto, um email contendo o link para o conjunto é aberto.
+   * **E-mail**: Selecionar **[!UICONTROL On]** para ativar um botão Email no visualizador. Quando os usuários selecionam o botão Email ao visualizar o conjunto, um email contendo o link para o conjunto é aberto.
 
-   * **Incorporar** - Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão Incorporar, digite o nome que deseja exibir no visualizador do botão Incorporar. Se desejar, selecione **[!UICONTROL Browse]** para localizar e selecionar uma capa personalizada para o botão.
+   * **Incorporar**: Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão Incorporar, digite o nome que deseja exibir no visualizador do botão Incorporar. Se desejar, selecione **[!UICONTROL Browse]** para localizar e selecionar uma capa personalizada para o botão.
 
-   * **Link** - Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão de link, digite o nome que deseja exibir no visualizador do botão Link. Se desejar, selecione **[!UICONTROL Browse]** para localizar e selecionar uma capa personalizada para o botão.
+   * **Link**: Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão de link, digite o nome que deseja exibir no visualizador do botão Link. Se desejar, selecione **[!UICONTROL Browse]** para localizar e selecionar uma capa personalizada para o botão.
 
-   * **Visita** - Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão de visita, digite o nome que deseja exibir no visualizador do botão de visita. Na caixa URL da visita, digite o URL do site que você deseja abrir quando o link for selecionado.
+   * **Visita**: Selecionar **[!UICONTROL Live]**. Na caixa Rótulo do botão de visita, digite o nome que deseja exibir no visualizador do botão de visita. Na caixa URL da visita, digite o URL do site que você deseja abrir quando o link for selecionado.
 
 1. Especifique outras opções, conforme desejado. Para ver uma descrição de uma opção, selecione o ícone Dica de informações ao lado da opção.
 

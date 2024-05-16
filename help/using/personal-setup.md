@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -33,8 +33,8 @@ Identifica o nome da conta, o nome, o nome de usuário (endereço de email) e a 
 
 ## Desktop
 
-* **Limpar cache de imagem** - Remove todos os arquivos de imagem em cache do Adobe Dynamic Media do computador.
-* **Limpar cache de ativos** - Remove todos os arquivos de ativos de caches Adobe Dynamic Media do computador.
+* **Limpar cache de imagem**: remove todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador.
+* **Limpar cache de ativos**: remove todos os arquivos de ativos dos caches Adobe Dynamic Media do seu computador.
 
 Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos. Com base no seu sistema operacional, navegue até o seguinte:
 
@@ -72,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Navegador
 
-* **[!UICONTROL Thumbnail Size]** - Determina o tamanho padrão das imagens em miniatura no Modo de exibição de grade no Painel de navegação.
-* **[!UICONTROL Default Asset Library View]** - Determina se os ativos na Biblioteca de ativos para conjuntos de builds aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, se estiver criando um eCatalog grande com muitos arquivos PDF, você pode visualizar os ativos por nome para encurtar a lista.
-* **[!UICONTROL Default Browse Sort Order]** - Determina a ordem em que os ativos aparecem por padrão no Painel de navegação. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
-* **[!UICONTROL Default Browse Location]** - Permite definir o local de navegação como padrão, a última pasta pesquisada ou um local específico para o qual você navega e identifica. Você também pode definir o local de navegação para classificar os arquivos e pastas em ordem crescente ou decrescente.
-* **[!UICONTROL Default Browse View]** - Determina se a exibição em grade ou em lista é a exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.
-* **[!UICONTROL Splash Screen Display]** - Determina se você verá alguma tela inicial, incluindo a tela inicial de boas-vindas.
-* **[!UICONTROL Show ToolTips]** - Determina se as dicas de ferramentas aparecem quando você move o ponteiro sobre botões, menus e links de navegação. As dicas de ferramentas descrevem itens da interface do usuário na tela.
-* **[!UICONTROL Checkerboard Background]** - Exibe uma camada xadrez atrás das imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
-* **[!UICONTROL Show File Size]** - Exibe o tamanho do arquivo de um ativo quando você está navegando.
-* **[!UICONTROL Include UDFs in Search]** - Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados executadas, desmarcada (padrão).
+* **[!UICONTROL Thumbnail Size]**: determina o tamanho padrão das imagens em miniatura no Modo de exibição de grade no Painel de navegação.
+* **[!UICONTROL Default Asset Library View]**: determina se os ativos na Biblioteca de ativos para conjuntos de builds aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, se estiver criando um eCatalog grande com muitos arquivos PDF, você pode visualizar os ativos por nome para encurtar a lista.
+* **[!UICONTROL Default Browse Sort Order]**: determina a ordem em que os ativos aparecem por padrão no Painel de navegação. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
+* **[!UICONTROL Default Browse Location]**: permite definir o local de navegação como padrão, a última pasta pesquisada ou um local específico para o qual você navega e identifica. Você também pode definir o local de navegação para classificar os arquivos e pastas em ordem crescente ou decrescente.
+* **[!UICONTROL Default Browse View]**: determina se a Exibição em grade ou em lista é a exibição padrão exibida ao abrir o painel Procurar pela primeira vez.
+* **[!UICONTROL Splash Screen Display]**: determina se você verá alguma tela inicial, incluindo a tela inicial de boas-vindas.
+* **[!UICONTROL Show ToolTips]**: determina se as dicas de ferramentas aparecem ao mover o ponteiro sobre botões, menus e links de navegação. As dicas de ferramentas descrevem itens da interface do usuário na tela.
+* **[!UICONTROL Checkerboard Background]**: exibe uma camada xadrez atrás das imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
+* **[!UICONTROL Show File Size]**: exibe o tamanho do arquivo de um ativo quando você está navegando.
+* **[!UICONTROL Include UDFs in Search]**: Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados executadas, desmarque (padrão).
 
   Se a maioria das pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, é possível selecionar essa opção para ativá-la. Como alternativa, use a Pesquisa avançada para oferecer uma experiência de pesquisa mais direcionada e rápida do que a inclusão de campos definidos pelo usuário.
 
@@ -89,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
   Consulte também [Campos definidos pelo usuário](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Basic Search Type]** - É possível selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a string inteira para o valor especificado; **[!UICONTROL StartsWith]** pesquisa desde o início da string e retorna resultados mais rapidamente do que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
-* **[!UICONTROL Show Command Feedback]** - Selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desativar.
-* **[!UICONTROL Show Dialog During Export]** - Selecione para mostrar uma caixa de diálogo pop-up durante uma exportação. Se você desmarcar (desativar) essa opção, ainda poderá ir para a página Trabalhos para recuperar os resultados da exportação.
+* **[!UICONTROL Basic Search Type]**: é possível selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a string inteira para o valor especificado; **[!UICONTROL StartsWith]** pesquisa desde o início da string e retorna resultados mais rapidamente do que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
+* **[!UICONTROL Show Command Feedback]**: selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desativar.
+* **[!UICONTROL Show Dialog During Export]**: selecione para mostrar uma caixa de diálogo pop-up durante uma exportação. Se você desmarcar (desativar) essa opção, ainda poderá ir para a página Trabalhos para recuperar os resultados da exportação.
 
 ## E-mail
 
-* **[!UICONTROL Email Options]** - Escolha como você deseja que o Adobe Dynamic Media Classic informe você por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de tarefas somente se ocorrerem avisos ou erros.
-* **[!UICONTROL Email Scope]** - Determina se você recebe todos os e-mails de trabalho da sua empresa ou somente e-mails sobre os trabalhos de upload e publicação iniciados.
-* **[!UICONTROL Email Types]** - Determina se você será informado quando os trabalhos de upload e de publicação forem concluídos.
+* **[!UICONTROL Email Options]**: escolha como você deseja que o Adobe Dynamic Media Classic informe você por email quando os trabalhos de upload e publicação forem concluídos. Você pode receber avisos de conclusão de tarefas somente se ocorrerem avisos ou erros.
+* **[!UICONTROL Email Scope]**: determina se você recebe todos os e-mails de job da sua empresa ou apenas e-mails sobre os jobs de upload e publicação que você iniciou.
+* **[!UICONTROL Email Types]**: determina se você será informado quando os trabalhos de upload e os trabalhos de publicação forem concluídos.
 
 ## Idioma
 
-* **[!UICONTROL Preferred Language]** - Determina o idioma que você deseja usar para a interface.
+* **[!UICONTROL Preferred Language]**: determina o idioma que você deseja usar para a interface.
 
 ## Senha
 
-* **[!UICONTROL Current Password]** - Digite a senha da sua senha atual.
-* **[!UICONTROL New Password]** - Digite uma senha nova e válida. Sua senha deve atender aos seguintes requisitos:
+* **[!UICONTROL Current Password]**: digite a senha atual.
+* **[!UICONTROL New Password]**: digite uma senha nova e válida. Sua senha deve atender aos seguintes requisitos:
    * Ter entre 8 e 25 caracteres.
    * Contêm pelo menos uma letra minúscula.
    * Contêm pelo menos uma letra maiúscula.
    * Ter pelo menos um número.
-   * Conter pelo menos um dos seguintes caracteres especiais: `# $ & - _ : { }`
-* **[!UICONTROL Re-Type Password]** - Digite novamente a nova senha para confirmar que você a está digitando corretamente.
-* **[!UICONTROL Password Expiration]** - Determina se a senha expira após 72 dias como uma medida de segurança. Se você selecionou Sim, será solicitado que você crie uma senha após 72 dias.
+   * Conter pelo menos um dos seguintes caracteres especiais: `# $ &: _ : { }`
+* **[!UICONTROL Re-Type Password]**: digite novamente a nova senha para confirmar que você a está inserindo corretamente.
+* **[!UICONTROL Password Expiration]**: determina se a senha expira após 72 dias como uma medida de segurança. Se você selecionou Sim, será solicitado que você crie uma senha após 72 dias.

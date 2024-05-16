@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -23,21 +23,21 @@ As configurações de estilo do Portal de mídia permitem que você marque a tel
 
 Para acessar as configurações de estilo, vá para **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]**. Certifique-se de selecionar **[!UICONTROL Save]** para salvar suas configurações depois de criá-las. É possível selecionar **[!UICONTROL Restore]** para retornar às configurações padrão. À medida que você faz suas escolhas, o painel Visualização mostra como elas são exibidas.
 
-* **[!UICONTROL Logo]** - Selecionar **[!UICONTROL Browse]** e escolha um gráfico na janela Selecionar imagem de logotipo.
+* **[!UICONTROL Logo]**: Selecionar **[!UICONTROL Browse]** e escolha um gráfico na janela Selecionar imagem de logotipo.
 
-* **[!UICONTROL Application]** - Crie uma mistura de cores de gradiente fazendo escolhas nos menus do painel Cores de gradiente de fundo.
+* **[!UICONTROL Application]**: crie uma mistura de cores de gradiente fazendo escolhas nos menus das Cores de gradiente de plano de fundo.
 
-* **[!UICONTROL Tree]** - Escolha uma cor de rolagem (a cor que aparece ao mover o ponteiro sobre um item) e a cor de seleção (a cor que aparece ao selecionar um item).
+* **[!UICONTROL Tree]**: escolha uma cor de rolagem (a cor que aparece quando você move o ponteiro sobre um item) e a cor de seleção (a cor que aparece quando você seleciona um item).
 
-* **[!UICONTROL Accordion]** - Escolha cores de plano de fundo, um estilo de borda, sobreposição e cores selecionadas para o acordeão exibido no lado direito da tela na exibição de Detalhes.
+* **[!UICONTROL Accordion]**: escolha as cores do plano de fundo, um estilo de borda, a sobreposição e as cores selecionadas para o acordeão exibido no lado direito da tela na exibição de Detalhes.
 
-* **[!UICONTROL Accordion Header]** - Escolha se deseja criar texto em negrito no cabeçalho do acordeão.
+* **[!UICONTROL Accordion Header]**: escolha se o texto deve ficar em negrito no cabeçalho do acordeão.
 
-* **[!UICONTROL Datagrid]** - Escolher cores para a linha de cabeçalho nas grades de dados.
+* **[!UICONTROL Datagrid]**: escolha as cores para a linha de cabeçalho nas grades de dados.
 
-* **[!UICONTROL Alert]** - Escolha uma cor de fundo para as caixas de mensagem de alerta.
+* **[!UICONTROL Alert]**: Escolha uma cor de fundo para as caixas de mensagem de alerta.
 
-* **[!UICONTROL Progress Bar]** - Escolha uma cor para a barra que indica o progresso dos uploads e downloads.
+* **[!UICONTROL Progress Bar]**: escolha uma cor para a barra que indica o progresso dos uploads e downloads.
 
 Para que os usuários do Media Portal vejam as configurações de estilo escolhidas, eles devem anexar `?company=(company name)` ao URL com o qual acessam o Media Portal. Por exemplo, para ver as configurações de estilo, os usuários do Portal de mídia que acessam a empresa PortalCo no seguinte endereço:
 

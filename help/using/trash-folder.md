@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -53,9 +53,9 @@ Ao excluir ativos na pasta Lixeira, os ativos são excluídos permanentemente. O
 
 Para excluir permanentemente os ativos da pasta Lixeira, selecione a **[!UICONTROL Trash]** ícone. Na página da pasta Lixeira, siga um destes procedimentos:
 
-* **Exclusão de ativos individuais** - Selecione os ativos que deseja excluir permanentemente e vá para **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
+* **Exclusão de ativos individuais**: selecione os ativos que deseja excluir permanentemente e vá para **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
 
-* **Excluindo todos os ativos** - Vá para **[!UICONTROL File]** > **[!UICONTROL Empty trash]**.
+* **Excluindo todos os ativos**: Vá para **[!UICONTROL File]** > **[!UICONTROL Empty trash]**.
 
 >[!MORELIKETHIS]
 >

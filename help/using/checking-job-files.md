@@ -10,7 +10,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 0%
@@ -33,25 +33,25 @@ Selecionar **[!UICONTROL Jobs]** na barra Navegação global, para que a página
 
 Os jobs são listados nestas categorias na guia Histórico da página Jobs:
 
-* **[!UICONTROL Job Type]** - Um ícone indica o tipo de trabalho: Upload e Publish são os tipos mais comuns de trabalho.
+* **[!UICONTROL Job Type]**: um ícone indica o tipo de trabalho: Upload e Publish são os tipos de trabalho mais comuns.
 
-* **[!UICONTROL Job Name]** - O nome do trabalho. O nome inclui a parte inserida pelo usuário do nome e a data e hora.
+* **[!UICONTROL Job Name]**: o nome da tarefa. O nome inclui a parte inserida pelo usuário do nome e a data e hora.
 
-* **[!UICONTROL Started]** - Quando o trabalho começou.
+* **[!UICONTROL Started]**: quando o trabalho foi iniciado.
 
-* **[!UICONTROL Total]** - O número de arquivos transferidos.
+* **[!UICONTROL Total]**: o número de arquivos transferidos.
 
-* **[!UICONTROL W (warnings)]** - O número de avisos na tarefa (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Por exemplo, `.DS_store` arquivos (Mac) e arquivos thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem para os usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas, pois não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
+* **[!UICONTROL W (warnings)]**: o número de avisos no trabalho (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Por exemplo, `.DS_store` arquivos (Mac) e arquivos thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem para os usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas, pois não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
 
-* **[!UICONTROL E (errors)]** - Lista o número de erros na tarefa (se houver). Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre erros.
+* **[!UICONTROL E (errors)]**: lista o número de erros no trabalho (se houver). Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre erros.
 
-* **[!UICONTROL Duration]** - Quanto tempo levou para completar o trabalho.
+* **[!UICONTROL Duration]**: Quanto tempo levou para concluir o trabalho.
 
-* **[!UICONTROL Status]** - Mostra o status do trabalho.
+* **[!UICONTROL Status]**: mostra o status do trabalho.
 
-* **[!UICONTROL Destination]** - Para trabalhos de upload, o nome da empresa e a pasta na qual os arquivos foram carregados. Esta categoria não se aplica a trabalhos de publicação.
+* **[!UICONTROL Destination]**: para trabalhos de upload, o nome da empresa e a pasta na qual os arquivos foram carregados. Esta categoria não se aplica a trabalhos de publicação.
 
-* **[!UICONTROL Submitted By]** - Lista quem carregou os ativos.
+* **[!UICONTROL Submitted By]**: lista quem carregou os ativos.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ Os jobs são listados nestas categorias na guia Histórico da página Jobs:
 
 Use essas técnicas para classificar jobs ou alterar a exibição da guia Histórico da página Jobs:
 
-* **[!UICONTROL Sorting]** - Selecione um nome de coluna para classificar a lista por uma coluna específica. Você pode selecionar a opção ao lado do nome da coluna para classificar em ordem decrescente ou crescente.
+* **[!UICONTROL Sorting]**: selecione um nome de coluna para classificar a lista por uma coluna específica. Você pode selecionar a opção ao lado do nome da coluna para classificar em ordem decrescente ou crescente.
 
-* **[!UICONTROL Date Range]** - Selecione o **[!UICONTROL Date Range]** e escolha uma opção para limitar a lista de tarefas à data atual, à semana anterior ou ao mês anterior. Selecionar **[!UICONTROL Custom Date Range]**, em seguida, insira um intervalo de datas específico.
+* **[!UICONTROL Date Range]**: selecione a variável **[!UICONTROL Date Range]** e escolha uma opção para limitar a lista de tarefas à data atual, à semana anterior ou ao mês anterior. Selecionar **[!UICONTROL Custom Date Range]**, em seguida, insira um intervalo de datas específico.
 
-* **[!UICONTROL Job Type]** - Selecione o **[!UICONTROL Job Type]** e escolha **[!UICONTROL Publish]** ou **[!UICONTROL Upload]** para restringir a lista para publicar trabalhos ou fazer upload de trabalhos. Selecionar **[!UICONTROL All]** para ver ambos os tipos de jobs.
+* **[!UICONTROL Job Type]**: selecione a variável **[!UICONTROL Job Type]** e escolha **[!UICONTROL Publish]** ou **[!UICONTROL Upload]** para restringir a lista para publicar trabalhos ou fazer upload de trabalhos. Selecionar **[!UICONTROL All]** para ver ambos os tipos de jobs.
 
-* **[!UICONTROL Show]** - Vá para **[!UICONTROL Show]** > **[!UICONTROL My Jobs]** ou **[!UICONTROL Show]** > **[!UICONTROL All Jobs]** para restringir a lista a trabalhos solicitados por você ou trabalhos solicitados por pessoas em sua empresa.
+* **[!UICONTROL Show]**: Vá para **[!UICONTROL Show]** > **[!UICONTROL My Jobs]** ou **[!UICONTROL Show]** > **[!UICONTROL All Jobs]** para restringir a lista a trabalhos solicitados por você ou trabalhos solicitados por pessoas em sua empresa.
 
 ## Exibir, copiar ou imprimir um relatório de Detalhes do trabalho {#viewing-copying-or-printing-a-job-details-report}
 
@@ -93,13 +93,13 @@ Selecione o botão Trabalhos na barra Navegação global e, na página Trabalhos
 
 Selecione uma tarefa recorrente na página Tarefas e siga estas instruções se desejar editá-la ou excluí-la:
 
-* **Editar uma tarefa recorrente** - Selecione o **[!UICONTROL Edit]** e especifique as informações de programação na caixa de diálogo Editar Job Programado. Se quiser que o job seja repetido em um intervalo de sua escolha, vá para **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**.
+* **Editar uma tarefa recorrente**: selecione a variável **[!UICONTROL Edit]** e especifique as informações de programação na caixa de diálogo Editar Job Programado. Se quiser que o job seja repetido em um intervalo de sua escolha, vá para **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**.
 
 Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento ou publicação](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-* **Exclusão de uma tarefa recorrente** - Selecione o **[!UICONTROL Delete]** botão.
+* **Exclusão de uma tarefa recorrente**: selecione a variável **[!UICONTROL Delete]** botão.
 
-* **Pausa (e retomada) de uma tarefa recorrente** - Na coluna Ativo, desmarque uma caixa de seleção para pausar um trabalho; marque uma caixa de seleção para retomar um trabalho que foi pausado.
+* **Pausa (e retomada) de uma tarefa recorrente**: na coluna Ativo, desmarque uma caixa de seleção para pausar um job; marque uma caixa de seleção para retomar um job que foi pausado.
 
 ### Criar um intervalo de tempo de trabalho personalizado de carregamento ou publicação {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -117,13 +117,13 @@ Esta tabela mostra os incrementos de tempo, seus valores permitidos e os curinga
 
 | Incrementos de tempo | Valores permitidos | Comentários | Caracteres curinga compatíveis |
 |--- |--- |--- |--- |
-| Segundos | 0-59 |  | `, - * /` |
-| Minutes | 0-59 |  | `, - * /` |
-| Horas | 0-23 | Observe o uso de um relógio de 24 horas. | `, - * /` |
-| Dia do mês | 1-31 | Você não pode especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um `?` caractere curinga. | `, - * / ? L C` |
-| Month | 1-12 ou Jan, Fev, Mar, Abr, maio, Jun, Jul, Ago, Set, Set, Out, Nov, Dez | Os valores diferenciam maiúsculas de minúsculas. | `, - * /` |
-| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Sol | Os valores diferenciam maiúsculas de minúsculas. Você não pode especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um `?` caractere curinga. | `, - * / ? L C #` |
-| Ano (opcional) | Vazio ou 1970-2099 |  | `, - * /` |
+| Segundos | 0-59 |  | `,: * /` |
+| Minutes | 0-59 |  | `,: * /` |
+| Horas | 0-23 | Observe o uso de um relógio de 24 horas. | `,: * /` |
+| Dia do mês | 1-31 | Você não pode especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um `?` caractere curinga. | `,: * / ? L C` |
+| Month | 1-12 ou Jan, Fev, Mar, Abr, maio, Jun, Jul, Ago, Set, Set, Out, Nov, Dez | Os valores diferenciam maiúsculas de minúsculas. | `,: * /` |
+| Dia da semana | Seg, Ter, Qua, Qui, Sex, Sáb, Sol | Os valores diferenciam maiúsculas de minúsculas. Você não pode especificar um valor numérico para &quot;dia do mês&quot; e &quot;dia da semana&quot;. Um desses campos deve usar um `?` caractere curinga. | `,: * / ? L C #` |
+| Ano (opcional) | Vazio ou 1970-2099 |  | `,: * /` |
 
 
 Esta tabela descreve os caracteres curingas permitidos na caixa Regra e como usá-los:

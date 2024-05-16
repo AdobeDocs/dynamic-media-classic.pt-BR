@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 0%
@@ -37,13 +37,13 @@ O Adobe Dynamic Media Classic oferece ferramentas para edição e criação de c
 
 Crie um conjunto de ofertas a partir dos seguintes tipos de conjuntos de ofertas:
 
-* **Imagens** - É possível montar imagens para um conjunto de ofertas. Cada imagem inclui uma oferta diferente no conjunto.
+* **Imagens**: é possível montar imagens para um conjunto de ofertas. Cada imagem inclui uma oferta diferente no conjunto.
 
-* **Modelo de imagem** - Você pode parametrizar modelos de imagem no Adobe Dynamic Media Classic com o **[!UICONTROL Build]** > Noções básicas do modelo. Por meio de parâmetros, os componentes do modelo — o texto em quadros de texto, as diferentes imagens — podem ser trocados e personalizados. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte [Criar parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
+* **Modelo de imagem**: é possível parametrizar modelos de imagem no Adobe Dynamic Media Classic com o **[!UICONTROL Build]** > Noções básicas do modelo. Por meio de parâmetros, os componentes do modelo — o texto em quadros de texto, as diferentes imagens — podem ser trocados e personalizados. Para um conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte [Criar parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
 
 Consulte também [Noções básicas de modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) vídeo de treinamento.
 
-* **Vídeo** - É possível montar vídeos para um conjunto de ofertas. Cada vídeo é uma oferta diferente no conjunto.
+* **Vídeo**: é possível montar vídeos para um conjunto de ofertas. Cada vídeo é uma oferta diferente no conjunto.
 
 ## Criar um conjunto de ofertas com um modelo com parâmetros {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -67,7 +67,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
    O lado esquerdo da página lista os parâmetros no modelo e seus valores.
 
-1. Altere os valores de parâmetro para criar a oferta. Por exemplo, insira texto diferente em um campo de texto, altere o tamanho de uma camada, troque uma imagem por outra ou escolha uma predefinição do visualizador diferente.
+1. Altere os valores de parâmetro para criar a oferta. Por exemplo, digite um texto diferente em um campo de texto, altere o tamanho de uma camada, troque uma imagem por outra ou escolha outra Predefinição do visualizador.
 1. Selecionar **[!UICONTROL Save]** ou **[!UICONTROL Save As**]** para salvar a oferta como parte do conjunto de ofertas.
 
    A página Conjunto de ofertas Test&amp;Target lista as ofertas que você criou.
@@ -93,9 +93,9 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 1. Monte imagens ou vídeos para o conjunto de ofertas. Comece na tela Conjunto de ofertas Test&amp;Target ou na Exibição em grade ou em lista e use um dos seguintes métodos:
 
-   * **Tela Conjunto de ofertas Test&amp;Target** - Vá para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar vídeos ou imagens de tamanhos variados, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
+   * **Tela Conjunto de ofertas Test&amp;Target**: Vá para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**. Arraste imagens ou vídeos para a tela. Para criar vídeos ou imagens de tamanhos variados, arraste várias cópias da imagem ou do vídeo e defina cada tamanho individualmente.
 
-   * **Exibição em grade ou em lista** - Selecione as imagens ou vídeos e vá para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
+   * **Exibição em grade ou em lista**: selecione as imagens ou os vídeos e vá para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
 
 1. Como opção, selecione uma imagem ou vídeo e **[!UICONTROL Preview]**. Na página Visualizar ofertas, é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no conjunto de ofertas.
 
@@ -127,10 +127,10 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 1. Para editar um conjunto de ofertas, exiba o conjunto de ofertas na Exibição de grade ou na Exibição de lista e selecione seu **[!UICONTROL Edit]** botão de rolagem.
 1. Na página Conjunto de ofertas Test&amp;Target, siga um destes procedimentos:
 
-   * **Remoção de uma oferta** - Selecione a oferta e selecione **[!UICONTROL Delete]** para remover uma oferta do conjunto.
-   * **Adição de uma oferta** - A maneira como você adiciona uma oferta depende do tipo de conjunto de ofertas com o qual você está trabalhando:
-      * **Modelos** - Selecionar **[!UICONTROL Add & Preview]**, e na página Adicionar e visualizar ofertas, crie outra oferta.
-      * **Imagens e vídeos** - Arraste uma imagem ou vídeo para a página Conjunto de ofertas do Test&amp;Target.
+   * **Remoção de uma oferta**: selecione a oferta e, em seguida, **[!UICONTROL Delete]** para remover uma oferta do conjunto.
+   * **Adição de uma oferta**: como você adiciona uma oferta depende do tipo de conjunto de ofertas com o qual você está trabalhando:
+      * **Modelos**: Selecionar **[!UICONTROL Add & Preview]**, e na página Adicionar e visualizar ofertas, crie outra oferta.
+      * **Imagens e vídeos**: arraste uma imagem ou vídeo para a página Conjunto de ofertas Test&amp;Target.
 
    >[!NOTE]
    >

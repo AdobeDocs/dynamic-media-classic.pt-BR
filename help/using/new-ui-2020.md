@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
 
 ---
 
-# Aplicativo Adobe Dynamic Media Classic Desktop - Agora disponível {#new-ui-2020}
+# Aplicativo Adobe Dynamic Media Classic Desktop: agora disponível {#new-ui-2020}
 
 Consulte a [aplicativo de desktop do Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md) para analisar os requisitos do sistema, baixe e instale o novo aplicativo e faça logon nele.
 
@@ -27,7 +27,7 @@ Os usuários do Adobe Dynamic Media Classic agora têm acesso a um novo logon qu
 ## Perguntas frequentes
 
 +++**_Quando os navegadores pararem de oferecer suporte ao Flash Adobe em 31 de dezembro de 2020, haverá algum impacto para o Adobe Dynamic Media Classic (antigo Scene7)?_**
-O Adobe Flash Player era um plug-in de navegador da web que permitia aos navegadores usarem o conteúdo desenvolvido no Adobe Flash Platform. A interface da Web do Adobe Dynamic Media Classic (atualmente rotulada como [!DNL Scene7 Publishing System] ou [!DNL SPS] no produto) exigia o Flash Player Adobe. Quando o Flash Adobe for descontinuado em 31 de dezembro de 2020, os clientes do Adobe Dynamic Media Classic não poderão mais fazer logon na interface da Web. Devido a essa alteração, o Adobe forneceu aos clientes um aplicativo de desktop que substitui a experiência do navegador.
+Adobe Flash Player era um plug-in de navegador da Web que permitia aos navegadores da Web usar o conteúdo desenvolvido no Adobe Flash Platform. A interface de usuário da Web do Adobe Dynamic Media Classic (atualmente rotulada [!DNL Scene7 Publishing System] ou [!DNL SPS] no produto) exigia o Flash Player Adobe. Quando o Flash Adobe for descontinuado em 31 de dezembro de 2020, os clientes do Adobe Dynamic Media Classic não poderão mais fazer logon na interface da Web. Devido a essa alteração, o Adobe forneceu aos clientes um aplicativo de desktop que substitui a experiência do navegador.
 +++
 
 +++**_Como faço para acessar o novo aplicativo de desktop?_**
@@ -110,4 +110,4 @@ Para saber mais sobre os benefícios de atualizar para a próxima geração de c
 >* [Fazer logon ou logout no aplicativo de desktop do Adobe Dynamic Media Classic](/help/using/signing-out.md)
 >* [Baixe e instale o aplicativo de desktop do Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

@@ -10,7 +10,7 @@ role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Práticas recomendadas para usar o visualizador de vídeo HTML5{#best-practice-using-the-html-video-viewer}
 
-As predefinições do visualizador de vídeo Adobe Dynamic Media Classic HTML5 são players de vídeo robustos. No lado do design do reprodutor, é possível criar toda a funcionalidade dele usando as ferramentas padrão de desenvolvimento na Web. Por exemplo, você pode projetar os botões, os controles e o plano de fundo personalizado da imagem de pôster usando o HTML5 e o CSS para ajudar você a alcançar seus clientes com uma aparência personalizada.
+As predefinições do visualizador de vídeo Adobe Dynamic Media Classic HTML5 são players de vídeo robustos. No lado do design do reprodutor, é possível criar toda a funcionalidade dele usando as ferramentas padrão de desenvolvimento para Web. Por exemplo, você pode projetar os botões, os controles e o plano de fundo personalizado da imagem de pôster usando o HTML5 e o CSS para ajudar você a alcançar seus clientes com uma aparência personalizada.
 
 No lado da reprodução do visualizador, ele detecta automaticamente o recurso de vídeo do navegador. Em seguida, ele serve o vídeo usando HLS (HTTP Live Streaming), também conhecido como transmissão de vídeo adaptável. Ou, se esse método de delivery não estiver presente, será usado o HTML5 progressive.
 

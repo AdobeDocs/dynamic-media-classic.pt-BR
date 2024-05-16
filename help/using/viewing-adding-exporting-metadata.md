@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 0%
@@ -31,11 +31,11 @@ Para obter mais informações sobre metadados incorporados, consulte [Plataforma
 
 Para exibir os metadados de um ativo, abra o ativo na Exibição de detalhes e toque no painel Metadados. Para selecionar um conjunto de campos de metadados, escolha uma opção no menu Exibição de Metadados. A Adobe Dynamic Media Classic oferece estas Visualizações de metadados:
 
-* **Visualização compacta** - Uma lista básica de valores.
+* **Visualização compacta**: uma lista básica de valores.
 
-* **IPTC** - Valores definidos pelo Conselho Internacional de Telecomunicações da Imprensa.
+* **IPTC**: Valores conforme definidos pelo International Press Telecommunications Council.
 
-* **XMP** - Valores conforme definidos pelo programa de metadados extensível.
+* **XMP**: Valores conforme definidos pelo programa de metadados extensíveis.
 
 Os administradores podem criar visualizações de metadados. Essas exibições também aparecem no menu Exibições de metadados.
 
@@ -185,13 +185,13 @@ O sistema gera automaticamente um esquema personalizado para campos definidos pe
 
 O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou editar um esquema de empresa personalizado dentro do Adobe Dynamic Media Classic. Um prefixo, um namespace e uma lista de propriedades definem um esquema.
 
-* **[!UICONTROL Name]** - Nome de interface do usuário para o esquema. Usado para identificar as propriedades em Visualizações de metadados e Pesquisa avançada. Semelhante a Seções XMP como Básico, IPTC, PDF.
+* **[!UICONTROL Name]**: Nome de interface do usuário para o esquema. Usado para identificar as propriedades em Visualizações de metadados e Pesquisa avançada. Semelhante a Seções XMP como Básico, IPTC, PDF.
 
-* **[!UICONTROL Prefix]** - Identificador técnico exclusivo do esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. O prefixo identifica exclusivamente campos de metadados em consultas de pesquisa de metadados no servidor de metadados ou na importação.
+* **[!UICONTROL Prefix]**: Identificador técnico exclusivo do esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. O prefixo identifica exclusivamente campos de metadados em consultas de pesquisa de metadados no servidor de metadados ou na importação.
 
-* **[!UICONTROL Namespace]** - Identificador técnico exclusivo do esquema, normalmente um URL no formulário `https://your.company.com/name/version/`. Consulte a lista de esquemas padrão para ver exemplos. O namespace não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado para armazenar metadados no bloco XMP.
+* **[!UICONTROL Namespace]**: Identificador técnico exclusivo para o esquema, normalmente um URL no formulário `https://your.company.com/name/version/`. Consulte a lista de esquemas padrão para ver exemplos. O namespace não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado para armazenar metadados no bloco XMP.
 
-* **[!UICONTROL Description]** - Descrição do esquema em formato livre.
+* **[!UICONTROL Description]**: Descrição do esquema em formato livre.
 
 >[!NOTE]
 >

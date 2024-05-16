@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -105,8 +105,8 @@ A tabela a seguir descreve as variáveis do Adobe Dynamic Media Classic:
 
 Na tela Configuração do Adobe Analytics, você pode ativar, editar e excluir eventos do visualizador:
 
-* **Ativar** - Selecionar **[!UICONTROL Enable]** para ativar ou **[!UICONTROL Disable]** para desativar um evento do visualizador selecionado.
+* **Ativar**: Selecionar **[!UICONTROL Enable]** para ativar ou **[!UICONTROL Disable]** para desativar um evento do visualizador selecionado.
 
-* **Editar** - Selecione um evento de visualizador e selecione a variável **[!UICONTROL View/Edit]** Botão cinza de variáveis. Nas listas suspensas da variável Adobe Dynamic Media Classic e da variável Adobe Analytics, escolha uma variável diferente de cada lista. Para obter mais informações, consulte [Atribuição de variáveis do Adobe Analytics a eventos e variáveis do visualizador do Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Editar**: selecione um evento de visualizador e selecione a variável **[!UICONTROL View/Edit]** Botão cinza de variáveis. Nas listas suspensas da variável Adobe Dynamic Media Classic e da variável Adobe Analytics, escolha uma variável diferente de cada lista. Para obter mais informações, consulte [Atribuição de variáveis do Adobe Analytics a eventos e variáveis do visualizador do Adobe Dynamic Media Classic](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Excluir** - Selecione um evento do visualizador e selecione a variável **[!UICONTROL View/Edit]** Botão cinza de variáveis. Selecionar **[!UICONTROL Delete]**.
+* **Excluir**: selecione um evento de visualizador e selecione a variável **[!UICONTROL View/Edit]** Botão cinza de variáveis. Selecionar **[!UICONTROL Delete]**.

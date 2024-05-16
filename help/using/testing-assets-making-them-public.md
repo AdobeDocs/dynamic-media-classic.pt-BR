@@ -10,9 +10,9 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Com o Teste seguro, é possível visualizar a versão de preparo do site com con
 Se desejar, crie um ambiente de preparo em vez de disponibilizar os ativos publicamente pelos seguintes motivos:
 
 * Visualizar sites antes do lançamento público (site de preparo).
-* Atenda a ativos que exigem acesso restrito, como eCatalogs que mostram preços em um aplicativo web B2B.
-* Use os ativos protegidos por um firewall como parte do sistema de gerenciamento de informações do produto, do aplicativo de atendimento ao cliente, do site de treinamento e assim por diante.
+* Atenda a ativos que exigem acesso restrito, como eCatalogs que mostram preços em um aplicativo Web B2B.
+* Use ativos protegidos por um firewall como parte de um sistema de gerenciamento de informações de produtos, aplicativo de atendimento ao cliente, local de treinamento etc.
 
 >[!NOTE]
 >
@@ -43,11 +43,11 @@ Com o teste seguro, a Adobe Dynamic Media Classic estabelece um servidor de imag
 
 Como o local da solicitação original deve ser confirmado, o tráfego do serviço de Teste seguro não é roteado por uma rede de distribuição de conteúdo, como o tráfego público do Dynamic Media Image Server. As solicitações para o serviço de Teste seguro têm uma latência um pouco maior em comparação aos servidores de imagem públicos Dynamic Media.
 
-Os ativos não publicados estão imediatamente disponíveis nos serviços de teste seguro, sem a necessidade de publicar. Dessa forma, é possível executar uma pré-visualização antes de os ativos serem publicados no servidor de imagens voltado para o público.
+Os ativos não publicados estão imediatamente disponíveis nos serviços de teste seguro, sem a necessidade de publicar. Dessa forma, é possível executar uma pré-visualização antes que os ativos sejam publicados no Servidor de imagens voltado para o público.
 
 >[!NOTE]
 >
->Os serviços de teste seguro usam o Servidor de catálogo configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste seguro, todos os ativos carregados no Adobe Dynamic Media Classic ficarão disponíveis imediatamente nos serviços de Teste seguro. Essa funcionalidade é verdadeira independentemente de os ativos estarem marcados para publicação durante o upload.
+>Os serviços de teste seguro usam o Servidor de catálogo configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste seguro, todos os ativos carregados no Adobe Dynamic Media Classic estarão imediatamente disponíveis nos serviços de Teste seguro. Essa funcionalidade é verdadeira independentemente de os ativos estarem marcados para publicação durante o upload.
 
 Atualmente, os serviços de teste seguro são compatíveis com os seguintes tipos de ativos e funcionalidades:
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * Imagens.
 * Vinhetas (solicitações do Servidor de Renderização).
-* Renderizar solicitações do servidor (suportado, mas deve ser solicitado explicitamente pelo cliente).
+* Renderizar solicitações do servidor (compatível, mas o cliente deve solicitá-las explicitamente).
 * Conjuntos, incluindo conjuntos de imagens, eCatalog, conjuntos de renderização e conjuntos de mídia.
 * Visualizadores padrão de mídia avançada Adobe Dynamic Media Classic.
 * Páginas JSP do Adobe Dynamic Media Classic OnDemand.
@@ -88,7 +88,7 @@ Teste o serviço de teste seguro para garantir que ele funcione conforme esperad
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### Preparar sua conta
 
@@ -133,8 +133,8 @@ Entre em contato com o Adobe Care se o nome do servidor estiver ausente ou se os
 
 Você precisa de duas variações de um site que vincula os ativos publicados e não publicados:
 
-* Versão pública - Vincule ativos usando a sintaxe tradicional do URL do Adobe Dynamic Media Classic.
-* Versão de preparo - Vincule ativos usando a mesma sintaxe, mas com o nome do site de teste seguro.
+* Versão pública: vincule ativos usando a sintaxe tradicional do URL do Adobe Dynamic Media Classic.
+* Versão de preparo: vincule ativos usando a mesma sintaxe, mas com o nome do site de teste seguro.
 
 ### Executar os testes
 

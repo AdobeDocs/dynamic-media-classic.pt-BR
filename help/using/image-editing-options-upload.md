@@ -10,7 +10,7 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -34,17 +34,17 @@ Essas opções estão na página Fazer upload no **[!UICONTROL Imaging Edit Opti
 
 Você pode cortar automaticamente pixels de espaço em branco de uma imagem. Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Crop Options]**. No **[!UICONTROL Crop]** selecione **[!UICONTROL Trim]**. Em seguida, escolha estas opções:
 
-* **[!UICONTROL Trim Away Based On]** - Nessa lista suspensa, escolha se deseja cortar com base na cor ou na transparência:
+* **[!UICONTROL Trim Away Based On]**: nessa lista suspensa, escolha se deseja cortar com base na cor ou na transparência:
 
-   * **[!UICONTROL Color]** - Escolha a **[!UICONTROL Color]** opção. Em seguida, do **[!UICONTROL Corner]** selecione o canto da imagem com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
+   * **[!UICONTROL Color]**: escolha a **[!UICONTROL Color]** opção. Em seguida, do **[!UICONTROL Corner]** selecione o canto da imagem com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
 
-   * **[!UICONTROL Transparency]** - Escolha a opção Transparência.
+   * **[!UICONTROL Transparency]**: escolha a opção Transparência.
 
-* **[!UICONTROL Tolerance]** - Arraste o controle deslizante para especificar uma tolerância de 0 a 1:
+* **[!UICONTROL Tolerance]**: arraste o controle deslizante para especificar uma tolerância de 0 a 1:
 
-   * **Corte com base na cor** - Especifique 0 para cortar os pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Números próximos a 1 permitem mais diferença de cor.
+   * **Corte com base na cor**: Especifique 0 para cortar os pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Números próximos a 1 permitem mais diferença de cor.
 
-   * **Corte com base na transparência** - Especifique 0 para cortar os pixels somente se eles forem transparentes; números mais próximos a 1 permitem mais transparência.
+   * **Corte com base na transparência**: especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos a 1 permitem mais transparência.
 
 ## Recortar manualmente nas laterais das imagens
 
@@ -54,11 +54,11 @@ Para recortar manualmente das laterais de uma imagem, selecione o menu Recortar 
 
 Para selecionar um espaço de cores para a imagem, escolha uma opção de Perfil de Cores:
 
-* **[!UICONTROL Convert To sRGB]** - Converte para sRGB (azul vermelho verde padrão). sRGB é o espaço de cores recomendado para exibir imagens em páginas da Web.
+* **[!UICONTROL Convert To sRGB]**: converte para sRGB (vermelho padrão, verde e azul). sRGB é o espaço de cores recomendado para exibir imagens em páginas da Web.
 
-* **[!UICONTROL Keep Original Color Space]** - Mantém o espaço de cores original.
+* **[!UICONTROL Keep Original Color Space]**: retém o espaço de cores original.
 
-* **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** > **[!UICONTROL To]**: abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 Consulte [Perfis ICC](icc-profiles.md#icc_profiles).
 
@@ -93,7 +93,7 @@ Use o Plano de fundo de separação para remover automaticamente o plano de fund
 | --- | --- |
 | Plano de fundo de separação | Selecione para ativar ou &quot;ativar&quot; o recurso e as opções de Plano de fundo de separação. |
 | Canto | Obrigatório.<br>O canto da imagem usado para definir a cor do plano de fundo a ser vazada.<br>Você pode escolher entre <b>Superior esquerdo, Inferior esquerdo, Superior direito ou Inferior direito</b>. |
-| Método de preenchimento | Obrigatório. <br>Controla a transparência de pixels do local do Canto definido.<br>Você pode escolher entre os seguintes métodos de preenchimento:<br>· <b>Preenchimento Flood</b> - transforma todos os pixels transparentes que correspondem ao Canto que você especificou e que estão conectados a ele.<br>· <b>Corresponder Pixel</b> - torna todos os pixels correspondentes transparentes, independentemente de sua localização na imagem. |
+| Método de preenchimento | Obrigatório. <br>Controla a transparência de pixels do local do Canto definido.<br>Você pode escolher entre os seguintes métodos de preenchimento:<br>· <b>Preenchimento Flood</b>: transforma todos os pixels transparentes que correspondem ao Canto especificado e que estão conectados a ele.<br>· <b>Corresponder Pixel</b>: transforma todos os pixels correspondentes em transparentes, independentemente de sua localização na imagem. |
 | Tolerância | Opcional.<br>Controla a quantidade permitida de variação na correspondência de cores de pixels com base no local do Canto que você definiu.<br>Use um valor de 0,0 para corresponder exatamente às cores dos pixels. Ou use um valor de 1,0 para permitir a maior variação. |
 
 >[!MORELIKETHIS]

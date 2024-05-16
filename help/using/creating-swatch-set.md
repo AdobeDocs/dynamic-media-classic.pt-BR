@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -38,9 +38,9 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 1. Siga um destes procedimentos:
 
-   * **Selecione as imagens primeiro** - No Painel Procurar, selecione as imagens e vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**.
+   * **Selecione as imagens primeiro**: No Painel Procurar, selecione as imagens e vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**.
 
-   * **Iniciar na tela Conjunto de amostras** - Vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Selecione uma pasta na Biblioteca de ativos e arraste as imagens para a seção Exibições da página Conjunto de amostras.
+   * **Iniciar na tela Conjunto de amostras**: Vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Selecione uma pasta na Biblioteca de ativos e arraste as imagens para a seção Exibições da página Conjunto de amostras.
 
 1. Arraste as cores, os padrões ou os acabamentos da amostra para a caixa de espaço reservado Amostras na página Conjunto de amostras.
 

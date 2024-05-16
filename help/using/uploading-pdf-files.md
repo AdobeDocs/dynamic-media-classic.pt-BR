@@ -9,9 +9,9 @@ role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -46,27 +46,27 @@ Para obter informações detalhadas sobre os diferentes métodos de upload, cons
 
 Selecione os arquivos que deseja fazer upload e selecione-os *prática recomendada* Opções de PDF:
 
-* **Opções de corte** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Crop Options]**. Se as páginas de PDF contiverem marcas de corte, marcas de registro ou outras marcas, no **[!UICONTROL Crop]** selecione **[!UICONTROL Manual]**. Insira o número de pixels para cortar nos lados superior, direito, inferior e esquerdo das páginas. As marcas de corte geralmente são definidas como uma margem de meia polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução de pixel por polegada e digite 75, 75, 75, 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo. Nesse caso, ele corta meia polegada das margens (a 150 ppi, metade de 1 é igual a 75 pixels).
+* **Opções de corte**: Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Crop Options]**. Se as páginas de PDF contiverem marcas de corte, marcas de registro ou outras marcas, no **[!UICONTROL Crop]** selecione **[!UICONTROL Manual]**. Insira o número de pixels a serem cortados da parte superior, direita, inferior e esquerda das páginas. As marcas de corte geralmente são definidas como uma margem de meia polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução pixel por polegada. Em seguida, digite 75, 75, 75, 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo. Nesse caso, ele corta meia polegada das margens (a 150 ppi, metade de 1 é igual a 75 pixels).
 
-* **Processando** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. No **[!UICONTROL Processing]** selecione **[!UICONTROL Rasterize]**. O arquivo PDF deve ser rasterizado para que todas as páginas e imagens possam ser exibidas no eCatalog.
+* **Processando**: Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. No **[!UICONTROL Processing]** selecione **[!UICONTROL Rasterize]**. O arquivo PDF deve ser rasterizado para que todas as páginas e imagens possam ser exibidas no eCatalog.
 
-* **Extrair palavras de pesquisa (opcional)** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Extrair, escolha **[!UICONTROL Search words]** se quiser que os visualizadores possam pesquisar por palavra-chave no eCatalog.
+* **Extrair palavras de pesquisa (opcional)**: Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Extrair, escolha **[!UICONTROL Search words]** se quiser que os visualizadores possam pesquisar por palavra-chave no eCatalog.
 
-* **Gerar eCatalog automaticamente a partir de PDF de várias páginas (opcional)** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. Selecionar **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** para criar automaticamente um eCatalog ao fazer upload. Você pode ir diretamente para a tela eCatalog e começar a trabalhar em seu eCatalog sem ter que primeiro selecionar arquivos PDF e selecionar o comando Build. O eCatalog é nomeado de acordo com seu arquivo PDF.
+* **Gerar eCatalog automaticamente a partir de PDF de várias páginas (opcional)**: Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. Clique em **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** para que você possa criar automaticamente um eCatalog ao fazer upload. Você pode ir diretamente para a tela eCatalog e começar a trabalhar em seu eCatalog sem ter que primeiro selecionar arquivos PDF e selecionar o comando Build. O eCatalog é nomeado de acordo com seu arquivo PDF.
 
-* **Resolução** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. No **[!UICONTROL Resolution]** campo de texto, insira um valor. A Adobe Dynamic Media Classic recomenda 150 pixels por polegada.
+* **Resolução**: Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. No **[!UICONTROL Resolution]** campo de texto, insira um valor. A Adobe Dynamic Media Classic recomenda 150 pixels por polegada.
 
-* **Espaço de cor** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cores, escolha **[!UICONTROL Detect automatically]**. Normalmente, os PDF criados para saída de impressão estão em CMYK; os PDF para visualização on-line são RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDF usam ambos os espaços de cores, por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam RGB. Se você carregou um perfil ICC, seu nome aparece no menu Espaço de cores e você pode escolhê-lo lá.
+* **Espaço de cor**: Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cores, escolha **[!UICONTROL Detect automatically]**. Normalmente, os PDF criados para saída de impressão estão em CMYK; os PDF para visualização on-line são RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDF usam ambos os espaços de cores, por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam RGB. Se você carregou um perfil ICC, seu nome aparece no menu Espaço de cores e você pode escolhê-lo lá.
 
   Consulte [Perfis ICC (International Color Consortium)](/help/using/icc-profiles.md).
 
-* **Opções de perfil de cores** - Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Color Profile Options]** e escolha uma opção de Perfil de cor:
+* **Opções de perfil de cores**: Na caixa de diálogo Fazer Upload das Opções de Job, selecione **[!UICONTROL Color Profile Options]** e escolha uma opção de Perfil de cor:
 
-   * **Manter espaço de cor original** - Mantém o espaço de cores original.
+   * **Manter espaço de cor original**: retém o espaço de cores original.
 
-   * **Personalizar De > Para** - Abre submenus para que você possa escolher um **[!UICONTROL Convert From]** e **[!UICONTROL Convert To]** espaço de cores. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
+   * **Personalizar De > Para**: abre submenus para que você possa escolher um **[!UICONTROL Convert From]** e **[!UICONTROL Convert To]** espaço de cores. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
-<!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
+<!-- * **Convert To SRGB**: Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on Web pages. -->
 
 Consulte [Perfis ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 

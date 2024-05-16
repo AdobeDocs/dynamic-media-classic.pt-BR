@@ -10,7 +10,7 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Crie um conjunto de modelos para gerenciar variações de um modelo. Você pode 
 
 URLs universais são usados para exibir a variação de modelo exibida na página, com base na ordem em que são listados no conjunto. O modelo na parte superior da lista de conjuntos de modelos é sempre publicado.
 
-Você pode usar qualquer URL de predefinição de imagem da lista. URLs de predefinição de imagem são como URLs universais. Pode haver mais de um URL de predefinição de imagem.
+Você pode usar qualquer URL de predefinição de imagem da lista. Os URLs de predefinição de imagem são como URLs universais. Pode haver mais de um URL de predefinição de imagem.
 
 1. Ir para **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
 1. No construtor, selecione um modelo e, em seguida, **[!UICONTROL Add/Preview]**.

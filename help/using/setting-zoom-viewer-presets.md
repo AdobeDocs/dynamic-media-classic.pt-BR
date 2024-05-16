@@ -10,7 +10,7 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
@@ -27,9 +27,9 @@ Todos os Visualizadores de zoom têm botões para ampliar, reduzir, deslocar e r
 
 O Adobe Dynamic Media Classic oferece estas Predefinições do visualizador de zoom:
 
-* **Zoom Viewer: Basic** - Fornece um zoom básico na imagem original.
+* **Zoom Viewer: Basic**: fornece um zoom básico na imagem original.
 
-* **Zoom Viewer: Fly-out** - Exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção sobre a área que desejam visualizar.
+* **Zoom Viewer: Fly-out**: exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção sobre a área que desejam visualizar.
 
 Ao determinar o uso completo da largura de banda para esse visualizador, considere que tanto a imagem principal quanto a imagem suspensa são fornecidas no visualizador. O tamanho da imagem suspensa é determinado pelo tamanho da imagem principal (Largura e altura do palco) e pelo Fator de zoom. Para evitar que o tamanho do arquivo de imagem suspensa fique muito grande, equilibre esses dois valores: se você tiver um tamanho grande de imagem principal, diminua o valor do Fator de zoom. (A Largura da imagem suspensa e a Altura da imagem suspensa determinam o tamanho da janela da imagem suspensa, mas não o tamanho da imagem suspensa que é exibida no visualizador.)
 
@@ -37,20 +37,20 @@ Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fat
 
 O Adobe Dynamic Media Classic recomenda os seguintes parâmetros para as Predefinições do visualizador de zoom de saída:
 
-* **Tamanho da imagem ampliado** - Aproximadamente 1500 por 1500 píxeis, sem exceder 2000 por 2000 píxeis.
+* **Tamanho da imagem ampliado**: Aproximadamente 1500 por 1500 pixels, não devendo exceder 2000 por 2000 pixels.
 
-* **Tamanho da imagem** - 100 KB ou menos, para não exceder 150 KB (compacte o arquivo para mantê-lo abaixo de 150 KB).
+* **Tamanho da imagem**: 100 KB ou menos, para não exceder 150 KB (compacte o arquivo para mantê-lo abaixo de 150 KB).
 
-* **Visualizador de zoom: personalizado** - Fornece zoom guiado ou não guiado com imagens, Conjuntos de imagens com várias visualizações ou Conjuntos de amostras de cores.
+* **Visualizador de zoom: personalizado**: oferece zoom guiado ou não guiado com imagens, Conjuntos de imagens com várias exibições ou Conjuntos de amostras de cores.
 
 ## Criar e editar as predefinições do visualizador de zoom {#creating-and-editing-zoom-viewer-presets}
 
 1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Siga um destes procedimentos:
 
-   * **Criar uma predefinição** - Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um visualizador de zoom e selecione **[!UICONTROL Add]**. Digite um nome para a predefinição na caixa Nome da predefinição.
+   * **Criar uma predefinição**: Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha um visualizador de zoom e selecione **[!UICONTROL Add]**. Digite um nome para a predefinição na caixa Nome da predefinição.
 
-   * **Editar uma predefinição** - Selecione uma Predefinição do visualizador de zoom e, em seguida, **[!UICONTROL Edit]**.
+   * **Editar uma predefinição**: selecione uma Predefinição do visualizador de zoom e, em seguida, selecione **[!UICONTROL Edit]**.
 
 1. Especifique as configurações conforme desejado.
 

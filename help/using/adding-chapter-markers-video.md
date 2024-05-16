@@ -10,7 +10,7 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Consulte [WebVTT: o formato de rastreamento de texto de vídeo na Web](https://w
 
 1. Salve o arquivo VTT na codificação UTF8 para que você possa evitar problemas com a representação de caracteres no texto do título do capítulo.
 
-   Geralmente, você deseja nomear o arquivo de VTT do capítulo com o mesmo nome do arquivo de vídeo e anexá-lo com `chapters`. Ao fazer isso, ele pode ajudar você a automatizar a geração dos URLs de vídeo usando seu sistema existente de gerenciamento de conteúdo na Web.
+   Geralmente, você deseja nomear o arquivo de VTT do capítulo com o mesmo nome do arquivo de vídeo e anexá-lo com `chapters`. Ao fazer isso, ele pode ajudar você a automatizar a geração dos URLs de vídeo usando seu sistema existente de gerenciamento de conteúdo da Web.
 
 1. No Adobe Dynamic Media Classic, carregue seu arquivo de capítulo WebVTT.
 
