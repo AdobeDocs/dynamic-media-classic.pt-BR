@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 É possível exibir um ativo na Exibição de detalhes para examinar, visualizar ou trabalhar detalhadamente nele.
 
-1. No Painel de navegação, siga um destes procedimentos:
+1. No painel Procurar, execute um dos procedimentos a seguir:
 
    * Selecione o ativo. Próximo ao canto superior direito da Adobe Dynamic Media Classic, selecione a **[!UICONTROL Detail View]** ícone.
    * Clique duas vezes no ativo.
@@ -56,7 +56,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Essas informações são exibidas sobre um item: a pasta onde ele está armazenado, seu nome de arquivo, a data em que o item foi carregado para o Adobe Dynamic Media Classic e seu histórico de publicação. Também é possível exibir e editar metadados e adicionar palavras-chave para um ativo na Exibição de detalhes.
 
-É possível obter um URL do ativo na Exibição de detalhes; no entanto, o URL não estará ativo até que você publique o ativo. Para imagens, a Exibição de detalhes também fornece uma lista de ativos e metadados criados e derivados, como destinos de zoom e Conjuntos de imagens.
+É possível obter um URL do ativo na Exibição de detalhes; no entanto, o URL não estará ativo até que você publique o ativo. Para imagens, a Exibição de detalhes também fornece uma lista de ativos e metadados criados e derivados, como Destinos de zoom e Conjuntos de imagens.
 
 ## Trabalhar com ativos na Exibição de detalhes {#working-with-assets-in-detail-view}
 
@@ -78,7 +78,7 @@ Esta tabela mostra quais outras opções estão disponíveis com diferentes tipo
 
 | Tipo de ativo | Editar/ajustar | Visualizar |
 | --- | --- | --- |
-| Imagens | Adicionar mapas de imagem<br>Adicionar destinos de zoom<br>Cortar<br>Nitidez<br>Criar exibições ajustadas | Sim; Predefinições de zoom e imagem |
+| Imagens | Adicionar mapas de imagem<br>Adicionar metas de zoom<br>Cortar<br>Nitidez<br>Criar exibições ajustadas | Sim; Predefinições de zoom e imagem |
 | Imagens de revestimento de gabinete e janela | Não | Miniatura |
 | eCatalogs | Editar | Sim<br>O Painel de informações também está disponível |
 | Fontes | Editar informações da fonte | Não |

@@ -10,9 +10,9 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ A publicação de um vídeo permite que os servidores da Adobe Dynamic Media Cla
 
 Há dois métodos diferentes que podem ser usados para publicar vídeos:
 
-* **Publicar vídeos automática e instantaneamente no upload**: como parte do processo de carregamento de vídeo, o Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. Essa capacidade de publicar instantaneamente significa que não há necessidade de publicar vídeos separadamente após o fato.
+* **Publicar vídeos automática e instantaneamente no upload**: como parte do processo de carregamento de vídeo, o Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. Essa capacidade de publicação instantânea significa que não há necessidade de publicar vídeos separadamente após o fato.
 
 * **Publicar vídeo manualmente após o upload**: se não quiser publicar vídeos imediatamente, você poderá publicar vídeos manualmente a qualquer momento.
 
@@ -42,7 +42,7 @@ Depois de publicar vídeos, o Adobe Dynamic Media Classic ativa as cadeias de ca
 1. Siga um destes procedimentos:
 
    * Para publicar vídeos de forma automática e instantânea durante o upload, na página Upload, selecione **[!UICONTROL Publish after uploading]**. Você concluiu; não há mais etapas a serem concluídas.
-   * Para publicar vídeos manualmente depois de fazer upload, no Painel de navegação, selecione os vídeos e, na barra Navegação global, selecione **Publish**.
+   * Para publicar vídeos manualmente depois de fazer upload, no painel Procurar, selecione os vídeos e, na barra Navegação global, selecione **Publish**.
 
 ## Vincular um URL de vídeo a um site para dispositivos móveis ou site {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -107,7 +107,7 @@ Consulte também [Vincular um URL de vídeo a um site para dispositivos móveis 
 
 ### Implementar o código incorporado para usar vídeo HTML5 com ativos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Se você não usa o reprodutor de vídeo Adobe Dynamic Media Classic HTML5, mas deseja usar o HTML 5 nativo `<video>` com ativos de vídeo MP4, você pode usar a seguinte amostra de Código incorporado:
+Talvez você não queira usar o reprodutor de vídeo Adobe Dynamic Media Classic HTML5. Em vez disso, se você quiser usar o HTML nativo `<video>` com ativos de vídeo MP4, você pode usar a seguinte amostra de Código incorporado:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ Se você não usa o reprodutor de vídeo Adobe Dynamic Media Classic HTML5, mas 
 
 ## Implantar vídeo usando um player de vídeo de terceiros {#deploying-video-using-a-third-party-video-player}
 
-Se você usar um player de vídeo de terceiros ou um player de vídeo personalizado em vez de um visualizador de vídeo do Dynamic Media Classic, obterá o URL de vídeo direto que funciona para streaming de vídeo de taxa de multi bits do HLS ou download progressivo.
+Se você usar players de vídeo de terceiros ou um player de vídeo personalizado em vez de um visualizador de vídeo do Dynamic Media Classic, obterá o URL de vídeo direto que funciona para streaming de vídeo de taxa de multi bits do HLS ou download progressivo.
 
 **Para implantar vídeo usando um player de vídeo de terceiros:**
 

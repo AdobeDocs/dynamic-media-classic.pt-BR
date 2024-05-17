@@ -10,7 +10,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 # Selecionar ativos no painel Procurar{#selecting-assets-in-the-browse-panel}
 
-Selecione um ativo no Painel de navegação para poder trabalhar com ele. Use essas técnicas para selecionar ativos:
+Selecione um ativo no painel Procurar para poder trabalhar com ele. Use essas técnicas para selecionar ativos:
 
 * **Um único ativo**: selecione o ativo (clicar duas vezes abre o ativo na Exibição de detalhes).
 
-* **Vários ativos**: selecione os ativos Ctrl+clique (Windows®) ou Command+clique (Mac) para selecioná-los em locais diferentes no Painel de navegação. Shift + clique (clique em um ativo e, em seguida, Shift + clique em outro) para selecionar ativos adjacentes.
+* **Vários ativos**: selecione os ativos Ctrl+clique (Windows®) ou Command+clique (Mac) para selecioná-los em locais diferentes no painel Procurar. Shift + clique (clique em um ativo e, em seguida, Shift + clique em outro) para selecionar ativos adjacentes.
 
 * **Todos os ativos no painel Procurar**: Vá para **[!UICONTROL Select]** > **[!UICONTROL All]**.
 

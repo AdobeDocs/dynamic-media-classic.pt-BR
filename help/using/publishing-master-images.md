@@ -10,7 +10,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -23,7 +23,7 @@ A publicação dos arquivos de imagem os publica nos Servidores de imagem da Dyn
 
 ## Marcar imagens principais para publicação {#marking-master-images-for-publish}
 
-As imagens primárias devem ser marcadas para publicação, para serem copiadas para os servidores de imagem da Dynamic Media. Você pode marcar suas imagens principais para publicação no Painel de navegação selecionando o **[!UICONTROL Mark for Publish]** ícone. Você também pode marcar imagens para publicação quando as carrega no Adobe Dynamic Media Classic.
+As imagens primárias devem ser marcadas para publicação, para serem copiadas para os servidores de imagem da Dynamic Media. Você pode marcar suas imagens principais para publicação no painel Procurar selecionando a **[!UICONTROL Mark for Publish]** ícone. Você também pode marcar imagens para publicação quando as carrega no Adobe Dynamic Media Classic.
 
 ## Publicar suas imagens principais {#publishing-your-master-images}
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Estabeleça uma estrutura de pastas e uma organização para armazenar os arquiv
 
 ## Exibir, mover, ocultar e abrir pastas {#displaying-moving-hiding-and-opening-folders}
 
-A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo aparece no Painel de navegação. Use essas técnicas para localizar pastas na árvore de pastas:
+A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo aparece no painel Procurar. Use essas técnicas para localizar pastas na árvore de pastas:
 
 * **Exibir subpastas**: selecione a variável **[!UICONTROL Expand Folder]** ícone para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
@@ -33,11 +33,11 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
 * **Ocultar pastas**: selecione a variável **[!UICONTROL Collapse Folder]** ícone se quiser recolher subpastas para ocultá-las da exibição. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Abrir uma pasta**: selecione uma pasta se desejar exibir seu conteúdo no Painel de navegação.
+* **Abrir uma pasta**: selecione uma pasta se desejar exibir seu conteúdo no painel Procurar.
 
 >[!TIP]
 >
->Você pode ocultar ou exibir a Biblioteca de ativos selecionando o **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** controle no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no Painel de navegação.
+>Você pode ocultar ou exibir a Biblioteca de ativos selecionando o **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** controle no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.
 
 ## Criar pastas
 

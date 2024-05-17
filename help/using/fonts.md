@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Fazer upload de arquivos de fonte com as mesmas técnicas usadas para fazer uplo
 
 Você pode alterar o nome da ID de uma fonte e suas informações de tipo. A edição de um arquivo de fonte pode ser útil em pesquisas e facilitar a identificação das fontes.
 
-No Painel de navegação, selecione o arquivo de fonte que deseja editar na Exibição de detalhes e escolha Arquivo > Editar informações. A tela Editar informações é aberta. Escolha as seguintes opções e selecione **[!UICONTROL Submit]**.
+No painel Procurar, selecione o arquivo de fonte que deseja editar na Exibição de detalhes e escolha Arquivo > Editar informações. A tela Editar informações é aberta. Escolha as seguintes opções e selecione **[!UICONTROL Submit]**.
 
 * **[!UICONTROL Font Name]**: Esse nome identifica a fonte quando ela é publicada.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Em vez de inserir metadados manualmente um ativo de cada vez, você pode importa
 
 Você pode encontrar mais informações sobre propriedades padronizadas no [Centro de desenvolvedores do Adobe XMP](https://www.adobe.com/devnet/xmp.html).
 
-1. No Painel de navegação, selecione as imagens às quais deseja adicionar metadados do arquivo XML ou delimitado por tabulação.
+1. No painel Procurar, selecione as imagens às quais deseja adicionar metadados do arquivo XML ou delimitado por tabulação.
 1. Ir para **[!UICONTROL File]** > **[!UICONTROL Import Metadata]**.
 1. No **[!UICONTROL Upload Metadata]** caixa de diálogo, selecione **[!UICONTROL Browse]**.
 1. No **[!UICONTROL Select files to upload]** , selecione o arquivo XML ou delimitado por tabulação com os metadados.
@@ -135,7 +135,7 @@ Na barra Navegação global, selecione **[!UICONTROL Upload]**. Para importar os
 
 ## Renomear IDs em lote usando metadados {#batch-rename-ids-using-metadata}
 
-Usando metadados importados de um arquivo delimitado por tabulação ou arquivo XML, você pode renomear Adobe Dynamic Media Classic IDs. Os metadados importados são aplicados apenas às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no Painel de navegação.
+Usando metadados importados de um arquivo delimitado por tabulação ou arquivo XML, você pode renomear Adobe Dynamic Media Classic IDs. Os metadados importados são aplicados apenas às imagens especificadas no próprio arquivo de metadados. Não importa se as imagens estão selecionadas no painel Procurar.
 
 Para renomear uma ID do Adobe Dynamic Media Classic de imagem, adicione uma coluna rotulada *newipsid* ao arquivo delimitado por tabulação ou adicione um campo chamado `new_vc_objectname` aos dados XML.
 

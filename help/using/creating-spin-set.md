@@ -10,9 +10,9 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Para criar um Spin Set eficaz, certifique-se de fotografar as imagens corretamen
 
 >[!NOTE]
 >
->As versões anteriores do Adobe Dynamic Media Classic não ofereciam Spin Sets bidimensionais. Se você criou um Conjunto de rotação em uma versão anterior do Adobe Dynamic Media Classic, não será possível salvar seu Conjunto de rotação unidimensional sem antes salvá-lo com um nome diferente. Selecionar **[!UICONTROL Save As]** na tela Conjunto de rotação e insira um novo nome para poder editá-lo no Adobe Dynamic Media Classic.
+>As versões anteriores do Adobe Dynamic Media Classic não ofereciam Spin Sets bidimensionais. Se você criou um Conjunto de rotação em uma versão anterior do Adobe Dynamic Media Classic, salve-o com um nome diferente e, em seguida, salve seu Conjunto de rotação unidimensional. Selecionar **[!UICONTROL Save As]** na tela Conjunto de rotação e insira um novo nome para poder editá-lo no Adobe Dynamic Media Classic.
 
 ## Diretrizes para fotografar imagens do grupo de rotação {#guidelines-for-shooting-spin-set-images}
 
 Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito de rotação da imagem. No entanto, a inclusão de muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. A Adobe Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em conjuntos de rotação:
 
-* No mínimo, use 8 a 12 imagens em um conjunto de rotação unidimensional e 16 a 24 imagens em um Conjunto de rotação bidimensional.
+* No mínimo, use 8 a 12 imagens em um Conjunto de rotação unidimensional e 16 a 24 imagens em um Conjunto de rotação bidimensional.
 * Use um formato sem perdas; TIFF e PNG são recomendados.
 * Mascarar todas as imagens para que o item apareça em branco puro ou em outro plano de fundo de alto contraste. Como opção, adicione sombras.
 * Verifique se os detalhes do produto estão bem iluminados e em foco.
-* Faça imagens giratórias para roupas de moda com um manequim ou modelo. Muitas vezes, o manequim é mascarado (usando um manequim de vidro) ou um manequim estilizado/costureira é mostrado na imagem. Você pode criar um conjunto de rotação no modelo definindo o número de ângulos. Marque cada ângulo com fita no chão para que você possa guiar o modelo para pisar e olhar na direção de cada tomada.
+* Faça imagens giratórias para roupas de moda com um manequim ou modelo. Muitas vezes, o manequim é mascarado (usando um manequim de vidro) ou um manequim estilizado/costureira é mostrado na imagem. Você pode criar um Conjunto de rotação no modelo definindo o número de ângulos. Marque cada ângulo com fita no chão para que você possa guiar o modelo para pisar e olhar na direção de cada tomada.
 
 ## Criar um grupo de rotação {#create}
 
@@ -63,7 +63,7 @@ Depois de salvar um Conjunto de rotação, você pode usar Visualizar na página
 1. No **[!UICONTROL Build]** selecione **[!UICONTROL Spin Sets]**.
 1. Na caixa de diálogo Definir tamanho de rotação, defina o número de linhas e células desejadas.
 
-   Para criar um conjunto de rotação unidimensional, selecione somente uma linha.
+   Para criar um Conjunto de rotação unidimensional, selecione somente uma linha.
 
    Para criar um Conjunto de rotação bidimensional, selecione duas ou mais linhas.
 
@@ -71,7 +71,7 @@ Depois de salvar um Conjunto de rotação, você pode usar Visualizar na página
 1. Arraste e solte imagens na grade na tela Conjunto de rotação.
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se **Publicar após salvar** está selecionada (padrão).
 1. Selecionar **[!UICONTROL Save]**.
-1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o conjunto de rotação. No campo Nome do arquivo, digite o nome do conjunto de rotação.
+1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o Conjunto de rotação. No campo Nome do arquivo, digite o nome do conjunto de rotação.
 1. Selecionar **[!UICONTROL Save]**.
 
 ## Editar um grupo de rotação {#editing-a-spin-set}

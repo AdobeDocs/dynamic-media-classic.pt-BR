@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Pesquisar ativos no Adobe Dynamic Media Classic{#searching-assets}
 
-Para localizar ativos de arquivo no Adobe Dynamic Media Classic, você pode visualizar ativos por tipo, classificar ativos no Painel de navegação, realizar uma pesquisa simples, realizar uma pesquisa avançada e filtrar ativos.
+Para localizar ativos de arquivos no Adobe Dynamic Media Classic, você pode visualizar ativos por tipo, classificar ativos no painel Procurar, realizar uma pesquisa simples, realizar uma Pesquisa avançada e filtrar ativos.
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ Para ver somente os arquivos de um determinado tipo à medida que você navega, 
 >
 >Se não vir o painel Biblioteca de ativos no lado esquerdo, clique na seta de triângulo para a direita no lado esquerdo, na metade da janela do Dynamic Media Classic, para abrir a Biblioteca de ativos.
 
-## Classificar arquivos no Painel de navegação {#sorting-files-in-the-browse-panel}
+## Classificar arquivos no painel Procurar {#sorting-files-in-the-browse-panel}
 
-Você pode classificar o conteúdo de uma pasta ou os resultados da pesquisa exibidos no Painel de navegação no lado direito. Na barra Navegação global, selecione **[!UICONTROL Sort]** e escolha uma opção. As opções são **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]**, e **[!UICONTROL Last Modified]**.
+Você pode classificar o conteúdo de uma pasta ou os resultados da pesquisa exibidos no painel Procurar à direita. Na barra Navegação global, selecione **[!UICONTROL Sort]** e escolha uma opção. As opções são **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]**, e **[!UICONTROL Last Modified]**.
 
 Você também pode escolher **[!UICONTROL Ascending]** ou **[!UICONTROL Descending]** para classificar ativos em ordem crescente ou decrescente pelos critérios escolhidos.
 
@@ -51,7 +51,7 @@ Use o campo Pesquisar na Biblioteca de ativos para realizar pesquisas simples. V
 1. No campo Pesquisar, informe um termo de pesquisa.
 1. À direita do campo Pesquisa, selecione **[!UICONTROL Go]** ou pressione **[!UICONTROL Enter]**.
 
-   Os resultados da pesquisa são exibidos no Painel de navegação à direita.
+   Os resultados da pesquisa são exibidos no painel Procurar à direita.
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
@@ -81,7 +81,7 @@ Especifique qualquer um dos critérios a seguir na pesquisa avançada:
 
 Selecione o **[!UICONTROL Remove a search field]** ícone (círculo com &quot;X&quot; dentro) para que o campo de pesquisa seja excluído.
 
-No canto inferior direito do painel Pesquisa avançada, selecione **[!UICONTROL Search]** para iniciar a pesquisa. Os resultados da pesquisa são exibidos no Painel Procurar à direita. É possível alterar qualquer condição de pesquisa e selecionar **[!UICONTROL Search]** para executar a pesquisa novamente.
+No canto inferior direito do painel Pesquisa avançada, selecione **[!UICONTROL Search]** para iniciar a pesquisa. Os resultados da pesquisa são exibidos no painel Procurar à direita. É possível alterar qualquer condição de pesquisa e selecionar **[!UICONTROL Search]** para executar a pesquisa novamente.
 
 Selecionar **[!UICONTROL Clear]** se quiser limpar os critérios de pesquisa e iniciar uma nova pesquisa. Selecionar **[!UICONTROL Close]** quando terminar a pesquisa para fechar o painel Pesquisar.
 
@@ -131,7 +131,7 @@ Siga estas etapas para localizar ativos filtrando por seus valores de metadados:
 1. Repita a Etapa 2 quantas vezes forem necessárias para listar todos os campos de metadados para a operação de filtro em painéis.
 1. Em cada painel, selecione um valor de metadados para filtrar. Não é possível selecionar mais de um valor de metadados em cada painel.
 
-   Os ativos que correspondem a todos os valores selecionados aparecem no Painel de navegação.
+   Os ativos que correspondem a todos os valores selecionados aparecem no painel Procurar.
 
    >[!NOTE]
    >

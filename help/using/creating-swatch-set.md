@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 1. Siga um destes procedimentos:
 
-   * **Selecione as imagens primeiro**: No Painel Procurar, selecione as imagens e vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**.
+   * **Selecione as imagens primeiro**: No painel Procurar, selecione as imagens e vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**.
 
    * **Iniciar na tela Conjunto de amostras**: Vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Selecione uma pasta na Biblioteca de ativos e arraste as imagens para a seção Exibições da página Conjunto de amostras.
 

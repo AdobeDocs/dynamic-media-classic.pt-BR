@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Criação de um eCatalog {#creating-an-ecatalog}
 
-A criação de um eCatalog implica ordenar as páginas, escolher o layout de página e vincular as páginas desenhando Mapas de imagem e inserindo dados de rolagem e link de hipertexto. Como opção, você pode personalizar o índice para que os visualizadores vejam os nomes das páginas em vez dos números das páginas no Visualizador de eCatalog.
+A criação de um eCatalog implica ordenar as páginas, escolher o layout de página e vincular as páginas desenhando Mapas de imagem. Também requer a inserção de dados de sobreposição e link de hipertexto. Como opção, você pode personalizar o índice para que os visualizadores vejam os nomes das páginas em vez dos números das páginas no Visualizador de eCatalog.
 
 ## Criar um eCatalog {#create}
 
@@ -38,9 +38,9 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 1. Comece a criar seu eCatalog com uma destas técnicas:
 
-   * **Selecione os arquivos primeiro**: No Painel Procurar, selecione arquivos e vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
+   * **Selecione os arquivos primeiro**: No painel Procurar, selecione os arquivos e vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
 
-   * **Iniciar na tela eCatalog**: Vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Selecione uma pasta na Biblioteca de ativos e arraste os arquivos da pasta para a guia Ordenar páginas da página eCatalog.
+   * **Iniciar na tela eCatalog**: Vá para **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Selecione uma pasta na Biblioteca de ativos. Arraste os arquivos da pasta para a guia Ordenar páginas da página eCatalog.
 
      >[!NOTE]
      >
@@ -98,7 +98,7 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
 
 O Adobe Dynamic Media Classic fornece números de página padrão em seu eCatalog na guia Ordenar páginas da tela eCatalog. Para nomes de página personalizados, é possível alterar os rótulos de página que constituem o índice. É recomendável renomear a tampa frontal e traseira. Por exemplo, a folha de rosto pode ler &quot;Capa&quot; em vez de &quot;Página 0-1&quot;.
 
-Você pode criar um sumário personalizado (TOC) para seu eCatalog manualmente ou importando os nomes de página de um arquivo CSV (somente Mac) ou XML.
+Você pode criar um sumário personalizado (TOC) para seu eCatalog manualmente. Ou você pode importar os nomes de página de um arquivo CSV (somente Mac) ou XML.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Você pode criar um sumário personalizado (TOC) para seu eCatalog manualmente o
 
 ### Inserção manual de nomes de página {#manually-entering-page-names}
 
-Para inserir manualmente os nomes de página, um de cada vez, vá para a guia Ordenar páginas da tela eCatalog. Em seguida, no campo Número da página, digite um nome para cada página que deseja nomear.
+Insira manualmente os nomes de página, um de cada vez, acessando a guia Ordenar páginas da tela do eCatalog. Em seguida, no campo Número da página, digite um nome para cada página que deseja nomear.
 
 ### Importar nomes de página {#importing-page-names}
 

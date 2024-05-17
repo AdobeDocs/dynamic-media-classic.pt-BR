@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
 
 1. Siga um destes procedimentos:
 
-   * **Selecione as imagens primeiro**: no Painel de navegação, selecione as imagens que deseja para o conjunto de imagens, vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
+   * **Selecione as imagens primeiro**: No painel Procurar, selecione as imagens que deseja para o Conjunto de imagens, vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
 
    * **Comece na tela Conjunto de imagens**: Vá para **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**. A tela Conjunto de imagens é aberta. Selecione uma pasta na Biblioteca de ativos e arraste as imagens desejadas para o Conjunto de imagens na tela Conjunto de imagens.
 

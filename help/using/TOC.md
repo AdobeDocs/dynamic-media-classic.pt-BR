@@ -6,7 +6,7 @@ user-guide-title: Guia do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic
 index: y
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -91,7 +91,7 @@ ht-degree: 0%
 + Zoom {#zoom}
    + [Início rápido: Zoom](quick-start-zoom.md)
    + [Carregar imagens Zoom](uploading-zoom-images.md)
-   + [Criar destinos de zoom para Zoom guiado](creating-zoom-targets-guided-zoom.md)
+   + [Criar destinos de zoom para zoom guiado](creating-zoom-targets-guided-zoom.md)
    + [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md)
    + [Visualizar ativos de imagem com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md)
    + [Publicar imagens com zoom](publishing-zoom-images.md)

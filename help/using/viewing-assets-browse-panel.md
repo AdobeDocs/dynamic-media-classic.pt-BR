@@ -10,7 +10,7 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Exibir ativos no painel Procurar{#viewing-assets-in-the-browse-panel}
 
-Você pode alterar a exibição de ativos no Painel de navegação selecionando um botão Exibir:
+Você pode alterar a exibição de ativos no painel Procurar selecionando um botão Exibir:
 
 * **Exibição em grade**: Próximo ao canto superior direito da tela do Adobe Dynamic Media Classic, selecione a **[!UICONTROL Grid View]** ícone para ver ativos no formulário de miniatura em uma grade. Na Exibição em grade, você pode arrastar o controle deslizante de Miniatura para alterar o tamanho das imagens em miniatura.
 

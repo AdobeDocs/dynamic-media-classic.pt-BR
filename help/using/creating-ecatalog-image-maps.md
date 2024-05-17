@@ -10,7 +10,7 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Para excluir um Mapa de imagem, selecione seu nome na lista Mapa de imagem e sel
 
 ## Incorporar mídia avançada em um eCatalog {#embedding-rich-media-in-an-ecatalog}
 
-Você pode usar a opção de mídia avançada do eCatalog para adicionar vídeos em formato MP4 ou conjuntos de rotação a Mapas de imagem adicionados a um eCatalog. Quando um usuário seleciona a área Mapa de imagem no eCatalog, o conjunto de rotação ou vídeo associado é exibido. Essa funcionalidade é especialmente útil se você quiser que os clientes vejam um item em uso ou vejam um item de diferentes ângulos e perspectivas.
+Você pode usar a opção de mídia avançada do eCatalog para adicionar vídeos em formato MP4 ou conjuntos de rotação para mapas de imagem adicionados a um eCatalog. Quando um usuário seleciona a área Mapa de imagem no eCatalog, o Spin Set ou vídeo associado é exibido. Essa funcionalidade é especialmente útil se você quiser que os clientes vejam um item em uso ou vejam um item de diferentes ângulos e perspectivas.
 
 Opcionalmente, também é possível exibir o texto da dica de ferramenta quando os clientes movem os ponteiros sobre o Mapa de imagem para que eles saibam o que estão selecionando.
 
@@ -66,7 +66,7 @@ Opcionalmente, também é possível exibir o texto da dica de ferramenta quando 
    Consulte [Desenhar mapas de imagem do eCatalog](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Na lista suspensa Mostrar, selecione **[!UICONTROL Rich Media]**.
-1. No painel Adicionar ativos à esquerda, navegue até uma pasta que contenha o conjunto de rotação ou ativo de vídeo (formato MP4) que deseja incorporar.
+1. No painel Adicionar ativos à esquerda, navegue até uma pasta que contenha o ativo Spin Set ou vídeo (formato MP4) que deseja incorporar.
 1. Arraste o ativo para o Mapa de imagem.
 1. (Opcional) No painel Lista de mapas de imagem, na guia **[!UICONTROL Tool Tip]** cabeçalho de coluna, digite o texto que você deseja que os visualizadores vejam na tela quando movem o ponteiro sobre o Mapa de imagem.
 1. Selecionar **[!UICONTROL Save]**.

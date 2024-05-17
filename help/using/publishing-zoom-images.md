@@ -10,7 +10,7 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -23,7 +23,7 @@ A publicação coloca as imagens de zoom nos Dynamic Media Image Servers para qu
 
 ## Marcar imagens para publicação {#marking-images-for-publish}
 
-As imagens devem ser marcadas para publicação para que sejam copiadas para os Servidores de imagem da Dynamic Media. Você pode marcar suas imagens para publicação no Painel de navegação selecionando o **[!UICONTROL Mark for Publish]** ícone. Você também pode marcar imagens para publicação ao carregá-las.
+As imagens devem ser marcadas para publicação para que sejam copiadas para os Servidores de imagem da Dynamic Media. Você pode marcar suas imagens para publicação no painel Procurar selecionando o **[!UICONTROL Mark for Publish]** ícone. Você também pode marcar imagens para publicação ao carregá-las.
 
 ## Publicar as imagens {#publishing-the-images}
 

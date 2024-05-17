@@ -10,7 +10,7 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Last Modified Date:
 
 1. Siga um destes procedimentos:
 
-   * No Painel Procurar, selecione **[!UICONTROL Mark For Publish]** ao lado de cada nome de arquivo que você deseja publicar.
+   * No painel Procurar, selecione **[!UICONTROL Mark For Publish]** ao lado de cada nome de arquivo que você deseja publicar.
    * Na tela Upload, selecione **[!UICONTROL Mark For Publish]** ao lado de cada nome de arquivo que você deseja publicar.
 
 1. Na barra Navegação global, selecione **[!UICONTROL Publish]**.

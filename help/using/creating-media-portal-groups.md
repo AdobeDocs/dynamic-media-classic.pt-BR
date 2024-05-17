@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Se você não conceder especificamente uma permissão de grupo a um ativo ou pas
 
    Consulte [Estabelecer permissões de acesso a ativos para um grupo](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Se quiser escolher quais Predefinições de imagem estarão disponíveis para o grupo, selecione a **[!UICONTROL Image Preset Access Permissions]** e selecione Predefinições de imagem que o grupo pode usar.
+1. Você pode escolher quais Predefinições de imagem estarão disponíveis para o grupo. Basta clicar no link **[!UICONTROL Image Preset Access Permissions]** e selecione Predefinições de imagem que o grupo pode usar.
 
    Consulte [Escolher permissões de acesso de Predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -56,7 +56,7 @@ Se você não conceder especificamente uma permissão de grupo a um ativo ou pas
    * Para editar as permissões de um grupo, selecione o grupo e **[!UICONTROL Edit]**.
 
 1. Na caixa de diálogo Adicionar grupo ou Editar grupo, selecione a **[!UICONTROL Asset Access Permissions]** guia. O lado direito da guia oferece caixas para estabelecer permissões de leitura, gravação e exclusão para pastas e ativos. Você pode expandir e recolher pastas e subpastas no painel esquerdo.
-1. Para atribuir direitos a pastas ou ativos individuais, selecione a pasta no painel esquerdo. O conteúdo da pasta é exibido no painel direito. Em seguida, atribua direitos ao grupo selecionando as caixas dos arquivos ou pastas correspondentes no painel direito.
+1. Para atribuir direitos a pastas ou ativos individuais, selecione a pasta no painel esquerdo. O conteúdo da pasta é exibido no painel direito. Em seguida, atribua direitos ao grupo selecionando as caixas dos arquivos correspondentes. Ou selecione as pastas no painel direito.
 
    Esta tabela mapeia diferentes tarefas para permissões de leitura, gravação e exclusão.
 
@@ -98,6 +98,6 @@ Consulte também [Especifique as opções de exportação disponíveis para os u
 1. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Na página Lista de grupos, selecione um grupo e edite-o ou exclua-o.
 
-   **Editar um grupo**: Selecionar **[!UICONTROL Edit]** e escolha opções na caixa de diálogo Editar grupo.
+   **Editar um grupo**: Selecionar **[!UICONTROL Edit]** e escolha as opções na caixa de diálogo Editar grupo.
 
    **Excluir um grupo**: Selecionar **[!UICONTROL Delete]**.

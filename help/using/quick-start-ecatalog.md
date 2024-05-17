@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Consulte [Fazer upload dos arquivos PDF](uploading-pdf-files.md#uploading_the_pd
 
 ## 2. Criar um eCatalog
 
-Crie seu eCatalog selecionando PDF ou arquivos de imagem no Painel de navegação. Selecionar **[!UICONTROL Build]** e escolha **[!UICONTROL eCatalogs]**.
+Crie seu eCatalog selecionando PDF ou arquivos de imagem no painel Procurar. Selecionar **[!UICONTROL Build]** e escolha **[!UICONTROL eCatalogs]**.
 
 Na página eCatalog, no campo **[!UICONTROL Order Pages]** selecione uma opção de Layout: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** ou **[!UICONTROL Custom]**. É possível reorganizar páginas ou páginas espelhadas arrastando-as ou, em um eCatalog grande, escolhendo um nome de página no menu Mover para.
 
@@ -108,7 +108,7 @@ Consulte [Configurar Predefinições do Visualizador de eCatalog](setting-ecatal
 
 As Predefinições do visualizador de eCatalog determinam o estilo e o comportamento dos visualizadores de eCatalog.
 
-Para descobrir como as Predefinições do visualizador de eCatalog exibem seu eCatalog, selecione o eCatalog no Painel de navegação e, em seguida, **[!UICONTROL Preview]**. A tela Preview é aberta no visualizador padrão.
+Para descobrir como as Predefinições do visualizador do eCatalog exibem seu eCatalog, selecione o eCatalog no painel Procurar e, em seguida, selecione **[!UICONTROL Preview]**. A tela Preview é aberta no visualizador padrão.
 
 Observe a orientação, o esquema de cores, a aparência dos controles para alterar as páginas e a aparência das páginas quando elas são viradas.
 
@@ -118,13 +118,13 @@ Consulte [Visualizar eCatalogs no Visualizador de eCatalog](previewing-ecatalogs
 
 A publicação do eCatalog e do PDF associado o coloca nos Dynamic Media Image Servers para que ele possa ser entregue ao seu site e aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa a cadeia de caracteres de URL do seu eCatalog. Use esse URL para chamar o eCatalog dos Dynamic Media Image Servers para o seu site ou aplicativo.
 
-Depois de marcar seu eCatalog e PDF para publicação no Painel Navegar, selecione o botão Publicar na barra Navegação global para iniciar uma publicação. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
+Depois de marcar seu eCatalog e PDF para publicação no painel Procurar, selecione o botão Publicar na barra Navegação global para iniciar uma publicação. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicar eCatalogs e PDF associados](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## 7. Vincular um eCatalog a uma página da Web
 
-O Adobe Dynamic Media Classic ativa a string de chamada de URL necessária para exibir seu eCatalog quando você o publica nos Dynamic Media Image Servers. Você pode copiar essa cadeia de caracteres de URL da tela Visualização e do Painel de navegação (na Exibição de detalhes) selecionando URLs no painel. Depois de copiar a cadeia de caracteres do URL, ela fica disponível para seus sites e aplicativos.
+O Adobe Dynamic Media Classic ativa a string de chamada de URL necessária para exibir seu eCatalog quando você o publica nos Dynamic Media Image Servers. Você pode copiar essa cadeia de caracteres de URL na tela Visualização e no painel Procurar (na Exibição de detalhes) selecionando URLs no painel. Depois de copiar a cadeia de caracteres do URL, ela fica disponível para seus sites e aplicativos.
 
 Trabalhe com sua equipe de TI para colocar o link para o eCatalog no local apropriado em sua página da Web. Quando os usuários selecionam o link, o eCatalog Viewer é exibido e os usuários podem navegar pelo seu eCatalog.
 

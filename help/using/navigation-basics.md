@@ -10,16 +10,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # Noções básicas de navegação{#navigation-basics}
 
-A tela do Adobe Dynamic Media Classic inclui três áreas principais: Barra de navegação global, Biblioteca de ativos, guia Filtros de ativos, Painel de navegação/Painel de criação e Carrinho de mídia (somente Portal de mídia).
+A tela do Adobe Dynamic Media Classic inclui três áreas principais: Barra de navegação global, Biblioteca de ativos, guia Filtros de ativos, Painel Procurar/Painel de criação e Carrinho de mídia (somente Portal de mídia).
 
 ![Noções básicas de navegação](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *Áreas principais do Adobe Dynamic Media Classic*
@@ -63,11 +63,11 @@ A parte superior do painel Biblioteca de ativos tem comandos para localizar ativ
 >
 >É possível selecionar **[!UICONTROL Asset Library]** controles para abrir ou fechar a Biblioteca de ativos e obter mais espaço para trabalhar na tela. Selecione o **[!UICONTROL Expand]**/**[!UICONTROL Collapse]** controle para expandir ou fechar o painel. Esses controles estão no lado esquerdo do painel.
 
-## Painel de navegação/Painel de construção {#browse-panel-build-panel}
+## Painel Procurar/Painel Criar {#browse-panel-build-panel}
 
 O painel Procurar/Criar é onde você faz a maior parte do seu trabalho. As funções disponíveis nesse painel dependem se você está no modo Procurar ou no modo Criar.
 
-* **[!UICONTROL Browse mode]**: para visualizar e trabalhar com o conteúdo de uma pasta no Painel de navegação, selecione uma pasta na Biblioteca de ativos. Esse painel oferece a **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]**, e **[!UICONTROL Sort]** menus para trabalhar com ativos. Também é possível visualizar ativos de diferentes maneiras movendo o controle deslizante ou selecionando **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Selecionar **[!UICONTROL Detail View]** ou clicar duas vezes em um ativo abre o ativo na Exibição de detalhes, onde você pode executar operações de arquivos dependentes de ativos.
+* **[!UICONTROL Browse mode]**: Você pode visualizar e trabalhar com o conteúdo de uma pasta no painel Procurar. Selecione uma pasta na Biblioteca de ativos. Esse painel oferece a **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]**, e **[!UICONTROL Sort]** menus para trabalhar com ativos. Também é possível visualizar ativos de diferentes maneiras movendo o controle deslizante ou selecionando **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Selecionar **[!UICONTROL Detail View]** ou clicar duas vezes em um ativo abre o ativo na Exibição de detalhes, onde você pode executar operações de arquivos dependentes de ativos.
 
 * **[!UICONTROL Build mode]**: Selecionar **[!UICONTROL Build]** Em seguida, escolha uma opção para começar a criar um eCatalog, Conjunto de imagens, Conjunto de rotação ou um dos vários outros itens disponíveis no menu Criar. A página Criar é aberta. Você pode selecionar os ativos com os quais deseja trabalhar antes ou depois de entrar no modo Criar.
 

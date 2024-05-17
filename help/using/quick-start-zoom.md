@@ -10,7 +10,7 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -35,11 +35,11 @@ Comece carregando suas imagens de zoom no Adobe Dynamic Media Classic. Para obte
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para fazer upload de imagens do seu computador ou rede para uma pasta no Adobe Dynamic Media Classic. Consulte [Carregar imagens com zoom](uploading-zoom-images.md#uploading_zoom_images).
 
-## 2. Criar destinos de zoom para zoom guiado
+## 2. Criar Metas de Zoom para zoom guiado
 
-Os destinos de zoom apresentam uma maneira de destacar partes específicas de uma imagem. Por exemplo, é possível direcionar atenção às partes de uma imagem que a tornam única ou distinta. Na janela Zoom Viewer, os destinos de zoom aparecem na forma de imagens em miniatura na lateral da imagem. Selecionar uma dessas miniaturas de destino de zoom automaticamente dá zoom a uma parte da imagem especificada.
+Os destinos de zoom apresentam uma maneira de destacar partes específicas de uma imagem. Por exemplo, é possível direcionar atenção às partes de uma imagem que a tornam única ou distinta. Na janela Visualizador de zoom, os Destinos de zoom são exibidos no formato de miniaturas junto à imagem. Selecionar uma dessas miniaturas de destino de zoom automaticamente dá zoom a uma parte da imagem especificada.
 
-Para criar um destino de zoom, selecione **[!UICONTROL Edit]** e escolha Destinos de zoom ou abra uma imagem no Painel Procurar da Exibição de detalhes e selecione **[!UICONTROL Zoom Targets]**. Em seguida, use as ferramentas Zoom na página Editor de destino de zoom para isolar parte da imagem como um destino. Consulte [Criar destinos de zoom para Zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+Para criar um destino de zoom, selecione **[!UICONTROL Edit]** e escolha Destinos de Zoom ou abra uma imagem no painel Procurar na Exibição de Detalhes e selecione **[!UICONTROL Zoom Targets]**. Em seguida, use as ferramentas Zoom na página Editor de destino de zoom para isolar parte da imagem como um destino. Consulte [Criar destinos de zoom para zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3. Configurar as predefinições do visualizador de zoom
 
@@ -53,9 +53,9 @@ Ofertas do Adobe Dynamic Media Classic **[!UICONTROL Zoom Viewer Preset]** opç�
 
 Você pode visualizar imagens em um Visualizador de zoom para ver qual é a experiência de zoom quando as imagens são ampliadas.
 
-Para explorar diferentes Predefinições do Visualizador de zoom e como elas apresentam a experiência de zoom, selecione uma imagem no Painel Procurar e selecione **[!UICONTROL Preview]**. Ir para **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** e selecione uma predefinição com o menu Zoom.
+Para explorar diferentes Predefinições do visualizador de zoom e como elas apresentam a experiência de zoom, selecione uma imagem no painel Procurar e selecione **[!UICONTROL Preview]**. Ir para **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** e selecione uma predefinição com o menu Zoom.
 
-Botões de zoom são exibidos. Você pode ver a aparência das imagens com zoom no seu site. Selecione os botões de Zoom (e os destinos de zoom) para testar as configurações da Predefinição do visualizador de zoom escolhida. Consulte [Visualizar imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Botões de zoom são exibidos. Você pode ver a aparência das imagens com zoom no seu site. Selecione os botões de Zoom (e os Destinos de Zoom) para testar as configurações da Predefinição do Visualizador de Zoom escolhida. Consulte [Visualizar imagens com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publicar imagens com zoom
 

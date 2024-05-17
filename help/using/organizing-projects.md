@@ -10,7 +10,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Depois de criar uma pasta de projeto, você pode colocar ativos nela. Os ativos 
 
 Para exibir, excluir e renomear uma pasta Projeto, siga um destes procedimentos:
 
-* **Procurar conteúdo**: selecione o nome da pasta na Biblioteca de ativos. Seus ativos aparecem no Painel de navegação.
+* **Procurar conteúdo**: selecione o nome da pasta na Biblioteca de ativos. Seus ativos aparecem no painel Procurar.
 
 * **Excluindo pastas de projeto**: selecione a pasta Projeto e depois selecione **[!UICONTROL Remove Project]**. A exclusão de ativos de uma pasta do projeto não os exclui do Adobe Dynamic Media Classic; os ativos permanecem nas pastas originais nas quais estão armazenados.
 
@@ -57,7 +57,7 @@ Para exibir, excluir e renomear uma pasta Projeto, siga um destes procedimentos:
 
 ## Adicionar ativos a uma pasta do projeto {#adding-assets-to-a-project-folder}
 
-Você pode adicionar imagens a uma pasta Projeto iniciando no Painel Procurar ou ao fazer upload de arquivos para a Adobe Dynamic Media Classic:
+Você pode adicionar imagens a uma pasta Projeto iniciando no painel Procurar ou ao fazer upload de arquivos para o Adobe Dynamic Media Classic:
 
 * **No painel Procurar**, selecione os ativos e arraste-os para uma pasta Projeto. Você também pode ir para **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Selecione um nome de pasta de projeto na caixa de diálogo Selecionar projeto e selecione **[!UICONTROL Submit]**.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-en
 
 ## 2. Visualizar vídeos em um visualizador de vídeo
 
-Para ver como um vídeo é reproduzido para usuários finais em um desktop, site ou dispositivo móvel, selecione o vídeo no Painel de navegação. Em seguida, selecione **[!UICONTROL Preview]**.
+Para ver como um vídeo é reproduzido para usuários finais em um desktop, site ou dispositivo móvel, selecione o vídeo no painel Procurar. Em seguida, selecione **[!UICONTROL Preview]**.
 
 Consulte [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -136,7 +136,7 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
 
 * Exibir o vídeo em sua própria janela pop-up ou modal; nesse caso, use **[!UICONTROL Copy URL]** recurso.
 
-  Para obter o URL para um vídeo, na Exibição em grade ou na Exibição em lista, selecione-o no Painel de navegação. Selecionar **[!UICONTROL Preview]** e selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
+  Para obter o URL para um vídeo, na Exibição em grade ou na Exibição em lista, selecione-o no painel Procurar. Selecionar **[!UICONTROL Preview]** e selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
 
   Ao selecionar **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código na HTML do site, site para dispositivos móveis ou aplicativo.
 
@@ -146,7 +146,7 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
 
 * Exibir o vídeo incorporado na página da Web, nesse caso, use o **[!UICONTROL Embed Code]** recurso.
 
-  Para obter o código incorporado de um vídeo, na exibição em grade ou em lista, selecione o vídeo no painel Procurar. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
+  Para obter o Código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no painel Procurar. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
   Selecionar **[!UICONTROL Close]** e cole o Código de inserção em uma ou mais páginas da Web.
 

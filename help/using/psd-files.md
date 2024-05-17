@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Estas opções estão disponíveis ao fazer upload de arquivos PSD:
 
       * **[!UICONTROL Layer Name]**: nomeia as imagens com os nomes das camadas no arquivo PSD. Por exemplo, uma camada chamada Etiqueta de preço no arquivo de PSD original se torna uma imagem chamada Etiqueta de preço. No entanto, se os nomes das camadas no arquivo PSD forem nomes de camadas padrão do Photoshop (Plano de fundo, Camada 1, Camada 2 e assim por diante), as imagens serão nomeadas após seus números de camada no arquivo PSD. <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop and layer number]**: Nomeia as imagens após os números de camada no arquivo PSD, ignorando os nomes de camada originais. As imagens são nomeadas com o nome de arquivo do Photoshop e um número de camada anexado. Por exemplo, a segunda camada de um arquivo chamado `Spring Ad.psd` é nomeado `Spring Ad_2` mesmo que tivesse um nome não padrão no Photoshop.
+      * **[!UICONTROL Photoshop and layer number]**: Nomeia as imagens de acordo com os números de camada no arquivo PSD, ignorando os nomes das camadas originais. As imagens são nomeadas com o nome de arquivo do Photoshop e um número de camada anexado. Por exemplo, a segunda camada de um arquivo chamado `Spring Ad.psd` é nomeado `Spring Ad_2` mesmo que tivesse um nome não padrão no Photoshop.
 
       * **[!UICONTROL Photoshop and layer name]**: Nomeia as imagens após o arquivo PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo PSD forem nomes de camadas Photoshop padrão. Por exemplo, uma camada chamada `Price Tag` em um arquivo PSD chamado `SpringAd` é nomeado `Spring Ad_Price Tag`. Uma camada com o nome padrão Camada 2 é chamada `Spring Ad_2`.
 
@@ -71,13 +71,13 @@ Estas opções estão disponíveis ao fazer upload de arquivos PSD:
 
 ## Exibir e editar camadas em um arquivo PSD {#viewing-and-editing-layers-in-a-psd-file}
 
-Se você selecionou a opção **[!UICONTROL Maintain Layers]** ao fazer upload do PSD, o Adobe Dynamic Media Classic rasgou as camadas individuais em ativos. É possível visualizar e editar as camadas de ativos pertencentes a um arquivo PSD abrindo o arquivo no Painel de navegação na Exibição de detalhes.
+Se você selecionou a opção **[!UICONTROL Maintain Layers]** ao fazer upload do PSD, o Adobe Dynamic Media Classic rasgou as camadas individuais em ativos. É possível visualizar e editar as camadas de ativos pertencentes a um arquivo PSD abrindo o arquivo no painel Procurar na Exibição de detalhes.
 
 >[!NOTE]
 >
 >O Adobe Dynamic Media Classic suporta até cinco níveis em um grupo de camadas aninhado.
 
-1. Clique duas vezes no arquivo PSD completo no Painel de navegação. O arquivo é aberto na Exibição de Detalhes.
+1. Clique duas vezes no arquivo PSD completo no painel Procurar. O arquivo é aberto na Exibição de Detalhes.
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ Se você selecionou a opção **[!UICONTROL Maintain Layers]** ao fazer upload d
 1. Clique duas vezes em uma camada e siga um destes procedimentos:
 
    * Para criar um Mapa de imagem na camada, selecione o **[!UICONTROL Image Map]** ícone. (Consulte [Criar mapas de imagem](creating-image-maps.md#creating_image_maps).)
-   * Para criar destinos de zoom na camada, selecione a **[!UICONTROL Zoom Targets]** ícone. (Consulte [Criar destinos de zoom para Zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * Para criar Destinos de Zoom na camada, selecione a **[!UICONTROL Zoom Targets]** ícone. (Consulte [Criar destinos de zoom para zoom guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
    * Para cortar a camada, selecione a **[!UICONTROL Crop]** ícone. (Consulte [Cortar uma imagem](cropping-image.md#cropping_an_image).)
    * Para ajustar a nitidez da camada, selecione **[!UICONTROL Sharpen]**. (Consulte [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).)
    * Para ajustar a camada, selecione **[!UICONTROL Adjust]**. (Consulte [Ajustar uma imagem](adjusting-image.md#adjusting_an_image).)

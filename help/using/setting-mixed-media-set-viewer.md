@@ -10,7 +10,7 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
    * Para editar uma Predefinição do visualizador de conjunto de mídia mista, selecione-a e, em seguida, **[!UICONTROL Edit]**.
 
 1. Na página Visualizador de configuração, digite um nome na caixa Nome da predefinição da Predefinição do visualizador de conjunto de mídia mista.
-1. Especificar **[!UICONTROL Tabs]** ou **[!UICONTROL No Tabs]**. Tabulações separam itens por tipo, como vídeos, amostras e conjuntos de rotação. Quando você não especificar nenhuma guia, todos os itens aparecerão em uma linha na janela Visualizar.
+1. Especificar **[!UICONTROL Tabs]** ou **[!UICONTROL No Tabs]**. Tabulações separam itens por tipo, como vídeos, amostras e Conjuntos de rotação. Quando você não especificar nenhuma guia, todos os itens aparecerão em uma linha na janela Visualizar.
 1. No **[!UICONTROL Name]** digite um nome para o visualizador que deseja adicionar.
 
    Por exemplo, se estiver adicionando um Conjunto de amostras ao Conjunto de mídias mistas, digite `Swatch Set A`.

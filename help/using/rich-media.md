@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Consulte [Início rápido: eCatalog](/help/using/quick-start-ecatalog.md).
 * **eVideo**: ofereça experiências de vídeo de alta qualidade para várias telas, incluindo desktops, dispositivos móveis e tablets. Use predefinições de codificação predefinidas do Adobe Dynamic Media Classic ou personalize a codificação para controlar a qualidade e o tamanho do vídeo. Organize, navegue e pesquise vídeos com suporte completo a metadados para obter um gerenciamento eficiente dos ativos de vídeo.
 Consulte [Início rápido: vídeo no Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
 
-* **Mapas de imagem**: veicule imagens de qualquer tamanho e formato dinamicamente em todo o site. Em vez de criar manualmente muitas imagens em tamanhos diferentes, use apenas uma imagem principal. À medida que o Adobe Dynamic Media Classic entrega a imagem solicitada, ele otimiza a imagem para obter resultados da mais alta qualidade em tamanho, formato, peso, qualidade e nitidez.
+* **Mapas de imagem**: veicule imagens de qualquer tamanho e formato dinamicamente em todo o site. Em vez de criar manualmente muitas imagens em tamanhos diferentes, você só precisa usar uma imagem principal. À medida que o Adobe Dynamic Media Classic entrega a imagem solicitada, ele otimiza a imagem para obter resultados da mais alta qualidade em tamanho, formato, peso, qualidade e nitidez.
 Consulte [Início rápido: dimensionamento de imagem](/help/using/quick-start-image-sizing.md).
 
 * **Conjuntos de imagem**: forneça uma experiência de compra interativa na qual os usuários possam visualizar os produtos em várias exibições. É possível combinar zoom, várias exibições e amostras de cores para obter uma experiência de visualização integrada.

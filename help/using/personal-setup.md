@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Todos os usuários podem alterar configurações na tela Configuração Pessoal.
 >
 >A tela Configuração pessoal lista a função de usuário que você tem no Adobe Dynamic Media Classic: Administrador da empresa, Administrador ou Usuário.
 
-As configurações de Configuração pessoal controlam o comportamento padrão do Painel de navegação, como você recebe configurações de email e senha. Lembre-se de selecionar **[!UICONTROL Save]** depois de alterar essas configurações.
+As configurações de Configuração pessoal controlam o comportamento padrão do painel Procurar, como você recebe configurações de email e senha. Lembre-se de selecionar **[!UICONTROL Save]** depois de alterar essas configurações.
 
 ## Informações da Minha conta
 
@@ -72,9 +72,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Navegador
 
-* **[!UICONTROL Thumbnail Size]**: determina o tamanho padrão das imagens em miniatura no Modo de exibição de grade no Painel de navegação.
+* **[!UICONTROL Thumbnail Size]**: determina o tamanho padrão das imagens em miniatura na Exibição em grade no painel Procurar.
 * **[!UICONTROL Default Asset Library View]**: determina se os ativos na Biblioteca de ativos para conjuntos de builds aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, se estiver criando um eCatalog grande com muitos arquivos PDF, você pode visualizar os ativos por nome para encurtar a lista.
-* **[!UICONTROL Default Browse Sort Order]**: determina a ordem em que os ativos aparecem por padrão no Painel de navegação. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
+* **[!UICONTROL Default Browse Sort Order]**: determina a ordem em que os ativos aparecem por padrão no painel Procurar. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
 * **[!UICONTROL Default Browse Location]**: permite definir o local de navegação como padrão, a última pasta pesquisada ou um local específico para o qual você navega e identifica. Você também pode definir o local de navegação para classificar os arquivos e pastas em ordem crescente ou decrescente.
 * **[!UICONTROL Default Browse View]**: determina se a Exibição em grade ou em lista é a exibição padrão exibida ao abrir o painel Procurar pela primeira vez.
 * **[!UICONTROL Splash Screen Display]**: determina se você verá alguma tela inicial, incluindo a tela inicial de boas-vindas.
@@ -83,7 +83,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Show File Size]**: exibe o tamanho do arquivo de um ativo quando você está navegando.
 * **[!UICONTROL Include UDFs in Search]**: Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados executadas, desmarque (padrão).
 
-  Se a maioria das pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, é possível selecionar essa opção para ativá-la. Como alternativa, use a Pesquisa avançada para oferecer uma experiência de pesquisa mais direcionada e rápida do que a inclusão de campos definidos pelo usuário.
+  Se a maioria das pesquisas de metadados se beneficiar da inclusão de campos definidos pelo usuário, é possível selecionar essa opção para ativá-la. Como alternativa, use a Pesquisa avançada para obter uma experiência de pesquisa mais direcionada e rápida do que com a inclusão de campos definidos pelo usuário.
 
   Consulte [Realização de uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
 
@@ -107,7 +107,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL Current Password]**: digite a senha atual.
 * **[!UICONTROL New Password]**: digite uma senha nova e válida. Sua senha deve atender aos seguintes requisitos:
-   * Ter entre 8 e 25 caracteres.
+   * Deve ter entre 8 e 25 caracteres.
    * Contêm pelo menos uma letra minúscula.
    * Contêm pelo menos uma letra maiúscula.
    * Ter pelo menos um número.

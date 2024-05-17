@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2163'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Consulte também [Nitidez](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.h
 
 **Para ajustar a nitidez de uma imagem:**
 
-Para ajustar a nitidez de uma imagem, selecione sua sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Sharpen]**, ou abra-o no Painel de Navegação na Exibição de Detalhes e selecione **[!UICONTROL Sharpen]**. A página Editor de nitidez é aberta com comandos de nitidez. Escolha os comandos desejados e clique em **[!UICONTROL Save]**.
+Para ajustar a nitidez de uma imagem, selecione sua sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Sharpen]**, ou abra-o no painel Procurar na Exibição de detalhes e, em seguida, selecione **[!UICONTROL Sharpen]**. A página Editor de nitidez é aberta com comandos de nitidez. Escolha os comandos desejados e clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >

@@ -10,9 +10,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL. Depois de publicar uma imagem, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência à Predefinição de imagem nos servidores de imagem da Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
 
-Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Adobe Dynamic Media Classic. Para obter uma cadeia de caracteres de URL gerada com uma Predefinição de imagem, vá para a tela Visualização ou o Painel de navegação (na Exibição de detalhes).
+Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Adobe Dynamic Media Classic. Para obter uma cadeia de caracteres de URL gerada com uma Predefinição de imagem, vá para a tela Visualização ou o painel Procurar (na Exibição de detalhes).
 
 ## Obter um URL de predefinição de imagem {#obtaining-an-image-preset-url}
 
@@ -40,7 +40,7 @@ Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplica
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um único ativo de imagem e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
    * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
-1. (Opcional) Na Lista de predefinições de imagem, na lista suspensa Codificação de URL para geração de URL de cópia, selecione a codificação de URL a ser aplicada ao URL do ativo de imagem quando ele for copiado.
+1. (Opcional) Na Lista de predefinições de imagem, na lista suspensa Codificação de URL para geração de URL de cópia, selecione a Codificação de URL a ser aplicada ao URL do ativo de imagem quando ele for copiado.
 1. Na janela Lista de predefinições de imagem, na área superior direita do painel de visualização, selecione **[!UICONTROL Copy URL]** para o tipo de predefinição selecionado.
 1. No canto inferior direito da janela Lista de predefinições de imagens, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
 
@@ -80,7 +80,7 @@ Os nomes das predefinições de imagem em URLs são colocados em cifrões ($). Q
 
 ## Adicionar imagens dinâmicas à sua página da Web {#adding-dynamic-images-to-your-web-page}
 
-Para adicionar imagens dinâmicas à sua página da Web, `<IMG>` A tag do no código da página da Web do HTML geralmente é modificada usando a string de URL do Adobe Dynamic Media Classic para fazer uma solicitação aos servidores de imagem da Dynamic Media. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
+Ao adicionar imagens dinâmicas à sua página da Web, a variável `<IMG>` A tag do no código da página de HTML geralmente é modificada usando a string de URL do Adobe Dynamic Media Classic para fazer uma solicitação aos servidores de imagem da Dynamic Media. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
 
 Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
 

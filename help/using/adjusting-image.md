@@ -10,7 +10,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an
 
 **Para ajustar uma imagem:**
 
-1. Selecione o botão Editar de rolagem da imagem e escolha Ajustar ou, no Painel de navegação, clique duas vezes na imagem para que ela seja aberta na Exibição de detalhes.
+1. Selecione o botão Editar de rolagem da imagem e escolha Ajustar ou, no painel Procurar, clique duas vezes na imagem para que ela seja aberta na Exibição de detalhes.
 1. Selecione um tamanho e uma Predefinição de imagem (na parte inferior da janela).
 1. Use os comandos à direita do `Adjust Editor` para ajustar a imagem:
 

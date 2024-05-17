@@ -9,9 +9,9 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Antes de carregar um ativo de imagem, primeiro solicite uma chave de segredo com
 
 ## Solicitar uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicitar um *chave de segredo compartilhado* por [usar o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite uma chave de segredo compartilhado.
+Solicitar um *chave de segredo compartilhado* por [usar o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que você deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
@@ -134,7 +134,7 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
 * Se o perfil de cores e o nome do arquivo associados ao ativo devem ser preservados.
-* Usar plano de fundo de separação. Se você ativar Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento.
+* Usar um plano de fundo de separação. Se você ativar Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento.
 Consulte Plano de fundo de separação em [Opções de ajuste de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado.
 
@@ -181,7 +181,7 @@ Envie o ativo para fazer upload como uma publicação multipart/form enquanto en
 | Parâmetro de URL | Obrigatório ou Opcional | Valor |
 | --- | --- | --- |
 | `op` | Obrigatório | upload |
-| `upload_token` | Obrigatório | Token de upload para a chave de segredo compartilhado associada à empresa. |
+| `upload_token` | Obrigatório | Carregue um token para a chave de segredo compartilhado associada à empresa. |
 | `company_name` | Obrigatório | Nome da empresa que está fazendo o upload. |
 | `file_limit` | Opcional | Limite de tamanho do arquivo, em bytes, para o ativo. |
 | `file_exts` | Opcional | Lista de extensões permitidas para o arquivo de ativo de imagem. |

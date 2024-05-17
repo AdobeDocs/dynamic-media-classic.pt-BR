@@ -10,7 +10,7 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 As predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Adobe Dynamic Media Classic oferece muitas opções para personalizar e atribuir capa aos visualizadores. O Adobe Dynamic Media Classic vem com predefinições básicas (rápidas), de saída e personalizadas do visualizador de zoom. Se você for um administrador, poderá criar Predefinições do visualizador de zoom de empresa ou editar uma predefinição padrão e salvá-la com um novo nome.
 
-Todos os Visualizadores de zoom têm botões para ampliar, reduzir, deslocar e redefinir a imagem para seu estado original após o zoom. A aparência desses botões e a forma como a janela é exibida dependem da escolha de Predefinições do visualizador de zoom. É possível configurar uma Predefinição do visualizador de zoom com diferentes cores, bordas, fontes e configurações de imagem. Ao configurar um Visualizador de zoom guiado, você também pode escolher onde colocar os destinos de zoom. Os destinos de zoom são as miniaturas em que os usuários clicam para aplicar zoom nas áreas especificadas.
+Todos os Visualizadores de zoom têm botões para ampliar, reduzir, deslocar e redefinir a imagem para seu estado original após o zoom. A aparência desses botões e a forma como a janela é exibida dependem da escolha de Predefinições do visualizador de zoom. É possível configurar uma Predefinição do visualizador de zoom com diferentes cores, bordas, fontes e configurações de imagem. Ao configurar um Visualizador de zoom guiado, você também pode escolher onde colocar os Destinos de zoom. Os destinos de zoom são as miniaturas em que os usuários clicam para aplicar zoom nas áreas especificadas.
 
 ## Sobre as predefinições do visualizador de zoom {#about-zoom-viewer-presets}
 

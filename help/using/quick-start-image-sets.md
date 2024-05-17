@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Os Conjuntos de imagens do Adobe Dynamic Media Classic oferecem aos usuários uma experiência de visualização integrada. No Visualizador dinâmico do conjunto de imagens, os usuários podem ver diferentes exibições de um item selecionando uma imagem em miniatura. Os Conjuntos de imagens permitem apresentar visualizações alternativas de alta resolução de um item.
 
-O Visualizador de conjunto de imagens oferece ferramentas de zoom para examinar as imagens com atenção. Se desejar, você pode tornar destinos de zoom guiados e Mapas de imagem parte do Conjunto de imagens. Os conjuntos de imagens proporcionam uma experiência de visualização mais organizada e íntima.
+O Visualizador de conjunto de imagens oferece ferramentas de zoom para examinar as imagens com atenção. Se desejar, você poderá tornar Destinos de zoom e Mapas de imagem parte do Conjunto de imagens. Os conjuntos de imagens proporcionam uma experiência de visualização mais organizada e íntima.
 
 Consulte [Conjuntos de imagem e rotação: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) vídeo de treinamento.
 
@@ -66,7 +66,7 @@ Consulte [Criar e editar predefinições do visualizador](application-setup.md#a
 
 ## 4. Visualizar um conjunto de imagens
 
-Selecione o Conjunto de imagens no Painel de navegação e selecione **[!UICONTROL Preview]**. Na página Visualizar, selecione os ícones de miniatura para examinar seu Conjunto de imagens no Visualizador selecionado. É possível escolher Visualizadores diferentes no menu Predefinições.
+Selecione o Conjunto de imagens no painel Procurar e selecione **[!UICONTROL Preview]**. Na página Visualizar, selecione os ícones de miniatura para examinar seu Conjunto de imagens no Visualizador selecionado. É possível escolher Visualizadores diferentes no menu Predefinições.
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
@@ -78,7 +78,7 @@ A publicação de um Conjunto de imagens o coloca nos servidores do Adobe Dynami
 >
 >Esta etapa não é necessária se você selecionou **[!UICONTROL Publish after a save]** (padrão) no momento em que você criou e salvou o Conjunto de imagens.
 
-Selecionar **[!UICONTROL Mark for Publish]** ícone à esquerda do nome no Painel de navegação. Em seguida, selecione **[!UICONTROL Publish]**. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
+Selecionar **[!UICONTROL Mark for Publish]** ícone à esquerda do nome no painel Procurar. Em seguida, selecione **[!UICONTROL Publish]**. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicar arquivos](publishing-files.md#publishing-files).
 

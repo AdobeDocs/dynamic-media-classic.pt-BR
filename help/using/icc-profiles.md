@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -25,7 +25,7 @@ No Adobe Dynamic Media Classic, você pode escolher um perfil ICC para converter
 
 Consulte [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
 
-Além de usar os perfis ICC padrão, você pode fazer upload de outros perfis ICC para o Adobe Dynamic Media Classic e disponibilizá-los para conversão de espaço de cores. Alterne para a Exibição de detalhes no Painel de navegação para investigar a classe de perfil, o tipo de espaço de cores e o tipo de PCS de um perfil ICC.
+Além de usar os perfis ICC padrão, você pode fazer upload de outros perfis ICC para o Adobe Dynamic Media Classic e disponibilizá-los para conversão de espaço de cores. Alterne para a Exibição de detalhes no painel Procurar para investigar a classe de perfil, o tipo de espaço de cores e o tipo de PCS de um perfil ICC.
 
 ## Carregar perfis ICC {#uploading-icc-profiles}
 
@@ -35,7 +35,7 @@ Consulte [Fazer upload dos arquivos](uploading-files.md#uploading_your_files).
 
 ## Examinar um perfil ICC {#examining-an-icc-profile}
 
-Para examinar um perfil ICC, selecione-o no Painel de navegação e exiba-o na Exibição de detalhes. A Exibição de detalhes fornece estas informações sobre perfis ICC:
+Para examinar um perfil ICC, selecione-o no painel Procurar e exiba-o na Exibição de detalhes. A Exibição de detalhes fornece estas informações sobre perfis ICC:
 
 * **[!UICONTROL Profile Class]**: O ICC (International Color Consortium) define cada classe para abranger um tipo de aplicativo. Por exemplo, perfis de entrada se aplicam a dispositivos como câmeras digitais e scanners, e perfis de saída se aplicam a impressoras.
 

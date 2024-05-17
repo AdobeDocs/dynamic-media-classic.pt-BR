@@ -10,7 +10,7 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Você pode cortar uma imagem para remover um espaço em branco ao redor dela ou 
 
 Você pode cortar os pixels transparentes ou de cores sólidas da borda de uma imagem.
 
-1. Para recortar uma imagem, selecione sua sobreposição **[!UICONTROL Edit]** e selecione **[!UICONTROL Crop]** ou exiba-o no Painel de Navegação na Exibição de Detalhes e selecione o **[!UICONTROL Crop]** botão.
+1. Para recortar uma imagem, selecione sua sobreposição **[!UICONTROL Edit]** e selecione **[!UICONTROL Crop]** ou exiba-o no painel Procurar na Exibição de detalhes e selecione a **[!UICONTROL Crop]** botão.
 1. Na página do Editor de corte, siga um destes procedimentos:
 
    * Para cortar pixels de cor, vá para **[!UICONTROL Trim]** > **[!UICONTROL Color]**. No **[!UICONTROL Auto Crop By Color]** , selecione a **[!UICONTROL Corner]** e escolha um canto com a cor do plano de fundo que você deseja cortar. Em seguida, insira um **[!UICONTROL Tolerance]** configuração de 0 a 1. A configuração 0 recorta os pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Números próximos a 1 permitem mais diferença de cor. Selecionar **[!UICONTROL Crop]**.
@@ -45,7 +45,7 @@ Você pode cortar os pixels transparentes ou de cores sólidas da borda de uma i
 
 ## Selecione uma área para cortar {#select-an-area-to-crop}
 
-1. Para recortar uma imagem, selecione sua sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Crop]** ou exiba-o no Painel de navegação na Exibição de detalhes e selecione **[!UICONTROL Crop]**.
+1. Para recortar uma imagem, selecione sua sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Crop]** ou exiba-o no painel Procurar na Exibição de detalhes e selecione **[!UICONTROL Crop]**.
 
 1. Na janela Editor de corte, coloque a parte da imagem que você não deseja cortar na caixa de corte. O que aparecer dentro da caixa é o que permanecerá após a seleção **[!UICONTROL Save]** e recorte a imagem.
 1. Para ajustar a área de corte, siga um destes procedimentos:

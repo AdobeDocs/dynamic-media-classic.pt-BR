@@ -10,7 +10,7 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
@@ -66,6 +66,6 @@ Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar um 
 
 ## 5. Vincular URLs à sua aplicação web
 
-O Adobe Dynamic Media Classic cria strings de texto explicativo de URL para imagens. Ao publicar imagens nos Dynamic Media Image Servers, os URLs ficam ativos. Você pode copiar essas cadeias de caracteres de URL do Painel de navegação (na Exibição de detalhes) ou da tela de Visualização. Após copiar as cadeias de caracteres de URL, é possível usá-las no site e nos aplicativos. O URL para dimensionamento de imagem substitui a referência a um nome de imagem estática no código da página da Web. O URL faz referência a um nome de imagem principal que o banco de dados substitui para cada nova imagem a ser exibida.
+O Adobe Dynamic Media Classic cria strings de texto explicativo de URL para imagens. Ao publicar imagens nos Dynamic Media Image Servers, os URLs ficam ativos. Você pode copiar essas cadeias de caracteres de URL do painel Procurar (na Exibição de detalhes) ou da tela Visualização. Após copiar as cadeias de caracteres de URL, é possível usá-las no site e nos aplicativos. O URL para dimensionamento de imagem substitui a referência a um nome de imagem estática no código da página da Web. O URL faz referência a um nome de imagem principal que o banco de dados substitui para cada nova imagem a ser exibida.
 
 As cadeias de caracteres de URL geradas com Predefinições de imagem contêm o nome de uma Predefinição de imagem. Esse nome está entre cifrões (`$`). Por exemplo, `$thumbnail$` pode ser a Predefinição de imagem projetada para mostrar as imagens principais no tamanho da miniatura. Consulte [Vincular URLs ao aplicativo web](linking-urls-web-application.md#linking_urls_to_your_web_application).
