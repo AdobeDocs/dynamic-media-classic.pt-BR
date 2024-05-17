@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Para acessar as configurações de estilo, vá para **[!UICONTROL Setup]** > **[
 
 * **[!UICONTROL Application]**: crie uma mistura de cores de gradiente fazendo escolhas nos menus das Cores de gradiente de plano de fundo.
 
-* **[!UICONTROL Tree]**: escolha uma cor de rolagem (a cor que aparece quando você move o ponteiro sobre um item) e a cor de seleção (a cor que aparece quando você seleciona um item).
+* **[!UICONTROL Tree]**: escolha uma cor de sobreposição e uma cor de seleção.
 
 * **[!UICONTROL Accordion]**: escolha as cores do plano de fundo, um estilo de borda, a sobreposição e as cores selecionadas para o acordeão exibido no lado direito da tela na exibição de Detalhes.
 

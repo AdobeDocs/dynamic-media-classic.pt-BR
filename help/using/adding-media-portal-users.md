@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Como administrador, você pode adicionar e gerenciar usuários, decidir se eles 
 
 >[!NOTE]
 >
->Antes de adicionar usuários, configure grupos para administrá-los. O Media Portal não permite adicionar um usuário sem atribuir o usuário a um ou mais grupos. Para obter mais informações, consulte [Criar e gerenciar grupos do Portal de mídia](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>Antes de adicionar usuários, configure grupos para administrá-los. O Media Portal permite adicionar um usuário ao atribuir o usuário a um ou mais grupos. Para obter mais informações, consulte [Criar e gerenciar grupos do Portal de mídia](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## Administração de senhas do Portal de mídia {#handling-media-portal-passwords}
 
@@ -41,7 +41,7 @@ Os usuários do Portal de mídia, os colaboradores e os usuários-colaboradores 
 
 1. Navegue até **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Na página Administração do usuário, selecione **Adicionar**.
-1. No **[!UICONTROL `Add User`]** caixa de diálogo, no painel Informações do usuário, digite o Nome, Sobrenome e Endereço de email do usuário e selecione **[!UICONTROL Next]**.
+1. No **[!UICONTROL `Add User`]** caixa de diálogo, no painel Informações do usuário, digite o nome, sobrenome e endereço de email do usuário e selecione **[!UICONTROL Next]**.
 1. No painel Empresa/Função, na lista suspensa Empresas, selecione uma empresa ou empresas para o usuário.
 1. Na lista Função, selecione uma função Portal de mídia e, em seguida, selecione **[!UICONTROL Next]**.
 
@@ -95,7 +95,7 @@ Cada usuário na lista é adicionado automaticamente aos grupos especificados. U
 
 >[!NOTE]
 >
->Se o arquivo CSV não tiver sido formatado corretamente, a seguinte mensagem de erro será exibida: &quot;Ocorreu um erro ao processar o arquivo CSV carregado. Verifique se há dados válidos no conteúdo do arquivo.&quot; Além disso, se o CSV contiver um usuário IP ou IPS existente, o usuário não será adicionado à Lista de usuários.
+>Se o arquivo CSV não tiver sido formatado corretamente, a seguinte mensagem de erro será exibida: &quot;Ocorreu um erro ao processar o arquivo CSV carregado. Verifique se há dados válidos no conteúdo do arquivo.&quot; Além disso, se o CSV contiver um usuário IP ou IPS existente, ele não será adicionado à lista de usuários.
 
 ## Gerar uma lista selecionável de usuários do Portal de mídia {#generating-a-selectable-list-of-media-portal-users}
 

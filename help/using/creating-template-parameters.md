@@ -10,9 +10,9 @@ role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -59,4 +59,4 @@ Para fazer com que o nome do parâmetro use um valor de banco de dados, anexe a 
 ?$_2(parameter name)=(database value)
 ```
 
-O nome do parâmetro é substituído por nomes em um campo de banco de dados ou código Java™ indicando, por exemplo, o preço atual de um item ou um nome de cliente.
+Os nomes em um campo de banco de dados ou em um código Java™ substituem os nomes dos parâmetros. Essa funcionalidade indica, por exemplo, o preço atual de um item ou um nome de cliente.

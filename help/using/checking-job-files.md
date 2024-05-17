@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # Verificar arquivos de trabalho{#checking-job-files}
 
-Para monitorar os uploads de arquivos para o Adobe Dynamic Media Classic e os arquivos publicados nos servidores da Adobe Dynamic Media Classic, a Adobe Dynamic Media Classic oferece a página Jobs. Você pode revisar e publicar trabalhos na página Trabalhos, verificar o status dos trabalhos e cancelar trabalhos de publicação nesta página. Você também pode agendar trabalhos de upload e publicação.
+Para monitorar os uploads de arquivos para o Adobe Dynamic Media Classic e os arquivos publicados nos servidores da Adobe Dynamic Media Classic, a Adobe Dynamic Media Classic oferece a página Jobs. Você pode revisar, fazer upload e publicar trabalhos na página Trabalhos, verificar o status dos trabalhos e cancelar trabalhos de publicação nesta página. Você também pode agendar trabalhos de upload e publicação.
 
 Ao fazer upload de ativos, um ícone giratório é exibido ao lado do menu Trabalhos, indicando que um trabalho está em andamento e o número de arquivos em andamento. Você pode selecionar o ícone para ver mais informações sobre o job ativo.
 
@@ -49,7 +49,7 @@ Os jobs são listados nestas categorias na guia Histórico da página Jobs:
 
 * **[!UICONTROL Status]**: mostra o status do trabalho.
 
-* **[!UICONTROL Destination]**: para trabalhos de upload, o nome da empresa e a pasta na qual os arquivos foram carregados. Esta categoria não se aplica a trabalhos de publicação.
+* **[!UICONTROL Destination]**: para trabalhos de upload, o destino é o nome da empresa e a pasta na qual os arquivos foram carregados. Esta categoria não se aplica a trabalhos de publicação.
 
 * **[!UICONTROL Submitted By]**: lista quem carregou os ativos.
 
