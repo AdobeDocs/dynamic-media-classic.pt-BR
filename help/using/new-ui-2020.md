@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2868'
 ht-degree: 0%
@@ -125,7 +125,6 @@ As legendas adicionadas são compatíveis com os formatos WebVTT e Adobe VTT. E 
 1. Navegue até o ativo de vídeo carregado que você deseja adicionar várias legendas e faixas de áudio.
 1. No modo de seleção de ativos, na Exibição em lista ou na Exibição de cartão, selecione o ativo de vídeo.
 1. Na barra de ferramentas, selecione o ícone Propriedades (um círculo com um &quot;i&quot;).
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. Na página Propriedades do vídeo, selecione a **[!UICONTROL Captions & Audio Tracks]** guia.
 
    >[!TIP]
@@ -135,8 +134,6 @@ As legendas adicionadas são compatíveis com os formatos WebVTT e Adobe VTT. E 
    >* Ou o vídeo deve ser reprocessado pelo Dynamic Media. Nesse caso, consulte [Reprocessar ativos do Dynamic Media em uma pasta].
    >
    >Quando tiver concluído uma das tarefas acima, retorne a essas etapas.
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. Para adicionar uma ou mais faixas de áudio a um vídeo, faça o seguinte:
    1. Selecionar **[!UICONTROL Upload Audio Tracks]**.
@@ -165,7 +162,6 @@ As legendas adicionadas são compatíveis com os formatos WebVTT e Adobe VTT. E 
    | **Opção 2** | Quero que a IA gere meus arquivos de legenda em vários idiomas.<br>Consulte **Opção 2** na etapa 8 abaixo. |
    | **Opção 3** | O texto em um arquivo de legenda (.vtt) precisa ser corrigido, recarregado para substituir o arquivo .vtt antigo e, em seguida, fazer com que o AI traduza o arquivo corrigido.<br>Consulte **Opção 3** na etapa 8 abaixo. |
 
-
 +++**Opção 1:** *Tenho meus próprios arquivos de legenda pré-existentes que estão nos idiomas que desejo usar.*
 
    1. Ao lado superior direito da página, clique em **[!UICONTROL Create Caption]** > **[!UICONTROL Upload files]**.
@@ -189,7 +185,6 @@ As legendas adicionadas são compatíveis com os formatos WebVTT e Adobe VTT. E 
 
    1. Se você selecionou **[!UICONTROL Save & Close]** na etapa anterior, em vez de selecionar **[!UICONTROL Save]**, você ainda poderá visualizar o status de processamento dos arquivos carregados. Consulte [Exibir o status do ciclo de vida dos arquivos de legenda e trilha de áudio carregados].
    1. Continue com a etapa 9.
-
 +++
 
 +++**Opção 2:** *Quero que a IA gere meus arquivos de legenda em vários idiomas.*
@@ -218,7 +213,6 @@ As legendas adicionadas são compatíveis com os formatos WebVTT e Adobe VTT. E 
 
       É possível alterar ou editar determinados metadados de legenda posteriormente, se necessário. Quando o vídeo é publicado, esses detalhes de metadados são refletidos em URLs públicos em vídeos publicados.
    1. Continue com a etapa 9.
-
 +++
 
 +++**Opção 3:** *O texto em um arquivo de legenda (.vtt) precisa ser corrigido, recarregado para substituir o arquivo .vtt antigo e, em seguida, fazer com que o AI traduza o arquivo corrigido.*
@@ -248,7 +242,6 @@ As legendas adicionadas são compatíveis com os formatos WebVTT e Adobe VTT. E 
       É possível alterar ou editar determinados metadados de legenda posteriormente, se necessário. Quando o vídeo é publicado, esses detalhes de metadados são refletidos em URLs públicos em vídeos publicados.
 
    1. Continue com a etapa 9.
-
 +++
 
 1. (Opcional) Visualize o vídeo antes da publicação para garantir que as legendas e o áudio funcionem conforme esperado. Consulte [Visualizar um vídeo com várias legendas e faixas de áudio].
