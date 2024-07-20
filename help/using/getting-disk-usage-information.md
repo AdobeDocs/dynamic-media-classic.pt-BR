@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Obter informações de uso do disco {#get-disk-usage-information}
 
-Você pode usar o `disk_info` para recuperar informações sobre o uso de espaço em disco de uma empresa, conforme mostrado no exemplo a seguir:
+Você pode usar o parâmetro `disk_info` para recuperar informações sobre o uso de espaço em disco de uma empresa, conforme mostrado no exemplo a seguir:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

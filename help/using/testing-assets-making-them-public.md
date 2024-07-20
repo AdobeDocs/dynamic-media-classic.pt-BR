@@ -37,7 +37,7 @@ Se desejar, crie um ambiente de preparo em vez de disponibilizar os ativos publi
 
 A maioria das corporações usa a Internet com um firewall. O acesso à Internet é possível por meio de determinadas rotas e, normalmente, por meio de um intervalo limitado de endereços IP públicos.
 
-Na rede corporativa, você pode descobrir o endereço IP público usando sites como [https://www.whatismyip.com](https://www.whatismyip.com/) ou solicite essas informações à sua organização de TI corporativa.
+Na rede corporativa, você pode descobrir seu endereço IP público usando sites como o [https://www.whatismyip.com](https://www.whatismyip.com/) ou solicitar essas informações à organização de TI corporativa.
 
 Com o teste seguro, a Adobe Dynamic Media Classic estabelece um servidor de imagens dedicado para ambientes de preparo ou aplicativos internos. Qualquer solicitação a esse servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa do Adobe Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de teste seguro da empresa.
 
@@ -103,29 +103,29 @@ Last Modified Date:
  -->
 
 1. Entre em contato com o Atendimento ao cliente da Adobe e solicite que ele ative o Teste seguro em sua conta.
-1. No Adobe Dynamic Media Classic, na barra Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
-1. Na página Publicação do servidor de imagens, no **[!UICONTROL `Publish Context`]** selecione **[!UICONTROL Test Image Serving]**.
-1. Para o Filtro de endereço de cliente, selecione **[!UICONTROL Add]**.
+1. No Adobe Dynamic Media Classic, na barra Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
+1. Na página Publish do Servidor de imagens, na lista suspensa **[!UICONTROL `Publish Context`]**, selecione **[!UICONTROL Test Image Serving]**.
+1. Para o Filtro de Endereço de Cliente, selecione **[!UICONTROL Add]**.
 1. Marque a caixa de seleção para que o endereço seja ativado e digite um endereço IP e uma máscara de rede nos respectivos campos de texto.
 
    >[!NOTE]
    >
-   >Se você adicionar um único endereço IP e máscara de rede, esse endereço poderá fazer chamadas de ativos. No entanto, qualquer outro endereço IP e máscara de rede adicionados não têm permissão para fazer chamadas de ativos. Dessa forma, considere desativar (desativar) a caixa de seleção na etapa acima para desativar a capacidade de especificar um endereço IP e uma máscara de rede. Isso permite efetivamente *all* Endereços IP para fazer chamadas de ativos, e todos são exibidos.
+   >Se você adicionar um único endereço IP e máscara de rede, esse endereço poderá fazer chamadas de ativos. No entanto, qualquer outro endereço IP e máscara de rede adicionados não têm permissão para fazer chamadas de ativos. Dessa forma, considere desativar (desativar) a caixa de seleção na etapa acima para desativar a capacidade de especificar um endereço IP e uma máscara de rede. Com isso, *todos* os endereços IP efetivamente podem fazer chamadas de ativos, e todos eles são exibidos.
 
 1. Siga um destes procedimentos:
    * Repita as duas etapas anteriores se precisar adicionar mais endereços IP.
    * Continue com a próxima etapa.
-1. Na parte inferior esquerda da página Publicação de servidor de imagens, selecione **[!UICONTROL Save]**
+1. Na parte inferior esquerda da página do Publish do Servidor de imagens, selecione **[!UICONTROL Save]**
 1. Carregue as imagens desejadas na sua conta do Adobe Dynamic Media Classic.
 
-   Consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
+   Consulte [Carregar arquivos](uploading-files.md#uploading_files).
 
 1. Verifique se algumas imagens estão marcadas para publicação e outras estão desmarcadas e envie o trabalho de publicação.
 
-   Consulte [Publicar arquivos](publishing-files.md#publishing_files).
+   Consulte [arquivos Publish](publishing-files.md#publishing_files).
 
-1. Determine o nome do seu serviço de teste seguro acessando **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
-1. Na página Definições Gerais da Aplicação, no grupo Servidores, localize o nome à direita de **[!UICONTROL Test Publish Context Server Name]**.
+1. Determine o nome do seu serviço de Teste Seguro indo até **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
+1. Na página Configurações Gerais do Aplicativo, no grupo Servidores, encontre o nome à direita de **[!UICONTROL Test Publish Context Server Name]**.
 
 Entre em contato com o Adobe Care se o nome do servidor estiver ausente ou se os URLs do servidor não funcionarem.
 

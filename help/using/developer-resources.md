@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Os guias de referência para Visualizadores, Disponibilização de imagens e Renderização de imagens e Sistema de produção de imagens descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites que desejam personalizar ainda mais e usar a mídia avançada do Adobe Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. Presume-se que o usuário esteja familiarizado com o aplicativo de desktop do Dynamic Media Classic, padrões e convenções gerais do protocolo http e terminologia básica de geração de imagens.
 
-Consulte também [Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Consulte também [Recursos para desenvolvedores do Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Visualizadores {#viewers-guide}
 

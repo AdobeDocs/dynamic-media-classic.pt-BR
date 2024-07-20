@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Criar e ativar predefinições de imagem{#creating-and-enabling-image-presets}
 
-Quando os usuários exportam ativos de imagem usando o Media Portal, eles podem escolher uma Predefinição de imagem na caixa de diálogo Exportar ativos selecionados. Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
+Quando os usuários exportam ativos de imagem usando o Media Portal, eles podem escolher uma Predefinição de imagem na caixa de diálogo Exportar Assets selecionada. Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 
 Os administradores do Portal de mídia podem criar Predefinições de imagem para controlar como as imagens são reformatadas quando são exportadas. As Predefinições de imagem reformatam imagens de acordo com as especificações da sua empresa quando os usuários exportam imagens do Adobe Dynamic Media Classic. Em vez de reformatar imagens por conta própria, os usuários as exportam para as especificações precisas de uma Predefinição de imagem.
 
@@ -33,8 +33,8 @@ As seguintes restrições se aplicam quando você exporta ativos de imagem:
 >
 >Essas restrições se aplicam apenas à exportação de ativos de imagem derivados, não à exportação de arquivos principais.
 
-Para criar Predefinições de imagem, consulte [Predefinições da imagem](application-setup.md#image_presets).
+Para criar Predefinições de imagem, consulte [Predefinições de imagem](application-setup.md#image_presets).
 
-Para permitir que os usuários escolham Predefinições de imagem ao exportar arquivos, consulte [Especificação de opções de exportação disponíveis para usuários do Portal de mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Para permitir que os usuários escolham Predefinições de Imagem ao exportar arquivos, consulte [Especificação de opções de exportação disponíveis para usuários do Portal de Mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-Para escolher quais Predefinições de Imagem estão disponíveis para os membros de um grupo, consulte [Escolher permissões de acesso de Predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
+Para escolher quais Predefinições de Imagem estão disponíveis para os membros de um grupo, consulte [Escolher permissões de acesso de Predefinição de Imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).

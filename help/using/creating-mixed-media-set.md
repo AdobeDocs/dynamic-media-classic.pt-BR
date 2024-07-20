@@ -24,23 +24,23 @@ Crie um Conjunto de mídias mistas quando quiser combinar vários tipos de visua
 
 ## Criar um conjunto de mix de mídia {#create-a-mixed-media-set}
 
-Ao criar um conjunto, a variável **Publicar após salvar** opção afeta os membros set e set das seguintes maneiras:
+Ao criar um conjunto, a opção **Publish após salvar** afeta o conjunto e define membros das seguintes maneiras:
 
-| A opção &quot;Publicar após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| A opção &quot;Publish após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
 
-Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
-**Para criar um conjunto de mix de mídia:**
+**Para criar um Conjunto de Mídias Mistas:**
 
-1. Ir para **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**.
+1. Vá para **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**.
 1. Arraste os vídeos, Conjuntos de imagens, Conjuntos de rotação e amostras da Biblioteca de ativos para a tela Conjunto de mídias mistas.
 
    >[!NOTE]
    >
-   >Um Conjunto de mídias mistas não aceita ativos com nomes de arquivo que contenham qualquer um dos seguintes caracteres: `( ) { }`.
+   >Um Conjunto de mídias mistas não oferece suporte a ativos com nomes de arquivo que contenham qualquer um dos seguintes caracteres: `( ) { }`.
 
 1. Siga um destes procedimentos:
 
@@ -48,18 +48,18 @@ Consulte também [Publicação manual de ativos](publishing-files.md#manually_pu
    * Para alterar a ordem dos conjuntos, arraste-os para novos locais na tela Conjunto de mídias mistas. A ordem dos conjuntos na tela determina a ordem da esquerda para a direita na qual os usuários veem os conjuntos no Visualizador de conjunto de mídias mistas.
    * (Opcional) Para adicionar uma miniatura personalizada para representar um vídeo no Visualizador, arraste um arquivo de imagem da Biblioteca de ativos para a caixa de espaço reservado Miniatura.
 
-1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
-1. Selecionar **[!UICONTROL Save]**.
+1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionado (padrão).
+1. Selecione **[!UICONTROL Save]**.
 1. Selecione uma pasta para armazenar o Conjunto de mídias mistas e digite um nome para o conjunto.
-1. Selecionar **[!UICONTROL Save]**.
+1. Selecione **[!UICONTROL Save]**.
 
-   Para ver a aparência do Conjunto de imagens combinado em um Visualizador de conjunto de imagens, selecione **[!UICONTROL Preview]**.
+   Para ver a aparência do Conjunto de imagens combinado em um Visualizador de Conjunto de imagens, selecione **[!UICONTROL Preview]**.
 
 ## Editar um conjunto de mix de mídia {#edit-a-mixed-media-set}
 
 É possível editar um Conjunto de mídias mistas. Se você quiser editar um conjunto em um Conjunto de mídias mistas, abra esse conjunto separadamente, edite-o e salve-o. As edições são exibidas no Conjunto de mídias mistas.
 
-Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
+Se você editar um conjunto publicado ou não, a opção **[!UICONTROL Publish after a save]** afetará o conjunto e os membros do conjunto das seguintes maneiras:
 
 | Conjunto já publicado? | **[!UICONTROL Publish after a save]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- |--- |--- |--- |
@@ -68,26 +68,26 @@ Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish
 | Não | Sim | Publicado | Publicado |
 | Não | Não | Não publicado | Os membros do conjunto existentes e os novos membros do conjunto adicionados durante a edição mantêm seus estados publicado ou não. |
 
-Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
-**Para editar um conjunto de mix de mídia:**
+**Para editar um Conjunto de Mídias Mistas:**
 
-1. Selecione a sobreposição do conjunto de mídias mistas **[!UICONTROL Edit]** botão.
+1. Selecione o botão de sobreposição **[!UICONTROL Edit]** do Conjunto de mídias mistas.
 1. Siga um destes procedimentos:
 
-   * Para remover itens, selecione-os e **[!UICONTROL Delete]**.
+   * Para remover itens, selecione-os e selecione **[!UICONTROL Delete]**.
    * Para reordenar itens, arraste-os para novos locais.
 
-1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
-1. Selecionar **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
+1. Quando terminar de editar o conjunto, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionado (padrão).
+1. Selecione **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
 
 ## Excluir um conjunto de mix de mídia
 
 Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 
-Consulte também [Publicação manual de ativos](publishing-files.md#manually_publishing_assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
+Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para excluir um conjunto de mídia mista:**
 
 1. Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um ou mais Conjuntos de mídias mistas.
-1. Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
+1. Na Barra de Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.

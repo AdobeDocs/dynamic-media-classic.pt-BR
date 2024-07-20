@@ -1,5 +1,5 @@
 ---
-title: Publicar eCatalogs e PDF associados
+title: eCatalogs da Publish e PDF associados
 description: Saiba como publicar eCatalogs e PDF associados no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Publicar eCatalogs e PDF associados{#publishing-ecatalogs-and-associated-pdfs}
+# eCatalogs da Publish e PDF associados{#publishing-ecatalogs-and-associated-pdfs}
 
 A publicação coloca o eCatalog e o PDF nos Dynamic Media Image Servers para que ele possa ser disponibilizado para seu site ou aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa a cadeia de caracteres do URL. Você pode colocar essa string de URL no código da página da Web do HTML.
 
@@ -27,14 +27,14 @@ A publicação coloca o eCatalog e o PDF nos Dynamic Media Image Servers para qu
 
 **Para publicar eCatalogs e PDF associados:**
 
-1. Na barra Navegação global, selecione **[!UICONTROL Publish]**.
+1. Na barra de Navegação Global, selecione **[!UICONTROL Publish]**.
 1. Na tela Publicação, selecione **[!UICONTROL One-Time]** ou selecione **[!UICONTROL Recurring]**.
 1. (Opcional) No campo Nome do trabalho, insira um nome para o trabalho de publicação, mas mantenha o texto predefinido de data e hora.
 
-   Se você configurar seu eCatalog para que visualizadores possam realizar pesquisas por palavra-chave, certifique-se de que os dados da palavra-chave sejam publicados. Na caixa de diálogo Publicação, selecione **[!UICONTROL Advanced]**. No **[!UICONTROL Publish]** selecione **[!UICONTROL Full w/ Search Data]**. Essa opção é selecionada por padrão.
+   Se você configurar seu eCatalog para que visualizadores possam realizar pesquisas por palavra-chave, certifique-se de que os dados da palavra-chave sejam publicados. Na caixa de diálogo Publicação, selecione **[!UICONTROL Advanced]**. No menu suspenso **[!UICONTROL Publish]**, selecione **[!UICONTROL Full w/ Search Data]**. Essa opção é selecionada por padrão.
 
-1. Selecionar **[!UICONTROL Submit Publish]**.
+1. Selecione **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >
->* [Publicar arquivos](publishing-files.md)
+>* [arquivos Publish](publishing-files.md)

@@ -25,9 +25,9 @@ Para criar um Conjunto de imagens com várias visualizações, você precisa de 
 
 Como os usuários podem ampliar imagens em Conjuntos de imagens, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas são recomendados TIFF, PNG e imagens EPS sem perdas.
 
-Para obter instruções detalhadas sobre como fazer upload de ativos, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
+Para obter instruções detalhadas sobre como carregar ativos, consulte [Carregar arquivos](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Fazer upload dos arquivos](uploading-files.md#uploading_your_files)
+>* [Carregar seus arquivos](uploading-files.md#uploading_your_files)
 >* [Trabalhar com vinhetas, revestimentos de janelas e arquivos de gabinete](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

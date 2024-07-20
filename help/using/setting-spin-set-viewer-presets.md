@@ -21,27 +21,27 @@ ht-degree: 0%
 
 As predefinições do visualizador de conjunto de rotação determinam o estilo, o comportamento e a aparência dos visualizadores. O Adobe Dynamic Media Classic vem com as predefinições padrão do visualizador de conjunto de rotação. Se você for um administrador, também poderá criar suas próprias Predefinições do visualizador de conjunto de rotação. É possível definir uma Predefinição do visualizador de conjunto de rotação com diferentes cores, bordas, fontes e configurações de imagem.
 
-**Para criar uma predefinição do visualizador de conjunto de rotação:**
+**Para criar uma Predefinição do Visualizador do Conjunto de Rotação:**
 
-1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Siga um destes procedimentos:
 
-   * Para criar uma predefinição, selecione **[!UICONTROL Add]**, na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma e selecione **[!UICONTROL Spin Set Viewer]**.
+   * Para criar uma predefinição, selecione **[!UICONTROL Add]** e, na caixa de diálogo Adicionar Predefinição do Visualizador, escolha uma plataforma e selecione **[!UICONTROL Spin Set Viewer]**.
    * Para editar uma predefinição do visualizador de conjunto de rotação existente, selecione a predefinição e **[!UICONTROL Edit]**.
 
-1. No `Configure Viewer` digite um nome na caixa Nome da predefinição da predefinição do visualizador de conjunto de rotação.
-1. Especifique outras opções, conforme desejado. Para ver uma descrição de uma opção, selecione a opção **[!UICONTROL Info Tip]** ícone ao lado da opção.
+1. Na página `Configure Viewer`, digite um nome na caixa Nome da predefinição da Predefinição do visualizador de conjunto de rotação.
+1. Especifique outras opções, conforme desejado. Para ver uma descrição de uma opção, selecione o ícone **[!UICONTROL Info Tip]** ao lado da opção.
 
    A página Visualizar exibe o visualizador à medida que você atualiza e altera as configurações.
 
-1. Selecionar **[!UICONTROL Save]**.
+1. Selecione **[!UICONTROL Save]**.
 
-Selecionar **[!UICONTROL Make Default]** para tornar a Predefinição do visualizador de conjunto de rotação, você criou a empresa padrão para mostrar conjuntos de rotação.
+Selecione **[!UICONTROL Make Default]** para tornar a Predefinição do visualizador de conjunto de rotação que você criou a empresa padrão para mostrar conjuntos de rotação.
 
-Consulte [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers).
+Consulte [Configurar Visualizadores Padrão](application-setup.md#configuring_default_viewers).
 
 Para excluir uma Predefinição do visualizador de conjunto de rotação, selecione-a na página Predefinições do visualizador e, em seguida, selecione **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
->* [Predefinições do visualizador](application-setup.md#viewer_presets)
+>* [Predefinições do Visualizador](application-setup.md#viewer_presets)

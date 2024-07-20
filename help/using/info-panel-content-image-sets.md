@@ -31,10 +31,10 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 
 É possível selecionar um dos três modelos de resposta predefinidos para exibir texto em um Painel de informações. Esses modelos de resposta predefinidos determinam como as informações são apresentadas no Painel Informações: quantas colunas e linhas, tamanho da fonte, etc. Você pode selecionar um modelo de resposta predefinido ou criar um de sua preferência.
 
-**Para configurar um modelo de resposta para Conjuntos de imagens:**
+**Para configurar um modelo de resposta para Conjuntos de Imagens:**
 
 1. Clique duas vezes no Conjunto de imagens para abri-lo na Exibição de detalhes.
-1. Selecionar **[!UICONTROL InfoPanel Setup]**.
+1. Selecione **[!UICONTROL InfoPanel Setup]**.
 1. Na lista suspensa Modelo de resposta, execute um dos procedimentos a seguir:
 
    * Para usar a resposta padrão, selecione **[!UICONTROL Default]**. O XML do design do modelo aparece esmaecido na caixa de texto Modelo do usuário.
@@ -46,8 +46,8 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
    * Defina um número menor se os dados forem atualizados com frequência ao longo do dia.
    * Defina um número mais alto se os dados estiverem relativamente estáveis e não exigirem atualização com frequência ao longo do dia. O padrão é dez horas.
 
-1. Selecionar **[!UICONTROL Upload]** para carregar o conteúdo do Painel de informações, com base no valor rollover_key, para s7info.
-1. Na caixa de diálogo Upload S7Info, navegue até o arquivo que deseja usar e selecione **[!UICONTROL Upload]**.
+1. Selecione **[!UICONTROL Upload]** para carregar o conteúdo do Painel de Informações, com base no valor rollover_key, para s7info.
+1. Na caixa de diálogo Carregar S7Info, navegue até o arquivo que deseja usar e selecione **[!UICONTROL Upload]**.
 
    Os formatos de arquivo compatíveis são arquivos delimitados por TAB com codificação UTF-16 e arquivos CSV com codificação ASCII. Para arquivos CSV, os caracteres não ASCII devem ser codificados em HTML.
 
@@ -66,10 +66,10 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 ### Importar conteúdo de CSV para conjuntos de imagens de um local hospedado externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Clique duas vezes no Conjunto de imagens para abri-lo na Exibição de detalhes.
-1. Selecionar **[!UICONTROL InfoPanel Data feed]**.
+1. Selecione **[!UICONTROL InfoPanel Data feed]**.
 1. No campo de texto Localização do arquivo CSV hospedado externamente (HTTP), insira o URL do arquivo CSV.
 1. (Opcional) No campo Agendar atualização, especifique um horário para atualizar o conteúdo e selecione **[!UICONTROL Add]**.
 
    Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa de texto Atualizar horas. Para remover um horário agendado, selecione-o e, em seguida, **[!UICONTROL Delete]**.
 
-1. (Opcional) Selecione **[!UICONTROL Run Update]** para que você possa atualizar o conteúdo imediatamente.
+1. (Opcional) Selecione **[!UICONTROL Run Update]** para atualizar o conteúdo imediatamente.

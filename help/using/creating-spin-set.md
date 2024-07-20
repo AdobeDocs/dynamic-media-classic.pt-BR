@@ -23,7 +23,7 @@ Para criar um Spin Set eficaz, certifique-se de fotografar as imagens corretamen
 
 >[!NOTE]
 >
->As versões anteriores do Adobe Dynamic Media Classic não ofereciam Spin Sets bidimensionais. Se você criou um Conjunto de rotação em uma versão anterior do Adobe Dynamic Media Classic, salve-o com um nome diferente e, em seguida, salve seu Conjunto de rotação unidimensional. Selecionar **[!UICONTROL Save As]** na tela Conjunto de rotação e insira um novo nome para poder editá-lo no Adobe Dynamic Media Classic.
+>As versões anteriores do Adobe Dynamic Media Classic não ofereciam Spin Sets bidimensionais. Se você criou um Conjunto de rotação em uma versão anterior do Adobe Dynamic Media Classic, salve-o com um nome diferente e, em seguida, salve seu Conjunto de rotação unidimensional. Selecione **[!UICONTROL Save As]** na tela Conjunto de rotação e digite um novo nome para poder editá-lo no Adobe Dynamic Media Classic.
 
 ## Diretrizes para fotografar imagens do grupo de rotação {#guidelines-for-shooting-spin-set-images}
 
@@ -39,14 +39,14 @@ Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor se
 
 A ordem em que o conjunto de rotação é criado ou criado no Adobe Dynamic Media Classic é importante. Dependendo de como você ordena os ativos ao arrastar e soltar imagens na grade na página Conjunto de rotação, o Conjunto de rotação gira em uma determinada direção. Portanto, a ordem em que ele é exibido visualmente no construtor é como o ativo é girado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
 
-Ao criar um conjunto, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
+Ao criar um conjunto, a opção **[!UICONTROL Publish after a save]** afeta o conjunto e os membros do conjunto das seguintes maneiras:
 
 | **[!UICONTROL Publish after a save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
 
-Consulte também [Publicação manual de ativos](publishing-files.md#manually-publishing-assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
+Consulte também [Publicar ativos manualmente](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
 Ao criar um Conjunto de rotação, o Adobe recomenda a seguinte prática recomendada e impõe o seguinte limite:
 
@@ -54,29 +54,29 @@ Ao criar um Conjunto de rotação, o Adobe recomenda a seguinte prática recomen
 | --- | --- | --- |
 | Número máximo de linhas/colunas por conjunto 2D | 12 a 18 imagens por conjunto | 1000 |
 
-Consulte também [Limitações do Dynamic Media](/help/using/limitations.md).
+Consulte também [limitações do Dynamic Media](/help/using/limitations.md).
 
 Depois de salvar um Conjunto de rotação, você pode usar Visualizar na página Criar: Conjunto de rotação para ver a aparência do seu Conjunto de rotação no visualizador padrão.
 
-**Para criar um Conjunto de rotação:**
+**Para criar um Conjunto de Rotação:**
 
-1. No **[!UICONTROL Build]** selecione **[!UICONTROL Spin Sets]**.
+1. No menu suspenso **[!UICONTROL Build]**, selecione **[!UICONTROL Spin Sets]**.
 1. Na caixa de diálogo Definir tamanho de rotação, defina o número de linhas e células desejadas.
 
    Para criar um Conjunto de rotação unidimensional, selecione somente uma linha.
 
    Para criar um Conjunto de rotação bidimensional, selecione duas ou mais linhas.
 
-1. Selecionar **[!UICONTROL OK]**.
+1. Selecione **[!UICONTROL OK]**.
 1. Arraste e solte imagens na grade na tela Conjunto de rotação.
-1. Quando terminar, próximo ao canto inferior direito da página, verifique se **Publicar após salvar** está selecionada (padrão).
-1. Selecionar **[!UICONTROL Save]**.
+1. Quando terminar, próximo ao canto inferior direito da página, verifique se **Publish após salvar** está selecionado (padrão).
+1. Selecione **[!UICONTROL Save]**.
 1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o Conjunto de rotação. No campo Nome do arquivo, digite o nome do conjunto de rotação.
-1. Selecionar **[!UICONTROL Save]**.
+1. Selecione **[!UICONTROL Save]**.
 
 ## Editar um grupo de rotação {#editing-a-spin-set}
 
-Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish after a save]** opção afeta os membros set e set das seguintes maneiras:
+Se você editar um conjunto publicado ou um conjunto não publicado, a opção **[!UICONTROL Publish after a save]** afetará o conjunto e os membros do conjunto das seguintes maneiras:
 
 | Conjunto já publicado? | **[!UICONTROL Publish after a save]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- | --- |
@@ -85,31 +85,31 @@ Se você editar um conjunto publicado ou não, a variável **[!UICONTROL Publish
 | Não | Sim | Publicado | Publicado |
 | Não | Não | Não publicado | Os membros do conjunto existentes e os novos membros do conjunto adicionados durante a edição mantêm seus estados publicado ou não. |
 
-Consulte também [Publicação manual de ativos](publishing-files.md#manually-publishing-assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
+Consulte também [Publicar ativos manualmente](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
-**Para editar um grupo de rotação:**
+**Para editar um Conjunto de Rotação:**
 
-1. Selecione a sobreposição do conjunto de rotação **[!UICONTROL Edit]** botão.
+1. Selecione o botão de sobreposição **[!UICONTROL Edit]** do Conjunto de rotação.
 1. Siga um destes procedimentos:
 
-   * **Remoção de imagens**: selecione a imagem e, em seguida, **[!UICONTROL Delete]**.
+   * **Removendo imagens**: selecione a imagem e **[!UICONTROL Delete]**.
 
-   * **Adição de imagens**: arraste a imagem para uma célula.
+   * **Adicionando imagens**: arraste a imagem para uma célula.
 
-   * **Reorganização de linhas (Conjuntos de rotação bidimensionais)**: selecione uma caixa de seletor de linhas (à esquerda da linha) e selecione **[!UICONTROL Move Row Down]** ou **[!UICONTROL Move Row Up]**.
+   * **Reorganização de linhas (Conjuntos de Rotação bidimensionais)**: selecione uma caixa de seletor de linha (à esquerda da linha) e selecione **[!UICONTROL Move Row Down]** ou **[!UICONTROL Move Row Up]**.
 
-   * **Adição de linhas e células**: Insira um número na caixa Linhas e na caixa Células para determinar o número de linhas e o número de células em cada linha.
+   * **Adicionando linhas e células**: digite um número na caixa Linhas e na caixa Células para determinar o número de linhas e o número de células em cada linha.
 
-1. Ao concluir a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionada (padrão).
-1. Selecionar **[!UICONTROL Save]**, selecione uma pasta de armazenamento, digite um nome para o conjunto e selecione **[!UICONTROL Save]**.
+1. Quando você terminar a edição, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionado (padrão).
+1. Selecione **[!UICONTROL Save]**, selecione uma pasta de armazenamento, insira um nome para o conjunto e selecione **[!UICONTROL Save]**.
 
 ## Excluir um grupo de rotação
 
 Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
 
-Consulte também [Publicação manual de ativos](publishing-files.md#manually-publishing-assets) e [Cancelamento de publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
+Consulte também [Publicar ativos manualmente](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
 **Para excluir um grupo de rotação:**
 
 1. Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um ou mais Conjuntos de rotação.
-1. Na Barra de navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
+1. Na Barra de Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.

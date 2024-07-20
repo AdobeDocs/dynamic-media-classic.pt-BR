@@ -32,7 +32,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
  -->
 
 ![Exibição detalhada](/help/using/assets/image_0.img.png)
-*Exibição de detalhes com o painel Biblioteca de ativos oculto na exibição à esquerda.*
+*Exibição detalhada com o painel Biblioteca de ativos oculto na exibição à esquerda.*
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. No painel Procurar, execute um dos procedimentos a seguir:
 
-   * Selecione o ativo. Próximo ao canto superior direito da Adobe Dynamic Media Classic, selecione a **[!UICONTROL Detail View]** ícone.
+   * Selecione o ativo. Próximo ao canto superior direito do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL Detail View]**.
    * Clique duas vezes no ativo.
    * Selecione o ativo e vá para **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
@@ -62,11 +62,11 @@ A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Essas 
 
 A Exibição de detalhes oferece ferramentas para trabalhar com o ativo que você abriu. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a Exibição de detalhes sempre oferece estas funções:
 
-* **itens para publicação**: selecione a variável **[!UICONTROL `Publish`]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+* **itens para publicação**: selecione o ícone **[!UICONTROL `Publish`]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
 * **Renomear o ativo**: selecione o nome e insira um novo nome.
 
-* **Editar e adicionar metadados**: selecione o painel Metadados e altere conforme desejado. Consulte [Visualizar, adicionar e exportar metadados](/help/using/viewing-adding-exporting-metadata.md).
+* **Editar e adicionar metadados**: selecione o painel Metadados e altere conforme desejado. Consulte [Exibir, adicionar e exportar metadados](/help/using/viewing-adding-exporting-metadata.md).
 
 * **Editar e adicionar palavras-chave**: selecione Palavras-chave e adicione-as ou remova-as conforme desejado. Consulte [Adicionar ou editar palavras-chave](/help/using/viewing-adding-exporting-metadata.md).
 
@@ -78,9 +78,9 @@ Esta tabela mostra quais outras opções estão disponíveis com diferentes tipo
 
 | Tipo de ativo | Editar/ajustar | Visualizar |
 | --- | --- | --- |
-| Imagens | Adicionar mapas de imagem<br>Adicionar metas de zoom<br>Cortar<br>Nitidez<br>Criar exibições ajustadas | Sim; Predefinições de zoom e imagem |
+| Imagens | Adicionar Mapas de Imagem<br>Adicionar Destinos de Zoom<br>Cortar<br>Nitidez<br>Criar modos de exibição ajustados | Sim; Predefinições de zoom e imagem |
 | Imagens de revestimento de gabinete e janela | Não | Miniatura |
-| eCatalogs | Editar | Sim<br>O Painel de informações também está disponível |
+| eCatalogs | Editar | Sim<br>O Painel de Informações também está disponível |
 | Fontes | Editar informações da fonte | Não |
 | Arquivos FXG | Editar | Sim |
 | Perfis ICC | Editar informações de perfil | Não |
@@ -93,10 +93,10 @@ Esta tabela mostra quais outras opções estão disponíveis com diferentes tipo
 | arquivos SVG | Não | Não |
 | Modelos | Editar | Sim |
 | Vídeos | Não | Sim |
-| Vinhetas e vinhetas fundidas | Não | A imagem é exibida<br>É possível exibir o conteúdo e a estrutura dos elementos renderizáveis da vinheta no formato XML |
+| Vinhetas e vinhetas fundidas | Não | A imagem é mostrada<br>Você pode exibir o conteúdo e a estrutura dos elementos renderizáveis da vinheta no formato XML |
 | Arquivos XML | Não | O conteúdo é mostrado |
 | Arquivos ZIP | Não | O conteúdo não é exibido |
 
 >[!MORELIKETHIS]
 >
->* [Visualizar, adicionar e exportar metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Exibir, adicionar e exportar metadados](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)

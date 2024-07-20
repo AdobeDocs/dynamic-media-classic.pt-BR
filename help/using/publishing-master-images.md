@@ -1,5 +1,5 @@
 ---
-title: Publicar imagens principais
+title: Imagens principais do Publish
 description: Saiba como publicar imagens principais do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ---
 
-# Publicar imagens principais{#publishing-master-images}
+# Imagens principais do Publish{#publishing-master-images}
 
 A publicação dos arquivos de imagem os publica nos Servidores de imagem da Dynamic Media, onde ficam disponíveis para o seu site e aplicativo. Além disso, durante o processo de publicação, o Adobe Dynamic Media Classic ativa as cadeias de caracteres de URL necessárias para o site e o aplicativo.
 
 ## Marcar imagens principais para publicação {#marking-master-images-for-publish}
 
-As imagens primárias devem ser marcadas para publicação, para serem copiadas para os servidores de imagem da Dynamic Media. Você pode marcar suas imagens principais para publicação no painel Procurar selecionando a **[!UICONTROL Mark for Publish]** ícone. Você também pode marcar imagens para publicação quando as carrega no Adobe Dynamic Media Classic.
+As imagens primárias devem ser marcadas para publicação, para serem copiadas para os servidores de imagem da Dynamic Media. Você pode marcar suas imagens principais para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**. Você também pode marcar imagens para publicação quando as carrega no Adobe Dynamic Media Classic.
 
-## Publicar suas imagens principais {#publishing-your-master-images}
+## Publish suas imagens principais {#publishing-your-master-images}
 
-1. Na barra Navegação global, selecione **[!UICONTROL Publish]**. Na caixa de diálogo Publicação, selecione uma opção Quando (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**) e, opcionalmente, informe um nome para o job de publicação
+1. Na barra de Navegação Global, selecione **[!UICONTROL Publish]**. Na caixa de diálogo Publicação, selecione uma opção Quando (**[!UICONTROL One-Time]** ou **[!UICONTROL Recurring]**) e, opcionalmente, insira um nome para o trabalho de publicação
 
-1. Selecionar **[!UICONTROL Submit Publish]**.
+1. Selecione **[!UICONTROL Submit Publish]**.
 
 >[!NOTE]
 >
@@ -37,4 +37,4 @@ As imagens primárias devem ser marcadas para publicação, para serem copiadas 
 
 >[!MORELIKETHIS]
 >
->* [Publicar arquivos](publishing-files.md#publishing_files)
+>* [arquivos Publish](publishing-files.md#publishing_files)

@@ -30,13 +30,13 @@ Antes de carregar um ativo de imagem, primeiro solicite uma chave de segredo com
 
 ## Solicitar uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicitar um *chave de segredo compartilhado* por [usar o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
+Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que você deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
 ## Recuperar o token de upload {#retrieving-the-upload-token}
 
-A variável *fazer upload do token* A garante que ninguém possa usar a mesma chave de segredo compartilhado para carregar ativos. Ele garante que o upload seja legítimo e venha de uma fonte confiável.
+O *token de carregamento* garante que ninguém possa usar a mesma chave de segredo compartilhado para carregar ativos. Ele garante que o upload seja legítimo e venha de uma fonte confiável.
 
 O token de upload é uma sequência alfanumérica que está disponível somente por um período específico. Use os URLs a seguir, substituindo sua chave de segredo compartilhado, para que você possa recuperar o token de upload.
 
@@ -46,7 +46,7 @@ O token de upload é uma sequência alfanumérica que está disponível somente 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-Por padrão, o token de upload expira cinco minutos (300 segundos) após a recuperação. Para solicitar mais tempo, inclua `expires` no URL e o tempo necessário em segundos. Por exemplo, o seguinte URL de imagem de amostra recupera um token de upload válido por 1800 segundos:
+Por padrão, o token de upload expira cinco minutos (300 segundos) após a recuperação. Para solicitar mais tempo, inclua `expires` na URL e o tempo necessário em segundos. Por exemplo, o seguinte URL de imagem de amostra recupera um token de upload válido por 1800 segundos:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -96,7 +96,7 @@ Você pode usar os seguintes campos na cadeia de caracteres do URL de consulta p
 
 Agora você pode fazer upload de um ativo de imagem.
 
-Consulte [Fazer upload de um ativo de imagem](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Consulte [Carregar um ativo de imagem](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## Fazer upload de um ativo de imagem rasterizada {#uploading-an-image-asset}
 
@@ -106,9 +106,9 @@ Depois de recuperar um token de upload válido por um período específico, voc�
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-A variável `upload_token` e `company_name` campos são obrigatórios.
+Os campos `upload_token` e `company_name` são obrigatórios.
 
-Consulte [Recuperar o token de upload](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+Consulte [Recuperar o token de carregamento](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
 Consulte [Recuperar uma chave de segredo compartilhado](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
@@ -118,14 +118,14 @@ Você também pode enviar outros valores opcionais como cadeias de caracteres de
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-A variável `file_limit` O parâmetro especifica o limite do tamanho do arquivo em bytes. A variável `file_exts` parameter especifica as extensões de nome de arquivo permitidas para upload. Ambos os valores são opcionais.
+O parâmetro `file_limit` especifica o limite de tamanho de arquivo em bytes. O parâmetro `file_exts` especifica as extensões de nome de arquivo permitidas para carregamento. Ambos os valores são opcionais.
 
 Um limite global é definido no aplicativo para o limite de tamanho do arquivo e as extensões de nome do arquivo permitidas. Se o que você enviou na solicitação for um subconjunto dos limites globais, ele será atendido. Os limites globais são os seguintes:
 
 | Limite global | Valor |
 | --- | --- |
 | Tamanho do arquivo para todos os clientes | 20 MB |
-| Formatos de arquivo de imagem aceitos para upload | BMP, GIF, JPG, PNG, PSD, TIFF |
+| Formatos de arquivo de imagem aceitos para upload | BMP, GIF, JPG,, PNG, PSD, TIFF |
 
 O formulário HTML a seguir permite que um usuário carregue um ativo. O formulário solicita que o usuário insira as seguintes informações:
 
@@ -135,14 +135,14 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 * Uma lista de extensões de nome de arquivo.
 * Se o perfil de cores e o nome do arquivo associados ao ativo devem ser preservados.
 * Usar um plano de fundo de separação. Se você ativar Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento.
-Consulte Plano de fundo de separação em [Opções de ajuste de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte Plano de Fundo de Separação em [Opções de ajuste de imagem no carregamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado.
 
-Você pode exibir o código-fonte do HTML associado ao formulário acima selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Você pode exibir o código-fonte HTML associado ao formulário acima selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito do mouse na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a string de consulta de URL correspondente e o método POST executado quando o usuário seleciona **[!UICONTROL Submit]**.
+No Firefox, clique com o botão direito na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a cadeia de caracteres de consulta de URL correspondente e o método POST que é executado quando o usuário seleciona **[!UICONTROL Submit]**.
 
-Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, acesse **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
+Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, vá para **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
 
 Este é um exemplo de resposta de um upload bem-sucedido:
 
@@ -192,7 +192,7 @@ Envie o ativo para fazer upload como uma publicação multipart/form enquanto en
 >
 >É necessário enviar o ativo para ser carregado como o único campo em uma solicitação POST de várias partes.
 
-**Amostra do URL:**
+**Amostra da URL:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company`
 
@@ -202,7 +202,7 @@ POST
 
 ### Obter metadados de ativos para imagens {#getting-asset-metadata-for-images}
 
-Você pode usar `image_info` para recuperar metadados de um ativo carregado, conforme mostrado no exemplo a seguir:
+Você pode usar o `image_info` para recuperar metadados de um ativo carregado, conforme mostrado no exemplo a seguir:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -240,7 +240,7 @@ Você pode usar os seguintes campos na cadeia de caracteres de consulta do URL p
 | `shared_secret` | Obrigatório | A chave que é um segredo compartilhado para a empresa. |
 | `image_name` | Obrigatório | Nome da imagem. |
 
-**Amostra do URL:**
+**Amostra da URL:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif`
 

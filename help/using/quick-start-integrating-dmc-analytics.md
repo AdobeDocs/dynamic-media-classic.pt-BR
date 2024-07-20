@@ -39,11 +39,11 @@ Esse Quick Start foi projetado para colocar suas operações em funcionamento ra
 >
 >Verifique se você foi adicionado como membro do grupo de Acesso ao serviço da Web no Adobe Analytics. Faça essa verificação antes de configurar os relatórios do Adobe Analytics. E antes de vincular as variáveis de relatório do Adobe Analytics aos eventos do Adobe Dynamic Media Classic. Os membros deste grupo podem acessar todos os relatórios nos conjuntos de relatórios especificados. Você pode fazer isso usando a API de serviços da Web do Experience Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, vá para **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 
-Depois de verificar que você é membro do grupo de Acesso ao serviço da Web, no Adobe Dynamic Media Classic, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]**. Na página Configuração do Adobe Analytics, selecione **[!UICONTROL Adobe Analytics Login]**.
+Depois de verificar que você é membro do grupo de Acesso ao Serviço Web, no Adobe Dynamic Media Classic, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]**. Na página Configuração do Adobe Analytics, selecione **[!UICONTROL Adobe Analytics Login]**.
 
 Consulte [Fazer logon no Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Na caixa de diálogo Logon do Adobe Analytics, digite sua ID da organização do Experience Cloud (opcional) e suas credenciais completas e, em seguida, selecione **[!UICONTROL Login]**. No menu suspenso Conjunto de relatórios, selecione o nome do conjunto de relatórios que deseja usar.
+Na caixa de diálogo Logon do Adobe Analytics, digite sua ID da Organização do Experience Cloud (opcional) e suas credenciais completas e, em seguida, selecione **[!UICONTROL Login]**. No menu suspenso Conjunto de relatórios, selecione o nome do conjunto de relatórios que deseja usar.
 
 ## 2. Atribuir variáveis de relatório do Adobe Analytics a eventos do visualizador do Adobe Dynamic Media Classic e variáveis do Adobe Dynamic Media Classic
 
@@ -58,11 +58,11 @@ Depois de selecionar **[!UICONTROL Save]** na página Configuração do Adobe An
 
 Consulte [Configurar relatórios do Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-## 3. Publicar seus visualizadores do Adobe Dynamic Media Classic
+## 3. Publish seus visualizadores do Adobe Dynamic Media Classic
 
-Publique seus visualizadores do Adobe Dynamic Media Classic para que os visualizadores (com código para rastrear a atividade do usuário nos relatórios do Adobe Analytics) sejam carregados nos servidores da Adobe Dynamic Media Classic. Após a publicação, essas informações são incluídas nos visualizadores. Use-o para análise pelo Adobe Analytics.
+O Publish exibe seus visualizadores do Adobe Dynamic Media Classic para que os visualizadores (com código para rastrear a atividade do usuário nos relatórios do Adobe Analytics) sejam carregados nos servidores da Adobe Dynamic Media Classic. Após a publicação, essas informações são incluídas nos visualizadores. Use-o para análise pelo Adobe Analytics.
 
-Consulte [Publicar informações de configuração](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Consulte [informações sobre a configuração do Publish](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 ## 4. Coloque visualizadores do Adobe Dynamic Media Classic em seu site
 
@@ -72,4 +72,4 @@ Coloque os visualizadores do Adobe Dynamic Media Classic com o código de rastre
 
 Para exibir os relatórios do Adobe Analytics, vá para o site da Adobe Analytics. A página Geração de relatórios permite exibir dados e gerar gráficos para medir a atividade do usuário com visualizadores diferentes.
 
-Consulte [Teste a integração do Adobe Analytics visualizando um relatório do Adobe Analytics](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report).
+Consulte [Testar a integração do Adobe Analytics exibindo um relatório do Adobe Analytics](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report).

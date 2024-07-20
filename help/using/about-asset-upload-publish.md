@@ -24,7 +24,7 @@ Seu trabalho no Adobe Dynamic Media Classic se enquadra em três áreas básicas
 * Gerenciamento de arquivos para que você possa usá-los para criar ativos de mídia avançada.
 * Publicar seus arquivos de ativos em um servidor do Dynamic Media Classic para que eles estejam disponíveis para entrega em seu site e aplicativo.
 
-Ao fazer upload de arquivos de ativos para o Adobe Dynamic Media Classic e publicar arquivos de ativos nos servidores da Adobe Dynamic Media Classic, o sistema registra essas transferências de arquivos no **[!UICONTROL Jobs]** página. Você pode ir para esta página para rastrear e monitorar suas atividades de upload e publicação.
+Ao carregar arquivos de ativos para o Adobe Dynamic Media Classic e publicar arquivos de ativos nos servidores do Adobe Dynamic Media Classic, o sistema registra essas transferências de arquivos na página **[!UICONTROL Jobs]**. Você pode ir para esta página para rastrear e monitorar suas atividades de upload e publicação.
 
 >[!NOTE]
 >

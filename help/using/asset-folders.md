@@ -27,35 +27,35 @@ Estabeleça uma estrutura de pastas e uma organização para armazenar os arquiv
 
 A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo aparece no painel Procurar. Use essas técnicas para localizar pastas na árvore de pastas:
 
-* **Exibir subpastas**: selecione a variável **[!UICONTROL Expand Folder]** ícone para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Exibir subpastas**: selecione o ícone **[!UICONTROL Expand Folder]** para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Mover uma pasta**: é possível mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
+* **Mover uma pasta**: você pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
 
-* **Ocultar pastas**: selecione a variável **[!UICONTROL Collapse Folder]** ícone se quiser recolher subpastas para ocultá-las da exibição. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Ocultar pastas**: selecione o ícone **[!UICONTROL Collapse Folder]** se desejar recolher subpastas para ocultá-las. Esse ícone está localizado à esquerda dos nomes das pastas.
 
 * **Abrir uma pasta**: selecione uma pasta se desejar exibir seu conteúdo no painel Procurar.
 
 >[!TIP]
 >
->Você pode ocultar ou exibir a Biblioteca de ativos selecionando o **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** controle no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.
+>Você pode ocultar ou exibir a Biblioteca de Ativos selecionando o controle **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.
 
 ## Criar pastas
 
 1. Na Biblioteca de ativos, selecione a pasta na qual deseja criar uma pasta.
-1. Selecione o **[!UICONTROL `Add Folder`]** botão. Este ícone está no topo da lista de pastas.
+1. Selecione o botão **[!UICONTROL `Add Folder`]**. Este ícone está no topo da lista de pastas.
 1. Insira um nome descritivo para a nova pasta ou subpasta. Digite-o no campo ao lado do ícone de pasta.
 
    >[!NOTE]
    >
-   >Você também pode criar pastas no Adobe Dynamic Media Classic ao fazer upload de arquivos por meio do FTP. Selecionar o **[!UICONTROL Include Subfolders]** opção quando você faz upload por meio do FTP replica a estrutura de pastas no computador no sistema. Os arquivos e subpastas do computador ou da rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
+   >Você também pode criar pastas no Adobe Dynamic Media Classic ao fazer upload de arquivos por meio do FTP. Selecionar a opção **[!UICONTROL Include Subfolders]** ao fazer upload por meio do FTP replica a estrutura de pastas no seu computador no sistema. Os arquivos e subpastas do computador ou da rede são replicados na Biblioteca de ativos e os ativos carregados são colocados nessas pastas.
 
 ## Excluir e renomear pastas {#deleting-and-renaming-folders}
 
 Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-* **Excluir**: selecione a variável **[!UICONTROL `Remove Folder`]** botão. Os ativos em uma pasta excluída são colocados na pasta Lixeira. Você pode recuperá-los a partir daí.
+* **Excluir**: selecione o botão **[!UICONTROL `Remove Folder`]**. O Assets em uma pasta excluída é colocado na pasta Lixeira. Você pode recuperá-los a partir daí.
 
-* **Renomear**: Clique duas vezes no nome e insira um novo nome.
+* **Renomear**: clique duas vezes no nome e insira um novo nome.
 
 >[!NOTE]
 >

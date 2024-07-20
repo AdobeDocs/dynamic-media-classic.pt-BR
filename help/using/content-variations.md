@@ -27,16 +27,16 @@ URLs universais são usados para exibir a variação de modelo exibida na págin
 
 Você pode usar qualquer URL de predefinição de imagem da lista. Os URLs de predefinição de imagem são como URLs universais. Pode haver mais de um URL de predefinição de imagem.
 
-1. Ir para **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
+1. Vá para **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
 1. No construtor, selecione um modelo e, em seguida, **[!UICONTROL Add/Preview]**.
-1. Modifique as propriedades do template e selecione **[!UICONTROL Save As]** para criar outra versão.
+1. Modifique as propriedades do modelo e selecione **[!UICONTROL Save As]** para criar outra versão.
 1. Digite um nome e selecione **[!UICONTROL Save]**.
 
    O ativo e o modelo devem ser publicados.
 
 1. Vá para a página Detalhes para obter uma cópia do URL da seção URLs.
 
-É possível mover um modelo na ordem do modelo (por exemplo, para a parte superior da lista) arrastando-o para o novo local. Publique novamente para enviar o novo pedido.
+É possível mover um modelo na ordem do modelo (por exemplo, para a parte superior da lista) arrastando-o para o novo local. Publish novamente para enviar o novo pedido.
 
 >[!NOTE]
 >

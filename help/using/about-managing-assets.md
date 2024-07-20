@@ -20,6 +20,6 @@ ht-degree: 0%
 
 A Adobe Dynamic Media Classic oferece a Biblioteca de ativos para gerenciamento de ativos. A Biblioteca de ativos contém as pastas em que você armazena os arquivos de ativos. Selecionar uma pasta na Biblioteca de ativos exibe o conteúdo da pasta no painel Procurar. Você pode exibir itens no painel Procurar na exibição em Grade, Lista ou Detalhe. Quando quiser se concentrar em um único ativo, clique duas vezes nele no painel Procurar para exibi-lo na Exibição de detalhes.
 
-O painel Procurar oferece ferramentas para visualização, seleção e localização. O painel também oferece visualização, movimentação, renomeação e exclusão de ativos. Os ativos excluídos são colocados na pasta Lixeira; você pode recuperar ativos dessa pasta.
+O painel Procurar oferece ferramentas para visualização, seleção e localização. O painel também oferece visualização, movimentação, renomeação e exclusão de ativos. O Assets excluído é colocado na pasta Lixeira; você pode recuperar ativos dessa pasta.
 
 Quando quiser examinar ou trabalhar com um ativo, abra-o na Exibição de detalhes. Você pode registrar metadados na Exibição de detalhes para facilitar a localização e o trabalho com um ativo.

@@ -34,16 +34,16 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 
 >[!NOTE]
 >
->Você também pode configurar o Modelo de resposta na Predefinição do visualizador. Para usar o modelo de resposta na predefinição do visualizador, adicione `fmt=1` ao final do URL do Servidor de Informações na Predefinição do visualizador.
+>Você também pode configurar o Modelo de resposta na Predefinição do visualizador. Para usar o Modelo de Resposta na Predefinição do Visualizador, adicione `fmt=1` ao final da URL do Servidor de Informações na Predefinição do Visualizador.
 >
 >Consulte [Configurar Predefinições do Visualizador de eCatalog](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Clique duas vezes no eCatalog para abri-lo na Exibição de detalhes.
-1. Selecione o **[!UICONTROL InfoPanel Setup]** painel.
+1. Selecione o painel **[!UICONTROL InfoPanel Setup]**.
 1. Selecione um Modelo de Resposta:
 
    * Selecione uma predefinição no menu Modelo de resposta. O XML do design do modelo aparece na caixa Modelo do usuário.
-   * Para criar seu próprio Modelo de resposta, selecione **[!UICONTROL Custom]**. Digite a definição XML do modelo na caixa Modelo do Usuário. Você pode usar os modelos predefinidos como base para os seus próprios modelos.
+   * Para criar seu próprio Modelo de Resposta, selecione **[!UICONTROL Custom]**. Digite a definição XML do modelo na caixa Modelo do Usuário. Você pode usar os modelos predefinidos como base para os seus próprios modelos.
 
 1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um Mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de eCatalog, mas nenhum identificador de rollover, essa mensagem será exibida para o usuário.
 1. Na caixa Resposta TTL, informe o número de horas que deseja aguardar antes de armazenar os dados em cache:
@@ -51,7 +51,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
    * Defina um número menor se os dados forem atualizados com frequência ao longo de um dia.
    * Defina um número mais alto se os dados estiverem relativamente estáveis e não exigirem atualizações frequentes ao longo do dia. O padrão é dez horas.
 
-1. Selecionar **[!UICONTROL Publish]**.
+1. Selecione **[!UICONTROL Publish]**.
 
 ## Importar conteúdo de origem para o Painel de Informações em eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}
 
@@ -66,10 +66,10 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 ### Importar conteúdo CSV para eCatalogs de um local hospedado externamente {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Clique duas vezes no eCatalog para abri-lo na Exibição de detalhes.
-1. Selecione o **[!UICONTROL InfoPanel Data feed]** painel.
+1. Selecione o painel **[!UICONTROL InfoPanel Data feed]**.
 1. Insira o URL do arquivo CSV na caixa Local do arquivo CSV hospedado externamente. Você pode colar o URL nesse campo ou digitá-lo diretamente.
-1. (Opcional) Especifique um horário para atualizar o conteúdo usando o menu Agendar atualização e selecione **[!UICONTROL Add]**. Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa Atualizar horas. (Para remover um horário, selecione-o e, em seguida, **[!UICONTROL Delete]**.)
-1. (Opcional) Selecione **[!UICONTROL Run Update Now]** para que você possa atualizar o conteúdo imediatamente.
+1. (Opcional) Especifique um horário para atualizar o conteúdo usando o menu Agendar atualização e selecione **[!UICONTROL Add]**. Você pode selecionar várias vezes para atualização. Cada hora de atualização aparece na caixa Atualizar horas. (Para remover uma hora, selecione-a e **[!UICONTROL Delete]**.)
+1. (Opcional) Selecione **[!UICONTROL Run Update Now]** para atualizar o conteúdo imediatamente.
 
 ### Importar um arquivo CSV ou delimitado por tabulação {#import-a-tab-delimited-or-csv-file}
 
@@ -84,10 +84,10 @@ Last Modified Date:
  -->
 
 1. Clique duas vezes no eCatalog para abri-lo na Exibição de detalhes.
-1. Selecione o **[!UICONTROL InfoPanel Setup]** painel.
-1. Selecionar **[!UICONTROL Upload S7Info Content]**.
-1. Selecionar **[!UICONTROL Browse]**, selecione o arquivo TXT delimitado por tabulação, CSV ou SSV que deseja usar e selecione **[!UICONTROL Open]**.
-1. Selecionar **[!UICONTROL Upload]**.
+1. Selecione o painel **[!UICONTROL InfoPanel Setup]**.
+1. Selecione **[!UICONTROL Upload S7Info Content]**.
+1. Selecione **[!UICONTROL Browse]**, o arquivo TXT delimitado por tabulação, CSV ou SSV que você deseja usar e selecione **[!UICONTROL Open]**.
+1. Selecione **[!UICONTROL Upload]**.
 
 O Adobe Dynamic Media Classic envia uma mensagem de email informando se o upload foi bem-sucedido ou não.
 
@@ -95,8 +95,8 @@ O Adobe Dynamic Media Classic envia uma mensagem de email informando se o upload
 
 Usando a tela Mapear páginas, você pode visualizar de maneira fácil e rápida o texto do Painel de informações dos Mapas de imagem em uma página específica do seu eCatalog.
 
-1. Selecione a sobreposição do catálogo **[!UICONTROL Edit]** botão.
-1. Selecionar **[!UICONTROL Map Pages]**.
+1. Selecione o botão de sobreposição **[!UICONTROL Edit]** do catálogo.
+1. Selecione **[!UICONTROL Map Pages]**.
 1. Na parte superior da tabela, no lado direito da tela, escolha **[!UICONTROL Info Panel]** no menu Mostrar.
 
    O texto da chave de substituição é exibido ao lado de cada Mapa de imagem que contém o texto Painel de informações.

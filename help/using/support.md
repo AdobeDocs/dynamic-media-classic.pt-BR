@@ -24,13 +24,13 @@ As ofertas de suporte técnico foram projetadas para atender às necessidades de
 | Suporte | Inscrição |
 | --- | --- |
 | Limite de caso | Ilimitado. |
-| Verifique o status do sistema Adobe | [Status do sistema Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
+| Verifique o status do sistema Adobe | [Status do Sistema Adobe Dynamic Media Classic](https://status.adobe.com/products/1175). |
 | Não consegue encontrar uma resposta? | [Para obter ajuda do Suporte, abra um tíquete](https://experienceleague.adobe.com/?support-solution=General#support). |
 | Fórum da comunidade | [fórum da comunidade do Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA (Service Level Agreements, contratos de nível de serviço) | [Serviços de suporte/Termos e condições](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| SLA (Service Level Agreements, contratos de nível de serviço) | [Serviços de Suporte/Termos e Condições](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Usuários suportados | Até dez usuários por organização podem ser designados como Usuários suportados, que podem abrir casos com o Atendimento ao cliente. |
 | Treinamento online gratuito e vídeos de instrução | Incluído. |
-| Suporte telefônico | <ul><li>EUA e Canadá: 1-800-497-0335 </li><li>[Números de telefone de outras regiões](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
+| Suporte telefônico | <ul><li>EUA e Canadá: 1-800-497-0335 </li><li>[Números de telefone para outras regiões](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 

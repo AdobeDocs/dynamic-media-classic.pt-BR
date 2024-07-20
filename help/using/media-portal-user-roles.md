@@ -25,7 +25,7 @@ O Media Portal fornece as seguintes funções, cada uma com direitos de acesso e
 
 * **[!UICONTROL Media Portal User]**: tem acesso a pastas e arquivos. Um usuário só pode navegar, visualizar e baixar arquivos. Essa função é adequada para parceiros de canal ou serviço que precisam de acesso aos ativos aprovados pela empresa.
 
-* **[!UICONTROL Media Portal Contributor]**: pode fazer upload, pré-visualizar e procurar arquivos e metadados em áreas às quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
+* **[!UICONTROL Media Portal Contributor]**: pode carregar, visualizar e procurar arquivos e metadados em áreas às quais um administrador concedeu permissões. Um colaborador não pode baixar arquivos. Os colaboradores podem editar metadados, alterar os nomes dos arquivos, mover arquivos para pastas diferentes e excluir arquivos.
 
 * **[!UICONTROL Media Portal Contributor-User]**: tem acesso a pastas e arquivos. Um usuário colaborador pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários do Colaborador podem alterar os nomes dos arquivos, movê-los para pastas diferentes e excluí-los.
 

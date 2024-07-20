@@ -27,20 +27,20 @@ As duas restrições a seguir se aplicam se você exportar ativos de imagem por 
 
 Consulte também [Exportar ativos do Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**Para especificar opções de exportação disponíveis para usuários do Portal de mídia:**
+**Para especificar as opções de exportação disponíveis para os usuários do Portal de Mídia:**
 
-1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
+1. Na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 1. Na janela Predefinições de imagem, selecione qualquer uma das seguintes opções:
 
-   * **Ativar conversão definida pelo usuário**: quando selecionada, essa opção permite que os usuários escolham outras opções na **[!UICONTROL Size]** na janela Exportar ativos selecionados. Os usuários podem então escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
+   * **Habilitar Conversão Definida pelo Usuário**: Quando selecionada, esta opção permite que os usuários escolham outras opções na lista suspensa **[!UICONTROL Size]** da janela Exportar Assets Selecionada. Os usuários podem então escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
 
-     Quando **[!UICONTROL pixels]** são escolhidos entre os **[!UICONTROL Size]** lista suspensa, a largura × altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 × 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 × 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
+     Quando **[!UICONTROL pixels]** são escolhidos na lista suspensa **[!UICONTROL Size]**, a largura × altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 × 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 × 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
 
      Desmarque essa opção para que os usuários baixem os arquivos sem reformatar a maneira como eles são baixados.
 
-   * **Ativar exportação original**: permite exportar as imagens principais originais. No **[!UICONTROL Export Selected Assets]** , os usuários podem abrir a **[!UICONTROL Conversion]** menu suspenso e escolha **[!UICONTROL Export Original]** para exportar arquivos originais. Desmarque essa opção se quiser forçar os usuários a escolher uma Predefinição de imagem ou escolher opções de conversão ao exportar imagens.
+   * **Habilitar Exportar Original**: permite exportar imagens primárias originais. No painel **[!UICONTROL Export Selected Assets]**, os usuários podem abrir o menu suspenso **[!UICONTROL Conversion]** e escolher **[!UICONTROL Export Original]** para exportar arquivos originais. Desmarque essa opção se quiser forçar os usuários a escolher uma Predefinição de imagem ou escolher opções de conversão ao exportar imagens.
 
 >[!MORELIKETHIS]
 >
->* [Predefinições da imagem](application-setup.md#image_presets)
->* [Escolher permissões de acesso de Predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Predefinições de imagem](application-setup.md#image_presets)
+>* [Escolher permissões de acesso de Predefinição de Imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

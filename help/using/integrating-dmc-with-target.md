@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Integrar o Adobe Dynamic Media Classic com o Adobe Target Standard/Premium {#integrating-dmc-with-target}
 
-Antes de integrar [!DNL Adobe Dynamic Media Classic] com [!DNL Target Standard/Premium], você deve inserir seu URL do Target no [!DNL Adobe Dynamic Media Classic] tela Configurações gerais do aplicativo. Para obter o URL do Target e inseri-lo na página Configurações Gerais da Aplicação, faça o seguinte:
+Antes de integrar [!DNL Adobe Dynamic Media Classic] com [!DNL Target Standard/Premium], você deve inserir sua URL de Destino na tela Configurações Gerais do Aplicativo [!DNL Adobe Dynamic Media Classic]. Para obter o URL do Target e inseri-lo na página Configurações Gerais da Aplicação, faça o seguinte:
 
-1. Entrada [!DNL Adobe Experience Cloud], faça logon no [!DNL Target Standard/Premium] conta.
-1. Depois de fazer logon, na barra de endereços do navegador, copie o URL para e incluindo `.com`.
+1. No [!DNL Adobe Experience Cloud], entre na sua conta do [!DNL Target Standard/Premium].
+1. Depois de fazer logon, na barra de endereços do navegador, copie a URL para `.com`, inclusive.
 
-   Por exemplo, se a variável *ficcional* O URL (caminhos de URLs sempre contêm barras, não barras invertidas, como neste exemplo) na barra de endereços é `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie somente esta parte do *ficcional* URL: `https:\\www.myfictionalsite.com`.
+   Por exemplo, se a URL *ficcional* (caminhos de URLs sempre contêm barras, e não barras invertidas, como neste exemplo) na barra de endereços for `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie apenas esta parte da URL *ficcional*: `https:\\www.myfictionalsite.com`.
 
-1. Entrada [!DNL Adobe Dynamic Media Classic], vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
-1. Na página Definições Gerais da Aplicação, no campo **[!UICONTROL Test&Target Server Name]** cole o URL copiado na etapa 2.
-1. Selecionar **[!UICONTROL Close]**.
+1. Em [!DNL Adobe Dynamic Media Classic], vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
+1. Na página Configurações Gerais do Aplicativo, no campo **[!UICONTROL Test&Target Server Name]**, cole a URL copiada na etapa 2.
+1. Selecione **[!UICONTROL Close]**.

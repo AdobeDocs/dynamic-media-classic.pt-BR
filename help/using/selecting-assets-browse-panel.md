@@ -23,8 +23,8 @@ Selecione um ativo no painel Procurar para poder trabalhar com ele. Use essas t�
 
 * **Um único ativo**: selecione o ativo (clicar duas vezes abre o ativo na Exibição de detalhes).
 
-* **Vários ativos**: selecione os ativos Ctrl+clique (Windows®) ou Command+clique (Mac) para selecioná-los em locais diferentes no painel Procurar. Shift + clique (clique em um ativo e, em seguida, Shift + clique em outro) para selecionar ativos adjacentes.
+* **Vários ativos**: Ctrl+clique (Windows®) ou Command+clique (Mac) para selecionar ativos em diferentes locais no painel Procurar. Shift + clique (clique em um ativo e, em seguida, Shift + clique em outro) para selecionar ativos adjacentes.
 
-* **Todos os ativos no painel Procurar**: Vá para **[!UICONTROL Select]** > **[!UICONTROL All]**.
+* **Todos os ativos no painel Procurar**: Ir para **[!UICONTROL Select]** > **[!UICONTROL All]**.
 
-* **Nenhum ativo**: Vá para **[!UICONTROL Select]** > **[!UICONTROL None]**.
+* **Nenhum ativo**: vá para **[!UICONTROL Select]** > **[!UICONTROL None]**.

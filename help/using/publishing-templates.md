@@ -1,5 +1,5 @@
 ---
-title: Publicar modelos
+title: Modelos do Publish
 description: Saiba como publicar modelos do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Publicar modelos{#publishing-templates}
+# Modelos do Publish{#publishing-templates}
 
 A publicação do modelo o coloca nos Dynamic Media Image Servers, onde ele está disponível para seu site e aplicativo. Durante o processo de publicação, o Adobe Dynamic Media Classic ativa os URLs necessários para o site e o aplicativo.
 
@@ -27,11 +27,11 @@ A publicação do modelo o coloca nos Dynamic Media Image Servers, onde ele est�
 
 ## Marcar modelos para publicação {#marking-templates-for-publish}
 
-Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação, para que sejam colocados nos servidores de imagem da Dynamic Media. Você pode marcar esses itens para publicação no painel Procurar selecionando o **[!UICONTROL Mark for Publish]** ícone.
+Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação, para que sejam colocados nos servidores de imagem da Dynamic Media. Você pode marcar esses itens para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**.
 
-## Publicar seu modelo {#publishing-your-template}
+## Publish seu modelo {#publishing-your-template}
 
-Para publicar modelos nos Dynamic Media Image Servers, na barra Navegação global, selecione **[!UICONTROL Publish]**, em seguida selecione um **[!UICONTROL When]** opção. Opcionalmente, você pode informar um nome para o job de publicação. Selecionar **[!UICONTROL Submit Publish]**.
+Para publicar modelos nos Dynamic Media Image Servers, na barra de Navegação Global, selecione **[!UICONTROL Publish]** e, em seguida, selecione uma opção **[!UICONTROL When]**. Opcionalmente, você pode informar um nome para o job de publicação. Selecione **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >

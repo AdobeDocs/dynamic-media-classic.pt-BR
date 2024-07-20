@@ -20,7 +20,7 @@ ht-degree: 0%
 
 O uso do UGC (conteúdo gerado pelo usuário) consiste em fazer upload de ativos para um repositório de armazenamento dedicado do Adobe Dynamic Media Classic e executar operações relacionadas.
 
-O UGC suporta formatos de arquivos de imagem rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
+O UGC é compatível com formatos de arquivo de imagem rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
 >

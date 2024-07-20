@@ -31,13 +31,13 @@ Last Modified Date:
 
 Você pode automatizar a geração de conjuntos como um trabalho independente que não depende de um upload.
 
-**Para automatizar a geração do conjunto de imagens:**
+**Para automatizar a geração do Conjunto de Imagens:**
 
-1. Ir para **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
+1. Vá para **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
 1. Na caixa de diálogo Gerar conjunto, especifique um nome de processo.
 
    Por padrão, o trabalho recebe um nome que indica se é um trabalho gerado e quando o trabalho foi gerado.
 
 1. Selecione a predefinição que deseja aplicar.
-1. Selecionar **[!UICONTROL Destination Folder]** e especifique a pasta que deseja usar.
-1. Selecionar **[!UICONTROL Submit]**.
+1. Selecione **[!UICONTROL Destination Folder]** e especifique a pasta que deseja usar.
+1. Selecione **[!UICONTROL Submit]**.

@@ -23,7 +23,7 @@ Um perfil ICC (International Color Consortium) é um arquivo que descreve como v
 
 No Adobe Dynamic Media Classic, você pode escolher um perfil ICC para converter imagens em um espaço de cores diferente ao fazer upload das imagens. Todos os perfis padrão do Photoshop ICC estão disponíveis por padrão no Adobe Dynamic Media Classic. Para ver os nomes dos perfis de cores na tela Upload, selecione o menu Perfil de cores. Em seguida, escolha Personalizar de > Para e escolha um nome de perfil ICC nos menus Convertido de e Convertido para.
 
-Consulte [Opções de edição de imagem no upload](image-editing-options-upload.md#image-editing-options-at-upload).
+Consulte [Opções de edição de imagem no carregamento](image-editing-options-upload.md#image-editing-options-at-upload).
 
 Além de usar os perfis ICC padrão, você pode fazer upload de outros perfis ICC para o Adobe Dynamic Media Classic e disponibilizá-los para conversão de espaço de cores. Alterne para a Exibição de detalhes no painel Procurar para investigar a classe de perfil, o tipo de espaço de cores e o tipo de PCS de um perfil ICC.
 
@@ -31,16 +31,16 @@ Além de usar os perfis ICC padrão, você pode fazer upload de outros perfis IC
 
 Carregue perfis ICC com as mesmas técnicas usadas para carregar arquivos. Você pode armazenar perfis ICC em qualquer pasta da Adobe Dynamic Media Classic.
 
-Consulte [Fazer upload dos arquivos](uploading-files.md#uploading_your_files).
+Consulte [Carregar seus arquivos](uploading-files.md#uploading_your_files).
 
 ## Examinar um perfil ICC {#examining-an-icc-profile}
 
 Para examinar um perfil ICC, selecione-o no painel Procurar e exiba-o na Exibição de detalhes. A Exibição de detalhes fornece estas informações sobre perfis ICC:
 
-* **[!UICONTROL Profile Class]**: O ICC (International Color Consortium) define cada classe para abranger um tipo de aplicativo. Por exemplo, perfis de entrada se aplicam a dispositivos como câmeras digitais e scanners, e perfis de saída se aplicam a impressoras.
+* **[!UICONTROL Profile Class]**: O ICC (Consórcio Internacional de Cores) define cada classe para cobrir um tipo de aplicativo. Por exemplo, perfis de entrada se aplicam a dispositivos como câmeras digitais e scanners, e perfis de saída se aplicam a impressoras.
 
-* **[!UICONTROL Color Space Type]**: Esse número é o espaço de cores de &quot;entrada&quot; do perfil, conforme definido pelo ICC. O tipo de espaço de cores define o número de componentes do espaço de cores e a interpretação desses componentes. Por exemplo, RGB é um espaço de cores com três componentes: vermelho, verde e azul. O tipo de espaço de cor não define as características de cor específicas do espaço (por exemplo, as cromaticidades das primárias).
+* **[!UICONTROL Color Space Type]**: Este número é o espaço de cores de &quot;entrada&quot; do perfil, conforme definido pelo ICC. O tipo de espaço de cores define o número de componentes do espaço de cores e a interpretação desses componentes. Por exemplo, RGB é um espaço de cores com três componentes: vermelho, verde e azul. O tipo de espaço de cor não define as características de cor específicas do espaço (por exemplo, as cromaticidades das primárias).
 
-* **[!UICONTROL PCS Type]**: Esse tipo de PCS é o espaço de cores de &quot;saída&quot; do perfil—o espaço de conexão do perfil. Por exemplo, um perfil de cores pode converter RGB para o PCS, que então o converte em CMYK.
+* **[!UICONTROL PCS Type]**: Este tipo de PCS é o espaço de cores de &quot;saída&quot; do perfil—seu espaço de conexão de perfil. Por exemplo, um perfil de cores pode converter RGB para o PCS, que então o converte em CMYK.
 
 Para um perfil de entrada, exibição ou saída útil para marcar cores ou imagens, o PCS tipo é XYZ ou Lab. Interprete esse perfil como o espaço de cor específico correspondente definido na especificação ICC.

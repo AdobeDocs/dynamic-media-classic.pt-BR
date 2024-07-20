@@ -18,7 +18,7 @@ ht-degree: 0%
 
 O Adobe Dynamic Media Classic é o principal sistema de publicação sob demanda entre mídias. Você pode fazer upload, gerenciar, aprimorar e publicar conteúdo dinâmico avançado em todos os dispositivos e telas. As soluções da Adobe Dynamic Media Classic incluem o seguinte:
 
-* Dynamic Imaging: edição, formatação e dimensionamento em tempo real, zoom e panorâmica interativos; cor `swatching` e textura `swatching`; rotação de 360 graus, modelos de imagem, visualizadores multimídia.
+* Dynamic Imaging: edição, formatação e dimensionamento em tempo real, zoom e panorâmica interativos; cor `swatching` e textura `swatching`; rotação de 360 graus; modelos de imagem; visualizadores multimídia.
 * eCatalogs: crie, vincule pontos de acesso, pesquise, publique e entregue catálogos online dinamicamente disponíveis em visualizadores configuráveis.
 * Media Portal: Um ambiente de autoatendimento que fornece aos usuários do portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Adobe Dynamic Media Classic para fácil acesso a upload, navegação, pesquisa, pré-visualização e exportação de ativos.
 * eVideo: carregue vídeos finais em qualquer formato, gerencie, edite, crie pontos de acesso e modelos de vídeo, publique e transmita para visualizadores de vídeo configuráveis
@@ -42,7 +42,7 @@ Consulte também os seguintes vídeos de treinamento:
 * [Início rápido: conjuntos de mídia mista](/help/using/quick-start-mixed-media-sets.md)
 * [Início rápido: conjuntos de rotação](/help/using/quick-start-spin-sets.md)
 * [Início rápido: conjuntos de amostras](/help/using/quick-start-swatch-sets.md)
-* [Início rápido: integração do Target Standard/Premium](/help/using/quick-start-target-integration.md)
+* [Início rápido: integração com o Target Standard/Premium](/help/using/quick-start-target-integration.md)
 * [Início rápido: noções básicas de modelo](/help/using/quick-start-template-basics.md)
 * [Início rápido: vídeo](/help/using/quick-start-video.md)
 * [Início rápido: Zoom](/help/using/quick-start-zoom.md)

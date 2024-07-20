@@ -41,13 +41,13 @@ Para gerenciar vídeos únicos e Conjuntos de vídeos adaptados, o Adobe Dynamic
 
 Consulte [Ativar ou desativar predefinições de vídeo adaptável](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de treinamento.
+Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
 
 Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 
 >[!NOTE]
 >
->Vídeos primários/de origem e qualquer outro vídeo de formato de origem são *não* adicionado a um Conjunto de vídeos adaptados.
+>Vídeos primários/de origem e qualquer outro vídeo de formato de origem são *não* adicionados a um Conjunto de vídeos adaptados.
 
 * Legenda de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e navegação de capítulo de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
@@ -60,7 +60,7 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 
   O streaming de vídeo adaptável é suportado em várias plataformas iOS.
 
-  Veja o suporte mais recente na [Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+  Consulte o suporte mais recente no [Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   O Adobe Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -68,7 +68,7 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 
   Você pode encontrar dispositivos Windows® compatíveis com este formato de vídeo no link a seguir:
 
-  [Formatos de vídeo compatíveis com o Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
+  [Formatos de vídeo com suporte no Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * Reproduza o vídeo usando as Predefinições do visualizador do Adobe Dynamic Media Classic, incluindo o seguinte:
 
@@ -81,11 +81,11 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 Consulte os seguintes vídeos de treinamento:
 * [Visão geral do vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [Pré-visualização de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [Visualização de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [Upload de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [Carregamento de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [Visão geral do streaming](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [Visão geral da transmissão](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Início rápido**
 
@@ -95,28 +95,28 @@ A descrição do fluxo de trabalho passo a passo a seguir foi projetada para aju
 
 Carregue e gere conjuntos de vídeos adaptáveis usando um dos dois cenários a seguir:
 
-* **Carregar vídeos pré-codificados**: se seus vídeos já tiverem sido codificados externamente a partir do Adobe Dynamic Media Classic, na barra Navegação global, selecione **[!UICONTROL Upload]**. Procure e faça upload de arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, acesse **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até os arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Conjunto de vídeos adaptados e salve o conjunto.
-* **Fazer upload de vídeos de origem primária**: Se os vídeos não estiverem codificados, na barra de Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos de origem de vídeo principal (não MP4). O Adobe Dynamic Media Classic os codifica em arquivos MP4 para você. No **[!UICONTROL Upload Job Options]** caixa de diálogo, em **[!UICONTROL EVideo Options]**, selecione **[!UICONTROL Adaptive Video]**.
+* **Carregar vídeos pré-codificados**: se seus vídeos já tiverem sido codificados externamente pelo Adobe Dynamic Media Classic, na barra Navegação Global, selecione **[!UICONTROL Upload]**. Procure e faça upload de arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, vá para **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até os arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Conjunto de vídeos adaptados e salve o conjunto.
+* **Carregar vídeos de origem primária**: se os vídeos não estiverem codificados, na barra Navegação Global, selecione **[!UICONTROL Upload]** para carregar arquivos de origem primária de vídeo (não-MP4). O Adobe Dynamic Media Classic os codifica em arquivos MP4 para você. Na caixa de diálogo **[!UICONTROL Upload Job Options]**, em **[!UICONTROL EVideo Options]**, selecione **[!UICONTROL Adaptive Video]**.
 
   Com essa opção preferida, é possível criar Conjuntos de vídeos adaptados. A predefinição de codificação correta é aplicada automaticamente ao vídeo, 16:9 ou 4:3, para corresponder às dimensões do vídeo carregado. Quando você envia seu trabalho de upload, um Conjunto de vídeos adaptados é criado automaticamente para você, que inclui três configurações de codificação de vídeo na taxa de proporção correta.
 
-  Ou, no mesmo **[!UICONTROL Job Options]** caixa de diálogo, em **[!UICONTROL EVideo Options]**, expandir **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições individuais de codificação de vídeo desejadas. É possível selecionar **Desktop**, **Móvel (iPhone, iPad, Android™)**, e **Tablet (iPad, Android™)** para criar os arquivos MP4.
+  Ou, na mesma caixa de diálogo **[!UICONTROL Job Options]**, em **[!UICONTROL EVideo Options]**, expanda **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições individuais de codificação de vídeo desejadas. Você pode selecionar **Área de Trabalho**, **Celular (iPhone, iPad, Android™)** e **Tablet (iPad, Android™)** para criar os arquivos MP4.
 
-* Ou você pode reprocessar um vídeo principal usando a variável **[!UICONTROL Reprocessing]** recurso. Os vídeos recém-codificados são adicionados ao Conjunto de vídeos adaptados existente.
+* Ou você pode reprocessar um vídeo principal usando o recurso **[!UICONTROL Reprocessing]**. Os vídeos recém-codificados são adicionados ao Conjunto de vídeos adaptados existente.
 
-Consulte [Fazer upload e codificar vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
+Consulte [Carregar e codificar vídeos](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **Opcional**
 
 O Adobe Dynamic Media Classic oferece várias predefinições predefinidas de codificação de vídeo. Essas predefinições refletem as configurações de codificação de vídeo mais comuns usadas hoje e são otimizadas para reprodução em páginas de destino.
 
-No entanto, se mais personalizações forem necessárias, os administradores poderão criar Predefinições de vídeo para personalizar o tamanho e a experiência de reprodução de Vídeos para os usuários finais. Os administradores podem adicionar e gerenciar Predefinições de vídeo na página Predefinições de vídeo, disponível em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Single Encoding Presets]**. A página Predefinições de vídeo oferece opções para adicionar, editar, excluir e ativar predefinições de vídeo.
+No entanto, se mais personalizações forem necessárias, os administradores poderão criar Predefinições de vídeo para personalizar o tamanho e a experiência de reprodução de Vídeos para os usuários finais. Os administradores podem adicionar e gerenciar Predefinições de vídeo na página Predefinições de vídeo disponível em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Single Encoding Presets]**. A página Predefinições de vídeo oferece opções para adicionar, editar, excluir e ativar predefinições de vídeo.
 
 Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 ## 2. Visualizar vídeos em um visualizador de vídeo
 
-Para ver como um vídeo é reproduzido para usuários finais em um desktop, site ou dispositivo móvel, selecione o vídeo no painel Procurar. Em seguida, selecione **[!UICONTROL Preview]**.
+Para ver como um vídeo é reproduzido para usuários finais em um desktop, site ou dispositivo móvel, selecione o vídeo no painel Procurar. Depois selecione **[!UICONTROL Preview]**.
 
 Consulte [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -124,31 +124,31 @@ Você pode reproduzir o vídeo na página Visualizar. Você também pode escolhe
 
 **Opcional**
 
-Personalização da predefinição do visualizador: o Adobe Dynamic Media Classic oferece Predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
+Personalização da predefinição do visualizador: o Adobe Dynamic Media Classic oferece Predefinições do visualizador predefinidas para entrega de vídeo. Essas predefinições determinam a aparência do Visualizador e como seus controles de reprodução funcionam. Para personalizar o visualizador de vídeo, os administradores podem adicionar e gerenciar Predefinições do visualizador na página Predefinições do visualizador. Para abrir esta página, no canto superior direito do Adobe Dynamic Media Classic, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. A página Predefinições do visualizador oferece comandos para adicionar, editar, excluir e ativar as Predefinições do visualizador.
 
-Consulte [Trabalhar com predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+Consulte [Trabalhar com as predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-Consulte também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de treinamento.
+Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
 
 ## 3. Implante vídeos em seus sites e sites móveis
 
 Para integrar vídeos ao seu site, você pode executar um dos seguintes procedimentos:
 
-* Exibir o vídeo em sua própria janela pop-up ou modal; nesse caso, use **[!UICONTROL Copy URL]** recurso.
+* Exiba o vídeo em sua própria janela pop-up ou modal; nesse caso, use o recurso **[!UICONTROL Copy URL]**.
 
-  Para obter o URL para um vídeo, na Exibição em grade ou na Exibição em lista, selecione-o no painel Procurar. Selecionar **[!UICONTROL Preview]** e selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
+  Para obter o URL para um vídeo, na Exibição em grade ou na Exibição em lista, selecione-o no painel Procurar. Selecione **[!UICONTROL Preview]** e depois selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
 
-  Ao selecionar **[!UICONTROL Copy URL]**, o URL é copiado para a Área de transferência. Coloque esse código na HTML do site, site para dispositivos móveis ou aplicativo.
+  Quando você seleciona **[!UICONTROL Copy URL]**, a URL é copiada para a Área de Transferência. Coloque esse código na HTML do site, site para dispositivos móveis ou aplicativo.
 
   >[!NOTE]
   >
   >Os URLs são ativados somente após a publicação do vídeo ou do Conjunto de vídeos adaptados.
 
-* Exibir o vídeo incorporado na página da Web, nesse caso, use o **[!UICONTROL Embed Code]** recurso.
+* Exiba o vídeo incorporado na página da Web; nesse caso, use o recurso **[!UICONTROL Embed Code]**.
 
-  Para obter o Código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no painel Procurar. Ir para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
+  Para obter o Código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no painel Procurar. Vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
-  Selecionar **[!UICONTROL Close]** e cole o Código de inserção em uma ou mais páginas da Web.
+  Selecione **[!UICONTROL Close]** e cole o Código incorporado em uma ou mais páginas da Web.
 
   >[!NOTE]
   >

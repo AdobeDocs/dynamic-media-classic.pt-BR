@@ -25,9 +25,9 @@ Você pode facilitar a visualização e a navegação dos vídeos de formulário
 >
 >O reprodutor de vídeo usado deve aceitar o uso de marcadores de capítulo.
 
-Consulte [Adicionar ou editar uma predefinição do visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) se quiser configurar os pontos de sinalização de navegação do capítulo e o texto pop-up do título do capítulo para o `Universal_HTML5_Video` (HTML5).
+Consulte [Adicionar ou editar uma predefinição do visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) se desejar configurar os pontos de sinalização de navegação do capítulo e o texto pop-up do título do capítulo para o visualizador `Universal_HTML5_Video` (HTML5).
 
-Consulte também [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
+Consulte também [Adicionar e editar Predefinições do Visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
 Uma lista de capítulos é criada para o vídeo da mesma maneira que as legendas. Ou seja, você cria um arquivo WebVTT. Observe, no entanto, que esse arquivo deve ser separado de qualquer arquivo de legenda WebVTT que você também possa estar usando; não é possível combinar legendas e capítulos em um arquivo WebVTT.
 
@@ -49,11 +49,11 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora da indicação de `00:00:000 --> 01:04:364` especifica a hora inicial e final do capítulo, em 00:00:formato 000. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição real do conteúdo do capítulo. O identificador de sinalização, o tempo de sinalização inicial e o título do capítulo são exibidos em um pop-up no reprodutor de vídeo quando o ponteiro é posicionado sobre um ponto de sinalização visual na linha do tempo do vídeo.
+No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora de sinalização de `00:00:000 --> 01:04:364` especifica a hora inicial e final do capítulo, no formato 00:00:000. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição real do conteúdo do capítulo. O identificador de sinalização, o tempo de sinalização inicial e o título do capítulo são exibidos em um pop-up no reprodutor de vídeo quando o ponteiro é posicionado sobre um ponto de sinalização visual na linha do tempo do vídeo.
 
 Como você está usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de capítulo criado segue o padrão WebVTT (Rastreamento de texto de vídeo da Web). A extensão de nome de arquivo do capítulo é `.VTT`. Você pode obter mais informações sobre o padrão de legendagem WebVTT.
 
-Consulte [WebVTT: o formato de rastreamento de texto de vídeo na Web](https://w3c.github.io/webvtt/).
+Consulte [WebVTT: O Formato de Rastreamento de Texto de Vídeo da Web](https://w3c.github.io/webvtt/).
 
 **Para adicionar marcadores de capítulo a um vídeo:**
 
@@ -61,7 +61,7 @@ Consulte [WebVTT: o formato de rastreamento de texto de vídeo na Web](https://w
 
    >[!NOTE]
    >
-   >Para suporte global de capítulos de vídeo em idiomas diferentes do inglês, o padrão WebVTT exige a criação de capítulos separados `.VTT` arquivos e chamadas para cada idioma que você deseja suportar.
+   >Para suporte global de capítulos de vídeo em idiomas diferentes do inglês, o padrão WebVTT exige a criação de `.VTT` arquivos e chamadas separados para cada idioma ao qual você deseja oferecer suporte.
 
 1. Salve o arquivo VTT na codificação UTF8 para que você possa evitar problemas com a representação de caracteres no texto do título do capítulo.
 
@@ -69,22 +69,22 @@ Consulte [WebVTT: o formato de rastreamento de texto de vídeo na Web](https://w
 
 1. No Adobe Dynamic Media Classic, carregue seu arquivo de capítulo WebVTT.
 
-   Consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
+   Consulte [Carregar arquivos](uploading-files.md#uploading_files).
 
 1. No painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o arquivo de vídeo a ser associado ao arquivo de capítulo que você carregou.
 1. No painel Navegar por ativos, selecione um único ativo de vídeo e, abaixo da imagem em miniatura do ativo, selecione **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-1. Na tabela Lista do visualizador, localize o visualizador do HTML5 chamado **Universal_HTML5_Video**, e siga um destes procedimentos:
+1. Na tabela Lista do Visualizador, localize o visualizador do HTML5 chamado **Universal_HTML5_Video** e execute um dos procedimentos a seguir:
 
-   * Para obter uma experiência de visualizador de vídeo pop-up, selecione **[!UICONTROL Copy URL]** à direita do nome.
+   * Para uma experiência de visualizador de vídeo pop-up, selecione **[!UICONTROL Copy URL]** na extremidade direita do nome.
 
      Anexe o URL copiado do vídeo com a seguinte sintaxe para que você possa associá-lo ao URL copiado para o seu arquivo de legenda:
 
      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Para obter uma experiência de visualizador de vídeo incorporado, selecione **[!UICONTROL Embed Code]** à direita do nome.
+   * Para uma experiência de visualizador de vídeo incorporado, selecione **[!UICONTROL Embed Code]** na extremidade direita do nome.
 
      Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
-     Para o HTML5 `Universal_HTML5_Video` , anexe o Código incorporado copiado com o seguinte:
+     Para o visualizador do HTML5 `Universal_HTML5_Video`, anexe o Código incorporado copiado com o seguinte:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

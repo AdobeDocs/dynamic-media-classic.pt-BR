@@ -27,34 +27,34 @@ O Início rápido dos conjuntos de amostras foi projetado para você começar a 
 
 Comece fazendo upload das imagens e dos arquivos de amostra para os Conjuntos de amostras.
 
-Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Adobe Dynamic Media Classic. Consulte [Preparar ativos do conjunto de amostras para upload](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Fazer upload dos arquivos](uploading-files.md#uploading-your-files).
+Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Adobe Dynamic Media Classic. Consulte [Preparar ativos do Conjunto de Amostras para carregamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Carregar seus arquivos](uploading-files.md#uploading-your-files).
 
 ## 2. Criar um conjunto de amostras
 
-Para criar um Conjunto de amostras, na barra Navegação global, vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Na página Conjunto de amostras, arraste imagens e amostras de cores para a página. Consulte [Criar um conjunto de amostras](creating-swatch-set.md#creating-a-swatch-set).
+Para criar um Conjunto de Amostras, na barra de Navegação Global, vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Na página Conjunto de amostras, arraste imagens e amostras de cores para a página. Consulte [Criar um conjunto de amostras](creating-swatch-set.md#creating-a-swatch-set).
 
 ## 3. Configurar as predefinições do visualizador do conjunto de amostras
 
 Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Use as predefinições Visualizador de zoom: Personalizado > Conjuntos de imagens/Amostras de cores para exibir os Conjuntos de amostras.
 
-Consulte [Criar e editar predefinições do visualizador](application-setup.md#adding-and-editing-viewer-presets).
+Consulte [Criar e editar Predefinições do Visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
 ## 4. Visualizar um conjunto de amostras
 
-Selecione o Conjunto de amostras no painel Procurar e selecione **[!UICONTROL Preview]**. O Conjunto de amostras é exibido nesta página. Selecione os ícones de miniatura e amostra para examinar o Conjunto de amostras no Visualizador selecionado. É possível escolher Visualizadores diferentes no menu Predefinições.
+Selecione o Conjunto de Amostras no painel Procurar e selecione **[!UICONTROL Preview]**. O Conjunto de amostras é exibido nesta página. Selecione os ícones de miniatura e amostra para examinar o Conjunto de amostras no Visualizador selecionado. É possível escolher Visualizadores diferentes no menu Predefinições.
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
-## 5. Publicar um conjunto de amostras
+## 5. Publish um conjunto de amostras
 
 A publicação de um Conjunto de amostras o coloca nos servidores do Adobe Dynamic Media Classic e ativa a cadeia de caracteres do URL.
 
-Selecione o **[!UICONTROL Mark For Publish]** ícone à esquerda do nome no painel Procurar. Em seguida, selecione **[!UICONTROL Publish]**. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
+Selecione o ícone **[!UICONTROL Mark For Publish]** à esquerda de seu nome no painel Procurar. Depois selecione **[!UICONTROL Publish]**. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
-Consulte [Publicar arquivos](publishing-files.md#publishing-files).
+Consulte [arquivos Publish](publishing-files.md#publishing-files).
 
 ## 6. Vincular um conjunto de amostras a uma página da Web
 
 O Adobe Dynamic Media Classic cria chamadas de URL para conjuntos de amostras e as ativa após a publicação. Você pode copiar esses URLs da página Pré-visualização.
 
-Selecione o Conjunto de amostras e clique no botão Visualizar. A página Visualizar é aberta. Selecione uma Predefinição do visualizador Conjunto de amostras e clique no botão Copiar URL. Consulte [Vincular conjuntos de amostras a páginas da Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Selecione o Conjunto de amostras e clique no botão Visualizar. A página Visualizar é aberta. Selecione uma Predefinição do visualizador Conjunto de amostras e clique no botão Copiar URL. Consulte [Conjuntos de amostras de link para páginas da Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

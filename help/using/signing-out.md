@@ -23,17 +23,17 @@ ht-degree: 0%
 
 Verifique se você tem o seguinte antes de usar o aplicativo de desktop do Adobe Dynamic Media Classic:
 
-* **Nome do usuário**: use seu endereço de e-mail como nome de login.
+* **Nome de usuário**: você usa seu endereço de email como seu nome de logon.
 
-* **Senha**: você obtém sua senha temporária em um email de &quot;Boas-vindas&quot; da Adobe Dynamic Media Classic ou do administrador do Adobe Dynamic Media Classic. Na primeira vez que fizer logon, você será solicitado a alterar essa senha temporária.
+* **Senha**: você obtém sua senha temporária em um email de boas-vindas da Adobe Dynamic Media Classic ou do administrador do Adobe Dynamic Media Classic. Na primeira vez que fizer logon, você será solicitado a alterar essa senha temporária.
 
 1. Abra o aplicativo de desktop do Adobe Dynamic Media Classic.
 
-   ![Logon no Adobe Dynamic Media Classic](/help/using/assets/dmclassic-login1.png)
+   ![entrada no Adobe Dynamic Media Classic](/help/using/assets/dmclassic-login1.png)
 
-1. No **[!UICONTROL User Name]** insira seu endereço de e-mail.
-1. No **[!UICONTROL Password]** digite a senha.
-1. No **[!UICONTROL Server]** selecione um servidor.
+1. No campo **[!UICONTROL User Name]**, digite seu endereço de email.
+1. No campo **[!UICONTROL Password]**, digite a senha.
+1. Na lista suspensa **[!UICONTROL Server]**, selecione um servidor.
 Use o mapeamento a seguir para selecionar o ambiente de produção que deseja usar.
 
    | URL do navegador | Nome do servidor de aplicativos de desktop |
@@ -42,12 +42,12 @@ Use o mapeamento a seguir para selecionar o ambiente de produção que deseja us
    | https://s7sps3.scene7.com/ | Produção na EMEA (Europa, Oriente Médio e África) |
    | https://s7sps5.scene7.com/ | Produção da APAC (Ásia-Pacífico) |
 
-1. Selecionar **[!UICONTROL Sign in]**.
+1. Selecione **[!UICONTROL Sign in]**.
 
 ## Sair do Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. No canto superior direito do aplicativo de desktop do Adobe Dynamic Media Classic, selecione **[!UICONTROL Sign out]** e selecione **[!UICONTROL Sign out]** novamente.
+1. No canto superior direito do aplicativo de desktop do Adobe Dynamic Media Classic, selecione **[!UICONTROL Sign out]** e **[!UICONTROL Sign out]** novamente.
 
 >[!MORELIKETHIS]
 >
->* [Configuração pessoal](personal-setup.md#personal_setup)
+>* [Configuração Pessoal](personal-setup.md#personal_setup)

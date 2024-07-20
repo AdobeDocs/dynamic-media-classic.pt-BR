@@ -31,9 +31,9 @@ Ao combinar em um único jogador as seguintes habilidades:
 
 Você estende o alcance do seu conteúdo de mídia avançada para usuários de desktop e dispositivos móveis. Você também garante uma experiência de vídeo otimizada.
 
-Consulte também [Sobre visualizadores do HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de referência de visualizadores do Adobe.
+Consulte também [Sobre o HTML5 Viewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
 
-Consulte também [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) vídeo de treinamento.
+Consulte também o vídeo de treinamento [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 ## Reprodução de vídeo em computadores desktop e dispositivos móveis usando o Adobe Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
@@ -49,7 +49,7 @@ A tabela a seguir descreve o dispositivo, o navegador e o método de reproduçã
 | Desktop | Internet Explorer 11+ | Transmissão de vídeo HLS. |
 | Desktop | Firefox 23-44 | Download progressivo. |
 | Desktop | Firefox 45 ou posterior | Transmissão de vídeo HLS. |
-| Desktop | Cromo | Transmissão de vídeo HLS. |
+| Desktop | Chrome | Transmissão de vídeo HLS. |
 | Desktop | Safari (Mac) | Transmissão de vídeo HLS. |
 | Dispositivo móvel | Chrome (Android™ 6 ou anterior) | Download progressivo. |
 | Dispositivo móvel | Chrome (Android™ 7 ou posterior) | Transmissão de vídeo HLS. |

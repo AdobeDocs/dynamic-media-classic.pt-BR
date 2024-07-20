@@ -26,39 +26,39 @@ As predefinições do visualizador do eCatalog oferecem muitas configurações p
 
 Siga estas etapas para criar uma Predefinição do visualizador do eCatalog (você deve ser um administrador):
 
-1. Na barra de Navegação global, acesse **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Na tela Predefinições do visualizador, crie uma Predefinição do visualizador do eCatalog iniciando de novo ou a partir de uma Predefinição do visualizador do eCatalog existente:
 
-   * **Criar uma predefinição do visualizador de eCatalog**: Selecionar **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha eCatalog Viewer e, em seguida, selecione **[!UICONTROL Add]**.
+   * **Criar uma Predefinição do Visualizador de eCatalog**: selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, escolha uma plataforma, escolha Visualizador de eCatalog e selecione **[!UICONTROL Add]**.
 
-   * **Editar uma predefinição do visualizador de eCatalog**: selecione uma Predefinição do visualizador de eCatalog e, em seguida, selecione **[!UICONTROL Edit]**. Selecionar **[!UICONTROL Save As]** após concluir a criação da predefinição.
+   * **Editar uma Predefinição do Visualizador de eCatalog**: selecione uma Predefinição do Visualizador de eCatalog e, em seguida, selecione **[!UICONTROL Edit]**. Selecione **[!UICONTROL Save As]** depois de concluir a criação da predefinição.
 
-1. No `Configure Viewer` digite um nome para a Predefinição do visualizador do eCatalog.
-1. No `Configure Viewer` defina as opções desejadas.
+1. Na página `Configure Viewer`, digite um nome para a Predefinição do Visualizador de eCatalog.
+1. Na página `Configure Viewer`, defina as opções desejadas.
 
-   selecione o **[!UICONTROL Info Tip]** ícone ao lado da opção se desejar ler sua descrição.
+   selecione o ícone **[!UICONTROL Info Tip]** ao lado da opção se desejar ler sua descrição.
 
    A página Visualizar exibe o visualizador à medida que você atualiza e altera as configurações.
 
-1. (Opcional) Na **[!UICONTROL Info Panel Settings]**, o **[!UICONTROL Information Server URL]** pode incluir os seguintes tokens especiais, que o visualizador substitui:
+1. (Opcional) Em **[!UICONTROL Info Panel Settings]**, a opção **[!UICONTROL Information Server URL]** pode incluir os seguintes tokens especiais, que o visualizador substitui:
 
    | Token | Substituído por | Notas |
    | --- | --- | --- |
-   | `$1$` | valor rollover_key | O identificador de item do `<area>` elemento do mapa. |
+   | `$1$` | valor rollover_key | O identificador de item do elemento `<area>` do mapa. |
    | `$2$` | quadro | O número sequencial do quadro mostrado no momento no conjunto de imagens. |
    | `$3$` | raiz da imagem | O primeiro elemento de caminho do primeiro item especificado no comando image (normalmente a ID do catálogo de imagens da entrada do catálogo especificando o conjunto de imagens). |
 
-1. (Opcional) Na **[!UICONTROL Info Panel Settings]**, no **[!UICONTROL Response Template]** digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um Mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de eCatalog, mas nenhum identificador de rollover, essa mensagem será exibida para o usuário.
+1. (Opcional) No **[!UICONTROL Info Panel Settings]**, na caixa **[!UICONTROL Response Template]**, digite o texto que você deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações para um Mapa de Imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de eCatalog, mas nenhum identificador de rollover, essa mensagem será exibida para o usuário.
 
 >[!NOTE]
 >
->Para usar esse Modelo de resposta em vez do modelo definido no próprio eCatalog, adicione `fmt=1` até o final do URL do Servidor de Informações. Por exemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
+>Para usar esse Modelo de Resposta em vez do modelo definido no próprio eCatalog, adicione `fmt=1` ao final da URL do Servidor de Informações. Por exemplo: `https://.../$3$/$4$/$1$/?FMT=1`.
 
-1. Selecionar **[!UICONTROL Save]**.
-1. Selecionar **[!UICONTROL Default]** para que a Predefinição do visualizador do eCatalog criada seja a usada para exibir eCatalogs na sua página da Web.
+1. Selecione **[!UICONTROL Save]**.
+1. Selecione **[!UICONTROL Default]** para que a Predefinição do visualizador de eCatalog criada seja a usada para exibir eCatalogs na sua página da Web.
 
-Para excluir uma Predefinição do visualizador de eCatalog, selecione-a na tela Predefinições do visualizador e **[!UICONTROL Delete]**.
+Para excluir uma Predefinição do visualizador de eCatalog, selecione-a na tela Predefinições do visualizador e selecione **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
->* [Predefinições do visualizador](application-setup.md#viewer_presets)
+>* [Predefinições do Visualizador](application-setup.md#viewer_presets)

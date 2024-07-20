@@ -31,13 +31,13 @@ Para inserir strings de URL em suas páginas da Web e aplicativos, copie-as do A
 
 Você pode obter uma cadeia de caracteres de URL de modelo gerada por uma Predefinição de imagem na tela Visualização de modelo. Depois de copiar o URL, ele é colocado na Área de transferência para que você possa colá-lo conforme necessário. Para obter uma string de URL de modelo gerada com uma Predefinição de imagem a partir da página Visualização de modelo, faça o seguinte:
 
-1. Selecione a sobreposição do modelo **[!UICONTROL Preview]** ou vá para **[!UICONTROL File]** > **[!UICONTROL Preview]**.
+1. Selecione o botão de substituição **[!UICONTROL Preview]** do modelo ou vá para **[!UICONTROL File]** > **[!UICONTROL Preview]**.
 1. Usando os menus da Predefinição, escolha a Predefinição de imagem com a qual deseja fornecer a imagem de modelo. A página Visualizar mostra a aparência do modelo quando ele é entregue pelo servidor.
-1. Selecionar **[!UICONTROL Copy URL]** para que você possa copiar o URL para a Área de transferência.
+1. Selecione **[!UICONTROL Copy URL]** para poder copiar a URL para a Área de Transferência.
 
 ## Adicionar URLs de modelo à sua página da Web {#adding-template-urls-to-your-web-page}
 
-Para adicionar um modelo à página da Web, consulte a equipe de desenvolvimento da página da Web para modificar a `<IMG>` no código da página da Web do HTML. Use a string do URL do Adobe Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem de modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem escolhida para o modelo.
+Para adicionar um modelo à sua página da Web, consulte a equipe de desenvolvimento da sua página da Web para modificar a tag `<IMG>` no código da sua página da Web HTML. Use a string do URL do Adobe Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem de modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem escolhida para o modelo.
 
 >[!MORELIKETHIS]
 >

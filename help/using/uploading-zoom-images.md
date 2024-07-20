@@ -23,18 +23,18 @@ As imagens com zoom devem ter uma contagem alta de pixels. Um alto número de pi
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a carregar imagens.
 
-Para obter instruções detalhadas sobre como carregar imagens, consulte [Fazer upload de arquivos](uploading-files.md#uploading_files).
+Para obter instruções detalhadas sobre como carregar imagens, consulte [Carregar arquivos](uploading-files.md#uploading_files).
 
 **Prepare suas imagens para aplicar zoom:**
 
 Para aproveitar ao máximo os recursos do Adobe Dynamic Media Classic Zoom, prepare seus arquivos de imagem de zoom antes de carregá-los:
 
-* **Tamanho da imagem**: a Adobe Dynamic Media Classic recomenda usar arquivos de imagem com no mínimo 2000 pixels no tamanho mais longo. Dessa forma, as imagens podem ser vistas claramente quando os usuários as ampliam.
+* **Tamanho da imagem**: a Adobe Dynamic Media Classic recomenda usar arquivos de imagem com, no mínimo, 2000 pixels no maior tamanho. Dessa forma, as imagens podem ser vistas claramente quando os usuários as ampliam.
 
 * **Formatos de arquivo**: o Adobe Dynamic Media Classic oferece suporte a todos os formatos de arquivo de imagem padrão. Os formatos incluem TIFF, BMP, JPEG, PSD, GIF e EPS. Formatos de imagem sem perda - TIFF e PNG - são recomendados. Se você estiver usando uma imagem de JPEG, use as configurações de mais alta qualidade.
 
-* **Espaço de cor**: RGB é o espaço de cores para apresentações de imagens da Web; imagens CMYK são convertidas automaticamente em RGB ao carregá-las. É recomendado fazer upload de imagens CMYK que tenham um perfil de cores ICC incorporado para a conversão em RGB. Consulte também Perfis ICC.
+* **Espaço de cores**: RGB é o espaço de cores para apresentações de imagens da Web; imagens CMYK são convertidas automaticamente em RGB ao carregá-las. É recomendado fazer upload de imagens CMYK que tenham um perfil de cores ICC incorporado para a conversão em RGB. Consulte também Perfis ICC.
 
 >[!MORELIKETHIS]
 >
->* [Fazer upload de arquivos](uploading-files.md#uploading_files)
+>* [Carregar arquivos](uploading-files.md#uploading_files)

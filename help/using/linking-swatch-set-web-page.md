@@ -27,20 +27,20 @@ Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o
 
 ## Copiar um URL do conjunto de amostras {#copying-a-swatch-set-url}
 
-1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Swatch Set]**.
+1. No painel Procurar ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Swatch Set]**.
 1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
-   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
-   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código de Inserção à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-   * Selecionar **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL List View]**. No painel Navegar por ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
-   * Selecionar **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Copy URL]**.
 
@@ -48,28 +48,28 @@ Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o
 
 A maneira mais comum de implantar Conjuntos de amostras é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de amostras em uma janela pop-up de zoom. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter mais detalhes e exemplos de código, consulte [Como incorporar o Visualizador de zoom do HTML5 no Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporando o Visualizador de HTML5 Zoom no Adobe Viewers Reference Guide](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de conjunto de amostras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 O uso do recurso Incorporar código permite revisar o código do visualizador do Conjunto de amostras selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o Código incorporado de um visualizador de Conjunto de amostras:**
+**Para copiar o Código de Inserção de um visualizador do Conjunto de Amostras:**
 
-1. No painel Navegar por ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Swatch Set]**.
+1. No painel Procurar ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Swatch Set]**.
 1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo Código incorporado você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
-   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e código incorporado à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.
-   * Selecionar **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código de Inserção à direita, selecione **[!UICONTROL Embed Code]** à direita do visualizador desejado.
+   * Selecione **[!UICONTROL Grid View]**. No painel Navegação de ativos, selecione um único ativo e, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-   * Selecionar **[!UICONTROL List View]**. No painel Navegação de ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL List View]**. No painel Navegar por ativos, selecione um único ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-   * Selecionar **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Selecione **[!UICONTROL Grid View]**, **[!UICONTROL List View]** ou **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
      Na página Lista do Visualizador, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
@@ -77,7 +77,7 @@ O uso do recurso Incorporar código permite revisar o código do visualizador do
 
    A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-1. Selecionar **[!UICONTROL Close]**.
+1. Selecione **[!UICONTROL Close]**.
 
 >[!MORELIKETHIS]
 >

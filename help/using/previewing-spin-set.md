@@ -25,20 +25,20 @@ Consulte [Configurar visualizadores padrão](application-setup.md#configuring_de
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 
-**Para visualizar um conjunto de rotação:**
+**Para visualizar um grupo de rotação:**
 
 1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione o tipo de ativo Conjunto de rotação.
 1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos que contêm o conjunto de rotação que você deseja visualizar com um visualizador.
 1. Siga um destes procedimentos:
 
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, acesse **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Acima da janela Ativos, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL List View]**. Na janela Ativo, selecione um ativo e, à direita da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**. Na mesma barra de ferramentas, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
 1. Na janela Lista de visualizadores, na tabela, selecione um link de visualizador para visualizar o ativo no visualizador selecionado.
 1. Feche o visualizador exibido.
-1. No canto inferior direito da janela Lista de visualizadores, selecione **[!UICONTROL Close]** para retornar à tela Ativos.
+1. No canto inferior direito da janela Lista de Visualizadores, selecione **[!UICONTROL Close]** para retornar à tela do Assets.
 
 >[!MORELIKETHIS]
 >
->* [Editar um grupo de rotação](creating-spin-set.md#editing-a-spin-set)
+>* [Editar um conjunto de rotação](creating-spin-set.md#editing-a-spin-set)

@@ -37,4 +37,4 @@ Consulte [Demonstrações](https://landing.adobe.com/en/na/dynamic-media/ctir-27
 
 A seção Introdução do sistema de Ajuda apresenta instruções para usuários novos no Adobe Dynamic Media Classic. Ele explica as noções básicas do programa, navegação, configuração, gerenciamento de ativos e criação de mídia avançada.
 
-Consulte [Comece já](dmc-platform-overview.md).
+Consulte [Introdução](dmc-platform-overview.md).

@@ -28,27 +28,27 @@ O Adobe Dynamic Media Classic mantém um registro dos trabalhos de exportação 
 **Para exportar ativos do Adobe Dynamic Media Classic:**
 
 1. Selecione os ativos que deseja exportar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
-1. Na janela Exportar ativos selecionados, clique em **[!UICONTROL Image Options]** e, em seguida, especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):
+1. Na janela Exportar Assets Selecionado, clique em **[!UICONTROL Image Options]** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):
 
    * **[!UICONTROL Presets]**: como opção, escolha uma Predefinição de imagem para formatar o ativo ao exportá-lo. Se você escolher uma Predefinição de imagem, as outras opções de formatação não estarão disponíveis, pois o ativo adota os formatos definidos pela Predefinição de imagem.
 
-   * **[!UICONTROL Conversion]**: converta o arquivo de ativo ou a imagem original.
+   * **[!UICONTROL Conversion]**: Converter o arquivo de ativo ou a imagem original.
 
-   * **[!UICONTROL Size]**: é possível selecionar um tamanho padrão. Ou você pode selecionar **[!UICONTROL Other]** do **[!UICONTROL Size]** escolha a unidade de medida desejada e especifique a largura e a altura.
+   * **[!UICONTROL Size]**: Você pode selecionar um tamanho padrão. Ou você pode selecionar **[!UICONTROL Other]** na lista suspensa **[!UICONTROL Size]**, escolher a unidade de medida desejada e especificar a largura e a altura.
 
-     Consulte também [Especifique as opções de exportação disponíveis para os usuários do Portal de mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     Consulte também [Especificar opções de exportação disponíveis para usuários do Portal de Mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL Format]**: escolha um formato de imagem.
+   * **[!UICONTROL Format]**: Escolher um formato de imagem.
 
    * **[!UICONTROL Color]**: Escolha RGB, CMYK ou Cinza.
 
-   * **[!UICONTROL Resolution]**: escolha 72 ppi, 150 ppi ou 300 ppi.
+   * **[!UICONTROL Resolution]**: Escolha 72 ppi, 150 ppi ou 300 ppi.
 
-   * **[!UICONTROL Job Name]**: é possível atribuir um nome de trabalho à exportação.
+   * **[!UICONTROL Job Name]**: você pode atribuir um nome de trabalho à exportação.
 
    * **[!UICONTROL Send Email To]**: Opcional. Insira um endereço de email se você pretende enviar os ativos por email. A mensagem de email lista o URL no qual o destinatário pode ir para baixar os ativos.
 
-1. Selecionar **[!UICONTROL Export]**.
+1. Selecione **[!UICONTROL Export]**.
 
 São apoiadas três ações básicas de exportação:
 

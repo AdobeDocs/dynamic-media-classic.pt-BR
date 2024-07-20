@@ -20,5 +20,5 @@ ht-degree: 0%
 # Imprimir ativos{#printing-assets}
 
 1. No painel Procurar, selecione o ativo ou os ativos que deseja imprimir.
-1. Ir para **[!UICONTROL File]** > **[!UICONTROL Print]** ou pressione `Ctrl+P` (Windows®) ou `Command+P` (Mac)
+1. Vá para **[!UICONTROL File]** > **[!UICONTROL Print]** ou pressione `Ctrl+P` (Windows®) ou `Command+P` (Mac).
 1. Na caixa de diálogo Imprimir, escolha quantas cópias serão impressas e clique em **[!UICONTROL Print]**.

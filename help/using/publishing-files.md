@@ -1,5 +1,5 @@
 ---
-title: Publicar arquivos
+title: Arquivos do Publish
 description: Saiba como publicar seus ativos nos servidores de imagem da Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,23 +17,23 @@ ht-degree: 0%
 
 ---
 
-# Publicar arquivos{#publishing-files}
+# Arquivos do Publish{#publishing-files}
 
 Publique seus ativos nos Dynamic Media Image Servers. Você pode publicar ativos de uma só vez ou combinar o Adobe Dynamic Media Classic para publicar ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
 
-O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado usa o protocolo HTTP/2 para entregá-lo. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
+O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado usa o protocolo HTTP/2 para entregá-lo. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
-## Publicar após o upload {#publish-after-uploading}
+## Publish depois do upload {#publish-after-uploading}
 
-Ativos em um estado publicado ou não publicado. Por padrão, todos os ativos carregados na Adobe Dynamic Media Classic são marcados automaticamente para publicação.
+Assets em um estado publicado ou não publicado. Por padrão, todos os ativos carregados na Adobe Dynamic Media Classic são marcados automaticamente para publicação.
 
-Para obter mais informações, consulte [PDF de aviso de publicação instantânea](/help/using/assets/rendering-instant-publish-notification.pdf).
+Para obter mais informações, consulte o [PDF de Aviso Instantâneo do Publish](/help/using/assets/rendering-instant-publish-notification.pdf).
 
 Use essas técnicas para marcar ativos para publicação:
 
-* **[!UICONTROL Publish After Uploading]**: Na página Fazer upload, próximo à parte inferior, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
+* **[!UICONTROL Publish After Uploading]**: Na página Upload, próximo à parte inferior, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
 
-* **[!UICONTROL Publish After Uploading]**: Na caixa de diálogo Opções de Job, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
+* **[!UICONTROL Publish After Uploading]**: Na caixa de diálogo Opções de Trabalho, selecione **[!UICONTROL Publish After Uploading]**. O padrão é um estado selecionado.
 
 Alguns ativos &quot;secundários&quot; são marcados automaticamente para publicação quando seus pais são marcados para publicação. Esta tabela lista os ativos filhos marcados para publicação automática.
 
@@ -52,7 +52,7 @@ Crie um trabalho de publicação para publicar ativos carregados nos servidores 
 
 **Para criar um trabalho de publicação:**
 
-1. Na barra Navegação global, selecione **[!UICONTROL Publish]**.
+1. Na barra de Navegação Global, selecione **[!UICONTROL Publish]**.
 1. Na caixa de diálogo Publicação, escolha se deseja um trabalho de publicação único ou recorrente.
 
    Consulte [Criar um trabalho de publicação único](publishing-files.md#creating_a_one_time_publish_job) e [Criar um trabalho de publicação recorrente](publishing-files.md#creating_a_recurring_publish_job).
@@ -62,27 +62,27 @@ Crie um trabalho de publicação para publicar ativos carregados nos servidores 
 
    Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options).
 
-1. Selecionar **[!UICONTROL Submit Publish]**.
+1. Selecione **[!UICONTROL Submit Publish]**.
 
 O Adobe Dynamic Media Classic rastreia trabalhos de publicação na página Trabalhos. Você pode revisar os trabalhos de publicação nessa página.
 
 >[!NOTE]
 >
->Os ativos republicados (publicados anteriormente) não aparecem imediatamente no site devido ao mecanismo de cache da Web na rede de entrega de conteúdo (CDN). Consulte [Ativos republicados e atrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
+>O Assets republicado (publicado antes) não é exibido imediatamente no site devido ao mecanismo de cache da Web na rede de entrega de conteúdo (CDN). Consulte [Ativos republicados e atrasos de CDN](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Criar um trabalho de publicação único {#creating-a-one-time-publish-job}
 
-Crie um trabalho de publicação único selecionando o **[!UICONTROL One-Time]** opção na página Publicação.
+Crie um trabalho de publicação único selecionando a opção **[!UICONTROL One-Time]** na página Publicação.
 
 Se desejar que o trabalho de publicação ocorra posteriormente, na página Publicação, selecione **[!UICONTROL One-Time]**. Na lista suspensa, selecione **[!UICONTROL Schedule For Later]**. Use o controle deslizante Calendário e Tempo para selecionar um dia e hora para executar o trabalho de publicação.
 
 ### Criar um trabalho de publicação recorrente {#creating-a-recurring-publish-job}
 
-Criar um trabalho de publicação recorrente selecionando **[!UICONTROL Recurring]** na página Publicação.
+Crie um trabalho de publicação recorrente selecionando **[!UICONTROL Recurring]** na página Publicação.
 
-Em seguida, escolha uma opção Repetir de **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Custom]** e, em seguida, especifique quando deseja que o trabalho de publicação se repita. O Adobe Dynamic Media Classic apresenta as ferramentas de calendário para agendar o trabalho de publicação recorrente. É possível selecionar a variável **[!UICONTROL Custom]** e insira uma regra no campo Texto da regra para descrever um intervalo de job personalizado.
+Em seguida, escolha uma opção de Repetição de **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** ou **[!UICONTROL Custom]** e especifique quando deseja que o trabalho de publicação se repita. O Adobe Dynamic Media Classic apresenta as ferramentas de calendário para agendar o trabalho de publicação recorrente. Você pode selecionar a opção **[!UICONTROL Custom]** e inserir uma regra no campo de texto Regra para descrever um intervalo de trabalho personalizado.
 
-Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento ou publicação](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
+Consulte [Criar um intervalo de tempo de trabalho de carregamento ou publicação personalizado](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
 >[!NOTE]
 >
@@ -94,13 +94,13 @@ Consulte [Criar um intervalo de tempo de trabalho personalizado de carregamento 
 
 * **[!UICONTROL Publish To]**: para publicar ativos somente em um servidor específico, escolha um tipo de servidor.
 
-* **[!UICONTROL Publish]**: por padrão, o Adobe Dynamic Media Classic publica somente ativos que são novos e que não foram publicados antes (a opção Novo desde a última publicação ). No entanto, é possível selecionar **[!UICONTROL Full Publish]** portanto, você também pode publicar ativos que foram atualizados ou alterados desde a última publicação. Selecionar **[!UICONTROL Full w/ Search Data]** se você estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
+* **[!UICONTROL Publish]**: por padrão, o Adobe Dynamic Media Classic publica somente ativos novos e que não foram publicados antes (a opção Novo desde a última Publish). No entanto, você pode selecionar **[!UICONTROL Full Publish]** para poder publicar ativos que foram atualizados ou alterados desde a última publicação. Selecione **[!UICONTROL Full w/ Search Data]** se estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
 
-* **[!UICONTROL Run Job As]**: escolha um nome de usuário na lista. Você pode classificar trabalhos por nome de usuário na página Trabalhos. Ao escolher um nome, você associa um trabalho de publicação a um usuário.
+* **[!UICONTROL Run Job As]**: Escolha um nome de usuário na lista. Você pode classificar trabalhos por nome de usuário na página Trabalhos. Ao escolher um nome, você associa um trabalho de publicação a um usuário.
 
-**[!UICONTROL HTTP Notification]**: insira um URL para acionar trabalhos de publicação subsequentes.
+**[!UICONTROL HTTP Notification]**: Insira uma URL para acionar trabalhos de publicação subsequentes.
 
-Consulte [Usar um trabalho de upload ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
+Consulte [Usar um trabalho de carregamento ou publicação como acionador](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
 ## Cancelar um trabalho de publicação {#canceling-a-publish-job}
 
@@ -112,7 +112,7 @@ Para cancelar um trabalho de publicação, vá para a página Trabalhos e seleci
 >
 >Depois de cancelar um trabalho de publicação, seu status muda para &quot;parando&quot; até que o trabalho atinja um ponto em que possa parar com segurança. A interrupção de um trabalho de publicação pode levar algum tempo se o trabalho estiver no processo de obtenção de dados do banco de dados.
 
-## Publicar ativos manualmente {#manually-publishing-assets}
+## Ativos do Publish manualmente {#manually-publishing-assets}
 
 Você pode publicar ativos individuais manualmente em vez de criar um trabalho de publicação. Ao publicar conjuntos, como um Conjunto de imagens ou um Conjunto de vídeos adaptados, o conjunto (ou &quot;pai&quot;) e todos os membros (ou &quot;filhos&quot;) dentro desse conjunto são publicados.
 
@@ -124,7 +124,7 @@ Os ativos não publicados são indicados na interface do usuário por um ícone 
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, use os métodos padrão de seleção de arquivos para selecionar um ou mais ativos não publicados.
 
-     Na barra de Navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Publish]**.
+     Na barra de Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Publish]**.
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione o ícone cinza e redondo com uma barra sobre ele, à esquerda do nome do ativo.
 
@@ -134,13 +134,13 @@ Você pode cancelar a publicação de ativos individuais manualmente. Ao cancela
 
 Os ativos publicados são indicados na interface do usuário por um ícone verde e redondo com uma marca de seleção branca no centro (estado publicado), à esquerda do nome do ativo. Depois que a publicação de um ativo é desfeita, o ícone fica cinza com uma barra (estado não publicado),
 
-**Para cancelar a publicação de ativos manualmente:**
+**Para desfazer a publicação manual de ativos:**
 
 1. Siga um destes procedimentos:
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um ou mais ativos publicados.
 
-     Na barra de Navegação global, acesse **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+     Na barra de Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
    * Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione o ícone de marca de seleção arredondado e verde à esquerda do nome do ativo.
 
@@ -158,9 +158,9 @@ O conteúdo recém-publicado do Adobe Dynamic Media Classic está disponível im
 
 Se quiser que os ativos de imagem recém-publicados estejam disponíveis antes do atraso de dez horas, você poderá liberar caches da Web no CDN. A limpeza desses caches da Web remove o conteúdo antigo dos caches da Web CDN e o substitui pelos ativos publicados mais recentemente.
 
-Para liberar o cache, na barra Navegação global, vá para **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**. Todos os arquivos selecionados são removidos do cache. Se não houver ativos publicáveis ou se você não for um administrador de empresa, a opção Remover do CDN não estará disponível.
+Para liberar o cache, na barra Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**. Todos os arquivos selecionados são removidos do cache. Se não houver ativos publicáveis ou se você não for um administrador de empresa, a opção Remover do CDN não estará disponível.
 
 >[!MORELIKETHIS]
 >
->* [Verificar arquivos de trabalho](checking-job-files.md)
->* [Editar, excluir, pausar e retomar tarefas recorrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+>* [Verificar arquivos do trabalho](checking-job-files.md)
+>* [Editar, excluir, pausar e retomar trabalhos recorrentes](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)

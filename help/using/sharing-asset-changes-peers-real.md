@@ -32,6 +32,6 @@ Depois que uma alteração é feita no cliente de origem, todos os clientes de m
 
 Ao fazer logon, você foi solicitado a permitir ou negar atualizações de colegas. Você pode &quot;lembrar&quot; a escolha para que seja solicitado apenas uma vez. Para limpar sua escolha, exclua o site apropriado do painel Rede assistida entre parceiros em Configurações globais.
 
-Se você estava editando um ativo alterado por um item de mesmo nível, será solicitado a assimilar a alteração no construtor ou editor. Se você escolher **[!UICONTROL Yes]**, o construtor ou editor descarta quaisquer alterações feitas no ativo e importa o ativo atualizado. Se você escolher **[!UICONTROL No]**, o ativo não é alterado no construtor ou editor e todas as alterações feitas persistem nessa sessão.
+Se você estava editando um ativo alterado por um item de mesmo nível, será solicitado a assimilar a alteração no construtor ou editor. Se você escolher **[!UICONTROL Yes]**, o construtor ou editor descartará todas as alterações feitas no ativo e importará o ativo atualizado. Se você escolher **[!UICONTROL No]**, o ativo não será alterado no construtor ou editor e todas as alterações feitas persistirão nessa sessão.
 
 Ao salvar o ativo, você foi notificado de que existe uma versão mais recente e perguntado se deseja substituir o ativo pelas alterações.

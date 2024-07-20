@@ -21,21 +21,21 @@ ht-degree: 0%
 
 O Adobe Dynamic Media Classic é um ambiente integrado de gerenciamento, publicação e fornecimento de mídia avançada. A mídia avançada pode ser entregue a todos os canais de marketing e vendas. Esses canais incluem a Web, material impresso, campanhas de email, portais da Web, desktops e dispositivos.
 
-Consulte também [Visão geral da plataforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) vídeo de treinamento.
+Consulte também o vídeo de treinamento [Visão geral da plataforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS).
 
 ## Processo de fluxo de trabalho {#workflow-process}
 
 As principais etapas do fluxo de trabalho do Adobe Dynamic Media Classic são:
 
-* **Fazer upload e gerenciar ativos**: faça upload dos ativos de mídia para o Adobe Dynamic Media Classic. Você pode organizar, procurar e procurar ativos no sistema. Também é possível aplicar metadados a ativos.
+* **Fazer upload e gerenciar ativos**: faça upload dos ativos de mídia para a Adobe Dynamic Media Classic. Você pode organizar, procurar e procurar ativos no sistema. Também é possível aplicar metadados a ativos.
 
-* **Criar mídia avançada**: crie configurações diferentes de seus ativos, como eCatalogs, Conjuntos de imagens, Conjuntos de rotação, Conjuntos de amostras, Conjuntos de mídia mista, Modelos básicos e Modelos FXG.
+* **Criar mídia avançada**: crie configurações diferentes de seus ativos, como eCatalogs, Conjuntos de Imagens, Conjuntos de Rotação, Conjuntos de Amostras, Conjuntos de Mídias Mistas, Modelos básicos e Modelos FXG.
 
-* **Publicar e administrar**: publique ativos na rede SaaS do Adobe Dynamic Media Classic. Monitorar o status de ativos quando eles são publicados. Administre os direitos do usuário e mantenha a segurança.
+* **Publish e administrar**: ativos do Publish para a rede SaaS da Adobe Dynamic Media Classic. Monitorar o status de ativos quando eles são publicados. Administre os direitos do usuário e mantenha a segurança.
 
-* **Atendimento**: forneça mídia da rede SaaS da Adobe Dynamic Media Classic para páginas da Web, aplicativos e dispositivos móveis; as mídias têm desempenho otimizado e são fornecidas com armazenamento em cache de CDN. A Adobe Dynamic Media Classic fornece um URL para cada ativo. Depois de publicar o ativo, o URL torna-se ativo.
+* **Servidor**: forneça mídia da rede SaaS da Adobe Dynamic Media Classic para páginas da Web, aplicativos e dispositivos móveis; a mídia tem desempenho otimizado e é fornecida com cache CDN. A Adobe Dynamic Media Classic fornece um URL para cada ativo. Depois de publicar o ativo, o URL torna-se ativo.
 
-![O processo de fluxo de trabalho Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
+![O processo de fluxo de trabalho do Adobe Dynamic Media Classic](/help/using/assets/gs_workflow.png)
 
 ## Imagens principais únicas e chamadas de URL únicas {#single-master-images-and-single-url-calls}
 
@@ -43,8 +43,8 @@ O Adobe Dynamic Media Classic é fundamentalmente diferente de outros sistemas, 
 
 As cadeias de caracteres de URL geradas com o Adobe Dynamic Media Classic incluem instruções que informam ao servidor como exibir o ativo quando entregue. Por exemplo, a mesma imagem principal pode ser fornecida em diferentes tamanhos, formatos, pesos, cores e visualizações de zoom. Como parte da criação e publicação de ativos de mídia com o Adobe Dynamic Media Classic, você pode configurar visualmente os efeitos. Ao fazer isso, você cria as chamadas de URL que informam corretamente ao servidor como apresentar seu ativo principal aos aplicativos.
 
-![O Adobe Dynamic Media Classic pode fornecer a mesma imagem principal a diferentes mídias em diferentes tamanhos e formatos.](/help/using/assets/gs_dynamic_publishing.png)
-*A Adobe Dynamic Media Classic garante que experiências consistentes e de qualidade sejam oferecidas em qualquer tela, independentemente do tamanho ou da largura de banda.*
+O ![Adobe Dynamic Media Classic pode fornecer a mesma imagem principal a diferentes mídias, em tamanhos e formatos diferentes.](/help/using/assets/gs_dynamic_publishing.png)
+*O Adobe Dynamic Media Classic garante que experiências consistentes e de qualidade sejam entregues a qualquer tela, independentemente do tamanho ou da largura de banda.*
 
 ## Armazenamento em cache de conteúdo {#content-caching}
 
