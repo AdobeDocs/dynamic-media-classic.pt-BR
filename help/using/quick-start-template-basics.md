@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: Noções básicas do modelo"
+title: 'Início rápido: Noções básicas de modelo'
 description: Uma introdução e um Início rápido das noções básicas de modelo para ajudar você a começar a usar o Adobe Dynamic Media Classic com rapidez.
 contentOwner: Rick Brough
 content-type: reference

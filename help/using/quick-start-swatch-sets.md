@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: conjuntos de amostras"
+title: 'Início rápido: conjuntos de amostras'
 description: Uma introdução e o Início rápido do conjunto de amostras para ajudar você a começar a usar o Adobe Dynamic Media Classic rapidamente.
 contentOwner: Rick Brough
 content-type: reference

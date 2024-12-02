@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: conjuntos de rotação"
+title: 'Início rápido: conjuntos de rotação'
 description: Uma introdução e um conjunto de início rápido para rotação para ajudar você a começar a usar o Adobe Dynamic Media Classic rapidamente.
 contentOwner: Rick Brough
 content-type: reference

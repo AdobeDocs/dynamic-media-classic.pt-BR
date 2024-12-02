@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: conjunto de mídias mistas"
+title: 'Início rápido: conjunto de mix de mídia'
 description: Uma introdução e o Início rápido para conjuntos de mídia mista para ajudar você a começar a usar o Adobe Dynamic Media Classic rapidamente.
 contentOwner: Rick Brough
 content-type: reference

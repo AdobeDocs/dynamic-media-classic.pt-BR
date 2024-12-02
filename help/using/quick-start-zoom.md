@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: Zoom"
+title: 'Início rápido: Zoom'
 description: Uma introdução e o Início rápido do Zoom para ajudá-lo a começar a trabalhar rapidamente.
 contentOwner: Rick Brough
 content-type: reference

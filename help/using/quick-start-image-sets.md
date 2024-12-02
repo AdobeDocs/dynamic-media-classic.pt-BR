@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: conjuntos de imagens"
+title: 'Início rápido: conjuntos de imagens'
 description: Uma introdução e o Início rápido para conjuntos de imagens para ajudar você a começar a usar rapidamente as técnicas do Conjunto de imagens no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

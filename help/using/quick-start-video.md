@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: vídeo no Adobe Dynamic Media Classic"
+title: 'Início rápido: vídeo no Adobe Dynamic Media Classic'
 description: Uma introdução e o Quick Start do Adobe Dynamic Media Classic Video para ajudá-lo a começar a usar o rapidamente.
 contentOwner: Rick Brough
 content-type: reference

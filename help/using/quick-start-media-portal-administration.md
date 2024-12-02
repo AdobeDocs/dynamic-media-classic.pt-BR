@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: Portal de mídia"
+title: 'Início rápido: Portal de mídia'
 description: Uma introdução e o Início rápido do Media Portal para ajudar você a começar a usar rapidamente as técnicas e a administração do Media Portal no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

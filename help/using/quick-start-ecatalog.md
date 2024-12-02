@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: eCatalogs"
+title: 'Início rápido: eCatalogs'
 description: Uma introdução e o Início rápido dos eCatalogs para ajudar você a começar a usar rapidamente as técnicas de eCatalog no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

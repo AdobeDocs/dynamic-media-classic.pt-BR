@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: integração do Adobe Target Standard/Premium"
+title: 'Início rápido: integração com o Adobe Target Standard/Premium'
 description: Uma introdução e o Início rápido do Adobe Target Standard/Premium para ajudar você a começar a usar rapidamente as técnicas de integração do Adobe Target Standard/Premium no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

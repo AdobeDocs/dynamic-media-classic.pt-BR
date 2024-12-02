@@ -1,5 +1,5 @@
 ---
-title: "Início rápido: dimensionamento de imagem"
+title: 'Início rápido: dimensionamento de imagem'
 description: Uma introdução e o Início rápido do dimensionamento de imagem para ajudar você a começar a usar rapidamente as técnicas de dimensionamento de imagem no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
