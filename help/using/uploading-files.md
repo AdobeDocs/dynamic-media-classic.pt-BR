@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3647'
 ht-degree: 0%
 
 ---
@@ -51,28 +51,26 @@ Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dyna
 
 O suporte para upload de TAR e ZIP inclui uma caixa de seleção para selecionar se você deseja descompactar os arquivos.
 
-### Formatos de imagem não aceitos no Dynamic Media {#unsupported-image-formats-dynamic-media}
+### Formatos de imagem não compatíveis no Dynamic Media {#unsupported-image-formats-dynamic-media}
 
-A lista a seguir descreve os subtipos de formatos de arquivos de imagens de varredura para os quais *não* há suporte no Dynamic Media.
-
-Consulte também [Detectar formatos de arquivo não compatíveis com o Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+A lista a seguir descreve os subtipos de formatos de arquivo de imagem rasterizada que *não* são suportados pelo Dynamic Media.
 
 * Arquivos PNG com tamanho de bloco IDAT maior que 100 MB.
 * Arquivos PSB.
-* Arquivos PSD com um espaço de cor diferente de CMYK, RGB, Tons de cinza ou Bitmap não são suportados. Espaços de cores DuoTone, Lab e Indexado não são compatíveis.
+* Arquivos PSD com um espaço de cor diferente de CMYK, RGB, Tons de cinza ou Bitmap não são compatíveis. Espaços de cores DuoTone, Lab e Indexado não são compatíveis.
 * Arquivos PSD com profundidade de bits superior a 16.
-* Arquivos TIFF que possuem dados de ponto flutuante.
+* Arquivos TIFF com dados de ponto flutuante.
 * Arquivos TIFF com espaço de cores Lab.
 
 ### Tipos de ativos {#asset-types}
 
 Para obter os melhores resultados com o programa Adobe Dynamic Media Classic, certifique-se de usar os formatos e tamanhos de arquivo recomendados. Esta tabela lista os tipos de ativos, alguns com formatos e tamanhos de arquivo recomendados para ativos usados com frequência.
 
-| Tipo de ativo | Descrição/Recommendations |
+| Tipo de ativo | Descrição/Recomendações |
 | --- | --- |
 | Áudio | Os formatos de ativos de áudio de entrada incluem AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3. É possível transcodificar áudio nos seguintes formatos: MP3, AAC e HE-AAC. |
-| Imagens (para dimensionamento de imagem, zoom, conjuntos de imagem, conjuntos de rotação) | As imagens devem ter pelo menos 2000 pixels no tamanho mais longo; os tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. São recomendados formatos de imagem sem perda, incluindo arquivos TIFF e PNG. Se você usar uma imagem de JPEG, use as configurações de mais alta qualidade. Os arquivos de GIF animados são tratados como outros conteúdos estáticos. |
-| eCatalogs | Use arquivos de PDF de alta resolução criados no Adobe Acrobat ou um aplicativo de Creative Suite de Adobe salvo como &quot;pronto para impressão&quot;. Os PDF incluem todas as fontes, imagens e máscaras necessárias. E inclua todos os elementos gráficos referenciados necessários, como páginas únicas, páginas duplas ou em um formato de várias páginas. Ordene suas páginas nomeando os arquivos em ordem alfanumérica. Coloque todos os PDF do eCatalog em uma única pasta para facilitar o upload. Você pode selecionar opções de corte no upload para remover a área de corte dos PDF, incluindo marcas de corte, destinos de registro ou barras de cores. A maioria dos arquivos de PDF prontos para impressão está no espaço de cores CMYK, portanto, é importante obter o perfil de cores CMYK ICC usado com seus arquivos de PDF. |
+| Imagens (para dimensionamento de imagem, zoom, conjuntos de imagem, conjuntos de rotação) | As imagens devem ter pelo menos 2000 pixels no tamanho mais longo; os tamanhos de imagem típicos variam de 1500 a 2500 pixels no tamanho mais longo. São recomendados formatos de imagem sem perda, incluindo arquivos TIFF e PNG. Se você usar uma imagem do JPEG, use as configurações de mais alta qualidade. Os arquivos GIF animados são tratados como outros conteúdos estáticos. |
+| eCatalogs | Use arquivos PDF de alta resolução criados no Adobe Acrobat ou um aplicativo do Adobe Creative Suite salvo como &quot;pronto para impressão&quot;. Os PDFs incluem todas as fontes, imagens e máscaras necessárias. E inclua todos os elementos gráficos referenciados necessários, como páginas únicas, páginas duplas ou em um formato de várias páginas. Ordene suas páginas nomeando os arquivos em ordem alfanumérica. Coloque todos os PDFs do seu eCatalog em uma única pasta para facilitar o upload. É possível selecionar opções de corte no upload para remover a área de corte dos PDFs, incluindo marcas de corte, destinos de registro ou barras de cores. A maioria dos arquivos PDF prontos para impressão está no espaço de cores CMYK, portanto, é importante obter o perfil de cores CMYK ICC usado com seus arquivos PDF. |
 | Modelos | Design de imagem ou layout em camadas que pode incluir texto, imagens e camadas. Camadas de imagem, cadeias de caracteres de texto e atributos, como cor e tamanho, podem ser parametrizados para que os dados variáveis possam ser personalizados. Os requisitos de imagem para uso em modelos são os mesmos de outras imagens. Prepare seus gráficos no Photoshop ou outro programa de edição de imagens. Salve cada gráfico como um arquivo plano transparente no formato TIFF ou PNG. Verifique se a resolução da imagem é adequada para o uso esperado. As imagens para impressão têm 300 ppi. |
 | Vídeos | O Adobe Dynamic Media Classic é compatível com arquivos de vídeo salvos nos formatos OGV e MP4. Você pode transcodificar arquivos para o formato MP4 no upload. Consulte [Formatos de arquivo de ativo com suporte](#supported-static-file-formats). |
 | Fontes | TrueType carregado, `Type1` (somente Windows®), fontes OpenType® e PhotoFonts. |
@@ -82,14 +80,14 @@ Para obter os melhores resultados com o programa Adobe Dynamic Media Classic, ce
 | Vinhetas | Imagens criadas com o programa de Criação de imagens e arquivos relacionados. |
 | Arquivos de conteúdo | Arquivos de conteúdo do Adobe InDesign, Illustrator ou Photoshop. |
 | Arquivos FXG | Arquivos de formato gráfico independentes de resolução que você pode usar para criar modelos personalizáveis para saída em impressão, Web, email, desktop e dispositivos. |
-| arquivos SVG | Arquivos gráficos de vetor dimensionáveis que podem ser renderizados pelos servidores do Servidor de imagens. |
+| Arquivos do SVG | Arquivos gráficos de vetor dimensionáveis que podem ser renderizados pelos servidores do Servidor de imagens. |
 | Arquivos XML | Arquivos que definem regras de pré-processamento usadas para modificar o caminho e consultar partes de solicitações. |
-| Arquivos de folha de estilos em cascata. | Faça upload de capas CSS para personalizar visualizadores HTML5. |
-| Arquivos do JavaScript | Os arquivos JavaScript são usados para a instrumentação do visualizador para armazenar informações da conta. A Segurança de Adobe recomenda esse tipo de ativo somente para contas de clientes que tenham um domínio separado em uso para entrega (para evitar script entre sites). |
+| Arquivos de folha de estilos em cascata. | Faça upload de capas CSS para personalizar visualizadores do HTML5. |
+| Arquivos do JavaScript | Os arquivos JavaScript são usados para a instrumentação do visualizador para armazenar informações da conta. A Segurança da Adobe recomenda esse tipo de ativo somente para contas de clientes que tenham um domínio separado em uso para entrega (para evitar script entre sites). |
 
 >[!NOTE]
 >
->Quando você faz upload de arquivos de imagem e PDF para o Adobe Dynamic Media Classic, o sistema converte esses arquivos de origem em arquivos P-TIFF (Pyramid TIFF). Esses P-TIFF são os arquivos publicados posteriormente nos Servidores de imagem Dynamic Media. O Adobe Dynamic Media Classic usa o formato de arquivo Pyramid Tiff porque contém várias taxas de zoom que permitem zoom rápido quando visualizado com um Visualizador de zoom do Adobe Dynamic Media Classic.
+>Ao fazer upload de arquivos de imagem e PDFs para o Adobe Dynamic Media Classic, o sistema converte esses arquivos de origem em arquivos P-TIFF (Pyramid TIFF). Esses P-TIFFs são os arquivos publicados posteriormente nos servidores de imagem do Dynamic Media. O Adobe Dynamic Media Classic usa o formato de arquivo Pyramid Tiff porque contém várias taxas de zoom que permitem zoom rápido quando visualizado com um Visualizador de zoom do Adobe Dynamic Media Classic.
 
 ### Formatos de Arquivo Estático Suportados {#supported-static-file-formats}
 
@@ -102,7 +100,7 @@ Os seguintes tipos de arquivos podem ser publicados:
 * CSS
 * JavaScript (quando a empresa está configurada com seu próprio domínio)
 * Vídeo principal
-* PDF (quando PDF estiver marcado para publicação após o upload, para evitar o delivery de todos os PDF para o workflow eCatalog/PDF existente)
+* PDF (quando o PDF estiver marcado para publicação após o upload, para evitar a entrega de todos os PDFs para o fluxo de trabalho existente do eCatalog/PDF)
 * Vídeo PrX
 * SVG
 * XML
@@ -252,14 +250,14 @@ Corte baseado em transparência: especifique 0 para cortar pixels apenas se fore
 * **Opções de edição de imagem**: você pode preservar as máscaras de recorte &lt;> nas imagens e escolher um perfil de cores.
 Consulte [Opções de ajuste de imagem no carregamento](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **PostScript® PostScript®**: você pode rasterizar arquivos, cortar arquivos, manter planos de fundo transparentes, escolher uma resolução e escolher um espaço de cores.
+* **Opções do PostScript®**: você pode rasterizar arquivos PostScript®, cortar arquivos, manter planos de fundo transparentes, escolher uma resolução e escolher um espaço de cores.
 Consulte [Trabalhar com arquivos PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Opções do Photoshop**: é possível criar modelos a partir de arquivos Adobe® Photoshop®, manter camadas, especificar como as camadas são nomeadas, extrair texto e especificar como as imagens são ancoradas em modelos.
-Consulte [opções de carregamento de PSD](psd-files.md#psd_upload_options).
+Consulte [opções de carregamento do PSD](psd-files.md#psd_upload_options).
 
-* **Opções de PDF**: você pode rasterizar os arquivos, extrair palavras e links de pesquisa, gerar automaticamente um eCatalog, definir a resolução e escolher um espaço de cores.
-Consulte [opções de carregamento de PDF](pdfs.md#pdf_upload_options).
+* **Opções do PDF**: você pode rasterizar os arquivos, extrair palavras e links de pesquisa, gerar automaticamente um eCatalog, definir a resolução e escolher um espaço de cores.
+Consulte [opções de carregamento do PDF](pdfs.md#pdf_upload_options).
 
 * **Opções do Illustrator**: é possível rasterizar arquivos Adobe Illustrator®, manter planos de fundo transparentes, escolher uma resolução e escolher um espaço de cores.
 Consulte [Trabalhar com arquivos PostScript e Illustrator](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
@@ -291,9 +289,9 @@ O novo trabalho envia uma notificação para o endereço especificado, para que 
 
    * Nenhum
    * Solicitação HTTP
-   * Publish de disponibilização de imagens
-   * Publish de renderização de imagem
-   * Publish de vídeo
+   * Publicação no Servidor de imagens
+   * Publicação de renderização de imagem
+   * Publicação de vídeo
 
 1. Especifique o endereço HTTP.
 1. Especifique se deseja executar somente se os arquivos foram carregados.
