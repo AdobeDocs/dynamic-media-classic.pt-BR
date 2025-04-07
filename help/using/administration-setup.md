@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: 5482f442b067fd4911a05351e88c5be130c0b76d
+source-git-commit: fc2138cc9fd08cb4ce7466724af03f0901edebf3
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1871'
 ht-degree: 0%
 
 ---
@@ -152,10 +152,10 @@ Para abrir esta página, vá para **[!UICONTROL Setup]** > **[!UICONTROL Persona
 A tabela a seguir descreve os relatórios que podem ser gerados a partir da página Largura de banda e Armazenamento:
 
 | Relatório | Informações | Uso |
-|:--- |:--- |:--- |
-| Largura de banda | Uso da largura de banda pela empresa | Rastreie o uso da largura de banda por empresa em intervalos de datas específicos para determinar os padrões de tráfego. |
+| --- | --- | --- |
+| Largura de banda | | <!-- CQDOC-22504 --> **IMPORTANTE**: a guia Largura de Banda não é mais suportada. Embora ainda apareça na interface, os dados de largura de banda não estão disponíveis e todos os valores são exibidos como `0`. |
 | Armazenamento | Utilização do armazenamento | Rastreie a quantidade de dados carregados pela empresa. |
-| Conteúdo da imagem | O número de solicitações de imagem por tipo | Rastreie o número de solicitações e o volume para diferentes tipos de imagem. |
+| Conteúdo da imagem | Exibe o total de ocorrências e o volume de entrega de imagens dividido por tipo de solicitação e subtipo. | Rastreie o número de solicitações e o volume para diferentes tipos de imagem, incluindo métricas de ativos que não são de vídeo. <!-- CQDOC-22504 --> |
 | Domínio | O número de solicitações de URL por domínio | Rastreie o uso da imagem com base no domínio da solicitação de imagem de uma empresa específica. (A Adobe Dynamic Media Classic pode fornecer mais de um domínio por conta. Para obter mais informações, entre em contato com o suporte técnico.) |
 | Transmissão de vídeo | Uso da largura de banda para streaming de vídeo | Rastreie o uso de streaming de vídeo por empresa em intervalos de datas específicos para determinar os padrões de tráfego. |
 | Conteúdo de vídeo | Tempo de reprodução de vídeos diferentes | Determine quais são os vídeos mais e menos visualizados. |
