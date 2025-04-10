@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 4601442c2d51d50a2712eee7fd8e5110b43fb2a0
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * Interface de usuário e plataforma únicas para gerenciamento de imagens e vídeo.
 * Recursos de merchandising inovadores.
-* Adobe e plataforma de entrega comprovada.
+* Plataforma de entrega robusta e comprovada da Adobe.
 * Unificação perfeita com o Assets [!DNL Experience Manager].
 
 +++
@@ -40,14 +40,14 @@ ht-degree: 0%
 * Facilidade de adoção e uso com a nova interface.
 * Crie experiências de mídia shoppable/interativa usando imagens e vídeos que impulsionam a conversão e enriquecem o engajamento e a satisfação do usuário.
 * Combine ativos da campanha com informações do produto para que você possa simplificar o clique no carrinho.
-* Crie, ajuste, marque e implante visualizadores interativos com facilidade usando o Designer do visualizador WYSIWYG.
+* Crie, ajuste, marque e implante facilmente visualizadores interativos usando o WYSIWYG Viewer Designer.
 * Forneça mídia avançada otimizada para as soluções do [!DNL Experience Cloud].
 * Integração com o [!DNL Experience Cloud] para análise avançada de ativos, direcionamento e reutilização de ativos em pontos de contato de marketing. Esses pontos de contato incluem [!DNL Adobe Campaign] para email, [!DNL Adobe Social] para canais sociais e [!DNL Experience Manager] Sites para aplicativos Web e móveis responsivos.
 
 +++
 
-+++**O [!DNL Dynamic Media] usa o Adobe CDN (Content Delivery Network) existente?**
-Sim, o [!DNL Dynamic Media] usa rede de entrega de nível superior robusta do Adobe.
++++**O [!DNL Dynamic Media] usa a CDN (Rede de Entrega de Conteúdo) do Adobe existente?**
+Sim, o [!DNL Dynamic Media] usa a rede de entrega avançada de primeira linha da Adobe.
 
 * Melhor fornecedor de mídia avançada para Internet Retail 1000, nove anos consecutivos.
 * Suporte 24 horas por dia, 7 dias por semana, 265 dias por ano; SLAs de 99,95%.
@@ -56,19 +56,19 @@ Sim, o [!DNL Dynamic Media] usa rede de entrega de nível superior robusta do Ad
 +++
 
 +++**O que é [!DNL Dynamic Media Classic]? O Adobe está alterando o nome do Adobe Scene7?**
-Adobe mudou o nome de Adobe Scene7 para [!DNL Dynamic Media Classic].
+O Adobe alterou o nome do Adobe Scene7 para [!DNL Dynamic Media Classic].
 
 +++
 
 ## Processo e ferramentas de atualização
 
 +++**Quem está qualificado para o programa de atualização?**
-Clientes que atualmente têm o [!DNL Dynamic Media Classic] (antigo Scene7) e também o [!DNL Experience Manager].
+Clientes que atualmente têm [!DNL Dynamic Media Classic] (antigo Scene7) e também têm [!DNL Experience Manager].
 
 +++
 
 +++**Como faço para iniciar o processo de atualização?**
-Entre em contato com o representante da sua Equipe de conta do Adobe ou [envie um email para s7support@adobe.com](mailto:s7support@adobe.com) com a linha de assunto `[!DNL Dynamic Media] Upgrade Program`.
+Entre em contato com o representante da Equipe de Conta da Adobe ou com o [email s7support@adobe.com](mailto:s7support@adobe.com) com a linha de assunto `[!DNL Dynamic Media] Upgrade Program`.
 
 +++
 
@@ -113,7 +113,7 @@ Não. A [lista de verificação de preparação](/help/using/upgrade-readiness.m
 +++
 
 +++**Preciso atualizar?**
-Não. O Adobe oferece suporte total e mantém o [!DNL Dynamic Media Classic] (correções de erros solicitadas pelo cliente, correções de segurança, escalabilidade da plataforma e confiabilidade) agora e no futuro.
+Não. A Adobe oferece suporte total e mantém [!DNL Dynamic Media Classic] (correções de erros solicitadas pelo cliente, correções de segurança, escalabilidade da plataforma e confiabilidade) agora e no futuro.
 
 Você poderá atualizar quando estiver pronto para aproveitar os novos recursos oferecidos pelo [!DNL Dynamic Media].
 
@@ -128,7 +128,7 @@ Depois de atualizar para o [!DNL Dynamic Media], você só deve usar o Dynamic M
 
 +++
 
-+++**Que ferramentas o Adobe fornece para automatizar o processo de atualização?**
++++**Que ferramentas a Adobe fornece para automatizar o processo de atualização?**
 Para a primeira inicialização do programa de atualização, o Adobe fornece ferramentas que podem mover ativos automaticamente de [!DNL Dynamic Media Classic] para [!DNL Dynamic Media] no Assets [!DNL Experience Manager].
 
 +++
@@ -139,17 +139,17 @@ Sim. Você pode continuar usando a infraestrutura de publicação e entrega do [
 +++
 
 +++**Preciso atualizar minhas URLs de produção?**
-Não. O Adobe continua a usar a infraestrutura de publicação e entrega do [!DNL Dynamic Media Classic] como está na solução [!DNL Dynamic Media]. O benefício dessa abordagem é que você não precisa alterar nenhuma URL de produção nas suas páginas da Web, minimizando, portanto, o risco e o esforço de migração para o [!DNL Dynamic Media].
+Não. A Adobe continua a usar a infraestrutura de publicação e entrega do [!DNL Dynamic Media Classic] como está na solução [!DNL Dynamic Media]. O benefício dessa abordagem é que você não precisa alterar nenhuma URL de produção nas suas páginas da Web, minimizando, portanto, o risco e o esforço de migração para o [!DNL Dynamic Media].
 
 +++
 
 +++**Será necessário reescrever as integrações de API e outros scripts de automação?**
-Não. O Adobe continua a usar a infraestrutura de publicação e entrega do [!DNL Dynamic Media Classic] como está na solução [!DNL Dynamic Media]. Além disso, todos os ativos são replicados para [!DNL Dynamic Media Classic]. O benefício dessa abordagem é que você não precisa reescrever nenhuma integração baseada em API ou scripts de automação, minimizando, portanto, o risco e o esforço de migração para o [!DNL Dynamic Media].
+Não. A Adobe continua a usar a infraestrutura de publicação e entrega do [!DNL Dynamic Media Classic] como está na solução [!DNL Dynamic Media]. Além disso, todos os ativos são replicados para [!DNL Dynamic Media Classic]. O benefício dessa abordagem é que você não precisa reescrever nenhuma integração baseada em API ou scripts de automação, minimizando, portanto, o risco e o esforço de migração para o [!DNL Dynamic Media].
 
 +++
 
 +++**Terei que fazer alterações ou desenvolver novamente meus visualizadores personalizados?**
-Não. O Adobe continua a usar a infraestrutura de publicação e entrega do [!DNL Dynamic Media Classic] como está na solução [!DNL Dynamic Media]. O benefício dessa abordagem é que você pode continuar a usar visualizadores personalizados, minimizando assim o risco e o esforço de migração para o [!DNL Dynamic Media].
+Não. A Adobe continua a usar a infraestrutura de publicação e entrega do [!DNL Dynamic Media Classic] como está na solução [!DNL Dynamic Media]. O benefício dessa abordagem é que você pode continuar a usar visualizadores personalizados, minimizando assim o risco e o esforço de migração para o [!DNL Dynamic Media].
 +++
 
 +++**Como migrar minhas configurações (como Predefinições de imagem, codificações de vídeo) para o [!DNL Dynamic Media]?**
@@ -178,7 +178,7 @@ Sim. A Adobe tem data centers na América do Norte, Europa e Ásia-Pacífico.
 +++
 
 +++**Por quanto tempo [!DNL Dynamic Media Classic] existirá como um produto independente?**
-O Adobe oferece suporte total e mantém o [!DNL Dynamic Media Classic] (correções de erros solicitadas pelo cliente, correções de segurança, escalabilidade da plataforma e confiabilidade) agora e no futuro.
+A Adobe oferece suporte total e mantém o [!DNL Dynamic Media Classic] (correções de erros solicitadas pelo cliente, correções de segurança, escalabilidade da plataforma e confiabilidade) agora e no futuro.
 
 +++
 
@@ -207,7 +207,7 @@ O Adobe executa uma validação automatizada em todos os ativos transferidos par
 
 +++
 
-+++**Existe um SLA para [!DNL Dynamic Media]?**
++++**Existe uma SLA para [!DNL Dynamic Media]?**
 Sim. Entre em contato com o representante da Equipe de conta da Adobe para obter mais detalhes.
 
 +++
@@ -241,12 +241,12 @@ O Brand Portal [!DNL Experience Manager] é a oferta substituta do Portal de mí
 ## Serviços de consultoria
 
 +++**Posso concluir o processo de atualização sozinho?**
-Não. Trabalhe com seu representante de Adobe e com o AGS para definir o escopo da atualização.
+Não. Trabalhe com seu representante da Adobe e com o AGS para determinar o escopo da atualização.
 
 +++
 
 +++**Como é o projeto de serviços?**
-O Adobe trabalha com você para planejar o projeto. O Adobe é responsável pelo provisionamento e configuração de contas, replicação de ativos, testes e validação.
+O Adobe trabalha com você para planejar o projeto. A Adobe é responsável pelo provisionamento e configuração de contas, replicação de ativos, testes e validação.
 
 Os clientes são os principais responsáveis pelo gerenciamento de alterações, incluindo o treinamento de usuários, a edição de processos de produção e a implantação de novos recursos.
 
@@ -262,7 +262,7 @@ Telefone: 1-800-898-9743 (EUA) | +44 (0)20 35641782 (RU) | +81-3-6743-9632 (Jap�
 +++
 
 +++**Onde posso obter mais informações sobre as opções de treinamento pago?**
-Consulte [Serviços de aprendizado digital do Adobe](https://learning.adobe.com).
+Consulte [Serviços de Aprendizado Digital da Adobe](https://learning.adobe.com).
 
 Para treinamento personalizado ou individual, entre em contato com o representante da Equipe de conta da Adobe.
 
@@ -270,8 +270,7 @@ Para treinamento personalizado ou individual, entre em contato com o representan
 
 ## Recursos adicionais
 
-+++**Onde
-posso saber mais sobre o [!DNL Dynamic Media] e seus recursos?**
++++**Onde posso obter mais informações sobre o [!DNL Dynamic Media] e seus recursos?**
 Consulte o [[!DNL Dynamic Media] microsite](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) para saber mais sobre [!DNL Dynamic Media].
 
 +++
