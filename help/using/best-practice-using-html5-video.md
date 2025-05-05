@@ -31,7 +31,7 @@ Ao combinar em um único jogador as seguintes habilidades:
 
 Você estende o alcance do seu conteúdo de mídia avançada para usuários de desktop e dispositivos móveis. Você também garante uma experiência de vídeo otimizada.
 
-Consulte também [Sobre o HTML5 Viewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
+Consulte também [Sobre o HTML5 Viewers](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
 
 Consulte também o vídeo de treinamento [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 

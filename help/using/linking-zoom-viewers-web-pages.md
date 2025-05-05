@@ -47,7 +47,7 @@ Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por m
 
 Normalmente, os visitantes ampliam imagens em um site selecionando primeiro um ícone Zoom (geralmente o ícone mostra a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente dão zoom na imagem.
 
-Para obter mais detalhes e exemplos de código, consulte o [Visualizador de zoom básico de HTML5 incorporado no Guia de referência de visualizadores Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte o [Visualizador de zoom básico de HTML5 incorporado no Guia de referência de visualizadores Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar a cópia incorporada de um visualizador de zoom {#copying-the-embed-copy-of-a-zoom-viewer}
 

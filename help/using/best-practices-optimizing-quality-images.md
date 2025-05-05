@@ -23,7 +23,7 @@ A otimização da qualidade de imagem pode consumir muito tempo. Muitos fatores 
 
 O Adobe Dynamic Media Classic inclui mais de 100 comandos de veiculação de imagens para ajustar e otimizar imagens e renderizar resultados. As diretrizes a seguir podem ajudar você a simplificar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
 
-Consulte também [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte também [Imagem inteligente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Consulte também [Imagem inteligente](https://experienceleague.adobe.com/en/docs
 >* Largura de banda de rede
 >* DPR (Relação de pixels do dispositivo)
 >
->Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos e 17 segundos).
+>Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos e 17 segundos).
 
 
 ## Práticas recomendadas para formato de imagem (&amp;fmt=) {#best-practices-for-image-format-fmt}
