@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Opções de ajuste de imagem no upload{#image-editing-options-at-upload}
 
-Ao fazer upload de arquivos de imagem, incluindo arquivos AI, EPS e PSD, você pode realizar as seguintes ações de edição na caixa de diálogo Fazer upload das opções de tarefa:
+Ao fazer upload de arquivos de imagem, incluindo arquivos AI, EPS e PSD, você pode realizar as seguintes ações de edição na caixa de diálogo Fazer upload das opções de trabalho:
 
 * Cortar espaço em branco a partir da borda das imagens.
 * Recortar manualmente nas laterais das imagens.
@@ -83,7 +83,7 @@ Em Tirar nitidez da máscara, defina as opções desejadas. As opções de confi
 
 Consulte também [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).
 
-Consulte também [Nitidez de imagens no Adobe Dynamic Media e no Servidor de imagens](/help/using/assets/s7_sharpening_images.pdf).
+Consulte também [Nitidez de imagens no Adobe Dynamic Media e no Servidor de Imagens](/help/using/assets/s7_sharpening_images.pdf).
 
 ## Plano de fundo de separação
 
@@ -93,7 +93,7 @@ Use o Plano de fundo de separação para remover automaticamente o plano de fund
 | --- | --- |
 | Plano de fundo de separação | Selecione para ativar ou &quot;ativar&quot; o recurso e as opções de Plano de fundo de separação. |
 | Canto | Obrigatório.<br>O canto da imagem usado para definir a cor do plano de fundo a ser vazada.<br>Você pode escolher entre <b>Superior Esquerdo, Inferior Esquerdo, Superior Direito ou Inferior Direito</b>. |
-| Método de preenchimento | Obrigatório. <br>Controla a transparência de pixels do local do Canto definido.<br>Você pode escolher entre os seguintes métodos de preenchimento:<br>· <b>Preenchimento do Flood</b>: transforma todos os pixels transparentes que correspondem ao Canto que você especificou e que estão conectados a ele.<br>· <b>Pixel de correspondência</b>: torna transparentes todos os pixels correspondentes, independentemente de sua localização na imagem. |
+| Método de preenchimento | Obrigatório. <br>Controla a transparência de pixels do local do Canto definido.<br>Você pode escolher entre os seguintes métodos de preenchimento:<br>· <b>Preenchimento</b>: transforma todos os pixels transparentes que correspondem ao Canto que você especificou e que estão conectados a ele.<br>· <b>Pixel de correspondência</b>: torna transparentes todos os pixels correspondentes, independentemente de sua localização na imagem. |
 | Tolerância | Opcional.<br>Controla a quantidade permitida de variação na correspondência de cores de pixels com base no local do Canto definido.<br>Use um valor de 0,0 para corresponder exatamente às cores do pixel. Ou use um valor de 1,0 para permitir a maior variação. |
 
 >[!MORELIKETHIS]

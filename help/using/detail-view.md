@@ -86,11 +86,11 @@ Esta tabela mostra quais outras opções estão disponíveis com diferentes tipo
 | Perfis ICC | Editar informações de perfil | Não |
 | Arquivos Illustrator | Não (a menos que convertido em FXG) | Não |
 | Conjuntos de imagem | Editar | Sim |
-| arquivos InDesign | Não (a menos que convertido em FXG) | Não |
-| arquivos PDF | Não | Não |
-| arquivos PSD | Sim para camadas individuais | Sim para camadas individuais |
+| Arquivos do InDesign | Não (a menos que convertido em FXG) | Não |
+| Arquivos do PDF | Não | Não |
+| Arquivos do PSD | Sim para camadas individuais | Sim para camadas individuais |
 | Conjuntos de rotação | Editar | Sim |
-| arquivos SVG | Não | Não |
+| Arquivos do SVG | Não | Não |
 | Modelos | Editar | Sim |
 | Vídeos | Não | Sim |
 | Vinhetas e vinhetas fundidas | Não | A imagem é mostrada<br>Você pode exibir o conteúdo e a estrutura dos elementos renderizáveis da vinheta no formato XML |

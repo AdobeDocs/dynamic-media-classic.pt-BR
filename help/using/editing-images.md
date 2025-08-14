@@ -31,6 +31,6 @@ O Adobe Dynamic Media Classic oferece muitas ferramentas para criar efeitos de m
 
 * **Ajustar uma imagem**: selecione o comando `Adjust` ou o botão **[!UICONTROL Adjust]** para virar, girar, desfocar, colorir ou alterar o equilíbrio de cores de uma imagem. Consulte [Ajustar uma imagem](/help/using/adjusting-image.md).
 
-* **Editar camadas**: para exibir camadas individuais editáveis em um arquivo de PSD, selecione a guia **[!UICONTROL Layers]**. Ao fazer upload de um arquivo PSD, todas as camadas são carregadas individualmente como arquivos separados, para que você possa editá-las no Adobe Dynamic Media Classic.
+* **Editar camadas**: para exibir camadas individuais editáveis em um arquivo PSD, selecione a guia **[!UICONTROL Layers]**. Ao fazer upload de um arquivo do PSD, todas as camadas são carregadas individualmente como arquivos separados, para que você possa editá-las no Adobe Dynamic Media Classic.
 
 Além de usar essas ferramentas para editar imagens, você pode editar as imagens ao carregá-las no Adobe Dynamic Media Classic. Por exemplo, é possível cortar imagens, criar uma máscara a partir de um traçado de recorte e selecionar um perfil de cor para uma imagem ao carregá-la.

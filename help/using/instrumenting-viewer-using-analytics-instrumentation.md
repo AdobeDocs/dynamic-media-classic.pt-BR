@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Instrumentar um visualizador usando o kit de instrumentação do Adobe Analytics{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
-Você pode usar o kit de instrumentação do Adobe Analytics para integrar um visualizador de HTML 5 com o Adobe Analytics.
+Você pode usar o Kit de instrumentação do Adobe Analytics para integrar um visualizador do HTML5 ao Adobe Analytics.
 
 Se você usar qualquer uma das Predefinições do visualizador do Adobe Dynamic Media Classic HTML5 predefinidas, elas já conterão todo o código de implementação para enviar dados ao Adobe Analytics. Não é necessário adicionar mais nenhuma instrumentação.
 
 ## Configurar o rastreamento do Adobe Analytics no Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-Para todos os visualizadores de HTML, adicione o seguinte JavaScript ao contêiner de HTML, geralmente no elemento &lt;head>:
+Para todos os visualizadores do HTML5, adicione a seguinte JavaScript ao contêiner do HTML, geralmente no elemento &lt;head>:
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
@@ -35,7 +35,7 @@ Onde `Adobe Dynamic Media Classic Company ID` está definido como o nome da empr
 
 Continuando, adicione uma função que transmite o evento do visualizador para o código de rastreamento do Adobe Analytics.
 
-Adicione a função `s7ComponentEvent()` ao HTML de contêiner (ou JSP, ou ASPX ou outro):
+Adicione a função `s7ComponentEvent()` ao contêiner HTML (ou JSP, ou ASPX ou outro):
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }

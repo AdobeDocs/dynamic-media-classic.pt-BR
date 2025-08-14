@@ -1,6 +1,6 @@
 ---
-title: Configuração do Publish
-description: As configurações do Publish permitem determinar como os ativos são entregues por padrão dos servidores da Adobe Dynamic Media Classic para sites ou aplicativos.
+title: Configuração de publicação
+description: As configurações de publicação permitem determinar como os ativos são entregues por padrão dos servidores da Adobe Dynamic Media Classic para sites ou aplicativos.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ---
 
-# Configuração do Publish {#publish-setup}
+# Configuração de publicação {#publish-setup}
 
-As configurações da página Configuração do Publish determinam como os ativos são entregues por padrão dos servidores da Adobe Dynamic Media Classic para sites ou aplicativos. Se nenhuma configuração for especificada, o servidor do Adobe Dynamic Media Classic fornecerá um ativo de acordo com uma configuração padrão em uma página de Configuração do Publish. Por exemplo, uma solicitação para fornecer uma imagem que não inclui um atributo de resolução produz uma imagem com a configuração Resolução de objeto padrão na página Servidor de imagens.
+As configurações da página Configuração de publicação determinam como os ativos são entregues por padrão dos servidores da Adobe Dynamic Media Classic para sites ou aplicativos. Se nenhuma configuração for especificada, o servidor do Adobe Dynamic Media Classic fornecerá um ativo de acordo com uma configuração padrão em uma página Configuração de publicação. Por exemplo, uma solicitação para fornecer uma imagem que não inclui um atributo de resolução produz uma imagem com a configuração Resolução de objeto padrão na página Servidor de imagens.
 
 Os administradores podem alterar as configurações padrão nas páginas Servidor de imagens, Renderizador de imagens e Vinheta para estabelecer configurações padrão para fornecer ativos dos servidores.
 
-Para abrir as páginas da Instalação do Publish, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
+Para abrir as páginas da Configuração de Publicação, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
 
 >[!NOTE]
 >
->As páginas de configuração do Publish são para desenvolvedores e programadores experientes de sites. O Adobe Dynamic Media Classic presume que os usuários que alteram as configurações nessas páginas estão familiarizados com o Adobe Dynamic Media Classic, os padrões e convenções de protocolo HTTP e a tecnologia básica de geração de imagens.
+>As páginas de configuração de publicação devem ser usadas por desenvolvedores e programadores experientes no site. O Adobe Dynamic Media Classic presume que os usuários que alteram as configurações nessas páginas estão familiarizados com o Adobe Dynamic Media Classic, os padrões e convenções de protocolo HTTP e a tecnologia básica de geração de imagens.
 
 ## Servidor de imagens {#image-server}
 
@@ -34,7 +34,7 @@ A página Servidor de imagens estabelece configurações padrão para fornecer i
 
 Altere essas configurações somente com a assistência de um suporte técnico da Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Catalog Management]**: essas configurações determinam como o Adobe Dynamic Media Classic e o catálogo interagem. Diferentemente da maioria dos servidores da Web, as chamadas de URL do Dynamic Media Image Server são direcionadas a um arquivo de manifesto ou catálogo, e não a um arquivo de imagem. O arquivo de catálogo (que não deve ser confundido com um eCatalog) contém uma lista de todo o conteúdo publicado no Servidor de imagens. Ele também contém o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações de usuário na seção Informações de usuário da Digimarc.
+* **[!UICONTROL Catalog Management]**: essas configurações determinam como o Adobe Dynamic Media Classic e o catálogo interagem. Diferentemente da maioria dos servidores da Web, as chamadas de URL do servidor de imagens do Dynamic Media são direcionadas a um arquivo de manifesto ou catálogo, e não a um arquivo de imagem. O arquivo de catálogo (que não deve ser confundido com um eCatalog) contém uma lista de todo o conteúdo publicado no Servidor de imagens. Ele também contém o caminho para cada imagem. Se você tiver uma ID da Digimarc, insira as informações de usuário na seção Informações de usuário da Digimarc.
 
 * **[!UICONTROL Request Attributes]**: essas configurações impõem limites às imagens que podem ser entregues do servidor. Por exemplo, o *máximo* **[!UICONTROL Reply Image Size Limit]** é **[!UICONTROL Width]** 5000 e **[!UICONTROL Height]** 5000.
 
@@ -53,7 +53,7 @@ Altere essas configurações somente com a assistência de um suporte técnico d
   Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico de localidade. Para obter essa funcionalidade, especifique uma string de mapa de local. Em seguida, edite o texto da dica de ferramenta na predefinição do Visualizador. Basta adicionar as cadeias de texto traduzidas para o idioma desejado.
 
   >[!NOTE]
-  > Para configurar as opções de Suporte à Localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite ajuda para a instalação.
+  > Para configurar as opções de Suporte à Localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite ajuda para a instalação.
 
   Para obter mais informações sobre a configuração do **[!UICONTROL Localization Support]**, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +61,7 @@ Altere essas configurações somente com a assistência de um suporte técnico d
 
 >[!NOTE]
 >
->Se você quiser configurar as opções de Suporte à localização no Adobe Dynamic Media Classic, como o campo Mapa de localidade, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite ajuda para a instalação.
+>Se você quiser configurar as opções de Suporte à Localização no Adobe Dynamic Media Classic, como o campo Mapa de Localidade, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite ajuda para a instalação.
 
 Uma maneira comum de usar o Adobe Dynamic Media Classic é gerenciar as imagens do produto em sites de e-Commerce. As empresas internacionais enfrentam o desafio de que os ativos para produtos semelhantes pareçam diferentes de país para país. Geralmente, as diferenças se referem a algumas partes da mídia geral. Resolver essas diferenças copiando todos os ativos para cada um dos países e substituindo apenas as diferenças é um esforço tremendo e contradiz a metáfora do ativo principal individual. Essas diferenças nos recursos podem variar, desde vídeos específicos de cada país com faixas de áudio diferentes até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Adobe Dynamic Media Classic usa um mecanismo básico de pesquisa. Você define uma ordem de sufixos de ativos que o Servidor de imagens procura, começando pelo local necessário.
 

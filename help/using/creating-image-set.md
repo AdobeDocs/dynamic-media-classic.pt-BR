@@ -32,7 +32,7 @@ Ao criar um conjunto, a opção **[!UICONTROL Publish after a save]** afeta o co
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
-Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recomendadas e impõe os seguintes limites:
+Ao criar um Conjunto de imagens, a Adobe recomenda as seguintes práticas recomendadas e impõe os seguintes limites:
 
 | Tipo de limite | Prática recomendada | Limite imposto |
 | --- | --- | --- |

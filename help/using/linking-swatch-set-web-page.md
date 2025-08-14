@@ -48,7 +48,7 @@ Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o
 
 A maneira mais comum de implantar Conjuntos de amostras é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de amostras em uma janela pop-up de zoom. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporando o Visualizador de HTML5 Zoom no Adobe Viewers Reference Guide](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporação do Visualizador de Zoom do HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de conjunto de amostras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -81,4 +81,4 @@ O uso do recurso Incorporar código permite revisar o código do visualizador do
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Publicar](publishing-files.md#publishing_files)

@@ -1,5 +1,5 @@
 ---
-title: Publish um conjunto de mix de mídia
+title: Publicar um conjunto de mix de mídia
 description: Saiba como publicar um conjunto de mídia mista do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Publish um conjunto de mix de mídia{#publishing-a-mixed-media-set}
+# Publicar um conjunto de mix de mídia{#publishing-a-mixed-media-set}
 
 Crie um trabalho de publicação para publicar um Conjunto de mídias mistas que você marcou para publicação no Adobe Dynamic Media Classic Video Server e no Servidor de imagens. O Adobe Dynamic Media Classic oferece opções avançadas de publicação para publicação em servidores específicos e opções para republicação de ativos que já foram publicados.
 

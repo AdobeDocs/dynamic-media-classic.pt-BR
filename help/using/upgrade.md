@@ -1,5 +1,5 @@
 ---
-title: Atualização do Adobe [!DNL Dynamic Media Classic] para [!DNL Dynamic Media] em [!DNL Experience Manager] Assets
+title: Atualizar do Adobe [!DNL Dynamic Media Classic] para [!DNL Dynamic Media] no [!DNL Experience Manager] Assets
 description: Atualização de [!DNL Adobe Dynamic Media Classic] para [!DNL Dynamic Media] em [!DNL Adobe Experience Manager]. Saiba mais sobre os principais benefícios e recursos do [!DNL Dynamic Media]. Revise a comparação da lista de recursos, as perguntas frequentes sobre atualização e a lista de verificação de preparação.
 feature: Dynamic Media Classic
 role: Admin,User
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 O Adobe criou [!DNL Dynamic Media] pensando em você.
 
-O novo [!DNL Dynamic Media] em [!DNL Adobe Experience Manager] se baseia na funcionalidade que você espera do [!DNL Dynamic Media Classic] (antigo Scene7). Ele oferece à sua organização ferramentas novas e aprimoradas para criar experiências melhores e mais envolventes.
+O novo [!DNL Dynamic Media] no [!DNL Adobe Experience Manager] se baseia na funcionalidade que você espera do [!DNL Dynamic Media Classic] (antigo Scene7). Ele oferece à sua organização ferramentas novas e aprimoradas para criar experiências melhores e mais envolventes.
 
-O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando construtores visuais em tempo real. Adobe Sentado no topo da rede de entrega testada, confiável e escalável e emparelhado com a interface de usuário intuitiva [!DNL Adobe Experience Manager], o [!DNL Dynamic Media] fornece os recursos para criar, iterar e fornecer experiências envolventes de próximo nível.
+O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando construtores visuais em tempo real. Sentado no topo da rede de entrega testada, confiável e escalável da Adobe e combinado com a interface de usuário intuitiva [!DNL Adobe Experience Manager], o [!DNL Dynamic Media] fornece os recursos para criar, iterar e fornecer experiências envolventes de próximo nível.
 
 | O que você ganha com [!DNL Dynamic Media] | Descrição |
 | --- | --- |
 | Abordagem de arquivo principal | Carregue um ativo de tamanho normal e o [!DNL Dynamic Media] cria tamanhos automaticamente, conforme necessário. |
 | Fácil criação | Crie, personalize e inicie experiências avançadas rapidamente, sem precisar de ajuda técnica. |
-| Interface intuitiva | Edite visualizadores de imagens e players de vídeo com uma interface WYSIWYG (What You See It What You Get, o que você vê é o que você obtém) fácil de usar. |
+| Interface intuitiva | Edite visualizadores de imagens e players de vídeo com uma interface WYSIWYG (What You See It What You Get, o que você vê é o que você ganha) fácil de usar. |
 | Mídia comprável | Crie imagens, vídeos e carrosséis que podem ser comprados com pontos de acesso de imagem e links clicáveis. |
 | CDN escalável | Acesse a melhor rede de entrega de conteúdo (CDN) com dimensionamento e desempenho comprovados para atender a qualquer demanda. |
 | Dynamic Imaging | Usar um arquivo principal, gerar e publicar automaticamente versões ilimitadas, alterando tamanho, formato, resolução, recorte ou efeito. |
@@ -39,7 +39,7 @@ O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando 
 
 * Experiência e integração perfeitas e unificadas com o [!DNL Adobe Experience Manager]: configure e forneça dinamicamente conteúdo avançado de uma loja, uma fonte
 * Nova experiência de usuário centrada no profissional de marketing para facilitar a criação e o fornecimento de conteúdo de mídia avançada
-* Os editores de aparência e comportamento WYSIWYG (What You See Is What You Get, o que você vê é o que você obtém) para visualizadores de imagem e players de vídeo.
+* Os editores de aparência e comportamento do WYSIWYG (What You See Is What You Get) para visualizadores de imagem e players de vídeo.
 * Acelere a criação e a implantação de experiências de mídia interativa/que pode ser comprada, incluindo pontos de acesso de imagem e vídeo que pode ser comprado
 
 ### Recursos do [!DNL Dynamic Media] dentro do [!DNL Experience Manager] Assets

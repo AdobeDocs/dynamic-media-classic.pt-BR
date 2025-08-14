@@ -51,7 +51,7 @@ O Adobe Dynamic Media Classic vem com muitas Predefinições do visualizador pre
 
 Consulte [Visualizar vídeos em um Visualizador de Vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
+Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
 
 ### Adicionar ou editar uma predefinição do visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
@@ -61,7 +61,7 @@ Em Predefinições do visualizador, você pode ativar, filtrar, classificar e vi
 
 Consulte [Predefinições do Visualizador](application-setup.md#viewer_presets).
 
-Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
+Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
 
 **Para adicionar ou editar uma Predefinição do Visualizador de Vídeo:**
 

@@ -25,24 +25,24 @@ Sites, sites móveis e aplicativos de desktop acessam o conteúdo do servidor do
 >
 >O URL ou código de inserção não estará ativo até que você publique o ativo.
 
-## Vídeo do Publish {#publishing-video}
+## Publicar vídeo {#publishing-video}
 
 A publicação de um vídeo permite que os servidores da Adobe Dynamic Media Classic forneçam vídeo ao seu site, site móvel ou aplicativo.
 
 Há dois métodos diferentes que podem ser usados para publicar vídeos:
 
-* **Vídeos do Publish de forma automática e instantânea durante o carregamento**: como parte do processo de carregamento de vídeo, a Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. Essa capacidade de publicação instantânea significa que não há necessidade de publicar vídeos separadamente após o fato.
+* **Publicar vídeos automática e instantaneamente no carregamento**: como parte do processo de carregamento de vídeo, a Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. Essa capacidade de publicação instantânea significa que não há necessidade de publicar vídeos separadamente após o fato.
 
-* **Vídeo do Publish manualmente após o carregamento**: se você não quiser publicar vídeos imediatamente, poderá publicar vídeos manualmente a qualquer momento.
+* **Publicar vídeo manualmente após o carregamento**: se não quiser publicar vídeos imediatamente, você pode publicar vídeos manualmente a qualquer momento.
 
-Depois de publicar vídeos, o Adobe Dynamic Media Classic ativa as cadeias de caracteres de URL da sua página de HTML ou código do aplicativo.
+Depois de publicar vídeos, o Adobe Dynamic Media Classic ativa as cadeias de caracteres de URL da sua página do HTML ou código do aplicativo.
 
 **Para publicar vídeo:**
 
 1. Siga um destes procedimentos:
 
    * Para publicar vídeos de forma automática e instantânea durante o carregamento, na página de Carregamento, selecione **[!UICONTROL Publish after uploading]**. Você concluiu; não há mais etapas a serem concluídas.
-   * Para publicar vídeos manualmente depois de carregar, no painel Procurar, selecione os vídeos e, na barra Navegação Global, selecione **Publish**.
+   * Para publicar vídeos manualmente depois de carregar, no painel Procurar, selecione os vídeos e, na barra Navegação Global, selecione **Publicar**.
 
 ## Vincular um URL de vídeo a um site para dispositivos móveis ou site {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -107,7 +107,7 @@ Consulte também [Vincular uma URL de vídeo a um site para dispositivos móveis
 
 ### Implementar o código incorporado para usar vídeo HTML5 com ativos de vídeo MP4 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Talvez você não queira usar o reprodutor de vídeo Adobe Dynamic Media Classic HTML5. Em vez disso, se você quiser usar a tag nativa HTML5 `<video>` com ativos de vídeo MP4, poderá usar a seguinte amostra de Código incorporado:
+Talvez você não queira usar o reprodutor de vídeo Adobe Dynamic Media Classic HTML5. Em vez disso, se você quiser usar a tag nativa HTML5 `<video>` com ativos de vídeo MP4, poderá usar a seguinte amostra de Código de inserção:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -138,20 +138,20 @@ Se você usar players de vídeo de terceiros ou um player de vídeo personalizad
 1. No Adobe Dynamic Media Classic, na barra Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 1. Dependendo do tipo de URL que deseja usar, execute uma das seguintes tarefas:
 
-* Para gerar um URL de vídeo de streaming HLS direto (taxa de multi bits)
+* Para gerar um URL de streaming de vídeo direto do HLS (taxa de multi bits)
 
   Na página **[!UICONTROL Application General Settings]**, no grupo **[!UICONTROL Servers]**, no campo de texto **[!UICONTROL Published Server Name]**, construa a URL direta. Use a seguinte sintaxe: `server/is/content/company/folder/filename.m3u8`
 
   Por exemplo, suponha que o nome do servidor Publicado seja `https://s7d9.scene7.com/.` Usando a sintaxe na etapa 2, a URL direta seria semelhante ao seguinte:
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
-* Para gerar um URL de vídeo de streaming HLS direto (taxa de bit único)
+* Para gerar um URL de streaming de vídeo direto do HLS (taxa de bit único)
 
   Na página **[!UICONTROL Application General Settings]**, no grupo **[!UICONTROL Servers]**, no campo de texto **[!UICONTROL HLS Streaming Server Name]**, construa a URL direta usando esta sintaxe:
 
   `server/company/folder/filename.ext.m3u8`
 
-  Por exemplo, suponha que o nome do servidor de streaming HLS seja `https://s7mbrstream.scene7.com/hls-vod/`. Usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
+  Por exemplo, suponha que o nome do servidor de streaming do HLS seja `https://s7mbrstream.scene7.com/hls-vod/`. Usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Para gerar um URL direto de vídeo progressivo
@@ -175,7 +175,7 @@ O Adobe Dynamic Media Classic gera miniaturas de vídeo automaticamente durante 
 
 Para gerar URLs para miniaturas de vídeo, execute uma operação de publicação.
 
-Veja o [vídeo do Publish](deploying-video-websites-mobile-sites.md#publishing_video).
+Consulte [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
 
 Após a publicação, é possível obter URLs de miniatura de vídeo na Exibição de detalhes no painel URLs e Código incorporado. Selecione **[!UICONTROL Copy URL]** à direita da miniatura do vídeo para poder copiar a URL associada.
 
@@ -187,10 +187,10 @@ Você pode aplicar modificadores de imagem ao quadro do pôster. Por exemplo, é
 
 Consulte [Adicionar ou Editar uma Predefinição do Visualizador de Vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte o [Guia de disponibilização de imagens](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte o [Guia de disponibilização de imagens](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Você também pode modificar miniaturas de vídeo anexando modificadores a URLs de miniatura de vídeo.
 
 >[!MORELIKETHIS]
 >
->* [arquivos Publish](publishing-files.md#publishing_files)
+>* [Publicar arquivos](publishing-files.md#publishing_files)

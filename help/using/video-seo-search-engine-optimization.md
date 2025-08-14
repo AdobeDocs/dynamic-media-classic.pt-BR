@@ -23,9 +23,9 @@ SEO é o processo de melhorar o volume de tráfego para um site a partir de meca
 
 Usando o Adobe Dynamic Media Classic Video SEO, você pode aplicar metadados de vídeo para fornecer aos mecanismos de pesquisa descrições de seus vídeos. O Adobe Dynamic Media Classic oferece a capacidade de criar mapas de site de vídeo e feeds mRSS. Esses arquivos XML padrão são usados para enviar informações de vídeo para mecanismos de pesquisa:
 
-* **Mapa do site de vídeo**: informa ao Google exatamente onde e qual conteúdo de vídeo está em um site. Assim, os vídeos são totalmente pesquisáveis no Google. Por exemplo, um mapa do site de vídeo pode especificar o tempo de execução e as categorias de vídeos. Para obter informações sobre mapas de site de vídeo, consulte [Mapas de site de vídeo e alternativas de mapas de site de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Mapa do site de vídeo**: informa ao Google exatamente onde e qual conteúdo de vídeo está em um site. Assim, os vídeos são totalmente pesquisáveis no Google. Por exemplo, um mapa do site de vídeo pode especificar o tempo de execução e as categorias de vídeos. Para obter informações sobre mapas de site de vídeo, consulte [Mapas de site de vídeo e alternativas de mapas de site de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
-* Feed **mRSS (Media Really Simple Syndication)**: usado pelos editores de conteúdo para alimentar arquivos de mídia no Yahoo! Pesquisa de vídeo. Para obter informações sobre feeds mRSS, consulte [Mapas de site de vídeo e alternativas de mapas de site de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* Feed **mRSS (Media Really Simple Syndication)**: usado pelos editores de conteúdo para alimentar arquivos de mídia no Yahoo! Pesquisa de vídeo. Para obter informações sobre feeds mRSS, consulte [Mapas de site de vídeo e alternativas de mapas de site de vídeo](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
 >[!NOTE]
 >
@@ -67,13 +67,13 @@ Na lista suspensa **[!UICONTROL Automatic/Manual Mode]**, escolha se deseja gera
 
 * **Modo Automático**: o Adobe Dynamic Media Classic gera automaticamente um mapa do site de vídeo, um feed RSS de mídia (mRSS) ou ambos, todos os dias. Selecione a opção **[!UICONTROL Mark for Publish]** para poder marcar automaticamente para publicação o arquivo XML gerado pelo Adobe Dynamic Media Classic.
 
-   * **Marcar para Publish** Marca para publicar o arquivo XML gerado.
+   * **Marcar para publicação** Marca para publicação o arquivo XML gerado.
 
 * **Modo Manual**: o Adobe Dynamic Media Classic gera o Mapa do Site de Vídeo, o feed RSS de Mídia (mRSS), ou ambos, quando você seleciona **[!UICONTROL Generate]** ou **[!UICONTROL Save & Generate]** na tela Configurações de Otimização de Pesquisa de Vídeo. Escolha também estas opções:
 
    * **Nenhuma outra configuração**: não marca para publicação o arquivo XML gerado.
 
-   * **Marcar para Publish**: marcas para publicar o arquivo XML gerado.
+   * **Marcar para publicação**: marcas para publicação do arquivo XML gerado.
 
    * **Permitir Geração Parcial**: os mecanismos de pesquisa podem rejeitar um arquivo XML se ele não contiver informações completas de metadados para todos os vídeos. Essa opção gera o arquivo XML mesmo se os metadados não estiverem disponíveis para alguns vídeos. Um aviso é registrado na tela Relatório. Escolha essa opção se você pretende exportar o arquivo XML e processar as informações ausentes manualmente.
 
@@ -98,7 +98,7 @@ Consulte [Exibições de Metadados](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
->Publish o mapa do site de vídeo ou feed mRSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de mapa do site de vídeo e de feed de Mídia RSS (mRSS) são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e selecione **[!UICONTROL Publish]**.
+>Publique o Mapa do site em vídeo ou o feed mRSS antes de enviá-lo para os mecanismos de pesquisa. Os arquivos de mapa do site de vídeo e de feed de Mídia RSS (mRSS) são armazenados na pasta raiz da empresa. Marque esses arquivos XML para publicação, se necessário, e selecione **[!UICONTROL Publish]**.
 
 ## Enviar arquivos de Mapa do site de vídeo e Feed de RSS por meio de um mecanismo de pesquisa {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 

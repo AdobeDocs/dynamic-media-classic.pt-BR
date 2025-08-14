@@ -63,5 +63,5 @@ Você pode cortar os pixels transparentes ou de cores sólidas da borda de uma i
 >[!MORELIKETHIS]
 >
 >* [Opções para edição de imagens no carregamento](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Cortar espaço em branco de um arquivo PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Cortar dos lados das páginas de PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Cortar espaço em branco de um arquivo do PDF](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Cortar dos lados das páginas do PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)

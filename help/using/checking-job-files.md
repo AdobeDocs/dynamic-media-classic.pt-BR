@@ -12,7 +12,7 @@ topic: Administration, Content Management
 level: Intermediate
 source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Selecione **[!UICONTROL Jobs]** na barra de Navegação Global para que a págin
 
 Os jobs são listados nestas categorias na guia Histórico da página Jobs:
 
-* **[!UICONTROL Job Type]**: um ícone indica o tipo de trabalho: Carregar e Publish são os tipos de trabalho mais comuns.
+* **[!UICONTROL Job Type]**: Um ícone indica o tipo de trabalho: Carregar e Publicar são os tipos de trabalho mais comuns.
 
 * **[!UICONTROL Job Name]**: O nome do trabalho. O nome inclui a parte inserida pelo usuário do nome e a data e hora.
 
@@ -81,7 +81,7 @@ Você pode copiar essas informações para a Área de transferência.
 
 ## Lidar com trabalhos recorrentes de upload e publicação {#handling-recurring-upload-and-publish-jobs}
 
-Os processos recorrentes de upload e publicação criados nas páginas Upload e Publish são listados na guia Programado da página Jobs. É possível editar e excluir tarefas recorrentes na guia Scheduled.
+Os trabalhos de upload e publicação recorrentes, criados nas páginas Upload e Publicar, são listados na guia Programado da página Trabalhos. É possível editar e excluir tarefas recorrentes na guia Scheduled.
 
 Selecione o botão Trabalhos na barra de Navegação Global e, na página Trabalhos, selecione a guia **[!UICONTROL Scheduled]** para poder editar e excluir trabalhos recorrentes.
 
@@ -103,13 +103,13 @@ Consulte [Criar um intervalo de tempo de trabalho de carregamento ou publicaçã
 
 ### Criar um intervalo de tempo de trabalho personalizado de carregamento ou publicação {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Para criar um intervalo personalizado para um carregamento (por meio do FTP) ou um trabalho de publicação, na página Carregar ou Publish, vá para **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**. Em seguida, insira números e curingas na caixa Regra descrevendo um intervalo de tempo para que os trabalhos de upload ou publicação voltem a ocorrer.
+Para criar um intervalo personalizado para um carregamento (por meio do FTP) ou um trabalho de publicação, na página Carregar ou Publicar, vá para **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**. Em seguida, insira números e curingas na caixa Regra descrevendo um intervalo de tempo para que os trabalhos de upload ou publicação voltem a ocorrer.
 
 A sintaxe para descrever os intervalos de tempo personalizados de upload e publicação na caixa Regra é:
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Por exemplo, `0 15 10 * * ?` agenda um trabalho às 10h15,00 todos os dias.
+Por exemplo, `0 15 10 * * ?` agenda um trabalho às 10:15.00 todos os dias.
 
 As tabelas e a lista a seguir explicam como descrever um intervalo de tempo na caixa Regra.
 
@@ -143,17 +143,17 @@ Esta lista fornece exemplos de descrição de intervalos de tempo na caixa Regra
 
 * `0 0 12 * * ?` : ao meio-dia todos os dias
 * `0 15 10 ? * *` : 10:15 am todos os dias
-* `0 0/5 14 * * ?`: a cada 5 minutos entre 14h e 14h55 todos os dias
-* `0 0/5 14,18 * * ?` : a cada 5 minutos entre 14h e 14h55 todos os dias e a cada 5 minutos entre 18h e 18h55 todos os dias
-* `0 10,44 14 ? 3` : Qua às 14h10 e 14h44 toda quarta-feira de março
-* `0 15 10 ? *` : segunda a sexta às 10h15, todos os dias da semana
-* `0 15 10 20 * ?` : Às 10h15 do dia 20 de cada mês
-* `0 15 10 L * ?` : Às 10h15 do último dia de cada mês
-* `0 15 10 ? * 6L` : Às 10h15 da última sexta-feira de cada mês
-* `0 15 10 * * 6#3` : Às 10h15 da terceira sexta-feira de cada mês
+* `0 0/5 14 * * ?`: a cada 5 minutos entre 2:00 e 2:55 pm todos os dias
+* `0 0/5 14,18 * * ?` : a cada 5 minutos entre 2:00 e 2:55 pm todos os dias e a cada 5 minutos entre 6:00 e 6:55 pm todos os dias
+* `0 10,44 14 ? 3` : quarta-feira às 14h10 e 14h20 todas as quartas-feiras de março:10:44
+* `0 15 10 ? *` : segunda a sexta às 10:15, todos os dias da semana
+* `0 15 10 20 * ?` : Às 10:15 da manhã do dia 20 de cada mês
+* `0 15 10 L * ?` : Às 10:15 da manhã, no último dia de cada mês
+* `0 15 10 ? * 6L` : Às 10:15 da última sexta-feira de cada mês
+* `0 15 10 * * 6#3` : Às 10:15 da terceira sexta-feira de cada mês
 
 ## Usar um trabalho de upload ou publicação como acionador {#using-an-upload-or-publish-job-as-a-trigger}
 
 Ao fazer upload de ativos por FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar quando o upload estiver concluído. (Se outros trabalhos estiverem programados para começar, o trabalho programado aqui será enfileirado atrás deles.) O novo trabalho envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Esse trabalho de upload complementar recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
 
-Para fazer um trabalho de carregamento ou publicação acionar outro trabalho, selecione **[!UICONTROL Advanced]** na página Carregar ou Publish. Em seguida, insira o URL no campo de texto Notificação HTTP.
+Para fazer um trabalho de carregamento ou publicação acionar outro trabalho, selecione **[!UICONTROL Advanced]** na página Carregar ou Publicar. Em seguida, insira o URL no campo de texto Notificação HTTP.

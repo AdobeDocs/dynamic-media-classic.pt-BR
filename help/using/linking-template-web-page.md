@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Vincular um modelo a uma página da Web{#linking-a-template-to-a-web-page}
 
-Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL. Depois de publicar um modelo, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência ao modelo nos Dynamic Media Image Servers. Você pode colar esse URL em um navegador da Web para testar o.
+Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media por meio de cadeias de caracteres de URL. Depois de publicar um modelo, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência ao modelo nos servidores de imagem do Dynamic Media. Você pode colar esse URL em um navegador da Web para testar o.
 
 Para inserir strings de URL em suas páginas da Web e aplicativos, copie-as do Adobe Dynamic Media Classic. Para obter uma cadeia de caracteres de URL de modelo gerada com uma Predefinição de imagem, vá para a tela Visualização ou o painel Procurar (na Exibição de detalhes). Em seguida, selecione uma Predefinição de imagem e o botão Copiar URL.
 
@@ -37,7 +37,7 @@ Você pode obter uma cadeia de caracteres de URL de modelo gerada por uma Predef
 
 ## Adicionar URLs de modelo à sua página da Web {#adding-template-urls-to-your-web-page}
 
-Para adicionar um modelo à sua página da Web, consulte a equipe de desenvolvimento da sua página da Web para modificar a tag `<IMG>` no código da sua página da Web HTML. Use a string do URL do Adobe Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem de modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem escolhida para o modelo.
+Para adicionar um modelo à sua página da Web, consulte sua equipe de desenvolvimento de página da Web para modificar a tag `<IMG>` no código da página da Web do HTML. Use a string do URL do Adobe Dynamic Media Classic para fazer uma solicitação aos servidores de imagem do Dynamic Media. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem de modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem escolhida para o modelo.
 
 >[!MORELIKETHIS]
 >

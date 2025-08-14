@@ -12,7 +12,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -23,29 +23,29 @@ A otimização da qualidade de imagem pode consumir muito tempo. Muitos fatores 
 
 O Adobe Dynamic Media Classic inclui mais de 100 comandos de veiculação de imagens para ajustar e otimizar imagens e renderizar resultados. As diretrizes a seguir podem ajudar você a simplificar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
 
-Consulte também [Imagem inteligente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte também [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
->Experimente e descubra os benefícios dos modificadores de imagem do Dynamic Media e do Smart Imaging, usando o [_Instantâneo_](https://snapshot.scene7.com/) do Dynamic Media.
+>Experimente e descubra os benefícios dos modificadores de imagem do Dynamic Media e do Smart Imaging, usando o [_Snapshot_](https://snapshot.scene7.com/) do Dynamic Media.
 >
-> O Instantâneo é uma ferramenta de demonstração visual criada para ilustrar o potencial do Dynamic Media para entrega de imagens otimizadas e dinâmicas. Experimente com imagens de teste ou URLs do Dynamic Media, para que você possa observar visualmente a saída de vários modificadores de imagem do Dynamic Media e otimizações de Imagem inteligente para o seguinte:
+> O Instantâneo é uma ferramenta de demonstração visual criada para ilustrar o potencial do Dynamic Media para entrega de imagens otimizadas e dinâmicas. Experimente com imagens de teste ou URLs do Dynamic Media, para que você possa observar visualmente a saída de vários modificadores de imagem do Dynamic Media e as otimizações de Imagem inteligente para o seguinte:
 >
 >* Tamanho do arquivo (com entrega WebP e AVIF)
 >* Largura de banda de rede
 >* DPR (Relação de pixels do dispositivo)
 >
->Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos e 17 segundos).
+>Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos e 17 segundos).
 
 
 ## Práticas recomendadas para formato de imagem (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * JPG ou PNG são as melhores opções para fornecer imagens em boa qualidade e com tamanho e peso gerenciáveis.
 * Se nenhum comando format for fornecido no URL, o Dynamic Media Image Serving assume o padrão JPG para entrega.
-* O JPG faz a compactação a uma proporção de 10:1 e geralmente produz arquivos de imagem menores. O PNG é compactado em uma proporção de aproximadamente 2:1, exceto às vezes quando as imagens contêm um plano de fundo vazio. Geralmente, porém, os tamanhos dos arquivos PNG são maiores que os arquivos JPG.
-* O JPG usa compactação com perdas, o que significa que os elementos da imagem (pixels) são descartados durante a compactação. Por outro lado, o PNG usa compactação sem perdas.
+* A JPG compacta a uma proporção de 10:1 e geralmente produz arquivos de imagem menores. O PNG é compactado em uma proporção de aproximadamente 2:1, exceto às vezes quando as imagens contêm um plano de fundo vazio. Geralmente, porém, os tamanhos dos arquivos PNG são maiores que os arquivos JPG.
+* O JPG usa compactação com perdas, o que significa que os elementos de imagem (pixels) são soltos durante a compactação. Por outro lado, o PNG usa compactação sem perdas.
 * O JPG geralmente compacta imagens fotográficas com melhor fidelidade do que imagens sintéticas com bordas nítidas e contraste.
-* Se suas imagens contiverem transparência, use PNG porque JPG não suporta transparência.
+* Se as imagens contiverem transparência, use PNG, pois o JPG não oferece suporte a essa transparência.
 
 Como prática recomendada para o formato de imagem, comece com a configuração mais comum `&fmt=JPG`.
 
@@ -101,25 +101,25 @@ Deixe a configuração de parâmetro monocromático em 0.
 
 ## Práticas recomendadas para compactação JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
-* Esse parâmetro controla a qualidade da codificação JPG. Um valor mais alto significa uma imagem de qualidade superior, mas um tamanho de arquivo grande; como alternativa, um valor mais baixo significa uma imagem de qualidade inferior, mas um tamanho de arquivo menor. O intervalo desse parâmetro é de 0 a 100.
+* Esse parâmetro controla a qualidade da codificação do JPG. Um valor mais alto significa uma imagem de qualidade superior, mas um tamanho de arquivo grande; como alternativa, um valor mais baixo significa uma imagem de qualidade inferior, mas um tamanho de arquivo menor. O intervalo desse parâmetro é de 0 a 100.
 * Para otimizar a qualidade, não defina o valor do parâmetro como 100. A diferença entre um ajuste de 90 ou 95 e 100 é quase imperceptível. No entanto, 100 aumenta desnecessariamente o tamanho do arquivo de imagem. Portanto, para otimizar a qualidade, mas evitar que os arquivos de imagem fiquem muito grandes, defina o valor `qlt=` como 90 ou 95.
 * Para otimizar um tamanho de arquivo de imagem pequeno, mas manter a qualidade da imagem em um nível aceitável, defina o valor `qlt=` como 80. Valores abaixo de 70 a 75 resultam em degradação significativa da qualidade da imagem.
 * Como prática recomendada, para ficar no meio, defina o valor de `qlt=` como 85 para ficar no meio.
 * Usando o sinalizador de croma em `qlt=`
 
-   * O parâmetro `qlt=` tem uma segunda configuração que permite ativar a redução de resolução de cromaticidade de RGB usando o valor normal `,0` (padrão), ou desativá-lo usando o valor `,1`.
-   * Para simplificar, comece com a redução de resolução de cromaticidade de RGB desativada ( `,1`). Essa configuração geralmente resulta em melhor qualidade de imagem, especialmente para imagens sintéticas com muitas bordas e contraste nítidos.
+   * O parâmetro `qlt=` tem uma segunda configuração que permite ativar a redução de resolução de cromaticidade do RGB usando o valor normal `,0` (padrão), ou desativá-lo usando o valor `,1`.
+   * Para simplificar, comece com a redução de resolução de cromaticidade do RGB desativada ( `,1`). Essa configuração geralmente resulta em melhor qualidade de imagem, especialmente para imagens sintéticas com muitas bordas e contraste nítidos.
 
 Como prática recomendada para a compactação JPG, use `&qlt=85,0`.
 
-## Práticas recomendadas para dimensionamento de JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
+## Práticas recomendadas para dimensionamento do JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 O parâmetro `jpegSize` é útil se você quiser garantir que uma imagem não exceda um determinado tamanho para entrega em dispositivos que tenham memória limitada.
 
 * Este parâmetro está definido em quilobytes ( `jpegSize=<size_in_kilobytes>`). Ele define o tamanho máximo permitido para a entrega de imagens.
 * `&jpegSize=` interage com o parâmetro de compactação JPG `&qlt=`. Se a resposta do JPG com o parâmetro de compactação JPG especificado ( `&qlt=`) não exceder o valor `jpegSize`, a imagem será retornada com `&qlt=` conforme definido. Caso contrário, `&qlt=` é diminuído gradualmente até que a imagem se ajuste ao tamanho máximo permitido. Ou até que o sistema determine que não é possível ajustá-lo e retorne um erro.
 
-Como prática recomendada, defina `&jpegSize=` e adicione o parâmetro `&qlt=` se estiver fornecendo imagens de JPG para dispositivos com memória limitada.
+Como prática recomendada, defina `&jpegSize=` e adicione o parâmetro `&qlt=` se estiver entregando imagens do JPG a dispositivos com memória limitada.
 
 ## Resumo de práticas recomendadas {#best-practices-summary}
 
@@ -136,5 +136,5 @@ Se os resultados da nitidez ainda não forem satisfatórios, aumente o raio em i
 À medida que você experimenta, as seguintes sugestões gerais são úteis para otimizar seu fluxo de trabalho:
 
 * Experimente e teste diferentes parâmetros em tempo real, diretamente em um URL ou usando a funcionalidade de ajuste de imagem do Adobe Dynamic Media Classic. Este último fornece pré-visualizações em tempo real para operações de ajuste.
-* Como prática recomendada, lembre-se de que é possível agrupar comandos do Servidor de imagens do Dynamic Media em uma Predefinição de imagem. Uma Predefinição de imagem é basicamente uma macro de comando de URL com nomes predefinidos personalizados como `$thumb_low$` e `&product_high$`. O nome da predefinição personalizada em um caminho de URL chama essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no site e reduz o comprimento geral dos URLs.
-* O Adobe Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar nitidez de imagem na assimilação. Para casos de uso avançados em que o ajuste e a otimização adicionais de resultados renderizados são uma opção, o Adobe Professional Services pode ajudá-lo com insights e práticas recomendadas personalizadas.
+* Como prática recomendada, lembre-se de agrupar comandos do Servidor de imagens do Dynamic Media em uma Predefinição de imagem. Uma Predefinição de imagem é basicamente uma macro de comando de URL com nomes predefinidos personalizados como `$thumb_low$` e `&product_high$`. O nome da predefinição personalizada em um caminho de URL chama essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no site e reduz o comprimento geral dos URLs.
+* O Adobe Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar nitidez de imagem na assimilação. Para casos de uso avançados em que o ajuste e a otimização adicionais dos resultados renderizados são uma opção, a Adobe Professional Services pode ajudá-lo com práticas recomendadas e insight personalizadas.

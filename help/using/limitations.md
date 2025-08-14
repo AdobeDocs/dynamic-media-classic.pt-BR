@@ -1,6 +1,6 @@
 ---
 title: Limitações do Dynamic Media
-description: Saiba mais sobre as práticas recomendadas e os limites impostos ao criar um Conjunto de imagens ou um Conjunto de rotação ou carregar um PDF. Saiba mais sobre combinações incompatíveis de navegador da Web e sistema operacional para o Dynamic Media.
+description: Saiba mais sobre as práticas recomendadas e os limites impostos ao criar um Conjunto de imagens ou um Conjunto de rotação ou fazer upload de uma PDF. Saiba mais sobre combinações incompatíveis de navegador da Web e sistema operacional para Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -23,12 +23,12 @@ As seções a seguir descrevem as limitações do Dynamic Media.
 
 Este tópico inclui as seguintes seções:
 
-* [Práticas recomendadas e limites impostos pela Dynamic Media em tipos de ativos](#best-practice-enforced-limits)
+* [Práticas recomendadas e limites impostos pelo Dynamic Media em tipos de ativos](#best-practice-enforced-limits)
 * [Combinações de navegador da Web e sistema operacional não compatíveis com o Dynamic Media](#unsupported-browser-os)
 
-## Práticas recomendadas e limites impostos pela Dynamic Media em tipos de ativos {#best-practice-enforced-limits}
+## Práticas recomendadas e limites impostos pelo Dynamic Media em tipos de ativos {#best-practice-enforced-limits}
 
-Ao criar um Conjunto de rotação ou um Conjunto de imagens, ou fazer upload de PDF para extração de página, o Adobe recomenda as seguintes práticas recomendadas. O Adobe também impõe os seguintes limites:
+Ao criar um Conjunto de rotação ou um Conjunto de imagens, ou fazer upload de PDFs para extração de página, a Adobe recomenda as seguintes práticas recomendadas. O Adobe também impõe os seguintes limites:
 
 | Ativo: tipo de limite | Prática recomendada | Limite imposto |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Ao criar um Conjunto de rotação ou um Conjunto de imagens, ou fazer upload de 
 | **Todos os conjuntos**: número de ativos duplicados por conjunto | Sem duplicatas | 20‡ |
 | **Todos os conjuntos**: número máximo de ativos por conjunto | De 5 a 10 imagens por conjunto | 1000 |
 | **Grupo de rotação**: número máximo de linhas/colunas por conjunto 2D | 12 a 18 imagens por conjunto | 1000 |
-| **PDF**: número máximo de páginas para um PDF a ser considerado para extração |  | 100 (para todos os PDF) |
+| **PDF**: número máximo de páginas para que uma PDF seja considerada para extração |  | 100 (para todos os PDFs) |
 
 ‡ A prática recomendada é não ter ativos duplicados em um conjunto. O limite é de 20 duplicatas para um único ativo. Se você adicionar outra duplicata para esse ativo — dentro desse conjunto — a solicitação retornará um erro ou ignorará a duplicata.
 

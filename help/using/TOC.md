@@ -22,10 +22,10 @@ ht-degree: 0%
    + [Comparação da lista de recursos](upgrade-feature-comparison.md)
    + [Lista de verificação de preparação para atualização](upgrade-readiness.md)
 + [Guia do Adobe Dynamic Media Classic](home.md)
-+ [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NOVO logon do Adobe Dynamic Media Classic já disponível](new-ui-2020.md)
-+ [Arquivo de informativos do Adobe Dynamic Media por Experience League](dynamic-media-newsletter.md)
-+ Apresentando o Adobe Dynamic Media Classic {#intro}
++ [Arquivo de informativos do Adobe Dynamic Media, da Experience League](dynamic-media-newsletter.md)
++ Apresentação do Adobe Dynamic Media Classic {#intro}
    + [Aplicativo Adobe Dynamic Media Classic Desktop: agora disponível](dynamic-media-classic-desktop-app.md)
    + [Sobre a Ajuda da Adobe Dynamic Media Classic](introduction.md)
    + [Recursos do desenvolvedor](developer-resources.md)
@@ -33,7 +33,7 @@ ht-degree: 0%
    + [Requisitos de sistema para o aplicativo de desktop do Adobe Dynamic Media Classic](system-requirements.md)
    + [Suporte](support.md)
    + [Ajuda do Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
-   + [Serviços de treinamento do Adobe](training-services.md)
+   + [Serviços de treinamento da Adobe](training-services.md)
    + [Recursos de aprendizado populares](popular-resources.md)
    + [Vídeos de treinamento](training-videos.md)
 + Introdução {#getting-started}
@@ -46,7 +46,7 @@ ht-degree: 0%
 + Configurar {#setup}
    + [Configuração pessoal](personal-setup.md)
    + [Configuração do aplicativo](application-setup.md)
-   + [Configuração do Publish](publish-setup.md)
+   + [Configuração de publicação](publish-setup.md)
    + [SEO em vídeo (otimização do mecanismo de pesquisa)](video-seo-search-engine-optimization.md)
    + [Configuração de administração](administration-setup.md)
 + Portal de mídia {#media-portal}
@@ -60,14 +60,14 @@ ht-degree: 0%
    + [Criar e ativar predefinições de imagem](creating-enabling-image-presets.md)
    + [Utilização mais eficiente dos metadados](making-efficient-metadata.md)
    + [Personalizar a tela do Portal de mídia](customizing-media-portal-screen.md)
-+ Carregar e publicar ativos {#upload-publish}
++ Fazer upload e publicar ativos {#upload-publish}
    + [Sobre upload e publicação de ativos](about-asset-upload-publish.md)
    + [Fazer upload de arquivos](uploading-files.md)
-   + [Arquivos do Publish](publishing-files.md)
+   + [Publicar arquivos](publishing-files.md)
    + [Limitações do Dynamic Media](limitations.md)
    + [Testar ativos antes de torná-los públicos](testing-assets-making-them-public.md)
    + [Verificar arquivos de trabalho](checking-job-files.md)
-+ Gerenciando ativos {#managing-assets}
++ Gerenciamento de ativos {#managing-assets}
    + [Sobre o gerenciamento de ativos](about-managing-assets.md)
    + [Trabalhar com pastas de ativos](asset-folders.md)
    + [Exibir ativos no painel Procurar](viewing-assets-browse-panel.md)
@@ -85,7 +85,7 @@ ht-degree: 0%
 + Dimensionamento de imagem {#image-sizing}
    + [Início rápido: dimensionamento de imagem](quick-start-image-sizing.md)
    + [Fazer upload de imagens principais](uploading-master-images.md)
-   + [Imagens principais do Publish](publishing-master-images.md)
+   + [Publicar imagens principais](publishing-master-images.md)
    + [Configurar predefinições da imagem](setting-image-presets.md)
    + [Vincular URLs ao aplicativo web](linking-urls-web-application.md)
 + Zoom {#zoom}
@@ -94,19 +94,19 @@ ht-degree: 0%
    + [Criar destinos de zoom para zoom guiado](creating-zoom-targets-guided-zoom.md)
    + [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md)
    + [Visualizar ativos de imagem com visualizadores de zoom diferentes](previewing-image-assets-different-zoom.md)
-   + [Imagens de zoom do Publish](publishing-zoom-images.md)
+   + [Publicar imagens com zoom](publishing-zoom-images.md)
    + [Vincular visualizadores Zoom às suas páginas da Web](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
    + [Início rápido: eCatalogs](quick-start-ecatalog.md)
-   + [Fazer upload dos arquivos PDF](uploading-pdf-files.md)
+   + [Fazer upload dos arquivos do PDF](uploading-pdf-files.md)
    + [Criar um eCatalog](creating-ecatalog.md)
    + [Criar mapas de imagem de eCatalog](creating-ecatalog-image-maps.md)
    + [Gerenciar conteúdo do Painel de Informações em eCatalogs](info-panel-content-ecatalog.md)
    + [Configurar Predefinições do Visualizador de eCatalog](setting-ecatalog-viewer-presets.md)
    + [Visualizar eCatalogs no Visualizador de eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
-   + [eCatalogs da Publish e PDF associados](publishing-ecatalogs-associated-pdfs.md)
+   + [Publicar eCatalogs e PDFs associados](publishing-ecatalogs-associated-pdfs.md)
    + [Vincular um eCatalog a uma página da Web](linking-ecatalog-web-page.md)
-+ Conjuntos de imagens {#image-sets}
++ Conjuntos de imagem {#image-sets}
    + [Início rápido: conjuntos de imagens](quick-start-image-sets.md)
    + [Preparar ativos do conjunto de imagens para upload](preparing-image-set-assets-upload.md)
    + [Criar um conjunto de imagens](creating-image-set.md)
@@ -115,7 +115,7 @@ ht-degree: 0%
    + [Exibir conjuntos de imagens](viewing-image-sets.md)
    + [Automatizar a geração do conjunto de imagens](automated-image-set-generation.md)
    + [Vincular um conjunto de imagens a uma página da Web](linking-image-set-web-page.md)
-+ Conjuntos de Amostras {#swatch-sets}
++ Conjuntos de amostras {#swatch-sets}
    + [Início rápido: conjuntos de amostras](quick-start-swatch-sets.md)
    + [Incluir destinos de zoom e mapas de imagem em conjuntos de amostras](including-zoom-targets-image-maps-swatch-sets.md)
    + [Preparar ativos do conjunto de amostras para upload](preparing-swatch-set-assets-upload.md)
@@ -126,7 +126,7 @@ ht-degree: 0%
    + [Início rápido: conjuntos de rotação](quick-start-spin-sets.md)
    + [Criar um grupo de rotação](creating-spin-set.md)
    + [Visualizar um conjunto de rotação](previewing-spin-set.md)
-   + [Publish um grupo de rotação](publishing-spin-set.md)
+   + [Publicar um grupo de rotação](publishing-spin-set.md)
    + [Configurar predefinições do visualizador de conjunto de rotação](setting-spin-set-viewer-presets.md)
    + [Vincular um conjunto de rotação a uma página da Web](linking-spin-set-web-page.md)
 + Noções básicas de modelo {#template-basics}
@@ -134,12 +134,12 @@ ht-degree: 0%
    + [Fazer upload de arquivos de modelo](uploading-template-files.md)
    + [Criar um modelo](creating-template.md)
    + [Criar parâmetros de modelo](creating-template-parameters.md)
-   + [Modelos do Publish](publishing-templates.md)
+   + [Publicar modelos](publishing-templates.md)
    + [Vincular um modelo a uma página da Web](linking-template-web-page.md)
    + [Gerenciar variações de conteúdo](content-variations.md)
 + Vídeo {#video}
    + [Início rápido: vídeo](quick-start-video.md)
-   + [Prática recomendada: uso do visualizador de vídeo HTML5](best-practice-using-html5-video.md)
+   + [Prática recomendada: uso do visualizador de vídeo do HTML5](best-practice-using-html5-video.md)
    + [Fazer upload e codificar vídeos](uploading-encoding-videos.md)
    + [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md)
    + [Adicionar legendas ao vídeo](adding-captions-video.md)
@@ -150,7 +150,7 @@ ht-degree: 0%
    + [Início rápido: conjuntos de mídia mista](quick-start-mixed-media-sets.md)
    + [Configurar uma predefinição do visualizador de conjunto de mídia mista](setting-mixed-media-set-viewer.md)
    + [Criar um conjunto de mix de mídia](creating-mixed-media-set.md)
-   + [Publish um conjunto de mix de mídia](publishing-mixed-media-set.md)
+   + [Publicar um conjunto de mix de mídia](publishing-mixed-media-set.md)
    + [Vincular um conjunto de mídia mista a uma página da Web](linking-mixed-media-set-web.md)
 + Kit de instrumentação do Adobe Analytics {#analytics-kit}
    + [Início rápido: Integração do Adobe Dynamic Media Classic com o Adobe Analytics](quick-start-integrating-dmc-analytics.md)
@@ -160,7 +160,7 @@ ht-degree: 0%
    + [Desativar o rastreamento do Adobe Analytics](disabling-analytics-tracking.md)
    + [Testar a integração visualizando um relatório do Adobe Analytics](testing-integration-viewing-analytics-report.md)
    + [Ativar relatórios de vídeo do Adobe Analytics](enabling-analytics-video-reports.md)
-   + [Informações de configuração do Publish Adobe Analytics](publishing-analytics-configuration-information.md)
+   + [Publicar informações de configuração do Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integração do Adobe Target Standard/Premium {#target-classic}
    + [Início rápido: integração com o Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integrar o Adobe Dynamic Media Classic com o Adobe Target Standard/Premium](integrating-dmc-with-target.md)
@@ -179,8 +179,8 @@ ht-degree: 0%
    + [Nitidez de uma imagem](sharpening-image.md)
    + [Ajustar uma imagem](adjusting-image.md)
    + [Opções de edição de ajuste de imagem no upload](image-editing-options-upload.md)
-   + [Trabalhar com PDF](pdfs.md)
-   + [Trabalhar com arquivos PSD](psd-files.md)
+   + [Trabalhar com PDFs](pdfs.md)
+   + [Trabalhar com arquivos do PSD](psd-files.md)
    + [Trabalhar com arquivos PostScript e Illustrator](postscript-illustrator-files.md)
    + [Trabalhar com vinhetas, revestimentos de janelas e arquivos de gabinete](vignette-window-covering-cabinet-files.md)
 + Arquivos de suporte {#support-files}

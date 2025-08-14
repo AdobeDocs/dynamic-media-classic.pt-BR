@@ -75,4 +75,4 @@ O uso do recurso Incorporar código permite revisar o código do visualizador do
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Publicar](publishing-files.md#publishing_files)

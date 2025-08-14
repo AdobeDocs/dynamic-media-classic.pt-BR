@@ -1,5 +1,5 @@
 ---
-title: Informações de configuração do Publish Adobe Analytics
+title: Publicar informações de configuração do Adobe Analytics
 description: Saiba como publicar informações de configuração do Adobe Analytics no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ---
 
-# Informações de configuração do Publish Adobe Analytics{#publishing-adobe-analytics-configuration-information}
+# Publicar informações de configuração do Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-O Publish exibe seus visualizadores do Adobe Dynamic Media Classic para que as informações sobre como configurar relatórios do Adobe Analytics sejam enviadas para os servidores do Adobe Dynamic Media Classic. Essas informações são incorporadas aos visualizadores. A publicação é necessária para que as informações contidas nos visualizadores estejam disponíveis nos servidores do Adobe Dynamic Media Classic. Nos servidores, ele pode ser retransmitido para o Adobe Analytics depois que os usuários executam a atividade nos visualizadores.
+Publique seus visualizadores do Adobe Dynamic Media Classic para que as informações sobre como configurar relatórios do Adobe Analytics sejam enviadas para os servidores do Adobe Dynamic Media Classic. Essas informações são incorporadas aos visualizadores. A publicação é necessária para que as informações contidas nos visualizadores estejam disponíveis nos servidores do Adobe Dynamic Media Classic. Nos servidores, ele pode ser retransmitido para o Adobe Analytics depois que os usuários executam a atividade nos visualizadores.
 
 >[!NOTE]
 >

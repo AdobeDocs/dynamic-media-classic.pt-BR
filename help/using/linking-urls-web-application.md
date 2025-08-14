@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Vincular URLs ao aplicativo web{#linking-urls-to-your-web-application}
 
-Seus sites e aplicativos acessam o conteúdo do Dynamic Media Image Server por meio de cadeias de caracteres de URL. Depois de publicar uma imagem, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência à Predefinição de imagem nos servidores de imagem da Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
+Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media por meio de cadeias de caracteres de URL. Depois de publicar uma imagem, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência à predefinição de imagem nos servidores de imagem do Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
 
 Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Adobe Dynamic Media Classic. Para obter uma cadeia de caracteres de URL gerada com uma Predefinição de imagem, vá para a tela Visualização ou o painel Procurar (na Exibição de detalhes).
 
@@ -54,11 +54,11 @@ Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplica
 
 ## Sobre strings de URL de predefinição de imagem {#about-image-preset-url-strings}
 
-Uma chamada de URL para dimensionamento de imagem para servidores de imagem Dynamic Media tem a seguinte sintaxe básica:
+Uma chamada de URL para dimensionamento de imagem para servidores de imagem do Dynamic Media tem a seguinte sintaxe básica:
 
 *caminho*/*nome do Servidor de imagens*/*nome da conta*/*nome da imagem*?*modificador1*&amp;*modificador2*&amp;...
 
-Em um URL do Dynamic Media Image Server, as instruções para o servidor exibir a imagem são exibidas após o ponto de interrogação (?). Por exemplo, essa chamada de URL fornece uma imagem chamada &quot;mochila&quot; com uma largura de 250 pixels:
+Em um URL do servidor de imagens do Dynamic Media, as instruções para o servidor exibir a imagem são exibidas após o ponto de interrogação (?). Por exemplo, essa chamada de URL fornece uma imagem chamada &quot;mochila&quot; com uma largura de 250 pixels:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -80,7 +80,7 @@ Os nomes das predefinições de imagem em URLs são colocados em cifrões ($). Q
 
 ## Adicionar imagens dinâmicas à sua página da Web {#adding-dynamic-images-to-your-web-page}
 
-Ao adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no seu código de página de HTML normalmente é modificada usando a cadeia de caracteres de URL do Adobe Dynamic Media Classic para fazer uma solicitação aos Dynamic Media Image Servers. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
+Ao adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no seu código de página do HTML normalmente é modificada usando a cadeia de caracteres de URL do Adobe Dynamic Media Classic para fazer uma solicitação aos Servidores de Imagens do Dynamic Media. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
 
 Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
 
@@ -94,4 +94,4 @@ Agora você usa a tag `<IMG>` para substituir a referência a uma imagem estáti
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-Neste exemplo, um Dynamic Media Image Server &quot;pesquisa&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela Predefinição de imagem `thumbnail`. Em uma cadeia de caracteres de URL, todos os itens, exceto o nome de arquivo da imagem do produto ( `backpack_trns` neste caso), normalmente são programados para o modelo de página. O único elemento inserido automaticamente no modelo de página do servidor de comércio é a ID de IPS ou o nome da imagem.
+Neste exemplo, um Servidor de Imagens do Dynamic Media &quot;pesquisa&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela Predefinição de imagem `thumbnail`. Em uma cadeia de caracteres de URL, todos os itens, exceto o nome de arquivo da imagem do produto ( `backpack_trns` neste caso), normalmente são programados para o modelo de página. O único elemento inserido automaticamente no modelo de página do servidor de comércio é a ID de IPS ou o nome da imagem.

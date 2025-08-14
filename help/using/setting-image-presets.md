@@ -46,7 +46,7 @@ Você poderá criar suas próprias Predefinições de imagem se for um Administr
 
    A Adobe Dynamic Media Classic recomenda que essas opções de &quot;práticas recomendadas&quot; comecem:
 
-   * **[!UICONTROL Format]**: Escolha JPEG ou outro formato que atenda aos seus requisitos. Todos os navegadores da Web são compatíveis com o formato de imagem JPEG; ele oferece um bom equilíbrio entre arquivos pequenos e qualidade de imagem. No entanto, as imagens de JPEG usam um esquema de compactação com perdas que pode apresentar artefatos de imagem indesejados se a configuração de compactação for muito baixa. Por esse motivo, a Adobe Dynamic Media Classic recomenda definir a qualidade de compactação (no controle deslizante) como 75. Essa configuração oferece um bom equilíbrio entre a qualidade da imagem e o tamanho pequeno de arquivo.
+   * **[!UICONTROL Format]**: Escolha o JPEG ou outro formato que atenda aos seus requisitos. Todos os navegadores da Web são compatíveis com o formato de imagem JPEG; ele oferece um bom equilíbrio entre arquivos pequenos e qualidade de imagem. No entanto, as imagens do JPEG usam um esquema de compactação com perdas que pode apresentar artefatos de imagem indesejados se a configuração de compactação for muito baixa. Por esse motivo, a Adobe Dynamic Media Classic recomenda definir a qualidade de compactação (no controle deslizante) como 75. Essa configuração oferece um bom equilíbrio entre a qualidade da imagem e o tamanho pequeno de arquivo.
 
    * **[!UICONTROL Sharpening]**: Não selecione Nitidez (este filtro de nitidez oferece menos controle do que as configurações de **[!UICONTROL Unsharp Masking]**).
 

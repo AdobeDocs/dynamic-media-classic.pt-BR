@@ -51,7 +51,7 @@ Cost-efficient access to rapidly evolving technology.
 
 No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora de sinalização de `00:00:000 --> 01:04:364` especifica a hora inicial e final do capítulo, no formato 00:00:000. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição real do conteúdo do capítulo. O identificador de sinalização, o tempo de sinalização inicial e o título do capítulo são exibidos em um pop-up no reprodutor de vídeo quando o ponteiro é posicionado sobre um ponto de sinalização visual na linha do tempo do vídeo.
 
-Como você está usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de capítulo criado segue o padrão WebVTT (Rastreamento de texto de vídeo da Web). A extensão de nome de arquivo do capítulo é `.VTT`. Você pode obter mais informações sobre o padrão de legendagem WebVTT.
+Como você está usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de capítulo criado segue o padrão WebVTT (Web Video Text Tracks). A extensão de nome de arquivo do capítulo é `.VTT`. Você pode obter mais informações sobre o padrão de legendagem WebVTT.
 
 Consulte [WebVTT: O Formato de Rastreamento de Texto de Vídeo da Web](https://w3c.github.io/webvtt/).
 
@@ -85,6 +85,6 @@ Consulte [WebVTT: O Formato de Rastreamento de Texto de Vídeo da Web](https://w
 
      Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
-     Para o visualizador do HTML5 `Universal_HTML5_Video`, anexe o Código incorporado copiado com o seguinte:
+     Para o visualizador `Universal_HTML5_Video` do HTML5, anexe o Código incorporado copiado com o seguinte:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

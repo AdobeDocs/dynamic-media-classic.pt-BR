@@ -21,7 +21,7 @@ ht-degree: 0%
 
 O Adobe Dynamic Media Classic é um ambiente integrado de gerenciamento, publicação e fornecimento de mídia avançada. A mídia avançada pode ser entregue a todos os canais de marketing e vendas. Esses canais incluem a Web, material impresso, campanhas de email, portais da Web, desktops e dispositivos.
 
-Consulte também o vídeo de treinamento [Visão geral da plataforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS).
+Consulte também o vídeo de treinamento [Visão geral da plataforma](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS).
 
 ## Processo de fluxo de trabalho {#workflow-process}
 
@@ -31,7 +31,7 @@ As principais etapas do fluxo de trabalho do Adobe Dynamic Media Classic são:
 
 * **Criar mídia avançada**: crie configurações diferentes de seus ativos, como eCatalogs, Conjuntos de Imagens, Conjuntos de Rotação, Conjuntos de Amostras, Conjuntos de Mídias Mistas, Modelos básicos e Modelos FXG.
 
-* **Publish e administrar**: ativos do Publish para a rede SaaS da Adobe Dynamic Media Classic. Monitorar o status de ativos quando eles são publicados. Administre os direitos do usuário e mantenha a segurança.
+* **Publicar e administrar**: publique ativos na rede SaaS da Adobe Dynamic Media Classic. Monitorar o status de ativos quando eles são publicados. Administre os direitos do usuário e mantenha a segurança.
 
 * **Servidor**: forneça mídia da rede SaaS da Adobe Dynamic Media Classic para páginas da Web, aplicativos e dispositivos móveis; a mídia tem desempenho otimizado e é fornecida com cache CDN. A Adobe Dynamic Media Classic fornece um URL para cada ativo. Depois de publicar o ativo, o URL torna-se ativo.
 
@@ -48,4 +48,4 @@ O ![Adobe Dynamic Media Classic pode fornecer a mesma imagem principal a diferen
 
 ## Armazenamento em cache de conteúdo {#content-caching}
 
-As imagens geradas dinamicamente pelo Adobe Dynamic Media Classic são favoráveis ao cache; geralmente, são imagens JPEG com chamadas de URL exclusivas que as identificam. As imagens são entregues na rede de entrega de conteúdo (CDN), um sistema de servidores que são conectados em rede na Internet para fornecer conteúdo mais rapidamente. As imagens são distribuídas de servidores localizados globalmente e, em seguida, para computadores. Ao implementar um mecanismo de armazenamento em cache usando qualquer fornecedor de CDN, basta alterar o nome do servidor para apontar para o Servidor de imagens do Dynamic Media habilitado para CDN. Todas as edições do Adobe Dynamic Media Classic incluem armazenamento em cache agrupado de CDN.
+As imagens geradas dinamicamente pelo Adobe Dynamic Media Classic são favoráveis ao cache; geralmente, são imagens do JPEG com chamadas de URL exclusivas que as identificam. As imagens são entregues na rede de entrega de conteúdo (CDN), um sistema de servidores que são conectados em rede na Internet para fornecer conteúdo mais rapidamente. As imagens são distribuídas de servidores localizados globalmente e, em seguida, para computadores. Ao implementar um mecanismo de armazenamento em cache usando qualquer fornecedor de CDN, basta alterar o nome do servidor para apontar para o Servidor de imagens do Dynamic Media habilitado para CDN. Todas as edições do Adobe Dynamic Media Classic incluem armazenamento em cache agrupado de CDN.

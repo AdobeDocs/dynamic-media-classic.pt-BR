@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Disponível agora: aplicativo de desktop do Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Os usuários do Adobe Dynamic Media Classic agora têm acesso a uma nova experiência de aplicativo de desktop que não depende mais da tecnologia de Flash Adobe no navegador.
+Os usuários do Adobe Dynamic Media Classic agora têm acesso a uma nova experiência de aplicativo de desktop que não depende mais da tecnologia Adobe Flash no navegador.
 
 Este novo aplicativo agora está disponível para Windows® e macOS.
 
 >[!IMPORTANT]
 >
->A Adobe recomenda que você instale o novo aplicativo de desktop Adobe Dynamic Media Classic até 1º de outubro de 2020. Isso garantirá uma transição suave antes que o Adobe Flash Player seja descontinuado em 31 de dezembro de 2020. Após essa data, não será possível fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic rotulada como Adobe Dynamic Media Classic no produto.
+>A Adobe recomenda que você instale o novo aplicativo de desktop Adobe Dynamic Media Classic até 1º de outubro de 2020. Isso garantirá uma transição suave antes da desativação do Adobe Flash Player em 31 de dezembro de 2020. Após essa data, não será possível fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic rotulada como Adobe Dynamic Media Classic no produto.
 
 Consulte as Perguntas Frequentes do [Novo logon do Adobe Dynamic Media Classic agora disponível.](/help/using/new-ui-2020.md)
 
@@ -68,9 +68,9 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 
 * Limitação conhecida no 20.21.1: a lista suspensa **[!UICONTROL Server]** na tela de entrada estava vazia.
 * Em **[!UICONTROL Upload Job Options]**, o valor de nome de Camada padrão em **[!UICONTROL Photoshop Options]**, agora é **[!UICONTROL Photoshop and Layer Name]**. As camadas no arquivo PSD são carregadas como imagens separadas.
-   * O padrão anterior de **[!UICONTROL Layer name]**, nomeava as imagens após seu nome de camada ou número de camada no arquivo PSD. O número da camada era usado se os nomes das camadas no arquivo PSD fossem nomes de camadas Photoshop padrão.
-   * O novo padrão de **[!UICONTROL Photoshop and Layer Name]**, nomeia as imagens após o arquivo de PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo PSD forem nomes de camadas Photoshop padrão.
-   * Como as imagens de camada no Adobe Dynamic Media Classic agora têm nomes exclusivos, não ocorrerá nenhuma atualização no PSD ou nos Modelos existentes (que compartilharam nomes de camada nos arquivos PSD originais).
+   * O padrão anterior de **[!UICONTROL Layer name]**, nomeava as imagens após seu nome de camada ou número de camada no arquivo PSD. O número da camada era usado se os nomes das camadas no arquivo do PSD fossem nomes de camadas padrão do Photoshop.
+   * O novo padrão de **[!UICONTROL Photoshop and Layer Name]**, nomeia as imagens após o arquivo PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo do PSD forem nomes de camadas padrão do Photoshop.
+   * Considerando que as imagens de camada no Adobe Dynamic Media Classic agora têm nomes exclusivos, não ocorrerá nenhuma atualização no PSD ou nos modelos existentes (quais nomes de camada compartilhados nos arquivos originais do PSD).
 * Miniaturas de ativos quebradas.
 
 ## Correções na versão 20.21.1 {#latest-fixes-desktop-app}
@@ -233,14 +233,14 @@ Para baixar e *instalar silenciosamente* a versão mais recente do aplicativo de
 
 ## Apresentação em vídeo sobre como usar o aplicativo de desktop do Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
+Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
 
 ## Limpeza do cache de imagens e de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
 1. No aplicativo de desktop do Adobe Dynamic Media Classic, próximo ao canto superior direito, toque em **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Na página **[!UICONTROL Personal Setup]**, no cabeçalho **[!UICONTROL Desktop]**, siga um destes procedimentos:
-   * Para remover todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador, toque em **[!UICONTROL Clear Image Cache]** e em **[!UICONTROL OK]**.
-   * Para remover todos os arquivos de ativos em cache do Adobe Dynamic Media do seu computador, toque em **[!UICONTROL Clear Asset Cache]** e em **[!UICONTROL OK]**.
+   * Para remover todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador, toque em **[!UICONTROL Clear Image Cache]** e, em seguida, em **[!UICONTROL OK]**.
+   * Para remover todos os arquivos de ativos em cache do Adobe Dynamic Media do computador, toque em **[!UICONTROL Clear Asset Cache]** e em **[!UICONTROL OK]**.
 1. No canto inferior direito da página, toque em **[!UICONTROL Close]**.
 
 ### Limpeza manual do cache de imagens e de ativos
@@ -271,11 +271,11 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 ## Dicas e truques
 
-**_Não consigo ver o painel Carrinho de Mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**&#x200B;está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
+**_Não consigo ver o painel Carrinho de Mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
 
-**_O estado do Publish (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, foi necessário fazer logon novamente na interface do usuário para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe apresentou um ícone **[!UICONTROL Refresh]**&#x200B;na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresh]**&#x200B;para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
+**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, foi necessário fazer logon novamente na interface do usuário para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone do **[!UICONTROL Refresh]**na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresh]**para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
 
 ![Ícone Atualizar](/help/using/assets/refresh-icon1.png)
 *Ícone Atualizar*
 
-**_Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop._**<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Set Preset]**&#x200B;está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.
+**_Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop._**<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Set Preset]**está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.

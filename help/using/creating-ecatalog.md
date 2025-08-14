@@ -23,11 +23,11 @@ A criação de um eCatalog implica ordenar as páginas, escolher o layout de pá
 
 ## Criar um eCatalog {#create}
 
-Você pode incluir arquivos de imagem e arquivos PDF no eCatalog.
+É possível incluir arquivos de imagem e arquivos PDF no eCatalog.
 
 Ao criar um eCatalog, a opção **[!UICONTROL Publish after a save]** afeta o conjunto e os membros do conjunto das seguintes maneiras:
 
-| A opção &quot;Publish após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| A opção &quot;Publicar após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |
@@ -67,7 +67,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 Se você editar um conjunto publicado ou um conjunto não publicado, a opção **[!UICONTROL Publish after a save]** afetará o conjunto e os membros do conjunto das seguintes maneiras:
 
-| Conjunto já publicado? | A opção &quot;Publish após salvar&quot; foi selecionada antes de salvar a edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| Conjunto já publicado? | A opção &quot;Publicar após salvar&quot; foi selecionada antes de salvar a edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- | --- |
 | Sim | Sim | Publicado | Publicado |
 | Sim | Não | Publicado | Os membros do conjunto existentes mantêm seu estado publicado. Qualquer novo membro do conjunto adicionado durante sua edição manterá seu estado publicado ou não. |

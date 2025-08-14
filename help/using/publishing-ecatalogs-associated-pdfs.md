@@ -1,5 +1,5 @@
 ---
-title: eCatalogs da Publish e PDF associados
+title: Publicar eCatalogs e PDFs associados
 description: Saiba como publicar eCatalogs e PDF associados no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ---
 
-# eCatalogs da Publish e PDF associados{#publishing-ecatalogs-and-associated-pdfs}
+# Publicar eCatalogs e PDFs associados{#publishing-ecatalogs-and-associated-pdfs}
 
-A publicação coloca o eCatalog e o PDF nos Dynamic Media Image Servers para que ele possa ser disponibilizado para seu site ou aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa a cadeia de caracteres do URL. Você pode colocar essa string de URL no código da página da Web do HTML.
+A publicação coloca o eCatalog e o PDF nos servidores de imagem do Dynamic Media para que eles possam ser disponibilizados no seu site ou aplicativo. Como parte do processo de publicação, o Adobe Dynamic Media Classic ativa a cadeia de caracteres do URL. Você pode colocar essa string de URL no código da página da Web do HTML.
 
 >[!NOTE]
 >
->Certifique-se de que o eCatalog e o PDF residam na mesma pasta. E verifique se estão marcados para publicação no painel Procurar ou na página Detalhes do ativo antes de publicá-los.
+>Verifique se o eCatalog e o PDF residem na mesma pasta. E verifique se estão marcados para publicação no painel Procurar ou na página Detalhes do ativo antes de publicá-los.
 
-**Para publicar eCatalogs e PDF associados:**
+**Para publicar eCatalogs e PDFs associados:**
 
 1. Na barra de Navegação Global, selecione **[!UICONTROL Publish]**.
 1. Na tela Publicação, selecione **[!UICONTROL One-Time]** ou selecione **[!UICONTROL Recurring]**.
@@ -37,4 +37,4 @@ A publicação coloca o eCatalog e o PDF nos Dynamic Media Image Servers para qu
 
 >[!MORELIKETHIS]
 >
->* [arquivos Publish](publishing-files.md)
+>* [Publicar arquivos](publishing-files.md)

@@ -25,7 +25,7 @@ Por exemplo, suponha que você queira apresentar imagens de tampas com diferente
 
 ## Criar um conjunto de amostras {#create}
 
-Ao criar um conjunto, a opção **Publish após salvar** afeta o conjunto e define membros das seguintes maneiras:
+Ao criar um conjunto, a opção **Publicar após salvar** afeta o conjunto e os membros do conjunto das seguintes maneiras:
 
 | **[!UICONTROL Publish after a save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |

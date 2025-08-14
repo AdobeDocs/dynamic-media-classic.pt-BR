@@ -23,7 +23,7 @@ Antes de carregar as imagens que você precisa para os Conjuntos de imagens no A
 
 Para criar um Conjunto de imagens com várias visualizações, você precisa de imagens que mostrem um item de diferentes pontos de vista ou mostrem diferentes aspectos do mesmo item. O objetivo é destacar os recursos importantes de um item para que os visualizadores tenham uma imagem completa da aparência ou do funcionamento.
 
-Como os usuários podem ampliar imagens em Conjuntos de imagens, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas são recomendados TIFF, PNG e imagens EPS sem perdas.
+Como os usuários podem ampliar imagens em Conjuntos de imagens, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas recomenda-se usar imagens TIFF, PNG e EPS sem perdas.
 
 Para obter instruções detalhadas sobre como carregar ativos, consulte [Carregar arquivos](uploading-files.md#uploading_files).
 

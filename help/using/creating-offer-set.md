@@ -41,7 +41,7 @@ Crie um Conjunto de ofertas a partir dos seguintes tipos de Conjuntos de ofertas
 
 * **Modelo de imagem**: você pode parametrizar modelos de imagem no Adobe Dynamic Media Classic com o comando **[!UICONTROL Build]** > Noções básicas do modelo. Por meio de parâmetros, componentes do modelo, o texto em quadros de texto e as diferentes imagens podem ser trocados e personalizados. Para um Conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no Conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte [Criar parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
 
-Veja também o vídeo de treinamento [Noções básicas do modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Veja também o vídeo de treinamento [Noções básicas do modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 * **Vídeo**: você pode reunir vídeo para um Conjunto de Ofertas. Cada vídeo é uma oferta diferente no conjunto.
 

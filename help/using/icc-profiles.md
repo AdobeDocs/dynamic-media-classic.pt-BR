@@ -41,6 +41,6 @@ Para examinar um perfil ICC, selecione-o no painel Procurar e exiba-o na Exibiç
 
 * **[!UICONTROL Color Space Type]**: Este número é o espaço de cores de &quot;entrada&quot; do perfil, conforme definido pelo ICC. O tipo de espaço de cores define o número de componentes do espaço de cores e a interpretação desses componentes. Por exemplo, RGB é um espaço de cores com três componentes: vermelho, verde e azul. O tipo de espaço de cor não define as características de cor específicas do espaço (por exemplo, as cromaticidades das primárias).
 
-* **[!UICONTROL PCS Type]**: Este tipo de PCS é o espaço de cores de &quot;saída&quot; do perfil—seu espaço de conexão de perfil. Por exemplo, um perfil de cores pode converter RGB para o PCS, que então o converte em CMYK.
+* **[!UICONTROL PCS Type]**: Este tipo de PCS é o espaço de cores de &quot;saída&quot; do perfil—seu espaço de conexão de perfil. Por exemplo, um perfil de cores pode converter RGB para PCS, que depois o converte em CMYK.
 
 Para um perfil de entrada, exibição ou saída útil para marcar cores ou imagens, o PCS tipo é XYZ ou Lab. Interprete esse perfil como o espaço de cor específico correspondente definido na especificação ICC.

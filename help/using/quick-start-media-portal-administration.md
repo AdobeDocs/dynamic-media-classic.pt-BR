@@ -25,33 +25,33 @@ Como administrador, você controla como os usuários visualizam, acessam e usam 
 
 Consulte os seguintes vídeos de treinamento:
 
-* [Visão geral do Portal de Mídia](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+* [Visão geral do Portal de Mídia](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Tour pelo Portal de Mídia 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Tour pelo Portal de Mídia 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [Tour pelo Portal de Mídia 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Tour pelo Portal de Mídia 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 O Quick Start a seguir foi projetado para colocar suas operações em funcionamento rapidamente com a administração do Portal de mídia. No final de cada etapa, selecione o link do tópico para saber mais.
 
-## 1. Entenda as funções de usuário do Portal de mídia
+## &#x200B;1. Entenda as funções de usuário do Portal de mídia
 
 Os usuários do Media Portal têm três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Por exemplo, um colaborador pode renomear e excluir arquivos e pastas, mas um usuário não pode fazer essas tarefas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
 
 Consulte [Funções de usuário do Portal de mídia](media-portal-user-roles.md#media_portal_user_roles).
 
-## 2. Criar grupos para gerenciar usuários
+## &#x200B;2. Criar grupos para gerenciar usuários
 
 Os grupos determinam as pastas e os arquivos aos quais um usuário tem acesso, o que os usuários podem fazer nessas pastas e arquivos e quais Predefinições de imagem estão disponíveis. Como administrador, sua primeira tarefa é criar grupos. Para cada grupo, decida quais pastas, arquivos e Predefinições de imagem os membros do grupo podem acessar. Além disso, conceda permissões de leitura, gravação e exclusão aos membros do grupo. Essas permissões determinam se os membros podem procurar, editar, renomear e excluir as pastas e os arquivos aos quais têm acesso.
 
 Consulte [Criar e gerenciar grupos do Portal de Mídia](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## 3. Adicionar usuários
+## &#x200B;3. Adicionar usuários
 
 Ao adicionar um usuário, você atribui uma função a ele (usuário, colaborador ou usuário-colaborador). Você também pode atribuir o usuário a um ou mais grupos. Para acelerar o processo de adição de usuários, você pode fazer upload de uma lista de usuários no formato de um arquivo CSV. Os novos usuários recebem uma mensagem de e-mail de boas-vindas e instruções para fazer logon no Media Portal.
 
 Consulte [Adicionar e gerenciar usuários do Portal de Mídia](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
-## 4. Gerenciar contas FTP
+## &#x200B;4. Gerenciar contas FTP
 
 Você pode ter contas FTP separadas, associadas ao Portal de mídia. Eles podem ser mapeados para uma pasta específica na sua conta da Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais em sua conta usando contas FTP separadas.
 
@@ -63,25 +63,25 @@ Consulte [Gerenciar contas FTP](ftp-accounts.md#managing_ftp_accounts).
 
 Consulte [Funções de usuário do Portal de mídia](media-portal-user-roles.md#media_portal_user_roles).
 
-## 5. Especificar opções de exportação
+## &#x200B;5. Especificar opções de exportação
 
 Os usuários do Media Portal, ao exportar arquivos, podem reformatar os arquivos e exportar arquivos primários originais — se você lhes der permissão para fazer isso. Como administrador, você decide como os usuários exportam arquivos.
 
 Consulte [Especificar opções de exportação disponíveis para usuários do Portal de Mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-## 6. Criar predefinições de imagem
+## &#x200B;6. Criar predefinições de imagem
 
 Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada. É possível criar Predefinições de imagem para controlar como as imagens são reformatadas quando os usuários as exportam.
 
 Consulte [Criar e habilitar Predefinições de Imagem](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
-## 7. Criar predefinições de metadados e campos de metadados definidos pelo usuário
+## &#x200B;7. Criar predefinições de metadados e campos de metadados definidos pelo usuário
 
 Os metadados descrevem e identificam um arquivo. É usado para pesquisar e organizar ativos. É possível criar predefinições de metadados para garantir que os metadados sejam inseridos corretamente e que todos os campos de metadados que exigem dados sejam preenchidos. Uma predefinição de metadados é um conjunto predefinido de entradas de metadados. Também é possível criar campos de metadados que descrevam exclusivamente os arquivos com os quais você trabalha.
 
 Consulte [Uso mais eficiente dos metadados](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
-## 8. Personalizar a página do Portal de mídia
+## &#x200B;8. Personalizar a página do Portal de mídia
 
 As configurações de estilo do Portal de mídia permitem que você marque a página Portal de mídia com o logotipo e as cores da sua empresa. Use as configurações de estilo para colocar a marca da sua empresa no Portal de mídia.
 

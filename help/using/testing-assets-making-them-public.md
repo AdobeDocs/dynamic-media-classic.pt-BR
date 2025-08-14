@@ -41,7 +41,7 @@ Na rede corporativa, você pode descobrir seu endereço IP público usando sites
 
 Com o teste seguro, a Adobe Dynamic Media Classic estabelece um servidor de imagens dedicado para ambientes de preparo ou aplicativos internos. Qualquer solicitação a esse servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa do Adobe Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de teste seguro da empresa.
 
-Como o local da solicitação original deve ser confirmado, o tráfego do serviço de Teste seguro não é roteado por uma rede de distribuição de conteúdo, como o tráfego público do Dynamic Media Image Server. As solicitações para o serviço de Teste seguro têm uma latência um pouco maior em comparação aos servidores de imagem públicos Dynamic Media.
+Como a localização da solicitação original deve ser confirmada, o tráfego do serviço de Teste seguro não é roteado por uma rede de distribuição de conteúdo, como o tráfego público do servidor de imagens do Dynamic Media. As solicitações para o serviço de Teste seguro têm uma latência um pouco maior em comparação aos servidores públicos de imagem do Dynamic Media.
 
 Os ativos não publicados estão imediatamente disponíveis nos serviços de teste seguro, sem a necessidade de publicar. Dessa forma, é possível executar uma pré-visualização antes que os ativos sejam publicados no Servidor de imagens voltado para o público.
 
@@ -67,7 +67,7 @@ Last Modified Date:
 * Conjuntos, incluindo conjuntos de imagens, eCatalog, conjuntos de renderização e conjuntos de mídia.
 * Visualizadores padrão de mídia avançada Adobe Dynamic Media Classic.
 * Páginas JSP do Adobe Dynamic Media Classic OnDemand.
-* Conteúdo estático, como arquivos PDF e vídeos progressivamente exibidos.
+* Conteúdo estático, como arquivos PDF e vídeos progressivamente disponibilizados.
 * Transmissão de vídeo HTTP.
 * Transmissão de vídeo progressiva.
 
@@ -104,7 +104,7 @@ Last Modified Date:
 
 1. Entre em contato com o Atendimento ao cliente da Adobe e solicite que ele ative o Teste seguro em sua conta.
 1. No Adobe Dynamic Media Classic, na barra Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
-1. Na página Publish do Servidor de imagens, na lista suspensa **[!UICONTROL `Publish Context`]**, selecione **[!UICONTROL Test Image Serving]**.
+1. Na página Publicação do Servidor de Imagens, na lista suspensa **[!UICONTROL `Publish Context`]**, selecione **[!UICONTROL Test Image Serving]**.
 1. Para o Filtro de Endereço de Cliente, selecione **[!UICONTROL Add]**.
 1. Marque a caixa de seleção para que o endereço seja ativado e digite um endereço IP e uma máscara de rede nos respectivos campos de texto.
 
@@ -115,14 +115,14 @@ Last Modified Date:
 1. Siga um destes procedimentos:
    * Repita as duas etapas anteriores se precisar adicionar mais endereços IP.
    * Continue com a próxima etapa.
-1. Na parte inferior esquerda da página do Publish do Servidor de imagens, selecione **[!UICONTROL Save]**
+1. Na parte inferior esquerda da página Publicação de Servidor de Imagens, selecione **[!UICONTROL Save]**
 1. Carregue as imagens desejadas na sua conta do Adobe Dynamic Media Classic.
 
    Consulte [Carregar arquivos](uploading-files.md#uploading_files).
 
 1. Verifique se algumas imagens estão marcadas para publicação e outras estão desmarcadas e envie o trabalho de publicação.
 
-   Consulte [arquivos Publish](publishing-files.md#publishing_files).
+   Consulte [Publicar arquivos](publishing-files.md#publishing_files).
 
 1. Determine o nome do seu serviço de Teste Seguro indo até **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 1. Na página Configurações Gerais do Aplicativo, no grupo Servidores, encontre o nome à direita de **[!UICONTROL Test Publish Context Server Name]**.

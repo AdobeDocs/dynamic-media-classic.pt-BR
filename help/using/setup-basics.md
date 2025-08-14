@@ -34,7 +34,7 @@ Os administradores também podem configurar Predefinições de imagens e Predefi
 
 >[!MORELIKETHIS]
 >
->* [Vídeo de treinamento sobre a configuração básica](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Vídeo de treinamento sobre a configuração básica](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Funções e privilégios de usuário do Adobe Dynamic Media Classic](administration-setup.md#user_administration)
 >* [Predefinições de imagem](application-setup.md#image_presets)
 >* [Predefinições do visualizador](application-setup.md#viewer_presets)

@@ -33,8 +33,8 @@ Identifica o nome da conta, o nome, o nome de usuário (endereço de email) e a 
 
 ## Desktop
 
-* **Limpar cache de imagem**: remove todos os arquivos de imagem em cache do Adobe Dynamic Media do seu computador.
-* **Limpar cache de ativos**: remove todos os arquivos de ativos de cache do Adobe Dynamic Media do seu computador.
+* **Limpar cache da imagem**: remove todos os arquivos de imagem em cache do Adobe Dynamic Media do computador.
+* **Limpar cache de ativos**: remove todos os arquivos de ativos armazenados em cache do Adobe Dynamic Media do computador.
 
 Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos. Com base no seu sistema operacional, navegue até o seguinte:
 
@@ -43,9 +43,9 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 ## Extensão do Creative Suite
 
-**Para instalar o Adobe Dynamic Media Creative Suite Extension:**
+**Para instalar a extensão do Adobe Dynamic Media Creative Suite:**
 
-1. No Adobe Dynamic Media Classic, na barra de ferramentas, vá para **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Extensão de Creative Suite, selecione **[!UICONTROL Download Now]** para baixar o arquivo `s7csxs.zxp`.
+1. No Adobe Dynamic Media Classic, na barra de ferramentas, vá para **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, em Extensão do Creative Suite, selecione **[!UICONTROL Download Now]** para baixar o arquivo `s7csxs.zxp`.
 1. Selecione os links **[!UICONTROL Installation]** e **[!UICONTROL System Requirements]** para obter informações adicionais sobre a extensão.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -73,7 +73,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 ## Navegador
 
 * **[!UICONTROL Thumbnail Size]**: Determina o tamanho padrão das imagens em miniatura no Modo de Exibição de Grade no painel Procurar.
-* **[!UICONTROL Default Asset Library View]**: determina se os ativos na Biblioteca de ativos para conjuntos de compilação aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, se estiver criando um eCatalog grande com muitos arquivos PDF, você pode visualizar os ativos por nome para encurtar a lista.
+* **[!UICONTROL Default Asset Library View]**: determina se os ativos na Biblioteca de ativos para conjuntos de compilação aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, se você estiver criando um eCatalog grande com muitos arquivos PDF, será possível visualizar os ativos por nome para encurtar a lista.
 * **[!UICONTROL Default Browse Sort Order]**: determina a ordem na qual os ativos aparecem por padrão no painel Procurar. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
 * **[!UICONTROL Default Browse Location]**: Permite definir o local de navegação como padrão, a última pasta pesquisada ou um local específico para o qual você navegue e identifique. Você também pode definir o local de navegação para classificar os arquivos e pastas em ordem crescente ou decrescente.
 * **[!UICONTROL Default Browse View]**: Determina se o Modo de Exibição de Grade ou de Lista é o modo de exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.

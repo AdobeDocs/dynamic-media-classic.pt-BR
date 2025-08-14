@@ -1,6 +1,6 @@
 ---
-title: Arquivos do Publish
-description: Saiba como publicar seus ativos nos servidores de imagem da Dynamic Media.
+title: Publicar arquivos
+description: Saiba como publicar seus ativos nos servidores de imagem do Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ---
 
-# Arquivos do Publish{#publishing-files}
+# Publicar arquivos{#publishing-files}
 
-Publique seus ativos nos Dynamic Media Image Servers. Você pode publicar ativos de uma só vez ou combinar o Adobe Dynamic Media Classic para publicar ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
+Publique seus ativos nos servidores de imagem do Dynamic Media. Você pode publicar ativos de uma só vez ou combinar o Adobe Dynamic Media Classic para publicar ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
 
-O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado usa o protocolo HTTP/2 para entregá-lo. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/http2).
+O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado usa o protocolo HTTP/2 para entregá-lo. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, permitindo melhores tempos de resposta e carregamento de todos os ativos do Adobe Dynamic Media Classic. Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
-## Publish depois do upload {#publish-after-uploading}
+## Publicar após o upload {#publish-after-uploading}
 
 Assets em um estado publicado ou não publicado. Por padrão, todos os ativos carregados na Adobe Dynamic Media Classic são marcados automaticamente para publicação.
 
-Para obter mais informações, consulte o [PDF de Aviso Instantâneo do Publish](/help/using/assets/rendering-instant-publish-notification.pdf).
+Para obter mais informações, consulte o [Aviso de Publicação Instantânea PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
 Use essas técnicas para marcar ativos para publicação:
 
@@ -94,7 +94,7 @@ Consulte [Criar um intervalo de tempo de trabalho de carregamento ou publicaçã
 
 * **[!UICONTROL Publish To]**: para publicar ativos somente em um servidor específico, escolha um tipo de servidor.
 
-* **[!UICONTROL Publish]**: por padrão, o Adobe Dynamic Media Classic publica somente ativos novos e que não foram publicados antes (a opção Novo desde a última Publish). No entanto, você pode selecionar **[!UICONTROL Full Publish]** para poder publicar ativos que foram atualizados ou alterados desde a última publicação. Selecione **[!UICONTROL Full w/ Search Data]** se estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
+* **[!UICONTROL Publish]**: por padrão, o Adobe Dynamic Media Classic publica somente ativos novos e que não foram publicados antes (a opção Novo desde a última publicação). No entanto, você pode selecionar **[!UICONTROL Full Publish]** para poder publicar ativos que foram atualizados ou alterados desde a última publicação. Selecione **[!UICONTROL Full w/ Search Data]** se estiver publicando um eCatalog e quiser que os leitores possam pesquisá-lo por palavra-chave.
 
 * **[!UICONTROL Run Job As]**: Escolha um nome de usuário na lista. Você pode classificar trabalhos por nome de usuário na página Trabalhos. Ao escolher um nome, você associa um trabalho de publicação a um usuário.
 
@@ -112,7 +112,7 @@ Para cancelar um trabalho de publicação, vá para a página Trabalhos e seleci
 >
 >Depois de cancelar um trabalho de publicação, seu status muda para &quot;parando&quot; até que o trabalho atinja um ponto em que possa parar com segurança. A interrupção de um trabalho de publicação pode levar algum tempo se o trabalho estiver no processo de obtenção de dados do banco de dados.
 
-## Ativos do Publish manualmente {#manually-publishing-assets}
+## Publicar ativos manualmente {#manually-publishing-assets}
 
 Você pode publicar ativos individuais manualmente em vez de criar um trabalho de publicação. Ao publicar conjuntos, como um Conjunto de imagens ou um Conjunto de vídeos adaptados, o conjunto (ou &quot;pai&quot;) e todos os membros (ou &quot;filhos&quot;) dentro desse conjunto são publicados.
 

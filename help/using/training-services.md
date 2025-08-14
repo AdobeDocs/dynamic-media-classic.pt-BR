@@ -1,6 +1,6 @@
 ---
-title: Serviços de treinamento do Adobe
-description: Saiba mais sobre os Serviços de treinamento do Adobe para Adobe Dynamic Media Classic.
+title: Serviços de treinamento da Adobe
+description: Saiba mais sobre os Serviços de treinamento da Adobe para Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ---
 
-# Serviços de treinamento do Adobe{#adobe-training-services}
+# Serviços de treinamento da Adobe{#adobe-training-services}
 
 A Dynamic Media Classic oferece treinamento na forma de vídeo-treinamento, workshops ministrados por instrutores e sessões na Web, além de demonstrações.
 
-## Serviços de treinamento do Adobe
+## Serviços de treinamento da Adobe
 
-Os Serviços de treinamento do Adobe oferecem treinamento em sala de aula personalizado e detalhado, projetado para a sua empresa. O treinamento pode tomar a forma de aulas regionais em estilo universitário, sessões baseadas na web ou workshops personalizados no local. As aulas regionais são abertas a todos os clientes e realizadas periodicamente em vários locais na América do Norte e Europa, Oriente Médio e África. As sessões personalizadas podem ser personalizadas para usuários iniciantes e avançados, usuários finais, administradores e equipe de TI.
+Os Serviços de treinamento da Adobe oferecem treinamento em sala de aula personalizado e detalhado, projetado para sua organização. O treinamento pode tomar a forma de aulas regionais em estilo universitário, sessões baseadas na web ou workshops personalizados no local. As aulas regionais são abertas a todos os clientes e realizadas periodicamente em vários locais na América do Norte e Europa, Oriente Médio e África. As sessões personalizadas podem ser personalizadas para usuários iniciantes e avançados, usuários finais, administradores e equipe de TI.
 
-Consulte [Serviços de treinamento do Adobe](https://learning.adobe.com/)
+Consulte os [Serviços de treinamento da Adobe](https://learning.adobe.com/)
 
 ## Demonstrações
 

@@ -25,7 +25,7 @@ As predefinições do visualizador de conjunto de mídia mista incluem opções 
 
 Este Início rápido de conjuntos de mídia mista foi projetado para você começar a usar rapidamente as técnicas de Conjunto de mídia mista no Adobe Dynamic Media Classic.
 
-## 1. Faça upload de imagens, arquivos de amostra e vídeos
+## &#x200B;1. Faça upload de imagens, arquivos de amostra e vídeos
 
 Comece carregando as imagens, os arquivos de amostra e os vídeos dos Conjuntos de mídias mistas. Como os usuários podem ampliar imagens no Visualizador de conjunto de mídias mistas, certifique-se de levar em conta essa capacidade ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels no maior tamanho.
 
@@ -33,19 +33,19 @@ Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arq
 
 Consulte [Carregar seus arquivos](uploading-files.md#uploading-your-files).
 
-## 2. Criar conjuntos de mídias para uso no Conjunto de mídias mistas
+## &#x200B;2. Criar conjuntos de mídias para uso no Conjunto de mídias mistas
 
 É possível adicionar imagens, Conjuntos de imagens, Conjuntos de amostras, Conjuntos de rotação e vídeos ao Conjunto de mídia mista. Prepare os Conjuntos de mídias antes de adicioná-los ao Conjunto de mídias mistas.
 
 Consulte [Criar um conjunto de imagens](creating-image-set.md#creating-an-image-set), [Criar um conjunto de amostras](creating-swatch-set.md#creating-a-swatch-set) e [Criar um conjunto de amostras](creating-spin-set.md#creating-a-spin-set).
 
-## 3. Criar um conjunto de mix de mídia
+## &#x200B;3. Criar um conjunto de mix de mídia
 
 Na barra de Navegação Global, vá para **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**. Arraste as imagens, os Conjuntos de amostras, os Conjuntos de imagens e os vídeos para a página Conjunto de mídias mistas. Para adicionar uma trilha sonora, arraste um arquivo de áudio para a caixa Trilha sonora.
 
 Consulte [Criar um conjunto de mídia mista](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## 4. Configurar predefinições do visualizador de mídia mista
+## &#x200B;4. Configurar predefinições do visualizador de mídia mista
 
 O Adobe Dynamic Media Classic vem com Predefinições de visualizador padrão para Conjuntos de mídia mista. Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de mídia mista.
 
@@ -53,23 +53,23 @@ Ao configurar uma Predefinição do visualizador de conjunto de mídia mista, ad
 
 Consulte [Configurar uma Predefinição do Visualizador de Conjunto de Mídia Mista](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) e [Criar e editar Predefinições do Visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
-Consulte também o vídeo de treinamento [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Consulte também o vídeo de treinamento [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
-## 5. Visualizar um conjunto de mídias mistas
+## &#x200B;5. Visualizar um conjunto de mídias mistas
 
 Selecione o botão **[!UICONTROL Preview]** do Conjunto de mídias mistas. Você pode selecionar os ícones de miniatura e amostra para examinar o conjunto de mídias mistas no Visualizador de conjunto de mídias mistas. É possível escolher Visualizadores diferentes nos menus Predefinições.
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
-## 6. Publish um conjunto de mix de mídia
+## &#x200B;6. Publicar um conjunto de mix de mídia
 
 A publicação de um Conjunto de mídias mistas o coloca nos servidores do Adobe Dynamic Media Classic e ativa a cadeia de caracteres do URL.
 
 Os Conjuntos de mídias mistas exigem a publicação no **Servidor de vídeo** e também no **Servidor de imagens**. Use o **Servidor de Vídeo** para publicar os vídeos reais marcados para publicação. E você usa o **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptados.
 
-Consulte [Publish a Mixed Media Set](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+Consulte [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
-## 7. Vincular um conjunto de mídias mistas a uma página da Web
+## &#x200B;7. Vincular um conjunto de mídias mistas a uma página da Web
 
 O Adobe Dynamic Media Classic ativa chamadas de URL para Conjuntos de mídias mistas depois de publicá-las. Você pode copiar esses URLs da página Pré-visualização.
 

@@ -35,7 +35,7 @@ Para exibir os metadados de um ativo, abra o ativo na Exibição de detalhes e t
 
 * **IPTC**: Valores conforme definidos pelo International Press Telecommunications Council.
 
-* **XMP**: Valores conforme definidos pelo programa de metadados extensíveis.
+* **XMP**: valores conforme definidos pelo programa de metadados extensíveis.
 
 Os administradores podem criar visualizações de metadados. Essas exibições também aparecem no menu Exibições de metadados.
 
@@ -73,7 +73,7 @@ Se você tiver adicionado palavras-chave a outros arquivos durante esta sessão 
 >[!NOTE]
 >
 >Você pode adicionar palavras-chave a arquivos enquanto faz upload para o Adobe Dynamic Media Classic. Na caixa de diálogo Carregar Opções de Trabalho, escolha **[!UICONTROL More Metadata]** e insira palavras-chave.
->Consulte [Opções de carregamento](uploading-files.md#upload_options).
+>>Consulte [Opções de carregamento](uploading-files.md#upload_options).
 
 ## Importar metadados {#import-metadata}
 
@@ -82,9 +82,9 @@ Em vez de inserir metadados manualmente um ativo de cada vez, você pode importa
 >[!NOTE]
 >
 >Você pode criar um modelo para inserir metadados, de modo que eles possam ser importados corretamente para o Adobe Dynamic Media Classic. Após criar o template, você pode usá-lo para inserir os metadados.
->Consulte [Criar um modelo para inserir metadados para carregar](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>>Consulte [Criar um modelo para inserir metadados para carregar](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
-Você pode encontrar mais informações sobre propriedades padronizadas no [Centro de Desenvolvedores do XMP Adobe](https://www.adobe.com/devnet/xmp.html).
+Você pode encontrar mais informações sobre propriedades padronizadas no [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
 1. No painel Procurar, selecione as imagens às quais deseja adicionar metadados do arquivo XML ou delimitado por tabulação.
 1. Vá para **[!UICONTROL File]** > **[!UICONTROL Import Metadata]**.
@@ -98,7 +98,7 @@ Você pode encontrar mais informações sobre propriedades padronizadas no [Cent
 Lembre-se do seguinte ao identificar diferentes tipos de metadados a serem importados:
 
 * Os nomes dos campos Definidos pelo Usuário são identificados como criados em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL User-Defined fields]**. Use a funcionalidade `Generate file` para obter uma lista de todos os UDFs definidos no formato de importação correto.
-* As propriedades de metadados de XMP devem ter o prefixo XMP relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo XMP pode ser encontrado no editor **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**. Os nomes técnicos podem ser encontrados na documentação do schema XMP relacionado. Nomes de propriedades XMP não aparecem no recurso `Generate file`.
+* As propriedades de Metadados do XMP devem ter o prefixo XMP relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo do XMP pode ser encontrado no editor **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**. Os nomes técnicos podem ser encontrados na documentação do esquema relacionado do XMP. Os nomes de propriedades do XMP não aparecem no recurso `Generate file`.
 * As propriedades do esquema de metadados devem ter o prefixo relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo e os nomes de propriedade são definidos no Editor de esquema de metadados. Os nomes das propriedades do Esquema de Metadados não aparecem no recurso `Generate file`.
 
 Por exemplo: a propriedade XMP para palavras-chave é o esquema XMP &quot;Dublin Core&quot; com o prefixo `dc` e `subject` é o nome técnico do XMP. O prefixo e o nome técnico do XMP são combinados no nome completo da propriedade `dc:subject`. No formato de importação de metadados XML, `dc.subject` deve ser o nome da propriedade. No formato de importação delimitado por tabulação, deve ser o cabeçalho da coluna.
@@ -109,9 +109,9 @@ As palavras-chave podem ser importadas como uma lista separada por vírgulas. Se
 
 Por exemplo, um arquivo de importação de metadados contendo o valor `Hello\, World!,back\\slash,foo` para `dc:subject` define três palavras-chave XMP no ativo: `Hello, World!,` `back\slash,` e `foo`.
 
-### Importar arquivos XMP e XMP de metadados de esquema de metadados
+### Importar arquivos XMP de metadados do XMP e do esquema de metadados
 
-A importação XML aceita somente XML válido. Ao importar campos de XMP ou Esquema de metadados, o prefixo do namespace é adicionado e se comporta aqui como um namespace XMP. Este namespace deve ser declarado. Por exemplo, na tag de nível superior.
+A importação XML aceita somente XML válido. Ao importar campos do XMP ou do esquema de metadados, o prefixo do namespace é adicionado e se comporta aqui como um namespace XMP. Este namespace deve ser declarado. Por exemplo, na tag de nível superior.
 
 Por exemplo:
 
@@ -163,7 +163,7 @@ O Adobe Dynamic Media Classic oferece um comando para criar um modelo para grava
 
 Um Administrador de empresa pode exibir uma lista de todos os esquemas disponíveis. Na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**.
 
-Inicialmente, a lista de esquemas padrão globais como XMP está oculta. Eles podem ser exibidos usando a caixa de seleção na parte inferior da lista.
+Inicialmente, a lista de esquemas padrão globais como o XMP está oculta. Eles podem ser exibidos usando a caixa de seleção na parte inferior da lista.
 
 O Administrador da empresa pode criar um esquema personalizado ou editar um esquema personalizado existente.
 
@@ -185,11 +185,11 @@ O sistema gera automaticamente um esquema personalizado para campos definidos pe
 
 O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou editar um esquema de empresa personalizado dentro do Adobe Dynamic Media Classic. Um prefixo, um namespace e uma lista de propriedades definem um esquema.
 
-* **[!UICONTROL Name]**: UI-Name do esquema. Usado para identificar as propriedades em Visualizações de metadados e Pesquisa avançada. Semelhante a Seções XMP como Básico, IPTC, PDF.
+* **[!UICONTROL Name]**: UI-Name do esquema. Usado para identificar as propriedades em Visualizações de metadados e Pesquisa avançada. Semelhante às Seções do XMP, como Básico, IPTC, PDF.
 
-* **[!UICONTROL Prefix]**: Identificador técnico exclusivo para o esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. O prefixo identifica exclusivamente campos de metadados em consultas de pesquisa de metadados no servidor de metadados ou na importação.
+* **[!UICONTROL Prefix]**: Identificador técnico exclusivo para o esquema. Restrito às letras a-z e A-Z. O prefixo não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado quando os metadados de um ativo são armazenados no bloco do XMP e no banco de dados. O prefixo identifica exclusivamente campos de metadados em consultas de pesquisa de metadados no servidor de metadados ou na importação.
 
-* **[!UICONTROL Namespace]**: Identificador técnico exclusivo para o esquema, geralmente uma URL no formato `https://your.company.com/name/version/`. Consulte a lista de esquemas padrão para ver exemplos. O namespace não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado para armazenar metadados no bloco XMP.
+* **[!UICONTROL Namespace]**: Identificador técnico exclusivo para o esquema, geralmente uma URL no formato `https://your.company.com/name/version/`. Consulte a lista de esquemas padrão para ver exemplos. O namespace não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usado para armazenar metadados no bloco do XMP.
 
 * **[!UICONTROL Description]**: Descrição do esquema em formato livre.
 
@@ -201,7 +201,7 @@ As propriedades descrevem os metadados que podem ser armazenados com esse schema
 
 | Propriedade | Descrição |
 | --- | --- |
-| ID | Identificador técnico desta propriedade. A ID não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. A ID é usada para criar consultas de pesquisa no Servidor de metadados. A ID tem algumas restrições, como: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Uma vez criada, a ID não pode ser alterada. |
+| ID | Identificador técnico desta propriedade. A ID não está visível na interface do Adobe Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco do XMP e no banco de dados. A ID é usada para criar consultas de pesquisa no Servidor de metadados. A ID tem algumas restrições, como: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>Uma vez criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para esta propriedade. |
 | Estrutura | Determina o tipo da propriedade junto com o Tipo de dados. A estrutura pode ser uma de:<ul><li>Tipo simples: valor único do tipo de dados</li><li>Sequência: uma lista de valores do mesmo tipo de dados</li><li>Abrir Opção: selecione um item de uma lista de valores predefinidos ou informe o texto. Ele só pode ser do tipo de dados String ou Integer</li><li>Opção Fechada: selecione um item em uma lista de valores predefinidos (uma pop-up ou caixa de combinação)</li></ul> |
 | Tipo de dados | Selecione um destes tipos disponíveis: <ul><li>String</li><li>Integer</li><li>Flutuante</li><li>Sim/Não (Booleano)</li><li>Data</li></ul> |
@@ -210,7 +210,7 @@ Quando a propriedade tiver a estrutura Escolha Aberta ou Escolha Fechada, você 
 
 | Propriedade | Descrição |
 | --- | --- |
-| ID | Identificador técnico para este valor. A ID não está visível na interface do usuário do Adobe Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco XMP e no banco de dados. A ID é usada em consultas de pesquisa no Servidor de metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
+| ID | Identificador técnico para este valor. A ID não está visível na interface do Adobe Dynamic Media Classic, mas é usada quando os metadados de um ativo são armazenados no bloco do XMP e no banco de dados. A ID é usada em consultas de pesquisa no Servidor de metadados. A ID não pode conter espaços. Depois de criada, a ID não pode ser alterada. |
 | Rótulo | UI-Name para este valor. |
 
 >[!MORELIKETHIS]

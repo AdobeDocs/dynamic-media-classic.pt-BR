@@ -30,7 +30,7 @@ Para criar um Spin Set eficaz, certifique-se de fotografar as imagens corretamen
 Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito de rotação da imagem. No entanto, a inclusão de muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. A Adobe Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em conjuntos de rotação:
 
 * No mínimo, use 8 a 12 imagens em um Conjunto de rotação unidimensional e 16 a 24 imagens em um Conjunto de rotação bidimensional.
-* Use um formato sem perdas; TIFF e PNG são recomendados.
+* Usar um formato sem perdas; TIFF e PNG são recomendados.
 * Mascarar todas as imagens para que o item apareça em branco puro ou em outro plano de fundo de alto contraste. Como opção, adicione sombras.
 * Verifique se os detalhes do produto estão bem iluminados e em foco.
 * Faça imagens giratórias para roupas de moda com um manequim ou modelo. Muitas vezes, o manequim é mascarado (usando um manequim de vidro) ou um manequim estilizado/costureira é mostrado na imagem. Você pode criar um Conjunto de rotação no modelo definindo o número de ângulos. Marque cada ângulo com fita no chão para que você possa guiar o modelo para pisar e olhar na direção de cada tomada.
@@ -48,7 +48,7 @@ Ao criar um conjunto, a opção **[!UICONTROL Publish after a save]** afeta o co
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually-publishing-assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually-unpublishing-assets).
 
-Ao criar um Conjunto de rotação, o Adobe recomenda a seguinte prática recomendada e impõe o seguinte limite:
+Ao criar um Conjunto de rotação, a Adobe recomenda a seguinte prática recomendada e impõe o seguinte limite:
 
 | Tipo de limite do grupo de rotação | Prática recomendada | Limite imposto |
 | --- | --- | --- |
@@ -69,7 +69,7 @@ Depois de salvar um Conjunto de rotação, você pode usar Visualizar na página
 
 1. Selecione **[!UICONTROL OK]**.
 1. Arraste e solte imagens na grade na tela Conjunto de rotação.
-1. Quando terminar, próximo ao canto inferior direito da página, verifique se **Publish após salvar** está selecionado (padrão).
+1. Quando terminar, próximo ao canto inferior direito da página, verifique se **Publicar após salvar** está selecionado (padrão).
 1. Selecione **[!UICONTROL Save]**.
 1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o Conjunto de rotação. No campo Nome do arquivo, digite o nome do conjunto de rotação.
 1. Selecione **[!UICONTROL Save]**.

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Verifique se você é membro do grupo de Acesso ao serviço da Web no Adobe Analytics. Faça isso antes de fazer logon para configurar os relatórios do Adobe Analytics e corresponder as variáveis de relatório do Adobe Analytics aos eventos do Adobe Dynamic Media Classic. Os membros deste grupo podem acessar todos os relatórios nos Conjuntos de relatórios especificados. Faça isso usando a API de serviços da Web do Experience Cloud, independentemente das permissões definidas na interface. Para adicionar um membro ao grupo, no Adobe Analytics, vá para **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 
-Ao fazer logon, você tem a opção de inserir a ID da organização do Experience Cloud para usar a implementação de análise de vídeo mais recente. Se você optar por não inserir sua ID, o relatório de vídeo ainda funcionará. No entanto, isso pode fazer com que os dados não se integrem corretamente com outros dados para esse cliente de fora do Adobe Dynamic Media Classic.
+Ao fazer logon, você tem a opção de inserir a ID da organização da Experience Cloud para usar a implementação de análise de vídeo mais recente. Se você optar por não inserir sua ID, o relatório de vídeo ainda funcionará. No entanto, isso pode fazer com que os dados não se integrem corretamente com outros dados para esse cliente de fora do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

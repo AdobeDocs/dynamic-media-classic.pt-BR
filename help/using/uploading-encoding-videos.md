@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3886'
+source-wordcount: '3878'
 ht-degree: 0%
 
 ---
@@ -168,7 +168,7 @@ A tabela a seguir descreve como os resultados da fórmula são convertidos em op
 | 1,78 | 16:9 |
 | 0,56 | 9:16 |
 
-Por exemplo, um vídeo com 1440 de largura × 1080 de altura tem uma proporção largura/altura de 1440/1080 ou 1,33. Nesse caso, você escolhe uma predefinição de codificação de vídeo com uma proporção 4:3 para codificar o arquivo de vídeo.
+Por exemplo, um vídeo com 1440 de largura × 1080 de altura tem uma proporção largura/altura de 1440/1080 ou 1,33. Nesse caso, você escolhe uma predefinição de codificação de vídeo com uma taxa de proporção de 4:3 para codificar o arquivo de vídeo.
 
 ### Taxa de dados {#data-rate}
 
@@ -378,4 +378,4 @@ Os administradores podem excluir predefinições de vídeo personalizadas. As pr
 >* [Início Rápido: Vídeo no Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
 >* [Carregar e codificar vídeos](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Trabalhar com as predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de treinamento
+>* [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) vídeo de treinamento

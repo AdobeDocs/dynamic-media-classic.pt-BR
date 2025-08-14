@@ -35,7 +35,7 @@ A barra de Navegação global, localizada na parte superior da tela, oferece bot
 
 * **[!UICONTROL Build]**: Escolha uma tarefa de compilação no menu. O painel Criar é aberto para que você possa criar um tipo de ativo.
 
-* **[!UICONTROL Publish]**: abre a tela Publicação para que você possa publicar ativos de mídia avançada nos Adobe Dynamic Media Image Servers e no restante da infraestrutura do Adobe Dynamic Media Classic SAAS.
+* **[!UICONTROL Publish]**: abre a tela Publicação para que você possa publicar ativos de mídia avançada nos Servidores de Imagens do Adobe Dynamic Media e no restante da Infraestrutura Adobe Dynamic Media Classic SAAS.
 
 * **[!UICONTROL Jobs]**: abre a tela Trabalhos para que você possa examinar registros de trabalhos de carregamento e publicação.
 
@@ -71,7 +71,7 @@ O painel Procurar/Criar é onde você faz a maior parte do seu trabalho. As fun�
 
 * **[!UICONTROL Build mode]**: Selecione **[!UICONTROL Build]** e escolha uma opção para começar a criar um eCatalog, Conjunto de Imagens, Conjunto de Rotação ou um dos vários outros itens disponíveis no menu Compilar. A página Criar é aberta. Você pode selecionar os ativos com os quais deseja trabalhar antes ou depois de entrar no modo Criar.
 
-Veja também o vídeo de treinamento [Noções básicas de navegação](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
+Veja também o vídeo de treinamento [Noções básicas de navegação](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >

@@ -30,7 +30,7 @@ Antes de carregar um ativo de imagem, primeiro solicite uma chave de segredo com
 
 ## Solicitar uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
+Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que você deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
@@ -125,9 +125,9 @@ Um limite global é definido no aplicativo para o limite de tamanho do arquivo e
 | Limite global | Valor |
 | --- | --- |
 | Tamanho do arquivo para todos os clientes | 20 MB |
-| Formatos de arquivo de imagem aceitos para upload | BMP, GIF, JPG,, PNG, PSD, TIFF |
+| Formatos de arquivo de imagem aceitos para upload | BMP, GIF, JPG, PNG, PSD, TIFF |
 
-O formulário HTML a seguir permite que um usuário carregue um ativo. O formulário solicita que o usuário insira as seguintes informações:
+O formulário do HTML a seguir permite que um usuário faça upload de um ativo. O formulário solicita que o usuário insira as seguintes informações:
 
 * Um nome de empresa.
 * Um token de upload.
@@ -138,9 +138,9 @@ O formulário HTML a seguir permite que um usuário carregue um ativo. O formul�
 Consulte Plano de Fundo de Separação em [Opções de ajuste de imagem no carregamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado.
 
-Você pode exibir o código-fonte HTML associado ao formulário acima selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Você pode exibir o código-fonte do HTML associado ao formulário acima selecionando [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-No Firefox, clique com o botão direito na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a cadeia de caracteres de consulta de URL correspondente e o método POST que é executado quando o usuário seleciona **[!UICONTROL Submit]**.
+No Firefox, clique com o botão direito na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a cadeia de caracteres de consulta de URL correspondente e o método POST executado quando o usuário seleciona **[!UICONTROL Submit]**.
 
 Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, vá para **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
 
@@ -190,7 +190,7 @@ Envie o ativo para fazer upload como uma publicação multipart/form enquanto en
 
 >[!NOTE]
 >
->É necessário enviar o ativo para ser carregado como o único campo em uma solicitação POST de várias partes.
+>É necessário enviar o ativo para ser carregado como o único campo em uma solicitação POST multiparte.
 
 **Amostra da URL:**
 

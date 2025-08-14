@@ -23,9 +23,9 @@ Os Conjuntos de imagens do Adobe Dynamic Media Classic oferecem aos usuários um
 
 O Visualizador de conjunto de imagens oferece ferramentas de zoom para examinar as imagens com atenção. Se desejar, você poderá tornar Destinos de zoom e Mapas de imagem parte do Conjunto de imagens. Os conjuntos de imagens proporcionam uma experiência de visualização mais organizada e íntima.
 
-Veja [Conjuntos de imagem e rotação: vídeo de treinamento Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+Veja o vídeo de treinamento [Conjuntos de imagem e rotação: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
-Ao criar um Conjunto de imagens, o Adobe recomenda as seguintes práticas recomendadas e impõe os seguintes limites:
+Ao criar um Conjunto de imagens, a Adobe recomenda as seguintes práticas recomendadas e impõe os seguintes limites:
 
 | Tipo de limite | Prática recomendada | Limite imposto |
 | --- | --- | --- |
@@ -38,15 +38,15 @@ Consulte também [limitações do Dynamic Media](/help/using/limitations.md).
 
 O seguinte Início rápido dos conjuntos de imagens foi projetado para você começar a usar rapidamente as técnicas do Conjunto de imagens no Adobe Dynamic Media Classic.
 
-## 1. Faça upload das imagens principais para várias exibições e amostras
+## &#x200B;1. Faça upload das imagens principais para várias exibições e amostras
 
-Comece fazendo upload das imagens para os seus Conjuntos de imagens. Como os usuários podem ampliar imagens no Visualizador de conjunto de imagens, certifique-se de levar em conta essa capacidade ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels no maior tamanho. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas são recomendados TIFF, PNG e imagens EPS sem perdas.
+Comece fazendo upload das imagens para os seus Conjuntos de imagens. Como os usuários podem ampliar imagens no Visualizador de conjunto de imagens, certifique-se de levar em conta essa capacidade ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels no maior tamanho. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas recomenda-se usar imagens TIFF, PNG e EPS sem perdas.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Adobe Dynamic Media Classic.
 
 Consulte [Preparar ativos do Conjunto de Imagens para carregamento](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) e [Carregar seus arquivos](uploading-files.md#uploading-your-files).
 
-## 2. Criar um conjunto de imagens
+## &#x200B;2. Criar um conjunto de imagens
 
 Em Conjuntos de imagens, os usuários selecionam imagens em miniatura no Visualizador de conjuntos de imagens para ver uma imagem de um lado ou ângulo diferente.
 
@@ -56,7 +56,7 @@ Consulte [Criar um conjunto de imagens](creating-image-set.md#creating-an-image-
 
 Consulte também [Incluir destinos de zoom e mapas de imagem em conjuntos de imagens](/help/using/including-zoom-targets-image-maps-image-sets.md)
 
-## 3. Prepare Predefinições do visualizador do Conjunto de imagens, conforme necessário
+## &#x200B;3. Prepare Predefinições do visualizador do Conjunto de imagens, conforme necessário
 
 Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de Zoom: **[!UICONTROL Custom]** > **[!UICONTROL Images]** ou **[!UICONTROL Image Sets]**/**[!UICONTROL Multiple Views]** predefinições para exibir seus Conjuntos de Imagens.
 
@@ -64,13 +64,13 @@ Você pode adicionar ou editar as Predefinições do visualizador na tela Config
 
 Consulte [Criar e editar Predefinições do Visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
-## 4. Visualizar um conjunto de imagens
+## &#x200B;4. Visualizar um conjunto de imagens
 
 Selecione o Conjunto de imagens no painel Procurar e selecione **[!UICONTROL Preview]**. Na página Visualizar, selecione os ícones de miniatura para examinar seu Conjunto de imagens no Visualizador selecionado. É possível escolher Visualizadores diferentes no menu Predefinições.
 
 Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
-## 5. Publish e conjunto de imagens
+## &#x200B;5. Publicar um conjunto de imagens
 
 A publicação de um Conjunto de imagens o coloca nos servidores do Adobe Dynamic Media Classic e ativa a cadeia de caracteres do URL.
 
@@ -80,9 +80,9 @@ A publicação de um Conjunto de imagens o coloca nos servidores do Adobe Dynami
 
 Selecione o ícone **[!UICONTROL Mark for Publish]** à esquerda de seu nome no painel Procurar. Depois selecione **[!UICONTROL Publish]**. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
 
-Consulte [arquivos Publish](publishing-files.md#publishing-files).
+Consulte [Publicar arquivos](publishing-files.md#publishing-files).
 
-## 6. Vincule um conjunto de imagens ao seu site
+## &#x200B;6. Vincule um conjunto de imagens ao seu site
 
 O Adobe Dynamic Media Classic cria chamadas de URL para conjuntos de imagens e as ativa após a publicação. Você pode copiar esses URLs da tela Preview.
 

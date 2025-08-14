@@ -26,7 +26,7 @@ Antes de fazer upload dos ativos para o Adobe Dynamic Media Classic, verifique s
 
 ### Formatos de arquivo de ativo compatíveis {#supported-asset-file-formats}
 
-Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw compatíveis, consulte [https://helpx.adobe.com/br/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/br/camera-raw/using/supported-cameras.html).
+Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw compatíveis, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de arquivo do ativo | Descrição |
 | --- | --- |
@@ -267,7 +267,7 @@ Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-en
 
 * **Mais Metadados**: insira palavras-chave que descrevam os arquivos que você pretende carregar. Separe as palavras-chave por vírgula. As palavras-chave facilitam a pesquisa de ativos.
 Consulte [Realizar uma pesquisa avançada](searching-assets.md#conducting_an_advanced_search).
-Consulte também [Fazer upload de palavras-chave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) em um vídeo de treinamento.
+Consulte também [Fazer upload de palavras-chave](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) em um vídeo de treinamento.
 
 * **Predefinições do conjunto de lotes**: para criar um Conjunto de imagens, um Conjunto de rotação ou um Conjunto de amostras a partir dos arquivos carregados, selecione a coluna **[!UICONTROL Active]** para a predefinição que deseja usar. É possível selecionar mais de uma predefinição. Você pode criar as predefinições na página Configuração do aplicativo/Predefinições de conjunto de lotes.
 Consulte [Predefinições de conjunto de lotes](application-setup.md#batch_set_presets).

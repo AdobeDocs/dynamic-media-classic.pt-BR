@@ -25,7 +25,7 @@ Consulte [Configurar visualizadores padrão](application-setup.md#configuring_de
 
 Se estiver visualizando um ativo de modelo com camadas de parâmetros, você poderá alterar parâmetros ou alterar a Predefinição de imagem. Como as alterações são feitas em linha, é possível visualizar os resultados imediatamente na mesma janela de Pré-visualização.
 
-Consulte também [Exemplos de biblioteca de referência de visualizadores Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Consulte também [Exemplos de biblioteca de referência de visualizadores do Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Para visualizar um ativo:**
 
@@ -43,7 +43,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores Adobe]
 
 ## Visualizar um ativo com base no tipo de plataforma do visualizador {#previewing-an-asset-based-on-viewer-platform-type}
 
-Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em um tipo específico de plataforma do visualizador, como HTML 5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Lista do visualizador.
+Você pode usar a Lista do visualizador para visualizar como um ativo aparece em um tipo específico de plataforma do visualizador, como o HTML5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Lista do visualizador.
 
 Você também pode usar a Lista de visualizadores para copiar o URL de um visualizador ou visualizá-lo e copiar o código do visualizador para incorporação nas suas páginas da Web.
 

@@ -1,5 +1,5 @@
 ---
-title: Modelos do Publish
+title: Publicar modelos
 description: Saiba como publicar modelos do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ---
 
-# Modelos do Publish{#publishing-templates}
+# Publicar modelos{#publishing-templates}
 
-A publicação do modelo o coloca nos Dynamic Media Image Servers, onde ele está disponível para seu site e aplicativo. Durante o processo de publicação, o Adobe Dynamic Media Classic ativa os URLs necessários para o site e o aplicativo.
+A publicação do modelo o coloca nos Servidores de imagem do Dynamic Media, onde ele fica disponível para o seu site e aplicativo. Durante o processo de publicação, o Adobe Dynamic Media Classic ativa os URLs necessários para o site e o aplicativo.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ A publicação do modelo o coloca nos Dynamic Media Image Servers, onde ele est�
 
 ## Marcar modelos para publicação {#marking-templates-for-publish}
 
-Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação, para que sejam colocados nos servidores de imagem da Dynamic Media. Você pode marcar esses itens para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**.
+Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação, para que sejam colocados nos servidores de imagem do Dynamic Media. Você pode marcar esses itens para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**.
 
-## Publish seu modelo {#publishing-your-template}
+## Publicar seu modelo {#publishing-your-template}
 
-Para publicar modelos nos Dynamic Media Image Servers, na barra de Navegação Global, selecione **[!UICONTROL Publish]** e, em seguida, selecione uma opção **[!UICONTROL When]**. Opcionalmente, você pode informar um nome para o job de publicação. Selecione **[!UICONTROL Submit Publish]**.
+Para publicar modelos nos Servidores de Imagens do Dynamic Media, na barra Navegação Global, selecione **[!UICONTROL Publish]** e, em seguida, selecione uma opção **[!UICONTROL When]**. Opcionalmente, você pode informar um nome para o job de publicação. Selecione **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >

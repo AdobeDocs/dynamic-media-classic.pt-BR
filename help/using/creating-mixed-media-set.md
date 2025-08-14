@@ -24,9 +24,9 @@ Crie um Conjunto de mídias mistas quando quiser combinar vários tipos de visua
 
 ## Criar um conjunto de mix de mídia {#create-a-mixed-media-set}
 
-Ao criar um conjunto, a opção **Publish após salvar** afeta o conjunto e define membros das seguintes maneiras:
+Ao criar um conjunto, a opção **Publicar após salvar** afeta o conjunto e os membros do conjunto das seguintes maneiras:
 
-| A opção &quot;Publish após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
+| A opção &quot;Publicar após salvar&quot; foi selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
 | Sim | Publicado | Publicado |
 | Não | Não publicado | Os membros definidos mantêm seu estado publicado ou não publicado. |

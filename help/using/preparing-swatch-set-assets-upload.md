@@ -26,7 +26,7 @@ Para criar um Conjunto de Amostras, você precisa de vinhetas ou de diferentes c
 * Um tiro preto, marrom e verde do mesmo casaco.
 * Uma amostra de cor preta, marrom e verde.
 
-Como os usuários podem ampliar imagens em Conjuntos de amostras, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas são recomendados TIFF, PNG e imagens EPS sem perdas.
+Como os usuários podem ampliar imagens em Conjuntos de amostras, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas recomenda-se usar imagens TIFF, PNG e EPS sem perdas.
 
 Para obter instruções detalhadas sobre como carregar ativos, consulte [Carregar arquivos](uploading-files.md#uploading_files).
 

@@ -159,7 +159,7 @@ Por padrão, o modelo de URL inclui um manipulador proprietário do Adobe Dynami
 
   >[!NOTE]
   >
-  >O manipulador `loadProductPW` não dá suporte a visualizadores DHTML e HTML5.
+  >O manipulador `loadProductPW` não oferece suporte a visualizadores DHTML e HTML5.
 
 ### Criar um modelo de URL {#creating-a-url-template}
 
@@ -177,7 +177,7 @@ A página Editor de mapa (imagens e SpinSets) e a guia Páginas de mapa da tela 
 
 ## Definir outras ações para Mapas de imagem {#defining-other-actions-for-image-maps}
 
-Você pode selecionar o menu **[!UICONTROL Show]** e escolher **[!UICONTROL Other Actions]** para acionar ações diferentes da substituição de texto e inicializações de página da Web. Quando o usuário move o ponteiro sobre um Mapa de imagem, é possível iniciar uma ação. Essas ações são atributos definidos para mapas de imagem do lado do cliente pelas especificações de HTML do World Wide Web Consortium. Eles incluem:
+Você pode selecionar o menu **[!UICONTROL Show]** e escolher **[!UICONTROL Other Actions]** para acionar ações diferentes da substituição de texto e inicializações de página da Web. Quando o usuário move o ponteiro sobre um Mapa de imagem, é possível iniciar uma ação. Essas ações são atributos definidos para mapas de imagem do lado do cliente pelas especificações do HTML do World Wide Web Consortium. Eles incluem:
 
 * **`accesskey`**: aciona uma ação quando o usuário pressiona uma tecla designada no teclado.
 
@@ -188,7 +188,7 @@ Você pode selecionar o menu **[!UICONTROL Show]** e escolher **[!UICONTROL Othe
 **Para definir outras ações para Mapas de Imagem:**
 
 1. Na tela Editor de mapas (imagens e SpinSets) ou na guia Mapear páginas da tela eCatalog (eCatalogs), selecione o menu **[!UICONTROL Show]** e selecione **[!UICONTROL Other Actions]**.
-1. Usando a sintaxe especificada pelas especificações de HTML do World Wide Web Consortium, adicione os atributos compatíveis na coluna Outras ações da lista Mapa de imagem.
+1. Usando a sintaxe especificada pelas especificações do HTML do World Wide Web Consortium, adicione os atributos compatíveis na coluna Outras ações da lista Mapa de imagem.
 1. Selecione **[!UICONTROL Save]**.
 
 Selecione o menu **[!UICONTROL Show]** e selecione **[!UICONTROL Both]** se quiser que um Mapa de Imagem tenha um texto de substituição e uma ação.
@@ -197,7 +197,7 @@ Selecione o menu **[!UICONTROL Show]** e selecione **[!UICONTROL Both]** se quis
 
 É possível criar Mapas de imagem ao projetar seu eCatalog no Adobe Acrobat ou Adobe InDesign.
 
-No Adobe Acrobat ou Adobe InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem sejam exibidos e especifique os locais de URL para o Mapa de imagem. Selecionar a opção Extrair links ao fazer upload do arquivo de PDF no Adobe Dynamic Media Classic converte automaticamente os links para Mapas de imagem.
+No Adobe Acrobat ou Adobe InDesign, crie referências de hiperlink onde deseja que os Mapas de imagem sejam exibidos e especifique os locais de URL para o Mapa de imagem. Selecionar a opção Extrair links ao fazer upload do arquivo do PDF no Adobe Dynamic Media Classic converte automaticamente os links para Mapas de imagem.
 
 Para obter mais informações, consulte Ajuda do Adobe InDesign ou Ajuda do Adobe Acrobat.
 
@@ -216,7 +216,7 @@ Para obter mais informações, consulte Ajuda do Adobe InDesign ou Ajuda do Adob
 
 1. Repita as etapas de 2 a 6 para todos os Mapas de imagem que deseja criar.
 1. Exporte o arquivo como um PDF.
-1. Carregue o PDF para o Adobe Dynamic Media Classic.
+1. Faça upload da PDF para o Adobe Dynamic Media Classic.
 1. Em **[!UICONTROL PDF Options]**, selecione **[!UICONTROL Extract Links]**.
 
 ### Para criar Mapas de imagem no Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -234,4 +234,4 @@ Para obter mais informações, consulte Ajuda do Adobe InDesign ou Ajuda do Adob
 1. Digite a ID do produto para o Mapa de Imagem na caixa Editar URL e selecione **[!UICONTROL OK]**. (O Adobe Dynamic Media Classic conclui o URL usando o modelo de URL do Mapa de imagem.)
 1. Repita as etapas de 1 a 7 para todos os Mapas de imagem que deseja criar.
 1. Salve o arquivo.
-1. Faça upload do PDF para o Adobe Dynamic Media Classic e selecione Extrair links nas Opções de PDF.
+1. Faça upload do PDF para o Adobe Dynamic Media Classic e selecione Extrair links nas Opções do PDF.

@@ -155,7 +155,7 @@ O servidor de metadados é uma API pública que pode ser usada para pesquisar at
 
 Para configurar o servidor de metadados, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**.
 
-A página Publish do servidor de metadados permite definir as seguintes opções:
+A página Publicar do servidor de metadados permite definir as seguintes opções:
 
 * **[!UICONTROL Instant Publish]**: envia automaticamente quaisquer alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavra-chave e assim por diante.
 

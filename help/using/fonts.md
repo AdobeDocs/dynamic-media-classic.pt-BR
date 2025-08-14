@@ -24,8 +24,8 @@ ht-degree: 0%
 O Adobe Dynamic Media Classic é compatível com estes tipos de fonte:
 
 * Todas as fontes TrueType
-* PostScript® fonts
-* fontes OpenType/TrueType
+* Fontes do PostScript®
+* Fontes OpenType/TrueType
 * Fontes do OpenType/PostScript
 * PhotoFonts
 
@@ -61,8 +61,8 @@ No painel Procurar, selecione o arquivo de fonte que deseja editar na Exibição
 
    * **[!UICONTROL TTF]**: arquivos de fonte TrueType usados para renderização de PDF/PostScript e fornecimento de imagens.
 
-   * **[!UICONTROL AFM]**: arquivos de fontes do Adobe PostScript que contêm informações de Métricas de Fontes do Adobe e são usados para veiculação de imagens.
+   * **[!UICONTROL AFM]**: arquivos de fontes do Adobe PostScript que contêm informações de Métricas de Fontes do Adobe e são usados para o fornecimento de imagens.
 
    * **[!UICONTROL PFM]**: arquivos de fontes do Adobe PostScript que contêm informações de métricas de fontes binárias.
 
-   * **[!UICONTROL PFB]**: arquivos de fontes Adobe PostScript que contêm informações binárias de contorno de fontes e são usados para renderização de PDF/PostScript e veiculação de imagens.
+   * **[!UICONTROL PFB]**: arquivos de fontes do Adobe PostScript que contêm informações de contorno de fontes binárias e são usados para renderização de PDF/PostScript e fornecimento de imagens.

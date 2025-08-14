@@ -12,7 +12,7 @@ topic: Content Management
 level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para gerenciar vídeos únicos e Conjuntos de vídeos adaptados, o Adobe Dynamic
 
 Consulte [Ativar ou desativar predefinições de vídeo adaptável](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
+Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
 
 Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 
@@ -49,7 +49,7 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 >
 >Vídeos primários/de origem e qualquer outro vídeo de formato de origem são *não* adicionados a um Conjunto de vídeos adaptados.
 
-* Legenda de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e navegação de capítulo de vídeo nos visualizadores Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
+* Legenda de vídeo nos visualizadores Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light e navegação de capítulo de vídeo nos visualizadores Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark e Universal_HTML5_MixedMedia_light.
 
   Consulte [Adicionar legendas a um vídeo](adding-captions-video.md).
 
@@ -60,7 +60,7 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 
   O streaming de vídeo adaptável é suportado em várias plataformas iOS.
 
-  Consulte o suporte mais recente no [Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources).
+  Consulte o suporte mais recente no [Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   O Adobe Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -79,26 +79,26 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 * Integre vídeo ao seu site, site móvel ou aplicativo móvel com um URL simples ou Código incorporado.
 
 Consulte os seguintes vídeos de treinamento:
-* [Visão geral do vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+* [Visão geral do vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [Visualização de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [Visualização de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [Carregamento de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [Carregamento de vídeo MP4](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [Visão geral da transmissão](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [Visão geral da transmissão](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Início rápido**
 
 A descrição do fluxo de trabalho passo a passo a seguir foi projetada para ajudar você a começar a usar rapidamente os Conjuntos de vídeos adaptados no Adobe Dynamic Media Classic. Após cada etapa, há uma referência cruzada a um cabeçalho de tópico onde você pode encontrar mais informações.
 
-## 1. Fazer upload e codificar vídeos
+## &#x200B;1. Fazer upload e codificar vídeos
 
 Carregue e gere conjuntos de vídeos adaptáveis usando um dos dois cenários a seguir:
 
 * **Carregar vídeos pré-codificados**: se seus vídeos já tiverem sido codificados externamente pelo Adobe Dynamic Media Classic, na barra Navegação Global, selecione **[!UICONTROL Upload]**. Procure e faça upload de arquivos de vídeo MP4 diretamente para o Adobe Dynamic Media Classic. Em seguida, vá para **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Navegue até os arquivos de vídeo. Arraste e solte os arquivos de vídeo desejados na tabela Conjunto de vídeos adaptados e salve o conjunto.
 * **Carregar vídeos de origem primária**: se os vídeos não estiverem codificados, na barra Navegação Global, selecione **[!UICONTROL Upload]** para carregar arquivos de origem primária de vídeo (não-MP4). O Adobe Dynamic Media Classic os codifica em arquivos MP4 para você. Na caixa de diálogo **[!UICONTROL Upload Job Options]**, em **[!UICONTROL EVideo Options]**, selecione **[!UICONTROL Adaptive Video]**.
 
-  Com essa opção preferida, é possível criar Conjuntos de vídeos adaptados. A predefinição de codificação correta é aplicada automaticamente ao vídeo, 16:9 ou 4:3, para corresponder às dimensões do vídeo carregado. Quando você envia seu trabalho de upload, um Conjunto de vídeos adaptados é criado automaticamente para você, que inclui três configurações de codificação de vídeo na taxa de proporção correta.
+  Com essa opção preferida, é possível criar Conjuntos de vídeos adaptados. A predefinição de codificação correta é aplicada automaticamente ao vídeo, seja 16:9 ou 4:3, para corresponder às dimensões do vídeo carregado. Quando você envia seu trabalho de upload, um Conjunto de vídeos adaptados é criado automaticamente para você, que inclui três configurações de codificação de vídeo na taxa de proporção correta.
 
   Ou, na mesma caixa de diálogo **[!UICONTROL Job Options]**, em **[!UICONTROL EVideo Options]**, expanda **[!UICONTROL Single Encoding Presets]**. Selecione as predefinições individuais de codificação de vídeo desejadas. Você pode selecionar **Área de Trabalho**, **Celular (iPhone, iPad, Android™)** e **Tablet (iPad, Android™)** para criar os arquivos MP4.
 
@@ -114,13 +114,13 @@ No entanto, se mais personalizações forem necessárias, os administradores pod
 
 Consulte [Trabalhar com predefinições de codificação de vídeo](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-## 2. Visualizar vídeos em um visualizador de vídeo
+## &#x200B;2. Visualizar vídeos em um visualizador de vídeo
 
 Para ver como um vídeo é reproduzido para usuários finais em um desktop, site ou dispositivo móvel, selecione o vídeo no painel Procurar. Depois selecione **[!UICONTROL Preview]**.
 
 Consulte [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Você pode reproduzir o vídeo na página Visualizar. Você também pode escolher visualizadores de vídeo diferentes para descobrir como seu vídeo é exibido em diferentes players. Como prática recomendada, use o reprodutor de vídeo HTML5 para reprodução de várias telas em dispositivos desktop, tablets e dispositivos móveis.
+Você pode reproduzir o vídeo na página Visualizar. Você também pode escolher visualizadores de vídeo diferentes para descobrir como seu vídeo é exibido em diferentes players. Como prática recomendada, use o reprodutor de vídeo HTML5 para reprodução de várias telas em dispositivos desktop, tablet e móveis.
 
 **Opcional**
 
@@ -128,9 +128,9 @@ Personalização da predefinição do visualizador: o Adobe Dynamic Media Classi
 
 Consulte [Trabalhar com as predefinições do visualizador de vídeo](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
+Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
 
-## 3. Implante vídeos em seus sites e sites móveis
+## &#x200B;3. Implante vídeos em seus sites e sites móveis
 
 Para integrar vídeos ao seu site, você pode executar um dos seguintes procedimentos:
 
@@ -138,7 +138,7 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
 
   Para obter o URL para um vídeo, na Exibição em grade ou na Exibição em lista, selecione-o no painel Procurar. Selecione **[!UICONTROL Preview]** e depois selecione **[!UICONTROL Copy URL]** à direita de `Universal_HTML5_Viewer`.
 
-  Quando você seleciona **[!UICONTROL Copy URL]**, a URL é copiada para a Área de Transferência. Coloque esse código na HTML do site, site para dispositivos móveis ou aplicativo.
+  Quando você seleciona **[!UICONTROL Copy URL]**, a URL é copiada para a Área de Transferência. Coloque esse código na HTML do site, site móvel ou aplicativo.
 
   >[!NOTE]
   >

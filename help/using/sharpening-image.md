@@ -29,7 +29,7 @@ No entanto, se você usar Predefinições de imagem e Predefinições do visuali
 
 >[!NOTE]
 >
->Os comandos Nitidez substituem as configurações de Predefinição de imagem, incluindo seus efeitos de nitidez. Uma Predefinição de imagem controla o tamanho e a formatação com que as imagens são entregues dos Servidores de imagem da Dynamic Media. A Adobe Dynamic Media Classic recomenda o uso de Predefinições de imagem para fornecer todas as imagens, garantindo que elas sejam entregues com tamanho e nitidez uniformes. Depois que as configurações de nitidez de uma imagem individual forem alteradas, as configurações de nitidez da Predefinição de imagem não serão mais aplicadas à imagem. Ele é fornecido sem as configurações de nitidez da Predefinição de imagem.
+>Os comandos Nitidez substituem as configurações de Predefinição de imagem, incluindo seus efeitos de nitidez. Uma Predefinição de imagem controla o tamanho e a formatação com que as imagens são entregues dos Servidores de imagem do Dynamic Media. A Adobe Dynamic Media Classic recomenda o uso de Predefinições de imagem para fornecer todas as imagens, garantindo que elas sejam entregues com tamanho e nitidez uniformes. Depois que as configurações de nitidez de uma imagem individual forem alteradas, as configurações de nitidez da Predefinição de imagem não serão mais aplicadas à imagem. Ele é fornecido sem as configurações de nitidez da Predefinição de imagem.
 
 Muitas vezes, é necessário ajustar a nitidez das imagens. O Adobe Dynamic Media Classic e os servidores de imagem oferecem várias opções de nitidez. É importante entender o que a nitidez faz em uma imagem e a intensidade de nitidez necessária. A maioria das imagens precisa de nitidez, mas a quantidade necessária depende da imagem.
 
@@ -41,7 +41,7 @@ Há práticas recomendadas que você pode seguir para otimizar a nitidez das ima
 
 Consulte [Práticas recomendadas para nitidez de imagens no Adobe Dynamic Media Classic e no Dynamic Media Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-Veja também o vídeo de treinamento [Nitidez](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
+Veja também o vídeo de treinamento [Nitidez](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 **Para ajustar a nitidez de uma imagem:**
 
@@ -58,7 +58,7 @@ A tabela a seguir mostra as opções de nitidez do Servidor de imagens.
 | Nome | Protocolo de URL | Valores | Exemplo |
 | --- | --- | --- | --- |
 | Nitidez simples | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
-| Modo de reamostragem | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização são geralmente visíveis.<br>`bicub`: Seleciona a interpolação bi-cúbica. Maior uso intenso de CPU do que `bilin`, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.<br><br>`sharp2`: Seleciona uma função do Windows® Lanczos modificada como um algoritmo de interpolação. Ele pode produzir resultados ligeiramente mais nítidos do que o bi-cúbico a um custo de CPU mais alto.<br><br>`trilin`: Seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponíveis. Recomendado somente quando o alias for um problema. Reduz os tamanhos de JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
+| Modo de reamostragem | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização são geralmente visíveis.<br>`bicub`: Seleciona a interpolação bi-cúbica. Maior uso intensivo de CPU do que `bilin`, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.<br><br>`sharp2`: Seleciona uma função do Windows® Lanczos modificada como um algoritmo de interpolação. Ele pode produzir resultados ligeiramente mais nítidos do que o bi-cúbico a um custo de CPU mais alto.<br><br>`trilin`: Seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponíveis. Recomendado somente quando o alias for um problema. Reduz os tamanhos do JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
 | Tirar nitidez da máscara | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fator de força do filtro (real 0...5)<br><br>`radius`: raio do kernel do filtro em pixels (real 0...250) <br><br>`threshold`: nível limite do filtro (int 0...255)<br><br>`monochrome`: definido como `0` para remover a nitidez de cada componente de cor separadamente, definido como `1` para remover a nitidez da máscara de brilho da imagem (intensidade) | `op_usm=1,1,10,0` |
 
 Selecione o menu **[!UICONTROL Sharpening]** e escolha uma opção:
@@ -95,15 +95,15 @@ Selecione o menu **[!UICONTROL Resampling]** e escolha uma opção. Essas opçõ
 
 * **[!UICONTROL Bilinear]**: o método mais rápido de reamostragem; alguns artefatos de suavização são visíveis.
 
-* **[!UICONTROL Bicubic]**: aumenta o uso da CPU no Servidor de imagens, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.
+* **[!UICONTROL Bicubic]**: aumenta o uso do CPU no Servidor de imagens, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.
 
-* **[!UICONTROL `Sharpen 2`]**: Produz resultados ligeiramente mais nítidos do que **[!UICONTROL Bicubic]**, mas com um custo de CPU ainda maior no Servidor de imagens.
+* **[!UICONTROL `Sharpen 2`]**: produz resultados ligeiramente mais nítidos do que **[!UICONTROL Bicubic]**, mas com um custo CPU ainda maior no Servidor de imagens.
 
 * **[!UICONTROL Trilinear]**: Usa resoluções mais altas e mais baixas, se disponíveis; recomendado somente quando a suavização é um problema. Este método reduz o tamanho do JPEG devido à redução dos dados de alta frequência.
 
 **Predefinições e nitidez da imagem**
 
-Você pode incorporar todos os três efeitos de nitidez para alcançar o resultado final. No entanto, esse método não é recomendado. A Adobe Dynamic Media Classic recomenda salvar os efeitos de nitidez como parte de uma Predefinição de imagem. As Predefinições de imagem permitem empacotar os modificadores de imagem usados com mais frequência para criar uma imagem redimensionada dinamicamente em uma pequena cadeia de texto. Uma Predefinição de imagem contém valores para o formato de arquivo (geralmente JPEG para a Web), contagem de pixels e nitidez da imagem. Em vez de anexar o URL a cada modificador de imagem que você deve usar para criar um tipo específico de tamanho de imagem, crie uma Predefinição de imagem nomeada, como &quot;miniatura&quot;. Em seguida, configure a Predefinição de imagem em miniatura com as opções apropriadas de tamanho, formato de arquivo e nitidez. Chame a imagem usando o nome da Predefinição de imagem. As predefinições de imagem encurtam o comprimento do URL geral. Esses dois URLs produzem a mesma imagem de JPEG 350x350 com nitidez:
+Você pode incorporar todos os três efeitos de nitidez para alcançar o resultado final. No entanto, esse método não é recomendado. A Adobe Dynamic Media Classic recomenda salvar os efeitos de nitidez como parte de uma Predefinição de imagem. As Predefinições de imagem permitem empacotar os modificadores de imagem usados com mais frequência para criar uma imagem redimensionada dinamicamente em uma pequena cadeia de texto. Uma Predefinição de imagem contém valores para o formato de arquivo (geralmente JPEG para a Web), contagem de pixels e nitidez da imagem. Em vez de anexar o URL a cada modificador de imagem que você deve usar para criar um tipo específico de tamanho de imagem, crie uma Predefinição de imagem nomeada, como &quot;miniatura&quot;. Em seguida, configure a Predefinição de imagem em miniatura com as opções apropriadas de tamanho, formato de arquivo e nitidez. Chame a imagem usando o nome da Predefinição de imagem. As predefinições de imagem encurtam o comprimento do URL geral. Esses dois URLs produzem a mesma imagem JPEG de 350 x 350 com nitidez:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -112,15 +112,15 @@ As predefinições de imagem podem ser alteradas e atualizadas a qualquer moment
 
 Se você usar uma predefinição para cada imagem em uma categoria de tamanho, qualquer Administrador da empresa poderá atualizar a definição dessa Predefinição de imagem. Em seguida, eles podem republicar e afetar cada imagem usando esse formato. Tudo isso sem alterar nenhum código da Web. Como prática recomendada, use uma Predefinição de imagem por tamanho exclusivo no site. Para adicionar uma Predefinição de imagem, na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Image Presets]**. Em seguida, selecione **[!UICONTROL Add]** ou **[!UICONTROL Edit]** para alterar uma predefinição existente. O único campo obrigatório é o nome da própria predefinição. No entanto, é melhor incluir algum nível de nitidez em cada predefinição.
 
-**Qualidade de JPG**
+**Qualidade JPG**
 
-As opções de qualidade de JPG controlam o nível de compactação JPG:
+As opções de Qualidade do JPG controlam o nível de compactação do JPG:
 
-* **Qualidade de JPG**: selecione essa opção se desejar controlar os níveis de compactação e a redução da resolução de crominância.
+* **Qualidade do JPG**: selecione essa opção se desejar controlar os níveis de compactação e a redução da resolução de crominância.
 
-* **Controle deslizante**: determina o nível de compactação de JPG. Essa configuração afeta o tamanho do arquivo e a qualidade da imagem. A escala de qualidade do JPG é de 1-100.
+* **Controle deslizante**: determina o nível de compactação do JPG. Essa configuração afeta o tamanho do arquivo e a qualidade da imagem. A escala de qualidade do JPG é de 1 a 100.
 
-* **Habilitar Diminuição da Resolução de Crominância de JPG**: como o olho é menos sensível a informações de cores de alta frequência do que a luminosidade de alta frequência, as imagens de JPEG dividem as informações da imagem em componentes de luminosidade e cor. Quando uma imagem de JPEG é compactada, o componente de luminosidade fica com a resolução total, enquanto os componentes de cor ficam com uma resolução mais baixa para calcular a média de grupos de pixels. A redução da resolução reduz o volume de dados pela metade ou em um terço com quase nenhum impacto na qualidade aparente. A redução da resolução não é aplicável a imagens em tons de cinza. Essa técnica reduz a quantidade de compactação útil para imagens com alto contraste (por exemplo, imagens com texto sobreposto).
+* **Habilitar Redução de Resolução de Crominância do JPG**: como o olho é menos sensível a informações de cores de alta frequência do que a luminosidade de alta frequência, as imagens do JPEG dividem as informações da imagem em componentes de luminosidade e cor. Quando uma imagem do JPEG é compactada, o componente de luminosidade é deixado com a resolução total, enquanto os componentes de cor têm uma resolução mais baixa para calcular a média de grupos de pixels. A redução da resolução reduz o volume de dados pela metade ou em um terço com quase nenhum impacto na qualidade aparente. A redução da resolução não é aplicável a imagens em tons de cinza. Essa técnica reduz a quantidade de compactação útil para imagens com alto contraste (por exemplo, imagens com texto sobreposto).
 
 **Definir opções de nitidez em toda a empresa**
 
@@ -134,7 +134,7 @@ A menos que você tenha adicionado modificadores de nitidez de imagem à predefi
 
 As Predefinições do visualizador (como Predefinições de imagem) permitem centralizar muitas opções em um único local, incluindo a escolha de opções de capa e do visualizador (como incluir um botão Imprimir ou controlar a velocidade da animação de zoom). As Predefinições do visualizador são encontradas na mesma seção que Predefinições da imagem, em **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Viewer Presets]**.
 
-Veja o vídeo de treinamento [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Veja o vídeo de treinamento [Predefinições do visualizador](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 A opção Modificadores é encontrada na seção Configurações principais de todas as predefinições do visualizador de eCatalog, Rotação e Zoom personalizado. Ao adicionar os comandos de nitidez do URL à caixa Modificadores, você adiciona nitidez sempre que o visualizador é chamado com essa Predefinição do visualizador.
 

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Para criar um modelo, vá para **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Selecione Designer ou Desenvolvedor. Nessa página, é possível adicionar camadas de imagem e texto. Também é possível reordenar camadas, alterar o tamanho e a posição das camadas e aplicar efeitos de sombra e brilho a imagens e texto.
 
-Veja também o vídeo de treinamento [Noções básicas do modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Veja também o vídeo de treinamento [Noções básicas do modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Você pode criar um template a partir de um template existente. Abra o modelo, s
 
 1. Para criar o template inicial, use um dos seguintes métodos:
 
-   * **Selecione o(s) PSD ou as imagens primeiro**: no painel Procurar, selecione o(s) arquivo(s) de PSD que deseja para o modelo, vá para **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**.
+   * **Selecione a PSD ou as imagens primeiro**: no painel Procurar, selecione o arquivo PSD ou as imagens desejadas para o seu modelo, vá para **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**.
 
    * **Iniciar na tela Modelo**: Ir para **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Selecione Designer ou Desenvolvedor.
 
@@ -290,7 +290,7 @@ Para escolher uma cor de plano de fundo, opacidade e modo de mesclagem para uma 
 
 ## Usar efeitos de sombra e brilho em camadas {#using-shadow-and-glow-effects-on-layers}
 
-É possível aplicar sombra ou brilho a uma camada. A sombra ou o brilho se aplica ao perímetro da camada e se estende para dentro ou para fora, dependendo da opção de sombra ou brilho escolhida. Se o modelo tiver sido originado com um arquivo PSD com efeitos de sombra e brilho, é possível ajustar esses efeitos no Adobe Dynamic Media Classic.
+É possível aplicar sombra ou brilho a uma camada. A sombra ou o brilho se aplica ao perímetro da camada e se estende para dentro ou para fora, dependendo da opção de sombra ou brilho escolhida. Se o modelo tiver sido originado com um arquivo PSD com efeitos de sombra e brilho, você poderá ajustar esses efeitos no Adobe Dynamic Media Classic.
 
 Depois de aplicar um efeito de sombra ou brilho, é possível ajustar seu tamanho, cor, opacidade e posição na área Propriedades da camada da tela Modelo.
 

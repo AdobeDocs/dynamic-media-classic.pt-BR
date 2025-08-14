@@ -36,7 +36,7 @@ Você pode usar qualquer URL de predefinição de imagem da lista. Os URLs de pr
 
 1. Vá para a página Detalhes para obter uma cópia do URL da seção URLs.
 
-É possível mover um modelo na ordem do modelo (por exemplo, para a parte superior da lista) arrastando-o para o novo local. Publish novamente para enviar o novo pedido.
+É possível mover um modelo na ordem do modelo (por exemplo, para a parte superior da lista) arrastando-o para o novo local. Publique novamente para enviar o novo pedido.
 
 >[!NOTE]
 >

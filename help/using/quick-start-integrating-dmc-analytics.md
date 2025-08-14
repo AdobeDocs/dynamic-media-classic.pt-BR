@@ -25,7 +25,7 @@ Depois de integrar o Adobe Analytics com o Adobe Dynamic Media Classic, você po
 
 Usando os relatórios do Adobe Analytics, você pode obter uma visão clara da atividade dos clientes em seu site. É possível determinar quais apresentações de produto levam à conversão e quais não atraem o interesse do cliente.
 
-Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
+Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adob
 
 Esse Quick Start foi projetado para colocar suas operações em funcionamento rapidamente com o Adobe Analytics Instrumentation Kit.
 
-## 1. Faça logon no Adobe Analytics por meio do Adobe Dynamic Media Classic e baixe as variáveis de relatório do Adobe Analytics
+## &#x200B;1. Faça logon no Adobe Analytics por meio do Adobe Dynamic Media Classic e baixe as variáveis de relatório do Adobe Analytics
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Consulte [Fazer logon no Adobe Analytics](log-analytics.md#log_in_to_adobe_analy
 
 Na caixa de diálogo Logon do Adobe Analytics, digite sua ID da Organização do Experience Cloud (opcional) e suas credenciais completas e, em seguida, selecione **[!UICONTROL Login]**. No menu suspenso Conjunto de relatórios, selecione o nome do conjunto de relatórios que deseja usar.
 
-## 2. Atribuir variáveis de relatório do Adobe Analytics a eventos do visualizador do Adobe Dynamic Media Classic e variáveis do Adobe Dynamic Media Classic
+## &#x200B;2. Atribuir variáveis de relatório do Adobe Analytics a eventos do visualizador do Adobe Dynamic Media Classic e variáveis do Adobe Dynamic Media Classic
 
 Na página Configuração do Adobe Analytics, especifique as informações desejadas nos relatórios do Adobe Analytics. Para cada evento do visualizador do Adobe Dynamic Media Classic sobre o qual você deseja obter informações, escolha uma variável do Adobe Analytics (no conjunto de relatórios) e uma variável do Adobe Dynamic Media Classic.
 
@@ -58,17 +58,17 @@ Depois de selecionar **[!UICONTROL Save]** na página Configuração do Adobe An
 
 Consulte [Configurar relatórios do Adobe Analytics](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-## 3. Publish seus visualizadores do Adobe Dynamic Media Classic
+## &#x200B;3. Publicar seus visualizadores do Adobe Dynamic Media Classic
 
-O Publish exibe seus visualizadores do Adobe Dynamic Media Classic para que os visualizadores (com código para rastrear a atividade do usuário nos relatórios do Adobe Analytics) sejam carregados nos servidores da Adobe Dynamic Media Classic. Após a publicação, essas informações são incluídas nos visualizadores. Use-o para análise pelo Adobe Analytics.
+Publique seus visualizadores do Adobe Dynamic Media Classic para que os visualizadores (com código para rastrear a atividade do usuário nos relatórios do Adobe Analytics) sejam carregados nos servidores da Adobe Dynamic Media Classic. Após a publicação, essas informações são incluídas nos visualizadores. Use-o para análise pelo Adobe Analytics.
 
-Consulte [informações sobre a configuração do Publish](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Consulte [Publicar informações de configuração](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## 4. Coloque visualizadores do Adobe Dynamic Media Classic em seu site
+## &#x200B;4. Coloque visualizadores do Adobe Dynamic Media Classic em seu site
 
 Coloque os visualizadores do Adobe Dynamic Media Classic com o código de rastreamento do Adobe Analytics em seu site.
 
-## 5. Teste a integração do Adobe Analytics visualizando um relatório do Adobe Analytics
+## &#x200B;5. Teste a integração do Adobe Analytics visualizando um relatório do Adobe Analytics
 
 Para exibir os relatórios do Adobe Analytics, vá para o site da Adobe Analytics. A página Geração de relatórios permite exibir dados e gerar gráficos para medir a atividade do usuário com visualizadores diferentes.
 

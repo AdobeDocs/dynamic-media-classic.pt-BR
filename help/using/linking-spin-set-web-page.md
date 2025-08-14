@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Vincular um conjunto de rotação a uma página da Web{#linking-a-spin-set-to-a-web-page}
 
-Os sites e aplicativos acessam o conteúdo do Dynamic Media Image Server, incluindo Conjuntos de rotação, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu conjunto de rotação nas páginas e aplicativos da Web, copie-o do Adobe Dynamic Media Classic.
+Os sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media, incluindo Conjuntos de rotação, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu conjunto de rotação nas páginas e aplicativos da Web, copie-o do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

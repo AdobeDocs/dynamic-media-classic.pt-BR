@@ -1,6 +1,6 @@
 ---
 title: Configuração de administração
-description: Aprenda a configurar a área de administração do Adobe Systems Mídia dinâmica Classic.
+description: Saiba como configurar a área de administração do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Configuração de administração{#administration-setup}
 
-As telas de Configuração de administração são para administrar Adobe Systems usuários Mídia dinâmica Classic. Use essas telas para permitir que os usuários trabalhem em Adobe Systems Mídia dinâmica Classic e se comuniquem email com outros usuários.
+As telas Configuração de administração são para administrar usuários do Adobe Dynamic Media Classic. Use essas telas para permitir que os usuários trabalhem no Adobe Dynamic Media Classic e se comuniquem por email com outros usuários.
 
 1. Para acessar as opções de Instalação Administrativa, vá para **Instalação** > **Instalação Pessoal** > **Instalação Administrativa**.
 
@@ -28,9 +28,9 @@ As telas de Configuração de administração são para administrar Adobe System
 
 Todos os usuários do Adobe Dynamic Media Classic recebem uma função que determina seus privilégios e direitos de acesso aos recursos no Adobe Dynamic Media Classic. Os administradores determinam as diferentes funções e responsabilidades das empresas às quais estão atribuídos.
 
-Normalmente, Adobe Systems Mídia dinâmica Classic configura o primeiro conjunto de empresas e atribui um Administrador da Empresa. Em seguida, o Administrador da empresa configura e administra Adobe Systems Mídia dinâmica usuários clássicos.
+Normalmente, o Adobe Dynamic Media Classic configura o primeiro conjunto de empresas e atribui um Administrador da empresa. O Administrador da empresa então configura e administra os usuários do Adobe Dynamic Media Classic.
 
-Adobe Systems Mídia dinâmica Classic é compatível com várias funções usuário. Essas funções podem acessar empresas configuradas para o Adobe Dynamic Media Classic:
+O Adobe Dynamic Media Classic oferece suporte a várias funções de usuário. Essas funções podem acessar empresas configuradas para o Adobe Dynamic Media Classic:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
@@ -84,7 +84,7 @@ Os usuários que foram desativados não têm mais permissão para inserir a cont
 1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Na lista de usuários, selecione ou desmarque a opção **[!UICONTROL Active]** ao lado do nome do usuário.
 
-### Editar usuário informações {#editing-user-information}
+### Editar informações do usuário {#editing-user-information}
 
 As informações do usuário que você pode editar dependem da sua função como administrador e da função atribuída do usuário cujas informações você deseja editar. As opções esmaecidas (indisponíveis) não são editáveis.
 
@@ -107,9 +107,9 @@ Você pode usar as seguintes técnicas de filtragem de lista de usuários:
 
 * **Filtrar por nome de campo**: Selecione **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o menu **[!UICONTROL By Field Name]**, escolha uma coluna para filtrar a lista, selecione o menu Caractere de Filtro e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Para ver a lista completa, desmarque a opção **[!UICONTROL Enable Filter By Field]**.
 
-* **Filtrar inválido usuários**: Desmarcar **[!UICONTROL Include Invalid]**. Os resultados pesquisa exibem apenas os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
+* **Filtrar usuários inválidos**: desmarcar **[!UICONTROL Include Invalid]**. Os resultados da pesquisa exibem apenas os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
 
-* **Classificar por cabeçalho** de coluna: selecione um cabeçalho para classificar todos os usuários pelo status, em ordem alfabética, pelo nome, sobrenome ou email. Ou classifique por usuário função ou por status válido/inválido.
+* **Classificar por cabeçalho de coluna**: selecione um cabeçalho para classificar todos os usuários por status, alfabeticamente por nome, sobrenome ou email. Ou classifique por função de usuário ou por status válido/inválido.
 
 Se você tiver muitos usuários, poderá limitar o tamanho da lista selecionando o menu Tamanho Máximo da Lista e escolhendo um número.
 
@@ -149,7 +149,7 @@ Para abrir esta página, vá para **[!UICONTROL Setup]** > **[!UICONTROL Persona
 
 ### Tipos de relatórios {#types-of-reports}
 
-A tabela a seguir descreve os relatórios que podem ser gerados pela Largura de banda &amp;página de armazenamento:
+A tabela a seguir descreve os relatórios que podem ser gerados a partir da página Largura de banda e Armazenamento:
 
 | Relatório | Informações | Uso |
 | --- | --- | --- |
@@ -208,9 +208,9 @@ Depois de gerar um relatório na página Largura de banda e armazenamento, você
 
 ### Exportar e imprimir relatórios {#exporting-and-printing-reports}
 
-Depois de gerar um relatório, é possível exportar seus dados para uso em planilhas e outros aplicativos. Também é possível imprimir relatórios.
+Após gerar um relatório, você pode exportar seus dados para uso em planilhas e outros aplicativos. Você também pode imprimir relatórios.
 
-* **Exportar dados** de relatório: em Visualização de dados, classifique e organize os dados conforme necessário. Em seguida, abra o **[!UICONTROL Export]** menu e escolha um formato: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]** ou **[!UICONTROL HTML Formatted]**. Os dados são copiados para o Área de transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
+* **Exportar dados do relatório**: na Visualização de dados, classifique e organize os dados conforme necessário. Em seguida, abra o menu **[!UICONTROL Export]** e escolha um formato: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]** ou **[!UICONTROL HTML Formatted]**. Os dados são copiados para a Área de transferência no formato escolhido. Agora é possível colar os dados em uma planilha ou aplicativo.
 
 * **Imprimir um relatório**: selecione **[!UICONTROL Print]**, escolha as opções desejadas na caixa de diálogo Imprimir e selecione **[!UICONTROL OK]**.
 
@@ -219,8 +219,8 @@ Depois de gerar um relatório, é possível exportar seus dados para uso em plan
 Os administradores do Adobe Dynamic Media Classic podem gerar relatórios de erro de imagem. Um relatório de Erro de imagem fornece uma lista dos 20 erros de imagem mais frequentes, nas últimas 24 horas, para a empresa à qual você está conectado no momento. Para gerar um relatório de Erro de imagem, faça o seguinte:
 
 1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
-1. Expanda a configuração de administração e selecione **[!UICONTROL Image Errors]**.
-1. (Opcional) Siga um destes procedimentos:
+1. Expanda Configuração da Administração e selecione **[!UICONTROL Image Errors]**.
+1. (Opcional) Siga qualquer um destes procedimentos:
 
    * Para classificar os erros pelas informações do cabeçalho, selecione um cabeçalho. Por padrão, os erros são classificados por número de ocorrências, do mais alto para o mais baixo.
    * Mova o cursor sobre o campo Response para ver uma mensagem de erro específica.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Trabalhar com arquivos PostScript e Illustrator{#working-with-postscript-and-illustrator-files}
 
-Você pode usar os arquivos Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) no Adobe Dynamic Media Classic. O Adobe Dynamic Media Classic oferece comandos para configurar esses arquivos à medida que você os carrega.
+Você pode usar os arquivos do Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) no Adobe Dynamic Media Classic. O Adobe Dynamic Media Classic oferece comandos para configurar esses arquivos à medida que você os carrega.
 
 Ao fazer upload de arquivos de imagem do PostScript (EPS) ou do Illustrator (AI), você pode formatá-los de várias maneiras. É possível rasterizar os arquivos, convertê-los em FXG para Publicação de Modelo, manter o plano de fundo transparente, escolher uma resolução e escolher um espaço de cores. As opções de formatação de arquivos PostScript e Illustrator estão disponíveis na tela Fazer upload, em Opções da PostScript e Opções do Illustrator na caixa Fazer upload das opções de trabalho.
 
@@ -33,7 +33,7 @@ Ao fazer upload de arquivos de imagem do PostScript (EPS) ou do Illustrator (AI)
 
    * **[!UICONTROL Detect Automatically]**: retém o espaço de cores do arquivo.
 
-   * **[!UICONTROL Force As RGB]**: Converte para o espaço de cores do RGB.
+   * **[!UICONTROL Force As RGB]**: converte para o espaço de cores do RGB.
 
    * **[!UICONTROL Force As CMYK]**: Converte para o espaço de cores CMYK.
 
