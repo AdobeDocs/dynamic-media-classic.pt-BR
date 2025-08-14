@@ -30,7 +30,7 @@ Antes de carregar um ativo de imagem, primeiro solicite uma chave de segredo com
 
 ## Solicitar uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
+Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que você deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 

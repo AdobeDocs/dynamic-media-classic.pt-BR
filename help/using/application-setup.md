@@ -161,7 +161,7 @@ Os administradores podem criar predefinições para exportar ativos. Os usuário
 
 Para abrir a tela Predefinição de imagem, na barra Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Consulte [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte [Imagem inteligente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Criar e editar predefinições de imagem {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Ao combinar em um único player o seguinte:
 
 Estenda o alcance do seu conteúdo de mídia avançada para desktops, tablets e usuários de dispositivos móveis e garanta uma experiência de vídeo otimizada.
 
-Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
+Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
 
 Consulte a [Matriz de compatibilidade da Predefinição do Visualizador do Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Páginas da Web diferentes têm necessidades diferentes. Às vezes, você deseja uma página da Web que forneça um link que abra o Visualizador do HTML5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador do HTML5 diretamente na página de hospedagem. No último caso, a página da Web provavelmente tem um layout estático. Ou é &quot;responsivo&quot; e é exibido de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela de navegador. Para acomodar essas necessidades, os Visualizadores do HTML5 fornecidos com o Adobe Dynamic Media Classic são compatíveis com páginas da Web estáticas e páginas da Web com design responsivo.
 
-Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipos de predefinição do visualizador {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para Visualizadores, consulte as Notas de versão dos Visualizadores.
 
-Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
