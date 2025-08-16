@@ -32,7 +32,7 @@ As ofertas de suporte técnico foram projetadas para atender às necessidades de
 | Treinamento online gratuito e vídeos de instrução | Incluído. |
 | Suporte telefônico | <ul><li>EUA e Canadá: 1-800-497-0335 </li><li>[Números de telefone para outras regiões](https://experienceleague.adobe.com/pt-br?support-tab=home#support). </li></ul> |
 
-<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
+<!-- |Create a support case| [https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 Ao relatar problemas para o suporte técnico, inclua estas informações:
 
