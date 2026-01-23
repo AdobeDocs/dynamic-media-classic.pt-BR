@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Consulte [Carregar seus arquivos](uploading-files.md#uploading_your_files).
 
 Para examinar um perfil ICC, selecione-o no painel Procurar e exiba-o na Exibição de detalhes. A Exibição de detalhes fornece estas informações sobre perfis ICC:
 
-* **[!UICONTROL Profile Class]**: O ICC (Consórcio Internacional de Cores) define cada classe para cobrir um tipo de aplicativo. Por exemplo, perfis de entrada se aplicam a dispositivos como câmeras digitais e scanners, e perfis de saída se aplicam a impressoras.
+* **[!UICONTROL Profile Class]**: O ICC (Consórcio Internacional de Cores) define cada classe para cobrir um tipo de aplicativo. Por exemplo, perfis de entrada se aplicam a dispositivos, como câmeras digitais e scanners, e perfis de saída se aplicam a impressoras.
 
 * **[!UICONTROL Color Space Type]**: Este número é o espaço de cores de &quot;entrada&quot; do perfil, conforme definido pelo ICC. O tipo de espaço de cores define o número de componentes do espaço de cores e a interpretação desses componentes. Por exemplo, RGB é um espaço de cores com três componentes: vermelho, verde e azul. O tipo de espaço de cor não define as características de cor específicas do espaço (por exemplo, as cromaticidades das primárias).
 

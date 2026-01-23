@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2163'
 ht-degree: 0%
@@ -59,7 +59,7 @@ A tabela a seguir mostra as opções de nitidez do Servidor de imagens.
 | --- | --- | --- | --- |
 | Nitidez simples | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
 | Modo de reamostragem | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização são geralmente visíveis.<br>`bicub`: Seleciona a interpolação bi-cúbica. Maior uso intensivo de CPU do que `bilin`, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.<br><br>`sharp2`: Seleciona uma função do Windows® Lanczos modificada como um algoritmo de interpolação. Ele pode produzir resultados ligeiramente mais nítidos do que o bi-cúbico a um custo de CPU mais alto.<br><br>`trilin`: Seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponíveis. Recomendado somente quando o alias for um problema. Reduz os tamanhos do JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
-| Tirar nitidez da máscara | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fator de força do filtro (real 0...5)<br><br>`radius`: raio do kernel do filtro em pixels (real 0...250) <br><br>`threshold`: nível limite do filtro (int 0...255)<br><br>`monochrome`: definido como `0` para remover a nitidez de cada componente de cor separadamente, definido como `1` para remover a nitidez da máscara de brilho da imagem (intensidade) | `op_usm=1,1,10,0` |
+| Tirar nitidez da máscara | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fator de força do filtro (real 0...5)<br><br>`radius`: raio do kernel do filtro em pixels (real 0...250) <br><br>`threshold`: nível limite do filtro (inteiro 0...255)<br><br>`monochrome`: definido como `0` para remover a nitidez de cada componente de cor separadamente, definido como `1` para remover a nitidez da máscara de brilho da imagem (intensidade) | `op_usm=1,1,10,0` |
 
 Selecione o menu **[!UICONTROL Sharpening]** e escolha uma opção:
 

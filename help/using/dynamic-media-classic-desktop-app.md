@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: afc347201b13c3b91ec5e1bd3ac5304442772f8d
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1905'
 ht-degree: 0%
 
 ---
@@ -233,7 +233,7 @@ Para baixar e *instalar silenciosamente* a versão mais recente do aplicativo de
 
 ## Apresentação em vídeo sobre como usar o aplicativo de desktop do Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
+Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
 
 ## Limpeza do cache de imagens e de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
@@ -271,11 +271,11 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 ## Dicas e truques
 
-**_Não consigo ver o painel Carrinho de Mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**&#x200B;está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
+**_Não consigo ver o painel Carrinho de Mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
 
-**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, foi necessário fazer logon novamente na interface do usuário para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone do **[!UICONTROL Refresh]**&#x200B;na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresh]**&#x200B;para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
+**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, era necessário fazer logon novamente na interface para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone do **[!UICONTROL Refresh]**na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresher]**para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
 
 ![Ícone Atualizar](/help/using/assets/refresh-icon1.png)
 *Ícone Atualizar*
 
-**_Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop._**<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Set Preset]**&#x200B;está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.
+**_Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop._**<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Sets Preset]**está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.

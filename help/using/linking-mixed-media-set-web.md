@@ -10,7 +10,7 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -44,11 +44,11 @@ Após publicar um Conjunto de mídias mistas, você pode obter o URL associado p
 
 A maneira mais comum de implantar um Conjunto de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
 
-## Copiar o código de inserção de um visualizador de conjunto de mídia mista {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## Copiar o código incorporado de um visualizador do Conjunto de mídias mistas {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-O uso do recurso Incorporar código permite revisar o código do visualizador do Conjunto de mídias mistas selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
+O uso do recurso de código incorporado permite revisar o código do visualizador do Conjunto de mídias mistas selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o Código de Inserção de um visualizador do Conjunto de Mídias Mistas:**
+**Para copiar o código inserido de um visualizador de Conjunto de Mídia Mista:**
 
 1. No painel Procurar ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Mixed Media Set]**.
 1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de mídias mistas cujo Código incorporado você deseja copiar.

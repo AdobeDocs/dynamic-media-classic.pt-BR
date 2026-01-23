@@ -10,7 +10,7 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -48,13 +48,13 @@ Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o
 
 A maneira mais comum de implantar Conjuntos de amostras é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de amostras em uma janela pop-up de zoom. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporação do Visualizador de Zoom do HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporação do Visualizador de Zoom do HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de conjunto de amostras {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-O uso do recurso Incorporar código permite revisar o código do visualizador do Conjunto de amostras selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
+O uso do recurso de código incorporado permite revisar o código do visualizador do Conjunto de amostras selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o Código de Inserção de um visualizador do Conjunto de Amostras:**
+**Para copiar o código inserido de um visualizador de Conjunto de Amostras:**
 
 1. No painel Procurar ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Swatch Set]**.
 1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o Conjunto de amostras cujo Código incorporado você deseja copiar.

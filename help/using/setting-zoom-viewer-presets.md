@@ -10,9 +10,9 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ O Adobe Dynamic Media Classic recomenda os seguintes parâmetros para as Predefi
    A página Visualizar exibe o visualizador à medida que você atualiza e altera as configurações.
 
 1. Selecione **[!UICONTROL Save]** ou **[!UICONTROL Save As]**.
-1. Na página Predefinições do visualizador, examine a Predefinição do visualizador de zoom ou a Predefinição do visualizador de zoom guiado que você criou. Se precisar de ajuste, selecione **[!UICONTROL Edit]**, altere as configurações na página `Configure Viewer` e selecione **[!UICONTROL Save]**.
+1. Na página Predefinições do visualizador, examine a Predefinição do visualizador de zoom ou a Predefinição do visualizador de zoom guiado que você criou. Se precisar ajustá-lo, selecione **[!UICONTROL Edit]**, altere as configurações na página `Configure Viewer` e selecione **[!UICONTROL Save]**.
 
 Para obter informações sobre o gerenciamento de Predefinições do Visualizador na tela Predefinições do Visualizador, consulte [Predefinições do Visualizador](application-setup.md#viewer_presets).
 

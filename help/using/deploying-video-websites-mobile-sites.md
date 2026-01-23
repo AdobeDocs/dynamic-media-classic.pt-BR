@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 0%
@@ -73,9 +73,9 @@ Consulte também [Incorporar o visualizador de vídeo em uma página da Web](dep
 
 1. Cole o link do URL do vídeo do HTML5 em seu site e site para dispositivos móveis.
 
-## Incorporar o visualizador de vídeo em uma página da Web {#embedding-the-video-viewer-on-a-web-page}
+## Adicionar o visualizador de vídeo em uma página da Web {#embedding-the-video-viewer-on-a-web-page}
 
-Use o recurso Incorporar código quando quiser reproduzir o vídeo incorporado na página da Web. Copie o código incorporado na área de transferência para poder colá-lo nas páginas da Web. A edição do código não é permitida na caixa de diálogo Incorporar código.
+Use o recurso de código incorporado do quando quiser reproduzir o vídeo incorporado na página da Web. Você copia o código incorporado para a área de transferência para poder colá-lo nas páginas da Web. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
 Consulte também [Vincular uma URL de vídeo a um site para dispositivos móveis ou a um site](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -187,7 +187,7 @@ Você pode aplicar modificadores de imagem ao quadro do pôster. Por exemplo, é
 
 Consulte [Adicionar ou Editar uma Predefinição do Visualizador de Vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte o [Guia de disponibilização de imagens](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte o [Guia de disponibilização de imagens](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Você também pode modificar miniaturas de vídeo anexando modificadores a URLs de miniatura de vídeo.
 

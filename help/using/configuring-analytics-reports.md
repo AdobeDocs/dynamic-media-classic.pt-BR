@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ A tabela a seguir descreve as variáveis do Adobe Dynamic Media Classic:
 | viewerId | Um número arbitrário atribuído a cada tipo de visualizador diferente. |
 | pageLabel | Nos eCatalogs, a página que um visualizador exibe. |
 | rótulo | O valor do rótulo (uma string). |
-| quadro | A referência de página ou página em um Conjunto de imagens. |
+| quadro | A página ou páginas referenciadas em um Conjunto de imagens. |
 | rollover_keyRaw | Todo o valor HREF, não apenas qualquer parte processada dele. |
 | rollover_keyProc | A ID de um item referenciado em um Mapa de imagem (válido para eventos href e item). |
 | searchTerm | Um termo usado na pesquisa de eCatalog. |

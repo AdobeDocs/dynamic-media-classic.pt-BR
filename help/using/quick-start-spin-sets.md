@@ -10,9 +10,9 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Um Conjunto de rotação simula o ato do mundo real de virar um objeto para examiná-lo. Os Conjuntos de rotação permitem a visualização de itens de qualquer ângulo, obtendo os principais detalhes visuais de qualquer ângulo. Um Conjunto de rotação simula uma experiência de visualização de 360 graus. O Adobe Dynamic Media Classic oferece Conjuntos de rotação unidimensionais nos quais os visualizadores podem girar um item e Conjuntos de rotação bidimensionais nos quais os visualizadores podem girar e virar o item. Além disso, os usuários podem aplicar o zoom de forma &quot;livre&quot; e deslocar qualquer uma das visualizações com apenas alguns cliques do mouse. Dessa forma, os usuários podem examinar um item mais detalhadamente de um ponto de vista específico.
 
-![Imagens para um grupo de rotação.](/help/using/assets/spin_set.png)
+![Imagens para um Conjunto de Rotação](/help/using/assets/spin_set.png)
 
-Os conjuntos de rotação também aceitam mapas de imagem. Um Mapa de imagem é uma região em uma imagem no Conjunto de rotação que exibe um painel de sobreposição com texto. Quando o usuário seleciona um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é iniciada para que o usuário possa saber mais sobre um produto. Para apontar um Mapa de imagem em um Conjunto de rotação, um contorno é exibido ao redor do próprio Mapa de imagem quando o usuário move o ponteiro do mouse sobre ele.
+Os conjuntos de rotação também aceitam mapas de imagem. Um Mapa de imagem é uma região em uma imagem no conjunto giratório que exibe um painel de sobreposição com texto. Quando o usuário seleciona um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é iniciada para que o usuário possa saber mais sobre um produto. Para apontar um Mapa de imagem em um Conjunto de rotação, um contorno é exibido ao redor do próprio Mapa de imagem quando o usuário move o ponteiro do mouse sobre ele.
 
 Consulte [Criar Mapas de Imagens](creating-image-maps.md).
 
@@ -37,7 +37,7 @@ Ao criar um Conjunto de rotação, a Adobe recomenda a seguinte prática recomen
 
 Consulte também [limitações do Dynamic Media](/help/using/limitations.md).
 
-Este Início rápido dos conjuntos de rotação foi projetado para colocar suas operações em funcionamento rapidamente com técnicas de Conjunto de rotação no Adobe Dynamic Media Classic. Siga as etapas de 1 a 7. Ao final de cada etapa, é possível selecionar um link de tópico para saber mais.
+Esse Início rápido foi projetado para colocar suas operações em funcionamento rapidamente com técnicas de Conjunto de rotação no Adobe Dynamic Media Classic. Siga as etapas de 1 a 7. Ao final de cada etapa, é possível selecionar um link de tópico para saber mais.
 
 ## &#x200B;1. Criar e carregar as imagens
 

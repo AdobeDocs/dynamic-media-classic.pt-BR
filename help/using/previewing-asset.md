@@ -10,7 +10,7 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Para determinada plataforma de visualização, a janela Lista de visualizadores 
 
    * Na janela Lista de Visualizadores, na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]**.
 
-     Quando você seleciona **[!UICONTROL Embed Code]**, a janela Código de inserção é aberta, onde você pode examinar o código do visualizador. A edição do código não é permitida na janela. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web.
+     Quando você seleciona **[!UICONTROL Embed Code]**, a janela Código Incorporado é aberta, onde você pode examinar o código do visualizador. A edição do código não é permitida na janela. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web.
 
      Fechar a visualização exibida.
 

@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Você pode mover ativos para pastas diferentes no painel Procurar.
 1. Selecione o ativo ou os ativos no painel Procurar e siga um destes procedimentos:
 
    * Exiba a pasta para a qual deseja mover os ativos na Biblioteca de ativos e arraste os ativos para a pasta.
-   * Vá para **[!UICONTROL File]** > **[!UICONTROL Move]**, selecione uma pasta na janela Mover Assets e selecione **[!UICONTROL Move]**.
+   * Vá para **[!UICONTROL File]** > **`Move`**, selecione uma pasta na janela `Move Assets` e selecione **`Move`**.
 
 ## Renomear ativos {#rename-assets}
 

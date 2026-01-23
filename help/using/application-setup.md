@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '10315'
+source-wordcount: '10307'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Consulte também [Testar o serviço de Teste Seguro](testing-assets-making-them-
   >
   >Se você não usou o Adobe Dynamic Media Classic para carregar e codificar seus ativos de vídeo, o Adobe Dynamic Media Classic mostrará todos os seus vídeos codificados individualmente, mesmo que essa opção não esteja selecionada.
 
-* **[!UICONTROL Show Refresh Subfolders Button]**: ativar ou desativar a exibição do botão Atualizar das subpastas.
+* **[!UICONTROL Show the Refresh Subfolders Button]**: ativar ou desativar a exibição do botão Atualizar das subpastas.
 
 ### Conta FTP da Adobe Dynamic Media Classic
 
@@ -161,7 +161,7 @@ Os administradores podem criar predefinições para exportar ativos. Os usuário
 
 Para abrir a tela Predefinição de imagem, na barra Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Consulte [Imagem inteligente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Criar e editar predefinições de imagem {#creating-and-editing-image-presets}
 
@@ -213,7 +213,7 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
 * **[!UICONTROL Colorspace]**: Selecione um espaço de cores.
 
-* **[!UICONTROL Sharpening]**: Selecione a opção Habilitar nitidez simples para aplicar um filtro de nitidez básico à imagem depois que todo o dimensionamento ocorrer. A nitidez pode ajudar a compensar o desfoque que pode ocorrer ao exibir uma imagem de tamanho diferente.
+* **[!UICONTROL Sharpening]**: Selecione a opção **[!UICONTROL `Enable Simple Sharpening`]** para aplicar um filtro de nitidez básico à imagem depois de todo o dimensionamento. A nitidez pode ajudar a compensar o desfoque que pode ocorrer ao exibir uma imagem de tamanho diferente.
 
   Para obter mais informações sobre nitidez, modos de reamostragem e mascaramento sem nitidez, consulte [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image). Veja também o vídeo de treinamento [Nitidez](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
@@ -237,7 +237,7 @@ As telas Adicionar predefinição e Editar predefinição oferecem estas opçõe
 
 * **[!UICONTROL Color Space]**: Determina se a imagem usa o espaço em que foi criada, geralmente RGB (Original) ou um espaço de luminosidade (Intensidade).
 
-* **[!UICONTROL Color]** Escolha estas opções:
+* **[!UICONTROL Color]** Você pode escolher estas opções:
 
 * **[!UICONTROL Output Color Profile]**: Selecione **[!UICONTROL Use Default]** ou um dos perfis de cores ICC disponíveis no Adobe Dynamic Media Classic.
 
@@ -436,7 +436,7 @@ Ao combinar em um único player o seguinte:
 
 Estenda o alcance do seu conteúdo de mídia avançada para desktops, tablets e usuários de dispositivos móveis e garanta uma experiência de vídeo otimizada.
 
-Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
+Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
 
 Consulte a [Matriz de compatibilidade da Predefinição do Visualizador do Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Páginas da Web diferentes têm necessidades diferentes. Às vezes, você deseja uma página da Web que forneça um link que abra o Visualizador do HTML5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador do HTML5 diretamente na página de hospedagem. No último caso, a página da Web provavelmente tem um layout estático. Ou é &quot;responsivo&quot; e é exibido de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela de navegador. Para acomodar essas necessidades, os Visualizadores do HTML5 fornecidos com o Adobe Dynamic Media Classic são compatíveis com páginas da Web estáticas e páginas da Web com design responsivo.
 
-Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipos de predefinição do visualizador {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para Visualizadores, consulte as Notas de versão dos Visualizadores.
 
-Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources).
+Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -507,14 +507,14 @@ Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https:
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visualizadores do conjunto de imagens |  |  |  |  |  |  |
+| Visualizadores de conjuntos de imagens |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visualizadores do conjunto de amostras |  |  |  |  |  |  |
+| Visualizadores de conjuntos de amostras |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
@@ -555,7 +555,7 @@ A tabela a seguir identifica os gestos do visualizador móvel compatíveis com d
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visualizadores do conjunto de imagens |  |  |  |  |  |  |
+| Visualizadores de conjuntos de imagens |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
@@ -715,11 +715,11 @@ O URL é copiado para a área de transferência. Você pode usá-lo conforme nec
 
 ### Copiar o código incorporado de uma predefinição do visualizador {#copying-the-embed-code-of-a-viewer-preset}
 
-O uso do recurso Incorporar código permite revisar o código do visualizador para a Predefinição do visualizador selecionada. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador.
+O uso do recurso de código incorporado permite revisar o código do visualizador da Predefinição do visualizador selecionada. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador.
 
 A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o Código de Inserção de uma Predefinição do Visualizador:**
+**Para copiar o código inserido de uma Predefinição do Visualizador:**
 
 1. Selecione o ativo no painel Navegar por ativos.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
@@ -824,7 +824,7 @@ Um uso eficaz de campos de metadados definidos pelo usuário é atrasar o tempo 
 
 >[!NOTE]
 >
->Para fazer com que os campos definidos pelo usuário apareçam no painel Metadados na Exibição de Detalhes, inclua campos definidos pelo usuário nas Exibições de Metadados. Na tela Exibições de Metadados, selecione a opção Incluir UDF (campos definidos pelo usuário). Para obter mais informações, consulte [Exibições de Metadados](application-setup.md#metadata_views).
+>Para fazer com que os campos definidos pelo usuário apareçam no painel Metadados na Exibição de Detalhes, inclua campos definidos pelo usuário nas Exibições de Metadados. Na tela Exibições de Metadados, selecione a opção **[!UICONTROL `Include UDF (user-defined fields)`]. Para obter mais informações, consulte [Exibições de Metadados](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
@@ -903,7 +903,7 @@ Todas as predefinições de conjunto de lotes ativas de uma empresa são listada
 
 ### Nomeação padrão {#default-naming}
 
-O Administrador da empresa cria uma convenção de nomenclatura padrão que é usada em qualquer fórmula de Predefinição de conjunto de lotes. A convenção de nomenclatura padrão selecionada na definição de Predefinição de conjunto de lotes pode ser tudo o que sua empresa precisa para gerar conjuntos em lote para todos os sites. Uma Predefinição de conjunto de lotes é criada para usar a convenção de nomenclatura padrão que você define. Você pode criar quantas Predefinições de conjunto de lotes forem necessárias com convenções de nomenclatura alternativas e personalizadas para um conjunto específico de conteúdo nos casos em que houver uma exceção à nomenclatura padrão definida pela empresa.
+O Administrador da empresa cria uma convenção de nomenclatura padrão que é usada em qualquer fórmula de Predefinição de conjunto de lotes. As convenções de nomenclatura padrão selecionadas na definição de Predefinição de conjunto de lotes podem ser todas necessárias para que sua empresa gere conjuntos em lote para todos os sites. Um `Batch Set Preset` é criado para usar a convenção de nomenclatura padrão que você define. Você pode criar quantas Predefinições de conjunto de lotes forem necessárias com convenções de nomenclatura alternativas e personalizadas para um conjunto específico de conteúdo nos casos em que houver uma exceção à nomenclatura padrão definida pela empresa.
 
 A configuração de uma convenção de nomenclatura padrão não é necessária para usar a funcionalidade Predefinição de conjunto de lotes. No entanto, as práticas recomendadas da Adobe recomendam que você use uma convenção de nomenclatura padrão para definir quantos elementos de sua convenção de nomenclatura quiser agrupar em um conjunto. Isso ajuda a simplificar a criação de conjuntos de lotes.
 
@@ -981,9 +981,9 @@ Com essas informações, a fórmula Tipo de conjunto de lotes pode ser criada da
 
 ![Imagem de fórmula do conjunto de lotes](assets/se_batch_set_recipe.png)
 
-O agrupamento para a parte do nome do ativo compartilhado do Spin Set é adicionado ao campo Correspondência (como destacado). A parte variável do nome do ativo que contém a linha e a coluna é adicionada aos campos Linha e Coluna, respectivamente.
+O agrupamento para a parte do nome do ativo compartilhado do conjunto de rotação é adicionado ao campo Correspondência (como destacado). A parte variável do nome do ativo que contém a linha e a coluna é adicionada aos campos Linha e Coluna, respectivamente.
 
-Quando o Conjunto de rotação é carregado e publicado, você ativaria o nome da fórmula do Conjunto de rotação 2D que está listada em **[!UICONTROL Batch Set Presets]** na caixa de diálogo Opções de trabalho de upload.
+Quando o conjunto de rotação é carregado e publicado, você ativaria o nome da fórmula do Conjunto de rotação 2D que está listada em **[!UICONTROL Batch Set Presets]** na caixa de diálogo Opções de trabalho de upload.
 
 **Para criar uma predefinição de conjunto de lotes para a geração automática de um conjunto de rotação 2D:**
 

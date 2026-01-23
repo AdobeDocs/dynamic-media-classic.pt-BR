@@ -10,9 +10,9 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 As Predefinições do visualizador de conjunto de mídia mista determinam o estilo, o comportamento e a aparência do visualizador principal. Ao configurar uma predefinição, especifique quais outros visualizadores você deseja exibir dentro do Visualizador de mídia mista. Por exemplo, se você incluiu um Conjunto de imagens no Conjunto de mídias mistas, especifique uma Predefinição do visualizador de Conjunto de imagens para o visualizador de Conjunto de mídias mistas.
 
-Você pode optar por incluir todos ou alguns recursos da comunidade no Visualizador de conjunto de mídia mista. O recurso Incorporar adiciona um link ao visualizador que permite aos usuários copiar o código necessário para exibir o visualizador em uma página externa (como um blog, site ou site de rede social). O recurso Link fornece o URL para o visualizador, para que os usuários possam vincular-se de volta a esse visualizador. O recurso Visita fornece um link para o site da Web especificado.
+Você pode optar por incluir todos ou alguns recursos da comunidade no Visualizador de conjunto de mídia mista. O recurso de incorporação adiciona um link ao visualizador que permite aos usuários copiar o código necessário para exibir o visualizador em uma página externa (como um blog, site ou site de rede social). O recurso Link fornece o URL para o visualizador, para que os usuários possam vincular-se de volta a esse visualizador. O recurso Visitado fornece um link para o site da Web especificado.
 
 1. Na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Na página Predefinições do visualizador, siga um destes procedimentos:
@@ -50,7 +50,7 @@ Você pode optar por incluir todos ou alguns recursos da comunidade no Visualiza
    * Para excluir uma predefinição da lista, selecione-a e, em seguida, selecione **[!UICONTROL Delete]**.
    * Para reordenar predefinições na lista, selecione uma predefinição e a seta azul **[!UICONTROL Up]** ou **[!UICONTROL Down]**.
 
-1. Para adicionar recursos da comunidade (Incorporar, Link, Visita) ao visualizador, especifique opções para qualquer um dos seguintes itens:
+1. Para adicionar recursos da comunidade (Incorporado, Link, Visitado) ao visualizador, especifique opções para qualquer um dos seguintes itens:
 
    * **Email**: selecione **[!UICONTROL On]** para habilitar um botão Email no visualizador. Quando os usuários selecionam o botão Email ao visualizar o conjunto, um email contendo o link para o conjunto é aberto.
 

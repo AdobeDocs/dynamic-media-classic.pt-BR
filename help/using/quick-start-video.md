@@ -10,9 +10,9 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Quando um Conjunto de vídeos adaptados é gerado, ele inclui vídeos MP4.
 
   O streaming de vídeo adaptável é suportado em várias plataformas iOS.
 
-  Consulte o suporte mais recente no [Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources).
+  Consulte o suporte mais recente no [Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   O Adobe Dynamic Media Classic oferece suporte à reprodução de vídeo móvel para vídeo MP4 H.264. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -144,15 +144,15 @@ Para integrar vídeos ao seu site, você pode executar um dos seguintes procedim
   >
   >Os URLs são ativados somente após a publicação do vídeo ou do Conjunto de vídeos adaptados.
 
-* Exiba o vídeo incorporado na página da Web; nesse caso, use o recurso **[!UICONTROL Embed Code]**.
+* Exiba o vídeo incorporado na página da Web. Nesse caso, use o recurso de código incorporado.
 
-  Para obter o Código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no painel Procurar. Vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
+  Para obter o código incorporado de um vídeo, na Exibição em grade ou na Exibição em lista, selecione o vídeo no painel Procurar. Vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Na coluna Ações da tabela, selecione **[!UICONTROL Embed Code]** à direita de `Universal_HTML5_Video`. Não é permitido editar o código.
 
-  Selecione **[!UICONTROL Close]** e cole o Código incorporado em uma ou mais páginas da Web.
+  Selecione **[!UICONTROL Close]** e cole o código inserido em uma ou mais páginas da Web.
 
   >[!NOTE]
   >
-  >O código de inserção só é ativado após a publicação do vídeo ou do Conjunto de vídeos adaptados.
+  >O código incorporado só é ativado após a publicação do vídeo ou do Conjunto de vídeos adaptados.
 
 Consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 

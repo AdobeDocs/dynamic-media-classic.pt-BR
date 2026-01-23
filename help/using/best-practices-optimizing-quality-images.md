@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ A otimização da qualidade de imagem pode consumir muito tempo. Muitos fatores 
 
 O Adobe Dynamic Media Classic inclui mais de 100 comandos de veiculação de imagens para ajustar e otimizar imagens e renderizar resultados. As diretrizes a seguir podem ajudar você a simplificar o processo e obter bons resultados rapidamente usando alguns comandos essenciais e práticas recomendadas.
 
-Consulte também [Imagem inteligente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte também [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Consulte também [Imagem inteligente](https://experienceleague.adobe.com/pt-br/d
 >* Largura de banda de rede
 >* DPR (Relação de pixels do dispositivo)
 >
->Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos e 17 segundos).
+>Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minutos e 17 segundos).
 
 
 ## Práticas recomendadas para formato de imagem (&amp;fmt=) {#best-practices-for-image-format-fmt}
@@ -62,7 +62,7 @@ Como prática recomendada para dimensionamento de imagem, use `&wid=<value>&hei=
 
 A nitidez de imagem é o aspecto mais complexo de controlar imagens no seu site e no qual muitos erros são cometidos. Reserve tempo para saber mais sobre como a nitidez e o mascaramento sem nitidez funcionam no Adobe Dynamic Media Classic, consultando os seguintes recursos úteis:
 
-White paper de práticas recomendadas [Nitidez de imagens no Adobe Dynamic Media Classic e no Servidor de imagens](/help/using/assets/s7_sharpening_images.pdf).
+O whitepaper de práticas recomendadas do PDF chamou [Nitidez de imagens no Adobe Dynamic Media Classic e no Servidor de imagens](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -136,5 +136,5 @@ Se os resultados da nitidez ainda não forem satisfatórios, aumente o raio em i
 À medida que você experimenta, as seguintes sugestões gerais são úteis para otimizar seu fluxo de trabalho:
 
 * Experimente e teste diferentes parâmetros em tempo real, diretamente em um URL ou usando a funcionalidade de ajuste de imagem do Adobe Dynamic Media Classic. Este último fornece pré-visualizações em tempo real para operações de ajuste.
-* Como prática recomendada, lembre-se de agrupar comandos do Servidor de imagens do Dynamic Media em uma Predefinição de imagem. Uma Predefinição de imagem é basicamente uma macro de comando de URL com nomes predefinidos personalizados como `$thumb_low$` e `&product_high$`. O nome da predefinição personalizada em um caminho de URL chama essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no site e reduz o comprimento geral dos URLs.
+* Como prática recomendada, lembre-se de agrupar comandos do Servidor de imagens do Dynamic Media em uma Predefinição de imagem. Uma Predefinição de imagem é basicamente uma macro de comandos de URL com nomes predefinidos personalizados, como `$thumb_low$` e `&product_high$`. O nome da predefinição personalizada em um caminho de URL chama essas predefinições. Essa funcionalidade ajuda a gerenciar comandos e configurações de qualidade para diferentes padrões de uso de imagens no site e reduz o comprimento geral dos URLs.
 * O Adobe Dynamic Media Classic também oferece maneiras mais avançadas de ajustar a qualidade da imagem, como aplicar nitidez de imagem na assimilação. Para casos de uso avançados em que o ajuste e a otimização adicionais dos resultados renderizados são uma opção, a Adobe Professional Services pode ajudá-lo com práticas recomendadas e insight personalizadas.

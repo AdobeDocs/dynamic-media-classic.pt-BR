@@ -10,7 +10,7 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Opcionalmente, também é possível exibir o texto da dica de ferramenta quando 
    Consulte [Desenhar Mapas de Imagens de eCatalog](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Na lista suspensa Mostrar, selecione **[!UICONTROL Rich Media]**.
-1. No painel Adicionar Assets à esquerda, navegue até uma pasta que contenha o ativo Spin Set ou vídeo (formato MP4) que deseja incorporar.
+1. No painel Adicionar Assets à esquerda, navegue até uma pasta que contenha o conjunto giratório ou o ativo de vídeo (formato MP4) que deseja incorporar.
 1. Arraste o ativo para o Mapa de imagem.
 1. (Opcional) No painel Lista de mapas de imagem, sob o cabeçalho da coluna **[!UICONTROL Tool Tip]**, digite o texto que você deseja que os visualizadores vejam na tela quando movem o ponteiro sobre o Mapa de imagem.
 1. Selecione **[!UICONTROL Save]**.

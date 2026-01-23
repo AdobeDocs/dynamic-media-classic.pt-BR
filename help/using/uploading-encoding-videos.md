@@ -9,7 +9,7 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '3878'
 ht-degree: 0%
@@ -264,7 +264,7 @@ Na tela Predefinições de vídeo, os administradores podem configurar e gerenci
 * Editar predefinições de codificação de vídeo.
 * Excluir predefinições de vídeo.
 
-Qualquer vídeo que você carregar no Adobe Dynamic Media Classic ou codificar no Adobe Dynamic Media Classic será tratado como &quot;vídeo&quot;. Em outras palavras, essa classificação de ativos significa que você pode fornecer o vídeo para reprodução em desktops, dispositivos móveis ou ambos. Por exemplo, você pode visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Você também pode gerar URLs (usando o recurso Copiar URL ) e código que pode ser incorporado (usando o recurso Incorporar código ) para uso com reprodutores de vídeo, em sites e assim por diante.
+Qualquer vídeo que você carregar no Adobe Dynamic Media Classic ou codificar no Adobe Dynamic Media Classic será tratado como &quot;vídeo&quot;. Em outras palavras, essa classificação de ativos significa que você pode fornecer o vídeo para reprodução em desktops, dispositivos móveis ou ambos. Por exemplo, você pode visualizar esses tipos de vídeos no Adobe Dynamic Media Classic. Você também pode gerar URLs (usando o recurso Copiar URL) e código que pode ser incorporado (usando o recurso de código incorporado) para uso com reprodutores de vídeo, em sites e assim por diante.
 
 Consulte [Visualizar vídeos em um visualizador de vídeo](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 

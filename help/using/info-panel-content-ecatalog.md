@@ -10,7 +10,7 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Além de usar o texto do Mapa de imagem para suas sobreposições em eCatalogs, 
 
 Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
-* O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do Painel de Informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, você pode especificar se os eCatalogs serão publicados automaticamente.
+* O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do Painel de Informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, você pode especificar se os eCatalogs são publicados automaticamente.
 * O painel Feed de dados do InfoPanel permite especificar um arquivo CSV contendo o texto que você deseja exibir no texto de sobreposição do InfoPanel e agendar tempos para atualizar as informações.
 * A caixa de diálogo Importar metadados (acessada na visualização Mapear páginas ) permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Feed de dados com a opção de arquivo CSV para o texto de sobreposição.
 * A exibição Mapear páginas fornece uma opção para visualizar o xml que aparece para Mapas de imagem específicos.

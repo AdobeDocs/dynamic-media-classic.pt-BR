@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 1. Opcionalmente, selecione uma imagem ou vídeo e selecione **[!UICONTROL Preview]**. Na página Visualizar ofertas, é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no Conjunto de ofertas.
 
    * Escolha uma predefinição para alterar a aparência e o tamanho da imagem ou do vídeo.
-   * Para aplicar a predefinição escolhida a todas as ofertas do Conjunto de ofertas, marque a caixa de seleção **[!UICONTROL Select Presets to All]**.
+   * Para aplicar a predefinição escolhida a todas as ofertas do Conjunto de ofertas, marque a caixa de seleção **`Select Presets to All`**.
 
    Selecione **[!UICONTROL Save]** para salvar suas alterações na oferta de imagem ou vídeo. Em seguida, selecione **[!UICONTROL Close]** para retornar à página Conjunto de ofertas do Test&amp;Target.
 

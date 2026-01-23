@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 0%
@@ -105,7 +105,7 @@ Você pode usar as seguintes técnicas de filtragem de lista de usuários:
 
 * **Filtrar por função de usuário**: selecione o menu **[!UICONTROL By User Role]** e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
 
-* **Filtrar por nome de campo**: Selecione **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o menu **[!UICONTROL By Field Name]**, escolha uma coluna para filtrar a lista, selecione o menu Caractere de Filtro e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Para ver a lista completa, desmarque a opção **[!UICONTROL Enable Filter By Field]**.
+* **Filtrar por nome de campo**: Selecione **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o menu **[!UICONTROL By Field Name]**, escolha uma coluna para filtrar a lista, selecione o menu Caractere de Filtro e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Para ver a lista completa, desmarque a opção **`Enable Filter By Field`**.
 
 * **Filtrar usuários inválidos**: desmarcar **[!UICONTROL Include Invalid]**. Os resultados da pesquisa exibem apenas os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
 

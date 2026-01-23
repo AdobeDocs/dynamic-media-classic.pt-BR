@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '3647'
+source-wordcount: '3645'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Antes de fazer upload dos ativos para o Adobe Dynamic Media Classic, verifique s
 
 ### Formatos de arquivo de ativo compatíveis {#supported-asset-file-formats}
 
-Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw compatíveis, consulte [https://helpx.adobe.com/br/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/br/camera-raw/using/supported-cameras.html).
+Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw compatíveis, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de arquivo do ativo | Descrição |
 | --- | --- |
@@ -291,7 +291,7 @@ O novo trabalho envia uma notificação para o endereço especificado, para que 
    * Solicitação HTTP
    * Publicação no Servidor de imagens
    * Publicação de renderização de imagem
-   * Publicação de vídeo
+   * `Video Publish`
 
 1. Especifique o endereço HTTP.
 1. Especifique se deseja executar somente se os arquivos foram carregados.

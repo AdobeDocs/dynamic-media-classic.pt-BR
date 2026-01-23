@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -155,15 +155,15 @@ O servidor de metadados é uma API pública que pode ser usada para pesquisar at
 
 Para configurar o servidor de metadados, vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**.
 
-A página Publicar do servidor de metadados permite definir as seguintes opções:
+A página Editor de servidor de metadados permite definir as seguintes opções:
 
-* **[!UICONTROL Instant Publish]**: envia automaticamente quaisquer alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavra-chave e assim por diante.
+* **[!UICONTROL Instant Publishing]**: envia automaticamente quaisquer alterações de metadados quando são feitas, incluindo novos ativos, alterações de palavra-chave e assim por diante.
 
 * **[!UICONTROL XMP Packet]**: Publica o Pacote XMP. Esse pacote não é usado para pesquisa, mas fornece o XMP mais atualizado.
 
 * **[!UICONTROL Keywords]**: Publica suas palavras-chave no servidor de metadados para uso em pesquisas.
 
-* **[!UICONTROL Metadata Server Publish Fields]**: Selecione os campos a serem incluídos nos metadados. Essa opção permite determinar quanta informação sobre seus ativos está disponível para o público. Esses campos também são exibidos em Exibições de metadados, mas só podem ser alterados no servidor de metadados.
+* **[!UICONTROL Metadata Server Publishing Fields]**: Selecione os campos a serem incluídos nos metadados. Essa opção permite determinar quanta informação sobre seus ativos está disponível para o público. Esses campos também são exibidos em Exibições de metadados, mas só podem ser alterados no servidor de metadados.
 
 Selecione **[!UICONTROL Publish Now]** para iniciar o trabalho. Uma confirmação é exibida, informando que o job foi iniciado.
 

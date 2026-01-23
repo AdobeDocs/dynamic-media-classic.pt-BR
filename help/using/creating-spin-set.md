@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually-publ
 
 **Para editar um Conjunto de Rotação:**
 
-1. Selecione o botão de sobreposição **[!UICONTROL Edit]** do Conjunto de rotação.
+1. Selecione o botão de sobreposição **[!UICONTROL Edit]** do conjunto giratório.
 1. Siga um destes procedimentos:
 
    * **Removendo imagens**: selecione a imagem e **[!UICONTROL Delete]**.

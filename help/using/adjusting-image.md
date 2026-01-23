@@ -10,9 +10,9 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an
 1. Use os comandos no lado direito da janela `Adjust Editor` para que você possa ajustar a imagem:
 
    * Use as opções Inverter para inverter uma imagem na horizontal ou vertical.
-   * Use o controle deslizante Girar para girar a imagem. É possível inserir valores no campo Girar para girar uma imagem. Valores positivos giram no sentido horário; valores negativos giram no sentido anti-horário.
+   * Use o controle deslizante **[!UICONTROL Rotator]** para girar a imagem. Você pode inserir valores no campo **[!UICONTROL Rotator]** para girar uma imagem. Valores positivos giram no sentido horário; valores negativos giram no sentido anti-horário.
    * Use o controle deslizante de Desfoque ou sua caixa correspondente para desfocar uma imagem. Quanto maior o valor, mais desfocada se tornará a imagem.
    * Use as opções Contraste, Brilho, Saturação, Matiz e Equilíbrio de Cor para ajustar a cor e o brilho. Estes efeitos são cumulativos. Por exemplo, as alterações nas configurações de Magenta/Verde são adicionadas às alterações feitas nas configurações de Matiz.
    * Use as opções `Colorize` para colorir uma imagem, preservando sombras e realces. As alterações nas opções de Colorir também são cumulativas. No menu Brilho, escolha **[!UICONTROL No Compensation]** para desabilitar a compensação automática de brilho. Defina o valor do contraste como 0 para preservar o intervalo de contraste da imagem original ou especifique um intervalo de contraste com um valor maior que 0. Um valor de 100 maximiza o contraste. Os valores típicos estão no intervalo de 30 a 70.

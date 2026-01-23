@@ -10,7 +10,7 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -56,9 +56,9 @@ Neste exemplo de sintaxe de URL (o link não está ativo), observe um número SK
 
 ## Copiar o código incorporado de um visualizador de conjunto de rotação {#copying-the-embed-code-of-a-spin-set-viewer}
 
-Usar o recurso Incorporar código permite revisar o código do visualizador do conjunto de rotação selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
+O uso do recurso de código incorporado permite revisar o código do visualizador do grupo de rotação selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
-**Para copiar o Código de Inserção de um visualizador de Conjunto de Rotação:**
+**Para copiar o código inserido de um visualizador de Conjunto de Rotação:**
 
 1. No painel Procurar ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Spin Set]**.
 1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o conjunto de rotação cujo código de inserção você deseja copiar.

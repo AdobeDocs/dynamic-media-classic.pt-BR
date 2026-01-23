@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Você pode facilitar a visualização e a navegação dos vídeos de formulário
 
 >[!NOTE]
 >
->O reprodutor de vídeo usado deve aceitar o uso de marcadores de capítulo.
+>O reprodutor de vídeo deve aceitar o uso de marcadores de capítulo.
 
 Consulte [Adicionar ou editar uma predefinição do visualizador de vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) se desejar configurar os pontos de sinalização de navegação do capítulo e o texto pop-up do título do capítulo para o visualizador `Universal_HTML5_Video` (HTML5).
 

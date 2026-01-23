@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Estabeleça uma estrutura de pastas e uma organização para armazenar os arquiv
 
 A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você seleciona uma pasta na Biblioteca de ativos, seu conteúdo aparece no painel Procurar. Use essas técnicas para localizar pastas na árvore de pastas:
 
-* **Exibir subpastas**: selecione o ícone **[!UICONTROL Expand Folder]** para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Exibir subpastas**: selecione o ícone **[!UICONTROL Expanded Folder]** para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
 * **Mover uma pasta**: você pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
 
-* **Ocultar pastas**: selecione o ícone **[!UICONTROL Collapse Folder]** se desejar recolher subpastas para ocultá-las. Esse ícone está localizado à esquerda dos nomes das pastas.
+* **Ocultar pastas**: selecione o ícone **[!UICONTROL Collapsed Folder]** se desejar recolher subpastas para ocultá-las. Esse ícone está localizado à esquerda dos nomes das pastas.
 
 * **Abrir uma pasta**: selecione uma pasta se desejar exibir seu conteúdo no painel Procurar.
 
