@@ -187,7 +187,7 @@ Você pode aplicar modificadores de imagem ao quadro do pôster. Por exemplo, é
 
 Consulte [Adicionar ou Editar uma Predefinição do Visualizador de Vídeo](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Consulte o [Guia de disponibilização de imagens](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Consulte o [Guia de disponibilização de imagens](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Você também pode modificar miniaturas de vídeo anexando modificadores a URLs de miniatura de vídeo.
 
