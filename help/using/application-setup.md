@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
 workflow-type: tm+mt
-source-wordcount: '10307'
+source-wordcount: '10783'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,7 @@ Os administradores podem criar predefinições para exportar ativos. Os usuário
 
 Para abrir a tela Predefinição de imagem, na barra Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Consulte [Imagem inteligente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Criar e editar predefinições de imagem {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Ao combinar em um único player o seguinte:
 
 Estenda o alcance do seu conteúdo de mídia avançada para desktops, tablets e usuários de dispositivos móveis e garanta uma experiência de vídeo otimizada.
 
-Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
+Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
 
 Consulte a [Matriz de compatibilidade da Predefinição do Visualizador do Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Páginas da Web diferentes têm necessidades diferentes. Às vezes, você deseja uma página da Web que forneça um link que abra o Visualizador do HTML5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador do HTML5 diretamente na página de hospedagem. No último caso, a página da Web provavelmente tem um layout estático. Ou é &quot;responsivo&quot; e é exibido de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela de navegador. Para acomodar essas necessidades, os Visualizadores do HTML5 fornecidos com o Adobe Dynamic Media Classic são compatíveis com páginas da Web estáticas e páginas da Web com design responsivo.
 
-Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipos de predefinição do visualizador {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para Visualizadores, consulte as Notas de versão dos Visualizadores.
 
-Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources).
+Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -568,29 +568,29 @@ A tela Predefinições do visualizador oferece ferramentas para executar estas t
 
 * **Adicionar uma predefinição**: selecione **[!UICONTROL Add]** e faça escolhas na caixa de diálogo Adicionar Predefinição do Visualizador.
 
-      Consulte [Adicionar e editar Predefinições do Visualizador](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Consulte [Adicionar e editar Predefinições do Visualizador](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Editar uma predefinição**: selecione uma predefinição e, em seguida, **[!UICONTROL Edit]**.
 
-      Consulte [Adicionar e editar Predefinições do Visualizador](application-setup.md#adding_and_editing_viewer_presets).
-  
+  Consulte [Adicionar e editar Predefinições do Visualizador](application-setup.md#adding_and_editing_viewer_presets).
+
 * **Excluir uma predefinição**: selecione uma predefinição e, em seguida, **[!UICONTROL Delete]**.
 
 * **Exportar uma predefinição**: selecione uma Predefinição do Visualizador do HTML5. Em seguida, clique em **[!UICONTROL Export]** para baixar a capa do visualizador e usá-la como base para criar e adicionar outra Predefinição do visualizador.
 
-      Consulte [Exportar uma predefinição do visualizador do HTML5](application-setup.md#exports_an_html5_viewer_preset).
-  
+  Consulte [Exportar uma predefinição do visualizador do HTML5](application-setup.md#exporting_an_html5_viewer_preset).
+
 * **Filtrar a lista de Predefinições do Visualizador**: Use estas ferramentas para filtrar a lista:
 
-      * Abra a lista suspensa **Ativo/Inativo** e selecione uma opção para mostrar predefinições ativas, predefinições inativas ou todas as predefinições.
-     * Abra a lista suspensa **Visualizador** e selecione uma opção para ver somente os visualizadores de determinado tipo. Selecione **[!UICONTROL All Viewers]** para ver todos os visualizadores.
-  
+   * Abra a lista suspensa **Ativo/Inativo** e selecione uma opção para mostrar predefinições ativas, predefinições inativas ou todas as predefinições.
+   * Abra a lista suspensa **Visualizador** e selecione uma opção para ver somente visualizadores de determinado tipo. Selecione **[!UICONTROL All Viewers]** para ver todos os visualizadores.
+
 * **Classificar predefinições**: selecione um cabeçalho de coluna (**[!UICONTROL Active]**, **[!UICONTROL Type]**, **[!UICONTROL Preset]** ou **[!UICONTROL Platform]**) para classificar a lista em uma coluna. Selecione um cabeçalho de coluna uma segunda vez para classificar a lista em ordem decrescente (ou crescente).
 
 * **Ativar e desativar predefinições**: selecione uma predefinição e escolha a opção Ativo para ativá-la ou desativá-la.
 
-      Consulte [Ativar ou desativar Predefinições do Visualizador](application-setup.md#ativating_or_deactivating_viewer_presets).
-  
+  Consulte [Ativar ou desativar Predefinições do Visualizador](application-setup.md#activating_or_deactivating_viewer_presets).
+
 >[!NOTE]
 >
 >Selecione **[!UICONTROL Preview]** no lado direito da página Predefinições do visualizador para que você possa visualizar a aparência de um ativo na Predefinição do visualizador selecionada. Para ver um ativo diferente, selecione **[!UICONTROL Browse]** na página Predefinições do visualizador e selecione um ativo diferente na caixa de diálogo Selecionar visualização do ativo.
@@ -613,12 +613,12 @@ Veja também o vídeo de treinamento [Predefinições do visualizador](https://s
 
    * **Adicionar**: na barra de ferramentas, selecione **[!UICONTROL Add]**. Na caixa de diálogo Adicionar predefinição do visualizador, selecione uma plataforma e um tipo de ativo de mídia avançada.
 
-         Selecione **[!UICONTROL Save As]** quando terminar de criar a Predefinição do Visualizador.
-     
+     Selecione **[!UICONTROL Save As]** quando terminar de criar a Predefinição do visualizador.
+
    * **Adicionar iniciando a partir de uma Predefinição do Visualizador existente**: na tabela, selecione uma Predefinição do Visualizador de Vídeo e selecione **[!UICONTROL Edit]** na barra de ferramentas.
 
-         Depois de reconfigurar o Visualizador de Vídeo, selecione **[!UICONTROL Save As]** para salvar a predefinição usando um nome diferente no campo de texto Nome da Predefinição.
-     
+     Após reconfigurar o Visualizador de Vídeo, selecione **[!UICONTROL Save As]** para salvar a predefinição usando um nome diferente no campo de texto Nome da Predefinição.
+
    * **Editar**: selecione uma Predefinição do Visualizador existente e, em seguida, selecione **[!UICONTROL Edit]**.
 
 1. Na página Configurando o visualizador, no campo Nome da predefinição, digite ou edite o nome da predefinição.
@@ -938,7 +938,7 @@ Veja também o vídeo de treinamento [2D Spin Set](https://s7d5.scene7.com/s7vie
 
 **Para criar uma Predefinição de conjunto de lotes:**
 
-1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**. **[!UICONTROL View Form]**, conforme definido no canto superior direito da página Detalhes, é a exibição padrão.
+1. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**. **[!UICONTROL View Form]**, conforme definido no canto superior direito da página Detalhes, é a exibição padrão.
 1. No painel Lista de Predefinições, selecione **[!UICONTROL Add]** para ativar os campos de definição no painel Detalhes no lado direito da página.
 1. No painel Detalhes, no campo Nome da predefinição, digite um nome para a predefinição.
 1. No menu suspenso Tipo de conjunto de lote, selecione um tipo de predefinição.
@@ -987,7 +987,7 @@ Quando o conjunto de rotação é carregado e publicado, você ativaria o nome d
 
 **Para criar uma predefinição de conjunto de lotes para a geração automática de um conjunto de rotação 2D:**
 
-1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**. **[!UICONTROL View Form]**, conforme definido no canto superior direito da página Detalhes, é a exibição padrão.
+1. Ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**. **[!UICONTROL View Form]**, conforme definido no canto superior direito da página Detalhes, é a exibição padrão.
 1. No painel Lista de Predefinições, selecione **[!UICONTROL Add]** para ativar os campos de definição no painel Detalhes no lado direito da página.
 1. No painel Detalhes, no campo Nome da predefinição, digite um nome para a predefinição.
 1. No menu suspenso Tipo de Conjunto de Lotes, selecione **[!UICONTROL Asset Set]**.

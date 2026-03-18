@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 Consulte também:
 
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac](#install-silent-mac-dmc-app)
-* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows](#install-silent-windows-dmc-app)
+* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows®](#install-silent-windows-dmc-app)
 
 1. Desinstale todas as versões mais antigas do aplicativo de desktop do Adobe Dynamic Media Classic no sistema.
 
@@ -99,21 +99,27 @@ Consulte também:
 
    * A versão mais recente está disponível no site a seguir:
 
-      * [macOS (.DMG): Baixar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [macOS (.DMG): download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
       * [Windows (.EXE): Baixar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * A versão anterior está disponível no link a seguir:
 
-      * [macOS (.DMG): Baixar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+      * [macOS (.DMG): download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE): Baixar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--
+         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
+-->
 
-<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--
+        * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) 
+-->
 
-<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--
+    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+-->
 
 
 1. Siga um destes procedimentos com base no instalador que você baixou.
@@ -149,8 +155,8 @@ Consulte também:
 
 Consulte também:
 
-* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows](#installation-dmc-app)
-* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows](#install-silent-windows-dmc-app)
+* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows®](#installation-dmc-app)
+* [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Windows®](#install-silent-windows-dmc-app)
 
 Para baixar e *instalar silenciosamente* a versão mais recente do aplicativo de desktop do Adobe Dynamic Media Classic no macOS:
 
@@ -158,7 +164,7 @@ Para baixar e *instalar silenciosamente* a versão mais recente do aplicativo de
 
 1. Baixe o instalador mais recente do aplicativo de desktop do Adobe Dynamic Media Classic para macOS.
 
-   * [macOS (.DMG): Baixar](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+   * [macOS (.DMG): download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. Monte a imagem de disco baixada (.DMG) em um local de ponto de montagem usando o seguinte comando:
 
@@ -191,7 +197,7 @@ O comando usado é para uma instalação silenciosa básica do MSI. No entanto, 
 
 Consulte também:
 
-* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows](#installation-dmc-app)
+* [Baixe e instale o aplicativo de desktop Adobe Dynamic Media Classic mais recente no Mac ou no Windows®](#installation-dmc-app)
 
 * [Baixe e instale silenciosamente o aplicativo de desktop Adobe Dynamic Media Classic mais recente no macOS](#install-silent-mac-dmc-app)
 
@@ -233,7 +239,7 @@ Para baixar e *instalar silenciosamente* a versão mais recente do aplicativo de
 
 ## Apresentação em vídeo sobre como usar o aplicativo de desktop do Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
+Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
 
 ## Limpeza do cache de imagens e de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
@@ -271,11 +277,11 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 ## Dicas e truques
 
-**_Não consigo ver o painel Carrinho de Mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**&#x200B;está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
+**_Não consigo ver o painel Carrinho de Mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
 
-**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, era necessário fazer logon novamente na interface para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone do **[!UICONTROL Refresh]**&#x200B;na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresher]**&#x200B;para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
+**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, era necessário fazer logon novamente na interface para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone do **[!UICONTROL Refresh]**na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresher]**para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
 
 ![Ícone Atualizar](/help/using/assets/refresh-icon1.png)
 *Ícone Atualizar*
 
-**_Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop._**<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Sets Preset]**&#x200B;está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.
+**_Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop._**<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Sets Preset]**está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.

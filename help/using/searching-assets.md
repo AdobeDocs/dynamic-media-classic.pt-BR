@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,11 @@ Use o campo Pesquisar na Biblioteca de ativos para realizar pesquisas simples. V
 
    Os resultados da pesquisa são exibidos no painel Procurar à direita.
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## Realizar uma pesquisa avançada {#conducting-an-advanced-search}
 

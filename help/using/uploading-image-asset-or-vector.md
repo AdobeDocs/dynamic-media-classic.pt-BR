@@ -9,9 +9,9 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Antes de carregar um ativo de imagem, primeiro solicite uma chave de segredo com
 
 ## Solicitar uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
+Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que você deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
@@ -43,8 +43,10 @@ O token de upload é uma sequência alfanumérica que está disponível somente 
 * Imagem raster
   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`Neste exemplo, a chave de segredo compartilhado é `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
-<!-- * Vector
-  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
+<!-- 
+* Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` 
+-->
 
 Por padrão, o token de upload expira cinco minutos (300 segundos) após a recuperação. Para solicitar mais tempo, inclua `expires` na URL e o tempo necessário em segundos. Por exemplo, o seguinte URL de imagem de amostra recupera um token de upload válido por 1800 segundos:
 
@@ -87,9 +89,11 @@ Você pode usar os seguintes campos na cadeia de caracteres do URL de consulta p
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-<!-- **Sample vector URL:**
+<!-- 
+**Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` 
+-->
 
 **Métodos HTTP permitidos:**
 `GET` e `POST`
@@ -248,7 +252,8 @@ Você pode usar os seguintes campos na cadeia de caracteres de consulta do URL p
 
 GET e POST
 
-<!-- ## Upload a vector asset {#uploading-a-vector-asset}
+<!--
+## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
@@ -383,4 +388,4 @@ Send the asset to upload as a multipart/form post while sending the rest of the 
 **Allowed HTTP method:**
 
 POST
- -->
+-->

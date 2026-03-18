@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ A tabela a seguir descreve os eventos do visualizador que podem ser adicionados 
 | TARGET | | Em visualizadores de zoom direcionados, quando um usuário seleciona um destino de zoom para aplicar zoom a parte de uma imagem. |
 | PESQUISAR | | Em eCatalogs, quando um usuário realiza uma pesquisa de palavra. |
 | PLAY | **X** (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona Reproduzir para começar a reproduzir um vídeo.<br><br>**Observação:** se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores integrados do Adobe Dynamic Media Classic HTML5 Video e MixedMedia. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Habilitar Relatórios de Vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
-| PAUSAR | **X** (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona **[!UICONTROL Pause]** para congelar um vídeo.<br><br>**Observação:** se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores integrados do Adobe Dynamic Media Classic HTML5 Video e MixedMedia. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Habilitar Relatórios de Vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
+| PAUSAR | **X** (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona **[!UICONTROL Pause]** para congelar um vídeo.<br><br>**Observação:** se estiver usando relatórios de vídeo baseados em heartbeat do Adobe Analytics, você não precisará mapear nenhuma variável para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores integrados do Adobe Dynamic Media Classic HTML5 Video e MixedMedia. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Habilitar Relatórios de Vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
 | PARAR | **X** (Vídeo) | Em Visualizadores de vídeo, quando um usuário seleciona **[!UICONTROL Stop]** para interromper a reprodução de um vídeo.<br><br>**Observação:** se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores integrados do Adobe Dynamic Media Classic HTML5 Video e MixedMedia. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Habilitar Relatórios de Vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
-| ETAPA | **X** (Vídeo) | Em visualizadores de vídeo, os eventos marcantes são gerados quando o usuário assiste a 0, 25, 50, 75 ou 100% do vídeo.<br><br>**Observação:** se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores integrados do Adobe Dynamic Media Classic HTML5 Video e MixedMedia. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Habilitar Relatórios de Vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
+| ETAPA | **X** (Vídeo) | Em visualizadores de vídeo, os eventos de marco são gerados quando o usuário assiste a 0, 25, 50, 75 ou 100% do vídeo.<br><br>**Observação:** se estiver usando relatórios de vídeo baseados em pulsação do Adobe Analytics, não será necessário mapear variáveis para esse evento do visualizador ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores integrados do Adobe Dynamic Media Classic HTML5 Video e MixedMedia. O reprodutor de vídeo gera dados de rastreamento para exibição nos Relatórios de vídeo do Adobe Analytics. Consulte [Habilitar Relatórios de Vídeo do Adobe Analytics](enabling-analytics-video-reports.md). |
 | AMOSTRA | **X** (Submenu, Zoom) | Este evento do visualizador é mapeado para o evento do visualizador de PÁGINA no Adobe Dynamic Media Classic. |
 | ZOOM | **X** (eCatalog, SpinSet, Zoom) | Não rastreado pelo Adobe Analytics. |
 | PAN | **X** (eCatalog, SpinSet, Zoom) | Não rastreado pelo Adobe Analytics. |

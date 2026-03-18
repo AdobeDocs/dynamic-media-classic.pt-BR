@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Depois de integrar o Adobe Analytics com o Adobe Dynamic Media Classic, você po
 
 Usando os relatórios do Adobe Analytics, você pode obter uma visão clara da atividade dos clientes em seu site. É possível determinar quais apresentações de produto levam à conversão e quais não atraem o interesse do cliente.
 
-Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
+Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Publique seus visualizadores do Adobe Dynamic Media Classic para que os visualiz
 
 Consulte [Publicar informações de configuração](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## &#x200B;4. Coloque visualizadores do Adobe Dynamic Media Classic em seu site
+## &#x200B;4. Colocar visualizadores do Adobe Dynamic Media Classic em seu site
 
 Coloque os visualizadores do Adobe Dynamic Media Classic com o código de rastreamento do Adobe Analytics em seu site.
 

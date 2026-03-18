@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ Depois de criar as variáveis necessárias no Adobe Analytics, vinculá-las aos 
 >
 >Todos os dados do visualizador do Adobe Dynamic Media Classic são exibidos e relatados nos relatórios Tráfego personalizado ou Conversão personalizada do Adobe Analytics.
 
-Para obter mais informações, consulte [Tutoriais do Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-learn/tutorials/overview).
+Para obter mais informações, consulte [Tutoriais do Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
