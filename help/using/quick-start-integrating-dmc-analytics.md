@@ -25,7 +25,7 @@ Depois de integrar o Adobe Analytics com o Adobe Dynamic Media Classic, você po
 
 Usando os relatórios do Adobe Analytics, você pode obter uma visão clara da atividade dos clientes em seu site. É possível determinar quais apresentações de produto levam à conversão e quais não atraem o interesse do cliente.
 
-Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+Consulte também [Medir vídeo no Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
