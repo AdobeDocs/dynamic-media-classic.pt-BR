@@ -25,7 +25,7 @@ Os metadados são exibidos na Exibição de detalhes. Ela é exibida junto com a
 
 Alguns metadados são incorporados diretamente a um arquivo. Se um arquivo contiver esses metadados, o Adobe Dynamic Media Classic fará o upload automaticamente com o arquivo. É possível incorporar metadados em ativos de origem no Adobe Photoshop, InDesign, Illustrator e outros aplicativos; a Adobe Dynamic Media Classic reconhece esses metadados. Você também pode adicionar metadados a arquivos individuais no painel Metadados na Exibição de detalhes. Para garantir a consistência entre os ativos, os administradores da empresa criam modelos de metadados que fornecem os campos de metadados que podem ser preenchidos.
 
-Para obter mais informações sobre metadados inseridos, consulte [Plataforma de metadados extensível](https://www.adobe.com/products/xmp.html).
+Para obter mais informações sobre metadados inseridos, consulte [Plataforma de metadados extensível](https://www.adobe.com/br/products/xmp.html).
 
 ## Exibir metadados {#view-metadata}
 
