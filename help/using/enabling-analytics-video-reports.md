@@ -36,7 +36,7 @@ ht-degree: 0%
 
 Usando o relatório de vídeo baseado em pulsação do Adobe Analytics, você não deve mais ativar os quatro eventos do visualizador de vídeo (Reproduzir, Pausar, Parar, Marco) ao configurar o Adobe Analytics no Adobe Dynamic Media Classic. O Video Heartbeat funciona com visualizadores integrados de vídeo e mídia mista do Adobe Dynamic Media Classic HTML5. O reprodutor de vídeo gera dados de rastreamento para exibição nos relatórios de vídeo do Adobe Analytics.
 
-* Para obter uma introdução à mídia de transmissão e à &quot;medição de pulsação&quot;, consulte [Sobre o Adobe Analytics para mídia de transmissão](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+* Para obter uma introdução à mídia de transmissão e à &quot;medição de pulsação&quot;, consulte [Sobre o Adobe Analytics para mídia de transmissão](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
 
 * A integração dos relatórios de vídeo do Adobe Analytics com o Adobe Dynamic Media Classic é compatível com variáveis da solução, mas não com variáveis personalizadas.
 
@@ -44,9 +44,9 @@ Usando o relatório de vídeo baseado em pulsação do Adobe Analytics, você n�
 
 * Segmentos prontos para uso com incrementos de um minuto são compatíveis. No entanto, os relatórios de segmento personalizados, como marcos definidos pelo cliente com base em incrementos de tempo, % de marcos ou marcos de compensação, não são compatíveis.
 
-  Para obter mais informações sobre os requisitos e a configuração da mídia de streaming, consulte [Medir mídia de streaming no Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+  Para obter mais informações sobre os requisitos e a configuração da mídia de streaming, consulte [Medir mídia de streaming no Adobe Analytics](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-overview).
 
-* Para obter informações sobre variáveis personalizadas e de solução, consulte [Habilitação de relatórios de mídia](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
+* Para obter informações sobre variáveis personalizadas e de solução, consulte [Habilitação de relatórios de mídia](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
 
 >[!NOTE]
 >
