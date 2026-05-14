@@ -10,9 +10,21 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T20:10:17.674Z'
+TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: 859
 ht-degree: 0%
 
 ---
@@ -33,7 +45,7 @@ Consulte os seguintes vídeos de treinamento:
 
 O Quick Start a seguir foi projetado para colocar suas operações em funcionamento rapidamente com a administração do Portal de mídia. No final de cada etapa, selecione o link do tópico para saber mais.
 
-## &#x200B;1. Entenda as funções de usuário do Portal de mídia
+## &#x200B;1. Entender as funções de usuário do Portal de mídia
 
 Os usuários do Media Portal têm três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Por exemplo, um colaborador pode renomear e excluir arquivos e pastas, mas um usuário não pode fazer essas tarefas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
 

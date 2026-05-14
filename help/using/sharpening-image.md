@@ -10,9 +10,19 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:13:09.120Z'
+TQID: 'https://experienceleague.adobe.com/y5rcs4ohA-zMFKKm1EjsSxuUqgqbp-CVMzRcmTaRs6c'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: 2271
 ht-degree: 0%
 
 ---
@@ -58,7 +68,7 @@ A tabela a seguir mostra as opções de nitidez do Servidor de imagens.
 | Nome | Protocolo de URL | Valores | Exemplo |
 | --- | --- | --- | --- |
 | Nitidez simples | `op_sharpen` | `0` ou `1` | `op_sharpen=1` |
-| Modo de reamostragem | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização são geralmente visíveis.<br>`bicub`: Seleciona a interpolação bi-cúbica. Maior uso intensivo de CPU do que `bilin`, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.<br><br>`sharp2`: Seleciona uma função do Windows® Lanczos modificada como um algoritmo de interpolação. Ele pode produzir resultados ligeiramente mais nítidos do que o bi-cúbico a um custo de CPU mais alto.<br><br>`trilin`: Seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponíveis. Recomendado somente quando o alias for um problema. Reduz os tamanhos do JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
+| Modo de reamostragem | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização são visíveis com frequência.<br>`bicub`: seleciona a interpolação bi-cúbica. Maior uso intensivo de CPU do que `bilin`, mas produz imagens mais nítidas com menos artefatos de suavização visíveis.<br><br>`sharp2`: seleciona uma função modificada do Lanczos Windows® como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbico a um custo de CPU mais alto.<br><br>`trilin`: seleciona uma interpolação trilinear modificada, que usa resoluções mais altas e mais baixas, se disponíveis. Recomendado somente quando o alias for um problema. Reduz os tamanhos do JPEG devido à redução dos dados de alta frequência. | `resMode=sharp2` |
 | Tirar nitidez da máscara | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: fator de força do filtro (real 0...5)<br><br>`radius`: raio do kernel do filtro em pixels (real 0...250) <br><br>`threshold`: nível limite do filtro (inteiro 0...255)<br><br>`monochrome`: definido como `0` para remover a nitidez de cada componente de cor separadamente, definido como `1` para remover a nitidez da máscara de brilho da imagem (intensidade) | `op_usm=1,1,10,0` |
 
 Selecione o menu **[!UICONTROL Sharpening]** e escolha uma opção:

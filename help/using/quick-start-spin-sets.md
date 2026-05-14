@@ -10,9 +10,17 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:10:31.990Z'
+TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 828
 ht-degree: 0%
 
 ---
@@ -59,7 +67,7 @@ Para editar um Conjunto de rotação, na barra de Navegação global, vá para *
 
 Consulte [Editar um conjunto de rotação](creating-spin-set.md#editing-a-spin-set).
 
-## &#x200B;4. Configurar as predefinições do visualizador de conjunto de rotação
+## &#x200B;4. Configurar predefinições do visualizador de conjunto de rotação
 
 Os administradores podem criar Predefinições do visualizador de conjunto de rotação. Essas predefinições determinam a aparência do Visualizador de conjunto de rotação. Para configurar uma nova Predefinição do visualizador de conjunto de rotação, na barra de Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
@@ -67,7 +75,7 @@ Na página Predefinições do Visualizador, selecione **[!UICONTROL Add]**, sele
 
 Consulte [Configurar predefinições do visualizador de conjunto de rotação](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
-## &#x200B;5. Visualizar um grupo de rotação
+## &#x200B;5. Visualizar um conjunto de rotação
 
 Selecione o Conjunto de rotação no painel Procurar e selecione **[!UICONTROL Preview]**. Na página Visualização, mantenha pressionado o botão do mouse e arraste o ponteiro para a esquerda ou direita para &quot;girar&quot; visualmente o item.
 

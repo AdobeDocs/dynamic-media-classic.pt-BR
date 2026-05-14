@@ -7,9 +7,23 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 2d1f60721cc522866ecfc45df145a0c301a3d487
+autotag-review: '2026-05-13T20:06:45.018Z'
+TQID: 'https://experienceleague.adobe.com/mYN8K6E7pOWC1yLHetjo3OeoeNytSlVJEufTN3IHPCc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: 267
 ht-degree: 0%
 
 ---
@@ -23,8 +37,8 @@ ht-degree: 0%
 
 ## Recursos do desenvolvedor do Adobe Dynamic Media Classic
 
-* [Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources)
-* [Exemplos da Biblioteca do Visualizador](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+* [Guia de referência de visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources)
+* [Exemplos da biblioteca do visualizador](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 * [API de disponibilização de imagens e de processamento de imagens](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources)
 
 ## Boletins informativos, tutoriais e webinários do Adobe Dynamic Media Classic

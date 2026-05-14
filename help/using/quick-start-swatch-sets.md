@@ -10,10 +10,18 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:43.672Z'
+TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 0%
+source-wordcount: 391
+ht-degree: 1%
 
 ---
 
@@ -23,7 +31,7 @@ Os Conjuntos de amostras do Adobe Dynamic Media Classic oferecem aos usuários u
 
 O Início rápido dos conjuntos de amostras foi projetado para você começar a usar rapidamente as técnicas do Conjunto de amostras no Adobe Dynamic Media Classic.
 
-## &#x200B;1. Faça upload das imagens e dos arquivos de amostra
+## &#x200B;1. Fazer upload das imagens e dos arquivos de amostra
 
 Comece fazendo upload das imagens e dos arquivos de amostra para os Conjuntos de amostras.
 
@@ -33,7 +41,7 @@ Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arq
 
 Para criar um Conjunto de Amostras, na barra de Navegação Global, vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Na página Conjunto de amostras, arraste imagens e amostras de cores para a página. Consulte [Criar um conjunto de amostras](creating-swatch-set.md#creating-a-swatch-set).
 
-## &#x200B;3. Configurar as predefinições do visualizador do conjunto de amostras
+## &#x200B;3. Configurar predefinições do visualizador do conjunto de amostras
 
 Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Use as predefinições Visualizador de zoom: Personalizado > Conjuntos de imagens/Amostras de cores para exibir os Conjuntos de amostras.
 
