@@ -10,9 +10,15 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T19:59:54.410Z'
+TQID: 'https://experienceleague.adobe.com/C0REr3rutR9-FalFXHHeGVtYJGEeODYtTnAfWk-S0-M'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: 1181
 ht-degree: 0%
 
 ---
@@ -79,7 +85,7 @@ Em Tirar nitidez da máscara, defina as opções desejadas. As opções de confi
 | Quantidade | A quantidade controla a quantidade de contraste aplicada aos pixels de borda.<br><br>Pense nisso como a intensidade do efeito. Há uma diferença entre os valores de quantidade de Tirar nitidez da máscara no Dynamic Media Classic e no Adobe Photoshop. A principal diferença é que o Photoshop tem um intervalo de valores de 1% a 500%. Enquanto no Adobe Dynamic Media Classic, o intervalo de valores é de 0,0 a 5,0. Um valor de 5,0 no Adobe Dynamic Media Classic é o equivalente aproximado de 500% no Photoshop; um valor de 0,9 é o equivalente de 90% e assim por diante. |
 | Raio | Controla o raio do efeito. <br><br>O intervalo de valores é de 0 a 250. O efeito é executado em todos os pixels em uma imagem e irradia de todos os pixels em todas as direções. O raio é medido em pixels. Por exemplo, para obter um efeito de nitidez semelhante para uma imagem de 2000 × 2000 pixels e uma imagem de 500 × 500 pixels, você definiria um raio de dois pixels na imagem de 2000 × 2000 pixels. Em seguida, defina um valor de raio de um pixel na imagem de 500 × 500 pixels. Um valor maior é usado para uma imagem com mais pixels. |
 | Limite | O limite é um intervalo de contraste ignorado quando o filtro Tirar nitidez da máscara é aplicado. Esse efeito é importante para que nenhum &quot;ruído&quot; seja introduzido em uma imagem quando esse filtro for usado. O intervalo de valores é de 0 a 255, que é o número de etapas de brilho em uma imagem em tons de cinza. 0=preto, 128=50% cinza e 255=branco.<br><br>Por exemplo, um valor limite de 12 ignora pequenas variações no brilho do tom da pele para evitar a adição de ruído, mas ainda adiciona o contraste da borda a áreas contrastadas, como onde as pálpebras tocam a pele.<br><br>Por exemplo, se você tiver uma foto do rosto de alguém, a Máscara de Nitidez afetará as partes contrastadas da imagem. Por exemplo, onde pestanas e pele se encontram para criar uma área óbvia de contraste e a própria pele lisa. Mesmo a pele mais suave exibe alterações sutis nos valores de brilho. Se você não usar um valor de limite, o filtro acentua essas alterações sutis nos pixels de capa. Por sua vez, um efeito ruidoso e indesejável é criado enquanto o contraste das pálpebras é aumentado, aumentando a nitidez.<br><br>Para evitar esse problema, é introduzido um valor limite que informa ao filtro para ignorar os pixels que não alteram drasticamente o contraste, como a capa lisa. <br><br>No gráfico de zíper mostrado anteriormente, observe a textura ao lado dos zíperes. O ruído da imagem é exibido porque os valores de limite são muito baixos para suprimir o ruído. |
-| Monocromático | Selecione para desfazer a nitidez da imagem de brilho (intensidade).<br><br>Desmarque para remover a nitidez de cada componente de cor separadamente. |
+| Monocromático | Selecione para desfazer a máscara de nitidez do brilho da imagem (intensidade).<br><br>Desmarque para desfazer a máscara de nitidez de cada componente de cor separadamente. |
 
 Consulte também [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image).
 
@@ -92,9 +98,9 @@ Use o Plano de fundo de separação para remover automaticamente o plano de fund
 | Opções de plano de fundo de separação | Descrição |
 | --- | --- |
 | Plano de fundo de separação | Selecione para ativar ou &quot;ativar&quot; o recurso e as opções de Plano de fundo de separação. |
-| Canto | Obrigatório.<br>O canto da imagem usado para definir a cor do plano de fundo a ser vazada.<br>Você pode escolher entre <b>Superior Esquerdo, Inferior Esquerdo, Superior Direito ou Inferior Direito</b>. |
-| Método de preenchimento | Obrigatório. <br>Controla a transparência de pixels do local do Canto definido.<br>Você pode escolher entre os seguintes métodos de preenchimento:<br>· <b>Preenchimento</b>: transforma todos os pixels transparentes que correspondem ao Canto que você especificou e que estão conectados a ele.<br>· <b>Pixel de correspondência</b>: torna transparentes todos os pixels correspondentes, independentemente de sua localização na imagem. |
-| Tolerância | Opcional.<br>Controla a quantidade permitida de variação na correspondência de cores de pixels com base no local do Canto definido.<br>Use um valor de 0,0 para corresponder exatamente às cores do pixel. Ou use um valor de 1,0 para permitir a maior variação. |
+| Canto | Obrigatório.<br>O canto da imagem usado para definir a cor de plano de fundo a ser vazada.<br>Você pode escolher entre <b>Superior Esquerdo, Inferior Esquerdo, Superior Direito ou Inferior Direito</b>. |
+| Método de preenchimento | Obrigatório. <br>Controla a transparência de pixels do local do Canto definido.<br>Você pode escolher entre os seguintes métodos de preenchimento:<br>· <b>Preenchimento</b>: transforma todos os pixels transparentes que correspondem ao Canto que você especificou e que estão conectados a ele.<br>· <b>Corresponder Pixel</b>: transforma todos os pixels correspondentes transparentes, independentemente de sua localização na imagem. |
+| Tolerância | Opcional.<br>Controla a quantidade permitida de variação na correspondência de cores de pixels com base no local do Canto que você definiu.<br>Use um valor de 0,0 para corresponder exatamente às cores do pixel. Ou use um valor de 1,0 para permitir a maior variação. |
 
 >[!MORELIKETHIS]
 >

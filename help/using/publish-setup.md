@@ -9,9 +9,15 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:08:29.260Z'
+TQID: 'https://experienceleague.adobe.com/-fupHROLSD2veWgnchj2uhPQCKhLqtMasdqOVUNri6g'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: 2369
 ht-degree: 0%
 
 ---
@@ -53,7 +59,7 @@ Altere essas configurações somente com a assistência de um suporte técnico d
   Por exemplo, se você for uma marca multinacional que vende em diferentes países, é possível garantir que cada país tenha seu próprio Visualizador específico de localidade. Para obter essa funcionalidade, especifique uma string de mapa de local. Em seguida, edite o texto da dica de ferramenta na predefinição do Visualizador. Basta adicionar as cadeias de texto traduzidas para o idioma desejado.
 
   >[!NOTE]
-  > Para configurar as opções de Suporte à Localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite ajuda para a instalação.
+  > Para configurar as opções de Suporte à Localização, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite ajuda para a configuração.
 
   Para obter mais informações sobre a configuração do **[!UICONTROL Localization Support]**, consulte [Considerações ao configurar a localização de ativos](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +67,7 @@ Altere essas configurações somente com a assistência de um suporte técnico d
 
 >[!NOTE]
 >
->Se você quiser configurar as opções de Suporte à Localização no Adobe Dynamic Media Classic, como o campo Mapa de Localidade, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No seu caso de suporte, solicite ajuda para a instalação.
+>Se você deseja configurar as opções de Suporte à Localização no Adobe Dynamic Media Classic, como o campo Mapa de Localidade, [use o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) No caso de suporte, solicite ajuda para a configuração.
 
 Uma maneira comum de usar o Adobe Dynamic Media Classic é gerenciar as imagens do produto em sites de e-Commerce. As empresas internacionais enfrentam o desafio de que os ativos para produtos semelhantes pareçam diferentes de país para país. Geralmente, as diferenças se referem a algumas partes da mídia geral. Resolver essas diferenças copiando todos os ativos para cada um dos países e substituindo apenas as diferenças é um esforço tremendo e contradiz a metáfora do ativo principal individual. Essas diferenças nos recursos podem variar, desde vídeos específicos de cada país com faixas de áudio diferentes até diferenças sutis, mas importantes, em um cabo de alimentação usado com o produto. O Adobe Dynamic Media Classic usa um mecanismo básico de pesquisa. Você define uma ordem de sufixos de ativos que o Servidor de imagens procura, começando pelo local necessário.
 

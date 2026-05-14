@@ -10,9 +10,14 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:11.713Z'
+TQID: 'https://experienceleague.adobe.com/OhGE3-jniPFknPmpVykZWWSKo2jwdef2sA3Yqo5WpWw'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 644
 ht-degree: 0%
 
 ---
@@ -48,7 +53,7 @@ Depois de publicar um Conjunto de amostras, você pode usar o URL associado ou o
 
 A maneira mais comum de implantar Conjuntos de amostras é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de amostras em uma janela pop-up de zoom. O link de zoom abre uma janela pop-up que contém o recurso de zoom real.
 
-Para obter mais detalhes e exemplos de código, consulte [Incorporação do Visualizador de Zoom do HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Para obter mais detalhes e exemplos de código, consulte [Incorporação do Visualizador de Zoom do HTML5 no Guia de Referência de Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Copiar o código incorporado de um visualizador de conjunto de amostras {#copying-the-embed-code-of-a-swatch-set-viewer}
 

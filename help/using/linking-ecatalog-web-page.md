@@ -10,9 +10,14 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:52:09.030Z'
+TQID: 'https://experienceleague.adobe.com/cAIaFvlJ3jYoqu1LeLRILuuYsfvuYH6f-N8PqqkHkrk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 636
 ht-degree: 0%
 
 ---
@@ -48,7 +53,7 @@ Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic M
 
 A maneira mais comum de implantar um eCatalog é colocar um link na forma de uma página de capa em miniatura do eCatalog na sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços no navegador sejam exibidas.
 
-Para obter mais detalhes e exemplos de código, consulte o [eCatalog Viewer do HTML5 incorporado](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) na Adobe Viewers Reference.
+Para obter mais detalhes e exemplos de código, consulte o [eCatalog Viewer do HTML5 incorporado](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) na Adobe Viewers Reference.
 
 ## Copiar o código incorporado de um visualizador de eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 

@@ -6,9 +6,15 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:25.016Z'
+TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -46,9 +52,9 @@ O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando 
 
 | Recurso | Descrição |
 | --- | --- |
-| Criação e entrega aceleradas de conteúdo | · Collaboration e sincronização de arquivos compartilhados com aplicativos do [!DNL Adobe Creative Cloud].<br>· Atende a todos os critérios exigidos do Dynamic Asset Management: Criar, Colaborar, Gerenciar e Fornecer tudo em um único aplicativo, uma única interface, uma única rede.<br>· Gerenciamento de ativos digitais de nível empresarial com suporte robusto a metadados, pesquisa inteligente, lightbox e coleções, controle de versão e compartilhamento seguro de ativos para uso por fornecedores, parceiros e franqueados<br>· Fluxos de trabalho de revisão e aprovação para ativos de trabalho em andamento. |
-| Elementos de interface de usuário de experiências interativas fáceis | · Crie experiências facilmente com construtores não técnicos em tempo real.<br>· Mídia shoppable/interativa, combine ativos de campanha com informações de produto.<br>· Aumente a satisfação do cliente e impulsione a conversão. |
-| Fluxo De Trabalho Inclusivo De Ponta A Ponta | · Fornecer mídia avançada otimizada para todos os pontos de contato, incluindo as soluções [!DNL Adobe Experience Cloud] completas.<br>· Integração com o [!DNL Adobe Experience Cloud] para análise avançada de ativos, direcionamento e reutilização de ativos em pontos de contato de marketing. Alguns desses pontos de contato incluem [!DNL Adobe Campaign] para email, [!DNL Adobe Social] para canais sociais e [!DNL Adobe Experience Manager] Sites para aplicativos responsivos para dispositivos móveis e da Web. |
+| Criação e entrega aceleradas de conteúdo | · Collaboration e sincronização de arquivos compartilhados com [!DNL Adobe Creative Cloud] aplicativos.<br>· Atende a todos os critérios necessários do Dynamic Asset Management: Criar, Colaborar, Gerenciar e Fornecer tudo em um aplicativo, uma interface, uma rede.<br>· Gerenciamento de ativos digitais de nível empresarial com suporte robusto a metadados, pesquisa inteligente, lightbox e coleções, controle de versão e compartilhamento seguro de ativos para uso por fornecedores, parceiros e franqueados<br>· Fluxos de trabalho de revisão e aprovação de ativos de trabalho em andamento. |
+| Elementos de interface de usuário de experiências interativas fáceis | · Crie experiências facilmente com construtores em tempo real que não são técnicos.<br>· Mídia que pode ser comprada/interativa, combine ativos da campanha com informações do produto.<br>· Aumente a satisfação do cliente e promova a conversão. |
+| Fluxo De Trabalho Inclusivo De Ponta A Ponta | · Forneça mídia avançada otimizada para todos os pontos de contato, incluindo as soluções [!DNL Adobe Experience Cloud] completas.<br>· Integração com o [!DNL Adobe Experience Cloud] para análise avançada de ativos, direcionamento e reutilização de ativos em pontos de contato de marketing. Alguns desses pontos de contato incluem [!DNL Adobe Campaign] para email, [!DNL Adobe Social] para canais sociais e [!DNL Adobe Experience Manager] Sites para aplicativos responsivos para dispositivos móveis e da Web. |
 
 ## Por que Adobe?
 

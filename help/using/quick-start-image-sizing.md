@@ -10,9 +10,14 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:09:57.533Z'
+TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: 912
 ht-degree: 0%
 
 ---
@@ -55,7 +60,7 @@ Experimente com as diferentes Predefinições de imagem. Descubra como a imagem 
 
 Consulte [Visualizar um ativo de imagem com base em sua Predefinição de imagem](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset).
 
-## &#x200B;4. Publique suas imagens principais
+## &#x200B;4. Publicar suas imagens principais
 
 A publicação dos arquivos de imagem principais tem dois objetivos essenciais:
 
@@ -64,7 +69,7 @@ A publicação dos arquivos de imagem principais tem dois objetivos essenciais:
 
 Na barra Navegação Global, selecione **[!UICONTROL Publish]** para iniciar um trabalho de publicação. Na caixa de diálogo Publicação, selecione **[!UICONTROL Submit Publish]**. Consulte [Publicar imagens principais](publishing-master-images.md#publishing_master_images).
 
-## &#x200B;5. Vincular URLs à sua aplicação web
+## &#x200B;5. Vincular URLs ao aplicativo web
 
 O Adobe Dynamic Media Classic cria strings de texto explicativo de URL para imagens. Ao publicar imagens nos Servidores de imagens do Dynamic Media, os URLs ficam ativos. Você pode copiar essas cadeias de caracteres de URL do painel Procurar (na Exibição de detalhes) ou da tela Visualização. Após copiar as cadeias de caracteres de URL, é possível usá-las no site e nos aplicativos. O URL para dimensionamento de imagem substitui a referência a um nome de imagem estática no código da página da Web. O URL faz referência a um nome de imagem principal que o banco de dados substitui para cada nova imagem a ser exibida.
 

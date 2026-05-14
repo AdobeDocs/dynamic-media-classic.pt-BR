@@ -10,9 +10,14 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:11:12.792Z'
+TQID: 'https://experienceleague.adobe.com/0ilSf9rbFcvh2-AVdVnifjNi7bOa5AjCqBFCUC95I5Q'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: 915
 ht-degree: 0%
 
 ---
@@ -29,19 +34,19 @@ Consulte [Destino do Zoom: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/ht
 
 O seguinte Início rápido do Zoom foi projetado para você começar a trabalhar rapidamente com técnicas de Zoom no Adobe Dynamic Media Classic. Siga as etapas de 1 a 6. Após cada etapa, há uma referência cruzada a um cabeçalho de tópico onde você pode encontrar mais informações.
 
-## &#x200B;1. Carregar imagens com zoom
+## &#x200B;1. Carregar imagens de zoom
 
 Comece carregando suas imagens de zoom no Adobe Dynamic Media Classic. Para obter o zoom ideal, a Adobe Dynamic Media Classic recomenda que as imagens tenham pelo menos 2000 pixels no tamanho mais longo.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar imagens do seu computador ou rede para uma pasta no Adobe Dynamic Media Classic. Consulte [Carregar imagens com zoom](uploading-zoom-images.md#uploading_zoom_images).
 
-## &#x200B;2. Criar Metas de Zoom para zoom guiado
+## &#x200B;2. Criar destinos de zoom para zoom guiado
 
 Os destinos de zoom apresentam uma maneira de destacar partes específicas de uma imagem. Por exemplo, é possível direcionar atenção às partes de uma imagem que a tornam única ou distinta. Na janela Visualizador de zoom, os Destinos de zoom são exibidos no formato de miniaturas junto à imagem. Selecionar uma dessas miniaturas de destino de zoom automaticamente dá zoom a uma parte da imagem especificada.
 
 Para criar um destino de zoom, selecione **[!UICONTROL Edit]** e escolha Destinos de Zoom ou abra uma imagem no painel Procurar, na Exibição de Detalhes, e selecione **[!UICONTROL Zoom Targets]**. Em seguida, use as ferramentas Zoom na página Editor de destino de zoom para isolar parte da imagem como um destino. Consulte [Criar Destinos de Zoom para Zoom Guiado](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
-## &#x200B;3. Configurar as predefinições do visualizador de zoom
+## &#x200B;3. Configurar predefinições do visualizador de zoom
 
 As predefinições do visualizador de zoom determinam o estilo e o comportamento dos visualizadores de zoom. Você pode configurar as Predefinições do visualizador de zoom se for um administrador; o Adobe Dynamic Media Classic também vem com as &quot;práticas recomendadas&quot; padrão de Predefinições do visualizador de zoom.
 
