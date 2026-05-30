@@ -40,7 +40,7 @@ Usando o relatório de vídeo baseado em pulsação do Adobe Analytics, você n�
 
 * A integração dos relatórios de vídeo do Adobe Analytics com o Adobe Dynamic Media Classic é compatível com variáveis da solução, mas não com variáveis personalizadas.
 
-  Consulte [Parâmetros de áudio e vídeo](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters) para obter mais informações sobre variáveis de solução e variáveis personalizadas.
+  Consulte [Parâmetros de áudio e vídeo](https://experienceleague.adobe.com/pt-br/docs/media-analytics/using/implementation/variables/audio-video-parameters) para obter mais informações sobre variáveis de solução e variáveis personalizadas.
 
 * Segmentos prontos para uso com incrementos de um minuto são compatíveis. No entanto, os relatórios de segmento personalizados, como marcos definidos pelo cliente com base em incrementos de tempo, % de marcos ou marcos de compensação, não são compatíveis.
 
