@@ -11,19 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e52a31a700f7b319f0fe3aee836687771bf5618c
 workflow-type: tm+mt
-source-wordcount: 3490
+source-wordcount: 3380
 ht-degree: 0%
 
 ---
@@ -38,7 +32,7 @@ Antes de fazer upload dos ativos para o Adobe Dynamic Media Classic, verifique s
 
 ### Formatos de arquivo de ativo compatíveis {#supported-asset-file-formats}
 
-Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw compatíveis, consulte [https://helpx.adobe.com/br/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/br/camera-raw/using/supported-cameras.html).
+Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw compatíveis, consulte [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Formatos de arquivo do ativo | Descrição |
 | --- | --- |
@@ -158,18 +152,6 @@ A abordagem de nomenclatura de pastas e a estrutura escolhidas para armazenar o 
 **Com base em projeto**: as pastas são organizadas de acordo com a data de implantação/entrega ou o nome do projeto. Os clientes que produzem principalmente eCatalogs favorecem essa abordagem.
 
 **Espelho da hierarquia de pastas do site**: esta estrutura de pastas espelha a estrutura de pastas do site, com as pastas nomeadas, por exemplo, para categorias de produtos.
-
-### Segurança FTP {#about-ftp-security}
-
-O Dynamic Media Classic impõe as seguintes políticas de segurança para o acesso FTP:
-
-| Política de segurança | Descrição |
-| --- | --- |
-| Isolamento de usuário | Cada usuário do FTP é restrito ao seu próprio diretório e não pode acessar diretórios que pertencem a outros usuários. |
-| Contas exclusivas | Cada usuário ou integração do FTP requer uma conta FTP dedicada. Contas compartilhadas não são permitidas. Consulte [Gerenciar contas FTP](/help/using/ftp-accounts.md). |
-| Linhas de base de configuração | As configurações do servidor FTP seguem as linhas de base de segurança estabelecidas. |
-| Auditoria contínua | O aplicativo do servidor FTP e o sistema operacional subjacente são auditados e monitorados regularmente em busca de vulnerabilidades de segurança e são atualizados conforme necessário. |
-| FTP seguro para *novos* clientes | Os novos clientes são provisionados com FTP seguro. O acesso ao FTP herdado ainda permanece disponível para *clientes existentes*. |
 
 ## Sobre o upload de arquivos {#uploading-your-files}
 
