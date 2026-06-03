@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
+source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
 workflow-type: tm+mt
-source-wordcount: 3380
+source-wordcount: 3490
 ht-degree: 0%
 
 ---
@@ -158,6 +158,18 @@ A abordagem de nomenclatura de pastas e a estrutura escolhidas para armazenar o 
 **Com base em projeto**: as pastas são organizadas de acordo com a data de implantação/entrega ou o nome do projeto. Os clientes que produzem principalmente eCatalogs favorecem essa abordagem.
 
 **Espelho da hierarquia de pastas do site**: esta estrutura de pastas espelha a estrutura de pastas do site, com as pastas nomeadas, por exemplo, para categorias de produtos.
+
+### Segurança FTP {#about-ftp-security}
+
+O Dynamic Media Classic impõe as seguintes políticas de segurança para o acesso FTP:
+
+| Política de segurança | Descrição |
+| --- | --- |
+| Isolamento de usuário | Cada usuário do FTP é restrito ao seu próprio diretório e não pode acessar diretórios que pertencem a outros usuários. |
+| Contas exclusivas | Cada usuário ou integração do FTP requer uma conta FTP dedicada. Contas compartilhadas não são permitidas. Consulte [Gerenciar contas FTP](/help/using/ftp-accounts.md). |
+| Linhas de base de configuração | As configurações do servidor FTP seguem as linhas de base de segurança estabelecidas. |
+| Auditoria contínua | O aplicativo do servidor FTP e o sistema operacional subjacente são auditados e monitorados regularmente em busca de vulnerabilidades de segurança e são atualizados conforme necessário. |
+| FTP seguro para *novos* clientes | Os novos clientes são provisionados com FTP seguro. O acesso ao FTP herdado ainda permanece disponível para *clientes existentes*. |
 
 ## Sobre o upload de arquivos {#uploading-your-files}
 
