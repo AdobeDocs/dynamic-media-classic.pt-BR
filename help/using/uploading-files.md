@@ -21,7 +21,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 62695a6b15ea198fbf668af78e6e066a1b00c8ad
+source-git-commit: 788c18da7c6dc10ecdfbaec06710ded784559f82
 workflow-type: tm+mt
 source-wordcount: 3379
 ht-degree: 0%
@@ -163,7 +163,7 @@ A abordagem de nomenclatura de pastas e a estrutura escolhidas para armazenar o 
 
 Você pode carregar arquivos individuais da área de trabalho ou carregar pastas usando o FTP. Para carregar mais de 100 MB de arquivos ou pastas e subpastas inteiras, selecione a guia **VIA FTP**.
 
-O Adobe Dynamic Media Classic envia uma mensagem de email para confirmar quando o trabalho de upload começa e termina e para notificá-lo de quaisquer problemas.
+O Adobe Dynamic Media Classic envia uma mensagem de email para confirmar quando o trabalho de upload começa e termina e para notificar você sobre problemas.
 
 Durante (ou imediatamente após) um processo de upload grande, alguns novos itens podem exibir a mensagem &quot;Imagem ainda não otimizada&quot;. Essa mensagem é exibida porque os arquivos ainda não foram totalmente processados e adicionados ao Adobe Dynamic Media Classic. Você pode otimizar esses arquivos posteriormente. Consulte [Otimizar arquivos](application-setup.md#optimize_files).
 
