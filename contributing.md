@@ -42,7 +42,7 @@ Com os problemas, você pode descrever facilmente sua ideia para aprimorar os do
 
 Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com os pull requests, é possível fazer edições na documentação, e um membro da equipe de documentação a revisa para inclusão. Para fazer as alterações sugeridas e criar o pull request, selecione **[!UICONTROL Edit this page]** na parte superior direita do painel de navegação em qualquer página.
 
-Um contrato de licença de colaborador [ assinado ou CLA](https://opensource.adobe.com/cla.html) deve acompanhar todas as solicitações de pull. Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você só pode enviar um Adobe CLA uma vez. Se tiver enviado um anteriormente, você está configurado.
+Um contrato de licença de colaborador [&#x200B; assinado ou CLA](https://opensource.adobe.com/cla.html) deve acompanhar todas as solicitações de pull. Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você só pode enviar um Adobe CLA uma vez. Se tiver enviado um anteriormente, você está configurado.
 
 ### Introdução rápida ao vídeo
 
