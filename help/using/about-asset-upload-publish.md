@@ -1,5 +1,5 @@
 ---
-title: Sobre o upload e a publicação de ativos
+title: Fazer upload e publicar no Assets
 description: Saiba como fazer upload e publicar de ativos no Adobe Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -11,26 +11,23 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:33:44.592Z'
 TQID: 'https://experienceleague.adobe.com/cBIWqoPxMe-Xw32Ywiqr82U2-wdJySjyM7BzDdGPA0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9417586477c07ca389e075bc8f0d09e21bac7957
 workflow-type: tm+mt
-source-wordcount: 149
+source-wordcount: 143
 ht-degree: 0%
 
 ---
 
-# Sobre o upload e a publicação de ativos {#about-uploading-and-publishing-assets}
+# Fazer upload e publicar ativos {#about-uploading-and-publishing-assets}
 
-Seu trabalho no Adobe Dynamic Media Classic se enquadra em três áreas básicas:
+O Adobe Dynamic Media Classic inclui três funções básicas:
 
 * Fazer upload de ativos de arquivo para o Adobe Dynamic Media Classic.
 * Gerenciamento de arquivos para que você possa usá-los para criar ativos de mídia avançada.
-* Publicar seus arquivos de ativos em um servidor do Dynamic Media Classic para que eles estejam disponíveis para entrega em seu site e aplicativo.
+* Publicar seus arquivos de ativos em um servidor do Dynamic Media Classic para que eles estejam disponíveis para entrega em seu site e aplicativos.
 
 Ao carregar arquivos de ativos para o Adobe Dynamic Media Classic e publicar arquivos de ativos nos servidores do Adobe Dynamic Media Classic, o sistema registra essas transferências de arquivos na página **[!UICONTROL Jobs]**. Você pode ir para esta página para rastrear e monitorar suas atividades de upload e publicação.
 
