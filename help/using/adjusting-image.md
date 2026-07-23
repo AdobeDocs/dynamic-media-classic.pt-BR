@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:38:08.783Z'
 TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 521
+source-wordcount: 484
 ht-degree: 0%
 
 ---
 
 # Ajustar uma imagem{#adjusting-an-image}
 
-O Adobe Dynamic Media Classic oferece vários comandos para ajustar a aparência de uma imagem. É possível virar, girar, desfocar, alterar o Equilíbrio de Cores e colorir uma imagem. À medida que você experimentar esses comandos, poderá ver seus efeitos na imagem com a qual está trabalhando.
+O Adobe Dynamic Media Classic oferece vários comandos para ajustar a aparência de uma imagem. É possível virar, girar, desfocar, alterar o Equilíbrio de Cores e colorir uma imagem. À medida que você experimentar esses comandos, poderá observar seus efeitos na imagem com a qual está trabalhando.
 
 Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -39,29 +36,29 @@ Consulte também [Criar um alias para uma imagem](adjusting-image.md#creating_an
 
    * Use as opções Inverter para inverter uma imagem na horizontal ou vertical.
    * Use o controle deslizante **[!UICONTROL Rotator]** para girar a imagem. Você pode inserir valores no campo **[!UICONTROL Rotator]** para girar uma imagem. Valores positivos giram no sentido horário; valores negativos giram no sentido anti-horário.
-   * Use o controle deslizante de Desfoque ou sua caixa correspondente para desfocar uma imagem. Quanto maior o valor, mais desfocada se tornará a imagem.
+   * Use o controle deslizante de Desfoque ou sua caixa correspondente para desfocar uma imagem. Valores mais altos aumentam o desfoque da imagem.
    * Use as opções Contraste, Brilho, Saturação, Matiz e Equilíbrio de Cor para ajustar a cor e o brilho. Estes efeitos são cumulativos. Por exemplo, as alterações nas configurações de Magenta/Verde são adicionadas às alterações feitas nas configurações de Matiz.
-   * Use as opções `Colorize` para colorir uma imagem, preservando sombras e realces. As alterações nas opções de Colorir também são cumulativas. No menu Brilho, escolha **[!UICONTROL No Compensation]** para desabilitar a compensação automática de brilho. Defina o valor do contraste como 0 para preservar o intervalo de contraste da imagem original ou especifique um intervalo de contraste com um valor maior que 0. Um valor de 100 maximiza o contraste. Os valores típicos estão no intervalo de 30 a 70.
+   * Use as opções `Colorize` para colorir uma imagem, preservando sombras e realces. As alterações nas opções de Colorir também são cumulativas. No menu Brilho, escolha **[!UICONTROL No Compensation]** para desabilitar a compensação automática de brilho. Para preservar o intervalo de contraste da imagem original, defina o valor de contraste como 0 ou especifique um intervalo de contraste com um valor maior que 0. Um valor de 100 maximiza o contraste. Os valores típicos estão no intervalo de 30 a 70.
 
 1. Quando terminar de ajustar a imagem, siga um destes procedimentos:
 
    * Selecione **[!UICONTROL Save]**.
 
-   * Para substituir o original da imagem, selecione **[!UICONTROL Save As]**.
+   * Para substituir a imagem original, selecione **[!UICONTROL Save As]**.
 
      Na lista suspensa, selecione **[!UICONTROL Replace original]** e, em seguida, **[!UICONTROL Save]**.
 
    * Para salvar a imagem como uma nova imagem primária, selecione **[!UICONTROL Save As]**.
 
      Na lista suspensa, selecione **[!UICONTROL Save as a new primary]**.
-Na caixa de listagem **[!UICONTROL Folder Name]**, selecione a pasta onde deseja salvar a nova imagem primária.
-Selecione **[!UICONTROL Save]**.
+     Na caixa de listagem **[!UICONTROL Folder Name]**, selecione a pasta onde deseja salvar a nova imagem principal.
+     Selecione **[!UICONTROL Save]**.
 
-   * Para salvar a imagem como outra visualização da imagem principal. você pode criar um alias para ele. Selecione **[!UICONTROL Save As]**.
+   * Para salvar a imagem como outra visualização da imagem principal, você pode criar um alias para ela. Selecione **[!UICONTROL Save As]**.
 
      Na lista suspensa da caixa de diálogo **[!UICONTROL Save As]**, selecione **[!UICONTROL Save as another view of primary]**.
-Na caixa de listagem **[!UICONTROL Folder Name]**, selecione a pasta onde deseja salvar a nova imagem primária.
-Selecione **[!UICONTROL Save]**.
+     Na caixa de listagem **[!UICONTROL Folder Name]**, selecione a pasta onde deseja salvar a nova imagem principal.
+     Selecione **[!UICONTROL Save]**.
 
 ## Criar um alias para uma imagem {#creating-an-alias-for-an-image}
 
