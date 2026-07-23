@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:38:48.640Z'
 TQID: 'https://experienceleague.adobe.com/JVp6DCNNDrdo5AQvDrv4ubTmXFKUvqLKOHg0CtGVN2E'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 6fc776c64e7e0dca958296b508b2d7b07849a88d
 workflow-type: tm+mt
-source-wordcount: 439
+source-wordcount: 422
 ht-degree: 0%
 
 ---
 
 # Trabalhar com pastas de ativos{#working-with-asset-folders}
 
-Os ativos de arquivo na Adobe Dynamic Media Classic são mantidos em pastas. Essas pastas são listadas em ordem alfabética no painel Biblioteca de ativos. Antes de fazer upload dos arquivos do seu computador ou rede para o Adobe Dynamic Media Classic, você deve nomear uma pasta para armazenar os arquivos. Crie essas pastas antes de fazer upload de qualquer arquivo.
+Os ativos de arquivo no Adobe Dynamic Media Classic são mantidos em pastas. Essas pastas são listadas em ordem alfabética no painel Biblioteca de ativos. Antes de fazer upload de arquivos do seu computador ou rede para o Adobe Dynamic Media Classic, você deve nomear uma pasta na qual armazená-los. Crie essas pastas antes de fazer upload de qualquer arquivo.
 
 Estabeleça uma estrutura de pastas e uma organização para armazenar os arquivos no Adobe Dynamic Media Classic antes de fazer upload dos arquivos.
 
@@ -37,7 +34,7 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
 * **Exibir subpastas**: selecione o ícone **[!UICONTROL Expanded Folder]** para exibir as subpastas em uma pasta. Esse ícone está localizado à esquerda dos nomes das pastas.
 
-* **Mover uma pasta**: você pode mover uma pasta arrastando-a e soltando-a em seu novo local ou selecionando **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
+* **Mover uma pasta**: mova uma pasta arrastando-a e soltando-a ou selecione **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
 
 * **Ocultar pastas**: selecione o ícone **[!UICONTROL Collapsed Folder]** se desejar recolher subpastas para ocultá-las. Esse ícone está localizado à esquerda dos nomes das pastas.
 
@@ -45,7 +42,7 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
 >[!TIP]
 >
->Você pode ocultar ou exibir a Biblioteca de Ativos selecionando o controle **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço para trabalhar no painel Procurar.
+>Você pode ocultar ou exibir a Biblioteca de Ativos selecionando o controle **[!UICONTROL Expand]** ou **[!UICONTROL Collapse]** no lado esquerdo. Recolha o painel Biblioteca de ativos quando precisar de mais espaço no painel Procurar.
 
 ## Criar pastas
 
@@ -61,10 +58,10 @@ A Biblioteca de ativos exibe arquivos em uma árvore de pastas. Quando você sel
 
 Selecione uma pasta e use estas técnicas para excluí-la ou renomeá-la:
 
-* **Excluir**: selecione o botão **[!UICONTROL `Remove Folder`]**. O Assets em uma pasta excluída é colocado na pasta Lixeira. Você pode recuperá-los a partir daí.
+* **Excluir**: selecione o botão **[!UICONTROL `Remove Folder`]**. O Assets em uma pasta excluída é movido para a pasta itens excluídos. Você pode recuperá-los a partir daí.
 
 * **Renomear**: clique duas vezes no nome e insira um novo nome.
 
 >[!NOTE]
 >
->Não é possível copiar pastas ou ativos porque isso criaria pastas e ativos duplicados no Adobe Dynamic Media Classic, e duplicatas não são permitidas.
+>Copiar pastas ou ativos cria pastas e ativos duplicados no Adobe Dynamic Media Classic, que não é compatível.
