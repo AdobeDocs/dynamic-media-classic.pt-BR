@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
 workflow-type: tm+mt
-source-wordcount: 179
+source-wordcount: 173
 ht-degree: 0%
 
 ---
 
 # Sobre conteúdo gerado pelo usuário no Adobe Dynamic Media Classic {#about-user-generated-content}
 
-O uso do UGC (conteúdo gerado pelo usuário) consiste em fazer upload de ativos para um repositório de armazenamento dedicado do Adobe Dynamic Media Classic e executar operações relacionadas.
+O UGC (conteúdo gerado pelo usuário) consiste em fazer upload de ativos para um repositório de armazenamento [!DNL Adobe Dynamic Media Classic] dedicado e executar operações relacionadas.
 
 O UGC é compatível com formatos de arquivo de imagem rasterizada BMP, GIF, JPG, PNG, PSD, TIFF.
 
 >[!IMPORTANT]
 >
->A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso por até 60 dias a partir da data do upload. Após 60 dias, os ativos serão removidos.
+>A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media permanecerão disponíveis para uso por até 60 dias a partir da data do upload. Após 60 dias, os ativos são removidos.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
@@ -43,7 +43,7 @@ O UGC é compatível com formatos de arquivo de imagem rasterizada BMP, GIF, JPG
 >
 >O suporte a ativos de imagem vetorial UGC novos ou existentes no Adobe Dynamic Media Classic terminou em 30 de setembro de 2021.
 
-Antes de carregar ativos, você obtém uma chave de segredo compartilhado. Você usa essa chave para recuperar um token de upload. Você envia o token de upload ao fazer upload de ativos e executar outras tarefas de UGC.
+Antes de carregar ativos, você deve obter uma chave de segredo compartilhado. Você usa essa chave para recuperar um token de upload. Você envia o token de upload ao fazer upload de ativos e executar outras tarefas de UGC.
 
 Depois de recuperar uma chave de segredo compartilhado e fazer upload do token, você pode executar as seguintes operações para o conteúdo gerado pelo usuário:
 
