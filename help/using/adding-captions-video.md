@@ -11,24 +11,20 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: 706
 ht-degree: 0%
 
 ---
 
 # Adicionar legendas ao vídeo {#add-captions-to-video}
 
-Estenda o alcance de seus vídeos aos mercados globais. Você pode fazer isso adicionando legendas a vídeos únicos ou Conjuntos de vídeos adaptados. Ao adicionar legendas, você evita a necessidade de dublar o áudio ou a necessidade de usar alto-falantes nativos para regravar o áudio para cada idioma diferente. O vídeo é reproduzido no idioma em que foi gravado. Legendas em idiomas estrangeiros aparecem para que pessoas de diferentes idiomas ainda possam entender a parte de áudio.
+Disponibilize seus vídeos nos mercados globais. Você pode fazer isso adicionando legendas a vídeos únicos ou Conjuntos de vídeos adaptados. Ao adicionar legendas, você evita a necessidade de dublar o áudio ou a necessidade de usar artistas de voz nativos para gravar o áudio em cada idioma. O vídeo é reproduzido em seu idioma original. Legendas traduzidas aparecem para que pessoas de diferentes idiomas ainda possam entender a parte de áudio.
 
 A legenda também permite maior acessibilidade usando legendas ocultas para pessoas surdas ou com deficiência auditiva.
 
@@ -46,9 +42,9 @@ Consulte [Adicionar ou Editar uma Predefinição do Visualizador de Vídeo](prev
 
 Consulte também [Adicionar e editar predefinições do visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
-O Adobe Dynamic Media Classic pode converter arquivos de legenda para o formato JSON (JavaScript Object Notation). Essa conversão significa que você pode incorporar o texto JSON em uma página da Web como uma transcrição oculta, mas completa, do vídeo. Os mecanismos de pesquisa podem então rastrear e indexar o conteúdo para tornar os vídeos mais facilmente visíveis e fornecer aos clientes mais detalhes sobre o conteúdo do vídeo.
+O Adobe Dynamic Media Classic pode converter arquivos de legenda para o formato JSON (JavaScript Object Notation). Essa conversão permite incorporar o texto JSON em uma página da Web como uma transcrição oculta, mas completa, do vídeo. Os mecanismos de pesquisa podem então rastrear e indexar o conteúdo para tornar os vídeos mais facilmente visíveis e fornecer aos clientes mais detalhes sobre o conteúdo do vídeo.
 
-Consulte [Conteúdo estático (não de imagem) do servidor](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) para obter mais informações sobre como usar a função JSON em uma URL.
+Consulte [Conteúdo estático (não de imagem) do servidor](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) para obter mais informações sobre como usar a função JSON em uma URL.
 
 **Para adicionar legendas a um vídeo:**
 
@@ -66,15 +62,15 @@ Consulte [Conteúdo estático (não de imagem) do servidor](https://experiencele
 1. No painel Navegar por ativos, selecione um único ativo de vídeo e, abaixo da imagem em miniatura do ativo, selecione **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 1. Na tabela Lista do Visualizador, localize o visualizador do HTML5 chamado **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** ou **Universal_HTML5_MixedMedia_light** e siga um destes procedimentos:
 
-   * Para uma experiência de visualizador de vídeo pop-up, selecione **[!UICONTROL Copy URL]** na extremidade direita do nome.
+   * Para uma experiência de visualizador de vídeo pop-up, selecione **[!UICONTROL Copy URL]** à direita do nome.
 
-     Anexe o URL copiado do vídeo com a seguinte sintaxe para que você possa associá-lo ao URL copiado para o seu arquivo de legenda:
+     Anexe a seguinte sintaxe ao URL copiado do vídeo para que você possa associá-lo ao seu arquivo de legenda:
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      Observe o `,1` no final do caminho de URL da legenda. Imediatamente após a extensão de nome de arquivo VTT no caminho, você pode ativar ou desativar o botão de legendas ocultas na barra do reprodutor de vídeo definindo como `1` ou `0`, respectivamente.
 
-   * Para uma experiência de visualizador de vídeo incorporado, selecione **[!UICONTROL Embed Code]** na extremidade direita do nome.
+   * Para uma experiência de visualizador de vídeo incorporado, selecione **[!UICONTROL Embed Code]** à direita do nome.
 
      Na caixa de diálogo Incorporar código, selecione **[!UICONTROL Copy to Clipboard]**.
 
