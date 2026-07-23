@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:37:15.687Z'
 TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a41ad4865cfa5692ed38c030b45fbb579ce2b3f9
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: 599
 ht-degree: 0%
 
 ---
@@ -37,7 +34,7 @@ Consulte [Adicionar ou editar uma predefinição do visualizador de vídeo](prev
 
 Consulte também [Adicionar e editar Predefinições do Visualizador](application-setup.md#adding_and_editing_viewer_presets).
 
-Uma lista de capítulos é criada para o vídeo da mesma maneira que as legendas. Ou seja, você cria um arquivo WebVTT. Observe, no entanto, que esse arquivo deve ser separado de qualquer arquivo de legenda WebVTT que você também possa estar usando; não é possível combinar legendas e capítulos em um arquivo WebVTT.
+Uma lista de capítulos é criada para o vídeo da mesma maneira que as legendas. Ou seja, você cria um arquivo WebVTT. Observe, no entanto, que esse arquivo deve ser separado de qualquer arquivo de legenda WebVTT usado; não combine legendas e capítulos em um arquivo WebVTT.
 
 Você pode usar a seguinte amostra como exemplo do formato usado para criar um arquivo WebVTT com navegação de capítulo:
 
@@ -57,7 +54,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora de sinalização de `00:00:000 --> 01:04:364` especifica a hora inicial e final do capítulo, no formato 00:00:000. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição real do conteúdo do capítulo. O identificador de sinalização, o tempo de sinalização inicial e o título do capítulo são exibidos em um pop-up no reprodutor de vídeo quando o ponteiro é posicionado sobre um ponto de sinalização visual na linha do tempo do vídeo.
+No exemplo acima, `Chapter 1` é o identificador de sinalização e é opcional. A hora de sinalização de `00:00:000 --> 01:04:364` especifica a hora inicial e final do capítulo, no formato 00:00:000. Os últimos três dígitos são milissegundos e podem ser deixados como 000, se preferir. O título do capítulo de `The bicycle store behind it all` é a descrição do conteúdo do capítulo. O identificador de sinalização, o tempo de sinalização inicial e o título do capítulo são exibidos em um pop-up do player de vídeo quando o ponteiro passa o mouse sobre um ponto de sinalização visual na linha do tempo do vídeo.
 
 Como você está usando um visualizador de vídeo HTML5, certifique-se de que o arquivo de capítulo criado segue o padrão WebVTT (Web Video Text Tracks). A extensão de nome de arquivo do capítulo é `.VTT`. Você pode obter mais informações sobre o padrão de legendagem WebVTT.
 
@@ -71,9 +68,9 @@ Consulte [WebVTT: O Formato de Rastreamento de Texto de Vídeo da Web](https://w
    >
    >Para suporte global de capítulos de vídeo em idiomas diferentes do inglês, o padrão WebVTT exige a criação de `.VTT` arquivos e chamadas separados para cada idioma ao qual você deseja oferecer suporte.
 
-1. Salve o arquivo VTT na codificação UTF8 para que você possa evitar problemas com a representação de caracteres no texto do título do capítulo.
+1. Salve o arquivo VTT em codificação UTF-8 para que você possa evitar problemas com a representação de caracteres no texto do título do capítulo.
 
-   Geralmente, você deseja nomear o arquivo de VTT do capítulo com o mesmo nome do arquivo de vídeo e anexá-lo com `chapters`. Ao fazer isso, ele pode ajudar você a automatizar a geração dos URLs de vídeo usando seu sistema existente de gerenciamento de conteúdo da Web.
+   Nomeie o arquivo de VTT do capítulo como o arquivo de vídeo e anexe-o com `_chapters`. Isso pode ajudá-lo a automatizar a geração dos URLs de vídeo usando seu sistema existente de gerenciamento de conteúdo da Web.
 
 1. No Adobe Dynamic Media Classic, carregue seu arquivo de capítulo WebVTT.
 
@@ -81,7 +78,7 @@ Consulte [WebVTT: O Formato de Rastreamento de Texto de Vídeo da Web](https://w
 
 1. No painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o arquivo de vídeo a ser associado ao arquivo de capítulo que você carregou.
 1. No painel Navegar por ativos, selecione um único ativo de vídeo e, abaixo da imagem em miniatura do ativo, selecione **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-1. Na tabela Lista do Visualizador, localize o visualizador do HTML5 chamado **Universal_HTML5_Video** e execute um dos procedimentos a seguir:
+1. Na tabela Lista do Visualizador, localize o visualizador do HTML5 chamado **Universal_HTML5_Video** e siga um destes procedimentos:
 
    * Para uma experiência de visualizador de vídeo pop-up, selecione **[!UICONTROL Copy URL]** na extremidade direita do nome.
 
