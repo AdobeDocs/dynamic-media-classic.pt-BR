@@ -1,5 +1,5 @@
 ---
-title: Sobre o gerenciamento de ativos no Adobe Dynamic Media Classic
+title: Sobre o gerenciamento do Assets no Adobe Dynamic Media Classic
 description: Uma introdução ao gerenciamento de ativos no Adobe Dynamic Media Classic
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,17 +19,17 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
 workflow-type: tm+mt
-source-wordcount: 171
+source-wordcount: 166
 ht-degree: 0%
 
 ---
 
 # Sobre o gerenciamento de ativos no Adobe Dynamic Media Classic {#about-managing-assets}
 
-A Adobe Dynamic Media Classic oferece a Biblioteca de ativos para gerenciamento de ativos. A Biblioteca de ativos contém as pastas em que você armazena os arquivos de ativos. Selecionar uma pasta na Biblioteca de ativos exibe o conteúdo da pasta no painel Procurar. Você pode exibir itens no painel Procurar na exibição em Grade, Lista ou Detalhe. Quando quiser se concentrar em um único ativo, clique duas vezes nele no painel Procurar para exibi-lo na Exibição de detalhes.
+A Adobe Dynamic Media Classic oferece a Biblioteca de ativos para gerenciamento de ativos. A Biblioteca de ativos contém as pastas em que você armazena os arquivos de ativos. Selecionar uma pasta na Biblioteca de ativos exibe o conteúdo da pasta no painel Procurar. Você pode exibir itens no painel Procurar usando Grade, Lista ou Exibição de detalhes. Quando quiser se concentrar em um único ativo, clique duas vezes nele no painel Procurar para exibi-lo na Exibição de detalhes.
 
-O painel Procurar oferece ferramentas para visualização, seleção e localização. O painel também oferece pré-visualização, movimentação, renomeação e exclusão de ativos. O Assets excluído é colocado na pasta Lixeira; você pode recuperar ativos dessa pasta.
+O painel Procurar oferece ferramentas para visualização, seleção e localização. O painel também oferece visualização, movimentação, renomeação e exclusão de ativos. O Assets excluído é colocado na pasta Itens excluídos; você pode recuperar ativos dessa pasta.
 
-Quando quiser examinar ou trabalhar com um ativo, abra-o na Exibição de detalhes. Você pode registrar metadados na Exibição de detalhes para facilitar a localização e o trabalho com um ativo.
+Para exibir ou gerenciar um ativo, abra-o na Exibição de detalhes. Para facilitar a localização e o trabalho com um ativo, você pode adicionar metadados na Exibição de detalhes.
