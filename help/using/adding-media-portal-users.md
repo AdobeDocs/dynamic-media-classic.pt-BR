@@ -12,19 +12,13 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:37:47.692Z'
 TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9915c19c020d871f3241feaebbd309d639130855
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 943
 ht-degree: 0%
 
 ---
@@ -111,7 +105,7 @@ Cada usuário na lista é adicionado automaticamente aos grupos especificados. U
 
 ## Gerar uma lista selecionável de usuários do Portal de mídia {#generating-a-selectable-list-of-media-portal-users}
 
-Você pode exibir os nomes e endereços de email dos usuários do Portal de mídia em uma janela pop-up. Essa lista é útil se você deseja recortar e colar nomes de usuário e endereços para uso fora do Portal de mídia.
+Você pode exibir os nomes e endereços de email dos usuários do Portal de mídia em uma janela pop-up. Essa lista é útil se você deseja copiar e colar nomes de usuário e endereços para uso fora do Portal de mídia.
 
 1. Navegue até **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Na lista suspensa **[!UICONTROL By User Role]**, escolha o nome de uma função de usuário do Media Portal e selecione **[!UICONTROL Refresh]** para exibir os nomes de uma classe de usuário do Media Portal.
@@ -135,7 +129,7 @@ Você pode enviar um email de boas-vindas ao adicionar novos usuários, colabora
 
 Começando pela tela Configuração de administração de usuário, você também pode executar estas tarefas:
 
-* **[!UICONTROL Filter and sort the user list]**: filtre a lista de usuários do Portal de mídia para localizar usuários.
+* **[!UICONTROL Filter and sort the user list]**: para localizar usuários, filtre a lista de usuários do Portal de Mídia.
 
 * **[!UICONTROL Delete users]**: Remover um usuário da lista.
 
@@ -143,6 +137,6 @@ Começando pela tela Configuração de administração de usuário, você també
 
 * **[!UICONTROL Edit user information]**: Insira informações atualizadas sobre um usuário.
 
-* **[!UICONTROL Create user-defined fields]**: crie campos de metadados personalizados definidos pelo usuário para que eles possam ajudar você a organizar ativos na Adobe Dynamic Media Classic. Os campos também podem ser ativados ou desativados, conforme necessário.
+* **[!UICONTROL Create user-defined fields]**: crie campos de metadados personalizados definidos pelo usuário para que eles possam ajudar você a organizar ativos no Adobe Dynamic Media Classic. Os campos também podem ser ativados ou desativados, conforme necessário.
 
 Consulte [Campos Definidos Pelo Usuário](application-setup.md#user_defined_fields).
