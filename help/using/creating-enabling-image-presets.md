@@ -12,16 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:41:19.856Z'
 TQID: 'https://experienceleague.adobe.com/AlYkBI41GganXzy28kbNN9DXU1Pd4mVCwJKCdwmnN4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: da232d1762d4bb21788ab094ea56d715a58c27d2
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: 260
 ht-degree: 0%
 
 ---
@@ -30,7 +26,7 @@ ht-degree: 0%
 
 Quando os usuários exportam ativos de imagem usando o Media Portal, eles podem escolher uma Predefinição de imagem na caixa de diálogo Exportar Assets selecionada. Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada.
 
-Os administradores do Portal de mídia podem criar Predefinições de imagem para controlar como as imagens são reformatadas quando são exportadas. As Predefinições de imagem reformatam imagens de acordo com as especificações da sua empresa quando os usuários exportam imagens do Adobe Dynamic Media Classic. Em vez de reformatar imagens por conta própria, os usuários as exportam para as especificações precisas de uma Predefinição de imagem.
+Os administradores do Portal de mídia podem criar Predefinições de imagem para controlar como as imagens são reformatadas quando são exportadas. As Predefinições de imagem reformatam imagens para as especificações da sua empresa quando os usuários exportam imagens do Adobe Dynamic Media Classic. Em vez de reformatar imagens manualmente, os usuários as exportam para as especificações precisas de uma Predefinição de imagem.
 
 As seguintes restrições se aplicam quando você exporta ativos de imagem:
 
