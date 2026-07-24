@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: f118d8302d0201dbdd865c2eec62846c49478e13
 workflow-type: tm+mt
-source-wordcount: 96
+source-wordcount: 98
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Você pode automatizar a geração de conjuntos como um trabalho independente qu
 1. Vá para **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
 1. Na caixa de diálogo Gerar conjunto, especifique um nome de processo.
 
-   Por padrão, o trabalho recebe um nome que indica se é um trabalho gerado e quando o trabalho foi gerado.
+   Por padrão, o trabalho recebe um nome que indica que é um trabalho gerado e a hora em que o trabalho foi gerado.
 
 1. Selecione a predefinição que deseja aplicar.
 1. Selecione **[!UICONTROL Destination Folder]** e especifique a pasta que deseja usar.

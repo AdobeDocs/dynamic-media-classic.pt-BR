@@ -19,9 +19,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 74cf44585cb4d2d62cf4b5d7894dbe7f5c5847b9
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1873
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ O Adobe Dynamic Media Classic oferece suporte a várias funções de usuário. E
 
 **Administrador da Empresa Adobe Dynamic Media Classic** Pode exibir e administrar apenas suas próprias empresas. Um Administrador da empresa também pode executar todas as funções administrativas, incluindo adicionar administradores e usuários. Um Administrador de empresa pode adicionar um usuário às contas de administrador da empresa do DMC. (Esta é a função de usuário padrão.)
 
-Após adicionar um usuário, o Adobe Dynamic Media Classic envia a ele uma mensagem de e-mail de boas-vindas. A mensagem inclui uma senha e o URL do Adobe Dynamic Media Classic.
+Depois de adicionar um usuário, o Adobe Dynamic Media Classic envia uma mensagem de email de boas-vindas. A mensagem inclui uma senha e o URL do Adobe Dynamic Media Classic.
 
 ### Adicionar um usuário ou administrador {#adding-a-user-or-administrator}
 
@@ -72,9 +72,9 @@ Após adicionar um usuário, o Adobe Dynamic Media Classic envia a ele uma mensa
 
    Todos os novos usuários recebem uma senha gerada aleatoriamente; os usuários são solicitados a alterar as senhas na primeira vez que fazem logon no aplicativo de desktop do Adobe Dynamic Media Classic.
 
-   Um email de boas-vindas é enviado a novos usuários depois que você os adiciona. O email fornece uma senha temporária e explica como fazer logon no Adobe Dynamic Media Classic.
+   Novos usuários recebem um email de boas-vindas após serem adicionados. O email fornece uma senha temporária e explica como fazer logon no Adobe Dynamic Media Classic.
 
-   Se o usuário não receber o email de boas-vindas, solicite que ele acesse a página de entrada da Adobe Dynamic Media Classic (https://s7sps1.scene7.com) e selecione **[!UICONTROL Forgot My Password]**. A senha é redefinida e um novo email é enviado. Se o usuário não receber o email e ele não estiver na pasta Lixo Eletrônico, entre em contato com o Suporte Técnico.
+   Se o usuário não receber o email de boas-vindas, peça que ele vá para a página de entrada da Adobe Dynamic Media Classic (https://s7sps1.scene7.com) e selecione **[!UICONTROL Forgot My Password]**. A senha é redefinida e um novo email é enviado. Se o usuário não receber o email e ele não estiver na pasta de spam, entre em contato com o suporte técnico.
 
    Ao adicionar novos usuários ao Portal de Mídia, você também pode ir para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, selecionar **[!UICONTROL Upload User List]** e selecionar um arquivo .csv que contenha no máximo 500 usuários.
 
@@ -98,6 +98,8 @@ Os usuários que foram desativados não têm mais permissão para inserir a cont
 
 As informações do usuário que você pode editar dependem da sua função como administrador e da função atribuída do usuário cujas informações você deseja editar. As opções esmaecidas (indisponíveis) não são editáveis.
 
+**Para editar informações do usuário:**
+
 1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Selecione um usuário na lista e, em seguida, selecione **[!UICONTROL Edit]**.
 1. Selecione a entrada na tabela que mostra a empresa para a qual você está tentando modificar permissões ou acesso e selecione **[!UICONTROL Manage Company]**.
@@ -115,11 +117,11 @@ Você pode usar as seguintes técnicas de filtragem de lista de usuários:
 
 * **Filtrar por função de usuário**: selecione o menu **[!UICONTROL By User Role]** e escolha uma opção para restringir a lista a usuários ou administradores de tipos diferentes.
 
-* **Filtrar por nome de campo**: Selecione **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o menu **[!UICONTROL By Field Name]**, escolha uma coluna para filtrar a lista, selecione o menu Caractere de Filtro e escolha uma letra. A lista é filtrada em uma das colunas pela letra escolhida. Para ver a lista completa, desmarque a opção **`Enable Filter By Field`**.
+* **Filtrar por nome de campo**: Selecione **[!UICONTROL Enable Filter By Field]**. Em seguida, selecione o menu **[!UICONTROL By Field Name]**, escolha uma coluna para filtrar a lista, selecione o menu Caractere de Filtro e escolha uma letra. A letra escolhida filtra a lista em uma das colunas. Para ver a lista completa, desmarque a opção **`Enable Filter By Field`**.
 
 * **Filtrar usuários inválidos**: desmarcar **[!UICONTROL Include Invalid]**. Os resultados da pesquisa exibem apenas os usuários que estão no sistema. Usuários inválidos foram excluídos do sistema e das contas que você administra.
 
-* **Classificar por cabeçalho de coluna**: selecione um cabeçalho para classificar todos os usuários por status, alfabeticamente por nome, sobrenome ou email. Ou classifique por função de usuário ou por status válido/inválido.
+* **Classificar por cabeçalho de coluna**: selecione um cabeçalho para classificar todos os usuários por status, nome, sobrenome ou email. Ou classifique por função de usuário ou status válido/inválido.
 
 Se você tiver muitos usuários, poderá limitar o tamanho da lista selecionando o menu Tamanho Máximo da Lista e escolhendo um número.
 
@@ -199,19 +201,19 @@ Para gerar um relatório de largura de banda, armazenamento, conteúdo de imagem
 
    Consulte [Tipos de relatórios](administration-setup.md#types_of_reports).
 
-### Visualizar dados de maneiras diferentes {#viewing-data-in-different-ways}
+### Configurar opções de exibição de dados {#viewing-data-in-different-ways}
 
 Depois de gerar um relatório na página Largura de banda e armazenamento, você pode escolher opções para visualizar informações. Você pode escolher como as informações são apresentadas, exibir as informações em um gráfico ou grade de dados e especificar um período para capturar as informações. Na Visualização de dados, também é possível classificar informações e reorganizar colunas.
 
 * **Exibir dados em um gráfico ou grade de dados**: Selecione **[!UICONTROL Chart View]** para ver os dados em um gráfico; selecione **[!UICONTROL Data View]** para ver os dados em uma grade de dados.
 
-* **Escolha um tipo de apresentação de relatório**: no menu Tipo de Relatório, selecione **[!UICONTROL Summary]**, **[!UICONTROL Daily]** ou **[!UICONTROL Monthly]** para organizar os dados em forma de resumo, por dia ou por mês. Nem todos os relatórios fornecem essa opção.
+* **Escolha um tipo de apresentação de relatório**: no menu Tipo de Relatório, selecione **[!UICONTROL Summary]**, **[!UICONTROL Daily]** ou **[!UICONTROL Monthly]** para organizar os dados por resumo, dia ou mês. Nem todos os relatórios fornecem essa opção.
 
 * **Especificar um período**: escolha opções para definir um período para o relatório e selecione **[!UICONTROL Update]** depois de definir um período:
 
 * **Período predefinido**: no menu Relatório predefinido, escolha uma opção. Por exemplo, escolha Último mês para capturar dados do mês anterior.
 
-* **Período personalizado**: no menu Relatório predefinido, selecione **[!UICONTROL Custom]**. Em seguida, escolha uma data no menu **[!UICONTROL Start Month]** (ou **[!UICONTROL Start Date]**) e uma data no menu # de Meses (ou # ou Dias). Para relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e término específica para capturar informações de relatório.
+* **Período personalizado**: no menu Relatório predefinido, selecione **[!UICONTROL Custom]**. Em seguida, escolha uma data no menu **[!UICONTROL Start Month]** (ou **[!UICONTROL Start Date]**) e uma data no menu Nº de Meses (ou Nº de Dias). Para relatórios de conteúdo de domínio e vídeo, é possível escolher uma data de início e término específica para capturar informações de relatório.
 
 * **Classificar dados (somente visualização de dados)**: Classificar informações em uma coluna. Selecione o cabeçalho da coluna. Selecione novamente para classificar em ordem decrescente.
 
@@ -236,14 +238,14 @@ Os administradores do Adobe Dynamic Media Classic podem gerar relatórios de err
    * Para classificar os erros pelas informações do cabeçalho, selecione um cabeçalho. Por padrão, os erros são classificados por número de ocorrências, do mais alto para o mais baixo.
    * Mova o cursor sobre o campo Response para ver uma mensagem de erro específica.
    * Para ver o link para a imagem ou a página da Web do referenciador, mova o cursor sobre o campo URL ou sobre o campo Referenciador.
-   * Para copiar o link para a imagem real, selecione **[!UICONTROL URL Copy URL]**. Você pode colar esse link em uma janela do navegador para ir para a imagem e investigar o erro.
+   * Para copiar o link para a imagem real, selecione **[!UICONTROL URL Copy URL]**. Para ir para a imagem e investigar o erro, cole este link em uma janela do navegador.
    * Para copiar o link para a página da Web de referência, selecione **[!UICONTROL Referrer Copy URL]**.
 
 Os erros exibidos são para a empresa na qual você está conectado no momento. Cada erro inclui as seguintes informações:
 
-* **ID da Imagem**: ID da imagem incorreta.
+* **ID da Imagem**: ID da imagem problemática.
 
-* **Hora**: o intervalo de tempo da primeira vez que o erro foi relatado até a última vez que o erro foi relatado, nas últimas 24 horas.
+* **Hora**: o intervalo de tempo desde a primeira vez que o erro foi relatado até a última vez que o erro foi relatado, nas últimas 24 horas.
 
 * **Contagem**: o número de erros relatados na imagem.
 

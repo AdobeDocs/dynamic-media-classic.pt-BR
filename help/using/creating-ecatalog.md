@@ -21,16 +21,16 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 948a71b794caa0297a73e6ad689ab752b86edbf0
 workflow-type: tm+mt
-source-wordcount: 926
+source-wordcount: 931
 ht-degree: 0%
 
 ---
 
 # Criação de um eCatalog {#creating-an-ecatalog}
 
-A criação de um eCatalog implica ordenar as páginas, escolher o layout de página e vincular as páginas desenhando Mapas de imagem. Também requer a inserção de dados de sobreposição e link de hipertexto. Como opção, você pode personalizar o índice para que os visualizadores vejam os nomes das páginas em vez dos números das páginas no Visualizador de eCatalog.
+A criação de um eCatalog envolve ordenar as páginas, escolher o layout de página e vincular as páginas desenhando Mapas de imagem. Também requer a inserção de dados de sobreposição e link de hipertexto. Como opção, você pode personalizar o índice para que os visualizadores vejam os nomes das páginas em vez dos números das páginas no Visualizador de eCatalog.
 
 ## Criar um eCatalog {#create}
 
@@ -57,22 +57,22 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
      >
      >Para exibir os itens na Biblioteca de ativos por nome em vez de miniatura, selecione a opção Nome para Exibição da biblioteca de ativos padrão em Configuração pessoal.
 
-1. Selecione um layout geral para o eCatalog. Selecione **[!UICONTROL 1 Up]** para páginas únicas, **[!UICONTROL 2 Up]** para páginas duplas ou **[!UICONTROL Custom]** para páginas duplas com mais de duas páginas. Na caixa de diálogo **[!UICONTROL Change eCatalog Layout]**, selecione as opções **[!UICONTROL All Spreads]** e selecione **[!UICONTROL OK]**.
-1. Opcionalmente, altere o layout de páginas individuais ou páginas espelhadas selecionando-as e escolhendo o botão **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** ou **[!UICONTROL Custom]**. Na caixa de diálogo **[!UICONTROL Change eCatalog Layout]**, selecione as opções **[!UICONTROL Selected Spreads]** e selecione **[!UICONTROL OK]**.
+1. Selecione um layout geral para o eCatalog. Selecione **[!UICONTROL 1 Up]** para páginas únicas, **[!UICONTROL 2 Up]** para páginas duplas ou **[!UICONTROL Custom]** para páginas duplas com mais de duas páginas. Na caixa de diálogo **[!UICONTROL Change eCatalog Layout]**, selecione a opção **[!UICONTROL All Spreads]** e selecione **[!UICONTROL OK]**.
+1. Opcionalmente, altere o layout de páginas individuais ou páginas espelhadas selecionando-as e escolhendo o botão **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** ou **[!UICONTROL Custom]**. Na caixa de diálogo **[!UICONTROL Change eCatalog Layout]**, selecione a opção **[!UICONTROL Selected Spreads]** e selecione **[!UICONTROL OK]**.
 1. Reordene as páginas conforme necessário com uma destas técnicas:
 
-   * **Arrastando**: arraste uma página ou página espelhada para um novo local. A barra vertical mostra para onde a página está sendo movida.
+   * **Arrastando**: arraste uma página ou página espelhada para um novo local. A barra vertical indica a posição para a qual a página está sendo movida.
 
-   * **Botão Mover para**: selecione uma página ou página espelhada, selecione **[!UICONTROL Move To]** e escolha a página no menu que você deseja que sua página apareça antes.
+   * **Botão Mover para**: selecione uma página ou página espelhada, selecione **[!UICONTROL Move To]** e escolha a página no menu antes da qual deseja que a página apareça.
 
-   * **Sequência nº**: na Exibição de Lista, insira números de página nos campos de Sequência nº.
+   * **Sequência nº**: na Exibição em Lista, insira números de página nos campos Sequência nº.
 
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionado (padrão).
 1. Selecione **[!UICONTROL Save]**.
-1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o eCatalog. No campo Nome do arquivo, digite o nome do conjunto de rotação.
+1. Na caixa de diálogo Salvar, selecione uma pasta para armazenar o eCatalog. No campo Nome do arquivo, digite o nome do eCatalog.
 1. Selecione **[!UICONTROL Save]**.
 
-   Você pode visualizar seu eCatalog, depois de salvá-lo, selecionando **[!UICONTROL Preview]**.
+   Você pode visualizar seu eCatalog depois de salvá-lo selecionando **[!UICONTROL Preview]**.
 
 ## Editar um eCatalog {#editing-an-ecatalog}
 
@@ -96,7 +96,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 ## Excluir um eCatalog
 
-Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
+Ao excluir um conjunto, o próprio conjunto é movido para a pasta de itens excluídos. Os membros nesse conjunto não são afetados; cada um retém seu estado publicado ou não publicado existente.
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
@@ -121,9 +121,9 @@ Insira manualmente os nomes de página, um de cada vez, acessando a guia Ordenar
 
 ### Importar nomes de página {#importing-page-names}
 
-A importação de nomes de página é recomendada se você estiver lidando com um eCatalog com muitas páginas. Você pode importar os nomes de um arquivo XML ou delimitado por tabulação.
+A importação de nomes de página é recomendada se você estiver trabalhando com um eCatalog com muitas páginas. Você pode importar os nomes de um arquivo XML ou delimitado por tabulação.
 
-O rótulo do sumário é armazenado no campo Dados do Usuário de uma imagem; formate esses dados como uma lista de `name=<value>` ` pairs separated by two question marks "??" `. Por exemplo, para definir um rótulo para um campo de índice chamado `tocEN`, defina os Dados do usuário da imagem como:
+O rótulo do índice é armazenado no campo Dados do Usuário de uma imagem; formate esses dados como uma lista de `name=<value>` pares separados por dois pontos de interrogação &quot;??&quot;. Por exemplo, para definir um rótulo para um campo de índice chamado `tocEN`, defina os Dados do usuário da imagem como:
 
 `tocEN=&lt;EN_page_label>`
 

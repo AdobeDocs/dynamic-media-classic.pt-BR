@@ -1,5 +1,5 @@
 ---
-title: Verificar arquivos de trabalho
+title: Verificar arquivos do trabalho
 description: Saiba como verificar arquivos de trabalho no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 839735160b7123c57d176866bc4e5dd56dbf4bdc
 workflow-type: tm+mt
-source-wordcount: 1583
+source-wordcount: 1596
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Para monitorar os uploads de arquivos para o Adobe Dynamic Media Classic e os arquivos publicados nos servidores da Adobe Dynamic Media Classic, a Adobe Dynamic Media Classic oferece a página Jobs. Você pode revisar, fazer upload e publicar trabalhos na página Trabalhos, verificar o status dos trabalhos e cancelar trabalhos de publicação nesta página. Você também pode agendar trabalhos de upload e publicação.
 
-Ao fazer upload de ativos, um ícone giratório é exibido ao lado do menu Trabalhos, indicando que um trabalho está em andamento e o número de arquivos em andamento. Você pode selecionar o ícone para ver mais informações sobre o job ativo.
+Ao fazer upload de ativos, um ícone giratório é exibido ao lado do menu Trabalhos, indicando que um trabalho está em andamento e mostrando o número de arquivos em andamento. Você pode selecionar o ícone para ver mais informações sobre o job ativo.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Os jobs são listados nestas categorias na guia Histórico da página Jobs:
 
 * **[!UICONTROL Total]**: O número de arquivos transferidos.
 
-* **[!UICONTROL W (warnings)]**: O número de avisos no trabalho (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Por exemplo, os arquivos `.DS_store` (Mac) e Thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem para os usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas, pois não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
+* **[!UICONTROL W (warnings)]**: O número de avisos no trabalho (se houver). Os avisos indicam problemas com o trabalho que não afetaram a conclusão geral. Normalmente, esses avisos podem ser ignorados, pois eles informam sobre arquivos ocultos. Como exemplo: `.DS_store` arquivos (Mac) e arquivos Thumbs.db (Windows®) contêm informações sobre como exibir arquivos de imagem para os usuários. Entradas de aviso relacionadas a esses arquivos, no entanto, podem ser ignoradas, pois não se referem à forma como esses arquivos são usados no Adobe Dynamic Media Classic. Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre avisos.
 
 * **[!UICONTROL E (errors)]**: lista o número de erros no trabalho (se houver). Você pode clicar duas vezes em um nome de job para obter informações detalhadas sobre erros.
 
@@ -91,7 +91,7 @@ Você pode copiar essas informações para a Área de transferência.
 
 ## Lidar com trabalhos recorrentes de upload e publicação {#handling-recurring-upload-and-publish-jobs}
 
-Os trabalhos de upload e publicação recorrentes, criados nas páginas Upload e Publicar, são listados na guia Programado da página Trabalhos. É possível editar e excluir tarefas recorrentes na guia Scheduled.
+Os trabalhos de upload e publicação recorrentes criados nas páginas Fazer upload e publicar são listados na guia Programado da página Trabalhos. É possível editar e excluir tarefas recorrentes na guia Scheduled.
 
 Selecione o botão Trabalhos na barra de Navegação Global e, na página Trabalhos, selecione a guia **[!UICONTROL Scheduled]** para poder editar e excluir trabalhos recorrentes.
 
@@ -119,7 +119,7 @@ A sintaxe para descrever os intervalos de tempo personalizados de upload e publi
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-Por exemplo, `0 15 10 * * ?` agenda um trabalho às 10:15.00 todos os dias.
+Por exemplo, `0 15 10 * * ?` agenda um trabalho às 10h15,00 todos os dias.
 
 As tabelas e a lista a seguir explicam como descrever um intervalo de tempo na caixa Regra.
 
@@ -153,17 +153,17 @@ Esta lista fornece exemplos de descrição de intervalos de tempo na caixa Regra
 
 * `0 0 12 * * ?` : ao meio-dia todos os dias
 * `0 15 10 ? * *` : 10:15 am todos os dias
-* `0 0/5 14 * * ?`: a cada 5 minutos entre 2:00 e 2:55 pm todos os dias
-* `0 0/5 14,18 * * ?` : a cada 5 minutos entre 2:00 e 2:55 pm todos os dias e a cada 5 minutos entre 6:00 e 6:55 pm todos os dias
-* `0 10,44 14 ? 3` : quarta-feira às 14h10 e 14h20 todas as quartas-feiras de março:10:44
-* `0 15 10 ? *` : segunda a sexta às 10:15, todos os dias da semana
-* `0 15 10 20 * ?` : Às 10:15 da manhã do dia 20 de cada mês
-* `0 15 10 L * ?` : Às 10:15 da manhã, no último dia de cada mês
-* `0 15 10 ? * 6L` : Às 10:15 da última sexta-feira de cada mês
-* `0 15 10 * * 6#3` : Às 10:15 da terceira sexta-feira de cada mês
+* `0 0/5 14 * * ?`: a cada 5 minutos entre 14h e 14h55 todos os dias
+* `0 0/5 14,18 * * ?` : a cada 5 minutos entre 14h e 14h55 todos os dias e a cada 5 minutos entre 18h e 18h55 todos os dias
+* `0 10,44 14 ? 3` : Qua às 14h10 e 14h44 toda quarta-feira de março
+* `0 15 10 ? *` : segunda a sexta às 10h15, todos os dias da semana
+* `0 15 10 20 * ?` : Às 10h15 do dia 20 de cada mês
+* `0 15 10 L * ?` : Às 10h15 do último dia de cada mês
+* `0 15 10 ? * 6L` : Às 10h15 da última sexta-feira de cada mês
+* `0 15 10 * * 6#3` : Às 10h15 da terceira sexta-feira de cada mês
 
 ## Usar um trabalho de upload ou publicação como acionador {#using-an-upload-or-publish-job-as-a-trigger}
 
-Ao fazer upload de ativos por FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar quando o upload estiver concluído. (Se outros trabalhos estiverem programados para começar, o trabalho programado aqui será enfileirado atrás deles.) O novo trabalho envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Esse trabalho de upload complementar recebe o mesmo nome do trabalho de upload atual, mas com o prefixo _Pub.
+Ao fazer upload de ativos por FTP ou executar um trabalho de publicação, você pode agendar um trabalho subsequente para começar quando o upload estiver concluído. (Se outros trabalhos estiverem programados para começar, o trabalho programado aqui será enfileirado atrás deles.) O novo trabalho envia uma notificação para o endereço especificado, para que o código nesse local possa ser acionado. Este trabalho de carregamento complementar recebe o mesmo nome que o trabalho de carregamento atual, mas com o prefixo `_Pub`.
 
 Para fazer um trabalho de carregamento ou publicação acionar outro trabalho, selecione **[!UICONTROL Advanced]** na página Carregar ou Publicar. Em seguida, insira o URL no campo de texto Notificação HTTP.
