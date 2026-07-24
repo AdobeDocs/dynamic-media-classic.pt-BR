@@ -12,35 +12,30 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T17:41:54.576Z'
 TQID: 'https://experienceleague.adobe.com/If0j5hWmxTOGGYshsqh2sa0iM3S2SvG57iPO2rtG1lY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b83425ec5382ae173947fa0c9321e734f14eaced
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: 793
 ht-degree: 0%
 
 ---
 
 # Criar e gerenciar grupos do Portal de mídia{#creating-and-managing-media-portal-groups}
 
-Os *Grupos* foram criados para ajudá-lo a administrar os usuários do Portal de Mídia. Para acessar um ativo, o usuário deve ser membro de pelo menos um grupo que tenha permissão para acessar esse ativo. Ao adicionar um usuário, você o atribui a um ou mais grupos. Ao fazer isso, você concede ao usuário acesso às pastas às quais o grupo foi atribuído. Você também pode escolher quais Predefinições de imagem estarão disponíveis para um grupo.
+Os grupos foram projetados para ajudar você a administrar os usuários do Portal de mídia. Para acessar um ativo, o usuário deve ser membro de pelo menos um grupo que tenha permissão para acessar esse ativo. Ao adicionar um usuário, você o atribui a um ou mais grupos. Ao fazer isso, você concede ao usuário acesso às pastas às quais o grupo foi atribuído. Você também pode escolher quais Predefinições de imagem estarão disponíveis para um grupo.
 
 ## Use grupos para restringir o acesso a pastas, ativos e Predefinições de imagem {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
-Para conceder permissão de acesso em diferentes níveis, crie grupos. Para cada grupo, você atribui permissões de leitura, gravação e exclusão a diferentes pastas e ativos em pastas. Além disso, você decide quais Predefinições de imagem estão disponíveis para o grupo. Em seguida, você atribui usuários a grupos. Um usuário pode ser membro de mais de um grupo. O conceito de grupo oferece a flexibilidade de atribuir acesso a conjuntos limitados do conteúdo total.
+Para conceder permissão de acesso em diferentes níveis, crie grupos. Para cada grupo, você atribui permissões de leitura, gravação e exclusão a diferentes pastas e ativos em pastas. Além disso, você decide quais Predefinições de imagem estão disponíveis para o grupo. Em seguida, você atribui usuários a grupos. Um usuário pode ser membro de mais de um grupo. O recurso de grupo oferece a flexibilidade para atribuir acesso a conjuntos limitados do conteúdo total.
 
-Se você não conceder especificamente uma permissão de grupo a um ativo ou pasta, esse ativo ou pasta herdará as permissões atribuídas à pasta principal (a pasta acima dela na hierarquia de pastas). Conceda permissões a uma pasta principal se desejar garantir que todas as pastas secundárias herdem as mesmas permissões.
+Se você não conceder especificamente uma permissão de grupo a um ativo ou pasta, esse ativo ou pasta herdará as permissões atribuídas à pasta principal (a pasta acima dela na hierarquia de pastas). Conceder permissões a uma pasta principal. Faça isso se quiser garantir que todas as pastas derivadas herdem as mesmas permissões.
 
 >[!NOTE]
 >
->Os usuários podem pertencer a mais de um grupo. Quando um usuário pertence a dois grupos com permissões de acesso diferentes para uma pasta, o usuário recebe o acesso mais alto.
+>Os usuários podem pertencer a mais de um grupo. Quando um usuário pertence a dois grupos com permissões de acesso diferentes para uma pasta, o usuário recebe o acesso mais permissivo.
 
 ## Adicionar um grupo {#adding-a-group}
 
@@ -52,7 +47,7 @@ Se você não conceder especificamente uma permissão de grupo a um ativo ou pas
 
    Consulte [Estabelecer permissões de acesso a ativos para um grupo](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Você pode escolher quais Predefinições de imagem estarão disponíveis para o grupo. Basta clicar na guia **[!UICONTROL Image Preset Access Permissions]** e selecionar Predefinições de imagem que o grupo pode usar.
+1. Você pode escolher quais Predefinições de imagem estarão disponíveis para o grupo. Clique na guia **[!UICONTROL Image Preset Access Permissions]** e selecione Predefinições de imagem que o grupo pode usar.
 
    Consulte [Escolher permissões de acesso de Predefinição de imagem para um grupo](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -84,11 +79,11 @@ Se você não conceder especificamente uma permissão de grupo a um ativo ou pas
 
 >[!NOTE]
 >
->Os direitos de acesso são estabelecidos ao selecionar uma caixa. Quando você atribuiu direitos a uma pasta, suas subpastas e todos os arquivos dentro dela recebem os mesmos direitos que a pasta principal. No entanto, é possível especificar direitos diferentes para subpastas individuais e arquivos de ativos.
+>Os direitos de acesso são estabelecidos ao selecionar uma caixa. Quando você atribui direitos a uma pasta, suas subpastas e todos os arquivos dentro dela recebem os mesmos direitos da pasta principal. No entanto, é possível especificar direitos diferentes para subpastas individuais e arquivos de ativos.
 
 ## Escolher permissões de acesso de Predefinição de imagem para um grupo
 
-Escolha permissões de acesso de Predefinição de imagem para um grupo se desejar especificar quais Predefinições de imagem estão disponíveis para os membros do grupo quando eles exportam ativos com o Media Portal.
+Escolha permissões de acesso de Predefinição de imagem para um grupo. Use essa opção para especificar quais Predefinições de Imagem estão disponíveis para membros do grupo. Use essa opção ao exportar ativos com o Media Portal.
 
 Consulte também [Especificar opções de exportação disponíveis para usuários do Portal de Mídia](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
