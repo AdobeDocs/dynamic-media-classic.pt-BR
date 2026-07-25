@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: 597
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 1. Siga um destes procedimentos:
 
    * Para adicionar uma trilha sonora, arraste um arquivo de áudio da Biblioteca de ativos para a caixa Trilha sonora. A trilha sonora é reproduzida enquanto as imagens são exibidas. Ele para quando um vídeo é reproduzido.
-   * Para alterar a ordem dos conjuntos, arraste-os para novos locais na tela Conjunto de mídias mistas. A ordem dos conjuntos na tela determina a ordem da esquerda para a direita na qual os usuários veem os conjuntos no Visualizador de conjunto de mídias mistas.
+   * Para alterar a ordem dos conjuntos, arraste-os para novos locais na tela Conjunto de mídias mistas. A ordem da tela determina a ordem da esquerda para a direita que os usuários veem os conjuntos no Visualizador de conjunto de mídias mistas.
    * (Opcional) Para adicionar uma miniatura personalizada para representar um vídeo no Visualizador, arraste um arquivo de imagem da Biblioteca de ativos para a caixa de espaço reservado Miniatura.
 
 1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionado (padrão).
@@ -61,7 +61,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 1. Selecione uma pasta para armazenar o Conjunto de mídias mistas e digite um nome para o conjunto.
 1. Selecione **[!UICONTROL Save]**.
 
-   Para ver a aparência do Conjunto de imagens combinado em um Visualizador de Conjunto de imagens, selecione **[!UICONTROL Preview]**.
+   Para ver a aparência do Conjunto de mídias mistas em um Visualizador de conjunto de imagens, selecione **[!UICONTROL Preview]**.
 
 ## Editar um conjunto de mix de mídia {#edit-a-mixed-media-set}
 
@@ -91,7 +91,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 ## Excluir um conjunto de mix de mídia
 
-Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
+Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. Os membros nesse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não.
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 

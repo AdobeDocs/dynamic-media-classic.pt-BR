@@ -21,9 +21,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: e0b8668dab1b4f3f936d22642deb9a2519455703
 workflow-type: tm+mt
-source-wordcount: 1216
+source-wordcount: 1211
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ O Adobe Dynamic Media Classic oferece ferramentas para edição e criação de C
 
 ## Tipos de conjuntos de ofertas {#types-of-offer-sets}
 
-Crie um Conjunto de ofertas a partir dos seguintes tipos de Conjuntos de ofertas:
+Selecione um Conjunto de ofertas entre os seguintes tipos de Conjuntos de ofertas:
 
 * **Imagens**: é possível reunir imagens para um Conjunto de Ofertas. Cada imagem inclui uma oferta diferente no conjunto.
 
-* **Modelo de imagem**: você pode parametrizar modelos de imagem no Adobe Dynamic Media Classic com o comando **[!UICONTROL Build]** > Noções básicas do modelo. Por meio de parâmetros, componentes do modelo, o texto em quadros de texto e as diferentes imagens podem ser trocados e personalizados. Para um Conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no Conjunto de ofertas, por exemplo. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte [Criar parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
+* **Modelo de imagem**: você pode parametrizar modelos de imagem no Adobe Dynamic Media Classic com o comando **[!UICONTROL Build]** > Noções básicas do modelo. Por meio de parâmetros, componentes do modelo, o texto em quadros de texto e as diferentes imagens podem ser substituídos e personalizados. Para um Conjunto de ofertas, você pode usar parâmetros de modelo para criar variações na mesma imagem no seu Conjunto de ofertas. Para obter informações sobre como criar e parametrizar modelos de imagem, consulte [Criar parâmetros de modelo](creating-template-parameters.md#creating_template_parameters).
 
 Veja também o vídeo de treinamento [Noções básicas do modelo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
@@ -72,14 +72,14 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 1. Selecione o modelo ou banner.
 1. Vá para **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
 
-   A página Conjunto de ofertas Test&amp;Target lista as ofertas no Conjunto de ofertas. O primeiro item da lista é o objeto.
+   A página Conjunto de ofertas Test&amp;Target lista as ofertas no Conjunto de ofertas. O primeiro item da lista é o ativo principal.
 
 1. Selecione o objeto e selecione **[!UICONTROL Add & Preview]**.
 
    O lado esquerdo da página lista os parâmetros no modelo e seus valores.
 
-1. Altere os valores de parâmetro para criar a oferta. Por exemplo, digite um texto diferente em um campo de texto, altere o tamanho de uma camada, troque uma imagem por outra ou escolha outra Predefinição do visualizador.
-1. Selecione **[!UICONTROL Save]** ou **[!UICONTROL Save As**]** para salvar a oferta como parte do Conjunto de ofertas.
+1. Altere os valores de parâmetro para criar a oferta. Por exemplo, editar texto, redimensionar camadas, trocar imagens ou selecionar predefinições.
+1. Selecione **[!UICONTROL Save]** ou **[!UICONTROL Save As]** para salvar a oferta como parte do Conjunto de ofertas.
 
    A página Conjunto de ofertas Test&amp;Target lista as ofertas que você criou.
 
@@ -87,7 +87,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 1. Quando terminar, próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save*]** está selecionado (padrão).
 1. Selecione **[!UICONTROL Close]**, insira um nome para o Conjunto de ofertas e selecione **[!UICONTROL Save]**.
 
-Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie o Conjunto de ofertas para o Adobe Target Standard/Premium. Consulte [Enviar conjuntos de ofertas para Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie o Conjunto de ofertas para o Adobe Target Standard/Premium. Para enviar Conjuntos de ofertas para Test&amp;Target, consulte [Enviar conjuntos de ofertas para Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Criar um conjunto de ofertas com imagens ou vídeos {#creating-an-offer-set-with-images-or-videos}
 
@@ -111,14 +111,14 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 1. Opcionalmente, selecione uma imagem ou vídeo e selecione **[!UICONTROL Preview]**. Na página Visualizar ofertas, é possível alterar o tamanho e a aparência da imagem ou do vídeo selecionado. Ou você pode alterar todas as imagens ou vídeos no Conjunto de ofertas.
 
    * Escolha uma predefinição para alterar a aparência e o tamanho da imagem ou do vídeo.
-   * Para aplicar a predefinição escolhida a todas as ofertas do Conjunto de ofertas, marque a caixa de seleção **`Select Presets to All`**.
+   * Para aplicar a predefinição escolhida a todas as ofertas do Conjunto de ofertas, marque a caixa de seleção **`Apply Presets to All`**.
 
    Selecione **[!UICONTROL Save]** para salvar suas alterações na oferta de imagem ou vídeo. Em seguida, selecione **[!UICONTROL Close]** para retornar à página Conjunto de ofertas do Test&amp;Target.
 
 1. Depois de concluir a criação de ofertas para o Conjunto de ofertas e escolher Predefinições de imagens para imagens diferentes, verifique se **[!UICONTROL Publish after a save]** está selecionado (padrão).
 1. Selecione **[!UICONTROL Save]**, insira um nome para o Conjunto de ofertas e selecione **[!UICONTROL Save]**.
 
-Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie o Conjunto de ofertas para o Adobe Target Standard/Premium. Consulte [Enviar conjuntos de ofertas para Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Antes de fechar a página Conjunto de ofertas do Test&amp;Target, envie o Conjunto de ofertas para o Adobe Target Standard/Premium. Para enviar conjuntos de ofertas para Test&amp;Target, consulte [Enviar conjuntos de ofertas para Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Editar um conjunto de ofertas {#editing-an-offer-set}
 
@@ -140,8 +140,8 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
    * **Removendo uma oferta**: selecione a oferta e, em seguida, selecione **[!UICONTROL Delete]** para remover uma oferta do conjunto.
    * **Adicionando uma oferta**: como você adiciona uma oferta depende do tipo de Conjunto de Ofertas com o qual você está trabalhando:
-      * **Modelos**: selecione **[!UICONTROL Add & Preview]** e, na página Adicionar e Visualizar Ofertas, crie outra oferta.
-      * **Imagens e vídeos**: arraste uma imagem ou vídeo para a página Conjunto de ofertas do Test&amp;Target.
+     * **Modelos**: selecione **[!UICONTROL Add & Preview]** e, na página Adicionar e Visualizar Ofertas, crie outra oferta.
+     * **Imagens e vídeos**: arraste uma imagem ou vídeo para a página Conjunto de ofertas do Test&amp;Target.
 
    >[!NOTE]
    >
@@ -152,14 +152,14 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 ## Excluir um conjunto de ofertas {#delet-an-offer-set}
 
-Quando você exclui um Conjunto de ofertas, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
+Quando você exclui um Conjunto de ofertas, o próprio conjunto é movido para a Lixeira. No entanto, os membros desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não.
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para excluir um Conjunto de Ofertas:**
 
-1. Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um Conjunto de ofertas ou mais.
-1. Na Barra de Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Delete]** > **Excluir**.
+1. Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um ou mais Conjuntos de ofertas.
+1. Na Barra de Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
