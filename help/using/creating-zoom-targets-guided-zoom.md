@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:42:52.841Z'
 TQID: 'https://experienceleague.adobe.com/XXeYyrU-e6TE4MwaaiGmV176s9PZuOoBI1oSOXEtzGE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e7543e72fee35a936749cdd110d1d4a2a288c3bf
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: 701
 ht-degree: 0%
 
 ---
 
 # Criar destinos de zoom para zoom guiado{#creating-zoom-targets-for-guided-zoom}
 
-Os destinos de zoom orientam os visualizadores para determinadas partes de uma imagem. Além do zoom de forma livre, os visualizadores podem selecionar uma miniatura de destino de zoom e aplicar zoom à parte da imagem na qual você deseja que eles se concentrem. Os destinos de zoom são uma oportunidade para destacar as partes atraentes ou interessantes de uma imagem.
+Os destinos de zoom orientam os visualizadores para determinadas partes de uma imagem. Além do zoom de forma livre, os visualizadores podem selecionar uma miniatura de destino de zoom e aplicar zoom à parte da imagem na qual você deseja que eles se concentrem. Os destinos de zoom permitem realçar partes específicas de uma imagem.
 
 ![Criar Destinos de Zoom para Zoom Guiado](/help/using/assets/zo_guided_zoom.png)
 
@@ -40,7 +37,7 @@ A porcentagem máxima de zoom dos Destinos de zoom é 100%. A porcentagem mínim
 | Grande | Menor | Mínimo menor |
 | Pequeno | Maior | Mínimo maior |
 
-Você pode alterar o tamanho do Zoom Viewer para corresponder ao tamanho que está sendo usado em sua página da Web. Você pode alterar essa configuração permanentemente alterando o tamanho do visualizador na tela Configuração (se você for um administrador). Consulte [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Para corresponder ao tamanho que está sendo usado na sua página da Web, você pode alterar o tamanho do Zoom Viewer. Você pode alterar essa configuração permanentemente alterando o tamanho do visualizador na tela Configuração (se você for um administrador). Consulte [Configurar predefinições do visualizador de zoom](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Criar e editar Destinos de Zoom {#creating-and-editing-zoom-targets}
 
@@ -61,7 +58,7 @@ Para criar um destino de zoom, abra a página Editor do Destino de Zoom e faça 
 
 1. Escolha **[!UICONTROL Select Target]** (seta), selecione o destino de zoom que você criou e ajuste o tamanho e a posição do destino.
 
-   * **Redimensionar**: mova o ponteiro sobre um canto do destino de zoom e arraste para aumentar ou reduzir o destino.
+   * **Redimensionar**: para aumentar ou diminuir o destino, mova o ponteiro sobre um canto do destino de zoom e arraste.
 
    * **Posição**: mova o ponteiro sobre o destino de zoom e arraste-o para um local diferente.
 
@@ -71,7 +68,7 @@ Para criar um destino de zoom, abra a página Editor do Destino de Zoom e faça 
    >
    >O que você digita na caixa Nome é mais do que um nome. Quando os usuários movem o ponteiro sobre o destino de zoom, eles veem o que você insere na caixa Nome. Insira uma breve descrição do destino do zoom na caixa Nome para que os usuários saibam o que podem ampliar.
 
-1. Opcionalmente, informe os dados do usuário no campo Dados do Usuário. Este campo é para designers de sites adicionarem informações ao destino de zoom.
+1. Opcionalmente, informe os dados do usuário no campo Dados do Usuário. Este campo é para que os profissionais de design do site adicionem informações ao destino de zoom.
 1. Selecione **[!UICONTROL Save]**.
 
    As coordenadas e o nível de zoom do destino de zoom são salvos. Uma miniatura do destino de zoom com o nome inserido é exibida no lado direito da tela.
