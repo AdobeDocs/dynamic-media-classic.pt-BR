@@ -12,13 +12,10 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:44:09.641Z'
 TQID: 'https://experienceleague.adobe.com/6kiNojlrrS6EiS-7Mp5SvtSMag1k4Hu0EwOr4BmyJfY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 88c777a6a66189fca8090b33ea9001536e0d78bc
 workflow-type: tm+mt
 source-wordcount: 935
 ht-degree: 0%
@@ -35,17 +32,17 @@ Para criar um Spin Set eficaz, certifique-se de fotografar as imagens corretamen
 
 ## Diretrizes para fotografar imagens do grupo de rotação {#guidelines-for-shooting-spin-set-images}
 
-Em geral, quanto mais imagens você tiver em um Conjunto de rotação, melhor será o efeito de rotação da imagem. No entanto, a inclusão de muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. A Adobe Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em conjuntos de rotação:
+Quanto mais imagens você tiver em um Conjunto de rotação, maior será a qualidade do efeito de rotação da imagem. No entanto, a inclusão de muitas imagens no conjunto também aumenta a quantidade de tempo que as imagens levam para serem carregadas. A Adobe Dynamic Media Classic recomenda estas diretrizes para fotografar imagens para uso em conjuntos de rotação:
 
 * No mínimo, use 8 a 12 imagens em um Conjunto de rotação unidimensional e 16 a 24 imagens em um Conjunto de rotação bidimensional.
 * Usar um formato sem perdas; TIFF e PNG são recomendados.
 * Mascarar todas as imagens para que o item apareça em branco puro ou em outro plano de fundo de alto contraste. Como opção, adicione sombras.
 * Verifique se os detalhes do produto estão bem iluminados e em foco.
-* Faça imagens giratórias para roupas de moda com um manequim ou modelo. Muitas vezes, o manequim é mascarado (usando um manequim de vidro) ou um manequim estilizado/costureira é mostrado na imagem. Você pode criar um Conjunto de rotação no modelo definindo o número de ângulos. Marque cada ângulo com fita no chão para que você possa guiar o modelo para pisar e olhar na direção de cada tomada.
+* Faça imagens giratórias para roupas de moda com um manequim ou modelo. Muitas vezes, o manequim é mascarado (usando um manequim de vidro) ou um manequim estilizado/costureira é mostrado na imagem. Você pode criar um Conjunto de rotação no modelo definindo o número de ângulos. Marque cada ângulo no chão para que você possa guiar o modelo para se posicionar e olhar na direção de cada tomada.
 
 ## Criar um grupo de rotação {#create}
 
-A ordem em que o conjunto de rotação é criado ou criado no Adobe Dynamic Media Classic é importante. Dependendo de como você ordena os ativos ao arrastar e soltar imagens na grade na página Conjunto de rotação, o Conjunto de rotação gira em uma determinada direção. Portanto, a ordem em que ele é exibido visualmente no construtor é como o ativo é girado quando um usuário move o ponteiro do mouse ou move o dedo, da esquerda para a direita.
+A ordem em que o conjunto de rotação é criado ou criado no Adobe Dynamic Media Classic é importante. Dependendo de como você ordena os ativos ao arrastar e soltar imagens na grade na página Conjunto de rotação, o Conjunto de rotação gira em uma determinada direção. Portanto, a ordem em que ele é exibido visualmente no construtor determina como o ativo é girado quando um usuário move o ponteiro do mouse ou move o dedo da esquerda para a direita.
 
 Ao criar um conjunto, a opção **[!UICONTROL Publish after a save]** afeta o conjunto e os membros do conjunto das seguintes maneiras:
 
