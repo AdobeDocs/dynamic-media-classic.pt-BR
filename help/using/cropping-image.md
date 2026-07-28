@@ -12,26 +12,22 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:43:15.888Z'
 TQID: 'https://experienceleague.adobe.com/ocIRAbDQHlduym6sy-qxPpXaD-UZJp6jzjV758oduZw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: af8d42004b6de1fea57ea6a59fea930b8e8516e3
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 510
 ht-degree: 0%
 
 ---
 
 # Cortar uma imagem{#cropping-an-image}
 
-Você pode recortar imagens na Adobe Dynamic Media Classic. O sistema retém informações sobre imagens que foram cortadas para que você possa restaurá-las ao seu estado original. Também é possível cortar uma imagem e salvar a versão cortada com um novo nome.
+Você pode recortar imagens no Adobe Dynamic Media Classic. O sistema retém informações sobre imagens que foram cortadas para que você possa restaurá-las ao seu estado original. Também é possível cortar uma imagem e salvar a versão cortada com um novo nome.
 
-Você pode cortar uma imagem para remover um espaço em branco ao redor dela ou cortar uma área da imagem.
+Para remover o espaço em branco ao redor de uma imagem ou recortar uma área da imagem, é possível recortá-la.
 
 >[!NOTE]
 >
@@ -41,7 +37,7 @@ Você pode cortar uma imagem para remover um espaço em branco ao redor dela ou 
 
 Você pode cortar os pixels transparentes ou de cores sólidas da borda de uma imagem.
 
-1. Para recortar uma imagem, selecione o botão de sobreposição **[!UICONTROL Edit]** e selecione **[!UICONTROL Crop]** ou exiba-a no painel Procurar do Modo de Exibição de Detalhes e selecione o botão **[!UICONTROL Crop]**.
+1. Para recortar uma imagem, selecione o botão de sobreposição **[!UICONTROL Edit]** e selecione **[!UICONTROL Crop]** ou exiba-a no Modo de Exibição de Detalhes do painel Procurar e selecione o botão **[!UICONTROL Crop]**.
 1. Na página do Editor de corte, siga um destes procedimentos:
 
    * Para cortar pixels de cor, vá para **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Na caixa de diálogo **[!UICONTROL Auto Crop By Color]**, selecione o menu **[!UICONTROL Corner]** e escolha um canto com a cor do plano de fundo que você deseja cortar. Em seguida, insira uma configuração de **[!UICONTROL Tolerance]** de 0 a 1. A configuração 0 recorta os pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Números próximos a 1 permitem mais diferença de cor. Selecione **[!UICONTROL Crop]**.
@@ -55,14 +51,14 @@ Você pode cortar os pixels transparentes ou de cores sólidas da borda de uma i
 
 ## Selecione uma área para cortar {#select-an-area-to-crop}
 
-1. Para recortar uma imagem, selecione o botão de sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Crop]** ou exiba-a no painel Procurar do Modo de Exibição de Detalhes e selecione **[!UICONTROL Crop]**.
+1. Para recortar uma imagem, selecione o botão de sobreposição **[!UICONTROL Edit]** e escolha **[!UICONTROL Crop]** ou exiba-a no Modo de Exibição de Detalhes do painel Procurar e selecione **[!UICONTROL Crop]**.
 
-1. Na janela Editor de corte, coloque a parte da imagem que você não deseja cortar na caixa de corte. O que aparecer dentro da caixa é o que permanecerá após você selecionar **[!UICONTROL Save]** e recortar a imagem.
+1. Na janela Editor de corte, posicione a parte da imagem que deseja manter dentro da caixa de corte. O que aparecer dentro da caixa permanecerá após você selecionar **[!UICONTROL Save]** e recortar a imagem.
 1. Para ajustar a área de corte, siga um destes procedimentos:
 
-   * Arraste um lado ou canto da caixa. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas mantenha a proporção (a forma) da caixa de corte.
+   * Arraste um lado ou canto da caixa. Para alterar o tamanho, mas manter a proporção (a forma) da caixa de corte, mantenha pressionada a tecla Shift enquanto arrasta.
    * Insira medidas de pixel nas caixas Tamanho.
-   * Arraste para mover a caixa de corte. Mova o ponteiro para dentro do limite da caixa. Ao visualizar a seta de quatro pontas, arraste a caixa para um novo local na imagem.
+   * Arraste para mover a caixa de corte. Mova o ponteiro para dentro do limite da caixa. Ao ver o ponteiro de movimentação, arraste a caixa para um novo local na imagem.
 
 1. Selecione **[!UICONTROL Save]**.
 
