@@ -1,5 +1,5 @@
 ---
-title: desktop Adobe Dynamic Media Classic
+title: Aplicativo de desktop do Adobe Dynamic Media Classic
 description: Saiba mais sobre o aplicativo de desktop do Adobe Dynamic Media Classic disponível.
 contentOwner: rbrough
 content-type: reference
@@ -12,31 +12,26 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
 workflow-type: tm+mt
-source-wordcount: 2043
+source-wordcount: 2032
 ht-degree: 0%
 
 ---
 
 # Disponível agora: aplicativo de desktop do Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Os usuários do Adobe Dynamic Media Classic agora têm acesso a uma nova experiência de aplicativo de desktop que não depende mais da tecnologia Adobe Flash no navegador.
+Os usuários do Adobe Dynamic Media Classic agora têm acesso a um novo aplicativo de desktop que não depende mais da tecnologia Adobe Flash no navegador.
 
 Este novo aplicativo agora está disponível para Windows® e macOS.
 
 >[!IMPORTANT]
 >
->A Adobe recomenda que você instale o novo aplicativo de desktop Adobe Dynamic Media Classic até 1º de outubro de 2020. Isso garantirá uma transição suave antes da desativação do Adobe Flash Player em 31 de dezembro de 2020. Após essa data, não será possível fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic rotulada como Adobe Dynamic Media Classic no produto.
+>A Adobe recomenda que você instale o novo aplicativo de desktop Adobe Dynamic Media Classic até 1º de outubro de 2020. Isso garante um período de transição antes da desativação do Adobe Flash Player em 31 de dezembro de 2020. Após essa data, não será possível fazer logon na versão do navegador da interface do usuário do Adobe Dynamic Media Classic rotulada como Adobe Dynamic Media Classic no produto.
 
 Consulte as Perguntas Frequentes do [Novo logon do Adobe Dynamic Media Classic agora disponível.](/help/using/new-ui-2020.md)
 
@@ -60,7 +55,7 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 * Ao editar uma imagem, os botões **[!UICONTROL Save]** não funcionavam.
 * Nos editores de Conjunto, os botões **[!UICONTROL Close]**, **[!UICONTROL Save]** e **[!UICONTROL Save As]** ficam desabilitados após rolar ativos no painel **[!UICONTROL Add Assets]**.
 * O botão **[!UICONTROL Play]** na exibição de Detalhes do vídeo não funcionou.
-* Não foi possível inserir `d` e `e` nos campos **[!UICONTROL Username]** e **[!UICONTROL Password]** ao executar o macOS Monterey.
+* Os usuários não podem inserir `d` e `e` nos campos **[!UICONTROL Username]** e **[!UICONTROL Password]** ao executar o macOS Monterey.
 * As APIs restantes do Analytics foram movidas para a versão 2.0.
 
 ## Correções na versão 20.21.3 {#release-sept2021}
@@ -79,14 +74,14 @@ A notificação de atualização no aplicativo de desktop do Adobe Dynamic Media
 
 * Limitação conhecida no 20.21.1: a lista suspensa **[!UICONTROL Server]** na tela de entrada estava vazia.
 * Em **[!UICONTROL Upload Job Options]**, o valor de nome de Camada padrão em **[!UICONTROL Photoshop Options]**, agora é **[!UICONTROL Photoshop and Layer Name]**. As camadas no arquivo PSD são carregadas como imagens separadas.
-   * O padrão anterior de **[!UICONTROL Layer name]**, nomeava as imagens após seu nome de camada ou número de camada no arquivo PSD. O número da camada era usado se os nomes das camadas no arquivo do PSD fossem nomes de camadas padrão do Photoshop.
-   * O novo padrão de **[!UICONTROL Photoshop and Layer Name]**, nomeia as imagens após o arquivo PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo do PSD forem nomes de camadas padrão do Photoshop.
-   * Considerando que as imagens de camada no Adobe Dynamic Media Classic agora têm nomes exclusivos, não ocorrerá nenhuma atualização no PSD ou nos modelos existentes (quais nomes de camada compartilhados nos arquivos originais do PSD).
+  * O padrão anterior de **[!UICONTROL Layer name]** nomeava as imagens após seu nome de camada ou número de camada no arquivo PSD. O número da camada era usado se os nomes das camadas no arquivo do PSD fossem nomes de camadas padrão do Adobe Photoshop.
+  * O novo padrão de **[!UICONTROL Photoshop and Layer Name]** nomeia as imagens após o arquivo PSD seguido pelo nome ou número da camada. O número da camada é usado se os nomes das camadas no arquivo do PSD forem nomes de camadas padrão do Adobe Photoshop.
+  * Como as imagens de camada no Adobe Dynamic Media Classic agora têm nomes exclusivos, não ocorre nenhuma atualização nos PSD ou Modelos existentes (que compartilham nomes de camada nos arquivos originais do PSD).
 * Miniaturas de ativos quebradas.
 
 ## Correções na versão 20.21.1 {#latest-fixes-desktop-app}
 
-* Problemas de entrada devido ao tempo limite que resultam na seguinte mensagem: *Este usuário pode ser atribuído ao grupo ou grupos sem permissão. Contate o administrador.*
+* Problemas de entrada devido ao tempo limite que resultam na seguinte mensagem: *Este usuário está atribuído ao grupo ou grupos sem permissão. Contate o administrador.*
 * As predefinições do visualizador são duplicadas a cada tentativa de senha incorreta.
 * O aplicativo de desktop não responde devido a muitos ativos na pasta raiz. (Corrigido no Windows®; funcionando conforme desejado no macOS.)
 
@@ -110,13 +105,13 @@ Consulte também:
 
    * A versão mais recente está disponível no site a seguir:
 
-      * [macOS (.DMG): download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE): Baixar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+     * [macOS (.DMG): download](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+     * [Windows (.EXE): Baixar](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * A versão anterior está disponível no link a seguir:
 
-      * [macOS (.DMG): download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE): Baixar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+     * [macOS (.DMG): download](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+     * [Windows® (.EXE): Baixar](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 <!--
          * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
@@ -160,7 +155,7 @@ Consulte também:
    | Produção na EMEA (Europa, Oriente Médio e África) | https://s7sps3.scene7.com/ |
    | Produção da APAC (Ásia-Pacífico) | https://s7sps5.scene7.com/ |
 
-1. Após fazer logon, observe a experiência familiar da interface do usuário do navegador. Você pode continuar sua atividade diária do Adobe Dynamic Media Classic como de costume no aplicativo de desktop.
+1. Após o logon, a experiência da interface do usuário do navegador é exibida. Você pode continuar sua atividade do Adobe Dynamic Media Classic como de costume no aplicativo de desktop.
 
 ## Baixe e *instale silenciosamente* o aplicativo de desktop mais recente do Adobe Dynamic Media Classic no macOS {#install-silent-mac-dmc-app}
 
@@ -181,7 +176,7 @@ Para baixar e *instalar silenciosamente* a versão mais recente do aplicativo de
 
    `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
-1. Copie o arquivo .APP para **[!UICONTROL Applications]** usando o seguinte comando:
+1. Copie o arquivo `.APP` em **[!UICONTROL Applications]** usando este comando:
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
@@ -250,7 +245,7 @@ Para baixar e *instalar silenciosamente* a versão mais recente do aplicativo de
 
 ## Apresentação em vídeo sobre como usar o aplicativo de desktop do Adobe Dynamic Media Classic {#dmc-app-video-walk-through}
 
-Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
+Assista a uma [apresentação em vídeo sobre como usar o Aplicativo de Desktop da Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (Duração: 2 minutos e 36 segundos).
 
 ## Limpeza do cache de imagens e de ativos no computador usando o aplicativo de desktop {#clear-cache}
 
@@ -286,13 +281,13 @@ Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você
 
 * Reinicie o Adobe Dynamic Media Classic e entre como de costume para trabalhar com a nova empresa.
 
-## Dicas e truques
+## Práticas recomendadas
 
-**_Não consigo ver o painel Carrinho de Mídia na página de aterrissagem do Adobe Dynamic Media Classic._**<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]**&#x200B;está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
+***Não consigo ver o painel Portal de mídia na página de aterrissagem do Adobe Dynamic Media Classic.***<br>No Adobe Dynamic Media Classic, toque em **[!UICONTROL Setup > Personal Setup]**. Na seção Navegador, verifique se **[!UICONTROL Show MediaPortal Features]** está selecionado (marcado). Toque em **[!UICONTROL Save > Close]**.
 
-**_O estado de publicação (indicador verde) de um ativo não é refletido corretamente._**<br>Na interface do usuário do navegador, era necessário fazer logon novamente na interface para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe introduziu um ícone do **[!UICONTROL Refresh]**&#x200B;na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Toque no ícone **[!UICONTROL Refresher]**&#x200B;para ver o status mais recente de todos os ativos na página especificada. Não é necessário fazer logon novamente como na interface do usuário do navegador.
+***O estado de publicação (indicador verde) de um ativo não é refletido corretamente.***<br>Na interface do usuário do navegador, entrar na interface novamente era necessário para ver o estado de publicação correto dos ativos. No aplicativo de desktop, o Adobe adicionou um ícone **[!UICONTROL Refresh]** na barra de ferramentas, à direita do botão **[!UICONTROL Select None]**. Para ver o status mais recente de todos os ativos em uma determinada página, toque no ícone **[!UICONTROL Refresh]**. Nenhuma reautenticação é necessária como na interface do usuário do navegador.
 
 ![Ícone Atualizar](/help/using/assets/refresh-icon1.png)
 *Ícone Atualizar*
 
-**_Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop._**<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Sets Preset]**&#x200B;está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.
+***Não vejo predefinições de conjunto de lotes funcionando no aplicativo de desktop.***<br>Toque em **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Verifique se o relevante **[!UICONTROL Batch Sets Preset]** está habilitado. Clique em **[!UICONTROL Save and Submit upload]**.
