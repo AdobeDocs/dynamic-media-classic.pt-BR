@@ -11,43 +11,40 @@ topic: Development, Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:45:42.823Z'
 TQID: 'https://experienceleague.adobe.com/yVtwbE8JePSUMeMBeajLy-fsI-zHn0bbZjCasDT5AuQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 0%
 
 ---
 
 # Recursos do desenvolvedor {#developer-resources}
 
-Os guias de referência para Visualizadores, Disponibilização de imagens e Renderização de imagens e Sistema de produção de imagens descrevem os protocolos http para esses módulos de servidor. Os desenvolvedores de sites que desejam personalizar ainda mais e usar a mídia avançada do Adobe Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. Presume-se que o usuário esteja familiarizado com o aplicativo de desktop do Dynamic Media Classic, padrões e convenções gerais do protocolo http e terminologia básica de geração de imagens.
+Os guias de referência para Visualizadores, Disponibilização de imagens e Renderização de imagens e Sistema de produção de imagens descrevem os protocolos HTTP para esses módulos de servidor. Os desenvolvedores de sites que desejam personalizar e usar a mídia avançada do Adobe Dynamic Media Classic para um site ou aplicativo personalizado podem usar esses guias. Os usuários devem estar familiarizados com o aplicativo de desktop do Dynamic Media Classic, os padrões e convenções gerais de protocolo HTTP e a terminologia básica de geração de imagens.
 
-Consulte também [Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources).
+Consulte também [Recursos do desenvolvedor do Dynamic Media](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 ## Visualizadores {#viewers-guide}
 
 | Documento | Endereço da Web |
 | --- | --- |
-| Guia de referência de visualizadores e notas de versão | [https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/homeviewers) |
+| Guia de referência de visualizadores e notas de versão | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
 | Exemplos da biblioteca do visualizador | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## API de disponibilização de imagens/renderização de imagens (IS/IR) {#is-ir-api-guide}
 
 | Documento | Endereço da Web |
 | --- | --- |
-| Guia de referência de API | [https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| Guia de referência de API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## API do sistema de produção de imagens (IPS) {#ips-api-guide}
 
 | Documento | Endereço da Web |
 | --- | --- |
-| Guia de referência de API | [https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| Guia de referência de API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- 
 ## Image Authoring {#ia}
