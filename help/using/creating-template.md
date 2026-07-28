@@ -21,9 +21,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 016933e6edfe59faa37ca6821184d7bcdb333b97
 workflow-type: tm+mt
-source-wordcount: 3321
+source-wordcount: 3378
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Veja também o vídeo de treinamento [Noções básicas do modelo](https://s7d5.
 
 ## Criar o modelo inicial {#creating-the-initial-template}
 
-Ao criar um conjunto de modelos, a opção **[!UICONTROL Publish after a save]** afeta o conjunto e os membros do conjunto das seguintes maneiras:
+Ao criar um conjunto de modelos, a opção **[!UICONTROL Publish after a save]** afeta o conjunto e os membros do conjunto das seguintes maneiras.
 
 | **[!UICONTROL Publish after a save]** opção selecionada antes de salvar? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- |
@@ -65,11 +65,11 @@ Você pode criar um template a partir de um template existente. Abra o modelo, s
 1. Selecione **[!UICONTROL Save]**.
 1. Selecione uma pasta para armazenar o modelo, digite um nome para o modelo e selecione **[!UICONTROL Submit]**.
 
-   O Adobe Dynamic Media Classic reduz as imagens, se necessário, para ajustá-las à tela, que é a área na tela Modelo para definição do modelo.
+   O Adobe Dynamic Media Classic dimensiona imagens, se necessário, para ajustá-las à tela. A área na tela Modelo é usada para definir seu modelo.
 
 ## Editar um conjunto de modelos {#editing-a-template-set}
 
-Se você editar um conjunto publicado ou um conjunto de modelos não publicado, a opção **[!UICONTROL Publish after a save]** afetará o conjunto e os membros do conjunto das seguintes maneiras:
+Se você editar um conjunto publicado ou um conjunto de modelos não publicado, a opção **[!UICONTROL Publish after a save]** afetará o conjunto e os membros do conjunto das seguintes maneiras.
 
 | Conjunto já publicado? | **[!UICONTROL Publish after a save]** opção selecionada antes de salvar sua edição? | Estado do conjunto após salvar | Estado dos membros definidos após salvar |
 | --- | --- | --- | --- |
@@ -89,7 +89,7 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 ## Excluir um modelo
 
-Quando você exclui um Conjunto de modelos, o conjunto em si é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
+Quando você exclui um Conjunto de modelos, o conjunto em si é movido para a Lixeira. No entanto, os membros desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não.
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
@@ -106,13 +106,13 @@ Use estas ferramentas na tela Modelo para criar modelos:
 
 * **[!UICONTROL Pan]**: Permite selecionar camadas, movê-las ao redor da tela, redimensioná-las ou girá-las.
 
-* **[!UICONTROL Text]**: cria uma camada de texto. Arraste na tela de desenho para criar uma camada de texto e, em seguida, insira o texto na camada. Consulte [Criando uma camada de texto](#creating-a-text-layer).
+* **[!UICONTROL Text]**: cria uma camada de texto. Para criar uma camada de texto, arraste na tela de desenho e, em seguida, insira o texto na camada. Consulte [Criando uma camada de texto](#creating-a-text-layer).
 
 * **[!UICONTROL Preview]**: Abre a tela de Visualização e mostra o modelo em um Visualizador de Zoom. Você vê a aparência do modelo para os usuários no seu site ou aplicativo.
 
 * **[!UICONTROL Parameter Summary]** Abre a tela Resumo de Parâmetros. Você pode ver o nome de cada camada em um modelo e, em cada camada, os nomes dos parâmetros que foram ativados.
 
-* **[!UICONTROL Text Editor v4.3 and Text Editor v4.2]**: Use o Editor de Texto mais recente e completo. Você pode optar por usar o Editor de texto v4.3 ou o Editor de texto anterior, Editor de texto v4.2. Ao criar modelos, o Editor de texto v4.3 é selecionado por padrão. Ao editar modelos mais antigos, o Editor de texto v4.2 é selecionado por padrão. No momento, o Editor de texto v4.3 não é compatível com quebra automática de linha. Portanto, ao editar modelos mais antigos que usam quebra automática de linha, use o Editor de texto v4.2 para manter a fidelidade do modelo totalmente intacta. Se o modelo mais antigo não usar quebra automática de linha, você poderá escolher o Editor de texto v4.3 para aproveitar os vários recursos novos que ele oferece. Por exemplo, Aumentar Margens, Diminuir Margens, Definir Texto em Todas as Maiúsculas e Copiar Ajustar Texto.
+* **[!UICONTROL Text Editor v4.3 and Text Editor v4.2]**: Use o Editor de Texto mais recente e completo. Você pode optar por usar o Editor de texto v4.3 ou o Editor de texto anterior, Editor de texto v4.2. Ao criar modelos, o sistema seleciona o Editor de texto v4.3 por padrão. Ao editar modelos mais antigos, o sistema seleciona o Editor de texto v4.2 por padrão. No momento, o Editor de texto v4.3 não é compatível com quebra automática de linha. Portanto, ao editar modelos mais antigos que usam quebra automática de linha, use o Editor de texto v4.2 para manter a fidelidade do modelo totalmente intacta. Se o modelo mais antigo não usar quebra automática de linha, você poderá escolher o Editor de texto v4.3 para aproveitar os vários recursos novos que ele oferece. Os exemplos incluem Aumentar Margens, Diminuir Margens, Definir Texto em Todas as Maiúsculas e Copiar Ajustar Texto.
 
   >[!NOTE]
   >
@@ -139,7 +139,7 @@ Use estas ferramentas na tela Modelo para criar modelos:
 ## Criar uma camada de texto {#creating-a-text-layer}
 
 1. Selecione a ferramenta **[!UICONTROL Text]**.
-1. Arraste para criar uma caixa de texto na tela ou em uma imagem.
+1. Arraste para criar uma caixa de texto na tela de desenho ou imagem.
 1. Na tela de Texto que é aberta, adicione o texto seguindo um destes procedimentos na guia Preview:
 
    * Digite texto na caixa de texto. Escolha &#39;Copiar texto de ajuste&#39; para ajustar o texto à caixa de texto.
@@ -149,21 +149,27 @@ Use estas ferramentas na tela Modelo para criar modelos:
 
 ### Formatar texto {#format-text}
 
-Para formatar o texto em uma camada de texto, faça o seguinte:
-
 1. Na lista Camadas, clique duas vezes no nome da caixa de texto com o texto que deseja editar. O Editor de texto se abre.
 1. Na caixa de texto do Editor de texto, selecione o texto que deseja formatar. Você pode selecionar todo o texto, partes do texto ou caracteres individuais.
 1. Especifique qualquer uma das opções de formatação a seguir e selecione **[!UICONTROL Apply]**.
 
-   * **[!UICONTROL Font]**: Escolha uma fonte no menu Fonte. Se uma fonte desejada não for exibida no menu, você poderá carregá-la na Adobe Dynamic Media Classic. Consulte Fontes.
+   * **[!UICONTROL Font]**: Escolha uma fonte no menu Fonte. Se uma fonte que você deseja não aparecer no menu, faça upload dela para o Adobe Dynamic Media Classic. Consulte Fontes.
 
    * **[!UICONTROL Font Size]**: Escolha um tamanho de fonte no menu, digite um tamanho específico na caixa ou selecione as setas **[!UICONTROL Up]** ou **[!UICONTROL Down]** para aumentar ou diminuir o tamanho em dois pontos.
 
    * **[!UICONTROL Color]**: Selecione para escolher uma cor para o texto.
 
-   * **[!UICONTROL Bold]**, **[!UICONTROL Italic]** ou **[!UICONTROL Underline]**: Selecione o texto e o ícone do tipo de formatação que deseja aplicar ao texto.
+   * **[!UICONTROL Bold]**: Selecione o texto e, em seguida, o ícone do tipo de formatação que deseja aplicar ao texto.
 
-   * **[!UICONTROL All Caps]**, **[!UICONTROL Superscript]** ou **[!UICONTROL Subscript]**: Selecione o texto e o ícone do tipo de formatação que deseja aplicar ao texto.
+   * **[!UICONTROL Italic]**: Selecione o texto e, em seguida, o ícone do tipo de formatação que deseja aplicar ao texto.
+
+   * **[!UICONTROL Underline]**: Selecione o texto e, em seguida, o ícone do tipo de formatação que deseja aplicar ao texto.
+
+   * **[!UICONTROL All Caps]**: Selecione o texto e, em seguida, o ícone do tipo de formatação que deseja aplicar ao texto.
+
+   * **[!UICONTROL Superscript]**: Selecione o texto e, em seguida, o ícone do tipo de formatação que deseja aplicar ao texto.
+
+   * **[!UICONTROL Subscript]**: Selecione o texto e, em seguida, o ícone do tipo de formatação que deseja aplicar ao texto.
 
    * **[!UICONTROL Alignment]**: Escolha um botão Alinhamento para alinhar à esquerda, centralizar ou alinhar à direita o texto na camada de texto.
 
@@ -177,7 +183,7 @@ Para formatar o texto em uma camada de texto, faça o seguinte:
 
 >[!NOTE]
 >
->Selecione **[!UICONTROL Undo]** se você deseja reverter sua última ação. Selecione **[!UICONTROL Redo]** se você mudar de ideia sobre como reverter uma ação depois de selecionar **[!UICONTROL Undo]**.
+>Selecione **[!UICONTROL Undo]** se você deseja reverter sua última ação. Selecione **[!UICONTROL Redo]** se você decidir reverter uma ação depois de selecionar **[!UICONTROL Undo]**.
 
 ### Formatar parágrafos {#format-paragraphs}
 
@@ -187,7 +193,7 @@ Para formatar o texto em uma camada de texto, faça o seguinte:
 
    * **[!UICONTROL Alignment]**: Especifique o tipo de alinhamento clicando em **[!UICONTROL Align left]**, **[!UICONTROL Align center]**, **[!UICONTROL Align right]** ou **[!UICONTROL Justify]**.
 
-   * **[!UICONTROL End of Paragraph Justification]**: selecione para especificar o tipo de justificativa para a última linha do parágrafo: a última linha se alinha à esquerda; a última linha se alinha ao centro; e a última linha se alinha à direita.
+   * **[!UICONTROL End of Paragraph Justification]**: selecione para especificar o tipo de justificativa para a última linha do parágrafo: a última linha alinha à esquerda, a última linha alinha ao centro e a última linha alinha à direita.
 
    * **[!UICONTROL Line Spacing]**: Digite ou selecione um valor numérico pelo qual ajustar a quantidade de espaço entre todas as linhas no parágrafo.
 
@@ -222,7 +228,7 @@ Para formatar o texto em uma camada de texto, faça o seguinte:
 
    * **[!UICONTROL Position]**: Especifica o local da caixa de texto na tela.
 
-   * **[!UICONTROL Padding]**: Adiciona margens ou recorta o retângulo da camada. Especifique o número de pixels que deseja adicionar ou remover para Esquerda, Superior, Inferior e Direito. Insira números positivos se quiser adicionar uma margem ou números negativos ao corte.
+   * **[!UICONTROL Padding]**: Adiciona margens ou recorta o retângulo da camada. Especifique o número de pixels que deseja adicionar ou remover para Esquerda, Superior, Inferior e Direito. Insira números positivos se quiser adicionar uma margem ou números negativos ao recorte.
 
 ### Exibir e editar o código-fonte do texto {#view-and-edit-text-source-code}
 
@@ -244,11 +250,11 @@ Também é possível alterar o tamanho da tela de desenho, escolher sua cor de f
 
 ### Reordenar camadas {#reordering-layers}
 
-A alteração da ordem das camadas pode afetar a aparência, especialmente quando há envolvimento de transparência ou superimposição. Certifique-se de visualizar o resultado antes de confirmar as alterações.
+A alteração da ordem das camadas pode afetar a aparência, especialmente quando há envolvimento de transparência ou superimposição. Visualize o resultado antes de salvar as alterações.
 
 1. Use uma destas técnicas para reordenar as camadas em um modelo:
 
-   * Selecione uma camada na lista Camadas. Em seguida, selecione **[!UICONTROL Up]** ou **[!UICONTROL Down]** quantas vezes forem necessárias para colocá-lo na posição correta da lista.
+   * Selecione uma camada na lista Camadas. Em seguida, selecione **[!UICONTROL Up]** ou **[!UICONTROL Down]** quantas vezes forem necessárias para posicioná-lo corretamente na lista.
    * Arraste uma camada para cima ou para baixo na lista Camadas.
 
 ### Alteração do tamanho e da posição das camadas e da tela de desenho {#changing-the-size-and-position-of-layers-and-the-canvas}
@@ -261,7 +267,7 @@ As camadas devem ser pequenas o suficiente para caber na tela de desenho. É pos
 
 * **Alteração do tamanho de uma camada**: para alterar o tamanho de uma camada ou tela de desenho, selecione a camada ou tela de desenho na lista Camadas e use uma destas técnicas:
 
-* **Alterando manualmente o tamanho**: selecione e arraste um canto da camada ou tela de desenho. Com camadas de texto, também é possível arrastar um lado da camada. Mantenha pressionada a tecla Shift enquanto arrasta para alterar o tamanho, mas manter a proporção (a forma).
+* **Alterando manualmente o tamanho**: selecione e arraste um canto da camada ou tela de desenho. Com camadas de texto, também é possível arrastar um lado da camada. Para alterar o tamanho mantendo a proporção, mantenha pressionada a tecla Shift enquanto arrasta.
 
 * **Inserindo medidas de tamanho de camada**: insira medidas de pixel nas caixas de texto L (Largura) e A (Altura) na área Propriedades da Camada.
 
@@ -269,19 +275,19 @@ Além de alterar o tamanho de uma camada, você pode preenchê-la. Para fazer is
 
 * **Alteração da posição de uma camada**: para alterar a posição de uma camada na tela de desenho, selecione seu nome na lista Camadas e use uma destas técnicas:
 
-* **Alterando manualmente a posição**: mova o ponteiro para perto de, mas não acima de um limite de camada e, quando você vir o cursor de seta de quatro pontas, selecione e comece a arrastar.
+* **Alterando manualmente a posição**: mova o ponteiro para perto de um limite de camada, mas não acima dele, e quando você vir o cursor de movimentação, selecione-o e comece a arrastá-lo.
 
 * **Inserindo medidas de deslocamento de posição**: insira medidas de deslocamento X e Y nas caixas de texto X e Y. Essas medidas representam o deslocamento x e y do ponto de ancoragem em pixels.
 
 * **Girando uma camada**: a caixa Girar lista o ângulo em que a camada foi girada. Para girar uma camada, selecione seu nome na lista Camadas e use uma destas técnicas:
 
-* **Girando manualmente**: mova o cursor para perto, mas não sobre um canto da camada. Ao ver o cursor de rotação, arraste o canto da camada. Mantenha pressionada a tecla Shift enquanto arrasta para girar em incrementos de 15 graus.
+* **Girando manualmente**: mova o cursor próximo a um canto da camada, mas não acima dele. Ao ver o cursor de rotação, arraste o canto da camada. Para girar em incrementos de 15 graus, mantenha pressionada a tecla Shift ao arrastar.
 
-* **Inserindo uma medida de grau**: insira o número de graus para girar a camada. A rotação é no sentido horário; para girar no sentido anti-horário, insira um número negativo.
+* **Inserindo uma medida de grau**: insira o número de graus para girar a camada. A rotação é no sentido horário; para girar no sentido anti-horário, digite um número negativo.
 
 **Ocultar uma camada ou um efeito de camada:**
 
-Você pode ocultar uma camada ou um efeito de camada selecionando o ícone de olho ao lado do nome de uma camada ou do nome de um efeito. Camadas ocultas não aparecem em visualizações ou saída. As informações da camada não são excluídas do URL. Em vez disso, `hide=1` é adicionado à URL para observar que a camada está oculta na exibição. Por exemplo:
+Você pode ocultar uma camada ou um efeito de camada selecionando o ícone de olho ao lado do nome de uma camada ou do nome de um efeito. Camadas ocultas não aparecem em visualizações ou saída. As informações da camada não são excluídas do URL. Para observar que a camada está oculta na exibição, o sistema adiciona `hide=1` à URL. Por exemplo:
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 
@@ -295,13 +301,13 @@ Para escolher uma cor de plano de fundo, opacidade e modo de mesclagem para uma 
 
 * **Cor do plano de fundo**: selecione **[!UICONTROL Background Color]** e escolha uma amostra de cor para alterar a cor das áreas preenchidas.
 
-* **Opacidade**: arraste o controle deslizante de Opacidade para tornar qualquer camada translúcida de forma que parte da imagem subjacente seja exibida. A configuração de 100% é opaca; 0 é transparente.
+* **Opacidade**: para tornar qualquer camada translúcida de forma que parte da imagem subjacente seja exibida, arraste o controle deslizante de Opacidade. A configuração de 100% é opaca; 0 é transparente.
 
-* **Modo de mesclagem**: para simular um dos modos de mesclagem disponíveis no Photoshop, escolha uma opção. As opções são Normal, Dissolver, Clarear, Escurecer, Multiplicar e Tela. Essas opções estão disponíveis para camadas, não para a tela de desenho.
+* **Modo de mesclagem**: para simular um dos modos de mesclagem disponíveis no Adobe Photoshop, escolha uma opção. As opções são Normal, Dissolver, Clarear, Escurecer, Multiplicar e Tela. Essas opções estão disponíveis para camadas, não para a tela de desenho.
 
 ## Usar efeitos de sombra e brilho em camadas {#using-shadow-and-glow-effects-on-layers}
 
-É possível aplicar sombra ou brilho a uma camada. A sombra ou o brilho se aplica ao perímetro da camada e se estende para dentro ou para fora, dependendo da opção de sombra ou brilho escolhida. Se o modelo tiver sido originado com um arquivo PSD com efeitos de sombra e brilho, você poderá ajustar esses efeitos no Adobe Dynamic Media Classic.
+É possível aplicar sombra ou brilho a uma camada. A sombra ou o brilho se aplica ao perímetro da camada e se estende para dentro ou para fora, dependendo da opção de sombra ou brilho escolhida. Se o modelo tiver sido originado com um arquivo PSD contendo efeitos de sombra e brilho, você poderá ajustar esses efeitos no Adobe Dynamic Media Classic.
 
 Depois de aplicar um efeito de sombra ou brilho, é possível ajustar seu tamanho, cor, opacidade e posição na área Propriedades da camada da tela Modelo.
 
@@ -330,13 +336,13 @@ Para ajustar um efeito de sombra ou brilho, comece selecionando seu nome na list
 
 * **[!UICONTROL Color]**: Selecione o botão Cor e escolha uma amostra de cor para alterar a cor da sombra ou do brilho. Você também pode inserir um parâmetro de valor de cor na caixa.
 
-* **[!UICONTROL Opacity]**: arraste o controle deslizante para determinar a intensidade do efeito. Efeitos menos opacos são mais transparentes.
+* **[!UICONTROL Opacity]**: Para determinar a intensidade do efeito, arraste o controle deslizante. Efeitos menos opacos são mais transparentes.
 
-* **[!UICONTROL Blend Mode]**: para simular um dos modos de mesclagem disponíveis no Photoshop, escolha uma opção. As opções são Normal, Dissolver, Clarear, Escurecer, Multiplicar e Tela.
+* **[!UICONTROL Blend Mode]**: para simular um dos modos de mesclagem disponíveis no Adobe Photoshop, escolha uma opção. As opções são Normal, Dissolver, Clarear, Escurecer, Multiplicar e Tela.
 
 * **[!UICONTROL Size]**: Insira medidas nas caixas X e Y para aumentar ou diminuir o efeito de sombra. As opções de tamanho só estão disponíveis para sombras internas e sombras projetadas.
 
-* **[!UICONTROL Grow]**: Arraste o controle deslizante para estender o efeito para dentro ou para fora.
+* **[!UICONTROL Grow]**: Para estender o efeito para dentro ou para fora, arraste o controle deslizante.
 
 * **[!UICONTROL Blur]**: Arraste o controle deslizante para controlar a difusão nas bordas do efeito. Efeitos com mais desfoque são mais emplumados.
 

@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 1343214cf19c9cfc6153e3f8b90c8ffc260de999
 workflow-type: tm+mt
-source-wordcount: 683
+source-wordcount: 672
 ht-degree: 0%
 
 ---
 
 # Criar um conjunto de amostras{#creating-a-swatch-set}
 
-Um Conjunto de amostras oferece aos usuários a oportunidade de visualizar um item em uma cor, padrão ou fim diferente. Para criar um Conjunto de amostras com amostras de cores, é necessário ter uma imagem para cada cor, padrão ou término diferente que você deseja apresentar aos usuários. Você também precisa de uma amostra de cor, padrão ou fim para cada cor, padrão ou fim.
+Um Conjunto de amostras permite que os usuários visualizem um item em uma cor, padrão ou fim diferente. Para criar um Conjunto de amostras com amostras de cores, é necessário ter uma imagem para cada cor, padrão ou término diferente que você deseja apresentar aos usuários. Você também precisa de uma amostra de cor, padrão ou fim para cada cor, padrão ou fim.
 
-Por exemplo, suponha que você queira apresentar imagens de tampas com diferentes listas de cores; as listas são vermelha, verde e azul. Neste caso, você precisa de três doses do mesmo boné. Você precisa de uma foto com um vermelho, uma com verde e outra com uma nota azul. Você também precisa de uma amostra de cor vermelha, verde e azul. As amostras de cores servem como miniaturas que os usuários selecionam no Visualizador de conjuntos de amostras para ver a tampa de faturamento vermelho, verde ou azul.
+Por exemplo, suponha que você queira apresentar imagens de tampas com diferentes listas de cores; as listas são vermelha, verde e azul. Neste caso, você precisa de três imagens do mesmo quepe. Você precisa de uma imagem para cada uma das notas vermelha, verde e azul. Você também precisa de amostras de cores vermelho, verde e azul. As amostras de cores servem como miniaturas que os usuários selecionam no Visualizador de conjuntos de amostras para ver a tampa de faturamento vermelho, verde ou azul.
 
 ## Criar um conjunto de amostras {#create}
 
@@ -56,8 +56,8 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 1. Para alterar a ordem das imagens no Conjunto de amostras, arraste as imagens para novos locais.
 1. Próximo ao canto inferior direito da página, verifique se **[!UICONTROL Publish after a save]** está selecionado (padrão).
-1. Selecione **[!UICONTROL Save]**, selecione uma pasta para armazenar o Conjunto de Amostras de cor, digite um nome para o conjunto e selecione **[!UICONTROL Submit]**.
-1. Para ver o Conjunto de Amostras no Visualizador de Conjunto de Amostras, selecione **[!UICONTROL Preview]** na tela Conjunto de Amostras. Você pode selecionar miniaturas de amostras no Visualizador de conjuntos de amostras para ver como elas se comportam.
+1. Selecione **[!UICONTROL Save]**, selecione uma pasta para armazenar o Conjunto de Amostras, digite um nome para o conjunto e selecione **[!UICONTROL Submit]**.
+1. Para ver o Conjunto de Amostras no Visualizador de Conjunto de Amostras, selecione **[!UICONTROL Preview]** na tela Conjunto de Amostras. Você pode selecionar miniaturas de amostras no Visualizador de conjuntos de amostras para ver como elas funcionam.
 
 ## Editar um conjunto de amostras {#editing-a-swatch-set}
 
@@ -74,8 +74,8 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 **Para editar um Conjunto de Amostras:**
 
-1. Na Exibição de Grade, navegue até um SwatchSet e, abaixo da imagem, selecione **[!UICONTROL Edit]**.
-1. Siga um destes procedimentos:
+1. Na exibição de grade, navegue até um Conjunto de Amostras e, abaixo da imagem, selecione **[!UICONTROL Edit]**.
+1. Execute uma das seguintes ações:
 
    * Para adicionar uma imagem (publicada ou não), arraste-a de uma pasta em Adicionar Assets para a página **[!UICONTROL Views]** do Conjunto de amostras.
    * Para remover uma imagem, selecione-a e, em seguida, selecione **[!UICONTROL Delete]** na barra de ferramentas.
@@ -86,11 +86,11 @@ Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publ
 
 ## Excluir um conjunto de amostras
 
-Quando você exclui um conjunto, o próprio conjunto é movido para a Lixeira. No entanto, os membros (ou &quot;filhos&quot;) dentro desse conjunto não são afetados; em vez disso, cada um retém seu estado publicado ou não publicado existente.
+Ao excluir um conjunto, o próprio conjunto é movido para a pasta de itens excluídos. Os membros nesse conjunto não são afetados; eles mantêm seu estado existente, publicado ou não.
 
 Consulte também [Publicar ativos manualmente](publishing-files.md#manually_publishing_assets) e [Cancelar a publicação manual de ativos](publishing-files.md#manually_unpublishing_assets).
 
 **Para excluir um Conjunto de Amostras:**
 
-1. Na Exibição em Grade, em Lista ou em Detalhes, selecione um Conjunto de Amostras ou mais.
+1. Na Exibição em grade, Exibição em lista ou Exibição de detalhes, selecione um ou mais Conjuntos de amostras.
 1. Na Barra de Navegação Global, vá para **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
