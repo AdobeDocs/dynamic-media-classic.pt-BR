@@ -1,5 +1,5 @@
 ---
-title: Personalizar a tela do Portal de mídia
+title: Personalizar a tela do portal de mídia
 description: Saiba como personalizar a tela do Portal de mídia no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 00d087b14c6c030473ecfee92ec879e705a9b197
 workflow-type: tm+mt
 source-wordcount: 310
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 # Personalizar a tela do Portal de mídia{#customizing-the-media-portal-screen}
 
-As configurações de estilo do Portal de mídia permitem que você marque a tela Portal de mídia com o logotipo e as cores da sua empresa. Use as configurações de estilo para colocar a marca da sua empresa no Portal de mídia.
+As configurações de estilo do Portal de mídia permitem que você marque a tela Portal de mídia com o logotipo e as cores da sua empresa. Use as configurações de estilo para aplicar a marca da sua empresa ao Portal de mídia.
 
-Para acessar as configurações de estilo, vá para **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]**. Certifique-se de selecionar **[!UICONTROL Save]** para salvar suas configurações depois de criá-las. Você pode selecionar **[!UICONTROL Restore]** para retornar às configurações padrão. À medida que você faz suas escolhas, o painel Visualização mostra como elas são exibidas.
+Para acessar as configurações de estilo, vá para **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]**. Certifique-se de selecionar **[!UICONTROL Save]** para salvar suas configurações depois de criá-las. Você pode selecionar **[!UICONTROL Restore]** para redefinir para as configurações padrão. À medida que você faz suas escolhas, o painel Visualização mostra como elas são exibidas.
 
 * **[!UICONTROL Logo]**: Selecione **[!UICONTROL Browse]** e escolha um gráfico na janela Selecionar Imagem de Logotipo.
 
-* **[!UICONTROL Application]**: crie uma mistura de cores de gradiente fazendo escolhas nos menus das Cores de Gradiente de Plano de Fundo.
+* **[!UICONTROL Application]**: Configure uma mistura de cores de gradiente selecionando opções nos menus das Cores de Gradiente de Plano de Fundo.
 
 * **[!UICONTROL Tree]**: Escolha uma cor de sobreposição e uma cor de seleção.
 
@@ -48,7 +48,7 @@ Para acessar as configurações de estilo, vá para **[!UICONTROL Setup]** > **[
 
 * **[!UICONTROL Progress Bar]**: Escolha uma cor para a barra que indica o progresso dos carregamentos e downloads.
 
-Para que os usuários do Media Portal vejam as configurações de estilo escolhidas, eles devem anexar `?company=(company name)` à URL com a qual acessam o Media Portal. Por exemplo, para ver as configurações de estilo, os usuários do Portal de mídia que acessam a empresa PortalCo no seguinte endereço:
+Para que os usuários do Media Portal vejam as configurações de estilo escolhidas, eles devem anexar `?company=(company name)` à URL com a qual acessam o Media Portal. Por exemplo, para ver as configurações de estilo, os usuários do Portal de mídia que acessam a empresa PortalCo podem usar o seguinte URL:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -60,4 +60,4 @@ A inclusão do nome da empresa no URL permite que o Media Portal reconheça a em
 
 Você pode saber mais sobre como comunicar alterações de URL aos usuários do Media Portal e configurar uma mensagem de email de boas-vindas para que novos usuários recebam o URL correto do Media Portal.
 
-Consulte [Configurar o email de boas-vindas para usuários do Portal de Mídia](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
+Consulte [Configurar a mensagem de email de boas-vindas para usuários do Portal de mídia](adding-media-portal-users.md#setting_up_the_welcome_email_message_for_media_portal_users).

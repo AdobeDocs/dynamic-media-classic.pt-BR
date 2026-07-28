@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: 1604
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ A publicação de um vídeo permite que os servidores da Adobe Dynamic Media Cla
 
 Há dois métodos diferentes que podem ser usados para publicar vídeos:
 
-* **Publicar vídeos automática e instantaneamente no carregamento**: como parte do processo de carregamento de vídeo, a Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. Essa capacidade de publicação instantânea significa que não há necessidade de publicar vídeos separadamente após o fato.
+* **Publicar vídeos automática e instantaneamente no carregamento**: como parte do processo de carregamento de vídeo, a Adobe Dynamic Media Classic pode publicar vídeos automaticamente quando eles forem carregados e codificados. A publicação instantânea significa que não há necessidade de publicar vídeos separadamente.
 
 * **Publicar vídeo manualmente após o carregamento**: se não quiser publicar vídeos imediatamente, você pode publicar vídeos manualmente a qualquer momento.
 
@@ -49,7 +49,7 @@ Depois de publicar vídeos, o Adobe Dynamic Media Classic ativa as cadeias de ca
 
 1. Siga um destes procedimentos:
 
-   * Para publicar vídeos de forma automática e instantânea durante o carregamento, na página de Carregamento, selecione **[!UICONTROL Publish after uploading]**. Você concluiu; não há mais etapas a serem concluídas.
+   * Para publicar vídeos de forma automática e instantânea após o carregamento, selecione **[!UICONTROL Publish after uploading]** na página de Carregamento. O processo está concluído; não há mais etapas a serem executadas.
    * Para publicar vídeos manualmente depois de carregar, no painel Procurar, selecione os vídeos e, na barra Navegação Global, selecione **Publicar**.
 
 ## Vincular um URL de vídeo a um site para dispositivos móveis ou site {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -150,7 +150,8 @@ Se você usar players de vídeo de terceiros ou um player de vídeo personalizad
 
   Na página **[!UICONTROL Application General Settings]**, no grupo **[!UICONTROL Servers]**, no campo de texto **[!UICONTROL Published Server Name]**, construa a URL direta. Use a seguinte sintaxe: `server/is/content/company/folder/filename.m3u8`
 
-  Por exemplo, suponha que o nome do servidor Publicado seja `https://s7d9.scene7.com/.` Usando a sintaxe na etapa 2, a URL direta seria semelhante ao seguinte:
+  Por exemplo, suponha que o nome do servidor Publicado seja `https://s7d9.scene7.com/`. Usando a sintaxe na etapa 2, o URL direto é o seguinte:
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Para gerar um URL de streaming de vídeo direto do HLS (taxa de bit único)
@@ -159,7 +160,8 @@ Se você usar players de vídeo de terceiros ou um player de vídeo personalizad
 
   `server/company/folder/filename.ext.m3u8`
 
-  Por exemplo, suponha que o nome do servidor de streaming do HLS seja `https://s7mbrstream.scene7.com/hls-vod/`. Usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
+  Por exemplo, suponha que o nome do servidor de streaming do HLS seja `https://s7mbrstream.scene7.com/hls-vod/`. Usando a sintaxe na etapa 2, o URL direto é o seguinte:
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Para gerar um URL direto de vídeo progressivo
@@ -168,24 +170,25 @@ Se você usar players de vídeo de terceiros ou um player de vídeo personalizad
 
   `server/company/folder/filename`
 
-  Por exemplo, suponha que o nome do servidor de vídeo progressivo seja `https://s7d9.scene7.com/is/content/`. Usando a sintaxe na etapa 2, o URL direto pode ser semelhante ao seguinte:
+  Por exemplo, suponha que o nome do servidor de vídeo progressivo seja `https://s7d9.scene7.com/is/content/`. Usando a sintaxe na etapa 2, o URL direto é o seguinte:
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Trabalhar com miniaturas de vídeo {#working-with-video-thumbnails}
 
 O Adobe Dynamic Media Classic gera miniaturas para vídeos codificados e vídeos pré-codificados. Você pode usar miniaturas de vídeo como qualquer ativo de imagem. Além disso, você pode obter URLs para as miniaturas de vídeo geradas pelo Adobe Dynamic Media Classic. Em seguida, é possível implantar esses URLs fora do Adobe Dynamic Media Classic. Por exemplo, você pode implantar as miniaturas em resultados de pesquisa, listagens de vídeo relacionadas e listas de reprodução de vídeo em um site.
 
-As miniaturas são geradas com base no primeiro quadro heterogêneo (não um quadro totalmente preto, ou um quadro totalmente branco e assim por diante) do vídeo.
+As miniaturas são geradas com base no primeiro quadro heterogêneo (não um quadro totalmente preto ou totalmente branco) do vídeo.
 
 ### Obter URLs de miniatura de vídeo {#obtaining-video-thumbnail-urls}
 
-O Adobe Dynamic Media Classic gera miniaturas de vídeo automaticamente durante o processo de upload. As miniaturas aparecem no painel Procurar na Exibição de lista e na Exibição de grade.
+O Adobe Dynamic Media Classic gera miniaturas de vídeo automaticamente durante o processo de upload. As miniaturas são exibidas na Exibição em lista e na Exibição em grade do painel Procurar.
 
 Para gerar URLs para miniaturas de vídeo, execute uma operação de publicação.
 
 Consulte [Publicar vídeo](deploying-video-websites-mobile-sites.md#publishing_video).
 
-Após a publicação, é possível obter URLs de miniatura de vídeo na Exibição de detalhes no painel URLs e Código incorporado. Selecione **[!UICONTROL Copy URL]** à direita da miniatura do vídeo para poder copiar a URL associada.
+Após a publicação, é possível obter URLs de miniatura de vídeo na Exibição detalhada do painel URLs e Código incorporado. Selecione **[!UICONTROL Copy URL]** à direita da miniatura do vídeo para poder copiar a URL associada.
 
 ### Modificar quadros de pôster em visualizadores de vídeo {#modifying-poster-frames-in-video-viewers}
 

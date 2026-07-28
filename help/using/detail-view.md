@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: 601
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 É possível exibir um ativo na Exibição de detalhes para examinar, visualizar ou trabalhar detalhadamente nele.
 
-1. No painel Procurar, execute um dos procedimentos a seguir:
+1. No painel Procurar, siga um destes procedimentos:
 
    * Selecione o ativo. Próximo ao canto superior direito do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL Detail View]**.
    * Clique duas vezes no ativo.
@@ -60,7 +60,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!NOTE]
 >
->É possível paginar de ativo a ativo na mesma pasta da Exibição de detalhes. Basta clicar em **[!UICONTROL Previous Asset]** ou **[!UICONTROL Next Asset]**. Esses botões estão no canto superior direito da Exibição de detalhes.
+>É possível navegar entre ativos na mesma pasta usando a Exibição de detalhes. Clique em **[!UICONTROL Previous Asset]** ou **[!UICONTROL Next Asset]**. Esses botões estão no canto superior direito da Exibição de detalhes.
 
 ## Obter informações na Exibição de detalhes {#getting-information-in-detail-view}
 
@@ -72,7 +72,7 @@ A Exibição de detalhes fornece informações sobre um ativo ou arquivo. Essas 
 
 A Exibição de detalhes oferece ferramentas para trabalhar com o ativo que você abriu. As ferramentas disponíveis dependem do tipo de ativo com o qual você está trabalhando, mas a Exibição de detalhes sempre oferece estas funções:
 
-* **itens para publicação**: selecione o ícone **[!UICONTROL `Publish`]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+* **Itens a serem publicados**: Selecione o ícone **[!UICONTROL `Publish`]** à esquerda do nome ou vá para **[!UICONTROL File]** > **[!UICONTROL Publish]** ou **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
 * **Renomear o ativo**: selecione o nome e insira um novo nome.
 
