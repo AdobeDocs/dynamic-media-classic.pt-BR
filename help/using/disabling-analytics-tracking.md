@@ -23,18 +23,20 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 48c22780dad668ea7189197dce2ca2a7edd1cedd
 workflow-type: tm+mt
-source-wordcount: 84
+source-wordcount: 83
 ht-degree: 0%
 
 ---
 
 # Desativar o rastreamento do Adobe Analytics{#disabling-adobe-analytics-tracking}
 
+Essas etapas desabilitam o suporte para Adobe Dynamic Media Classic e para URLs obtidas do recurso **[!UICONTROL CopyURL]**. Se você implementar o rastreamento personalizado, desative o rastreamento do Adobe Analytics conforme configurado na página Configuração para evitar conflitos com a implementação personalizada.
+
 **Para desabilitar o rastreamento do Adobe Analytics:**
 
 1. Desative todos os eventos na página Configuração do Adobe Analytics no Adobe Dynamic Media Classic.
 1. Salve e publique.
 
-Essas etapas desativam o suporte para Adobe Dynamic Media Classic e para URLs obtidas do recurso **[!UICONTROL CopyURL]**. Se você implementar o rastreamento personalizado, desative o rastreamento do Adobe Analytics conforme configurado na página Configuração para evitar conflitos com a implementação personalizada.
+
