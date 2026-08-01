@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 0117afba420d2d4dce072b78a35e44328e72c950
 workflow-type: tm+mt
 source-wordcount: 165
 ht-degree: 0%
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 # Incluir destinos de zoom e mapas de imagem em conjuntos de amostras{#including-zoom-targets-and-image-maps-in-swatch-sets}
 
-Se você definir Destinos de zoom e Mapas de imagem para as imagens no Conjunto de amostras, esses destinos e mapas serão exibidos no Visualizador do conjunto de amostras. Os usuários, por exemplo, podem selecionar um Mapa de imagem no Visualizador de conjunto de amostras e abrir uma nova página no seu site com informações sobre um item. Os usuários podem selecionar uma imagem em miniatura de destino no Visualizador de conjunto de amostras e aplicar zoom automaticamente a parte de uma imagem.
+Se você definir Destinos de zoom e Mapas de imagem para as imagens no Conjunto de amostras, esses destinos e mapas serão exibidos no Visualizador do conjunto de amostras. Os usuários, por exemplo, podem selecionar um Mapa de imagem no Visualizador de conjunto de amostras e abrir uma nova página em seu site com informações sobre um item. Os usuários podem selecionar uma imagem em miniatura de destino no Visualizador de conjunto de amostras e aplicar zoom automaticamente a parte de uma imagem.
 
-Se quiser disponibilizar Destinos de zoom e Mapas de imagem para os usuários, crie Destinos de zoom e Mapas de imagem para as imagens no seu Conjunto de amostras. Você pode fazer isso com as ferramentas Mapas de imagem ou Destinos de zoom na tela Conjunto de amostras ou no painel Procurar (na Exibição de detalhes).
+Se quiser disponibilizar Destinos de zoom e Mapas de imagem para os usuários, crie Destinos de zoom e Mapas de imagem para as imagens no seu Conjunto de amostras. Essa ação pode ser executada com as ferramentas Mapas de imagem ou Destinos de zoom na tela Conjunto de amostras ou no painel Procurar (na Exibição de detalhes).
 
 >[!MORELIKETHIS]
 >

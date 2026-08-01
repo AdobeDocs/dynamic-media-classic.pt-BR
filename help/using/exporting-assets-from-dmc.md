@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 74b2fd3a2c7808f5a3cb73bdece56d2914090d8e
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 430
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ O Adobe Dynamic Media Classic mantém um registro dos trabalhos de exportação 
 **Para exportar ativos do Adobe Dynamic Media Classic:**
 
 1. Selecione os ativos que deseja exportar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
-1. Na janela Exportar Assets Selecionado, clique em **[!UICONTROL Image Options]** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários):
+1. Na janela Exportar Assets Selecionado, clique em **[!UICONTROL Image Options]** e especifique qualquer uma das seguintes opções (os administradores determinam quais opções estão disponíveis para os usuários do software):
 
    * **[!UICONTROL Presets]**: como opção, escolha uma Predefinição de imagem para formatar o ativo ao exportá-lo. Se você escolher uma Predefinição de imagem, as outras opções de formatação não estarão disponíveis, pois o ativo adota os formatos definidos pela Predefinição de imagem.
 
@@ -86,4 +86,4 @@ Você pode usar a conversão para exportar os seguintes tipos de ativos:
 O seguinte comportamento resulta da introdução no exportador de uma grande seleção de vários tipos de ativos:
 
 * Todos os tipos de ativos que não podem ser exportados são removidos da lista antes do envio do trabalho
-* Se uma conversão for solicitada, todos os tipos que podem ser convertidos serão, e todos os outros serão exportados como originais
+* Se uma conversão for solicitada, todos os tipos que podem ser convertidos serão processados e todos os outros serão exportados como o arquivo original

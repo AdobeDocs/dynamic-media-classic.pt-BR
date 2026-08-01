@@ -1,5 +1,5 @@
 ---
-title: Exportar vídeos de origem e codificados
+title: Exportar vídeos codificados e do Source
 description: Saiba como exportar vídeos de origem e codificados no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 9d0ec88ec7a1e8f408c80073bdfb30b190dc0864
 workflow-type: tm+mt
-source-wordcount: 70
+source-wordcount: 71
 ht-degree: 0%
 
 ---
 
 # Exportar vídeos de origem e codificados{#exporting-source-and-encoded-videos}
 
-No painel Procurar, os vídeos de origem são rotulados como *Vídeo principal*. Os vídeos codificados são rotulados como *Vídeo*. Você pode exportar vídeos e vídeos principais. Para exportar arquivos de vídeo, selecione-os no painel Procurar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
+No painel Procurar, os vídeos de origem são rotulados como *Vídeo principal*. Os vídeos codificados são rotulados como *Vídeo*. Você pode exportar vídeos principais e vídeos codificados. Para exportar arquivos de vídeo, selecione-os no painel Procurar e vá para **[!UICONTROL File]** > **[!UICONTROL Export]**.
 
 Consulte [Exportar ativos do Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 

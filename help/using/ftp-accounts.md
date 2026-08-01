@@ -21,32 +21,32 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: af16f8e2f2c8ea927c70e73cef774b09e8cbd346
+source-git-commit: ab98008be321400156bd26951ea7cc211b2a9425
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: 221
 ht-degree: 0%
 
 ---
 
 # Gerenciar contas FTP{#managing-ftp-accounts}
 
-Somente administradores do Media Portal podem administrar e gerenciar contas FTP. Além disso, somente usuários com a função de *Usuário-Colaborador do Portal de Mídia* ou *Colaborador do Portal de Mídia* podem carregar ativos digitais.
+Somente administradores do Media Portal podem gerenciar contas FTP. Além disso, somente usuários com a função de *Usuário-Colaborador do Portal de Mídia* ou *Colaborador do Portal de Mídia* podem carregar ativos digitais.
 
-Lembre-se de que é possível ativar ou desativar usuários existentes do Media Portal por meio da página Administração do usuário em Configuração de administração.
+Você pode ativar ou desativar usuários existentes do Portal de mídia usando a página Administração do usuário em Configuração de administração.
 
 Consulte [Ativar ou desativar usuários](administration-setup.md#activating_or_deactivating_users).
 
 1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP Accounts]**.
-1. Na página Adicionar conta FTP, na lista suspensa Nome de usuário das contas FTP, selecione um usuário.
+1. Na página Adicionar conta FTP, na lista suspensa Nome de usuário da conta FTP, selecione um usuário.
 
-   Se um usuário não estiver listado, você deverá adicioná-lo como um Administrador do Media Portal, um Colaborador do Media Portal-Usuário ou um Colaborador do Media Portal por meio da Configuração de administração. Depois de adicionar o usuário com a função apropriada, o nome de usuário dele fica disponível na lista suspensa.
+   Se um usuário não estiver listado, você deverá adicioná-lo como um Administrador do Media Portal, um Colaborador do Media Portal-Usuário ou um Colaborador do Media Portal usando a Configuração de administração. Depois de adicionar o usuário com a função apropriada, o nome de usuário dele fica disponível na lista suspensa.
 
    Consulte [Adicionar um usuário do Portal de Mídia](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. Nos campos Senha e Confirmar, digite a senha da conta FTP.
 1. Selecione **[!UICONTROL Save]** para adicionar a conta à tabela Contas Existentes.
 
-   Para fazer upload de ativos de mídia, você precisa do Nome de usuário da conta FTP listado na tabela Contas existentes e da senha atribuída à conta.
+   Para fazer upload de ativos de mídia, você precisa do Nome de usuário da conta FTP listado na tabela Contas existentes e a senha atribuída à conta.
 
    Consulte o tópico [Carregar arquivos](uploading-files.md#uploading_files).
 

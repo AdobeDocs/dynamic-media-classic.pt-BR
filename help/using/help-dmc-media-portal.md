@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fa52322e2bccf9ac52380c0af87b5ca2bdb7f709
 workflow-type: tm+mt
 source-wordcount: 87
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 O seguinte documento de Ajuda também está disponível no Adobe Dynamic Media Classic:
 
-**Usar o Adobe Dynamic Media Classic Media Portal**: o Adobe Dynamic Media Classic Media Portal é um ambiente baseado em navegador que fornece aos usuários do portal acesso fácil para carregar, navegar, pesquisar, visualizar e exportar ativos em formatos corporativos aprovados. Consulte [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
+**Usar o Adobe Dynamic Media Classic Media Portal**: o Adobe Dynamic Media Classic Media Portal é um ambiente baseado em navegador que fornece aos usuários do portal acesso para carregar, navegar, pesquisar, visualizar e exportar ativos em formatos corporativos aprovados. Consulte [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
 
 <!-- 
 Is this topic still needed? -rb 04/22/21

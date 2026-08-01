@@ -1,5 +1,5 @@
 ---
-title: Opções de ajuste de imagem no upload
+title: Opções de ajuste fino de imagem no upload
 description: Saiba mais sobre as opções de ajuste de imagem disponíveis no momento do upload no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,45 +20,45 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d4b7c732ad5e23237d00f1c5d344f1264ac48293
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1169
 ht-degree: 0%
 
 ---
 
 # Opções de ajuste de imagem no upload{#image-editing-options-at-upload}
 
-Ao fazer upload de arquivos de imagem, incluindo arquivos AI, EPS e PSD, você pode realizar as seguintes ações de edição na caixa de diálogo Fazer upload das opções de trabalho:
+Ao carregar arquivos AI, EPS e PSD, você pode executar estas ações na caixa de diálogo [!UICONTROL Upload Job Options]:
 
 * Cortar espaço em branco a partir da borda das imagens.
 * Recortar manualmente nas laterais das imagens.
 * Escolha um perfil de cores.
 * Criar uma máscara a partir de um traçado de recorte.
-* Nitidez de imagens com opções de máscara sem nitidez
-* Plano de fundo de separação
+* Nitidez de imagens com opções de máscara sem nitidez.
+* Derrube o plano de fundo.
 
 Essas opções estão na página de Carregamento sob o cabeçalho **[!UICONTROL Imaging Edit Options]**.
 
 ## Cortar espaço em branco a partir de imagens
 
-Você pode cortar automaticamente pixels de espaço em branco de uma imagem. Na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL Crop Options]**. Na lista suspensa **[!UICONTROL Crop]**, escolha **[!UICONTROL Trim]**. Em seguida, escolha estas opções:
+Você pode cortar automaticamente os pixels de espaço em branco de uma imagem. Na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL Crop Options]**. Na lista suspensa **[!UICONTROL Crop]**, escolha **[!UICONTROL Trim]**. Em seguida, escolha estas opções:
 
 * **[!UICONTROL Trim Away Based On]**: Nessa lista suspensa, escolha se deseja cortar com base na cor ou na transparência:
 
-   * **[!UICONTROL Color]**: Escolha a opção **[!UICONTROL Color]**. Em seguida, na lista suspensa **[!UICONTROL Corner]**, selecione o canto da imagem com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
+  * **[!UICONTROL Color]**: Escolha a opção **[!UICONTROL Color]**. Em seguida, na lista suspensa **[!UICONTROL Corner]**, selecione o canto da imagem com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
 
-   * **[!UICONTROL Transparency]**: Escolha a opção Transparência.
+  * **[!UICONTROL Transparency]**: Escolha a opção Transparência.
 
-* **[!UICONTROL Tolerance]**: arraste o controle deslizante para especificar uma tolerância de 0 a 1:
+* **[!UICONTROL Tolerance]**: Para especificar uma tolerância de 0 a 1, arraste o controle deslizante:
 
-   * **Corte com base na cor**: especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Números próximos a 1 permitem mais diferença de cor.
+  * **Corte com base na cor**: especifique 0 para cortar pixels somente se eles corresponderem exatamente à cor selecionada no canto da imagem. Números próximos a 1 permitem mais diferença de cor.
 
-   * **Corte com base na transparência**: especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos a 1 permitem mais transparência.
+  * **Corte com base na transparência**: especifique 0 para cortar pixels somente se eles forem transparentes; números mais próximos a 1 permitem mais transparência.
 
 ## Recortar manualmente nas laterais das imagens
 
-Para recortar manualmente das laterais de uma imagem, selecione o menu Recortar e escolha Manual. Em seguida, insira o número de pixels a serem cortados de qualquer lado ou de cada lado da imagem. O quanto da imagem é cortada depende da configuração ppi (pixels por polegada) no arquivo de imagem. Por exemplo, suponha que a imagem exiba 150 ppi. Em seguida, digite 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo. Neste ponto, cada lado é cortado 0,5 polegada.
+Para recortar manualmente das laterais de uma imagem, selecione o menu Recortar e escolha Manual. Em seguida, insira o número de pixels a serem cortados de qualquer lado ou de cada lado da imagem. A quantidade de imagem cortada depende da configuração ppi (pixels por polegada) no arquivo de imagem. Por exemplo, suponha que a imagem exiba 150 ppi. Em seguida, insira 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo. Neste ponto, cada lado é cortado 0,5 polegadas.
 
 ## Escolha um perfil de cores
 
@@ -68,7 +68,7 @@ Para selecionar um espaço de cores para a imagem, escolha uma opção de Perfil
 
 * **[!UICONTROL Keep Original Color Space]**: retém o espaço de cores original.
 
-* **[!UICONTROL Custom From]** > **[!UICONTROL To]**: abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** > **[!UICONTROL To]**: abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores padrão do Adobe Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 Consulte [perfis ICC](icc-profiles.md#icc_profiles).
 
@@ -80,7 +80,7 @@ Para criar uma máscara para a imagem com base nas informações do caminho de r
 
 Esse filtro permite ajustar um efeito de filtro de nitidez na imagem final com resolução reduzida. Ela ajuda a controlar a intensidade do efeito, o raio do efeito (medido em pixels) e um limite de contraste ignorado.
 
-Esse efeito usa as mesmas opções do filtro Tirar nitidez da máscara do Photoshop. Ao contrário do que o nome sugere, Unsharp Mask é um filtro de nitidez.
+Esse efeito usa as mesmas opções do filtro Tirar nitidez da máscara do Adobe Photoshop. Embora o nome seja potencialmente confuso, Tirar nitidez da máscara é um filtro de nitidez.
 
 Em Tirar nitidez da máscara, defina as opções desejadas. As opções de configuração são descritas na tabela a seguir:
 
@@ -95,9 +95,9 @@ Consulte também [Nitidez de uma imagem](sharpening-image.md#sharpening_an_image
 
 Consulte também [Nitidez de imagens no Adobe Dynamic Media e no Servidor de Imagens](/help/using/assets/s7_sharpening_images.pdf).
 
-## Plano de fundo de separação
+## Remover plano de fundo
 
-Use o Plano de fundo de separação para remover automaticamente o plano de fundo de uma imagem ao carregá-la. Essa técnica é útil para chamar a atenção para um objeto específico e destacá-lo de um plano de fundo ocupado.
+Use Remover plano de fundo para remover o plano de fundo de uma imagem automaticamente ao carregá-la. Essa técnica é útil para realçar um objeto específico e isolá-lo de um fundo complexo.
 
 | Opções de plano de fundo de separação | Descrição |
 | --- | --- |
