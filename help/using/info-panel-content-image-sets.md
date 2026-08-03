@@ -1,5 +1,5 @@
 ---
-title: Gerenciar conteúdo do Painel de informações em Conjuntos de imagens
+title: Gerenciar conteúdo do painel Informações em conjuntos de imagens
 description: Saiba como gerenciar o conteúdo do Painel de informações em Conjuntos de imagens no Adobe Dynamic Media Classic.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -12,30 +12,26 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:01:44.270Z'
 TQID: 'https://experienceleague.adobe.com/kYn0xood-R05EoIVrWA7w89rJm3qpqzdxPbmz563WJ0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 596e4337002ebd67dd9f915a5ae63ae2a6e18437
 workflow-type: tm+mt
-source-wordcount: 775
+source-wordcount: 782
 ht-degree: 0%
 
 ---
 
 # Gerenciar conteúdo do Painel de informações em Conjuntos de imagens{#managing-info-panel-content-in-image-sets}
 
-Além de usar o texto do Mapa de imagem para sobreposições em Conjuntos de imagens, você pode usar um Painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o InfoPanel usando o armazenamento em cache de tempo e agendando atualizações de conteúdo.
+Além de usar o texto do Mapa de imagem para sobreposições em Conjuntos de imagens, você pode usar um Painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o Painel de informações usando o armazenamento em cache de tempo e agendando atualizações de conteúdo.
 
 Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
 
 * O painel Configuração do painel Informações permite especificar o modelo usado para exibir o texto do painel Informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, é possível especificar se o Conjunto de imagens é publicado automaticamente.
-* O painel Feed de dados do painel Informações permite especificar um arquivo CSV que contenha o texto que você deseja exibir no texto de sobreposição do painel Informações e agendar os horários de atualização das informações.
-* A caixa de diálogo Importar metadados permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Feed de dados do InfoPanel com a opção de arquivo CSV para o texto de sobreposição.
+* O painel Feed de dados permite especificar um arquivo CSV. Esse arquivo contém o texto que você deseja exibir no texto de sobreposição do Painel de informações. Você também pode programar horários para atualizar as informações.
+* A caixa de diálogo Importar metadados permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Feed de dados do painel Informações com a opção de arquivo CSV para o texto de sobreposição.
 
 ## Configurar um modelo de resposta para conjuntos de imagens {#set-up-a-response-template-for-image-sets}
 
@@ -50,7 +46,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
    * Para usar a resposta padrão, selecione **[!UICONTROL Default]**. O XML do design do modelo aparece esmaecido na caixa de texto Modelo do usuário.
    * Para criar seu próprio modelo de resposta, selecione **[!UICONTROL Custom]**. Na caixa de texto Modelo de Usuário, digite a definição XML do modelo. Você pode usar o template padrão que já está definido na caixa de texto como base para sua própria resposta.
 
-1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um Mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de Conjunto de imagens, mas nenhum identificador de substituição, esta mensagem será exibida para o usuário.
+1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um Mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de Conjunto de imagens, mas não tiver um identificador de substituição, esta mensagem será exibida para o usuário.
 1. No campo de texto TTL de Resposta, informe o número de horas que deseja aguardar antes de armazenar os dados em cache.
 
    * Defina um número menor se os dados forem atualizados com frequência ao longo do dia.
@@ -59,7 +55,7 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 1. Selecione **[!UICONTROL Upload]** para carregar o conteúdo do Painel de Informações, com base no valor rollover_key, para s7info.
 1. Na caixa de diálogo Carregar S7Info, navegue até o arquivo que deseja usar e selecione **[!UICONTROL Upload]**.
 
-   Os formatos de arquivo compatíveis são arquivos delimitados por TAB com codificação UTF-16 e arquivos CSV com codificação ASCII. Para arquivos CSV, os caracteres não ASCII devem ser codificados em HTML.
+   Os formatos de arquivo compatíveis são arquivos delimitados por tabulação com codificação UTF-16 e arquivos CSV com codificação ASCII. Para arquivos CSV, os caracteres não ASCII devem ser codificados em HTML.
 
 1. No painel Configuração do InfoPanel, selecione **[!UICONTROL Publish]**.
 
@@ -71,7 +67,7 @@ Ao formatar o conteúdo original, lembre-se das seguintes diretrizes:
 
 * Os dados delimitados por tabulação e vírgula podem conter quantas colunas forem necessárias para o modelo de sobreposição.
 * O primeiro item ou coluna de dados é o identificador de sobreposição (associado ao valor rollover_key dos URLs do Mapa de imagem).
-* Verifique se cada item delimitado por tabulação ou vírgula após o identificador é o item que você deseja substituir no modelo de resposta. Assim, a primeira coluna é substituída por $1$, a segunda coluna por $2$ e assim por diante).
+* Verifique se cada item delimitado por tabulação ou vírgula após o identificador é o item que você deseja substituir no modelo de resposta. Assim, a primeira coluna é substituída por $1$, a segunda coluna por $2$ e assim por diante.
 
 ### Importar conteúdo de CSV para conjuntos de imagens de um local hospedado externamente {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
