@@ -12,23 +12,19 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:52:09.030Z'
 TQID: 'https://experienceleague.adobe.com/cAIaFvlJ3jYoqu1LeLRILuuYsfvuYH6f-N8PqqkHkrk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: a6b941f1da5843a57d082f6bebc4a75a6c2ee65c
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: 621
 ht-degree: 0%
 
 ---
 
 # Vincular um eCatalog a uma página da Web{#linking-an-ecatalog-to-a-web-page}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media, incluindo eCatalogs, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do eCatalog em suas páginas e aplicativos da Web, copie-o do Adobe Dynamic Media Classic.
+Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media, incluindo eCatalogs, usando cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do eCatalog em suas páginas e aplicativos da Web, copie-o do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -55,13 +51,13 @@ Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic M
 
 ## Adicionar URLs de eCatalog à sua página da Web {#adding-ecatalog-urls-to-your-web-page}
 
-A maneira mais comum de implantar um eCatalog é colocar um link na forma de uma página de capa em miniatura do eCatalog na sua página da Web. Trabalhe com sua equipe de TI para garantir que o eCatalog seja iniciado em uma janela pop-up limpa e centralizada. Peça à sua equipe de TI para impedir que a barra de ferramentas e a barra de endereços no navegador sejam exibidas.
+O método padrão para implantar um eCatalog é adicionar um link usando uma página de capa em miniatura do eCatalog na sua página da Web. Para garantir que o eCatalog seja iniciado em uma janela pop-up centralizada, entre em contato com seu departamento de TI. Para ocultar a barra de ferramentas e a barra de endereços, configure o navegador.
 
-Para obter mais detalhes e exemplos de código, consulte o [eCatalog Viewer do HTML5 incorporado](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) na Adobe Viewers Reference.
+Para obter mais detalhes e exemplos de código, consulte o [eCatalog Viewer do HTML5 incorporado](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) na Adobe Viewers Reference.
 
 ## Copiar o código incorporado de um visualizador de eCatalog {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-Usar o recurso de código incorporado permite revisar o código do visualizador do eCatalog selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
+O recurso de código incorporado permite revisar o código do visualizador do eCatalog selecionado. Você também pode copiar o código para a área de transferência para poder colá-lo em suas páginas da Web para implantação do visualizador. A edição do código não é permitida na caixa de diálogo Incorporar código.
 
 **Para copiar o código inserido de um visualizador de eCatalog:**
 
