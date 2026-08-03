@@ -12,27 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:02:51.028Z'
 TQID: 'https://experienceleague.adobe.com/3AeMn6W1vePdJL1PkXuy-YISRw75QUDfdkUP5V2xhEs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: afcc58640eb472fbd6877795fa24414b15eccf55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: 583
 ht-degree: 0%
 
 ---
 
 # Vincular um conjunto de mídia mista a uma página da Web{#linking-a-mixed-media-set-to-a-web-page}
 
-Após publicar um Conjunto de mídias mistas, você pode obter o URL associado para uso no seu site ou aplicativo. Em seguida, é possível implantar o URL conforme necessário, para que os usuários possam exibir o Conjunto de mídias mistas em seu site ou aplicativo.
+Após publicar um Conjunto de mídias mistas, você pode obter o URL associado para uso no seu site ou aplicativo. Em seguida, é possível implantar o URL conforme necessário, para que os usuários possam visualizar o Conjunto de mídias mistas em seu site ou aplicativo.
 
 ## Obter um URL de conjunto de mix de mídia {#obtain-a-mixed-media-set-url}
 
 1. No painel Procurar ativos, na lista suspensa Mostrar, selecione **[!UICONTROL Media Set]**.
-1. no painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos que contém o conjunto de mídias cujo Código incorporado você deseja copiar.
+1. No painel Biblioteca de ativos à esquerda, navegue até a pasta de ativos. Ele contém o conjunto de mídia cujo Código de inserção você deseja copiar.
 1. Acima do painel Navegar por ativos, no lado direito da barra de ferramentas, siga um destes procedimentos:
 
    * Clique em **[!UICONTROL Grid View]**. No painel Navegação de ativos, clique duas vezes em um único ativo para abri-lo na Exibição de detalhes. No painel URLs e Código de Inserção à direita, selecione **[!UICONTROL Copy URL]** à direita do visualizador desejado.
@@ -50,7 +47,7 @@ Após publicar um Conjunto de mídias mistas, você pode obter o URL associado p
 
 ## Adicionar URLs do conjunto de mix de mídia à sua página da Web {#add-mixed-media-set-urls-to-your-web-page}
 
-A maneira mais comum de implantar um Conjunto de mídias mistas é colocar um link (por meio de um ícone de navegação) na página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
+Um método padrão para implantar um Conjunto de mídias mistas é adicionar um link (usando um ícone de navegação) à sua página da Web. Quando selecionado, o link inicia uma página dinâmica (ASP ou JSP) que exibe o Conjunto de mídias mistas no Visualizador de conjunto de mídias mistas.
 
 ## Copiar o código incorporado de um visualizador do Conjunto de mídias mistas {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
