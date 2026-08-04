@@ -1,5 +1,5 @@
 ---
-title: Gerenciar conteúdo do Painel de Informações em eCatalogs
+title: Gerenciar conteúdo do painel Informações em eCatalogs
 description: Saiba como gerenciar o conteúdo do Painel de informações em eCatalogs no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,27 +20,27 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6556d91057da7b0cd02523a48f97e2eadcebb88
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: 864
 ht-degree: 0%
 
 ---
 
 # Gerenciar conteúdo do Painel de Informações em eCatalogs{#managing-info-panel-content-in-ecatalogs}
 
-Além de usar o texto do Mapa de imagem para suas sobreposições em eCatalogs, você pode usar um Painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o InfoPanel usando um armazenamento em cache cronometrado e programando atualizações de conteúdo.
+Além de usar o texto do Mapa de imagem para suas sobreposições em eCatalogs, você pode usar um Painel de informações para adicionar quantidades maiores de texto de sobreposição, incluindo links. Você também pode gerenciar o Painel de informações usando o armazenamento em cache cronometrado e agendando atualizações de conteúdo.
 
-Você pode gerenciar a configuração e os dados do InfoPanel usando os seguintes recursos no Adobe Dynamic Media Classic:
+Você pode gerenciar a configuração e os dados do Painel de informações usando os seguintes recursos no Adobe Dynamic Media Classic:
 
 * O painel Configuração do InfoPanel permite especificar o modelo usado para exibir o texto do Painel de Informações, uma resposta padrão para erros e o número de horas em que as informações são armazenadas em cache. Além disso, você pode especificar se os eCatalogs são publicados automaticamente.
-* O painel Feed de dados do InfoPanel permite especificar um arquivo CSV contendo o texto que você deseja exibir no texto de sobreposição do InfoPanel e agendar tempos para atualizar as informações.
+* O painel Feed de dados permite especificar um arquivo CSV. Esse arquivo contém o texto que você deseja exibir no texto de sobreposição do Painel de informações. Você também pode programar horários para atualizar as informações.
 * A caixa de diálogo Importar metadados (acessada na visualização Mapear páginas ) permite importar um arquivo TXT delimitado por tabulação contendo as informações de texto de sobreposição. Você pode usar essa opção TXT ou o painel Feed de dados com a opção de arquivo CSV para o texto de sobreposição.
-* A exibição Mapear páginas fornece uma opção para visualizar o xml que aparece para Mapas de imagem específicos.
+* A exibição Mapear páginas fornece uma opção para visualizar o XML que aparece para Mapas de imagem específicos.
 
 ## Configurar um modelo de resposta para eCatalogs {#set-up-a-response-template-for-ecatalogs}
 
-É possível selecionar um dos três modelos de resposta predefinidos para exibir texto em um Painel de informações. Esses modelos de resposta predefinidos determinam como as informações são apresentadas no Painel Informações: quantas colunas e linhas, tamanho da fonte, etc. Você pode selecionar um Modelo de resposta predefinido ou criar um de sua preferência.
+É possível selecionar um dos três Modelos de resposta predefinidos para exibir texto em um Painel de informações. Esses Modelos de resposta predefinidos determinam como suas informações são apresentadas no Painel de informações: quantas colunas e linhas, tamanho da fonte, e outras configurações. Você pode selecionar um Modelo de resposta predefinido ou criar um de sua preferência.
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ Você pode gerenciar a configuração e os dados do InfoPanel usando os seguinte
 1. Selecione um Modelo de Resposta:
 
    * Selecione uma predefinição no menu Modelo de resposta. O XML do design do modelo aparece na caixa Modelo do usuário.
-   * Para criar seu próprio Modelo de Resposta, selecione **[!UICONTROL Custom]**. Digite a definição XML do modelo na caixa Modelo do Usuário. Você pode usar os modelos predefinidos como base para os seus próprios modelos.
+   * Para criar seu próprio Modelo de Resposta, selecione **[!UICONTROL Custom]**. Digite a definição XML do modelo na caixa Modelo do Usuário. Você pode usar os modelos predefinidos como ponto de partida para si mesmo.
 
-1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um Mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e um nome de eCatalog, mas nenhum identificador de rollover, essa mensagem será exibida para o usuário.
+1. (Opcional) Na caixa Resposta padrão, digite o texto que deseja exibir se o Adobe Dynamic Media Classic encontrar um erro ao recuperar informações de um Mapa de imagem. Por exemplo, se o sistema receber um nome de empresa e de eCatalog, mas nenhum identificador de rollover, essa mensagem será exibida para o usuário.
 1. Na caixa Resposta TTL, informe o número de horas que deseja aguardar antes de armazenar os dados em cache:
 
-   * Defina um número menor se os dados forem atualizados com frequência ao longo de um dia.
-   * Defina um número mais alto se os dados estiverem relativamente estáveis e não exigirem atualizações frequentes ao longo do dia. O padrão é dez horas.
+   * Defina um número menor se os dados forem atualizados com frequência durante o dia.
+   * Defina um número mais alto se os dados estiverem relativamente estáveis e não exigirem atualizações frequentes durante o dia. O padrão é dez horas.
 
 1. Selecione **[!UICONTROL Publish]**.
 
@@ -99,13 +99,13 @@ Last Modified Date:
 1. Selecione **[!UICONTROL Browse]**, o arquivo TXT delimitado por tabulação, CSV ou SSV que você deseja usar e selecione **[!UICONTROL Open]**.
 1. Selecione **[!UICONTROL Upload]**.
 
-O Adobe Dynamic Media Classic envia uma mensagem de email informando se o upload foi bem-sucedido ou não.
+O Adobe Dynamic Media Classic envia uma mensagem de email informando se o upload foi bem-sucedido.
 
 ## Visualizar texto da chave de sobreposição para um Mapa de imagem {#preview-rollover-key-text-for-an-image-map}
 
-Usando a tela Mapear páginas, você pode visualizar de maneira fácil e rápida o texto do Painel de informações dos Mapas de imagem em uma página específica do seu eCatalog.
+Usando a tela Mapear páginas, você pode exibir o texto Painel de informações para os Mapas de imagem em uma página específica do seu eCatalog.
 
-1. Selecione o botão de sobreposição **[!UICONTROL Edit]** do catálogo.
+1. Selecione o botão de substituição **[!UICONTROL Edit]** do catálogo.
 1. Selecione **[!UICONTROL Map Pages]**.
 1. Na parte superior da tabela, no lado direito da tela, escolha **[!UICONTROL Info Panel]** no menu Mostrar.
 

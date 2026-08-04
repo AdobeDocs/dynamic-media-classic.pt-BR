@@ -22,9 +22,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 596e4337002ebd67dd9f915a5ae63ae2a6e18437
 workflow-type: tm+mt
-source-wordcount: 305
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -43,17 +43,17 @@ Para todos os visualizadores do HTML5, adicione a seguinte JavaScript ao contêi
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Onde `Adobe Dynamic Media Classic Company ID` está definido como o nome da empresa da Adobe Dynamic Media Classic. E `&preset` é opcional. Se o nome da predefinição da empresa não for `companypreset`, ele não será opcional. Nesses casos, pode ser `companypreset-1, companypreset-2` e assim por diante. O número mais alto é uma instância mais recente da predefinição. Para determinar o nome correto do valor da predefinição da empresa, selecione **[!UICONTROL Copy URL]** e verifique o parâmetro `preset=` para localizar o nome da predefinição da empresa.
+Onde `Adobe Dynamic Media Classic Company ID` está definido como o nome da empresa da Adobe Dynamic Media Classic. E `&preset` é opcional. Se o nome da predefinição da empresa não for `companypreset`, ele não será opcional. Nesses casos, é o `companypreset-1`, `companypreset-2` e versões posteriores. O número mais alto é uma instância mais recente da predefinição. Para determinar o nome correto da predefinição da empresa, selecione **[!UICONTROL Copy URL]** e verifique o parâmetro `preset=` para localizar o nome da predefinição da empresa.
 
-Continuando, adicione uma função que transmite o evento do visualizador para o código de rastreamento do Adobe Analytics.
+Adicione uma função que transmita o evento do visualizador para o código de rastreamento do Adobe Analytics.
 
-Adicione a função `s7ComponentEvent()` ao contêiner HTML (ou JSP, ou ASPX ou outro):
+Adicione a função `s7ComponentEvent()` ao contêiner HTML (ou JSP, ou ASPX, ou outro):
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-O nome da função diferencia maiúsculas de minúsculas. O único parâmetro passado para `s7componentEvent` que é necessário é o último: `eventData`. Onde `s7track()` é definido em s_code.jsp incluído acima. E `s7track` lida com todo o rastreamento por evento. (Você pode personalizar ainda mais os dados transmitidos para o Adobe Analytics nesta área.)
+O nome da função diferencia maiúsculas de minúsculas. O único parâmetro passado para `s7ComponentEvent` que é necessário é o último, `eventData`. Onde `s7track()` é definido em s_code.jsp incluído acima. E `s7track` processa todo o rastreamento de cada evento. (Você pode personalizar ainda mais os dados transmitidos para o Adobe Analytics nessa área.)
 
 ## Ativar eventos HREF e ITEM {#enabling-href-and-item-events}
 

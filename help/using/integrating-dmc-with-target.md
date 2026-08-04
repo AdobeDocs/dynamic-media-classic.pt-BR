@@ -20,21 +20,21 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: c8b39b658f09de6bb598277c5a0a4e1ce3a8bc9a
 workflow-type: tm+mt
-source-wordcount: 142
+source-wordcount: 129
 ht-degree: 0%
 
 ---
 
 # Integrar o Adobe Dynamic Media Classic com o Adobe Target Standard/Premium {#integrating-dmc-with-target}
 
-Antes de integrar [!DNL Adobe Dynamic Media Classic] com [!DNL Target Standard/Premium], você deve inserir sua URL de Destino na tela Configurações Gerais do Aplicativo [!DNL Adobe Dynamic Media Classic]. Para obter o URL do Target e inseri-lo na página Configurações Gerais da Aplicação, faça o seguinte:
+Antes de integrar [!DNL Adobe Dynamic Media Classic] a [!DNL Target Standard/Premium], você deve inserir sua URL de Destino na tela Configurações Gerais do Aplicativo [!DNL Adobe Dynamic Media Classic]. Para obter o URL do Target e inseri-lo na página Configurações Gerais da Aplicação, faça o seguinte
 
 1. No [!DNL Adobe Experience Cloud], entre na sua conta do [!DNL Target Standard/Premium].
-1. Depois de fazer logon, na barra de endereços do navegador, copie a URL para `.com`, inclusive.
+1. Depois de entrar, na barra de endereços do navegador, copie a URL para `.com`, inclusive.
 
-   Por exemplo, se a URL *ficcional* (caminhos de URLs sempre contêm barras, e não barras invertidas, como neste exemplo) na barra de endereços for `https:\\www.myfictionalsite.com/categories/admin/home.do`, copie apenas esta parte da URL *ficcional*: `https:\\www.myfictionalsite.com`.
+   Se a URL (caminhos de URL sempre contêm barras, não barras invertidas) na barra de endereços for `https://www.myfictionalsite.com/categories/admin/home.do`, copie esta parte: `https://www.myfictionalsite.com`.
 
 1. Em [!DNL Adobe Dynamic Media Classic], vá para **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
 1. Na página Configurações Gerais do Aplicativo, no campo **[!UICONTROL Test&Target Server Name]**, cole a URL copiada na etapa 2.

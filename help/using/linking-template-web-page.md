@@ -21,16 +21,16 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: f55e82148ae9d11c54dda28351743b02c1fb58a4
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 325
 ht-degree: 0%
 
 ---
 
 # Vincular um modelo a uma página da Web{#linking-a-template-to-a-web-page}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media por meio de cadeias de caracteres de URL. Depois de publicar um modelo, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência ao modelo nos servidores de imagem do Dynamic Media. Você pode colar esse URL em um navegador da Web para testar o.
+Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media usando cadeias de caracteres de URL. Depois de publicar um modelo, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência ao modelo nos servidores de imagem do Dynamic Media. Você pode colar esse URL em um navegador da Web para testar o.
 
 Para inserir strings de URL em suas páginas da Web e aplicativos, copie-as do Adobe Dynamic Media Classic. Para obter uma cadeia de caracteres de URL de modelo gerada com uma Predefinição de imagem, vá para a tela Visualização ou o painel Procurar (na Exibição de detalhes). Em seguida, selecione uma Predefinição de imagem e o botão Copiar URL.
 
@@ -40,15 +40,15 @@ Para inserir strings de URL em suas páginas da Web e aplicativos, copie-as do A
 
 ## Obter um URL de modelo {#obtaining-a-template-url}
 
-Você pode obter uma cadeia de caracteres de URL de modelo gerada por uma Predefinição de imagem na tela Visualização de modelo. Depois de copiar o URL, ele é colocado na Área de transferência para que você possa colá-lo conforme necessário. Para obter uma string de URL de modelo gerada com uma Predefinição de imagem a partir da página Visualização de modelo, faça o seguinte:
+Você pode obter uma cadeia de caracteres de URL de modelo gerada por uma Predefinição de imagem na tela Visualização de modelo. Depois de copiar o URL, ele é salvo na Área de transferência para que você possa colá-lo conforme necessário. Para obter uma string de URL de modelo gerada com uma Predefinição de imagem a partir da página Visualização de modelo, faça o seguinte:
 
-1. Selecione o botão de substituição **[!UICONTROL Preview]** do modelo ou vá para **[!UICONTROL File]** > **[!UICONTROL Preview]**.
-1. Usando os menus da Predefinição, escolha a Predefinição de imagem com a qual deseja fornecer a imagem de modelo. A página Visualizar mostra a aparência do modelo quando ele é entregue pelo servidor.
+1. Selecione o botão **[!UICONTROL Preview]** do modelo ou vá para **[!UICONTROL File]** > **[!UICONTROL Preview]**.
+1. Usando os menus da Predefinição, escolha a Predefinição de imagem com a qual deseja fornecer o modelo. A página Visualizar exibe o modelo conforme é entregue pelo servidor.
 1. Selecione **[!UICONTROL Copy URL]** para poder copiar a URL para a Área de Transferência.
 
 ## Adicionar URLs de modelo à sua página da Web {#adding-template-urls-to-your-web-page}
 
-Para adicionar um modelo à sua página da Web, consulte sua equipe de desenvolvimento de página da Web para modificar a tag `<IMG>` no código da página da Web do HTML. Use a string do URL do Adobe Dynamic Media Classic para fazer uma solicitação aos servidores de imagem do Dynamic Media. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem de modelo no tamanho e com a especificação de formatação definida pela Predefinição de imagem escolhida para o modelo.
+Para adicionar um modelo à sua página da Web, consulte sua equipe de desenvolvimento de página da Web para modificar a tag `<IMG>` no código da página da Web do HTML. Use a string do URL do Adobe Dynamic Media Classic para enviar uma solicitação aos servidores de imagem do Dynamic Media. O mecanismo de comércio ou o código dinâmico da página da Web insere a imagem de modelo no tamanho e com as especificações de formatação definidas pela Predefinição de imagem escolhida para o modelo.
 
 >[!MORELIKETHIS]
 >

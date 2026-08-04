@@ -20,22 +20,22 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 1960799e4144942d4d9443196e6db425f87c7686
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 793
 ht-degree: 0%
 
 ---
 
 # Vincular URLs ao aplicativo web{#linking-urls-to-your-web-application}
 
-Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media por meio de cadeias de caracteres de URL. Depois de publicar uma imagem, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência à predefinição de imagem nos servidores de imagem do Dynamic Media. Você pode colar esses URLs em um navegador da Web para testes.
+Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media usando cadeias de caracteres de URL. Depois de publicar uma imagem, o Adobe Dynamic Media Classic ativa uma cadeia de caracteres de URL que faz referência à predefinição de imagem nos servidores de imagem do Dynamic Media. Você pode usar esses URLs em um navegador da Web para testes.
 
 Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplicativos, copie-as do Adobe Dynamic Media Classic. Para obter uma cadeia de caracteres de URL gerada com uma Predefinição de imagem, vá para a tela Visualização ou o painel Procurar (na Exibição de detalhes).
 
 ## Obter um URL de predefinição de imagem {#obtaining-an-image-preset-url}
 
-É possível obter uma cadeia de caracteres de URL gerada por uma Predefinição de imagem a partir da Visualização ou da Exibição de detalhes. Depois de copiar o URL, ele é colocado na Área de transferência para que você possa colá-lo conforme necessário.
+É possível obter uma cadeia de caracteres de URL gerada por uma Predefinição de imagem a partir da Visualização ou da Exibição de detalhes. Depois de copiar o URL, ele é salvo na Área de transferência para que você possa colá-lo conforme necessário.
 
 >[!NOTE]
 >
@@ -59,16 +59,16 @@ Para colocar essas cadeias de caracteres de URL em suas páginas da Web e aplica
 1. No painel Biblioteca de ativos à esquerda, navegue até a pasta Ativo que contém o ativo de imagem que deseja visualizar.
 1. Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, selecione um único ativo de imagem.
 1. Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL Detail View]**.
-1. Selecione **[!UICONTROL URLs]** no painel no lado direito da tela para que você possa abrir a lista de Predefinições de imagem.
+1. Selecione **[!UICONTROL URLs]** no painel direito para exibir a lista de Predefinições de imagem.
 1. Selecione o link **[!UICONTROL Copy URL]** ao lado do nome da Predefinição de imagem com a URL que você deseja copiar para a Área de transferência.
 
-## Sobre strings de URL de predefinição de imagem {#about-image-preset-url-strings}
+## Visão geral das cadeias de caracteres de URL de predefinição de imagem {#about-image-preset-url-strings}
 
-Uma chamada de URL para dimensionamento de imagem para servidores de imagem do Dynamic Media tem a seguinte sintaxe básica:
+Uma chamada de URL para Dimensionamento de imagem em servidores de imagem do Dynamic Media tem a seguinte sintaxe básica:
 
 *caminho*/*nome do Servidor de imagens*/*nome da conta*/*nome da imagem*?*modificador1*&amp;*modificador2*&amp;...
 
-Em um URL do servidor de imagens do Dynamic Media, as instruções para o servidor exibir a imagem são exibidas após o ponto de interrogação (?). Por exemplo, essa chamada de URL fornece uma imagem chamada &quot;mochila&quot; com uma largura de 250 pixels:
+Em um URL do servidor de imagens do Dynamic Media, as instruções para o servidor exibir a imagem seguem o ponto de interrogação (?). Por exemplo, essa chamada de URL fornece uma imagem chamada &quot;mochila&quot; com uma largura de 250 pixels:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -80,17 +80,17 @@ Um URL de predefinição de imagem contém todas as instruções do modificador 
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resMode=sharp&op_usm=1.1,0.5,1,0
 ```
 
-No entanto, em uma cadeia de caracteres de URL gerada com uma Predefinição de imagem, o nome da Predefinição de imagem aparece no lugar das instruções definidas pela Predefinição de imagem. Por exemplo, em referência ao URL longo acima, a cadeia de caracteres do URL é:
+No entanto, em uma cadeia de caracteres de URL gerada com uma Predefinição de imagem, o nome da Predefinição de imagem substitui as instruções definidas pela Predefinição de imagem. Por exemplo, em referência ao URL longo acima, a cadeia de caracteres do URL é:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Os nomes das predefinições de imagem em URLs são colocados em cifrões ($). Quando um Servidor de imagens do Dynamic Media encontra a parte da Predefinição de imagem da URL (a `Large` neste caso), usando as instruções de tamanho e formatação definidas pela Predefinição de imagem &quot;Grande&quot;.
+Os nomes de predefinições de imagens em URLs usam cifrão ($). Quando um Servidor de imagens do Dynamic Media processa a parte da Predefinição de imagem da URL (neste caso, o `Large`), ele usa as instruções de tamanho e formatação definidas pela Predefinição de imagem &quot;Grande&quot;.
 
 ## Adicionar imagens dinâmicas à sua página da Web {#adding-dynamic-images-to-your-web-page}
 
-Ao adicionar imagens dinâmicas à sua página da Web, a tag `<IMG>` no seu código de página do HTML normalmente é modificada usando a cadeia de caracteres de URL do Adobe Dynamic Media Classic para fazer uma solicitação aos Servidores de Imagens do Dynamic Media. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
+Ao adicionar imagens dinâmicas às suas páginas da Web, a marca `<IMG>` geralmente é modificada usando a cadeia de caracteres da URL do Adobe Dynamic Media Classic para solicitar imagens dos Servidores de Imagens do Dynamic Media. Essa cadeia de caracteres produz a imagem nas especificações de tamanho e formatação definidas pela Predefinição de imagem.
 
 Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
 
@@ -98,10 +98,10 @@ Por exemplo, em vez da chamada típica para abrir uma imagem estática, como
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Agora você usa a tag `<IMG>` para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a plataforma Adobe Dynamic Media Classic. Uma chamada de amostra tem esta aparência:
+Agora você usa a tag `<IMG>` para substituir a referência a uma imagem estática por uma chamada de Predefinição de imagem para a Plataforma Adobe Dynamic Media Classic. Uma chamada de amostra tem esta aparência:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-Neste exemplo, um Servidor de Imagens do Dynamic Media &quot;pesquisa&quot; a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela Predefinição de imagem `thumbnail`. Em uma cadeia de caracteres de URL, todos os itens, exceto o nome de arquivo da imagem do produto ( `backpack_trns` neste caso), normalmente são programados para o modelo de página. O único elemento inserido automaticamente no modelo de página do servidor de comércio é a ID de IPS ou o nome da imagem.
+Neste exemplo, um Servidor de imagens do Dynamic Media recupera a definição de `$thumbnail$` e gera dinamicamente a imagem apropriada com as especificações de dimensionamento e formatação definidas pela Predefinição de imagem `thumbnail`. Em uma cadeia de caracteres de URL, todos os itens, exceto o nome de arquivo da imagem do produto ( `backpack_trns` neste caso), normalmente são configurados para o modelo de página. O único elemento inserido automaticamente no modelo de página do servidor de comércio é a ID de IPS ou o nome da imagem.

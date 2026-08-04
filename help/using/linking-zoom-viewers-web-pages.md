@@ -1,5 +1,5 @@
 ---
-title: Vincular visualizadores Zoom às suas páginas da Web
+title: Vincular visualizadores de zoom às suas páginas da Web
 description: Saiba como vincular visualizadores de zoom às suas páginas da Web no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,14 +20,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: a39ab917e54f3c998f3542e0ff6628de720ca017
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: 632
 ht-degree: 0%
 
 ---
 
-# Vincular visualizadores Zoom às suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
+# Conectar visualizadores Zoom às suas páginas da Web{#linking-zoom-viewers-to-your-web-pages}
 
 Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media por meio de cadeias de caracteres de URL ou código incorporado. Esse acesso inclui imagens primárias e Destinos de zoom associados. Também inclui Predefinições do visualizador de zoom. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar essas cadeias de caracteres de URL ou o código incorporado nas páginas da Web e nos aplicativos, copie-as do Adobe Dynamic Media Classic.
 
@@ -55,7 +55,7 @@ Seus sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic M
 
 ## Adicionar URLs do visualizador Zoom à sua página da Web {#adding-zoom-viewer-urls-to-your-web-page}
 
-Normalmente, os visitantes ampliam imagens em um site selecionando primeiro um ícone Zoom (geralmente o ícone mostra a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes realmente dão zoom na imagem.
+Normalmente, os visitantes ampliam as imagens em uma página da Web selecionando primeiro um ícone de Zoom (geralmente o ícone exibe a imagem de uma lupa). Selecionar esse ícone inicia uma página da Web dinâmica (ASP ou JSP) que exibe a imagem em uma janela pop-up. A janela pop-up é onde os visitantes ampliam a imagem.
 
 Para obter mais detalhes e exemplos de código, consulte o [Visualizador de zoom básico incorporado do HTML5](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2) no Guia de referência de visualizadores do Adobe.
 

@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 98c2209424b1ad028b194d1bdf7c71d77b16b50d
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 663
 ht-degree: 0%
 
 ---
 
 # Vincular um conjunto de rotação a uma página da Web{#linking-a-spin-set-to-a-web-page}
 
-Os sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media, incluindo Conjuntos de rotação, por meio de cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu conjunto de rotação nas páginas e aplicativos da Web, copie-o do Adobe Dynamic Media Classic.
+Os sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Media, incluindo Conjuntos de rotação, usando cadeias de caracteres de URL ou código incorporado. Essas cadeias de caracteres de URL são ativadas durante o processo de publicação. Para colocar a string de URL ou o código incorporado do seu conjunto de rotação nas páginas e aplicativos da Web, copie-o do Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ Os sites e aplicativos acessam o conteúdo do Servidor de imagens do Dynamic Med
 
 ## Adicionar URLs do grupo de rotação à página da Web {#adding-spin-set-urls-to-your-web-page}
 
-Os Conjuntos de rotação são implantados como todos os visualizadores de zoom, por meio de uma página dinâmica (ASP ou JSP) que exibe o Conjunto de rotação em uma janela de zoom. A chamada de URL para a plataforma Adobe Dynamic Media Classic segue o mesmo protocolo no visualizador de zoom. No entanto, o nome da Predefinição do visualizador depende da Predefinição que o administrador definiu como a Predefinição do visualizador do conjunto de rotação padrão. Por exemplo, o exemplo de sintaxe de URL não ativa a seguir inclui um nome de Predefinição chamado `viewer.jsp`, e o parâmetro SKU agora é o nome do Conjunto de rotação:
+Os Conjuntos de rotação são implantados como todos os visualizadores de zoom, usando uma página dinâmica (ASP ou JSP) que exibe o Conjunto de rotação em uma janela de zoom. A solicitação de URL para a Adobe Dynamic Media Classic Platform usa o mesmo protocolo que o visualizador de zoom. No entanto, o nome da Predefinição do visualizador depende da Predefinição que o administrador definiu como a Predefinição do visualizador do conjunto de rotação padrão. Por exemplo, o exemplo de sintaxe de URL a seguir (não ativa) inclui um nome de predefinição chamado `viewer.jsp`, e o parâmetro SKU agora é o nome do conjunto de rotação:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-Neste exemplo de sintaxe de URL (o link não está ativo), observe um número SKU ( `sku=backpack_spin`). A cadeia de caracteres após `sku=` é o nome do Conjunto de Rotação ( `backpack spin`).
+Neste exemplo de sintaxe de URL (o link não está ativo), consulte um número SKU ( `sku=backpack_spin`). A cadeia de caracteres após `sku=` é o nome do Conjunto de Rotação ( `backpack spin`).
 
 ## Copiar o código incorporado de um visualizador de conjunto de rotação {#copying-the-embed-code-of-a-spin-set-viewer}
 
