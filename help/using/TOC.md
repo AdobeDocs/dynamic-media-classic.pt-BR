@@ -6,9 +6,9 @@ user-guide-title: Guia do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
+source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
   + [Comparação da lista de recursos](upgrade-feature-comparison.md)
   + [Lista de verificação de preparação para atualização](upgrade-readiness.md)
 + [Guia do Adobe Dynamic Media Classic](home.md)
-+ [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NOVO logon do Adobe Dynamic Media Classic já disponível](new-ui-2020.md)
 + [Arquivo de informativos do Adobe Dynamic Media, da Experience League](dynamic-media-newsletter.md)
 + Apresentação do Adobe Dynamic Media Classic {#intro}
@@ -58,7 +58,7 @@ ht-degree: 0%
   + [Gerenciar contas FTP](ftp-accounts.md)
   + [Especifique as opções de exportação disponíveis para os usuários do Portal de mídia](specifying-export-options-available-media.md)
   + [Criar e ativar predefinições de imagem](creating-enabling-image-presets.md)
-  + [Utilização mais eficiente dos metadados](making-efficient-metadata.md)
+  + [Gerenciar metadados com eficiência](making-efficient-metadata.md)
   + [Personalizar a tela do Portal de mídia](customizing-media-portal-screen.md)
 + Fazer upload e publicar ativos {#upload-publish}
   + [Fazer upload e publicar de ativos](about-asset-upload-publish.md)
