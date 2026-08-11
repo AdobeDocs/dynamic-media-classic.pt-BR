@@ -12,20 +12,13 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T20:06:35.284Z'
 TQID: 'https://experienceleague.adobe.com/u57YFGIgu4AwlDGLqXRDdT2os-RBYCQK-voETH58Wt4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81089133386ccbda70df77ced6f4f3fe7327be1e
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: 748
 ht-degree: 0%
 
 ---
@@ -47,7 +40,7 @@ Identifica o nome da conta, o nome, o nome de usuário (endereço de email) e a 
 ## Desktop
 
 * **Limpar cache da imagem**: remove todos os arquivos de imagem em cache do Adobe Dynamic Media do computador.
-* **Limpar cache de ativos**: remove todos os arquivos de ativos armazenados em cache do Adobe Dynamic Media do computador.
+* **Limpar cache de ativos**: remove todos os arquivos de ativos em cache do Adobe Dynamic Media do computador.
 
 Além de limpar o cache de imagem e ativos usando o aplicativo de desktop, você pode limpar manualmente o cache diretamente do sistema de arquivos. Com base no seu sistema operacional, navegue até o seguinte:
 
@@ -89,14 +82,14 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
 ## Navegador
 
-* **[!UICONTROL Thumbnail Size]**: Determina o tamanho padrão das imagens em miniatura no Modo de Exibição de Grade no painel Procurar.
-* **[!UICONTROL Default Asset Library View]**: determina se os ativos na Biblioteca de ativos para conjuntos de compilação aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, se você estiver criando um eCatalog grande com muitos arquivos PDF, será possível visualizar os ativos por nome para encurtar a lista.
+* **[!UICONTROL Thumbnail Size]**: Determina o tamanho padrão das imagens em miniatura no Modo de Exibição de Grade do painel Procurar.
+* **[!UICONTROL Default Asset Library View]**: determina se os ativos na Biblioteca de ativos para conjuntos de compilação aparecem como miniaturas ou por nome. Se estiver trabalhando com grandes quantidades de ativos na Biblioteca de ativos, você poderá visualizar os ativos por nome. Por exemplo, para encurtar a lista ao criar um eCatalog grande com muitos arquivos PDF, é possível visualizar os ativos por nome.
 * **[!UICONTROL Default Browse Sort Order]**: determina a ordem na qual os ativos aparecem por padrão no painel Procurar. Escolha um critério de classificação no menu e se deseja uma classificação crescente ou decrescente.
-* **[!UICONTROL Default Browse Location]**: Permite definir o local de navegação como padrão, a última pasta pesquisada ou um local específico para o qual você navegue e identifique. Você também pode definir o local de navegação para classificar os arquivos e pastas em ordem crescente ou decrescente.
+* **[!UICONTROL Default Browse Location]**: Permite definir o local de navegação como padrão, a última pasta pesquisada ou um local específico para o qual você navegue e identifique. Para classificar os arquivos e pastas em ordem crescente ou decrescente, você também pode definir o local de navegação.
 * **[!UICONTROL Default Browse View]**: Determina se o Modo de Exibição de Grade ou de Lista é o modo de exibição padrão que você vê ao abrir o painel Procurar pela primeira vez.
 * **[!UICONTROL Splash Screen Display]**: Determina se você vê alguma tela inicial, incluindo a tela inicial de Boas-vindas.
 * **[!UICONTROL Show ToolTips]**: Determina se as dicas de ferramenta aparecem quando você move o ponteiro sobre botões, menus e links de navegação. As dicas de ferramentas descrevem itens da interface do usuário na tela.
-* **[!UICONTROL Checkerboard Background]**: exibe uma camada xadrez atrás das imagens, permitindo que você veja facilmente as áreas transparentes de uma imagem que tem um canal alfa.
+* **[!UICONTROL Checkerboard Background]**: exibe uma camada xadrez atrás das imagens, permitindo que você veja as áreas transparentes de uma imagem que tem um canal alfa.
 * **[!UICONTROL Show File Size]**: exibe o tamanho de arquivo de um ativo quando você está navegando.
 * **[!UICONTROL Include UDFs in Search]**: Para melhorar o desempenho do sistema para a maioria das pesquisas de metadados que você executa, desmarque (padrão).
 
@@ -106,14 +99,14 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
   Consulte também [Campos Definidos pelo Usuário](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Basic Search Type]**: Você pode selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a cadeia de caracteres completa para o valor especificado; **[!UICONTROL StartsWith]** pesquisa desde o início da cadeia de caracteres e retorna resultados mais rapidamente que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** pelo Administrador.
+* **[!UICONTROL Basic Search Type]**: Você pode selecionar entre duas opções: **[!UICONTROL Contains]** pesquisa a cadeia de caracteres completa para o valor especificado; **[!UICONTROL StartsWith]** pesquisa desde o início da cadeia de caracteres e retorna resultados mais rapidamente que **[!UICONTROL Contains]**. Ambas as opções substituem o padrão definido pelo Administrador em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]**.
 * **[!UICONTROL Show Command Feedback]**: Selecione para ativar a exibição de solicitações de comando para o servidor; desmarque para desativar.
 * **[!UICONTROL Show Dialog During Export]**: selecione para mostrar uma caixa de diálogo pop-up durante uma exportação. Se você desmarcar (desativar) essa opção, ainda poderá ir para a página Trabalhos para recuperar os resultados da exportação.
 
 ## E-mail
 
 * **[!UICONTROL Email Options]**: escolha como você deseja que o Adobe Dynamic Media Classic informe por email quando os trabalhos de carregamento e publicação forem concluídos. Você pode receber avisos de conclusão de tarefas somente se ocorrerem avisos ou erros.
-* **[!UICONTROL Email Scope]**: determina se você recebe todos os emails de trabalho da sua empresa ou apenas emails sobre trabalhos de carregamento e publicação iniciados por você.
+* **[!UICONTROL Email Scope]**: determina se você recebe todos os emails de trabalho da sua empresa ou apenas emails sobre trabalhos de carregamento e publicação que você inicia.
 * **[!UICONTROL Email Types]**: determina se você será informado quando os trabalhos de carregamento e de publicação forem concluídos.
 
 ## Idioma
@@ -122,12 +115,12 @@ The plug-in is now available for you to use in Adobe Illustrator.
 
 ## Senha
 
-* **[!UICONTROL Current Password]**: Digite a senha da sua senha atual.
+* **[!UICONTROL Current Password]**: Digite sua senha atual.
 * **[!UICONTROL New Password]**: Digite uma senha nova e válida. Sua senha deve atender aos seguintes requisitos:
-   * Deve ter entre 8 e 25 caracteres.
-   * Contêm pelo menos uma letra minúscula.
-   * Contêm pelo menos uma letra maiúscula.
-   * Ter pelo menos um número.
-   * Conter pelo menos um dos seguintes caracteres especiais: `# $ &: _ : { }`
-* **[!UICONTROL Re-Type Password]**: digite novamente a nova senha para confirmar que você a está inserindo corretamente.
-* **[!UICONTROL Password Expiration]**: Determina se a senha expira após 72 dias como uma medida de segurança. Se você selecionou Sim, será solicitado que você crie uma senha após 72 dias.
+  * Deve ter entre 8 e 25 caracteres.
+  * Contêm pelo menos uma letra minúscula.
+  * Contêm pelo menos uma letra maiúscula.
+  * Ter pelo menos um número.
+  * Conter pelo menos um dos seguintes caracteres especiais: `# $ &: _ : { }`
+* **[!UICONTROL Re-Type Password]**: digite novamente a nova senha. Isso confirma que você está inserindo corretamente.
+* **[!UICONTROL Password Expiration]**: determina se sua senha expira após 72 dias. Se você selecionar Sim, será solicitado a criar uma senha após 72 dias.
