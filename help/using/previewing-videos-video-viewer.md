@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:44.590Z'
 TQID: 'https://experienceleague.adobe.com/-ulcs6af9bMfE-L-kIhwlqs8edAub06N0FTyfhgGxb4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 822
 ht-degree: 0%
 
 ---
@@ -33,7 +30,7 @@ Consulte [Adicionar e editar Predefinições do Visualizador](application-setup.
 
 **Para visualizar vídeos em um Visualizador de Vídeo:**
 
-1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione **[!UICONTROL Video]** (vídeos codificados únicos) ou **[!UICONTROL Adaptive Video Set]**. Quando a predefinição de codificação do Vídeo adaptável é usada, ela resulta em um conjunto de vídeos codificados com taxa de multibits.
+1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione **[!UICONTROL Video]** (vídeos codificados únicos) ou **[!UICONTROL Adaptive Video Set]**. A predefinição de codificação do Vídeo adaptável resulta em um conjunto de vídeos codificados com taxa de multibits.
 1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos para selecionar o vídeo que deseja visualizar.
 1. Siga um destes procedimentos:
 
@@ -49,7 +46,7 @@ Consulte [Adicionar e editar Predefinições do Visualizador](application-setup.
 
 >[!NOTE]
 >
->O Adobe Dynamic Media Classic fornece um método conveniente de visualização de vídeo MP4 no desktop. Use esse método para visualizar o conteúdo móvel no desktop sem testá-lo fisicamente em dispositivos móveis. No entanto, esteja ciente de que o que é visto na pré-visualização do desktop não mostra de forma realista a aparência da reprodução no dispositivo móvel. Para visualizar como o vídeo é exibido e reproduzido em um dispositivo móvel, acesse a tela Visualizar. Clique em **[!UICONTROL Copy URL]** e insira essa URL no navegador da Web de um dispositivo móvel. Para obter mais informações, consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>O Adobe Dynamic Media Classic permite pré-visualizar vídeo em MP4 no desktop. Use este método para visualizar o conteúdo móvel no desktop sem testá-lo em dispositivos móveis. No entanto, a visualização da área de trabalho não reflete precisamente a reprodução no dispositivo móvel. Para visualizar como o vídeo é exibido e reproduzido em um dispositivo móvel, acesse a tela Visualizar. Clique em **[!UICONTROL Copy URL]** e insira essa URL no navegador da Web de um dispositivo móvel. Para obter mais informações, consulte [Implantar vídeo em seus sites e sites móveis](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Trabalhar com predefinições do visualizador de vídeo {#working-with-video-viewer-presets}
 
@@ -59,7 +56,7 @@ O Adobe Dynamic Media Classic vem com muitas Predefinições do visualizador pre
 
 Consulte [Visualizar vídeos em um Visualizador de Vídeo](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Veja também [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) em vídeo de treinamento.
+Veja também o vídeo de treinamento [Predefinições de vídeo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ### Adicionar ou editar uma predefinição do visualizador de vídeo {#adding-or-editing-a-video-viewer-preset}
 
