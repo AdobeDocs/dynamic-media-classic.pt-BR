@@ -1,5 +1,5 @@
 ---
-title: Visualizar ativos de imagem com visualizadores de zoom diferentes
+title: Visualizar Assets de imagem com visualizadores de zoom diferentes
 description: Saiba como visualizar ativos de imagem com diferentes visualizadores de zoom no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,13 +12,10 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:26.177Z'
 TQID: 'https://experienceleague.adobe.com/hK4tEnRy4u4fZ4BAuw5oosbAH-1kWu5K-b9CyHeM7fY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 235
 ht-degree: 0%
@@ -36,7 +33,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 **Para visualizar ativos de imagem com visualizadores de zoom diferentes:**
 
 1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione um tipo de ativo baseado em imagem, como Imagem ou Conjunto de imagens.
-1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos que contêm imagens que você deseja visualizar com um Visualizador de zoom.
+1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm imagens que deseja visualizar com um Visualizador de zoom.
 1. Siga um destes procedimentos:
 
    * Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
