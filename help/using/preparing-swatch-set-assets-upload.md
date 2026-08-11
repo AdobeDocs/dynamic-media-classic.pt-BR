@@ -1,5 +1,5 @@
 ---
-title: Preparar ativos do conjunto de amostras para upload
+title: Preparar o Assets do conjunto de amostras para upload
 description: Saiba como preparar ativos do conjunto de amostras para upload no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,20 +12,17 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:11.598Z'
 TQID: 'https://experienceleague.adobe.com/ycea-WknxKN0HeCGeBB0IjxFV3A4Hgv4MSDsccbIjVE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 327c9ba1e3d58d2daa8032dbd248c0312a7ec882
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 0%
 
 ---
 
-# Preparar ativos do conjunto de amostras para upload{#preparing-swatch-set-assets-for-upload}
+# Preparar o Assets do conjunto de amostras para upload{#preparing-swatch-set-assets-for-upload}
 
 Antes de carregar as imagens necessárias, verifique se as imagens têm o tamanho e o formato corretos. Também monte os arquivos de amostra necessários.
 
