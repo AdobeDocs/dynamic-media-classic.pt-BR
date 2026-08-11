@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:36.629Z'
 TQID: 'https://experienceleague.adobe.com/pN6i0h-HSmTtqFxOny7c-NlWgjON9WIKObM-MNU4IDw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 99a88f17cedfc68f0339067c75c360f98f098c30
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 245
 ht-degree: 0%
 
 ---
 
 # Visualizar um conjunto de rotação{#previewing-a-spin-set}
 
-Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em uma plataforma específica do tipo de visualizador, como o HTML5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Lista do visualizador.
+Você pode usar a Lista de visualizadores para visualizar como um ativo aparece em uma plataforma específica do tipo visualizador, como o HTML5. Dependendo do tipo de ativo e do visualizador associado que você selecionou para visualização, nem todas as plataformas estão disponíveis na Lista do visualizador.
 
 Consulte [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers).
 
@@ -36,7 +33,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 **Para visualizar um grupo de rotação:**
 
 1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione o tipo de ativo Conjunto de rotação.
-1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos que contêm o conjunto de rotação que você deseja visualizar com um visualizador.
+1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm o Conjunto de rotação que você deseja visualizar em um visualizador.
 1. Siga um destes procedimentos:
 
    * Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
