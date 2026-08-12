@@ -12,15 +12,12 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T20:09:10.008Z'
 TQID: 'https://experienceleague.adobe.com/Yih-wBixagRAQAOSGXz93bEmNJA7a-YbSCfiTLRIAiA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e78479f4044d2af484db2dd9783cbcff7940ea59
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 164
 ht-degree: 0%
 
 ---
@@ -31,11 +28,11 @@ A publicação do modelo o coloca nos Servidores de imagem do Dynamic Media, ond
 
 >[!NOTE]
 >
->Para usar seu modelo, publique todo o conteúdo que foi criado, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
+>Para usar o modelo, publique todo o conteúdo necessário para criá-lo, incluindo fontes e imagens. Se você não incluir todos os arquivos necessários, uma mensagem de erro será exibida ao publicar.
 
 ## Marcar modelos para publicação {#marking-templates-for-publish}
 
-Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação, para que sejam colocados nos servidores de imagem do Dynamic Media. Você pode marcar esses itens para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**.
+Os modelos e todos os seus arquivos de suporte devem ser marcados para publicação para que sejam colocados nos servidores de imagem do Dynamic Media. Você pode marcar esses itens para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**.
 
 ## Publicar seu modelo {#publishing-your-template}
 
