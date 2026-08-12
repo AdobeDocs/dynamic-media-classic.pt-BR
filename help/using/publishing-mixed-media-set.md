@@ -12,40 +12,27 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:57.110Z'
 TQID: 'https://experienceleague.adobe.com/ZDf5ovDIKfCJ5p-6-Qz-isp77LnCQDKJo5hQA1HBN0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 3a0d9567c4e9fc6830393efd44b9af43f3781382
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: 240
 ht-degree: 0%
 
 ---
 
 # Publicar um conjunto de mix de mídia{#publishing-a-mixed-media-set}
 
-Crie um trabalho de publicação para publicar um Conjunto de mídias mistas que você marcou para publicação no Adobe Dynamic Media Classic Video Server e no Servidor de imagens. O Adobe Dynamic Media Classic oferece opções avançadas de publicação para publicação em servidores específicos e opções para republicação de ativos que já foram publicados.
+Configure um trabalho de publicação para publicar um Conjunto de mídias mistas marcado para publicação no Adobe Dynamic Media Classic Video Server e no Servidor de imagens. O Adobe Dynamic Media Classic oferece opções avançadas de publicação para publicação em servidores específicos e opções para republicação de ativos que já foram publicados.
 
 >[!NOTE]
 >
->Os Conjuntos de mídias mistas exigem a publicação no **Servidor de vídeo** e também no **Servidor de imagens**. Use o **Servidor de Vídeo** para publicar os vídeos reais marcados para publicação. E você usa o **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptados.
+>Os Conjuntos de mídias mistas exigem a publicação no **Servidor de vídeo** e também no **Servidor de imagens**. Use o **Servidor de Vídeo** para publicar os vídeos reais marcados para publicação. Use o **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo e informações de configurações para qualquer Conjunto de vídeos adaptados.
 
 O Adobe Dynamic Media Classic rastreia trabalhos de publicação na tela Trabalhos.
 
 Consulte [Publicação](publishing-files.md#publishing_files).
-
-<!-- 
-
-Comment Type: remark
-Last Modified By: unknown unknown 
-Last Modified Date: 
-
-<p>RB: Updated the following steps as per Cynthia email, 11/9/2012, added 11/12/2012</p>
-
- -->
 
 **Para publicar um Conjunto de Mídias Mistas:**
 
@@ -62,7 +49,7 @@ Last Modified Date:
    Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter mais opções que você pode definir.
 
 1. Selecione **[!UICONTROL Submit Publish]**.
-1. Repita as etapas 2 a 4 acima.
+1. Repita as etapas 2 a 6.
 1. Em **[!UICONTROL Advanced]**, na lista suspensa **[!UICONTROL Publish To]**, selecione **[!UICONTROL Image Server]**.
 
    Consulte [Opções de publicação avançadas](publishing-files.md#advanced_publish_options) para obter mais opções que você pode definir.
