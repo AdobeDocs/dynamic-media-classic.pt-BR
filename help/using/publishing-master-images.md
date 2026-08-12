@@ -1,5 +1,5 @@
 ---
-title: Publicar imagens principais
+title: Publicar imagens primárias
 description: Saiba como publicar imagens principais do Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:49.126Z'
 TQID: 'https://experienceleague.adobe.com/MsYvgtKLOqbCZFs67ZPD2hN0fHoKj-AgIpGjM4EWyrM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 50446d4791c5eda0eb9b9b5369cf4eee1fee2d3b
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: 155
 ht-degree: 0%
 
 ---
@@ -31,7 +28,7 @@ A publicação dos arquivos de imagem os publica nos Servidores de imagem do Dyn
 
 ## Marcar imagens principais para publicação {#marking-master-images-for-publish}
 
-As imagens primárias devem ser marcadas para publicação, para serem copiadas para os servidores de imagem do Dynamic Media. Você pode marcar suas imagens principais para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**. Você também pode marcar imagens para publicação quando as carrega no Adobe Dynamic Media Classic.
+As imagens primárias devem ser marcadas para publicação para que possam ser copiadas para os servidores de imagem do Dynamic Media. Você pode marcar suas imagens principais para publicação no painel Procurar selecionando o ícone **[!UICONTROL Mark for Publish]**. Você também pode marcar imagens para publicação ao carregá-las no Adobe Dynamic Media Classic.
 
 ## Publicar suas imagens principais {#publishing-your-master-images}
 
