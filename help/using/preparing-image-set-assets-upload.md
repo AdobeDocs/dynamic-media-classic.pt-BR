@@ -1,5 +1,5 @@
 ---
-title: Preparar ativos do conjunto de imagens para upload
+title: Preparar imagem para definir o Assets para upload
 description: Saiba como preparar ativos do conjunto de imagens para upload no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: a7f99941b1957d8fdb127f488146052ca7ff1d3a
 workflow-type: tm+mt
-source-wordcount: 162
+source-wordcount: 157
 ht-degree: 0%
 
 ---
 
-# Preparar ativos do conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
+# Preparar o Assets do conjunto de imagens para upload{#preparing-image-set-assets-for-upload}
 
-Antes de carregar as imagens que você precisa para os Conjuntos de imagens no Adobe Dynamic Media Classic, verifique se as imagens têm o tamanho e o formato corretos.
+Antes de carregar as imagens que você precisa para os Conjuntos de Imagens para [!DNL Adobe Dynamic Media Classic], verifique se as imagens têm o tamanho e o formato corretos.
 
-Para criar um Conjunto de imagens com várias visualizações, você precisa de imagens que mostrem um item de diferentes pontos de vista ou mostrem diferentes aspectos do mesmo item. O objetivo é destacar os recursos importantes de um item para que os visualizadores tenham uma imagem completa da aparência ou do funcionamento.
+Para criar um Conjunto de imagens com várias visualizações, você precisa de imagens que mostrem um item de diferentes pontos de vista ou mostrem diferentes aspectos do mesmo item. O objetivo é destacar as características importantes de um item para que os visualizadores entendam completamente a aparência ou função do item.
 
 Como os usuários podem ampliar imagens em Conjuntos de imagens, verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas recomenda-se usar imagens TIFF, PNG e EPS sem perdas.
 

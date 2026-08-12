@@ -19,20 +19,20 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 23c5579ae1b93559a4f1619fca4ab22253938d0d
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: 195
 ht-degree: 0%
 
 ---
 
-# Trabalhar com arquivos PostScript e Illustrator{#working-with-postscript-and-illustrator-files}
+# Trabalhar com arquivos PostScript e Adobe Illustrator{#working-with-postscript-and-illustrator-files}
 
 Você pode usar os arquivos do Adobe PostScript® (EPS) e Adobe® Illustrator® (AI) no Adobe Dynamic Media Classic. O Adobe Dynamic Media Classic oferece comandos para configurar esses arquivos à medida que você os carrega.
 
-Ao fazer upload de arquivos de imagem do PostScript (EPS) ou do Illustrator (AI), você pode formatá-los de várias maneiras. É possível rasterizar os arquivos, convertê-los em FXG para Publicação de Modelo, manter o plano de fundo transparente, escolher uma resolução e escolher um espaço de cores. As opções de formatação de arquivos PostScript e Illustrator estão disponíveis na tela Fazer upload, em Opções da PostScript e Opções do Illustrator na caixa Fazer upload das opções de trabalho.
+Ao fazer upload de arquivos de imagem do PostScript (EPS) ou do Adobe Illustrator (AI), você pode configurá-los usando várias opções. É possível rasterizar os arquivos, convertê-los em FXG para Publicação de Modelo, manter o plano de fundo transparente, escolher uma resolução e escolher um espaço de cores. As opções de formatação de arquivos PostScript e Adobe Illustrator estão disponíveis na tela Fazer upload, em Opções da PostScript e Opções do Adobe Illustrator na caixa Fazer upload das opções de trabalho.
 
-* **[!UICONTROL Processing]**: Escolha **[!UICONTROL Rasterize]** para converter os gráficos vetoriais do arquivo no formato de bitmap.
+* **[!UICONTROL Processing]**: Escolha **[!UICONTROL Rasterize]** para converter os gráficos vetoriais do arquivo em formato de bitmap.
 
 * **[!UICONTROL Maintain Transparent Background In Rendered Image]**: mantém a transparência de plano de fundo do arquivo.
 
@@ -40,10 +40,10 @@ Ao fazer upload de arquivos de imagem do PostScript (EPS) ou do Illustrator (AI)
 
 * **[!UICONTROL Color Space]**: Selecione o menu **[!UICONTROL Color Space]** e escolha um espaço de cores:
 
-   * **[!UICONTROL Detect Automatically]**: retém o espaço de cores do arquivo.
+  * **[!UICONTROL Detect Automatically]**: retém o espaço de cores do arquivo.
 
-   * **[!UICONTROL Force As RGB]**: converte para o espaço de cores do RGB.
+  * **[!UICONTROL Force As RGB]**: converte para o espaço de cores do RGB.
 
-   * **[!UICONTROL Force As CMYK]**: Converte para o espaço de cores CMYK.
+  * **[!UICONTROL Force As CMYK]**: Converte para o espaço de cores CMYK.
 
-   * **[!UICONTROL Force As Grayscale]**: converte para o espaço de cores Tons de Cinza.
+  * **[!UICONTROL Force As Grayscale]**: converte para o espaço de cores Tons de Cinza.

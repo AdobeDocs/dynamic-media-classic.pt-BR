@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
 workflow-type: tm+mt
-source-wordcount: 684
+source-wordcount: 683
 ht-degree: 0%
 
 ---
 
 # Trabalhar com PDFs{#working-with-pdfs}
 
-Os arquivos PDF (Portable Document Format) são usados com mais frequência no Adobe Dynamic Media Classic para criar eCatalogs. Ao fazer upload de um arquivo do PDF, o Adobe Dynamic Media Classic rasteriza ou ripa as páginas por padrão para que elas possam ser usadas para criar mídia avançada.
+Os arquivos PDF (Portable Document Format) são usados com mais frequência no Adobe Dynamic Media Classic para criar eCatalogs. Ao fazer upload de um arquivo do PDF, o Adobe Dynamic Media Classic rasteriza as páginas por padrão para que elas possam ser usadas para criar mídia avançada.
 
 Ao fazer upload de uma PDF para extração de página, o Adobe impõe o seguinte limite:
 
@@ -39,17 +39,17 @@ Consulte também [limitações do Dynamic Media](/help/using/limitations.md).
 
 ## Opções de upload do PDF {#pdf-upload-options}
 
-Ao fazer upload de um arquivo PDF, você pode formatá-lo de várias maneiras. Corta as páginas, extrai palavras de pesquisa, insere uma resolução de pixels por polegada e escolhe um espaço de cor. Os arquivos PDF geralmente contêm uma margem de apara, marcas de corte, marcas de registro e outras marcas de impressora. Você pode cortar essas marcas nas laterais das páginas ao fazer upload de um arquivo do PDF.
+Ao fazer upload de um arquivo PDF, você pode formatá-lo de várias maneiras. Você pode cortar suas páginas, extrair palavras de pesquisa, inserir uma resolução de pixels por polegada e escolher um espaço de cor. Os arquivos PDF geralmente contêm uma margem de apara, marcas de corte, marcas de registro e outras marcas de impressão. Você pode cortar essas marcas nas laterais das páginas ao fazer upload de um arquivo do PDF.
 
 As opções para fazer upload de arquivos do PDF estão na página Upload em Opções do PDF.
 
 ### Opções de processamento
 
-**[!UICONTROL Rasterize]**: (Padrão) Extrai as páginas no arquivo PDF e converte gráficos de vetor em imagens de bitmap. Para criar um eCatalog, escolha essa opção.
+**[!UICONTROL Rasterize]**: (Padrão) Para rasterizar as páginas no arquivo PDF e converter gráficos de vetor em imagens bitmap, use esta opção. Para criar um eCatalog, escolha essa opção.
 
 **[!UICONTROL Extract Search Words]**: Extrai palavras do arquivo PDF para que as palavras-chave do arquivo possam ser pesquisadas em um Visualizador de eCatalog.
 
-**[!UICONTROL Extract Links]**: extrai links dos arquivos PDF e os converte em Mapas de Imagem usados em um Visualizador de eCatalog.
+**[!UICONTROL Extract Links]**: extrai links do arquivo PDF e os converte em Mapas de Imagem usados em um Visualizador de eCatalog.
 
 **[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]**: cria automaticamente um eCatalog a partir do arquivo do PDF. O eCatalog é nomeado com base no arquivo PDF que você carregou. (Essa opção só estará disponível se você rasterizar o arquivo do PDF à medida que for fazendo upload dele.)
 
@@ -75,7 +75,7 @@ Selecione o menu Espaço de cor e escolha um espaço de cor para o arquivo PDF. 
 
 * **[!UICONTROL Keep Original Color Space]**: retém o espaço de cores original.
 
-* **[!UICONTROL Custom From]** > **[!UICONTROL To]**: abre menus para que você possa escolher um espaço de cores Converter de e Converter em. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** > **[!UICONTROL To]**: abre menus para que você possa escolher espaços de cores `Convert From` e `Convert To`. Você pode escolher um espaço de cores padrão do Adobe Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 Consulte também [perfis ICC](/help/using/icc-profiles.md#icc_profiles).
 
@@ -88,11 +88,11 @@ Você pode cortar automaticamente pixels de espaço em branco de um arquivo PDF 
 
    * **[!UICONTROL Trim Away Based On]**: Escolha se deseja cortar com base na cor ou na transparência:
 
-      * **[!UICONTROL Color]**: Escolha a opção Cor. Em seguida, selecione o menu **[!UICONTROL Corner]** e escolha o canto da PDF com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
+     * **[!UICONTROL Color]**: Escolha a opção Cor. Em seguida, selecione o menu **[!UICONTROL Corner]** e escolha o canto da PDF com a cor que melhor representa a cor do espaço em branco que você deseja cortar.
 
-      * **[!UICONTROL Transparency]**: Escolha a opção Transparência.
+     * **[!UICONTROL Transparency]**: Escolha a opção Transparência.
 
-   * **[!UICONTROL Tolerance]**: arraste o controle deslizante para especificar uma tolerância de 0 a 1.
+   * **[!UICONTROL Tolerance]**: Para especificar uma tolerância de 0 a 1, arraste o controle deslizante.
 
    * **[!UICONTROL Trimming based on color]**: especifique 0 para cortar os pixels somente se eles corresponderem exatamente à cor selecionada no canto da PDF. Números próximos a 1 permitem mais diferença de cor.
 
@@ -100,9 +100,9 @@ Você pode cortar automaticamente pixels de espaço em branco de um arquivo PDF 
 
 ## Cortar nas laterais das páginas do PDF {#cropping-from-the-sides-of-pdf-pages}
 
-Você pode remover manualmente as marcas da impressora das laterais das páginas em um arquivo PDF ao carregá-lo.
+Você pode remover manualmente as marcas de impressão das laterais das páginas em um arquivo PDF ao carregá-lo.
 
 1. No menu Cortar, selecione **[!UICONTROL Manual]**.
 1. Insira as configurações de pixel nas caixas de texto Superior, Direito, Inferior e Esquerdo para cortar da parte superior, inferior e laterais das páginas.
 
-O quanto da página é cortada depende da configuração de Resolução PX/Polegada inserida para o arquivo PDF. Por exemplo, suponha que você insira 150 (o padrão) como a configuração Resolução PX/Polegada. Em seguida, você corta 75 pixels das laterais das páginas. Nesse caso, 0,5 pol é cortado. A 150 pixels por polegada, 75 pixels equivale a meia polegada.
+A quantidade de página cortada depende da configuração de resolução PIX/polegada inserida para o arquivo PDF. Por exemplo, suponha que você insira 150 (o padrão) como a configuração Resolução PX/Polegada. Em seguida, você corta 75 pixels das laterais das páginas. Nesse caso, 0,5 pol é cortado. A 150 pixels por polegada, 75 pixels equivale a meia polegada.

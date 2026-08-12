@@ -1,5 +1,5 @@
 ---
-title: Mover, renomear e excluir ativos
+title: Mover, renomear e excluir o Assets
 description: Saiba como mover, renomear e excluir ativos no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 595
+source-wordcount: 589
 ht-degree: 0%
 
 ---
 
 # Mover, renomear e excluir ativos{#moving-renaming-and-deleting-assets}
 
-Você pode mover, renomear e excluir ativos no painel Procurar. Além disso, é possível excluir muitos ativos simultaneamente com um arquivo de texto.
+Você pode mover, renomear e excluir ativos no painel Procurar. Além disso, é possível excluir vários ativos simultaneamente usando um arquivo de texto.
 
 ## Mover ativos {#move-assets}
 
@@ -52,13 +52,13 @@ Você pode mover ativos para pastas diferentes no painel Procurar.
 
 Você pode excluir ativos selecionados no painel Procurar e excluir pastas inteiras. Os ativos e as pastas excluídos são movidos para a pasta Lixeira, onde permanecem por sete dias antes de serem excluídos permanentemente.
 
-Quando você exclui um ativo, todos os ativos derivados dele também são excluídos. Por exemplo, a exclusão de uma imagem para a qual você criou Destinos de zoom exclui os Destinos de zoom junto com a imagem.
+Ao excluir um ativo, todos os ativos derivados dele também são excluídos. Por exemplo, a exclusão de uma imagem para a qual você criou Destinos de zoom exclui os Destinos de zoom junto com a imagem.
 
-Os destinos de zoom, os atributos de imagem e as entradas do histórico são excluídos permanentemente quando você exclui os ativos dos quais eles derivam. Eles não são movidos juntamente com o ativo para a pasta Lixeira; eles não podem ser restaurados da Lixeira.
+Destinos de zoom, atributos de imagem e entradas do histórico são permanentemente excluídos quando você exclui os ativos dos quais eles são derivados. Eles não são movidos juntamente com o ativo para a pasta Lixeira; eles não podem ser restaurados da Lixeira.
 
 >[!IMPORTANT]
 >
->A exclusão em massa é uma operação intensiva. Certifique-se de executar as exclusões em massa sequencialmente, e não como operações de exclusão intensa e simultânea. A Adobe recomenda que você limite as operações de exclusão para 5.000 exclusões de ativos ou menos por hora. Qualquer número maior que 5000 por hora pode causar limitação de taxa.
+>A exclusão em massa é uma operação que consome muitos recursos. Executar exclusões em massa sequencialmente, em vez de operações de exclusão simultâneas em larga escala. A Adobe recomenda que você limite as operações de exclusão para 5.000 ou menos exclusões de ativos por hora. Qualquer quantidade maior que 5000 por hora pode causar limitação de taxa.
 
 **Para excluir ativos:**
 
@@ -75,12 +75,12 @@ A Adobe Dynamic Media Classic recomenda substituir os arquivos de ativos em vez 
 
 Para excluir vários ativos de uma só vez na Biblioteca de ativos, você pode listar os ativos que deseja excluir em um arquivo de texto e enviar a lista para o Adobe Dynamic Media Classic.
 
-Crie a lista de Adobe Dynamic Media Classic IDs e salve-a como um arquivo de texto (.txt). Cada Adobe Dynamic Media Classic ID deve estar em sua própria linha (seguida por um retorno permanente).
+Crie a lista de Adobe Dynamic Media Classic IDs e salve-a como um arquivo de texto (.txt). Cada Adobe Dynamic Media Classic ID deve estar em sua própria linha (seguida por um retorno de carro).
 
-Depois de criar a lista, siga estas etapas para usá-la para excluir ativos:
+Para usar a lista para excluir ativos, faça o seguinte:
 
 1. Vá para **[!UICONTROL File]** > **[!UICONTROL Delete Asset List]**.
-1. Na caixa de diálogo **[!UICONTROL Deleted Asset list]**, digite o caminho para o arquivo de texto com a lista de ativos que deseja excluir.
+1. Na caixa de diálogo **[!UICONTROL Deleted Asset List]**, digite o caminho para o arquivo de texto com a lista de ativos que deseja excluir.
 1. Selecione **[!UICONTROL Delete]**.
 
 Ao excluir ativos com um arquivo de texto, se qualquer ID do Adobe Dynamic Media Classic não estiver na lista, a mensagem &quot;Não é possível validar essas entradas na lista:&quot; será exibida. A lista de entradas também é exibida. No entanto, o Adobe Dynamic Media Classic não gera um erro na página Job.

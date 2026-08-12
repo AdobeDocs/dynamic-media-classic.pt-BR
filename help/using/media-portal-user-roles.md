@@ -1,5 +1,5 @@
 ---
-title: Funções de usuário do Portal de mídia
+title: Funções de Usuário do Portal de Mídia
 description: Saiba mais sobre as várias funções de usuário disponíveis no Portal de mídia no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 28282f7005b22a50a9a49416549c29806e497085
 workflow-type: tm+mt
-source-wordcount: 308
+source-wordcount: 307
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ O Media Portal fornece as seguintes funções, cada uma com direitos de acesso e
 
 * **[!UICONTROL Media Portal Contributor-User]**: tem acesso a pastas e arquivos. Um usuário colaborador pode navegar, visualizar, baixar e carregar imagens e metadados. Os usuários do Colaborador podem alterar os nomes dos arquivos, movê-los para pastas diferentes e excluí-los.
 
-Esta tabela descreve as tarefas que os usuários com diferentes funções podem realizar. Administradores e colaboradores-usuários podem realizar todas as tarefas listadas nesta tabela:
+Esta tabela descreve as tarefas que os usuários com diferentes funções podem realizar. Os administradores e usuários colaboradores podem realizar todas as tarefas listadas nesta tabela:
 
 | Tarefa | Usuário | Colaborador | Colaborador-Usuário |
 | --- | --- | --- | --- |

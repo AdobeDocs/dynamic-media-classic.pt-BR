@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 3f3b662bf92a81b908f0f10ded2e5c19aa62266a
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 0%
 
 ---
 
 # Visualizar eCatalogs no Visualizador de eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-Você pode usar Visualizar para exibir seu eCatalog usando diferentes Predefinições do visualizador de eCatalog. Você pode experimentar os diferentes controles para virar páginas, escrever notas adesivas e navegar.
+Você pode usar o recurso Visualizar para exibir seu eCatalog usando diferentes predefinições do eCatalog Viewer. Para virar páginas, adicionar anotações e navegar, você pode usar diferentes controles.
 
 Consulte [Configurar visualizadores padrão](application-setup.md#configuring_default_viewers).
 
@@ -35,8 +35,8 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing_an_asset).
 
 **Para visualizar eCatalogs no Visualizador de eCatalog:**
 
-1. No painel Biblioteca de ativos no lado esquerdo, na lista suspensa Mostrar, selecione um tipo de ativo baseado em vídeo, como Vídeo ou Conjunto de vídeos.
-1. No painel Biblioteca de ativos à esquerda, navegue pelas pastas de ativos que contêm vídeos que você deseja visualizar com um visualizador de eCatalog.
+1. No painel Biblioteca de ativos à esquerda, na lista suspensa Mostrar, selecione um tipo de ativo baseado no eCatalog, como eCatalog ou Conjunto de eCatalog.
+1. No painel Biblioteca de ativos à esquerda, navegue até as pastas de ativos que contêm eCatalogs que você deseja visualizar com um Visualizador de eCatalog.
 1. Siga um destes procedimentos:
 
    * Acima da janela do Assets, no lado direito da barra de ferramentas, selecione **[!UICONTROL Grid View]**. Na janela Ativo, abaixo da imagem em miniatura, vá para **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
