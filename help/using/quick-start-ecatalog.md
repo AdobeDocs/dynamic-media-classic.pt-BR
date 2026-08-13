@@ -12,16 +12,12 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:55:49.663Z'
 TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: 1531
 ht-degree: 0%
 
 ---
@@ -83,7 +79,7 @@ Crie seu eCatalog selecionando PDF ou arquivos de imagem no painel Procurar. Sel
 
 Na página de eCatalog, na guia **[!UICONTROL Order Pages]**, selecione uma opção de Layout: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]**, ou **[!UICONTROL Custom]**. É possível reorganizar páginas ou páginas espelhadas arrastando-as ou, em um eCatalog grande, escolhendo um nome de página no menu Mover para.
 
-Para adicionar páginas, selecione uma pasta na Biblioteca de ativos e arraste arquivos PDF ou de imagem da tela Ordenar páginas. Em vez de números de página padrão, você pode fornecer nomes de página personalizados ou importar muitos nomes de página.
+Para adicionar páginas, selecione uma pasta na Biblioteca de ativos e arraste os arquivos PDF ou de imagem para a tela Ordenar páginas. Em vez de números de página padrão, você pode fornecer nomes de página personalizados ou importar muitos nomes de página.
 
 Selecione **[!UICONTROL Save]**, insira um nome para o seu eCatalog, escolha uma pasta do Adobe Dynamic Media Classic para armazená-lo e selecione **[!UICONTROL Save]**. Sempre que você alterar a ordem de paginação ou editar seu eCatalog, salve suas alterações selecionando **[!UICONTROL Save]**.
 
@@ -135,6 +131,6 @@ Consulte [Publicar eCatalogs e PDFs associados](publishing-ecatalogs-associated-
 
 O Adobe Dynamic Media Classic ativa a string de chamada de URL necessária para exibir seu eCatalog quando você o publica em Servidores de imagem do Dynamic Media. Você pode copiar essa cadeia de caracteres de URL na tela Visualização e no painel Procurar (na Exibição de detalhes) selecionando URLs no painel. Depois de copiar a cadeia de caracteres do URL, ela fica disponível para seus sites e aplicativos.
 
-Trabalhe com sua equipe de TI para colocar o link para o eCatalog no local apropriado em sua página da Web. Quando os usuários selecionam o link, o eCatalog Viewer é exibido e os usuários podem navegar pelo seu eCatalog.
+Para colocar o link para o eCatalog em sua página da Web, trabalhe com sua equipe de TI. Quando os usuários selecionam o link, o eCatalog Viewer é exibido e os usuários podem navegar pelo seu eCatalog.
 
 Consulte [Vincular um eCatalog a uma página da Web](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
