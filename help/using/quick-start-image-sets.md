@@ -12,15 +12,12 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:09:40.553Z'
 TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: c1f9ca034a6cc7545f18a41876f737eb9144e157
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 683
 ht-degree: 1%
 
 ---
@@ -29,7 +26,7 @@ ht-degree: 1%
 
 Os Conjuntos de imagens do Adobe Dynamic Media Classic oferecem aos usuários uma experiência de visualização integrada. No Visualizador dinâmico do conjunto de imagens, os usuários podem ver diferentes exibições de um item selecionando uma imagem em miniatura. Os Conjuntos de imagens permitem apresentar visualizações alternativas de alta resolução de um item.
 
-O Visualizador de conjunto de imagens oferece ferramentas de zoom para examinar as imagens com atenção. Se desejar, você poderá tornar Destinos de zoom e Mapas de imagem parte do Conjunto de imagens. Os conjuntos de imagens proporcionam uma experiência de visualização mais organizada e íntima.
+O Visualizador de conjunto de imagens oferece ferramentas de zoom para examinar as imagens com atenção. Você pode tornar Destinos de zoom guiados e Mapas de imagem parte do Conjunto de imagens. Os conjuntos de imagens fornecem uma experiência de visualização mais consistente e focada.
 
 Veja o vídeo de treinamento [Conjuntos de imagem e rotação: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
@@ -44,11 +41,11 @@ Ao criar um Conjunto de imagens, a Adobe recomenda as seguintes práticas recome
 
 Consulte também [limitações do Dynamic Media](/help/using/limitations.md).
 
-O seguinte Início rápido dos conjuntos de imagens foi projetado para você começar a usar rapidamente as técnicas do Conjunto de imagens no Adobe Dynamic Media Classic.
+O Início Rápido dos Conjuntos de Imagens a seguir foi projetado para ajudar você a começar a usar as técnicas do Conjunto de Imagens no [!DNL Adobe Dynamic Media Classic].
 
 ## &#x200B;1. Fazer upload das imagens principais para várias exibições e amostras
 
-Comece fazendo upload das imagens para os seus Conjuntos de imagens. Como os usuários podem ampliar imagens no Visualizador de conjunto de imagens, certifique-se de levar em conta essa capacidade ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels no maior tamanho. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas recomenda-se usar imagens TIFF, PNG e EPS sem perdas.
+Comece fazendo upload das imagens para os seus Conjuntos de imagens. Como os usuários podem ampliar imagens no Visualizador de conjunto de imagens, certifique-se de avaliar esse recurso ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels na maior dimensão. O Adobe Dynamic Media Classic é compatível com muitos formatos de arquivo de imagem, mas recomenda-se usar imagens TIFF, PNG e EPS sem perdas.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Adobe Dynamic Media Classic.
 
@@ -58,7 +55,7 @@ Consulte [Preparar ativos do Conjunto de Imagens para carregamento](preparing-im
 
 Em Conjuntos de imagens, os usuários selecionam imagens em miniatura no Visualizador de conjuntos de imagens para ver uma imagem de um lado ou ângulo diferente.
 
-Para criar um Conjunto de imagens, na barra de Navegação global, selecione **[!UICONTROL Build]** e escolha **[!UICONTROL Image Sets]**. Na janela Conjunto de imagens, arraste as imagens para a página para compor seu Conjunto de imagens. Organize, adicione e exclua imagens conforme necessário.
+Para criar um Conjunto de imagens, na barra de Navegação global, selecione **[!UICONTROL Build]** e escolha **[!UICONTROL Image Sets]**. Para compor seu Conjunto de imagens, arraste as imagens para a página na janela Conjunto de imagens. Organize, adicione e exclua imagens conforme necessário.
 
 Consulte [Criar um conjunto de imagens](creating-image-set.md#creating-an-image-set).
 
