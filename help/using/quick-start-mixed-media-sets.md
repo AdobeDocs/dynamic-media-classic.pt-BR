@@ -12,15 +12,12 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:24.352Z'
 TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f5b282e36a7c765b37cecc24edb829e36169e5c3
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 679
 ht-degree: 1%
 
 ---
@@ -29,13 +26,13 @@ ht-degree: 1%
 
 Os Conjuntos de mídias mistas oferecem aos usuários uma experiência de visualização integrada. Os Conjuntos de mídias mistas podem incluir imagens, Conjuntos de imagens, Conjuntos de amostras, Conjuntos de rotação e vídeos. Os usuários podem selecionar diferentes guias no Visualizador de mídia mista para ver os itens nos diferentes visualizadores. Se nenhuma guia for especificada, todos os ativos serão exibidos juntos na linha de amostra.
 
-As predefinições do visualizador de conjunto de mídia mista incluem opções de comunidade para usuários finais incorporarem código, copiarem URLs e vincularem ao site principal. Os usuários podem usar essas opções para compartilhar informações sobre produtos em seus sites pessoais ou sites de redes sociais.
+As Predefinições do visualizador de conjunto de mídia mista incluem opções de comunidade para os usuários finais incorporarem código, copiarem URLs e vincularem ao site principal. Os usuários podem usar essas opções para compartilhar informações sobre produtos em seus sites pessoais ou sites de redes sociais.
 
-Este Início rápido de conjuntos de mídia mista foi projetado para você começar a usar rapidamente as técnicas de Conjunto de mídia mista no Adobe Dynamic Media Classic.
+Este Início rápido de conjuntos de mídia mista foi projetado para ajudar você a começar a trabalhar com técnicas de Conjunto de mídia mista no Adobe Dynamic Media Classic.
 
 ## &#x200B;1. Fazer upload de imagens, arquivos de amostra e vídeos
 
-Comece carregando as imagens, os arquivos de amostra e os vídeos dos Conjuntos de mídias mistas. Como os usuários podem ampliar imagens no Visualizador de conjunto de mídias mistas, certifique-se de levar em conta essa capacidade ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels no maior tamanho.
+Faça upload de imagens, arquivos de amostra e vídeos para os Conjuntos de mídias mistas. Como os usuários podem ampliar imagens no Visualizador de conjunto de mídias mistas, certifique-se de testar esse recurso ao escolher imagens. Verifique se as imagens têm pelo menos 2000 pixels na maior dimensão.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Adobe Dynamic Media Classic.
 
@@ -73,7 +70,7 @@ Consulte [Visualizar um ativo](previewing-asset.md#previewing-an-asset).
 
 A publicação de um Conjunto de mídias mistas o coloca nos servidores do Adobe Dynamic Media Classic e ativa a cadeia de caracteres do URL.
 
-Os Conjuntos de mídias mistas exigem a publicação no **Servidor de vídeo** e também no **Servidor de imagens**. Use o **Servidor de Vídeo** para publicar os vídeos reais marcados para publicação. E você usa o **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para qualquer Conjunto de vídeos adaptados.
+Os Conjuntos de mídias mistas exigem a publicação no **Servidor de vídeo** e também no **Servidor de imagens**. Use o **Servidor de Vídeo** para publicar os vídeos reais marcados para publicação. Use o **Servidor de imagens** para publicar ativos relacionados, como miniaturas de vídeo, e definir informações para quaisquer Conjuntos de vídeos adaptados.
 
 Consulte [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
@@ -81,4 +78,4 @@ Consulte [Publicar um conjunto de mídia mista](publishing-mixed-media-set.md#pu
 
 O Adobe Dynamic Media Classic ativa chamadas de URL para Conjuntos de mídias mistas depois de publicá-las. Você pode copiar esses URLs da página Pré-visualização.
 
-Selecione o Conjunto de mídias mistas e selecione **[!UICONTROL Preview]**. Na página Visualizar, selecione uma Predefinição do visualizador de conjunto de mídia mista e selecione o **[!UICONTROL Copy URL]**. Consulte [Vincular conjuntos de mídias mistas a páginas da Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Selecione o Conjunto de mídias mistas e selecione **[!UICONTROL Preview]**. Na página Visualizar, selecione uma Predefinição do visualizador de conjunto de mídia mista e selecione **[!UICONTROL Copy URL]**. Consulte [Vincular conjuntos de mídias mistas a páginas da Web](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
