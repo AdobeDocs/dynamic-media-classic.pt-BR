@@ -12,12 +12,9 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:38.271Z'
 TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
 source-wordcount: 1619
@@ -29,7 +26,7 @@ ht-degree: 0%
 
 Publique seus ativos nos servidores de imagem do Dynamic Media. Você pode publicar ativos de uma só vez ou combinar o Adobe Dynamic Media Classic para publicar ativos em uma programação recorrente. Após a publicação dos ativos, eles ficam disponíveis para entrega. Você pode copiar as chamadas de URL do Adobe Dynamic Media Classic e adicioná-las ao seu site ou aplicativo.
 
-O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado usa o protocolo HTTP/2 para entregá-lo. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, resultando em tempos de resposta e de carregamento aprimorados para todos os ativos do Adobe Dynamic Media Classic. Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/http2).
+O Adobe Dynamic Media Classic agora é compatível com o delivery de todas as imagens e vídeos por HTTP/2. Ou seja, um URL publicado ou código incorporado para a imagem ou vídeo está disponível para ser integrado a qualquer aplicativo que aceite um ativo hospedado. Esse ativo publicado usa o protocolo HTTP/2 para entregá-lo. Esse método de entrega melhora a maneira como os navegadores e servidores se comunicam, resultando em tempos de resposta e de carregamento aprimorados para todos os ativos do Adobe Dynamic Media Classic. Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicar após o upload {#publish-after-uploading}
 
