@@ -22,18 +22,18 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42facb1222886a1f2b37ae5dbf2af2d163a8fc88
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: 830
 ht-degree: 0%
 
 ---
 
 # Início rápido: Portal de mídia{#quick-start-media-portal}
 
-O Media Portal permite que as empresas adquiram, controlem e distribuam facilmente ativos aprovados para parceiros e canais externos, bem como para usuários internos de uma empresa. Esse ambiente de &quot;autoatendimento&quot; baseado em navegador fornece aos usuários do Media Portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Adobe Dynamic Media Classic para facilitar o acesso, a navegação, a pesquisa, a pré-visualização e a exportação de ativos em formatos corporativos aprovados.
+O Media Portal permite que as empresas adquiram, controlem e distribuam facilmente ativos aprovados para parceiros externos, canais e usuários internos. Esse ambiente de &quot;autoatendimento&quot; baseado em navegador fornece aos usuários do Media Portal &quot;visualizações&quot; controladas pelo administrador nos ativos do Adobe Dynamic Media Classic para fácil acesso a ativos de navegação, pesquisa, visualização e exportação em formatos corporativos aprovados.
 
-Como administrador, você controla como os usuários visualizam, acessam e usam os ativos no Media Portal. Além disso, você pode personalizar a interface do Portal de mídia para corresponder ao seu site e marca. Você pode especificar a fonte, a cor da fonte, o tamanho da fonte e incorporar elementos de marca, como logotipos, na interface do Portal de mídia.
+Como administrador, você controla como os usuários visualizam, acessam e usam os ativos no Media Portal. Para corresponder ao seu site e marca, você pode personalizar a interface do Portal de mídia. Você pode especificar a fonte, a cor e o tamanho da fonte, além de incorporar elementos de marca, como logotipos, na interface do Portal de mídia.
 
 Consulte os seguintes vídeos de treinamento:
 
@@ -43,11 +43,11 @@ Consulte os seguintes vídeos de treinamento:
 
 * [Tour pelo Portal de Mídia 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-O Quick Start a seguir foi projetado para colocar suas operações em funcionamento rapidamente com a administração do Portal de mídia. No final de cada etapa, selecione o link do tópico para saber mais.
+O Início rápido a seguir foi projetado para ajudar você a iniciar a administração do Portal de mídia. No final de cada etapa, selecione o link do tópico para saber mais.
 
 ## &#x200B;1. Entender as funções de usuário do Portal de mídia
 
-Os usuários do Media Portal têm três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Por exemplo, um colaborador pode renomear e excluir arquivos e pastas, mas um usuário não pode fazer essas tarefas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
+Os usuários do Portal de mídia se encaixam em três funções: usuário, colaborador e usuário-colaborador. Cada função pode executar um conjunto diferente de tarefas. Diferentemente dos usuários, os colaboradores podem renomear ou excluir arquivos e pastas. Entenda as diferentes funções para que, ao adicionar usuários, você entenda quais responsabilidades você atribui a eles.
 
 Consulte [Funções de usuário do Portal de mídia](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -59,19 +59,19 @@ Consulte [Criar e gerenciar grupos do Portal de Mídia](creating-media-portal-gr
 
 ## &#x200B;3. Adicionar usuários
 
-Ao adicionar um usuário, você atribui uma função a ele (usuário, colaborador ou usuário-colaborador). Você também pode atribuir o usuário a um ou mais grupos. Para acelerar o processo de adição de usuários, você pode fazer upload de uma lista de usuários no formato de um arquivo CSV. Os novos usuários recebem uma mensagem de e-mail de boas-vindas e instruções para fazer logon no Media Portal.
+Ao adicionar um usuário, você atribui uma função a ele (usuário, colaborador ou usuário-colaborador). Você também pode atribuir o usuário a um ou mais grupos. Para simplificar o processo de adicionar usuários, você pode fazer upload de uma lista de usuários no formato de um arquivo CSV. Os novos usuários recebem uma mensagem de email de boas-vindas e instruções para fazer logon no Media Portal.
 
 Consulte [Adicionar e gerenciar usuários do Portal de Mídia](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## &#x200B;4. Gerenciar contas FTP
 
-Você pode ter contas FTP separadas, associadas ao Portal de mídia. Eles podem ser mapeados para uma pasta específica na sua conta da Adobe Dynamic Media Classic. Esse tipo de funcionalidade significa que você pode permitir que os usuários façam upload de ativos digitais em sua conta usando contas FTP separadas.
+Você pode ter contas FTP separadas, associadas ao Portal de mídia. Eles podem ser mapeados para uma pasta específica na sua conta da Adobe Dynamic Media Classic. Essa funcionalidade permite que os usuários façam upload de ativos digitais na sua conta usando contas FTP separadas.
 
 Consulte [Gerenciar contas FTP](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
->Somente administradores do Media Portal podem administrar essas contas FTP. Além disso, somente os usuários com a função de Colaborador do Media Portal - Usuário ou Colaborador do Media Portal podem fazer upload de arquivos.
+>Somente administradores do Media Portal podem administrar essas contas FTP. Além disso, somente os usuários com a função de Usuário-colaborador do Media Portal ou Colaborador do Media Portal podem fazer upload de arquivos.
 
 Consulte [Funções de usuário do Portal de mídia](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -83,13 +83,13 @@ Consulte [Especificar opções de exportação disponíveis para usuários do Po
 
 ## &#x200B;6. Criar predefinições de imagem
 
-Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada. É possível criar Predefinições de imagem para controlar como as imagens são reformatadas quando os usuários as exportam.
+Uma predefinição de imagem é uma coleção de configurações predefinidas. Essas configurações podem alterar o tamanho, a qualidade da imagem, o formato, a resolução e outros aspectos da aparência de uma imagem quando ela é exportada. Para controlar como as imagens são reformatadas quando os usuários as exportam, é possível criar Predefinições de imagem.
 
 Consulte [Criar e habilitar Predefinições de Imagem](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## &#x200B;7. Criar predefinições de metadados e campos de metadados definidos pelo usuário
 
-Os metadados descrevem e identificam um arquivo. É usado para pesquisar e organizar ativos. É possível criar predefinições de metadados para garantir que os metadados sejam inseridos corretamente e que todos os campos de metadados que exigem dados sejam preenchidos. Uma predefinição de metadados é um conjunto predefinido de entradas de metadados. Também é possível criar campos de metadados que descrevam exclusivamente os arquivos com os quais você trabalha.
+Os metadados descrevem e identificam um arquivo. É usado para pesquisar e organizar ativos. Para garantir a inserção correta dos metadados e o preenchimento dos campos obrigatórios, é possível criar predefinições de metadados. Uma predefinição de metadados é um conjunto predefinido de entradas de metadados. Também é possível criar campos de metadados que descrevam exclusivamente os arquivos com os quais você trabalha.
 
 Consulte [Uso mais eficiente dos metadados](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
