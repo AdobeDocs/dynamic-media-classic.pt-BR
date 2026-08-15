@@ -18,26 +18,26 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 1c15d2395e62ce41a298d25b973920963eef3a7a
 workflow-type: tm+mt
-source-wordcount: 828
-ht-degree: 0%
+source-wordcount: 792
+ht-degree: 1%
 
 ---
 
 # Início rápido: conjuntos de rotação{#quick-start-spin-sets}
 
-Um Conjunto de rotação simula o ato do mundo real de virar um objeto para examiná-lo. Os Conjuntos de rotação permitem a visualização de itens de qualquer ângulo, obtendo os principais detalhes visuais de qualquer ângulo. Um Conjunto de rotação simula uma experiência de visualização de 360 graus. O Adobe Dynamic Media Classic oferece Conjuntos de rotação unidimensionais nos quais os visualizadores podem girar um item e Conjuntos de rotação bidimensionais nos quais os visualizadores podem girar e virar o item. Além disso, os usuários podem aplicar o zoom de forma &quot;livre&quot; e deslocar qualquer uma das visualizações com apenas alguns cliques do mouse. Dessa forma, os usuários podem examinar um item mais detalhadamente de um ponto de vista específico.
+Um Conjunto de rotação fornece uma visualização de 360 graus de um objeto. Os Conjuntos de rotação permitem a visualização de itens de qualquer ângulo, obtendo detalhes visuais de qualquer perspectiva. Um Conjunto de rotação simula uma experiência de visualização de 360 graus. O Adobe Dynamic Media Classic oferece Conjuntos de rotação unidimensionais nos quais os visualizadores podem girar um item e Conjuntos de rotação bidimensionais nos quais os visualizadores podem girar e virar o item. Além disso, os usuários podem ampliar e deslocar qualquer uma das exibições. Os usuários podem examinar um item mais detalhadamente de um ponto de vista específico.
 
 ![Imagens para um Conjunto de Rotação](/help/using/assets/spin_set.png)
 
-Os conjuntos de rotação também aceitam mapas de imagem. Um Mapa de imagem é uma região em uma imagem no conjunto giratório que exibe um painel de sobreposição com texto. Quando o usuário seleciona um Mapa de imagem, uma ação de algum tipo é acionada. Por exemplo, uma página da Web é iniciada para que o usuário possa saber mais sobre um produto. Para apontar um Mapa de imagem em um Conjunto de rotação, um contorno é exibido ao redor do próprio Mapa de imagem quando o usuário move o ponteiro do mouse sobre ele.
+Os conjuntos de rotação também aceitam mapas de imagem. Um Mapa de imagem é uma região em uma imagem no conjunto giratório que exibe um painel de sobreposição com texto. Quando o usuário seleciona um Mapa de imagem, uma ação é acionada. Por exemplo, uma página da Web é iniciada para que o usuário possa saber mais sobre um produto. Para indicar um Mapa de imagem em um Conjunto de rotação, um contorno é exibido ao redor do próprio Mapa de imagem quando o usuário move o ponteiro sobre ele.
 
 Consulte [Criar Mapas de Imagens](creating-image-maps.md).
 
 Veja o vídeo de treinamento [Conjuntos de imagem e rotação: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
-Ao criar um Conjunto de rotação, a Adobe recomenda a seguinte prática recomendada e impõe os seguintes limites:
+Ao criar um Conjunto de rotação, a Adobe recomenda as seguintes diretrizes e impõe os seguintes limites:
 
 | Tipo de limite do grupo de rotação | Prática recomendada | Limite imposto |
 | --- | --- | --- |
@@ -45,11 +45,11 @@ Ao criar um Conjunto de rotação, a Adobe recomenda a seguinte prática recomen
 
 Consulte também [limitações do Dynamic Media](/help/using/limitations.md).
 
-Esse Início rápido foi projetado para colocar suas operações em funcionamento rapidamente com técnicas de Conjunto de rotação no Adobe Dynamic Media Classic. Siga as etapas de 1 a 7. Ao final de cada etapa, é possível selecionar um link de tópico para saber mais.
+Este guia foi projetado para ajudar você a começar a usar técnicas de Conjunto de rotação no Adobe Dynamic Media Classic rapidamente. Siga as etapas de 1 a 7. Ao final de cada etapa, é possível selecionar um link de tópico para saber mais.
 
 ## &#x200B;1. Criar e carregar as imagens
 
-No mínimo, você precisa de 8 a 12 imagens de um item para um Conjunto de rotação unidimensional e 16 a 24 para um Conjunto de rotação bidimensional. As fotos devem ser tiradas em intervalos regulares para dar a impressão de que o item está girando e sendo virado. Por exemplo, se um Conjunto de rotação unidimensional incluir 12 disparos, gire o item 30° (360/12) para cada disparo.
+No mínimo, você precisa de 8 a 12 imagens de um item para um Conjunto de rotação unidimensional e 16 a 24 para um Conjunto de rotação bidimensional. As fotos devem ser tiradas em intervalos regulares para mostrar o item girando e sendo virado. Por exemplo, se um Conjunto de rotação unidimensional incluir 12 disparos, gire o item 30° (360/12) para cada disparo.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar imagens giratórias do seu computador ou rede para o Adobe Dynamic Media Classic.
 
@@ -71,28 +71,28 @@ Consulte [Editar um conjunto de rotação](creating-spin-set.md#editing-a-spin-s
 
 Os administradores podem criar Predefinições do visualizador de conjunto de rotação. Essas predefinições determinam a aparência do Visualizador de conjunto de rotação. Para configurar uma nova Predefinição do visualizador de conjunto de rotação, na barra de Navegação global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
-Na página Predefinições do Visualizador, selecione **[!UICONTROL Add]**, selecione **[!UICONTROL Spin Set Viewer]** na lista suspensa e **[!UICONTROL Add]**. Escolha opções na página `Configure Viewer` e selecione **[!UICONTROL Save]**.
+Na página Predefinições do Visualizador, clique em **[!UICONTROL Add]**, selecione **[!UICONTROL Spin Set Viewer]** na lista suspensa e selecione **[!UICONTROL Add]**. Escolha as opções na página `Configure Viewer` e clique em **[!UICONTROL Save]**.
 
 Consulte [Configurar predefinições do visualizador de conjunto de rotação](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
 ## &#x200B;5. Visualizar um conjunto de rotação
 
-Selecione o Conjunto de rotação no painel Procurar e selecione **[!UICONTROL Preview]**. Na página Visualização, mantenha pressionado o botão do mouse e arraste o ponteiro para a esquerda ou direita para &quot;girar&quot; visualmente o item.
+Selecione o Conjunto de rotação no painel Procurar e clique em **[!UICONTROL Preview]**. Na página Visualizar, mantenha pressionado o botão e arraste o ponteiro para a esquerda ou direita para girar o item visualmente.
 
 Consulte [Visualizar um conjunto de rotação](previewing-spin-set.md#previewing-a-spin-set).
 
 ## &#x200B;6. Publicar um grupo de rotação
 
-A publicação de um Conjunto de rotação o coloca em servidores Adobe Dynamic Media Classic para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. Ela também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem do Dynamic Media para o seu site ou aplicativo.
+A publicação de um conjunto de rotação o coloca em servidores da Adobe Dynamic Media Classic para que ele possa ser entregue dinamicamente ao seu site ou aplicativo. Ela também ativa a cadeia de caracteres do URL que chama o Conjunto de rotação dos servidores de imagem do Dynamic Media para o seu site ou aplicativo.
 
-Para publicar um Conjunto de rotação, marque-o para publicação selecionando o ícone **[!UICONTROL Mark for Publish]** ao lado de seu nome no painel Procurar. Na barra Navegação global, selecione **[!UICONTROL Publish]** para iniciar uma publicação. Na página Publicação, selecione **[!UICONTROL Submit Publish]**.
+Para publicar um Conjunto de rotação, marque-o para publicação selecionando o ícone **[!UICONTROL Mark for Publish]** ao lado de seu nome no painel Procurar. Na barra Navegação global, clique em **[!UICONTROL Publish]** para iniciar a publicação. Na página Publicação, clique em **[!UICONTROL Submit Publish]**.
 
 Consulte [Publicar um conjunto de rotação](publishing-spin-set.md#publishing-a-spin-set).
 
-## &#x200B;7. Vincular um conjunto de rotação a uma página da Web
+## &#x200B;7. Vincular um grupo de rotação a uma página da Web
 
 O Adobe Dynamic Media Classic cria cadeias de caracteres de texto explicativo de URL para conjuntos de rotação e os ativa após a publicação. Você pode copiar esses URLs da página Pré-visualização.
 
-Selecione o Conjunto de rotação e selecione **[!UICONTROL Preview]**. Selecione uma predefinição do visualizador de conjunto de rotação. Em seguida, selecione o **[!UICONTROL Copy URL]**.
+Selecione o Conjunto de rotação e clique em **[!UICONTROL Preview]**. Selecione uma predefinição do visualizador de conjunto de rotação. Depois clique em **[!UICONTROL Copy URL]**.
 
 Consulte [Vinculando um Conjunto de Rotação a uma página da Web](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
