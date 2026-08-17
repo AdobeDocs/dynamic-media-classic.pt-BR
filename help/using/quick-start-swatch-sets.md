@@ -12,38 +12,35 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:43.672Z'
 TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 387
 ht-degree: 1%
 
 ---
 
 # Início rápido: conjuntos de amostras{#quick-start-swatch-sets}
 
-Os Conjuntos de amostras do Adobe Dynamic Media Classic oferecem aos usuários uma experiência de exibição integrada. No Visualizador dinâmico de conjunto de amostras, os usuários podem ver um item renderizado em uma cor, material, textura, acabamento ou malha diferente simplesmente selecionando uma miniatura.
+Os Conjuntos de amostras do Adobe Dynamic Media Classic fornecem aos usuários uma experiência de exibição integrada. Usando o Visualizador dinâmico de conjunto de amostras, os usuários podem ver um item renderizado em uma cor, material, textura, acabamento ou malha diferente, selecionando uma miniatura.
 
-O Início rápido dos conjuntos de amostras foi projetado para você começar a usar rapidamente as técnicas do Conjunto de amostras no Adobe Dynamic Media Classic.
+O Início rápido dos conjuntos de amostras foi projetado para ajudar você a começar a usar técnicas de conjunto de amostras no Adobe Dynamic Media Classic.
 
 ## &#x200B;1. Fazer upload das imagens e dos arquivos de amostra
 
 Comece fazendo upload das imagens e dos arquivos de amostra para os Conjuntos de amostras.
 
-Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Adobe Dynamic Media Classic. Consulte [Preparar ativos do Conjunto de Amostras para carregamento](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Carregar seus arquivos](uploading-files.md#uploading-your-files).
+Na barra Navegação global, selecione **[!UICONTROL Upload]** para carregar arquivos do seu computador para uma pasta no Adobe Dynamic Media Classic. Consulte [Preparar o Assets do Conjunto de Amostras para carregar](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) e [Carregar seus arquivos](uploading-files.md#uploading-your-files).
 
 ## &#x200B;2. Criar um conjunto de amostras
 
 Para criar um Conjunto de Amostras, na barra de Navegação Global, vá para **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Na página Conjunto de amostras, arraste imagens e amostras de cores para a página. Consulte [Criar um conjunto de amostras](creating-swatch-set.md#creating-a-swatch-set).
 
-## &#x200B;3. Configurar predefinições do visualizador do conjunto de amostras
+## &#x200B;3. Configurar predefinições do visualizador de conjunto de amostras
 
-Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Use as predefinições Visualizador de zoom: Personalizado > Conjuntos de imagens/Amostras de cores para exibir os Conjuntos de amostras.
+Os administradores podem criar ou modificar as Predefinições do visualizador de conjunto de imagens. O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão para cada tipo de mídia avançada. Use o Visualizador de zoom: Personalizado > Conjuntos de imagens/Predefinições de amostras de cores para exibir os Conjuntos de amostras.
 
 Consulte [Criar e editar Predefinições do Visualizador](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -63,6 +60,6 @@ Consulte [Publicar arquivos](publishing-files.md#publishing-files).
 
 ## &#x200B;6. Vincular um conjunto de amostras a uma página da Web
 
-O Adobe Dynamic Media Classic cria chamadas de URL para conjuntos de amostras e as ativa após a publicação. Você pode copiar esses URLs da página Pré-visualização.
+O Adobe Dynamic Media Classic cria chamadas de URL para Conjuntos de amostras e as ativa após a publicação. Você pode copiar esses URLs da página Pré-visualização.
 
 Selecione o Conjunto de amostras e clique no botão Visualizar. A página Visualizar é aberta. Selecione uma Predefinição do visualizador Conjunto de amostras e clique no botão Copiar URL. Consulte [Conjuntos de amostras de link para páginas da Web](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
