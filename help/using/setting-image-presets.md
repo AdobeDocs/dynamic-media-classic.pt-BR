@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e692b0e39f641db097413710611d19dc30ad42b7
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 1%
@@ -32,24 +32,24 @@ ht-degree: 1%
 
 Como uma macro, uma Predefinição de imagem é uma coleção predefinida de comandos de dimensionamento e formatação salvos com um nome. Para entender como as Predefinições de imagem funcionam, suponha que seu site exija que cada imagem de produto seja exibida em dois tamanhos diferentes: 500 × 500 pixels e 150 × 150 pixels. Você cria duas Predefinições de imagem, uma chamada &quot;Ampliar&quot; para exibir imagens a 500x500 pixels e outra chamada &quot;Miniatura&quot; para exibir imagens a 150 × 150 pixels. Para fornecer imagens no tamanho &quot;Ampliar&quot; e &quot;Miniatura&quot;, um Servidor de imagens do Dynamic Media pesquisa a definição de &quot;Ampliar predefinição de imagem&quot; e &quot;Predefinição de imagem em miniatura&quot;. Em seguida, o servidor gera dinamicamente uma imagem com as especificações de tamanho e formatação de cada Predefinição de imagem.
 
-O Adobe Dynamic Media Classic vem com várias Predefinições de imagem de &quot;prática recomendada&quot; que já estão configuradas para você usar. Os administradores também podem criar Predefinições de imagem. Para criar uma Predefinição de imagem, comece do zero ou a partir de uma predefinição existente e salve com um novo nome.
+O Adobe Dynamic Media Classic vem com várias Predefinições de imagem de &quot;prática recomendada&quot; que já estão configuradas para você usar. Os administradores também podem criar Predefinições de imagem. Para criar uma predefinição de imagem, crie uma nova ou comece com uma existente e salve-a com um novo nome.
 
 Imagens com tamanho reduzido quando são entregues dinamicamente de um servidor podem perder nitidez e detalhes. Por esse motivo, cada Predefinição de imagem contém controles de formatação para otimizar uma imagem quando ela é entregue em um tamanho específico. Esses controles garantem que suas imagens sejam nítidas e claras quando forem entregues ao seu site ou aplicativo.
 
 ## Criar uma predefinição de imagem {#creating-an-image-preset}
 
-Você poderá criar suas próprias Predefinições de imagem se for um Administrador da empresa. É possível criar Predefinições de imagem ou começar com uma Predefinição de imagem padrão fornecida pelo Adobe Dynamic Media Classic, editá-la e salvá-la com um novo nome.
+Você poderá criar suas próprias Predefinições de imagem se for um Administrador da empresa. É possível criar Predefinições de imagem ou usar uma Predefinição de imagem padrão fornecida pelo Adobe Dynamic Media Classic, editá-la e salvá-la com um novo nome.
 
 **Para criar uma Predefinição de Imagem:**
 
 1. Vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-   É possível navegar até o nome de uma Predefinição de imagem nessa tela para visualizar uma Predefinição de imagem existente. Quando você seleciona um nome de Predefinição de imagem, a imagem de amostra na janela Visualização muda de tamanho e aparência.
+   Para visualizar uma predefinição de imagem existente, você pode navegar até o nome de uma predefinição de imagem nessa tela. Quando você seleciona um nome de Predefinição de imagem, a imagem de amostra na janela Visualização muda de tamanho e aparência.
 
 1. Siga um destes procedimentos:
 
    * **Criar uma Predefinição de Imagem**: Selecione **[!UICONTROL Add]**.
-   * **Editar uma Predefinição de Imagem**: Navegue até a Predefinição de Imagem mais parecida com a que você deseja criar e selecione **[!UICONTROL Edit]**.
+   * **Editar uma Predefinição de Imagem**: procure a Predefinição de Imagem mais semelhante àquela que você deseja criar e selecione **[!UICONTROL Edit]**.
 
 1. Insira um nome para a Predefinição de imagem.
 1. Insira as medidas de Largura e Altura em pixels. Essas medidas determinam o tamanho em que as imagens são entregues.
