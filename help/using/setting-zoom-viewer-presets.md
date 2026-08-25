@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:12:28.286Z'
 TQID: 'https://experienceleague.adobe.com/dVCfolvS11dmHRlOF2OruJwM1TMM68lEtKy76l4LkC8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 96e28bfa7ee65d01d22591dc4a020507fe1d9a9d
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: 619
 ht-degree: 0%
 
 ---
 
 # Configurar predefinições do visualizador de zoom{#setting-up-zoom-viewer-presets}
 
-As predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Adobe Dynamic Media Classic oferece muitas opções para personalizar e atribuir capa aos visualizadores. O Adobe Dynamic Media Classic vem com predefinições básicas (rápidas), de saída e personalizadas do visualizador de zoom. Se você for um administrador, poderá criar Predefinições do visualizador de zoom de empresa ou editar uma predefinição padrão e salvá-la com um novo nome.
+As predefinições do visualizador de zoom determinam o estilo, o comportamento e a aparência dos visualizadores de zoom. O Adobe Dynamic Media Classic oferece muitas opções para personalizar e configurar Visualizadores. O Adobe Dynamic Media Classic vem com predefinições básicas (rápidas), de saída e personalizadas do visualizador de zoom. Se você for um administrador, poderá criar Predefinições organizacionais do Zoom Viewer ou editar uma predefinição padrão e salvá-la com um novo nome.
 
 Todos os Visualizadores de zoom têm botões para ampliar, reduzir, deslocar e redefinir a imagem para seu estado original após o zoom. A aparência desses botões e a forma como a janela é exibida dependem da escolha de Predefinições do visualizador de zoom. É possível configurar uma Predefinição do visualizador de zoom com diferentes cores, bordas, fontes e configurações de imagem. Ao configurar um Visualizador de zoom guiado, você também pode escolher onde colocar os Destinos de zoom. Os destinos de zoom são as miniaturas em que os usuários clicam para aplicar zoom nas áreas especificadas.
 
@@ -37,19 +34,19 @@ O Adobe Dynamic Media Classic oferece estas Predefinições do visualizador de z
 
 * **Visualizador de Zoom: Básico**: fornece um zoom básico na imagem original.
 
-* **Visualizador de zoom: Sair**: exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles para usar, os usuários simplesmente movem a seleção sobre a área que desejam visualizar.
+* **Visualizador de zoom: Sair**: exibe uma segunda imagem da área com zoom ao lado da imagem original. Não há controles; os usuários movem a seleção pela área que desejam visualizar.
 
-Ao determinar o uso completo da largura de banda para esse visualizador, considere que tanto a imagem principal quanto a imagem suspensa são fornecidas no visualizador. O tamanho da imagem suspensa é determinado usando o tamanho da imagem principal (Largura e Altura do Palco) e o Fator de Zoom. Para evitar que o tamanho do arquivo de imagem suspensa fique muito grande, equilibre esses dois valores: se você tiver um tamanho grande de imagem principal, diminua o valor do Fator de zoom. (A Largura da imagem suspensa e a Altura da imagem suspensa determinam o tamanho da janela da imagem suspensa, mas não o tamanho da imagem suspensa que é exibida no visualizador.)
+Ao determinar o uso total da largura de banda para esse visualizador, considere que tanto a imagem principal quanto a imagem suspensa são fornecidas no visualizador. O tamanho da imagem suspensa é determinado usando o tamanho da imagem principal (Largura e Altura do Palco) e o Fator de Zoom. Para evitar que o tamanho do arquivo de imagem suspensa fique muito grande, equilibre esses dois valores: se você tiver um tamanho grande de imagem principal, diminua o valor do Fator de zoom. (A Largura da imagem suspensa e a Altura da imagem suspensa determinam o tamanho da janela da imagem suspensa, mas não o tamanho da imagem suspensa que é exibida no visualizador.)
 
-Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem suspensa resultante será 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem suspensa será de 1200 por 1200 pixels. Dependendo da configuração de qualidade do JPEG (as configurações recomendadas estão entre 80 e 90), você pode diminuir o tamanho do arquivo significativamente. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
+Por exemplo, se o tamanho da imagem principal for 350 por 350 pixels, com um Fator de Zoom de 3, a imagem suspensa resultante será 1050 por 1050 pixels. Se o tamanho da imagem principal for 300 por 300 pixels, com um Fator de Zoom de 4, a imagem suspensa será de 1200 por 1200 pixels. Dependendo da configuração de qualidade do JPEG (as configurações recomendadas são de 80 a 90), é possível diminuir o tamanho do arquivo. Os fatores de zoom recomendados são de 2,5 a 4, dependendo do tamanho da imagem principal.
 
 O Adobe Dynamic Media Classic recomenda os seguintes parâmetros para as Predefinições do visualizador de zoom de saída:
 
-* **Tamanho de imagem ampliado**: aproximadamente 1500 por 1500 pixels; não deve exceder 2000 por 2000 pixels.
+* **Tamanho de imagem ampliado**: 1500 por 1500 pixels; não deve exceder 2000 por 2000 pixels.
 
 * **Tamanho da imagem**: 100 KB ou menos, a não exceder 150 KB (compacte o arquivo para mantê-lo abaixo de 150 KB).
 
-* **Visualizador de Zoom: Personalizado**: Fornece zoom guiado ou não guiado com imagens, Conjuntos de Imagens com vários modos de exibição ou Conjuntos de Amostra de Cor.
+* **Visualizador de Zoom: Personalizado**: fornece zoom guiado ou não guiado para imagens, Conjuntos de Imagens com vários modos de exibição ou Conjuntos de Amostra de Cor.
 
 ## Criar e editar as predefinições do visualizador de zoom {#creating-and-editing-zoom-viewer-presets}
 
