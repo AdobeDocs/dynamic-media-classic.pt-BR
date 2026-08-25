@@ -1,5 +1,5 @@
 ---
-title: Especifique as opções de exportação disponíveis para os usuários do Portal de mídia
+title: Especificar opções de exportação disponíveis para usuários do Media Portal
 description: Saiba como especificar opções de exportação que estão disponíveis para usuários do Portal de mídia no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -11,25 +11,21 @@ topic: Collaboration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:13:39.327Z'
 TQID: 'https://experienceleague.adobe.com/gw9YPj-PDme06RNMU-X9suAD2O7etGAqB62V-GPIJdI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: d5c5ccb9773848290f7f5f129f2c15d9e6386a21
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: 370
 ht-degree: 0%
 
 ---
 
 # Especifique as opções de exportação disponíveis para os usuários do Portal de mídia {#specifying-export-options-available-to-media-portal-users}
 
-Se o administrador conceder permissão, os usuários do Portal de mídia poderão reformatar as imagens à medida que forem exportadas. Por exemplo, eles podem alterar o tamanho, o formato do arquivo e a qualidade da imagem. A reformatação automática de imagens à medida que são exportadas economiza tempo, pois não é necessário reformatar as imagens separadamente. Além disso, os administradores podem criar uma predefinição, uma seleção preestabelecida de configurações de formato de imagem. É possível usar uma predefinição ao exportar imagens para reformatá-las de acordo com as especificações da sua empresa.
+Se o administrador conceder permissão, os usuários do Portal de mídia poderão reformatar as imagens à medida que forem exportadas. Por exemplo, eles podem alterar o tamanho, o formato do arquivo e a qualidade da imagem. A reformatação automática de imagens à medida que são exportadas melhora a eficiência, eliminando a necessidade de reformatar imagens separadamente. Além disso, os administradores podem criar uma predefinição, uma seleção preestabelecida de configurações de formato de imagem. É possível usar uma predefinição ao exportar imagens para reformatá-las de acordo com as especificações da sua empresa.
 
-As duas restrições a seguir se aplicam se você exportar ativos de imagem por meio de uma conversão definida pelo usuário ou se exportar imagens primárias originais:
+As duas restrições a seguir se aplicam se você exportar ativos de imagem usando uma conversão definida pelo usuário ou se exportar imagens principais originais:
 
 * O arquivo de exportação compactado Zip tem um tamanho máximo de arquivo de 1 GB para o trabalho de exportação.
 * Você pode ter um máximo de 500 ativos totais por trabalho de exportação.
@@ -41,7 +37,7 @@ Consulte também [Exportar ativos do Adobe Dynamic Media Classic](exporting-asse
 1. Na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 1. Na janela Predefinições de imagem, selecione qualquer uma das seguintes opções:
 
-   * **Habilitar Conversão Definida pelo Usuário**: Quando selecionada, esta opção permite que os usuários escolham outras opções na lista suspensa **[!UICONTROL Size]** da janela Exportar Assets Selecionada. Os usuários podem então escolher uma unidade de medida, como pixels ou centímetros, e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
+   * **Habilitar Conversão Definida pelo Usuário**: Quando selecionada, esta opção permite que os usuários escolham &#39;outro&#39; na lista suspensa **[!UICONTROL Size]** na janela Exportar Assets Selecionada. Em seguida, os usuários podem escolher uma unidade de medida e especificar a largura e a altura desejadas. Quando eles exportam ou baixam esses arquivos, os arquivos de imagem são reformatados.
 
      Quando **[!UICONTROL pixels]** são escolhidos na lista suspensa **[!UICONTROL Size]**, a largura × altura da imagem resultante não pode exceder 100 milhões de pixels. Esse tamanho equivale a 10.000 × 10.000 pixels para uma imagem quadrada, ou aproximadamente 8.000 × 12.000 pixels para uma imagem com proporção 2x3. Essa limitação de tamanho não se aplica se você exportar imagens primárias originais.
 
