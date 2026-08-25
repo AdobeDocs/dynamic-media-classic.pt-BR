@@ -1,5 +1,5 @@
 ---
-title: Fazer logon ou logoff do Adobe Dynamic Media Classic
+title: Fazer logon e sair do Adobe Dynamic Media Classic
 description: Saiba mais sobre como fazer logon ou sair do Adobe Dynamic Media Classic. Saiba também como se conectar a um servidor de produção na América do Norte (NA) ou na Europa, Oriente Médio, África (EMEA) ou Ásia-Pacífico (APAC).
 contentOwner: Rick Brough
 content-type: reference
@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 69ab9545c953152b98c0981abaef0d33f6b5683e
 workflow-type: tm+mt
 source-wordcount: 227
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Verifique se você tem o seguinte antes de usar o aplicativo de desktop do Adobe Dynamic Media Classic:
 
-* **Nome de usuário**: você usa seu endereço de email como seu nome de logon.
+* **Nome de usuário**: você usa seu endereço de email como seu nome de usuário.
 
 * **Senha**: você obtém sua senha temporária em um email de boas-vindas da Adobe Dynamic Media Classic ou do administrador do Adobe Dynamic Media Classic. Na primeira vez que fizer logon, você será solicitado a alterar essa senha temporária.
 

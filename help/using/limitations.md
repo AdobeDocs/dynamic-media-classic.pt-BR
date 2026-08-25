@@ -1,5 +1,5 @@
 ---
-title: Limitações do Dynamic Media
+title: Restrições do Dynamic Media
 description: Saiba mais sobre as práticas recomendadas e os limites impostos ao criar um Conjunto de imagens ou um Conjunto de rotação ou fazer upload de uma PDF. Saiba mais sobre combinações incompatíveis de navegador da Web e sistema operacional para Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: c4599d7dfba3811fba73f7e9366f9427f0f20d78
+source-git-commit: b589fcbd330e4c703d64f0143c87e5674c772924
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 1%
 
 ---
 
-# Limitações do Dynamic Media
+# Restrições do Dynamic Media
 
 As seções a seguir descrevem as limitações do Dynamic Media.
 
