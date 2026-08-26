@@ -268,14 +268,14 @@ Os clientes são os principais responsáveis pelo gerenciamento de alterações,
 ## Suporte e treinamento
 
 +++**Como obter suporte?**
-O suporte ao Atendimento ao cliente 24 horas por dia, 7 dias por semana, 365 dias por ano está disponível. [Contate o suporte técnico](https://experienceleague.adobe.com/?support-solution=General#support).
+O suporte ao Atendimento ao cliente 24 horas por dia, 7 dias por semana, 365 dias por ano está disponível. [Contate o suporte técnico](https://experienceleague.adobe.com/pt-br?support-solution=General#support).
 
 Telefone: 1-800-898-9743 (EUA) | +44 (0)20 35641782 (RU) | +81-3-6743-9632 (Japão)
 
 +++
 
 +++**Onde posso obter mais informações sobre as opções de treinamento pago?**
-Consulte [Serviços de Aprendizado Digital da Adobe](https://experienceleague.adobe.com/en/premium/home).
+Consulte [Serviços de Aprendizado Digital da Adobe](https://experienceleague.adobe.com/pt-br/premium/home).
 
 Para treinamento personalizado ou individual, entre em contato com o representante da Equipe de conta da Adobe.
 
