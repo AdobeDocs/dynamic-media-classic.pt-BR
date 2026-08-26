@@ -35,7 +35,7 @@ A Dynamic Media Classic oferece treinamento na forma de vídeo-treinamento, work
 
 Os Serviços de treinamento da Adobe oferecem treinamento em sala de aula personalizado e detalhado, projetado para sua organização. O treinamento pode tomar a forma de aulas regionais em estilo universitário, sessões baseadas na web ou workshops personalizados no local. As aulas regionais são abertas a todos os clientes e realizadas periodicamente em vários locais na América do Norte e Europa, Oriente Médio e África. As sessões personalizadas podem ser personalizadas para usuários iniciantes e avançados, usuários finais, administradores e equipe de TI.
 
-Consulte os [Serviços de treinamento da Adobe](https://experienceleague.adobe.com/en/premium/home)
+Consulte os [Serviços de treinamento da Adobe](https://experienceleague.adobe.com/pt-br/premium/home)
 
 ## Demonstrações
 
