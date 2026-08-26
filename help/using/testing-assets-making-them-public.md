@@ -1,5 +1,5 @@
 ---
-title: Testar ativos antes de torná-los públicos
+title: Testar o Assets antes de torná-los públicos
 description: Saiba como testar ativos no Adobe Dynamic Media Classic antes de torná-los públicos.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:14:28.361Z'
 TQID: 'https://experienceleague.adobe.com/cu99kXj4FjNzR74kGCoACFPst0snM2EGyYifu7a8Drs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 83f1e1305a59b4f75d9be9e4c4b3d0038160749a
 workflow-type: tm+mt
-source-wordcount: 1050
+source-wordcount: 1030
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ Se desejar, crie um ambiente de preparo em vez de disponibilizar os ativos publi
 
 * Visualizar sites antes do lançamento público (site de preparo).
 * Atenda a ativos que exigem acesso restrito, como eCatalogs que mostram preços em um aplicativo Web B2B.
-* Use ativos protegidos por um firewall como parte de um sistema de gerenciamento de informações de produtos, aplicativo de atendimento ao cliente, local de treinamento etc.
+* Use ativos por trás de um firewall como parte de um sistema de gerenciamento de informações do produto, aplicativo de atendimento ao cliente, local de treinamento ou sistemas semelhantes.
 
 >[!NOTE]
 >
@@ -45,19 +41,19 @@ Se desejar, crie um ambiente de preparo em vez de disponibilizar os ativos publi
 
 ## Como funciona o teste seguro {#how-secure-testing-works}
 
-A maioria das corporações usa a Internet com um firewall. O acesso à Internet é possível por meio de determinadas rotas e, normalmente, por meio de um intervalo limitado de endereços IP públicos.
+A maioria das empresas hospeda seus serviços de Internet em uma rede privada. O acesso à Internet é possível por meio de determinadas rotas e, normalmente, por meio de um intervalo limitado de endereços IP públicos.
 
-Na rede corporativa, você pode descobrir seu endereço IP público usando sites como o [https://www.whatismyip.com](https://www.whatismyip.com/) ou solicitar essas informações à organização de TI corporativa.
+Na rede corporativa, você pode determinar seu endereço IP público usando sites como o [https://www.whatismyip.com](https://www.whatismyip.com/) ou solicitar essas informações à organização de TI corporativa.
 
-Com o teste seguro, a Adobe Dynamic Media Classic estabelece um servidor de imagens dedicado para ambientes de preparo ou aplicativos internos. Qualquer solicitação a esse servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa do Adobe Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de teste seguro da empresa.
+Com testes seguros, a Adobe Dynamic Media Classic estabelece um servidor de imagens dedicado para ambientes de preparo ou aplicativos internos. Qualquer solicitação a esse servidor verifica o endereço IP de origem. Se a solicitação recebida não estiver na lista aprovada de endereços IP, uma resposta de falha será retornada. O Administrador da empresa do Adobe Dynamic Media Classic configura a lista aprovada de endereços IP para o ambiente de teste seguro da empresa.
 
-Como a localização da solicitação original deve ser confirmada, o tráfego do serviço de Teste seguro não é roteado por uma rede de distribuição de conteúdo, como o tráfego público do servidor de imagens do Dynamic Media. As solicitações para o serviço de Teste seguro têm uma latência um pouco maior em comparação aos servidores públicos de imagem do Dynamic Media.
+Como o local da solicitação original deve ser confirmado, o tráfego do serviço de Teste seguro não é roteado por uma rede de distribuição de conteúdo, como o tráfego público do Servidor de imagens do Dynamic Media. As solicitações para o serviço de Teste seguro têm uma latência um pouco maior em comparação aos servidores públicos de imagem do Dynamic Media.
 
 Os ativos não publicados estão imediatamente disponíveis nos serviços de teste seguro, sem a necessidade de publicar. Dessa forma, é possível executar uma pré-visualização antes que os ativos sejam publicados no Servidor de imagens voltado para o público.
 
 >[!NOTE]
 >
->Os serviços de teste seguro usam o Servidor de catálogo configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste seguro, todos os ativos carregados no Adobe Dynamic Media Classic estarão imediatamente disponíveis nos serviços de Teste seguro. Essa funcionalidade é verdadeira independentemente de os ativos estarem marcados para publicação durante o upload.
+>Os serviços de teste seguro usam o Servidor de catálogo configurado com um contexto de publicação interno. Portanto, se sua empresa estiver configurada para publicar no Teste seguro, todos os ativos carregados no Adobe Dynamic Media Classic estarão imediatamente disponíveis nos serviços de Teste seguro. Essa funcionalidade se aplica independentemente de os ativos estarem marcados para publicação durante o upload.
 
 Atualmente, os serviços de teste seguro são compatíveis com os seguintes tipos de ativos e funcionalidades:
 
@@ -74,7 +70,7 @@ Last Modified Date:
 * Imagens.
 * Vinhetas (solicitações do Servidor de Renderização).
 * Renderizar solicitações do servidor (compatível, mas o cliente deve solicitá-las explicitamente).
-* Conjuntos, incluindo conjuntos de imagens, eCatalog, conjuntos de renderização e conjuntos de mídia.
+* Conjuntos, incluindo imagem, eCatalog, renderização e conjuntos de mídia.
 * Visualizadores padrão de mídia avançada Adobe Dynamic Media Classic.
 * Páginas JSP do Adobe Dynamic Media Classic OnDemand.
 * Conteúdo estático, como arquivos PDF e vídeos progressivamente disponibilizados.
@@ -154,12 +150,12 @@ Execute os seguintes testes:
 
 1. Verifique se os ativos estão visíveis na rede corporativa.
 
-   Dentro da rede corporativa identificada pelo intervalo de endereços IP definido anteriormente, a versão de preparo do site exibe todas as imagens, marcadas para publicação ou não. Dessa forma, você pode testar sem disponibilizar acidentalmente as imagens antes da aprovação de visualização ou do lançamento do produto.
+   Dentro da rede corporativa identificada pelo intervalo de endereços IP definido anteriormente, a versão de preparo do site exibe todas as imagens, marcadas para publicação ou não. Portanto, você pode testar sem acidentalmente disponibilizar as imagens antes da aprovação de visualização ou do lançamento do produto.
 
-   Confirme se a versão pública do site mostra os ativos publicados conforme anteriormente visto no Adobe Dynamic Media Classic.
+   Confirme se a versão pública do site mostra os ativos publicados conforme observado anteriormente com o Adobe Dynamic Media Classic.
 
 1. De fora da rede corporativa, verifique se os ativos não publicados (ou seja, desmarcados para publicação) estão protegidos do acesso de terceiros.
 
-   Acesse sua rede de fora (como a partir de seu computador doméstico ou por uma conexão 3G) e verifique se a versão pública do site mostra todos os ativos publicados, mas nenhum do conteúdo não publicado.
+   Acesse a rede de fora e verifique se a versão pública do site mostra todos os ativos publicados, mas nenhum conteúdo não publicado.
 
    Confirme se a versão de preparo não mostra nenhum ativo porque você está acessando o serviço de Teste seguro de um endereço IP não aprovado.
