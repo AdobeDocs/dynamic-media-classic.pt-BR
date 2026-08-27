@@ -1,5 +1,5 @@
 ---
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -30,7 +30,7 @@ O método de escolha depende do quanto você se sente confortável em editar a d
 
 >[!NOTE]
 >
->As contribuições enviadas estão cobertas pelos [termos de uso do Adobe.](https://www.adobe.com/legal/terms.html)
+>As contribuições enviadas estão cobertas pelos [termos de uso do Adobe](https://www.adobe.com/legal/terms.html).
 
 ### Criar um problema {#create-an-issue}
 
@@ -42,7 +42,7 @@ Com os problemas, você pode descrever facilmente sua ideia para aprimorar os do
 
 Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com os pull requests, é possível fazer edições na documentação, e um membro da equipe de documentação a revisa para inclusão. Para fazer as alterações sugeridas e criar o pull request, selecione **[!UICONTROL Edit this page]** na parte superior direita do painel de navegação em qualquer página.
 
-Um contrato de licença de colaborador [&#x200B; assinado ou CLA](https://opensource.adobe.com/cla.html) deve acompanhar todas as solicitações de pull. Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você só pode enviar um Adobe CLA uma vez. Se tiver enviado um anteriormente, você está configurado.
+Um contrato de licença de colaborador [ assinado ou CLA](https://opensource.adobe.com/cla.html) deve acompanhar todas as solicitações de pull. Esse fluxo de trabalho fornece à Adobe permissão para redistribuir suas contribuições como parte do projeto. Você só pode enviar um Adobe CLA uma vez. Se tiver enviado um anteriormente, você está configurado.
 
 ### Introdução rápida ao vídeo
 

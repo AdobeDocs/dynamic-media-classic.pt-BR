@@ -1,5 +1,5 @@
 ---
-title: Fazer upload de um ativo de imagem rasterizada
+title: Carregar um ativo de imagem rasterizada
 description: Saiba como fazer upload de um ativo de imagem rasterizada no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -11,17 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1039
+source-wordcount: 1040
 ht-degree: 0%
 
 ---
@@ -32,7 +28,7 @@ Antes de carregar um ativo de imagem, primeiro solicite uma chave de segredo com
 
 >[!IMPORTANT]
 >
->A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso por até 60 dias a partir da data do upload. Após 60 dias, os ativos serão removidos.
+>A partir de 1 de maio de 2023, os ativos UGC no Dynamic Media estarão disponíveis para uso por até 60 dias a partir da data do upload. Após 60 dias, os ativos são removidos.
 
 >[!NOTE]
 >
@@ -40,13 +36,13 @@ Antes de carregar um ativo de imagem, primeiro solicite uma chave de segredo com
 
 ## Solicitar uma chave de segredo compartilhado {#requesting-a-shared-secret-key}
 
-Solicite uma *chave de segredo compartilhado* por [usando o Admin Console para criar um caso de suporte.](https://helpx.adobe.com/br/enterprise/using/support-for-experience-cloud.html) No caso de suporte técnico, solicite uma chave de segredo compartilhado.
+Solicite uma *chave de segredo compartilhado* por [usando a Admin Console para criar um caso de suporte](https://helpx.adobe.com/business/enterprise.html). No caso de suporte técnico, solicite uma chave de segredo compartilhado.
 
 Na mensagem de email, forneça o nome da empresa que você deseja usar para fazer upload de ativos de imagem. Depois de receber a chave do Adobe Dynamic Media Classic, salve-a localmente para uso futuro.
 
 ## Recuperar o token de upload {#retrieving-the-upload-token}
 
-O *token de carregamento* garante que ninguém possa usar a mesma chave de segredo compartilhado para carregar ativos. Ele garante que o upload seja legítimo e venha de uma fonte confiável.
+O *token de carregamento* garante que a mesma chave de segredo compartilhado não possa ser usada para carregar ativos. Ele garante que o upload seja legítimo e venha de uma fonte confiável.
 
 O token de upload é uma sequência alfanumérica que está disponível somente por um período específico. Use os URLs a seguir, substituindo sua chave de segredo compartilhado, para que você possa recuperar o token de upload.
 
@@ -148,7 +144,7 @@ O formulário do HTML a seguir permite que um usuário faça upload de um ativo.
 * Um limite de tamanho de arquivo.
 * Uma lista de extensões de nome de arquivo.
 * Se o perfil de cores e o nome do arquivo associados ao ativo devem ser preservados.
-* Usar um plano de fundo de separação. Se você ativar Plano de fundo de separação, defina o Canto, a Tolerância e o Método de preenchimento.
+* Usar um plano de fundo de separação. Se você ativar Plano de fundo de separação, configure o Canto, a Tolerância e o Método de preenchimento.
 Consulte Plano de Fundo de Separação em [Opções de ajuste de imagem no carregamento](image-editing-options-upload.md#image-editing-options-at-upload).
 * O nome do arquivo a ser carregado.
 
@@ -156,7 +152,7 @@ Você pode exibir o código-fonte do HTML associado ao formulário acima selecio
 
 No Firefox, clique com o botão direito na janela do navegador e selecione **[!UICONTROL View Page Source]**. O código mostra a cadeia de caracteres de consulta de URL correspondente e o método POST executado quando o usuário seleciona **[!UICONTROL Submit]**.
 
-Para exibir a resposta XML no Internet Explorer, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, vá para **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
+Para exibir a resposta XML em um navegador, vá para **[!UICONTROL View]** > **[!UICONTROL Source]**. Para exibir a resposta XML no Firefox, vá para **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. O Firefox é recomendado para exibir respostas XML.
 
 Este é um exemplo de resposta de um upload bem-sucedido:
 
@@ -184,13 +180,13 @@ Este é um exemplo de resposta de um upload bem-sucedido:
 >
 >O ativo carregado (JPG, GIF e assim por diante) é convertido para o formato PTIFF e a resposta envia um link direto para esse ativo PTIFF.
 
-O ativo é como qualquer outro recurso ImageServing; você pode aplicar consultas de processamento a ele. Por exemplo, o URL a seguir solicita um ativo que é ampliado até a largura e a altura especificadas.
+O ativo é um recurso ImageServing; você pode aplicar consultas de processamento a ele. Por exemplo, o URL a seguir solicita um ativo que é ampliado até a largura e a altura especificadas.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-Envie o ativo para fazer upload como uma publicação multipart/form enquanto envia o restante dos valores como uma cadeia de caracteres de consulta de URL. Você pode usar os seguintes campos na sequência de consulta do URL para fazer upload de um ativo:
+Para fazer upload do ativo, envie-o como uma publicação multipart/form enquanto envia o restante dos valores como uma sequência de caracteres de consulta de URL. Você pode usar os seguintes campos na sequência de consulta do URL para fazer upload de um ativo:
 
 | Parâmetro de URL | Obrigatório ou Opcional | Valor |
 | --- | --- | --- |

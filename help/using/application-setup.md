@@ -12,19 +12,13 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:37.961Z'
 TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b179d4d28fe4859010783fcf725c3e8c6704416e
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 10740
+source-wordcount: 10763
 ht-degree: 1%
 
 ---
@@ -173,7 +167,7 @@ Os administradores podem criar predefinições para exportar ativos. Os usuário
 
 Para abrir a tela Predefinição de imagem, na barra Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Consulte [Imagem inteligente](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Consulte [Imagem inteligente](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Criar e editar predefinições de imagem {#creating-and-editing-image-presets}
 
@@ -448,7 +442,7 @@ Combinando o seguinte em um único player:
 
 Estenda o alcance do seu conteúdo de mídia avançada para desktops, tablets e usuários de dispositivos móveis e garanta uma experiência de vídeo otimizada.
 
-Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
+Consulte [Sobre HTML5 Viewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) no Guia de Referência do Adobe Viewers.
 
 Consulte a [Matriz de compatibilidade da Predefinição do Visualizador do Adobe Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -462,7 +456,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Páginas da Web diferentes têm necessidades diferentes. Às vezes, você deseja uma página da Web que forneça um link que abra o Visualizador do HTML5 em uma janela separada do navegador. Em outros casos, é necessário incorporar o Visualizador do HTML5 diretamente na página de hospedagem. No último caso, a página da Web tem um layout estático. Ou é &quot;responsivo&quot; e é exibido de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela de navegador. Para acomodar essas necessidades, os Visualizadores do HTML5 fornecidos com o Adobe Dynamic Media Classic são compatíveis com páginas da Web estáticas e páginas da Web com design responsivo.
 
-Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Para obter mais informações sobre como incorporar visualizadores responsivos nas suas páginas da Web, consulte [Sobre a biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Usar biblioteca de imagens responsiva](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) e [Referência de comando: Atributos de comando](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Tipos de predefinição do visualizador {#viewer-preset-types}
 
@@ -506,7 +500,7 @@ Consulte também [Exemplos de biblioteca de referência de visualizadores do Ado
 
 Para obter informações sobre o navegador da Web e as versões do sistema operacional compatíveis para Visualizadores, consulte as Notas de versão dos Visualizadores.
 
-Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/pt-br/docs/dynamic-media-developer-resources).
+Consulte as [Notas de versão de Referência dos Visualizadores do Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -552,7 +546,7 @@ O Adobe Dynamic Media Classic oferece suporte à reprodução de vídeo móvel p
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet | Smartphone BlackBerry® | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video(Inclui suporte para legendas ocultas.) Consulte [Prática recomendada: usar o visualizador de Vídeo do Universal HTML5.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(Inclui suporte para legendas ocultas.) Consulte [Prática recomendada: usar o visualizador de vídeo Universal HTML5].(best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(Inclui suporte para legendas ocultas e mídia social.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | Tecnologia de visualizador | Desktop | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet |

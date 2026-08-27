@@ -12,13 +12,10 @@ level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 autotag-review: '2026-05-13T20:09:57.533Z'
 TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 856
 ht-degree: 0%
@@ -33,7 +30,7 @@ Dimensionamento de imagem refere-se à capacidade do Adobe Dynamic Media Classic
 * Você pode alterar rapidamente o tamanho de uma imagem em todo o site ou aplicativo. Por exemplo, para alterar todas as imagens em miniatura, é possível modificar a Predefinição de imagem da &quot;miniatura&quot;. Uma predefinição de imagem é uma coleção de atributos de tamanho e formatação. Para alterar o tamanho de todas as imagens em miniatura em todo o site ou aplicativo, você pode modificar a predefinição de imagem em &quot;miniatura&quot;.
 * Não é necessário gerenciar os arquivos principais ou todos os vários derivados em nenhum de seus sistemas de gerenciamento de conteúdo ou ativos.
 
-![Você pode criar várias imagens derivadas em tamanhos diferentes do mesmo arquivo primário de alta resolução.](/help/using/assets/is_derivative_sizes_popup.png)
+![Você pode criar várias imagens derivadas em tamanhos diferentes do mesmo arquivo primário de alta resolução](/help/using/assets/is_derivative_sizes_popup.png).
 
 Consulte [Dimensionamento de imagem: vídeo de treinamento do Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS).
 
