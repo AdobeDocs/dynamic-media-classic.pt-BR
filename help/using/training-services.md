@@ -20,9 +20,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 40a2891b75d900454c59bc24556b22c50185013f
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: 177
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A Dynamic Media Classic oferece treinamento na forma de vídeo-treinamento, work
 
 Os Serviços de treinamento da Adobe oferecem treinamento em sala de aula personalizado e detalhado, projetado para sua organização. O treinamento pode tomar a forma de aulas regionais em estilo universitário, sessões baseadas na web ou workshops personalizados no local. As aulas regionais são abertas a todos os clientes e realizadas periodicamente em vários locais na América do Norte e Europa, Oriente Médio e África. As sessões personalizadas podem ser personalizadas para usuários iniciantes e avançados, usuários finais, administradores e equipe de TI.
 
-Consulte os [Serviços de treinamento da Adobe](https://learning.adobe.com/)
+Consulte os [Serviços de treinamento da Adobe](https://experienceleague.adobe.com/pt-br/premium/home)
 
 ## Demonstrações
 
@@ -45,6 +45,6 @@ Consulte [Demonstrações](https://landing.adobe.com/en/na/dynamic-media/ctir-27
 
 ## Introdução ao capítulo da Ajuda
 
-A seção Introdução do sistema de Ajuda apresenta instruções para usuários novos no Adobe Dynamic Media Classic. Ele explica as noções básicas do programa, navegação, configuração, gerenciamento de ativos e criação de mídia avançada.
+A seção Introdução do sistema de Ajuda apresenta instruções para usuários novos no Adobe Dynamic Media Classic. Ele explica os fundamentos do programa, navegação, configuração, gerenciamento de ativos e criação de mídia avançada.
 
 Consulte [Introdução](dmc-platform-overview.md).

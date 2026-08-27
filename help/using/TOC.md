@@ -6,9 +6,9 @@ user-guide-title: Guia do Adobe Dynamic Media Classic
 breadcrumb-title: Guia do Dynamic Media Classic
 user-guide-description: Saiba mais sobre como usar o Adobe Dynamic Media Classic.
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 + [Guia do Adobe Dynamic Media Classic](home.md)
 + [Tutorial de práticas recomendadas do Adobe Dynamic Media Classic](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NOVO logon do Adobe Dynamic Media Classic já disponível](new-ui-2020.md)
-+ [Arquivo de informativos do Adobe Dynamic Media, da Experience League](dynamic-media-newsletter.md)
++ [Arquivo de informativos do Adobe Dynamic Media, da Adobe Experience League](dynamic-media-newsletter.md)
 + Apresentação do Adobe Dynamic Media Classic {#intro}
   + [Aplicativo Adobe Dynamic Media Classic Desktop: agora disponível](dynamic-media-classic-desktop-app.md)
   + [Sobre a Ajuda da Adobe Dynamic Media Classic](introduction.md)
@@ -58,10 +58,10 @@ ht-degree: 0%
   + [Gerenciar contas FTP](ftp-accounts.md)
   + [Especifique as opções de exportação disponíveis para os usuários do Portal de mídia](specifying-export-options-available-media.md)
   + [Criar e ativar predefinições de imagem](creating-enabling-image-presets.md)
-  + [Gerenciar metadados com eficiência](making-efficient-metadata.md)
+  + [Gerenciar metadados](making-efficient-metadata.md)
   + [Personalizar a tela do Portal de mídia](customizing-media-portal-screen.md)
 + Fazer upload e publicar ativos {#upload-publish}
-  + [Fazer upload e publicar de ativos](about-asset-upload-publish.md)
+  + [Fazer upload e publicar ativos](about-asset-upload-publish.md)
   + [Fazer upload de arquivos](uploading-files.md)
   + [Publicar arquivos](publishing-files.md)
   + [Limitações do Dynamic Media](limitations.md)
@@ -108,7 +108,7 @@ ht-degree: 0%
   + [Vincular um eCatalog a uma página da Web](linking-ecatalog-web-page.md)
 + Conjuntos de imagem {#image-sets}
   + [Início rápido: conjuntos de imagens](quick-start-image-sets.md)
-  + [Preparar ativos do conjunto de imagens para upload](preparing-image-set-assets-upload.md)
+  + [Preparar o Assets do conjunto de imagens para upload](preparing-image-set-assets-upload.md)
   + [Criar um conjunto de imagens](creating-image-set.md)
   + [Incluir destinos de zoom e mapas de imagem em conjuntos de imagens](including-zoom-targets-image-maps-image-sets.md)
   + [Gerenciar conteúdo do Painel de informações em Conjuntos de imagens](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 0%
 + Conjuntos de amostras {#swatch-sets}
   + [Início rápido: conjuntos de amostras](quick-start-swatch-sets.md)
   + [Incluir destinos de zoom e mapas de imagem em conjuntos de amostras](including-zoom-targets-image-maps-swatch-sets.md)
-  + [Preparar ativos do conjunto de amostras para upload](preparing-swatch-set-assets-upload.md)
+  + [Preparar o Assets do conjunto de amostras para upload](preparing-swatch-set-assets-upload.md)
   + [Criar um conjunto de amostras](creating-swatch-set.md)
   + [Exibir conjuntos de amostras](viewing-swatch-sets.md)
   + [Vincular um conjunto de amostras a uma página da Web](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 0%
   + [Obter informações de uso do disco](getting-disk-usage-information.md)
   + [Fazer upload de um ativo de imagem rasterizada](uploading-image-asset-or-vector.md)
 + Arquivos primários {#master-files}
-  + [Práticas recomendadas para otimização da qualidade de imagens](best-practices-optimizing-quality-images.md)
+  + [Diretrizes para otimização da qualidade de imagens](best-practices-optimizing-quality-images.md)
   + [Editar imagens](editing-images.md)
   + [Criar mapas de imagem](creating-image-maps.md)
   + [Cortar uma imagem](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 0%
   + [Opções de edição de ajuste de imagem no upload](image-editing-options-upload.md)
   + [Trabalhar com PDFs](pdfs.md)
   + [Trabalhar com arquivos do PSD](psd-files.md)
-  + [Trabalhar com arquivos PostScript e Illustrator](postscript-illustrator-files.md)
+  + [Trabalhar com arquivos PostScript e Adobe Illustrator](postscript-illustrator-files.md)
   + [Trabalhar com vinhetas, revestimentos de janelas e arquivos de gabinete](vignette-window-covering-cabinet-files.md)
 + Arquivos de suporte {#support-files}
   + [Fontes](fonts.md)

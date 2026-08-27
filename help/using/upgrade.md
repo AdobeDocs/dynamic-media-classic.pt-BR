@@ -21,20 +21,20 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 574
 ht-degree: 0%
 
 ---
 
 # Por que atualizar para [!DNL Dynamic Media]?
 
-O Adobe criou [!DNL Dynamic Media] pensando em você.
+A Adobe criou o [!DNL Dynamic Media] para suas necessidades.
 
 O novo [!DNL Dynamic Media] no [!DNL Adobe Experience Manager] se baseia na funcionalidade que você espera do [!DNL Dynamic Media Classic] (antigo Scene7). Ele oferece à sua organização ferramentas novas e aprimoradas para criar experiências melhores e mais envolventes.
 
-O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando construtores visuais em tempo real. Sentado no topo da rede de entrega testada, confiável e escalável da Adobe e combinado com a interface de usuário intuitiva [!DNL Adobe Experience Manager], o [!DNL Dynamic Media] fornece os recursos para criar, iterar e fornecer experiências envolventes de próximo nível.
+O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando construtores visuais em tempo real. Usando a rede de entrega escalável do Adobe e combinada com a interface de usuário intuitiva [!DNL Adobe Experience Manager], o [!DNL Dynamic Media] fornece os recursos para criar, iterar e fornecer experiências envolventes e avançadas.
 
 | O que você ganha com [!DNL Dynamic Media] | Descrição |
 | --- | --- |
@@ -50,11 +50,11 @@ O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando 
 
 ## Principais benefícios e recursos do [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] é a evolução natural de [!DNL Dynamic Media Classic]. Ele oferece conjuntos de ferramentas de criação, publicação e entrega de mídia avançada. Ele também inclui a melhor entrega do setor, com uma interface inovadora e centrada no usuário, que promove fluxos de trabalho reais modernos.
+[!DNL Dynamic Media] é o sucessor de [!DNL Dynamic Media Classic]. Ele oferece conjuntos de ferramentas de criação, publicação e entrega de mídia avançada. Ele também inclui entrega de alta qualidade com uma interface inovadora e centrada no usuário, promovendo fluxos de trabalho modernos.
 
 * Experiência e integração perfeitas e unificadas com o [!DNL Adobe Experience Manager]: configure e forneça dinamicamente conteúdo avançado de uma loja, uma fonte
-* Nova experiência de usuário centrada no profissional de marketing para facilitar a criação e o fornecimento de conteúdo de mídia avançada
-* WYSIWYG (What You See Is What You Get) quando se trata da aparência geral e dos editores de comportamento para visualizadores de imagem e players de vídeo.
+* Nova experiência de usuário centrada em marketing para fácil criação e entrega de conteúdo de mídia avançada
+* Edição visual para a aparência geral e os editores de comportamento para visualizadores de imagem e players de vídeo.
 * Acelere a criação e a implantação de experiências de mídia interativa/que pode ser comprada, incluindo pontos de acesso de imagem e vídeo que pode ser comprado
 
 ### Recursos do [!DNL Dynamic Media] dentro do [!DNL Experience Manager] Assets
@@ -65,10 +65,10 @@ O [!DNL Dynamic Media] atualiza a experiência de criação de conteúdo usando 
 | Elementos de interface de usuário de experiências interativas fáceis | · Crie experiências facilmente com construtores em tempo real que não são técnicos.<br>· Mídia que pode ser comprada/interativa, combine ativos da campanha com informações do produto.<br>· Aumente a satisfação do cliente e promova a conversão. |
 | Fluxo De Trabalho Inclusivo De Ponta A Ponta | · Forneça mídia avançada otimizada para todos os pontos de contato, incluindo as soluções [!DNL Adobe Experience Cloud] completas.<br>· Integração com o [!DNL Adobe Experience Cloud] para análise avançada de ativos, direcionamento e reutilização de ativos em pontos de contato de marketing. Alguns desses pontos de contato incluem [!DNL Adobe Campaign] para email, [!DNL Adobe Social] para canais sociais e [!DNL Adobe Experience Manager] Sites para aplicativos responsivos para dispositivos móveis e da Web. |
 
-## Por que Adobe?
+## Por que escolher o Adobe?
 
-* O maior impulsionador positivo no relatório da Forrester WAVE sobre ativos digitais.
+* O fornecedor com a classificação mais alta no relatório de ativos digitais Forrester WAVE.
 * Forte desempenho no relatório 2016 da plataforma de vídeo online.
 * Melhor fornecedor de mídia avançada para Internet Retail 1000, nove anos consecutivos.
-* Suporte 24 horas por dia, 7 dias por semana, 265 dias por ano; SLAs de 99,95%; Adobe Professional Services.
-* Infraestrutura comprovada que atende a mais de 800 clientes em todo o mundo, 3,5 petabytes de tráfego por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.
+* Suporte 24 horas por dia, 7 dias por semana, 365 dias por ano; SLAs de 99,95%; Adobe Professional Services.
+* Infraestrutura comprovada atendendo a mais de 800 clientes em todo o mundo, 3,5 petabytes de tráfego por mês e mais de 500 milhões de ativos em gerenciamento, crescimento de 60% no tráfego ano a ano.

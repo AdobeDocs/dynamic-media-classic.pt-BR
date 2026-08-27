@@ -22,9 +22,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 331
+source-wordcount: 329
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Depois de criar as variáveis necessárias no Adobe Analytics, vinculá-las aos 
 
 **Para testar a integração exibindo um relatório do Adobe Analytics:**
 
-1. Inicie um visualizador do Adobe Dynamic Media Classic na sua conta, especialmente um que transmita a métrica que deseja obter, e interaja com ele para criar alguns dados do evento.
+1. Inicie um visualizador do Adobe Dynamic Media Classic na sua conta, um que transmita a métrica que deseja obter, e interaja com ele para criar alguns dados do evento.
 
-   Por exemplo, se você deseja medir visualizações alternativas populares em um Conjunto de imagens, visualize um Conjunto de imagens e clique nas diferentes imagens de miniaturas.
+   Por exemplo, se você deseja medir visualizações alternativas populares em um Conjunto de imagens, visualize um Conjunto de imagens e clique nas diferentes imagens em miniatura.
 
 1. No Adobe Analytics, vá para **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > [Nome da prop], selecionando o nome da prop de tráfego nas opções de menu.
 
    Por exemplo, para acessar a prop **[!UICONTROL LoadAsset]** na conta de exemplo, a escolha de menu adequada é **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Se você tiver mais de dez props personalizadas, também verá outras opções de menu.
 
-1. Visualize o gráfico produzido pela Adobe Analytics. Normalmente, esse gráfico é apenas os dados de uma única métrica. Se você também quiser saber a qual ativo esses dados estão associados, obtenha os dados de ativo desse evento. Por exemplo, geralmente é útil saber qual vídeo é assistido apenas 50% ou qual imagem em um conjunto é popular.
+1. Visualize o gráfico produzido pela Adobe Analytics. Este gráfico são os dados de uma única métrica. Se você também quiser saber a qual ativo esses dados estão associados, obtenha os dados de ativo desse evento. Por exemplo, geralmente é útil saber qual vídeo é assistido apenas 50% ou qual imagem em um conjunto é visualizada com frequência.
 
 >[!NOTE]
 >

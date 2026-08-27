@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 545
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ A exclusão de itens da pasta Lixeira exclui permanentemente itens da Adobe Dyna
 
 A exclusão de um item em uma pasta coloca o item na pasta Lixeira. O seguinte acontece quando você exclui um item e o move para a pasta Lixeira:
 
-* Embora o item seja removido da pasta do Adobe Dynamic Media Classic, a respectiva ID não pode ser atribuída a outro ativo enquanto ele permanecer na pasta Lixeira. Se você tentar fazer upload de um ativo com o mesmo nome de um arquivo na pasta Lixeira, o Adobe Dynamic Media Classic anexa um numeral ao nome do ativo.
+* Embora o item seja removido da pasta do Adobe Dynamic Media Classic, a respectiva ID não pode ser atribuída a outro ativo enquanto ele permanecer na pasta Lixeira. Se você tentar fazer upload de um ativo com o mesmo nome de um arquivo na pasta Lixeira, o Adobe Dynamic Media Classic anexa um número ao nome do ativo.
 * Não é possível publicar o item. Mesmo que o item tenha sido marcado para publicação quando você o excluiu, ele não será publicado.
-* O item permanece na pasta Lixeira até ser restaurado, passar sete dias ou alguém escolher o comando **[!UICONTROL Empty the Trash]**. Após sete dias, uma operação de limpeza automática exclui permanentemente o item.
+* O item permanece na pasta Lixeira até ser restaurado, passar sete dias ou alguém escolher o comando **[!UICONTROL Empty the Trash]**. Após sete dias, uma operação de exclusão automática exclui permanentemente o item.
 
 ## Restaurar ativos da pasta Lixeira {#restoring-assets-from-the-trash-folder}
 
@@ -62,7 +62,7 @@ Ao excluir ativos na pasta Lixeira, os ativos são excluídos permanentemente. A
 
 Você pode excluir permanentemente os ativos da pasta Lixeira ao selecionar o ícone **[!UICONTROL Trash]**. Na página da pasta Lixeira, siga um destes procedimentos:
 
-* **Excluindo ativos individuais**: você pode excluir ativos permanentemente. Selecione os ativos desejados e clique em **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
+* **Excluindo ativos individuais**: você pode excluir ativos permanentemente. Selecione os ativos desejados e clique em **[!UICONTROL File]** > **[!UICONTROL Empty from Trash]**.
 
 * **Excluindo todos os ativos**: Vá para **[!UICONTROL File]** > **[!UICONTROL Empty trash]**.
 

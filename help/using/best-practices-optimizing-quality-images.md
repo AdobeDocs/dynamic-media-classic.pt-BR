@@ -1,5 +1,5 @@
 ---
-title: Práticas recomendadas para otimização da qualidade de imagens
+title: Diretrizes para otimizar a qualidade das imagens
 description: Conheça as práticas recomendadas para otimizar a qualidade das suas imagens.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 0%
 
 ---
 
-# Práticas recomendadas para otimização da qualidade de imagens{#best-practices-for-optimizing-the-quality-of-your-images}
+# Diretrizes para otimização da qualidade de imagens{#best-practices-for-optimizing-the-quality-of-your-images}
 
 A otimização da qualidade da imagem pode ser demorada. Muitos fatores contribuem para a obtenção de resultados aceitáveis. O resultado é parcialmente subjetivo porque os indivíduos percebem a qualidade da imagem de forma diferente. A experimentação estruturada é essencial.
 
