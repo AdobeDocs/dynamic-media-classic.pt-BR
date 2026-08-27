@@ -38,7 +38,7 @@ Antes de fazer upload dos ativos para o Adobe Dynamic Media Classic, verifique s
 
 ### Formatos de arquivo de ativo compatíveis {#supported-asset-file-formats}
 
-Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw com suporte, consulte [Câmera com Suporte](https://helpx.adobe.com/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html).
+Essa tabela lista os formatos de arquivo de ativos compatíveis com o Adobe Dynamic Media Classic. Para obter informações sobre arquivos Camera Raw com suporte, consulte [Câmera com Suporte](https://helpx.adobe.com/br/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html).
 
 | Formatos de arquivo do ativo | Descrição |
 | --- | --- |
