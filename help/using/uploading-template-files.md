@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
 workflow-type: tm+mt
-source-wordcount: 237
+source-wordcount: 236
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Faça upload dos arquivos necessários para o modelo no Adobe Dynamic Media Clas
 
 >[!NOTE]
 >
->A Adobe Dynamic Media Classic recomenda usar imagens transparentes do TIFF ou do PSD em seus modelos no tamanho exato que você deseja exibir em seu site. Ao publicar o modelo, chame a imagem com uma Predefinição de imagem que também seja do mesmo tamanho. Prestar atenção ao tamanho garante que o modelo não seja redimensionado (reamostragem) em um tamanho maior ou menor do que o tamanho em que foi projetado.
+>A Adobe Dynamic Media Classic recomenda usar imagens transparentes do TIFF ou do PSD em seus modelos no tamanho exato que você deseja exibir em seu site. Ao publicar o modelo, chame a imagem com uma Predefinição de imagem do mesmo tamanho. Prestar atenção ao tamanho garante que o modelo não seja redimensionado (reamostragem) para um tamanho maior ou menor do que o tamanho para o qual foi projetado.
 
 Os modelos podem ser criados a partir de arquivos PSD do Adobe Photoshop ou de arquivos de imagem.
 
-Para obter instruções detalhadas sobre como carregar arquivos, consulte [Carregar arquivos](uploading-files.md#uploading_files). Lembre-se do seguinte ao fazer upload de arquivos de modelo:
+Para obter instruções detalhadas sobre como carregar arquivos, consulte [Carregar arquivos](uploading-files.md#uploading_files). Considere o seguinte ao fazer upload de arquivos de modelo:
 
 * Se você estiver fazendo upload de um arquivo do PSD, poderá criar um modelo a partir dele. O Adobe Dynamic Media Classic cria uma imagem separada para cada camada no PSD. Na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL Photoshop Options]** e selecione **[!UICONTROL Maintain Layers]** e **[!UICONTROL Create Template]**. Em seguida, escolha uma opção na lista suspensa **[!UICONTROL Layer Naming]** para nomear as imagens que o Adobe Dynamic Media Classic cria a partir de camadas no PSD.
 Consulte [opções de carregamento do PSD](psd-files.md#psd_upload_options).

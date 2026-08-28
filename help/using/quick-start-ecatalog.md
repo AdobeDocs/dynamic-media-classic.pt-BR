@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1531
 ht-degree: 0%
@@ -49,7 +49,7 @@ Dependendo das configurações escolhidas para o seu eCatalog, o visualizador po
 * Use interações de gestos, incluindo pinçar para aplicar zoom e deslizar o dedo para virar as páginas.
 * Procurar itens por palavra-chave.
 
-![O eCatalog como ele aparece para os usuários. A) Página de abertura do eCatalog. B)eCatalog ativado para página 2.](/help/using/assets/ec_cat_viewer_popup.png)
+![O eCatalog como ele aparece para os usuários. A) Página de abertura do eCatalog. B)eCatalog na página 2](/help/using/assets/ec_cat_viewer_popup.png).
 
 Para criar um eCatalog, você geralmente usa arquivos PDF de alta resolução criados no Adobe Acrobat ou outro programa de impressão, mas também pode criar um eCatalog a partir de arquivos de imagem.
 

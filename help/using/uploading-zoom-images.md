@@ -1,5 +1,5 @@
 ---
-title: Carregar imagens Zoom
+title: Carregar imagens com zoom
 description: Saiba como carregar imagens do Zoom no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: d0447025e027db59db134d0c446aa336f43fb11d
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 # Carregar imagens Zoom{#uploading-zoom-images}
 
-As imagens com zoom devem ter uma contagem alta de pixels. Um alto número de pixels é necessário para que os visualizadores possam visualizar claramente os detalhes da imagem ao aplicar zoom nas imagens. Verifique se as imagens usadas têm o tamanho apropriado antes de carregá-las no Adobe Dynamic Media Classic.
+As imagens com zoom devem ter uma contagem alta de pixels. Um número alto de pixels é necessário para que os visualizadores possam visualizar claramente os detalhes da imagem quando aplicarem o zoom. Verifique se as imagens usadas têm o tamanho apropriado antes de carregá-las no Adobe Dynamic Media Classic.
 
 Na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a carregar imagens.
 
@@ -35,13 +35,13 @@ Para obter instruções detalhadas sobre como carregar imagens, consulte [Carreg
 
 **Prepare suas imagens para aplicar zoom:**
 
-Para aproveitar ao máximo os recursos do Adobe Dynamic Media Classic Zoom, prepare seus arquivos de imagem de zoom antes de carregá-los:
+Para usar os recursos do Adobe Dynamic Media Classic Zoom de maneira eficaz, prepare seus arquivos de imagem de zoom antes de carregá-los:
 
-* **Tamanho da imagem**: a Adobe Dynamic Media Classic recomenda usar arquivos de imagem com, no mínimo, 2000 pixels no maior tamanho. Dessa forma, as imagens podem ser vistas claramente quando os usuários as ampliam.
+* **Tamanho da imagem**: a Adobe Dynamic Media Classic recomenda usar arquivos de imagem com, no mínimo, 2000 pixels na dimensão mais longa. Isso garante que as imagens estejam claramente visíveis quando os usuários ampliarem.
 
 * **Formatos de arquivo**: o Adobe Dynamic Media Classic oferece suporte a todos os formatos de arquivo de imagem padrão. Os formatos incluem TIFF, BMP, JPEG, PSD, GIF e EPS. Formatos de imagem sem perda - TIFF e PNG - são recomendados. Se você estiver usando uma imagem do JPEG, use as configurações de mais alta qualidade.
 
-* **Espaço de cores**: o RGB é o espaço de cores para apresentações de imagens da Web; imagens CMYK são convertidas automaticamente em RGB ao carregá-las. É recomendado fazer upload de imagens CMYK que tenham um perfil de cores ICC incorporado para a conversão em RGB. Consulte também Perfis ICC.
+* **Espaço de cores**: o RGB é o espaço de cores para apresentações de imagens da Web; imagens CMYK são convertidas automaticamente em RGB ao carregá-las. É recomendado fazer upload de imagens CMYK que tenham um perfil de cores ICC incorporado para conversão no RGB. Consulte também Perfis ICC.
 
 >[!MORELIKETHIS]
 >

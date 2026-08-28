@@ -18,16 +18,16 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 4035cd307a13d1174f8b66fb1cd1ab39138d1310
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 800
 ht-degree: 0%
 
 ---
 
 # Fazer upload dos arquivos do PDF{#uploading-the-pdf-files}
 
-Normalmente, os arquivos do Adobe PDF são a origem de um eCatalog. Esses arquivos contêm todas as informações de imagem, fontes e gráficos vetoriais. Também é possível criar um eCatalog com imagens. Após preparar os arquivos PDF para carregamento, na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a carregar os PDFs.
+Os arquivos do Adobe PDF são a origem de um eCatalog. Esses arquivos contêm todas as informações de imagem, fontes e gráficos vetoriais. Também é possível criar um eCatalog com imagens. Após preparar os arquivos PDF para carregamento, na barra Navegação global, selecione **[!UICONTROL Upload]** para começar a carregar os PDFs.
 
 Ao fazer upload de uma PDF para extração de página, o Adobe impõe o seguinte limite:
 
@@ -41,11 +41,11 @@ Consulte também [limitações do Dynamic Media](/help/using/limitations.md).
 
 Prepare seus arquivos do PDF antes de carregá-los no Adobe Dynamic Media Classic:
 
-* Para facilitar o upload dos arquivos, coloque todos os arquivos na mesma pasta no computador ou na rede.
-* Nomeie os arquivos em ordem alfanumérica por página. A ordenação das páginas facilitará a colocação das páginas na ordem adequada depois que os arquivos forem carregados.
-* Para ver se as páginas do PDF contêm marcas de corte, destinos de registro ou barras de cores, examine as páginas. Essas marcas determinam onde cortar o papel quando os documentos forem impressos; elas devem ser removidas antes que seu eCatalog seja colocado na Web. O Adobe Dynamic Media Classic fornece opções de marcas de corte ao fazer upload de arquivos PDF.
-* Se você quiser que os visualizadores pesquisem seu eCatalog por palavra-chave, descubra se seus arquivos do PDF estão &quot;nivelados&quot;. Não é possível extrair palavras de pesquisa de arquivos PDF nivelados. Para saber se um PDF está nivelado, tente selecionar o texto dentro dele. Se não for possível selecionar o texto, o PDF será nivelado e os visualizadores não poderão pesquisar por palavra-chave no seu eCatalog.
-* Como devem ser impressos, os arquivos PDF geralmente contêm imagens CMYK. Por padrão, o Adobe Dynamic Media Classic pode detectar de forma inteligente essas imagens CMYK e convertê-las usando um perfil de cores CMYK interno. No entanto, se você quiser usar um perfil de cores personalizado para converter imagens CMYK, faça isso.
+* Para simplificar o upload dos arquivos, coloque todos os arquivos na mesma pasta no computador ou na rede.
+* Nomeie os arquivos em ordem alfanumérica por página. Organizar as páginas simplifica colocá-las na ordem correta após os arquivos serem carregados.
+* Para ver se as páginas do PDF contêm marcas de corte, destinos de registro ou barras de cores, examine as páginas. Essas marcas determinam onde cortar o papel quando os documentos forem impressos; elas devem ser removidas antes que seu eCatalog seja publicado online. O Adobe Dynamic Media Classic fornece opções de marcas de corte ao fazer upload de arquivos PDF.
+* Se quiser que os visualizadores pesquisem seu eCatalog por palavra-chave, determine se seus arquivos do PDF estão &quot;nivelados&quot;. Não é possível extrair palavras de pesquisa de arquivos PDF nivelados. Para determinar se uma PDF está nivelada, tente selecionar o texto dentro dela. Se não for possível selecionar o texto, o PDF será nivelado e os visualizadores não poderão pesquisar por palavra-chave no seu eCatalog.
+* Como são destinados para impressão, os arquivos PDF geralmente contêm imagens CMYK. Por padrão, o Adobe Dynamic Media Classic detecta essas imagens CMYK e as converte usando um perfil de cores CMYK interno. No entanto, se você quiser usar um perfil de cores personalizado para converter imagens CMYK, faça isso.
 
   Consulte [perfis do ICC (International Color Consortium)](icc-profiles.md#icc_profiles).
 
@@ -55,25 +55,25 @@ Para obter informações detalhadas sobre os diferentes métodos de carregamento
 
 Selecione os arquivos que você deseja carregar e selecione estas *práticas recomendadas* Opções do PDF:
 
-* **Opções de Corte**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL Crop Options]**. Se as páginas do PDF contiverem marcas de corte, marcas de registro ou outras marcas, na lista suspensa **[!UICONTROL Crop]**, escolha **[!UICONTROL Manual]**. Insira o número de pixels a serem cortados da parte superior, direita, inferior e esquerda das páginas. As marcas de corte geralmente são definidas como uma margem de meia polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução pixel por polegada. Em seguida, digite 75, 75, 75, 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo. Nesse caso, ele corta meia polegada das margens (a 150 ppi, metade de 1 é igual a 75 pixels).
+* **Opções de Corte**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL Crop Options]**. Se as páginas do PDF contiverem marcas de corte, marcas de registro ou outras marcas, na lista suspensa **[!UICONTROL Crop]**, escolha **[!UICONTROL Manual]**. Insira o número de pixels a serem cortados da parte superior, direita, inferior e esquerda das páginas. As marcas de corte geralmente são definidas como uma margem de 0,5 polegada. Suponha que você escolha **[!UICONTROL 150]** (recomendado) como a resolução pixel por polegada. Em seguida, digite 75, 75, 75, 75 nas caixas de texto Superior, Direito, Inferior e Esquerdo. Isso remove 0,5 polegada das margens (a 150 ppi, 0,5 é igual a 75 pixels).
 
 * **Processando**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. Na lista suspensa **[!UICONTROL Processing]**, escolha **[!UICONTROL Rasterize]**. O arquivo do PDF deve ser rasterizado para que todas as páginas e imagens possam ser exibidas no eCatalog.
 
-* **Extrair Palavras de Pesquisa (opcional)**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Extrair, escolha **[!UICONTROL Search words]** se quiser que seus visualizadores possam pesquisar por palavra-chave em seu eCatalog.
+* **Extrair Palavras de Pesquisa (opcional)**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. Na lista suspensa **[!UICONTROL Extract]**, escolha **[!UICONTROL Search words]** se quiser que seus visualizadores possam pesquisar por palavra-chave em seu eCatalog.
 
-* **Gerar automaticamente o eCatalog a partir do PDF de várias páginas (opcional)**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. Clique em **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** para criar automaticamente um eCatalog ao carregar. Você pode ir diretamente para a tela do eCatalog e começar a trabalhar no eCatalog sem ter que primeiro selecionar os arquivos do PDF e selecionar o comando Criar. O eCatalog é nomeado de acordo com seu arquivo PDF.
+* **Gerar automaticamente o eCatalog a partir do PDF de várias páginas (opcional)**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. Clique em **[!UICONTROL Auto-Generate eCatalog from multiple-page PDF]** para criar automaticamente um eCatalog ao carregar. Você pode navegar diretamente para a tela do eCatalog e começar a trabalhar no eCatalog sem primeiro selecionar os arquivos do PDF e o comando Criar. O eCatalog é nomeado de acordo com seu arquivo PDF.
 
 * **Solução**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. No campo de texto **[!UICONTROL Resolution]**, insira um valor. A Adobe Dynamic Media Classic recomenda 150 pixels por polegada.
 
-* **Colorspace**: Na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cor, escolha **[!UICONTROL Detect automatically]**. Normalmente, os PDFs criados para saída de impressão estão em CMYK; os PDFs para visualização on-line estão em RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDFs usam ambos os espaços de cores, por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam RGB. Se você carregou um perfil ICC, seu nome aparece no menu Espaço de cores e você pode escolhê-lo lá.
+* **Colorspace**: Na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL PDF Options]**. Na lista suspensa Espaço de cor, escolha **[!UICONTROL Detect automatically]**. Normalmente, os PDFs criados para saída de impressão estão em CMYK; os PDFs para visualização on-line estão em RGB. Se um PDF usar ambos os espaços de cores, você poderá selecionar um espaço de cores específico escolhendo Forçar como RGB ou Forçar como CMYK. Os PDFs usam ambos os espaços de cores; por exemplo, quando os gráficos de página usam um espaço de cores CMYK, mas as imagens usam um espaço de cores RGB. Se você carregou um perfil ICC, seu nome aparece no menu Espaço de cores e você pode escolhê-lo lá.
 
   Consulte [perfis do ICC (International Color Consortium)](/help/using/icc-profiles.md).
 
 * **Opções de Perfil de Cores**: na caixa de diálogo Carregar Opções de Trabalho, selecione **[!UICONTROL Color Profile Options]** e escolha uma opção de Perfil de Cores:
 
-   * **Manter Espaço de Cor Original**: retém o espaço de cor original.
+  * **Manter Espaço de Cor Original**: retém o espaço de cor original.
 
-   * **Personalizar de > Para**: abre submenus para que você possa escolher um espaço de cores **[!UICONTROL Convert From]** e **[!UICONTROL Convert To]**. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
+  * **Personalizar de > Para**: abre submenus para que você possa escolher um espaço de cores **[!UICONTROL Convert From]** e **[!UICONTROL Convert To]**. Você pode escolher um espaço de cores padrão do Photoshop ou um espaço de cores carregado no Adobe Dynamic Media Classic.
 
 <!-- * **Convert To SRGB**: Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on Web pages. -->
 

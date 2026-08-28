@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1047
 ht-degree: 0%
@@ -50,7 +50,7 @@ O novo aplicativo de desktop está disponível como um instalador do `.dmg` para
 Para analisar os requisitos do sistema, baixar e instalar o novo aplicativo e entrar nele, consulte o [aplicativo de desktop do Adobe Dynamic Media Classic](/help/using/dynamic-media-classic-desktop-app.md).
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_Como funciona o novo aplicativo de desktop?_**
 Após baixar, instalar e iniciar o aplicativo de desktop, você verá um logon atualizado. Ao inserir seu nome de usuário e senha existentes e selecionar o servidor apropriado com base em sua região, você pode fazer logon no Adobe Dynamic Media Classic. A experiência geral é a mesma da versão do navegador da Web. No aplicativo de desktop, é possível acessar os ambientes de produção e preparo do Adobe Dynamic Media Classic. Você também pode acessar o Portal de mídia se tiver credenciais para esse recurso.
