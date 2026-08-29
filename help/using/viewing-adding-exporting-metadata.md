@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:59.510Z'
 TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 53f5fe67de6ca178464f91efbe1312e8571e6679
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2202
 ht-degree: 0%
 
 ---
@@ -33,9 +29,9 @@ Você pode armazenar informações específicas para os arquivos com os quais vo
 
 Os metadados são exibidos na Exibição de detalhes. Ela é exibida junto com as informações geradas pela Adobe Dynamic Media Classic. Por exemplo, data de criação do arquivo, data de publicação e palavras-chave. Para exibir metadados, abra o ativo na Exibição de detalhes e selecione o painel Metadados. É possível inserir e editar metadados na Exibição de Detalhes.
 
-Alguns metadados são incorporados diretamente a um arquivo. Se um arquivo contiver esses metadados, o Adobe Dynamic Media Classic fará o upload automaticamente com o arquivo. É possível incorporar metadados em ativos de origem no Adobe Photoshop, InDesign, Illustrator e outros aplicativos; a Adobe Dynamic Media Classic reconhece esses metadados. Você também pode adicionar metadados a arquivos individuais no painel Metadados na Exibição de detalhes. Para garantir a consistência entre os ativos, os administradores da empresa criam modelos de metadados que fornecem os campos de metadados que podem ser preenchidos.
+Alguns metadados são incorporados diretamente a um arquivo. Se um arquivo contiver esses metadados, o Adobe Dynamic Media Classic fará o upload automaticamente com o arquivo. É possível incorporar metadados em ativos de origem no Adobe Photoshop, InDesign, Adobe Illustrator e outros aplicativos; a Adobe Dynamic Media Classic reconhece esses metadados. Você também pode adicionar metadados a arquivos individuais usando o painel Metadados na Exibição de detalhes. Para garantir a consistência entre os ativos, os administradores da empresa criam modelos de metadados que fornecem os campos de metadados que podem ser preenchidos.
 
-Para obter mais informações sobre metadados inseridos, consulte [Plataforma de metadados extensível](https://www.adobe.com/br/products/xmp.html).
+Para obter mais informações sobre metadados inseridos, consulte [Plataforma de metadados extensível](https://www.adobe.com/products/xmp.html).
 
 ## Exibir metadados {#view-metadata}
 
@@ -45,7 +41,7 @@ Para exibir os metadados de um ativo, abra o ativo na Exibição de detalhes e t
 
 * **IPTC**: Valores conforme definidos pelo International Press Telecommunications Council.
 
-* **XMP**: valores conforme definidos pelo programa de metadados extensíveis.
+* **XMP**: valores conforme definidos pela Plataforma de Metadados Extensível.
 
 Os administradores podem criar visualizações de metadados. Essas exibições também aparecem no menu Exibições de metadados.
 
@@ -108,8 +104,8 @@ Você pode encontrar mais informações sobre propriedades padronizadas no [Adob
 Lembre-se do seguinte ao identificar diferentes tipos de metadados a serem importados:
 
 * Os nomes dos campos Definidos pelo Usuário são identificados como criados em **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL User-Defined fields]**. Use a funcionalidade `Generate file` para obter uma lista de todos os UDFs definidos no formato de importação correto.
-* As propriedades de Metadados do XMP devem ter o prefixo XMP relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo do XMP pode ser encontrado no editor **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**. Os nomes técnicos podem ser encontrados na documentação do esquema relacionado do XMP. Os nomes de propriedades do XMP não aparecem no recurso `Generate file`.
-* As propriedades do esquema de metadados devem ter o prefixo relacionado antes do nome (property-). Dois pontos separam o prefixo e o nome. O prefixo e os nomes de propriedade são definidos no Editor de esquema de metadados. Os nomes das propriedades do Esquema de Metadados não aparecem no recurso `Generate file`.
+* As propriedades de Metadados do XMP devem ter o prefixo do XMP relacionado antes do nome da (propriedade). Dois pontos separam o prefixo e o nome. O prefixo do XMP pode ser encontrado no editor **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**. Os nomes técnicos podem ser encontrados na documentação do esquema relacionado do XMP. Os nomes de propriedades do XMP não aparecem no recurso `Generate file`.
+* As propriedades do esquema de metadados devem ter o prefixo relacionado antes do nome da (propriedade). Dois pontos separam o prefixo e o nome. O prefixo e os nomes de propriedade são definidos no Editor de esquema de metadados. Os nomes de propriedade do Esquema de Metadados não aparecem no recurso `Generate file`.
 
 Por exemplo: a propriedade XMP para palavras-chave é o esquema XMP &quot;Dublin Core&quot; com o prefixo `dc` e `subject` é o nome técnico do XMP. O prefixo e o nome técnico do XMP são combinados no nome completo da propriedade `dc:subject`. No formato de importação de metadados XML, `dc.subject` deve ser o nome da propriedade. No formato de importação delimitado por tabulação, deve ser o cabeçalho da coluna.
 
@@ -191,9 +187,9 @@ O sistema gera automaticamente um esquema personalizado para campos definidos pe
 
 >[!NOTE]
 >
->As alterações no esquema nunca alteram os próprios metadados do ativo. No entanto, elas não estão visíveis para todas as funcionalidades do Adobe Dynamic Media Classic e do Servidor de metadados e não podem ser acessadas após serem alteradas. Da mesma forma, se existirem metadados para um ativo, a criação do esquema correspondente torna os metadados utilizáveis no Adobe Dynamic Media Classic e no Servidor de metadados.
+>As alterações no esquema nunca alteram os próprios metadados do ativo. No entanto, elas não estão visíveis em todas as funções do Adobe Dynamic Media Classic e do Servidor de metadados e não podem ser recuperadas após serem alteradas. Da mesma forma, se existirem metadados para um ativo, a criação do esquema correspondente torna os metadados utilizáveis no Adobe Dynamic Media Classic e no Servidor de metadados.
 
-O Editor de esquema de metadados oferece uma maneira gráfica de adicionar ou editar um esquema de empresa personalizado dentro do Adobe Dynamic Media Classic. Um prefixo, um namespace e uma lista de propriedades definem um esquema.
+O Editor de esquema de metadados fornece uma interface visual para adicionar ou editar um esquema de empresa personalizado dentro do Adobe Dynamic Media Classic. Um prefixo, um namespace e uma lista de propriedades definem um esquema.
 
 * **[!UICONTROL Name]**: UI-Name do esquema. Usado para identificar as propriedades em Visualizações de metadados e Pesquisa avançada. Semelhante às Seções do XMP, como Básico, IPTC, PDF.
 
