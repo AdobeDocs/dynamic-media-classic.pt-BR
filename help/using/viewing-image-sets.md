@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:18:23.477Z'
 TQID: 'https://experienceleague.adobe.com/l-cl9I9W-otYvwidmsnmq5dLwoUDNIgBcntyoIVNuVI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 1d00f05c8705cdb241dffe9639afab653e566dc9
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: 469
 ht-degree: 0%
 
 ---
@@ -33,7 +30,7 @@ O Adobe Dynamic Media Classic vem com Predefinições do visualizador padrão. O
 
 ## Configuração de predefinições do Visualizador de zoom para Conjuntos de imagens {#setting-up-zoom-viewer-presets-for-image-sets}
 
-Você pode criar e personalizar as Predefinições do visualizador de acordo com suas necessidades.
+É possível criar e personalizar as Predefinições do visualizador.
 
 1. Na barra de Navegação Global, vá para **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Crie ou edite uma predefinição do Visualizador na página Predefinições do visualizador seguindo um destes procedimentos:
