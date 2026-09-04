@@ -1,5 +1,5 @@
 ---
-title: Exibir ativos no painel Procurar
+title: Exibir o Assets no painel Procurar
 description: Saiba como usar o painel Procurar para exibir ativos no Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 877fd7cae7c215fed416479e2ef13db0cafa7d6c
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: 241
 ht-degree: 0%
 
 ---
@@ -32,12 +32,12 @@ ht-degree: 0%
 
 Você pode alterar a exibição de ativos no painel Procurar selecionando um botão Exibir:
 
-* **Exibição em grade**: próximo ao canto superior direito da tela do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL Grid View]** para ver os ativos em miniatura em uma grade. Na Exibição em grade, você pode arrastar o controle deslizante de Miniatura para alterar o tamanho das imagens em miniatura.
+* **Exibição em grade**: no canto superior direito da tela do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL Grid View]** para ver os ativos como miniaturas em uma grade. Para alterar o tamanho das imagens em miniatura na Exibição de grade, arraste o controle deslizante de Miniatura.
 
-* **Exibição de lista**: próximo ao canto superior direito da tela do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL List View]** para ver os ativos em uma lista. A lista informa o nome, o tipo, a data de criação e a data da última modificação de cada ativo. Dependendo do tipo de ativo com o qual você está trabalhando, também é possível obter outras informações. Por exemplo, é possível ver as dimensões e o tamanho do arquivo de uma imagem.
+* **Exibição de lista**: próximo ao canto superior direito da tela do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL List View]** para ver os ativos em uma lista. A lista informa o nome, o tipo, a data de criação e a última data de modificação de cada ativo. Dependendo do tipo de ativo com o qual você está trabalhando, informações adicionais estão disponíveis. Por exemplo, é possível ver as dimensões e o tamanho do arquivo de uma imagem.
 
 * **Exibição detalhada**: selecione um ativo. Próximo ao canto superior direito da tela do Adobe Dynamic Media Classic, selecione o ícone **[!UICONTROL Detail View]** para examinar o ativo na Exibição de detalhes. Você também pode clicar duas vezes em um ativo ou selecioná-lo e ir até **[!UICONTROL File]** > **[!UICONTROL Details]** para vê-lo na Exibição de Detalhes. Se o administrador tiver especificado a preferência Mostrar URL, os URLs serão exibidos para todos os ativos na Exibição de detalhes; no entanto, os URLs só estarão ativos depois que o ativo for publicado.
 
 >[!TIP]
 >
->Você pode selecionar uma visualização padrão para o painel Procurar e fazer com que o painel funcione de acordo com as suas especificações. Consulte [Configuração Pessoal](personal-setup.md#personal_setup).*
+>Você pode selecionar uma visualização padrão para o painel Procurar e personalizar as configurações do painel. Consulte [Configuração Pessoal](personal-setup.md#personal_setup).
