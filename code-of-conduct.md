@@ -1,15 +1,14 @@
 ---
 source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '457'
 ht-degree: 0%
-
 ---
-# Código de conduta do Adobe
+# Código de conduta da Adobe
 
-## Adobe Pledge
+## Compromisso da Adobe
 
-Com o intuito de promover um ambiente aberto e acolhedor, os colaboradores e mantenedores se comprometem a tornar a participação no projeto e na comunidade do Adobe uma experiência livre de assédio para todos. Essa conduta é verdadeira, independentemente do seguinte:
+Com o intuito de promover um ambiente aberto e acolhedor, os colaboradores e mantenedores se comprometem a tornar a participação no projeto e na comunidade da Adobe uma experiência livre de assédio para todos. Essa conduta é verdadeira, independentemente do seguinte:
 
 * idade
 * tamanho do corpo
@@ -23,7 +22,7 @@ Com o intuito de promover um ambiente aberto e acolhedor, os colaboradores e man
 * religião
 * identidade e orientação sexual
 
-## Padrões do Adobe
+## Padrões da Adobe
 
 Exemplos de comportamento que contribuem para criar um ambiente positivo incluem:
 
@@ -41,7 +40,7 @@ Exemplos de comportamento inaceitável por parte dos participantes incluem:
 * Publicação de informações privadas de outras pessoas, como endereços físicos ou eletrônicos, sem permissão explícita
 * Outros comportamentos que podem ser considerados inadequados em um ambiente profissional
 
-## Responsabilidades do Adobe
+## Responsabilidades da Adobe
 
 Os responsáveis pela manutenção dos projetos são responsáveis por esclarecer as normas de comportamento aceitável e devem tomar medidas corretivas adequadas e equitativas em resposta a quaisquer instâncias de comportamento inaceitável.
 
@@ -65,4 +64,4 @@ Os responsáveis pela manutenção dos projetos que não seguirem ou não aplica
 
 ## Atribuição
 
-O presente Código de Conduta é adaptado do [Contrato do colaborador](https://www.contributor-covenant.org/), versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
+Este Código de conduta é adaptado do [Contrato do colaborador](https://www.contributor-covenant.org/), versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
